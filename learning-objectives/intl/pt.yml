@@ -13,22 +13,58 @@ html: HTML
 html/semantics:
   title: Uso de HTML semântico
   links:
-  - title: Semantics in HTML - MDN
-    url: https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML
+    - title: HTML semántico
+      url: topics/html/02-html5/02-semantic-html
+    - title: Semantics in HTML - MDN
+      url: https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML
 
 css: CSS
 
 css/selectors:
   title: Uso de seletores de CSS
+  links:
+    - title: Intro a CSS
+      url: topics/css/01-css/01-intro-css
+    - title: CSS Selectors - MDN
+      url: https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors
+
+css/box-model:
+  title: "Empregar o modelo de caixa (box model): borda, margem, preenchimento"
+  links:
+    - title: Modelo de Caixa e Display
+      url: topics/css/01-css/02-boxmodel-and-display
+    - title: The box model - MDN
+      url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model
+    - title: Introduction to the CSS box model - MDN
+      url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model
+    - title: CSS display - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/CSS/display
+    - title: display - CSS Tricks
+      url: https://css-tricks.com/almanac/properties/d/display/
 
 css/flexbox:
   title: Uso de flexbox en CSS
   links:
-  - title: A Complete Guide to Flexbox - CSS Tricks
-    url: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    - title: A Complete Guide to Flexbox - CSS Tricks
+      url: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    - title: Flexbox Froggy
+      url: https://flexboxfroggy.com/#pt-br
+    - title: Flexbox - MDN
+      url: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
 
-css/box-model:
-  title: "Empregar o modelo de caixa (box model): borda, margem, preenchimento"
+css/grid:
+  title: Uso de CSS Grid Layout
+  links:
+    - title: A Complete Guide to Grid - CSS Tricks
+      url: https://css-tricks.com/snippets/css/complete-guide-grid/
+    - title: Grids - MDN
+      url: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids
+
+css/media-queries:
+  title: Uso de media queries
+  links:
+    - title: CSS media queries - MDN
+      url: https://developer.mozilla.org/es/docs/CSS/Media_queries
 
 browser: Web APIs
 
@@ -36,115 +72,182 @@ browser/dom: DOM (Document Object Model)
 
 browser/dom/selectors:
   title: Uso de seletores de DOM
+  links:
+    - title: Modificando o DOM
+      url: topics/browser/02-dom/03-1-dom-methods-selection
+    - title: Introdução ao DOM - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction
+    - title: Locating DOM elements using selectors - MDN
+      url: https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors
 
 browser/dom/events:
   title: Gerenciamento de eventos de DOM
+  links:
+    - title: Introdução a eventos - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Events
+    - title: EventTarget.addEventListener() - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener
+    - title: EventTarget.removeEventListener() - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/removeEventListener
+    - title: El objeto Event
+      url: https://developer.mozilla.org/pt-BR/docs/Web/API/Event
 
 browser/dom/manipulation:
   title: Manipulação dinâmica de DOM
   links:
-  - title: Introdução ao DOM
-    url: https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o
-  - title: Node.appendChild() - MDN
-    url: https://developer.mozilla.org/pt-BR/docs/Web/API/Node/appendChild
-  - title: Document.createElement() - MDN
-    url: https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createElement
-  # - title: Document.createTextNode()
-  #   url: https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createTextNode
-  - title: Element.innerHTML - MDN
-    url: https://developer.mozilla.org/pt-BR/docs/Web/API/Element/innerHTML
-  - title: Node.textContent - MDN
-    url: https://developer.mozilla.org/pt-BR/docs/Web/API/Node/textContent
+    - title: Introdução ao DOM
+      url: https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o
+    - title: Node.appendChild() - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/API/Node/appendChild
+    - title: Document.createElement() - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createElement
+    - title: Document.createTextNode()
+      url: https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createTextNode
+    - title: Element.innerHTML - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/API/Element/innerHTML
+    - title: Node.textContent - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/API/Node/textContent
 
 browser/routing:
   title: Routing (History API, evento hashchange, window.location)
   links:
-  - title: Manipulando o histórico do navegador - MDN
-    url: https://developer.mozilla.org/pt-BR/docs/Web/API/History_API
+    - title: Manipulando o histórico do navegador - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/API/History_API
 
 browser/storage:
   title: Storage
   links:
-  - title: Window.localStorage - MDN
-    url: https://developer.mozilla.org/pt-BR/docs/Web/API/Window/Window.localStorage
+    - title: Window.localStorage - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/API/Window/Window.localStorage
 
 browser/fetch:
   title: Fetch API
   links:
-  - title: Fetch API - MDN
-    url: https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API
+    - title: Fetch API - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API
 
 js: JavaScript
 
-js/data-types/primitive-vs-non-primitive:
-  title: Diferenciar entre tipos de dados primitivos e não primitivos
+js/data-types/primitive:
+  title: Tipos de dados primitivos
+  links:
+    - title: Valores Primitivos - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Data_structures#valores_primitivos
+
+js/data-types/strings:
+  title: Strings (cadenas de caracteres)
+  links:
+    - title: Strings
+      url: topics/javascript/06-strings
+    - title: String - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String
 
 js/data-types/arrays:
   title: Manipular arrays (filter, map, sort, reduce)
   links:
-  - title: Array.prototype.sort() - MDN
-    url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
-  - title: Array.prototype.forEach() - MDN
-    url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
-  - title: Array.prototype.map() - MDN
-    url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map
-  - title: Array.prototype.filter() - MDN
-    url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
-  - title: Array.prototype.reduce() - MDN
-    url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
+    - title: Arrays
+      url: topics/javascript/04-arrays
+    - title: Array.prototype.sort() - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+    - title: Array.prototype.forEach() - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+    - title: Array.prototype.map() - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+    - title: Array.prototype.filter() - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+    - title: Array.prototype.reduce() - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 
 js/data-types/objects:
   title: Manipular objects (key | value)
+  links:
+    - title: Objetos em JavaScript
+      url: topics/javascript/05-objects/01-objects
+
+js/data-types/primitive-vs-non-primitive:
+  title: Diferenciar entre tipos de dados primitivos e não primitivos
+
+js/variables:
+  title: Variáveis (declaração, atribuição, escopo)
+  links:
+    - title: Valores, tipos de dados e operadores
+      url: topics/javascript/01-basics/01-values-variables-and-types
+    - title: Variáveis
+      url: topics/javascript/01-basics/02-variables
 
 js/conditionals:
   title: Uso de condicionais (if-else, switch, operador ternário)
+  links:
+    - title: Estruturas condicionais e repetitivas
+      url: topics/javascript/02-flow-control/01-conditionals-and-loops
+    - title: Tomando decisões no seu código — condicionais - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/conditionals
 
 js/functions:
   title: Uso de funções (parâmetros, argumentos, valor de retorno)
+  links:
+    - title: Funções (controle de fluxo)
+      url: topics/javascript/02-flow-control/03-functions
+    - title: Funções clásicas
+      url: topics/javascript/03-functions/01-classic
+    - title: Arrow Functions
+      url: topics/javascript/03-functions/02-arrow
+    - title: Funções — blocos reutilizáveis de código - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Functions
 
 js/loops:
   title: Uso de laços (for, for..of, while)
+  links:
+    - title: Laços (Loops)
+      url: topics/javascript/02-flow-control/02-loops
+    - title: Laços e iterações - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration
 
 js/recursion:
   title: Recursão
   links:
-  - title: Píldora recursión - YouTube Laboratoria Developers
-    url: https://www.youtube.com/watch?v=lPPgY3HLlhQ
+    - title: Píldora recursión - YouTube Laboratoria Developers
+      url: https://www.youtube.com/watch?v=lPPgY3HLlhQ
+    - title: Recursión o Recursividad - Laboratoria Developers en Medium
+      url: https://medium.com/laboratoria-developers/recursi%C3%B3n-o-recursividad-ec8f1a359727
 
-js/modules/es-modules:
-  title: Uso ES modules
-  links:
-  - title: import - MDN
-    url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import
-  - title: export - MDN
-    url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export
-
-js/modules/commonjs:
-  title: Módulos de CommonJS
-  links:
-  - title: "Modules: CommonJS modules - Node.js Docs"
-    url: https://nodejs.org/docs/latest/api/modules.html
+js/semantics:
+  title: Uso de identificadores descritivos (Nomenclatura | Semântica)
 
 js/expression-vs-statement:
   title: Diferença entre expression e statements
 
+js/modules/es-modules:
+  title: Uso ES modules
+  links:
+    - title: import - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import
+    - title: export - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export
+
+js/modules/commonjs:
+  title: Módulos de CommonJS
+  links:
+    - title: "Modules: CommonJS modules - Node.js Docs"
+      url: https://nodejs.org/docs/latest/api/modules.html
+
 js/testing/unit:
   title: Testes unitários
   links:
-  - title: Introdução ao Jest - Documentação oficial
-    url: https://jestjs.io/docs/pt-BR/getting-started
+    - title: Introdução ao Jest - Documentação oficial
+      url: https://jestjs.io/docs/pt-BR/getting-started
 
 js/testing/async:
   title: Testes assíncronos
   links:
-  - title: Testando Código Assíncrono - Documentação oficial
-    url: https://jestjs.io/docs/pt-BR/asynchronous
+    - title: Testando Código Assíncrono - Documentação oficial
+      url: https://jestjs.io/docs/pt-BR/asynchronous
 
 js/testing/mocks:
   title: Mocking
   links:
-  - title: Simulações Manuais - Documentação oficial
-    url: https://jestjs.io/docs/pt-BR/manual-mocks
+    - title: Simulações Manuais - Documentação oficial
+      url: https://jestjs.io/docs/pt-BR/manual-mocks
 
 js/testing/e2e:
   title: Testes de integração (end-to-end)
@@ -152,23 +255,20 @@ js/testing/e2e:
 js/testing/compatibility:
   title: Teste de compatibilidade em vários ambientes de tempo de execução
 
-js/semantics:
-  title: Uso de identificadores descritivos (Nomenclatura | Semântica)
-
 js/linting:
   title: Uso de linter (ESLINT)
 
 js/async/callbacks:
   title: Uso de callbacks
   links:
-  - title: Função Callback - MDN
-    url: https://developer.mozilla.org/pt-BR/docs/Glossario/Callback_function
+    - title: Função Callback - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Glossario/Callback_function
 
 js/async/promises:
   title: Promise
   links:
-  - title: How to Write a JavaScript Promise - freecodecamp (em inglês)
-    url: https://www.freecodecamp.org/news/how-to-write-a-javascript-promise-4ed8d44292b8/
+    - title: How to Write a JavaScript Promise - freecodecamp (em inglês)
+      url: https://www.freecodecamp.org/news/how-to-write-a-javascript-promise-4ed8d44292b8/
 
 scm:
   title: Git e GitHub
@@ -191,8 +291,8 @@ scm/github/collaboration:
 scm/github/gh-pages:
   title: "GitHub: Implantação com GitHub Pages"
   links:
-  - title: Site oficial do GitHub Pages
-    url: https://pages.github.com/
+    - title: Site oficial do GitHub Pages
+      url: https://pages.github.com/
 
 scm/github/project-management:
   title: "GitHub: Organização pelo Github (projects | issues | labels | milestones | releases)"
@@ -219,54 +319,54 @@ firebase: Firebase
 firebase/auth:
   title: Firebase Auth
   links:
-  - title: Primeiros passos com o Firebase Authentication em sites - Documentação oficial
-    url: https://firebase.google.com/docs/auth/web/start?hl=pt-BR
-  - title: Gerenciar usuários no Firebase (onAuthStateChanged) - Documentação oficial
-    url: https://firebase.google.com/docs/auth/web/manage-users?hl=pt-BR
+    - title: Primeiros passos com o Firebase Authentication em sites - Documentação oficial
+      url: https://firebase.google.com/docs/auth/web/start?hl=pt-BR
+    - title: Gerenciar usuários no Firebase (onAuthStateChanged) - Documentação oficial
+      url: https://firebase.google.com/docs/auth/web/manage-users?hl=pt-BR
 
 firebase/firestore:
   title: Firestore
   links:
-  - title: Firestore - Documentação oficial
-    url: https://firebase.google.com/docs/firestore?hl=pt-BR
-  - title: Regras de segurança do Firebase - Documentação oficial
-    url: https://firebase.google.com/docs/rules?hl=pt-BR
-  - title: Receber atualizações em tempo real com o Cloud Firestore - Documentação oficial
-    url: https://firebase.google.com/docs/firestore/query-data/listen?hl=pt-BR
+    - title: Firestore - Documentação oficial
+      url: https://firebase.google.com/docs/firestore?hl=pt-BR
+    - title: Regras de segurança do Firebase - Documentação oficial
+      url: https://firebase.google.com/docs/rules?hl=pt-BR
+    - title: Receber atualizações em tempo real com o Cloud Firestore - Documentação oficial
+      url: https://firebase.google.com/docs/firestore/query-data/listen?hl=pt-BR
 
 node: Node.js
 
 node/npm-install:
   title: Instalar e usar módulos (npm)
   links:
-  - title: Sitio oficial de npm (em inglês)
-    url: https://www.npmjs.com/
+    - title: Sitio oficial de npm (em inglês)
+      url: https://www.npmjs.com/
 
 node/package.json:
   title: Configuração do package.json
   links:
-  - title: package.json - Documentação oficial (em inglês)
-    url: https://docs.npmjs.com/files/package.json
+    - title: package.json - Documentação oficial (em inglês)
+      url: https://docs.npmjs.com/files/package.json
 
 node/npm-scripts:
   title: Configuração do npm-scripts
   links:
-  - title: scripts - Documentação oficial (em inglês)
-    url: https://docs.npmjs.com/misc/scripts
+    - title: scripts - Documentação oficial (em inglês)
+      url: https://docs.npmjs.com/misc/scripts
 
 node/filesystem:
   title: Uso de sistema de arquivos (fs, path)
   links:
-  - title: File system - Documentación oficial (en inglés)
-    url: https://nodejs.org/api/fs.html
-  - title: Path - Documentación oficial (en inglés)
-    url: https://nodejs.org/api/path.html
+    - title: File system - Documentación oficial (en inglés)
+      url: https://nodejs.org/api/fs.html
+    - title: Path - Documentación oficial (en inglés)
+      url: https://nodejs.org/api/path.html
 
 node/process:
   title: process (env, argv, stdin-stdout-stderr, exit-code)
   links:
-  - title: Process - Documentación oficial (en inglés)
-    url: https://nodejs.org/api/process.html
+    - title: Process - Documentación oficial (en inglés)
+      url: https://nodejs.org/api/process.html
 
 express: Express.js
 
@@ -281,48 +381,48 @@ http: HTTP
 http/request-response:
   title: Solicitações o requisições (request) e respostas (response).
   links:
-  - title: Uma visão geral do HTTP - MDN
-    url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview
-  # - title: Mensajes HTTP - MDN
-  #   url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Messages
+    - title: Uma visão geral do HTTP - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview
+    - title: Mensagens HTTP - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Messages
 
 http/headers:
   title: Cabeçalhos (headers)
   links:
-  - title: Cabeçalhos HTTP - MDN
-    url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Headers
+    - title: Cabeçalhos HTTP - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Headers
 
 http/body:
   title: Corpo (body)
   links:
-  - title: POST - MDN
-    url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/POST
+    - title: POST - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/POST
 
 http/verbs:
   title: Verbos HTTP
   links:
-  - title: Métodos de requisição HTTP - MDN
-    url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods
+    - title: Métodos de requisição HTTP - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods
 
 http/status-codes:
   title: Codigos de status de HTTP
   links:
-  - title: Códigos de status de respostas HTTP - MDN
-    url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
-  - title: The Complete Guide to Status Codes for Meaningful ReST APIs - dev.to
-    url: https://dev.to/khaosdoctor/the-complete-guide-to-status-codes-for-meaningful-rest-apis-1-5c5
+    - title: Códigos de status de respostas HTTP - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
+    - title: The Complete Guide to Status Codes for Meaningful ReST APIs - dev.to
+      url: https://dev.to/khaosdoctor/the-complete-guide-to-status-codes-for-meaningful-rest-apis-1-5c5
 
 http/json:
   title: Encodings e JSON
   links:
-  - title: Introdução ao JSON - Documentação oficial
-    url: https://www.json.org/json-pt.html
+    - title: Introdução ao JSON - Documentação oficial
+      url: https://www.json.org/json-pt.html
 
 http/cors:
   title: CORS (Cross-Origin Resource Sharing)
   links:
-  - title: Cross-Origin Resource Sharing (CORS) - MDN
-    url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS
+    - title: Cross-Origin Resource Sharing (CORS) - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS
 
 auth: Autenticação
 

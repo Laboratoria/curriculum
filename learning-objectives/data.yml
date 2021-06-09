@@ -15,60 +15,60 @@ css:
 
 browser:
   - dom:
-    - selectors
-    - events
-    - manipulation
+      - selectors
+      - events
+      - manipulation
   - routing
   - storage
   - fetch
 
 js:
   - data-types:
-    - primitive
-    - primitive-vs-non-primitive
-    # - values-and-refs
-    # - typeof
-    # - instanceof
-    - strings
-    - arrays
-    - objects
+      - primitive
+      - primitive-vs-non-primitive
+      # - values-and-refs
+      # - typeof
+      # - instanceof
+      - strings
+      - arrays
+      - objects
   - variables
   - conditionals
   - loops
   - functions
   - recursion
   - testing:
-    - unit
-    # - cases
-    # - assertions
-    - mocks
-    - async
-    # - coverage
-    - e2e
-    - compatibility
+      - unit
+      # - cases
+      # - assertions
+      - mocks
+      - async
+      # - coverage
+      - e2e
+      - compatibility
   - modules:
-    - es-modules
-    - commonjs
+      - es-modules
+      - commonjs
   - linting
   - semantics
   - expression-vs-statement
   - async:
-    - callbacks
-    - promises
+      - callbacks
+      - promises
     # - async/await
     # - streams
 
 scm:
   - git:
-    - setup
-    - intro
-    - integration
+      - setup
+      - intro
+      - integration
   - github:
-    - setup
-    - gh-pages
-    - collaboration
-    - project-management
-    - ci
+      - setup
+      - gh-pages
+      - collaboration
+      - project-management
+      - ci
 
 ux:
   - user-understanding
