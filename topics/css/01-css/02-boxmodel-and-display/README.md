@@ -20,7 +20,9 @@ Es hora de conocer uno de los fundamentos más importantes del CSS: `box model`
 (modelo de caja). Es muy fácil, pero entenderlo bien es vital para poder
 realizar una buena maquetación de la web.
 
-![box model](https://fotos.subefotos.com/e1001df7d218a9a8a8670d88628f0cc5o.png)
+![El model de caja en las herramientas del navegador](https://user-images.githubusercontent.com/110297/120221523-2ae15400-c204-11eb-818a-ea5bb8e767e4.png)
+
+_Vista del modelo de caja en las herramientas de desarrollador del navegador_.
 
 ### ¿Qué es el modelo de cajas?
 
@@ -43,7 +45,7 @@ Como ejemplo tenemos la siguiente imagen, la cual muestra tres cajas
 rectangulares que se crean de las tres etiquetas HTML usadas: `<p>`, `<strong>`
 y nuevamente `<p>`.
 
-![box model](https://fotos.subefotos.com/bf683e9aa7e08dcc951b9b9e529ae627o.gif)
+![Box Model](https://user-images.githubusercontent.com/110297/120232292-e7ddab80-c218-11eb-94a6-b93b268d077e.png)
 
 ### Elementos que componen el modelo de cajas
 
@@ -51,7 +53,9 @@ Las partes que componen cada caja consisten en el **contenido real**, el
 **relleno**, los **bordes** y los **márgenes**; podemos ver la imagen de abajo
 que ilustra el modelo de caja:
 
-![box model](http://image.ibb.co/cQZxTw/modelo_De_Caja.png)
+![El model de cajas](https://user-images.githubusercontent.com/110297/120221945-d8546780-c204-11eb-8733-e363a588e546.png)
+
+_Imagen tomada de [MDN - The Box Nodel](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)_
 
 Explicación de cada parte que compone cada caja:
 
@@ -63,17 +67,7 @@ Explicación de cada parte que compone cada caja:
 - __Margin (_margen_):__ Separación opcional existente entre la caja y el resto
   de las cajas adyacentes.
 
-### Propiedades de los elementos de la caja
-
-CSS define 4 propiedades para controlar los elementos de la caja (a excepción de
-_width_ y _height_).
-
-- __Top__: lado superior
-- __Right__: lado derecho
-- __Bottom__: lado inferior
-- __Left__: lado izquierdo
-
-![box model](https://fotos.subefotos.com/46cd99b85adea7f3106700cd9ffa473fo.png)
+A continuación veremos cómo manipular el _tamaño_ de cada una de estas partes.
 
 ## Padding, Border & Margin
 
@@ -81,8 +75,6 @@ _width_ y _height_).
 
 Es el **relleno**, es decir, el espacio libre opcional entre el _contenido_ y el
 _borde_.
-
- ![padding](https://fotos.subefotos.com/179d7bd111acebc38e6b29ed62a5522eo.png)
 
 Su valor se puede definir en: **unidades de medida**, **porcentaje** o el valor
 `inherit` (especifica que el _padding_ debe ser heredado del elemento padre).
@@ -163,8 +155,6 @@ significado:
 Es la **línea** que encierra el _contenido_ y el _padding_. Es aplicable a todos
 los elementos.
 
-![border](http://image.ibb.co/nKwpab/border_Anchos.png)
-
 Para cada borde se puede establecer su anchura o grosor, su color y su estilo,
 por lo que en total CSS define distintas propiedades relacionadas con los bordes.
 
@@ -186,7 +176,7 @@ menos que se establezca explícitamente un estilo de borde.
 En la siguiente imágen podemos ver los diferentes estilos de borde y la
 _palabra reservada_ para cada uno de ellos:
 
-![estilos_bordes](https://lenguajecss.com/p/css/propiedades/border-styles.png)
+![Estilos de borde](https://user-images.githubusercontent.com/110297/120240846-2b3f1680-c227-11eb-834c-756b3330fd87.png)
 
 #### Color
 
@@ -232,8 +222,6 @@ div {
 
 Es la **separación opcional** existente entre la caja y el resto de las cajas
 adyacentes.
-
-![margin](http://image.ibb.co/hH9LgG/margin.png)
 
 Su valor se puede definir en: **Unidades de medida**, **porcentaje** o `inherit`
 (especifica que el margin debe ser heredado del elemento padre).
@@ -285,8 +273,6 @@ Es el color que se muestra por detrás del _contenido_ y el espacio de _relleno_
 
 Controla el ancho de la caja o de un elemento.
 
-![width](https://fotos.subefotos.com/ad307ef682632ca28282a778c74610b0o.png)
-
 Su valor se puede definir en: **unidades de medida**, **porcentaje**, `auto` o
 `inherit`. Siendo como valor inicial `auto` .
 La propiedad **width** no admite valores negativos y los valores en porcentaje
@@ -301,8 +287,6 @@ div {
 ### Height (_alto_)
 
 Controla la altura de la caja o de un elemento.
-
-![height](https://fotos.subefotos.com/4395164aa663621f860b4d12c2d8fcd5o.png)
 
 Su valor se puede definir en: **Unidades de medida**, **porcentaje**, `auto` o
 `inherit`. Siendo como valor inicial `auto`.
@@ -337,7 +321,7 @@ div {
 }
 ```
 
-![content-box](https://fotos.subefotos.com/9958eea0026f6d90ae1cd9be0f47f2ebo.png)
+![content-box](https://user-images.githubusercontent.com/110297/120241173-ccc66800-c227-11eb-9edd-055f62fbb1a4.png)
 
 #### Valor "border-box"
 
@@ -350,7 +334,7 @@ div {
 }
 ```
 
-![border-box](http://image.ibb.co/nAbcTw/border_box.png)
+![border-box](https://user-images.githubusercontent.com/110297/120241219-e2d42880-c227-11eb-91fc-01969e27271d.png)
 
 > También podemos utilizar el valor `inherit`, que es el valor que hereda esta
 > propiedad de su elemento padre.
@@ -359,8 +343,10 @@ div {
 
 ### ¿Qué es la propiedad display?
 
-Establece el tipo de caja generada por un elemento.
-![display](https://fotos.subefotos.com/7ffd4c0c33fafb4d898a16a8935a0697o.png)
+Establece el tipo de caja generada por un elemento. Acá cubriremos los valores
+más comunes (`inline`, `block`, `inline-block` y `none`), y más adelante, en
+otras lecturas, exploraremos en detalle opciones más avanzadas como `flex` y
+`grid`.
 
 ### Valores
 
@@ -368,9 +354,36 @@ Establece el tipo de caja generada por un elemento.
 
 La propiedad `display: inline` hace que el elemento tenga como naturaleza
 posicionarse en línea, es decir que un elemento se coloque al lado del otro y
-por lo tanto sólo ocupa el espacio necesario para mostrar sus contenidos:
+por lo tanto sólo ocupa el espacio necesario para mostrar sus contenidos.
 
-![inline](https://fotos.subefotos.com/46ddc8db6addcac25aaf5d1b79275232o.png)
+Veamos un ejemplo. Si partimos con el siguiente fragmento de HTML:
+
+```html
+<h3>3 divs</h3>
+<div>A</div>
+<div>B</div>
+<div>C</div>
+```
+
+Y aplicamos los siguientes estilos a los `<div>`s:
+
+```css
+div {
+  border: 1px solid blue;
+  background-color: aliceblue;
+  padding: 10px;
+  width: 200px;
+  display: inline;
+}
+```
+
+Veríamos que los 3 `<div>`s aparecen en la misma línea. Además, también toma
+nota de que la directiva de ancho (`width`) se ha ignorado. Le habíamos dado
+`200px` de ancho, pero claramente vemos que esto no ha afectado a cómo se ven
+los `<div>`s. Esto es porque en los elementos `inline` no podemos fijar el
+ancho.
+
+![Inline](https://user-images.githubusercontent.com/110297/120243481-5298e200-c22d-11eb-8c10-5db63c132190.png)
 
 Sus características son:
 
@@ -387,9 +400,29 @@ Sus características son:
 La propiedad `display: block` hace que el elemento tenga como naturaleza
 posicionarse en bloques, por lo que siempre empiezan en una nueva línea y ocupan
 todo el espacio disponible en la línea, aunque sus contenidos no ocupen todo el
-sitio:
+sitio.
 
-![block](https://fotos.subefotos.com/0a7b2184ae765750e3929af6482473bfo.png)
+Siguiendo con el ejemplo anterior, ahora cambiamos solamente el valor de la
+propiedad `display` a `block`:
+
+```css
+div {
+  border: 1px solid blue;
+  background-color: aliceblue;
+  padding: 10px;
+  width: 200px;
+  display: block;
+}
+```
+
+Y obtenemos el siguiente resultado:
+
+![block](https://user-images.githubusercontent.com/110297/120243599-a277a900-c22d-11eb-9094-62f9359951bd.png)
+
+Podemos ver que ahora con `display: block` nuestros `<div>`s si toman el ancho
+que les dimos (`200px`) y además automáticamente agrega un _salto_ de línea al
+final del bloque, de manera que cualquier elemento que venga después tendrá que
+ir abajo.
 
 Sus características son:
 
@@ -404,9 +437,25 @@ Sus características son:
 
 La propiedad `display: inline-block` mezcla lo mejor de ambos mundos haciendo
 que los elementos se posicionen de forma inline pero que mantenga su naturaleza
-de bloque, es decir, pueden alinearse:
+de bloque, es decir, pueden alinearse.
 
-![inline-block](https://fotos.subefotos.com/7892f0763915a586528d36559d76a451o.png)
+Cambiamos el valor de `display` a `inline-block`:
+
+```css
+div {
+  border: 1px solid blue;
+  background-color: aliceblue;
+  padding: 10px;
+  width: 200px;
+  display: inline-block;
+}
+```
+
+Y ahora vemos cómo podemos darle un ancho determinado (como bloque), pero al
+mismo tiempo los bloques se posicionan _en línea_, en vez de cada uno comenzar
+en una nueva línea.
+
+![inline-block](https://user-images.githubusercontent.com/110297/120243831-3a759280-c22e-11eb-8e8d-11a2c4708d16.png)
 
 #### Valor "none"
 
@@ -419,22 +468,48 @@ existe una diferencia muy importante:
 
 - `display: none` quita el elemento definitivamente del espacio que ocupaba y es
   reemplazado por los elementos adyacentes, como si el elemento ya no existiera.
+  Si al ejemplo anterior le agregamos una clase `hide`:
 
-  ![none](https://fotos.subefotos.com/54885d2a934503abd48eb254549f099fo.png)
+  ```css
+  .hide {
+    display: none;
+  }
+  ```
+
+  Y aplicamos esa clase al segundo div:
+
+  ```html
+  <div>A</div>
+  <div class="hide">B</div>
+  <div>C</div>
+  ```
+
+  Veremos que el elemento no se muestra, y es como si no existiera, dejando que
+  otros elementos tomen su lugar.
+
+  ![display none](https://user-images.githubusercontent.com/110297/120243908-6133c900-c22e-11eb-9914-644c9dbcc184.png)
 
 - `visibility: hidden` oculta el elemento, pero sigue conservando el espacio que
-  ocupaba, mientras que los elementos adyacentes conservan su ubicación.
+  ocupaba, mientras que los elementos adyacentes conservan su ubicación. Si
+  cambiamos la clase `hide` para usar esta propiedad:
 
-  ![hidden](https://fotos.subefotos.com/22776b343dd0dde50cf523b9544ad7d2o.png)
+  ```css
+  .hide {
+    visibility: hidden;
+  }
+  ```
 
-#### Resumen de características Display
+  Ahora veremos que a pesar de que el elemento ya no aparece en pantalla, el
+  espacio que ocuparía queda vacío. El elemento es invisible, pero sigue
+  ocupando espacio en la pantalla.
 
-![Resumen Display](https://fotos.subefotos.com/5bddcb7ef810c7290e982d0ad17e4941o.png)
+  ![visibility hidden](https://user-images.githubusercontent.com/110297/120244005-ace67280-c22e-11eb-95e7-741648478b49.png)
 
 ## Lecturas complementarias
 
 Continúa leyendo y aprendiendo sobre el modelo de la caja con los siguientes recursos:
 
 - [Modelo de la caja - MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Modelo_cajas)
+- [CSS: display - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
 - [Modelo de la Caja - Libros Web](http://librosweb.es/libro/css/capitulo_4.html)
 - [Display - Libros Web](http://librosweb.es/referencia/css/display.html)
