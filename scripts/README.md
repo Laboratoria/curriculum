@@ -17,6 +17,13 @@ Este _script_ está dirigido a coaches y se usa para crear un repo de proyecto
 para usar con un cohort en particular. Las coaches de cada cohort son encargadas
 de crear un repo para cada proyecto que haya disponible en dicho cohort.
 
+⚠️ Es muy importante que todas las coaches siempre usemos este script
+para crear repos de proyectos de cohorts. Así no solo nos aseguramos de estar
+usando la versión más reciente sino que el script también se encarga de
+_analizar_ los objetivos de aprendizaje del `project.yml` del proyecto y
+genera la sección correspondiente en el `README.md` resultante en el repo para
+usar con las estudiantes.
+
 Este script necesita saber qué proyecto nos interesa, en qué lugar de nuestro
 disco duro queremos crear la carpeta para el nuevo repo y opcionalmente un
 _identificador_ para el cohort.
@@ -25,7 +32,7 @@ Por ejemplo, si queremos crear un repo con el proyecto de `cipher` para un
 cohort que se llama `LIM014`, podríamos usar el siguiente comando:
 
 ```sh
-./scripts/create-cohort-project.js projects/01-cipher ~/ LIM014
+npm run create-cohort-project projects/01-cipher ~/ LIM016
 ```
 
 En el ejemplo de arriba estaríamos creando un repo con el proyecto `cipher`
@@ -38,7 +45,7 @@ _boilerplate_, tendremos primero que crear un
 en GitHub y de ahí especificar la variable de entorno `GITHUB_TOKEN`. Algo así:
 
 ```sh
-GITHUB_TOKEN=xxxxxx ./scripts/create-cohort-project.js ./projects/01-cipher ~/ LIM014
+GITHUB_TOKEN=xxxxxx npm run create-cohort-project ./projects/01-cipher ~/ LIM014
 ```
 
 Para familiarizarte con el script puedes usar la opción `--noop` para que el

@@ -245,7 +245,13 @@ const main = async (args, opts) => {
 
 if (module === require.main) {
   const { _: args, ...opts } = minimist(process.argv.slice(2));
-  main(args, opts)
+  // Trim trailing slashes from args...
+  const trimmedArgs = args.map(arg => (
+    arg[arg.length - 1] === '/'
+      ? arg.slice(0, -1)
+      : arg
+  ));
+  main(trimmedArgs, opts)
     .catch((err) => {
       console.error(err);
       process.exit(1);
