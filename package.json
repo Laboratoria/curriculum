@@ -10,7 +10,8 @@
     "validate": "./scripts/build.js --validate",
     "build": "./scripts/build.js",
     "deploy": "./scripts/deploy.js",
-    "changelog": "git log $(git describe --tags --abbrev=0)..HEAD --oneline --format=\"* %h %s (%an)\""
+    "changelog": "git log $(git describe --tags --abbrev=0)..HEAD --oneline --format=\"* %h %s (%an)\"",
+    "create-cohort-project": "./scripts/create-cohort-project.js"
   },
   "repository": "Laboratoria/bootcamp",
   "keywords": [
