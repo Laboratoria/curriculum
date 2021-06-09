@@ -85,8 +85,8 @@ _email_ para ativar e usá-la.
 - Lembre que o GitHub Pages serve suas páginas com um certificado [SSL](https://pt.wikipedia.org/wiki/Transport_Layer_Security),
 portanto as requisições a OMDB devem incluir `https` na URL.
 - Lembre que há um limite de 1.000 requisições diárias à API de OMDB
-para cada [IP](https://pt.wikipedia.org/wiki/Endere%C3%A7o_IP). Acreditamos que é suficiente,
-mas te recomendamos o uso responsável deste recurso gratuito.
+para cada [IP](https://pt.wikipedia.org/wiki/Endere%C3%A7o_IP). Acreditamos que é
+suficiente, mas te recomendamos o uso responsável deste recurso gratuito.
 
 ## Conteúdo de referência
 
