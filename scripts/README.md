@@ -86,7 +86,6 @@ Run MarkDown linter.
 Related files: [`.mdlintignore`](../.mdlintignore), [`mdlintrc`](../.mdlintrc).
 
 ```sh
-# Run mdlint script via npm
 npm run mdlint
 ```
 
@@ -97,7 +96,6 @@ Run JavaScript linter.
 Related files: [`.eslintignore`](../.eslintignore), [`eslintrc`](../.eslintrc).
 
 ```sh
-# Run eslint script via npm
 npm run eslint
 ```
 
@@ -108,7 +106,6 @@ which basically allows us to validate the build without creating any files and
 simply check the exit status to see whether it passed or not.
 
 ```sh
-# Run validate script via npm
 npm run validate
 ```
 
@@ -147,7 +144,7 @@ npm run mdlint && npm run eslint && npm run validate
 ### build
 
 The `build` script uses the `curriculum-parser` to analyse both _projects_ and
-_topics_ and store the resulting JSON files in the `build` directory.
+_topics_ and store the resulting JSON files in the `dist` directory.
 
 Options:
 
@@ -155,29 +152,32 @@ Options:
   `validate` script, see above).
 
 ```sh
-# Run build script via npm
 npm run build
 ```
 
 ### deploy
 
-Run deploy script. This script is run via GitHub Actions.
+Este script se ejecuta através de GitHub Actions.
 
-The deploy script is only run for builds containing a `release` or `prerelease`
-git tag. If such a tag is present it will implicitly run the `build` script
-and then POST the JSON docs to the Laboratoria API.
+El script de despliegue solo se ejecuta en builds de tags de `release` o
+`prerelease`. En caso de encontrarse un tag que comience con `v`, el script
+enviará los proyectos y tópicos que hayan en el directorio `dist` por HTTP POST
+a `api.laboratoria.la`.
 
-Env vars:
+⚠️ Antes de hacer un tag de release, es imprescindible primero actualizar el
+número de versión en `package.json`, después reconstruir el directorio `dist`
+con el comando `npm run build`, y finalmente crear la etiqueta/tag de release.
+
+Variables de entorno:
 
 * `GITHUB_REF`
 * `LABORATORIA_API_EMAIL`
 * `LABORATORIA_API_PASS`
 * `LABORATORIA_API_URL`
 
-Related files: [`.github/workflows/node.js.yml`](../.github/workflows/node.js.yml).
+Archivos relacionados: [`.github/workflows/node.js.yml`](../.github/workflows/node.js.yml).
 
 ```sh
-# Run build script via npm
 npm run deploy
 ```
 

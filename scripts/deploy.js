@@ -104,7 +104,7 @@ const getAuthToken = (email, password) => {
 
 const publish = async (type, token) => {
   console.log(`Publishing ${type}...`);
-  const dir = path.resolve(__dirname, `../build/${type}`);
+  const dir = path.resolve(__dirname, `../dist/${type}`);
   const files = await fs.readdir(dir);
 
   const tasks = files.map(
@@ -117,9 +117,8 @@ const publish = async (type, token) => {
     stream.on('error', reject);
     stream.on('data', ({ idx, result }) => {
       if (result instanceof Error || result.statusCode > 201) {
-        console.log(`=> FAIL ${files[idx]} (${result.statusCode || 'Error'}): ${
-          result.body.message || result.body || result.message || result
-        }`);
+        console.log(`=> FAIL ${files[idx]} (${result.statusCode || 'Error'}): ${result.body.message || result.body || result.message || result
+          }`);
       } else {
         console.log(`=> OK ${files[idx]}`);
       }
@@ -132,18 +131,18 @@ const publish = async (type, token) => {
 console.log(`Publishing version ${version} to: ${apiBaseUrl}...`);
 getAuthToken(LABORATORIA_API_EMAIL, LABORATORIA_API_PASS)
   .then(async (token) => {
-      const projectsResults = await publish('projects', token);
-      const topicsResults = await publish('topics', token);
-      const hasErrors = projectsResults
-        .concat(topicsResults)
-        .reduce(
-          (memo, result) => (
-            memo || result instanceof Error || result.statusCode > 201
-          ),
-          false,
-        );
+    const projectsResults = await publish('projects', token);
+    const topicsResults = await publish('topics', token);
+    const hasErrors = projectsResults
+      .concat(topicsResults)
+      .reduce(
+        (memo, result) => (
+          memo || result instanceof Error || result.statusCode > 201
+        ),
+        false,
+      );
 
-      process.exit(hasErrors ? 1 : 0);
+    process.exit(hasErrors ? 1 : 0);
   })
   .catch((err) => {
     console.error(err);
