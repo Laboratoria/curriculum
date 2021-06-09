@@ -1,25 +1,23 @@
 #! /usr/bin/env node
 
-const fs = require('fs');
+const fs = require('fs-extra');
 const path = require('path');
 const { spawn } = require('child_process');
 const mkdirp = require('mkdirp');
+const { loadYaml, flattenLearningObjectives } = require('@laboratoria/curriculum-parser/lib/project');
 const { repository, version } = require('../package.json');
 
 
 const validate = process.argv[2] === '--validate';
-const buildDir = path.join(__dirname, '..', 'build');
+const buildDir = path.join(__dirname, '..', 'dist');
 
 
 const parse = ({ type, id, locale, track }) => new Promise((resolve) => {
   console.log(`=> Parsing ${type} ${id} ${locale}...`);
+  const slug = type === 'topic' ? id : id.split('-').slice(1).join('-');
   const suffix = locale.split('-')[0];
-  const fd = fs.openSync(
-    validate
-      ? '/dev/null'
-      : `build/${type}s/${locale === 'es-ES' ? id : `${id}-${suffix}`}.json`,
-    'w',
-  );
+  const dest = path.join(buildDir, `${type}s`, `${locale === 'es-ES' ? slug : `${slug}-${suffix}`}.json`);
+  const fd = fs.openSync(validate ? '/dev/null' : dest, 'w');
   const child = spawn('npx', [
     'curriculum-parser',
     type,
@@ -66,10 +64,62 @@ const ensureDirs = (items) => {
 };
 
 
-const buildItems = (items) => {
-  return ensureDirs(items)
-    .then(() => Promise.all(items.map(item => parse(item))))
-    .then(results => results.map((result, idx) => ({ ...items[idx], result })));
+const buildItems = items => ensureDirs(items)
+  .then(() => Promise.all(items.map(item => parse(item))))
+  .then(results => {
+    const errors = results.filter(result => result instanceof Error);
+    if (errors.length) {
+      throw new Error(`Failed to parse ${errors.length} items.`);
+    }
+    return results.map((result, idx) => ({ ...items[idx], result }));
+  });
+
+
+//
+// Create projects.json and topics.json with indeces of all projects and topics.
+//
+const createIndexes = () => {
+  if (validate) {
+    return Promise.resolve();
+  }
+
+  const createIndex = (name) => {
+    const dir = path.join(buildDir, name);
+    const fname = path.join(buildDir, `${name}.json`);
+    return fs.readdir(dir)
+      .then(files => files.map(file => require(path.join(dir, file))))
+      .then(json => (
+        name !== 'topics'
+          ? json
+          : json.map(({ syllabus, ...rest }) => rest)
+      ))
+      .then(json => fs.writeFile(fname, JSON.stringify(json)));
+  };
+
+  return Promise.all([createIndex('projects'), createIndex('topics')]);
+};
+
+
+const addLearningObjectives = () => {
+  if (validate) {
+    return Promise.resolve();
+  }
+
+  const dir = path.join(__dirname, '../learning-objectives')
+  return Promise.all([
+    loadYaml(path.join(dir, 'data.yml')),
+    loadYaml(path.join(dir, 'intl', 'es.yml')),
+    loadYaml(path.join(dir, 'intl', 'pt.yml')),
+  ])
+    .then(([tree, es, pt]) => ({
+      tree,
+      flat: flattenLearningObjectives(tree),
+      intl: { es, pt },
+    }))
+    .then(json => fs.writeFile(
+      path.join(buildDir, 'learning-objectives.json'),
+      JSON.stringify(json),
+    ));
 };
 
 
@@ -135,13 +185,8 @@ buildItems([
   { type: 'topic', id: 'talent-fest', locale: 'es-ES', track: 'ux' },
   { type: 'topic', id: 'ux-research', locale: 'es-ES', track: 'ux' },
 ])
-  .then(results => {
-    const hasErrors = results.reduce(
-      (memo, { result }) => memo || result instanceof Error,
-      false,
-    );
-    process.exit(hasErrors ? 1 : 0);
-  })
+  .then(createIndexes)
+  .then(addLearningObjectives)
   .catch((err) => {
     console.error(err);
     process.exit(1);
