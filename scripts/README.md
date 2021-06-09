@@ -1,5 +1,75 @@
 # npm-scripts
 
+## Índice
+
+* [Scripts para coaches](#Scripts-para-coaches)
+* [Testing y linters (contribuidoras)](#Testing-y-linters)
+* [Integración continua (mantenedoras)](#Integración-continua)
+* [Tareas de mantenimiento (mantenedoras)](#Tareas-de-mantenimiento)
+
+***
+
+## Scripts para coaches
+
+### create-cohort-project
+
+Este _script_ está dirigido a coaches y se usa para crear un repo de proyecto
+para usar con un cohort en particular. Las coaches de cada cohort son encargadas
+de crear un repo para cada proyecto que haya disponible en dicho cohort.
+
+Este script necesita saber qué proyecto nos interesa, en qué lugar de nuestro
+disco duro queremos crear la carpeta para el nuevo repo y opcionalmente un
+_identificador_ para el cohort.
+
+Por ejemplo, si queremos crear un repo con el proyecto de `cipher` para un
+cohort que se llama `LIM014`, podríamos usar el siguiente comando:
+
+```sh
+./scripts/create-cohort-project.js projects/01-cipher ~/ LIM014
+```
+
+En el ejemplo de arriba estaríamos creando un repo con el proyecto `cipher`
+(que está en la carpeta `projects/01-cipher`) en la carpeta `LIM014-cipher` en
+`~/`.
+
+Para de crear también el repo en GitHub y hacer un primer commit con el
+_boilerplate_, tendremos primero que crear un
+[_GitHub Personal Access Token_](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+en GitHub y de ahí especificar la variable de entorno `GITHUB_TOKEN`. Algo así:
+
+```sh
+GITHUB_TOKEN=xxxxxx ./scripts/create-cohort-project.js ./projects/01-cipher ~/ LIM014
+```
+
+Para familiarizarte con el script puedes usar la opción `--noop` para que el
+script te diga qué hubiera hecho en vez de hacerlo de verdad :wink:
+
+#### Usage
+
+`./scripts/create-cohort-project.js <src> <dest> [<cohortid>]`
+
+Variables de entorno:
+
+* `GITHUB_TOKEN`: Un _GitHub Personal Access Token_ con permiso para crear repos
+  en la cuenta de GitHub correspondiente (por ejemplo `Laboratoria`).
+
+Argumentos:
+
+* `src`: Ruta a la carpeta del proyecto en el sistema de archivos.
+* `dest`: Ruta a una carpeta donde crear la nueva carpeta de proyecto para el
+   cohort correspondiente.
+* `cohortid`: Un idendificador para el cohort. Esto se usará como prefijo en el
+  nombre de la carpeta creada y repo.
+
+Opciones:
+
+* `--locale`: Puede ser `es-ES` o `pt-BR`. Por defecto es `es-ES`.
+* `--noop`: Si esta opción está presente el script nos dirá que es lo que haríá
+  paso a paso pero sin realmente hacer nada. Es útil para familiarizarse con el
+  script.
+
+***
+
 ## Testing y linters
 
 ### mdlint
@@ -11,9 +81,6 @@ Related files: [`.mdlintignore`](../.mdlintignore), [`mdlintrc`](../.mdlintrc).
 ```sh
 # Run mdlint script via npm
 npm run mdlint
-
-# Run equivalent command via npx
-npx mdlint .
 ```
 
 ### eslint
@@ -25,9 +92,6 @@ Related files: [`.eslintignore`](../.eslintignore), [`eslintrc`](../.eslintrc).
 ```sh
 # Run eslint script via npm
 npm run eslint
-
-# Run equivalent command via npx
-npx eslint topics/
 ```
 
 ### validate
@@ -39,9 +103,6 @@ simply check the exit status to see whether it passed or not.
 ```sh
 # Run validate script via npm
 npm run validate
-
-# Run script directly
-./scripts/build.sh --validate
 ```
 
 ### test
@@ -72,7 +133,9 @@ npm run pretest
 npm run mdlint && npm run eslint && npm run validate
 ```
 
-## CI Related
+***
+
+## Integración continua
 
 ### build
 
@@ -87,9 +150,6 @@ Options:
 ```sh
 # Run build script via npm
 npm run build
-
-# Run script directly
-./scripts/build.sh
 ```
 
 ### deploy
@@ -110,41 +170,15 @@ Env vars:
 Related files: [`.github/workflows/node.js.yml`](../.github/workflows/node.js.yml).
 
 ```sh
-./scripts/deploy.sh
+# Run build script via npm
+npm run deploy
 ```
 
-## Chores
+***
 
-### create-cohort-project (coaches)
+## Tareas de mantenimiento
 
-Helper aimed at **coaches**, used to create a _copy_ of a particular project,
-as _coaches_ do when creating a repo for a specific _cohort_.
-
-Usage: `./scripts/create-cohort-project.js <src> <dest> [<cohortid>]`
-
-Env vars:
-
-* `GITHUB_TOKEN`: A GitHub Personal Access Token with permission to create repos
-  in the relevant GitHub account (ie: Laboratoria).
-
-Arguments:
-
-* `src`: Path to project dir in file system.
-* `dest`: Path to dir where to create the new cohort project folder.
-* `cohortid`: The _cohortid_ (legacy) or _slug_ identifying the cohort.
-
-Options:
-
-* `--locale`: Either `es-ES` or `pt-BR`. Default value is `es-ES`.
-* `--noop`: If this option is present the command will only say what it would
-  have done instead of actually doing anything. Useful to familiarize yourself
-  with the command.
-
-```sh
-./scripts/create-cohort-project.js projects/01-cipher ~/ LIM012
-```
-
-### propagate (maintainers)
+### propagate
 
 Compares the current state of each project to the `main` branch of each
 private repo with the example/model implementations. If changes are detected, a
@@ -155,10 +189,16 @@ PR will be sent with the relevant changes.
 ./scripts/propagate.sh
 ```
 
-### create-gource-video (maintainers)
+### create-gource-video
 
 Create gource visualization like [this one](https://youtu.be/fqbcQliGPzE).
 
 ```sh
 ./scripts/create-gource-video.sh
+```
+
+### check-projects-deps
+
+```sh
+./scripts/check-projects-deps.sh
 ```
