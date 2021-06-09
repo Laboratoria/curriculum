@@ -28,7 +28,7 @@
     "htmlhint": "^0.14.0",
     "jest": "^27.0.1",
     "regenerator-runtime": "^0.13.1",
-    "serve": "^11.0.2",
+    "serve": "^12.0.0",
     "stylelint": "^13.13.1",
     "stylelint-config-recommended": "^5.0.0"
   },
