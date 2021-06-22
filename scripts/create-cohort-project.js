@@ -14,6 +14,9 @@ const {
 } = require('@laboratoria/curriculum-parser/lib/project');
 
 
+const uiUrl = 'https://curriculum.laboratoria.la';
+
+
 const prompt = text => new Promise((resolve) => {
   const rl = readline.createInterface({
     input: process.stdin,
@@ -89,6 +92,11 @@ const copy = async (src, repoDir, opts) => {
 };
 
 
+const linkToString = ({ title, url }, lang) => (
+  `[${title}](${url.startsWith('topics/') ? `${uiUrl}/${lang}/${url}` : url})`
+);
+
+
 const addLocalizedLearningObjectives = async (repoDir, opts) => {
   const learningObjectives = await getLearningObjectives(repoDir, {
     lo: path.join(__dirname, '../learning-objectives'),
@@ -125,7 +133,7 @@ const addLocalizedLearningObjectives = async (repoDir, opts) => {
             const detailsStart = '<details><summary>Links</summary><p>\n';
             const detailsEnd = '\n</p></details>';
             return item.links.reduce(
-              (p, link) => `${p}\n  * [${link.title}](${link.url})`,
+              (p, link) => `${p}\n  * ${linkToString(link, lang)}`,
               `${prev}\n\n- [ ] **${title}**\n\n  ${detailsStart}`,
             ) + detailsEnd;
           },
@@ -148,7 +156,8 @@ const addLocalizedLearningObjectives = async (repoDir, opts) => {
   const endIndex = startIndex + contents.slice(startIndex + 1).findIndex(line => /^## /.test(line));
   const updatedContent = contents.slice(0, startIndex + 1)
     .concat('', intl.description, text.trim(), contents.slice(endIndex))
-    .join('\n');
+    .join('\n')
+    .replace(/\.\.\/\.\.\/topics\//g, `${uiUrl}/${lang}/topics/`);
 
   await fs.writeFile(readmePath, updatedContent);
   await fs.unlink(path.join(repoDir, 'project.yml'));
