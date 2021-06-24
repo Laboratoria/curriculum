@@ -1,0 +1,12 @@
+{
+  "slug": "job-application",
+  "repo": "Laboratoria/bootcamp",
+  "path": "projects/07-job-application",
+  "version": "3.0.0",
+  "parserVersion": "3.0.0",
+  "createdAt": "2021-06-24T00:52:47.633Z",
+  "prefix": 7,
+  "title": "Proyecto Job Application",
+  "locale": "es-ES",
+  "track": "js"
+}

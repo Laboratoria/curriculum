@@ -1,0 +1,174 @@
+{
+  "slug": "intro-ux",
+  "createdAt": "2021-06-24T00:52:53.629Z",
+  "title": "Intro a User Experience Design",
+  "description": "<p>En este curso empezarás a formar el mindset que todo UX Designer debe tener:\npensar en el usuario, pensar en el negocio y entender cómo los prototipos se\nvuelven una parte fundamental en un proceso de diseño. A lo largo del curso,\nentenderás las distintas etapas de un proceso de diseño y las podrás poner en\npráctica trabajando en un producto.</p>\n",
+  "tags": {
+    "secondary": {},
+    "primary": {}
+  },
+  "targetAudience": "<p>Este curso está dirigido a personas sin conocimientos previos de diseño que\ntienen el interés de aventurarse al mundo del diseño de experiencias. Será tu\nprimer paso en la ruta de aprendizaje.</p>\n",
+  "dependencies": "<p>Ningún conocimiento previo diseño o de programación es necesario para completar\neste curso. Está diseñado para principiantes.</p>\n",
+  "learningObjectives": "<ul>\n<li>Qué es <strong>User Experience Design</strong> y por qué es importante en la creación de\nproductos digitales</li>\n<li>La diferencia y similitud entre distintos frameworks como <strong>Design Thinking</strong>,\n<strong>Lean Startup</strong>, <strong>Lean UX</strong> y <strong>Design Sprint</strong></li>\n<li>Las 5 fases del proceso de User Experience Design</li>\n</ul>\n",
+  "product": "<p>En este curso pondrás en práctica los conceptos aprendidos para crear\nexperiencias que tengan en cuenta al usuario desde su concepción.</p>\n",
+  "syllabus": {
+    "00-que-es-uxd": {
+      "title": "Qué es UX Design",
+      "bonus": false,
+      "description": "<p>Conceptos introductorios a UX Design. Por qué es importante aprender UXD. Cómo\npodemos convencer a nuestros equipos/jefes/compañeros de que invertir en UX nos\nbeneficiará a todos. Qué disciplinas están involucradas en UX Design. Cuáles son\nlas características de un buen UX Designer.</p>\n",
+      "parts": {
+        "00-que-es-uxd": {
+          "title": "User Experience Design",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 60,
+          "embeds": [
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=9BdtGjoIN4E&cc_lang_pref=es&cc_load_policy=1",
+              "id": "9BdtGjoIN4E"
+            },
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=wmmVhVIxW-A&amp=&feature=youtu.be",
+              "id": "wmmVhVIxW-A"
+            },
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=ft5TzxG-LAc&cc_lang_pref=es&cc_load_policy=1",
+              "id": "ft5TzxG-LAc"
+            }
+          ],
+          "body": "<h2 id=\"¿qué-es-user-experience-design\">¿Qué es User Experience Design?</h2>\n<p>Para empezar, es bueno saber qué entendemos por UX. Para ello mira este video,\nen el que <a href=\"https://es.wikipedia.org/wiki/Donald_Norman\" target=\"_blank\">Don Norman</a>, primero en\nusar el término, nos explica qué es UX.</p>\n<p><div class=\"iframe-container\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/9BdtGjoIN4E?cc_lang_pref=es&amp;cc_load_policy=1&amp;autoplay=0\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"true\"></iframe></div></p>\n<h2 id=\"qué-es-ux\">Qué es UX</h2>\n<p>UX = User Experience son todas las experiencias que vive/experimenta una persona\nal usar un producto. Una silla, una mesa y un computador, todos tienen una\nexperiencia al usarlos.</p>\n<p>Una web, un app o cualquier producto digital también tienen distintas\nexperiencias para el usuario. Estas experiencias no siempre son iguales, en\nmuchos casos pueden variar dependiendo del entorno en el que son usados. Por\nejemplo, la experiencia de uso de Youtube puede variar dependiendo de la\nvelocidad de la conexión a internet que estemos usando, o de las publicidades\nque se nos interpongan antes o durante la ejecución del contenido que queremos\nver.</p>\n<h2 id=\"qué-es-ux-design\">Qué es UX Design</h2>\n<blockquote>\n<p>UX Design es el trabajo de los profesionales \"UX Designers\". Es el proceso\nmediante el cual se diseñan las experiencias que vivirá un usuario al usar un\nproducto.</p>\n</blockquote>\n<h3 id=\"definición-formal-de-ux-design\">Definición formal de UX Design</h3>\n<p>El proceso creativo y analítico para determinar qué y cómo será una web, un app,\nun software o un gadget, teniendo en cuenta siempre las necesidades, deseos y\nmetas de los usuarios. Pero, sin dejar de lado las metas de los negocios.</p>\n<p>Para entender un poco más sobre el proceso de UX Design mira este video:</p>\n<p><div class=\"iframe-container\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/wmmVhVIxW-A?amp=&amp;feature=youtu.be&amp;autoplay=0\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"true\"></iframe></div></p>\n<h2 id=\"por-qué-estamos-aprendiendo-ux\">Por qué estamos aprendiendo UX</h2>\n<p>Usualmente vamos a querer que los usuarios de nuestros productos (digitales o\nfísicos) estén felices cuando consumen lo que ofrecemos.</p>\n<ul>\n<li>¿Sentarse en una silla ultra comoda o un banco de madera?</li>\n<li>¿Comprar en un starbucks o en una cafetería local?</li>\n<li>¿Usar Facebook o Myspace?</li>\n</ul>\n<p>La experiencia al usar nuestros productos es directamente proporcional a su\nconsumo.</p>\n<p>Al tener una mejor UX tenemos más consumo.</p>\n<p>Y viceversa.</p>\n<h2 id=\"user-interface-design-vs-user-experience-design\">User Interface Design vs User Experience Design</h2>\n<p>Para poder entender la diferencia, similitud y relación entre UI y UX, lee el\nsiguiente artículo: <a href=\"http://blog.acantu.com/que-es-ux-y-ui/\" target=\"_blank\">UX vs UI</a>.</p>\n<p>Luego de leer este artículo, intenta responder las siguientes preguntas:</p>\n<ul>\n<li>¿Qué es UX y qué es UI?</li>\n<li>¿Cuál es la relación entre UX y UI Design?</li>\n</ul>\n<h3 id=\"ux-designer-vs-ui-designer\">UX Designer vs UI Designer</h3>\n<p>Para dedicarnos a ser UX o UI Designer tenemos que tener ciertas características\nque puedes ver en el siguiente video:</p>\n<p><div class=\"iframe-container\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/ft5TzxG-LAc?cc_lang_pref=es&amp;cc_load_policy=1&amp;autoplay=0\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"true\"></iframe></div></p>\n<p>Ahora, intenta responer estas preguntas:</p>\n<ul>\n<li>¿Cómo es la personalidad de un UX Designer?</li>\n<li>¿Cómo es la personalidad de un UI Designer?</li>\n</ul>\n<h3 id=\"ux--ui\">UX != UI</h3>\n<p>Adicionalmente el autor Golden Krishna en su libro <a href=\"http://www.nointerface.com/book/\" target=\"_blank\">The best interface is not interface</a>\nnos deja estos términos comunes usados en UX y en UI para resaltar que son\ntérminos distintos.</p>\n<h4 id=\"ui\">UI</h4>\n<blockquote>\n<p>Navegación, subnavegación, menús, desplegables, botones, enlaces / ligas /\nlinks, ventanas, esquinas redondeadas, sombreado, mensajes de error, alertas,\nactualizaciones, checkboxes, campos de contraseña, campos de búsqueda,\nentradas de texto, selectores de radio, áreas de texto, estados de hover,\nestados de selección, estados presionados, información sobre herramientas,\nanuncios de banner, videos incrustados, animaciones de desplazamiento,\ndesplazamiento, clics, iconografía, colores, listas, presentaciones de\ndiapositivas, texto alternativo, insignias, notificaciones, degradados,\nventanas emergentes, carruseles, OK / Cancelar, etc., etc., etc.</p>\n</blockquote>\n<h4 id=\"ux\">UX</h4>\n<blockquote>\n<p>Gente, felicidad, resolución de problemas, entender necesidades, amor,\neficiencia, entretenimiento, placer, deleitar, sonrisas, alma, calidez,\npersonalidad, alegría, satisfacción, gratificación, exaltación, euforia,\nconveniencia,  eficacia, etc., etc., etc.</p>\n</blockquote>\n<h2 id=\"¿qué-características-tiene-un-buen-ux-designer\">¿Qué características tiene un buen UX Designer?</h2>\n<ul>\n<li><p><strong>Empatía:</strong> es una de las características principales de UX Designer. Para\npoder crear productos exitosos, es necesario entender a nuestros usuarios, y\npara ello necesitamos empatizar con ellos para poder entender sus problemas\ndesde su perspectiva.</p>\n</li>\n<li><p><strong>Trabajo en equipo:</strong> un UX Designer no solo va a tener relación con sus\nusuarios, sino que también va a trabajar con un equipo de desarrollo de\nproducto que puede incluir product managers, visual designers,\ndesarrolladores, QAs y analistas de negocio. Para ello, trabajar en equipo es\nclave para un UX Designer.</p>\n</li>\n<li><p><strong>Negociador:</strong> el trabajo en equipo trae consigo también mucha negociación,\npor temas de recursos, principalmente.</p>\n</li>\n<li><p><strong>Problem solver:</strong> los UX Designers tienen pasión por resolver problemas, los\nde sus usuarios y los de sus negocios.</p>\n</li>\n<li><p><strong>Problem checker:</strong> muchas veces los UX Designers van a recibir de las áreas\nde negocio o escuchar de sus usuarios 'problemas' que no necesariamente lo\nson. Su curiosidad y pensamiento crítico lo ayudan a poder validar si esos\nproblemas realmente existen. No queremos perder valioso tiempo de desarrollo,\ntrabajando sobre problemas que no existen.</p>\n</li>\n<li><p><strong>Problem finder:</strong> durante la validación de problemas o durante el proceso de\ndiseño en general el UX Designer tiene que ser capaz de indentificar problemas\no necesidades que existen tanto para el usuario como para el negocio.</p>\n</li>\n<li><p><strong>Diseño, negocios y tecnología:</strong> se dice que los product / ux designers más\nexitosos entienden de estos 3 temas. Diseño porque son quienes lideran el\nproceso de diseño y porque esto les ayuda a entender a los usuarios. Negocios\nporque no solo tiene que ayudar a crear productos deseables, sino también\nrentables. Y de tecnología porque tiene que tener cierta idea de la\nfactilbilidad de desarrollo de los productos que propone.</p>\n</li>\n</ul>\n<h3 id=\"t-shaped-skills\">T-shaped skills</h3>\n<p>Las personas con habilidades en T (en inglés T-shaped people) aquellas que\ntienen conocimiento profundo en una o dos áreas, combinado con una comprensión\nrazonable de una variedad de otras áreas relevantes.</p>\n<p><img src=\"https://fotos.subefotos.com/96bdd078734baef5f177c55bc9c05a78o.png\" alt=\"T-shaped skills\"></p>\n<p>Por ejemplo un UX designer pueder ser un experto en UX research y prototipado y\ntener conocimiento no necesariamente tan profundo en UX writing y arquitectura\nde información.</p>\n<h2 id=\"puestos-relacionados-al-ux\">Puestos relacionados al UX</h2>\n<p><img src=\"https://fotos.subefotos.com/8e6469bf296f6e99f434ab723e68534do.jpg\" alt=\"Puestos relacionados a UX\"></p>\n<p>En las empresas grandes los puestos tienden a ser más especializados y en las\nempresas más pequeñas combinan diferentes especialidades.</p>\n",
+          "order": 0,
+          "durationString": "1h"
+        }
+      },
+      "order": 0,
+      "stats": {
+        "duration": 60,
+        "durationString": "1h",
+        "exerciseCount": 0,
+        "partCount": 1
+      }
+    },
+    "01-el-proceso-de-diseno": {
+      "title": "El proceso de diseño",
+      "bonus": false,
+      "description": "<p>Introducción al proceso de diseño. Cuáles son sus fases. Cuál es la importancia\nde cada fase dentro del proceso.</p>\n",
+      "parts": {
+        "00-el-proceso-de-diseno": {
+          "title": "Clase de Conceptos",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 60,
+          "body": "<h2 id=\"el-proceso-de-diseño\">El proceso de diseño</h2>\n<p>El proceso de diseño tiene 5 fases. Estas 5 fases nos permiten crear productos\ncentrados en el usuario que nos aseguren que estamos satisfaciendo sus\nnecesidades. Para ello empezamos entendiendo al usuario en la primera fase y lo\nseguimos involucrando a lo largo del proceso para ir validando nuestras\npropuestas.</p>\n<h3 id=\"descubrimiento-e-investigación\">Descubrimiento e investigación</h3>\n<p><img src=\"https://lh5.googleusercontent.com/87kdbH1PfKC9A8Iik8Ks9z3sbTgzKKyCP_DRUHHU9F-6FT4lqQU5cASr7fMwocdfBGF6z1bGtT1XNVh-vV8gaeLH-SzmFBy0bopUi5hCTHAQ-z8nZm1_WKBfjoAP7QndyxdDOsj8N7U\" alt=\"Proceso de diseño Laboratoria - descubrimiento\"></p>\n<p>La etapa de descubrimiento e investigación, también llamada Research, es la\nprimera etapa de un ciclo de diseño.</p>\n<p>En esta etapa identificamos las necesidades de los usuarios y buscamos data e\ninspiración para diseñar un producto. En esta etapa se considera también\naprender de nuestros stakeholders y de la competencia. Sin embargo, la parte más\nimportante es la de investigar y entender a nuestros usuarios.</p>\n<p>Para poder entender sobre nuestros usuarios y sobre el problema tenemos varias\ntécnicas que listamos a continuación (ten en cuenta que veremos a detalle c/u\nmás adelante):</p>\n<ul>\n<li>Observación o investigación contextual</li>\n<li>Entrevistas con usuarios</li>\n<li>Entrevistas con expertos</li>\n<li>Análisis de la competencia</li>\n<li>Búsquedas en la web</li>\n<li>Analítica</li>\n</ul>\n<h3 id=\"síntesis-y-definición\">Síntesis y definición</h3>\n<p>En esta fase usamos los datos coleccionados en la fase de investigación y\ndescubrimiento buscando tendencias e insights valiosos para el desarrollo del\nproducto, y entendemos los deseos y necesidades del público al que estará\ndirigido nuestro producto.</p>\n<p><img src=\"https://lh5.googleusercontent.com/nQIPFhjS7QtmjupPsDHE8hURMZRdowkuopqIsWMGYR6YCdNRd3eDlDHfz11NZ6MGCpG3iiVHx3ZY3gsutpaHz_aU0gPp-Ak2v224rR0VHUpEKbVjLB3UofCv521cEbA3P0yhr_Hc-8M\" alt=\"Proceso de diseño Laboratoria - síntesis\"></p>\n<p>Algunas de las herramientas que utilizarás durante esta etapa son:</p>\n<ul>\n<li>Diagramas de afinidad</li>\n<li>User Personas</li>\n<li>Customer journey maps</li>\n<li>Storytelling</li>\n<li>Problem statements</li>\n<li>How Might We</li>\n<li>What if</li>\n</ul>\n<h3 id=\"ideación\">Ideación</h3>\n<p><img src=\"https://lh4.googleusercontent.com/KUDC2ezoy6SbbodIMunjDjlFvdqj81VOX6X8wQBfDAsyOZFy4WnjHBJZpLnX6cFM0_iBT416x67eXQRRFqMXsydRFNX5L_0tQpiRX3NKhl-qylj9QQUpdyBIS7msN5hxz3MjsCjfZ6o\" alt=\"Proceso de diseño Laboratoria - Ideación\"></p>\n<p>En esta fase buscamos las mejores maneras para ejecutar/desarrollar las\nfuncionalidades definidas en la fase de ideación. Se elaboran sketches y se\ndecide qué propuesta se ejecutará.</p>\n<p>En esta etapa utilizaras herramientas como:</p>\n<ul>\n<li>Brainstorming</li>\n<li>Crazy eights</li>\n<li>Museo de arte</li>\n<li>Benchmarking</li>\n</ul>\n<h3 id=\"prototipado\">Prototipado</h3>\n<p><img src=\"https://lh4.googleusercontent.com/O0va4gSdInWa4i-2gLgIpaTBCaAeoFeqjtc1OqVtSJpvqVmm4vnC45jzYNkfS7JEnRJY05JzjXXYGIOiM_Y_iTq-D_NM47yFfjrTZQSe8OL_2nx0ieLWNKKVbOJz_tXE8zX09Ibv3mc\" alt=\"Proceso de diseño Laboratoria - prototipado\"></p>\n<p>En esta etapa elaboramos un prototipo que nos permita probar nuestras ideas con\nusuarios para saber si estamos resolviendo satisfaciendo sus necesidades con\nnuestro producto.</p>\n<p>En esta etapa puedes prototipar de distintas maneras:</p>\n<ul>\n<li>Prototipado de contenido</li>\n<li>Prototipado de baja fidelidad</li>\n<li>Prototipado de alta fidelidad</li>\n</ul>\n<p>Con herramientas como:</p>\n<ul>\n<li>Lápiz y papel</li>\n<li>Pop</li>\n<li>Marvel</li>\n<li>Invision</li>\n<li>Balsamiq</li>\n</ul>\n<h3 id=\"testeo-con-usuarios\">Testeo con usuarios</h3>\n<p><img src=\"https://lh5.googleusercontent.com/QllK4qB6uZtg6YFMriQKgpgLRO6gnNb1H88eBZ_7-GUvWleZ1GfXrE8BgFdEyQRgp2OM5bGXn_eBxaoOELRrN3nI9R3A7GlW6MAo6Yf67nqwow059gTQXvom9ULgDrXlVKUMGVJ00NE\" alt=\"Proceso de diseño Laboratoria - testing\"></p>\n<p>En esta etapa probamos nuestros prototipos con usuarios para obtener su\nfeedback.</p>\n<h2 id=\"documentos-adicionales\">Documentos adicionales</h2>\n<p>En estos links puedes encontrar recursos adicionales con herramientas y\nactividades utilizadas en UX Design. En las siguientes unidades profundizaremos\nen ellas, pero puedes irlas mirando y probando.</p>\n<ul>\n<li><a href=\"https://drive.google.com/open?id=1z7xAMMRKtTQbwMJ-mUhcDKwWbdN1x04P\" target=\"_blank\">guía del proceso creativo</a></li>\n<li><a href=\"https://drive.google.com/file/d/1rpCnnRjzdvLlVRQzSNnudj9QzkCQ09XW/view?usp=sharing\" target=\"_blank\">design thinking para educadores</a></li>\n<li><a href=\"https://drive.google.com/file/d/1FTqQ8ssb9uD9HyG32K7A70Tb6DQAFzsF/view?usp=sharing\" target=\"_blank\">Dschool deck</a></li>\n</ul>\n",
+          "order": 0,
+          "durationString": "1h"
+        }
+      },
+      "order": 1,
+      "stats": {
+        "duration": 60,
+        "durationString": "1h",
+        "exerciseCount": 0,
+        "partCount": 1
+      }
+    },
+    "02-metodologias-relacionadas": {
+      "title": "Metodologías relacionadas",
+      "bonus": false,
+      "description": "<p>Cuando hablemos de UX Design vamos a tener que hablar o escuchar de otras\nmetodologías relacionadas. En esta unidad te explicamos sobre esas metodologías\ny qué tienen en común.</p>\n",
+      "parts": {
+        "00-metodologias-relacionadas": {
+          "title": "Clase de Conceptos",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 60,
+          "embeds": [
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://youtu.be/McabDMc9Z4Y",
+              "id": "McabDMc9Z4Y"
+            },
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://youtu.be/X2YoHFuWkqs",
+              "id": "X2YoHFuWkqs"
+            },
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://youtu.be/bvFnHzU4_W8",
+              "id": "bvFnHzU4_W8"
+            }
+          ],
+          "body": "<h2 id=\"metodologías-relacionadas\">Metodologías relacionadas</h2>\n<p>Cuando trabajamos en UX Design, y en tecnologia, hay muchos términos de\nmetodologías y frameworks que vamos a escuchar o leer seguido. Entre ellos\n<code>design thinking</code> o <code>human centered design</code>, <code>lean startup</code>, <code>lean UX</code>,\n<code>design sprints</code>, entre otros.</p>\n<p>En realidad ninguna metodología es independiente a la otra, sino que son\ncomplementarias. Y de hecho, tienen una gran cosa en común: <strong>aprender</strong></p>\n<p>En estas metodología, aprendemos a través de un experimento, prototipo o MVP,\n“saliendo del edificio” y probando con usuarios reales. En general aprendemos\nde:</p>\n<ul>\n<li>los usuarios</li>\n<li>las ideas</li>\n<li>los prototipos</li>\n<li>los MVPs</li>\n</ul>\n<h3 id=\"design-thinking---human-centered-design\">Design Thinking - Human Centered Design</h3>\n<p>Es una metodología para generar ideas innovadoras que centra su eficacia en\nentender y dar solución a las necesidades reales de los <strong><em>usuarios</em></strong>. Se\nempezó a desarrollar de forma teórica en la Universidad de Stanford en\nCalifornia (EEUU) a partir de los años 70, y su primera aplicabilidad con fines\nlucrativos como \"Design Thinking\" la llevó a cabo la consultora de diseño IDEO,\nsiendo hoy en día su principal precursora.</p>\n<p>Fases del proceso:</p>\n<ol>\n<li>Empatizar</li>\n<li>Definir</li>\n<li>Idear</li>\n<li>Prototipar</li>\n<li>Testear</li>\n</ol>\n<p><img src=\"https://lh4.googleusercontent.com/NBcmNGSddfAfeKGla95NnHTHin0eAvP1cdo8NNxmtCOLyjYcedxCWnrQACTwkFG2J4VD81qpJuIiu9GY7wH4NVg86iqOrrkEt_8HQIb9dzr6jBnoaFCiFNg-sxSZiw9fJFuobcmIUyc\" alt=\"Design thinking hexágonos\"></p>\n<p>La experimentación en el <code>design thinking</code> se basa en siempre mostrarle algo\n(un prototipo) al usuario para obtener su feedback.</p>\n<p>Adicionalmente, puedes ver este video de cómo IDEO ideó un nuevo carrito de\nsupermercado en una semana.</p>\n<p><div class=\"iframe-container\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/McabDMc9Z4Y?autoplay=0\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"true\"></iframe></div></p>\n<h3 id=\"lean-startup\">Lean Startup</h3>\n<p>Esta metodología se enfoca en crear un MVP rápidamente para poder aprender de\nlos usuarios y poder evolucionar o corregir el producto. Su ideal es tener la\nmayor cantidad de “validated learning” con el menor esfuerzo posible.</p>\n<ul>\n<li><strong>Minimum:</strong> utilizando el menor esfuerzo y recursos</li>\n<li><strong>Viable:</strong> el mínimo estado del “producto” que permita coleccionar\ninformación (feedback)</li>\n<li><strong>Product:</strong> cualquier cosa que se pueda vender (producto, servicio, app,\nidea) o que quieras que el usuario se inscriba</li>\n</ul>\n<p><img src=\"https://image.slidesharecdn.com/presentacinfinal-defensav2-140327151051-phpapp01/95/diseo-de-un-marco-de-referencia-para-el-emprendimiento-de-ti-basado-en-la-filosofa-lean-startup-15-638.jpg?cb=1395933204\" alt=\"Círculo Lean\"></p>\n<p>Puedes ver también, este <div class=\"iframe-container\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/X2YoHFuWkqs?autoplay=0\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"true\"></iframe></div></p>\n<h3 id=\"lean-ux\">Lean UX</h3>\n<p>Lean UX combina ideas de <code>design thinking</code>, <code>lean startup</code> y <code>agile</code> en el campo\ndel UX. Busca hacer el trabajo de UX más rápido, enfocándose más en los\nresultados que en los “entregables”.</p>\n<p>Fases:</p>\n<ul>\n<li>Declarar supuestos</li>\n<li>Crear un MVP</li>\n<li>Realizar experimentos</li>\n<li>Obtener feedback</li>\n</ul>\n<p><img src=\"https://lh6.googleusercontent.com/vCUr-V61KB-dV1TgdwoMpI1shFPEszjOifuIFTSeZbW21QpaJFVnKY23VIqNYrSOWUFUpCsFHIYRHj25l5ivebaqLADZAgXuh2rqoQreWC9Ea4yAsc4QATmFdJ4mCwv0o3Bmalhzsb8\" alt=\"Fases Lean UX\"></p>\n<h2 id=\"design-sprints\">Design Sprints</h2>\n<p>Metodología creada en GV (Google Ventures) que busca probar una idea en 5 días.\nDentro del proceso se sugiere que el equipo que participa el <code>design sprint</code>\ntenga como máximo 7 personas y que dentro de este número estén incluidos uno o\ndos decisores. Al final de los 5 días se tiene uno o más prototipos probados con\n5 usuarios reales.</p>\n<p><img src=\"https://zapier.cachefly.net/storage/photos/ebde1b47795447d66f88d80d28dcd7b9.png\" alt=\"Imagen sprint\"></p>\n<p>Etapas del proceso:</p>\n<ul>\n<li>Lunes: Mapear</li>\n<li>Martes: Sketchear</li>\n<li>Miércoles: Decidir</li>\n<li>Jueves: Prototipar</li>\n<li>Viernes: Testeara</li>\n</ul>\n<p>Puedes ver también como en Gimlet Media crearon y validaron un prototipo usando\nesta metodología.\n<a href=\"(https://youtu.be/iqGLrMjBLZ4)\">video</a></p>\n<hr>\n<p>Como algo opcional, puedes mirar esta entrevista a Jake Knapp, Tim Brown y\nEric Ries hablando sobre Sprint, Design Thinking y Lean Startup respectivamente.</p>\n<p><div class=\"iframe-container\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/bvFnHzU4_W8?autoplay=0\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"true\"></iframe></div></p>\n",
+          "order": 0,
+          "durationString": "1h"
+        }
+      },
+      "order": 2,
+      "stats": {
+        "duration": 60,
+        "durationString": "1h",
+        "exerciseCount": 0,
+        "partCount": 1
+      }
+    },
+    "03-design-disruptors": {
+      "title": "Documental Design Disruptors",
+      "bonus": false,
+      "description": "<p>Documental creado por <a href=\"http://invisionapp.com/\">Invision</a> en el que nos muestran\nel estado actual del diseño de productos y de experiencia de usario en las\ncompañías líderes de tecnología a nivel mundial.</p>\n",
+      "parts": {
+        "00-documental": {
+          "title": "Clase de Conceptos",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 90,
+          "embeds": [
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=W4AViRgrgkU",
+              "id": "W4AViRgrgkU"
+            }
+          ],
+          "body": "<h2 id=\"documental-design-disruptors\">Documental <code>Design Disruptors</code></h2>\n<p>Documental creado por <a href=\"http://invisionapp.com/\" target=\"_blank\">Invision</a> en el que nos muestran\nel estado actual del diseño de productos y de experiencia de usario en las\ncompañías líderes de tecnología a nivel mundial.</p>\n<p>Te recomendamos coordinar con los coaches de tu sede para que puedan emitir el\ndocumental en la sala de clases, ya que el documental está alojado en un link\nespecial con acceso restringido.</p>\n<p><div class=\"iframe-container\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/W4AViRgrgkU?autoplay=0\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"true\"></iframe></div></p>\n",
+          "order": 0,
+          "durationString": "1.5h"
+        }
+      },
+      "order": 3,
+      "stats": {
+        "duration": 90,
+        "durationString": "1.5h",
+        "exerciseCount": 0,
+        "partCount": 1
+      }
+    }
+  },
+  "grades": "",
+  "contributors": "",
+  "books": "",
+  "benchmarks": "",
+  "references": "",
+  "repo": "Laboratoria/bootcamp",
+  "path": "topics/intro-ux",
+  "version": "3.0.0",
+  "parserVersion": "3.0.0",
+  "track": "ux",
+  "locale": "es-ES",
+  "stats": {
+    "duration": 270,
+    "durationString": "4.5h",
+    "exerciseCount": 0,
+    "unitCount": 4,
+    "partCount": 4
+  }
+}

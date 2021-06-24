@@ -1,6 +1,6 @@
 {
   "name": "bootcamp",
-  "version": "2.15.0",
+  "version": "3.0.0",
   "description": "Proyectos y tópicos del Bootcamp de @Laboratoria",
   "scripts": {
     "mdlint": "mdlint .",
@@ -14,6 +14,7 @@
     "create-cohort-project": "./scripts/create-cohort-project.js",
     "watch": "concurrently ./scripts/watch.js \"react-scripts start\"",
     "start": "react-scripts start",
+    "prebuild": "npm run build:content",
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject"
