@@ -432,16 +432,22 @@ auth/jwt:
 auth/password-access-and-storage:
   title: Armazenamento e acesso de senhas
 
-webops: WebOps
+cicd: Integraçao Contínua/Entrega Contínua
 
-webops/env-vars:
-  title: Variáveis de ambiente
+cicd/build-pipelines:
+  title: Construção de pipelines (GitHub Actions/CircleCI)
 
-webops/docker-containers:
-  title: Containers (Docker)
+cicd/service-deployment:
+  title: Implantar serviços (Heroku/GitHub Pages)
 
-webops/docker-compose:
-  title: Docker compose
+cicd/tbd:
+  title: Usar Trunk-based Development para Integraçao Contínua
+
+cicd/test-coverage:
+  title: Validação de cobertura de testes en pipeline
+
+cicd/integration-tests:
+  title: Testes de integração
 
 db: Bases de dados (escolher entre MongoDB, PostgreSQL ou MySQL)
 

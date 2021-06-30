@@ -142,10 +142,12 @@ auth:
   - jwt
   - password-access-and-storage
 
-webops:
-  - env-vars
-  - docker-containers
-  - docker-compose
+cicd:
+  - build-pipelines
+  - service-deployment
+  - tbd
+  - test-coverage
+  - integration-tests
 
 db:
   - install
