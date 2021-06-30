@@ -437,6 +437,17 @@ auth/jwt:
 auth/password-access-and-storage:
   title: Almacenamiento y acceso de contraseñas
 
+webops: WebOps
+
+webops/env-vars:
+  title: Variables de entorno
+
+webops/docker-containers:
+  title: Contenedores (Docker)
+
+webops/docker-compose:
+  title: Docker compose
+
 cicd: Integración Continua/Entrega Continua
 
 cicd/build-pipelines:
