@@ -441,7 +441,7 @@ cicd/service-deployment:
   title: Implantar serviços (Heroku/GitHub Pages)
 
 cicd/tbd:
-  title: Usar Trunk-based Development para Integraçao Contínua
+  title: Usar Trunk-based Development para Integração Contínua
 
 cicd/test-coverage:
   title: Validação de cobertura de testes en pipeline
