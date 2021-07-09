@@ -146,8 +146,12 @@ webops:
   - env-vars
   - docker-containers
   - docker-compose
+  - cloud-functions
 
 db:
   - install
   - conection
   - queries
+
+slack:
+  - slash-commands
