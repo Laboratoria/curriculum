@@ -1,5 +1,5 @@
 import { render, screen, waitFor } from '@testing-library/react';
-import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import { createTheme, ThemeProvider } from '@material-ui/core/styles';
 import themeConfig from '../../lib/theme';
 import app from '../../lib/app';
 import App from '.';
@@ -22,7 +22,7 @@ describe('App', () => {
       auth: { user: null },
     }));
     render(
-      <ThemeProvider theme={createMuiTheme(themeConfig)}>
+      <ThemeProvider theme={createTheme(themeConfig)}>
         <App />
       </ThemeProvider>
     );
@@ -36,7 +36,7 @@ describe('App', () => {
       auth: { user: null },
     }));
     render(
-      <ThemeProvider theme={createMuiTheme(themeConfig)}>
+      <ThemeProvider theme={createTheme(themeConfig)}>
         <App />
       </ThemeProvider>
     );
