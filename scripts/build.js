@@ -187,7 +187,6 @@ buildItems([
   { type: 'topic', id: 'interaction-design', locale: 'es-ES', track: 'ux' },
   { type: 'topic', id: 'intro-ux', locale: 'es-ES', track: 'ux' },
   { type: 'topic', id: 'prototyping', locale: 'es-ES', track: 'ux' },
-  { type: 'topic', id: 'talent-fest', locale: 'es-ES', track: 'ux' },
   { type: 'topic', id: 'ux-research', locale: 'es-ES', track: 'ux' },
 ])
   .then(createIndexes)
