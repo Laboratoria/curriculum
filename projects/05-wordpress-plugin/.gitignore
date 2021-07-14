@@ -1,0 +1,11 @@
+#html
+/html/*
+!/html/.keep
+
+#mysql
+/mysql/*
+!/mysql/.keep
+
+#mysql
+/php-playground/*
+!/php-playground/hola.php

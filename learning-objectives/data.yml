@@ -155,3 +155,31 @@ db:
 
 slack:
   - slash-commands
+
+php:
+  - data-types:
+    - primitive
+    - arrays
+    - objects
+  - variables
+  - control-structures
+  - functions
+  - testing:
+    - phpunit
+    - xdebug
+  - package-management:
+    - composer
+
+wordpress:
+  - plugin-development:
+    - hooks
+    - administration-menu
+    - shortcodes
+    - settings
+    - custom-post-types
+    - taxonomies
+    - users
+    - cron
+    - wordpress-rest-api
+    - wordpress-apis
+    - wordpress-plugin-directory
