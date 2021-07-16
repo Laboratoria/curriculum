@@ -13,21 +13,21 @@
 
 ## 1. Preámbulo
 
-> Los sistemas de gestión de contenidos o CMS (Content Management System)  son
+> Los sistemas de gestión de contenidos o CMS (Content Management Systems) son
 > aplicaciones web que permiten a usuarios (sin necesidad de tener conocimientos
 > previos en programación)  crear contenidos con una interfaz visual de manera
 > rápida y sencilla. Entre los más utilizados están [Wordpress(42.1%),
 > Shopify(3.7%), Joomla(2.0%), Squarespace(1.7%) y
 > Wix(1.7%)](https://w3techs.com/technologies/overview/content_management).
 >
-> Wordpress es uno de los CMS más utilizados en el mercado, éste permite crear
-> blogs personales u otro tipo de páginas web como webs corporativas, revistas,
+> Wordpress es uno de los CMS más utilizados en el mercado. Éste permite crear
+> blogs personales u otro tipo de sitios web, como páginas corporativas, revistas,
 > tiendas online, periodicos digitales, etc(aquí te dejamos Wordpress Website
 > Showcase donde podrás encontrar otros casos de uso). Además Wordpress es un
 > sistema de software libre, gratuito, modular, y compatible con muchos plugins
 > y temas, constantemente actualizado y con mejoras gracias a la comunidad de
-> desarrolladores. El lenguaje en el que desarrollamos Wordpress es PHP
-> es un lenguaje de código abierto [más populares desde el lado del servidor (79.2%)](https://w3techs.com/technologies/overview/programming_language)
+> desarrolladores. El lenguaje en el que desarrollamos Wordpress es PHP,
+> que es el lenguaje de código abierto [más popular desde el lado del servidor (79.2%)](https://w3techs.com/technologies/overview/programming_language)
 > y se usa principalmente para crear páginas webs dinámicas y aplicaciones.
 
 ## 2. Resumen del proyecto
@@ -35,7 +35,7 @@
 En este proyecto te invitamos a desarrollar un plugin para WordPress. Puedes
 proponer libremente la funcionalidad de tu plugin. Cuando tengas una idea más o
 menos definida, asegúrate de pedir ayuda del equipo de coaches para determinar
-exactamente cuál será el alcance de tu proyecto y que objetivos de aprendizaje
+exactamente cuál será el alcance de tu proyecto y qué objetivos de aprendizaje
 cubrirás. Define un alcance que te tome de 2 a 3 semanas como máximo.
 
 Este proyecto puedes desarrollarlo de forma individual o por duplas. Tu decides
@@ -95,10 +95,10 @@ estructura de directorios de WordPress
 
 #### `php-playground`
 
-En la carpeta ```php-playground``` puedes crear tus archivos PHP de práctica y ejecutarlos
+En la carpeta `php-playground` puedes crear tus archivos PHP de práctica y ejecutarlos
 accediendo en un navegador web a
-[http://localhost:8080](http://localhost:8080). Por ejemplo en esta carpeta ya
-esta creado el archivo [```hola.php```](http://localhost:8080/hola.php)
+[http://localhost:8080](http://localhost:8080). Por ejemplo, en esta carpeta ya
+está creado el archivo [`hola.php`](http://localhost:8080/hola.php)
 como se indica en la lección
 ["Su primera página con PHP"](https://www.php.net/manual/es/tutorial.firstpage.php)
 del
@@ -126,19 +126,19 @@ al intentar ejecutar una acción](https://developer.wordpress.org/plugins/securi
 [_limpiar_](https://developer.wordpress.org/plugins/security/securing-input/) y
 [_escapar_](https://developer.wordpress.org/plugins/security/securing-output/)
 la información ingresada por el usuario
-* Usar al menos un
-[WordPress API](https://codex.wordpress.org/WordPress_APIs)
+* Usar al menos una
+[API ofical de WordPress](https://codex.wordpress.org/WordPress_APIs)
 
 ### jQuery / Vue.js / React / Angular
 
 Es común que para el desarrollo de la interfaz gráfica de un plugin de
 WordPress se use
 [jQuery](https://developer.wordpress.org/plugins/javascript/jquery/).
-Sin embargo también es posible usar librerías como
+Sin embargo, también es posible usar librerías como
 [React](https://dev.to/bobman38/how-to-use-react-inside-a-wordpress-application-49i)
 o [Vue.js](https://school.geekwall.in/p/rkPvlcoSV)
 o frameworks como [Angular](https://www.kevinleary.net/angularjs-wordpress-tutorial/).
-Te invitamos a que evalues cada alternativa y decidas cúal es la más apropiada
+Te invitamos a que evalúes cada alternativa y decidas cúal es la más apropiada
 para ti.
 
 ### Modularización del código
@@ -189,7 +189,7 @@ La manera más fácil de instalar WordPress en tu computadora local es usando
    docker-compose up -d
    ```
 
-    Esto ejecuta ```docker-compose up``` en modo detached, descarga las
+    Esto ejecuta `docker-compose up` en modo detached, descarga las
     imágenes de Docker necesarias e inicia los contenedores de wordpress,
     wordpress-cli y base de datos.
 
@@ -201,7 +201,7 @@ como administrador de WordPress.
 
 7. [WP-CLI](https://wp-cli.org/) permite automatizar el mantenimiento de
 sitios WordPress usando una consola de comandos en lugar de un navegador web.
-En caso en que necesites usarlo, puedes ejecutarlo con el siguiente comando:
+Si quieres o necesitas usarlo, puedes ejecutarlo con el siguiente comando:
 
    ```sh
    docker-compose run --rm wp <WP-CLI COMMAND>
@@ -219,14 +219,14 @@ tu sitio WordPress se encuentra en [http://localhost](http://localhost).
 ### Aprender PHP
 
 Lo siguiente que te recomendamos es aprender y practicar la sintaxis básica de
-PHP para declarar variables, usar condicionales y estructuras de control y
+PHP para declarar variables, usar condicionales, estructuras de control y
 definir funciones. El [manual oficial de PHP](https://www.php.net/manual/es/)
 es una buena fuente de información para iniciar.
 
-En la carpeta ```php-playground``` puedes crear tus archivos PHP de práctica y
+En la carpeta `php-playground` puedes crear tus archivos PHP de práctica y
 ejecutarlos accediendo en un navegador web a
 [http://localhost:8080](http://localhost:8080).
-Por ejemplo en esta carpeta ya esta creado el archivo ```hola.php``` como se
+Por ejemplo en esta carpeta ya esta creado el archivo `hola.php` como se
 indica en la lección
 ["Su primera página con PHP"](https://www.php.net/manual/es/tutorial.firstpage.php)
 del [manual oficial de PHP](https://www.php.net/manual/es/).
@@ -238,7 +238,7 @@ verificar la [documentación oficial](https://code.visualstudio.com/docs/languag
 
 ### Desarrollar un WordPress Plugin
 
-En este ya podrás comenzar a desarrollar tu plugin para WordPress. Puedes
+En este punto, ya podrás comenzar a desarrollar tu plugin para WordPress. Puedes
 iniciar desarrollando un plugin básico como se indica en la sección
 [Plugin Basics](https://developer.wordpress.org/plugins/plugin-basics/)
 del [WordPress Plugin Handbook](https://developer.wordpress.org/plugins/).
