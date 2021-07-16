@@ -1,4 +1,4 @@
-# Plugin para Wordpress
+# Plugin para WordPress
 
 ## Índice
 
@@ -13,22 +13,23 @@
 
 ## 1. Preámbulo
 
-> Los sistemas de gestión de contenidos o CMS (Content Management Systems) son
-> aplicaciones web que permiten a usuarios (sin necesidad de tener conocimientos
-> previos en programación)  crear contenidos con una interfaz visual de manera
-> rápida y sencilla. Entre los más utilizados están [Wordpress(42.1%),
-> Shopify(3.7%), Joomla(2.0%), Squarespace(1.7%) y
-> Wix(1.7%)](https://w3techs.com/technologies/overview/content_management).
->
-> Wordpress es uno de los CMS más utilizados en el mercado. Éste permite crear
-> blogs personales u otro tipo de sitios web, como páginas corporativas, revistas,
-> tiendas online, periodicos digitales, etc(aquí te dejamos Wordpress Website
-> Showcase donde podrás encontrar otros casos de uso). Además Wordpress es un
-> sistema de software libre, gratuito, modular, y compatible con muchos plugins
-> y temas, constantemente actualizado y con mejoras gracias a la comunidad de
-> desarrolladores. El lenguaje en el que desarrollamos Wordpress es PHP,
-> que es el lenguaje de código abierto [más popular desde el lado del servidor (79.2%)](https://w3techs.com/technologies/overview/programming_language)
-> y se usa principalmente para crear páginas webs dinámicas y aplicaciones.
+Los sistemas de gestión de contenidos o CMS (Content Management Systems) son
+aplicaciones web que permiten a usuarios (sin necesidad de tener conocimientos
+previos en programación)  crear contenidos con una interfaz visual de manera
+rápida y sencilla. Entre los más utilizados están [WordPress(42.1%),
+Shopify(3.7%), Joomla(2.0%), Squarespace(1.7%) y
+Wix(1.7%)](https://w3techs.com/technologies/overview/content_management).
+
+WordPress es uno de los CMS más utilizados en el mercado. Éste permite crear
+blogs personales u otro tipo de sitios web, como páginas corporativas, revistas,
+tiendas online, periodicos digitales, etc(aquí te dejamos
+[WordPress Website Showcase](https://wordpress.org/showcase/)
+donde podrás encontrar otros casos de uso). Además WordPress es un
+sistema de software libre, gratuito, modular, y compatible con muchos plugins
+y temas, constantemente actualizado y con mejoras gracias a la comunidad de
+desarrolladores. El lenguaje en el que desarrollamos WordPress es PHP,
+que es el lenguaje de código abierto [más popular desde el lado del servidor (79.2%)](https://w3techs.com/technologies/overview/programming_language)
+y se usa principalmente para crear páginas webs dinámicas y aplicaciones.
 
 ## 2. Resumen del proyecto
 
@@ -196,7 +197,7 @@ La manera más fácil de instalar WordPress en tu computadora local es usando
 6. Después de un par de minutos, WordPress debería estar ejecutándose en el
 puerto 80 de tu computadora. Accede en un navegador web a
 [http://localhost](http://localhost) y completa la
-["famosa instalación de cinco minutos"](https://codex.wordpress.org/es:Instalando_Wordpress#La_famosa_.C2.ABInstalaci.C3.B3n_en_5_minutos.C2.BB)
+["famosa instalación de cinco minutos"](https://codex.wordpress.org/es:Instalando_WordPress#La_famosa_.C2.ABInstalaci.C3.B3n_en_5_minutos.C2.BB)
 como administrador de WordPress.
 
 7. [WP-CLI](https://wp-cli.org/) permite automatizar el mantenimiento de
@@ -249,6 +250,6 @@ del [WordPress Plugin Handbook](https://developer.wordpress.org/plugins/).
 * [Getting started with Docker Composer](https://docs.docker.com/compose/gettingstarted/)
 * [PHP Oficial Manual](https://www.php.net/manual/es/)
 * [WordPress Plugin Handbook](https://developer.wordpress.org/plugins/)
-* [How to use React inside a Wordpress application?](https://dev.to/bobman38/how-to-use-react-inside-a-wordpress-application-49i)
+* [How to use React inside a WordPress application?](https://dev.to/bobman38/how-to-use-react-inside-a-wordpress-application-49i)
 * [How to Approach Modern WordPress Development (Part 1)](https://www.toptal.com/wordpress/modern-wordpress-development-pt-1)
 * [How to Approach Modern WordPress Development (Part 2)](https://www.toptal.com/wordpress/modern-wordpress-development-pt-2)
