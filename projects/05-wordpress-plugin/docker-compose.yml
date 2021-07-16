@@ -4,9 +4,9 @@ services:
   db:
     image: mysql:5.7
     volumes:
-      - ./mysql:/var/lib/mysql
+      - db_data:/var/lib/mysql
     ports:
-      - "4306:3306"
+      - "3306:3306"
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: wordpress
@@ -20,8 +20,13 @@ services:
     image: wordpress:latest
     volumes:
       - ./html:/var/www/html
+      - ./php-playground:/var/www/php-playground
+      - ./apache2/ports.conf:/etc/apache2/ports.conf
+      - ./apache2/sites-available:/etc/apache2/sites-available
+      - ./apache2/sites-enabled:/etc/apache2/sites-enabled
     ports:
-      - "8000:80"
+      - "80:80"
+      - "8080:8080"
     restart: always
     environment:
       WORDPRESS_DB_HOST: db:3306
@@ -54,5 +59,4 @@ services:
       WORDPRESS_DB_NAME: wordpress
 volumes:
   db_data: {}
-  wordpress_data: {}
 
