@@ -1,7 +1,7 @@
 # Bootcamp @Laboratoria
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-70-orange.svg?style=flat-square)](#contribuciones)
+[![All Contributors](https://img.shields.io/badge/all_contributors-71-orange.svg?style=flat-square)](#contribuciones)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ![Node.js CI](https://github.com/Laboratoria/bootcamp/workflows/Node.js%20CI/badge.svg)
 
@@ -539,6 +539,9 @@ Muchas gracias a toda esta gente maravillosa ([leyenda de emojis](https://github
     <td align="center"><a href="https://sb.js.org"><img src="https://avatars.githubusercontent.com/u/810823?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Santiago Bernal B</b></sub></a><br /><a href="#content-santiaguf" title="Content">🖋</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/evelisevazquez/"><img src="https://avatars.githubusercontent.com/u/78181638?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Evelise Vazquez</b></sub></a><br /><a href="https://github.com/Laboratoria/bootcamp/pulls?q=is%3Apr+reviewed-by%3Aevelisee" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/thalitagoncalves"><img src="https://avatars.githubusercontent.com/u/61715464?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Thalita Gonçalves</b></sub></a><br /><a href="https://github.com/Laboratoria/bootcamp/pulls?q=is%3Apr+reviewed-by%3Athalitagoncalves" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/oxfist"><img src="https://avatars.githubusercontent.com/u/934679?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrés Quilodrán</b></sub></a><br /><a href="https://github.com/Laboratoria/bootcamp/issues?q=author%3Aoxfist" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
