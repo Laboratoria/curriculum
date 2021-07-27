@@ -1,0 +1,10 @@
+{
+  "name": "roman-numerals",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}

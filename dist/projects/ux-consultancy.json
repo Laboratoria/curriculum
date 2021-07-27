@@ -1,0 +1,12 @@
+{
+  "slug": "ux-consultancy",
+  "repo": "Laboratoria/bootcamp",
+  "path": "projects/04-ux-consultancy",
+  "version": "3.1.0",
+  "parserVersion": "3.0.0",
+  "createdAt": "2021-07-12T22:08:14.082Z",
+  "prefix": 4,
+  "title": "Consultoria UX",
+  "locale": "es-ES",
+  "track": "ux"
+}

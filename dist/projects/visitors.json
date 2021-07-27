@@ -1,0 +1,12 @@
+{
+  "slug": "visitors",
+  "repo": "Laboratoria/bootcamp",
+  "path": "projects/03-visitors",
+  "version": "3.1.0",
+  "parserVersion": "3.0.0",
+  "createdAt": "2021-07-12T22:08:16.754Z",
+  "prefix": 3,
+  "title": "Proyecto de extensión: Registro de Visitantes",
+  "locale": "es-ES",
+  "track": "js"
+}

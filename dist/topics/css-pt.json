@@ -1,0 +1,1478 @@
+{
+  "slug": "css-pt",
+  "createdAt": "2021-07-12T22:08:23.387Z",
+  "title": "CSS",
+  "description": "",
+  "tags": {
+    "secondary": {},
+    "primary": {}
+  },
+  "targetAudience": "",
+  "dependencies": "",
+  "learningObjectives": "",
+  "product": "",
+  "syllabus": {
+    "01-css": {
+      "title": "CSS",
+      "bonus": false,
+      "description": "<p>...</p>\n",
+      "parts": {
+        "00-opening": {
+          "title": "Opening: CSS",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 15,
+          "body": "<h2 id=\"objetivos-de-aprendizagem\">Objetivos de Aprendizagem</h2>\n<p>Nesta unidade aprenderemos:</p>\n<ul>\n<li>Dar estilo ao <code>html</code> com <code>css</code></li>\n</ul>\n<h2 id=\"por-que-aprender-css\">Por que aprender CSS?</h2>\n<p>O desafio que temos neste curso é aprender a criar produtos <strong>interativos</strong> na\nweb. A interação em produtos da web é criada através da programação com\n<code>JavaScript</code> (algo que você aprendeu no curso anterior), mas a estrutura e o\nestilo da web são criados com <code>html</code> e <code>css</code>. Nesta unidade, você aprenderá como\ncriar um site estático que será convertido em uso interativo <code>JavaScript</code>.</p>\n<h2 id=\"guia-de-perguntas-e-conceitos-chave\">Guia de perguntas e conceitos-chave</h2>\n<p>Quando começamos a estudar um novo tópico, é útil ter uma ideia dos conceitos\nmais importantes sobre o que vamos aprender e sobre as principais questões a que\ndevemos prestar atenção particular.</p>\n<p>Aqui está uma série de perguntas que você deve ser capaz de responder no final\ndesta unidade. Use essas perguntas como um guia para orientar seus esforços de\naprendizado. Volte para eles constantemente para validar que você está avançando\nna direção certa. Isso serve como uma \"lista de verificação\" que você marca\nconforme avança.</p>\n<ul>\n<li>O que significa o \"em cascata\" do <code>css</code>? Por que isso é útil? Desenhe um\ndiagrama</li>\n<li>Como funciona a herança <code>css</code>? Desenhe um diagrama.</li>\n<li>O que significa que um elemento <code>html</code> se comporta como <code>block</code>? E como\n<code>inline</code>? Dê exemplos.</li>\n<li>Pensando na analogia de construir um edifício, o que representa <code>html</code> e o que\nrepresenta <code>css</code>?</li>\n<li>Qual é o uso do atributo style dos elementos <code>html</code>? Qual é a maneira correta\nde usá-lo?</li>\n<li>O que é um seletor? O que é um pseudo-seletor?</li>\n<li>O que é <code>box-sizing</code> e para que é usado?</li>\n<li>Desenhe o modelo da caixa e explique-o. Como é o fluxo normal de um documento?\nComo podemos mudar esse fluxo?</li>\n<li>Para que isso funciona <code>positioning</code>? Como isso se parece com <code>float</code>? O que é\ndiferente?</li>\n<li>O que <code>clear</code> e <code>clearfix</code> tem a ver com <code>float</code>?</li>\n<li>Por que <code>clearfix</code> é considerado um \"hack\"? Para que serve? Como se usa?</li>\n<li>O que é o colapso da margem? Explique com um exemplo e um desenho</li>\n</ul>\n",
+          "order": 0,
+          "durationString": "15min"
+        },
+        "01-intro-css": {
+          "title": "CSS",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 240,
+          "embeds": [
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=CJtJbWs3qjQ",
+              "id": "CJtJbWs3qjQ"
+            }
+          ],
+          "body": "<h2 id=\"objetivos-de-aprendizagem\">Objetivos de Aprendizagem</h2>\n<ul>\n<li>Entender o que é CSS e como funciona</li>\n<li>Conhecer as diferentes maneiras de adicionar estilos à sua web</li>\n<li>Aprender a sintaxe CSS</li>\n<li>Aprender o que são os seletores e quais são os seletores mais usados</li>\n<li>Entender como funcionam as regras de casacata e herança do CSS</li>\n<li>Aprender os valores usuais de CSS e suas unidades</li>\n</ul>\n<h2 id=\"o-que-é-css-e-como-funciona\">O que é CSS e como funciona?</h2>\n<p>CSS significa <em>Cascading Style Sheets</em> (em português: folhas de estilo em\ncascata). É uma linguagem usada para definir e criar a apresentação de um\ndocumento escrito em HTML. CSS descreve como os elementos na estrutura do\ndocumento devem ser apresentados na tela. Com CSS, damos estilo e design à\npáginas da web. Nós mudamos cores, tamanhos, espaços, adicionamos animações,\netc.</p>\n<p>Existem três opções para incluir CSS em um documento HTML:</p>\n<h3 id=\"1-css-inline\">1. CSS Inline</h3>\n<p>Já vimos como adicionar estilos aos nossos elementos HTML com o atributo\n<em>style</em>. Por exemplo:</p>\n<pre><code class=\"language-html\">&lt;h1 style=\"color: blue;\nbackground-color: yellow;\nborder: 1px solid black;\"&gt;Olá Mundo!&lt;/h1&gt;\n</code></pre>\n<p>No navegador, o título anterior ficaria assim:</p>\n<p><img src=\"https://user-images.githubusercontent.com/11894994/57649406-851c0780-759e-11e9-96b9-e7ff01870593.png\" alt=\"Estilo Inline\"></p>\n<p>Esta maneira de adicionar CSS é chamada de <strong>CSS Inline</strong>, mas não é muito\nrecomendada. Sua manutenção é complicada, já que poderíamos ter que atualizar as\nmesmas informações várias vezes ao longo do documento. Além disso, estamos\nmisturando informações de estilo com informações HTML estruturais, tornando o\nCSS difícil de ler e entender. Manter os diferentes tipos de código separados e\npuros facilitará a tarefa para aqueles que posteriormente trabalharão no código.\nLembre-se de que você deve sempre pensar em organizar seu código de uma maneira\nque torne mais fácil para os outros entenderem o que você está fazendo.</p>\n<h3 id=\"2-css-no-head\">2. CSS no head</h3>\n<p>Outra opção é colocar os estilos dentro de um elemento html <code>&lt;style&gt;</code> que\ncolocamos no <code>head</code>. Por exemplo, para representar os mesmos estilos do <code>h1</code>\nanterior, teríamos o seguinte:</p>\n<pre><code class=\"language-html\">&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n  &lt;head&gt;\n    &lt;title&gt;Entendendo CSS&lt;/title&gt;\n    &lt;style&gt;\n      h1 {\n        color: blue;\n        background-color: yellow;\n        border: 1px solid black;\n      }\n    &lt;/style&gt;\n  &lt;/head&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Olá Mundo!&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</code></pre>\n<p>Este método também é ineficiente. O que acontece se tivermos estilos semelhantes\nem outras páginas do meu site? Eu teria que repetir os estilos em cada página. E\nlembre-se que não gostamos de nos repetir: DRY! :)</p>\n<h3 id=\"3-folha-de-estilos-externa-css\">3. Folha de estilos externa CSS</h3>\n<p>A maneira ideal de adicionar estilos ao seu sítio da Web é ter um arquivo CSS\nseparado do arquivo HTML. Todos os estilos estão incluídos neste arquivo CSS\nexterno, que as páginas HTML vinculam usando a tag html <code>&lt;link&gt;</code>.</p>\n<p>Vale ressaltar que este link externo pode ser um arquivo que está no seu\ncomputador ou um link de um arquivo externo da Internet (um endereço HTTP).</p>\n<p>No caso do nosso exemplo anterior com os estilos para ele <code>h1</code>, teríamos dois\narquivos:</p>\n<h4 id=\"arquivo-indexhtml\">Arquivo <code>index.html</code></h4>\n<pre><code class=\"language-html\">&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n  &lt;head&gt;\n    &lt;title&gt;Entendendo CSS&lt;/title&gt;\n    &lt;!--Link para o arquivo que está no mesmo computador--&gt;\n    &lt;link rel=\"stylesheet\" href=\"style.css\"&gt;\n    &lt;!--Link para o arquivo que está na internet--&gt;\n    &lt;link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\" integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\"&gt;\n  &lt;/head&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Olá, Mundo!&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</code></pre>\n<h4 id=\"arquivo-stylecss\">Arquivo <code>style.css</code></h4>\n<pre><code class=\"language-css\">h1 {\n  color: blue;\n  background-color: yellow;\n  border: 1px solid black;\n}\n</code></pre>\n<p>A tag <code>&lt;link&gt;</code> tem o atributo <code>rel</code> para indicar o relacionamento do documento\nvinculado ao atual. O uso mais comum desse atributo é especificar o link para\numa folha de estilos externa: o atributo <code>rel</code> é definido com o valor\n<code>stylesheet</code>. O atributo <code>href</code> é definido com o caminho para a folha de estilo\nexterna para formatar a página. No exemplo acima, uma vez que o arquivo para\nligação está em nosso próprio ambiente, nós simplesmente colocar o nome do\narquivo: <code>style.css</code>.</p>\n<h2 id=\"sintaxe-css\">Sintaxe CSS</h2>\n<p>Como vimos na lição anterior, para especificar o estilo, usamos os pares\n<code>propriedades : valores</code>.</p>\n<ul>\n<li>Propriedades: são identificadores que indicam às pessoas qual recurso de\nestilo (largura, cor de fundo, fonte) queremos alterar.</li>\n<li>Valores: cada propriedade recebe um valor, que indica como queremos alterar\nessa característica (por exemplo, qual fonte, qual largura ou qual cor\nusar).</li>\n</ul>\n<p>O par formado por uma propriedade e um valor é chamado de <strong>instrução</strong> CSS.\nVárias instruções juntas formam um <strong>bloco de instruções</strong>. Para definir para\nqual elemento da página da web o estilo especificado pelo bloco de declaração\ndeve ser aplicado, usamos um <strong>seletor</strong>. O seletor informa ao navegador para\nqual elemento (ou elementos) de uma Web deve aplicar um determinado estilo.\nPor exemplo, um seletor pode ser um título, um parágrafo, uma imagem etc. Blocos\nde declaração CSS combinados com seletores formam <strong>regras CSS</strong>.</p>\n<p>Por exemplo, uma regra de css seria:</p>\n<pre><code class=\"language-css\">seletor\n|\np { color:red; font-size:15px ; }\n      |    |       |      |\n     prop  valor  prop   valor\n     ___________  ______________\n          |             |\n      declaração    declaração\n     ___________________________\n                 |\n         bloco de instruções\n\n/ * exemplo de uma regra css * /\n</code></pre>\n<p>A convenção para representar o exemplo anterior é a seguinte (é mais fácil ler\nquando colocamos as instruções uma abaixo da outra):</p>\n<pre><code class=\"language-css\">p {\n   color: red;\n   font-size: 15px ;\n}\n</code></pre>\n<p>Em resumo, o bloco de instruções indica o que precisa ser feito e o seletor\nindica a quem deve ser aplicado. Portanto, os seletores são essenciais para\naplicar corretamente estilos CSS em uma página. Várias regras CSS podem ser\naplicadas ao mesmo elemento HTML e cada regra CSS pode ser aplicada a um número\nilimitado de elementos.</p>\n<h2 id=\"seletores\">Seletores</h2>\n<p>Existem vários seletores. Leia a documentação a seguir para aprender mais sobre\nseletores:</p>\n<ul>\n<li><a href=\"https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/CSS_basico\" target=\"_blank\">CSS Básico -\nMDN</a></li>\n<li><a href=\"https://developer.mozilla.org/pt-BR/docs/Web/CSS/Seletores_CSS\" target=\"_blank\">Seletores -\nMDN</a></li>\n<li><a href=\"http://www.w3im.com/pt/css/css_combinators.html\" target=\"_blank\">Combinação de Seletores-\nW3im</a></li>\n<li><a href=\"https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes\" target=\"_blank\">Pseudo Seletores -\nMDN</a></li>\n</ul>\n<p>No final da sua pesquisa, você deve saber o que é e como usar:</p>\n<ul>\n<li>Seletor universal</li>\n<li>Seletor de elementos (de tipo)</li>\n<li>Seletores de classe</li>\n<li>Seletores ID</li>\n<li>Seletor descendente</li>\n<li>Seletor filho</li>\n<li>Seletores de atributo</li>\n</ul>\n<h2 id=\"pseudo-seletores\">Pseudo-seletores</h2>\n<p>Os pseudo seletores são palavras chaves que alteram o estado de um elemento. Os\npseudo seletores não são encontrados sozinhos. Estão sempre acompanhados de um\nseletor e são precedidos por <code>:</code>. Os pseudo seletores ou pseudo classes\napresentam a seguinte síntaxe:</p>\n<pre><code class=\"language-css\">button:hover {\n  color: red;\n}\n</code></pre>\n<h3 id=\"hover\">:hover</h3>\n<p>O <code>:hover</code> é um pseudo seletor que altera o estilo de um elemento quando passamos\no mouse em cima dele. O uso desse pseudo seletor é bastante comum. Não\nprecisamos ir muito longe para ver ele sendo usado na prática. Aqui mesmo no LMS\nao realizarmos o login nos deparamos com o seguinte:</p>\n<p><img src=\"https://user-images.githubusercontent.com/11894994/57649699-489cdb80-759f-11e9-9af3-9159fa166124.gif\" alt=\"hover\"></p>\n<p>Note que ao passar do mouse os elementos adiquirem estilos novos. Isso é feito\natravés do <code>:hover</code>.</p>\n<h3 id=\"active\">:active</h3>\n<p>Esse pseudo seletor é utilizado para alterar o estado de links ativos. Mas o que\nseriam links ativos? Os links se tornam ativos no momento do clique.</p>\n<pre><code class=\"language-css\">button {\n  color: black;\n  background-color: yellow;\n}\n\nbutton:active {\n  color: white;\n  background-color: #ff008f;\n}\n</code></pre>\n<p><img src=\"https://user-images.githubusercontent.com/11894994/57649729-59e5e800-759f-11e9-812e-dfaf0184c0f8.gif\" alt=\"active\"></p>\n<p>Perceba que no exemplo, o estilo do botão é apenas alterado quando estamos\nclicando. Quando não está mais ocorrendo o evento de clique o botão assume o\nestilo aplicado sem o pseudo seletor <code>:active</code>.</p>\n<h3 id=\"focus\">:focus</h3>\n<p>O <code>:focus</code> é um pseudo seletor que se aplica particulamente aos elementos que\nrecebem eventos como entrada de texto, ou outros inputs de usuário, como por\nexemplo, os inputs e textareas.</p>\n<pre><code class=\"language-css\">input:focus {\n  background-color: yellow;\n}\n</code></pre>\n<p><img src=\"https://user-images.githubusercontent.com/11894994/57649768-6f5b1200-759f-11e9-9a09-d62f500aaa5b.gif\" alt=\"focus\"></p>\n<h2 id=\"regras-de-cascata-e-herança\">Regras de cascata e herança</h2>\n<p>Como vimos, regras CSS diferentes podem ser aplicadas a um número ilimitado de\nelementos. Isso pode gerar estilos que entram em conflito: instruções com\ndiferentes estilos afetando o mesmo elemento. Felizmente O CSS possui um\nmecanismo conhecido como <strong>cascata</strong> que rege como os estilos interagem e quais\nestilos têm preferência quando há um conflito. Na verdade, esse mecanismo em\ncascata é a razão pela qual o CSS tem o seu nome:  <em>Cascading Style Sheets</em> (em\nportuguês: folhas de estilo em cascata).</p>\n<p>Outra característica do CSS é a <strong>herança</strong> de estilos. Herança é o processo\npelo qual algumas instruções CSS aplicadas a um elemento passam automaticamente\npara os elementos que estão aninhados (seus descendentes).</p>\n<p>Leia o artigo a seguir para entender os conceitos de cascata e herança em CSS:</p>\n<ul>\n<li><a href=\"https://medium.com/emanuelg-blog/entendendo-a-preced%C3%AAncia-de-estilo-em-css-especificidade-heran%C3%A7a-e-efeito-cascata-a437c4929173\" target=\"_blank\">Especificidade, Herança e Efeito Cascata - Emanuel G de\nSouza</a></li>\n</ul>\n<p>Quando você terminar sua pesquisa, você deve ser capaz de entender os 3 fatores\nque determinam o mecanismo de cascata. Em particular, responda o seguinte:</p>\n<ul>\n<li>Qual ordem prevalece para atribuir um estilo? a última? a primeira?</li>\n<li>O que significa que um seletor é mais específico que outro? Dê um exemplo;</li>\n<li>O estilo se aplica com mais ou menos especificidade?</li>\n<li>Como a especificidade é calculada?</li>\n<li>O que isso significa <code>!important</code>? Por que <strong>não</strong> devemos usá-lo a menos que\nseja estritamente necessário?</li>\n<li>Todos os estilos em CSS são herdados? Por quê?</li>\n<li>O que é e para que serve <code>inherit</code>?</li>\n</ul>\n<h2 id=\"valores-e-unidades\">Valores e unidades</h2>\n<p>Existe uma grande variedade de valores de CSS, que podem ser expressos com\ndiferentes unidades. Por exemplo: a altura, largura e margem de um elemento\npodem ser definidas em milímetros, centímetros, polegadas ou pixels. A cor pode\nser definida com palavras-chave (como <code>red</code>), com valores ou com o padrão RGB.</p>\n<p>Faça sua pesquisa dos recursos a seguir e aprenda as várias maneiras de\nrepresentar valores em CSS:</p>\n<ul>\n<li><a href=\"https://helio.me/quais-medidas-css-usar-e-quando-usar-8dfeed9f42f5\" target=\"_blank\">Unidades e\nmedidas</a></li>\n<li><a href=\"https://www.w3.org/Style/Examples/007/units.pt_BR.html\" target=\"_blank\">Unidades - W3</a></li>\n<li><a href=\"https://developer.mozilla.org/pt-BR/docs/Web/CSS/color_value\" target=\"_blank\">Cores - MDN</a></li>\n<li><a href=\"https://www.w3schools.com/colors/colors_mixer.asp\" target=\"_blank\">Gerador de Cores - W3</a></li>\n</ul>\n<p>No final desta leitura, você deve saber como responder às seguintes perguntas:</p>\n<ul>\n<li>Dê um exemplo de uma unidade absoluta e uma relativa</li>\n<li>Para que serve <code>line-height</code>?</li>\n<li>Para que servem valores em porcentagens? Dê um exemplo</li>\n<li>O tamanho de fonte padrão que os navegadores usam antes de aplicar CSS é...</li>\n<li>Que unidade é <code>#ff0000</code>? Que cor representa?</li>\n<li>RGB é uma função?</li>\n<li>Que cor representa <code>rgb(0,0,255)</code>?</li>\n<li>Como damos opacidade à cor?</li>\n<li>Quando os valores são usados sem unidades?</li>\n<li>Quais são as recomendações gerais para o uso de unidades?</li>\n</ul>\n<h2 id=\"comentários-em-css\">Comentários em CSS</h2>\n<p>Como é uma boa prática comentar seu código <code>html</code> e seu código <code>js</code>, é\nrecomendável comentar seu CSS. Comentários em CSS são feitos da seguinte forma:</p>\n<ul>\n<li>O começo é indicado pelos caracteres <code>/*</code>. O fim do comentário é indicado por\n<code>*/</code></li>\n</ul>\n<p>Vejamos um exemplo:</p>\n<pre><code class=\"language-text\">/ * Comentário no CSS * /\n</code></pre>\n<h2 id=\"continuando-a-página-de-grace-hopper-da-wikipedia\">Continuando a página de Grace Hopper da wikipedia</h2>\n<p>Agora que você sabe mais sobre a profundidade CSS você pode acompanhar a\nPalomita no vídeo a seguir no qual ela termina de desenvolvar a página de Grace\nHopper, usando uma estrutura semântica e todos os benefícios do CSS para\nrepresentar o projeto o mais fiel possível.</p>\n<p><div class=\"iframe-container\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/CJtJbWs3qjQ?autoplay=0\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"true\"></iframe></div></p>\n",
+          "order": 1,
+          "durationString": "4h"
+        },
+        "02-boxmodel-and-display": {
+          "title": "Modelo de Caixa e Display",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 60,
+          "body": "<h2 id=\"o-modelo-da-caixa\">O modelo da caixa</h2>\n<p>É hora de conhecer um dos fundamentos mais importantes do CSS: <code>box model</code>\n(modelo da caixa). É muito fácil, mas entendê-lo bem é vital para poder fazer\num bom layout do site.</p>\n<p><img src=\"https://camo.githubusercontent.com/9ea328b7d3e738e996f6a9e0f9482b5a1234c0aa/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f65313030316466376432313861396138613836373064383836323866306363356f2e706e67\" alt=\"modelo de caixa\"></p>\n<h3 id=\"o-que-é-o-modelo-da-caixas\">O que é o modelo da caixas?</h3>\n<p>Retornando à nossa fonte MDN, no capítulo tutorial do <a href=\"https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model\" target=\"_blank\">modelo da\ncaixa</a>,\nela explica o seguinte:</p>\n<blockquote>\n<p>O modelo de caixa é a base do design da web - cada elemento é representado\ncomo uma caixa retangular, com seu conteúdo, preenchimento (espaço interno),\nborda e margem construídas uma sobre a outra, como as camadas de uma cebola. O\nnavegador, para interpretar o design de uma página, processa os estilos que\nserão aplicados a cada caixa, o tamanho das camadas da cebola e a localização\nde algumas caixas em relação a outras. Antes de entender como criar designs\nCSS, precisamos entender o modelo de caixas - que é o que veremos neste\nartigo.</p>\n</blockquote>\n<p>Em outras palavras, o modelo de caixa CSS é essencialmente uma caixa retangular\nque envolve cada elemento HTML. Cada vez que uma tag HTML é inserida, é criada\numa nova caixa, que inclui o conteúdo desse elemento.</p>\n<p>Como um exemplo, temos o seguinte quadro, que mostra três caixas retangulares\nque são criados pelos três tags HTML usados: <code>&lt;p&gt;</code>, <code>&lt;strong&gt;</code> e novamente\n<code>&lt;p&gt;</code>.</p>\n<p><img src=\"https://user-images.githubusercontent.com/11894994/57650283-daf1af00-75a0-11e9-9b8b-25eaa772a485.png\" alt=\"modelo de caixa\"></p>\n<h3 id=\"elementos-que-compõem-o-modelo-de-caixas\">Elementos que compõem o modelo de caixas</h3>\n<p>As partes que compõem cada caixa consistem no <strong>conteúdo real</strong>, o\n<strong>preenchimento</strong>, as <strong>bordas</strong> e as <strong>margens</strong>; podemos ver a imagem abaixo\nque ilustra o modelo de caixa:</p>\n<p><img src=\"https://camo.githubusercontent.com/59ebe79e4a36ae634e28968835b896c40370816b/687474703a2f2f696d6167652e6962622e636f2f63515a7854772f6d6f64656c6f5f44655f43616a612e706e67\" alt=\"modelo de caixa\"></p>\n<p>Explicação de cada parte que compõe cada caixa:</p>\n<ul>\n<li><strong>Content (_conteúdo_):</strong> Este é o conteúdo HTML do elemento (as palavras\nde um parágrafo, uma imagem, o texto de uma lista de elementos, etc.)</li>\n<li><strong>Padding (_preenchimento_):</strong> espaço livre opcional entre o conteúdo e a\nborda.</li>\n<li><strong>Border (_borda_):</strong> Linha que inclui o conteúdo e o preenchimento.</li>\n<li><strong>Margin (_margem_):</strong> separação opcional entre a caixa e o resto das caixas\nadjacentes.</li>\n</ul>\n<h3 id=\"propriedades-dos-elementos-da-caixa\">Propriedades dos elementos da caixa</h3>\n<p>CSS define 4 propriedades para controlar os elementos da caixa (com exceção de\n<em>width</em> e  _height_).</p>\n<ul>\n<li><strong>Top</strong>: lado superior</li>\n<li><strong>Right</strong>: lado direito</li>\n<li><strong>Bottom</strong>: lado inferior</li>\n<li><strong>Left</strong>: lado esquerdo</li>\n</ul>\n<p><img src=\"https://camo.githubusercontent.com/351982c1d9ce3a34111ee1fb238c3408be735ba8/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f34366364393962383561646561376633313036373030636439666661343733666f2e706e67\" alt=\"modelo de caixa\"></p>\n<h2 id=\"preenchimento-borda-e-margem\">Preenchimento, Borda e Margem</h2>\n<h3 id=\"preenchimento\">Preenchimento</h3>\n<p><em>Padding</em> é o <strong>preenchimento</strong>, ou seja, o espaço livre opcional entre o\n<em>conteúdo</em> e a <em>borda</em>.</p>\n<p><img src=\"https://user-images.githubusercontent.com/11894994/57650391-12605b80-75a1-11e9-9aec-7c643f9a802b.png\" alt=\"preenchimento\"></p>\n<p>Seu valor pode ser definido em: <strong>unidades de medida</strong>, <strong>porcentagem</strong> ou com o\nvalor <code>inherit</code> (especifica que o <em>padding</em> deve ser herdado do elemento pai).</p>\n<p>O CSS define quatro propriedades para controlar cada um dos espaços de\npreenchimento horizontal e vertical de um elemento:</p>\n<ul>\n<li><code>padding-top</code>: preenchimento superior</li>\n<li><code>padding-right</code>: preenchimento direito</li>\n<li><code>padding-bottom</code>: preenchimento inferior</li>\n<li><code>padding-left</code>: preenchimento esquerdo</li>\n</ul>\n<p>Também podemos usar a propriedade do tipo <em>shorthand</em> chamada de <code>padding</code>para\ndefinir os quatro preenchimentos de um elemento simultaneamente.</p>\n<p>Isso significa que ele suporta entre um e quatro valores, com o seguinte\nsignificado:</p>\n<ul>\n<li><p>Se apenas <strong>um valor</strong> for indicado:</p>\n<ul>\n<li><strong>Todos</strong> os preenchimentos têm esse valor</li>\n</ul>\n<pre><code class=\"language-css\">div {\n   padding: 2em;\n}\n\n/* Todos os preenchimentos são 2em */\n</code></pre>\n</li>\n<li><p>Se <strong>dois valores</strong> forem indicados:</p>\n<ul>\n<li>O <strong>primeiro</strong> é atribuído ao preenchimento <strong>superior e inferior</strong></li>\n<li>O <strong>segundo</strong> é atribuído à <strong>direita e esquerda</strong></li>\n</ul>\n<pre><code class=\"language-css\">div {\n   padding: 1em 2em;\n}\n\n/*\n * Superior e inferior = 1em,\n * Esquerda e direita = 2em\n */\n</code></pre>\n</li>\n<li><p>Se <strong>três valores</strong> são indicados :</p>\n<ul>\n<li>O <strong>primeiro</strong> é atribuído ao preenchimento <strong>superior</strong></li>\n<li>O <strong>segundo</strong> valor é atribuído à <strong>direita e esquerda</strong></li>\n<li>O <strong>terceiro</strong> é atribuído ao preenchimento <strong>inferior</strong></li>\n</ul>\n<pre><code class=\"language-css\">div {\n   padding: 1em 2em 3em;\n}\n\n/*\n * Superior = 1em, Direita = 2em,\n * Inferior = 3em, Esquerda = 2em\n */\n</code></pre>\n</li>\n<li><p>Se os <strong>quatro valores</strong> forem indicados :</p>\n<ul>\n<li><p>Os preenchimentos serão atribuídos em <strong>ordem horária</strong>, da seguinte\nmaneira:</p>\n<p>superior, direita, inferior e esquerda.</p>\n</li>\n</ul>\n<pre><code class=\"language-css\">div {\n   padding : 1em 2em 3em 4em ;\n}\n\n/*\n * Superior = 1em, Direita = 2em,\n * Inferior = 3em, Esquerda = 4em\n */\n</code></pre>\n</li>\n</ul>\n<h3 id=\"border\">Border</h3>\n<p>É a <strong>linha</strong> que contém o <em>conteúdo</em> e o <em>preenchimento</em>. É aplicável a todos\nos elementos.</p>\n<p><img src=\"https://user-images.githubusercontent.com/11894994/57650430-2ad07600-75a1-11e9-9b78-e770ee6206bf.png\" alt=\"borda\"></p>\n<p>Para cada borda você pode definir sua largura ou espessura, sua cor e seu\nestilo, portanto, o CSS  define diferentes propriedades relacionadas às bordas.</p>\n<h4 id=\"largura-ou-espessura\">Largura ou espessura</h4>\n<p>Define a <strong>espessura</strong> de cada uma das quatro bordas dos elementos.</p>\n<p>A largura das bordas é indicada por uma <strong>unidade de medida</strong> ; por\npalavras-chave <code>thin</code> (borda fina), <code>medium</code> (borda normal) e <code>thick</code>\n(borda larga); ou o valor <code>inherit</code>.</p>\n<h4 id=\"estilo\">Estilo</h4>\n<p>O <strong>estilo</strong> das bordas só pode ser indicado por algumas das palavras reservadas\ndefinidas pelo CSS. Como o valor padrão dessa propriedade é <code>none</code> (sem\nborda), os elementos não mostram nenhuma borda visível, a menos que um estilo\nde borda seja explicitamente definido.</p>\n<p>Na imagem a seguir podemos ver os diferentes estilos de borda e a <em>palavra\nreservada</em> para cada um deles:</p>\n<p><img src=\"https://camo.githubusercontent.com/5e32931f4471bd9bea864c69dae9c77765b3e925/68747470733a2f2f6c656e6775616a656373732e636f6d2f702f6373732f70726f70696564616465732f626f726465722d7374796c65732e706e67\" alt=\"estilos das bordas\"></p>\n<h4 id=\"cor\">Cor</h4>\n<p>Define a <strong>cor</strong> de cada uma das quatro bordas dos elementos.</p>\n<p>Os valores que podem tomar são: <a href=\"https://www.htmlprogressivo.net/2014/02/Cores-CSS-Propriedade-color-RGB-Hexadecimal-nome-Tutorial.html\" target=\"_blank\"><strong>valores de\ncor</strong></a>,\n<code>transparent</code> ou <code>inherit</code>.</p>\n<h4 id=\"propriedade-shorthand-border\">Propriedade shorthand \"border\"</h4>\n<p>CSS define a propriedade de tipo <em>shorthand</em> para definir o valor de todos os\natributos de todas as bordas de forma direta: <code>border</code>.</p>\n<p>Seu valor pode ser definido em: <strong>largura da borda + estilo da borda + cor da\nborda</strong> ou <code>inherit</code> (especifica que a borda deve ser herdada do elemento\npai). Vejamos o seguinte exemplo:</p>\n<pre><code class=\"language-css\">div {\n   border: 1px solid blue;\n}\n</code></pre>\n<blockquote>\n<p>Desta forma, com a propriedade <code>border</code>, atribuímos a <strong>largura</strong>, o\n<strong>estilo</strong> e a <strong>cor</strong> da borda para todos os quatro lados da caixa do\nelemento <code>div</code>.</p>\n</blockquote>\n<p>Além disso, temos a possibilidade de atribuir os valores (largura, estilo e\ncor) a um determinado lado da seguinte maneira:</p>\n<pre><code class=\"language-css\">div {\n  border-top : 1px solid blue;\n  border-right: 1px solid blue;\n  border-bottom: 1px solid blue;\n  border-left: 1px solid blue;\n}\n</code></pre>\n<blockquote>\n<p><a href=\"https://javabeat.net/border-radius-box-shadow-css3/\" target=\"_blank\">Saiba mais sobre\nbordas.</a></p>\n</blockquote>\n<h3 id=\"margin-margem\">Margin (<em><strong>margem</strong></em>)</h3>\n<p>É a <strong>separação opcional</strong> existente entre a caixa e o resto das caixas\nadjacentes.</p>\n<p><img src=\"https://i.imgur.com/HaprJW7.png\" alt=\"margem\"></p>\n<p>Seu valor pode ser definido em: <strong>Unidades de medida</strong>, <strong>porcentagem</strong> ou\n<code>inherit</code> (especifica que a margem deve ser herdada do elemento pai).</p>\n<p>CSS define quatro propriedades para controlar cada um dos espaços de margem\nhorizontal e vertical de um elemento:</p>\n<ul>\n<li><code>margin-top</code>: margem superior</li>\n<li><code>margin-right</code>: margem direita</li>\n<li><code>margin-bottom</code>: margem inferior</li>\n<li><code>margin-left</code>: margem esquerda</li>\n</ul>\n<p>Também podemos usar a propriedade de tipo \"<em>shorthand</em>\" <code>margin</code> para definir as\nquatro margens de um elemento simultaneamente. Isso significa que ele admite\nentre um e quatro valores, assim como a propriedade <code>padding</code>, que vimos\nanteriormente.</p>\n<pre><code class=\"language-css\">div {\n   margin: 5em  4em  3em  2em;\n}\n\n/*\n * Superior = 5em, Direita = 4em,\n * Inferior = 3em, Esquerda = 2em\n */\n</code></pre>\n<h3 id=\"outras-propriedades\">Outras propriedades</h3>\n<h4 id=\"background-image-imagem-de-fundo\">Background image (imagem de fundo)</h4>\n<p>É a imagem que é exibida por trás do <em>conteúdo</em> e o espaço do <em>preenchimento</em>.</p>\n<h4 id=\"background-color-cor-de-fundo\">Background color (cor de fundo)</h4>\n<p>É a cor que é exibida atrás do <em>conteúdo</em> e o espaço do <em>preenchimento</em>.</p>\n<blockquote>\n<p>Padding e Margin são transparentes, o espaço ocupado pelo preenchimento mostra\na imagem ou a cor de fundo (se elas estiverem definidas) e no espaço ocupado\npela margem a imagem ou a cor de fundo de seu elemento pai é exibida (se\nforem definidos). Se uma caixa define uma cor e uma imagem de fundo, a imagem\ntem mais prioridade e é a que é exibida.</p>\n</blockquote>\n<h2 id=\"largura-e-altura\">Largura e Altura</h2>\n<h3 id=\"width-largura\">Width (<em>largura</em>)</h3>\n<p>Controla a largura da caixa ou um elemento.</p>\n<p><img src=\"https://user-images.githubusercontent.com/11894994/57650537-6a975d80-75a1-11e9-92ea-02d5fca1aa15.png\" alt=\"largura\"></p>\n<p>O seu valor pode ser definido em: <strong>unidades de medida</strong>, <strong>porcentagem</strong>,\n<code>auto</code> ou <code>inherit</code>. Sendo como valor inicial <code>auto</code>. A propriedade <strong>width</strong>\nnão suporta valores negativos e os valores percentuais são calculados a partir\nda largura de seu elemento pai.</p>\n<pre><code class=\"language-css\">div {\n   width: 200px ;\n}\n</code></pre>\n<h3 id=\"height-altura\">Height (<em>altura</em>)</h3>\n<p>Controla a altura da caixa ou um elemento.</p>\n<p><img src=\"https://user-images.githubusercontent.com/11894994/57650560-76831f80-75a1-11e9-92cb-644752f5ed93.png\" alt=\"altura\"></p>\n<p>Seu valor pode ser definido em: <strong>Unidades de Medida</strong>, <strong>porcentagem</strong>, <code>auto</code>\nou <code>inherit</code>. Sendo como valor inicial <code>auto</code>. Como em <em>width</em>, a propriedade\n<strong>height</strong> não suporta valores negativos. Se uma <strong>porcentagem</strong> for indicada, a\naltura do elemento pai será tomada como referência.</p>\n<pre><code class=\"language-css\">div {\n   height: 400px;\n}\n</code></pre>\n<h2 id=\"box-sizing\">Box sizing</h2>\n<p>A propriedade <code>box-sizing</code> é usada para informar ao navegador quais devem ser as\npropriedades de tamanho (largura e altura).</p>\n<p>Também indicamos se queremos incluir o preenchimento, a borda e/ou a margem.</p>\n<h3 id=\"valores\">Valores</h3>\n<h4 id=\"valor-content-box\">Valor \"content-box\"</h4>\n<p>Para o valor <code>content-box</code> as propriedades <em>width</em> e <em>height</em> incluem apenas o\nconteúdo, elas não incluem o <em>padding</em>, <em>border</em> ou <em>margin</em>. Este é o valor\npadrão.</p>\n<pre><code class=\"language-css\">div {\n   box-sizing: content-box;\n}\n</code></pre>\n<p><img src=\"https://camo.githubusercontent.com/b47d9eaa6f87d7dd118ecc89a2b7b740404b7e67/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f39393538656561303032366636643930616531636439626530663437663265626f2e706e67\" alt=\"content-box\"></p>\n<h4 id=\"valor-border-box\">Valor \"border-box\"</h4>\n<p>Para o valor <code>border-box</code> as <em>propriedades width</em> e <em>height</em> incluem <em>padding</em> e\n<em>border</em>, mas não <em>margin</em>.</p>\n<pre><code class=\"language-css\">div {\n   box-sizing: border-box;\n}\n</code></pre>\n<p><img src=\"https://camo.githubusercontent.com/55fe809da8e037eed91bf118eaaed6ba27eb3829/687474703a2f2f696d6167652e6962622e636f2f6e41626354772f626f726465725f626f782e706e67\" alt=\"border-box\"></p>\n<blockquote>\n<p>Também podemos usar o valor <code>inherit</code>, que é o valor que herda essa\npropriedade de seu elemento pai.</p>\n</blockquote>\n<h2 id=\"display\">Display</h2>\n<h3 id=\"o-que-é-a-propriedade-display\">O que é a propriedade <em>display</em>?</h3>\n<p>Estabelece o tipo de caixa gerada por um elemento.\n<img src=\"https://camo.githubusercontent.com/184399b861f114f11d1af8295354091b5b570dde/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f37666664346330633333666166623464383938613136613839333561303639376f2e706e67\" alt=\"display\"></p>\n<h3 id=\"valores-1\">Valores</h3>\n<h4 id=\"valor-inline\">Valor \"Inline\"</h4>\n<p>A propriedade <code>display: inline</code> faz com que o elemento tenha como natureza se\nposicionar em linha, ou seja, um elemento é colocado ao lado do outro e,\nportanto, ocupa apenas o espaço necessário para mostrar seu conteúdo:</p>\n<p><img src=\"https://camo.githubusercontent.com/0091dbe812aea6ab13f3aea0c048b307d236ac7e/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f34366464633864623661646463616332356161663564316237393237353233326f2e706e67\" alt=\"inline\"></p>\n<p>Suas características são:</p>\n<ul>\n<li>Ajusta-se ao fluxo do texto</li>\n<li>Não pula para a próxima linha</li>\n<li>Você pode aplicar a propriedade <code>white-space</code></li>\n<li>Ignorará as margens <em>top</em> e <em>bottom</em>, só é possível pode utilizar <em>left</em> e\n<em>right</em> e qualquer <em>padding</em></li>\n<li>Se a propriedade <em>floating</em> for usada, elas se convertem em <code>block</code></li>\n<li>Você pode aplicar a propriedade <code>vertical-align</code></li>\n</ul>\n<h4 id=\"valor-block\">Valor \"block\"</h4>\n<p>A propriedade <code>display: block</code> faz com que o elemento tenha uma natureza\nposicionada em blocos, para que sempre inicie em uma nova linha e ocupe todo o\nespaço disponível na linha, mesmo que seu conteúdo não ocupe todo o site:</p>\n<p><img src=\"https://camo.githubusercontent.com/949a1bd1cbf2d1fc40fd17d3e56b81c16f595363/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f30613762323138346165373635373530653339323961663634383234373362666f2e706e67\" alt=\"block\"></p>\n<p>Suas características são:</p>\n<ul>\n<li>Se não houver largura definida, eles se expandem para preencher o espaço do\nseu contêiner pai</li>\n<li>Eles podem ter margens e preenchimentos</li>\n<li>Se a altura não for definida, elas crescerão para conter seus filhos</li>\n<li>Por padrão, faz uma quebra de linha</li>\n<li>Ignoram a propriedade <code>vertical-align</code></li>\n</ul>\n<h4 id=\"valor-inline-block\">Valor \"inline-block\"</h4>\n<p>A propriedade <code>display: inline-block</code> combina o melhor dos dois mundos, fazendo\ncom que os elementos se posicionem em linha, mas mantendo sua natureza de bloco,\nou seja, eles podem ser alinhados:</p>\n<p><img src=\"https://camo.githubusercontent.com/49ca770293bb31c21cb1713524f11e80702daf56/68747470733a2f2f666f746f732e73756265666f746f732e636f6d2f37383932663037363339313561353836353238643336353539643736613435316f2e706e67\" alt=\"inline-block\"></p>\n<h4 id=\"valor-none\">Valor \"none\"</h4>\n<p>A propriedade <code>display: none</code> remove o elemento para que ele não seja exibido na\ntela.</p>\n<h4 id=\"qual-é-a-diferença-entre-display-none-e-visibility-hidden\">Qual é a diferença entre \"display: none\" e \"visibility: hidden\"?</h4>\n<p>Ambos os atributos permitem \"ocultar\" um elemento no navegador. No entanto, há\numa diferença muito importante:</p>\n<ul>\n<li><p><code>display: none</code> remove o elemento definitivamente do espaço ocupado e é\nsubstituído pelos elementos adjacentes, como se o elemento não existisse mais.</p>\n<p><img src=\"https://user-images.githubusercontent.com/11894994/57650731-d37ed580-75a1-11e9-9e09-d5561152782f.png\" alt=\"none\"></p>\n</li>\n<li><p><code>visibility: hidden</code> oculta o elemento, mas ainda mantém o espaço ocupado,\nenquanto os elementos adjacentes mantêm sua localização.</p>\n<p><img src=\"https://user-images.githubusercontent.com/11894994/57650732-d37ed580-75a1-11e9-857b-8dbe55ad294c.png\" alt=\"hidden\"></p>\n</li>\n</ul>\n<h4 id=\"resumo-das-características-do-display\">Resumo das características do Display</h4>\n<p><img src=\"https://user-images.githubusercontent.com/11894994/57650733-d37ed580-75a1-11e9-902f-4830eca6fb9c.png\" alt=\"Resumo do display\"></p>\n<h2 id=\"leituras-complementares\">Leituras complementares</h2>\n<p>Continue lendo e aprendendo sobre o modelo de caixa e diplay com os seguintes\nrecursos:</p>\n<ul>\n<li><a href=\"https://www.w3schools.com/css/css_boxmodel.asp\" target=\"_blank\">Modelo da caixa - W3S</a></li>\n<li><a href=\"https://developer.mozilla.org/pt-BR/docs/Web/CSS/display\" target=\"_blank\">Display - MDN</a></li>\n<li><a href=\"https://css-tricks.com/almanac/properties/d/display/\" target=\"_blank\">Display - CSS\nTricks</a></li>\n</ul>\n",
+          "order": 2,
+          "durationString": "1h"
+        },
+        "03-practice": {
+          "title": "Exercícios Livres",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 120,
+          "embeds": [
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=fhdFSrRR-YQ",
+              "id": "fhdFSrRR-YQ"
+            }
+          ],
+          "body": "<h2 id=\"objetivos\">Objetivos</h2>\n<ul>\n<li>Praticar, pratica e praticar</li>\n</ul>\n<h2 id=\"enunciados\">Enunciados</h2>\n<p>Aqui estão alguns exercícios práticos que serão resolvidos, passo a passo, pela\nsua equipe de professores em uma sessão presencial (<code>oficina</code>). Sugerimos que\nvocê tente resolver os exercícios sozinho (ou em equipe) <strong>antes</strong> da sessão\npresencial. Assim, você já virá com dúvidas específicas e estará familiarizada\ncom os desafios. Talvez você possa apresentar sua solução para a turma e assim\najudar o restante de suas colegas :)</p>\n<p>Você deve fazer o upload de todos os seus exercícios no <code>GitHub</code> e publicá-los\nem <code>gh-pages</code>.</p>\n<h3 id=\"1-css-diner\">1. CSS Diner</h3>\n<p>Pratique seletores CSS por meio <a href=\"https://laboratoria.github.io/css-diner\" target=\"_blank\">deste jogo</a>.</p>\n<h3 id=\"2-sinalizadores-de-exibição\">2. Sinalizadores de Exibição</h3>\n<p>Replique as seguintes visualizações, utilizando seu conhecimento de <code>display</code>.\nVocê deve utilizar apenas <code>display</code>, sem usar <code>positioning</code> nem <code>floats</code>.</p>\n<p><img src=\"https://user-images.githubusercontent.com/11894994/57651330-581e2380-75a3-11e9-9018-cb94308496f1.png\" alt=\"Box1\"></p>\n<p><img src=\"https://user-images.githubusercontent.com/11894994/57651332-581e2380-75a3-11e9-8e90-7417a0d7ca49.png\" alt=\"Box2\"></p>\n<p><img src=\"https://user-images.githubusercontent.com/11894994/57651336-58b6ba00-75a3-11e9-90c9-bca269826f5f.png\" alt=\"Box3\"></p>\n<p><img src=\"https://user-images.githubusercontent.com/11894994/57651337-58b6ba00-75a3-11e9-908d-aac21930ead0.png\" alt=\"Box4\"></p>\n<h4 id=\"solução\">Solução</h4>\n<p>Assista ao vídeo do Rafa para e veja uma possível solução para esse exercício:</p>\n<p><div class=\"iframe-container\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/fhdFSrRR-YQ?autoplay=0\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"true\"></iframe></div></p>\n",
+          "order": 3,
+          "durationString": "2h"
+        },
+        "04-flexbox": {
+          "title": "Flexbox",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 120,
+          "body": "<h2 id=\"o-que-é-o-flexbox\">O que é o <em>Flexbox</em></h2>\n<p>Por muito tempo, as únicas ferramentas disponíveis para a criação de leiautes\nem CSS e posicionar elementos com boa compatibilidade entre browsers eram\n<code>float</code> e <code>position</code>. Porém, essas ferramentas possuem algumas limitações muito\nfrustrantes, especialmente no que diz respeito à responsividade. Algumas\ntarefas que consideramos básicas em um leiaute, como centralização vertical de\numa div-filha com relação a uma div-mãe, fazer com que divs-filhas ocupem a\nmesma quantidade de espaço e colunas terem o mesmo tamanho independente da\nquantidade de conteúdo interno, eram impossíveis ou muito difíceis de serem\nmanejadas com floats ou position, ao menos de forma prática e <em>flexível</em>.</p>\n<p>A ferramenta Flexbox (de Flexible Box) foi criada para tornar essas tarefas\nmais simples e funcionais: as filhas de um elemento com Flexbox podem se\nposicionar em qualquer direção e pode ter dimensões flexíveis para se adaptar.</p>\n<h2 id=\"elementos\">Elementos</h2>\n<p><strong>Flex container</strong> é o elemento que envolve sua estrutura. Você define que um\nelemento é um Flex Container com a propriedade <code>display</code> e valores <code>flex</code> ou\n<code>inline-flex</code>.</p>\n<pre><code class=\"language-html\">  &lt;div class=\"flex-container\"&gt;\n    &lt;div&gt;1&lt;/div&gt;\n    &lt;div&gt;2&lt;/div&gt;\n    &lt;div&gt;3&lt;/div&gt;\n  &lt;/div&gt;\n</code></pre>\n<pre><code class=\"language-css\">  .flex-container {\n    display: flex;\n  }\n</code></pre>\n<p><strong>Flex Item</strong> são elementos-filhas do flex container.</p>\n<p><strong>Eixos ou Axes</strong> são as duas direções básicas que existem em um Flex Container:\n<em>main axis</em>, que seria o eixo horizontal ou o eixo principal, e <em>cross axis</em>\nque seria o eixo vertical.</p>\n<h2 id=\"propriedades-para-o-elemento-mãe\">Propriedades para o elemento-mãe</h2>\n<p><img src=\"https://css-tricks.com/wp-content/uploads/2018/10/01-container.svg\" alt=\"container flex\"></p>\n<p>Quando utilizamos o <em>Flexbox</em>, é muito importante saber quais propriedades são\ndeclaradas no elemento-mãe (por exemplo, uma <code>div</code> que irá conter os elementos\na serem alinhados) e quais serão declaradas nos elementos-filhas. Abaixo,\nseguem algumas propriedades que devem ser declaradas utilizando o elemento-mãe\ncomo seletor (para alinhar elementos-filhas):</p>\n<p><strong>flex-direction</strong> determina a origem e o término do fluxo dos ítens. Eles\nseguem o vetor estabelecido pelo modo tradicional de escrita: esquerda para\ndireita em <code>row</code>, cima para baixo em <code>column</code>, ou no sentido inverso utilizando\n<code>-reverse</code>.</p>\n<pre><code class=\"language-css\">  .flex-container {\n    flex-direction: row | row-reverse | column | column-reverse;\n  }\n</code></pre>\n<p><img src=\"https://css-tricks.com/wp-content/uploads/2018/10/flex-direction.svg\" alt=\"flex-direction\"></p>\n<p>Você pode definir se os elementos serão forçados a ficar em uma mesma linha ou\nse eles irão quebrar em várias linhas com a propriedade <strong>flex-wrap</strong>.</p>\n<pre><code class=\"language-css\">  .flex-container {\n    flex-wrap: nowrap | wrap | wrap-reverse;\n  }\n</code></pre>\n<p><img src=\"https://css-tricks.com/wp-content/uploads/2018/10/flex-wrap.svg\" alt=\"flex-wrap\"></p>\n<p>A propriedade <strong>flex-flow</strong> é uma propriedade <em>shorthand</em> (uma mesma declaração\ninclui vários valores relacionados a uma mesma propriedade) que inclui\n<code>flex-direction</code> e <code>flex-wrap</code>. Determina a ordem do fluxo em que os elementos\naparecerão.</p>\n<p>O <strong>justify-content</strong> define o alinhamento das filhas ao longo do eixo principal.</p>\n<pre><code class=\"language-css\">  .flex-container {\n    justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;\n  }\n</code></pre>\n<p><img src=\"https://css-tricks.com/wp-content/uploads/2018/10/justify-content.svg\" alt=\"justify-content\"></p>\n<p><strong>align-items</strong> define o comportamento padrão de como <em>flex items</em> são\nalinhados de acordo com o eixo vertical (<em>cross axis</em>). De certa forma,\nfunciona de forma similar ao <code>justify-content</code>, porém no eixo perpendicular.</p>\n<pre><code class=\"language-css\">  .flex-container {\n    align-items: stretch | flex-start | flex-end | center | baseline;\n  }\n</code></pre>\n<p><img src=\"https://css-tricks.com/wp-content/uploads/2018/10/align-items.svg\" alt=\"align-items\"></p>\n<p><strong>align-content</strong> alinha o conteúdo dentro do container quando há espaço extra\nno eixo vertical, similar à forma que <code>justify-content</code> alinha ítens\nindividuais dentro do eixo principal.</p>\n<pre><code class=\"language-css\">  .flex-container {\n    align-content: flex-start | flex-end | center | space-between | space-around | stretch;\n  }\n</code></pre>\n<p><img src=\"https://css-tricks.com/wp-content/uploads/2018/10/align-content.svg\" alt=\"align-content\"></p>\n<h2 id=\"propriedades-para-elementos-filhas\">Propriedades para elementos-filhas</h2>\n<p>A seguir, veremos propriedades que devem ser declaradas tendo como seletor\nelementos-filhas, ou seja:</p>\n<pre><code class=\"language-html\">  &lt;div class=\"flex-container\"&gt;\n    &lt;div class=\"flex-item\"&gt;1&lt;/div&gt;\n    &lt;div class=\"flex-item\"&gt;2&lt;/div&gt;\n    &lt;div class=\"flex-item\"&gt;3&lt;/div&gt;\n  &lt;/div&gt;\n</code></pre>\n<p>Isso significa que, onde existe um elemento-mãe com propriedade <em>flex</em>, é\npossível atribuir propriedades flex específicas também para as filhas.</p>\n<p><em>Importante!</em></p>\n<ul>\n<li>O CSS só enxerga a hierarquia mãe-filha; não vai aplicar as propriedades flex\npara elementos HTML que não estejam diretamente relacionados;</li>\n<li>Para que as propriedades funcionem nos elementos-filhas, as mães devem ter\npropriedade <em>flex</em>.</li>\n<li>As propriedades <code>float</code>, <code>clear</code> e <code>vertical-align</code> não têm efeito em\nflex-items.</li>\n</ul>\n<p>A propriedade <strong>order</strong> determina o lugar que os elementos aparecerão.</p>\n<pre><code class=\"language-css\">  .flex-item {\n    order: &lt;numero&gt;; /* o valor default(padrão) é 0 */\n  }\n</code></pre>\n<p><img src=\"https://css-tricks.com/wp-content/uploads/2018/10/order.svg\" alt=\"order\"></p>\n<p><strong>flex-grow</strong> define a habilidade de um elemento-filha de \"crescer\" e ocupar\numa área maior, se necessário. Por exemplo, se em uma lista de 3 filhas, 2\ndelas têm propriedade <code>flex-grox: 1</code> e 1 delas tem <code>flex-grow:2</code>, essa última\ncrescerá para ocupar o dobro do tamanho das irmãs.</p>\n<pre><code class=\"language-css\">  .flex-item {\n    flex-grow: &lt;numero&gt;; /* o valor default(padrão) é 0 */\n  }\n</code></pre>\n<p><img src=\"https://css-tricks.com/wp-content/uploads/2018/10/flex-grow.svg\" alt=\"grow\"></p>\n<p><strong>align-self</strong> permite que o alinhamento padrão (definido por <code>align-items</code>)\nseja sobrescrito para ítens individuais.</p>\n<pre><code class=\"language-css\">  .flex-item {\n    align-self: auto | flex-start | flex-end | center | baseline | stretch;\n  }\n</code></pre>\n<p><img src=\"https://css-tricks.com/wp-content/uploads/2018/10/align-self.svg\" alt=\"align-self\"></p>\n<p>Existem outras propriedades para as filhas, como <code>flex-shrink</code>, <code>flex-basis</code> e\na shorthand <code>flex</code>, você pode pesquisar sobre elas para aumentar seu repertório.</p>\n<h2 id=\"vamos-praticar\">Vamos praticar?</h2>\n<p><a href=\"https://flexboxfroggy.com/\" target=\"_blank\">Flexbox Froggy</a></p>\n<h2 id=\"links-úteis\">Links úteis</h2>\n<p>Assim como qualquer outra nova funcionalidade que aprendemos, é imprescindível\npraticar bastante e pesquisar sempre que temos dúvidas. A seguir, alguns links\núteis.</p>\n<p>Este conteúdo se baseia em grande parte no tutorial da <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">CSS Tricks</a>,\nguarde nos seus favoritos para consultar sempre que precisar!</p>\n<ul>\n<li><p><a href=\"https://medium.freecodecamp.org/even-more-about-how-flexbox-works-explained-in-big-colorful-animated-gifs-a5a74812b053\" target=\"_blank\">Flexbox explicado com gifs (em inglês)</a></p>\n</li>\n<li><p><a href=\"https://tableless.com.br/flexbox-organizando-seu-layout/\" target=\"_blank\">Tutorial da tableless (em português)</a></p>\n</li>\n<li><p><a href=\"https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox\" target=\"_blank\">Flexbox no MDN</a></p>\n</li>\n<li><p><a href=\"https://www.w3schools.com/csS/css3_flexbox.asp\" target=\"_blank\">Flexbox no W3C</a></p>\n</li>\n<li><p><a href=\"https://internetingishard.com/html-and-css/flexbox/flexbox-layouts-7abd58.png\" target=\"_blank\">Tabela com algumas funcionalidades do flexbox</a></p>\n</li>\n</ul>\n",
+          "order": 4,
+          "durationString": "2h"
+        },
+        "05-positioning-and-floats": {
+          "title": "Positioning e Floats",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 120,
+          "body": "<h2 id=\"1-fluxo-do-documento\">1. Fluxo do Documento</h2>\n<blockquote>\n<p>Em seguida, a tradução para o português do artigo <a href=\"https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning\" target=\"_blank\">MDN -\nPosicionamento</a>:</p>\n</blockquote>\n<p><em><strong>Positioning</strong></em> é um tema muito complexo, portanto, antes de mergulhar no\ncódigo, analisaremos algumas coisas sobre o fluxo do documento que vimos até\nagora.</p>\n<p>Em primeiro lugar, vimos que os elementos individuais são como \"caixas\" que são\napresentadas tomando seu conteúdo e adicionando preenchimento, borda e margem em\ntorno deles - o modelo da caixa que vimos na lição anterior.</p>\n<p>Também vimos que, por padrão, o conteúdo de um elemento de tipo de <strong>bloco</strong> é\n100% da largura do elemento pai e tão alto quanto seu conteúdo. Pelo contrário,\nos elementos do tipo <strong>inline</strong> são tão altos e tão amplos quanto seu conteúdo.\nNão é possível definir a largura ou a altura dos elementos <em>inline</em></p>\n<ul>\n<li>Os elementos <em>inline</em> são simplesmente colocados dentro do conteúdo dos\nelementos de nível de bloco. Se você quiser controlar o tamanho de um elemento\n<em>inline</em> você deve configurá-lo para se comportar como um elemento de tipo de\nbloco com <code>display: block;</code>.</li>\n</ul>\n<p>Isso explica os elementos individuais, mas como os elementos interagem <strong>uns</strong>\ncom <strong>os outros</strong>? Até agora vimos que o fluxo normal (por padrão ou\nconfigurado) é que o tipo de elementos de bloco são dispostos verticalmente, um\nabaixo do outro, isto é, cada um aparecerá em uma nova linha abaixo da última e\nseparados por qualquer margem estabelecida neles.</p>\n<p>Os elementos em linha se comportam de maneira diferente: eles não aparecem em\nnovas linhas; em vez disso, eles ficam na mesma linha que o outro e qualquer\nconteúdo de texto adjacente (ou encapsulado), desde que haja espaço para eles\nfazerem isso na largura do elemento de nível de bloco pai. Se não houver espaço,\no texto ou os elementos que transbordarão serão movidos para uma nova linha.</p>\n<p>Se dois elementos adjacentes tiverem margem aplicada e as duas margens estiverem\nem contato, o maior dos dois permanecerá e o menor desaparecerá - isso é chamado\nde <em>colapso da margem</em>.</p>\n<p>Vejamos um exemplo:</p>\n<pre><code class=\"language-html\">&lt;h1&gt;Basic document flow&lt;/h1&gt;\n\n&lt;p&gt;I am a basic block level element. My adjacent block level elements sit on\nnew lines below me.&lt;/p&gt;\n\n&lt;p&gt;By default we span 100% of the width of our parent element, and we are as\ntall as our child content. Our total width and height is our content + padding\n+ border width/height.&lt;/p&gt;\n\n&lt;p&gt;We are separated by our margins. Because of margin collapsing, we are\nseparated by the width of one of our margins, not both.&lt;/p&gt;\n\n&lt;p&gt;inline elements &lt;span&gt;like this one&lt;/span&gt; and &lt;span&gt;this one&lt;/span&gt; sit on\nthe same line as one another, and adjacent text nodes, if there is space on\nthe same line. Overflowing inline elements will &lt;span&gt;wrap onto a new line if\npossible (like this one containing text)&lt;/span&gt;, or just go on to a new line\nif not, much like this image will do: &lt;img\nsrc=\"https://mdn.mozillademos.org/files/13360/long.jpg\"&gt;&lt;/p&gt;\n</code></pre>\n<pre><code class=\"language-css\">body {  width: 500px;  margin: 0 auto;}p {  background: aqua;  border: 3px solid blue;  padding: 10px;  margin: 10px;}span {  background: red;  border: 1px solid black;}\n</code></pre>\n<p><img src=\"https://user-images.githubusercontent.com/25912510/58491471-a3543c80-8134-11e9-8ed5-83bc043d0ee2.png\" alt=\"Fluxo Básico de\nDocumentos\"></p>\n<h2 id=\"2-positioning\">2. Positioning</h2>\n<p>O propósito do  <em>positioning</em> é nos permitir sobrescrever o comportamento normal\ndo fluxo do documento descrito acima, para produzir efeitos interessantes. E se\nvocê quiser alterar ligeiramente a posição de algumas caixas dentro de um\ndesenho para dar uma sensação um pouco peculiar e angustiada? <em>Positioning</em> é\nsua ferramenta. Ou se você quiser criar uma interface de usuário, na qual um\nelemento flutua em cima de outras partes da página e/ou sempre fica no mesmo\nlugar dentro da janela do navegador, não importa como a página é exibida? O\n<em>positioning</em>  faz com que essa estrutura funcione (layout).</p>\n<p>A propriedade <code>position</code> do CSS é a mais usada quando queremos definir a\nlocalização de um elemento em nosso documento. Ela especifica o <em>tipo de\nposicionamento</em> que o elemento terá. Deve-se notar que tudo isso varia\ndependendo das características que têm o valor <code>position</code> que colocamos. Ou\nseja, usaremos um valor diferente dependendo de como queremos posicionar esse\nelemento.</p>\n<p>O significado de cada um dos valores possíveis da propriedade <code>position</code> é o\nseguinte:</p>\n<h3 id=\"static\">Static</h3>\n<p>É o posicionamento normal ou estático, que é aplicado pelo navegador de uma\nmaneira predefinida a todos os elementos de uma página. Isto significa que eles\naparecem de acordo com a sua ordem em <em>HTML</em>, e para mostrar cada elemento\nconsidera apenas o seu <code>display</code> (ou seja, em linha, bloco, etc.). Nada novo\n:)</p>\n<h3 id=\"relative\">Relative</h3>\n<p>É muito semelhante ao posicionamento estático, exceto que uma vez que o elemento\nposicionado tomou o seu lugar no arranjo de fluxo normal, pode modificar a sua\nposição final (inclusive causando sobreposições com outros elementos da\npágina) por meio das propriedades: <code>top</code>, <code>bottom</code>, <code>left</code> e <code>right</code>.</p>\n<p>Leia mais sobre a posição relativa aqui:</p>\n<ul>\n<li><a href=\"https://developer.mozilla.org/pt-BR/docs/Web/CSS/position#Relative_positioning\" target=\"_blank\">Posicionamento relativo -\nMDN</a></li>\n</ul>\n<h3 id=\"absolute\">Absolute</h3>\n<p>Um elemento de posição absoluta não existe mais no fluxo normal do documento. O\nelemento fica em sua própria camada separada de todo o resto. Sua posição é\ndefinida em relação às arestas do primeiro ancestral <strong>no-static</strong> que ele\npossui. Se você não tiver ancestrais <strong>no-static</strong>, sua posição será definida em\nrelação às arestas do <code>body</code>. Como posição <em>relative</em>, podemos modificar a\nposição final do elemento por meio das propriedades: <code>top</code>, <code>bottom</code>, <code>left</code> e\n<code>right</code>.</p>\n<p>Leia mais da posição absoluta aqui:</p>\n<ul>\n<li><a href=\"https://developer.mozilla.org/pt-BR/docs/Web/CSS/position#Absolute_positioning\" target=\"_blank\">Posicionamento absoluto -\nMDN</a></li>\n</ul>\n<h3 id=\"fixed\">Fixed</h3>\n<p>Esse valor deixa o elemento fixo no documento. Seu eixo de coordenadas está\nrelacionado à janela do navegador. Quando você rola, o elemento estará sempre no\nmesmo lugar.</p>\n<p><em>Fixed</em> funciona da mesma maneira como o posicionamento <em>absolute</em>, com uma\ndiferença fundamental: enquanto o posicionamento <em>absolute</em> fixa um elemento no\nlugar com relação ao &lt;html&gt; ou seu antecessor posicionado mais próximo, o\nelemento <em>fixed</em> fixa em relação à janela do navegador em si.</p>\n<p>Leia mais da posição <em>fixed</em> aqui:</p>\n<ul>\n<li><a href=\"https://developer.mozilla.org/pt-BR/docs/Web/CSS/position#Fixed_positioning\" target=\"_blank\">Posicionamento Fixo -\nMDN</a></li>\n</ul>\n<h2 id=\"3-floats\">3. Floats</h2>\n<p>Float é uma propriedade de posicionamento em CSS, ou seja, como os elementos\nestão localizados em um documento HTML. O float faz os elementos se ajustarem à\ndireita ou à esquerda. É inspirado em revistas nas quais os textos se encaixam\nem torno das imagens.</p>\n<p>Elementos flutuantes ainda fazem parte do fluxo de documentos. Isso é claramente\ndiferente dos elementos que usam posicionamento absoluto. Elementos de página\ncom posição absoluta são removidos do fluxo da página da web. Elementos de\npágina com posição absoluta não afetarão a posição de outros elementos e outros\nelementos não os afetarão, sejam eles tocados ou não.</p>\n<p>Leia sobre os floats</p>\n<p><a href=\"https://developer.mozilla.org/pt-BR/docs/Web/CSS/float\" target=\"_blank\">aqui !</a></p>\n<!-- ### Valores de float\n\n- **none**: o elemento não flutua. Este é o valor inicial.\n- **left**: o elemento flutua à esquerda do bloco do contêiner\n- **right**: o elemento flutua à direita do bloco do contêiner\n- **inherit**: o elemento herda a direção flutuante de seu pai\n\n### Float vs Position: Absolute\n\nOs elementos flutuantes ainda fazem parte do fluxo da página da Web. Isso é\nclaramente difere dos elementos de página que usam posicionamento absoluto.\nElementos da página com posição absoluta são removidos do fluxo de página, como\nquando a caixa de texto no design do impressão foi dita para ignorar o wrapper\nda página.\n\n### clear\n\nÉ uma propriedade usada para controlar o comportamento de elementos flutuantes.\nComo já sabemos, os elementos depois de um elemento flutuante flutuarão ao seu\nredor Caso não queiramos que isso aconteça, com clear especificamos que um\nelemento não suporta um float à sua esquerda, à sua direita ou de ambos os\nlados.\n\n#### Valores de clear\n\n- **none**: default, permite elementos flutuantes em ambos os lados.\n- **left**: elementos flutuantes não são permitidos no lado esquerdo.\n- **right**: elementos flutuantes não são permitidos no lado direito.\n- **both**: elementos flutuantes não são permitidos no lado esquerdo ou direito.\n- **inherit**: herda o valor de seu elemento pai.\n\n### Clearfix\n\nO maravilhoso hack clearfix serve-nos para arrumar os elementos que contêm\nelementos flutuantes.\n\nLeia sobre o porque usar e como usar _clearfix_ aqui:\n\n- [Para o que serve o clearfix? -\nOrigamid](https://www.origamid.com/codex/para-que-serve-o-clearfix/)\n- [CSS\nClearfix](https://blog.samuelsimoes.com/html-css/2013/05/12/css-clearfix.html)\n\n## Leituras complementares\n\nPosition:\n\n- [Position CSS - Devmedia]\n(https://www.devmedia.com.br/position-css-definindo-a-posicao-\nde-elementos-com-fixed-relative-e-absolute/37700)\n- [Posicionamento relativo e absoluto -\nMaujor](http://www.maujor.com/tutorial/absrel.php)\n\nFloat:\n\n- [All about floats - CSS Tricks](https://css-tricks.com/all-about-floats/) -->\n\n<!-- ### Valores de float\n\n#### None\nEl elemento no flota. Este es el valor inicial.\n\n#### Left\nel elemento flota a la izquierda de su bloque contenedor\n\n#### Right\nel elemento flota a la derecha de su bloque contenedor\n\n#### Inherit\nEl elemento hereda la dirección de flotación de su padre\n\n### Float vs Position: Absolute\nLos elementos flotantes siguen siendo una parte del flujo de la página web .\nEsto es claramente diferente de elementos de página que utilizan\nposicionamiento absoluto. Elementos de la página con posición absoluta se\nretiran del flujo de la página, como cuando el cuadro de texto en el diseño de\nimpresión se le dijo que ignorar la envoltura de la página.\n\n### Clear\nEs una propiedad que se utiliza para controlar el comportamiento de los\nelementos flotantes.\nComo ya sabemos, los elementos después de un elemento flotante fluirán a su\nalrededor.\nEn caso no quisiéramos que eso suceda con clear se especifica que un elemento\nno admite un flotante sobre su izquierda, sobre su derecha o a ambos lados.\n\n#### Valores de clear\n\n- none: predeterminado, permite elementos flotantes en ambos lado.\n- left: No se permiten elementos flotantes en el lado izquierdo.\n- right: No se permiten elementos flotantes en el lado derecho.\n- both: No se permiten elementos flotantes en el lado izquierdo o derecho.\n- inherit: Hereda el valor de su elemento padre.\n\nVeamos un ejemplo: Queremos hacer un navegador de páginas. Entonces le damos la\npropiedad de float y le ponemos lo valores dependiendo de a qué lado queremos\nque vaya.\n\nimagen aqui\n\n### Clearfix\nEl maravilloso hack clearfix nos sirve para los contenedores de elementos float.\n\n#### Colapso del contenedor padre\nNormalmente si tenemos un elemento float dentro de un de un contenedor, éste,\nse reducirá y no contará al elemento flotante para su alto. Como en el\nsiguiente caso:\nimagen aqui\n\n*Una forma de arreglar el código es agregar un elemento invisible que agregue\nun clear both al final del código.\n\n#### Arreglando el colapso: Overflow auto\nUna forma de arreglar el código y que debemos aplicar con mucho cuidado es\noverflow:hidden u overflow:auto.\nNota: A veces esto genera un scrollbar no deseado en el código\nimagen\n\n#### Arreglando el colapso: clearfix\nLe devuelve la capacidad al contenedor de block-elements “flotados” de\ncontenerlos en una alineación horizontal.\nimagen -->\n",
+          "order": 5,
+          "durationString": "2h"
+        },
+        "06-tipography-and-icons": {
+          "title": "Tipografia, ícones e sprites",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 60,
+          "embeds": [
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=G78zXwl2Gu8",
+              "id": "G78zXwl2Gu8"
+            },
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=3JpPGX9dp7s",
+              "id": "3JpPGX9dp7s"
+            }
+          ],
+          "body": "<h2 id=\"tipografias\">Tipografias</h2>\n<p>É hora de aprender a alterar a fonte (tipografia) do nosso site, saber o que o\nnavegador nos traz por padrão e ver como podemos adicionar fontes externas, como\no <em>Google Fonts</em>. Para começar, você pode ler os seguintes artigos:</p>\n<ul>\n<li><a href=\"https://tableless.com.br/um-guia-completo-de-tipografia-para-a-web/\" target=\"_blank\">Guia de fontes-\nTableless</a></li>\n<li><a href=\"https://www.w3.org/Style/Examples/007/fonts.pt_BR.html\" target=\"_blank\">Fontes - W3</a></li>\n</ul>\n<p>Agora que você sabe mais sobre o assunto, é possível ver as etapas a seguir para\nadicionar fontes externas do Google Fonts no seguinte vídeo:</p>\n<p><div class=\"iframe-container\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/G78zXwl2Gu8?autoplay=0\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"true\"></iframe></div></p>\n<h2 id=\"ícones\">Ícones</h2>\n<p>Já não lhe ocorreu adicionar ícones ao seu site? No vídeo a baixo, você irá\naprender a transformar ícones em fontes com o IconMoon.</p>\n<p><div class=\"iframe-container\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/3JpPGX9dp7s?autoplay=0\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"true\"></iframe></div></p>\n<p>Se você gostou da idéia de adicionar ícones, você deve ter em mente que IcoMoon\nnão é a única opção, você pode encontrar mais como:</p>\n<ul>\n<li><a href=\"https://icomoon.io/\" target=\"_blank\">IconMoon</a></li>\n<li><a href=\"http://fontawesome.io/\" target=\"_blank\">FontAwesome</a></li>\n<li><a href=\"http://glyphicons.com/\" target=\"_blank\">Glyphicon</a></li>\n<li><a href=\"https://afeld.github.io/emoji-css/\" target=\"_blank\">CSS Emoji</a></li>\n<li><a href=\"https://www.flaticon.com/\" target=\"_blank\">FlatIcon</a></li>\n</ul>\n<p>Quais outros você encontrou e gostaria de adicionar à sua página da web?</p>\n<h2 id=\"sprites\">Sprites</h2>\n<p>Em certas ocasiões, você vai querer agregar muitas imagens relacionadas (por\nexemplo, um menu com bandeiras de diferentes países). No entanto, já chegou a\npensar que entediante e trabalho seria colocar as imagens uma por uma? Para\nisso, existe umatécnica chamada <code>CSS sprites</code> que te permite lidar de uma\nmaneira mais eficiente este tipo de caso.</p>\n<p>Aprenda mais sobre CSS sprites <a href=\"https://www.w3schools.com/css/css_image_sprites.asp\" target=\"_blank\">nesse\nlink !</a></p>\n<h2 id=\"link-extra\">Link extra</h2>\n<ul>\n<li><a href=\"https://tableless.com.br/font-face-fonts-externas-na-web/\" target=\"_blank\">@font-face</a></li>\n<li><a href=\"https://css-tricks.com/css-sprites/\" target=\"_blank\">CSS sprites</a></li>\n</ul>\n",
+          "order": 6,
+          "durationString": "1h"
+        },
+        "07-practice": {
+          "title": "Exercícios Livres",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 240,
+          "body": "<h2 id=\"objetivos\">Objetivos</h2>\n<ul>\n<li>Praticar, pratica e praticar</li>\n</ul>\n<h2 id=\"enunciados\">Enunciados</h2>\n<p>Aqui estão alguns exercícios para você praticar, sugerimos que tenta resolver\neles sozinha ou em grupo. Assim, você ficará familizariada com os desafios. E\nse quiser pode apresentar a sua solução para a sala e ajudar as suas\ncompanheiras 😁</p>\n<p>Você deve super o seu exercício para o GitHub e publicar no <code>gh-pages</code>.</p>\n<h3 id=\"1-a-quadra\">1. A quadra</h3>\n<p>Replicar a seguinte imagem colocando em prática o seu conhecimento\n<code>positioning</code>.</p>\n<p><img src=\"https://user-images.githubusercontent.com/39506102/56682848-cd808d80-66a2-11e9-9270-ff182c734b7d.png\" alt=\"A Quadra\"></p>\n<h3 id=\"2-posicionando-caixas\">2. Posicionando caixas</h3>\n<p>Replique as seguintes imagens colocando em prática o seu conhecimento de\n<code>positioning</code>:</p>\n<p><img src=\"https://user-images.githubusercontent.com/39506102/56683303-9fe81400-66a3-11e9-829a-11503e0a1417.png\" alt=\"6 caixas\"></p>\n<h3 id=\"3-css-positioning-101-por-noah-stokes\">3. CSS Positioning 101, por <a href=\"https://alistapart.com/author/nstokes\" target=\"_blank\">Noah Stokes</a></h3>\n<p>Replique todos os exemplos de layouts (<code>Examples A - J</code>) do seguinte artigo:\n<a href=\"https://alistapart.com/article/css-positioning-101\" target=\"_blank\">CSS Positioning 101</a></p>\n<h3 id=\"4-o-tríptico\">4. O tríptico</h3>\n<p>Replique a seguinte imagem colocando em prática o seu conhecimento de <code>float</code>:</p>\n<p><img src=\"https://user-images.githubusercontent.com/39506102/56683367-c1e19680-66a3-11e9-9371-8ce0941a49e3.png\" alt=\"css float\"></p>\n<h3 id=\"5-tipografias-e-ícones\">5. Tipografias e ícones</h3>\n<p>Desenvolva o menu a seguir. Você deve usar pelo menos dois estilos de fontes da\nWeb (sugestão: Google Fonts). Você pode usar os tipos de letra iconográficos\nde sua escolha.</p>\n<p><img src=\"https://user-images.githubusercontent.com/25912510/58491544-cd0d6380-8134-11e9-90af-96398889db1f.png\" alt=\"Tipografias e\nÍcones\"></p>\n",
+          "order": 7,
+          "durationString": "4h"
+        },
+        "08-practical-cases": {
+          "title": "Casos Prático (vídeo)",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 120,
+          "embeds": [
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=pQcWM9p65EA",
+              "id": "pQcWM9p65EA"
+            },
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=Tyd-iCYSIsw",
+              "id": "Tyd-iCYSIsw"
+            }
+          ],
+          "body": "<h2 id=\"objetivos\">Objetivos</h2>\n<ul>\n<li>Entender, por meio de um estudo de caso, como criar estruturas na web com\n<code>html</code> e dar estilos com <code>css</code></li>\n</ul>\n<h2 id=\"enunciado\">Enunciado</h2>\n<p>Como já fizemos antes, é hora de aplicar os conceitos aprendidos para resolver\nproblemas reais.</p>\n<p>Imagine que você está criando seu primeiro site interativo e deseja fazer um\nmenu de navegação. Sua equipe de projeto passou essas demonstrações para você\nreplicar:</p>\n<h3 id=\"1-menu-vertical\">1. Menu Vertical</h3>\n<p><img src=\"https://user-images.githubusercontent.com/11894994/57671812-b66ef480-75eb-11e9-8c72-802872bfa5df.gif\" alt=\"Menu vertical\"></p>\n<h3 id=\"2-menu-horizontal\">2. Menu horizontal</h3>\n<p><img src=\"https://user-images.githubusercontent.com/11894994/57671833-c8509780-75eb-11e9-9621-c0b1de81e027.gif\" alt=\"Menu horizontal\"></p>\n<h2 id=\"soluções\">Soluções</h2>\n<p>Em seguida, o Rafa explica como resolveu esse desafio:</p>\n<h3 id=\"1-menu-vertical-da-solução\">1. Menu Vertical da Solução</h3>\n<p><div class=\"iframe-container\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/pQcWM9p65EA?autoplay=0\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"true\"></iframe></div></p>\n<h3 id=\"2-menu-horizontal-da-solução\">2. Menu Horizontal da Solução</h3>\n<p><div class=\"iframe-container\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/Tyd-iCYSIsw?autoplay=0\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"true\"></iframe></div></p>\n",
+          "order": 8,
+          "durationString": "2h"
+        },
+        "09-quiz": {
+          "questions": [
+            {
+              "title": "1) O que é HTML?",
+              "description": "",
+              "answers": [
+                "Linguagem de programação",
+                "Linguagem de marcação",
+                "Folha de estilo",
+                "Ferramenta de código aberto"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "2) A que 'Aninhamento HTML' se refere?",
+              "description": "",
+              "answers": [
+                "Ao início do documento HTML",
+                "Indica ao navegador que o documento é HTML5",
+                "Adicione uma linha para que o <code>html</code> apareça na segunda linha",
+                "Que um elemento pode conter outros elementos ou tags HTML"
+              ],
+              "solution": [
+                3
+              ]
+            },
+            {
+              "title": "3) Quais são as tags que não precisam de fechamento?",
+              "description": "",
+              "answers": [
+                "em",
+                "div",
+                "img",
+                "p"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "4) Exemplo correto de aninhamento",
+              "description": "",
+              "answers": [
+                "<code>&lt;p&gt;Sou uma &lt;strong&gt;excelente&lt;/p&gt; &lt;em&gt;coder&lt;/em&gt;&lt;/strong&gt;</code>",
+                "<code>&lt;/p&gt;Sou uma &lt;/strong&gt;excelente&lt;strong&gt; &lt;/em&gt;coder&lt;em&gt;&lt;p&gt;</code>",
+                "<code>&lt;p&gt;Sou uma &lt;strong&gt;excelente&lt;/strong&gt; &lt;em&gt;coder&lt;/em&gt;&lt;/p&gt;</code>"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "5) Quais são as características de um elemento em bloco?",
+              "description": "",
+              "answers": [
+                "Não começam com uma nova linha",
+                "Começam em uma nova linha",
+                "Podem começar em qualquer parte de uma linha",
+                "Podem conter elementos em linha e outros elementos de bloco"
+              ],
+              "solution": [
+                1,
+                3
+              ]
+            },
+            {
+              "title": "6) Propriedades CSS são case-sensitive (levam em conta letras minúsculas e maiúsculas)",
+              "description": "<pre><code class=\"language-css\">ul {\n   MaRgiN : 10px;\n}\n</code></pre>",
+              "answers": [
+                "Verdadeiro",
+                "Falso"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "7) Qual é a diferença entre display: inline-block e display: inline?",
+              "description": "",
+              "answers": [
+                "Em um elemento <em>inline</em> não se pode determinar dimensões, enquanto um um\n<em>inline-block</em> sim",
+                "Você não pode determinar dimensões em um elemento <em>inline-block</em>, enquanto\nque <em>inline</em> sim",
+                "Não há diferenças entre os dois",
+                "Um elemento <em>inline</em> não aparece na tela, enquanto que um <em>inline-block</em> sim"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "8) Qual é a sintaxe correta para a tag img?",
+              "description": "",
+              "answers": [
+                "<code>&lt;image src=\"foto.jpg\" alt=\"Foto\"&gt;&lt;/image&gt;</code>",
+                "<code>&lt;image href=\"foto.jpg\" alt=\"Foto\"&gt;</code>",
+                "<code>&lt;img href=\"foto.jpg\" alt=\"Foto\"&gt;</code>",
+                "<code>&lt;img src=\"foto.jpg\" alt=\"Foto\"&gt;</code>",
+                "<code>&lt;img src=\"foto.jpg\" alt=\"Foto\"&gt;&lt;/img&gt;</code>"
+              ],
+              "solution": [
+                3
+              ]
+            },
+            {
+              "title": "9) As propriedades margin-top e margin-bottom têm efeito em elementos inline?",
+              "description": "",
+              "answers": [
+                "Sim",
+                "Não"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "10) Faça as propriedades padding-top e padding-bottom aumentam o tamanho de um elemento inline?",
+              "description": "",
+              "answers": [
+                "Sim",
+                "Não"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "11) Dado o seguinte estilo CSS, que cor  terão os <h3>?",
+              "description": "<pre><code class=\"language-css\">h3 {\n  color: red;\n}\n\nh3 {\n  color: blue;\n}\n\nh2 {\n  color: yellow;\n}\n</code></pre>",
+              "answers": [
+                "red",
+                "blue",
+                "yellow"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "12) Qual ordem prevalece para atribuir um estilo?",
+              "description": "",
+              "answers": [
+                "Especificidade, ordem de código e importância",
+                "Importância, especificidade e ordem do código",
+                "Ordem de código, importância e especificidade"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "13) De acordo com o seguinte código, qual será a cor do elemento .phrase?",
+              "description": "<p><strong>HTML:</strong></p><pre><code class=\"language-html\">&lt;p id=\"quote\"&gt;\n  &lt;strong class=\"subject\"&gt;Laboratoria&lt;/strong&gt;\n  &lt;em class=\"phrase\"&gt;código que transforma&lt;/em&gt;\n&lt;/p&gt;\n</code></pre><p><strong>CSS:</strong></p><pre><code class=\"language-css\">#quote {\n  color: #FAB541;\n}\n\n.phrase {\n  color: blue;\n}\n\n#quote .phrase {\n  color: initial;\n}\n</code></pre>",
+              "answers": [
+                "<code>#FAB541</code>",
+                "Azul",
+                "Padrão do navegador (preto)"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "14) Tendo em conta o seguinte código, qual é a cor do texto JavaScript?",
+              "description": "<p><strong>HTML:</strong></p><pre><code class=\"language-html\">&lt;ul class=\"programming-languages\" id=\"awesome\"&gt;\n  &lt;li&gt;&lt;span&gt;Python&lt;/span&gt;&lt;/li&gt;\n  &lt;li class=\"favorite\" id=\"must-use\"&gt;&lt;span class=\"highlight\"&gt;JavaScript&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n</code></pre><p><strong>CSS:</strong></p><pre><code class=\"language-css\">ul li {\n  color: red;\n}\n\n#must-use {\n  color: blue;\n}\n</code></pre>",
+              "answers": [
+                "Preto",
+                "Azul",
+                "Vermelho"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "15) Tendo em conta o seguinte código, qual é a cor do texto JavaScript?",
+              "description": "<p><strong>HTML:</strong></p><pre><code class=\"language-html\">&lt;ul class=\"programming-languages\" id=\"awesome\"&gt;\n  &lt;li&gt;&lt;span&gt;Python&lt;/span&gt;&lt;/li&gt;\n  &lt;li class=\"favorite\" id=\"must-use\"&gt;&lt;span class=\"highlight\"&gt;JavaScript&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n</code></pre><p><strong>CSS:</strong></p><pre><code class=\"language-css\">ul.programming-languages li .highlight {\n  color: red;\n}\n\nul.programming-languages li .highlight:nth-of-type(odd) {\n  color: blue;\n}\n</code></pre>",
+              "answers": [
+                "Vermelho",
+                "Preto",
+                "Azul"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "16) Levando em conta o HTML e o resultado, qual seria o CSS necessário para produzir o resultado?",
+              "description": "<p><strong>HTML:</strong></p><pre><code class=\"language-html\">&lt;div class=\"container\"&gt;\n  &lt;div class=\"box red\"&gt;&lt;/div&gt;\n  &lt;div class=\"box blue\"&gt;&lt;/div&gt;\n&lt;/div&gt;\n</code></pre><p><strong>RESULTADO:</strong></p><p><img src=\"https://user-images.githubusercontent.com/25912510/58491612-f5955d80-8134-11e9-9605-3025b3e773e6.png\" alt=\"Posicionamento -\nPergunta\"></p>",
+              "answers": [
+                "<code>.container</code> com <code>position: relative;</code> e <code>.red</code> com <code>position: absolute;</code> e\n<code>left: 200px;</code>",
+                "<code>.container</code> com <code>position: fixed;</code> e <code>.red</code> com <code>left: 200px;</code>",
+                "<code>.red</code> com <code>position: absolute;</code> e <code>left: 200px;</code>",
+                "<code>.red</code> com <code>position: relative;</code> e <code>left: 200px;</code>"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "17) Considerando o código a seguir, o que acontecerá com a posição de #exemplo?",
+              "description": "<p><strong>HTML:</strong></p><pre><code class=\"language-html\">&lt;p id=\"exemplo\"&gt;Olá!&lt;/p&gt;\n</code></pre><p><strong>CSS:</strong></p><pre><code class=\"language-css\">#exemplo {\n  margin-bottom: 5px;\n}\n</code></pre>",
+              "answers": [
+                "Descerá <code>5px</code>",
+                "Todos os elementos começarão <code>5px</code> abaixo",
+                "Nenhum"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "18) O que acontece com os elementos em linha quando se torna flutuante?",
+              "description": "",
+              "answers": [
+                "Permanece como um elemento em linha",
+                "Torna-se um elemento de bloco"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "19) Selecione as propriedades que correspondem aos tipos de letra",
+              "description": "",
+              "answers": [
+                "font-size",
+                "font-color",
+                "font-family",
+                "font-weight",
+                "float"
+              ],
+              "solution": [
+                0,
+                2,
+                3
+              ]
+            }
+          ],
+          "title": "Quiz #1",
+          "type": "quiz",
+          "format": "self-paced",
+          "duration": 30,
+          "order": 9,
+          "durationString": "30min"
+        },
+        "10-practice": {
+          "title": "Exercícios Livres",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 480,
+          "body": "<h2 id=\"objetivos\">Objetivos</h2>\n<ul>\n<li>Praticar, praticar e praticar</li>\n</ul>\n<h2 id=\"enunciados\">Enunciados</h2>\n<p>Aqui estão alguns exercícios para você praticar, sugerimos que tenta resolver\neles sozinha ou em grupo. Assim, você ficará familizariada com os desafios. E\nse quiser pode apresentar a sua solução para a sala e ajudar as suas\ncompanheiras 😁</p>\n<p>Você deve super o seu exercício para o GitHub e publicar no <code>gh-pages</code>.</p>\n<h3 id=\"1-nuestras-coders\">1. Nuestras coders</h3>\n<p>Replique o seguinte layout:</p>\n<p><img src=\"https://user-images.githubusercontent.com/25912510/58491634-fd550200-8134-11e9-81c2-acfabc59de63.png\" alt=\"Nuestras coders\"></p>\n<h3 id=\"2-pinterest-layout\">2. Pinterest (layout)</h3>\n<p>Crie uma réplica do <a href=\"https://laboratoria.github.io/pinterestify/\" target=\"_blank\">Pinterest</a> com\nas imagens que você mais gosta :)</p>\n<h3 id=\"3-applove\">3. Applove</h3>\n<p>Crie uma réplica do site da\n<a href=\"https://fotos.subefotos.com/1edc0aab51f1d624da4a24ab86129d87o.png\" target=\"_blank\">Applove</a>.</p>\n<p>Para completar este exercício, criamos um <a href=\"https://github.com/Laboratoria/AppLove\" target=\"_blank\">repositório\n<em>padronizado</em></a> (modelo inicial) com\ntodos os recursos que você precisa. Isso inclui as imagens e algumas classes CSS\nque já criamos para você :)</p>\n",
+          "order": 10,
+          "durationString": "8h"
+        },
+        "11-code-challenges": {
+          "title": "Desafio",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 1440,
+          "body": "<h2 id=\"objetivos\">Objetivos</h2>\n<ul>\n<li>A seguir, apresentamos alguns desafios que você deve completar para colocar o\nseu conhecimento para à prova.</li>\n</ul>\n<h2 id=\"estrutura-de-trabalho\">Estrutura de trabalho</h2>\n<p>Criamos um repositório <em>padronizado</em> (modelo inicial) com todos os recursos\nque você precisa. Nele você encontrará as instruções do desafio.</p>\n<h2 id=\"freelancer\">Freelancer</h2>\n<ul>\n<li><a href=\"https://github.com/rafaelbcerri/freelancer\" target=\"_blank\">Instruções Desafio Freelancer</a></li>\n</ul>\n<h2 id=\"lyft\">Lyft</h2>\n<ul>\n<li><a href=\"https://github.com/rafaelbcerri/lyft\" target=\"_blank\">Instruções Desafio Lyft</a></li>\n</ul>\n<h2 id=\"3-workshopper-opcional\">3. Workshopper (opcional)</h2>\n<ul>\n<li><a href=\"https://github.com/denysdovhan/learnyouhtml\" target=\"_blank\">Learnyouhtml</a></li>\n</ul>\n",
+          "order": 11,
+          "durationString": "24h"
+        },
+        "12-requiz": {
+          "questions": [
+            {
+              "title": "1) A sigla HTML significa",
+              "description": "",
+              "answers": [
+                "Markdown Language Text Tool.",
+                "Linguagem de marcação de tipo de hiperlink",
+                "Linguagem de marcação de hipertexto"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "2) Quais são as tags que precisam ser fechadas?",
+              "description": "",
+              "answers": [
+                "table",
+                "ol",
+                "img",
+                "br",
+                "a"
+              ],
+              "solution": [
+                0,
+                1,
+                4
+              ]
+            },
+            {
+              "title": "3) Exemplo de aninhamento correto",
+              "description": "",
+              "answers": [
+                "<code>&lt;h3&gt;Olá!!&lt;/h3&gt; Sou uma &lt;strong&gt;excelente&lt;/strong&gt; &lt;em&gt;programadora&lt;/em&gt;&lt;/p&gt;</code>",
+                "<code>&lt;/p&gt;Sou uma &lt;/strong&gt;excelente&lt;strong&gt; &lt;/em&gt;programadora&lt;em&gt;&lt;p&gt;</code>",
+                "<code>&lt;p&gt;Sou uma &lt;strong&gt;excelente&lt;/strong&gt; &lt;em&gt;programadora&lt;/em&gt;&lt;/p&gt;</code>"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "4) Qual é o valor padrão da propriedade position dos elementos?",
+              "description": "",
+              "answers": [
+                "fixed",
+                "absolute",
+                "static",
+                "relative"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "5) São características de um elemento em linha",
+              "description": "",
+              "answers": [
+                "Não começam com uma nova linha",
+                "Começam em uma nova linha",
+                "Podem estar dentro de um elemento de bloco",
+                "Respeitam as propriedades <code>margin-top</code> e <code>margin-bottom</code>"
+              ],
+              "solution": [
+                0,
+                2
+              ]
+            },
+            {
+              "title": "6) Qual é a diferença entre display:inline-block e display:inline?",
+              "description": "",
+              "answers": [
+                "Em um elemento <em>inline</em> não se pode determinar dimensões, enquanto um um\n<em>inline-block</em> sim",
+                "Em um elemento <em>inline-block</em> não se pode determinar dimensões, enquanto que\n<em>inline</em> sim",
+                "Não há diferenças entre os dois",
+                "Um elemento <em>inline</em> não aparece na tela, enquanto um <em>inline-block</em> sim"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "7) Qual é a sintaxe correta para a tag <a>?",
+              "description": "",
+              "answers": [
+                "<code>&lt;a href=\"http://laboratoria.la/\"&gt;Ir a Laboratoria&lt;/a&gt;</code>",
+                "<code>&lt;a src=\"http://laboratoria.la/\"&gt;Ir a Laboratoria&lt;/a&gt;</code>",
+                "<code>&lt;a href=\"http://laboratoria.la/\"&gt;</code>"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "8) Dados os seguintes estilos CSS, que cor eles terão <h3>?",
+              "description": "<pre><code class=\"language-css\">h3 {\n  color: red !important;\n}\n\nh3 {\n  color: blue;\n}\n\nh2 {\n  color: yellow;\n}\n</code></pre>",
+              "answers": [
+                "red",
+                "blue",
+                "yellow"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "9) Considerando o código a seguir, qual é a cor do texto JavaScript?",
+              "description": "<p><strong>HTML:</strong></p><pre><code class=\"language-html\">&lt;ul class=\"programming-languages\" id=\"awesome\"&gt;\n  &lt;li&gt;&lt;span&gt;Python&lt;/span&gt;&lt;/li&gt;\n  &lt;li class=\"favorite\"&gt;&lt;span class=\"highlight\"&gt;JavaScript&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n</code></pre><p><strong>CSS:</strong></p><pre><code class=\"language-css\">ul {\n  color: red;\n}\n\nli {\n  color: blue;\n}\n</code></pre>",
+              "answers": [
+                "Azul",
+                "Preto",
+                "Vermelho"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "10) Considerando o código a seguir, qual é a cor do texto JavaScript?",
+              "description": "<p><strong>HTML:</strong></p><pre><code class=\"language-html\">&lt;ul class=\"programming-languages\" id=\"awesome\"&gt;\n  &lt;li&gt;&lt;span&gt;Python&lt;/span&gt;&lt;/li&gt;\n  &lt;li class=\"favorite\" id=\"must-use\"&gt;&lt;span class=\"highlight\"&gt;JavaScript&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n</code></pre><p><strong>CSS:</strong></p><pre><code class=\"language-css\">.programming-languages .favorite {\n  color: red;\n}\n\n#must-use {\n  color: blue;\n}\n</code></pre>",
+              "answers": [
+                "Vermelho",
+                "Preto",
+                "Azul"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "11) Considerando o código a seguir, qual é a cor do texto JavaScript?",
+              "description": "<p><strong>HTML:</strong></p><pre><code class=\"language-html\">&lt;ul class=\"programming-languages\" id=\"awesome\"&gt;\n  &lt;li&gt;&lt;span&gt;Python&lt;/span&gt;&lt;/li&gt;\n  &lt;li class=\"favorite\" id=\"must-use\"&gt;&lt;span class=\"highlight\"&gt;JavaScript&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n</code></pre><p><strong>CSS:</strong></p><pre><code class=\"language-css\">ul#awesome {\n  color: red;\n}\n\nul.programming-languages li.favorite span {\n  color: blue;\n}\n</code></pre>",
+              "answers": [
+                "Vermelho",
+                "Preto",
+                "Azul"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "12) Considerando o código a seguir, qual é a cor do texto JavaScript?",
+              "description": "<p><strong>HTML:</strong></p><pre><code class=\"language-html\">&lt;ul class=\"programming-languages\" id=\"awesome\"&gt;\n  &lt;li&gt;&lt;span&gt;Python&lt;/span&gt;&lt;/li&gt;\n  &lt;li class=\"favorite\" id=\"must-use\"&gt;&lt;span class=\"highlight\"&gt;JavaScript&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n</code></pre><p><strong>CSS:</strong></p><pre><code class=\"language-css\">ul#awesome #must-use {\n  color: red;\n}\n\n.favorite span {\n  color: blue !important;\n}\n</code></pre>",
+              "answers": [
+                "Vermelho",
+                "Preto",
+                "Azul"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "13) Para que line-height é usado?",
+              "description": "",
+              "answers": [
+                "Definir a altura de cada linha de texto",
+                "Definir a cor do texto",
+                "Definir a espessura do texto"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "14) Qual é a sintaxe do css?",
+              "description": "<pre><code class=\"language-css\">  /* Opção 1 */\n  { p = color: red;\n    font-size: 15px;\n  }\n\n  /* Opção 2 */\n  p {\n    color: red,\n    font-size: 15px,\n  }\n\n  /* Opção 3 */\n  p {\n    color: red;\n    font-size: 15px;\n  }\n</code></pre>",
+              "answers": [
+                "Opção 1",
+                "Opção 2",
+                "Opção 3"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "15) Quais são as propriedades para posicionar elementos?",
+              "description": "",
+              "answers": [
+                "top, left, right, bottom",
+                "head, body, right, middle",
+                "up, down, left, right",
+                "inside, outside, forward, backward"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "16) Considerando o código a seguir, qual é a cor do texto JavaScript?",
+              "description": "<p><strong>HTML:</strong></p><pre><code class=\"language-html\">&lt;ul class=\"programming-languages\" id=\"awesome\"&gt;\n  &lt;li&gt;&lt;span&gt;Python&lt;/span&gt;&lt;/li&gt;\n  &lt;li class=\"favorite\" id=\"must-use\"&gt;&lt;span class=\"highlight\"&gt;JavaScript&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n</code></pre><p><strong>CSS:</strong></p><pre><code class=\"language-css\">ul.programming-languages li .highlight {\n  color: red;\n}\n\nul.programming-languages li .highlight:nth-of-type(odd) {\n  color: yellow;\n}\n</code></pre>",
+              "answers": [
+                "Vermelho",
+                "Preto",
+                "Amarelo"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "17) Considerando o código a seguir, o que acontecerá com a posição de #exemplo?",
+              "description": "<p><strong>HTML:</strong></p><pre><code class=\"language-html\">&lt;p id=\"exemplo\"&gt;Olá!&lt;/p&gt;\n</code></pre><p><strong>CSS:</strong></p><pre><code class=\"language-css\">#exemplo {\n   margin-left : -5 px ;\n}\n</code></pre>",
+              "answers": [
+                "Ele irá se mover <code>5px</code> para a esquerda",
+                "Todos os elementos acima se moverão <code>5px</code> para a direita",
+                "Nenhum"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "18) Qual propriedade você usa para fazer com que o conteúdo fique abaixo dos elementos flutuantes?",
+              "description": "",
+              "answers": [
+                "hide",
+                "position",
+                "clear",
+                "overflow"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "19) Qual regra CSS permite que você adicione uma fonte externa?",
+              "description": "",
+              "answers": [
+                "<code>@font-face</code>",
+                "<code>font-color</code>",
+                "<code>font-family</code>",
+                "<code>font-weight</code>",
+                "<code>float</code>"
+              ],
+              "solution": [
+                0
+              ]
+            }
+          ],
+          "title": "Quiz #2: requizzing",
+          "type": "quiz",
+          "format": "self-paced",
+          "duration": 30,
+          "order": 12,
+          "durationString": "30min"
+        }
+      },
+      "order": 0,
+      "stats": {
+        "duration": 3075,
+        "durationString": "51.3h",
+        "exerciseCount": 0,
+        "partCount": 13
+      }
+    },
+    "02-responsive": {
+      "title": "Responsive Web Design",
+      "bonus": false,
+      "description": "<p>...</p>\n",
+      "parts": {
+        "00-opening": {
+          "title": "A Web em um Dispositivo Móvel",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 15,
+          "body": "<h2 id=\"objetivos-de-aprendizagem\">Objetivos de Aprendizagem</h2>\n<p>Nesta unidade aprenderemos a:</p>\n<ul>\n<li>Criar uma página web utilizando o enfoque de projeto <code>Web Design Responsivo</code>.</li>\n<li>Utilizar <em>grid system</em> e <em>medias queries</em> para estruturar o site de uma\nmaneira melhor.</li>\n</ul>\n<h2 id=\"por-que-aprender-web-design-responsivo\">Por que aprender Web Design Responsivo?</h2>\n<p>Atualmente existe uma ampla variedade de dispositivos (smartphone, tablet,\ncomputador, notebook...) com seus diferentes formatos de tela, condição que nos\nobriga a adaptar nossos produtos digitais à estrutura de cada um deles.</p>\n<p>O desafio que você tem neste curso é aprender a criar produtos web\n<strong>responsivos</strong> que se adaptem e permitam mostrar a versão mais otimizada para\ndeterminado dispositivo.</p>\n<h2 id=\"guia-de-perguntas-e-conceitos-chave\">Guia de perguntas e conceitos-chave</h2>\n<p>Quando começamos a estudar um novo assunto, é útil termos uma ideia de conceitos\nmais importantes que vamos aprender e dos temas centrais a que devemos prestar\natenção especial.</p>\n<p>A seguir apresentamos uma série de perguntas que você deve ser capaz de\nresponder ao terminar esta unidade. Use estas perguntas como guia para orientar\nseu esforço de aprendizagem. Retorne a elas constantemente a medida que avança\npara validar que está indo na direção correta. Que este guia sirva como um\n\"checklist\" que você vai riscando conforme avança.</p>\n<ul>\n<li><p>O que é Web Design Responsivo?</p>\n</li>\n<li><p>Qual é a vantagem de utilizar Web Design Responsivo na nossa página web?</p>\n</li>\n<li><p>O que é <em>Grid System</em>? Explique com um exemplo e um diagrama.</p>\n</li>\n<li><p>O que são <em>Media Queries</em> e para que servem?</p>\n</li>\n<li><p>Para que serve a tag <em>meta viewport</em>?</p>\n</li>\n</ul>\n",
+          "order": 0,
+          "durationString": "15min"
+        },
+        "01-grid-system": {
+          "title": "Grid System",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 30,
+          "body": "<h2 id=\"objetivos-de-aprendizagem\">Objetivos de Aprendizagem</h2>\n<ul>\n<li>Conhecer e entender a estrutura do <em>Grid System</em> e como podemos criar nosso\nsite com ele.</li>\n</ul>\n<h2 id=\"o-que-é-grid-system\">O que é <em>Grid System</em>?</h2>\n<p>Uma das formas mais simples de obter um design organizado é aplicar um <em>Grid\nSystem</em> (Sistema de Grade). É uma técnica que se originou no design gráfico para\nimpressão de textos. As <em>grids</em> (grades) no Web Design Responsivo ajudam a\nproporcionar uma experiência uniforme em vários dispositivos com diferentes\ntamanhos de tela.</p>\n<p>O sistema de grade ajuda a alinhar elementos de página com base em colunas e\nlinhas sequenciadas. Usamos essa estrutura baseada em colunas para colocar\ntexto, imagens e funções de forma consistente em todo o design. Cada elemento\ntem o seu lugar que podemos ver instantaneamente e reproduzir em outro lugar.</p>\n<p><img src=\"https://camo.githubusercontent.com/1a3e525985d883b828432c55f65c608b4921feff/687474703a2f2f746573742e76697369746e6f727761792e6f72672f77702d636f6e74656e742f75706c6f6164732f73697465732f322f323031332f30322f477269645f332e706e67\" alt=\"Grid\"></p>\n<p>Como mencionamos, uma <em>grid</em> geralmente consiste em <em>containers</em> (contêineres),\n<em>rows</em> (linhas), <em>columns</em> (colunas) e <em>gutters</em> (calhas).</p>\n<p><img src=\"https://camo.githubusercontent.com/c11e6c49f2117fbfad0f32669953e9e7b28f2633/68747470733a2f2f6d646e2e6d6f7a696c6c6164656d6f732e6f72672f66696c65732f31333839392f677269642e706e67\" alt=\"Grid\"></p>\n<h2 id=\"elementos-do-grid-system\">Elementos do <em>Grid System</em></h2>\n<ul>\n<li>Container</li>\n</ul>\n<p><img src=\"https://camo.githubusercontent.com/4c3d277ab34ed1268ee73fd906924921c33672c0/687474703a2f2f6a346e2e636f2f636f6e74656e742f342d626c6f672f31312d4372656174696e672d796f75722d6f776e2d6373732d677269642d73797374656d2f636f6e7461696e65722e706e67\" alt=\"Container\"></p>\n<p>O objetivo do <em>container</em> é estabelecer a largura de toda a <em>grid</em>. A largura do\n<em>container</em> é geralmente 100%, mas você também pode querer definir uma largura\nmáxima para telas maiores.</p>\n<ul>\n<li>Row</li>\n</ul>\n<p><img src=\"https://camo.githubusercontent.com/adb0ba784b72c8adab3c466743eb338d443bdcdb/687474703a2f2f6a346e2e636f2f636f6e74656e742f342d626c6f672f31312d4372656174696e672d796f75722d6f776e2d6373732d677269642d73797374656d2f726f772e706e67\" alt=\"Row\"></p>\n<p>O objetivo de <em>row</em> é impedir que as colunas dentro dela ultrapassem outras\n<em>rows</em>.</p>\n<ul>\n<li>Columns</li>\n</ul>\n<p><img src=\"https://camo.githubusercontent.com/2725351b07c403c1e3d56597e2b7f0dfe29f8e84/687474703a2f2f6a346e2e636f2f636f6e74656e742f342d626c6f672f31312d4372656174696e672d796f75722d6f776e2d6373732d677269642d73797374656d2f636f6c756d6e2e706e67\" alt=\"Columns\"></p>\n<p>O objetivo de <em>columns</em> é conter os elementos que queremos exibir em nosso sítio\nweb.</p>\n<ul>\n<li>Gutters</li>\n</ul>\n<p><img src=\"https://camo.githubusercontent.com/c73f70a89038801b38159cbf37666dec199c5d0c/687474703a2f2f6a346e2e636f2f636f6e74656e742f342d626c6f672f31312d4372656174696e672d796f75722d6f776e2d6373732d677269642d73797374656d2f636f6c756d6e2d677574746572732e706e67\" alt=\"Gutters\"></p>\n<p>Os <em>gutters</em> são os espaços entre as <em>columns</em> (colunas).</p>\n<hr>\n<h2 id=\"material-complementar\">Material complementar</h2>\n<p>Se você quiser entender um pouco mais como funcionam as <em>grids</em>, leia este\n<a href=\"https://medium.com/@antonellaweyler/grid-system-e-seus-layouts-6cdf653943ba\" target=\"_blank\">artigo</a>.</p>\n",
+          "order": 1,
+          "durationString": "30min"
+        },
+        "02-media-queries": {
+          "title": "Media Queries e Viewport",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 30,
+          "body": "<h2 id=\"objetivos-de-aprendizagem\">Objetivos de Aprendizagem</h2>\n<ul>\n<li>Conhecer e entender o uso de <em>media queries</em> no contexto de Web Design\nResponsivo.</li>\n</ul>\n<h2 id=\"o-que-são-as-media-queries\">O que são as <em>Media Queries</em>?</h2>\n<p>É uma técnica introduzida no CSS3 que usa a regra <strong>@media</strong> para incluir um\nbloco de propriedades CSS que serão executados na nossa página web <strong>somente se\nas condições dadas à <em>@media</em> são verdadeiras</strong>.</p>\n<p><img src=\"https://camo.githubusercontent.com/98f619aafcc0fc3716a78a13e293501d68d20ec1/687474703a2f2f7074676d656469612e70656172736f6e636d672e636f6d2f696d616765732f63686170345f393738303332313838383933382f656c656d656e744c696e6b732f30343239622e6a7067\" alt=\"Sintaxe de uma *media\nquery*\"></p>\n<p><img src=\"https://camo.githubusercontent.com/98f619aafcc0fc3716a78a13e293501d68d20ec1/687474703a2f2f7074676d656469612e70656172736f6e636d672e636f6d2f696d616765732f63686170345f393738303332313838383933382f656c656d656e744c696e6b732f30343239622e6a7067\" alt=\"Sintaxe de uma *media\nquery*\"></p>\n<p>As <em>Media Queries</em> estão definidas por <em><strong>Media Types</strong></em>, <em><strong>Media Features</strong></em> e\no bloco de código a ser executado se as condições definidas no <em>media type</em> são\nverdadeiras. Tudo isso  funciona graças aos <strong>operadores lógicos</strong>\ncorrespondentes.</p>\n<p><img src=\"https://camo.githubusercontent.com/6eda946d71791b93d04bbb67b3c37c6cc5567ab4/68747470733a2f2f696e7465726e6574696e676973686172642e636f6d2f68746d6c2d616e642d6373732f726573706f6e736976652d64657369676e2f6d656469612d71756572792d7465726d732d3133376430362e706e67\" alt=\"*Media\nQueries*\"></p>\n<p>Os <em><strong>media types</strong></em> correspondem aos diferentes dispositivos nos quais se pode\nvisualizar nossa página web. Na imagem a seguir, podemos ver os diferentes\n<em>media types</em> que podem ser utilizados.</p>\n<p><img src=\"https://user-images.githubusercontent.com/25912510/54451017-d5eabd80-471f-11e9-8c12-52dcc1f91e10.png\" alt=\"*Media\nTypes*\"></p>\n<p>Os <em><strong>media features</strong></em> correspondem à condição que o dispositivo deve atender e\na qual deve ser verdadeira para que se aplique o código contido em nossa <em>media\nquery</em>.</p>\n<p>Os <em>media features</em> mais comuns são os referentes às dimensões de tela do\ndispositivo, podendo estabelecer a altura e largura que serão aplicadas (com\n<code>height</code> e <code>width</code>), ou o que é mais interessante, a partir de qual largura ou\naltura se aplicarão (com <code>min/max-width</code> e <code>min/max-height</code>).</p>\n<p><img src=\"https://user-images.githubusercontent.com/25912510/54451018-d5eabd80-471f-11e9-949d-51a08e31b3ec.png\" alt=\"media_feature\"></p>\n<p>Os <strong>operadores lógicos</strong> são <code>and</code>, <code>not</code>, <code>only</code> e <em>lista separada por\nvírgulas</em> (que funciona como o operador lógico <code>or</code> do Javascript) e se\nencarregam de juntar nossos <em>media types</em> com os <em>media features</em>.</p>\n<p>O operador <code>and</code> é utilizado para combinar múltiplas mídias em uma única <em>Media\nQuery</em> exigindo que cada função retorne <code>true</code> para que a <em>media query</em> também o\nseja. O operador <code>not</code> é utilizado para negar uma <em>media query</em> inteira e o\noperador <code>only</code> se usa para aplicar um estilo somente se toda a <em>query</em> está\ncorreta.</p>\n<h2 id=\"viewport\">Viewport</h2>\n<p>Um elemento que é muito importante e que devemos sempre adicionar ao nosso site\nse quisermos que seja responsivo, é a meta tag <em>viewport</em>.</p>\n<p>A tag <em>viewport</em> nos permite definir a largura, altura e escala da área\nutilizada pelo navegador para exibir o conteúdo.</p>\n<p>Ao definir a largura ou a altura do <em>viewport</em>, podemos usar um número fixo de\npixels ou usar duas constantes, <em>device-width</em> e <em>device-height</em>\nrespectivamente. Considera-se uma boa prática configurar o <em>viewport</em> com alguma\ndestas duas constantes, ao invés de usar uma largura ou altura fixa.</p>\n<p>A configuração mais comum do <em>viewport</em> é a seguinte:</p>\n<pre><code class=\"language-html\">&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1,\nmaximum-scale=1\"&gt;\n</code></pre>\n<p>Suas propriedades são as seguintes:</p>\n<ul>\n<li><p><strong>width</strong>: controla a largura da área de visualização. Pode ser incializada\ncom um número fixo de pixels ou com o valor especial <code>device-width</code> que indica\na largura total do dispositivo em pixels, em uma escala de 100%.</p>\n</li>\n<li><p><strong>initial-scale</strong>: controla o nível de <em>zoom</em> inicial ao carregar a página. As\npropriedades <code>maximum-scale</code>, <code>minimum-scale</code> e <code>user-scalable</code> controlam como\no usuário pode realizar o <em>zoom</em> sobre a página.</p>\n</li>\n</ul>\n<p>Você pode se aprofundar um pouco mais em <em>Media Queries</em> e <em>Viewport</em> em:</p>\n<ul>\n<li><a href=\"https://www.chiefofdesign.com.br/media-queries-css-introducao-a-diferentes-resolucoes-de-tela/\" target=\"_blank\">Como utilizamos as <em>media\nqueries</em>?</a></li>\n</ul>\n<h3 id=\"material-adicional\">Material adicional</h3>\n<p>Além disso, em seu tempo livre você pode ler um pouco sobre <em>Device Pixel Ratio</em>\nou <em>DPR</em> como também é conhecido ;). <a href=\"http://sergiolopes.org/resolucoes-dpi-pixel-ratio-retina/\" target=\"_blank\">Veja aqui o\nconteúdo</a>.</p>\n",
+          "order": 2,
+          "durationString": "30min"
+        },
+        "03-rwd": {
+          "title": "Web Design Responsivo",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 20,
+          "embeds": [
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=HZfESVi3Ebk",
+              "id": "HZfESVi3Ebk"
+            }
+          ],
+          "body": "<h2 id=\"objetivos-de-aprendizagem\">Objetivos de Aprendizagem</h2>\n<ul>\n<li>Conhecer o Web Design Responsivo.</li>\n<li>Entender as vantagens do uso de Web Design Responsivo nos sites.</li>\n</ul>\n<h2 id=\"o-que-é-web-design-responsivo\">O que é Web Design Responsivo?</h2>\n<p>Web Design Responsivo se trata de uma técnica de projeto e desenvolvimento web\npelo qual se consegue que um único site se adapte perfeitamente a todos os\ndispositivos como computadores de mesa, tablets, smartphones, etc.</p>\n<p>Como se faz isto? Utilizando HTML e CSS para trocar o tamanho, ocultar, reduzir,\nampliar ou mover o conteúdo para que se veja corretamente em qualquer tela.</p>\n<p><img src=\"https://camo.githubusercontent.com/006d1973c0743fe6ff1bb3fd1191a5b55e292fe9/68747470733a2f2f64657369676e6d6f646f2e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031312f31302f342e6a7067\" alt=\"Exemplo de Web Design\nResponsivo\"></p>\n<p>Os elementos básicos necessários para construir uma página com Web Design\nResponsivo são ao menos os três a seguir:</p>\n<ul>\n<li>Uma estrutura flexível, baseada em <em>Grid System</em>.</li>\n<li>Imagens e múltimídia flexíveis.</li>\n<li><em>Media queries</em>.</li>\n</ul>\n<p>As vantagens de utilizar um Web Design Responsivo são:</p>\n<ul>\n<li><p>Com só uma versão em HTML e CSS são atendidas todas as resoluções de tela, ou\nseja, o site criado estará otimizado para todo tipo de dispositivo. Isso\nmelhora a experiência do usuário que acessa sites com largura fixa, por\ndispositivos móveis.</p>\n</li>\n<li><p>Eficiência na atualização, o site só precisa ser atualizado uma vez e\nfuncionará em todas as plataformas. Quando temos os portais independentes para\nWeb e Mobile é necessária a atualização duas vezes, o que cria uma necessidade\nmaior de recursos e maior possibilidade de erros.</p>\n</li>\n</ul>\n<p>Você pode conhecer um pouco mais sobre Web Design Responsivo nos links a seguir:</p>\n<ul>\n<li><a href=\"https://www.360br.com.br/blog/mobile-first-entenda-importancia-de-ter-um-site-responsivo/\" target=\"_blank\">Projeto web: Design Responsivo e a importância de <em>mobile\nfirst</em></a></li>\n<li><a href=\"https://tableless.com.br/imagens-responsivas-de-alta-performance/\" target=\"_blank\">Imagens em projeto responsivo web com\nCSS</a></li>\n<li><a href=\"https://medium.com/@fnandaleite/entendendo-as-diferen%C3%A7as-entre-design-responsivo-adaptativo-e-mobile-first-ea3c61fc9181\" target=\"_blank\">Entendendo a diferença entre <em>mobile-first</em>, design responsivo e\nadaptativo</a></li>\n<li><div class=\"iframe-container\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/HZfESVi3Ebk?autoplay=0\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"true\"></iframe></div></li>\n</ul>\n",
+          "order": 3,
+          "durationString": "20min"
+        },
+        "04-quiz": {
+          "questions": [
+            {
+              "title": "1) O que é Web Design Responsivo?",
+              "description": "",
+              "answers": [
+                "Técnica de projeto que permite que um único sítio web se adapte perfeitamente\na todos os dispositivos",
+                "Técnica de projeto em que se faz diferentes sítios para múltiplos\ndispositivos",
+                "Técnica de projeto em que se faz estilos somente para um dispositivo,\nnormalmente para desktop"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "2) Os componentes de uma grid são",
+              "description": "",
+              "answers": [
+                "Columns",
+                "Cals",
+                "Setters",
+                "Gutters",
+                "Row"
+              ],
+              "solution": [
+                0,
+                3,
+                4
+              ]
+            },
+            {
+              "title": "3) O que são as Media Queries?",
+              "description": "",
+              "answers": [
+                "Uma técnica que utiliza a regra <em>@media</em> para incluir um novo HTML, que será\nexecutado em nosso JS",
+                "Uma técnica que utiliza a regra <em>@media</em> para incluir blocos CSS que serão\nexecutados se as condições dadas forem verdadeiras",
+                "Uma técnica que utiliza a regra <em>@media</em> para incluir blocos CSS que serão\nexecutados se as condições dadas forem falsas",
+                "Uma técnica que utiliza a regra <em>@media</em> para incluir blocos JS que serão\nexecutados se as condições dadas forem verdadeiras"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "4) As regras @media são um tipo especial de regra CSS que permitem indicar",
+              "description": "",
+              "answers": [
+                "Múltiplas combinações de <em>queries</em>",
+                "Características que, se verdadeiras, aplicarão os estilos informados na regra",
+                "O meio em que se aplicam os estilos, incluindo o nome desse meio depois de\n<em>@media</em>",
+                "Nenhuma das anteriores"
+              ],
+              "solution": [
+                1,
+                2
+              ]
+            },
+            {
+              "title": "5) Os _____________ correspondem à condição que o dispositivo deve satisfazer e que deve ser verdadeira para que se aplique o código contido em nossa media query",
+              "description": "",
+              "answers": [
+                "Media Queries",
+                "Media Type",
+                "Media Feature",
+                "Operadores Lógicos"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "6) As Media Queries são formadas por",
+              "description": "",
+              "answers": [
+                "Media Features",
+                "Media Query",
+                "Media Type",
+                "Media Operators",
+                "Operadores Lógicos",
+                "Operadores Query"
+              ],
+              "solution": [
+                0,
+                2,
+                4
+              ]
+            },
+            {
+              "title": "7) Para que serve o viewport?",
+              "description": "",
+              "answers": [
+                "Para definir a largura e altura utilizadas pelo navegador",
+                "Para definir a largura e escala utilizadas pelo navegador",
+                "Para definir a largura, altura e escala utilizadas pelo navegador",
+                "Para definir a quantidade de <em>media queries</em> a ser utilizada",
+                "Para definir a quantidade de arquivos css a ser utilizada"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "8) Os ___________ corresponden aos diferentes dispositivos onde se pode visualizar nosso sítio web",
+              "description": "",
+              "answers": [
+                "Media Features",
+                "Media Query",
+                "Media Type",
+                "Media Operators",
+                "Operadores Lógicos",
+                "Operadores Query"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "9) Dado o código a seguir, o que acontecerá?",
+              "description": "<pre><code class=\"language-css\">@media screen and (max-width: 700px){\n  p {\n    color: blue;\n    font-size: 15px;\n  }\n}\n</code></pre>",
+              "answers": [
+                "Os estilos do parágrafo serão executados quando a tela do dispositivo móvel\ntiver 700px ou mais",
+                "Os estilos do parágrafo serão executados quando a tela do dispositivo móvel\ntiver 700ox ou menos",
+                "Os estilos do parágrafo serão executados quando a tela do laptop tiver 700px\nou mais",
+                "Os estilos do parágrafo serão executados quando a tela do laptop tiver 700px\nou menos"
+              ],
+              "solution": [
+                3
+              ]
+            },
+            {
+              "title": "10) Dado o código a seguir, o que acontecerá?",
+              "description": "<pre><code class=\"language-css\">@media (min-width: 650px), tv and (orientation: landscape){\n  img {\n    max-width: 80%;\n  }\n}\n</code></pre>",
+              "answers": [
+                "Os estilos da imagem serão executados quando <strong>(min-width: 650px)</strong> for\nverdadeiro",
+                "Os estilos da imagem serão executados quando qualquer uma das medias seja\nverdadeiras",
+                "Os estilos da imagem serão executados quando <strong>tv and (orientation:\nlandscape)</strong> for verdadeiro",
+                "Os estilos da imagem serão executados quando <strong>(min-width: 650px), tv and\n(orientation: landscape)</strong> for verdadeiro",
+                "Nada acontece"
+              ],
+              "solution": [
+                3
+              ]
+            }
+          ],
+          "title": "Quiz #1",
+          "type": "quiz",
+          "format": "self-paced",
+          "duration": 15,
+          "order": 4,
+          "durationString": "15min"
+        },
+        "05-practice": {
+          "title": "Exercícios Livres",
+          "type": "practice",
+          "format": "self-paced",
+          "duration": 180,
+          "embeds": [
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=TIsxYzen6Ws",
+              "id": "TIsxYzen6Ws"
+            }
+          ],
+          "body": "<h2 id=\"objetivos\">Objetivos</h2>\n<ul>\n<li>Praticar, praticar e praticar</li>\n</ul>\n<h2 id=\"enunciados\">Enunciados</h2>\n<p>Aqui estão alguns exercícios para você praticar, sugerimos que tenta resolver\neles sozinha ou em grupo. Assim, você ficará familizariada com os desafios. E\nse quiser pode apresentar a sua solução para a sala e ajudar as suas\ncompanheiras 😁</p>\n<p>Você deve super o seu exercício para o GitHub e publicar no <code>gh-pages</code>.</p>\n<h3 id=\"1-replicar-o-grid-a-seguir\">1. Replicar o grid a seguir</h3>\n<p>Tomando como base a imagem abaixo, replique a estrutura de grid.</p>\n<p><img src=\"https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db271342808d21647911c1de5c7d19f/04-social-network/00-rwd/06-guided-exercises/ejercicio-grid-gral.png\" alt=\"grid\"></p>\n<h3 id=\"2-de-desktop-para-mobile\">2. De desktop para mobile</h3>\n<p>Agora que você sabe fazer uma grid no desktop, vamos fazer um desafio mais\ndivertido. Apresentamos três desafios. Em cada imagem, verá duas versões:\ndesktop (à esquerda) e mobile (à direita).</p>\n<p>Replique a estrutura dektop e modifique-a para mobile como a imagem indica. Você\nconsegue!</p>\n<p><img src=\"https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db271342808d21647911c1de5c7d19f/04-social-network/00-rwd/06-guided-exercises/ex-desktop-mobile.png\" alt=\"desktop a\nmobile\"></p>\n<p><img src=\"https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db271342808d21647911c1de5c7d19f/04-social-network/00-rwd/06-guided-exercises/ex-desktop-mobile2.png\" alt=\"desktop a\nmobile\"></p>\n<p><img src=\"https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db271342808d21647911c1de5c7d19f/04-social-network/00-rwd/06-guided-exercises/ex-desktop-mobile3.png\" alt=\"desktop a\nmobile\"></p>\n<h3 id=\"3-love-love-panda-desu\">3. Love Love Panda Desu</h3>\n<p>Crie uma página web para os amantes dos pandas. Para obter as imagens <a href=\"https://github.com/rafaelbcerri/love-panda\" target=\"_blank\">use este\nlink.</a>.</p>\n<ul>\n<li>Versão 1: Crie sua página utilizando grid.</li>\n<li>Versão 2: Crie sua própria versão móvel da página.</li>\n</ul>\n<p><img src=\"https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/love-love-panda.png\" alt=\"Love Love\nPanda\"></p>\n<h3 id=\"4-rock-site\">4. Rock Site</h3>\n<p>Replique as imagens a seguir colocando em prática seus conhecimentos de <code>grid system</code>. Para obter as imagens <a href=\"https://drive.google.com/drive/folders/1i9wBosEqkP3LEwBsB-T8089-NY5rhZuN?usp=sharing\" target=\"_blank\">este\nlink</a></p>\n<p><img src=\"https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/rock-desktop.png\" alt=\"Rock\nDesktop\"></p>\n<p><img src=\"https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/rock-movil.png\" alt=\"Rock\nMovil\"></p>\n<hr>\n<p>No vídeo abaixo você irá ver como usar o CSS grid:</p>\n<p><div class=\"iframe-container\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/TIsxYzen6Ws?autoplay=0\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"true\"></iframe></div></p>\n",
+          "order": 5,
+          "durationString": "3h"
+        },
+        "06-code-challenges": {
+          "title": "Desafios",
+          "type": "practice",
+          "format": "self-paced",
+          "duration": 1200,
+          "body": "<h2 id=\"1-kitten\">1. Kitten</h2>\n<p>Crie uma página web na qual se mostre uma paisagem e um gatinho diferente a\nmedida que a tela do navegador diminui.</p>\n<p><img src=\"https://raw.githubusercontent.com/Laboratoria/curricula-js/085543c5f0477cffcd3619ad3ffc3c03106caefc/04-social-network/00-rwd/06-code-challenges/kitten-dawn.png\" alt=\"Kitten Dawn\">  <img src=\"https://raw.githubusercontent.com/Laboratoria/curricula-js/085543c5f0477cffcd3619ad3ffc3c03106caefc/04-social-network/00-rwd/06-code-challenges/kitten-night.png\" alt=\"Kitten Night\">  <img src=\"https://raw.githubusercontent.com/Laboratoria/curricula-js/085543c5f0477cffcd3619ad3ffc3c03106caefc/04-social-network/00-rwd/06-code-challenges/kitten-sunnyday.png\" alt=\"Kitten Sunnyday\"></p>\n<p>O site web deve se comportar como as imagens anteriores. Pode encontrar os\ngatinhos e as paisagens <a href=\"https://github.com/rafaelbcerri/kitten\" target=\"_blank\">aqui.</a></p>\n<h2 id=\"2-minha-página\">2. Minha página</h2>\n<p>Neste desafio, vamos criar está página do Bootstrap, mas sem usar o Bootstrap.</p>\n<p><img src=\"https://raw.githubusercontent.com/Laboratoria/curricula-js/085543c5f0477cffcd3619ad3ffc3c03106caefc/04-social-network/00-rwd/06-code-challenges/desktop.png\" alt=\"Desktop\">  <img src=\"https://raw.githubusercontent.com/Laboratoria/curricula-js/085543c5f0477cffcd3619ad3ffc3c03106caefc/04-social-network/00-rwd/06-code-challenges/responsive.png\" alt=\"Responsive\"></p>\n",
+          "order": 6,
+          "durationString": "20h"
+        },
+        "07-requiz": {
+          "questions": [
+            {
+              "title": "1) \"Técnica de projeto que consegue que um único sítio se adapte perfeitamente a todos os dispositivos\". Esta é uma definição que corresponde a",
+              "description": "",
+              "answers": [
+                "Grid system",
+                "Media queries",
+                "Viewport",
+                "Web Design Responsivo"
+              ],
+              "solution": [
+                3
+              ]
+            },
+            {
+              "title": "2) Na imagem a seguir, se dissermos que a seção de títulos (Artigos, Ferramentas, etc) é uma única row, a classe para usar em uma grid de 12 colunas para cada coluna será .col-",
+              "description": "<p><img src=\"https://user-images.githubusercontent.com/11894994/57672459-94c33c80-75ee-11e9-9d0e-9fc11258bb3b.jpg\" alt=\"Exemplo da\n*grid*\"></p>",
+              "answers": [
+                "2",
+                "3",
+                "4",
+                "6",
+                "12"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "3) Uma técnica que utiliza a regra @media para incluir blocos CSS que serão executados se as condições dadas forem verdadeiras. Esta é a definição de",
+              "description": "",
+              "answers": [
+                "Grid system",
+                "Media queries",
+                "Viewport",
+                "Web Design Responsivo"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "4) Qual regra de CSS permite verificar as características de um dispositivo para aplicar um determinado estilo?",
+              "description": "",
+              "answers": [
+                ".row",
+                ".col",
+                "@media",
+                "<code>&lt;meta name=\"viewport\" content=\"width=device-width;initial-scale=1.0\" /&gt;</code>"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "5) No código a seguir, qual é a media feature?",
+              "description": "<pre><code class=\"language-css\">@media screen and (max-width: 480px) {\n  body {\n    background-color: #eee;\n  }\n}\n</code></pre>",
+              "answers": [
+                "@media",
+                "screen",
+                "max-width: 480px",
+                "and"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "6) No código a seguir, qual é o media type?",
+              "description": "<pre><code class=\"language-css\">@media screen and (max-width: 480px) {\n  body {\n    background-color: #eee;\n  }\n}\n</code></pre>",
+              "answers": [
+                "@media",
+                "screen",
+                "max-width: 480px",
+                "and"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "7) No código a seguir, qual é o operador lógico?",
+              "description": "<pre><code class=\"language-css\">@media screen and (max-width: 480px) {\n  body {\n    background-color: #eee;\n  }\n}\n</code></pre>",
+              "answers": [
+                "@media",
+                "screen",
+                "max-width: 480px",
+                "and"
+              ],
+              "solution": [
+                3
+              ]
+            },
+            {
+              "title": "8) Quando desenvolvemos um sítio responsivo, mas encontramos o caso do dispositivo móvel à esquerda, o que devemos adicionar para que apareça como o dispositivo móvel da direita?",
+              "description": "<p><img src=\"https://camo.githubusercontent.com/11e38991707aa776ed0768f201de894123959f5f/68747470733a2f2f646576656c6f706572732e676f6f676c652e636f6d2f7365617263682f6d6f62696c652d73697465732f696d67732f6d6f62696c652d73656f2f76696577706f72742e706e67\" alt=\"Missing\nviewport\"></p>",
+              "answers": [
+                "Falta indicar a meta tag viewport no head",
+                "Falta a meta tag charset UTF8 no head",
+                "Falta adicionar o script no footer",
+                "Falta fazer o sítio web"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "9) Se for necessário adaptar estilos para dispositivos com tamanhos maiores ou iguais a um iPhone 6 (width: 375px), qual seria a media feature a ser utilizada?",
+              "description": "",
+              "answers": [
+                "max-width: 375px",
+                "min-width: 375px",
+                "max-height: 375px",
+                "min-height: 375px"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "10) Se desejarmos aplicar estilos a dispositivos com tamanhos menores ou iguais a um Galaxy S5 com resolução de 1080px e Device Pixel Ratio (DPR) de 3.0, qual seria a media query a ser utilizada?",
+              "description": "<blockquote>\n<p><strong>Observação:</strong> Os pixels que usamos no CSS não são sempre a resolução do\ndispositivo. Isso acontece porque os que usamos em CSS são Device Independent\nPixels (DIP), que como diz seu nome, são independentes do hardware. Para\ncalcular o DIP de um dispositivo, usamos a seguinte fórmula:\nDIP = Resolução / DPR\nConhecendo esta fórmula, é suficiente para resolver esta questão?</p>\n</blockquote>",
+              "answers": [
+                "@media screen and (min-width: 1080px) { ... }",
+                "@media screen and (max-width: 1080px) { ... }",
+                "@media screen and (min-width: 360px) { ... }",
+                "@media screen and (max-width: 360px) { ... }"
+              ],
+              "solution": [
+                3
+              ]
+            }
+          ],
+          "title": "Quiz #2",
+          "type": "quiz",
+          "format": "self-paced",
+          "duration": 30,
+          "order": 7,
+          "durationString": "30min"
+        }
+      },
+      "order": 1,
+      "stats": {
+        "duration": 1520,
+        "durationString": "25.3h",
+        "exerciseCount": 0,
+        "partCount": 8
+      }
+    },
+    "03-frameworks": {
+      "title": "CSS frameworks",
+      "bonus": false,
+      "description": "<p>...</p>\n",
+      "parts": {
+        "00-opening": {
+          "title": "Abertura: Não reinvente a roda",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 15,
+          "body": "<h2 id=\"objetivos-de-aprendizagem\">Objetivos de Aprendizagem</h2>\n<p>Nesta unidade aprenderemos:</p>\n<ul>\n<li><p>O que são os frameworks e para que os usamos.</p>\n</li>\n<li><p>A criar una página web utilizando frameworks.</p>\n</li>\n</ul>\n<h2 id=\"por-que-aprender-a-usar-frameworks\">Por que aprender a usar Frameworks?</h2>\n<p>Usar frameworks nos faz pessoas mais felizes já que nos ajuda a não escrever\ncódigo repetitivo, ajuda-nos a desenvolver mais rápido e a utilizar boas\npráticas.</p>\n<p>O desafio que temos nesta unidade é aprender \"em que, quando e como\" utilizar os\n<strong>frameworks</strong>.</p>\n<h2 id=\"guia-de-perguntas-e-conceitos-chave\">Guia de perguntas e conceitos chave</h2>\n<p>Quando começamos a estudar um tema novo é útil termos uma ideia dos conceitos\nmais importantes que vamos aprender e dos temas centrais que devemos ter atenção\nespecial.</p>\n<p>A seguir apresentamos uma série de perguntas que você deve ser capaz de\nresponder ao terminar esta unidade. Use estas perguntas como guia para orientar\nseu esforço de aprendizagem. Volte a elas constantemente a medida que avança\npara garantir que você está no caminho certo. Que estas perguntas sirvam como um\n\"checklist\" que você vai marcando conforme avança.</p>\n<ul>\n<li><p>O que é um Framework?</p>\n</li>\n<li><p>Qual a diferença entre Bootstrap e Materialize?</p>\n</li>\n<li><p>Qual framework é o ideal?</p>\n</li>\n<li><p>Qual vantagem possuem os usuários em nossos projetos?</p>\n</li>\n</ul>\n",
+          "order": 0,
+          "durationString": "15min"
+        },
+        "01-framework": {
+          "title": "Frameworks",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 60,
+          "embeds": [
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=wiq1Zs9-qMQ",
+              "id": "wiq1Zs9-qMQ"
+            },
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=JNTfjNCBl5c",
+              "id": "JNTfjNCBl5c"
+            }
+          ],
+          "body": "<h2 id=\"objetivos-de-aprendizagem\">Objetivos de Aprendizagem</h2>\n<ul>\n<li>Conhecer e entender o que são os frameworks e como são úteis em nosso trabalho\nquando vamos criar um site.</li>\n</ul>\n<h2 id=\"o-que-é-framework\">O que é Framework?</h2>\n<p>Primeiramente devemos ter claro que existem framweworks tão variados como\nsabores de sorvete. Existem frameworks para JavaScript, para CSS, para PHP, etc.</p>\n<p>Os frameworks são definidos como um conjunto padrão de conceitos, práticas e\ncritérios (quadro de trabalho) que servem de referência para resolver problemas\nsemelhantes (como os <em>popups</em> que avisam quando uma compra foi feita com\nsucesso!).</p>\n<p>Os frameworks servem como esqueletos que você pode modificar para obter os\nresultados que deseja. Eles fornecem ferramentas e também dizem a forma correta\nde utilizá-las.</p>\n<p>Por enquanto vamos nos focar nos <code>frameworks CSS</code>, que são um conjunto de\nferramentas pré-programandas de <strong>estilos</strong> genéricos que podemos implementar\npara desenvolver nossos sítios web de uma maneira mais simples, rápida e\nresponsiva.</p>\n<h3 id=\"por-que-usamos-frameworks\">Por que usamos frameworks?</h3>\n<p>Porque às vezes fazer estruturas com CSS pode ser algo complicado e toma muito\ntempo trabalhar seus estilos. Os frameworks surgem então para reduzir o tempo e\nesforço de criação e responder à pergunta _Por que reinventar a roda se você\npode projetar um carro melhor?</p>\n<p>Isso não significa que são substitutos para entender CSS ou que não mexeremos\ncom CSS em nosso projetos. Ao contrário, sobrará mais tempo para termos projetos\ne estilos incríveis e totalmente personalizados, e conhecer muito melhor CSS!</p>\n<p>Aqui deixamos alguns vídeos introdutórios a alguns frameworks.</p>\n<ul>\n<li><p><div class=\"iframe-container\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/wiq1Zs9-qMQ?autoplay=0\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"true\"></iframe></div></p>\n</li>\n<li><p><div class=\"iframe-container\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/JNTfjNCBl5c?autoplay=0\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"true\"></iframe></div></p>\n</li>\n</ul>\n<p>Algumas das ferramentas que podemos encontrar nos frameworks de CSS são:</p>\n<ul>\n<li><p>“Resetar” os estilos padrão que os navegadores aplicam.</p>\n</li>\n<li><p>Manipular corretamente os textos, conseguindo assim que todos os conteúdos se\nvisualizem exatamente iguais em navegadores diferentes e que se adaptem a\neles.</p>\n</li>\n<li><p>Criar leiautes de maneira simples garantindo que funcionará e será visualizado\ncorretamente em qualquer versão de qualquer navegador existente.</p>\n</li>\n</ul>\n<blockquote>\n<p>Utilizar um framework só é uma boa ideia se ele faz o que você quer no sítio\nque você fizer.</p>\n</blockquote>\n<p>Alguns dos frameworks mais conhecidos são:</p>\n<ul>\n<li><a href=\"https://getbootstrap.com/\" target=\"_blank\">Bootstrap (versão 4.3)</a></li>\n<li><a href=\"http://materializecss.com/\" target=\"_blank\">Materialize</a></li>\n<li><a href=\"https://foundation.zurb.com/\" target=\"_blank\">Foundation</a></li>\n<li><a href=\"https://getmdl.io/index.html\" target=\"_blank\">Material Lite</a></li>\n</ul>\n<blockquote>\n<p>Leia a documentação desses frameworks e pratique os componentes que preferir.\nDessa maneira, você será uma mestre em frameworks CSS e criará produtos\nincríveis em pouco tempo.</p>\n</blockquote>\n",
+          "order": 1,
+          "durationString": "1h"
+        },
+        "02-bootstrap": {
+          "title": "Bootstrap",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 60,
+          "embeds": [
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=_0PL45xM__0&list=PLBbHLUbqqCrTwIrdix6kl84m4OPE0JexR",
+              "id": "_0PL45xM__0"
+            }
+          ],
+          "body": "<h2 id=\"objetivos-de-aprendizagem\">Objetivos de Aprendizagem</h2>\n<ul>\n<li>Conhecer e entender o que é o Bootstrap.</li>\n</ul>\n<h2 id=\"o-que-é-bootstrap\">O que é Bootstrap?</h2>\n<p>Bootstrap é um incrível framework que torna o desenvolvmento web front-end muito\nmais rápido e mais fácil.</p>\n<p>Inicialmente foi criado como uma solução interna para o Twitter e posteriormente\nfoi liberado ao público em agosto de 2011 como um projeto <em>open source</em> no\nGitHub.</p>\n<p><img src=\"https://camo.githubusercontent.com/78b3550b5fec5f858d55b4ba4372d1e03b6f1dea/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f312a614a5f4a4c7666567969516a356959727949756c68772e6a706567\" alt=\"Bootstrap\"></p>\n<p>Foi feito para que possa ser utilizado por pessoas de todos os níveis, por\ndispositivos de todas as formas e projetos de todos os tamanhos.</p>\n<p>Bootstrap tem várias versões. A mais popular é a versão 4 e é a que\naprenderemos. Podemos encontrar o Bootstrap <a href=\"https://getbootstrap.com/docs\" target=\"_blank\">aqui</a>.</p>\n<p>Podemos utilizar o Bootstrap em nossos projetos de diferentes formas, seja\nadicionando o código CDN ao nosso HTML para usá-lo de maneira remota ou baixando\no Bootstrap na sua página web.</p>\n<p><img src=\"https://raw.githubusercontent.com/Laboratoria/curricula-js/c6232fc0a639688fc216c72d17e325a588abae9d/04-social-network/01-css-frameworks/02-bootstrap/bcdn.png\" alt=\"Bootstrap\"></p>\n<p>Se utilizarmos as opções de baixar o Bootstrap, devemos descompactar e adicionar\nos arquivos do framework ao projeto. Além disso, devemo <em>linkar</em> todos no HTML\npara que funcione.</p>\n<p><img src=\"https://camo.githubusercontent.com/095b7f079231a6d77cb81186e27344f739cba276/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f302a4e75755232626a705a636b31774336672e\" alt=\"Bootstrap\"></p>\n<p>Falando em CDN, precisamos entender: <strong>O que é CDN?</strong></p>\n<p>Imagine que você queira usar o CSS de Bootstrap ou de alguma outra biblioteca.\nPoderíamos simplesmente baixar o arquivo .css ou .js e adicioná-lo a nosso HTML.\nMas, o que acontece se esse arquivo <strong>NÃO</strong> está no nosso computador e sim em\nalgum lugar da internet?</p>\n<p>Quando temos o arquivo em algum lugar da internet, na verdade está <strong>em outro\ncomputador</strong> em algum lugar do mundo.</p>\n<p>O que acontecerá se este computador estiver no outro lado do mundo? Na China?\nCoreia?</p>\n<p>Você acha que a distância do nosso computador (que vai utilizar o arquivo) e o\ncomputador que tem o arquivo afeta o carregamento da página?</p>\n<p><strong>Sim</strong>, afeta muito.</p>\n<p>Isto é porque conectar-se a um computador do outro lado do mundo é mais demorado\nque conectar-se ao computador que está ao nosso lado.</p>\n<p>CDN significa <strong>Content Delivery Network</strong> (Rede de distribuição de conteúdo).</p>\n<p>Imaginemos que o computador que tem o arquivo bootstrap.css está inicialmente na\nChina.</p>\n<p>Utilizando a CDN você não vai se conectar à China.</p>\n<p>Você se conecta a algum lugar mais próximo. Como os Estado Unidos.</p>\n<p>Analize a imagem a seguir:</p>\n<p><img src=\"https://camo.githubusercontent.com/06c4b1519427a89f49cc81f80f24c142ef65a55f/687474703a2f2f62612d6465766c61622e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031362f30342f63646e2e706e67\" alt=\"cdn-example\"></p>\n<p>Se estiver na África, não se conecta à Europa. <strong>Conecta-se à África.</strong></p>\n<p>Se estiver na Austrália, não se conecta à Europa. <strong>Conecta-se à Austrália.</strong></p>\n<p>Isto faz com que os arquivos <strong>demorem menos</strong> para carregar (e sua página\ntambém).</p>\n<p>Sigamos com Bootstrap.</p>\n<p>Agora sim, já que está adicionado ao nosso projeto, podemos começar a testar um\npouco de tudo o que nos oferece:</p>\n<p>Uma grid, ícones, botões, barras de navegação, etc.</p>\n<p><img src=\"https://camo.githubusercontent.com/c681e09ad23614d698347d94477054770a8a4e56/687474703a2f2f7777772e626f73732d646576656c6f706d656e742e62697a2f73697465732f64656661756c742f66696c65732f626f6f7473747261702d30322e706e67\" alt=\"Bootstrap\"></p>\n<p>A grid de Bootstrap é composta por 12 colunas e conta com os elementos típicos\nde um <em>grid system</em> (como <em>rows</em> e <em>columns</em>). Também possui tipos de\ncontêineres (<em>container-fluid</em> e <em>container</em>) e colunas para diferentes tamanhos\nde telas.</p>\n<table>\n<thead>\n<tr>\n<th align=\"center\">Classe</th>\n<th align=\"center\">Dispositivo</th>\n<th align=\"center\">Medida</th>\n</tr>\n</thead>\n<tbody><tr>\n<td align=\"center\">col-xs-</td>\n<td align=\"center\">móvel</td>\n<td align=\"center\">&lt; 768 px</td>\n</tr>\n<tr>\n<td align=\"center\">col-sm-</td>\n<td align=\"center\">tablets</td>\n<td align=\"center\">&gt;= 768 px</td>\n</tr>\n<tr>\n<td align=\"center\">col-md-</td>\n<td align=\"center\">desktop</td>\n<td align=\"center\">&gt;= 992 px</td>\n</tr>\n<tr>\n<td align=\"center\">col-lg-</td>\n<td align=\"center\">Desktop maior</td>\n<td align=\"center\">&gt;= 1200 px</td>\n</tr>\n</tbody></table>\n<p>Além da grid e do que mencionamos antes, Bootstrap conta com muitos componentes\nque podemos reutilizar todas as vezes que sejam necessários.</p>\n<h3 id=\"como-fazemos-uso-deste-grande-poder\">Como fazemos uso deste grande poder?</h3>\n<p>Para utilizar o que já nos oferece nosso framework, só necessitamos ir à sua\npágina, procurar o componente que queremos utilizaer e <em>copiar e colar</em> em nosso\nHTML o código.</p>\n<p><img src=\"https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/02-bootstrap/btn-example.PNG\" alt=\"Bootstrap-btn\"></p>\n<p>E assim fácil e maravilhosamente já temos nossos botões.</p>\n<p>Se quisermos saber um pouco mais sobre Bootstrap e como funciona\n<div class=\"iframe-container\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/_0PL45xM__0?list=PLBbHLUbqqCrTwIrdix6kl84m4OPE0JexR&amp;autoplay=0\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"true\"></iframe></div>\nhá uma série de vídeos, mas sempre é mais divertido testá-lo nós mesmas.</p>\n",
+          "order": 2,
+          "durationString": "1h"
+        },
+        "03-materialize-and-more": {
+          "title": "Materialize e outros",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 20,
+          "embeds": [
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=y9MhCyDdJ8I&index=8&list=PLBg0qy4vMd5EyUcJF5roRM0WATzENxCaE",
+              "id": "y9MhCyDdJ8I"
+            }
+          ],
+          "body": "<h2 id=\"objetivos-de-aprendizagem\">Objetivos de Aprendizagem</h2>\n<ul>\n<li>Conhecer e manipular outros frameworks.</li>\n</ul>\n<h2 id=\"materialize-e-outros-frameworks\">Materialize e outros frameworks</h2>\n<p>Bootstrap não poderia ser o único framework a existir. Aqui veremos outros que\nsão bastante populares e fortes competidores de Bootstrap:</p>\n<p><img src=\"https://camo.githubusercontent.com/a8e94368a6c7f884777a33a3b88c190646278053/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f31312f33322f64652f31313332646537343361663131623934343438623038653465363965376264662e6a7067\" alt=\"Materializecss\"></p>\n<p><strong>Materialize</strong> é um framework de CSS baseado em <em>Material Design</em>. Com uma\nsérie de ferramentas e componentes predefinidos como boas práticas, botões,\nmenus, formulários entre outros. Ele também tem um sistema de <em>grid</em> que\nfacilita o desenvolvimento para diferentes tamanhos e dispositivos e integra o\nfonte Roboto proposto pelo Google em seu estilo de projeto.</p>\n<p><a href=\"http://materializecss.com\" target=\"_blank\">Materialize</a> também possui quatro tipos diferentes\nde colunas: <strong>s, m, l y, xl</strong>.</p>\n<p><img src=\"https://camo.githubusercontent.com/0c620e316ae8cd1af872ae9d2b5f67cab36576f2/68747470733a2f2f69332e7974696d672e636f6d2f76692f6c4672706e6b304f6f5f382f6d617872657364656661756c742e6a7067\" alt=\"Foundation\"></p>\n<p><strong>Foundation</strong> é um framework responsivo que inclui componentes de tipografia,\nformulários, botões, barras de navegação e outros, assim como extenções\nJavascript opcionais. <a href=\"https://foundation.zurb.com\" target=\"_blank\">Foundation</a> é mantida por\nzurb.com e é um projeto de código aberto. Foundation também possui um framework\npara e-mail responsivo.</p>\n<h3 id=\"e-então-qual-usamos-qual-é-melhor\">E então, qual usamos? Qual é melhor?</h3>\n<p>Aqui é uma escolha de cada uma e a única maneira de saber qual nos funciona ou\ngostamos mais é fazendo uso deles. Testar e variar, testar e errar!</p>\n<h3 id=\"material-adicional\">Material adicional</h3>\n<p>Se quiser praticar um pouco sobre como funcionam esses dois frameworks, aqui\ndeixamos pequenos cursos que poderá fazer em seu tempo livre</p>\n<ol>\n<li><a href=\"https://www.youtube.com/playlist?list=PLwXQLZ3FdTVGJxKF3ShplF8nMuuxldlEk\" target=\"_blank\">Materialize</a></li>\n<li><div class=\"iframe-container\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/y9MhCyDdJ8I?index=8&amp;list=PLBg0qy4vMd5EyUcJF5roRM0WATzENxCaE&amp;autoplay=0\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"true\"></iframe></div></li>\n</ol>\n",
+          "order": 3,
+          "durationString": "20min"
+        },
+        "04-components": {
+          "title": "Componentes e funcionalidade",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 20,
+          "body": "<h2 id=\"objetivos-de-aprendizagem\">Objetivos de Aprendizagem</h2>\n<ul>\n<li>Conhecer e aprender a usar componentes de frameworks com jQuery.</li>\n</ul>\n<h2 id=\"componentes-com-jquery\">Componentes com jQuery</h2>\n<p>Nas leituras anteriores já vimos as maravilhosas vantagens que nos oferecem os\nframeworks de CSS, mas ainda há mais. Os frameworks não só nos permitem projetar\ne dar estilos mais rapidamente como também possuem componentes que já contam com\nessa funcionalidade. Isso é possível por meio do uso de <strong>jQuery</strong>.</p>\n<p>jQuery é uma biblioteca de javascript (que por enquanto não vamos nos esforçar a\nenteder 100%), que por meio de nosso framework nos dá a facilidade de adicionar\nnossa funcionalidade com poucas linhas.</p>\n<p>Para isso também é preciso criar um <em>link</em> no nosso projeto para o CDN de JQuery\nou para o caminho de onde estiver, se baixarmos JQuery no nosso projeto.</p>\n<p><img src=\"https://user-images.githubusercontent.com/25912510/54452405-1435ac00-4723-11e9-975c-5ca69ad33274.png\" alt=\"Bootstrap\"></p>\n<p>Ao fazer o passo anterior podemos começar a fazer uso do componente que\nnecessitamos. Para este exemplo usaremos um <strong>modal</strong> e um <strong>Carousel</strong>. Antes\nde tudo é necessário mencionar que os <em>modais</em> e os <em>carrosséis</em> podem ser\ncriados utilizando CSS e javascript. Desta vez faremos que a magia do nosso\nmelhor amigo venha nos ajudar (sim, o framework que você decidiu testar).</p>\n<p>Como já vimos (e praticamos) só precisamos ir à página de nosso framework,\nescolher o modal que nos faz mais feliz e copiar o código necessário. Para a\nfuncionalidade copiaremos em nosso arquivo app.js as linhas que precisamos.</p>\n<p>No nosso arquivo html:</p>\n<pre><code class=\"language-html\">&lt;button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" data-target=\"#exampleModal\" data-whatever=\"@mdo\"&gt;Open modal for @mdo&lt;/button&gt;\n\n&lt;div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLabel\"&gt;\n  &lt;div class=\"modal-dialog\" role=\"document\"&gt;\n    &lt;div class=\"modal-content\"&gt;\n      &lt;div class=\"modal-header\"&gt;\n        &lt;button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"&gt;&lt;span aria-hidden=\"true\"&gt;&amp;times;&lt;/span&gt;&lt;/button&gt;\n        &lt;h4 class=\"modal-title\" id=\"exampleModalLabel\"&gt;New message&lt;/h4&gt;\n      &lt;/div&gt;\n      &lt;div class=\"modal-body\"&gt;\n        &lt;form&gt;\n          &lt;div class=\"form-group\"&gt;\n            &lt;label for=\"recipient-name\" class=\"control-label\"&gt;Recipient:&lt;/label&gt;\n            &lt;input type=\"text\" class=\"form-control\" id=\"recipient-name\"&gt;\n          &lt;/div&gt;\n          &lt;div class=\"form-group\"&gt;\n            &lt;label for=\"message-text\" class=\"control-label\"&gt;Message:&lt;/label&gt;\n            &lt;textarea class=\"form-control\" id=\"message-text\"&gt;&lt;/textarea&gt;\n          &lt;/div&gt;\n        &lt;/form&gt;\n      &lt;/div&gt;\n      &lt;div class=\"modal-footer\"&gt;\n        &lt;button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\"&gt;Close&lt;/button&gt;\n        &lt;button type=\"button\" class=\"btn btn-primary\"&gt;Send message&lt;/button&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n</code></pre>\n<p>E em nosso arquivo app.js:</p>\n<pre><code class=\"language-javascript\">$('#myModal').modal('show');\n</code></pre>\n<p>Pronto!!! Já podemos testar nosso modal.</p>\n<p>Agora vamos ver o código para criar nosso Caruosel.</p>\n<pre><code class=\"language-html\">&lt;div id=\"carouselExampleIndicators\" class=\"carousel slide\" data-ride=\"carousel\"&gt;\n  &lt;ol class=\"carousel-indicators\"&gt;\n    &lt;li data-target=\"#carouselExampleIndicators\" data-slide-to=\"0\" class=\"active\"&gt;&lt;/li&gt;\n    &lt;li data-target=\"#carouselExampleIndicators\" data-slide-to=\"1\"&gt;&lt;/li&gt;\n    &lt;li data-target=\"#carouselExampleIndicators\" data-slide-to=\"2\"&gt;&lt;/li&gt;\n  &lt;/ol&gt;\n  &lt;div class=\"carousel-inner\"&gt;\n    &lt;div class=\"carousel-item active\"&gt;\n      &lt;img class=\"d-block w-100\" src=\"...\" alt=\"First slide\"&gt;\n    &lt;/div&gt;\n    &lt;div class=\"carousel-item\"&gt;\n      &lt;img class=\"d-block w-100\" src=\"...\" alt=\"Second slide\"&gt;\n    &lt;/div&gt;\n    &lt;div class=\"carousel-item\"&gt;\n      &lt;img class=\"d-block w-100\" src=\"...\" alt=\"Third slide\"&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n  &lt;a class=\"carousel-control-prev\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"prev\"&gt;\n    &lt;span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"&gt;&lt;/span&gt;\n    &lt;span class=\"sr-only\"&gt;Previous&lt;/span&gt;\n  &lt;/a&gt;\n  &lt;a class=\"carousel-control-next\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"next\"&gt;\n    &lt;span class=\"carousel-control-next-icon\" aria-hidden=\"true\"&gt;&lt;/span&gt;\n    &lt;span class=\"sr-only\"&gt;Next&lt;/span&gt;\n  &lt;/a&gt;\n&lt;/div&gt;\n</code></pre>\n<p>E em nosso arquivo app.js:</p>\n<pre><code class=\"language-js\">\n$('.carousel').carousel()\n</code></pre>\n<p>E já temos nosso carrossel.</p>\n<h3 id=\"e-se-decidir-usar-outro-framework\">E se decidir usar outro framework</h3>\n<p>Não há o que temer, é só revisar a documentação do framework escolhido e\npraticar muito. Os passos a seguir são muito parecidos e em alguns caso, os\nmesmos.</p>\n<p>Lembre-se:</p>\n<ul>\n<li>Investigar</li>\n<li>Testar</li>\n<li>Perguntar!!</li>\n</ul>\n",
+          "order": 4,
+          "durationString": "20min"
+        },
+        "05-quiz": {
+          "questions": [
+            {
+              "title": "1) O que é um Framework?",
+              "description": "",
+              "answers": [
+                "Ferramenta de trabalho que podemos usar em nosso projetos como se fosse um\nmodelo metodológico pré-estabelecido",
+                "Linguagem de programação baseada em CSS que ajuda a projetar mais rapidamente",
+                "Folha de estilo externa ao nosso projeto",
+                "Ferramenta de organização que podemos usar em nossos projetos como se fosse\num modelo pedagógico pré-estabelecido"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "2) Por que usamos Frameworks?",
+              "description": "",
+              "answers": [
+                "Porque usando-os não fazemos o código do zero e economizamos tempo",
+                "Porque nos economiza fazer o layout de nossa página",
+                "Garante-nos que nosso design será funcional",
+                "Porque assim evitamos pensar no design"
+              ],
+              "solution": [
+                0,
+                2
+              ]
+            },
+            {
+              "title": "3) Exemplos de componentes que podemos encontrar em um Framework",
+              "description": "",
+              "answers": [
+                "section",
+                "grid",
+                "imagens responsivas",
+                "div"
+              ],
+              "solution": [
+                1,
+                2
+              ]
+            },
+            {
+              "title": "4) Vantagem de usar um Framework",
+              "description": "",
+              "answers": [
+                "Melhora a compatibilidade do sítio web em diferentes navegadores por meio do\n<code>reset</code>",
+                "Fornece-nos muito código complementar em cada ação",
+                "Controle 100% dos estilo desde o <code>html</code>"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "5) Como se anexo o CDN?",
+              "description": "",
+              "answers": [
+                "<code>&lt;link rel=\"stylesheet\" src=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize\"&gt;</code>",
+                "<code>&lt;link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min\"&gt;</code>",
+                "<code>&lt;link rel=\"stylesheet\" src=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css\"&gt;</code>",
+                "<code>&lt;link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css\"&gt;</code>"
+              ],
+              "solution": [
+                3
+              ]
+            },
+            {
+              "title": "6) Quais números de colunas estão faltando?",
+              "description": "<p><img src=\"https://user-images.githubusercontent.com/25912510/54452462-3deed300-4723-11e9-8267-f0c150103ae2.jpg\" alt=\"Frameworks\"></p>",
+              "answers": [
+                "9 e 3",
+                "8 e 2",
+                "8 e 4",
+                "7 e 5"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "7) Formas de adicionar un Framework na área de trabalho",
+              "description": "",
+              "answers": [
+                "Via remota adicionando o <code>cdn</code>",
+                "Adicionando uma folha de estilos",
+                "Comprando uma licença",
+                "Baixando o Framework e anexando-o"
+              ],
+              "solution": [
+                0,
+                3
+              ]
+            },
+            {
+              "title": "8) Segundo o padrão, qual é o número de colunas que compõem uma distribuição de uma página?",
+              "description": "",
+              "answers": [
+                "11",
+                "12",
+                "10",
+                "De acordo com o layout"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "9) Framework desenvolvido pelo Google",
+              "description": "",
+              "answers": [
+                "Materialize",
+                "Foundation",
+                "Bootstrap"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "10) Framework desenvolvido inicialmente pelo Twitter",
+              "description": "",
+              "answers": [
+                "Materialize",
+                "Foundation",
+                "Bootstrap"
+              ],
+              "solution": [
+                2
+              ]
+            }
+          ],
+          "title": "Quiz #1",
+          "type": "quiz",
+          "format": "self-paced",
+          "duration": 30,
+          "order": 5,
+          "durationString": "30min"
+        },
+        "06-practice": {
+          "title": "Exercícios Livres",
+          "type": "practice",
+          "format": "self-paced",
+          "duration": 120,
+          "body": "<h2 id=\"objetivos\">Objetivos</h2>\n<ul>\n<li>Testar, praticar e praticar mais.</li>\n</ul>\n<h2 id=\"enunciados\">Enunciados</h2>\n<p>Aqui estão alguns exercícios para você praticar, sugerimos que tenta resolver\neles sozinha ou em grupo. Assim, você ficará familizariada com os desafios. E\nse quiser pode apresentar a sua solução para a sala e ajudar as suas\ncompanheiras 😁</p>\n<p>Você deve super o seu exercício para o GitHub e publicar no <code>gh-pages</code>.</p>\n<h3 id=\"1-template-de-bootstrap\">1. Template de Bootstrap</h3>\n<p>Recrie a seguinte imagem fazendo uso dos componentes do Bootstrap.</p>\n<p><img src=\"https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/07-guided-exercises/template-bootstrap.png\" alt=\"template\"></p>\n<h3 id=\"2-love-love-panda\">2. Love Love Panda</h3>\n<p>Volte a fazer o seu site para amantes de pandas, mas agora usando o grid e\ncomponentes do Materialize, utilize as imagens do desafio passado.</p>\n<p><img src=\"https://raw.githubusercontent.com/Laboratoria/curricula-js/a5233dee21c1cb455bc0c044ad4eb0f6b906f960/04-social-network/00-rwd/05-guided-exercises/love-love-panda.png\" alt=\"Love Love Panda\"></p>\n",
+          "order": 6,
+          "durationString": "2h"
+        },
+        "07-code-challenges": {
+          "title": "Desafios",
+          "type": "practice",
+          "format": "self-paced",
+          "duration": 1200,
+          "body": "<h2 id=\"lab-ar\">Lab-&lt;ar</h2>\n<p>Recrie a seguinte página web. As imagens e tudo que precisa você encontrará\n<a href=\"https://github.com/Laboratoria-learning/lab-car-boilerplate\" target=\"_blank\">aqui.</a> Lembre-se\nde fazer um fork do repositório e cloná-lo em sua máquina.</p>\n<h3 id=\"1-a-versão-web\">1. A versão web</h3>\n<p><img src=\"https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/desktop.png\" alt=\"Lab-car-web\"></p>\n<h3 id=\"2-a-versão-móvel\">2. A versão móvel</h3>\n<p>E obviamente não podemos deixar de lado a versão móvel, então crie-a em uma\nsegunda etapa.</p>\n<p><img src=\"https://raw.githubusercontent.com/AnaSalazar/curricula-js/0b700308f0c6ed452596912fcef8103b8f88386b/04-social-network/01-css-frameworks/08-code-challenges/images/v-movil.png\" alt=\"Lab-car-movil\"></p>\n<h3 id=\"3-modais\">3. Modais</h3>\n<p>Como <strong>extra</strong> pode adicionar os modais necessários na versão web.</p>\n<ul>\n<li><p>Modal de Início de Sessão\n<img src=\"https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/modal-inicio-sesion.png\" alt=\"modal-sesion\"></p>\n</li>\n<li><p>Modal de Registro\n<img src=\"https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/modal-registrate.png\" alt=\"modal-sesion\"></p>\n</li>\n<li><p>E modal de Tornar-se condutor\n<img src=\"https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/modal-conductor.png\" alt=\"modal-conductor\"></p>\n</li>\n</ul>\n",
+          "order": 7,
+          "durationString": "20h"
+        },
+        "08-requiz": {
+          "questions": [
+            {
+              "title": "1) O que é um Framework?",
+              "description": "",
+              "answers": [
+                "Ferramenta de trabalho que podemos usar em nosso projetos como se fosse um\nmodelo metodológico pré-estabelecido",
+                "Linguagem de programação baseada em CSS que ajuda a projetar mais rapidamente",
+                "Folha de estilo externa a nosso projeto",
+                "Ferramenta de organização que podemos usar em nosso projeto como se fosse um\nmodelo pedagógico pré-estabelecido"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "2) Por que usamos Frameworks?",
+              "description": "",
+              "answers": [
+                "Porque usando-os não fazemos códigos do zero e economizamos tempo",
+                "Porque nos economiza tempo para fazer o layout de nossa página",
+                "Garante-nos que nosso código será flexível",
+                "Garante-nos que nosso código será funcional"
+              ],
+              "solution": [
+                0,
+                3
+              ]
+            },
+            {
+              "title": "3) Exemplos de componentes que podemos encontrar em um Framework",
+              "description": "",
+              "answers": [
+                "section.row",
+                "grid",
+                "imagens que carreguem rápido",
+                "imagens responsivas"
+              ],
+              "solution": [
+                1,
+                3
+              ]
+            },
+            {
+              "title": "4) Vantagem de usar um Framework",
+              "description": "",
+              "answers": [
+                "Melhorar a navegação do sítio web em diferentes navegaores por meio do\n<code>reset</code>",
+                "Melhorar a compatibilidade do sítio web em diferentes navegadores por meio do\n<code>reset</code>",
+                "Controlar os estilos 100% pelo <code>html</code>"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "5) Como se adiciona o CDN?",
+              "description": "",
+              "answers": [
+                "<code>&lt;link rel=\"stylesheet\" src=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize\"&gt;</code>",
+                "<code>&lt;link rei=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min\"&gt;</code>",
+                "<code>&lt;link rel=\"stylesheet\" src=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.scss\"&gt;</code>",
+                "<code>&lt;link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css\"&gt;</code>"
+              ],
+              "solution": [
+                3
+              ]
+            },
+            {
+              "title": "6) Formas de adicionar um Framework à sua área de trabalho",
+              "description": "",
+              "answers": [
+                "Adicionando uma folha de estilos",
+                "Comprando uma licença de Bootstrap",
+                "Remotamente adicionando o <code>cdn</code> a nosso <code>html</code>",
+                "Baixando o Framework e adicionando-o"
+              ],
+              "solution": [
+                2,
+                3
+              ]
+            },
+            {
+              "title": "7) De acordo com o padrão CSS, qual é o número de colunas que compõem a diagramação de uma página?",
+              "description": "",
+              "answers": [
+                "11",
+                "10",
+                "12",
+                "De acordo com o layout"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "8) Framework CSS desenvolvido pelo Google",
+              "description": "",
+              "answers": [
+                "Materialize",
+                "Foundation",
+                "Bootstrap"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "9) Framework desenvolvido inicialmente pelo Twitter",
+              "description": "",
+              "answers": [
+                "Materialize",
+                "Foundation",
+                "Bootstrap"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "10) De acordo com o Bootstrap, quais são as classes para o sistema de grid?",
+              "description": "",
+              "answers": [
+                "container, row, col-xs-12, col-sm-12, col-md-12, col-lg-12",
+                "container, row, col s12, col m12, col l12 xl12",
+                "container, row, col-s-12, col-m-12, col-md-12, col-lg-12"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "11) Contêiner que usa toda a largura da tela em nosso dispositivo",
+              "description": "",
+              "answers": [
+                "Container-all",
+                "container",
+                "container-fluid"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "12) Dispositivos que são levados em conta em um framework",
+              "description": "",
+              "answers": [
+                "Mobile",
+                "Tablet",
+                "Ipad",
+                "Desktop",
+                "Projetor"
+              ],
+              "solution": [
+                0,
+                1,
+                3
+              ]
+            }
+          ],
+          "title": "Quiz #2: requizzing",
+          "type": "quiz",
+          "format": "guided",
+          "duration": 30,
+          "order": 8,
+          "durationString": "30min"
+        }
+      },
+      "order": 2,
+      "stats": {
+        "duration": 1555,
+        "durationString": "25.9h",
+        "exerciseCount": 0,
+        "partCount": 9
+      }
+    }
+  },
+  "grades": "",
+  "contributors": "",
+  "books": "",
+  "benchmarks": "",
+  "references": "",
+  "repo": "Laboratoria/bootcamp",
+  "path": "topics/css",
+  "version": "3.1.0",
+  "parserVersion": "3.0.0",
+  "track": "js",
+  "locale": "pt-BR",
+  "stats": {
+    "duration": 6150,
+    "durationString": "102.5h",
+    "exerciseCount": 0,
+    "unitCount": 3,
+    "partCount": 30
+  }
+}

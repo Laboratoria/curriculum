@@ -1,0 +1,97 @@
+{
+  "slug": "shell",
+  "createdAt": "2021-07-12T22:08:20.679Z",
+  "title": "Unix Shell",
+  "description": "<p>La línea de comandos es una interfaz que algunos pensarían está ya anticuada.\nPero la realidad es completamente distinta. El terminal se ha convertido en una\npieza crucial en el día a día de un desarrollador web, ya sea usando <code>git</code>,\ncorriendo un <code>bundler</code>, instalando dependencias con <code>npm</code> o escribiendo scripts\npara arrancar o desplegar aplicaciones.</p>\n<p>La primera <code>unix shell</code> apareció en 1971, con la primera versión de Unix. A\npesar de sus más de 40 años de edad, sigue siendo una tecnología totalmente\nvigente, y de alguna forma se ha convertido en el estándar para la interacción\ncon servidores y sistemas operativos \"Unix-like\" (GNU/Linux, BSD, MacOS,\nAndroid, ...).</p>\n<p>De hecho, en 2016, <code>unix shell</code>, es uno de los skills más buscados en la\nindustria (ranqueado No. 14 entre los 25 skills más importantes para ser\ncontratado en 2016, según LinkedIn).</p>\n<p>En este curso aprenderás a interactuar con la línea de comandos y escribir shell\nscripts.</p>\n\n",
+  "tags": {
+    "secondary": {},
+    "primary": {
+      "cli": true,
+      "shell": true,
+      "bash": true,
+      "filesystem": true,
+      "profile": true,
+      "history": true,
+      "environment": true,
+      "process": true,
+      "argv": true,
+      "pipes": true,
+      "stdin": true,
+      "stdout": true,
+      "stderr": true,
+      "nodejs": true,
+      "npm": true,
+      "npm-scripts": true
+    }
+  },
+  "targetAudience": "",
+  "dependencies": "",
+  "learningObjectives": "<ul>\n<li>Qué es y cómo utilizar la interfaz de línea de comandos (<code>CLI</code>)</li>\n<li>Qué es una shell de UNIX</li>\n<li>Qué es un emulador de terminal</li>\n<li>Uso básico de <code>bash</code></li>\n<li>A escribir shell scripts para automatizar tareas</li>\n<li>A construir aplicaciones CLI con Node.js</li>\n<li>A enteder qué es un proceso</li>\n<li>A entender el &quot;entorno&quot; y usar variables de entorno</li>\n</ul>\n",
+  "product": "",
+  "syllabus": {
+    "01-intro": {
+      "title": "Introducción",
+      "bonus": false,
+      "description": "<p>Esta unidad hace una introdcción a la <em>shell</em> de UNIX, shells comunes, la línea\nde comandos, y otros conceptos básicos sobre este poderoso entorno.</p>\n",
+      "parts": {
+        "01-intro": {
+          "title": "Shell de UNIX",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 10,
+          "body": "<h2 id=\"qué-es-la-shell-de-unix\">Qué es la shell de UNIX?</h2>\n<blockquote>\n<p>Una Shell de Unix o también shell, es el término usado en informática para\nreferirse a un intérprete de comandos, el cual consiste en la interfaz de\nusuario tradicional de los sistemas operativos basados en Unix y similares\ncomo GNU/Linux.</p>\n<p>Fuente: <a href=\"https://es.wikipedia.org/wiki/Shell_de_Unix\" target=\"_blank\">Shell de Unix - Wikipedia</a></p>\n</blockquote>\n<p>Básicamente, la shell es el <em>intérprete</em> que se encarga de ejecutar los comandos\nque escribimos en el terminal (o emulador de terminal). Así como el motor de\nJavaScript (ya sea del navegador, Node.js, ...) es el responsable en interpretar\ny ejecutar nuestro código JavaScript, la shell se encarga de los comandos que\nescribimos en la línea de comando.</p>\n<h2 id=\"shells-comunes\">Shells comunes</h2>\n<p>La shell más común es problemente <code>bash</code> (<a href=\"https://es.wikipedia.org/wiki/Bash\" target=\"_blank\">Bourne Again SHell</a>),\npero no está de más mencionar que existen muchas shells distintas, que comparten\ngran parte de sus características, pero cada una con sus peculiaridades. Otras\nshells comunes son: <code>zsh</code>, <code>ksh</code>, <code>csh</code>, <code>ash</code>, <code>dash</code>, ...</p>\n<p>Dentro de un emulador de terminal podemos ejecutar diferentes shells, así como\nconfigurar tu shell por defecto (ver comando <a href=\"https://en.wikipedia.org/wiki/Chsh\" target=\"_blank\">chsh</a>).</p>\n<h2 id=\"la-línea-de-comandos\">La línea de comandos</h2>\n<p>La línea de comandos es también conocida como</p>\n<ul>\n<li>Terminal</li>\n<li>Consola</li>\n<li>Command Prompt</li>\n<li>Símbolo de Sistema</li>\n<li>cmd</li>\n<li>Git Bash, etc.</li>\n</ul>\n<p>Una de las herramientas que más nos acompañará en nuestro camino del código\nserá la <code>línea de comandos</code>. En esta lección conoceremos y aprenderemos cómo\nusar esa famosa pantalla negra que los \"hackers\" usan; pero tranquila, no\nvamos a \"hackear\" nada, ni haremos nada ilegal :)</p>\n<p>Puede parecer un poco aterrador al principio pero solo es una pantalla que\nespera a que le des órdenes.</p>\n<h2 id=\"¿para-qué-sirve-la-línea-de-comandos\">¿Para qué sirve la línea de comandos?</h2>\n<p>La <code>línea de comandos</code> es una aplicación que nos permite ver, manejar y\nmanipular archivos de nuestra computadora por medio de <code>comandos</code>. Es como el\nExplorador de Windows o Finder en Mac, pero sin la \"interfaz\".</p>\n<p>Por lo tanto, nos da un control que es rápido y automatizado de las\ncomputadoras.</p>\n<h2 id=\"accediendo-a-la-línea-de-comandos\">Accediendo a la línea de comandos</h2>\n<h3 id=\"windows\">Windows</h3>\n<p>Presionamos la tecla \"windows\" + r:</p>\n<p><img src=\"https://fotos.subefotos.com/5b80f161eee85749b3825fc14406872eo.png\" alt=\"teclas\"></p>\n<p>Ahora nos aparecerá una pequeña pantalla en la parte inferior izquierda en la que\nescribiremos <strong>cmd.exe</strong></p>\n<p><img src=\"https://fotos.subefotos.com/98de3a4aec5f117f023ba85addc08298o.png\" alt=\"run\"></p>\n<p>Hacemos clic en el botón <strong>OK</strong> y estaremos abriendo nuestra terminal. Al abrir\nla aplicación nos aparecerá una nueva ventana con un fondo negro y letras así:</p>\n<p><img src=\"https://fotos.subefotos.com/4fda00e92300cda89ff141f0265d6227o.png\" alt=\"línea de comandos\"></p>\n<h3 id=\"mac-os-x\">Mac OS X</h3>\n<p>Launchpad → Terminal</p>\n<h3 id=\"linux\">Linux</h3>\n<p>Actividades → Terminal</p>\n<h2 id=\"prompt\">Prompt</h2>\n<p>Ahora tendremos una pantalla negra que está esperando nuestras órdenes.</p>\n<ul>\n<li><p>Si nos encontramos en <strong>Windows</strong> debe de aparecernos una primera línea que termina\ncon el símbolo <code>&gt;</code></p>\n<pre><code class=\"language-text\"> C: \\Users\\Michelle &gt;\n</code></pre>\n<p>Si no te aparece \"Michelle\" no te preocupes, está bien, ahí debería de\naparecer tu nombre de usuario.</p>\n</li>\n<li><p>Si te encuentras en <strong>Linux</strong>, te aparecerá una primera línea que termina con el\nsímbolo <code>$</code></p>\n<pre><code class=\"language-text\">[Laboratoria@Michelle ~] $\n</code></pre>\n<p>En tu computadora, \"Laboratoria\" y \"Michelle\" serán reemplazados por tus datos.</p>\n</li>\n<li><p>Si tienes una <strong>Mac</strong>, la primera línea estará compuesta por los datos de tu\ncomputadora y terminará con el símbolo <code>$</code></p>\n<pre><code class=\"language-text\">Laboratoria-MacBook-Air:~ Michelle$\n</code></pre>\n</li>\n</ul>\n<!--\n## Comandos comunes\n\nAdemás de manejarnos en el sistema de archivos, como desarrolladorxs web, y\nusuarixs de la línea de comando, es recomendable familiarizarse con algunos\ncomandos comunes (además de los programas que ya conocemos, como `git`, `node`,\n`npm`, ...). Acá algunos ejemplos de comandos útiles:\n\n* `which`: averigua si un ejecutable se encuentra en nuestro `PATH`. Muy útil\n  para saber si un comando está disponible y dónde está ele ejecutable en el\n  sistema de archivos.\n  ```sh\n  which node\n  /usr/local/bin/node\n  ```\n* `grep`: filtra texto, mostrándonos solamente aquellas líneas que contengan un\n  patrón de búsqueda.\n* `curl`\n* ...\n-->\n\n<h2 id=\"personalización\">Personalización</h2>\n<p>Para finalizar, cabe mencionar que así como uno puede configurar su escritorio,\ncon tu propia imagen de fondo, shortcuts, ... los shells también permiten un\nmontón de personalización. Los detalles de cómo personalizar tu shell quedan\nfuera del scope de este curso, pero te invitamos a que explores lo siguiente:</p>\n<ul>\n<li><code>.profile</code></li>\n<li><code>.bashrc</code></li>\n<li><code>.bash_history</code></li>\n<li><code>oh-my-zsh</code></li>\n</ul>\n<h2 id=\"lecturas-complementarias\">Lecturas complementarias</h2>\n<ul>\n<li><a href=\"https://es.wikipedia.org/wiki/Shell_de_Unix\" target=\"_blank\">Shell de Unix - Wikipedia</a></li>\n<li><a href=\"https://es.wikipedia.org/wiki/Emulador_de_terminal\" target=\"_blank\">Emulador de terminal - Wikipedia</a></li>\n<li><a href=\"https://en.wikipedia.org/wiki/Bash_(Unix_shell)\" target=\"_blank\">Bash_(Unix_shell) - Wikipedia</a></li>\n<li><a href=\"https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html\" target=\"_blank\">Shell Builtin Commands - gnu.org</a></li>\n</ul>\n",
+          "order": 0,
+          "durationString": "10min"
+        }
+      },
+      "order": 0,
+      "stats": {
+        "duration": 10,
+        "durationString": "10min",
+        "exerciseCount": 0,
+        "partCount": 1
+      }
+    },
+    "02-filesystem": {
+      "title": "Sistema de archivos",
+      "bonus": false,
+      "description": "<p>En esta unidad nos concentramos en la interacción con el sistema de archivos\ndesde el terminal. Veremos como navegar el sistema de archivos, crear carpetas,\nmover/copiar/borrar archivos y otros comandos comunes.</p>\n<!--\n### Unidad 03: [Entorno / Envirnoment](03-environment)\n\n...\n\n### Unidad 04: [Procesos](04-process)\n\n...\n\n### Unidad 05: [Scripts](05-scripts)\n\n...\n-->\n",
+      "parts": {
+        "01-fs": {
+          "title": "Sistema de archivos",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 10,
+          "body": "<p>Cuando abrimos un emulador de terminal, normalmente nos encontramos (por\ndefecto) en nuestra carpeta <code>HOME</code> (por ejemplo: <code>/home/&lt;usuario&gt;</code> en la mayoría\nde distribuciones de UNIX). El terminal siempre <em>está</em> en el algún lugar del\nsistema de archivos. Esto quiere decir que los comandos que ejecutemos se\nejecutarán desde ese <em>lugar</em> (la carpeta donde estemos).</p>\n<p>Para poder manejarse con facilidad en el terminal es importante familiarizarse\ncon algunos comandos. Te recomendamos abrir tu terminal y ejecutar los comandos\ndetallados más abajo (las líneas que empiezan con <code>$</code> en los bloques de código).\nSi sigues el orden de los ejemplos deberías de ver resultados equivalentes.</p>\n<ul>\n<li><p><code>pwd</code>: muestra la ruta donde estamos actualmente (<strong>P</strong>rint <strong>W</strong>orking\n<strong>D</strong>irectory)</p>\n<pre><code class=\"language-sh\">$ pwd\n/Users/lupo\n</code></pre>\n</li>\n<li><p><code>mkdir</code>: crea una carpeta (<strong>M</strong>a<strong>K</strong>e <strong>DIR</strong>ectory)</p>\n<pre><code class=\"language-sh\">mkdir ejemplo\n</code></pre>\n</li>\n<li><p><code>cd</code>: cambia de directorio a una nueva ruta (<strong>C</strong>hange <strong>D</strong>irectory)</p>\n<pre><code class=\"language-sh\">$ cd ejemplo\n$ pwd\n/Users/lupo/ejemplo\n</code></pre>\n</li>\n<li><p><code>touch</code>: Crea un archivo en blanco si no existe o actualiza la fecha de\nmodificación si existse.</p>\n<pre><code class=\"language-sh\">touch README.md\ntouch index.js .gitignore\n</code></pre>\n</li>\n<li><p><code>ls</code>: lista los archivos (y directorios/carpetas) en la carpeta actual\n(<strong>L</strong>i<strong>S</strong>t)</p>\n<pre><code class=\"language-sh\">$ ls\nREADME.md index.js\n$ ls -l\ntotal 0\n-rw-r--r--  1 Lupo  staff  0 Jan 15 17:32 README.md\n-rw-r--r--  1 Lupo  staff  0 Jan 15 17:32 index.js\n$ ls -la\ntotal 0\ndrwxr-xr-x    5 Lupo  staff   160 Jan 15 17:32 .\ndrwxr-xr-x+ 151 Lupo  staff  4832 Jan 15 17:33 ..\n-rw-r--r--    1 Lupo  staff     0 Jan 15 17:32 .gitignore\n-rw-r--r--    1 Lupo  staff     0 Jan 15 17:32 README.md\n-rw-r--r--    1 Lupo  staff     0 Jan 15 17:32 index.js\n</code></pre>\n</li>\n<li><p><code>cat</code>: muestra el contenido de un archivo en el terminal (stdout)\n(con<strong>CAT</strong>enate)</p>\n<pre><code class=\"language-sh\">$ echo 'hola mundo' &gt; file.txt\n$ cat file.txt\nhola mundo\n</code></pre>\n</li>\n<li><p><code>mv</code>: Mueve un archivo o carpeta de un lugar a otro en el sistema de archivos\n(<strong>M</strong>o<strong>V</strong>e)</p>\n<pre><code class=\"language-sh\">$ mv file.txt hola-mundo.txt\n$ ls -l\ntotal 8\n-rw-r--r--  1 Lupo  staff   0 Jan 15 17:32 README.md\n-rw-r--r--  1 Lupo  staff  11 Jan 15 17:34 hola-mundo.txt\n-rw-r--r--  1 Lupo  staff   0 Jan 15 17:32 index.js\n</code></pre>\n</li>\n<li><p><code>cp</code>: Copia un archivo o carpeta de un lugar a otro (<strong>C</strong>o<strong>P</strong>y)</p>\n<pre><code class=\"language-sh\">$ cp hola-mundo.txt hello-world.txt\n$ ls -l\ntotal 16\n-rw-r--r--  1 Lupo  staff   0 Jan 15 17:32 README.md\n-rw-r--r--  1 Lupo  staff  11 Jan 15 17:37 hello-world.txt\n-rw-r--r--  1 Lupo  staff  11 Jan 15 17:34 hola-mundo.txt\n-rw-r--r--  1 Lupo  staff   0 Jan 15 17:32 index.js\n</code></pre>\n</li>\n<li><p><code>rm</code>: Borra un archivo o carpeta (<strong>R</strong>e<strong>M</strong>ove)</p>\n<pre><code class=\"language-sh\">$ rm index.js\n$ ls -l\ntotal 16\n-rw-r--r--  1 Lupo  staff   0 Jan 15 17:32 README.md\n-rw-r--r--  1 Lupo  staff  11 Jan 15 17:37 hello-world.txt\n-rw-r--r--  1 Lupo  staff  11 Jan 15 17:34 hola-mundo.txt\n</code></pre>\n</li>\n</ul>\n",
+          "order": 0,
+          "durationString": "10min"
+        }
+      },
+      "order": 1,
+      "stats": {
+        "duration": 10,
+        "durationString": "10min",
+        "exerciseCount": 0,
+        "partCount": 1
+      }
+    }
+  },
+  "grades": "",
+  "contributors": "",
+  "books": "",
+  "benchmarks": "",
+  "references": "",
+  "repo": "Laboratoria/bootcamp",
+  "path": "topics/shell",
+  "version": "3.1.0",
+  "parserVersion": "3.0.0",
+  "track": "js",
+  "locale": "es-ES",
+  "stats": {
+    "duration": 20,
+    "durationString": "20min",
+    "exerciseCount": 0,
+    "unitCount": 2,
+    "partCount": 2
+  }
+}

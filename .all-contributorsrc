@@ -719,6 +719,15 @@
       "contributions": [
         "review"
       ]
+    },
+    {
+      "login": "oxfist",
+      "name": "Andrés Quilodrán",
+      "avatar_url": "https://avatars.githubusercontent.com/u/934679?v=4",
+      "profile": "https://github.com/oxfist",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }

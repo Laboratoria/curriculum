@@ -1,0 +1,12 @@
+{
+  "slug": "battleship",
+  "repo": "Laboratoria/bootcamp",
+  "path": "projects/05-battleship",
+  "version": "3.1.0",
+  "parserVersion": "3.0.0",
+  "createdAt": "2021-07-12T22:08:12.415Z",
+  "prefix": 5,
+  "title": "Battleship",
+  "locale": "es-ES",
+  "track": "js"
+}

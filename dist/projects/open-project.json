@@ -1,0 +1,12 @@
+{
+  "slug": "open-project",
+  "repo": "Laboratoria/bootcamp",
+  "path": "projects/06-open-project",
+  "version": "3.1.0",
+  "parserVersion": "3.0.0",
+  "createdAt": "2021-07-12T22:08:17.699Z",
+  "prefix": 6,
+  "title": "Proyecto Abierto",
+  "locale": "es-ES",
+  "track": "js"
+}
