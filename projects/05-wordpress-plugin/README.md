@@ -14,21 +14,21 @@
 ## 1. Preámbulo
 
 Los sistemas de gestión de contenidos o CMS (Content Management Systems) son
-aplicaciones web que permiten a usuarios (sin necesidad de tener conocimientos
-previos en programación)  crear contenidos con una interfaz visual de manera
-rápida y sencilla. Entre los más utilizados están [WordPress(42.1%),
+aplicaciones web que permiten a usuarios crear contenidos con una interfaz visual
+de manera rápida y sencilla sin necesidad de tener conocimientos previos en
+en programación. Entre los más utilizados están [WordPress(42.1%),
 Shopify(3.7%), Joomla(2.0%), Squarespace(1.7%) y
-Wix(1.7%)](https://w3techs.com/technologies/overview/content_management).
+Wix(1.7%)](https://w3techs.com/technologies/overview/content_management), según un estudio de 2021 de W3Techs.com.
 
 WordPress es uno de los CMS más utilizados en el mercado. Éste permite crear
 blogs personales u otro tipo de sitios web, como páginas corporativas, revistas,
-tiendas online, periodicos digitales, etc(aquí te dejamos
+tiendas online, periodicos digitales, etc. Aquí te dejamos el sitio
 [WordPress Website Showcase](https://wordpress.org/showcase/)
-donde podrás encontrar otros casos de uso). Además WordPress es un
+donde podrás encontrar otros ejemplos de uso que tiene la aplicación. Además WordPress es un
 sistema de software libre, gratuito, modular, y compatible con muchos plugins
 y temas, constantemente actualizado y con mejoras gracias a la comunidad de
 desarrolladores. El lenguaje en el que desarrollamos WordPress es PHP,
-que es el lenguaje de código abierto [más popular desde el lado del servidor (79.2%)](https://w3techs.com/technologies/overview/programming_language)
+que es el lenguaje de código abierto [más popular desde el lado del servidor (79.2%)](https://w3techs.com/technologies/overview/programming_language), según un estudio de W3Techs.com.
 y se usa principalmente para crear páginas webs dinámicas y aplicaciones.
 
 ## 2. Resumen del proyecto
@@ -37,7 +37,7 @@ En este proyecto te invitamos a desarrollar un plugin para WordPress. Puedes
 proponer libremente la funcionalidad de tu plugin. Cuando tengas una idea más o
 menos definida, asegúrate de pedir ayuda del equipo de coaches para determinar
 exactamente cuál será el alcance de tu proyecto y qué objetivos de aprendizaje
-cubrirás. Define un alcance que te tome de 2 a 3 semanas como máximo.
+cubrirás. Define un alcance que te tome de 4 a 5 semanas como máximo.
 
 Este proyecto puedes desarrollarlo de forma individual o por duplas. Tu decides
 de acuerdo al alcance que hayas definido.
