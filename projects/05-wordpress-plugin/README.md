@@ -27,7 +27,8 @@ blogs personales u otro tipo de sitios web,
 como páginas corporativas, revistas,
 tiendas online, periodicos digitales, etc. Aquí te dejamos el sitio
 [WordPress Website Showcase](https://wordpress.org/showcase/)
-donde podrás encontrar otros ejemplos de uso que tiene la aplicación. Además WordPress es un
+donde podrás encontrar otros ejemplos de uso que tiene la aplicación.
+Además WordPress es un
 sistema de software libre, gratuito, modular, y compatible con muchos plugins
 y temas, constantemente actualizado y con mejoras gracias a la comunidad de
 desarrolladores. El lenguaje en el que desarrollamos WordPress es PHP,
@@ -167,7 +168,8 @@ y _branches_ (_ramas_) de tus componentes.
 
 ### Instalar WordPress
 
-La manera más fácil de instalar WordPress en tu computadora local es usando Docker Compose.
+La manera más fácil de instalar WordPress en tu
+computadora local es usando Docker Compose.
 
 1. Instala Docker Composer en tu computadora.
 
@@ -211,7 +213,10 @@ Si quieres o necesitas usarlo, puedes ejecutarlo con el siguiente comando:
    docker-compose run --rm wp <WP-CLI COMMAND>
    ```
 
-    Si tienes problemas en ejecutar este comando en Windows puedes deshabilitar el uso de Docker Compose V2. Para esto desmarca la casilla correspondiente en el menú de Característica Experimentale (Experimental Features).
+    Si tienes problemas en ejecutar este comando en Windows
+    puedes deshabilitar el uso de Docker Compose V2.
+    Para esto desmarca la casilla correspondiente en el
+    menú de Característica Experimentale (Experimental Features).
 
 ### Administrar WordPress
 
