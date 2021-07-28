@@ -16,19 +16,24 @@
 Los sistemas de gestión de contenidos o CMS (Content Management Systems) son
 aplicaciones web que permiten a usuarios crear contenidos con una interfaz visual
 de manera rápida y sencilla sin necesidad de tener conocimientos previos en
-en programación. Entre los más utilizados están [WordPress(42.1%),
+en programación. Entre los más utilizados están
+[WordPress(42.1%),
 Shopify(3.7%), Joomla(2.0%), Squarespace(1.7%) y
-Wix(1.7%)](https://w3techs.com/technologies/overview/content_management), según un estudio de 2021 de W3Techs.com.
+Wix(1.7%)](https://w3techs.com/technologies/overview/content_management),
+según un estudio de 2021 de W3Techs.com.
 
 WordPress es uno de los CMS más utilizados en el mercado. Éste permite crear
-blogs personales u otro tipo de sitios web, como páginas corporativas, revistas,
+blogs personales u otro tipo de sitios web,
+como páginas corporativas, revistas,
 tiendas online, periodicos digitales, etc. Aquí te dejamos el sitio
 [WordPress Website Showcase](https://wordpress.org/showcase/)
 donde podrás encontrar otros ejemplos de uso que tiene la aplicación. Además WordPress es un
 sistema de software libre, gratuito, modular, y compatible con muchos plugins
 y temas, constantemente actualizado y con mejoras gracias a la comunidad de
 desarrolladores. El lenguaje en el que desarrollamos WordPress es PHP,
-que es el lenguaje de código abierto [más popular desde el lado del servidor (79.2%)](https://w3techs.com/technologies/overview/programming_language), según un estudio de W3Techs.com.
+que es el lenguaje de código abierto
+[más popular desde el lado del servidor (79.2%)](https://w3techs.com/technologies/overview/programming_language),
+según un estudio de W3Techs.com.
 y se usa principalmente para crear páginas webs dinámicas y aplicaciones.
 
 ## 2. Resumen del proyecto
@@ -162,11 +167,9 @@ y _branches_ (_ramas_) de tus componentes.
 
 ### Instalar WordPress
 
-La manera más fácil de instalar WordPress en tu computadora local es usando
-[Docker Compose](https://docs.docker.com/compose/).
+La manera más fácil de instalar WordPress en tu computadora local es usando Docker Compose.
 
-1. Instala Docker Composer en tu computadora. Puedes usar la
-[documentación oficial](https://docs.docker.com/compose/install/) para esto.
+1. Instala Docker Composer en tu computadora.
 
 2. Haz un _fork_ de este repo (en GitHub).
 
@@ -208,6 +211,8 @@ Si quieres o necesitas usarlo, puedes ejecutarlo con el siguiente comando:
    docker-compose run --rm wp <WP-CLI COMMAND>
    ```
 
+    Si tienes problemas en ejecutar este comando en Windows puedes deshabilitar el uso de Docker Compose V2. Para esto desmarca la casilla correspondiente en el menú de Característica Experimentale (Experimental Features).
+
 ### Administrar WordPress
 
 Ahora que tienes instalado WordPress en tu computadora, el siguiente paso es
@@ -246,8 +251,6 @@ del [WordPress Plugin Handbook](https://developer.wordpress.org/plugins/).
 
 ### Otros recursos
 
-* [Getting started with Docker](https://docs.docker.com/get-started/)
-* [Getting started with Docker Composer](https://docs.docker.com/compose/gettingstarted/)
 * [PHP Oficial Manual](https://www.php.net/manual/es/)
 * [WordPress Plugin Handbook](https://developer.wordpress.org/plugins/)
 * [How to use React inside a WordPress application?](https://dev.to/bobman38/how-to-use-react-inside-a-wordpress-application-49i)
