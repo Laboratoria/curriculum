@@ -1,0 +1,21 @@
+learningObjectives:
+  - php/data-types/primitive
+  - php/data-types/arrays
+  - php/data-types/objects
+  - php/variables
+  - php/control-structures
+  - php/functions
+  - php/testing/phpunit
+  - php/testing/xdebug
+  - php/package-management/composer
+  - wordpress/plugin-development/hooks
+  - wordpress/plugin-development/administration-menu
+  - wordpress/plugin-development/shortcodes
+  - wordpress/plugin-development/settings
+  - wordpress/plugin-development/custom-post-types
+  - wordpress/plugin-development/taxonomies
+  - wordpress/plugin-development/users
+  - wordpress/plugin-development/cron
+  - wordpress/plugin-development/wordpress-rest-api
+  - wordpress/plugin-development/wordpress-apis
+  - wordpress/plugin-development/wordpress-plugin-directory
