@@ -1,6 +1,6 @@
 {
   "slug": "talent-fest",
-  "createdAt": "2021-06-24T00:52:52.832Z",
+  "createdAt": "2021-07-12T22:08:16.090Z",
   "title": "Talent Fest",
   "description": "<p>En este curso conocerás lo que es el Talent Fest. Podrás conocer qué te espera\nen este evento y qué cosas te recomendamos hacer durante él.</p>\n",
   "tags": {
@@ -98,7 +98,7 @@
   "references": "",
   "repo": "Laboratoria/bootcamp",
   "path": "topics/talent-fest",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "parserVersion": "3.0.0",
   "track": "ux",
   "locale": "es-ES",

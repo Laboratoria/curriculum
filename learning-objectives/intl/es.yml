@@ -339,7 +339,21 @@ firebase/firestore:
     - title: Obtén actualizaciones en tiempo real con Cloud Firestore - Documentación oficial
       url: https://firebase.google.com/docs/firestore/query-data/listen?hl=es
 
-node: Node.js
+node:
+  title: Node.js
+  links:
+    - title: Acerca de Node.js - Documentación oficial
+      url: https://nodejs.org/es/about/
+    - title: learnyounode - NodeSchool
+      url: https://github.com/workshopper/learnyounode
+    - title: ¿Qué es Node.js y para qué sirve? - drauta.com
+      url: https://www.drauta.com/que-es-nodejs-y-para-que-sirve
+    - title: ¿Qué es Nodejs? Javascript en el Servidor - Fazt en YouTube
+      url: https://www.youtube.com/watch?v=WgSc1nv_4Gw
+    - title: ¿Simplemente qué es Node.js? - IBM Developer Works, 2011
+      url: https://www.ibm.com/developerworks/ssa/opensource/library/os-nodejs/index.html
+    - title: Node.js y npm - genbeta
+      url: https://www.genbeta.com/desarrollo/node-js-y-npm
 
 node/npm-install:
   title: Instalar y usar módulos con npm
@@ -400,8 +414,8 @@ http/headers:
 http/body:
   title: Cuerpo (body)
   links:
-    - title: POST - MDN
-      url: https://developer.mozilla.org/es/docs/Web/HTTP/Methods/POST
+    - title: Cuerpo de Mensajes HTTP - MDN
+      url: https://developer.mozilla.org/es/docs/Web/HTTP/Messages#cuerpo
 
 http/verbs:
   title: Verbos HTTP
@@ -630,3 +644,9 @@ angular/styles:
   links:
     - title: Template syntax - Documentación oficial (en inglés)
       url: https://angular.io/guide/template-syntax#built-in-directives
+
+slack/slash-commands:
+  title: Slash commands de Slack
+  links:
+    - title: Enabling interactivity with Slash Commands - Slack Docs
+      url: https://api.slack.com/interactivity/slash-commands
