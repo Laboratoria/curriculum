@@ -401,8 +401,8 @@ http/headers:
 http/body:
   title: Corpo (body)
   links:
-    - title: POST - MDN
-      url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/POST
+    - title: Mensagens HTTP / Corpo - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Messages#corpo
 
 http/verbs:
   title: Verbos HTTP
