@@ -40,9 +40,9 @@ const Project = ({ project }) => {
                   title={cat}
                   style={{
                     display: 'inline-block',
-                    width: 16,
-                    height: 16,
-                    marginRight: 2,
+                    width: 24,
+                    height: 24,
+                    marginRight: 3,
                     backgroundColor: icon.color,
                     WebkitMask: `url(${icon.svg}) no-repeat center`,
                     mask: `url(${icon.svg}) no-repeat center`,
