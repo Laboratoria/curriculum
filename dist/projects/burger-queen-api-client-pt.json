@@ -1,13 +1,13 @@
 {
-  "slug": "burger-queen-api-client",
+  "slug": "burger-queen-api-client-pt",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/04-burger-queen-api-client",
   "version": "3.2.0",
   "parserVersion": "3.0.0",
-  "createdAt": "2021-08-02T12:10:46.629Z",
+  "createdAt": "2021-08-02T12:10:46.565Z",
   "prefix": 4,
   "title": "Burger Queen (API Client)",
-  "locale": "es-ES",
+  "locale": "pt-BR",
   "track": "js",
   "learningObjectives": [
     "html/semantics",
