@@ -144,6 +144,7 @@ buildItems([
   { type: 'project', id: '05-roman-numerals-slack', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-social-network-fw', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-tic-tac-toe-rn', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '05-wordpress-plugin', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '06-open-project', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '07-job-application', locale: 'es-ES', track: 'js' },
   // JS Projects (portuguese)
@@ -157,6 +158,7 @@ buildItems([
   { type: 'project', id: '03-social-network', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '04-burger-queen', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '04-burger-queen-api', locale: 'pt-BR', track: 'js' },
+  { type: 'project', id: '04-burger-queen-api-client', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '04-md-links', locale: 'pt-BR', track: 'js' },
   // UX Projects (spanish)
   { type: 'project', id: '00-usability', locale: 'es-ES', track: 'ux' },
