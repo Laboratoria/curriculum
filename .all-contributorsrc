@@ -729,6 +729,16 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "ssinuco",
+      "name": "Sergio Sinuco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16993732?v=4",
+      "profile": "https://github.com/ssinuco",
+      "contributions": [
+        "content",
+        "code"
+      ]
     }
   ]
 }
