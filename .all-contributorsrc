@@ -727,7 +727,18 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/934679?v=4",
       "profile": "https://github.com/oxfist",
       "contributions": [
-        "bug"
+        "bug",
+        "review"
+      ]
+    },
+    {
+      "login": "ssinuco",
+      "name": "Sergio Sinuco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16993732?v=4",
+      "profile": "https://github.com/ssinuco",
+      "contributions": [
+        "content",
+        "code"
       ]
     }
   ]

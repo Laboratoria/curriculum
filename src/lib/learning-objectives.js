@@ -14,6 +14,8 @@ import expressSvg from '../icons/express.svg';
 import dockerSvg from '../icons/docker.svg';
 import authSvg from '../icons/auth.svg';
 import dbSvg from '../icons/db.svg';
+import phpSvg from '../icons/php.svg';
+import wordpressSvg from '../icons/wordpress.svg';
 
 const learningObjectivesIcons = {
   html: {
@@ -79,6 +81,14 @@ const learningObjectivesIcons = {
   db: {
     color: 'gray',
     svg: dbSvg,
+  },
+  php: {
+    color: '#777BB4',
+    svg: phpSvg,
+  },
+  wordpress: {
+    color: '#21759B',
+    svg: wordpressSvg,
   },
 };
 
