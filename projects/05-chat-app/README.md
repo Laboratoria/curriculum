@@ -58,20 +58,20 @@ en la versión que provee nativamente Heroku.
 ### 4.1 Historias de Usuaria
 
 > 1. Descripción general de las historias como herramienta
-> 1. Importancia del enfoque iterativo plasmado en las historias
-> 1. Importancia de segmentar el trabajo en cada historia para que no sean
+> 2. Importancia del enfoque iterativo plasmado en las historias
+> 3. Importancia de segmentar el trabajo en cada historia para que no sean
 >    dependientes
-> 1. Mencionar que hay historias que vienen prehechas y el desarrollo del
+> 4. Mencionar que hay historias que vienen prehechas y el desarrollo del
 >    proyecto contempla la creación de nuevas historias
 
 ### 4.2 El rol de _Product Owner_
 
 > 1. Rol de PO en equipos ágiles en general
-> 1. Mencionar que el rol PO no es "fijo" y sus responsabilidadese no son
+> 2. Mencionar que el rol PO no es "fijo" y sus responsabilidadese no son
 >    "exclusivas"
-> 1. Mencionar la importancia de desarrollar estas habilidades
-> 1. Describir interacción que habrá con coach para cumplir rol de PO
-> 1. Mencionar importancia de negociación de alcance y prioridad
+> 3. Mencionar la importancia de desarrollar estas habilidades
+> 4. Describir interacción que habrá con coach para cumplir rol de PO
+> 5. Mencionar importancia de negociación de alcance y prioridad
 
 ### 4.3 WebSockets
 
@@ -199,4 +199,4 @@ _lines_ (_líneas_), y _branches_ (_ramas_) de tus componentes.
 
 ### Otros recursos
 
-- [Lorem Ipsum]()
+- Lorem Ipsum
