@@ -71,11 +71,11 @@ prioritario y lo que reporte mayor valor para nuestras usuarias.
 Ocuparemos la fórmula _Persona + Necesidad + Propósito_ expresada en el
 siguiente ejemplo:
 
-<pre>
-<b>Yo como</b> fanática de la música funk
-<b>Quiero</b> encontrar listas de reproducción de ese género musical
-<b>Para</b> descubrir artistas y bandas nuevas
-</pre>
+```text
+Yo como fanática de la música funk
+Quiero encontrar listas de reproducción de ese género musical
+Para descubrir artistas y bandas nuevas
+```
 
 ### 4.2 El rol de _Product Owner_
 
