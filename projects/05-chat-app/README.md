@@ -40,10 +40,11 @@ Vue o Angular.
 
 Alojarás esta aplicación en la plataforma [Heroku](https://www.heroku.com/) y
 construirás con [GitHub Actions](https://github.com/features/actions) tu propio
-_pipeline_ de Integración Continua y Entrega Continua (CI/CD) para automatizar
-el despliegue que hará que tu proyecto esté disponible a través de Internet para
-cualquier persona. Para almacenar los datos ocuparás la base de datos PostgreSQL
-en la versión que provee nativamente Heroku.
+_pipeline_ de Integración Continua/Entrega Continua (o CI/CD por Continuous
+Integration/Continuous Delivery) para automatizar el despliegue que hará que tu
+proyecto esté disponible a través de Internet para cualquier persona. Para
+almacenar los datos ocuparás la base de datos PostgreSQL en la versión que
+provee nativamente Heroku.
 
 ## 3. Objetivos de aprendizaje
 
@@ -64,17 +65,17 @@ en la versión que provee nativamente Heroku.
 Las Historias de Usuaria actualmente son esenciales en el desarrollo de software
 ágil. En pocas palabras, son descripciones en texto de una funcionalidad de la
 aplicación en desarrollo, desde el punto de vista de quienes la ocuparán, las
-usuarias. Las usaremos a lo largo de todo el proceso de desarrollo e iremos
-creando nuevas historias a medida que vayamos aprendiendo sobre lo que es
-prioritario y lo que reporte mayor valor para nuestras usuarias.
+usuarias. Las usaremos a lo largo de todo el proceso de desarrollo y crearás
+nuevas historias a medida que vayamos aprendiendo sobre lo que es prioritario y
+lo que reporte mayor valor para nuestras usuarias.
 
 Ocuparemos la fórmula _Persona + Necesidad + Propósito_ expresada en el
 siguiente ejemplo:
 
 ```text
-Yo como fanática de la música funk
-Quiero encontrar listas de reproducción de ese género musical
-Para descubrir artistas y bandas nuevas
+Yo como fanática de la música funk (Persona)
+Quiero encontrar listas de reproducción de ese género musical (Necesidad)
+Para descubrir artistas y bandas nuevas (Propósito)
 ```
 
 ### 4.2 El rol de _Product Owner_
@@ -88,8 +89,8 @@ del “negocio” (o _dominio_) y aporta al equipo dando prioridad a las histori
 que serán desarrolladas para entregar el mayor valor posible a los usuarios.
 
 Aunque este rol suele asumirlo de forma exclusiva una persona que no se
-involucra en el desarrollo, en la práctica sus responsabilidades no son ni
-fijas, ni exclusivas, y dependerá de la organización en que se encuentre el
+involucra en el desarrollo, en la práctica sus responsabilidades no son fijas ni
+exclusivas del rol, y dependerá de la organización en que se encuentre el
 equipo.
 
 En este proyecto te apoyarás en una coach que jugará el rol de PO para ayudarte
@@ -132,37 +133,21 @@ Para el desarrollo de este proyecto trabajarás haciendo despliegues a Heroku y
 ocupando su servicio nativo de Postgres para almacenar, o _persistir_, tus
 datos.
 
-### 4.5 El _pipeline_ de Integración Continua
+### 4.5 El _pipeline_ de Integración Continua/Entrega Continua
 
-Para lograr que nuestro código pueda estar disponible para cualquier persona, es
-necesario desplegar nuestra aplicación, tal como con GitHub Pages y Firebase.
-Una forma en que hiciste esto fue ejecutando `firebase deploy`. A lo largo del
-desarrollo es muy probable que tengamos que realizar esta tarea muchas veces,
-incluso varias veces al día. Esto transforma el despliegue en una tarea
-recurrente que propensa a errores: puede que nos equivoquemos en el comando
-exacto a ejecutar; quizás nos olvidamos de correr antes las pruebas o verificar
-algo de forma manual; incluso puede ocurrir que estemos desplegando a una
-plataforma que requiera varios pasos adicionales que debamos repetir una y otra
-vez.
+Para que nuestro código esté disponible para usuarias es necesario desplegar
+nuestra aplicación. Esto lo hiciste previamente con GitHub Pages y Firebase, en
+este último caso ejecutando `firebase deploy`.
 
-Como seres humanos, tenemos una gran habilidad para realizar tareas “difusas”,
-que requieren pensamiento creativo, pero si la tarea es simplemente realizar y
-marcar acciones de una lista, bueno, ahí no nos va tan bien. Afortunadamente ya
-se ha vuelto un estándar de la industria (al menos las partes más avanzadas)
-usar herramientas que permiten ejecutar todos estos pasos de forma automática a
-través de un _pipeline_ de “Integración Continua”. Un _pipeline_ es simplemente
-una “línea de producción”, un proceso que automatizamos para desplegar nuestra
-aplicación, un canal por donde pasa nuestro código cumpliendo distintas etapas,
-las que van acercando cada vez más nuestro trabajo a “producción”. Por ejemplo,
-podríamos tomar nuestro código, correr las pruebas y solo si todas pasaron con
-éxito entonces podríamos desplegar a alguna plataforma (Firbase, Heroku, etc.).
+Una forma de aumentar la productividad en el desarrollo es automatizar el
+despliegue para evitar posibles errores manuales o algún paso que se nos olvide,
+como ejecutar las pruebas antes.
 
-![Diagrama de pipeline de Integración Continua](./ci-pipeline.png)
-
-Este proyecto contempla la construcción de un _pipeline_ de Integración Continua
-para ejecutar todos los pasos previos al despliegue y también el despliegue
-mismo. Para esto utilizarás
-[GitHub Actions](https://github.com/features/actions).
+Para obtener esta ganada en productividad usarás
+[GitHub Actions](https://github.com/features/actions) para construir un
+_pipeline_ de Integración Continua/Entrega Continua que ejecutará las pruebas
+con cada _commit_ a `main` y, una vez que todas pasen con éxito, desplegará tu
+aplicación automáticamente a Heroku.
 
 ### 4.6 Estructura de archivos
 
@@ -178,19 +163,64 @@ El _boilerplate_ contiene una estructura de archivos como punto de partida:
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
-### 5.1 Desarrollo iterativo con Historia de Usuaria
+### 5.1 Comportamiento mínimo
 
-### 5.2 Despliegue automatizado con un _pipeline_ de CI
+Como mínimo tu proyecto debe permitir al usuario hacer lo siguiente:
 
-### 5.3 Persistencia de datos con una base de datos
+1. Escribir mensajes en un canal de chat general
+2. Ver mensajes enviados por otras personas en tiempo real
+3. Guardar el historial de mensajes enviados
+4. Registrarse en la aplicación
+5. Iniciar sesión para ingresar al chat
+6. Crear canales de chat al que puedan acceder otros usuarios
 
-### 5.4 Modularización del código
+### 5.2 Desarrollo iterativo con Historia de Usuaria y _Product Owner_
 
-### 5.5 Pruebas unitarias
+Deberás realizar el desarrollo a partir de Historias de Usuaria, partiendo de la
+base que te entregamos y luego escribiendo nuevas a medida que vayas
+progresando.
 
-Deberás incluir pruebas unitarias para el plugin que desarrolles hasta cubrir
-como mínimo el 70% de _statements_ (_sentencias_), _functions_ (_funciones_),
-_lines_ (_líneas_), y _branches_ (_ramas_) de tus componentes.
+Además deberás escoger a una de las coaches para que sea PO de tu equipo durante
+todo el proyecto. Te apoyarás en tu PO para definir y negociar prioridades y el
+alcance de cada historia. En esta persona también te apoyarás para escribir las
+historias.
+
+Como punto de partida, agenda una reunión de _kick-off_ con la coach que escojan
+para definir las prioridades del primer sprint.
+
+### 5.3 Comunicación en tiempo real con Socket.io
+
+Deberás hacer una integración con la librería Socket.io para implementar
+comunicación a través de WebSockets que permitan a usuarias chatear en tiempo
+real.
+
+### 5.4 Despliegue automatizado con un _pipeline_ de CI/CD
+
+Deberás construir un _pipeline_ con GitHub Actions para desplegar tu aplicación
+a Heroku de forma automática con cada _push_ a la rama `main`. El despliegue
+debe realizarse solo después de que todas las pruebas se hayan ejecutado en el
+_pipeline_ y pasado con éxito.
+
+### 5.5 Persistencia de datos con una base de datos
+
+Deberás ocupar el servicio nativo de Postgres en Heroku para persistir los datos
+de tu aplicación.
+
+### 5.6 Modularización del código
+
+Como tendrás que ocupar una librería externa, Socket.io, será muy importante que
+esa integración se haga de forma ordenada. Para esto tendrás que definir una
+estructura de carpetas lógica y clara, y procurar _separar responsabilidades_.
+Cada script debiera tener solo una responsabilidad y exportar funciones que sean
+ocupadas por otros.
+
+### 5.7 Pruebas unitarias
+
+Deberás incluir pruebas unitarias para tu aplicación y testear aquellas partes
+más críticas de tu propio código. No vamos a testear que Socket.io funciona como
+debiera o que la base de datos efectivamente guarda los datos. Si necesitas
+testear una función que se integra con código no hecho por ti, puedes ocupar
+_test doubles_, a veces llamados simplemente _mocks_.
 
 ## 6. Pistas, tips y lecturas complementarias
 
@@ -243,6 +273,32 @@ datos puede llegar a ser una tarea compleja, especialmente si queremos
 configurarlas en los entornos de “producción”. Heroku simplifica todo este
 proceso con Postgres entregándonos los beneficios y ahorrándonos hacer muchas
 configuraciones.
+
+### 6.4 El _pipeline_ de Integración Continua/Entrega Continua
+
+Durante el desarrollo es frecuente que debamos realizar la tarea de desplegar
+repetidamente, incluso varias veces al día. Esto transforma el despliegue en una
+tarea recurrente propensa a errores: quizás nos equivocamos en el comando exacto
+para desplegar; quizás nos olvidamos de correr antes las pruebas o de hacer una
+verificación manual; incluso puede que necesitemos desplegar a una plataforma
+que requiera varios pasos adicionales que debamos repetir manualmente una y otra
+vez.
+
+Como seres humanos, tenemos una gran habilidad para realizar tareas “difusas”,
+que requieren pensamiento creativo, pero si la tarea es simplemente realizar y
+marcar acciones de una lista, bueno, ahí no nos va tan bien. Afortunadamente ya
+se ha vuelto un estándar de la industria (al menos las partes más avanzadas)
+usar herramientas que permiten ejecutar todos estos pasos de forma automática a
+través de un _pipeline_ de “Integración Continua”.
+
+Un _pipeline_ es simplemente una “línea de producción”, un proceso que
+automatizamos para desplegar nuestra aplicación, un canal por donde pasa nuestro
+código cumpliendo distintas etapas, las que van acercando cada vez más nuestro
+trabajo a “producción”. Por ejemplo, podríamos tomar nuestro código, correr las
+pruebas y solo si todas pasaron con éxito entonces podríamos desplegar a alguna
+plataforma (Firebase, Heroku, etc.).
+
+![Diagrama de pipeline de Integración Continua](./ci-pipeline.png)
 
 ### Otros recursos
 
