@@ -116,7 +116,7 @@ este tipo sin tener que hacer muchas cosas manualmente. Así, familiarizándote
 con ella podrás agregar la comunicación instantánea a tu aplicación sin muchas
 demoras y así podrás enfocarte en las funcionalidad más complejas.
 
-![Diagrama de comunicación bidireccional cliente-servidor](./bidirectional-communication.png)
+![Diagrama de comunicación bidireccional cliente-servidor](./docs/images/comunicacion-bidireccional.png)
 
 ### 4.4 Heroku y Postgres
 
@@ -298,7 +298,7 @@ trabajo a “producción”. Por ejemplo, podríamos tomar nuestro código, corr
 pruebas y solo si todas pasaron con éxito entonces podríamos desplegar a alguna
 plataforma (Firebase, Heroku, etc.).
 
-![Diagrama de pipeline de Integración Continua](./ci-pipeline.png)
+![Diagrama de pipeline de Integración Continua](./docs/images/ci-pipeline.png)
 
 ### Otros recursos
 
