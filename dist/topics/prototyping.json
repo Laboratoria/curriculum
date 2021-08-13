@@ -1,6 +1,6 @@
 {
   "slug": "prototyping",
-  "createdAt": "2021-07-12T22:08:18.553Z",
+  "createdAt": "2021-08-02T12:10:50.026Z",
   "title": "Prototipado",
   "description": "<p>En este curso concerás distintas técnicas de prototipado desde papel hasta\nprototipos de alta fidelidad.</p>\n",
   "tags": {
@@ -60,7 +60,7 @@
   "references": "",
   "repo": "Laboratoria/bootcamp",
   "path": "topics/prototyping",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "parserVersion": "3.0.0",
   "track": "ux",
   "locale": "es-ES",
