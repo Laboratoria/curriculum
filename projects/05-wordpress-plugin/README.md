@@ -8,6 +8,7 @@
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
+* [7. Apache, MySQL y PHP](#7-apache-mysql-php)
 
 ***
 
@@ -159,10 +160,9 @@ desarrollado por la comunidad.
 
 ### Pruebas unitarias
 
-Deberás incluir pruebas unitarias para el plugin que desarrolles hasta cubrir
-como mínimo el 70% de _statements_
-(_sentencias_), _functions_ (_funciones_), _lines_ (_líneas_),
-y _branches_ (_ramas_) de tus componentes.
+Deberás incluir pruebas unitarias para el plugin que desarrolles.
+Te invitamos a escribir casos de prueba prueba
+para las principales funcionalidades de tu plugin.
 
 ## 6. Pistas, tips y lecturas complementarias
 
@@ -172,6 +172,10 @@ La manera más fácil de instalar WordPress en tu
 computadora local es usando Docker Compose.
 
 1. Instala Docker Composer en tu computadora.
+Puedes consultar un video que hemos preparado
+para ayudarte con esta instalación en
+[Windows](https://www.loom.com/share/7f3183a68aaa428098c9d07e911f5e38)
+o en [Linux](https://www.loom.com/share/d30afc8046b14dfab7494dfee0c969cd).
 
 2. Haz un _fork_ de este repo (en GitHub).
 
@@ -261,3 +265,44 @@ del [WordPress Plugin Handbook](https://developer.wordpress.org/plugins/).
 * [How to use React inside a WordPress application?](https://dev.to/bobman38/how-to-use-react-inside-a-wordpress-application-49i)
 * [How to Approach Modern WordPress Development (Part 1)](https://www.toptal.com/wordpress/modern-wordpress-development-pt-1)
 * [How to Approach Modern WordPress Development (Part 2)](https://www.toptal.com/wordpress/modern-wordpress-development-pt-2)
+
+## 7. Apache, MySQL y PHP
+
+Apache, MySQL y PHP hacen posible que todos los días millones de usuarios
+accedan a sus sitios y servicios web favoritos. Veamos
+brevemente qué son y como interactúan cada uno de estos componentes.
+
+* Apache es un servidor web desarrollado y mantenido por una comunidad
+abierta. Un servidor web es un software que procesa solicitudes de clientes
+para acceder a recursos web. Por ejemplo, cuando ingresas por Google Chrome
+a la url [https://www.google.com](https://www.google.com),
+el navegador web, que asume el rol de
+cliente, envía peticiones para acceder a los archivos HTML, JS, CSS e
+imágenes que conforman el sitio web de Google. Estas peticiones serán
+procesadas por un servidor web quien eventualmente las responderá con
+los recursos solicitados.
+
+* MySQL es una base de datos relacional (RDBMS) de código abierto.
+En MySQL podemos almacenar toda la información que nuestras aplicaciones
+y sitios web necesitan para funcionar. Por ejemplo, un sitio web WordPress
+almacena en MySQL la información de los usuarios, páginas, plugins,
+entre otros.
+
+* PHP es un lenguaje de programación usado, entre otras cosas, para crear
+páginas web dinámicas. Por ejemplo, no podemos usar sólo HTML para extraer y
+visualizar información de una base de datos. Para lograr esto, podemos escribir
+código PHP para conectarnos y consultar la base de datos y
+generar código HTML para visualizar la información extraída.
+
+Finalmente, veamos cómo estos tres componentes interactúan entre sí:
+
+El proceso comienza cuando el servidor web Apache recibe solicitudes desde el
+navegador de un usuario. Si la solicitud es para un archivo PHP, Apache pasa
+la solicitud a PHP, que carga el archivo y ejecuta el código contenido en el
+archivo. Si el código lo indica, PHP se comunica con MySQL para buscar o
+almacenar cualquier dato.
+
+Luego, PHP usa el código en el archivo y la información de la base de datos
+para crear el HTML. El HTML resultante es transferido al servidor web Apache
+para que  este a su vez los envíe al navegador. Al final, el HTML es mostrado
+por el navegador web al usuario.
