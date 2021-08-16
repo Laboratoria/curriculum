@@ -17,20 +17,20 @@
 
 En este proyecto construirás una aplicación de mensajería instantánea. Esta
 aplicación requerirá que las personas puedan registrarse e iniciar sesión para
-poder enviar mensajes a un canal de chat general y también la creación de
-canales temáticos donde cada persona podrá ingresar por su cuenta.
+poder enviar mensajes a un canal de chat general y 
+a canales temáticos que cada persona puede crear o unirse por su cuenta.
 
 Para acercar este proyecto lo más posible a entornos profesionales le daremos
 gran importancia al desarrollo a través de
 [Historias de Usuaria](https://www.atlassian.com/es/agile/project-management/user-stories)
 para definir alcance y prioridad de las funcionalidades que desarrollarás. Para
 esto te ayudaremos como coaches jugando el rol de _Product Owner_. Te
-entregaremos las primeras historias ya hechas, para que tengas una base para
-partir, y durante el proceso tendrás que seguir escribiendo tus propias
+entregaremos las primeras historias ya hechas, para que tengas una base inicial
+, y durante el proceso tendrás que seguir escribiendo tus propias
 historias para abarcar todas las funcionalidades.
 
 Para implementar mensajes instantáneos en un chat ocuparás la librería
-[Socket.io](https://socket.io), que te permitirá ocupar _web sockets_ para
+[Socket.io](https://socket.io), que te permitirá implementar _web sockets_ para
 mantener conexiones abiertas entre las personas que estén conectadas dentro del
 chat y el “servidor” que centralizará la comunicación, recibiendo los mensajes y
 enviándolos de nuevo a los “clientes”.
@@ -94,17 +94,18 @@ exclusivas del rol, y dependerá de la organización en que se encuentre el
 equipo.
 
 En este proyecto te apoyarás en una coach que jugará el rol de PO para ayudarte
-a priorizar, pero también a que tú y tu equipo puedan trabajar habilidades de
-priorización y enfoque de valor de negocio que cualquier desarrolladora debiera
-tener, así como también la negociación de prioridades y de alcance de las
-funcionalidades.
+Como cualquier equipo de desarrollo, tu y tus compañeras```
+tendrán que conversar con la PO para priorizar las Historias de Usuarias
+y definir el alcance de las funcionalidades. Durante estas conversaciones esperamos que
+puedan fortalecer las habilidades de negociación y 
+priorización, que cualquier desarrolladora debe tener.
 
 ### 4.3 WebSockets
 
 Los WebSockets son una avanzada tecnología que permiten abrir una comunicación
 interactiva bidireccional entre el navegador de un “cliente” y un “servidor”.
-Este tipo de conexiones permite chatear con personas a través de la web, algo no
-posible con conexiones tradicionales.
+Este tipo de conexiones permiten crear fácilmente, entre otras cosas, chats entre personas a través de la web, que sería muy difícil
+con conexiones tradicionales.
 
 Imaginemos una aplicación que requiera recargar manualmente la página cada vez
 que queramos ver los mensajes nuevos, no sería ni muy instantánea ni muy útil.
@@ -143,7 +144,7 @@ Una forma de aumentar la productividad en el desarrollo es automatizar el
 despliegue para evitar posibles errores manuales o algún paso que se nos olvide,
 como ejecutar las pruebas antes.
 
-Para obtener esta ganada en productividad usarás
+Para aprovechar esta mayor productividad usarás
 [GitHub Actions](https://github.com/features/actions) para construir un
 _pipeline_ de Integración Continua/Entrega Continua que ejecutará las pruebas
 con cada _commit_ a `main` y, una vez que todas pasen con éxito, desplegará tu
