@@ -6,7 +6,6 @@ learningObjectives:
   - http/request-response
   - http/verbs
   - http/cors
-  - http/cors
   - react
   - vue
   - angular
