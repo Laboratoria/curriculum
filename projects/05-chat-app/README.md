@@ -13,6 +13,8 @@
 
 ## 1. Preámbulo
 
+![Personas usando sus celulares en el metro de Japón](./docs/images/train.jpg)
+
 La mensajería instantánea es uno de los usos más populares que tiene la Internet
 desde que se popularizó su uso. Desde IRC, ICQ y MSN Messenger, a los chats en
 redes sociales, Slack, Telegram y WhatsApp, poder comunicarnos en tiempo real
