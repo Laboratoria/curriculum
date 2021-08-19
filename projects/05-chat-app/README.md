@@ -13,6 +13,35 @@
 
 ## 1. Preámbulo
 
+La mensajería instantánea es uno de los usos más populares que tiene la Internet
+desde que se popularizó su uso. Desde IRC, ICQ y MSN Messenger, a los chats en
+redes sociales, Slack, Telegram y WhatsApp, poder comunicarnos en tiempo real
+con otras personas es algo que ya damos por sentado en nuestra vida cotidiana.
+
+Muchas herramientas tienen estas funcionalidades para facilitar las
+interacciones diarias en nuestro trabajo, pero además existen chats para
+entregar soporte directo a personas, por la fluidez que ofrecen, incluso
+llegando al ejemplo de los _chatbots_.
+
+Incluso siendo parte de una organización de tecnología, muchas veces los equipos
+de desarrollo se enfrentan a problemas que otros equipos ya vivieron en el
+pasado y no logran comunicarse por correo o videollamada para pasar sus
+aprendizajes de forma oportuna, lo que termina frenando la capacidad de la
+organización completa de responder a los desafíos propios de su negocio.
+
+Has sido seleccionada para formar parte de la creación de una renovada área de
+desarrollo de esta organización. Uno de los valores más importantes en esta
+iniciativa es la comunicación abierta y fluida, y se ve que implementar esto
+producirá un gran cambio cultural en la organización completa. Por esto ha
+surgido la necesidad de tener un lugar donde las personas desarrolladoras puedan
+comunicarse rápidamente entre sí.
+
+Has sido invitada a participar de esta iniciativa y te han propuesto la creación
+de una herramienta de chat propia (para evitar gastos a terceros) para que tus
+compañeras y compañeros ocupen menos tiempo en resolver problemas, logren
+masificar experiencias y aprendizaje locales a toda el área de desarrollo y
+puedan así contribuir al crecimiento técnico de todas.
+
 ## 2. Resumen del proyecto
 
 En este proyecto construirás una aplicación de mensajería instantánea. Esta
@@ -230,11 +259,12 @@ en progreso sprint tras sprint.
 
 Para evitar historias muy grandes es importante aplicar un enfoque iterativo al
 escribirlas. Si es necesario podemos “romper” una historia grande en historias
-más pequeñas que comprendan incrementos de una misma funcionalidad. Por ejemplo,
-podemos implementar el inicio de sesión asumiendo que los datos siempre están
-correctos o haciendo las validaciones más críticas, y si queremos agregar poder
-recuperar contraseña, entonces podemos tener una historia aparte que contemple
-solo eso.
+más pequeñas que comprendan incrementos de una misma funcionalidad.
+
+A modo de ejemplo, podemos implementar el inicio de sesión asumiendo que los
+datos ingresados por el usuario siempre están correctos, o si validamos algo,
+validar lo más importante, y si queremos agregar la recuperación de contraseña,
+podemos luego tener una historia aparte que contemple solo eso.
 
 ### 6.2 Comunicación en tiempo real con Socket.io
 
