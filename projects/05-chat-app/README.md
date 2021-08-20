@@ -181,11 +181,23 @@ El _boilerplate_ contiene una estructura de archivos como punto de partida:
 
 ```text
 .
+├── .eslintrc.json
 ├── .gitignore
-├── docker-composer.yml
-├── project.yml
+├── .prettierignore
+├── .prettierrc.json
+├── docs/
+├── setup/
+├── docker-compose.yml
+├── package.json
+├── proyect.yml
 └── README.md
 ```
+
+#### setup
+
+Esta carpeta contiene un punto de partida para tu aplicación, como las primeras
+historias de usuaria y la base para cuando construyas tu _pipeline_ con GitHub
+Actions.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
@@ -250,7 +262,21 @@ _test doubles_, a veces llamados simplemente _mocks_.
 
 ## 6. Pistas, tips y lecturas complementarias
 
-### 6.1 ¿Qué “tamaño” debieran tener mis Historias?
+### 6.1 ¿Por dónde parto?
+
+Aquí te entregamos un _checklist_ para que partas con tu proyecto:
+
+1. [ ] Revisar las primeras historias de usuario
+2. [ ] Revisar las primeras historias de usuario
+3. [ ] Agendar la primera reunión con tu PO
+4. [ ] Desplegar de _forma manual_ un simple "Hola, mundo" en Heroku
+5. [ ] Asegurarte que puedes levantar Postgres localmente con
+       `docker-compose.yml`
+6. [ ] Familiarizarte un poco más con CI/CD
+7. [ ] Familiarizarte con GitHub Actions
+8. [ ] Agregar el despliegue automatizado a Heroku con GitHub Actions
+
+### 6.2 ¿Qué “tamaño” debieran tener mis Historias?
 
 Esta herramienta, aunque útil, no soluciona automáticamente todos los problemas.
 Es muy fácil caer en la trampa de intentar poner absolutamente todos los
@@ -268,9 +294,9 @@ datos ingresados por el usuario siempre están correctos, o si validamos algo,
 validar lo más importante, y si queremos agregar la recuperación de contraseña,
 podemos luego tener una historia aparte que contemple solo eso.
 
-### 6.2 Comunicación en tiempo real con Socket.io
+### 6.3 Comunicación en tiempo real con Socket.io
 
-### 6.3 Despliegues a Heroku y persistencia con Postgres
+### 6.4 Despliegues a Heroku y persistencia con Postgres
 
 Una de las ventajas de Heroku, es la rapidez del proceso, pues detecta
 automáticamente algunas características de nuestro proyecto y nos evita tener
@@ -296,7 +322,7 @@ configuraciones.
 
 ![Representación de despliegue a entorno local y a la nube](./docs/images/localhost-vs-deploymentv3.png)
 
-### 6.4 El _pipeline_ de Integración Continua/Entrega Continua
+### 6.5 El _pipeline_ de Integración Continua/Entrega Continua
 
 Durante el desarrollo es frecuente que debamos realizar la tarea de desplegar
 repetidamente, incluso varias veces al día. Esto transforma el despliegue en una
@@ -322,7 +348,7 @@ plataforma (Firebase, Heroku, etc.).
 
 ![Diagrama de pipeline de Integración Continua](./docs/images/ci-pipeline.png)
 
-### 6.5 Sobre la _Product Owner_
+### 6.6 Sobre la _Product Owner_
 
 El rol de _Product Owner_ (PO) se puede encontrar en los equipos ágiles que
 usualmente usan la metodología
