@@ -267,14 +267,13 @@ _test doubles_, a veces llamados simplemente _mocks_.
 Aquí te entregamos un _checklist_ para que partas con tu proyecto:
 
 1. [ ] Revisar las primeras historias de usuario
-2. [ ] Revisar las primeras historias de usuario
-3. [ ] Agendar la primera reunión con tu PO
-4. [ ] Desplegar de _forma manual_ un simple "Hola, mundo" en Heroku
-5. [ ] Asegurarte que puedes levantar Postgres localmente con
+2. [ ] Agendar la primera reunión con tu PO
+3. [ ] Desplegar de _forma manual_ un simple "Hola, mundo" en Heroku
+4. [ ] Asegurarte que puedes levantar Postgres localmente con
        `docker-compose.yml`
-6. [ ] Familiarizarte un poco más con CI/CD
-7. [ ] Familiarizarte con GitHub Actions
-8. [ ] Agregar el despliegue automatizado a Heroku con GitHub Actions
+5. [ ] Familiarizarte un poco más con CI/CD
+6. [ ] Familiarizarte con GitHub Actions
+7. [ ] Agregar el despliegue automatizado a Heroku con GitHub Actions
 
 ### 6.2 ¿Qué “tamaño” debieran tener mis Historias?
 
