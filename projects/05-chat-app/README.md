@@ -277,21 +277,22 @@ Aquí te entregamos un _checklist_ para que partas con tu proyecto:
 
 ### 6.2 ¿Qué “tamaño” debieran tener mis Historias?
 
-Esta herramienta, aunque útil, no soluciona automáticamente todos los problemas.
-Es muy fácil caer en la trampa de intentar poner absolutamente todos los
+Las Historias de Usuaria, aunque útiles, no solucionan automáticamente todos los
+problemas. Es fácil caer en la trampa de intentar poner absolutamente todos los
 aspectos de una funcionalidad en una única historia y comprometernos con su
 desarrollo en un sprint de 1 o 2 semanas, para luego darnos cuenta que el
 trabajo requerido era mayor al esperado y terminar acarreando la misma historia
-en progreso sprint tras sprint.
+en progreso por varios sprints.
 
 Para evitar historias muy grandes es importante aplicar un enfoque iterativo al
 escribirlas. Si es necesario podemos “romper” una historia grande en historias
-más pequeñas que comprendan incrementos de una misma funcionalidad.
+más pequeñas que contengan incrementos de una misma funcionalidad.
 
-A modo de ejemplo, podemos implementar el inicio de sesión asumiendo que los
-datos ingresados por el usuario siempre están correctos, o si validamos algo,
-validar lo más importante, y si queremos agregar la recuperación de contraseña,
-podemos luego tener una historia aparte que contemple solo eso.
+Por ejemplo, si vamos implementar el inicio de sesión, podríamos asumir que los
+datos ingresados por el usuario siempre están correctos. Si necesitamos hacer
+alguna validación, podríamos priorizar validar lo más importante primero, y
+luego agregar cosas como la recuperación de la contraseña con una historia
+aparte que solo tenga eso.
 
 ### 6.3 Comunicación en tiempo real con Socket.io
 
@@ -321,7 +322,74 @@ configuraciones.
 
 ![Representación de despliegue a entorno local y a la nube](./docs/images/localhost-vs-deploymentv3.png)
 
-### 6.5 El _pipeline_ de Integración Continua/Entrega Continua
+### 6.5 ¿Cómo ocupo Postgres localmente?
+
+Asegúrate de seguir los siguientes pasos:
+
+1. Si ocupas Mac o Windows, instala
+   [Docker Desktop](https://docs.docker.com/desktop/).
+2. Si ocupas alguna distribución de Linux, instala
+   [Docker Engine](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
+   y
+   [Docker Compose](https://docs.docker.com/compose/install/#install-compose-on-linux-systems).
+3. Asegúrate de que la instalación de Docker y Docker Compose se hizo
+   correctamente verificando la salida de los siguientes comandos:
+
+   ```sh
+   $ docker --version
+   Docker version 20.10.8, build 3967b7d28e # <- Esto significa instalación exitosa
+
+   $ docker-compose --version
+   docker-compose version 1.29.2, build unknown # <- Esto significa instalación exitosa
+   ```
+
+4. Para iniciar la base de datos local, ejecuta `npm run db:up` y, luego de unas
+   descargas que se harán solo la primera vez, al final debieras obtener una
+   salida similar a la siguiente:
+
+   ```sh
+   $ npm run db:up
+
+   > chat-app@1.0.0 db:up
+   > docker-compose up -d
+
+   Creating network "chat-app_default" with the default driver
+   Creating chat-app_postgres_1 ... done
+   Creating chat-app_pgadmin_1  ... done
+   ```
+
+5. Inicia sesión en el panel administración de Postgres, llamado pgAdmin,
+   ingresando en tu navegador a `http://localhost:15432` con el usuario
+   `admin@pgadmin.com` y la contraseña `pgadmin`:
+
+   ![Inicio de sesión de pgAdmin](./docs/images/pgadmin-login.png)
+
+6. Además puedes verificar el estado de la base de datos local y detener la
+   ejecución con los siguientes comandos:
+
+   ```sh
+   $ npm run db:status  # <- Verifica el estado de la base de datos local
+
+   > chat-app@1.0.0 db:up
+   > docker-compose up -d
+
+   Creating network "chat-app_default" with the default driver
+   Creating chat-app_postgres_1 ... done
+   Creating chat-app_pgadmin_1  ... done
+
+   $ npm run db:down  # <- Detiene la base de datos local
+
+   > chat-app@1.0.0 db:down
+   > docker-compose down
+
+   Stopping chat-app_pgadmin_1  ... done
+   Stopping chat-app_postgres_1 ... done
+   Removing chat-app_pgadmin_1  ... done
+   Removing chat-app_postgres_1 ... done
+   Removing network chat-app_default
+   ```
+
+### 6.6 El _pipeline_ de Integración Continua/Entrega Continua
 
 Durante el desarrollo es frecuente que debamos realizar la tarea de desplegar
 repetidamente, incluso varias veces al día. Esto transforma el despliegue en una
@@ -347,7 +415,7 @@ plataforma (Firebase, Heroku, etc.).
 
 ![Diagrama de pipeline de Integración Continua](./docs/images/ci-pipeline.png)
 
-### 6.6 Sobre la _Product Owner_
+### 6.7 Sobre la _Product Owner_
 
 El rol de _Product Owner_ (PO) se puede encontrar en los equipos ágiles que
 usualmente usan la metodología
