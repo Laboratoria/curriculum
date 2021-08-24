@@ -138,6 +138,10 @@ express:
   - routing
   - middleware
 
+socket-io:
+  - client
+  - server
+
 auth:
   - jwt
   - password-access-and-storage

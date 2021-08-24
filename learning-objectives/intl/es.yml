@@ -395,6 +395,14 @@ express/routing:
 express/middleware:
   title: Uso y creación de middleware
 
+socket-io: Socket.IO
+
+socket-io/client:
+  title: Cliente JavaScript de Socket.io
+
+socket-io/server:
+  title: Servidor de Node.js de Socket.io
+
 http: HTTP
 
 http/request-response:
