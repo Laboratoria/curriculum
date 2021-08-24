@@ -296,6 +296,16 @@ aparte que solo tenga eso.
 
 ### 6.3 Comunicación en tiempo real con Socket.io
 
+Socket.IO es una librería que permite comunicación bidireccional, en
+_tiempo real_ y basada en eventos entre el navegador y servidor. Se compone de
+dos partes:
+
+- un servidor en Node.js: [Source](https://github.com/socketio/socket.io) |
+  [API](https://socket.io/docs/v4/server-api/)
+- un cliente Javascript para el navegador (que también se puede usar desde
+  Node.js): [Source](https://github.com/socketio/socket.io-client) |
+  [API](https://socket.io/docs/v4/client-api/)
+
 ### 6.4 Despliegues a Heroku y persistencia con Postgres
 
 Una de las ventajas de Heroku, es la rapidez del proceso, pues detecta
