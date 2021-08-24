@@ -334,7 +334,13 @@ firebase/firestore:
     - title: Receber atualizações em tempo real com o Cloud Firestore - Documentação oficial
       url: https://firebase.google.com/docs/firestore/query-data/listen?hl=pt-BR
 
-node: Node.js
+node:
+  title: Node.js
+  links:
+    - title: Sobre Node.js - Documentação oficial
+      url: https://nodejs.org/pt-br/about/
+    - title: learnyounode - NodeSchool
+      url: https://github.com/workshopper/learnyounode
 
 node/npm-install:
   title: Instalar e usar módulos (npm)
@@ -395,8 +401,8 @@ http/headers:
 http/body:
   title: Corpo (body)
   links:
-    - title: POST - MDN
-      url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/POST
+    - title: Mensagens HTTP / Corpo - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Messages#corpo
 
 http/verbs:
   title: Verbos HTTP

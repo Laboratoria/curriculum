@@ -140,8 +140,11 @@ buildItems([
   { type: 'project', id: '04-md-links', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '04-news-alerts', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-battleship', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '05-roman-numerals', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '05-roman-numerals-slack', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-social-network-fw', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-tic-tac-toe-rn', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '05-wordpress-plugin', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '06-open-project', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '07-job-application', locale: 'es-ES', track: 'js' },
   // JS Projects (portuguese)
@@ -149,9 +152,13 @@ buildItems([
   { type: 'project', id: '01-card-validation', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '01-cipher', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '02-data-lovers', locale: 'pt-BR', track: 'js' },
+  { type: 'project', id: '02-emergency-room', locale: 'pt-BR', track: 'js' },
+  { type: 'project', id: '02-memory-match', locale: 'pt-BR', track: 'js' },
+  { type: 'project', id: '02-movie-challenge', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '03-social-network', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '04-burger-queen', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '04-burger-queen-api', locale: 'pt-BR', track: 'js' },
+  { type: 'project', id: '04-burger-queen-api-client', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '04-md-links', locale: 'pt-BR', track: 'js' },
   // UX Projects (spanish)
   { type: 'project', id: '00-usability', locale: 'es-ES', track: 'ux' },
@@ -182,7 +189,6 @@ buildItems([
   { type: 'topic', id: 'interaction-design', locale: 'es-ES', track: 'ux' },
   { type: 'topic', id: 'intro-ux', locale: 'es-ES', track: 'ux' },
   { type: 'topic', id: 'prototyping', locale: 'es-ES', track: 'ux' },
-  { type: 'topic', id: 'talent-fest', locale: 'es-ES', track: 'ux' },
   { type: 'topic', id: 'ux-research', locale: 'es-ES', track: 'ux' },
 ])
   .then(createIndexes)

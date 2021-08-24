@@ -654,7 +654,8 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/30939075?v=4",
       "profile": "https://github.com/betsyvies",
       "contributions": [
-        "content"
+        "content",
+        "maintenance"
       ]
     },
     {
@@ -718,6 +719,26 @@
       "profile": "https://github.com/thalitagoncalves",
       "contributions": [
         "review"
+      ]
+    },
+    {
+      "login": "oxfist",
+      "name": "Andrés Quilodrán",
+      "avatar_url": "https://avatars.githubusercontent.com/u/934679?v=4",
+      "profile": "https://github.com/oxfist",
+      "contributions": [
+        "bug",
+        "review"
+      ]
+    },
+    {
+      "login": "ssinuco",
+      "name": "Sergio Sinuco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16993732?v=4",
+      "profile": "https://github.com/ssinuco",
+      "contributions": [
+        "content",
+        "code"
       ]
     }
   ]

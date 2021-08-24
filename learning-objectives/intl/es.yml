@@ -339,7 +339,21 @@ firebase/firestore:
     - title: Obtén actualizaciones en tiempo real con Cloud Firestore - Documentación oficial
       url: https://firebase.google.com/docs/firestore/query-data/listen?hl=es
 
-node: Node.js
+node:
+  title: Node.js
+  links:
+    - title: Acerca de Node.js - Documentación oficial
+      url: https://nodejs.org/es/about/
+    - title: learnyounode - NodeSchool
+      url: https://github.com/workshopper/learnyounode
+    - title: ¿Qué es Node.js y para qué sirve? - drauta.com
+      url: https://www.drauta.com/que-es-nodejs-y-para-que-sirve
+    - title: ¿Qué es Nodejs? Javascript en el Servidor - Fazt en YouTube
+      url: https://www.youtube.com/watch?v=WgSc1nv_4Gw
+    - title: ¿Simplemente qué es Node.js? - IBM Developer Works, 2011
+      url: https://www.ibm.com/developerworks/ssa/opensource/library/os-nodejs/index.html
+    - title: Node.js y npm - genbeta
+      url: https://www.genbeta.com/desarrollo/node-js-y-npm
 
 node/npm-install:
   title: Instalar y usar módulos con npm
@@ -400,8 +414,8 @@ http/headers:
 http/body:
   title: Cuerpo (body)
   links:
-    - title: POST - MDN
-      url: https://developer.mozilla.org/es/docs/Web/HTTP/Methods/POST
+    - title: Cuerpo de Mensajes HTTP - MDN
+      url: https://developer.mozilla.org/es/docs/Web/HTTP/Messages#cuerpo
 
 http/verbs:
   title: Verbos HTTP
@@ -647,3 +661,145 @@ angular/styles:
   links:
     - title: Template syntax - Documentación oficial (en inglés)
       url: https://angular.io/guide/template-syntax#built-in-directives
+
+slack/slash-commands:
+  title: Slash commands de Slack
+  links:
+    - title: Enabling interactivity with Slash Commands - Slack Docs
+      url: https://api.slack.com/interactivity/slash-commands
+
+php: PHP
+
+php/data-types/primitive:
+  title: Tipos de datos primitivos en PHP
+  links:
+    - title: Booleanos en PHP
+      url: https://www.php.net/manual/es/language.types.boolean.php
+    - title: Números enteros (Integers) en PHP
+      url: https://www.php.net/manual/es/language.types.integer.php
+    - title: Números de punto flotante en PHP
+      url: https://www.php.net/manual/es/language.types.float.php
+    - title: Strings en PHP
+      url: https://www.php.net/manual/es/language.types.string.php
+    - title: Strings numéricas en PHP
+      url: https://www.php.net/manual/es/language.types.numeric-strings.php
+
+php/data-types/arrays:
+  title: Arrays en PHP (arreglos)
+  links:
+    - title: Arrays en PHP (arreglos)
+      url: https://www.php.net/manual/es/language.types.array.php
+
+php/data-types/objects:
+  title: Objetos en PHP
+  links:
+    - title: Objetos en PHP
+      url: https://www.php.net/manual/es/language.types.object.php
+    - title: Programación Orientada a Objetos en PHP
+      url: https://www.php.net/manual/es/language.oop5.php
+
+php/variables:
+  title: Variables en PHP (declaración, asignación, ámbito)
+  links:
+    - title: Variables en PHP
+      url: https://www.php.net/manual/es/language.variables.php
+
+php/control-structures:
+  title: Estructuras de control en PHP (if, else, elseif, else if, while, do while, for)
+  links:
+    - title:  Estructuras de control en PHP (if, else, elseif, else if, while, do while, for)
+      url: https://www.php.net/manual/es/language.control-structures.php
+
+php/functions:
+  title: Funciones en PHP (params, args, return)
+  links:
+    - title: Funciones en PHP
+      url: https://www.php.net/manual/es/language.functions.php
+    - title: Extensiones PHP relacionadas con variable y tipo
+      url: https://www.php.net/manual/es/refs.basic.vartype.php
+
+php/testing/phpunit:
+  title: PHPUnit
+  links:
+    - title: PHPUnit
+      url: https://phpunit.de/getting-started/phpunit-9.html
+
+php/testing/xdebug:
+  title: XDebug
+  links:
+    - title: XDebug
+      url: https://xdebug.org/
+
+php/package-management/composer:
+  title: Composer
+  links:
+    - title: Composer
+      url: https://getcomposer.org/doc/00-intro.md
+
+wordpress: WordPress
+
+wordpress/plugin-development/hooks:
+  title: "Hooks: action y filter"
+  links:
+    - title: "Hooks: action y filter"
+      url: https://developer.wordpress.org/plugins/hooks/
+
+wordpress/plugin-development/administration-menu:
+  title: Menús de administración
+  links:
+    - title: Administration Menus
+      url: https://developer.wordpress.org/plugins/administration-menus/
+
+wordpress/plugin-development/shortcodes:
+  title: ShortCodes
+  links:
+    - title: ShortCodes
+      url: https://developer.wordpress.org/plugins/shortcodes/
+
+wordpress/plugin-development/settings:
+  title: Configuraciones
+  links:
+    - title: Settings
+      url: https://developer.wordpress.org/plugins/settings/
+
+wordpress/plugin-development/custom-post-types:
+  title: Custom Post Types
+  links:
+    - title: Custom Post Types
+      url: https://developer.wordpress.org/plugins/post-types/
+
+wordpress/plugin-development/taxonomies:
+  title: Taxonomías
+  links:
+    - title: Taxonomies
+      url: https://developer.wordpress.org/plugins/taxonomies/
+
+wordpress/plugin-development/users:
+  title: Usuarios
+  links:
+    - title: Users
+      url: https://developer.wordpress.org/plugins/users/
+
+wordpress/plugin-development/cron:
+  title: Cron
+  links:
+    - title: Cron
+      url: https://developer.wordpress.org/plugins/cron/
+
+wordpress/plugin-development/wordpress-rest-api:
+  title: WordPress REST API
+  links:
+    - title: WordPress REST API
+      url: https://developer.wordpress.org/rest-api/
+
+wordpress/plugin-development/wordpress-apis:
+  title: WordPress APIs
+  links:
+    - title: WordPress APIs
+      url: https://codex.wordpress.org/WordPress_APIs
+
+wordpress/plugin-development/wordpress-plugin-directory:
+  title: Publicar en WordPress Plugin Directory
+  links:
+    - title: WordPress Plugin Directory
+      url: https://developer.wordpress.org/plugins/wordpress-org/planning-your-plugin/
