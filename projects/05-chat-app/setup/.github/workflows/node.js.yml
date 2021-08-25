@@ -1,11 +1,15 @@
 name: Node.js CI
 
+# Configuramos este pipeline para que se ejecute con cada push y pull request a
+# la rama `main`.
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
 
+# Los 'jobs' son las fases que tendrá tu pipeline. En este caso hay 2: build y
+# deploy-heroku
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,15 +19,19 @@ jobs:
         node-version: [12.x, 14.x, 16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
+    # Después de cada guión está la definición de un paso que se ejecutará
+    # dentro de este job o fase
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-          cache: "npm"
+          cache: 'npm'
       - run: npm ci
+
   deploy-heroku:
+    # Para que este job se ejecute, debe terminar primero 'build'
     needs: build
 
     runs-on: ubuntu-latest
@@ -32,6 +40,9 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
+
+      # Este paso crea un archivo necesario para hacer push a Heroku desde el
+      # pipeline
       - name: Heroku login credentials
         run: |
           cat > ~/.netrc <<EOF
@@ -43,5 +54,7 @@ jobs:
               password $HEROKU_API_KEY
           EOF
         env:
+          # Este paso ocupa 'variables de entorno' que se definen en las
+          # configuraciones del repositorio de GitHub
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
           HEROKU_EMAIL: ${{ secrets.HEROKU_EMAIL }}
