@@ -449,6 +449,23 @@ webops/docker-containers:
 webops/docker-compose:
   title: Docker compose
 
+cicd: Integraçao Contínua/Entrega Contínua
+
+cicd/build-pipelines:
+  title: Construção de pipelines (GitHub Actions/CircleCI)
+
+cicd/service-deployment:
+  title: Implantar serviços (Heroku/GitHub Pages)
+
+cicd/tbd:
+  title: Usar Trunk-based Development para Integração Contínua
+
+cicd/test-coverage:
+  title: Validação de cobertura de testes en pipeline
+
+cicd/integration-tests:
+  title: Testes de integração
+
 db: Bases de dados (escolher entre MongoDB, PostgreSQL ou MySQL)
 
 db/install:

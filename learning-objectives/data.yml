@@ -148,6 +148,13 @@ webops:
   - docker-compose
   - cloud-functions
 
+cicd:
+  - build-pipelines
+  - service-deployment
+  - tbd
+  - test-coverage
+  - integration-tests
+
 db:
   - install
   - conection
