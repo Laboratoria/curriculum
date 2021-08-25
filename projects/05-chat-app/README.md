@@ -20,29 +20,31 @@ desde que se popularizó su uso. Desde IRC, ICQ y MSN Messenger, a los chats en
 redes sociales, Slack, Telegram y WhatsApp, poder comunicarnos en tiempo real
 con otras personas es algo que ya damos por sentado en nuestra vida cotidiana.
 
-Muchas herramientas tienen estas funcionalidades para facilitar las
-interacciones diarias en nuestro trabajo, pero además existen chats para
-entregar soporte directo a personas, por la fluidez que ofrecen, incluso
-llegando al ejemplo de los _chatbots_.
+Muchas herramientas tienen estas funcionalidades para facilitar interacciones
+diarias en nuestro trabajo, pero además existen sitios web con chats para
+entregar soporte directo a visitantes, incluso llegando a tener programas
+corriendo que respondan automatizadamente el chat, más conocidos como
+_chatbots_.
 
-Incluso siendo parte de una organización de tecnología, muchas veces los equipos
-de desarrollo se enfrentan a problemas que otros equipos ya vivieron en el
-pasado y no logran comunicarse por correo o videollamada para pasar sus
-aprendizajes de forma oportuna, lo que termina frenando la capacidad de la
-organización completa de responder a los desafíos propios de su negocio.
+Aun siendo formando parte de una organización de tecnología, muchas veces los
+equipos de desarrollo enfrentan problemas que otros equipos ya vivieron en el
+pasado y no logran comunicar sus aprendizajes de forma oportuna, lo que termina
+frenando la capacidad de responder a los desafíos propios de la organización
+completa.
 
-Has sido seleccionada para formar parte de la creación de una renovada área de
-desarrollo de esta organización. Uno de los valores más importantes en esta
-iniciativa es la comunicación abierta y fluida, y se ve que implementar esto
-producirá un gran cambio cultural en la organización completa. Por esto ha
-surgido la necesidad de tener un lugar donde las personas desarrolladoras puedan
-comunicarse rápidamente entre sí.
+Tú has sido seleccionada para participar de la creación de una renovada área de
+desarrollo de una de esas organizaciones. Uno de los valores más importantes de
+esta iniciativa es la comunicación abierta y fluida. Que un aprendizaje local se
+transforme en global gracias a esa comunicación. Las personas involucradas
+piensan que implementar esto producirá un gran cambio cultural en la
+organización completa. Por esto ha surgido la necesidad de tener un lugar donde
+las personas desarrolladoras puedan comunicarse rápidamente entre sí.
 
-Has sido invitada a participar de esta iniciativa y te han propuesto la creación
-de una herramienta de chat propia (para evitar gastos a terceros) para que tus
-compañeras y compañeros ocupen menos tiempo en resolver problemas, logren
-masificar experiencias y aprendizaje locales a toda el área de desarrollo y
-puedan así contribuir al crecimiento técnico de todas.
+Para esta iniciativa te proponen la creación de una herramienta de chat propia
+(para evitar gastos a terceros) para que tus compañeras y compañeros ocupen
+menos tiempo en resolver problemas, logren compartir experiencias y aprendizajes
+locales a toda el área de desarrollo y puedan así contribuir al crecimiento
+técnico de todas.
 
 ## 2. Resumen del proyecto
 
@@ -61,7 +63,7 @@ entregaremos las primeras historias ya hechas, para que tengas una base inicial
 abarcar todas las funcionalidades.
 
 Para implementar mensajes instantáneos en un chat ocuparás la librería
-[Socket.io](https://socket.io), que te permitirá implementar _web sockets_ para
+[Socket.IO](https://socket.io), que te permitirá implementar _web sockets_ para
 mantener conexiones abiertas entre las personas que estén conectadas dentro del
 chat y el “servidor” que centralizará la comunicación, recibiendo los mensajes y
 enviándolos de nuevo a los “clientes”.
@@ -101,7 +103,7 @@ nuevas historias a medida que vayamos aprendiendo sobre lo que es prioritario y
 lo que reporte mayor valor para nuestras usuarias.
 
 Ocuparemos la fórmula _Persona + Necesidad + Propósito_ expresada en el
-siguiente ejemplo:
+siguiente ejemplo de una imaginaria app para escuchar música:
 
 ```text
 Yo como fanática de la música funk (Persona)
@@ -137,7 +139,7 @@ que queramos ver los mensajes nuevos, no sería ni muy instantánea ni muy útil
 Con WebSockets, cargaremos la página una vez y la conexión quedará abierta para
 que simplemente recibamos los mensajes de otras personas manejando _eventos_.
 
-Con la librería [Socket.io](https://socket.io) podemos implementar conexiones de
+Con la librería [Socket.IO](https://socket.io) podemos implementar conexiones de
 este tipo sin tener que hacer muchas cosas manualmente. Así, familiarizándote
 con ella podrás agregar la comunicación instantánea a tu aplicación sin muchas
 demoras y así podrás enfocarte en las funcionalidad más complejas.
@@ -162,8 +164,7 @@ datos.
 ### 4.5 El _pipeline_ de Integración Continua/Entrega Continua
 
 Para que nuestro código esté disponible para usuarias es necesario desplegar
-nuestra aplicación. Esto lo hiciste previamente con GitHub Pages y Firebase, en
-este último caso ejecutando `firebase deploy`.
+nuestra aplicación. Esto lo hiciste previamente con GitHub Pages.
 
 Una forma de aumentar la productividad en el desarrollo es automatizar el
 despliegue para evitar posibles errores manuales o algún paso que se nos olvide,
@@ -226,9 +227,9 @@ historias.
 Como punto de partida, agenda una reunión de _kick-off_ con la coach que escojan
 para definir las prioridades del primer sprint.
 
-### 5.3 Comunicación en tiempo real con Socket.io
+### 5.3 Comunicación en tiempo real con Socket.IO
 
-Deberás hacer una integración con la librería Socket.io para implementar
+Deberás hacer una integración con la librería Socket.IO para implementar
 comunicación a través de WebSockets que permitan a usuarias chatear en tiempo
 real.
 
@@ -246,7 +247,7 @@ de tu aplicación.
 
 ### 5.6 Modularización del código
 
-Como tendrás que ocupar una librería externa, Socket.io, será muy importante que
+Como tendrás que ocupar una librería externa, Socket.IO, será muy importante que
 esa integración se haga de forma ordenada. Para esto tendrás que definir una
 estructura de carpetas lógica y clara, y procurar _separar responsabilidades_.
 Cada script debiera tener solo una responsabilidad y exportar funciones que sean
@@ -255,7 +256,7 @@ ocupadas por otros.
 ### 5.7 Pruebas unitarias
 
 Deberás incluir pruebas unitarias para tu aplicación y testear aquellas partes
-más críticas de tu propio código. No vamos a testear que Socket.io funciona como
+más críticas de tu propio código. No vamos a testear que Socket.IO funciona como
 debiera o que la base de datos efectivamente guarda los datos. Si necesitas
 testear una función que se integra con código no hecho por ti, puedes ocupar
 _test doubles_, a veces llamados simplemente _mocks_.
@@ -294,13 +295,21 @@ alguna validación, podríamos priorizar validar lo más importante primero, y
 luego agregar cosas como la recuperación de la contraseña con una historia
 aparte que solo tenga eso.
 
-### 6.3 Comunicación en tiempo real con Socket.io
+### 6.3 Comunicación en tiempo real con Socket.IO
+
+La documentación oficial de Socket.IO tiene una buena introducción a sus
+funcionalidades, con ejemplos de código en JavaScript, secciones para cómo
+configurar la recepción y envío de mensajes y hasta tutoriales. Te recomendamos
+usar la documentación para
+[familiarizarte con la librería](https://socket.io/docs/v4/), tener algo de
+práctica con un [tutorial](https://socket.io/get-started/chat) y ocuparla como
+referencia mientras avanzas en el desarrollo.
 
 ### 6.4 Despliegues a Heroku y persistencia con Postgres
 
-Una de las ventajas de Heroku, es la rapidez del proceso, pues detecta
-automáticamente algunas características de nuestro proyecto y nos evita tener
-que hacer muchas configuraciones de forma manual. Es posible tener una
+Una de las ventajas de Heroku, es la rapidez del proceso de configuración, pues
+detecta automáticamente algunas características de nuestro proyecto y nos evita
+tener que hacer muchas configuraciones de forma manual. Es posible tener una
 aplicación corriendo en Heroku ¡en menos de 5 minutos!
 
 Este tipo de tecnologías es muy importante actualmente en el desarrollo de
@@ -309,8 +318,7 @@ una de las tareas esenciales del desarrollo de software: el _despliegue_. Le
 llamamos “desplegar” (hacer _deployment_) al acto de tomar el código de nuestra
 aplicación y moverlo a uno de estos servicios para que nuestros cambios más
 actuales queden disponibles para usuarios. Durante el bootcamp muchas veces
-hiciste esto con `firebase deploy` para desplegar los cambios a Firebase o
-quizás configurando tu repositorio para que el código se viera en
+hiciste esto al configurar tu repositorio para que el código se viera en
 [GitHub Pages](https://pages.github.com/).
 
 Así como Firebase permitía guardar datos en su base de datos Firestore, Heroku
@@ -425,10 +433,12 @@ recibe distintos nombres pero tiene básicamente la misma función.
 
 Aunque este rol suele asumirlo de forma exclusiva una persona que no se
 involucra en el desarrollo, en la práctica sus responsabilidades no son fijas ni
-exclusivas del rol mismo, y dependerá de la organización en que se encuentre el
-equipo.
+exclusivas de la persona PO, y dependerá de la organización en que se encuentre
+el equipo.
 
 ### Otros recursos
 
 - [¿Qué es el rol de Product Owner? | Agile Alliance (texto, inglés)](https://www.agilealliance.org/glossary/product-owner/)
 - [Product Owner Ágil en resumen | Henrik Kniberg - YouTube (video, subtítulos autotraducidos en español)](https://www.youtube.com/watch?v=502ILHjX9EE)
+- [¿Qué es Socket.IO? | Documentación oficial (texto, inglés)](https://socket.io/docs/v4)
+- [Tutorial Socket.IO | Documentación oficial (texto, inglés)](https://socket.io/get-started/chat)
