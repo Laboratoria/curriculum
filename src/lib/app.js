@@ -1,6 +1,11 @@
 import { createContext, useContext, useEffect, useState } from 'react';
-import firebase from 'firebase/app';
-import 'firebase/auth';
+import { initializeApp } from 'firebase/app';
+import {
+  getAuth,
+  onAuthStateChanged,
+  signInWithEmailAndPassword,
+  signOut
+} from 'firebase/auth';
 import createClient from './client';
 import Loading from '../components/Loading';
 
@@ -15,7 +20,7 @@ const {
 const AppContext = createContext();
 
 
-firebase.initializeApp({
+const firebaseApp = initializeApp({
   apiKey: REACT_APP_FIREBASE_API_KEY,
   authDomain: `${REACT_APP_FIREBASE_PROJECT}.firebaseapp.com`,
   databaseURL: `https://${REACT_APP_FIREBASE_PROJECT}.firebaseio.com`,
@@ -32,11 +37,11 @@ export const useApp = () => useContext(AppContext);
 // App Context Provider to be wrapped around the whole App.
 //
 export const AppProvider = ({ children }) => {
-  const auth = firebase.auth();
+  const auth = getAuth(firebaseApp);
   const [user, setUser] = useState();
   const [profile, setProfile] = useState();
 
-  useEffect(() => auth.onAuthStateChanged((user) => {
+  useEffect(() => onAuthStateChanged(auth, (user) => {
     if (!user) {
       setUser(null);
       setProfile(null);
@@ -63,8 +68,8 @@ export const AppProvider = ({ children }) => {
     auth: {
       user,
       profile,
-      signIn: ({ email, password }) => auth.signInWithEmailAndPassword(email, password),
-      signOut: () => auth.signOut(),
+      signIn: ({ email, password }) => signInWithEmailAndPassword(auth, email, password),
+      signOut: () => signOut(auth),
     },
     client: createClient(REACT_APP_LABORATORIA_API_URL, user),
   };
