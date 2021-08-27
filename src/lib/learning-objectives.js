@@ -4,6 +4,7 @@ import cicdSvg from '../icons/githubactions.svg';
 import htmlSvg from '../icons/html5.svg';
 import jsSvg from '../icons/javascript.svg';
 import reactSvg from '../icons/react.svg';
+import slackSvg from '../icons/slack.svg';
 import socketioSvg from '../icons/socketdotio.svg';
 import angularSvg from '../icons/angular.svg';
 import vueSvg from '../icons/vuedotjs.svg';
@@ -99,6 +100,10 @@ const learningObjectivesIcons = {
   cicd: {
     color: '#2088FF',
     svg: cicdSvg,
+  },
+  slack: {
+    color: '#4A154B',
+    svg: slackSvg,
   },
 };
 
