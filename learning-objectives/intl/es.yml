@@ -670,6 +670,8 @@ angular/styles:
     - title: Template syntax - Documentación oficial (en inglés)
       url: https://angular.io/guide/template-syntax#built-in-directives
 
+slack: Slack
+
 slack/slash-commands:
   title: Slash commands de Slack
   links:
@@ -715,7 +717,7 @@ php/variables:
 php/control-structures:
   title: Estructuras de control en PHP (if, else, elseif, else if, while, do while, for)
   links:
-    - title:  Estructuras de control en PHP (if, else, elseif, else if, while, do while, for)
+    - title: Estructuras de control en PHP (if, else, elseif, else if, while, do while, for)
       url: https://www.php.net/manual/es/language.control-structures.php
 
 php/functions:
