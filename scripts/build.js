@@ -1,15 +1,30 @@
 #! /usr/bin/env node
 
-const fs = require('fs-extra');
-const path = require('path');
 const { spawn } = require('child_process');
+const os = require('os');
+const path = require('path');
+const fs = require('fs-extra');
+const minimist = require('minimist');
 const mkdirp = require('mkdirp');
+const porch = require('porch');
 const { loadYaml, flattenLearningObjectives } = require('@laboratoria/curriculum-parser/lib/project');
 const { repository, version } = require('../package.json');
 
 
-const validate = process.argv[2] === '--validate';
+const { _: args, ...opts } = minimist(process.argv.slice(2));
+const validate = !!opts.validate;
+const concurrency = (
+  typeof opts.concurrency === 'number'
+    ? opts.concurrency
+    : Math.max(os.cpus().length - 1, 1)
+);
 const buildDir = path.join(__dirname, '..', 'dist');
+
+
+if (Number.isNaN(concurrency) || concurrency < 1) {
+  console.error(`Invalid concurrency: ${concurrency}`);
+  process.exit(1);
+}
 
 
 const parse = ({ type, id, locale, track }) => new Promise((resolve) => {
@@ -65,7 +80,7 @@ const ensureDirs = (items) => {
 
 
 const buildItems = items => ensureDirs(items)
-  .then(() => Promise.all(items.map(item => parse(item))))
+  .then(() => porch(items.map(item => () => parse(item)), concurrency, 0, false))
   .then(results => {
     const errors = results.filter(result => result instanceof Error);
     if (errors.length) {
