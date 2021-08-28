@@ -45,12 +45,12 @@
     "react-ace": "^9.4.3",
     "react-dom": "^17.0.2",
     "react-intl": "^5.20.10",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^5.2.1",
     "react-scripts": "4.0.3",
     "web-vitals": "^2.1.0"
   },
   "devDependencies": {
-    "@laboratoria/curriculum-parser": "^3.0.0",
+    "@laboratoria/curriculum-parser": "^3.0.1",
     "@laboratoria/mdlint": "^1.2.1",
     "@octokit/rest": "^18.9.1",
     "chai": "^4.3.4",
