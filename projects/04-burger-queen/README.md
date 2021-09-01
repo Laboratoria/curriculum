@@ -311,11 +311,11 @@ Si usas firebase con reglas de firestore, índices, cloud functions,
 necesitas desplegar el backend con firebase-cli.
 
 Puedes desplegar el frontend con Firebase hosting.  
-Hay otros opciones como Github Pages (que ya estan familiarizada),  
+Hay otras opciones como Github Pages (que ya estan familiarizadas),  
 Netlify, y Heroku.
 
-Netlify y Heroku son servicios a desplegar su web app - backend y  
-frontend ambos - y no son limitados a usar solamente con Firebase.  
+Netlify y Heroku son servicios para desplegar tu web app - backend y  
+frontend - y no son limitados a usar solamente con Firebase.  
 Por ejemplo, puedes desplegar un app MySQL/Express/React.
 
 #### Build para production
@@ -366,18 +366,18 @@ firebase deploy
 [Netlify](http://netlify.com) es un servicio de hosting
 para sitios web estáticos.  
 Para usarlo primero necesitas crear una cuenta en
-[Netlify](http://netlify.com)y despues puedes conectar tu repo.
+[Netlify](http://netlify.com) y después puedes conectar tu repo.
 
 * [Netlify y Angular](https://www.netlify.com/blog/2019/09/23/first-steps-using-netlify-angular/)
 * [Netlify y Vue](https://cli.vuejs.org/guide/deployment.html#gitlab-pages)
 * [Netlify y Vue](https://medium.com/vue-mastery/deploying-a-vue-app-to-netlify-8f8f7d36f8fb)
 * [Netlify y React](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/)
 
-Para desplegar nuestra aplicación en netlify seleccionas acceder con GitHub
+Para desplegar tu aplicación en netlify seleccionas acceder con GitHub
 y luego concedes los permisos para que Netlify acceda a tus repositorios y
 generar la clave para poder realizar el despliegue continuo.
 
-Una vez terminado el registro bastara con compilar tu aplicación para
+Una vez terminado el registro bastará con compilar tu aplicación para
 producción y arrastrar tu carpeta (dist, build) a la parte de sites
 dentro de netlify.
 
@@ -391,9 +391,8 @@ de Netlify junto al link del app ya hosteada.
 Hay un `netlify-cli` si prefieres hacer el despliegue por linea de comando.
 Para usarlo, hay que instalar el cli en tu proyecto y authorizarlo.
 
-Puedes checar la documentacion de este lado
-[Get Started](https://docs.netlify.com/cli/get-started/)
-O seguir con los siguentes comandos:
+Puedes checar la [documentación](https://docs.netlify.com/cli/get-started/)
+o seguir con los siguentes comandos:
 
 ```sh
 npm install netlify-cli --save-dev
@@ -402,18 +401,18 @@ netlify login
 
 Esto va a crear un `config.json` en tu proyecto.
 
-Puedes usar `netlify` con continuous deployment (despliegue continuo.
-Cada vez que agregues un commit se va a compilar y desplegar tu app con
-los nuevos cambios). También con manual deploys.
+Puedes usar `netlify` con continuous deployment (despliegue continuo) y así
+cada vez que agregues un commit se va a compilar y desplegar tu app con
+los nuevos cambios. Alternativamente, también puedes hacer depliegue manual.
 
 Para continuous deployment corre `netlify init`  y sigue las instrucciones
 para conectar un repo de tu github.
 Puedes configurar deploy settings (comando para el build, directorio de la
 carpeta y la rama para producción) en "deploy settings" de tu site en netlify.
 
-Para desplegar manualmente puedes usar `netlify deploy`.  
-También por default, busca un directorio `build` en tu proyecto y desplegarlo.  
-Si tu proyecto tiene un directorio de otro nombre puedes usar el comando `--dir`.
+Para desplegar manualmente puedes usar `netlify deploy`. También por defecto
+busca un directorio `build` en tu proyecto para desplegarlo. Si tu proyecto
+tiene un directorio de otro nombre puedes usar la opción `--dir`.
 
 ```sh
 netlify deploy --dir=dist`
