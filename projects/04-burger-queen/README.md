@@ -305,10 +305,25 @@ podrán hacer sus propios _forks_ a partir del _fork_ principal de su equipo.
 
 ### Despliegue
 
+En esta sección revisamos algunas opciones para desplegar  
+el backend y frontend de tu app.  
+Si usas firebase con reglas de firestore, índices, cloud functions,  
+necesitas desplegar el backend con firebase-cli.
+
+Puedes desplegar el frontend con Firebase hosting.  
+Hay otras opciones como Github Pages (que ya estan familiarizadas),  
+Netlify, y Heroku.
+
+Netlify y Heroku son servicios para desplegar tu web app - backend y  
+frontend - y no son limitados a usar solamente con Firebase.  
+Por ejemplo, puedes desplegar un app MySQL/Express/React.
+
+#### Build para production
+
 Cada framework incluye su propio _pipeline_ de _construcción_ o _build_. Con
 esto nos referimos a que para _construir_ nuestro proyecto y producir un
-_artefacto_ que podamos desplegar vamos a usar usar un script que normalmente
-configuramos como una tarea de `npm-scrips` con el nombre `build` e invocamos
+_artefacto_ que podamos desplegar vamos a usar un script que normalmente
+configuramos como una tarea de `npm-scripts` con el nombre `build` e invocamos
 así:
 
 ```sh
@@ -319,6 +334,8 @@ Una vez hayamos _construido_ la aplicación, tendremos un directorio que contien
 la app lista para desplegar. Dependiendo del framework que uses y tu
 configuración en particular, esa carpeta puede tener un nombre distinto;
 normalmente `build` o `dist`.
+
+##### Firebase
 
 La herramienta de línea de comando de Firebase (`firebase-tools`) incluye un
 comando que nos permite desplegar nuestro proyecto a Firebase:
@@ -344,7 +361,70 @@ Finalmente, estás lista para desplegar tu proyecto a Firebase :rocket::fire:!
 firebase deploy
 ```
 
-***
+##### Netlify
+
+[Netlify](http://netlify.com) es un servicio de hosting
+para sitios web estáticos.  
+Para usarlo primero necesitas crear una cuenta en
+[Netlify](http://netlify.com) y después puedes conectar tu repo.
+
+* [Netlify y Angular](https://www.netlify.com/blog/2019/09/23/first-steps-using-netlify-angular/)
+* [Netlify y Vue](https://cli.vuejs.org/guide/deployment.html#gitlab-pages)
+* [Netlify y Vue](https://medium.com/vue-mastery/deploying-a-vue-app-to-netlify-8f8f7d36f8fb)
+* [Netlify y React](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/)
+
+Para desplegar tu aplicación en netlify seleccionas acceder con GitHub
+y luego concedes los permisos para que Netlify acceda a tus repositorios y
+generar la clave para poder realizar el despliegue continuo.
+
+Una vez terminado el registro bastará con compilar tu aplicación para
+producción y arrastrar tu carpeta (dist, build) a la parte de sites
+dentro de netlify.
+
+![netlify-sites](https://user-images.githubusercontent.com/21324865/128918519-04336a77-9c34-4266-a711-9975917e8f87.png)
+
+Al terminar de cargar los archivos podras ver el nombre de la aplicación dentro
+de Netlify junto al link del app ya hosteada.
+
+###### netlify cli
+
+Hay un `netlify-cli` si prefieres hacer el despliegue por linea de comando.
+Para usarlo, hay que instalar el cli en tu proyecto y authorizarlo.
+
+Puedes checar la [documentación](https://docs.netlify.com/cli/get-started/)
+o seguir con los siguentes comandos:
+
+```sh
+npm install netlify-cli --save-dev
+netlify login
+```
+
+Esto va a crear un `config.json` en tu proyecto.
+
+Puedes usar `netlify` con continuous deployment (despliegue continuo) y así
+cada vez que agregues un commit se va a compilar y desplegar tu app con
+los nuevos cambios. Alternativamente, también puedes hacer depliegue manual.
+
+Para continuous deployment corre `netlify init`  y sigue las instrucciones
+para conectar un repo de tu github.
+Puedes configurar deploy settings (comando para el build, directorio de la
+carpeta y la rama para producción) en "deploy settings" de tu site en netlify.
+
+Para desplegar manualmente puedes usar `netlify deploy`. También por defecto
+busca un directorio `build` en tu proyecto para desplegarlo. Si tu proyecto
+tiene un directorio de otro nombre puedes usar la opción `--dir`.
+
+```sh
+netlify deploy --dir=dist`
+```
+
+#### Github pages
+
+* [Github pages y Vue](https://cli.vuejs.org/guide/deployment.html#github-pages)
+* [Github pages y Angular](https://angular.io/guide/deployment#deploy-to-github-pages)
+* [Github pages y React](https://create-react-app.dev/docs/deployment/#github-pages-https-pagesgithubcom)
+
+#### Heroku
 
 ### :information_source: Nota para estudiantes que elijan React y `create-react-app`
 

@@ -1,0 +1,20 @@
+learningObjectives:
+  - js/async
+  - js/testing/unit
+  - js/testing/e2e
+  - auth
+  - http/request-response
+  - http/verbs
+  - http/cors
+  - express/routing
+  - express/middleware
+  - socket-io
+  - db
+  - react
+  - vue
+  - angular
+  - cicd/build-pipelines
+  - cicd/service-deployment
+  - cicd/tbd
+  - cicd/test-coverage
+  - cicd/integration-tests

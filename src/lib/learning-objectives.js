@@ -1,8 +1,11 @@
 import cssSvg from '../icons/css3.svg';
 import gitSvg from '../icons/git.svg';
+import cicdSvg from '../icons/githubactions.svg';
 import htmlSvg from '../icons/html5.svg';
 import jsSvg from '../icons/javascript.svg';
 import reactSvg from '../icons/react.svg';
+import slackSvg from '../icons/slack.svg';
+import socketioSvg from '../icons/socketdotio.svg';
 import angularSvg from '../icons/angular.svg';
 import vueSvg from '../icons/vuedotjs.svg';
 import nodeSvg from '../icons/nodedotjs.svg';
@@ -14,6 +17,8 @@ import expressSvg from '../icons/express.svg';
 import dockerSvg from '../icons/docker.svg';
 import authSvg from '../icons/auth.svg';
 import dbSvg from '../icons/db.svg';
+import phpSvg from '../icons/php.svg';
+import wordpressSvg from '../icons/wordpress.svg';
 
 const learningObjectivesIcons = {
   html: {
@@ -79,6 +84,26 @@ const learningObjectivesIcons = {
   db: {
     color: 'gray',
     svg: dbSvg,
+  },
+  php: {
+    color: '#777BB4',
+    svg: phpSvg,
+  },
+  wordpress: {
+    color: '#21759B',
+    svg: wordpressSvg,
+  },
+  'socket-io': {
+    color: '#010101',
+    svg: socketioSvg,
+  },
+  cicd: {
+    color: '#2088FF',
+    svg: cicdSvg,
+  },
+  slack: {
+    color: '#4A154B',
+    svg: slackSvg,
   },
 };
 

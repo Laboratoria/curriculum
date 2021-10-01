@@ -138,6 +138,10 @@ express:
   - routing
   - middleware
 
+socket-io:
+  - client
+  - server
+
 auth:
   - jwt
   - password-access-and-storage
@@ -148,6 +152,13 @@ webops:
   - docker-compose
   - cloud-functions
 
+cicd:
+  - build-pipelines
+  - service-deployment
+  - tbd
+  - test-coverage
+  - integration-tests
+
 db:
   - install
   - conection
@@ -155,3 +166,31 @@ db:
 
 slack:
   - slash-commands
+
+php:
+  - data-types:
+    - primitive
+    - arrays
+    - objects
+  - variables
+  - control-structures
+  - functions
+  - testing:
+    - phpunit
+    - xdebug
+  - package-management:
+    - composer
+
+wordpress:
+  - plugin-development:
+    - hooks
+    - administration-menu
+    - shortcodes
+    - settings
+    - custom-post-types
+    - taxonomies
+    - users
+    - cron
+    - wordpress-rest-api
+    - wordpress-apis
+    - wordpress-plugin-directory

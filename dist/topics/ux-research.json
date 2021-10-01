@@ -1,6 +1,6 @@
 {
   "slug": "ux-research",
-  "createdAt": "2021-07-12T22:08:24.642Z",
+  "createdAt": "2021-08-02T12:10:53.794Z",
   "title": "UX Research",
   "description": "<p>En este curso concerás distintas herramientas que te ayudarán a entender mejor\na los usuarios y su interacción con los productos digitales. Además, aprenderás\na identificar mejor los problemas del negocio y la relación que tienen esos\nproblemas con los del usuario.</p>\n",
   "tags": {
@@ -627,7 +627,7 @@
   "references": "",
   "repo": "Laboratoria/bootcamp",
   "path": "topics/ux-research",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "parserVersion": "3.0.0",
   "track": "ux",
   "locale": "es-ES",

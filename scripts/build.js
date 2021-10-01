@@ -1,15 +1,30 @@
 #! /usr/bin/env node
 
-const fs = require('fs-extra');
-const path = require('path');
 const { spawn } = require('child_process');
+const os = require('os');
+const path = require('path');
+const fs = require('fs-extra');
+const minimist = require('minimist');
 const mkdirp = require('mkdirp');
+const porch = require('porch');
 const { loadYaml, flattenLearningObjectives } = require('@laboratoria/curriculum-parser/lib/project');
 const { repository, version } = require('../package.json');
 
 
-const validate = process.argv[2] === '--validate';
+const { _: args, ...opts } = minimist(process.argv.slice(2));
+const validate = !!opts.validate;
+const concurrency = (
+  typeof opts.concurrency === 'number'
+    ? opts.concurrency
+    : Math.max(os.cpus().length - 1, 1)
+);
 const buildDir = path.join(__dirname, '..', 'dist');
+
+
+if (Number.isNaN(concurrency) || concurrency < 1) {
+  console.error(`Invalid concurrency: ${concurrency}`);
+  process.exit(1);
+}
 
 
 const parse = ({ type, id, locale, track }) => new Promise((resolve) => {
@@ -65,7 +80,7 @@ const ensureDirs = (items) => {
 
 
 const buildItems = items => ensureDirs(items)
-  .then(() => Promise.all(items.map(item => parse(item))))
+  .then(() => porch(items.map(item => () => parse(item)), concurrency, 0, false))
   .then(results => {
     const errors = results.filter(result => result instanceof Error);
     if (errors.length) {
@@ -140,10 +155,12 @@ buildItems([
   { type: 'project', id: '04-md-links', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '04-news-alerts', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-battleship', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '05-chat-app', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-roman-numerals', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-roman-numerals-slack', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-social-network-fw', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-tic-tac-toe-rn', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '05-wordpress-plugin', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '06-open-project', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '07-job-application', locale: 'es-ES', track: 'js' },
   // JS Projects (portuguese)
@@ -157,6 +174,7 @@ buildItems([
   { type: 'project', id: '03-social-network', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '04-burger-queen', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '04-burger-queen-api', locale: 'pt-BR', track: 'js' },
+  { type: 'project', id: '04-burger-queen-api-client', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '04-md-links', locale: 'pt-BR', track: 'js' },
   // UX Projects (spanish)
   { type: 'project', id: '00-usability', locale: 'es-ES', track: 'ux' },

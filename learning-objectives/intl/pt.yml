@@ -401,8 +401,8 @@ http/headers:
 http/body:
   title: Corpo (body)
   links:
-    - title: POST - MDN
-      url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/POST
+    - title: Mensagens HTTP / Corpo - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Messages#corpo
 
 http/verbs:
   title: Verbos HTTP
@@ -448,6 +448,23 @@ webops/docker-containers:
 
 webops/docker-compose:
   title: Docker compose
+
+cicd: Integraçao Contínua/Entrega Contínua
+
+cicd/build-pipelines:
+  title: Construção de pipelines (GitHub Actions/CircleCI)
+
+cicd/service-deployment:
+  title: Implantar serviços (Heroku/GitHub Pages)
+
+cicd/tbd:
+  title: Usar Trunk-based Development para Integração Contínua
+
+cicd/test-coverage:
+  title: Validação de cobertura de testes en pipeline
+
+cicd/integration-tests:
+  title: Testes de integração
 
 db: Bases de dados (escolher entre MongoDB, PostgreSQL ou MySQL)
 
