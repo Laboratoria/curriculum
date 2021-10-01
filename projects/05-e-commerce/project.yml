@@ -1,42 +1,118 @@
-learningObjectives:
-  - node
-  - express
-  - db
-  - pasarela pago
-  - modelado de datos
-  - arquitectura de información
-  - persistencia de datos
-  - consumo de datos (queries)
-  - arquitectura de software
-  - JSX
-  - prisma CRUD operations
-  - graphQL/schema modeling
-  - graphQL/queries and mutations
-  - http operations (GET, POST, PUT, PATCH, DELETE)
-  - apollo/query modeling
-  - apollo/react hooks
-  - apollo/'state management'
-  - js/data-types/arrays
-  - js/data-types/objects
-  - js/data-types/primitive-vs-non-primitive
-  - js/conditionals
-  - js/functions
-  - js/testing/unit
-  - js/testing/async
-  - js/testing/mocks
-  - js/modules/es-modules
-  - js/linting
-  - js/semantics
-  - js/expression-vs-statement
-  - js/async/callbacks
-  - js/async/promises
-  - scm/git/setup
-  - scm/git/intro
-  - scm/git/integration
-  - scm/github/setup
-  - scm/github/collaboration
-  - scm/github/project-management
-  - ux/user-understanding
-  - ux/prototyping
-  - ux/visual-design
-  - ux/usability-testing
+browser:
+  - dom:
+    - selectors
+    - events
+    - manipulation
+  - routing
+  - storage
+  - fetch
+
+js:
+  - data-types:
+    - primitive
+    - primitive-vs-non-primitive
+    # - values-and-refs
+    # - typeof
+    # - instanceof
+    - strings
+    - arrays
+    - objects
+  - variables
+  - conditionals
+  - loops
+  - functions
+  - recursion
+  - testing:
+    - unit
+    # - cases
+    # - assertions
+    - mocks
+    - async
+    # - coverage
+    - e2e
+    - compatibility
+  - modules:
+    - es-modules
+    - commonjs
+  - linting
+  - semantics
+  - expression-vs-statement
+  - async:
+    - callbacks
+    - promises
+    # - async/await
+    # - streams
+
+scm:
+  - git:
+    - setup
+    - intro
+    - integration
+  - github:
+    - setup
+    - gh-pages
+    - collaboration
+    - project-management
+    - ci
+
+ux:
+  - user-understanding
+  - prototyping
+  - visual-design
+  - usability-testing
+
+
+front-end-web-dev:
+  - components
+  - state
+  # - routing
+
+react:
+  - jsx
+  - components
+  - events
+  - lists-and-keys
+  - conditional-rendering
+  - lifting-up-state
+  - hooks
+  - css-modules
+  - routing
+  - apollo
+  - graphql queries
+
+http:
+  - request-response
+  - headers
+  - body
+  - verbs
+  - status-codes
+  - json
+  - cors
+
+node:
+  - npm-install
+  - package.json
+  - npm-scripts
+  - process
+  - filesystem
+
+express:
+  - routing
+  - middleware
+
+auth:
+  - jwt
+  - password-access-and-storage
+
+webops:
+  - env-vars
+  - docker-containers
+  - docker-compose
+  - cloud-functions
+
+db:
+  - install
+  - conection
+  - queries
+  - prisma
+  - graphql schema
