@@ -43,9 +43,8 @@ a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
 ## 2. Resumo do projeto
 
-O que eu tenho que fazer exatamente? Neste projeto você criará a primeira
-aplicação web do _bootcamp_. Nela o usuário poderá cifrar e decifrar um texto
-indicando a chave de deslocamento (_offset_).
+Neste projeto você criará a primeira aplicação web do _bootcamp_. Nela o usuário
+poderá cifrar e decifrar um texto indicando a chave de deslocamento (_offset_).
 
 O tema é livre. Você deve pensar em alguma situação de vida real em que seja
 necessário cifrar uma mensagem e pensar em como deve ser a experiência do

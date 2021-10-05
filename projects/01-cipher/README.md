@@ -43,9 +43,9 @@ aplicación en el sistema ROT13.
 
 ## 2. Resumen del proyecto
 
-¿Qué tengo que hacer exactamente? En este proyecto crearás una aplicación
-web que servirá para que el usuario pueda cifrar y descifrar un texto indicando
-un desplazamiento específico de caracteres (_offset_).
+En este proyecto crearás una aplicación web que servirá para que el usuario
+pueda cifrar y descifrar un texto indicando un desplazamiento específico de
+caracteres (_offset_).
 
 La temática es libre. Tú debes pensar en qué situaciones de la vida real se
 necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso

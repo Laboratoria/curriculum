@@ -1,4 +1,4 @@
-# Proyecto de extensión: Registro de Visitantes
+# Registro de Visitantes
 
 ## Índice
 
@@ -22,10 +22,13 @@ por eso contratan a tu equipo.
 
 ## 2. Resumen del proyecto
 
+En este proyecto construirás un prototipo para digitalizar el registro de
+visitantes en un coworking.
+
 Este co-working te anima a desarrollarles un prototipo con la nueva funcionalidad
 necesaria.
 
-<img alt="Recepción" src="recepcion.jpg" width="100%">
+![Recepción](https://user-images.githubusercontent.com/110297/135544479-56a82d7c-a284-4d97-a5da-96c3ef752f89.jpg)
 Crédito: [Pxfuel](https://pxfuel.com/)
 
 En su investigación conocieron una herramienta parecida a lo que desean y te la

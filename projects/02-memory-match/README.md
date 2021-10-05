@@ -22,7 +22,9 @@ entre otros, es un juego de cartas en el que todas las cartas se ponen cara
 abajo sobre una superficie y se le dan la vuelta a dos cartas en cada turno. El
 objetivo del juego es destapar parejas de cartas que coincidan.
 
-![Concentration (card game)](https://upload.wikimedia.org/wikipedia/commons/4/4d/WMCZ_Protected_Areas_Card_Game-7_%28cropped%29.jpg)
+![Concentration (card game)](https://user-images.githubusercontent.com/110297/135919005-66aefadb-c462-49e2-bf10-2374f2e47688.png)
+
+_Imagen tomada de [Wikipedia](https://en.wikipedia.org/wiki/Concentration_(card_game))_.
 
 Ejemplos:
 
