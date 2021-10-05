@@ -38,6 +38,8 @@ que es el lenguaje de código abierto
 según un estudio de W3Techs.com.
 y se usa principalmente para crear páginas webs dinámicas y aplicaciones.
 
+![stephen-phillips-hostreviews-co-uk-sSPzmL7fpWc-unsplash](https://user-images.githubusercontent.com/110297/135535732-8585355e-2382-4a94-8669-4c139f0bd70f.jpg)
+
 ## 2. Resumen del proyecto
 
 En este proyecto te invitamos a desarrollar un plugin para WordPress. Puedes

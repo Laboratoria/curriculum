@@ -17,6 +17,8 @@ Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin, etc. Las redes
 sociales han invadido nuestras vidas. Las amamos u odiamos, y muchos no podemos
 vivir sin ellas.
 
+![adem-ay-Tk9m_HP4rgQ-unsplash](https://user-images.githubusercontent.com/110297/135544666-4efa54f1-4ff6-4c4c-b398-6df04ef56117.jpg)
+
 Hay redes sociales de todo tipo y para todo tipo de intereses. Por ejemplo,
 en una ronda de financiamiento con inversionistas, se presentó una red social
 para químicos en la que los usuarios podían publicar artículos sobre sus

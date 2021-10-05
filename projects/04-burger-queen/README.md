@@ -35,16 +35,16 @@ los que trabajes.
 
 ## 2. Resumen del proyecto
 
-Esta vez tenemos un proyecto 100% por encargo. Si bien siempre puedes (y debes)
-hacer sugerencias de mejoras y/o cambios, muchas veces trabajarás en proyectos
-en los que primero hay que asegurarse de cumplir con lo requerido.
-
 Un pequeño restaurante de hamburguesas, que está creciendo, necesita una
 interfaz en la que puedan tomar pedidos usando una _tablet_, y enviarlos
 a la cocina para que se preparen ordenada y eficientemente (a través de un
-  _backend_ del que nos darán detalles más adelante).
+_backend_ del que nos darán detalles más adelante).
 
 ![burger-queen](https://user-images.githubusercontent.com/110297/42118136-996b4a52-7bc6-11e8-8a03-ada078754715.jpg)
+
+Esta vez tenemos un proyecto 100% por encargo. Si bien siempre puedes (y debes)
+hacer sugerencias de mejoras y/o cambios, muchas veces trabajarás en proyectos
+en los que primero hay que asegurarse de cumplir con lo requerido.
 
 Esta es la información que tenemos del cliente:
 

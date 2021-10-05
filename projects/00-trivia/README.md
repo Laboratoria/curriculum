@@ -29,9 +29,9 @@ incluso, ofrecen dinero como recompensa.
 
 ## 2. Resumen del proyecto
 
-¿Qué tengo que hacer exactamente? En este proyecto tendrás que construir una
-aplicación web que le permita a un usuario responder distintas preguntas
-escogiendo sus respuestas de una lista de alternativas.
+En este proyecto tendrás que construir una aplicación web que le permita a un
+usuario responder distintas preguntas escogiendo sus respuestas de una lista de
+alternativas.
 
 La temática es libre. Tú debes crear la mejor trivia que puedas y luego pensar
 en cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes,
