@@ -19,12 +19,12 @@ const es = {
     </p>
     <p>
       <strong>Tanto la ruta de proyectos elegida como la duración y alcance de
-      cada uno, dependerán de las necesidades, intereses y ritmo de avance de
-      cada estudiante</strong>. Esto significa que no se espera que
+      cada uno, dependerán de las necesidades, intereses y ritmo de aprendizaje
+      de cada estudiante</strong>. Esto significa que no se espera que
       todas hagan los mismos proyectos, ni la misma cantidad de proyectos. Eso
-      sí, se espera que se complete por lo menos un proyecto de los niveles 0
-      al 4, habiendo cumplido con la mayoría de objetivos de aprendizaje
-      correspondientes.
+      sí, se espera que se complete por lo menos un proyecto de cada uno de los
+      niveles 0 al 4, habiendo cumplido con la mayoría de objetivos de
+      aprendizaje correspondientes.
     </p>
   `,
 
@@ -104,7 +104,7 @@ const es = {
       Este <em>nivel</em> es mucho más amplio. Acá encontramos proyectos de
       frontend usando <strong>frameworks como React, Angular o Vue</strong>, así
       como proyectos que salen fuera del ámbito propio del frontend, haciendo
-      uso <strong>Node.js</strong>. Así encontramos proyectos de
+      uso de <strong>Node.js</strong>. Así encontramos proyectos de
       <strong>CLI</strong>, de <strong>backend con express</strong> e incluso
       algo de <strong>bases de datos</strong>.
     </p>
