@@ -15,7 +15,8 @@
 
 A lo largo de tu paso por el _bootcamp_ has aprendido muchas cosas. Has
 desarrollado habilidades técnicas y socioemocionales para el trabajo, y otras
-"para la vida" (como aprender a aprender). Todo el tiempo hemos buscado que "te apropies" de tu aprendizaje, que te conozcas más, que entiendas bien tu proceso
+"para la vida" (como aprender a aprender). Todo el tiempo hemos buscado que "te
+apropies" de tu aprendizaje, que te conozcas más, que entiendas bien tu proceso
 de aprendizaje individual, a autoevaluarte, a saber qué cosas te funcionan y
 cuáles no, qué cosas te resultan bien con facilidad y cuáles no, qué cosas
 aprendiste bien y cuáles necesitas reforzar o profundizar.
