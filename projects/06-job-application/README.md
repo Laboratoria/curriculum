@@ -23,6 +23,8 @@ Tu compañera te asegura que, con la experiencia que tienes del bootcamp y su
 coaching para esta postulación, tienes alta posibilidad de entrar. ¡Uff, qué
 suerte tener contacto con la comunidad de egresadas de Laboratoria!
 
+![clem-onojeghuo-fY8Jr4iuPQM-unsplash](https://user-images.githubusercontent.com/110297/135535064-9a0c0aa1-5b25-4c83-a909-4875a86d9963.jpg)
+
 Antes de empezar, tu compañera te deja muy claro lo siguiente:
 
 > En los procesos de postulación tienes que demostrar no solo que sabes hacer

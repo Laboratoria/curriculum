@@ -162,8 +162,8 @@ buildItems([
   { type: 'project', id: '05-social-network-fw', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-tic-tac-toe-rn', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-wordpress-plugin', locale: 'es-ES', track: 'js' },
-  { type: 'project', id: '06-open-project', locale: 'es-ES', track: 'js' },
-  { type: 'project', id: '07-job-application', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '05-open-project', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '06-job-application', locale: 'es-ES', track: 'js' },
   // JS Projects (portuguese)
   { type: 'project', id: '00-trivia', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '01-card-validation', locale: 'pt-BR', track: 'js' },
