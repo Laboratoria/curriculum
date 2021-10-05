@@ -449,6 +449,9 @@ webops/docker-containers:
 webops/docker-compose:
   title: Docker compose
 
+webops/cloud-functions:
+  title: Cloud Functions
+
 cicd: Integraçao Contínua/Entrega Contínua
 
 cicd/build-pipelines:
