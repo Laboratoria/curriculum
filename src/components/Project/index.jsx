@@ -105,6 +105,11 @@ const Project = () => {
       <Breadcrumbs project={project} />
       <Typography variant="h1">{project.title}</Typography>
 
+      <div>
+        <img alt={project.title} src={project.cover} width="100%" />
+        <div dangerouslySetInnerHTML={{ __html: project.summary }} />
+      </div>
+
       <p>
         Ver enunciado completo (<ExternalLink url={readmeUrl} title="README.md" />)
         y <ExternalLink url={projectUrl} title="boilerplate" /> en GitHub.

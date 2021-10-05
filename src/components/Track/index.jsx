@@ -1,15 +1,28 @@
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
-import { FormattedMessage } from 'react-intl';
+import {
+  Route,
+  Switch,
+  Link,
+  useParams,
+  useRouteMatch,
+  useHistory,
+} from 'react-router-dom';
+import { FormattedMessage, useIntl } from 'react-intl';
 import Container from '@material-ui/core/Container';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import data from '../../lib/data';
 import Loading from '../Loading';
+import Gym from './Gym';
 import Projects from './Projects';
 import Topics from './Topics';
 
 const Track = () => {
-  const { track } = useParams();
+  const { lang, track } = useParams();
+  const { path, url } = useRouteMatch();
+  const history = useHistory();
+  const intl = useIntl();
   const [learningObjectives, setLearningObjectives] = useState();
   const [projects, setProjects] = useState();
   const [topics, setTopics] = useState();
@@ -35,8 +48,45 @@ const Track = () => {
       <Typography variant="h1">
         <FormattedMessage id={track === 'js' ? 'webDev' : 'ux'} />
       </Typography>
-      <Projects projects={projects} track={track} />
-      <Topics topics={topics} track={track} />
+      <Tabs value={history.location.pathname}>
+        <Tab
+          label={intl.formatMessage({ id: 'projects' })}
+          value={`${url}`}
+          component={Link}
+          to={url}
+        />
+        <Tab
+          label={intl.formatMessage({ id: 'topics' })}
+          value={`${url}/topics`}
+          component={Link}
+          to={`${url}/topics`}
+        />
+        {track === 'js' && (
+          <Tab
+            label={intl.formatMessage({ id: 'gym' })}
+            value={`${url}/gym`}
+            component={Link}
+            to={`${url}/gym`}
+          />
+        )}
+      </Tabs>
+      <Switch>
+        <Route
+          path={`${path}/topics`}
+          render={() => <Topics topics={topics} track={track} />}
+        />
+        {track === 'js' && (
+          <Route
+            path={`${path}/gym`}
+            render={() => <Gym topics={topics} track={track} lang={lang} intl={intl} />}
+          />
+        )}
+        <Route
+          path={path}
+          exact
+          render={() => <Projects projects={projects} track={track} />}
+        />
+      </Switch>
     </Container>
   )
 };

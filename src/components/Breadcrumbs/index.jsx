@@ -30,7 +30,7 @@ const Breadcrumbs = ({ topic, project }) => {
     },
     {
       title: topic ? 'Tópicos' : 'Proyectos',
-      url: `/${lang}/${track}/${topic ? 'topics' : 'projects'}/`,
+      url: `/${lang}/${track}${topic ? '/topics' : ''}`,
     },
   ];
 

@@ -5,8 +5,38 @@ body {
     'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #f8f8f8; */
   background-color: rgb(247,247,247);
+  color: #1d1d1f;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+@media (min-width: 576px) {
+  body {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+    line-height: 29px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 19px;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    /* font-size: 20px;
+    line-height: 32px; */
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {

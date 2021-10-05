@@ -30,7 +30,13 @@ const Topics = ({ topics, track }) => {
   const filteredTopics = topics
     .map(t => ({ ...t, slug: /-pt/.test(t.slug) ? t.slug.slice(0, -3) : t.slug }))
     .filter(t => t.track === track && t.locale === locale);
-
+  const jsTopicIdx = filteredTopics.findIndex(({ slug }) => slug === 'javascript');
+  if (jsTopicIdx >= 0) {
+    const jsTopic = filteredTopics[jsTopicIdx];
+    filteredTopics.splice(jsTopicIdx, 1);
+    filteredTopics.unshift(jsTopic);
+  }
+  console.log(jsTopicIdx);
   return (
     <div>
       <Typography variant="h2">
