@@ -1,7 +1,10 @@
 import { useHistory, useParams } from 'react-router-dom';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, useIntl } from 'react-intl';
+import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
 import Grid from '@material-ui/core/Grid';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
@@ -9,7 +12,18 @@ import ArrowForward from '@material-ui/icons/ArrowForward';
 import { useLocale } from '../../intl/IntlProvider';
 import { learningObjectiveToIcon } from '../../lib/learning-objectives';
 
+const useStyles = makeStyles((theme) => ({
+  cardHeader: {
+    paddingBottom: 0,
+  },
+  cardContent: {
+    paddingTop: 0,
+    paddingBottom: 0,
+  },
+}));
+
 const Project = ({ project }) => {
+  const classes = useStyles();
   const history = useHistory();
   const { lang } = useParams();
   const learningObjectiveCats = (project.learningObjectives || []).reduce(
@@ -23,7 +37,15 @@ const Project = ({ project }) => {
 
   return (
     <Card>
+      <CardMedia
+        component="img"
+        height="200"
+        image={project.thumb}
+        alt={project.title}
+      />
       <CardHeader
+        className={classes.cardHeader}
+        titleTypographyProps={{ style: { fontSize: '1.3em', marginTop: 0 } }}
         action={
           <IconButton onClick={() => history.push(`/${lang}/projects/${project.slug}`)}>
             <ArrowForward />
@@ -53,26 +75,45 @@ const Project = ({ project }) => {
           </span>
         )}
       />
+      <CardContent className={classes.cardContent}>
+        <div
+          style={{
+            whiteSpace: 'inherit',
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+            maxHeight: 200,
+          }}
+          dangerouslySetInnerHTML={{ __html: project.summary }}
+        ></div>
+      </CardContent>
     </Card>
   );
 };
 
-const ProjectGroup = ({ prefix, projects }) => {
+const ProjectGroup = ({ prefix, projects, track, intl }) => {
   return (
-    <div>
-      <Typography variant="h3">{prefix}</Typography>
+    <div style={{ marginTop: 30, marginBottom: 50 }}>
+      <Typography variant="h3">Nivel {prefix}</Typography>
+      <div
+        style={{ marginBottom: 25 }}
+        dangerouslySetInnerHTML={{
+          __html: intl.formatMessage({ id: `projects.${track}.level.${prefix}` }),
+        }}
+      />
       <Grid container spacing={3}>
         {projects.map(project => (
-          <Grid key={project.slug} item xs={12} sm={6} md={4} lg={3}>
+          <Grid key={project.slug} item xs={12} sm={6} md={4}>
             <Project project={project} />
           </Grid>
         ))}
       </Grid>
+      <div style={{ pageBreakAfter: 'always' }}></div>
     </div>
   );
 };
 
 const Projects = ({ projects, track }) => {
+  const intl = useIntl();
   const { locale } = useLocale();
   const projectsByPrefix = projects
     .filter(p => p.track === track && p.locale === locale)
@@ -85,11 +126,18 @@ const Projects = ({ projects, track }) => {
   return (
     <div>
       <Typography variant="h2"><FormattedMessage id="projects" /></Typography>
+      <div dangerouslySetInnerHTML={{
+        __html: intl.formatMessage({
+          id: `projects.${track}.intro`,
+        })
+      }} />
       {Object.keys(projectsByPrefix).sort().map(prefix => (
         <ProjectGroup
           key={`group-${prefix}`}
           prefix={prefix}
           projects={projectsByPrefix[prefix]}
+          track={track}
+          intl={intl}
         />
       ))}
     </div>
