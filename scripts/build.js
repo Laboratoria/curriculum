@@ -126,11 +126,19 @@ const addLearningObjectives = () => {
     loadYaml(path.join(dir, 'intl', 'es.yml')),
     loadYaml(path.join(dir, 'intl', 'pt.yml')),
   ])
-    .then(([tree, es, pt]) => ({
-      tree,
-      flat: flattenLearningObjectives(tree),
-      intl: { es, pt },
-    }))
+    .then(([tree, es, pt]) => {
+      const flat = flattenLearningObjectives(tree);
+      return {
+        tree,
+        flat,
+        intl: { es, pt },
+        table: flat.map(key => ({
+          key,
+          es: es[key]?.title || es[key],
+          pt: pt[key]?.title || pt[key],
+        })),
+      };
+    })
     .then(json => fs.writeFile(
       path.join(buildDir, 'learning-objectives.json'),
       JSON.stringify(json),
