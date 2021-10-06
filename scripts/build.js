@@ -156,6 +156,7 @@ buildItems([
   { type: 'project', id: '04-news-alerts', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-battleship', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-chat-app', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '05-fleet-management', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-roman-numerals', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-roman-numerals-slack', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-social-network-fw', locale: 'es-ES', track: 'js' },
