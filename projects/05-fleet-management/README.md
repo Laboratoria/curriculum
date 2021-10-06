@@ -197,23 +197,29 @@ Front-end de tu aplicación.
 
 ### `data`
 
-En esta carpeta debes almacenar los scripts que desarrolles para cargar la
-información de taxis y ubicaciones a la base de datos de tu aplicación.
+En esta carpeta debes almacenar tanto la data cruda como los scripts que
+desarrolles para cargar la información de taxis y ubicaciones a la base de datos
+de tu aplicación.
 
-Los archivos ``fleet-management-software-data-part-1.zip``
-y ``fleet-management-software-data-part-2.zip``
+Acá puedes descargar los archivos con la data _cruda_:
+
+* [fleet-management-software-data-part-1.zip](https://storage.googleapis.com/bootcamp-assets/projects/05-fleet-management/fleet-management-software-data-part-1.zip)
+* [fleet-management-software-data-part-2.zip](https://storage.googleapis.com/bootcamp-assets/projects/05-fleet-management/fleet-management-software-data-part-2.zip)
+
+Los archivos `fleet-management-software-data-part-1.zip`
+y `fleet-management-software-data-part-2.zip`
 contienen la información de taxis y ubicaciones.
-Al descomprimirlos se crearán dos carpetas: ``taxis`` y``trajectories``.
+Al descomprimirlos se crearán dos carpetas: `taxis` y `trajectories`.
 
-En la carpeta ``taxis`` encontrarás el archivo ``taxis.txt``. En cada línea
+En la carpeta `taxis` encontrarás el archivo `taxis.txt`. En cada línea
 del archivo, encontrarás el identificador (ID) y placa de un taxi. La
 información esta separada entre sí por comas.
 
 ![Archivo taxis.txt](./docs/first-10-lines-taxis-txt.png "Archivo taxis.txt")
 
-En la carpeta ``trajectories`` encontrarás 10.357 archivos con extensión
+En la carpeta `trajectories` encontrarás 10.357 archivos con extensión
 txt. Cada archivo contiene las ubicaciones de un taxi. El nombre del archivo
-corresponde al identificador del taxi. Por ejemplo, el archivo ``9557.txt``
+corresponde al identificador del taxi. Por ejemplo, el archivo `9557.txt`
 contiene las ubicaciones del taxi con identificador 9557. En cada línea de
 estos archivos, encontrarás el identificador del taxi (ID), la fecha y hora,
 latitud y longitud de la ubicación. En una línea, la información está
@@ -290,7 +296,7 @@ Por ejemplo, en la siguiente figura se define un endpoint para consultar la
 información de los taxis en la aplicación. El método del endpoint es _GET_,
 la url es _/taxis_. Recibe un parámetro _query_, retorna la información con
 _código HTTP_ 200 en formato json gracias al _header_
-``Content-type`` con valor ``application/json``.
+`Content-type` con valor `application/json`.
 
 ![Ejemplo Endpoint API Rest](./docs/example-endpoint-api-rest.png "Ejemplo Endpoint API Rest")
 
@@ -309,7 +315,7 @@ es un arreglo de objetos _Taxi_.
 ### Mejorar tiempos de respuesta y experiencia de usuaria
 
 Consultar y visualizar en el mapa las 780 ubicaciones del vehículo con placa
-``ABGB-4538`` para el día ``2008-02-02`` puede tardar alrededor de 10
+`ABGB-4538` para el día `2008-02-02` puede tardar alrededor de 10
 segundos. Para una usuaria de tu aplicación este tiempo es toda una
 eternidad. ¿Qué estrategias puedes implementar para reducir los tiempos de
 respuesta y mejorar la experiencia de usuaria?
@@ -337,7 +343,7 @@ Tal vez la primera alternativa que se te ocurra sea agregar un endpoint a tu
 API que reciba como parámetro el vehículo y la fecha y retorne un archivo de
 Excel para descargarlo desde el navegador web. Sin embargo, esta opción suele
 ser muy lenta. Por ejemplo la generación y descarga del archivo de Excel con
-las 33 mil ubicaciones del vehiculo ``DHOA-9863`` para el día ``2008-02-27``
+las 33 mil ubicaciones del vehiculo `DHOA-9863` para el día `2008-02-27`
 puede tardar varios segundos, afectando la experiencia de las usuarias que
 usualmente son impacientes.
 
