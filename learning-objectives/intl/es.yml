@@ -487,16 +487,135 @@ cicd/test-coverage:
 cicd/integration-tests:
   title: Pruebas de integración
 
-db: Bases de datos (a elegir entre MongoDB, PostgreSQL o MySQL)
+db: Bases de datos
 
-db/install:
-  title: Instalación
+db/modeling:
+  title: Modelado de datos
 
-db/conection:
+db/connection:
   title: Conexión
 
-db/queries:
-  title: Queries y comandos (creación, lectura, actualización, eliminación)
+db/indexes-constraints:
+  title: Índices y limitaciones
+
+sql: SQL
+
+sql/tables:
+  title: Creación y modificación de tablas
+  links:
+    - title: SQL CREATE TABLE Statement - w3schools (en inglés)
+      url: https://www.w3schools.com/sql/sql_create_table.asp
+    - title: CREATE TABLE Statement - PostgreSQL Docs (en inglés)
+      url: https://www.postgresql.org/docs/9.1/sql-createtable.html
+    - title: ALTER TABLE Statement - PostgreSQL Docs (en inglés)
+      url: https://www.postgresql.org/docs/9.1/sql-altertable.html
+
+sql/crud:
+  title: Operaciones CRUD (Create-Read-Update-Delete)
+  links:
+    - title: INSERT
+      url: https://www.postgresql.org/docs/9.5/sql-insert.html
+    - title: SELECT
+      url: https://www.postgresql.org/docs/9.5/sql-select.html
+    - title: UPDATE
+      url: https://www.postgresql.org/docs/9.1/sql-update.html
+    - title: DELETE
+      url: https://www.postgresql.org/docs/8.1/sql-delete.html
+
+sql/drop:
+  title: Borrado de tablas o bases de datos enteras con DROP
+  links:
+    - title: DROP TABLE
+      url: https://www.postgresql.org/docs/8.2/sql-droptable.html
+    - title: DROP DATABASE
+      url: https://www.postgresql.org/docs/8.2/sql-dropdatabase.html
+
+mongodb: MongoDB
+
+mongodb/crud:
+  title: Operaciones CRUD (Create-Read-Update-Delete)
+  links:
+    - title: MongoDB CRUD Operations - Docs (en inglés)
+      url: https://docs.mongodb.com/manual/crud/
+    - title: Insert Documents - Docs (en inglés)
+      url: https://docs.mongodb.com/manual/tutorial/insert-documents/
+    - title: Query Documents - Docs (en inglés)
+      url: https://docs.mongodb.com/manual/tutorial/query-documents/
+    - title: Update Documents - Docs (en inglés)
+      url: https://docs.mongodb.com/manual/tutorial/update-documents/
+    - title: Delete Documents - Docs (en inglés)
+      url: https://docs.mongodb.com/manual/tutorial/remove-documents/
+
+mongodb/aggregation:
+  title: Operaciones de agregación (aggregation)
+
+mongodb/schemas:
+  title: Modelos y esquemas de datos
+  links:
+    - title: Schema Validation - Docs (en inglés)
+      url: https://docs.mongodb.com/manual/core/schema-validation/
+    - title: Data Model Design - Docs (en inglés)
+      url: https://docs.mongodb.com/manual/core/data-model-design/
+
+mongodb/dump-restore:
+  title: Respaldo y restauración (backup/restore)
+  links:
+    - title: MongoDB Backup Methods - Docs (en inglés)
+      url: https://docs.mongodb.com/manual/core/backups/
+
+postgres: PostgreSQL
+
+postgres/psql:
+  title: Cliente de terminal psql
+  links:
+    - title: psql - Docs (en inglés)
+      url: https://www.postgresql.org/docs/14/app-psql.html
+
+postgres/data-types:
+  title: Tipos de datos
+  links:
+    - title: Chapter 8. Data Types - Docs (en inglés)
+      url: https://www.postgresql.org/docs/14/datatype.html
+
+postgres/indexes:
+  title: Índices
+  links:
+    - title: Chapter 11. Indexes - Docs (en inglés)
+      url: https://www.postgresql.org/docs/14/indexes.html
+
+postgres/dump-restore:
+  title: Respaldo y restauración (backup/restore)
+  links:
+    - title: Chapter 26. Backup and Restore - Docs (en inglés)
+      url: https://www.postgresql.org/docs/14/backup.html
+
+mysql: MySQL
+
+mysql/mysql:
+  title: Cliente de terminal mysql
+  links:
+    - title: The MySQL Command-Line Client - Docs (en inglés)
+      url: https://dev.mysql.com/doc/refman/8.0/en/mysql.html
+
+mysql/data-types:
+  title: Tipos de datos
+  links:
+    - title: Chapter 11 Data Types - Docs (en inglés)
+      url: https://dev.mysql.com/doc/refman/8.0/en/data-types.html
+
+mysql/indexes:
+  title: Índices
+  links:
+    - title: Optimization and Indexes - Docs (en inglés)
+      url: https://dev.mysql.com/doc/refman/8.0/en/optimization-indexes.html
+
+mysql/dump-restore:
+  title: Respaldo y restauración (backup/restore)
+  links:
+    - title: Chapter 7 Backup and Recovery - Docs (en inglés)
+      url: https://dev.mysql.com/doc/refman/8.0/en/backup-and-recovery.html
+    - title: mysqldump — A Database Backup Program - Docs (en inglés)
+      url: https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html
 
 react: React
 
