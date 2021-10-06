@@ -64,7 +64,7 @@ aplicación.
 
 ### Funcionalidades mínimas
 
-Tu aplicación como mínimo deberá un Front-end y Back-end que permita:
+Tu aplicación como mínimo deberá tener un Front-end y Back-end que permita:
 
 * Visualizar en un mapa la ubicación más reciente de todos los vehículos
 * Visualizar en un mapa todas las ubicaciones de un vehículo en una fecha
