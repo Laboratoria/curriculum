@@ -9,7 +9,6 @@ learningObjectives:
   - express/routing
   - express/middleware
   - socket-io
-  - db
   - react
   - vue
   - angular
@@ -18,3 +17,11 @@ learningObjectives:
   - cicd/tbd
   - cicd/test-coverage
   - cicd/integration-tests
+  - postgres/psql
+  - postgres/data-types
+  - postgres/dump-restore
+  - db/modeling
+  - db/connection
+  - sql/tables
+  - sql/crud
+  - sql/drop

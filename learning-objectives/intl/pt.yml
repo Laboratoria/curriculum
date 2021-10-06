@@ -466,13 +466,17 @@ cicd/test-coverage:
 cicd/integration-tests:
   title: Testes de integração
 
-db: Bases de dados (escolher entre MongoDB, PostgreSQL ou MySQL)
+db: Bases de dados
 
-db/install:
-  title: Instalação
+db/modeling:
+  title: Modelado de datos
 
-db/conection:
+db/connection:
   title: Conexão
 
-db/queries:
-  title: Queries e comandos (criação, leitura, atualização, eliminação)
+db/indexes-constraints:
+  title: Índices y limitaciones
+
+sql: SQL
+
+mongodb: MongoDB
