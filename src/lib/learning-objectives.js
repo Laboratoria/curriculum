@@ -1,8 +1,11 @@
 import cssSvg from '../icons/css3.svg';
 import gitSvg from '../icons/git.svg';
+import cicdSvg from '../icons/githubactions.svg';
 import htmlSvg from '../icons/html5.svg';
 import jsSvg from '../icons/javascript.svg';
 import reactSvg from '../icons/react.svg';
+import slackSvg from '../icons/slack.svg';
+import socketioSvg from '../icons/socketdotio.svg';
 import angularSvg from '../icons/angular.svg';
 import vueSvg from '../icons/vuedotjs.svg';
 import nodeSvg from '../icons/nodedotjs.svg';
@@ -89,6 +92,18 @@ const learningObjectivesIcons = {
   wordpress: {
     color: '#21759B',
     svg: wordpressSvg,
+  },
+  'socket-io': {
+    color: '#010101',
+    svg: socketioSvg,
+  },
+  cicd: {
+    color: '#2088FF',
+    svg: cicdSvg,
+  },
+  slack: {
+    color: '#4A154B',
+    svg: slackSvg,
   },
 };
 

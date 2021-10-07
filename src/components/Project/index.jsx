@@ -51,7 +51,7 @@ const LearningObjectiveCat = ({ lang, cat, project, learningObjectives }) => {
   return (
     <div>
       <Typography variant="h3">
-        {intl[cat].title || intl[cat] || cat}
+        {(intl[cat] || {}).title || intl[cat] || cat}
       </Typography>
       <ul>
         {project.learningObjectives

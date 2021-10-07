@@ -728,7 +728,9 @@
       "profile": "https://github.com/oxfist",
       "contributions": [
         "bug",
-        "review"
+        "review",
+        "content",
+        "code"
       ]
     },
     {
@@ -738,7 +740,18 @@
       "profile": "https://github.com/ssinuco",
       "contributions": [
         "content",
-        "code"
+        "code",
+        "review"
+      ]
+    },
+    {
+      "login": "danielislas3",
+      "name": "Daniel Orio Islas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21324865?v=4",
+      "profile": "https://github.com/danielislas3",
+      "contributions": [
+        "review",
+        "content"
       ]
     }
   ]
