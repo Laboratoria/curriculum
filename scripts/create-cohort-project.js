@@ -276,17 +276,24 @@ const trimSlashes = (args) => {
 }
 
 const printUsage = () => {
-  console.log(`create-cohort-project es un script para crear un nuevo proyecto
-del bootcamp, para un cohort en particular. Este es un mensaje
-de ayuda para que puedas usarlo.
+  console.log(`create-cohort-project es un script para crear un nuevo proyecto del
+bootcamp, para un cohort en particular.
+
+Este es un mensaje de ayuda para que puedas usarlo.
 
   Uso:
+
     npm run create-cohort-project <RUTA_PROYECTO_ORIGEN> <RUTA_DESTINO> <PREFIJO_COHORT>
 
   Ejemplo:
-    npm run create-cohort-project projects/04-md-links ./ LIM042	crea el proyecto Markdown Links en la ruta actual para LIM042
-    `);
-}
+
+    # crea el proyecto Markdown Links en la ruta actual para LIM042
+    npm run create-cohort-project projects/04-md-links ./ LIM042
+    
+Acá puedes encontrar la documentación completa:
+https://github.com/Laboratoria/bootcamp/tree/main/scripts#create-cohort-project
+`);
+};
 
 const noOptionsOrHelp = (args) => {
   return args.length === 0 || ['-h', '--help'].includes(args[0]);
