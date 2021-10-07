@@ -203,12 +203,13 @@ const pushChanges = async (repoDir, repo, useHttps, opts) => {
     console.log(`Would have pushed changes to ${repo.full_name}`);
     return;
   }
-  
+
   const repoUri = (
     useHttps
       ? `https://github.com/${repo.full_name}.git`
       : `git@github.com:${repo.full_name}.git`
   );
+
   await exec(`git remote add upstream "${repoUri}"`, { cwd: repoDir });
   await exec('git push -u upstream main', { cwd: repoDir });
 };
@@ -228,21 +229,23 @@ const main = async (args, opts) => {
   await addLocalizedLearningObjectives(repoDir, opts);
   await initRepo(repoDir, opts);
 
-  const confirmRemote = await prompt('Would you like to create a repository on GitHub and push changes? [Y/n]: ');
+  const confirmRemote = await prompt(
+    'Would you like to create a repository on GitHub and push changes? [Y/n]: ',
+  );
   if (['n', 'N'].includes(confirmRemote)) {
     console.log('Done');
     return;
   }
-
-  const remoteType = await prompt('Do you use ssh to clone with GitHub? [Y/n]: ');
-  const useHttps = ['n', 'N'].includes(remoteType);
-  console.log(`Ok, will clone repo with ${useHttps ? 'https then' : 'ssh'}.`);
 
   const createRemoteResponse = await createRemote(repoName, opts);
 
   if (createRemoteResponse.status > 201) {
     throw new Error(`Error creating remote repo`);
   }
+
+  const remoteType = await prompt('Do you use ssh to clone with GitHub? [Y/n]: ');
+  const useHttps = ['n', 'N'].includes(remoteType);
+  console.log(`Ok, will clone repo with ${useHttps ? 'https then' : 'ssh'}.`);
 
   await pushChanges(repoDir, createRemoteResponse.data, useHttps, opts);
 
