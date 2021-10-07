@@ -2,9 +2,9 @@
   "slug": "wordpress-plugin",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/05-wordpress-plugin",
-  "version": "3.2.0",
-  "parserVersion": "3.0.0",
-  "createdAt": "2021-08-02T12:10:46.474Z",
+  "version": "3.3.0",
+  "parserVersion": "3.0.2",
+  "createdAt": "2021-10-07T19:47:29.623Z",
   "prefix": 5,
   "title": "Plugin para WordPress",
   "locale": "es-ES",
@@ -29,6 +29,10 @@
     "wordpress/plugin-development/cron",
     "wordpress/plugin-development/wordpress-rest-api",
     "wordpress/plugin-development/wordpress-apis",
-    "wordpress/plugin-development/wordpress-plugin-directory"
+    "wordpress/plugin-development/wordpress-plugin-directory",
+    "mysql/mysql",
+    "mysql/data-types",
+    "db/modeling",
+    "db/connection"
   ]
 }

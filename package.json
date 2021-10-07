@@ -1,6 +1,6 @@
 {
   "name": "bootcamp",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "Proyectos y tópicos del Bootcamp de @Laboratoria",
   "scripts": {
     "mdlint": "mdlint .",

@@ -1,6 +1,6 @@
 {
   "slug": "javascript-pt",
-  "createdAt": "2021-08-02T12:10:56.709Z",
+  "createdAt": "2021-10-07T19:47:46.212Z",
   "title": "JavaScript",
   "description": "<p>En un mundo que rápidamente se está digitalizando, aprender a programar abre\nnuevas (y muchas veces mejores) oportunidades. Con este curso darás tus primeros\npasos hacia el mundo de la programación. Empezaremos desde cero, enseñándote los\nfundamentos de JavaScript, el lenguaje de programación más popular de la Web.</p>\n<p>En este curso aprenderás mejores formas de estructurar y manipular la data de tu\nprograma haciendo uso de estructuras de datos básicas: <code>arreglos</code> y <code>objetos</code>.</p>\n\n",
   "tags": {
@@ -834,7 +834,7 @@
             "03-count-vowels": {
               "title": "Contar vogais",
               "env": "js",
-              "body": "<p>Crie uma função que conte o número de vogais em uma <code>string</code>.\nSiga os passos a seguir para completar o programa.</p>\n<ol>\n<li>Implementar a função <code>countVowels(str)</code> que retorne o número de vogais.</li>\n<li>Iniciar um contador em <code>counter = 0</code></li>\n<li>Iterar os caracteres da string; se o elemento atual é uma vogal\nentão incrementar o contador <code>counter</code>.</li>\n<li>Retornar <code>counter</code>, que contẽm o número de vogais.</li>\n</ol>\n",
+              "body": "<p>Crie uma função que conte o número de vogais em uma <code>string</code>.\nSiga os passos a seguir para completar o programa.</p>\n<ol>\n<li>Implementar a função <code>countVowels(str)</code> que retorne o número de vogais.</li>\n<li>Iniciar um contador em <code>counter = 0</code></li>\n<li>Iterar os caracteres da string; se o elemento atual é uma vogal\n  então incrementar o contador <code>counter</code>.</li>\n<li>Retornar <code>counter</code>, que contẽm o número de vogais.</li>\n</ol>\n",
               "files": {
                 "UkVBRE1FLm1k": "# Contar vocales\n\n* Environment: `js`\n\n***\n\nCrea una función que cuente el número de vocales de un `string`. Sigue los pasos\na continuación para que completes el programa.\n\n1. Implementar la función `countVowels(str)` que retorne el número de vocales.\n2. Iniciar un contador en `counter = 0`\n3. Iterar los caracteres de string, si el elemento actual es una vocal entonces\n   incrementar el contador `counter`.\n4. Retornar `counter`, el cual contiene el número de vocales.\n",
                 "Ym9pbGVycGxhdGU=": {
@@ -852,7 +852,7 @@
             "04-even-or-odd": {
               "title": "Funcão par/impar",
               "env": "js",
-              "body": "<p>Crie uma função que verifique se um número é par ou ímpar.\nSiga os passos a seguir para completar o programa.</p>\n<ol>\n<li>Declare uma função <code>comprobar(n)</code>. Nota: pode utilizar o\noperador de módulo: <code>%</code>.</li>\n<li>Se o número é par, retornar <code>0</code>.</li>\n<li>Se o número é ímpar, retornar <code>1</code>.</li>\n</ol>\n",
+              "body": "<p>Crie uma função que verifique se um número é par ou ímpar.\nSiga os passos a seguir para completar o programa.</p>\n<ol>\n<li>Declare uma função <code>comprobar(n)</code>. Nota: pode utilizar o\n  operador de módulo: <code>%</code>.</li>\n<li>Se o número é par, retornar <code>0</code>.</li>\n<li>Se o número é ímpar, retornar <code>1</code>.</li>\n</ol>\n",
               "files": {
                 "UkVBRE1FLm1k": "# Función par/impar\n\n* Environment: `js`\n\n***\n\nCrea una función que compruebe si un número es par o impar.\n\nSigue los pasos a continuación para que completes el programa.\n\n1. Implementa una función `comprobar(n)`. Nota: Puedes usar el operador modulo:\n   `%`.\n2. Si el número es par retornar `0`.\n3. Si el número es impar  retornar `1`.\n",
                 "Ym9pbGVycGxhdGU=": {
@@ -888,7 +888,7 @@
             "06-is-prime": {
               "title": "Determinar se um número é primo",
               "env": "js",
-              "body": "<p>Crie uma função que determine se um número é primo. Em matemática,\num número primo é um número natural maior que 1 que é divisível\nsomente por ele mesmo e 1.</p>\n<p>Tips:</p>\n<ol>\n<li>Utilizar o operador módulo (<code>%</code>) para determinar se um número é\ndivisível por outro.</li>\n</ol>\n",
+              "body": "<p>Crie uma função que determine se um número é primo. Em matemática,\num número primo é um número natural maior que 1 que é divisível\nsomente por ele mesmo e 1.</p>\n<p>Tips:</p>\n<ol>\n<li>Utilizar o operador módulo (<code>%</code>) para determinar se um número é\n  divisível por outro.</li>\n</ol>\n",
               "files": {
                 "UkVBRE1FLm1k": "# Determinar si un número es primo\n\n* Environment: `js`\n\n***\n\nCrea una función que determine si un número es primo. En matemáticas, un número\nprimo es un número natural mayor que 1 que tiene únicamente dos divisores\ndistintos: él mismo y el 1.\n\nTips:\n\n1. Utilizar el operador  modulo (`%`) para determinar si un número es divisor de\n   otro.\n",
                 "Ym9pbGVycGxhdGU=": {
@@ -906,7 +906,7 @@
             "07-can-drive-and-vote": {
               "title": "Pode dirigir e votar?",
               "env": "js",
-              "body": "<p>Crie uma função que determine se uma pessoa pode dirigir nos EUA (16 anos ou mais)\ne votar (18 anos ou mais).</p>\n<p>Siga os passos a seguir para completar o programa:</p>\n<ol>\n<li>Implemente a função <code>comprobar</code></li>\n<li>Se o valor cumpre a condição dirigir (16 anos ou mais)\ne votar (18 anos ou mais), então retorna <code>true</code>; caso\ncontrário, retornar <code>false</code></li>\n</ol>\n",
+              "body": "<p>Crie uma função que determine se uma pessoa pode dirigir nos EUA (16 anos ou mais)\ne votar (18 anos ou mais).</p>\n<p>Siga os passos a seguir para completar o programa:</p>\n<ol>\n<li>Implemente a função <code>comprobar</code></li>\n<li>Se o valor cumpre a condição dirigir (16 anos ou mais)\n  e votar (18 anos ou mais), então retorna <code>true</code>; caso\n  contrário, retornar <code>false</code></li>\n</ol>\n",
               "files": {
                 "UkVBRE1FLm1k": "# Puedes conducir y votar?\n\n* Environment: `js`\n\n***\n\nCrea una función que determine si una persona puede manejar (16 años o más) y\nvotar (18 años o más)\n\nSigue los pasos a continuación para que completes el programa:\n\n1. Implementar la función comprobar.\n2. Si cumple con la condición  (16 años o más) y votar (18 años o más)\n  entonces retornar true; en caso contrario retornar false.\n",
                 "Ym9pbGVycGxhdGU=": {
@@ -3002,8 +3002,8 @@
   "references": "",
   "repo": "Laboratoria/bootcamp",
   "path": "topics/javascript",
-  "version": "3.2.0",
-  "parserVersion": "3.0.0",
+  "version": "3.3.0",
+  "parserVersion": "3.0.2",
   "track": "js",
   "locale": "pt-BR",
   "stats": {
