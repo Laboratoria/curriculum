@@ -204,7 +204,11 @@ const pushChanges = async (repoDir, repo, useHttps, opts) => {
     return;
   }
   
-  const repoUri = useHttps ? `https://github.com/${repo.full_name}.git` : `git@github.com:${repo.full_name}.git`;
+  const repoUri = (
+    useHttps
+      ? `https://github.com/${repo.full_name}.git`
+      : `git@github.com:${repo.full_name}.git`
+  );
   await exec(`git remote add upstream "${repoUri}"`, { cwd: repoDir });
   await exec('git push -u upstream main', { cwd: repoDir });
 };
