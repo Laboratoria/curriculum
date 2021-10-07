@@ -198,14 +198,19 @@ const createRemote = async (name, opts) => {
   });
 };
 
-
-const pushChanges = async (repoDir, repo, opts) => {
+const pushChanges = async (repoDir, repo, useHttps, opts) => {
   if (opts.noop) {
     console.log(`Would have pushed changes to ${repo.full_name}`);
     return;
   }
 
-  await exec(`git remote add upstream "git@github.com:${repo.full_name}.git"`, { cwd: repoDir });
+  const repoUri = (
+    useHttps
+      ? `https://github.com/${repo.full_name}.git`
+      : `git@github.com:${repo.full_name}.git`
+  );
+
+  await exec(`git remote add upstream "${repoUri}"`, { cwd: repoDir });
   await exec('git push -u upstream main', { cwd: repoDir });
 };
 
@@ -224,7 +229,9 @@ const main = async (args, opts) => {
   await addLocalizedLearningObjectives(repoDir, opts);
   await initRepo(repoDir, opts);
 
-  const confirmRemote = await prompt('Would you like to create a repository on GitHub and push changes? [Y/n]: ');
+  const confirmRemote = await prompt(
+    'Would you like to create a repository on GitHub and push changes? [Y/n]: ',
+  );
   if (['n', 'N'].includes(confirmRemote)) {
     console.log('Done');
     return;
@@ -236,7 +243,11 @@ const main = async (args, opts) => {
     throw new Error(`Error creating remote repo`);
   }
 
-  await pushChanges(repoDir, createRemoteResponse.data, opts);
+  const remoteType = await prompt('Do you use ssh to clone with GitHub? [Y/n]: ');
+  const useHttps = ['n', 'N'].includes(remoteType);
+  console.log(`Ok, will clone repo with ${useHttps ? 'https then' : 'ssh'}.`);
+
+  await pushChanges(repoDir, createRemoteResponse.data, useHttps, opts);
 
   console.log(`
   Para continuar accede al directorio del proyecto del cohort:
@@ -251,16 +262,54 @@ const main = async (args, opts) => {
   `);
 };
 
+/* Arguments From Shell \m/ */
+const handleArgs = (argumentsFromShell) => {
+  return minimist(argumentsFromShell.slice(2));
+}
 
-if (module === require.main) {
-  const { _: args, ...opts } = minimist(process.argv.slice(2));
-  // Trim trailing slashes from args...
-  const trimmedArgs = args.map(arg => (
+const trimSlashes = (args) => {
+  return args.map(arg => (
     arg[arg.length - 1] === '/'
       ? arg.slice(0, -1)
       : arg
   ));
-  main(trimmedArgs, opts)
+}
+
+const printUsage = () => {
+  console.log(`create-cohort-project es un script para crear un nuevo proyecto del
+bootcamp, para un cohort en particular.
+
+Este es un mensaje de ayuda para que puedas usarlo.
+
+  Uso:
+
+    npm run create-cohort-project <RUTA_PROYECTO_ORIGEN> <RUTA_DESTINO> <PREFIJO_COHORT>
+
+  Ejemplo:
+
+    # crea el proyecto Markdown Links en la ruta actual para LIM042
+    npm run create-cohort-project projects/04-md-links ./ LIM042
+    
+Acá puedes encontrar la documentación completa:
+https://github.com/Laboratoria/bootcamp/tree/main/scripts#create-cohort-project
+`);
+};
+
+const noOptionsOrHelp = (args) => {
+  return args.length === 0 || ['-h', '--help'].includes(args[0]);
+}
+
+if (module === require.main) {
+  const { _: args, ...opts } = handleArgs(process.argv);
+
+  if (noOptionsOrHelp(args)) {
+    printUsage();
+    process.exit(0);
+  }
+
+  const argsWithoutSlashes = trimSlashes(args);
+
+  main(argsWithoutSlashes, opts)
     .catch((err) => {
       console.error(err);
       process.exit(1);

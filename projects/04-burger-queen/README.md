@@ -305,17 +305,17 @@ podrán hacer sus propios _forks_ a partir del _fork_ principal de su equipo.
 
 ### Despliegue
 
-En esta sección revisamos algunas opciones para desplegar  
-el backend y frontend de tu app.  
-Si usas firebase con reglas de firestore, índices, cloud functions,  
+En esta sección revisamos algunas opciones para desplegar
+el backend y frontend de tu app.
+Si usas firebase con reglas de firestore, índices, cloud functions,
 necesitas desplegar el backend con firebase-cli.
 
-Puedes desplegar el frontend con Firebase hosting.  
-Hay otras opciones como Github Pages (que ya estan familiarizadas),  
+Puedes desplegar el frontend con Firebase hosting.
+Hay otras opciones como Github Pages (que ya estan familiarizadas),
 Netlify, y Heroku.
 
-Netlify y Heroku son servicios para desplegar tu web app - backend y  
-frontend - y no son limitados a usar solamente con Firebase.  
+Netlify y Heroku son servicios para desplegar tu web app - backend y
+frontend - y no son limitados a usar solamente con Firebase.
 Por ejemplo, puedes desplegar un app MySQL/Express/React.
 
 #### Build para production
@@ -364,7 +364,7 @@ firebase deploy
 ##### Netlify
 
 [Netlify](http://netlify.com) es un servicio de hosting
-para sitios web estáticos.  
+para sitios web estáticos.
 Para usarlo primero necesitas crear una cuenta en
 [Netlify](http://netlify.com) y después puedes conectar tu repo.
 

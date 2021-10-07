@@ -267,7 +267,6 @@ Outras:
 
 * [Mobile
   First](https://tableless.com.br/mobile-first-a-arte-de-pensar-com-foco/)
-* [Mobile First - ZURB](https://zurb.com/word/mobile-first)
 * [Mobile First Is NOT Mobile Only - Nielsen Norman
   Group](https://www.nngroup.com/articles/mobile-first-not-mobile-only/)
 * [Flexbox - CSS
