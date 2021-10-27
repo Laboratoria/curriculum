@@ -29,6 +29,8 @@ todo momento de la ubicación y las condiciones de la carga y los activos
 mediante sensores inalámbricos conectados a internet que envían alertas en
 caso de eventualidades (demoras, daños, robos, etc).
 
+![zach-vessels-utMdPdGDc8M-unsplash](https://user-images.githubusercontent.com/110297/136462570-852fcc55-e363-4262-a8f3-6bb65702e75a.jpg)
+
 La IoT también plantea retos como el almacenamiento, análisis y
 visualización de la gran cantidad de información que genera.
 Se calcula que para el 2025 los dispositivos IoT generen
