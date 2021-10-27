@@ -147,6 +147,66 @@ const es = {
     </p>
   `,
 
+    'projects.ux.intro': `
+    <p>
+      Nuestra propuesta de aprendizaje se basa en
+      <strong>aprender haciendo</strong>. El foco central de nuestro curriculum
+      es un catálogo de proyectos de complejidad gradualmente creciente, y
+      asociados a objetivos de aprendizaje concretos.
+    </p>
+    <p>
+      Los primeros proyectos de la ruta de aprendizaje son introductorios al
+      diseño de experiencias de usuario. Y los siguientes son proyectos más
+      aplicados en los cuales las estudiantes podrán trabajar con retos reales
+      de empresas. La elección de los retos a trabajar dependerá de las <strong>
+      necesidades e intereses de cada estudiante</strong>. Esto significa que en
+      los proyectos que involucran a empresas ellas podrán elegir con qué
+      empresa y equipo trabajar. Eso sí, se espera que se complete por lo menos
+      un proyecto de cada uno de los niveles 0 al 4, habiendo cumplido con la
+      mayoría de objetivos de aprendizaje correspondientes.
+    </p>
+  `,
+  'projects.ux.level.0': `
+    <p>
+    Es el primer acercamiento de nuestras estudiantes con el Diseño Centrado en
+    el Humano. Se da durante el proceso de admisión.
+    </p>
+  `,
+  'projects.ux.level.1': `
+    <p>
+    Se aplica la mentalidad del diseño centrado en el humano a un proyecto de
+    UX Design, incursionando en conceptos como <strong>usabilidad</strong>,
+    <strong>utilidad</strong>, <strong>investigación con usuarios</strong>,
+    <strong>principios de diseño visual</strong>, entre otros.
+    </p>
+  `,
+  'projects.ux.level.2': `
+    <p>
+    Es el primer reto en el que se trabaja con un cliente real. Además de los
+    conceptos básicos de UX Design, las estudiantes tienen que aprender a
+    entender el negocio, comunicarse y negociar con clientes. Y a definir el
+    alcance de sus proyectos.
+    </p>
+  `,
+  'projects.ux.level.3': `
+    <p>
+    Es un reto enfocado a fortalecer las habilidades de UI Design. La idea es
+    sentirse más cómodas creando interfaces y trabajando con conceptos propios
+    de este campo: <strong>alineaciones</strong>, <strong>jerarquías</strong>,
+    <strong>estilos</strong>, <strong>guías de componentes</strong>,
+    <strong>diseño responsivo</strong>, <strong>variantes</strong>,
+    <strong>autolayout</strong>, entre otros.
+    </p>
+  `,
+  'projects.ux.level.4': `
+    <p>
+    Durante estos retos las estudiantes pondrán en práctica todo lo aprendido
+    durante el bootcamp para realizar una consultoria en UX a distintas empresas
+    de la industria. Estos retos incorporan temas como
+    <strong>service design</strong>, <strong>manejo de data</strong>,
+    <strong>definición de KPIs</strong>, entre otros.
+    </p>
+  `,
   'gym': 'Ejercicios',
 
   // 'exercise.problem': 'Enunciado',
