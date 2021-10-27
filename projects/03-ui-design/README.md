@@ -19,47 +19,49 @@ de una manera más rápida.
 
 ## 2. Resumen del proyecto
 
-Fortalecerás tus habilidades en el diseño de interfaces mejorando el diseño de un producto. Podrás trabajar en el diseño de un app móvil o una app web responsiva. 
+Fortalecerás tus habilidades en el diseño de interfaces mejorando el diseño de
+un producto. Podrás trabajar en el diseño de un app móvil o una app web
+responsiva.
 
 Mejorarás tus habilidades usando Figma y replicando o creando interfaces. Eso
 va a depender de qué tan cómoda te sientas usando un software de diseño antes
 de empezar este reto.
 
-Para ello, podrás elegir entre 3 opciones, y cada una con unas páginas sugeridas. 
+Para ello, podrás elegir entre 3 opciones, y cada una con unas páginas sugeridas.
 
-- Opción 1
-- Opción 2
-- Opción 3
+* Opción 1
+* Opción 2
+* Opción 3
 
 ## 3. Objetivos de aprendizaje
 
 ### Planificación
 
-- Organizar  y dar seguimiento a actividades a desarrollarse durante el
+* Organizar  y dar seguimiento a actividades a desarrollarse durante el
   proyecto.
-- Priorizar actividades a desarrollarse durante el proyecto.
-- Elegir las herramientas y métodos a utilizar de acuerdo a las necesidades del
+* Priorizar actividades a desarrollarse durante el proyecto.
+* Elegir las herramientas y métodos a utilizar de acuerdo a las necesidades del
   proyecto.
 
 ### Diseño de producto
 
-- [ ] Priorizar y proponer flujos de usuario que les ayuden a conseguir sus
+* [ ] Priorizar y proponer flujos de usuario que les ayuden a conseguir sus
       objetivos con el producto.
-- [ ] Identificar y priorizar contenidos relevantes y necesarios para el
+* [ ] Identificar y priorizar contenidos relevantes y necesarios para el
       producto.
-- [ ] Diseñar en distintos niveles de fidelidad.
-- [ ] Crear prototipos de alta fidelidad que incluyan interacciones (ej.
+* [ ] Diseñar en distintos niveles de fidelidad.
+* [ ] Crear prototipos de alta fidelidad que incluyan interacciones (ej.
       pantallas de carga, pantallas de error).
-- [ ] Diseñar producto o servicio siguiendo mejores prácticas de usabilidad.
-- [ ] Diseñar producto o servicio siguiendo mejores prácticas de accesibilidad.
-- [ ] Seguir los principios básicos de diseño visual.
-- [ ] Construir y mantener una librería de componentes y estilos organizada.
-- [ ] Nombrar, organizar, agrupar las capas (layers) del diseño siguiendo
+* [ ] Diseñar producto o servicio siguiendo mejores prácticas de usabilidad.
+* [ ] Diseñar producto o servicio siguiendo mejores prácticas de accesibilidad.
+* [ ] Seguir los principios básicos de diseño visual.
+* [ ] Construir y mantener una librería de componentes y estilos organizada.
+* [ ] Nombrar, organizar, agrupar las capas (layers) del diseño siguiendo
       buenas prácticas.
-- [ ] Utilizar nombres de elementos estándares para la plataforma en la que
+* [ ] Utilizar nombres de elementos estándares para la plataforma en la que
       diseña.
 
 ## 4. Entregable
 
-- Diseño en alta fidelidad documentado.
-- Guía de componentes.
+* Diseño en alta fidelidad documentado.
+* Guía de componentes.

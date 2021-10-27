@@ -52,17 +52,16 @@ negocio para el sitio web que elegiste.
 - [ ] Planear y ejecutar testeos de usabilidad de prototipos en distintos
       niveles de fidelidad.
 - [ ] Identificar y revisar distintas fuentes de información e inspiración
-      relevantes para el proyecto.      
-- [ ] Documentar entrevistas y testeos.       
+      relevantes para el proyecto.
+- [ ] Documentar entrevistas y testeos.
 
 ### Síntesis
 
 - [ ] Encontrar patrones en los resultados de la investigación.
 - [ ] Definir funcionalidades del producto o servicio.
 - [ ] Priorizar posibles soluciones reto del proyecto basándose en los
-       objetivos del proyecto, las necesidades del usuario y las factibilidad
-       de implementación.
-
+      objetivos del proyecto, las necesidades del usuario y las factibilidad
+      de implementación.
 
 ### Diseño de producto
 
@@ -89,7 +88,7 @@ negocio para el sitio web que elegiste.
   encontrados.
 - Informe de tu proceso en Google Docs / Medium / Figma con narración de cómo
   fueron resolviendo el desafío, haciendo énfasis en resolución de problemas,
-  toma de decisiones y que incluya una reflexión de lo aprendido. 
+  toma de decisiones y que incluya una reflexión de lo aprendido.
 - Loom de máximo 4 minutos presentando la solución.
 
 ## 5. Recursos

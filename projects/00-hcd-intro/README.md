@@ -16,7 +16,6 @@ primarias, secundarias, universidades, bootcamps, entre otros. No todas las
 experiencias educativas han adaptado de la mejor manera, por eso lo que vamos a
 hacer durante este proyecto es re-diseñar esta experiencia.
 
-
 ## 2. Resumen del proyecto
 
 Durante el proceso de admisión vivirás tu primera experiencia con el diseño
