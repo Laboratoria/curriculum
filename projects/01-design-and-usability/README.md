@@ -1,4 +1,4 @@
-# Usabilidad
+# Diseño y usabilidad
 
 ## Índice
 
@@ -12,18 +12,16 @@
 
 ## 1. Preámbulo
 
-Durante el confinamiento hubo una tarea que todos hicimos: hacer la despensa o
-comprar comida. Aunque esta tarea no es nueva, durante la pandemia muchas
-cambiamos la forma en la que hacemos el mercado. Hubo mucha gente que empezó a
-hacer estas compras online. Hubo otro grupo de gente que consideró hacer estas
-compras online pero, por diversos factores, decidió al final no hacerlas por
-este medio y en su lugar ir a un mercado o supermercado físico tradicional.
-
-Durante tu proceso de preadmisión te enfrentaste por primera vez a un proceso de
-diseño, con esos aprendizajes ahora lleva ese reto a un siguiente nivel de
-fidelidad, teniendo mayor interacción con usuarios para recopilar feedback e
-iterar tu solución, trabajando en un ambiente ágil y practicando las ceremonias
-que nos ayudarán a tener un mejor desempeño en equipo.
+En este proyecto queremos abordar dos industrias que sufrieron cambios
+dramáticos y que luego del confinamiento no volverán a ser las de antes. La
+primera es el de las _culturas y entretenimiento_, un rubro que ha sido golpeado
+por las características propias en las que se ejecutaba: eventos presenciales,
+reunión de mucha gente en espacios físicos. El otro rubro es _salud_, el
+contexto de pandemia elevó la demanda de los servicios de salud pero a su vez
+el temor a un potencial contagio. Sumado al confinamiento obligaotrio, los
+centros del salud vieron la necesidad de brindar el servicio por canales no
+tradicionales y/o digitales (telemedicina), una innovación que trajo consigo
+nuevas experiencias y necesidades para los pacientes.
 
 ## 2. Resumen del proyecto
 
@@ -39,15 +37,6 @@ del equipo en estas actividades. Asegurándote de validar esta propuesta con
 usuarios y proponer un diseño visual acorde a las necesidades de usuarios y
 negocio para el sitio web que elegiste.
 
-Para esto podrás utilizar las siguientes herramientas:
-
-- Testeos de Usabilidad del sitio
-- Benchmark
-- Evaluación Heurística
-- User Persona
-- Wireframes
-- Guía de Estilos
-
 ## 3. Objetivos de aprendizaje
 
 ### User Centricity
@@ -62,17 +51,23 @@ Para esto podrás utilizar las siguientes herramientas:
       y testeos.
 - [ ] Planear y ejecutar testeos de usabilidad de prototipos en distintos
       niveles de fidelidad.
+- [ ] Identificar y revisar distintas fuentes de información e inspiración
+      relevantes para el proyecto.      
+- [ ] Documentar entrevistas y testeos.       
 
 ### Síntesis
 
 - [ ] Encontrar patrones en los resultados de la investigación.
+- [ ] Definir funcionalidades del producto o servicio.
+- [ ] Priorizar posibles soluciones reto del proyecto basándose en los
+       objetivos del proyecto, las necesidades del usuario y las factibilidad
+       de implementación.
+
 
 ### Diseño de producto
 
 - [ ] Identificar contenidos relevantes en el producto.
-- [ ] Priorizar contenidos necesarios para el producto.
-- [ ] Diseñar producto o servicio siguiendo mejores prácticas de usabilidad y
-      accesibilidad.
+- [ ] Diseñar producto o servicio siguiendo mejores prácticas de usabilidad.
 - [ ] Seguir los principios básicos de diseño visual.
 
 ### Planificación
@@ -90,25 +85,18 @@ Para esto podrás utilizar las siguientes herramientas:
 
 ### Entregables
 
-- Propuesta de rediseño navegable en alta fidelidad y testeada que resuelva los
-  problemas encontrados
-- Informe de tu proceso en Google Doc con narración de cómo fueron resolviendo
-  el desafío, haciendo énfasis en resolución de problemas, tomas de decisión y
-  que incluya una reflexión de lo aprendido
-- Loom de 4 minutos presentando tu solución
+- Propuesta de diseño navegable y testeada que resuelva los problemas
+  encontrados.
+- Informe de tu proceso en Google Docs / Medium / Figma con narración de cómo
+  fueron resolviendo el desafío, haciendo énfasis en resolución de problemas,
+  toma de decisiones y que incluya una reflexión de lo aprendido. 
+- Loom de máximo 4 minutos presentando la solución.
 
 ## 5. Recursos
 
-- Puedes leer sobre el trabajo de un UX Designer en rediseño este [blogpost.](https://blog.continuum.cl/preguntas-para-dejar-de-ser-ux-designer-y-empezar-a-ser-un-ux-redesigner-143e5467ec8d)
+- Nielsen Norman Group: [¿Cómo escribir una guía de entrevista efectiva?](https://www.nngroup.com/articles/interview-guide/)
 - Jakob Nielsen nos cuenta cuáles considera que son los mayores fallos en el
   diseño hoy en día en este [video (Con subtítulos en español).](https://www.youtube.com/watch?v=pI0HcLXVurM)
 - Daniel Mordecki nos cuenta [¿Qué $&#! es una interfaz intuitiva?](https://youtu.be/oVHgVv42ss4)
 - Jakob Nielsen explica el método de evaluación heurística en este video. Más
   información sobre los 10 heurísticas de usabilidad en este [enlace.](https://www.nngroup.com/articles/ten-usability-heuristics/)
-
-Además, en los siguientes enlaces podrás revisar el contenido del LMS
-recomendado para este proyecto:
-
-- Don Norman: Diseño de las cosas cotidianas ([Enlace a la unidad en el LMS](https://lms.laboratoria.la/cohorts/reg-2021-02-bootcamp-ux-reg001/topics/product-design/02-design-of-everyday-things/00-design-principles))
-- Principios básicos del diseño visual ([Enlace a la unidad en el LMS](https://lms.laboratoria.la/cohorts/reg-2021-02-bootcamp-ux-reg001/topics/product-design/01-visual-design/01-visual-design-basics))
-- Curso de Product Design ([Enlace al curso en el LMS](https://lms.laboratoria.la/cohorts/reg-2021-02-bootcamp-ux-reg001/topics/product-design))
