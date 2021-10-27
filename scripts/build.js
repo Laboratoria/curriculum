@@ -186,12 +186,13 @@ buildItems([
   { type: 'project', id: '04-burger-queen-api-client', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '04-md-links', locale: 'pt-BR', track: 'js' },
   // UX Projects (spanish)
-  { type: 'project', id: '00-usability', locale: 'es-ES', track: 'ux' },
-  { type: 'project', id: '01-small-businesses', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '00-hcd-intro', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '01-design-and-usability', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '02-small-businesses', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '03-ui-design', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '04-industry-deep-dive', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '04-service-design', locale: 'es-ES', track: 'ux' },
   { type: 'project', id: '04-ux-consultancy', locale: 'es-ES', track: 'ux' },
-  { type: 'project', id: '05-service-design', locale: 'es-ES', track: 'ux' },
-  { type: 'project', id: '05-visual-design', locale: 'es-ES', track: 'ux' },
-  { type: 'project', id: '06-redesign-and-data', locale: 'es-ES', track: 'ux' },
 
   // JS Topics (spanish)
   { type: 'topic', id: 'browser', locale: 'es-ES', track: 'js' },
