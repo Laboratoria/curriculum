@@ -1,4 +1,4 @@
-# Burger Queen
+# Burger Queen (API Client)
 
 ## Índice
 
@@ -12,14 +12,6 @@
 ***
 
 ## 1. Preámbulo
-
-Un pequeño restaurante de hamburguesas, que está creciendo, necesita un
-sistema a través del cual puedan tomar pedidos usando una _tablet_, y enviarlos
-a la cocina para que se preparen ordenada y eficientemente.
-
-Este proyecto tiene dos áreas: interfaz (cliente) y API (servidor). Nuestra
-clienta nos ha solicitado desarrollar la interfaz que se integre con la API
-que otro equipo de desarrolladoras está trabajando simultáneamente
 
 [React](https://reactjs.org/) y [Angular](https://angular.io/)
 son algunos de los _frameworks_ y _librerías_ de JavaScript más utilizados por
@@ -43,11 +35,19 @@ los que trabajes.
 
 ## 2. Resumen del proyecto
 
+Un pequeño restaurante de hamburguesas, que está creciendo, necesita un
+sistema a través del cual puedan tomar pedidos usando una _tablet_, y enviarlos
+a la cocina para que se preparen ordenada y eficientemente.
+
+![burger-queen](https://user-images.githubusercontent.com/110297/42118136-996b4a52-7bc6-11e8-8a03-ada078754715.jpg)
+
+Este proyecto tiene dos áreas: interfaz (cliente) y API (servidor). Nuestra
+clienta nos ha solicitado desarrollar la interfaz que se integre con la API
+que otro equipo de desarrolladoras está trabajando simultáneamente
+
 Esta vez tenemos un proyecto 100% por encargo. Si bien siempre puedes (y debes)
 hacer sugerencias de mejoras y/o cambios, muchas veces trabajarás en proyectos
 en los que primero hay que asegurarse de cumplir con lo requerido.
-
-![burger-queen](https://user-images.githubusercontent.com/110297/42118136-996b4a52-7bc6-11e8-8a03-ada078754715.jpg)
 
 Esta es la información que tenemos dxl clientx:
 
@@ -97,110 +97,31 @@ que especifica el comportamiento esperado de la API HTTP que deberás consumir.
 Ahí puedes encontrar todos los detalles de los _endpoints_, como por ejemplo
 qué parámetros esperan, qué deben responder, etc.
 
+El objetivo principal de es aprender a construir una _interfaz web_ usando
+el _framework_ elegido (React, Angular o Vue). Todos estos frameworks de
+Front-end tratan de solucionar el mismo problema: **cómo mantener la interfaz
+y el estado sincronizados**. Así que esta experiencia espera familiarizarte con
+el concepto de _estado de pantalla_, y como cada cambio sobre el estado se va
+a ir reflejando en la interfaz (por ejemplo, cada vez que agregamos un _producto_
+a un _pedido_, la interfaz debe actualizar la lista del pedido y el total).
+
 ## 3. Objetivos de aprendizaje
 
-1. El objetivo principal de es aprender a construir una _interfaz web_ usando
-  el _framework_ elegido (React o Angular). Todos estos frameworks de
-  Front-end atacan el mismo problema: **cómo mantener la interfaz y el estado
-  sincronizados**. Así que esta experiencia espera familiarizarte con el concepto
-  de _estado de pantalla_, y cómo cada cambio sobre el estado se va a
-  ir reflejando en la interfaz (por ejemplo, cada vez que agregamos un _producto_
-  a un _pedido_, la interfaz debe actualizar la lista del pedido y el total).
-
-2. Como objetivo secundario, deberás seguir las recomendaciones para PWAs
-  (_Progressive Web Apps_). Para
-  guiarte con respecto a este tema te recomendamos usar [Lighthouse](https://developers.google.com/web/tools/lighthouse/?hl=es),
-  que es una herramienta de Google que nos ayuda a asegurar que nuestras web apps
-  sigan "buenas prácticas". De hecho, usaremos Lighthouse a la hora de evaluar el
-  proyecto.
-
-3. Finalmente, la interfaz debe estar diseñada específicamente para correr en
-  **tablets**.
-
-Recuerda colocar en esta seccion los objetivos de aprendizaje que quedaron
-pendientes de tu proyecto anterior.
-
-### HTML y CSS
-
-* [ ] HTML semántico
-* [ ] CSS flexbox
-* [ ] Sass
-* [ ] Maquetación
-
-### Frontend Development
-
-* [ ] Componentes
-* [ ] Manejo del estado
-
-### PWA
-
-* [ ] Concepto
-* [ ] Utilidad
-* [ ] Que es [Workbox](https://developers.google.com/web/tools/workbox)
-* [ ] Qué es un `serviceWorker`
-
-### Angular
-
-* [ ] Directivas estructurales (ngIf / ngFor)
-* [ ] Estilos de componentes (ngStyle / ngClass)
-* [ ] Manejos de rutas
-* [ ] Creación y uso de servicios
-* [ ] Creación y uso Observables
-* [ ] Uso de HttpClient
-* [ ] Uso de Modulos
-* [ ] @Input | @Ouput
-
-### React
-
-* [ ] [`JSX`](https://es.reactjs.org/docs/introducing-jsx.html)
-* [ ] [Componentes `class` y componentes `function`](https://es.reactjs.org/docs/components-and-props.html#function-and-class-components)
-* [ ] `props`
-* [ ] [Manejo de eventos](https://es.reactjs.org/docs/handling-events.html)
-* [ ] [Listas y keys](https://es.reactjs.org/docs/lists-and-keys.html)
-* [ ] [Renderizado condicional](https://es.reactjs.org/docs/conditional-rendering.html)
-* [ ] [Levantamiento de estados](https://es.reactjs.org/docs/lifting-state-up.html)
-* [ ] [`hooks`](https://es.reactjs.org/docs/hooks-intro.html)
-* [ ] [`CSS` modules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet)
-* [ ] [React Router](https://reacttraining.com/react-router/web)
-
-### APIs REST
-
-* [ ] Consumos de APIs REST
-* [ ] Verbos HTTP
-* [ ] Codigos de status HTTP
-* [ ] Mockeo de APIs
-
-### Testing
-
-* [ ] Testeo de interfaces
-* [ ] Testeo de componentes
-* [ ] Testeo asíncrono
-* [ ] Mocking
-
-### Colaboración en Github
-
-* [ ] Branches
-* [ ] Pull Requests
-* [ ] Tags
-
-### Organización en Github
-
-* [ ] Projects
-* [ ] Issues
-* [ ] Labels
-* [ ] Milestones
-
-### Buenas prácticas de desarrollo
-
-* [ ] Modularización
-* [ ] Nomenclatura / Semántica
-* [ ] Linting
-
-***
+> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
+> al crear el repo del proyecto para un cohort en particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
+> que contempla nuestra currícula.
 
 ## 4. Consideraciones
 
-Este proyecto se debe "resolver" de a pares.
+Este proyecto se debe "resolver" de a pares. Recuerda que deberas de consumir una
+API que desarrollaran tus compañeras, sin embargo no debes esperar a que esta API
+este terminada para empezar a codear, puedes utilizar herramientas
+como [nock](https://github.com/nock/nock), [json-server](https://www.npmjs.com/package/json-server)
+o [mockoon](https://mockoon.com) para mockear la API.
 
 Trabaja en una historia hasta terminarla antes de pasar a la siguiente. Trabaja
 hasta la historia que puedas en el tiempo especificado.
@@ -394,6 +315,9 @@ para mantener actualizado el menú.
 * [npm-scripts](https://docs.npmjs.com/misc/scripts)
 * [Babel](https://babeljs.io/)
 * [webpack](https://webpack.js.org/)
+* [json-server](https://www.npmjs.com/package/json-server)
+* [mockoon](https://mockoon.com)
+* [nock](https://github.com/nock/nock)
 
 ### PWA
 

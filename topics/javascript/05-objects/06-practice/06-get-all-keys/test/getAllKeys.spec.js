@@ -1,4 +1,4 @@
-const Assert = require('chai').assert;
+const { assert } = require('chai');
 const getAllKeys = require('../solution/getAllKeys');
 
 describe('getAllKeys()', () => {
@@ -10,7 +10,7 @@ describe('getAllKeys()', () => {
       berhasil: 10,
     };
 
-    Assert.deepEqual(getAllKeys(obj), hasil);
+    assert.deepEqual(getAllKeys(obj), hasil);
   });
 
   it("debería regresar ['a', 'number', 'hungry', 'grammyWins'], para { a: 'a', number: 11, hungry: true, grammyWins: 1 }", () => {
@@ -22,6 +22,6 @@ describe('getAllKeys()', () => {
       grammyWins: 1,
     };
 
-    Assert.deepEqual(getAllKeys(obj), hasil);
+    assert.deepEqual(getAllKeys(obj), hasil);
   });
 });

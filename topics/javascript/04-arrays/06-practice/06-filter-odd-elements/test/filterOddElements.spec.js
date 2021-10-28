@@ -1,5 +1,4 @@
-
-const Assert = require('chai').assert;
+const { assert } = require('chai');
 const filterOddElements = require('../solution/filterOddElements');
 
 describe('filterOddElements()', () => {
@@ -8,7 +7,7 @@ describe('filterOddElements()', () => {
     const hasil = [];
     const call = filterOddElements(arr);
 
-    Assert.deepEqual(call, hasil);
+    assert.deepEqual(call, hasil);
   });
 
   it('Prueba: ([69, 10, 6, 8, 22]) => [69]', () => {
@@ -16,7 +15,7 @@ describe('filterOddElements()', () => {
     const hasil = [69];
     const call = filterOddElements(arr);
 
-    Assert.deepEqual(call, hasil);
+    assert.deepEqual(call, hasil);
   });
 
 
@@ -25,6 +24,6 @@ describe('filterOddElements()', () => {
     const hasil = [1, 3, 5];
     const call = filterOddElements(arr);
 
-    Assert.deepEqual(call, hasil);
+    assert.deepEqual(call, hasil);
   });
 });

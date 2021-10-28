@@ -1,0 +1,12 @@
+{
+  "slug": "tic-tac-toe-rn",
+  "repo": "Laboratoria/bootcamp",
+  "path": "projects/05-tic-tac-toe-rn",
+  "version": "3.3.0",
+  "parserVersion": "3.0.2",
+  "createdAt": "2021-10-07T19:47:27.576Z",
+  "prefix": 5,
+  "title": "Tic tac toe - React Native",
+  "locale": "es-ES",
+  "track": "js"
+}

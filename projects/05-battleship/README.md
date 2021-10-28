@@ -11,10 +11,6 @@
 
 ## 1. Preámbulo
 
-<img
-src="https://user-images.githubusercontent.com/7809496/66518543-dc75c380-eabb-11e9-8fb9-1d96d97a6a8c.png"
-width="100%"/>
-
 Los videojuegos son una verdadera prueba cuando se trata de tecnología. Uno de
 los factores de éxito para el equipo de android, por ejemplo, fue que pudiesen
 tener un juego corriendo en los primeros teléfonos. La idea era que si un juego
@@ -27,11 +23,9 @@ al límite de lo que pueden ofrecer, tratar de explorar sus funcionalidades más
 avanzadas y lograr un producto que se luzca con tu talento y creatividad
 dominando el framework que elijas.
 
-## 2. Resumen del proyecto
+![battleship](https://user-images.githubusercontent.com/7809496/66517403-78ea9680-eab9-11e9-8ab4-8d3c2cc21646.png)
 
-<img
-src="https://user-images.githubusercontent.com/7809496/66517403-78ea9680-eab9-11e9-8ab4-8d3c2cc21646.png"
-width="100%"/>
+## 2. Resumen del proyecto
 
 Battleship es un juego clásico, con múltiples versiones en juegos de mesa y en
 linea (si no lo conoces, puedes verlo en este link :

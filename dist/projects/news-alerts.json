@@ -1,0 +1,12 @@
+{
+  "slug": "news-alerts",
+  "repo": "Laboratoria/bootcamp",
+  "path": "projects/04-news-alerts",
+  "version": "3.3.0",
+  "parserVersion": "3.0.2",
+  "createdAt": "2021-10-07T19:47:25.224Z",
+  "prefix": 4,
+  "title": "Proyecto de extensión: News Alerts",
+  "locale": "es-ES",
+  "track": "js"
+}

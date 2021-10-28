@@ -6,7 +6,7 @@
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
 * [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios de aceitação mínimos do projeto](#5-criterios-de-aceitação-mínimos-do-projeto)
+* [5. Critérios de aceitação mínimos do projeto](#5-critérios-de-aceitação-mínimos-do-projeto)
 * [6. Hacker edition](#6-hacker-edition)
 * [7. Considerações técnicas](#7-considerações-técnicas)
 * [8. Guias, dicas e leituras complementares](#8-guias-dicas-e-leituras-complementares)
@@ -16,11 +16,10 @@
 
 ## 1. Prefácio
 
-Cifrar significa codificar. A [cifra de
-César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) é um dos primeiros
-tipos de criptografias conhecidas na história. O imperador romano Júlio César
-utilizava essa cifra para enviar ordens secretas aos seus generais no campo de
-batalha.
+Cifrar significa codificar. A [cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar)
+é um dos primeiros tipos de criptografias conhecidas na história.
+O imperador romano Júlio César utilizava essa cifra para enviar
+ordens secretas aos seus generais no campo de batalha.
 
 ![caeser-cipher](https://user-images.githubusercontent.com/11894994/60990999-07ffdb00-a320-11e9-87d0-b7c291bc4cd1.png)
 
@@ -37,43 +36,40 @@ Por exemplo se usarmos o deslocamento (_offset_) de 3 posições:
 * A palavra CASA será FDVD
 
 Atualmente todas as cifras de substituição alfabética simples, são decifradas
-com facilidade e não oferecem muita segurança na comunição, mas a cifra de César
-muitas vezes pode fazer parte de um sistema mais complexo de criptografia, como
+com facilidade e não oferecem muita segurança na comunicação por si mesma,
+mas a cifra de César muitas vezes pode fazer parte de um sistema
+mais complexo de criptografia, como
 a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
 ## 2. Resumo do projeto
 
-O que eu tenho que fazer exatamente? Neste projeto você criará a primeira
-aplicação web do _bootcamp_. Nela o usuário poderá cifrar e decrifrar um texto
-indicando a chave de deslocamento (_offset_).
+Neste projeto você criará a primeira aplicação web do _bootcamp_. Nela o usuário
+poderá cifrar e decifrar um texto indicando a chave de deslocamento (_offset_).
 
 O tema é livre. Você deve pensar em alguma situação de vida real em que seja
 necessário cifrar uma mensagem e pensar em como deve ser a experiência do
 usuário (tela, explicações, mensagens, cores, marca?, etc.). Algumas ideias de
 exemplo:
 
-* Mensagens secretas para alguma pessoa.
-* Ferramenta de mensagens internas de uma organização em uma zona de conflito.
-* Cifrar cartões de crédito.
 * Criar senhas seguras para email.
+* Cifrar cartões de crédito.
+* Ferramenta de mensagens internas de uma organização
+  em uma zona de conflito.
+* Mensagens secretas para alguma pessoa.
+
+Neste projeto você aprenderá a construir uma aplicação web (_WebApp_) que irá
+interagir com o usuário final através do navegador utilizando HTML, CSS e
+JavaScript como ferramentas.
 
 ## 3. Objetivos de aprendizagem
 
-Neste projeto você aprenderá a construir uma aplicação web que interaja com o
-usuário através do navegador e a lógica para essa interação. Em outras palavras,
-você aprenderá:
-
-* Desenhar elementos de formulário em uma tela usando **HTML** e **CSS**.
-* Permitir o usuário interagir com elementos do DOM e fazer com que a aplicação
-  responda (cifrar/decifrar) quando ocorrer os **eventos de DOM**.
-* Manipular _strings_ (cadeias de texto).
-* Usar **controle de fluxo** (laços, condicionais, ...).
-* Atualizar a tela com os resultados (**manipular o DOM**).
-* **Implementar funções** dada uma descrição de comportamento.
-* Verificar a sua implementação com **provas unitárias**.
-* Entender as **necessidades do usuário** e propor soluções.
-* Organizar o seu tempo e priorizar tarefas em um ambiente de **alta
-  incerteza**.
+> ℹ️ Esta seção será automaticamente gerada no idioma pertinente, a partir dos
+> objetivos de aprendizagem declarados em [`project.yml`](./project.yml), ao
+> criar o repositório do projeto para uma coorte em particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Aqui você pode ver uma [lista de todos os objetivos de aprendizagem](../../learning-objectives/data.yml)
+> cobertos em nosso currículo.
 
 ## 4. Considerações gerais
 
@@ -149,9 +145,7 @@ A lógica do projeto deve estar implementada inteiramente em JavaScript. Nesse
 projeto **NÃO** está permitido usar bibliotecas ou frameworks, só vanilla
 JavaScript.
 
-Você não deve usar a _pseudo-variable_ `this`.
-
-Os testes unitários devem cubrir no mínimo de 70% dos _statements_, _functions_
+Os testes unitários devem cobrir no mínimo de 70% dos _statements_, _functions_
 e _lines_, e um mínimo de 50% de _branches_. O _boilerplate_ já contem o setup e
 configurações necessárias para executar os testes assim como _code coverage_
 para ver o nível de cobertura dos testes usando o comando `npm test`.
@@ -193,7 +187,7 @@ arquivo `.eslintrc` que contem o mínimo de informação como versão do
 JavaScript/ECMAScript, o ambiente (_browser_ nesse caso) e as [regras
 recomendadas (`"eslint:recommended"`)](https://eslint.org/docs/rules/).
 
-Nas regras/guias de estilo usaremos das recomandações padrão tanto para o
+Nas regras/guias de estilo usaremos das recomendações padrão tanto para o
 `eslint` quanto `htmlhint`.
 
 ***
@@ -206,8 +200,8 @@ Nas regras/guias de estilo usaremos das recomandações padrão tanto para o
    como [Code](https://code.visualstudio.com/) ou [Atom](https://atom.io/).
 2. Para executar os comandos você precisará de um :shell: UNIX Shell, que é um
    programa que interpreta linhas de comando (command-line interpreter) e também
-   deve ter o git instalado. Se você usa um sistema operacional "UNIX-like", como
-   GNU/Linux ou MacOS, você já tem um _shell_ (terminal) instalado (e
+   deve ter o git instalado. Se você usa um sistema operacional "UNIX-like",
+   como GNU/Linux ou MacOS, você já tem um _shell_ (terminal) instalado (e
    provavelmente o `git` também). Se você usa Windows você pode usar o [Git
    bash](https://git-scm.com/download/win), embora seja recomendado que você
    teste :penguin: GNU/Linux.
@@ -216,7 +210,7 @@ Nas regras/guias de estilo usaremos das recomandações padrão tanto para o
    _mentores_ compartilharão com você um _link_ para um repositório privado e te
    darão acesso a este repositório.
 4. :arrow_down: [Clone](https://help.github.com/articles/cloning-a-repository/)
-   o _fork_ para seu computador (cópia local).
+   o *fork* para seu computador (cópia local).
 5. 📦 Instale as dependências do projeto rodando o comando `npm install`. Mas
    antes disso tenha certeza de ter instalado o [Node.js](https://nodejs.org/)
    (que inclui o [npm](https://docs.npmjs.com/)).
@@ -226,6 +220,9 @@ Nas regras/guias de estilo usaremos das recomandações padrão tanto para o
    para iniciar o servidor web e entre na url `http://localhost:5000` no seu
    navegador.
 8. Let's Code! :rocket:
+
+Este [video](https://drive.google.com/file/d/1CM6ZfpGfJMF6A8IcXoK5cFBBq-CY8oBR/view?usp=sharing)
+da Paloma também pode te ajudar nos seus primeiros passos ;)
 
 ### Recursos extras
 
@@ -259,7 +256,9 @@ Desenvolvimento Front-end:
 
 Ferramentas:
 
-* GitHub y GitHub Pages.
+* [Terminal](https://www.loom.com/share/29a6cf0f3c5245bf995738284b706468)
+* [Git config](https://www.loom.com/share/c7d445872b9f4618a24605fdcb26a48d)
+* GitHub e GitHub Pages.
 
 Organização do trabalho:
 
@@ -283,12 +282,11 @@ Essa seção é para te ajudar a ter um controle do que você precisa completar.
 * [ ] `README.md` explicar claramente como o produto soluciona os
   problemas/necessidades dos usuários.
 * [ ] Usar VanillaJS.
-* [ ] **Não** usar `this`.
 * [ ] Implementar `cipher.encode`.
 * [ ] Implementar `cipher.decode`.
 * [ ] Passar o linter com a configuração definida.
 * [ ] Passar as provas unitárias.
-* [ ] Testes unitários cubrindo 70% dos _statements_, _functions_ e _lines_, e
+* [ ] Testes unitários cobrindo 70% dos _statements_, _functions_ e _lines_, e
   no mínimo 50% das _branches_.
 * [ ] Interface que permita escolher o `offset` (chave de deslocamento) usava
   para cifrar/decifrar.
@@ -300,5 +298,5 @@ Essa seção é para te ajudar a ter um controle do que você precisa completar.
 ### Parte Opcional: "Hacker edition"
 
 * [ ] Cifrar/decifrar minúsculas.
-* [ ] Cifrar/decifrar _outros_ caractéres (espações, pontuação, `ç`, `á`, ...).
+* [ ] Cifrar/decifrar _outros_ caractéres (espaços, pontuação, `ç`, `á`, ...).
 * [ ] Permitir usar `offset` negativo.

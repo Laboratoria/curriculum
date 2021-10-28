@@ -41,7 +41,7 @@ describe('POST /orders', () => {
       })
       .then(([product, user]) => fetchAsTestUser('/orders', {
         method: 'POST',
-        body: { products: [{ productId: product._id, qty: 5 }], userId: user._id },
+        body: { products: [{ productId: product._id, qty: 5, client: 'client' }], userId: user._id },
       }))
       .then((resp) => {
         expect(resp.status).toBe(200);
@@ -49,6 +49,7 @@ describe('POST /orders', () => {
       })
       .then((json) => {
         expect(typeof json._id).toBe('string');
+        expect(json.client).toBe('client');
         expect(typeof json.dateEntry).toBe('string');
         expect(Array.isArray(json.products)).toBe(true);
         expect(json.products.length).toBe(1);
@@ -190,7 +191,7 @@ describe('GET /orders', () => {
 });
 
 
-describe('GET /orders/:orderid', () => {
+describe('GET /orders/:orderId', () => {
   it('should fail with 401 when no auth', () => (
     fetch('/orders/xxx')
       .then((resp) => expect(resp.status).toBe(401))
@@ -269,7 +270,7 @@ describe('GET /orders/:orderid', () => {
 });
 
 
-describe('PUT /orders/:orderid', () => {
+describe('PUT /orders/:orderId', () => {
   it('should fail with 401 when no auth', () => (
     fetch('/orders/xxx', { method: 'PUT' })
       .then((resp) => expect(resp.status).toBe(401))
@@ -305,6 +306,7 @@ describe('PUT /orders/:orderid', () => {
         return resp.json();
       })
       .then((json) => fetchAsTestUser(`/orders/${json._id}`))
+      .then((resp) => resp.json())
       .then((json) => fetchAsAdmin(`/orders/${json._id}`, { method: 'PUT' }))
       .then((resp) => expect(resp.status).toBe(400))
   ));
@@ -447,7 +449,7 @@ describe('PUT /orders/:orderid', () => {
 });
 
 
-describe('DELETE /orders/:orderid', () => {
+describe('DELETE /orders/:orderId', () => {
   it('should fail with 401 when no auth', () => (
     fetch('/orders/xxx', { method: 'DELETE' })
       .then((resp) => expect(resp.status).toBe(401))

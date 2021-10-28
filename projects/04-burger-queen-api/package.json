@@ -17,20 +17,21 @@
     "docs:deploy": "rm -rf docs && npm run docs:generate && gh-pages -d docs"
   },
   "dependencies": {
-    "bcrypt": "3.0.6",
-    "body-parser": "1.19.0",
-    "express": "4.17.1",
-    "jsonwebtoken": "8.5.1"
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
-    "docdash": "1.1.1",
-    "eslint": "6.4.0",
-    "eslint-config-airbnb-base": "14.0.0",
-    "gh-pages": "2.1.1",
-    "jest": "24.9.0",
-    "jsdoc": "3.6.3",
-    "jsdoc-http-plugin": "0.3.1",
-    "node-fetch": "2.6.0",
-    "tree-kill": "1.2.1"
+    "docdash": "^1.2.0",
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "gh-pages": "^3.1.0",
+    "jest": "^27.0.1",
+    "jsdoc": "^3.6.6",
+    "jsdoc-http-plugin": "^0.3.2",
+    "node-fetch": "^2.6.1",
+    "tree-kill": "^1.2.2"
   }
 }

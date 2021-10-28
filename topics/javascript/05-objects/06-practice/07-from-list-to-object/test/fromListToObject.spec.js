@@ -1,4 +1,4 @@
-const Assert = require('chai').assert;
+const { assert } = require('chai');
 const fromListToObject = require('../solution/fromListToObject');
 
 describe('fromListToObject()', () => {
@@ -10,7 +10,7 @@ describe('fromListToObject()', () => {
       year: 1964,
       quality: 'eeehhh',
     };
-    Assert.deepEqual(fromListToObject(array), hasil);
+    assert.deepEqual(fromListToObject(array), hasil);
   });
 
   it("debería regresar { make : 'Ford', model : 'Mustang', year : 1964 }, para [['make', 'Ford'], ['model', 'Mustang'], ['year', 1964]]", () => {
@@ -20,7 +20,7 @@ describe('fromListToObject()', () => {
       model: 'Mustang',
       year: 1964,
     };
-    Assert.deepEqual(fromListToObject(array), hasil);
+    assert.deepEqual(fromListToObject(array), hasil);
   });
 
   it("debería regresar { Kemal: 'Mahmud' }, para [['Kemal', 'Mahmud']]", () => {
@@ -28,6 +28,6 @@ describe('fromListToObject()', () => {
     const hasil = {
       Kemal: 'Mahmud',
     };
-    Assert.deepEqual(fromListToObject(array), hasil);
+    assert.deepEqual(fromListToObject(array), hasil);
   });
 });

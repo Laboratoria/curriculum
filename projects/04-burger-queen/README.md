@@ -35,16 +35,16 @@ los que trabajes.
 
 ## 2. Resumen del proyecto
 
-Esta vez tenemos un proyecto 100% por encargo. Si bien siempre puedes (y debes)
-hacer sugerencias de mejoras y/o cambios, muchas veces trabajarás en proyectos
-en los que primero hay que asegurarse de cumplir con lo requerido.
-
 Un pequeño restaurante de hamburguesas, que está creciendo, necesita una
 interfaz en la que puedan tomar pedidos usando una _tablet_, y enviarlos
 a la cocina para que se preparen ordenada y eficientemente (a través de un
-  _backend_ del que nos darán detalles más adelante).
+_backend_ del que nos darán detalles más adelante).
 
 ![burger-queen](https://user-images.githubusercontent.com/110297/42118136-996b4a52-7bc6-11e8-8a03-ada078754715.jpg)
+
+Esta vez tenemos un proyecto 100% por encargo. Si bien siempre puedes (y debes)
+hacer sugerencias de mejoras y/o cambios, muchas veces trabajarás en proyectos
+en los que primero hay que asegurarse de cumplir con lo requerido.
 
 Esta es la información que tenemos del cliente:
 
@@ -93,28 +93,23 @@ costo total.
 
 ![out](https://user-images.githubusercontent.com/110297/45984241-b8b51c00-c025-11e8-8fa4-a390016bee9d.gif)
 
+El objetivo principal de este proyecto es aprender a construir una _interfaz web_
+usando el _framework_ elegido (React, Vue o Angular). Todos estos frameworks de
+Front-end atacan el mismo problema: **cómo mantener la interfaz y el estado sincronizados**.
+Así que esta experiencia espera familiarizarte con el concepto de _estado de pantalla_,
+y cómo cada cambio sobre el estado se va a ir reflejando en la interfaz (por ejemplo,
+cada vez que agregamos un _producto_ a un _pedido_, la interfaz debe actualizar
+la lista del pedido y el total).
+
 ## 3. Objetivos de aprendizaje
 
-1. El objetivo principal de es aprender a construir una _interfaz web_ usando
-   el _framework_ elegido (React, Vue o Angular). Todos estos frameworks de
-   Front-end atacan el mismo problema: **cómo mantener la interfaz y el estado
-   sincronizados**. Así que esta experiencia espera familiarizarte con el
-   concepto de _estado de pantalla_, y cómo cada cambio sobre el estado se va a
-   ir reflejando en la interfaz (por ejemplo, cada vez que agregamos un
-   _producto_ a un _pedido_, la interfaz debe actualizar la lista del pedido y
-   el total).
-
-2. Como objetivo secundario, deberás seguir las recomendaciones para PWAs
-   (_Progressive Web Apps_), lo cual incluye conceptos como **offline**. Para
-   guiarte con respecto a este tema te recomendamos usar [Lighthouse](https://developers.google.com/web/tools/lighthouse/?hl=es),
-   que es una herramienta de Google que nos ayuda a asegurar que nuestras web
-   apps sigan "buenas prácticas". De hecho, usaremos Lighthouse a la hora de
-   evaluar el proyecto.
-
-3. Finalmente, la interfaz debe estar diseñada específicamente para correr en
-   **tablets**.
-
-Tópicos: _react_, _angular_, _vue_, _pwa_, _offline-first_, _service-worker_.
+> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
+> al crear el repo del proyecto para un cohort en particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
+> que contempla nuestra currícula.
 
 ## 4. Consideraciones generales
 
@@ -149,18 +144,16 @@ _lines_ y _branches_.
 
 Este proyecto incluye un _boilerplate_ con el código necesario para arrancar con
 la parte de backend ya resuelta. El _boilerplate_ incluye los siguientes
-archivos/carpetas con la configuración de Fierbase (hosting, firestore y
-functions):
+archivos/carpetas con la configuración de Fierbase (hosting y firestore):
 
 ```text
-./04-burger-queen/
+.
+├── .editorconfig
 ├── firebase.json
 ├── firestore.indexes.json
 ├── firestore.rules
-├── functions
-│   ├── index.js
-│   ├── package.json
-└── README.md
+├── README.md
+└── README.pt-BR.md
 ```
 
 Por otro lado, la parte de la interfaz no está incluida, por lo que, deberás
@@ -175,7 +168,7 @@ repositorio.
 
 ### Definición del producto
 
-El [_Product Owner_](https://www.youtube.com/watch?v=r2hU7MVIzxs&t=202s) nos
+El [_Product Owner_](https://youtu.be/r2hU7MVIzxs) nos
 presenta este _backlog_ que es el resultado de su trabajo con el cliente hasta
 hoy.
 
@@ -256,73 +249,217 @@ rápidamente a los clientes que las hicieron.
 
 ### Primeros pasos
 
-1. El primer paso de este proyecto debe ser convertir el menú descrito por el
-   cliente en una estructura que podamos poner en un archivo JSON para después
-   _pintar_ en la pantalla
+NOTA: Si estás haciendo el proyecto en equipo, estos pasos solo los necesita
+hacer una persona por equipo. El resto de las integrantes del equipo después
+podrán hacer sus propios _forks_ a partir del _fork_ principal de su equipo.
 
-2. Haz un _fork_ de este repo (en GitHub).
+1. Haz un _fork_ de este repo (en GitHub).
 
-3. Clona tu _fork_ en tu computadora:
+2. Clona tu _fork_ en tu computadora:
 
    ```sh
    git clone git@github.com:<tu-usuario-de-github>/<cohortid>-burger-queen.git
    cd <cohortid>-burger-queen
    ```
 
-4. Crea una rama a partir de `master` para empezar a trabajar. Por ejemplo:
+3. Crea una rama a partir de `main` para empezar a trabajar. Por ejemplo:
 
    ```sh
    git checkout -b develop
    ```
 
-5. Crear proyecto en [Firebase](https://firebase.google.com/)
+4. Crea un proyecto en [Firebase](https://firebase.google.com/)
 
-6. Habilitar Firestore (_comenzar en modo bloqueado_) en sección de "Bases de
+5. Habilita Firestore (_comenzar en modo bloqueado_) en sección de "Bases de
    Datos" de [Firebase console](https://console.firebase.google.com/).
 
-7. Instalar utilidad de línea de comando de Firebase:
+6. Instala la [utilidad de línea de comando de Firebase](https://firebase.google.com/docs/cli?hl=es).
+   Esta utilidad nos permitirá usar el comando `firebase` desde nuestra
+   terminal. Ten en cuenta que el comando de instalación incluye la opción `-g`,
+   lo cual significa que estamos instalando `firebase-tools` de forma _global_,
+   con lo cual quedará disponible desde cualquier _lugar_ (es independiente de
+   un proyecto en particular, no queda instalado en la carpeta `node_modules` de
+   tu proyecto, si no globalmente, por lo tanto no importa desde qué carpeta
+   ejecutes el siguiente comando de instalación).
 
    ```sh
    npm i -g firebase-tools
    ```
 
-8. Agregamos entorno de producción para desplegar:
+7. Iniciamos sesión con Firebase y agregamos entorno que usaremos para
+   desplegar:
 
    ```sh
+   firebase login
    firebase use --add
+
+   # Una vez agregado el entorno (proyecto de firebase) puedes agregar otros y
+   # listar los entornos configurados para esta carpeta con este comando
+   firebase use
    ```
 
-9. Instalar dependencias de cloud functions:
+8. Llegado a este punto, ya puedes comenzar con la problemática del proyecto en
+   sí. Te recomendamos como siguiente paso convertir el menú descrito por el
+   cliente en una estructura que podamos poner en un archivo JSON para después
+   _pintar_ en la pantalla.
 
-   ```sh
-   # usando yarn
-   cd functions && yarn && cd ..
-   # alternativamente, usando npm
-   cd functions && npm install && cd ..
-   ```
+### Despliegue
 
-10. Desplegar: `firebase deploy`
+En esta sección revisamos algunas opciones para desplegar
+el backend y frontend de tu app.
+Si usas firebase con reglas de firestore, índices, cloud functions,
+necesitas desplegar el backend con firebase-cli.
 
-11. Llegado a este punto ya puedes comenzar con el _front-end_ :wink:
+Puedes desplegar el frontend con Firebase hosting.
+Hay otras opciones como Github Pages (que ya estan familiarizadas),
+Netlify, y Heroku.
 
-***
+Netlify y Heroku son servicios para desplegar tu web app - backend y
+frontend - y no son limitados a usar solamente con Firebase.
+Por ejemplo, puedes desplegar un app MySQL/Express/React.
 
-Nota para estudiantes que elijan React y quieran usar `create-react-app`:
+#### Build para production
 
-Si tratas de usar `create-react-app` en el directorio del proyecto recibirás un
-error diciendo que hay archivos que podrían presentar un conflicto. Para evitar
-este problema puedes crear una nueva app usando `create-react-app` y de ahí
-_mezclarla_ con la carpeta del proyecto:
+Cada framework incluye su propio _pipeline_ de _construcción_ o _build_. Con
+esto nos referimos a que para _construir_ nuestro proyecto y producir un
+_artefacto_ que podamos desplegar vamos a usar un script que normalmente
+configuramos como una tarea de `npm-scripts` con el nombre `build` e invocamos
+así:
 
 ```sh
-# si estabase en la carpeta del proyecto, salimos a la carpeta de más arriba
+npm run build
+```
+
+Una vez hayamos _construido_ la aplicación, tendremos un directorio que contiene
+la app lista para desplegar. Dependiendo del framework que uses y tu
+configuración en particular, esa carpeta puede tener un nombre distinto;
+normalmente `build` o `dist`.
+
+##### Firebase
+
+La herramienta de línea de comando de Firebase (`firebase-tools`) incluye un
+comando que nos permite desplegar nuestro proyecto a Firebase:
+`firebase deploy`. A la hora de ejecutar este comando, se usará la configuración
+que tenemos en el archivo `firebase.json`. En ese archivo asegúrate de que la
+_propiedad_ `public` del _objeto_ `hosting` tenga la ruta correcta a la carpeta
+donde hemos _construido_ la aplicación. En este ejemplo es implemente `build`,
+asumiendo que la carpeta `build` es una subcarpeta del directorio donde se
+encuentra nuestro `firebase.json`.
+
+```json
+  ...
+  "hosting": {
+    "public": "build",
+    ...
+  },
+  ...
+```
+
+Finalmente, estás lista para desplegar tu proyecto a Firebase :rocket::fire:!
+
+```sh
+firebase deploy
+```
+
+##### Netlify
+
+[Netlify](http://netlify.com) es un servicio de hosting
+para sitios web estáticos.
+Para usarlo primero necesitas crear una cuenta en
+[Netlify](http://netlify.com) y después puedes conectar tu repo.
+
+* [Netlify y Angular](https://www.netlify.com/blog/2019/09/23/first-steps-using-netlify-angular/)
+* [Netlify y Vue](https://cli.vuejs.org/guide/deployment.html#gitlab-pages)
+* [Netlify y Vue](https://medium.com/vue-mastery/deploying-a-vue-app-to-netlify-8f8f7d36f8fb)
+* [Netlify y React](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/)
+
+Para desplegar tu aplicación en netlify seleccionas acceder con GitHub
+y luego concedes los permisos para que Netlify acceda a tus repositorios y
+generar la clave para poder realizar el despliegue continuo.
+
+Una vez terminado el registro bastará con compilar tu aplicación para
+producción y arrastrar tu carpeta (dist, build) a la parte de sites
+dentro de netlify.
+
+![netlify-sites](https://user-images.githubusercontent.com/21324865/128918519-04336a77-9c34-4266-a711-9975917e8f87.png)
+
+Al terminar de cargar los archivos podras ver el nombre de la aplicación dentro
+de Netlify junto al link del app ya hosteada.
+
+###### netlify cli
+
+Hay un `netlify-cli` si prefieres hacer el despliegue por linea de comando.
+Para usarlo, hay que instalar el cli en tu proyecto y authorizarlo.
+
+Puedes checar la [documentación](https://docs.netlify.com/cli/get-started/)
+o seguir con los siguentes comandos:
+
+```sh
+npm install netlify-cli --save-dev
+netlify login
+```
+
+Esto va a crear un `config.json` en tu proyecto.
+
+Puedes usar `netlify` con continuous deployment (despliegue continuo) y así
+cada vez que agregues un commit se va a compilar y desplegar tu app con
+los nuevos cambios. Alternativamente, también puedes hacer depliegue manual.
+
+Para continuous deployment corre `netlify init`  y sigue las instrucciones
+para conectar un repo de tu github.
+Puedes configurar deploy settings (comando para el build, directorio de la
+carpeta y la rama para producción) en "deploy settings" de tu site en netlify.
+
+Para desplegar manualmente puedes usar `netlify deploy`. También por defecto
+busca un directorio `build` en tu proyecto para desplegarlo. Si tu proyecto
+tiene un directorio de otro nombre puedes usar la opción `--dir`.
+
+```sh
+netlify deploy --dir=dist`
+```
+
+#### Github pages
+
+* [Github pages y Vue](https://cli.vuejs.org/guide/deployment.html#github-pages)
+* [Github pages y Angular](https://angular.io/guide/deployment#deploy-to-github-pages)
+* [Github pages y React](https://create-react-app.dev/docs/deployment/#github-pages-https-pagesgithubcom)
+
+#### Heroku
+
+### :information_source: Nota para estudiantes que elijan React y `create-react-app`
+
+Si tratas de usar [`create-react-app`](https://reactjs.org/docs/create-a-new-react-app.html)
+en el directorio del proyecto recibirás un error diciendo que hay archivos que
+podrían presentar un conflicto. Para evitar este problema puedes crear una nueva
+app usando `create-react-app` y de ahí _mezclarla_ con la carpeta del proyecto:
+
+```sh
+# Si estabas en la carpeta del proyecto, salimos a la carpeta de más arriba
 cd ..
 
-create-react-app burger-queen-tmp
-cp -r burger-queen/* burger-queen-tmp/
-cp -r burger-queen-tmp/.gitignore burger-queen-tmp/* burger-queen/
+# Creamos una nueva aplicación con `create-react-app` en la carpeta
+# `burger-queen-tmp`
+npx create-react-app burger-queen-tmp
+
+# Copiamos el _boilerplate_ del proyecto _encima_ de la aplicación creada con
+# `create-react-app`
+cp -r <cohort-id>-burger-queen/* burger-queen-tmp/
+
+# Copiamos el contenido de la aplicación creada con `create-react-app` de vuelta
+# al repo del proyecto (teniendo en cuenta el archivo _oculto_ `.gitignore`).
+cp -r burger-queen-tmp/.gitignore burger-queen-tmp/* <cohort-id>-burger-queen/
+
+# Ya podemos borrar la instalación _temporal_ y quedarnos solo con el repo del
+# proyecto, con el que partimos.
 rm -rf burger-queen-tmp
-cd burger-queen
+
+# Volvemos a entrar en el directorio del proyecto y ya deberíamos estar listas
+# para comenzar.
+cd <cohort-id>-burger-queen
+
+# Para confirmar que todo fue bien arranca la aplicación con el siguinte comando
+# y verifica que la interfaz se abre en el navegador.
+yarn start
 ```
 
 ### Otros recursos
@@ -353,65 +490,3 @@ cd burger-queen
 * [Qué es Serverless? | FooBar - YouTube](https://www.youtube.com/watch?v=_SYHUpLi-2U)
 * [Firebase](https://firebase.google.com/)
 * [Serverless Architectures - Martin Fowler](https://www.martinfowler.com/articles/serverless.html)
-
-#### Cloud functions
-
-* [Cloud functions - Firebase Docs](https://firebase.google.com/docs/functions/?hl=es-419)
-
-<!-- ## Checklist
-
-### General
-
-* [ ] Producto final sigue los lineamientos del diseño.
-
-### `README.md`
-
-* [ ] Documenta proceso de diseño.
-* [ ] Incluye info para developers (deps, instalación, uso, despliegue, testing,
-  ...).
-
-### Lighthouse
-
-* [ ] 80% o más en sección _Performance_.
-* [ ] 80% o más en sección _Progressive Web App_.
-* [ ] 80% o más en sección _Accessibility_.
-* [ ] 80% o más en sección _Best Practices_.
-
-### Tests
-
-* [ ] 70% o más en cobertura de _statements_.
-* [ ] 70% o más en cobertura de _functions_.
-* [ ] 70% o más en cobertura de _lines_.
-* [ ] 70% o más en cobertura de _branches_.
-
-### UI
-
-#### Hito 1: Tomar pedidos
-
-* [ ] Ingresar nombre del cliente.
-* [ ] Filtrar _menú_ por _desayuno_ y _resto del día_.
-* [ ] Agregar ítem al pedido.
-* [ ] Eliminar ítem del pedido.
-* [ ] Mostrar _resumen_ de pedido con todos los items y el total.
-* [ ] Enviar a cocina (esto debe guardar el pedido).
-
-#### Hito 2: Ver/atender pedidos
-
-* [ ] Vista de pedidos pendientes.
-* [ ] Marcar pedido como listo.
-* [ ] Ver historial de pedidos.
-
-#### Hito 3: Autenticación
-
-* [ ] Inicio de sesión.
-* [ ] Restaurar contraseña.
-
-### UX
-
-* [ ] Se _ve_ bien y _funciona_ bien en tablets.
-* [ ] Se puede _agregar a la pantalla de inicio_ como web app (tiene manifest,
-  íconos, ...) en iOS y Android.
-* [ ] Uso fácil en pantallas táctiles (touch screens).
-* [ ] Estado actual del pedido siempre visible mientras tomamos un pedido.
-
--->

@@ -1,5 +1,4 @@
-
-const Assert = require('chai').assert;
+const { assert } = require('chai');
 const getElementOfArrayProperty = require('../solution/getElementOfArrayProperty');
 
 describe('getElementOfArrayProperty()', () => {
@@ -9,7 +8,7 @@ describe('getElementOfArrayProperty()', () => {
     };
     const output = getElementOfArrayProperty(obj, 'key', 1);
 
-    Assert.deepEqual(output, undefined);
+    assert.deepEqual(output, undefined);
   });
 
   it("debería regresar undefined, para  ({key: 'eyoooo'}, 'key', 1)", () => {
@@ -17,7 +16,7 @@ describe('getElementOfArrayProperty()', () => {
       key: 'eyoooo',
     };
     const output = getElementOfArrayProperty(obj, 'key', 0);
-    Assert.deepEqual(output, undefined);
+    assert.deepEqual(output, undefined);
   });
 
 
@@ -26,7 +25,7 @@ describe('getElementOfArrayProperty()', () => {
       key: ['Kemal', 'Mahmud'],
     };
     const output = getElementOfArrayProperty(obj, 'key', 2);
-    Assert.deepEqual(output, undefined);
+    assert.deepEqual(output, undefined);
   });
 
   it("debería regresar 3, para ({key: [1, 2, 3, 4, 5]}, 'key', 2)", () => {
@@ -34,6 +33,6 @@ describe('getElementOfArrayProperty()', () => {
       key: [1, 2, 3, 4, 5],
     };
     const output = getElementOfArrayProperty(obj, 'key', 2);
-    Assert.deepEqual(output, 3);
+    assert.deepEqual(output, 3);
   });
 });

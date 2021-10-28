@@ -1,0 +1,27 @@
+{
+  "slug": "trivia-pt",
+  "repo": "Laboratoria/bootcamp",
+  "path": "projects/00-trivia",
+  "version": "3.3.0",
+  "parserVersion": "3.0.2",
+  "createdAt": "2021-10-07T19:47:30.094Z",
+  "prefix": 0,
+  "title": "Trivia",
+  "locale": "pt-BR",
+  "track": "js",
+  "learningObjectives": [
+    "html/semantics",
+    "css/selectors",
+    "browser/dom/selectors",
+    "browser/dom/events",
+    "browser/dom/manipulation",
+    "js/data-types/primitive",
+    "js/data-types/strings",
+    "js/variables",
+    "js/conditionals",
+    "js/functions",
+    "js/semantics",
+    "ux/user-understanding",
+    "ux/prototyping"
+  ]
+}

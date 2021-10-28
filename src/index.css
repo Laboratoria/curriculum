@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Open Sans, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(247,247,247);
+  color: #1d1d1f;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+@media (min-width: 576px) {
+  body {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+    line-height: 29px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 19px;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    /* font-size: 20px;
+    line-height: 32px; */
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Bitter;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #ff009e;
+}
+
+.vega-embed,
+.vega-embed::after,
+.vega-embed::before {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+.vega-embed {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

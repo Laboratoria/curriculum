@@ -1,5 +1,4 @@
-
-const Assert = require('chai').assert;
+const { assert } = require('chai');
 const addArrayProperty = require('../solution/addArrayProperty');
 
 describe('addArrayProperty()', () => {
@@ -8,6 +7,6 @@ describe('addArrayProperty()', () => {
     const myArray = [5, 8, 12];
 
     addArrayProperty(myObj, 'key', myArray);
-    Assert.deepEqual(myObj.key, myArray);
+    assert.deepEqual(myObj.key, myArray);
   });
 });

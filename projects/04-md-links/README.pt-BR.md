@@ -37,7 +37,7 @@ estatísticas.
 
 [Node.js](https://nodejs.org/pt-br/) é um ambiente de execução para JavaScript
 construído com o [motor de JavaScript V8 do
-[Chrome](https://developers.google.com/v8/). Ele vai nos permitir executar o
+Chrome](https://developers.google.com/v8/). Ele vai nos permitir executar o
 JavaScript no nosso sistema operacional, seja no seu computador ou em um
 servidor, o que nos abre portas para poder interagir com sistemas, arquivos,
 redes e etc.
@@ -50,52 +50,20 @@ _stdin/stdout/stderr_).
 Neste projeto você criará uma ferramenta de linha de comando (CLI) assim como a
 sua própria biblioteca (library) em JavaScript.
 
-## 3. Objetivos de aprendizagem
-
 Desenvolver sua própria biblioteca é uma experiência fundamental para qualquer
 desenvolvedora, pois te obriga a pensar na interface (API) dos seus _módulos_ e
 como ela será usada por outras desenvolvedoras. Você deve levar em conta as
 peculiaridades da linguagem, convenções e boas práticas.
 
-A seguir você pode conferir os objetivos de aprendizagem deste projeto:
+## 3. Objetivos de aprendizagem
 
-### Javascript
-
-* [ ] Uso de callbacks
-* [ ] Consumo de Promises
-* [ ] Criação de uma Promise
-* [ ] Módulos de JS (CommonJS vs ES Modules)
-* [ ] Recursão
-
-### Node
-
-* [ ] Sistema de arquivos ([fs](https://nodejs.org/api/fs.html), [path](https://nodejs.org/api/path.html))
-* [ ] [package.json](https://docs.npmjs.com/files/package.json)
-* [ ] criação de módulos [(CommonJS)](https://nodejs.org/docs/latest-v0.10.x/api/modules.html)
-* [ ] Instalar e usar módulos ([npm](https://www.npmjs.com/))
-* [ ] [npm-scripts](https://docs.npmjs.com/misc/scripts)
-* [ ] CLI (Command Line Interface - Interface de Linha de Comando)
-* [ ] [http.get](https://nodejs.org/api/http.html#http_http_get_options_callback)
-
-### Testing
-
-* [ ] Testar suas funções
-* [ ] Teste assíncrono
-* [ ] Usar biblioteca de mock
-* [ ] Mock manual
-* [ ] Teste para múltiplos sistemas operacionais
-
-### Git e Github
-
-* [ ] Organização no Github
-
-### Boas práticas de desenvolvimento
-
-* [ ] Modularização
-* [ ] Nomenclatura / Semântica
-* [ ] Linting
-
-***
+> ℹ️ Esta seção será automaticamente gerada no idioma pertinente, a partir dos
+> objetivos de aprendizagem declarados em [`project.yml`](./project.yml), ao
+> criar o repositório do projeto para uma coorte em particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Aqui você pode ver uma [lista de todos os objetivos de aprendizagem](../../learning-objectives/data.yml)
+> cobertos em nosso currículo.
 
 ## 4. Considerações gerais
 
@@ -297,10 +265,9 @@ pelo GitHub. Ver [docs oficiais dp `npm install`
 aqui](https://docs.npmjs.com/cli/install)
 
 Por exemplo, o
-[`curriculum-parser`](https://github.com/Laboratoria/curriculum-parser) que é
+[`course-parser`](https://github.com/Laboratoria/course-parser) que é
 usado para o currículo não está publicado nos registros públicos do NPM, com
-isso temos que instalar diretamente pelo GitHub com o commando `npm install
-Laboratoria/curriculum-parser`.
+isso temos que instalar diretamente pelo GitHub com o commando `npm install Laboratoria/course-parser`.
 
 ### Sugestões de implementação
 

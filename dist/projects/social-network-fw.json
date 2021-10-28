@@ -1,0 +1,12 @@
+{
+  "slug": "social-network-fw",
+  "repo": "Laboratoria/bootcamp",
+  "path": "projects/05-social-network-fw",
+  "version": "3.3.0",
+  "parserVersion": "3.0.2",
+  "createdAt": "2021-10-07T19:47:27.384Z",
+  "prefix": 5,
+  "title": "Rehaciendo tu red social usando librerías y frameworks",
+  "locale": "es-ES",
+  "track": "js"
+}

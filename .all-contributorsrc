@@ -1,5 +1,5 @@
 {
-  "projectName": "curricula-js",
+  "projectName": "bootcamp",
   "projectOwner": "Laboratoria",
   "repoType": "github",
   "repoHost": "https://github.com",
@@ -8,6 +8,9 @@
   ],
   "imageSize": 100,
   "commit": true,
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](#contribuciones)",
   "contributors": [
     {
       "login": "lupomontero",
@@ -579,7 +582,177 @@
       "contributions": [
         "maintenance"
       ]
+    },
+    {
+      "login": "luucamay",
+      "name": "Lupe CaMay",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/15850514?v=4",
+      "profile": "http://laboratoria.la",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "moniyama",
+      "name": "Monica Yamazaki",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/52083679?v=4",
+      "profile": "https://github.com/moniyama",
+      "contributions": [
+        "translation",
+        "review"
+      ]
+    },
+    {
+      "login": "gabrieluizramos",
+      "name": "Gabriel Ramos",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/13336905?v=4",
+      "profile": "https://gabrieluizramos.com.br/",
+      "contributions": [
+        "review",
+        "bug"
+      ]
+    },
+    {
+      "login": "raulingg",
+      "name": "Raul Robinson Quispe Mendez",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9435850?v=4",
+      "profile": "https://github.com/raulingg",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "reloadercf",
+      "name": "Carlos",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6140157?v=4",
+      "profile": "https://github.com/reloadercf",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "paclaraujo",
+      "name": "Paloma Araujo",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/39506102?v=4",
+      "profile": "https://github.com/paclaraujo",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "vdemario",
+      "name": "Vitor De Mario",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6087424?v=4",
+      "profile": "https://github.com/vdemario",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "betsyvies",
+      "name": "Betsy Vidal",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/30939075?v=4",
+      "profile": "https://github.com/betsyvies",
+      "contributions": [
+        "content",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "IsabellaSoares",
+      "name": "Isabella Soares de Lima",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/32148199?v=4",
+      "profile": "https://github.com/IsabellaSoares",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "dsandovalm",
+      "name": "dsandovalm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58996746?v=4",
+      "profile": "https://github.com/dsandovalm",
+      "contributions": [
+        "test"
+      ]
+    },
+    {
+      "login": "unjust",
+      "name": "Ivy Feraco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/92090?v=4",
+      "profile": "https://github.com/unjust",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "fakel",
+      "name": "Fares A. Akel C.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10450905?v=4",
+      "profile": "http://www.linkedin.com/in/fakel",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "santiaguf",
+      "name": "Santiago Bernal B",
+      "avatar_url": "https://avatars.githubusercontent.com/u/810823?v=4",
+      "profile": "https://sb.js.org",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "evelisee",
+      "name": "Evelise Vazquez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78181638?v=4",
+      "profile": "https://www.linkedin.com/in/evelisevazquez/",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "thalitagoncalves",
+      "name": "Thalita Gonçalves",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61715464?v=4",
+      "profile": "https://github.com/thalitagoncalves",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "oxfist",
+      "name": "Andrés Quilodrán",
+      "avatar_url": "https://avatars.githubusercontent.com/u/934679?v=4",
+      "profile": "https://github.com/oxfist",
+      "contributions": [
+        "bug",
+        "review",
+        "content",
+        "code"
+      ]
+    },
+    {
+      "login": "ssinuco",
+      "name": "Sergio Sinuco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16993732?v=4",
+      "profile": "https://github.com/ssinuco",
+      "contributions": [
+        "content",
+        "code",
+        "review"
+      ]
+    },
+    {
+      "login": "danielislas3",
+      "name": "Daniel Orio Islas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21324865?v=4",
+      "profile": "https://github.com/danielislas3",
+      "contributions": [
+        "review",
+        "content"
+      ]
     }
-  ],
-  "contributorsPerLine": 7
+  ]
 }

@@ -1,0 +1,226 @@
+html:
+  # - tags
+  # - attributes
+  # - block-vs-inline
+  - semantics
+
+css:
+  - selectors
+  - box-model
+  # - values-and-units
+  # - relative-vs-absolute
+  - flexbox
+  - grid
+  - media-queries
+
+browser:
+  - dom:
+      - selectors
+      - events
+      - manipulation
+  - routing
+  - storage
+  - fetch
+
+js:
+  - data-types:
+      - primitive
+      - primitive-vs-non-primitive
+      # - values-and-refs
+      # - typeof
+      # - instanceof
+      - strings
+      - arrays
+      - objects
+  - variables
+  - conditionals
+  - loops
+  - functions
+  - recursion
+  - testing:
+      - unit
+      # - cases
+      # - assertions
+      - mocks
+      - async
+      # - coverage
+      - e2e
+      - compatibility
+  - modules:
+      - es-modules
+      - commonjs
+  - linting
+  - semantics
+  - expression-vs-statement
+  - async:
+      - callbacks
+      - promises
+    # - async/await
+    # - streams
+
+scm:
+  - git:
+      - setup
+      - intro
+      - integration
+  - github:
+      - setup
+      - gh-pages
+      - collaboration
+      - project-management
+      - ci
+
+ux:
+  - user-understanding
+  - prototyping
+  - visual-design
+  - usability-testing
+
+firebase:
+  - auth
+  - firestore
+
+front-end-web-dev:
+  - components
+  - state
+  # - routing
+
+angular:
+  - components-and-templates
+  - structural-directives
+  - input-output
+  - services
+  - routing
+  - observables
+  - http-client
+  - styles
+
+react:
+  - jsx
+  - components
+  - events
+  - lists-and-keys
+  - conditional-rendering
+  - lifting-up-state
+  - hooks
+  - css-modules
+  - routing
+
+vue:
+  - instance
+  - data-and-methods
+  - components
+  - props
+  - directives
+  - iteration
+  - events
+  - computed-props-and-observers
+  - routing
+  - classes-and-styles
+
+http:
+  - request-response
+  - headers
+  - body
+  - verbs
+  - status-codes
+  - json
+  - cors
+
+node:
+  - npm-install
+  - package.json
+  - npm-scripts
+  - process
+  - filesystem
+
+express:
+  - routing
+  - middleware
+
+socket-io:
+  - client
+  - server
+
+auth:
+  - jwt
+  - password-access-and-storage
+
+webops:
+  - env-vars
+  - docker-containers
+  - docker-compose
+  - cloud-functions
+
+cicd:
+  - build-pipelines
+  - service-deployment
+  - tbd
+  - test-coverage
+  - integration-tests
+
+db:
+  - modeling
+  - connection
+  - indexes-constraints
+  # - diagramming
+  # - cap-theorem
+  # - sql-vs-nosql
+
+sql:
+  - tables
+  - crud
+  - drop
+
+postgres:
+  - psql
+  - data-types
+  - indexes
+  - dump-restore
+
+mysql:
+  - mysql
+  - data-types
+  - indexes
+  - dump-restore
+
+mongodb:
+  - crud
+  - schemas
+  - dump-restore
+  # - aggregation
+  # - transactions
+  # - inedexes
+  # - change-streams
+  # - replication
+
+slack:
+  - slash-commands
+
+php:
+  - data-types:
+      - primitive
+      - arrays
+      - objects
+  - variables
+  - control-structures
+  - functions
+  - testing:
+      - phpunit
+      - xdebug
+  - package-management:
+      - composer
+
+wordpress:
+  - plugin-development:
+      - hooks
+      - administration-menu
+      - shortcodes
+      - settings
+      - custom-post-types
+      - taxonomies
+      - users
+      - cron
+      - wordpress-rest-api
+      - wordpress-apis
+      - wordpress-plugin-directory

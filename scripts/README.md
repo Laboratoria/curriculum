@@ -1,5 +1,82 @@
 # npm-scripts
 
+## Índice
+
+* [Scripts para coaches](#Scripts-para-coaches)
+* [Testing y linters (contribuidoras)](#Testing-y-linters)
+* [Integración continua (mantenedoras)](#Integración-continua)
+* [Tareas de mantenimiento (mantenedoras)](#Tareas-de-mantenimiento)
+
+***
+
+## Scripts para coaches
+
+### create-cohort-project
+
+Este _script_ está dirigido a coaches y se usa para crear un repo de proyecto
+para usar con un cohort en particular. Las coaches de cada cohort son encargadas
+de crear un repo para cada proyecto que haya disponible en dicho cohort.
+
+⚠️ Es muy importante que todas las coaches siempre usemos este script
+para crear repos de proyectos de cohorts. Así no solo nos aseguramos de estar
+usando la versión más reciente sino que el script también se encarga de
+_analizar_ los objetivos de aprendizaje del `project.yml` del proyecto y
+genera la sección correspondiente en el `README.md` resultante en el repo para
+usar con las estudiantes.
+
+Este script necesita saber qué proyecto nos interesa, en qué lugar de nuestro
+disco duro queremos crear la carpeta para el nuevo repo y opcionalmente un
+_identificador_ para el cohort.
+
+Por ejemplo, si queremos crear un repo con el proyecto de `cipher` para un
+cohort que se llama `LIM014`, podríamos usar el siguiente comando:
+
+```sh
+npm run create-cohort-project projects/01-cipher ~/ LIM016
+```
+
+En el ejemplo de arriba estaríamos creando un repo con el proyecto `cipher`
+(que está en la carpeta `projects/01-cipher`) en la carpeta `LIM014-cipher` en
+`~/`.
+
+Para de crear también el repo en GitHub y hacer un primer commit con el
+_boilerplate_, tendremos primero que crear un
+[_GitHub Personal Access Token_](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+en GitHub y de ahí especificar la variable de entorno `GITHUB_TOKEN`. Algo así:
+
+```sh
+GITHUB_TOKEN=xxxxxx npm run create-cohort-project ./projects/01-cipher ~/ LIM014
+```
+
+Para familiarizarte con el script puedes usar la opción `--noop` para que el
+script te diga qué hubiera hecho en vez de hacerlo de verdad :wink:
+
+#### Usage
+
+`./scripts/create-cohort-project.js <src> <dest> [<cohortid>]`
+
+Variables de entorno:
+
+* `GITHUB_TOKEN`: Un _GitHub Personal Access Token_ con permiso para crear repos
+  en la cuenta de GitHub correspondiente (por ejemplo `Laboratoria`).
+
+Argumentos:
+
+* `src`: Ruta a la carpeta del proyecto en el sistema de archivos.
+* `dest`: Ruta a una carpeta donde crear la nueva carpeta de proyecto para el
+   cohort correspondiente.
+* `cohortid`: Un idendificador para el cohort. Esto se usará como prefijo en el
+  nombre de la carpeta creada y repo.
+
+Opciones:
+
+* `--locale`: Puede ser `es-ES` o `pt-BR`. Por defecto es `es-ES`.
+* `--noop`: Si esta opción está presente el script nos dirá que es lo que haríá
+  paso a paso pero sin realmente hacer nada. Es útil para familiarizarse con el
+  script.
+
+***
+
 ## Testing y linters
 
 ### mdlint
@@ -9,11 +86,7 @@ Run MarkDown linter.
 Related files: [`.mdlintignore`](../.mdlintignore), [`mdlintrc`](../.mdlintrc).
 
 ```sh
-# Run mdlint script via npm
 npm run mdlint
-
-# Run equivalent command via npx
-npx mdlint .
 ```
 
 ### eslint
@@ -23,11 +96,7 @@ Run JavaScript linter.
 Related files: [`.eslintignore`](../.eslintignore), [`eslintrc`](../.eslintrc).
 
 ```sh
-# Run eslint script via npm
 npm run eslint
-
-# Run equivalent command via npx
-npx eslint topics/
 ```
 
 ### validate
@@ -37,47 +106,74 @@ which basically allows us to validate the build without creating any files and
 simply check the exit status to see whether it passed or not.
 
 ```sh
-# Run validate script via npm
 npm run validate
-
-# Run script directly
-./scripts/build.sh --validate
 ```
 
-### test
+### test:topics
 
-Run unit tests (and implicitly the `pretest` script).
+Ejecuta pruebas unitarias en los ejercicios de los _tópicos_.
 
-NOTE: Tests are run with `mocha` because most tests are exercise tests that will
-need to run in the browser (`jest` does not run in the browser).
+NOTA: Estas pruebas se ejecutan con `mocha` ya que estas pruebas también
+necesitan ejecutarse en el navegador (`jest` no corre en el navegador).
 
 ```sh
-# Run tests with npm (and implicitly the pretest script)
-npm test
-
-# Run unit tests via npx (no pretest hook)
-npx mocha './topics/!(node_modules)/**/*.spec.js' --verbose
+# Run topics tests with npm (and implicitly the pretest script)
+npm run test:topics
 ```
 
 ### pretest
 
 The `pretest` hook makes sure that linters and validation are run _before_
-proceeding with the using tests.
+proceeding with the unit tests.
 
 ```sh
 # Run pretest script via npm
 npm run pretest
 
 # Run equivalent command
-npm run mdlint && npm run eslint && npm run validate
+npm run mdlint && npm run eslint && npm run validate && npm run test:topics
 ```
 
-## CI Related
+### test
+
+Run unit tests (and implicitly the `pretest` script).
+
+```sh
+# Run tests with npm (and implicitly the pretest script)
+npm test
+```
+
+### start
+
+Arranca la interfaz web.
+
+```sh
+npm start
+```
+
+Alternativamente:
+
+```sh
+npx react-scripts start
+```
+
+### watch
+
+Arranca la interfaz web y escucha cambios en los archivos de contenido (tópicos
+y proyectos) para automáticamente reflejar cambios localmente.
+
+```sh
+npm run watch
+```
+
+***
+
+## Integración continua
 
 ### build
 
 The `build` script uses the `curriculum-parser` to analyse both _projects_ and
-_topics_ and store the resulting JSON files in the `build` directory.
+_topics_ and store the resulting JSON files in the `dist` directory.
 
 Options:
 
@@ -85,63 +181,45 @@ Options:
   `validate` script, see above).
 
 ```sh
-# Run build script via npm
 npm run build
-
-# Run script directly
-./scripts/build.sh
 ```
 
 ### deploy
 
-Run deploy script. This script is run by Travis CI.
+Este script se ejecuta através de GitHub Actions.
 
-The deploy script is only run for builds containing a `release` or `prerelease`
-git tag. If such a tag is present it will implicitly run the `build` script
-and then POST the JSON docs to the Laboratoria API.
+El script de despliegue solo se ejecuta en builds de tags de `release` o
+`prerelease`. En caso de encontrarse un tag que comience con `v`, el script
+enviará los proyectos y tópicos que hayan en el directorio `dist` por HTTP POST
+a `api.laboratoria.la`.
 
-Env vars:
+⚠️ Antes de hacer un tag de release, es imprescindible primero actualizar el
+número de versión en `package.json`, después reconstruir el directorio `dist`
+con el comando `npm run build`, y finalmente crear la etiqueta/tag de release.
 
-* `TRAVIS_TAG`
+Variables de entorno:
+
+* `GITHUB_REF`
 * `LABORATORIA_API_EMAIL`
 * `LABORATORIA_API_PASS`
 * `LABORATORIA_API_URL`
 
-Related files: [`.travis.yml`](../.travis.yml).
+Archivos relacionados: [`.github/workflows/node.js.yml`](../.github/workflows/node.js.yml).
 
 ```sh
-./scripts/deploy.sh
+npm run deploy
 ```
 
-## Chores
+⚠️ Por el momento la interfaz web se despliegue manualmente a `firebase` a la
+hora de etiquetar el release y reconstruir la carpeta `dist`.
 
-### create-cohort-project (coaches)
+***
 
-Helper aimed at **coaches**, used to create a _copy_ of a particular project,
-as _coaches_ do when creating a repo for a specific _cohort_.
+## Tareas de mantenimiento
 
-Usage: `./scripts/create-cohort-project.sh <src> <dest> [<cohortid>]`
+### propagate
 
-Arguments:
-
-* `src`: Path to project dir in file system.
-* `dest`: Path to dir where to create the new cohort project folder.
-* `cohortid`: The _cohortid_ (legacy) or _slug_ identifying the cohort.
-
-Options:
-
-* `--locale`: Either `es-ES` or `pt-BR`. Default value is `es-ES`.
-* `--noop`: If this option is present the command will only say what it would
-  have done instead of actually doing anything. Useful to familiarize yourself
-  with the command.
-
-```sh
-./scripts/create-cohort-project.sh projects/01-cipher ~/ LIM012
-```
-
-### propagate (maintainers)
-
-Compares the current state of each project to the `master` branch of each
+Compares the current state of each project to the `main` branch of each
 private repo with the example/model implementations. If changes are detected, a
 PR will be sent with the relevant changes.
 
@@ -150,10 +228,16 @@ PR will be sent with the relevant changes.
 ./scripts/propagate.sh
 ```
 
-### create-gource-video (maintainers)
+### create-gource-video
 
 Create gource visualization like [this one](https://youtu.be/fqbcQliGPzE).
 
 ```sh
 ./scripts/create-gource-video.sh
+```
+
+### check-projects-deps
+
+```sh
+./scripts/check-projects-deps.sh
 ```

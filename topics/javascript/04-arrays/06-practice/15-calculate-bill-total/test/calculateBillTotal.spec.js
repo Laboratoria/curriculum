@@ -1,4 +1,4 @@
-const Assert = require('chai').assert;
+const { assert } = require('chai');
 const calculateBillTotal = require('../solution/calculateBillTotal');
 
 describe('calculateBillTotal()', () => {
@@ -8,7 +8,7 @@ describe('calculateBillTotal()', () => {
     const tip = preTaxAndTipAmount * (0.15);
     const total = preTaxAndTipAmount + tax + tip;
 
-    Assert.deepEqual(calculateBillTotal(preTaxAndTipAmount), total);
+    assert.deepEqual(calculateBillTotal(preTaxAndTipAmount), total);
   });
 
   it('debería regresar 24.9, para 20', () => {
@@ -17,7 +17,7 @@ describe('calculateBillTotal()', () => {
     const tip = preTaxAndTipAmount * (0.15);
     const total = preTaxAndTipAmount + tax + tip;
 
-    Assert.deepEqual(calculateBillTotal(preTaxAndTipAmount), total);
+    assert.deepEqual(calculateBillTotal(preTaxAndTipAmount), total);
   });
 
   it('debería regresar 41.085, para 33', () => {
@@ -26,6 +26,6 @@ describe('calculateBillTotal()', () => {
     const tip = preTaxAndTipAmount * (0.15);
     const total = preTaxAndTipAmount + tax + tip;
 
-    Assert.deepEqual(calculateBillTotal(preTaxAndTipAmount), total);
+    assert.deepEqual(calculateBillTotal(preTaxAndTipAmount), total);
   });
 });

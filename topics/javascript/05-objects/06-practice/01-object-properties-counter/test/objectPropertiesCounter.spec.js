@@ -1,11 +1,11 @@
-const Assert = require('chai').assert;
+const { assert } = require('chai');
 const objectPropertiesCounter = require('../solution/objectPropertiesCounter');
 
 describe('objectPropertiesCounter()', () => {
   it('debería regresar la cantidad de propiedades cuando es un objeto simple', () => {
     const obj = { name: 'John', lastname: 'Doe' };
     const output = objectPropertiesCounter(obj);
-    Assert.deepEqual(output, 2);
+    assert.deepEqual(output, 2);
   });
 
   it('debería regresar la cantidad de propiedades cuando es un objeto con propiedades anidadas', () => {
@@ -17,12 +17,12 @@ describe('objectPropertiesCounter()', () => {
       },
     };
     const output = objectPropertiesCounter(obj);
-    Assert.deepEqual(output, 2);
+    assert.deepEqual(output, 2);
   });
 
   it('debería regresar 0 cuando es un objeto vacío', () => {
     const obj = {};
     const output = objectPropertiesCounter(obj);
-    Assert.deepEqual(output, 0);
+    assert.deepEqual(output, 0);
   });
 });
