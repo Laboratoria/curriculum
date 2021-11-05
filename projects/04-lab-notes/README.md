@@ -28,7 +28,7 @@ mejor (dedicar más tiempo) en las características _específicas_ de
 nuestra aplicación.
 
 Cuando elegimos una de estas tecnologías no solo importamos un pedacito de
-código para reusarlo (lo cual es un gran valor per se), si no que adoptamos una
+código para reusar (lo cual es un gran valor per se), si no que adoptamos una
 **arquitectura**, una serie de **principios de diseño**, un **paradigma**, unas
 **abstracciones**, un **vocabulario**, una **comunidad**, etc.
 
@@ -49,7 +49,8 @@ Hoy en día las personas contamos con algún dispositivo móvil o
 laptop y además nos estamos preocupando por implementar acciones para
 salvar el medio ambiente, además el uso de notas en el trabajo remoto se vuelve
 indispensable para aquello que debemos apuntar en el día con día, por ello a una
-Laboratorian se le ocurre la idea de implementar una web app para tomar notas,
+Laboratorian se le ocurre la idea de tener una herramienta como
+una web app para tomar notas,
 que nos permita crear, editar, eliminar y consultar las notas en cualquier
 momento.
 
@@ -60,8 +61,8 @@ de Laboratoria para implementar la idea, por lo cual te invitamos a colaborar.
 
 ![Shows CRUD functionalities](https://raw.githubusercontent.com/florenciasilva/lab-notes/master/demo-crud.gif?token=AGJBHNTVAQRWOVF2IGMP6FK5NVFAS)
 
-Para este proyecto necesitas crear una Web App con _algún Framework de
-JavaScript_ y _Firebase_.
+Para este proyecto necesitas crear una Web App con `cualquier librería o
+framework de JavaScript` y `Firebase`.
 
 Si bien la temática es libre, tu aplicación tendrá que tener ciertas
 funcionalidades básicas:
@@ -86,12 +87,13 @@ aunque no serán los únicos archivos que quizás tendrás que crear.
 
 * `README.md` es donde se encontrará la descripción del proyecto y elementos
   relevantes de tu proyecto.
+* `.editorconfig` este archivo contiene la configuración para editores de texto.
 * `.gitignore`  este archivo contiene reglas para ignorar `node_modules` u otras
   carpetas que no deban incluirse en control de versiones (`git`).
 * `.eslintrc` este archivo contiene reglas para formatear el código además de
-  ser una buena practica tener configurado un linter.
+ser una buena practica tener configurado un linter.
 
-## 3. Objetivo de Aprendizaje
+## 3. Objetivos de Aprendizaje
 
 El objetivo principal de es aprender a construir una _interfaz web_ usando
 el _framework_ elegido. Todos estos frameworks de Frontend atacan el mismo
@@ -101,7 +103,7 @@ cómo cada cambio sobre el estado se va a ir reflejando en la interfaz (por
 ejemplo, cada vez que agregamos una _nota_, la interfaz debe actualizar la lista
 de notas).
 
-![Framewoks-img](https://miro.medium.com/max/700/1*paPkmhDhXifPg-64om52og.jpeg)
+![frameworks-img](https://miro.medium.com/max/700/1*paPkmhDhXifPg-64om52og.jpeg)
 
 ### HTML y CSS
 
@@ -181,8 +183,8 @@ de notas).
 
 * Este proyecto se debe "resolver" de forma individual.
 
-* La duración propuesta del proyecto es 4 sprints, con una duración de unasemana
-  cada uno.
+* La duración propuesta del proyecto es 4 sprints, con una duración de una
+semana cada uno.
 
 * Trabaja en una historia hasta terminarla antes de pasar a la siguiente.
 
@@ -205,11 +207,33 @@ que es el resultado de su trabajo colaborativo.
 
 ***
 
-#### [Historia de usuario 1] Usuaria/o debe poder tomar nota
+#### [Historia de usuario 1] Usuaria/o debería poder tomar nota
 
-Yo como usuaria quiero tomar nota para no depender de mi mala
+Yo como usuaria de lab-notes quiero tomar nota para no depender de mi mala
 memoria y tener presente en todo momento los apuntes ó cosas importantes que
 antes escribía en papel.
+
+***
+
+#### [Historia de usuario 2] Usuaria/o debería poder ver las notas
+
+Yo como usuaria de lab-notes quiero leer mis notas para recordar lo que escribí
+antes.
+
+***
+
+#### [Historia de usuario 3] Usuaria/o debería poder editar las notas
+
+Yo como usuaria de lab-notes quiero editar notas para poder modificar lo que
+escribí antes.
+
+***
+
+#### [Historia de usuario 4] Usuaria/o debería poder borrar notas
+
+Yo como usuaria de lab-notes quiero borrar una nota para no volver a verla.
+
+***
 
 ##### Criterios de aceptación
 
@@ -239,8 +263,8 @@ Una vez que hayas terminado las funcionalidades base del proyecto, puedes
 pasarte a esta sección.
 
 * Si la usuaria empieza a escribir una nota y por alguna razón la pestaña del
-  navegador se cierra, cuando la vuelva a abrir, la nota debería mostrarse como
-  estaba.
+navegador se cierra, cuando la vuelva a abrir, la nota debería mostrarse como
+estaba.
 * Subir imágenes.
 * Ver el número de veces que he editado mi nota.
 * Consumo de API/s (Google Maps, Spotify, Pinterest, etc.)
@@ -270,17 +294,6 @@ pasarte a esta sección.
 * [offlinefirst.org](http://offlinefirst.org/)
 * [Usando Service Workers - MDN](https://developer.mozilla.org/es/docs/Web/API/Service_Worker_API/Using_Service_Workers)
 * [Cómo habilitar datos sin conexión - Firebase Docs](https://firebase.google.com/docs/firestore/manage-data/enable-offline?hl=es-419)
-
-### Serverless
-
-* [Qué es eso de serverless? - @PamRucinque en Medium](https://medium.com/@PamRucinque/qu%C3%A9-es-eso-de-serverless-f4f6c8949b87)
-* [Qué es Serverless? | FooBar - YouTube](https://www.youtube.com/watch?v=_SYHUpLi-2U)
-* [Firebase](https://firebase.google.com/)
-* [Serverless Architectures - Martin Fowler](https://www.martinfowler.com/articles/serverless.html)
-
-### Cloud functions
-
-* [Cloud functions - Firebase Docs](https://firebase.google.com/docs/functions/?hl=es-419)
 
 ### Otros recursos
 
