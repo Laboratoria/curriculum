@@ -314,10 +314,142 @@ ux/prototyping:
   title: Crear prototipos para obtener feedback e iterar
 
 ux/visual-design:
-  title: Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
+  title: Aplicar los principios de diseño visual
 
 ux/usability-testing:
   title: Planear y ejecutar tests de usabilidad
+
+ux/user-centricity/centricity:
+  title: Diseñar un producto o servicio poniendo al usuario en el centro
+
+ux/user-centricity/persistency:
+  title: Tomar en cuenta las necesidades de los usuarios a lo largo de todo el proceso de diseño
+
+ux/user-centricity/prioritization:
+  title: Identificar y priorizar usuarios relevantes para el proyecto
+
+ux/business/alignment:
+  title: Alinear los objetivos del negocio con los del proyecto
+
+ux/business/model:
+  title: Entender el modelo de negocio
+
+ux/business/goals:
+  title: Considerar los objetivos del negocio durante el desarrollo del proyecto
+
+ux/business/metrics:
+  title: Definir métricas relevantes para validar el cumplimiento de los objetivos del negocio
+
+ux/business/benchmark:
+  title: Entender estado del negocio en relación con el mercado local y global
+
+ux/research/planning:
+  title: Planificar investigación basada en las necesidades del proyecto
+
+ux/research/support:
+  title: Elegir y sustentar el # usuarios que participan en actividades de investigación
+
+ux/research/guidelines:
+  title: Crear y probar guía de actividades de investigación
+
+ux/research/interview:
+  title: Realizar entrevistas con usuarios empáticas y sin sesgos
+
+ux/research/documentation:
+  title: Documentar entrevistas y testeos
+
+ux/research/adaptation:
+  title: Adaptar plan de investigación de acuerdo a resultados obtenidos
+
+ux/research/sources:
+  title: Identificar y revisar distintas fuentes de información e inspiración relevantes para el proyecto
+
+ux/research/test:
+  title: Planear y ejecutar testeos de usabilidad de prototipos en distintos niveles de fidelidad
+
+ux/research/analytics:
+  title: Utilizar herramientas de analítica
+
+ux/research/cuantitative-data:
+  title: Analizar e interpretar data cuantitativa
+
+ux/synthesis/weighing:
+  title: Distinguir observaciones, data y/o respuestas que aportan valor al proyecto
+
+ux/synthesis/patterns:
+  title: Encontrar patrones en los resultados de la investigación
+
+ux/synthesis/insights:
+  title: Diferenciar entre insights, hallazgos y observaciones
+
+ux/synthesis/mapping:
+  title: Mapear experiencias de clientes a través de herramientas de síntesis como el Service Blueprint y/o el Customer Journey Map
+
+ux/synthesis/features:
+  title: Definir funcionalidades del producto o servicio
+
+ux/synthesis/ideation:
+  title: Generar múltiples ideas de solución al reto del proyecto
+
+ux/synthesis/feature-prioritization:
+  title: Priorizar posibles soluciones reto del proyecto basandose en los objetivos del proyecto, las necesidades del usuario y las factibilidad de implementación
+
+ux/product-design/user-flows:
+  title: Priorizar y proponer flujos de usuario que les ayuden a conseguir sus objetivos con el producto
+
+ux/product-design/content:
+  title: Identificar y priorizar contenidos relevantes y necesarios para el producto
+
+ux/product-design/fidelity:
+  title: Diseñar en distintos niveles de fidelidad
+
+ux/product-design/interactivity:
+  title: Crear prototipos de alta fidelidad que incluyan interacciones
+
+ux/product-design/usability:
+  title: Diseñar producto o servicio siguiendo mejores prácticas de usabilidad
+
+ux/product-design/accessibility:
+  title: Diseñar producto o servicio siguiendo mejores prácticas de accesibilidad
+
+ux/product-design/visual-design:
+  title: Seguir los principios básicos de diseño visual
+
+ux/product-design/component-organization:
+  title: Construir y mantener una librería de componentes y estilos organizada
+
+ux/product-design/interface-guidelines:
+  title: Entender y utilizar las guías de interfaces de iOS, Android y Material Design
+
+ux/product-design/project-organization:
+  title: Nombrar, organizar, agrupar las capas (layers) del diseño siguiendo buenas prácticas
+
+ux/product-design/documentation:
+  title: Documentar casos de uso para los distintos componentes de la interfaz
+
+ux/product-design/naming:
+  title: Utilizar nombres de elementos estándares para la plataforma en la que diseña
+
+ux/product-design/handoff:
+  title: Documentar requerimentos de diseño para equipo de desarrollo utilizando herramientas de handoff
+
+ux/communication/presentation:
+  title: Presentar y sustentar propuestas a clientes
+
+ux/communication/negotiation:
+  title: Negociar efectivamente con clientes
+
+ux/communication/relationship-management:
+  title: Manejar relaciones con clientes
+
+ux/planning/monitor:
+  title: Organizar  y dar seguimiento a actividades a desarrollarse durante el proyecto
+
+ux/planning/prioritization:
+  title: Priorizar actividades a desarrollarse durante el proyecto
+
+ux/planning/tools:
+  title: Elegir las herramientas y métodos a utilizar de acuerdo a las necesidades  del proyecto
 
 firebase: Firebase
 
