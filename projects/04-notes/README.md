@@ -37,6 +37,11 @@ Como desarrolladora front-end, estos kits de desarrollo pueden resultarte
 de gran ayuda para implementar rápidamente características de los proyectos en
 los que trabajes.
 
+## 2. Resumen del Proyecto
+
+En este proyecto construiremos una aplicación para tomar notas, que nos permita
+crear, editar, eliminar y consultarlas en cualquier momento.
+
 No existe día que no tomemos notas, siempre necesitamos apuntar alguna
 dirección, número telefónico, notas de alguna reunión o guardar nuestras URLs
 favoritas para poder consultarlas más tarde. Muchas veces para esta actividad
@@ -44,21 +49,7 @@ utilizamos libretas o agendas que terminan siendo olvidadas, o anotamos de
 manera dispersa de tal manera que perdemos de vista la prioridad y el propósito
 de la nota lo cual da como resultado una nota perdida.
 
-Hoy en día las personas contamos con algún dispositivo móvil o
-laptop y además nos estamos preocupando por implementar acciones para
-salvar el medio ambiente, además el uso de notas en el trabajo remoto se vuelve
-indispensable para aquello que debemos apuntar en el día con día, por ello a una
-Laboratorian se le ocurre la idea de tener una herramienta como
-una web app para tomar notas,
-que nos permita crear, editar, eliminar y consultar las notas en cualquier
-momento.
-
-## 2. Resumen del Proyecto
-
-Ella está enamorada de la idea y quiere llevarla a cabo, pero no tiene el tiempo
-necesario para empezar el proyecto, planea que sea un proyecto independiente a
-su trabajo, por ello está buscando algunas colaboradoras dentro de la comunidad
-de Laboratoria para implementar la idea, por lo cual te invitamos a colaborar.
+![Shows CRUD functionalities](https://raw.githubusercontent.com/florenciasilva/lab-notes/master/demo-crud.gif?token=AGJBHNTVAQRWOVF2IGMP6FK5NVFAS)
 
 El objetivo principal de este proyecto es aprender a construir una _interfaz
 web_ usando el _framework_ elegido. Todos estos frameworks de Frontend atacan el
@@ -67,27 +58,6 @@ esta experiencia espera familiarizarte con el concepto de _estado de pantalla_,
 y cómo cada cambio sobre el estado se va a ir reflejando en la interfaz (por
 ejemplo, cada vez que agregamos una _nota_, la interfaz debe actualizar la lista
 de notas).
-
-![Shows CRUD functionalities](https://raw.githubusercontent.com/florenciasilva/lab-notes/master/demo-crud.gif?token=AGJBHNTVAQRWOVF2IGMP6FK5NVFAS)
-
-Para este proyecto necesitas crear una Web App con **cualquier librería o
-framework de JavaScript** y **Firebase**.
-
-Si bien la temática es libre, tu aplicación tendrá que tener ciertas
-funcionalidades básicas:
-
-* Autenticación con correo y/o Google y/o Facebook.
-* Cerrar sesión.
-* Crear una nueva nota.
-* Ver mis notas.
-* Editar mis notas.
-* Borrar mis notas.
-
-Para este proyecto tendrás que manejar _vistas_. Esto significa que cada sección
-tendrá su propia URL, la cual indica que _vista_ o _componente_ será mostrado en
-pantalla. Para ello necesitaremos investigar acerca de _la API para el manejo de
-rutas (en la librería o framework que elijas)_ y el concepto de _Single Page
-Application_.
 
 ## 3. Objetivos de Aprendizaje
 
@@ -127,31 +97,38 @@ que es el resultado de su trabajo colaborativo.
 
 ***
 
-#### [Historia de usuaria 1] Debería poder tomar nota
+### Historias de usuaria
 
-Yo como usuaria de lab-notes quiero tomar nota para no depender de mi mala
+#### [Historia de usuaria 1] Debería poder crear cuenta, iniciar y cerrar sesión
+
+Yo como usuaria debo poder crear una cuenta y autenticarme usando login de
+Google para acceder a mis notas.
+
+#### [Historia de usuaria 2] Debería poder tomar nota
+
+Yo como usuaria quiero tomar nota para no depender de mi mala
 memoria y tener presente en todo momento los apuntes ó cosas importantes que
 antes escribía en papel.
 
 ***
 
-#### [Historia de usuaria 2] Debería poder ver las notas
+#### [Historia de usuaria 3] Debería poder ver las notas
 
-Yo como usuaria de lab-notes quiero leer mis notas para recordar lo que escribí
+Yo como usuaria quiero leer mis notas para recordar lo que escribí
 antes.
 
 ***
 
-#### [Historia de usuaria 3] Debería poder editar las notas
+#### [Historia de usuaria 4] Debería poder editar las notas
 
-Yo como usuaria de lab-notes quiero editar notas para poder modificar lo que
+Yo como usuaria quiero editar notas para poder modificar lo que
 escribí antes.
 
 ***
 
-#### [Historia de usuaria 4] Debería poder borrar notas
+#### [Historia de usuaria 5] Debería poder borrar notas
 
-Yo como usuaria de lab-notes quiero borrar una nota para no volver a verla.
+Yo como usuaria quiero borrar una nota para no volver a verla.
 
 ***
 
@@ -187,6 +164,15 @@ aunque no serán los únicos archivos que quizás tendrás que crear.
   carpetas que no deban incluirse en control de versiones (`git`).
 * `.eslintrc` este archivo contiene reglas para formatear el código además de
   ser una buena practica tener configurado un linter.
+
+Para este proyecto necesitas crear una Web App con **una librería o
+framework de JavaScript** (`React`, `Angular` o `Vue`) y **Firebase**.
+
+Para este proyecto tendrás que manejar _vistas_. Esto significa que cada sección
+tendrá su propia URL, la cual indica que _vista_ o _componente_ será mostrado en
+pantalla. Para ello necesitaremos investigar acerca de _la API para el manejo de
+rutas (en la librería o framework que elijas)_ y el concepto de _Single Page
+Application_.
 
 ## 7. Hacker Edition
 
