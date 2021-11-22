@@ -104,6 +104,8 @@ que es el resultado de su trabajo colaborativo.
 Yo como usuaria debo poder crear una cuenta y autenticarme usando login de
 Google para acceder a mis notas.
 
+***
+
 #### [Historia de usuaria 2] Debería poder tomar nota
 
 Yo como usuaria quiero tomar nota para no depender de mi mala
