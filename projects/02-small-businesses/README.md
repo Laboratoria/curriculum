@@ -39,80 +39,13 @@ elegir a:
 
 ## 3. Objetivos de aprendizaje
 
-### User Centricity
-
-* [ ] Diseñar un producto o servicio poniendo al usuario en el centro.
-* [ ] Tomar en cuenta las necesidades de los usuarios a lo largo de todo el
-      proceso de diseño.
-* [ ] Identificar y priorizar usuarios relevantes para el proyecto.
-
-### Business mindset
-
-* [ ] Alinear los objetivos del negocio con los del proyecto.
-* [ ] Entender el modelo de negocio.
-* [ ] Considerar los objetivos del negocio durante el desarrollo del proyecto.
-* [ ] Entender estado del negocio en relación con el mercado local y global.
-
-### Research
-
-* [ ] Planificar investigación basada en las necesidades del proyecto.
-* [ ] Elegir y sustentar el # usuarios que participan en actividades de
-      investigación.
-* [ ] Crear y probar guía de actividades de investigación (entrevistas,
-      testeos, etc.)
-* [ ] Realizar entrevistas con usuarios empáticas y sin sesgos.
-* [ ] Documentar entrevistas y testeos.
-* [ ] Adaptar plan de investigación de acuerdo a resultados obtenidos.
-* [ ] Identificar y revisar distintas fuentes de información e inspiración
-      relevantes para el proyecto.
-* [ ] Planear y ejecutar testeos de usabilidad de prototipos en distintos
-      niveles de fidelidad (si corresponde).
-
-### Síntesis
-
-* [ ] Distinguir observaciones, data y/o respuestas que aportan valor al
-      proyecto.
-* [ ] Encontrar patrones en los resultados de la investigación.
-* [ ] Diferenciar entre insights,hallazgos y observaciones.
-* [ ] Mapear experiencias de clientes a través de herramientas de síntesis como
-      el Service Blueprint y/o el Customer Journey Map.
-* [ ] Definir funcionalidades del producto o servicio.
-* [ ] Generar múltiples ideas de solución al reto del proyecto.
-* [ ] Priorizar posibles soluciones reto del proyecto basándose en los
-      objetivos del proyecto, las necesidades del usuario y las factibilidad de
-      implementación.
-
-### Diseño de producto
-
-* [ ] Priorizar y proponer flujos de usuario que les ayuden a conseguir sus
-      objetivos con el producto.
-* [ ] Identificar y priorizar contenidos relevantes y necesarios para el
-      producto.
-* [ ] Diseñar en distintos niveles de fidelidad.
-* [ ] Crear prototipos de alta fidelidad que incluyan interacciones (ej.
-      pantallas de carga, pantallas de error).
-* [ ] Diseñar producto o servicio siguiendo mejores prácticas de usabilidad.
-* [ ] Diseñar producto o servicio siguiendo mejores prácticas de accesibilidad.
-* [ ] Seguir los principios básicos de diseño visual.
-* [ ] Construir y mantener una librería de componentes y estilos organizada.
-* [ ] Nombrar, organizar, agrupar las capas (layers) del diseño siguiendo
-      buenas prácticas.
-* [ ] Utilizar nombres de elementos estándares para la plataforma en la que
-      diseña.
-
-### Planificación
-
-* [ ] Organizar y dar seguimiento a actividades a desarrollarse durante el
-      proyecto.
-* [ ] Priorizar actividades a desarrollarse durante el proyecto.
-* [ ] Elegir las herramientas y métodos a utilizar de acuerdo a las
-      necesidades  del proyecto.
-
-### Comunicación
-
-* [ ] Presentar y sustentar propuestas a clientes.
-* [ ] Negociar efectivamente con clientes.
-* [ ] Manejar relaciones con clientes.
+> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
+> al crear el repo del proyecto para un cohort en particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
+> que contempla nuestra currícula.
 
 ## 4. Entregables
 

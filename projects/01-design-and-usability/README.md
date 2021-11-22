@@ -39,41 +39,13 @@ negocio para el sitio web que elegiste.
 
 ## 3. Objetivos de aprendizaje
 
-### User Centricity
-
-- [ ] Diseñar un producto o servicio poniendo al usuario en el centro.
-- [ ] Tomar en cuenta las necesidades de los usuarios a lo largo de todo el
-      proceso de diseño.
-
-### Research
-
-- [ ] Elegir y sustentar el # usuarios que participan en sesiones de entrevistas
-      y testeos.
-- [ ] Planear y ejecutar testeos de usabilidad de prototipos en distintos
-      niveles de fidelidad.
-- [ ] Identificar y revisar distintas fuentes de información e inspiración
-      relevantes para el proyecto.
-- [ ] Documentar entrevistas y testeos.
-
-### Síntesis
-
-- [ ] Encontrar patrones en los resultados de la investigación.
-- [ ] Definir funcionalidades del producto o servicio.
-- [ ] Priorizar posibles soluciones reto del proyecto basándose en los
-      objetivos del proyecto, las necesidades del usuario y las factibilidad
-      de implementación.
-
-### Diseño de producto
-
-- [ ] Identificar contenidos relevantes en el producto.
-- [ ] Diseñar producto o servicio siguiendo mejores prácticas de usabilidad.
-- [ ] Seguir los principios básicos de diseño visual.
-
-### Planificación
-
-- [ ] Organizar y dar seguimiento a actividades a desarrollarse durante el
-      proyecto.
-- [ ] Priorizar actividades a desarrollarse durante el proyecto.
+> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
+> al crear el repo del proyecto para un cohort en particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
+> que contempla nuestra currícula.
 
 ## 4. Criterios de aceptación mínimos del proyecto
 
