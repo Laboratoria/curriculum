@@ -153,9 +153,18 @@ const addLocalizedLearningObjectives = async (repoDir, opts) => {
     throw new Error('README.md is missing Learning Objectives heading');
   }
 
-  const endIndex = startIndex + contents.slice(startIndex + 1).findIndex(line => /^## /.test(line));
+  const endIndex = (
+    startIndex
+    + contents.slice(startIndex + 1).findIndex(line => /^## /.test(line))
+  );
+
   const updatedContent = contents.slice(0, startIndex + 1)
-    .concat('', intl.description, text.trim(), contents.slice(endIndex))
+    .concat(
+      '',
+      intl.description,
+      text.trim(),
+      endIndex > startIndex ? contents.slice(endIndex) : '',
+    )
     .join('\n')
     .replace(/\.\.\/\.\.\/topics\//g, `${uiUrl}/${lang}/topics/`);
 
@@ -289,7 +298,7 @@ Este es un mensaje de ayuda para que puedas usarlo.
 
     # crea el proyecto Markdown Links en la ruta actual para LIM042
     npm run create-cohort-project projects/04-md-links ./ LIM042
-    
+
 Acá puedes encontrar la documentación completa:
 https://github.com/Laboratoria/bootcamp/tree/main/scripts#create-cohort-project
 `);

@@ -35,31 +35,13 @@ Para ello, podrás elegir entre 3 opciones, y cada una con unas páginas sugerid
 
 ## 3. Objetivos de aprendizaje
 
-### Planificación
-
-* Organizar  y dar seguimiento a actividades a desarrollarse durante el
-  proyecto.
-* Priorizar actividades a desarrollarse durante el proyecto.
-* Elegir las herramientas y métodos a utilizar de acuerdo a las necesidades del
-  proyecto.
-
-### Diseño de producto
-
-* [ ] Priorizar y proponer flujos de usuario que les ayuden a conseguir sus
-      objetivos con el producto.
-* [ ] Identificar y priorizar contenidos relevantes y necesarios para el
-      producto.
-* [ ] Diseñar en distintos niveles de fidelidad.
-* [ ] Crear prototipos de alta fidelidad que incluyan interacciones (ej.
-      pantallas de carga, pantallas de error).
-* [ ] Diseñar producto o servicio siguiendo mejores prácticas de usabilidad.
-* [ ] Diseñar producto o servicio siguiendo mejores prácticas de accesibilidad.
-* [ ] Seguir los principios básicos de diseño visual.
-* [ ] Construir y mantener una librería de componentes y estilos organizada.
-* [ ] Nombrar, organizar, agrupar las capas (layers) del diseño siguiendo
-      buenas prácticas.
-* [ ] Utilizar nombres de elementos estándares para la plataforma en la que
-      diseña.
+> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
+> al crear el repo del proyecto para un cohort en particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
+> que contempla nuestra currícula.
 
 ## 4. Entregable
 

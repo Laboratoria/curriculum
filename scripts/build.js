@@ -162,6 +162,7 @@ buildItems([
   { type: 'project', id: '04-burger-queen-api-client', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '04-md-links', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '04-news-alerts', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '04-notes', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-battleship', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-chat-app', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-fleet-management', locale: 'es-ES', track: 'js' },

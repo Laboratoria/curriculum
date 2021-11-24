@@ -75,7 +75,58 @@ ux:
   - prototyping
   - visual-design
   - usability-testing
-
+  - user-centricity:
+    - centricity
+    - persistency
+    - prioritization
+  - business:
+    - alignment
+    - model
+    - goals
+    - metrics
+    - benchmark
+  - research:
+    - planning
+    - support
+    - guidelines
+    - interview
+    - documentation
+    - adaptation
+    - sources
+    - test
+    - analytics
+    - cuantitative-data
+  - synthesis:
+    - weighing
+    - patterns
+    - insights
+    - mapping
+    - features
+    - ideation
+    - feature-prioritization
+  - product-design:
+    - user-flows
+    - content
+    - fidelity
+    - interactivity
+    - usability
+    - accessibility
+    - visual-design
+    - component-organization
+    - interface-guidelines
+    - project-organization
+    - documentation
+    - naming
+    - handoff
+  - communication:
+    - presentation
+    - negotiation
+    - relationship-management
+  - planning:
+    - monitor
+    - prioritization
+    - tools
+    
 firebase:
   - auth
   - firestore
