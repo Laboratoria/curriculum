@@ -36,7 +36,6 @@ const Topics = ({ topics, track }) => {
     filteredTopics.splice(jsTopicIdx, 1);
     filteredTopics.unshift(jsTopic);
   }
-  console.log(jsTopicIdx);
   return (
     <div>
       <Typography variant="h2">
