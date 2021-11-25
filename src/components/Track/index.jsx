@@ -43,11 +43,26 @@ const Track = () => {
     return <Loading />;
   }
 
+  const heading = (
+    <Typography variant="h1">
+      <FormattedMessage id={track === 'js' ? 'webDev' : 'ux'} />
+    </Typography>
+  );
+
+  if (track === 'ux' && lang === 'pt') {
+    return (
+      <Container>
+        {heading}
+        <p>
+          Este conteúdo não está disponível atualmente em português.
+        </p>
+      </Container>
+    );
+  }
+
   return (
     <Container>
-      <Typography variant="h1">
-        <FormattedMessage id={track === 'js' ? 'webDev' : 'ux'} />
-      </Typography>
+      {heading}
       <Tabs value={history.location.pathname}>
         <Tab
           label={intl.formatMessage({ id: 'projects' })}
