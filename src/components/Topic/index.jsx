@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link, Route, Switch, useParams, useRouteMatch } from 'react-router-dom';
+import { Link, Route, Routes, useParams } from 'react-router-dom';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Loading from '../Loading';
@@ -8,7 +8,7 @@ import Exercise from '../Exercise';
 import Part from '../Part';
 import data from '../../lib/data';
 
-const Unit = ({ topic, url }) => {
+const Unit = ({ topic }) => {
   const params = useParams();
   const unit = topic.syllabus[params.unit];
 
@@ -18,7 +18,7 @@ const Unit = ({ topic, url }) => {
       <Typography variant="h2">{unit.title}</Typography>
       {Object.keys(unit.parts).map(key => (
         <div key={key}>
-          <Link to={`${url}/${params.unit}/${key}`}>
+          <Link to={`${key}`}>
             {unit.parts[key].title}
           </Link>
         </div>
@@ -27,18 +27,18 @@ const Unit = ({ topic, url }) => {
   );
 };
 
-const UnitsList = ({ topic, url }) => (
+const UnitsList = ({ topic }) => (
   <>
     <Breadcrumbs topic={topic} />
     <Typography variant="h2">{topic.title}</Typography>
     {Object.keys(topic.syllabus).map(key => (
       <div key={key}>
-        <Link to={`${url}/${key}`}>
+        <Link to={`${key}`}>
           <Typography variant="h3">{topic.syllabus[key].title}</Typography>
         </Link>
         {Object.keys(topic.syllabus[key].parts).map(partKey => (
           <div key={`${key}-${partKey}`}>
-            <Link to={`${url}/${key}/${partKey}`}>
+            <Link to={`${key}/${partKey}`}>
               {topic.syllabus[key].parts[partKey].title}
             </Link>
           </div>
@@ -49,7 +49,6 @@ const UnitsList = ({ topic, url }) => (
 );
 
 const Topic = () => {
-  let { path, url } = useRouteMatch();
   const { lang, slug } = useParams();
   const [topic, setTopic] = useState();
 
@@ -67,20 +66,12 @@ const Topic = () => {
 
   return (
     <Container>
-      <Switch>
-        <Route path={`${path}/:unit/:part/:exerciseid`}>
-          <Exercise topic={topic} />
-        </Route>
-        <Route path={`${path}/:unit/:part`}>
-          <Part topic={topic} />
-        </Route>
-        <Route path={`${path}/:unit`}>
-          <Unit topic={topic} url={url} />
-        </Route>
-        <Route exact path={path}>
-          <UnitsList topic={topic} url={url} />
-        </Route>
-      </Switch>
+      <Routes>
+        <Route path=":unit/:part/:exerciseid/*" element={<Exercise topic={topic} />} />
+        <Route path=":unit/:part" element={<Part topic={topic} />} />
+        <Route path=":unit" element={<Unit topic={topic} />} />
+        <Route path="" element={<UnitsList topic={topic} />} />
+      </Routes>
     </Container>
   );
 };
