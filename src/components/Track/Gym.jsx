@@ -7,6 +7,7 @@ import ExercisesList from '../Part/ExercisesList';
 const topicsOrder = ['javascript', 'paradigms', 'functional'];
 
 const Topic = ({ topic, lang }) => {
+  const topicSlug = lang === 'pt' ? topic.slug.slice(0, -3) : topic.slug;
   return (
     <div>
       <Typography variant="h3">{topic.title}</Typography>
@@ -26,7 +27,7 @@ const Topic = ({ topic, lang }) => {
                   : (
                     <ExercisesList
                       key={partSlug}
-                      slug={`/${lang}/topics/${topic.slug}/${unitSlug}/${partSlug}`}
+                      slug={`/${lang}/topics/${topicSlug}/${unitSlug}/${partSlug}`}
                       exercises={Object.keys(part.exercises).map(exerciseKey => ({
                         slug: exerciseKey,
                         ...part.exercises[exerciseKey],

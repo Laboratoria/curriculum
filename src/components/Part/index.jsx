@@ -19,10 +19,7 @@ const Part = ({ topic }) => {
       <Typography variant="h1">{part.title}</Typography>
       <Content html={part.body} />
       {!!exercises.length && (
-        <ExercisesList
-          slug={params.part}
-          exercises={exercises}
-        />
+        <ExercisesList exercises={exercises} />
       )}
       {!!part.questions && <Quiz topic={topic} part={part} />}
     </>
