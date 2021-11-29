@@ -754,6 +754,15 @@
         "review",
         "content"
       ]
+    },
+    {
+      "login": "mfdebian",
+      "name": "Alfredo González",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12631491?v=4",
+      "profile": "https://github.com/mfdebian",
+      "contributions": [
+        "review"
+      ]
     }
   ]
 }
