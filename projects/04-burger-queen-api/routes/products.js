@@ -75,7 +75,6 @@ module.exports = (app, nextMain) => {
   app.post('/products', requireAdmin, (req, resp, next) => {
   });
 
-
   /**
    * @name PUT /products
    * @description Modifica un producto
