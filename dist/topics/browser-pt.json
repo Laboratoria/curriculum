@@ -1,6 +1,6 @@
 {
   "slug": "browser-pt",
-  "createdAt": "2021-10-07T19:47:45.489Z",
+  "createdAt": "2021-11-30T14:02:30.939Z",
   "title": "Browser JavaScript",
   "description": "<p>Este <em>tópico</em> cubre JavaScript en el contexto del navegador.</p>\n",
   "tags": {
@@ -1401,8 +1401,8 @@
   "references": "",
   "repo": "Laboratoria/bootcamp",
   "path": "topics/browser",
-  "version": "3.3.0",
-  "parserVersion": "3.0.2",
+  "version": "4.0.0",
+  "parserVersion": "3.1.0",
   "track": "js",
   "locale": "pt-BR",
   "stats": {
