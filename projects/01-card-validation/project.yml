@@ -19,6 +19,6 @@ learningObjectives:
   - scm/git/intro
   - scm/github/setup
   - scm/github/gh-pages
-  - ux/user-understanding
-  - ux/prototyping
-  - ux/visual-design
+  - user-centricity/centricity
+  - product-design/interactivity
+  - product-design/visual-design

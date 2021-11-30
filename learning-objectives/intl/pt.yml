@@ -302,16 +302,16 @@ scm/github/ci:
 
 ux: UX (User eXperience)
 
-ux/user-understanding:
+user-centricity/centricity:
   title: Desenhar a aplicação pensando e entendendo o usuário
 
-ux/prototyping:
+product-design/interactivity:
   title: Criar protótipos para obter feedback e iterar
 
-ux/visual-design:
+product-design/visual-design:
   title: Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
 
-ux/usability-testing:
+research/test:
   title: Planejar e executar testes de usabilidade
 
 firebase: Firebase
