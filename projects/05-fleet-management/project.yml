@@ -1,0 +1,15 @@
+learningObjectives:
+  - node
+  - db/modeling
+  - db/connection
+  - db/indexes-constraints
+  - sql/tables
+  - sql/crud
+  - sql/drop
+  - postgres/psql
+  - postgres/data-types
+  - postgres/dump-restore
+  - postgres/indexes
+  - react
+  - vue
+  - angular

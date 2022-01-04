@@ -1,6 +1,6 @@
 {
   "slug": "css",
-  "createdAt": "2021-07-12T22:08:25.012Z",
+  "createdAt": "2021-11-30T14:02:23.506Z",
   "title": "CSS",
   "description": "",
   "tags": {
@@ -466,8 +466,8 @@
               "title": "6) ¿Cuál es la diferencia entre display:inline-block y display:inline?",
               "description": "",
               "answers": [
-                "A un elemento inline no se le puede determinar dimensiones, mientras que a\nuno inline-block sí",
-                "A un elemento inline-block no se le puede determinar dimensiones, mientras\nque a uno inline sí",
+                "A un elemento inline no se le puede determinar dimensiones, mientras que a\n  uno inline-block sí",
+                "A un elemento inline-block no se le puede determinar dimensiones, mientras\n  que a uno inline sí",
                 "No hay diferencias entre ambos",
                 "Un elemento inline no aparece en pantalla, mientras que un inline-block sí"
               ],
@@ -1450,8 +1450,8 @@
   "references": "",
   "repo": "Laboratoria/bootcamp",
   "path": "topics/css",
-  "version": "3.1.0",
-  "parserVersion": "3.0.0",
+  "version": "4.0.0",
+  "parserVersion": "3.1.0",
   "track": "js",
   "locale": "es-ES",
   "stats": {

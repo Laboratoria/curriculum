@@ -21,6 +21,8 @@ Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin, etc. As redes sociais
 invadiram nossas vidas. Nós as amamos ou odiamos, e muitas pessoas não conseguem
 viver sem elas.
 
+![adem-ay-Tk9m_HP4rgQ-unsplash](https://user-images.githubusercontent.com/110297/135544666-4efa54f1-4ff6-4c4c-b398-6df04ef56117.jpg)
+
 Há redes sociais de todo tipo para todos os tipos de interesse. Por exemplo: em
 uma rodada de financiamento com investidores, foi apresentada uma rede social
 para químicos onde os usuários podem publicar artigos a respeito de suas
@@ -267,7 +269,6 @@ Outras:
 
 * [Mobile
   First](https://tableless.com.br/mobile-first-a-arte-de-pensar-com-foco/)
-* [Mobile First - ZURB](https://zurb.com/word/mobile-first)
 * [Mobile First Is NOT Mobile Only - Nielsen Norman
   Group](https://www.nngroup.com/articles/mobile-first-not-mobile-only/)
 * [Flexbox - CSS

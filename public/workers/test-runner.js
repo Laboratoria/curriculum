@@ -7,9 +7,9 @@
 /* eslint no-restricted-globals: "off" */
 
 self.importScripts(
-  'https://cdnjs.cloudflare.com/ajax/libs/mocha/3.5.3/mocha.min.js',
-  'https://cdnjs.cloudflare.com/ajax/libs/chai/4.1.2/chai.min.js',
-  'https://cdnjs.cloudflare.com/ajax/libs/sinon.js/4.0.0/sinon.min.js'
+  'https://cdnjs.cloudflare.com/ajax/libs/mocha/9.1.2/mocha.min.js',
+  'https://cdnjs.cloudflare.com/ajax/libs/chai/4.3.4/chai.min.js',
+  'https://cdnjs.cloudflare.com/ajax/libs/sinon.js/12.0.1/sinon.min.js'
 );
 
 mocha.setup({
@@ -27,14 +27,14 @@ const wrapSubmission = str => new Function(`
 `);
 
 const wrapTests = str => new Function(
-    'requires',
-    `var require = (name) => {
+  'requires',
+  `var require = (name) => {
      if (typeof requires[name] === 'function') {
        return requires[name]();
      }
    };
    ${str};;`
-  );
+);
 
 const loadTests = (tests, wrappedSubmission) => (
   Object.keys(tests).forEach(key =>

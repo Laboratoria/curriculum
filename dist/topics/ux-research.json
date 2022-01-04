@@ -1,6 +1,6 @@
 {
   "slug": "ux-research",
-  "createdAt": "2021-07-12T22:08:24.642Z",
+  "createdAt": "2021-11-30T14:02:36.513Z",
   "title": "UX Research",
   "description": "<p>En este curso concerás distintas herramientas que te ayudarán a entender mejor\na los usuarios y su interacción con los productos digitales. Además, aprenderás\na identificar mejor los problemas del negocio y la relación que tienen esos\nproblemas con los del usuario.</p>\n",
   "tags": {
@@ -242,7 +242,7 @@
           "type": "read",
           "format": "self-paced",
           "duration": 15,
-          "body": "<h2 id=\"intro\">Intro</h2>\n<p>Un affinity map o un diagrama de afinidad es una herramienta que utilizamos para\norganizar lo que encontramos en la invesitagación buscando patrones. Para crear\nun affinity map debemos:</p>\n<ol>\n<li>Anotar en post-its las frases u observaciones más importantes que tuvimos en\nnuestras interacciones con usuarios y stakeholders</li>\n<li>Organzanizar estos post-its buscando patrones entre ellos</li>\n<li>Dar un nombre a las categorías</li>\n<li>Reagrupar si es necesario o desagrupar (buscar grupos más detallados o unir\ngrupos si es necesario)</li>\n</ol>\n<h2 id=\"tips\">Tips</h2>\n<ul>\n<li>Escribe solo lo que viste o escuchaste. No escribas tu interpretación de ello.</li>\n</ul>\n<p><img src=\"https://lh3.googleusercontent.com/W4YorPOV8lUXNsJB6eoTa6edXoeBeGO02AqhlSBRESpxFCCVO00jm0XMsSiNdjnxL3_Fuoof-nbmM8KxPBaYmkGuouWcyqvkZENIHTRO4QQDwQk4qSsRjNoZUECeePQpHxL_7zqwNqw\" alt=\"qué escribir\"></p>\n<ul>\n<li>Utiliza un color de post-it distinto por cada usuario. Te ayuda a darte cuenta\nsi varios usuarios dijeron lo mismo.</li>\n</ul>\n<p><img src=\"https://lh5.googleusercontent.com/wKAwSH3xHqQ-C592MAPbUVK63FxjIF78s3f9GKuSkNxOwj-Z7egwYY7Fs53o9oiM7DEWiBfEeB6TRAEfLKtbKquaPyXAwaA9pDzS_rY0l5Q9dxqTDIlkNzouTr-QaGbtZh3GFkpwLLI\" alt=\"color de post-its\"></p>\n<ul>\n<li>Etiqueta de acuerdo a los temas que ves, no a posibles soluciones.</li>\n</ul>\n<p><img src=\"https://lh4.googleusercontent.com/RrNG6Pm7betpfY_SBioLTBERD8tFPr98zQm5hWex-O1VGmRhvEjMS98TRRGAaZeGWosg72jdyDHXcifYpb_JnBW03gx8ntzEX3Pzicycg6xRfIMgx73wlm2-zM2ZLLRA7oLP1AqXOFQ\" alt=\"etiquetas\"></p>\n<h2 id=\"referencias\">Referencias</h2>\n<ul>\n<li><a href=\"https://www.nngroup.com/articles/affinity-diagram/\" target=\"_blank\">Affinity Diagramming for Collaboratively Sorting UX Findings and Design\nIdeas</a></li>\n<li><a href=\"http://library.ac4d.com/d/AC4D_designlibrary_Affinity_diagramming.pdf\" target=\"_blank\">Affinity diagramming</a></li>\n</ul>\n",
+          "body": "<h2 id=\"intro\">Intro</h2>\n<p>Un affinity map o un diagrama de afinidad es una herramienta que utilizamos para\norganizar lo que encontramos en la invesitagación buscando patrones. Para crear\nun affinity map debemos:</p>\n<ol>\n<li>Anotar en post-its las frases u observaciones más importantes que tuvimos en\nnuestras interacciones con usuarios y stakeholders</li>\n<li>Organzanizar estos post-its buscando patrones entre ellos</li>\n<li>Dar un nombre a las categorías</li>\n<li>Reagrupar si es necesario o desagrupar (buscar grupos más detallados o unir\n  grupos si es necesario)</li>\n</ol>\n<h2 id=\"tips\">Tips</h2>\n<ul>\n<li>Escribe solo lo que viste o escuchaste. No escribas tu interpretación de ello.</li>\n</ul>\n<p><img src=\"https://lh3.googleusercontent.com/W4YorPOV8lUXNsJB6eoTa6edXoeBeGO02AqhlSBRESpxFCCVO00jm0XMsSiNdjnxL3_Fuoof-nbmM8KxPBaYmkGuouWcyqvkZENIHTRO4QQDwQk4qSsRjNoZUECeePQpHxL_7zqwNqw\" alt=\"qué escribir\"></p>\n<ul>\n<li>Utiliza un color de post-it distinto por cada usuario. Te ayuda a darte cuenta\nsi varios usuarios dijeron lo mismo.</li>\n</ul>\n<p><img src=\"https://lh5.googleusercontent.com/wKAwSH3xHqQ-C592MAPbUVK63FxjIF78s3f9GKuSkNxOwj-Z7egwYY7Fs53o9oiM7DEWiBfEeB6TRAEfLKtbKquaPyXAwaA9pDzS_rY0l5Q9dxqTDIlkNzouTr-QaGbtZh3GFkpwLLI\" alt=\"color de post-its\"></p>\n<ul>\n<li>Etiqueta de acuerdo a los temas que ves, no a posibles soluciones.</li>\n</ul>\n<p><img src=\"https://lh4.googleusercontent.com/RrNG6Pm7betpfY_SBioLTBERD8tFPr98zQm5hWex-O1VGmRhvEjMS98TRRGAaZeGWosg72jdyDHXcifYpb_JnBW03gx8ntzEX3Pzicycg6xRfIMgx73wlm2-zM2ZLLRA7oLP1AqXOFQ\" alt=\"etiquetas\"></p>\n<h2 id=\"referencias\">Referencias</h2>\n<ul>\n<li><a href=\"https://www.nngroup.com/articles/affinity-diagram/\" target=\"_blank\">Affinity Diagramming for Collaboratively Sorting UX Findings and Design\nIdeas</a></li>\n<li><a href=\"http://library.ac4d.com/d/AC4D_designlibrary_Affinity_diagramming.pdf\" target=\"_blank\">Affinity diagramming</a></li>\n</ul>\n",
           "order": 1,
           "durationString": "15min"
         },
@@ -627,8 +627,8 @@
   "references": "",
   "repo": "Laboratoria/bootcamp",
   "path": "topics/ux-research",
-  "version": "3.1.0",
-  "parserVersion": "3.0.0",
+  "version": "4.0.0",
+  "parserVersion": "3.1.0",
   "track": "ux",
   "locale": "es-ES",
   "stats": {

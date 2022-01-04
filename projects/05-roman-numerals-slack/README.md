@@ -15,6 +15,8 @@
 
 Ver proyecto `roman-numerals`.
 
+![stephen-phillips-hostreviews-co-uk-aE0iX-bLCJc-unsplash](https://user-images.githubusercontent.com/110297/135544255-bda28594-66eb-42d0-bc22-80fdd428bcd1.jpg)
+
 ## 2. Resumen del proyecto
 
 Este proyecto depende del proyecto `roman-numerals`,

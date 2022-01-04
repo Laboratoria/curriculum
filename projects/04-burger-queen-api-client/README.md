@@ -13,14 +13,6 @@
 
 ## 1. Preámbulo
 
-Un pequeño restaurante de hamburguesas, que está creciendo, necesita un
-sistema a través del cual puedan tomar pedidos usando una _tablet_, y enviarlos
-a la cocina para que se preparen ordenada y eficientemente.
-
-Este proyecto tiene dos áreas: interfaz (cliente) y API (servidor). Nuestra
-clienta nos ha solicitado desarrollar la interfaz que se integre con la API
-que otro equipo de desarrolladoras está trabajando simultáneamente
-
 [React](https://reactjs.org/) y [Angular](https://angular.io/)
 son algunos de los _frameworks_ y _librerías_ de JavaScript más utilizados por
 lxs desarrolladorxs alrededor del mundo, y hay una razón para eso.
@@ -43,11 +35,19 @@ los que trabajes.
 
 ## 2. Resumen del proyecto
 
+Un pequeño restaurante de hamburguesas, que está creciendo, necesita un
+sistema a través del cual puedan tomar pedidos usando una _tablet_, y enviarlos
+a la cocina para que se preparen ordenada y eficientemente.
+
+![burger-queen](https://user-images.githubusercontent.com/110297/42118136-996b4a52-7bc6-11e8-8a03-ada078754715.jpg)
+
+Este proyecto tiene dos áreas: interfaz (cliente) y API (servidor). Nuestra
+clienta nos ha solicitado desarrollar la interfaz que se integre con la API
+que otro equipo de desarrolladoras está trabajando simultáneamente
+
 Esta vez tenemos un proyecto 100% por encargo. Si bien siempre puedes (y debes)
 hacer sugerencias de mejoras y/o cambios, muchas veces trabajarás en proyectos
 en los que primero hay que asegurarse de cumplir con lo requerido.
-
-![burger-queen](https://user-images.githubusercontent.com/110297/42118136-996b4a52-7bc6-11e8-8a03-ada078754715.jpg)
 
 Esta es la información que tenemos dxl clientx:
 

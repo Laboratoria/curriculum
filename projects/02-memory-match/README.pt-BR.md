@@ -22,7 +22,7 @@ entre outros, é um jogo de cartas em que todas as cartas são postas viradas
 pra baixo sobre a superficie, virando duas cartas em cada turno. O
 objetivo do jogo é encontrar pares de cartas iguais.
 
-![Concentration (card game)](https://upload.wikimedia.org/wikipedia/commons/4/4d/WMCZ_Protected_Areas_Card_Game-7_%28cropped%29.jpg)
+![Concentration (card game)](https://user-images.githubusercontent.com/110297/135919005-66aefadb-c462-49e2-bf10-2374f2e47688.png)
 
 Exemplos:
 

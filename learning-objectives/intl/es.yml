@@ -314,10 +314,142 @@ ux/prototyping:
   title: Crear prototipos para obtener feedback e iterar
 
 ux/visual-design:
-  title: Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
+  title: Aplicar los principios de diseño visual
 
 ux/usability-testing:
   title: Planear y ejecutar tests de usabilidad
+
+ux/user-centricity/centricity:
+  title: Diseñar un producto o servicio poniendo al usuario en el centro
+
+ux/user-centricity/persistency:
+  title: Tomar en cuenta las necesidades de los usuarios a lo largo de todo el proceso de diseño
+
+ux/user-centricity/prioritization:
+  title: Identificar y priorizar usuarios relevantes para el proyecto
+
+ux/business/alignment:
+  title: Alinear los objetivos del negocio con los del proyecto
+
+ux/business/model:
+  title: Entender el modelo de negocio
+
+ux/business/goals:
+  title: Considerar los objetivos del negocio durante el desarrollo del proyecto
+
+ux/business/metrics:
+  title: Definir métricas relevantes para validar el cumplimiento de los objetivos del negocio
+
+ux/business/benchmark:
+  title: Entender estado del negocio en relación con el mercado local y global
+
+ux/research/planning:
+  title: Planificar investigación basada en las necesidades del proyecto
+
+ux/research/support:
+  title: Elegir y sustentar el \# usuarios que participan en actividades de investigación
+
+ux/research/guidelines:
+  title: Crear y probar guía de actividades de investigación
+
+ux/research/interview:
+  title: Realizar entrevistas con usuarios empáticas y sin sesgos
+
+ux/research/documentation:
+  title: Documentar entrevistas y testeos
+
+ux/research/adaptation:
+  title: Adaptar plan de investigación de acuerdo a resultados obtenidos
+
+ux/research/sources:
+  title: Identificar y revisar distintas fuentes de información e inspiración relevantes para el proyecto
+
+ux/research/test:
+  title: Planear y ejecutar testeos de usabilidad de prototipos en distintos niveles de fidelidad
+
+ux/research/analytics:
+  title: Utilizar herramientas de analítica
+
+ux/research/cuantitative-data:
+  title: Analizar e interpretar data cuantitativa
+
+ux/synthesis/weighing:
+  title: Distinguir observaciones, data y/o respuestas que aportan valor al proyecto
+
+ux/synthesis/patterns:
+  title: Encontrar patrones en los resultados de la investigación
+
+ux/synthesis/insights:
+  title: Diferenciar entre insights, hallazgos y observaciones
+
+ux/synthesis/mapping:
+  title: Mapear experiencias de clientes a través de herramientas de síntesis como el Service Blueprint y/o el Customer Journey Map
+
+ux/synthesis/features:
+  title: Definir funcionalidades del producto o servicio
+
+ux/synthesis/ideation:
+  title: Generar múltiples ideas de solución al reto del proyecto
+
+ux/synthesis/feature-prioritization:
+  title: Priorizar posibles soluciones reto del proyecto basandose en los objetivos del proyecto, las necesidades del usuario y las factibilidad de implementación
+
+ux/product-design/user-flows:
+  title: Priorizar y proponer flujos de usuario que les ayuden a conseguir sus objetivos con el producto
+
+ux/product-design/content:
+  title: Identificar y priorizar contenidos relevantes y necesarios para el producto
+
+ux/product-design/fidelity:
+  title: Diseñar en distintos niveles de fidelidad
+
+ux/product-design/interactivity:
+  title: Crear prototipos de alta fidelidad que incluyan interacciones
+
+ux/product-design/usability:
+  title: Diseñar producto o servicio siguiendo mejores prácticas de usabilidad
+
+ux/product-design/accessibility:
+  title: Diseñar producto o servicio siguiendo mejores prácticas de accesibilidad
+
+ux/product-design/visual-design:
+  title: Seguir los principios básicos de diseño visual
+
+ux/product-design/component-organization:
+  title: Construir y mantener una librería de componentes y estilos organizada
+
+ux/product-design/interface-guidelines:
+  title: Entender y utilizar las guías de interfaces de iOS, Android y Material Design
+
+ux/product-design/project-organization:
+  title: Nombrar, organizar, agrupar las capas (layers) del diseño siguiendo buenas prácticas
+
+ux/product-design/documentation:
+  title: Documentar casos de uso para los distintos componentes de la interfaz
+
+ux/product-design/naming:
+  title: Utilizar nombres de elementos estándares para la plataforma en la que diseña
+
+ux/product-design/handoff:
+  title: Documentar requerimentos de diseño para equipo de desarrollo utilizando herramientas de handoff
+
+ux/communication/presentation:
+  title: Presentar y sustentar propuestas a clientes
+
+ux/communication/negotiation:
+  title: Negociar efectivamente con clientes
+
+ux/communication/relationship-management:
+  title: Manejar relaciones con clientes
+
+ux/planning/monitor:
+  title: Organizar  y dar seguimiento a actividades a desarrollarse durante el proyecto
+
+ux/planning/prioritization:
+  title: Priorizar actividades a desarrollarse durante el proyecto
+
+ux/planning/tools:
+  title: Elegir las herramientas y métodos a utilizar de acuerdo a las necesidades  del proyecto
 
 firebase: Firebase
 
@@ -395,6 +527,14 @@ express/routing:
 express/middleware:
   title: Uso y creación de middleware
 
+socket-io: Socket.IO
+
+socket-io/client:
+  title: Cliente JavaScript de Socket.io
+
+socket-io/server:
+  title: Servidor de Node.js de Socket.io
+
 http: HTTP
 
 http/request-response:
@@ -462,16 +602,155 @@ webops/docker-containers:
 webops/docker-compose:
   title: Docker compose
 
-db: Bases de datos (a elegir entre MongoDB, PostgreSQL o MySQL)
+webops/cloud-functions:
+  title: Cloud Functions
 
-db/install:
-  title: Instalación
+cicd: Integración Continua/Entrega Continua
 
-db/conection:
+cicd/build-pipelines:
+  title: Construcción de pipelines (GitHub Actions/CircleCI)
+
+cicd/service-deployment:
+  title: Despliegue de servicios (Heroku/GitHub Pages)
+
+cicd/tbd:
+  title: Aplicación de Trunk-based Development para Integración Continua
+
+cicd/test-coverage:
+  title: Validación de cobertura de pruebas en pipeline
+
+cicd/integration-tests:
+  title: Pruebas de integración
+
+db: Bases de datos
+
+db/modeling:
+  title: Modelado de datos
+
+db/connection:
   title: Conexión
 
-db/queries:
-  title: Queries y comandos (creación, lectura, actualización, eliminación)
+db/indexes-constraints:
+  title: Índices y limitaciones
+
+sql: SQL
+
+sql/tables:
+  title: Creación y modificación de tablas
+  links:
+    - title: SQL CREATE TABLE Statement - w3schools (en inglés)
+      url: https://www.w3schools.com/sql/sql_create_table.asp
+    - title: CREATE TABLE Statement - PostgreSQL Docs (en inglés)
+      url: https://www.postgresql.org/docs/9.1/sql-createtable.html
+    - title: ALTER TABLE Statement - PostgreSQL Docs (en inglés)
+      url: https://www.postgresql.org/docs/9.1/sql-altertable.html
+
+sql/crud:
+  title: Operaciones CRUD (Create-Read-Update-Delete)
+  links:
+    - title: INSERT
+      url: https://www.postgresql.org/docs/9.5/sql-insert.html
+    - title: SELECT
+      url: https://www.postgresql.org/docs/9.5/sql-select.html
+    - title: UPDATE
+      url: https://www.postgresql.org/docs/9.1/sql-update.html
+    - title: DELETE
+      url: https://www.postgresql.org/docs/8.1/sql-delete.html
+
+sql/drop:
+  title: Borrado de tablas o bases de datos enteras con DROP
+  links:
+    - title: DROP TABLE
+      url: https://www.postgresql.org/docs/8.2/sql-droptable.html
+    - title: DROP DATABASE
+      url: https://www.postgresql.org/docs/8.2/sql-dropdatabase.html
+
+mongodb: MongoDB
+
+mongodb/crud:
+  title: Operaciones CRUD (Create-Read-Update-Delete)
+  links:
+    - title: MongoDB CRUD Operations - Docs (en inglés)
+      url: https://docs.mongodb.com/manual/crud/
+    - title: Insert Documents - Docs (en inglés)
+      url: https://docs.mongodb.com/manual/tutorial/insert-documents/
+    - title: Query Documents - Docs (en inglés)
+      url: https://docs.mongodb.com/manual/tutorial/query-documents/
+    - title: Update Documents - Docs (en inglés)
+      url: https://docs.mongodb.com/manual/tutorial/update-documents/
+    - title: Delete Documents - Docs (en inglés)
+      url: https://docs.mongodb.com/manual/tutorial/remove-documents/
+
+mongodb/aggregation:
+  title: Operaciones de agregación (aggregation)
+
+mongodb/schemas:
+  title: Modelos y esquemas de datos
+  links:
+    - title: Schema Validation - Docs (en inglés)
+      url: https://docs.mongodb.com/manual/core/schema-validation/
+    - title: Data Model Design - Docs (en inglés)
+      url: https://docs.mongodb.com/manual/core/data-model-design/
+
+mongodb/dump-restore:
+  title: Respaldo y restauración (backup/restore)
+  links:
+    - title: MongoDB Backup Methods - Docs (en inglés)
+      url: https://docs.mongodb.com/manual/core/backups/
+
+postgres: PostgreSQL
+
+postgres/psql:
+  title: Cliente de terminal psql
+  links:
+    - title: psql - Docs (en inglés)
+      url: https://www.postgresql.org/docs/14/app-psql.html
+
+postgres/data-types:
+  title: Tipos de datos
+  links:
+    - title: Chapter 8. Data Types - Docs (en inglés)
+      url: https://www.postgresql.org/docs/14/datatype.html
+
+postgres/indexes:
+  title: Índices
+  links:
+    - title: Chapter 11. Indexes - Docs (en inglés)
+      url: https://www.postgresql.org/docs/14/indexes.html
+
+postgres/dump-restore:
+  title: Respaldo y restauración (backup/restore)
+  links:
+    - title: Chapter 26. Backup and Restore - Docs (en inglés)
+      url: https://www.postgresql.org/docs/14/backup.html
+
+mysql: MySQL
+
+mysql/mysql:
+  title: Cliente de terminal mysql
+  links:
+    - title: The MySQL Command-Line Client - Docs (en inglés)
+      url: https://dev.mysql.com/doc/refman/8.0/en/mysql.html
+
+mysql/data-types:
+  title: Tipos de datos
+  links:
+    - title: Chapter 11 Data Types - Docs (en inglés)
+      url: https://dev.mysql.com/doc/refman/8.0/en/data-types.html
+
+mysql/indexes:
+  title: Índices
+  links:
+    - title: Optimization and Indexes - Docs (en inglés)
+      url: https://dev.mysql.com/doc/refman/8.0/en/optimization-indexes.html
+
+mysql/dump-restore:
+  title: Respaldo y restauración (backup/restore)
+  links:
+    - title: Chapter 7 Backup and Recovery - Docs (en inglés)
+      url: https://dev.mysql.com/doc/refman/8.0/en/backup-and-recovery.html
+    - title: mysqldump — A Database Backup Program - Docs (en inglés)
+      url: https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html
 
 react: React
 
@@ -645,6 +924,8 @@ angular/styles:
     - title: Template syntax - Documentación oficial (en inglés)
       url: https://angular.io/guide/template-syntax#built-in-directives
 
+slack: Slack
+
 slack/slash-commands:
   title: Slash commands de Slack
   links:
@@ -690,7 +971,7 @@ php/variables:
 php/control-structures:
   title: Estructuras de control en PHP (if, else, elseif, else if, while, do while, for)
   links:
-    - title:  Estructuras de control en PHP (if, else, elseif, else if, while, do while, for)
+    - title: Estructuras de control en PHP (if, else, elseif, else if, while, do while, for)
       url: https://www.php.net/manual/es/language.control-structures.php
 
 php/functions:

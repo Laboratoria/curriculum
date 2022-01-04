@@ -4,7 +4,7 @@ const ExercisesList = ({ slug, exercises }) => (
   <div>
     {exercises.map(exercise => (
       <div key={exercise.slug}>
-        <Link to={`${slug}/${exercise.slug}`}>
+        <Link to={slug ? `${slug}/${exercise.slug}` : exercise.slug}>
           {exercise.title}
         </Link>
       </div>

@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "engines": {
-    "node": ">=10"
+    "node": ">=14"
   },
   "scripts": {
     "pretest": "eslint .",
@@ -24,14 +24,14 @@
   },
   "devDependencies": {
     "docdash": "^1.2.0",
-    "eslint": "^7.21.0",
-    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.22.1",
     "gh-pages": "^3.1.0",
     "jest": "^27.0.1",
     "jsdoc": "^3.6.6",
     "jsdoc-http-plugin": "^0.3.2",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^3.1.0",
     "tree-kill": "^1.2.2"
   }
 }

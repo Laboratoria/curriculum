@@ -9,7 +9,6 @@ const {
   getUsers,
 } = require('../controller/users');
 
-
 const initAdminUser = (app, next) => {
   const { adminEmail, adminPassword } = app.get('config');
   if (!adminEmail || !adminPassword) {
@@ -25,7 +24,6 @@ const initAdminUser = (app, next) => {
   // TODO: crear usuaria admin
   next();
 };
-
 
 /*
  * Diagrama de flujo de una aplicación y petición en node - express :

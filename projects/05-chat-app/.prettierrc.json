@@ -1,0 +1,18 @@
+{
+  "singleQuote": true,
+  "proseWrap": "always",
+  "overrides": [
+    {
+      "files": ["*.md"],
+      "parser": "markdown-eslint-parser",
+      "rules": {
+        "prettier/prettier": [
+          "error",
+          {
+            "parser": "markdown"
+          }
+        ]
+      }
+    }
+  ]
+}

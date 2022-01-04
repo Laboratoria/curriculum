@@ -51,7 +51,7 @@ const LearningObjectiveCat = ({ lang, cat, project, learningObjectives }) => {
   return (
     <div>
       <Typography variant="h3">
-        {intl[cat].title || intl[cat] || cat}
+        {(intl[cat] || {}).title || intl[cat] || cat}
       </Typography>
       <ul>
         {project.learningObjectives
@@ -104,6 +104,11 @@ const Project = () => {
     <Container>
       <Breadcrumbs project={project} />
       <Typography variant="h1">{project.title}</Typography>
+
+      <div>
+        <img alt={project.title} src={project.cover} width="100%" />
+        <div dangerouslySetInnerHTML={{ __html: project.summary }} />
+      </div>
 
       <p>
         Ver enunciado completo (<ExternalLink url={readmeUrl} title="README.md" />)
