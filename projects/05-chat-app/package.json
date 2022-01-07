@@ -22,5 +22,8 @@
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.3.2"
+  },
+  "engines": {
+    "node": ">=14.x"
   }
 }
