@@ -128,7 +128,7 @@ La aplicación debe ser un _Single Page App_. Los pedidos los tomaremos desde un
 _tablet_, pero **no queremos una app nativa**, sino una web app que sea
 **responsive** y pueda funcionar **offline**.
 
-Necesitamos pensar bien en el aspecto UX de de quienes van a tomar los pedidos,
+Necesitamos pensar bien en el aspecto UX de quienes van a tomar los pedidos,
  el tamaño y aspecto de los botones, la visibilidad del estado actual del
  pedido, etc.
 
