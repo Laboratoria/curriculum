@@ -88,24 +88,24 @@ contarás y los entregables de cada momento.
   semana y dedicar tiempo de calidad a cada espacio que destines para hacerlo,
   lo que te recomendamos ampliamente es que te apoyes de dejar en calendario las
   actividades/entregables a realizar y destinar un tiempo específico (por
-  ejemplo 2 horas del viernes) para avanzar en este proyecto. 
+  ejemplo 2 horas del viernes) para avanzar en este proyecto.
 - Como podrás ver tiene algunas cosas diferentes a los otros proyectos del
   bootcamp, en este tendremos etapas y un calendario con algunas fechas pre
   establecidas.También hay algunas cosas muy parecidas a los otros proyectos del
   bootcamp, tienes una serie de recursos que puedes consultar como guía, podrás
-  pedir ayudantías y feedback a lo largo del avance del proyecto. 
+  pedir ayudantías y feedback a lo largo del avance del proyecto.
 - Tendrás vínculo con personas externas que se unen al bootcamp para apoyar tu
   aprendizaje en el proyecto. Aprovecha este vínculo para tener buen feedback y
   recomendaciones de personas de la industria, aprovecha su interés en
   acompañarte y recuerda establecer una relación fluida, aprovecha su interés en
   aportar a tu proceso y  profesional como lo harías con una persona en el marco
-  de un proceso de selección. 
+  de un proceso de selección.
 - Como en otros proyectos, al pedir feedback y recibir recomendaciones
   escucharás diferentes puntos de vista; recuerda que eres tú quien toma las
   decisiones sobre tu proceso y quien definirá qué aspectos de su perfil quiere
   transmitir, comunicar y/o reforzar; si hay algo que no sabes como
   interpretar/incorporar, conversa con el equipo. Juntxs podemos identificar
-  cómo incluirlo en tu proceso de preparación. 
+  cómo incluirlo en tu proceso de preparación.
 - Si bien el proyecto tiene etapas, los aprendizajes de este proyecto no son
   secuenciales. Puedes ir navegando en el contenido e ir avanzando en el orden
   que prefieras. Recuerda siempre la importancia de la iteración. Siempre puedes
