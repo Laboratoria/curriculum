@@ -64,7 +64,7 @@ const Breadcrumbs = ({ topic, project }) => {
   return (
     <div className={classes.root}>
       {links.map(({ title, url }, idx) => (
-        <span key={url}>
+        <span key={`${url}-${idx}`}>
           {idx > 0 && (<span className={classes.separator}>»</span>)}
           <Link to={url}>{title}</Link>
         </span>

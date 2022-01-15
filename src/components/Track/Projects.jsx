@@ -1,4 +1,4 @@
-import { useHistory, useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { FormattedMessage, useIntl } from 'react-intl';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -24,7 +24,6 @@ const useStyles = makeStyles((theme) => ({
 
 const Project = ({ project }) => {
   const classes = useStyles();
-  const history = useHistory();
   const { lang } = useParams();
   const learningObjectiveCats = (project.learningObjectives || []).reduce(
     (memo, item) => (
@@ -47,7 +46,7 @@ const Project = ({ project }) => {
         className={classes.cardHeader}
         titleTypographyProps={{ style: { fontSize: '1.3em', marginTop: 0 } }}
         action={
-          <IconButton onClick={() => history.push(`/${lang}/projects/${project.slug}`)}>
+          <IconButton component={Link} to={`/${lang}/projects/${project.slug}`}>
             <ArrowForward />
           </IconButton>
         }

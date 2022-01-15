@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Container from '@material-ui/core/Container';
@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
 
 const SignIn = () => {
   const classes = useStyles();
-  const history = useHistory();
+  const navigate = useNavigate();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [isSigningIn, setIsSigningIn] = useState(false);
@@ -29,7 +29,7 @@ const SignIn = () => {
     e.preventDefault();
     setIsSigningIn(true);
     auth.signIn({ email, password })
-      .then(() => history.push('/'))
+      .then(() => navigate('/'))
       .catch((err) => {
         alert(err.message);
         setIsSigningIn(false);

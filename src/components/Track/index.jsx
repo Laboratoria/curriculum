@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react';
 import {
   Route,
-  Switch,
+  Routes,
   Link,
+  Navigate,
+  useLocation,
+  useMatch,
+  useNavigate,
   useParams,
-  useRouteMatch,
-  useHistory,
 } from 'react-router-dom';
 import { FormattedMessage, useIntl } from 'react-intl';
 import Container from '@material-ui/core/Container';
@@ -19,9 +21,9 @@ import Projects from './Projects';
 import Topics from './Topics';
 
 const Track = () => {
+  const location = useLocation();
   const { lang, track } = useParams();
-  const { path, url } = useRouteMatch();
-  const history = useHistory();
+  const { pathnameBase } = useMatch('/:lang/:track/*');
   const intl = useIntl();
   const [learningObjectives, setLearningObjectives] = useState();
   const [projects, setProjects] = useState();
@@ -43,50 +45,68 @@ const Track = () => {
     return <Loading />;
   }
 
+  if (!['js', 'ux'].includes(track)) {
+    return <Navigate to="/" />;
+  }
+
+  const heading = (
+    <Typography variant="h1">
+      <FormattedMessage id={track === 'js' ? 'webDev' : 'ux'} />
+    </Typography>
+  );
+
+  if (track === 'ux' && lang === 'pt') {
+    return (
+      <Container>
+        {heading}
+        <p>
+          Este conteúdo não está disponível atualmente em português.
+        </p>
+      </Container>
+    );
+  }
+
   return (
     <Container>
-      <Typography variant="h1">
-        <FormattedMessage id={track === 'js' ? 'webDev' : 'ux'} />
-      </Typography>
-      <Tabs value={history.location.pathname}>
+      {heading}
+      <Tabs value={location.pathname}>
         <Tab
           label={intl.formatMessage({ id: 'projects' })}
-          value={`${url}`}
+          value={pathnameBase}
           component={Link}
-          to={url}
+          to=""
         />
         <Tab
           label={intl.formatMessage({ id: 'topics' })}
-          value={`${url}/topics`}
+          value={`${pathnameBase}/topics`}
           component={Link}
-          to={`${url}/topics`}
+          to={`topics`}
         />
         {track === 'js' && (
           <Tab
             label={intl.formatMessage({ id: 'gym' })}
-            value={`${url}/gym`}
+            value={`${pathnameBase}/gym`}
             component={Link}
-            to={`${url}/gym`}
+            to={`gym`}
           />
         )}
       </Tabs>
-      <Switch>
+      <Routes>
         <Route
-          path={`${path}/topics`}
-          render={() => <Topics topics={topics} track={track} />}
+          path={`topics`}
+          element={<Topics topics={topics} track={track} />}
         />
         {track === 'js' && (
           <Route
-            path={`${path}/gym`}
-            render={() => <Gym topics={topics} track={track} lang={lang} intl={intl} />}
+            path={`gym`}
+            element={<Gym topics={topics} track={track} lang={lang} intl={intl} />}
           />
         )}
         <Route
-          path={path}
-          exact
-          render={() => <Projects projects={projects} track={track} />}
+          path=""
+          element={<Projects projects={projects} track={track} />}
         />
-      </Switch>
+      </Routes>
     </Container>
   )
 };

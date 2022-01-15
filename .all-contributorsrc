@@ -99,7 +99,8 @@
       "contributions": [
         "question",
         "design",
-        "ideas"
+        "ideas",
+        "content"
       ]
     },
     {
@@ -479,7 +480,8 @@
       "contributions": [
         "bug",
         "ideas",
-        "code"
+        "code",
+        "review"
       ]
     },
     {
@@ -627,7 +629,8 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/6140157?v=4",
       "profile": "https://github.com/reloadercf",
       "contributions": [
-        "bug"
+        "bug",
+        "content"
       ]
     },
     {
@@ -752,6 +755,24 @@
       "contributions": [
         "review",
         "content"
+      ]
+    },
+    {
+      "login": "mfdebian",
+      "name": "Alfredo González",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12631491?v=4",
+      "profile": "https://github.com/mfdebian",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "stephsalazar",
+      "name": "Stephany Salazar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25916511?v=4",
+      "profile": "https://stephsalazar.github.io/",
+      "contributions": [
+        "review"
       ]
     }
   ]

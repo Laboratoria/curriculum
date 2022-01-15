@@ -7,13 +7,14 @@
   },
   "extends": [
     "airbnb-base",
-    "plugin:md/prettier",
     "plugin:prettier/recommended",
     "prettier"
   ],
   "parserOptions": {
     "ecmaVersion": 12
   },
-  "plugins": ["html"],
+  "plugins": [
+    "html"
+  ],
   "rules": {}
 }

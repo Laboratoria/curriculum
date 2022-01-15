@@ -1,4 +1,4 @@
-import { useHistory, useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
@@ -9,13 +9,12 @@ import ArrowForward from '@material-ui/icons/ArrowForward';
 import { useLocale } from '../../intl/IntlProvider';
 
 const Topic = ({ topic }) => {
-  const history = useHistory();
   const { lang } = useParams();
   return (
     <Card>
       <CardHeader
         action={
-          <IconButton onClick={() => history.push(`/${lang}/topics/${topic.slug}`)}>
+          <IconButton component={Link} to={`/${lang}/topics/${topic.slug}`}>
             <ArrowForward />
           </IconButton>
         }
@@ -36,7 +35,6 @@ const Topics = ({ topics, track }) => {
     filteredTopics.splice(jsTopicIdx, 1);
     filteredTopics.unshift(jsTopic);
   }
-  console.log(jsTopicIdx);
   return (
     <div>
       <Typography variant="h2">

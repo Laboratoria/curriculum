@@ -62,6 +62,7 @@ const es = {
       <strong>modelo de caja (box model) en CSS</strong>.
     </p>
   `,
+
   'projects.js.level.2': `
     <p>
       Los proyectos de este nivel siguen siendo <strong>apps de una sola vista o
@@ -147,7 +148,7 @@ const es = {
     </p>
   `,
 
-    'projects.ux.intro': `
+  'projects.ux.intro': `
     <p>
       Nuestra propuesta de aprendizaje se basa en
       <strong>aprender haciendo</strong>. El foco central de nuestro curriculum
@@ -166,12 +167,14 @@ const es = {
       mayoría de objetivos de aprendizaje correspondientes.
     </p>
   `,
+
   'projects.ux.level.0': `
     <p>
     Es el primer acercamiento de nuestras estudiantes con el Diseño Centrado en
     el Humano. Se da durante el proceso de admisión.
     </p>
   `,
+
   'projects.ux.level.1': `
     <p>
     Se aplica la mentalidad del diseño centrado en el humano a un proyecto de
@@ -180,6 +183,7 @@ const es = {
     <strong>principios de diseño visual</strong>, entre otros.
     </p>
   `,
+
   'projects.ux.level.2': `
     <p>
     Es el primer reto en el que se trabaja con un cliente real. Además de los
@@ -188,6 +192,7 @@ const es = {
     alcance de sus proyectos.
     </p>
   `,
+
   'projects.ux.level.3': `
     <p>
     Es un reto enfocado a fortalecer las habilidades de UI Design. La idea es
@@ -198,6 +203,7 @@ const es = {
     <strong>autolayout</strong>, entre otros.
     </p>
   `,
+
   'projects.ux.level.4': `
     <p>
     Durante estos retos las estudiantes pondrán en práctica todo lo aprendido
@@ -207,6 +213,7 @@ const es = {
     <strong>definición de KPIs</strong>, entre otros.
     </p>
   `,
+
   'gym': 'Ejercicios',
 
   // 'exercise.problem': 'Enunciado',
