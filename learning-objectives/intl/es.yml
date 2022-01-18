@@ -307,26 +307,14 @@ scm/github/ci:
 
 ux: UX (User eXperience)
 
-# user-centricity/centricity:
-#   title: Diseñar la aplicación pensando en y entendiendo al usuario
-
-# product-design/interactivity:
-#   title: Crear prototipos para obtener feedback e iterar
-
-# product-design/visual-design:
-#   title: Aplicar los principios de diseño visual
-
-# research/test:
-#   title: Planear y ejecutar tests de usabilidad
-
 user-centricity/centricity:
-  title: Diseñar un producto o servicio poniendo al usuario en el centro
+  title: Diseñar un producto o servicio poniendo a la usuaria en el centro
 
 user-centricity/persistency:
-  title: Tomar en cuenta las necesidades de los usuarios a lo largo de todo el proceso de diseño
+  title: Tomar en cuenta las necesidades de las usuarias a lo largo de todo el proceso de diseño
 
 user-centricity/prioritization:
-  title: Identificar y priorizar usuarios relevantes para el proyecto
+  title: Identificar y priorizar usuarias relevantes para el proyecto
 
 business/alignment:
   title: Alinear los objetivos del negocio con los del proyecto
@@ -347,13 +335,13 @@ research/planning:
   title: Planificar investigación basada en las necesidades del proyecto
 
 research/support:
-  title: Elegir y sustentar el \# usuarios que participan en actividades de investigación
+  title: "Elegir y sustentar el # usuarias que participan en actividades de investigación"
 
 research/guidelines:
   title: Crear y probar guía de actividades de investigación
 
 research/interview:
-  title: Realizar entrevistas con usuarios empáticas y sin sesgos
+  title: Realizar entrevistas con usuarias empáticas y sin sesgos
 
 research/documentation:
   title: Documentar entrevistas y testeos
@@ -392,10 +380,10 @@ synthesis/ideation:
   title: Generar múltiples ideas de solución al reto del proyecto
 
 synthesis/feature-prioritization:
-  title: Priorizar posibles soluciones reto del proyecto basandose en los objetivos del proyecto, las necesidades del usuario y las factibilidad de implementación
+  title: Priorizar posibles soluciones reto del proyecto basándose en los objetivos del proyecto, las necesidades de la usuaria y las factibilidad de implementación
 
 product-design/user-flows:
-  title: Priorizar y proponer flujos de usuario que les ayuden a conseguir sus objetivos con el producto
+  title: Priorizar y proponer flujos de usuaria que les ayuden a conseguir sus objetivos con el producto
 
 product-design/content:
   title: Identificar y priorizar contenidos relevantes y necesarios para el producto
