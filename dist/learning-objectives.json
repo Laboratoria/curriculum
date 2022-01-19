@@ -3217,123 +3217,153 @@
     },
     {
       "key": "angular",
-      "es": "Angular"
+      "es": "Angular",
+      "pt": "Angular"
     },
     {
       "key": "angular/components-and-templates",
-      "es": "Components & templates"
+      "es": "Components & templates",
+      "pt": "Componentes & templates"
     },
     {
       "key": "angular/structural-directives",
-      "es": "Directivas estructurales (ngIf / ngFor)"
+      "es": "Directivas estructurales (ngIf / ngFor)",
+      "pt": "Diretivas estruturais (ngIf / ngFor)"
     },
     {
       "key": "angular/input-output",
-      "es": "@Input | @Ouput"
+      "es": "@Input | @Ouput",
+      "pt": "@Input | @Ouput"
     },
     {
       "key": "angular/services",
-      "es": "Creación y uso de servicios"
+      "es": "Creación y uso de servicios",
+      "pt": "Criação e uso de serviços"
     },
     {
       "key": "angular/routing",
-      "es": "Manejo de rutas"
+      "es": "Manejo de rutas",
+      "pt": "Gerenciamento de rotas"
     },
     {
       "key": "angular/observables",
-      "es": "Creación y uso Observables."
+      "es": "Creación y uso Observables.",
+      "pt": "Criação e uso Observables."
     },
     {
       "key": "angular/http-client",
-      "es": "Uso de HttpClient"
+      "es": "Uso de HttpClient",
+      "pt": "Uso de HttpClient"
     },
     {
       "key": "angular/styles",
-      "es": "Estilos de componentes (ngStyle / ngClass)"
+      "es": "Estilos de componentes (ngStyle / ngClass)",
+      "pt": "Estilos de componentes (ngStyle / ngClass)"
     },
     {
       "key": "react",
-      "es": "React"
+      "es": "React",
+      "pt": "React"
     },
     {
       "key": "react/jsx",
-      "es": "JSX"
+      "es": "JSX",
+      "pt": "JSX"
     },
     {
       "key": "react/components",
-      "es": "Componentes y propiedades (props)"
+      "es": "Componentes y propiedades (props)",
+      "pt": "Componentes e propriedades (props)"
     },
     {
       "key": "react/events",
-      "es": "Manejo de eventos"
+      "es": "Manejo de eventos",
+      "pt": "Gerenciamento de eventos"
     },
     {
       "key": "react/lists-and-keys",
-      "es": "Listas y keys"
+      "es": "Listas y keys",
+      "pt": "Listas e keys"
     },
     {
       "key": "react/conditional-rendering",
-      "es": "Renderizado condicional"
+      "es": "Renderizado condicional",
+      "pt": "Renderização' condicional"
     },
     {
       "key": "react/lifting-up-state",
-      "es": "Elevación de estado"
+      "es": "Elevación de estado",
+      "pt": "Elevação de estado"
     },
     {
       "key": "react/hooks",
-      "es": "Hooks"
+      "es": "Hooks",
+      "pt": "Hooks"
     },
     {
       "key": "react/css-modules",
-      "es": "CSS modules"
+      "es": "CSS modules",
+      "pt": "CSS modules"
     },
     {
       "key": "react/routing",
-      "es": "React Router"
+      "es": "React Router",
+      "pt": "React Router"
     },
     {
       "key": "vue",
-      "es": "Vue"
+      "es": "Vue",
+      "pt": "Vue"
     },
     {
       "key": "vue/instance",
-      "es": "Instancia de Vue.js"
+      "es": "Instancia de Vue.js",
+      "pt": "Instância de Vue.js"
     },
     {
       "key": "vue/data-and-methods",
-      "es": "Datos y métodos"
+      "es": "Datos y métodos",
+      "pt": "Dados e métodos"
     },
     {
       "key": "vue/components",
-      "es": "Uso y creación de componentes"
+      "es": "Uso y creación de componentes",
+      "pt": "Uso e criação de componentes"
     },
     {
       "key": "vue/props",
-      "es": "Props"
+      "es": "Props",
+      "pt": "Props"
     },
     {
       "key": "vue/directives",
-      "es": "Directivas (v-bind | v-model)"
+      "es": "Directivas (v-bind | v-model)",
+      "pt": "Diretivas (v-bind | v-model)"
     },
     {
       "key": "vue/iteration",
-      "es": "Iteración (v-for)"
+      "es": "Iteración (v-for)",
+      "pt": "Iteração (v-for)"
     },
     {
       "key": "vue/events",
-      "es": "Eventos (v-on)"
+      "es": "Eventos (v-on)",
+      "pt": "Eventos (v-on)"
     },
     {
       "key": "vue/computed-props-and-observers",
-      "es": "Propiedades Computadas y Observadores"
+      "es": "Propiedades Computadas y Observadores",
+      "pt": "Propriedades Computadas e Observadores"
     },
     {
       "key": "vue/routing",
-      "es": "Routing"
+      "es": "Routing",
+      "pt": "Routing"
     },
     {
       "key": "vue/classes-and-styles",
-      "es": "Clases y Estilos"
+      "es": "Clases y Estilos",
+      "pt": "Classes e Estilos"
     },
     {
       "key": "http",
@@ -3510,7 +3540,7 @@
     {
       "key": "db/modeling",
       "es": "Modelado de datos",
-      "pt": "Modelado de datos"
+      "pt": "Modelagem de dados"
     },
     {
       "key": "db/connection",
@@ -3520,7 +3550,7 @@
     {
       "key": "db/indexes-constraints",
       "es": "Índices y limitaciones",
-      "pt": "Índices y limitaciones"
+      "pt": "Índices e limitações'"
     },
     {
       "key": "sql",
@@ -3529,15 +3559,18 @@
     },
     {
       "key": "sql/tables",
-      "es": "Creación y modificación de tablas"
+      "es": "Creación y modificación de tablas",
+      "pt": "Criação e modificação de tabelas"
     },
     {
       "key": "sql/crud",
-      "es": "Operaciones CRUD (Create-Read-Update-Delete)"
+      "es": "Operaciones CRUD (Create-Read-Update-Delete)",
+      "pt": "Operações CRUD (Create-Read-Update-Delete)"
     },
     {
       "key": "sql/drop",
-      "es": "Borrado de tablas o bases de datos enteras con DROP"
+      "es": "Borrado de tablas o bases de datos enteras con DROP",
+      "pt": "Exclusão de tabelas ou bancos de dados inteiros com DROP"
     },
     {
       "key": "postgres",
@@ -3545,19 +3578,23 @@
     },
     {
       "key": "postgres/psql",
-      "es": "Cliente de terminal psql"
+      "es": "Cliente de terminal psql",
+      "pt": "Cliente de terminal psql"
     },
     {
       "key": "postgres/data-types",
-      "es": "Tipos de datos"
+      "es": "Tipos de datos",
+      "pt": "Tipos de datos"
     },
     {
       "key": "postgres/indexes",
-      "es": "Índices"
+      "es": "Índices",
+      "pt": "Índices"
     },
     {
       "key": "postgres/dump-restore",
-      "es": "Respaldo y restauración (backup/restore)"
+      "es": "Respaldo y restauración (backup/restore)",
+      "pt": "Backup e restauração (backup/restore)"
     },
     {
       "key": "mysql",
@@ -3565,19 +3602,23 @@
     },
     {
       "key": "mysql/mysql",
-      "es": "Cliente de terminal mysql"
+      "es": "Cliente de terminal mysql",
+      "pt": "Cliente de terminal mysql"
     },
     {
       "key": "mysql/data-types",
-      "es": "Tipos de datos"
+      "es": "Tipos de datos",
+      "pt": "Tipos de datos"
     },
     {
       "key": "mysql/indexes",
-      "es": "Índices"
+      "es": "Índices",
+      "pt": "Índices"
     },
     {
       "key": "mysql/dump-restore",
-      "es": "Respaldo y restauración (backup/restore)"
+      "es": "Respaldo y restauración (backup/restore)",
+      "pt": "Backup e restauração (backup/restore)"
     },
     {
       "key": "mongodb",
@@ -3586,123 +3627,150 @@
     },
     {
       "key": "mongodb/crud",
-      "es": "Operaciones CRUD (Create-Read-Update-Delete)"
+      "es": "Operaciones CRUD (Create-Read-Update-Delete)",
+      "pt": "Operações CRUD (Create-Read-Update-Delete)"
     },
     {
       "key": "mongodb/schemas",
-      "es": "Modelos y esquemas de datos"
+      "es": "Modelos y esquemas de datos",
+      "pt": "Modelos e esquemas de dados"
     },
     {
       "key": "mongodb/dump-restore",
-      "es": "Respaldo y restauración (backup/restore)"
+      "es": "Respaldo y restauración (backup/restore)",
+      "pt": "Backup e restauração (backup/restore)"
     },
     {
       "key": "slack",
-      "es": "Slack"
+      "es": "Slack",
+      "pt": "Slack"
     },
     {
       "key": "slack/slash-commands",
-      "es": "Slash commands de Slack"
+      "es": "Slash commands de Slack",
+      "pt": "Slash commands de Slack"
     },
     {
       "key": "php",
-      "es": "PHP"
+      "es": "PHP",
+      "pt": "PHP"
     },
     {
       "key": "php/data-types"
     },
     {
       "key": "php/data-types/primitive",
-      "es": "Tipos de datos primitivos en PHP"
+      "es": "Tipos de datos primitivos en PHP",
+      "pt": "Tipos de dados primitivos em PHP"
     },
     {
       "key": "php/data-types/arrays",
-      "es": "Arrays en PHP (arreglos)"
+      "es": "Arrays en PHP (arreglos)",
+      "pt": "Arrays em PHP (arranjos)"
     },
     {
       "key": "php/data-types/objects",
-      "es": "Objetos en PHP"
+      "es": "Objetos en PHP",
+      "pt": "Objetos em PHP"
     },
     {
       "key": "php/variables",
-      "es": "Variables en PHP (declaración, asignación, ámbito)"
+      "es": "Variables en PHP (declaración, asignación, ámbito)",
+      "pt": "Variáveis em PHP (declaração, atribuição, escopo)"
     },
     {
       "key": "php/control-structures",
-      "es": "Estructuras de control en PHP (if, else, elseif, else if, while, do while, for)"
+      "es": "Estructuras de control en PHP (if, else, elseif, else if, while, do while, for)",
+      "pt": "Estruturas de controle em PHP (if, else, elseif, else if, while, do while, for)"
     },
     {
       "key": "php/functions",
-      "es": "Funciones en PHP (params, args, return)"
+      "es": "Funciones en PHP (params, args, return)",
+      "pt": "Funções em PHP (params, args, return)"
     },
     {
       "key": "php/testing"
     },
     {
       "key": "php/testing/phpunit",
-      "es": "PHPUnit"
+      "es": "PHPUnit",
+      "pt": "PHPUnit"
     },
     {
       "key": "php/testing/xdebug",
-      "es": "XDebug"
+      "es": "XDebug",
+      "pt": "XDebug"
     },
     {
       "key": "php/package-management"
     },
     {
       "key": "php/package-management/composer",
-      "es": "Composer"
+      "es": "Composer",
+      "pt": "Composer"
     },
     {
       "key": "wordpress",
-      "es": "WordPress"
+      "es": "WordPress",
+      "pt": "WordPress"
     },
     {
       "key": "wordpress/plugin-development"
     },
     {
       "key": "wordpress/plugin-development/hooks",
-      "es": "Hooks: action y filter"
+      "es": "Hooks: action y filter",
+      "pt": "Hooks: action e filter"
     },
     {
       "key": "wordpress/plugin-development/administration-menu",
-      "es": "Menús de administración"
+      "es": "Menús de administración",
+      "pt": "Menus de administração'"
     },
     {
       "key": "wordpress/plugin-development/shortcodes",
-      "es": "ShortCodes"
+      "es": "ShortCodes",
+      "pt": "ShortCodes"
     },
     {
       "key": "wordpress/plugin-development/settings",
-      "es": "Configuraciones"
+      "es": "Configuraciones",
+      "es": "Configurações"
     },
     {
       "key": "wordpress/plugin-development/custom-post-types",
-      "es": "Custom Post Types"
+      "es": "Custom Post Types",
+      "pt": "Custom Post Types"
     },
     {
       "key": "wordpress/plugin-development/taxonomies",
-      "es": "Taxonomías"
+      "es": "Taxonomías",
+      "pt": "Taxonomias"
     },
     {
       "key": "wordpress/plugin-development/users",
-      "es": "Usuarios"
+      "es": "Usuarios",
+      "pt": "Usuários"
     },
     {
       "key": "wordpress/plugin-development/cron",
-      "es": "Cron"
+      "es": "Cron",
+      "pt": "Cron"
     },
     {
       "key": "wordpress/plugin-development/wordpress-rest-api",
-      "es": "WordPress REST API"
+      "es": "WordPress REST API",
+      "pt": "WordPress REST API"
     },
     {
       "key": "wordpress/plugin-development/wordpress-apis",
-      "es": "WordPress APIs"
+      "es": "WordPress APIs",
+      "pt": "WordPress APIs"
     },
     {
       "key": "wordpress/plugin-development/wordpress-plugin-directory",
-      "es": "Publicar en WordPress Plugin Directory"
+      "es": "Publicar en WordPress Plugin Directory",
+      "pt": "Publicar em WordPress Plugin Directory"
     }
   ]
 }
