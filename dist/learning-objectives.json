@@ -2040,7 +2040,7 @@
         "title": "Uso de HTML semântico",
         "links": [
           {
-            "title": "HTML semántico",
+            "title": "HTML semântico",
             "url": "topics/html/02-html5/02-semantic-html"
           },
           {
@@ -2089,7 +2089,7 @@
         ]
       },
       "css/flexbox": {
-        "title": "Uso de flexbox en CSS",
+        "title": "Uso de flexbox em CSS",
         "links": [
           {
             "title": "A Complete Guide to Flexbox - CSS Tricks",
@@ -2147,7 +2147,7 @@
         ]
       },
       "browser/dom/events": {
-        "title": "Gerenciamento de eventos de DOM",
+        "title": "Manipulação de eventos de DOM",
         "links": [
           {
             "title": "Introdução a eventos - MDN",
@@ -2162,7 +2162,7 @@
             "url": "https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/removeEventListener"
           },
           {
-            "title": "El objeto Event",
+            "title": "O objeto Event",
             "url": "https://developer.mozilla.org/pt-BR/docs/Web/API/Event"
           }
         ]
@@ -2234,7 +2234,7 @@
         ]
       },
       "js/data-types/strings": {
-        "title": "Strings (cadenas de caracteres)",
+        "title": "Strings (cadeias de caracteres)",
         "links": [
           {
             "title": "Strings",
@@ -2321,7 +2321,7 @@
             "url": "topics/javascript/02-flow-control/03-functions"
           },
           {
-            "title": "Funções clásicas",
+            "title": "Funções clássicas",
             "url": "topics/javascript/03-functions/01-classic"
           },
           {
@@ -2563,11 +2563,11 @@
         "title": "Uso de sistema de arquivos (fs, path)",
         "links": [
           {
-            "title": "File system - Documentación oficial (en inglés)",
+            "title": "File system - Documentação oficial (en inglés)",
             "url": "https://nodejs.org/api/fs.html"
           },
           {
-            "title": "Path - Documentación oficial (en inglés)",
+            "title": "Path - Documentação oficial (en inglés)",
             "url": "https://nodejs.org/api/path.html"
           }
         ]
@@ -2576,7 +2576,7 @@
         "title": "process (env, argv, stdin-stdout-stderr, exit-code)",
         "links": [
           {
-            "title": "Process - Documentación oficial (en inglés)",
+            "title": "Process - Documentação oficial (em inglês)",
             "url": "https://nodejs.org/api/process.html"
           }
         ]
@@ -2588,9 +2588,16 @@
       "express/middleware": {
         "title": "Uso e criação de middleware"
       },
+      "socket-io": "Socket.IO",
+      "socket-io/client": {
+        "title": "Cliente JavaScript de Socket.io"
+      },
+      "socket-io/server": {
+        "title": "Servidor de Node.js de Socket.io"
+      },
       "http": "HTTP",
       "http/request-response": {
-        "title": "Solicitações o requisições (request) e respostas (response).",
+        "title": "Solicitações ou requisições (request) e respostas (response).",
         "links": [
           {
             "title": "Uma visão geral do HTTP - MDN",
@@ -2630,7 +2637,7 @@
         ]
       },
       "http/status-codes": {
-        "title": "Codigos de status de HTTP",
+        "title": "Códigos de status de HTTP",
         "links": [
           {
             "title": "Códigos de status de respostas HTTP - MDN",
@@ -2680,7 +2687,7 @@
       "webops/cloud-functions": {
         "title": "Cloud Functions"
       },
-      "cicd": "Integraçao Contínua/Entrega Contínua",
+      "cicd": "Integração Contínua/Entrega Contínua",
       "cicd/build-pipelines": {
         "title": "Construção de pipelines (GitHub Actions/CircleCI)"
       },
@@ -2691,23 +2698,669 @@
         "title": "Usar Trunk-based Development para Integração Contínua"
       },
       "cicd/test-coverage": {
-        "title": "Validação de cobertura de testes en pipeline"
+        "title": "Validação de cobertura de testes em pipeline"
       },
       "cicd/integration-tests": {
         "title": "Testes de integração"
       },
       "db": "Bases de dados",
       "db/modeling": {
-        "title": "Modelado de datos"
+        "title": "Modelagem de dados"
       },
       "db/connection": {
         "title": "Conexão"
       },
       "db/indexes-constraints": {
-        "title": "Índices y limitaciones"
+        "title": "Índices e limitações"
       },
       "sql": "SQL",
-      "mongodb": "MongoDB"
+      "sql/tables": {
+        "title": "Criação e modificação de tabelas",
+        "links": [
+          {
+            "title": "SQL CREATE TABLE Statement - w3schools (em inglês)",
+            "url": "https://www.w3schools.com/sql/sql_create_table.asp"
+          },
+          {
+            "title": "CREATE TABLE Statement - PostgreSQL Docs (em inglês)",
+            "url": "https://www.postgresql.org/docs/9.1/sql-createtable.html"
+          },
+          {
+            "title": "ALTER TABLE Statement - PostgreSQL Docs (em inglês)",
+            "url": "https://www.postgresql.org/docs/9.1/sql-altertable.html"
+          }
+        ]
+      },
+      "sql/crud": {
+        "title": "Operações CRUD (Create-Read-Update-Delete)",
+        "links": [
+          {
+            "title": "INSERT",
+            "url": "https://www.postgresql.org/docs/9.5/sql-insert.html"
+          },
+          {
+            "title": "SELECT",
+            "url": "https://www.postgresql.org/docs/9.5/sql-select.html"
+          },
+          {
+            "title": "UPDATE",
+            "url": "https://www.postgresql.org/docs/9.1/sql-update.html"
+          },
+          {
+            "title": "DELETE",
+            "url": "https://www.postgresql.org/docs/8.1/sql-delete.html"
+          }
+        ]
+      },
+      "sql/drop": {
+        "title": "Exclusão de tabelas ou bancos de dados inteiros com DROP",
+        "links": [
+          {
+            "title": "DROP TABLE",
+            "url": "https://www.postgresql.org/docs/8.2/sql-droptable.html"
+          },
+          {
+            "title": "DROP DATABASE",
+            "url": "https://www.postgresql.org/docs/8.2/sql-dropdatabase.html"
+          }
+        ]
+      },
+      "mongodb": "MongoDB",
+      "mongodb/crud": {
+        "title": "Operações CRUD (Create-Read-Update-Delete)",
+        "links": [
+          {
+            "title": "MongoDB CRUD Operations - Docs (em inglês)",
+            "url": "https://docs.mongodb.com/manual/crud/"
+          },
+          {
+            "title": "Insert Documents - Docs (em inglês)",
+            "url": "https://docs.mongodb.com/manual/tutorial/insert-documents/"
+          },
+          {
+            "title": "Query Documents - Docs (em inglês)",
+            "url": "https://docs.mongodb.com/manual/tutorial/query-documents/"
+          },
+          {
+            "title": "Update Documents - Docs (em inglês)",
+            "url": "https://docs.mongodb.com/manual/tutorial/update-documents/"
+          },
+          {
+            "title": "Delete Documents - Docs (em inglês)",
+            "url": "https://docs.mongodb.com/manual/tutorial/remove-documents/"
+          }
+        ]
+      },
+      "mongodb/schemas": {
+        "title": "Modelos e esquemas de dados",
+        "links": [
+          {
+            "title": "Schema Validation - Docs (em inglês)",
+            "url": "https://docs.mongodb.com/manual/core/schema-validation/"
+          },
+          {
+            "title": "Data Model Design - Docs (em inglês)",
+            "url": "https://docs.mongodb.com/manual/core/data-model-design/"
+          }
+        ]
+      },
+      "mongodb/dump-restore": {
+        "title": "Recuperação e restauração (backup/restore)",
+        "links": [
+          {
+            "title": "MongoDB Backup Methods - Docs (em inglês)",
+            "url": "https://docs.mongodb.com/manual/core/backups/"
+          }
+        ]
+      },
+      "postgres": "PostgreSQL",
+      "postgres/psql": {
+        "title": "Cliente de terminal psql",
+        "links": [
+          {
+            "title": "psql - Docs (em inglês)",
+            "url": "https://www.postgresql.org/docs/14/app-psql.html"
+          }
+        ]
+      },
+      "postgres/data-types": {
+        "title": "Tipos de dados",
+        "links": [
+          {
+            "title": "Chapter 8. Data Types - Docs (em inglês)",
+            "url": "https://www.postgresql.org/docs/14/datatype.html"
+          }
+        ]
+      },
+      "postgres/indexes": {
+        "title": "Índices",
+        "links": [
+          {
+            "title": "Chapter 11. Indexes - Docs (em inglês)",
+            "url": "https://www.postgresql.org/docs/14/indexes.html"
+          }
+        ]
+      },
+      "postgres/dump-restore": {
+        "title": "Backup e restauração (backup/restore)",
+        "links": [
+          {
+            "title": "Chapter 26. Backup and Restore - Docs (em inglês)",
+            "url": "https://www.postgresql.org/docs/14/backup.html"
+          }
+        ]
+      },
+      "mysql": "MySQL",
+      "mysql/mysql": {
+        "title": "Cliente de terminal mysql",
+        "links": [
+          {
+            "title": "The MySQL Command-Line Client - Docs (em inglês)",
+            "url": "https://dev.mysql.com/doc/refman/8.0/en/mysql.html"
+          }
+        ]
+      },
+      "mysql/data-types": {
+        "title": "Tipos de dados",
+        "links": [
+          {
+            "title": "Chapter 11 Data Types - Docs (em inglês)",
+            "url": "https://dev.mysql.com/doc/refman/8.0/en/data-types.html"
+          }
+        ]
+      },
+      "mysql/indexes": {
+        "title": "Índices",
+        "links": [
+          {
+            "title": "Optimization and Indexes - Docs (em inglês)",
+            "url": "https://dev.mysql.com/doc/refman/8.0/en/optimization-indexes.html"
+          }
+        ]
+      },
+      "mysql/dump-restore": {
+        "title": "Backup e restauração (backup/restore)",
+        "links": [
+          {
+            "title": "Chapter 7 Backup and Recovery - Docs (em inglês)",
+            "url": "https://dev.mysql.com/doc/refman/8.0/en/backup-and-recovery.html"
+          },
+          {
+            "title": "mysqldump — A Database Backup Program - Docs (em inglês)",
+            "url": "https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html"
+          }
+        ]
+      },
+      "react": "React",
+      "react/jsx": {
+        "title": "JSX",
+        "links": [
+          {
+            "title": "Introduzindo JSX - Documentação oficial",
+            "url": "https://pt-br.reactjs.org/docs/introducing-jsx.html"
+          }
+        ]
+      },
+      "react/components": {
+        "title": "Componentes e propriedades (props)",
+        "links": [
+          {
+            "title": "Componentes e propriedades - Documentação oficial",
+            "url": "https://pt-br.reactjs.org/docs/components-and-props.html"
+          }
+        ]
+      },
+      "react/events": {
+        "title": "Manipulação de eventos",
+        "links": [
+          {
+            "title": "Manipulando eventos - Documentação oficial",
+            "url": "https://pt-br.reactjs.org/docs/handling-events.html"
+          }
+        ]
+      },
+      "react/lists-and-keys": {
+        "title": "Listas e chaves",
+        "links": [
+          {
+            "title": "Listas e chaves - Documentação oficial",
+            "url": "https://pt-br.reactjs.org/docs/lists-and-keys.html"
+          }
+        ]
+      },
+      "react/conditional-rendering": {
+        "title": "Renderização condicional",
+        "links": [
+          {
+            "title": "Renderização condicional - Documentação oficial",
+            "url": "https://pt-br.reactjs.org/docs/conditional-rendering.html"
+          }
+        ]
+      },
+      "react/lifting-up-state": {
+        "title": "Elevação de estado",
+        "links": [
+          {
+            "title": "Elevação de estado - Documentação oficial",
+            "url": "https://pt-br.reactjs.org/docs/lifting-state-up.html"
+          }
+        ]
+      },
+      "react/hooks": {
+        "title": "Hooks",
+        "links": [
+          {
+            "title": "Introduzindo Hooks - Documentação oficial",
+            "url": "https://pt-br.reactjs.org/docs/hooks-intro.html"
+          }
+        ]
+      },
+      "react/css-modules": {
+        "title": "CSS modules",
+        "links": [
+          {
+            "title": "Adding a CSS Modules Stylesheet - Documentação de Create React App (em inglês)",
+            "url": "https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/"
+          }
+        ]
+      },
+      "react/routing": {
+        "title": "React Router",
+        "links": [
+          {
+            "title": "Quick Start - Documentação oficial (em inglês)",
+            "url": "https://reactrouter.com/web/guides/quick-start"
+          }
+        ]
+      },
+      "vue": "Vue",
+      "vue/instance": {
+        "title": "Instância de Vue.js",
+        "links": [
+          {
+            "title": "A Instância Vue - Documentação oficial",
+            "url": "https://br.vuejs.org/v2/guide/instance.html"
+          }
+        ]
+      },
+      "vue/data-and-methods": {
+        "title": "Dados e métodos",
+        "links": [
+          {
+            "title": "Dados e métodos - Documentação oficial",
+            "url": "https://br.vuejs.org/v2/guide/instance.html#Datos-y-Metodos"
+          }
+        ]
+      },
+      "vue/components": {
+        "title": "Uso e criação de componentes",
+        "links": [
+          {
+            "title": "Conceitos Básicos de Componentes - Documentação oficial",
+            "url": "https://br.vuejs.org/v2/guide/components.html"
+          }
+        ]
+      },
+      "vue/props": {
+        "title": "Props",
+        "links": [
+          {
+            "title": "Passando dados aos componentes filhos com Props - Documentação oficial",
+            "url": "https://br.vuejs.org/v2/guide/components.html#Pasando-datos-a-componentes-secundarios-con-Props"
+          }
+        ]
+      },
+      "vue/directives": {
+        "title": "Diretivas (v-bind | v-model)",
+        "links": [
+          {
+            "title": "v-bind - Documentação oficial",
+            "url": "https://br.vuejs.org/v2/api/#v-bind"
+          },
+          {
+            "title": "Binding/Interligações em Formulários - Documentação oficial",
+            "url": "https://br.vuejs.org/v2/guide/forms.html"
+          }
+        ]
+      },
+      "vue/iteration": {
+        "title": "Iteração (v-for)",
+        "links": [
+          {
+            "title": "Array em elementos com v-for - Documentação oficial",
+            "url": "https://br.vuejs.org/v2/guide/list.html#Mapeando-una-matriz-a-elementos-con-v-for"
+          }
+        ]
+      },
+      "vue/events": {
+        "title": "Eventos (v-on)",
+        "links": [
+          {
+            "title": "Manipulação de eventos - Documentação oficial",
+            "url": "https://br.vuejs.org/v2/guide/events.html"
+          }
+        ]
+      },
+      "vue/computed-props-and-observers": {
+        "title": "Dados Computados e Observadores",
+        "links": [
+          {
+            "title": "Dados Computados e Observadores",
+            "url": "https://br.vuejs.org/v2/guide/computed.html"
+          }
+        ]
+      },
+      "vue/routing": {
+        "title": "Routing",
+        "links": [
+          {
+            "title": "Getting Started - Documentação oficial de Vue Router",
+            "url": "https://router.vuejs.org/guide/#html"
+          }
+        ]
+      },
+      "vue/classes-and-styles": {
+        "title": "Classes e Estilos",
+        "links": [
+          {
+            "title": "Interligações de Classe e Estilo - Documentação oficial",
+            "url": "https://br.vuejs.org/v2/guide/class-and-style.html"
+          }
+        ]
+      },
+      "angular": "Angular",
+      "angular/components-and-templates": {
+        "title": "Components & templates",
+        "links": [
+          {
+            "title": "Angular Components Overview - Documentação oficial (em inglês)",
+            "url": "https://angular.io/guide/component-overview"
+          },
+          {
+            "title": "Introduction to components and templates - Documentação oficial (em inglês)",
+            "url": "https://angular.io/guide/architecture-components#introduction-to-components"
+          }
+        ]
+      },
+      "angular/structural-directives": {
+        "title": "Diretivas estruturais (ngIf / ngFor)",
+        "links": [
+          {
+            "title": "Writing structural directives - Documentação oficial (em inglês)",
+            "url": "https://angular.io/guide/structural-directives"
+          }
+        ]
+      },
+      "angular/input-output": {
+        "title": "@Input | @Ouput",
+        "links": [
+          {
+            "title": "Component interaction - Documentação oficial (em inglês)",
+            "url": "https://angular.io/guide/component-interaction#component-interaction"
+          }
+        ]
+      },
+      "angular/services": {
+        "title": "Criação e uso de serviços",
+        "links": [
+          {
+            "title": "Providing services - Documentação oficial (em inglês)",
+            "url": "https://angular.io/guide/architecture-services#providing-services"
+          }
+        ]
+      },
+      "angular/routing": {
+        "title": "Rotas",
+        "links": [
+          {
+            "title": "In-app navigation: routing to views - Documentação oficial (em inglês)",
+            "url": "https://angular.io/guide/router"
+          }
+        ]
+      },
+      "angular/observables": {
+        "title": "Criação e uso Observables.",
+        "links": [
+          {
+            "title": "Observables in Angular - Documentação oficial (em inglês)",
+            "url": "https://angular.io/guide/observables-in-angular"
+          }
+        ]
+      },
+      "angular/http-client": {
+        "title": "Uso de HttpClient",
+        "links": [
+          {
+            "title": "Communicating with backend services using HTTP - Documentación oficial (em inglês)",
+            "url": "https://angular.io/guide/http"
+          }
+        ]
+      },
+      "angular/styles": {
+        "title": "Estilos de componentes (ngStyle / ngClass)",
+        "links": [
+          {
+            "title": "Template syntax - Documentación oficial (em inglês)",
+            "url": "https://angular.io/guide/template-syntax#built-in-directives"
+          }
+        ]
+      },
+      "slack": "Slack",
+      "slack/slash-commands": {
+        "title": "Slash commands de Slack",
+        "links": [
+          {
+            "title": "Enabling interactivity with Slash Commands - Slack Docs",
+            "url": "https://api.slack.com/interactivity/slash-commands"
+          }
+        ]
+      },
+      "php": "PHP",
+      "php/data-types/primitive": {
+        "title": "Tipos de dados primitivos em PHP",
+        "links": [
+          {
+            "title": "Booleanos em PHP",
+            "url": "https://www.php.net/manual/es/language.types.boolean.php"
+          },
+          {
+            "title": "Números inteiros (Integers) em PHP",
+            "url": "https://www.php.net/manual/es/language.types.integer.php"
+          },
+          {
+            "title": "Números de ponto flutuante em PHP",
+            "url": "https://www.php.net/manual/es/language.types.float.php"
+          },
+          {
+            "title": "Strings em PHP",
+            "url": "https://www.php.net/manual/es/language.types.string.php"
+          },
+          {
+            "title": "Strings numéricas em PHP",
+            "url": "https://www.php.net/manual/es/language.types.numeric-strings.php"
+          }
+        ]
+      },
+      "php/data-types/arrays": {
+        "title": "Arrays em PHP (arranjos)",
+        "links": [
+          {
+            "title": "Arrays en PHP (arranjos)",
+            "url": "https://www.php.net/manual/pt_BR/language.types.array.php"
+          }
+        ]
+      },
+      "php/data-types/objects": {
+        "title": "Objetos em PHP",
+        "links": [
+          {
+            "title": "Objetos em PHP",
+            "url": "https://www.php.net/manual/pt_BR/language.types.object.php"
+          },
+          {
+            "title": "Programação Orientada a Objetos em PHP",
+            "url": "https://www.php.net/manual/pt_BR/language.oop5.php"
+          }
+        ]
+      },
+      "php/variables": {
+        "title": "Variáveis em PHP (declaração, atribuição, escopo)",
+        "links": [
+          {
+            "title": "Variáveis em PHP ",
+            "url": "https://www.php.net/manual/pt_BR/language.variables.php"
+          }
+        ]
+      },
+      "php/control-structures": {
+        "title": "Estruturas de controle em PHP (if, else, elseif, else if, while, do while, for)",
+        "links": [
+          {
+            "title": "Estruturas de controle em PHP (if, else, elseif, else if, while, do while, for)",
+            "url": "https://www.php.net/manual/pt_BR/language.control-structures.php"
+          }
+        ]
+      },
+      "php/functions": {
+        "title": "Funções em PHP (params, args, return)",
+        "links": [
+          {
+            "title": "Funções em PHP",
+            "url": "https://www.php.net/manual/pt_BR/language.functions.php"
+          },
+          {
+            "title": "Variável e Extensões Relacionadas aos Tipos",
+            "url": "https://www.php.net/manual/pt_BR/refs.basic.vartype.php"
+          }
+        ]
+      },
+      "php/testing/phpunit": {
+        "title": "PHPUnit",
+        "links": [
+          {
+            "title": "PHPUnit",
+            "url": "https://phpunit.de/getting-started/phpunit-9.html"
+          }
+        ]
+      },
+      "php/testing/xdebug": {
+        "title": "XDebug",
+        "links": [
+          {
+            "title": "XDebug",
+            "url": "https://xdebug.org/"
+          }
+        ]
+      },
+      "php/package-management/composer": {
+        "title": "Composer",
+        "links": [
+          {
+            "title": "Composer",
+            "url": "https://getcomposer.org/doc/00-intro.md"
+          }
+        ]
+      },
+      "wordpress": "WordPress",
+      "wordpress/plugin-development/hooks": {
+        "title": "Hooks: action e filter",
+        "links": [
+          {
+            "title": "Hooks: action e filter",
+            "url": "https://developer.wordpress.org/plugins/hooks/"
+          }
+        ]
+      },
+      "wordpress/plugin-development/administration-menu": {
+        "title": "Menus de administração",
+        "links": [
+          {
+            "title": "Administration Menus",
+            "url": "https://developer.wordpress.org/plugins/administration-menus/"
+          }
+        ]
+      },
+      "wordpress/plugin-development/shortcodes": {
+        "title": "ShortCodes",
+        "links": [
+          {
+            "title": "ShortCodes",
+            "url": "https://developer.wordpress.org/plugins/shortcodes/"
+          }
+        ]
+      },
+      "wordpress/plugin-development/settings": {
+        "title": "Configurações",
+        "links": [
+          {
+            "title": "Settings",
+            "url": "https://developer.wordpress.org/plugins/settings/"
+          }
+        ]
+      },
+      "wordpress/plugin-development/custom-post-types": {
+        "title": "Custom Post Types",
+        "links": [
+          {
+            "title": "Custom Post Types",
+            "url": "https://developer.wordpress.org/plugins/post-types/"
+          }
+        ]
+      },
+      "wordpress/plugin-development/taxonomies": {
+        "title": "Taxonomias",
+        "links": [
+          {
+            "title": "Taxonomies",
+            "url": "https://developer.wordpress.org/plugins/taxonomies/"
+          }
+        ]
+      },
+      "wordpress/plugin-development/users": {
+        "title": "Usuários",
+        "links": [
+          {
+            "title": "Users",
+            "url": "https://developer.wordpress.org/plugins/users/"
+          }
+        ]
+      },
+      "wordpress/plugin-development/cron": {
+        "title": "Cron",
+        "links": [
+          {
+            "title": "Cron",
+            "url": "https://developer.wordpress.org/plugins/cron/"
+          }
+        ]
+      },
+      "wordpress/plugin-development/wordpress-rest-api": {
+        "title": "WordPress REST API",
+        "links": [
+          {
+            "title": "WordPress REST API",
+            "url": "https://developer.wordpress.org/rest-api/"
+          }
+        ]
+      },
+      "wordpress/plugin-development/wordpress-apis": {
+        "title": "WordPress APIs",
+        "links": [
+          {
+            "title": "WordPress APIs",
+            "url": "https://codex.wordpress.org/WordPress_APIs"
+          }
+        ]
+      },
+      "wordpress/plugin-development/wordpress-plugin-directory": {
+        "title": "Publicar em WordPress Plugin Directory",
+        "links": [
+          {
+            "title": "WordPress Plugin Directory",
+            "url": "https://developer.wordpress.org/plugins/wordpress-org/planning-your-plugin/"
+          }
+        ]
+      }
     }
   },
   "table": [
@@ -2769,7 +3422,7 @@
     {
       "key": "browser/dom/events",
       "es": "Manejo de eventos del DOM (listeners, propagación, delegación)",
-      "pt": "Gerenciamento de eventos de DOM"
+      "pt": "Manipulação de eventos de DOM"
     },
     {
       "key": "browser/dom/manipulation",
@@ -2812,7 +3465,7 @@
     {
       "key": "js/data-types/strings",
       "es": "Strings (cadenas de caracteres)",
-      "pt": "Strings (cadenas de caracteres)"
+      "pt": "Strings (cadeias de caracteres)"
     },
     {
       "key": "js/data-types/arrays",
@@ -3243,7 +3896,7 @@
     {
       "key": "angular/routing",
       "es": "Manejo de rutas",
-      "pt": "Gerenciamento de rotas"
+      "pt": "Rotas"
     },
     {
       "key": "angular/observables",
@@ -3278,17 +3931,17 @@
     {
       "key": "react/events",
       "es": "Manejo de eventos",
-      "pt": "Gerenciamento de eventos"
+      "pt": "Manipulação de eventos"
     },
     {
       "key": "react/lists-and-keys",
       "es": "Listas y keys",
-      "pt": "Listas e keys"
+      "pt": "Listas e chaves"
     },
     {
       "key": "react/conditional-rendering",
       "es": "Renderizado condicional",
-      "pt": "Renderização' condicional"
+      "pt": "Renderização condicional"
     },
     {
       "key": "react/lifting-up-state",
@@ -3353,7 +4006,7 @@
     {
       "key": "vue/computed-props-and-observers",
       "es": "Propiedades Computadas y Observadores",
-      "pt": "Propriedades Computadas e Observadores"
+      "pt": "Dados Computados e Observadores"
     },
     {
       "key": "vue/routing",
@@ -3373,7 +4026,7 @@
     {
       "key": "http/request-response",
       "es": "Consulta o petición (request) y respuesta (response).",
-      "pt": "Solicitações o requisições (request) e respostas (response)."
+      "pt": "Solicitações ou requisições (request) e respostas (response)."
     },
     {
       "key": "http/headers",
@@ -3393,7 +4046,7 @@
     {
       "key": "http/status-codes",
       "es": "Codigos de status de HTTP",
-      "pt": "Codigos de status de HTTP"
+      "pt": "Códigos de status de HTTP"
     },
     {
       "key": "http/json",
@@ -3452,15 +4105,18 @@
     },
     {
       "key": "socket-io",
-      "es": "Socket.IO"
+      "es": "Socket.IO",
+      "pt": "Socket.IO"
     },
     {
       "key": "socket-io/client",
-      "es": "Cliente JavaScript de Socket.io"
+      "es": "Cliente JavaScript de Socket.io",
+      "pt": "Cliente JavaScript de Socket.io"
     },
     {
       "key": "socket-io/server",
-      "es": "Servidor de Node.js de Socket.io"
+      "es": "Servidor de Node.js de Socket.io",
+      "pt": "Servidor de Node.js de Socket.io"
     },
     {
       "key": "auth",
@@ -3505,7 +4161,7 @@
     {
       "key": "cicd",
       "es": "Integración Continua/Entrega Continua",
-      "pt": "Integraçao Contínua/Entrega Contínua"
+      "pt": "Integração Contínua/Entrega Contínua"
     },
     {
       "key": "cicd/build-pipelines",
@@ -3525,7 +4181,7 @@
     {
       "key": "cicd/test-coverage",
       "es": "Validación de cobertura de pruebas en pipeline",
-      "pt": "Validação de cobertura de testes en pipeline"
+      "pt": "Validação de cobertura de testes em pipeline"
     },
     {
       "key": "cicd/integration-tests",
@@ -3725,7 +4381,7 @@
     {
       "key": "wordpress/plugin-development/administration-menu",
       "es": "Menús de administración",
-      "pt": "Menus de administração'"
+      "pt": "Menus de administração"
     },
     {
       "key": "wordpress/plugin-development/shortcodes",
@@ -3735,7 +4391,7 @@
     {
       "key": "wordpress/plugin-development/settings",
       "es": "Configuraciones",
-      "es": "Configurações"
+      "pt": "Configurações"
     },
     {
       "key": "wordpress/plugin-development/custom-post-types",
