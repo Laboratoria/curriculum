@@ -1,4 +1,5 @@
 const camelCased = str => str.replace(/-([a-z])/g, g => g[1].toUpperCase());
+const Buffer = require('buffer/').Buffer;
 
 export const slugToFilename = id => `${camelCased(id.replace(/^\d{2}-/, ''))}.js`;
 
