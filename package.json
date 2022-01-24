@@ -53,6 +53,7 @@
     "@laboratoria/curriculum-parser": "^3.0.2",
     "@laboratoria/mdlint": "^1.2.3",
     "@octokit/rest": "^18.11.3",
+    "buffer": "^6.0.3",
     "chai": "^4.3.4",
     "chokidar": "^3.5.3",
     "concurrently": "^7.0.0",
