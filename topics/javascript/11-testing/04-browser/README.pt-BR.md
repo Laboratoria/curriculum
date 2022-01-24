@@ -7,7 +7,7 @@
 ***
 
 Até este ponto estivemos executando nossos testes com Node.js, mas como
-*front-end developers* também é interessante executar nossos testes em um
+_front-end developers_ também é interessante executar nossos testes em um
 ambiente de navegador, com um `window` e com um `DOM` de verdade. Isto nos
 permitirá automatizar testes assim como fazer _cross-browser testing_ e validar
 nosso código em navegadores diferentes.

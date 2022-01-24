@@ -75,7 +75,7 @@ la información de un `object`? Diferencias entre un `array` y un `object`.
 
 ### Unidad 06: [Strings (cadenas de caracteres)](06-strings)
 
-En JavaScript, los tipos de dato *texto*, se guardan como *tiras de caracteres*,
+En JavaScript, los tipos de dato _texto_, se guardan como _tiras de caracteres_,
 más popularmente conocidas como `strings`.
 
 ### Unidad 07: [Built-ins (standard library)](07-built-ins)
