@@ -239,7 +239,7 @@ div {
 > [Saiba mais sobre
 > bordas.](https://javabeat.net/border-radius-box-shadow-css3/)
 
-### Margin (___margem___)
+### Margin (**margem**)
 
 É a **separação opcional** existente entre a caixa e o resto das caixas
 adjacentes.

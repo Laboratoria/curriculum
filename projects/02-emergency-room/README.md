@@ -59,8 +59,8 @@ datos más complejas que te permitan resolver problemas de datos.
 ## 4. Consideraciones generales
 
 * El trabajo debe ser hecho en duplas.
-* Debes tener tu código alojado en *GitHub* usando *Git* y sus comandos
-  *commit*, *push*, *pull*, etc.
+* Debes tener tu código alojado en _GitHub_ usando _Git_ y sus comandos
+  _commit_, _push_, _pull_, etc.
 * Debes desplegar tu aplicación usando [GitHub Pages](https://pages.github.com/).
 * Toma el tiempo necesario para completar el proyecto con la máxima calidad
   posible. Asume 3 semanas como una referencia inicial.

@@ -64,13 +64,13 @@ _‘No hay nada más simple que papel y lápiz para aterrizar ideas’._
 
 ## Preguntas necesarias que debes hacerte antes de practicar sketching
 
-*¿Cuento con todos los elementos necesarios para comenzar?* Debes pensar en
+_¿Cuento con todos los elementos necesarios para comenzar?_ Debes pensar en
   todo: la información a transmitir (en este punto te recomiendo hacer listas de
   los contenidos necesarios por transmitir en cada punto de tu vista de página o
   tarea), para quién lo vas a hacer (usuarios), de parte de quién (clientes) y
   con qué recursos lo vas a lograr(Landing Page, formulario, etc).
 
-*¿Cómo lo voy a hacer?* Aquí es donde comienza la magia. Debes planear una
+_¿Cómo lo voy a hacer?_ Aquí es donde comienza la magia. Debes planear una
   estrategia para comunicarle a tu usuario lo que tu cliente necesita transmitir.
   Debes pensar cómo lo harás y de qué manera, pensando en que tu usuario
   interactúa con tu plataforma y que al entrar a un sitio necesita informarse o

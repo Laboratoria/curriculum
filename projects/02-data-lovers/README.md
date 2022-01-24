@@ -354,7 +354,7 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
    [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) un `remote`
    hacia el mismo.
 2. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   tu *fork* a tu computadora (copia local).
+   tu _fork_ a tu computadora (copia local).
 3. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
    asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
 4. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:

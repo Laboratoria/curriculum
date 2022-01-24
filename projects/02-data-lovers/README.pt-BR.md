@@ -352,7 +352,7 @@ Quando estiver pronta para codar, sugerimos começar desta forma:
    [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) um `remote`
    a partir dele.
 2. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   seu *fork* para seu computador (cópia local).
+   seu _fork_ para seu computador (cópia local).
 3. Instale as dependências do projeto com o comando `npm install`, assumindo que
    já tenha instalado o [Node.js](https://nodejs.org/) (que inclui
    [npm](https://docs.npmjs.com/)).
