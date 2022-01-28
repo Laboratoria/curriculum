@@ -7,7 +7,7 @@
 /* eslint no-restricted-globals: "off" */
 
 self.importScripts(
-  'https://cdnjs.cloudflare.com/ajax/libs/mocha/9.1.2/mocha.min.js',
+  'https://cdnjs.cloudflare.com/ajax/libs/mocha/9.1.4/mocha.min.js',
   'https://cdnjs.cloudflare.com/ajax/libs/chai/4.3.4/chai.min.js',
   'https://cdnjs.cloudflare.com/ajax/libs/sinon.js/12.0.1/sinon.min.js'
 );

@@ -15,7 +15,7 @@ Cuando usamos _callbacks_, es común que nos encontremos con situaciones donde
 una operación asícrona depende de que otra se haya completado, y así vamos
 anidando callbacks y es fácil perder el hilo de lo que se está
 ejecutando en un momento determinado. Más aun si en la vida real comienzan a
-existir *callbacks* para todo:
+existir _callbacks_ para todo:
 
 ```js
 unProcesoLento(
@@ -39,7 +39,7 @@ A esto se le llama el **callback hell** y ocurre cuando procesos lentos dependen
 del resultado de los anteriores por lo que terminamos anidando una dentro de
 otra las funciones que esperan por los datos que traen tales procesos.
 
-Para esto es que desde ES6 se crearon las `promesas` (*Promises* en inglés), que
+Para esto es que desde ES6 se crearon las `promesas` (_Promises_ en inglés), que
 están diseñadas para representar a esos datos que están, estarán en el futuro o
 simplemente nunca llegarán (en caso de que haya alguna falla). Veamos un ejemplo
 de ellas:
@@ -60,7 +60,7 @@ readFiles([
 ```
 
 Mucho mejor, aunque se vean más lineas hay grandes diferencias con el
-acercamiento de *callbacks*, el primero es que hay un espacio para la función
+acercamiento de _callbacks_, el primero es que hay un espacio para la función
 que recibirá los datos y otro para la que ejecutará el código de emergencia en
 caso de falla, pero la principal es que las promesas pueden anidarse como lo
 veremos en el siguiente ejemplo :
@@ -87,7 +87,7 @@ otroProcesoLento depende de los datos del primer proceso lento. Notar que
 mantenemos solo una función de emergencia en caso de error para ambos procesos
 lo que ayuda en reducir el código basura y de estar pendientes de qué función en
 la cadena falló, cosa que tendría que haberse replicado en cada uno de los
-*callbacks* del **callback hell**.
+_callbacks_ del **callback hell**.
 
 Ahora que sabemos el por qué de las promesas, veamos su creación y uso más
 detallado.
@@ -120,12 +120,12 @@ let procesoLento = new Promise((resolve, reject) => {
 Lo primero es la creación de una promesa a través del código
 `new Promise(...)`, como puedes ver es un objeto que representa a este dato
 que puede estar inmediatamente, en el futuro o simplemente no estar. Este objeto
-para ser creado recibe un *callback*, pero no como todos, sino que uno especial
+para ser creado recibe un _callback_, pero no como todos, sino que uno especial
 que tiene dos parámetros que veremos a continuación.
 
 #### Parámetro resolve
 
-El primer parámetro del *callback* la promesa es una función especial que
+El primer parámetro del _callback_ la promesa es una función especial que
 llamaremos cuando el trabajo lento que hacemos se termina. Con esto se da por
 terminada la promesa y los datos que queramos retornar se ponen como parámetros
 de `resolve`.

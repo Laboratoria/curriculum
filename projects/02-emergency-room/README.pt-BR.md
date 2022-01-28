@@ -85,8 +85,8 @@ usuários/as (mínimo 5 testes de usabilidade).
 ## 4. Considerações gerais
 
 * O trabalho deve ser feito em dupla.
-* Devem ter seu código alojado no *GitHub* usando *Git* e seus comandos *commit*,
- *push*, *pull*, etc.
+* Devem ter seu código alojado no _GitHub_ usando _Git_ e seus comandos _commit_,
+ _push_, _pull_, etc.
 * Devem implantar a aplicação usando [GitHub Pages](https://pages.github.com/).
 * Toma o tempo necessário para completar o projeto com a máxima qualidade possível.
  Assuma 3 semanas como uma referência inicial.
