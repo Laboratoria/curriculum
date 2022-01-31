@@ -1,40 +1,41 @@
 # Harry Potter
 
-Harry Potter é uma série de romances de fantasia escritos pelo autor
-britânica J. K. Rowling, que descreve as aventuras da jovem
-feiticeiro da bruxaria e feitiçaria Harry Potter e seus amigos ao longo dos anos
-que acontecem na Escola de Magia e Bruxaria de Hogwarts. O argumento é
-centra-se na luta entre Harry Potter e o malvado feiticeiro Lord Voldemort,
+Harry Potter é uma série de romances de fantasia escritos pela autora
+britânica J. K. Rowling, que descreve as aventuras do jovem bruxo Harry Potter
+e seus amigos ao longo dos anos em que passam estudando na Escola de Magia e
+Bruxaria de Hogwarts. O enredo é foca na luta
+entre Harry Potter e o malvado feiticeiro Lord Voldemort,
 que assassinou os pais de Harry em sua busca para conquistar o mundo mágico.
 
-O sucesso das novelas fez da marca uma das mais bem sucedidas do mundo.
+O sucesso da saga fez da marca uma das mais bem sucedidas do mundo.
 Em 1999, a produtora de filmes Warner Bros. adquiriu os direitos de
 adaptar todos os sete livros em uma série de filmes. O último,
-Harry Potter e as Relíquias da Morte: Parte 2, estreou em 15 de julho
-2011 e com oito filmes realizados, a série se tornou uma das
-franquias de filmes de maior sucesso em termos de receitas de bilheteria.
+Harry Potter e as Relíquias da Morte: Parte 2, estreou em 15 de julho de 2011
+e, com oito filmes lançados, a série se tornou uma das franquias de filmes de
+maior sucesso em termos de receita de bilheteria.
 
 ## Descobertas
 
-Fazendo pesquisas sobre as informações que eles podem precisar
-nossos usuários acham que os dados de maior interesse são:
+Fazendo pesquisas sobre as informações que eles podem precisar, nossos usuários
+acham que os dados de maior interesse são:
 
 - Informações sobre os personagens como nome, espécie, gênero, data de
   nascimento, para saber se ele é _trouxa_ ou para conhecer sua casa de estudo.
 - A Escola de Magia e Bruxaria de Hogwarts usa o sistema das Casas.
   O corpo discente de Hogwarts é dividido em quatro Casas (Grifinória,
   Lufa-Lufa, Corvinal e Sonserina ;). Nossos usuários estão interessados ​​em saber
-  Quantos alunos há em cada casa?
-- Dentro do mundo mágico existem muitos feitiços que podem ser invocados, para
-  nossos usuários é importante conhecê-los e saber o que eles fazem
-  estar preparado.
-- Todas essas informações são baseadas na saga de romances da autora J. K. Rowling,
-  para nossos usuários é importante saber quantos livros foram publicados
-  e gostariam de poder visualizar quais personagens aparecem em cada livro.
-- Poções são uma ferramenta crucial no mundo de Harry Potter,
-  ter um dicionário para poder consultá-los é um pedido dos usuários.
+  quantos alunos há em cada casa
+- Dentro do mundo mágico existem muitos feitiços que podem ser invocados,
+  para nossos usuários é importante conhecê-los e saber o que eles fazem para
+  estarem preparados.
+- Todas essas informações são baseadas na saga de livros da autora
+  J. K. Rowling. Nossos usuários acham importante saber quantos livros foram
+  publicados e gostariam de poder visualizar quais personagens
+  aparecem em cada livro.
+- Poções são uma ferramenta crucial no mundo de Harry Potter
+  e nossos usuários gostariam de ter um dicionário para poder consultá-las.
 
-## Detalhes da data
+## Detalhes dos dados
 
 ### Personagens
 
@@ -45,9 +46,9 @@ grupos a que pertence, livros em que aparece entre outras coisas.
 
 ### Feitiços
 
-Nesta lista você pode encontrar o nome e a descrição dos feitiços
-\ que os personagens podem invocar, também o lugar no livro onde eles estão
-mencione este feitiço e sua pronúncia.
+Nesta lista você pode encontrar o nome e a descrição dos
+feitiços que os personagens podem invocar, também o lugar no livro onde eles
+estão e a pronúncia do feitiço.
 
 ### Livros
 
@@ -61,4 +62,4 @@ Lista de alguns fatos curiosos sobre a saga, contém tipo e conteúdo.
 ### Poções
 
 Nesta lista você pode encontrar os nomes das poções que são mencionadas no
-livro, bem como uma breve descrição do mesmo.
+livro, bem como uma breve descrição das mesmas.

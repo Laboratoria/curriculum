@@ -46,7 +46,7 @@ grupos a los que pertenece, libros en los que aparece entre otras cosas.
 ### Hechizos
 
 En esta lista podrás encontrar el nombre y la descripción de los hechizos
-\ que pueden invocar los personajes, también el lugar del libro donde se
+ que pueden invocar los personajes, también el lugar del libro donde se
 menciona este hechizo y su pronunciación .
 
 ### Libros
