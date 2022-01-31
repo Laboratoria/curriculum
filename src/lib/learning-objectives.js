@@ -1,6 +1,8 @@
 import angularSvg from '../icons/angular.svg';
 import authSvg from '../icons/auth.svg';
 import browserSvg from '../icons/browser.svg';
+import businessSvg from '../icons/business.svg';
+import communicationSvg from '../icons/communication.svg';
 import cssSvg from '../icons/css3.svg';
 import dbSvg from '../icons/db.svg';
 import dockerSvg from '../icons/docker.svg';
@@ -15,11 +17,16 @@ import mongoSvg from '../icons/mongodb.svg';
 import mysqlSvg from '../icons/mysql.svg';
 import nodeSvg from '../icons/nodedotjs.svg';
 import phpSvg from '../icons/php.svg';
+import planningSvg from '../icons/planning.svg';
 import postgresSvg from '../icons/postgres.svg';
+import productDesignSvg from '../icons/product-design.svg';
 import reactSvg from '../icons/react.svg';
+import researchSvg from '../icons/research.svg';
 import slackSvg from '../icons/slack.svg';
 import socketioSvg from '../icons/socketdotio.svg';
 import sqlSvg from '../icons/sql.svg';
+import synthesisSvg from '../icons/synthesis.svg';
+import userCentricitySvg from '../icons/user-centricity.svg';
 import uxSvg from '../icons/ux.svg';
 import vueSvg from '../icons/vuedotjs.svg';
 import wordpressSvg from '../icons/wordpress.svg';
@@ -36,6 +43,14 @@ const learningObjectivesIcons = {
   browser: {
     color: '#000000',
     svg: browserSvg,
+  },
+  business: {
+    color: '#000000',
+    svg: businessSvg,
+  },
+  communication: {
+    color: '#000000',
+    svg: communicationSvg,
   },
   css: {
     color: '#1572B6',
@@ -93,13 +108,25 @@ const learningObjectivesIcons = {
     color: '#777BB4',
     svg: phpSvg,
   },
+  planning: {
+    color: '#000000',
+    svg: planningSvg,
+  },
   postgres: {
     color: '#4169E1',
     svg: postgresSvg,
   },
+  'product-design': {
+    color: '#000000',
+    svg: productDesignSvg,
+  },
   react: {
     color: '#61DAFB',
     svg: reactSvg,
+  },
+  research: {
+    color: '#000000',
+    svg: researchSvg,
   },
   slack: {
     color: '#4A154B',
@@ -112,6 +139,14 @@ const learningObjectivesIcons = {
   sql: {
     color: '#000000',
     svg: sqlSvg,
+  },
+  synthesis: {
+    color: '#000000',
+    svg: synthesisSvg,
+  },
+  'user-centricity': {
+    color: '#000000',
+    svg: userCentricitySvg,
   },
   ux: {
     color: '#56f89a',
