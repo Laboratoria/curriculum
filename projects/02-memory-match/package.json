@@ -7,7 +7,7 @@
   "scripts": {
     "pretest": "eslint .",
     "test": "jest --coverage",
-    "start": "serve -s src/",
+    "start": "serve src/",
     "deploy": "gh-pages -d src"
   },
   "devDependencies": {
@@ -26,3 +26,4 @@
     "testEnvironment": "jsdom"
   }
 }
+
