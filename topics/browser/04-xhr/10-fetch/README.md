@@ -24,7 +24,7 @@ transformado en espagueti.
 ¿qué pasa si necesitamos datos de una llamada, para luego hacer otra, y otra?
 
 Por suerte para nosotras actualmente existe `fetch`, implementado por la mayoría
-de los navegadores (excepto _Internet Explorer_ y _Safari_), que usa *Promesas*
+de los navegadores (excepto _Internet Explorer_ y _Safari_), que usa _Promesas_
 para retornar los resultados, lo que trae como beneficio inmediato el no tener
 que depender de _callbacks_ para recibir las respuestas de las peticiones. El
 usar promesas también nos permite anidarlas o ejecutarlas en paralelo, haciendo

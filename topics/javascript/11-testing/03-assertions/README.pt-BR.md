@@ -1,4 +1,4 @@
-# *Asserts*
+# _Asserts_
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -113,12 +113,12 @@ implementar seu próprio código de asserções (não somente de igualdade, mas 
 todo o tipo de comparações). O mais comum é usar uma dependência externa (uma
 biblioteca ou módulo) como veremos nos próximos exemplos.
 
-## Módulo *assert* de Node.js
+## Módulo _assert_ de Node.js
 
 Node.js contém seu próprio módulo de asserções sem necessidade de ter que
 instalar nenhuma dependência. Se você estiver executando seus testes com
 Node.js, é muito comum utilizar este módulo (`assert`), a menos que a biblioteca
-ou *framework* que estiver usando já contenham seus próprios sistemas de
+ou _framework_ que estiver usando já contenham seus próprios sistemas de
 asserções (por exemplo, `Jest`).
 
 Troquemos nossa função `assertEqual` com o módulo `assert` de Node.js:

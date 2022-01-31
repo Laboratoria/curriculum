@@ -382,7 +382,7 @@ necesario para configurar los marcos de la pila de funciones. Tanto el tiempo
 como el espacio se guardan.
 
 Una programadora debe escribir funciones de una manera que facilite la
-_optimización de llamadas de cola_. Esto significa que la última función
+*optimización de llamadas de cola*. Esto significa que la última función
 invocada debe ser la función recursiva. Si revisamos con detenimiento nuestra
 función `factorial` podremos apreciar que nuestra llamada recursiva es como
 sigue:

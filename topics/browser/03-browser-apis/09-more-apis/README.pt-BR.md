@@ -106,7 +106,7 @@ exemplo mais técnico seria por meio de Firebase. Você percebeu que, se sua
 aplicação ouve as mudanças na base de dados, ela atualiza automaticamente?
 
 Tudo isso é graças aos *Web Sockets*. HTML5 fornece esta API com a qual você
-pode estabelecer conexões _socket_ entre o navegador e um servidor. Isso
+pode estabelecer conexões *socket* entre o navegador e um servidor. Isso
 significa que existe uma conexão persistente na qual você pode enviar dados a
 qualquer momento.
 

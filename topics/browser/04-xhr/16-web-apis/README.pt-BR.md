@@ -40,7 +40,7 @@ do que se trata.
 
 Este tipo de API é o mais simples de consumir por meio de AJAX e por sua vez é o
 de maior uso público, pois não é preciso se registrar para obter uma chave ou
-login. Simplesmente faça uma requisição no *endpoint* especificado e pronto.
+login. Simplesmente faça uma requisição no _endpoint_ especificado e pronto.
 Exemplo destas APIs podem ser: Pokeapi, Swapi, entre outras. Aqui temos um _pen_
 mostrando o que você pode fazer com a API de
 [Lyrics.ovh](https://lyricsovh.docs.apiary.io/#).
@@ -71,9 +71,9 @@ exemplo com Google Maps.
 </iframe>
 
 Em algumas ocasiões, as API Keys geradas devem ir nos cabeçalhos HTTP da
-requisição, para que no *backend* se faça a verificação do *token* e este possa
+requisição, para que no _backend_ se faça a verificação do _token_ e este possa
 ser autenticado corretamente. Por exemplo, na API de
-[CoinAPI.io](https://www.coinapi.io/), o *token* é enviado por meio do *header*
+[CoinAPI.io](https://www.coinapi.io/), o _token_ é enviado por meio do _header_
 `X-CoinAPI-Key`. Aqui temos um _pen_ de como ser faria a requisição nesse caso:
 
 <iframe
@@ -88,7 +88,7 @@ ser autenticado corretamente. Por exemplo, na API de
 
 OAuth é um protocolo de autorização que permite obter acesso limitado a
 aplicações de terceiros para obter dados e em seguida usar esse dados para o
-registro de um *web service* ou API. Aqui deixamos um exemplo para que veja do
+registro de um _web service_ ou API. Aqui deixamos um exemplo para que veja do
 que se trata:
 
 <iframe
@@ -136,6 +136,6 @@ adequado).
 
 ## Mais recursos
 
-- [O que é a autenticação baseada em *tokens*?
+- [O que é a autenticação baseada em _tokens_?
   (Espanhol)](https://carlosazaustre.es/que-es-la-autenticacion-con-token/)
 - [O que é OAuth? (Espanhol)](https://aplicacionesysistemas.com/que-es-oauth/)

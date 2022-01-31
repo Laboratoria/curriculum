@@ -50,7 +50,7 @@ más sobre ello visita éste [link](http://librosweb.es/libro/javascript/capitul
 
 ### Manejo de eventos
 
-Además de agregar el *listener* al evento también se puede eliminar usando el
+Además de agregar el _listener_ al evento también se puede eliminar usando el
 método __removeEventListener__, el cual funciona casi de la misma manera. La
 sintaxis es de la siguiente manera:
 
@@ -86,7 +86,7 @@ por defecto, para ello existe __preventDefault__, a continuación un ejemplo:
 
 > Este es el código para un formulario muy sencillo
 > Hay un input para ingresar el nombre y otro para ingresar el apellido
-> Por último, hay un input de tipo *submit* (botón enviar)
+> Por último, hay un input de tipo _submit_ (botón enviar)
 
 ```html
 <form>
@@ -109,8 +109,8 @@ por defecto, para ello existe __preventDefault__, a continuación un ejemplo:
 > En la primera parte se guardan en variables los elementos del formulario
 > Después tenemos la función que detona el evento submit
 > Esta función comprueba si los campos están vacios
-> Si la condición se cumple se ejecuta la función *preventDefault* para el
-*eventObject* (e)
+> Si la condición se cumple se ejecuta la función _preventDefault_ para el
+_eventObject_ (e)
 > Impidiendo que el formulario se envíe automáticamente (acción que tiene por
 defecto este tipo de "botón") para mostrar al usuario un mensaje de error.
 
@@ -131,8 +131,8 @@ form.onsubmit = function(e) {
 
 ### Flujo de eventos (Propagation)
 
-Cuando un evento se ejecuta pasa por diferentes fases: *Capture phase*, *Target
-phase* y *Bubbling phase*, como se muestra en las siguientes imágenes.
+Cuando un evento se ejecuta pasa por diferentes fases: _Capture phase_, _Target
+phase_ y _Bubbling phase_, como se muestra en las siguientes imágenes.
 
 ![Event propagation tree](https://user-images.githubusercontent.com/110297/120246086-d60a0180-c234-11eb-9c38-0535154be569.png)
 
@@ -174,7 +174,7 @@ ejemplo sobre la interacción con los eventos.
 > Guía de uso:
 >
 > 1. Nota como el fondo es de color blanco
-> 2. Ahora haz click en el botón *Hacer magia :)*
+> 2. Ahora haz click en el botón _Hacer magia :)_
 > 3. Revisa el código y analiza la lógica de programación
 > 4. Ahora intenta modificar el código para que reaccione con otros eventos,
   diviertete ;)
