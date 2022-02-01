@@ -9,7 +9,7 @@
     "pretest": "npm run eslint && npm run htmlhint",
     "test": "jest --verbose --coverage",
     "open-coverage-report": "opener ./coverage/lcov-report/index.html",
-    "start": "serve -s src/",
+    "start": "serve src/",
     "deploy": "gh-pages -d src"
   },
   "dependencies": {
@@ -27,3 +27,4 @@
     "node": ">=14.x"
   }
 }
+
