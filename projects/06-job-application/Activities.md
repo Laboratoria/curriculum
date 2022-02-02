@@ -255,15 +255,13 @@
     <td>NA</td>
   </tr>
   <tr>
-    <td><b>Bootcamp Feedback</b></td>
+    <td><b>Project Feedback</b></td>
     <td></td>
     <td>
       <b>Project Feedback:</b><br />
-      Al finalizar el proyecto tendrás una sesión de reflexión
-      con una persona del equipo en la que revisarán tus autoevaluaciones, la
-      evaluación que recibiste de los simulacros de entrevista y el alcance de
-      tus objetivos de aprendizaje. Será un insumo para que continúes
-      preparándote para los procesos de selección en los que participarás.
+      Al finalizar el proyecto de manera grupal e individual tendremos algunos
+      espacios de reflexión sobre tu experiencia. Esto sucederá en distintos
+      momentos que sea alinean a otros objetivos de BC. 
     </td>
     <td>
       <ul>
