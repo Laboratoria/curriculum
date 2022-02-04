@@ -2,13 +2,11 @@
 
 ## Índice
 
-- [Proyecto Job Application](#proyecto-job-application)
-  - [Índice](#índice)
-  - [1. Preámbulo](#1-preámbulo)
-  - [2. Objetivos de aprendizaje](#2-objetivos-de-aprendizaje)
-  - [3. Entregables](#3-entregables)
-  - [4. Resumen del proyecto](#4-resumen-del-proyecto)
-  - [5. Consideraciones generales](#5-consideraciones-generales)
+- [1. Preámbulo](#1-preámbulo)
+- [2. Objetivos de aprendizaje](#2-objetivos-de-aprendizaje)
+- [3. Entregables](#3-entregables)
+- [4. Resumen del proyecto](#4-resumen-del-proyecto)
+- [5. Consideraciones generales](#5-consideraciones-generales)
 
 ---
 
