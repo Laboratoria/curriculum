@@ -221,7 +221,7 @@ Analizando la misma imagen de arriba:
 ## Propiedades de los nodos
 
 Primero, cada vez que hablemos de `nodos` en realidad nos estamos refiriendo a
-un __objeto__ y como recordarás, los objetos tienen __propiedades y métodos__.
+un **objeto** y como recordarás, los objetos tienen **propiedades y métodos**.
 Por lo tanto los `nodos` tienen propiedades y métodos que te ayudarán a
 identificarlos.
 

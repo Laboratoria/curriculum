@@ -16,7 +16,7 @@ http, ...) para poder completar o trabalho.
 
 JavaScript é uma linguagem que permite manipular _assincronia_ de uma maneira
 elegante graças à sua implementação de funções e sua natureza _non-blocking_
-(que não bloqueia a *thread* enquanto espera que uma tarefa assíncrona seja
+(que não bloqueia a _thread_ enquanto espera que uma tarefa assíncrona seja
 completada). Nesta unidade veremos **callbacks**, **eventos** e **promessas**
 como maneiras de trabalhar com tarefas assíncronas.
 
@@ -33,7 +33,7 @@ para validar que está indo na direção correta. Que este guia sirva como um
 "checklist" que você vai riscando conforme avança.
 
 * O que é uma tarefa assíncrona?
-* O que significa bloquear a *thread*?
+* O que significa bloquear a _thread_?
 * O que é um _callback_?
 * O que é um _evento_?
 * Como ouvir _eventos_?

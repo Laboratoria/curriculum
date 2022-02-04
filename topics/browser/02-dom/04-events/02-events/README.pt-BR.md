@@ -170,7 +170,7 @@ function realcar(elemento) {
 ```
 
 No exemplo anterior, passamos o parâmetro `this` na função externa, que dentro
-da função se chama _elemento_. Ao passar `this` como parâmetro, é possível
+da função se chama *elemento*. Ao passar `this` como parâmetro, é possível
 acessar de forma direta a partir da função externa as propriedades do elemento
 que disparou o evento.
 

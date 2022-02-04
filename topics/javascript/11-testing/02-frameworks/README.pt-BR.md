@@ -1,4 +1,4 @@
-# *Frameworks*
+# _Frameworks_
 
 * Tipo: `leitura`
 * Formato: `individual`
@@ -10,7 +10,7 @@ Já vimos um pouco o que fazemos quando testamos e porque testamos. Agora vamos
 introduzir algumas ferramentas para facilitar esse processo de ter que executar
 algo e comprovar se aconteceu o que esperávamos.
 
-Existem vários frameworks e bibliotecas ótimas de *testing* para JavaScript:
+Existem vários frameworks e bibliotecas ótimas de _testing_ para JavaScript:
 [Mocha](https://mochajs.org/), [Jest](https://facebook.github.io/jest/),
 [Jasmine](https://jasmine.github.io/),
 [Tape](https://github.com/substack/tape),... para falar só das mais populares.
@@ -183,7 +183,7 @@ implementação conforme avançamos. Isto é muito útil tanto para _documentar_
 comportamento de nosso código como para ver o nível de totalidade da
 implementação e quais casos consideramos (ou não).
 
-No *snippet* anterior invocamos `it()` com uma string que permite descrever a
+No _snippet_ anterior invocamos `it()` com uma string que permite descrever a
 característica ou comportamento esperado. O mais comum é que estas strings
 comecem com a palavra _deveria ..._. Desta maneira vamos articulando a semântica
 que depois _leremos_ como _isVowel() deveria..._.

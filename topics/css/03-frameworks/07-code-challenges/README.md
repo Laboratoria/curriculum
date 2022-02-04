@@ -15,7 +15,7 @@
 
 Recrea la siguiente página web. Las imágenes y todo lo que necesitas lo
 encuentras [aquí](https://github.com/Laboratoria-learning/lab-car-boilerplate),
-recuerda hacer un **fork** del repositorio y clonarlo en
+recuerda hacer un _fork_ del repositorio y clonarlo en
 tu máquina.
 
 ### 1. La versión web

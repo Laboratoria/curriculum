@@ -81,6 +81,12 @@ Estos son datos que te proponemos:
   [Studio Ghibli](https://ghiblicollection.com/).
   - [Investigación con seguidores de las animaciones del Studio Ghibli](src/data/ghibli/README.md)
 
+* [Harry Potter](src/data/harrypotter/harry.json).
+  En este set encontrarás una lista de los personajes,libros pociones
+  y hechizos de toda la saga de
+  [Harry Potter](https://harrypotter.fandom.com).
+  - [Investigación con seguidoras de Harry Potter](src/data/harrypotter/README.md)
+
 El objetivo principal de este proyecto es que aprendas a diseñar y construir una
 interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
 usuario necesita.
@@ -354,7 +360,7 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
    [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) un `remote`
    hacia el mismo.
 2. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   tu *fork* a tu computadora (copia local).
+   tu _fork_ a tu computadora (copia local).
 3. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
    asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
 4. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:

@@ -122,9 +122,9 @@ información memorizada, por lo que tiene que buscarla en su libreta de
 direcciones. Esto podría llevarle unos minutos. Existen diferentes estrategias
 para proceder:
 
-* *Síncrono:* Tú permaneces en la línea telefónica con ella y esperas mientras
+* _Síncrono:_ Tú permaneces en la línea telefónica con ella y esperas mientras
   ella mira su libreta.
-* *Asíncrono:* Le dices a tu amiga que te devuelva la llamada una vez que tenga
+* _Asíncrono:_ Le dices a tu amiga que te devuelva la llamada una vez que tenga
   la información. Mientras tanto, tu puedes concentrar toda tu atención en
   otras tareas que necesitas hacer, como por ejemplo diseñar un algoritmo.
 

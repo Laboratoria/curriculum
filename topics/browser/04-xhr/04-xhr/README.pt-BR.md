@@ -83,7 +83,7 @@ asyncRequestObject.send();
 ```
 
 Já sabemos que não há melhor maneira de aprender do que fazendo. Para ver como
-funciona, vá ao [Unsplash](https://unsplash.com), abra suas *developer tools* e
+funciona, vá ao [Unsplash](https://unsplash.com), abra suas _developer tools_ e
 adicione no console o objeto e seus métodos `open` e `send`.
 
 ![XHR send

@@ -7,7 +7,7 @@
 **Usa Function#bind** para implementar una función `logger` que nos permita
 separar mensajes en diferentes ámbitos (namespaces).
 
-Tu implementación debe exportar dos funciones con las siguientes _firmas_:
+Tu implementación debe exportar dos funciones con las siguientes *firmas*:
 
 * `log(str1, str2, str3, ...)`: Retorna un string con los strings de entrada
   concatenados y separados por espacios.

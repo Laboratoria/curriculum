@@ -11,7 +11,8 @@ import HomeIcon from '@material-ui/icons/Home';
 import DeveloperModeIcon from '@material-ui/icons/DeveloperMode';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import PeopleIcon from '@material-ui/icons/People';
-import { version } from '../../../package.json';
+
+const version = process.env.REACT_APP_VERSION;
 
 const useStyles = makeStyles(() => ({
   list: {

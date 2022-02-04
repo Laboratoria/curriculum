@@ -36,7 +36,7 @@ Una vez vistas las diversas aplicaciones de las funciones procedamos a dejar
 claro que significa una *función pura*.
 
 > Toda función que dados los mismos inputs siempre retorna lo mismo, y sin
-> efectos secundarios, es una _función pura_.
+> efectos secundarios, es una *función pura*.
 
 En **programación funcional**, el comportamiento de las funciones depende de una
 y solo una cosa: los argumentos pasados explícitamente a la función. Esto quiere
@@ -397,7 +397,7 @@ condiciones.
 
 NOTA: Es común usar métodos como `Array#slice`, `Array#map` o `Array#filter`
 además de `Array#concat` para crear copias de arreglos. En **ES6** también
-tenemos el _spread operator_ que nos permite copiar las propiedades enumerables
+tenemos el *spread operator* que nos permite copiar las propiedades enumerables
 de un arreglo u objeto de esta forma:
 
 ```js
