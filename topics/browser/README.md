@@ -1,6 +1,6 @@
 # Browser JavaScript
 
-Este tópico cubre JavaScript en el contexto del navegador, 
+Este tópico cubre JavaScript en el contexto del navegador,
 donde más comunmente, se estará ocupando JS para interactuar
 con el _DOM_ u otras _browser APIs_ como las _Cookies_, o haciendo
 referencia al objeto `document` o `window`, añadiéndole

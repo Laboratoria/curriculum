@@ -1,6 +1,6 @@
 # CSS
 
-Hojas de estilo en cascada, o CSS por su sigla en inglés 
+Hojas de estilo en cascada, o CSS por su sigla en inglés
 (Cascading Style Sheets) es la tecnología utilizada para
 dar estilo a los elementos desplegados en un sitio web.
 

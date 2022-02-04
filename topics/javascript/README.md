@@ -18,7 +18,6 @@ es ECMAScript (o ES) cuyo propósito es asegurarse de la
 interoperabilidad de los sitios webs escritos con JS en los distintos
 navegadores web utilizados por las usuarias en el mundo.
 
-
 Tags: `value`, `variable`, `operator`, `comment`, `flow-control`, `branching`,
 `conditional`, `loop`, `function`, `array`, `object`, `string`, `built-ins`,
 `async`, `callback`, `promise`, `error`, `debugging`, `style`
