@@ -1,13 +1,23 @@
 # JavaScript
 
-En un mundo que rápidamente se está digitalizando, aprender a programar abre
-nuevas (y muchas veces mejores) oportunidades. Con este curso darás tus primeros
-pasos hacia el mundo de la programación. Empezaremos desde cero, enseñándote los
-fundamentos de JavaScript, el lenguaje de programación más popular de la Web.
+JavaScript, comúnmente abreviado JS, es  un lenguaje de programación
+que forma parte de las tecnologías centrales del desarrollo web,
+junto con HTML y CSS. Actualmente, la inmensa mayoría de los sitios
+webs utilizan JavaScript en el lado de _el cliente_ para controlar el
+comportamiento y agregarle funcionalidad a ellos, usualmente
+incorporando librerías de terceros.
 
-En este curso aprenderás mejores formas de estructurar y manipular la data de
-tu programa haciendo uso de estructuras de datos básicas: `arreglos` y
-`objetos`.
+Originalmente, los motores que interpretaban JavaScript fueron
+diseñados y utilizados para los navegadores web, sin embargo,
+hoy en día existen motores de ejecución de JS nativos para
+los sistemas operativos, expandiendo el uso de JS hacia _servidores_
+y una gran variedad de aplicaciones de escritorio.
+
+Actualmente el estándar bajo el cual se escribe código en JavaScript
+es ECMAScript (o ES) cuyo propósito es asegurarse de la
+interoperabilidad de los sitios webs escritos con JS en los distintos
+navegadores web utilizados por las usuarias en el mundo.
+
 
 Tags: `value`, `variable`, `operator`, `comment`, `flow-control`, `branching`,
 `conditional`, `loop`, `function`, `array`, `object`, `string`, `built-ins`,

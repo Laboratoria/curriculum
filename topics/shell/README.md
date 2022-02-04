@@ -2,7 +2,7 @@
 
 La línea de comandos es una interfaz que algunos pensarían está ya anticuada.
 Pero la realidad es completamente distinta. El terminal se ha convertido en una
-pieza crucial en el día a día de un desarrollador web, ya sea usando `git`,
+pieza crucial en el día a día de una desarrolladora web, ya sea usando `git`,
 corriendo un `bundler`, instalando dependencias con `npm` o escribiendo scripts
 para arrancar o desplegar aplicaciones.
 
