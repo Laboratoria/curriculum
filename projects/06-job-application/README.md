@@ -2,11 +2,13 @@
 
 ## Índice
 
-- [1. Preámbulo](#1-preámbulo)
-- [2. Objetivos de aprendizaje](#2-objetivos-de-aprendizaje)
-- [3. Entregables](#3-entregables)
-- [4. Resumen del proyecto](#4-resumen-del-proyecto)
-- [5. Consideraciones generales](#5-consideraciones-generales)
+- [Proyecto Job Application](#proyecto-job-application)
+  - [Índice](#índice)
+  - [1. Preámbulo](#1-preámbulo)
+  - [2. Objetivos de aprendizaje](#2-objetivos-de-aprendizaje)
+  - [3. Entregables](#3-entregables)
+  - [4. Resumen del proyecto](#4-resumen-del-proyecto)
+  - [5. Consideraciones generales](#5-consideraciones-generales)
 
 ---
 
@@ -54,9 +56,9 @@ qué te puedes encontrar una vez comience tu proceso de placement.
   búsqueda de trabajo en la industria tech.
 - [ ] Entiendo qué es y para qué sirve mi perfil de LinkedIn en este contexto.
 - [ ] Entiendo qué es y para qué sirve mi perfil de Github en este contexto.
-- [ ] Identifico las habilidades que son fortalezas y áreas de mejora para mi
+- [ ] Identifico las life skills que son fortalezas y áreas de mejora para mi
   participación en procesos de selección en la industria.
-- [ ] Identifico los habilidades técnicas que son fortalezas y áreas de mejora
+- [ ] Identifico las habilidades técnicas que son fortalezas y áreas de mejora
   para mi participación en procesos de selección en la industria.
 
 ## 3. Entregables
@@ -76,6 +78,22 @@ qué te puedes encontrar una vez comience tu proceso de placement.
 El proyecto tiene varias etapas que te permitirán prepararte, cada etapa está
 inspirada en los momentos que puedes vivir en un proceso de selección. Ten en
 cuenta que este proyecto es un proyecto de una duración aproximada de 3 meses.
+
+En cada etapa del proyecto podrás encontrar:
+
+- **Píldoras**: Son pequeños videos informativos sobre algún tema en específico.
+  Estos videos son insumos de información que puedes consultar para el avance en
+  tu proyecto.
+- **Talleres y sesiones de reflexión**: Donde compartirás con otras compañeras y
+  el equipo de Laboratoria sobre temáticas específicas y/o sobre tu experiencia
+  y aprendizajes a lo largo del proyecto.
+- **Ayudantías**: Office Hour con el equipo de Laboratoria para poder conversar
+  tus dudas/aprendizajes/bloqueos durante el proyecto. Estos espacios podrán ser
+  con la Bootcamp Manager, Coordinadora de Desarrollo Personal o Job Placement
+  coordinator para temas vinculados a tu CV/LinkedIn/Entrevistas de RRHH y con
+  el equipo de coaches para temas vinculados a entrevistas tech y Github.
+- **Mentorias / Entrevistas**: Serán espacios que tendrás con personas de la
+  industria para recibir asesoria y/o feedback.
 
 En el siguiente link, encontrarás una tabla donde te compartimos la descripción
 de cada etapa, las fechas en las que se realizará, los recursos con los que
