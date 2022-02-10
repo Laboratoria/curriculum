@@ -196,6 +196,15 @@ mínimo del 50% de _branches_ (ramas).
 
 ***
 
+#### Deploy
+
+Hacer que los proyectos están disponibles e deja-los no ar para que cualquer
+persona pueda acesa-lo es algo comun no ciclo de desarrollo de um producto de tecnologia.
+
+Para este proyecto, utilizaremos Github Pages para este propósito.
+El comando `npm run deploy` puede ayudarte con esta tareay también puedes
+ consultar la [documentación oficial](https://docs.github.com/es/pages).
+
 ## 6. Pistas, tips y lecturas complementarias
 
 ### Primeros pasos
