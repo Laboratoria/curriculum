@@ -97,7 +97,7 @@ En el siguiente link, encontrarás una tabla donde te compartimos la descripció
 de cada etapa, las fechas en las que se realizará, los recursos con los que
 contarás y los entregables de cada momento.
 
-[Actividades](./Activities.md)
+### [Actividades](./Activities.md)
 
 ## 5. Consideraciones generales
 
