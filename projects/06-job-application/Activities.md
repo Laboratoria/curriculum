@@ -261,7 +261,7 @@
       <b>Project Feedback:</b><br />
       Al finalizar el proyecto de manera grupal e individual tendremos algunos
       espacios de reflexión sobre tu experiencia. Esto sucederá en distintos
-      momentos que sea alinean a otros objetivos de BC. 
+      momentos que sea alinean a otros objetivos de BC.
     </td>
     <td>
       <ul>
