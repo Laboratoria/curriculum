@@ -363,7 +363,7 @@ docker-compose run --rm phpunit phpunit -c /app/<plugin-name>/phpunit.xml.dist
 ```
 
 Puedes encontrar un video con este procedimiento
-[aquí](https://drive.google.com/drive/folders/ntXVqA3fhL1YjZfg5PvT_74nWqSy3GQ1).
+[aquí](https://drive.google.com/drive/folders/1ntXVqA3fhL1YjZfg5PvT_74nWqSy3GQ1).
 
 ### Otros recursos
 
