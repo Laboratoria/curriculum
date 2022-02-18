@@ -13,7 +13,7 @@ html: HTML
 html/semantics:
   title: Uso de HTML semântico
   links:
-    - title: HTML semántico
+    - title: HTML semântico
       url: topics/html/02-html5/02-semantic-html
     - title: Semantics in HTML - MDN
       url: https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML
@@ -26,7 +26,7 @@ css/selectors:
     - title: Intro a CSS
       url: topics/css/01-css/01-intro-css
     - title: CSS Selectors - MDN
-      url: https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors
+      url: https://developer.mozilla.org/pt_BR/docs/Web/CSS/CSS_Selectors
 
 css/box-model:
   title: "Empregar o modelo de caixa (box model): borda, margem, preenchimento"
@@ -43,7 +43,7 @@ css/box-model:
       url: https://css-tricks.com/almanac/properties/d/display/
 
 css/flexbox:
-  title: Uso de flexbox en CSS
+  title: Uso de flexbox em CSS
   links:
     - title: A Complete Guide to Flexbox - CSS Tricks
       url: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
@@ -64,7 +64,7 @@ css/media-queries:
   title: Uso de media queries
   links:
     - title: CSS media queries - MDN
-      url: https://developer.mozilla.org/es/docs/CSS/Media_queries
+      url: https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries
 
 browser: Web APIs
 
@@ -81,7 +81,7 @@ browser/dom/selectors:
       url: https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors
 
 browser/dom/events:
-  title: Gerenciamento de eventos de DOM
+  title: Manipulação de eventos de DOM
   links:
     - title: Introdução a eventos - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Events
@@ -89,7 +89,7 @@ browser/dom/events:
       url: https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener
     - title: EventTarget.removeEventListener() - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/removeEventListener
-    - title: El objeto Event
+    - title: Objeto Event
       url: https://developer.mozilla.org/pt-BR/docs/Web/API/Event
 
 browser/dom/manipulation:
@@ -135,7 +135,7 @@ js/data-types/primitive:
       url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Data_structures#valores_primitivos
 
 js/data-types/strings:
-  title: Strings (cadenas de caracteres)
+  title: Strings (cadeias de caracteres)
   links:
     - title: Strings
       url: topics/javascript/06-strings
@@ -147,6 +147,8 @@ js/data-types/arrays:
   links:
     - title: Arrays
       url: topics/javascript/04-arrays
+    - title: Array - MDN
+      url: https://developer.mozilla.org//pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/
     - title: Array.prototype.sort() - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
     - title: Array.prototype.forEach() - MDN
@@ -188,7 +190,7 @@ js/functions:
   links:
     - title: Funções (controle de fluxo)
       url: topics/javascript/02-flow-control/03-functions
-    - title: Funções clásicas
+    - title: Funções clássicas
       url: topics/javascript/03-functions/01-classic
     - title: Arrow Functions
       url: topics/javascript/03-functions/02-arrow
@@ -206,9 +208,9 @@ js/loops:
 js/recursion:
   title: Recursão
   links:
-    - title: Píldora recursión - YouTube Laboratoria Developers
+    - title: Píldora de recursão - YouTube Laboratoria Developers (espanhol)
       url: https://www.youtube.com/watch?v=lPPgY3HLlhQ
-    - title: Recursión o Recursividad - Laboratoria Developers en Medium
+    - title: Recursão o Recursividade - Laboratoria Developers em Medium (espanhol)
       url: https://medium.com/laboratoria-developers/recursi%C3%B3n-o-recursividad-ec8f1a359727
 
 js/semantics:
@@ -218,7 +220,7 @@ js/expression-vs-statement:
   title: Diferença entre expression e statements
 
 js/modules/es-modules:
-  title: Uso ES modules
+  title: Módulos de ECMAScript (ES modules)
   links:
     - title: import - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import
@@ -265,13 +267,15 @@ js/async/callbacks:
       url: https://developer.mozilla.org/pt-BR/docs/Glossario/Callback_function
 
 js/async/promises:
-  title: Promise
+  title: Promessas (Promises)
   links:
+    - title: Promise - MDN
+      url: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise
     - title: How to Write a JavaScript Promise - freecodecamp (em inglês)
       url: https://www.freecodecamp.org/news/how-to-write-a-javascript-promise-4ed8d44292b8/
 
 scm:
-  title: Git e GitHub
+  title: Controle de Versões (Git e GitHub)
 
 scm/git/setup:
   title: "Git: Instalação e configuração"
@@ -341,6 +345,14 @@ node:
       url: https://nodejs.org/pt-br/about/
     - title: learnyounode - NodeSchool
       url: https://github.com/workshopper/learnyounode
+    - title: ¿Qué es Node.js y para qué sirve? - drauta.com
+      url: https://www.drauta.com/que-es-nodejs-y-para-que-sirve
+    - title: ¿Qué es Nodejs? Javascript en el Servidor - Fazt en YouTube
+      url: https://www.youtube.com/watch?v=WgSc1nv_4Gw
+    - title: ¿Simplemente qué es Node.js? - IBM Developer Works, 2011
+      url: https://www.ibm.com/developerworks/ssa/opensource/library/os-nodejs/index.html
+    - title: Node.js y npm - genbeta
+      url: https://www.genbeta.com/desarrollo/node-js-y-npm
 
 node/npm-install:
   title: Instalar e usar módulos (npm)
@@ -363,15 +375,15 @@ node/npm-scripts:
 node/filesystem:
   title: Uso de sistema de arquivos (fs, path)
   links:
-    - title: File system - Documentación oficial (en inglés)
+    - title: File system - Documentação oficial (em inglês)
       url: https://nodejs.org/api/fs.html
-    - title: Path - Documentación oficial (en inglés)
+    - title: Path - Documentação oficial (em inglês)
       url: https://nodejs.org/api/path.html
 
 node/process:
   title: process (env, argv, stdin-stdout-stderr, exit-code)
   links:
-    - title: Process - Documentación oficial (en inglés)
+    - title: Process - Documentação oficial (em inglês)
       url: https://nodejs.org/api/process.html
 
 express: Express.js
@@ -385,7 +397,7 @@ express/middleware:
 http: HTTP
 
 http/request-response:
-  title: Solicitações o requisições (request) e respostas (response).
+  title: Solicitações HTTP ou requisições (request) e respostas (response).
   links:
     - title: Uma visão geral do HTTP - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview
@@ -411,7 +423,7 @@ http/verbs:
       url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods
 
 http/status-codes:
-  title: Codigos de status de HTTP
+  title: Códigos de status de HTTP
   links:
     - title: Códigos de status de respostas HTTP - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
@@ -452,7 +464,7 @@ webops/docker-compose:
 webops/cloud-functions:
   title: Cloud Functions
 
-cicd: Integraçao Contínua/Entrega Contínua
+cicd: Integração Contínua/Entrega Contínua
 
 cicd/build-pipelines:
   title: Construção de pipelines (GitHub Actions/CircleCI)
@@ -464,7 +476,7 @@ cicd/tbd:
   title: Usar Trunk-based Development para Integração Contínua
 
 cicd/test-coverage:
-  title: Validação de cobertura de testes en pipeline
+  title: Validação de cobertura de testes em pipeline
 
 cicd/integration-tests:
   title: Testes de integração
@@ -472,13 +484,13 @@ cicd/integration-tests:
 db: Bases de dados
 
 db/modeling:
-  title: Modelado de datos
+  title: Modelagem de dados
 
 db/connection:
   title: Conexão
 
 db/indexes-constraints:
-  title: Índices y limitaciones
+  title: Índices e limitações
 
 sql: SQL
 
