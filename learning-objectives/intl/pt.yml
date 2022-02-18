@@ -394,6 +394,14 @@ express/routing:
 express/middleware:
   title: Uso e criação de middleware
 
+socket-io: Socket.IO
+
+socket-io/client:
+  title: Cliente JavaScript de Socket.io
+
+socket-io/server:
+  title: Servidor de Node.js de Socket.io
+
 http: HTTP
 
 http/request-response:
@@ -493,5 +501,35 @@ db/indexes-constraints:
   title: Índices e limitações
 
 sql: SQL
+
+sql/tables:
+  title: Criação e modificação de tabelas
+  links:
+    - title: SQL CREATE TABLE Statement - w3schools (em inglês)
+      url: https://www.w3schools.com/sql/sql_create_table.asp
+    - title: CREATE TABLE Statement - PostgreSQL Docs (em inglês)
+      url: https://www.postgresql.org/docs/9.1/sql-createtable.html
+    - title: ALTER TABLE Statement - PostgreSQL Docs (em inglês)
+      url: https://www.postgresql.org/docs/9.1/sql-altertable.html
+
+sql/crud:
+  title: Operações CRUD (Create-Read-Update-Delete)
+  links:
+    - title: INSERT
+      url: https://www.postgresql.org/docs/9.5/sql-insert.html
+    - title: SELECT
+      url: https://www.postgresql.org/docs/9.5/sql-select.html
+    - title: UPDATE
+      url: https://www.postgresql.org/docs/9.1/sql-update.html
+    - title: DELETE
+      url: https://www.postgresql.org/docs/8.1/sql-delete.html
+
+sql/drop:
+  title: Exclusão de tabelas ou bancos de dados inteiros com DROP
+  links:
+    - title: DROP TABLE
+      url: https://www.postgresql.org/docs/8.2/sql-droptable.html
+    - title: DROP DATABASE
+      url: https://www.postgresql.org/docs/8.2/sql-dropdatabase.html
 
 mongodb: MongoDB
