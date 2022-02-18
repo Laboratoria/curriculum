@@ -533,3 +533,88 @@ sql/drop:
       url: https://www.postgresql.org/docs/8.2/sql-dropdatabase.html
 
 mongodb: MongoDB
+
+mongodb/crud:
+  title: Operações CRUD (Create-Read-Update-Delete)
+  links:
+    - title: MongoDB CRUD Operations - Docs (em inglês)
+      url: https://docs.mongodb.com/manual/crud/
+    - title: Insert Documents - Docs (em inglês)
+      url: https://docs.mongodb.com/manual/tutorial/insert-documents/
+    - title: Query Documents - Docs (em inglês)
+      url: https://docs.mongodb.com/manual/tutorial/query-documents/
+    - title: Update Documents - Docs (em inglês)
+      url: https://docs.mongodb.com/manual/tutorial/update-documents/
+    - title: Delete Documents - Docs (em inglês)
+      url: https://docs.mongodb.com/manual/tutorial/remove-documents/
+
+mongodb/aggregation:
+  title: Operações de agregação (aggregation)
+
+mongodb/schemas:
+  title: Modelos e esquemas de dados
+  links:
+    - title: Schema Validation - Docs (em inglês)
+      url: https://docs.mongodb.com/manual/core/schema-validation/
+    - title: Data Model Design - Docs (em inglês)
+      url: https://docs.mongodb.com/manual/core/data-model-design/
+
+mongodb/dump-restore:
+  title: Recuperação e restauração (backup/restore)
+  links:
+    - title: MongoDB Backup Methods - Docs (em inglês)
+      url: https://docs.mongodb.com/manual/core/backups/
+
+postgres: PostgreSQL
+
+postgres/psql:
+  title: Cliente de terminal psql
+  links:
+    - title: psql - Docs (em inglês)
+      url: https://www.postgresql.org/docs/14/app-psql.html
+
+postgres/data-types:
+  title: Tipos de dados
+  links:
+    - title: Chapter 8. Data Types - Docs (em inglês)
+      url: https://www.postgresql.org/docs/14/datatype.html
+
+postgres/indexes:
+  title: Índices
+  links:
+    - title: Chapter 11. Indexes - Docs (em inglês)
+      url: https://www.postgresql.org/docs/14/indexes.html
+
+postgres/dump-restore:
+  title: Backup e restauração (backup/restore)
+  links:
+    - title: Chapter 26. Backup and Restore - Docs (em inglês)
+      url: https://www.postgresql.org/docs/14/backup.html
+
+mysql: MySQL
+
+mysql/mysql:
+  title: Cliente de terminal mysql
+  links:
+    - title: The MySQL Command-Line Client - Docs (em inglês)
+      url: https://dev.mysql.com/doc/refman/8.0/en/mysql.html
+
+mysql/data-types:
+  title: Tipos de dados
+  links:
+    - title: Chapter 11 Data Types - Docs (em inglês)
+      url: https://dev.mysql.com/doc/refman/8.0/en/data-types.html
+
+mysql/indexes:
+  title: Índices
+  links:
+    - title: Optimization and Indexes - Docs (em inglês)
+      url: https://dev.mysql.com/doc/refman/8.0/en/optimization-indexes.html
+
+mysql/dump-restore:
+  title: Backup e restauração (backup/restore)
+  links:
+    - title: Chapter 7 Backup and Recovery - Docs (em inglês)
+      url: https://dev.mysql.com/doc/refman/8.0/en/backup-and-recovery.html
+    - title: mysqldump — A Database Backup Program - Docs (em inglês)
+      url: https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html
