@@ -790,3 +790,147 @@ angular/styles:
   links:
     - title: Template syntax - Documentação oficial (em inglês)
       url: https://angular.io/guide/template-syntax#built-in-directives
+
+slack: Slack
+
+slack/slash-commands:
+  title: Slash commands de Slack
+  links:
+    - title: Enabling interactivity with Slash Commands - Slack Docs
+      url: https://api.slack.com/interactivity/slash-commands
+
+php: PHP
+
+php/data-types/primitive:
+  title: Tipos de dados primitivos em PHP
+  links:
+    - title: Booleanos em PHP
+      url: https://www.php.net/manual/pt_BR/language.types.boolean.php
+    - title: Números inteiros (Integers) em PHP
+      url: https://www.php.net/manual/pt_BR/language.types.integer.php
+    - title: Números de ponto flutuante em PHP
+      url: https://www.php.net/manual/pt_BR/language.types.float.php
+    - title: Strings em PHP
+      url: https://www.php.net/manual/pt_BR/language.types.string.php
+    - title: Strings numéricas em PHP
+      url: https://www.php.net/manual/pt_BR/language.types.numeric-strings.php
+
+php/data-types/arrays:
+  title: Arrays em PHP (arranjos)
+  links:
+    - title: Arrays em PHP (arranjos)
+      url: https://www.php.net/manual/pt_BR/language.types.array.php
+
+php/data-types/objects:
+  title: Objetos em PHP
+  links:
+    - title: Objetos em PHP
+      url: https://www.php.net/manual/pt_BR/language.types.object.php
+    - title: Programação Orientada a Objetos em PHP
+      url: https://www.php.net/manual/pt_BR/language.oop5.php
+
+php/variables:
+  title: Variáveis em PHP (declaração, atribuição, escopo)
+  links:
+    - title: Variáveis em PHP
+      url: https://www.php.net/manual/pt_BR/language.variables.php
+
+php/control-structures:
+  title: Estruturas de controle em PHP (if, else, elseif, else if, while, do while, for)
+  links:
+    - title: Estruturas de controle em PHP (if, else, elseif, else if, while, do while, for)
+      url: https://www.php.net/manual/pt_BR/language.control-structures.php
+
+php/functions:
+  title: Funções em PHP (params, args, return)
+  links:
+    - title: Funções em PHP
+      url: https://www.php.net/manual/pt_BR/language.functions.php
+    - title: Variável e Extensões Relacionadas aos Tipos
+      url: https://www.php.net/manual/pt_BR/refs.basic.vartype.php
+
+php/testing/phpunit:
+  title: PHPUnit
+  links:
+    - title: PHPUnit
+      url: https://phpunit.de/getting-started/phpunit-9.html
+
+php/testing/xdebug:
+  title: XDebug
+  links:
+    - title: XDebug
+      url: https://xdebug.org/
+
+php/package-management/composer:
+  title: Composer
+  links:
+    - title: Composer
+      url: https://getcomposer.org/doc/00-intro.md
+
+wordpress: WordPress
+
+wordpress/plugin-development/hooks:
+  title: "Hooks: action e filter"
+  links:
+    - title: "Hooks: action e filter"
+      url: https://developer.wordpress.org/plugins/hooks/
+
+wordpress/plugin-development/administration-menu:
+  title: Menus de administração
+  links:
+    - title: Administration Menus
+      url: https://developer.wordpress.org/plugins/administration-menus/
+
+wordpress/plugin-development/shortcodes:
+  title: ShortCodes
+  links:
+    - title: ShortCodes
+      url: https://developer.wordpress.org/plugins/shortcodes/
+
+wordpress/plugin-development/settings:
+  title: Configurações
+  links:
+    - title: Settings
+      url: https://developer.wordpress.org/plugins/settings/
+
+wordpress/plugin-development/custom-post-types:
+  title: Custom Post Types
+  links:
+    - title: Custom Post Types
+      url: https://developer.wordpress.org/plugins/post-types/
+
+wordpress/plugin-development/taxonomies:
+  title: Taxonomias
+  links:
+    - title: Taxonomies
+      url: https://developer.wordpress.org/plugins/taxonomies/
+
+wordpress/plugin-development/users:
+  title: Usuários
+  links:
+    - title: Users
+      url: https://developer.wordpress.org/plugins/users/
+
+wordpress/plugin-development/cron:
+  title: Cron
+  links:
+    - title: Cron
+      url: https://developer.wordpress.org/plugins/cron/
+
+wordpress/plugin-development/wordpress-rest-api:
+  title: WordPress REST API
+  links:
+    - title: WordPress REST API
+      url: https://developer.wordpress.org/rest-api/
+
+wordpress/plugin-development/wordpress-apis:
+  title: WordPress APIs
+  links:
+    - title: WordPress APIs
+      url: https://codex.wordpress.org/WordPress_APIs
+
+wordpress/plugin-development/wordpress-plugin-directory:
+  title: Publicar em WordPress Plugin Directory
+  links:
+    - title: WordPress Plugin Directory
+      url: https://developer.wordpress.org/plugins/wordpress-org/planning-your-plugin/
