@@ -6,7 +6,8 @@
 - [2. Objetivos de aprendizaje](#2-objetivos-de-aprendizaje)
 - [3. Entregables](#3-entregables)
 - [4. Resumen del proyecto](#4-resumen-del-proyecto)
-- [5. Consideraciones generales](#5-consideraciones-generales)
+- [5. Mentorías de personas externas a Laboratoria](#5-mentorías-de-personas-externas-a-laboratoria)
+- [6. Consideraciones generales](#6-consideraciones-generales)
 
 ---
 
@@ -99,7 +100,18 @@ contarás y los entregables de cada momento.
 
 ### [Actividades](./Activities.md)
 
-## 5. Consideraciones generales
+## 5. Mentorías de personas externas a Laboratoria
+
+Como habrás visto durante el avance del proyecto tendrás contacto con personas
+voluntarias y con experiencia en la industria TI que quieren acompañar tu
+experiencia de preparación para los procesos de selección a través de mentorías. 
+
+Para que tengas claro las diferencias entre los temas y los tipos de
+acompañamiento te dejamos la siguiente guía para las sesiones de mentorías.
+
+### [Guía para las sesiones de mentorías](./Mentoring.md)
+
+## 6. Consideraciones generales
 
 - Este es un proyecto individual que irás avanzando en paralelo a los otros
   proyectos del Bootcamp. Te recomendamos planear espacio para avanzar cada
