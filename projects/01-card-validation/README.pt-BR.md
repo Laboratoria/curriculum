@@ -220,7 +220,7 @@ _branches_ (ramificações).
    e, se tiver o Windows 10 ou superior, pode usar o
    [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 3. :arrow_down: [Clone](https://help.github.com/articles/cloning-a-repository/)
-   sua *fork* no seu computador (cópia local).
+   sua _fork_ no seu computador (cópia local).
 4. 📦 Instale as dependências do projeto com o comando `npm install`. Isso
    pressupõe que você instalou [Node.js](https://nodejs.org/) (que inclui
    [npm](https://docs.npmjs.com/)).

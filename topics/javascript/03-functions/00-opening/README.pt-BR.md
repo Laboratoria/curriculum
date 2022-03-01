@@ -23,7 +23,7 @@ Listamos alguns princípios que te vão te ajudar a escrever funções melhores:
   de uma solução encontremos um padrão que se repete ao longo de nosso código.
   Uma vez identificado um padrão, é hora de escrever uma função, objeto ou
   módulo que encapsule o padrão encontrado para que seja reutilizado facilmente.
-  Isso ajuda também se encontrarmos algum *bug* ou quisermos adicionar alguma
+  Isso ajuda também se encontrarmos algum _bug_ ou quisermos adicionar alguma
   funcionalidade, só precisaremos fazer em um lugar. Além disso, escrevendo uma
   função reutilizável obriga você a analisar o padrão do problema, o que ajudar
   ter a funcionalidade relacionada de maneira agrupada.

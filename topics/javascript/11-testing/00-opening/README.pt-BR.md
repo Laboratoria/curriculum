@@ -45,11 +45,11 @@ para validar que está indo na direção correta. Que este guia sirva como um
 "checklist" que você vai riscando conforme avança.
 
 * O que é um teste?
-* O que é um *framework* de *testing*?
+* O que é um _framework_ de _testing_?
 * Como escrever testes usando a interface BDD (`describe()`, `it()`, ...) do
   `mocha`?
 * Como usar a biblioteca padrão de Node.js para atribuições com o módulo
   `assert`?
-* Como usar as *asserts* do `chai`?
+* Como usar as _asserts_ do `chai`?
 * Como executar testes no ambiente do navegador de forma automatizada com
   `karma`?
