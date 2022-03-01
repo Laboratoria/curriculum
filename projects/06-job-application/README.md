@@ -104,7 +104,7 @@ contarás y los entregables de cada momento.
 
 Como habrás visto durante el avance del proyecto tendrás contacto con personas
 voluntarias y con experiencia en la industria TI que quieren acompañar tu
-experiencia de preparación para los procesos de selección a través de mentorías. 
+experiencia de preparación para los procesos de selección a través de mentorías.
 
 Para que tengas claro las diferencias entre los temas y los tipos de
 acompañamiento te dejamos la siguiente guía para las sesiones de mentorías.

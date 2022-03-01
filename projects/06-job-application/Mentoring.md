@@ -14,13 +14,13 @@ Las 3 sesiones que se contemplan en estas mentorías son:
   un listado de preguntas que quieras resolver. En el equipo nos aseguraremos de
   recordártelo, pero recuerda que alcanzar este objetivo de aprendizaje es tu
   responsabilidad.
-    * Sesión meet & greet + revisión y feedback de CV: Este espacio será
-      programado por el equipo de Laboratoria y se dividirá en 2 momentos:
-        * Dinámica para que conozcas a tu mentora/or.
-        * Revisión y feedback de tu CV.
-    * Sesión de revisión y feedback de LinkedIn: Este espacio debes coordinarlo
-      directamente con tu mentora/or y serás tu la responsable de establecer
-      este contacto.
+  - Sesión meet & greet + revisión y feedback de CV: Este espacio será
+    programado por el equipo de Laboratoria y se dividirá en 2 momentos:
+    * Dinámica para que conozcas a tu mentora/or.
+    * Revisión y feedback de tu CV.
+  - Sesión de revisión y feedback de LinkedIn: Este espacio debes coordinarlo
+    directamente con tu mentora/or y serás tu la responsable de establecer
+    este contacto.
 * 1 simulación de entrevista de recursos humanos: Este simulacro lo tendrás con
   otra persona de la industria diferente a la que te dió recomendaciones sobre
   tu CV y LinkedIn y serás tú quién coordine todo para que suceda (en un
@@ -47,14 +47,15 @@ encontramos en distintas plataformas y que indican que es necesario que te
 pongas en contacto con alguna persona para confirmar tu interés.
 
 Para que envíes el correo toma en cuenta las siguientes recomendaciones:
-  * Mantener un lenguaje cordial, profesional, presentarte y comentar el interés
-    de participar en el proceso
-  * Para el caso de ambas entrevistas adjunta tu CV, el link a tu perfil de
-    LinkedIn y en el caso de de la entrevista tech adjunta también el link a tu
-    perfil de Github.
-  * Demuestra tu proactividad proponiendo 2 o 3 posibles fechas y hora para
-    realizar la sesión, tomando en cuenta los tiempos que te ha compartido el
-    equipo para lograr este objetivo de aprendizaje.
+
+* Mantener un lenguaje cordial, profesional, presentarte y comentar el interés
+  de participar en el proceso
+* Para el caso de ambas entrevistas adjunta tu CV, el link a tu perfil de
+  LinkedIn y en el caso de de la entrevista tech adjunta también el link a tu
+  perfil de Github.
+* Demuestra tu proactividad proponiendo 2 o 3 posibles fechas y hora para
+  realizar la sesión, tomando en cuenta los tiempos que te ha compartido el
+  equipo para lograr este objetivo de aprendizaje.
 
 ## Recuerda que el feedback es un regalo
 
