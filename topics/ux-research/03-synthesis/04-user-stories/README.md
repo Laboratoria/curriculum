@@ -55,7 +55,7 @@ y establecer cómo entregaremos esa propuesta de valor.
 - Piensa en una app para reservar hora médica en múltiples centros de atención.
   Haz las historias principales de reserva de hora. ( 20 minutos)
 
-*¿Qué es lo primero que debemos hacer?*
+_¿Qué es lo primero que debemos hacer?_
 
 Pensar en quién está realizando la acción y cuáles son los diferentes contextos.
 

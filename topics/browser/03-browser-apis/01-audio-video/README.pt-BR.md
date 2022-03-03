@@ -29,7 +29,7 @@ Aprender de forma geral como usar a API de Áudio e Vídeo.
 
 Este é um trecho da [documentação de
 MDN](https://developer.mozilla.org/pt-BR/docs/Aprender/HTML/Multimedia_and_embedding/Video_and_audio_content)
-sobre as *tags* de áudio e vídeo, para você entender o contexto de como foi
+sobre as _tags_ de áudio e vídeo, para você entender o contexto de como foi
 importante adicionar suporte nativo no HTML5 com sua API de mídia.
 
 ## Inserindo conteúdo multimídia na nossa página web
@@ -64,7 +64,7 @@ e `<audio>`. A seguir mostramos alguns exemplos de como inseri-los:
 Você percebeu como é fácil adicioná-los? Bem, além disso, devemos levar em
 consideração o seguinte:
 
-- Atributos: nos exemplos a _tag_ **vídeo** e **áudio** contam com um atributo
+- Atributos: nos exemplos a _tag_ __vídeo__ e __áudio__ contam com um atributo
   `controls`. Você consegue imaginar o que acontece se o remover? Assim como
   este atributo, existem muitos mais que você verá conforme for precisando.
 - Suporte entre navegadores: se você percebeu, só usamos um vídeo com extensão

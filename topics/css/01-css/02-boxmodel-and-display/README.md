@@ -59,12 +59,12 @@ _Imagen tomada de [MDN - The Box Nodel](https://developer.mozilla.org/en-US/docs
 
 Explicación de cada parte que compone cada caja:
 
-- __Content (_contenido_):__ Se trata del contenido HTML del elemento (las
+- **Content (_contenido_):** Se trata del contenido HTML del elemento (las
   palabras de un párrafo, una imagen, el texto de una lista de elementos, etc.)
-- __Padding (_relleno_):__ Espacio libre opcional existente entre el contenido y
+- **Padding (_relleno_):** Espacio libre opcional existente entre el contenido y
   el borde.
-- __Border (_borde_):__ Línea que encierra el contenido y el padding.
-- __Margin (_margen_):__ Separación opcional existente entre la caja y el resto
+- **Border (_borde_):** Línea que encierra el contenido y el padding.
+- **Margin (_margen_):** Separación opcional existente entre la caja y el resto
   de las cajas adyacentes.
 
 A continuación veremos cómo manipular el _tamaño_ de cada una de estas partes.
@@ -218,7 +218,7 @@ div {
 
 > [Aprender más sobre `border`.](http://librosweb.es/libro/css/capitulo_4/bordes.html)
 
-### Margin (___margen___)
+### Margin (**margen**)
 
 Es la **separación opcional** existente entre la caja y el resto de las cajas
 adyacentes.

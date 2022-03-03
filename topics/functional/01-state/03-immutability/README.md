@@ -23,7 +23,7 @@ Esto parece ser un poco extraño, pero recordemos que muchos valores que usamos
 todo el tiempo en realidad son inmutables.
 
 Algunos tipos de datos en JavaScript son inmutables por omisión. Las cadenas de
-caracteres o *strings* son un ejemplo de un tipo de dato que no puede ser
+caracteres o _strings_ son un ejemplo de un tipo de dato que no puede ser
 cambiado.
 
 **strings.test.js.**
@@ -56,7 +56,7 @@ PASS  ./strings.test.js
 De hecho, ningún método sobre cadenas de caracteres puede cambiar la cadena
 sobre la que opera, todos ellos retornan nuevas cadenas de caracteres. La razón
 tras esto radica en que las cadenas de caracteres son inmutables. Por lo tanto,
-su valor no puede cambiar, nosotros solo podemos crear nuevos *strings*.
+su valor no puede cambiar, nosotros solo podemos crear nuevos _strings_.
 
 Las cadenas de caracteres no son los únicos valores inmutables dentro de
 JavaScript. Los números también son inmutables. ¿Te puedes imaginar un entorno

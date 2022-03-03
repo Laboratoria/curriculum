@@ -85,7 +85,7 @@ podemos contar com elas.
 
 JavaScript é uma linguagem que permite manipular _assincronia_ de uma maneira
 elegante graças à sua implementação de funções e sua natureza _non-blocking_
-(que não bloqueia a *thread* enquanto espera que uma tarefa assíncrona seja
+(que não bloqueia a _thread_ enquanto espera que uma tarefa assíncrona seja
 completada). Nesta unidade veremos **callbacks**, **eventos** e **promessas**
 como maneiras de trabalhar com tarefas assíncronas.
 

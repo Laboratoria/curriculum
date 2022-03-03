@@ -31,9 +31,9 @@ learningObjectives:
   - scm/github/gh-pages
   - scm/github/collaboration
   - scm/github/project-management
-  - ux/user-understanding
-  - ux/prototyping
-  - ux/visual-design
-  - ux/usability-testing
+  - user-centricity/centricity
+  - product-design/interactivity
+  - product-design/visual-design
+  - research/test
   - firebase/auth
   - firebase/firestore

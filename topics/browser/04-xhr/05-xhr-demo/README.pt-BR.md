@@ -49,7 +49,7 @@ mostrar suas notícias.
    * Criamos nosso objeto _(linha 14)_.
 
    * Usamos o método `.open()` e aqui é onde devemos colocar a chave que chegou
-    no nosso e-mail, **substituindo* < SUA CHAVE> por sua chave _(linha 15)_.
+    no nosso e-mail, **substituindo** < SUA CHAVE> por sua chave _(linha 15)_.
 
    * As propriedades `.onload` e `.onerror` têm suas funções correspondentes
     atribuídas.
