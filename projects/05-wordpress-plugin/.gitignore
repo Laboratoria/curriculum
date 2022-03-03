@@ -2,7 +2,11 @@
 /html/*
 !/html/.keep
 
-#mysql
+#logs
+/logs/*
+!/logs/.keep
+
+#php-playground
 /php-playground/*
 !/php-playground/hola.php
 !/php-playground/index.html
