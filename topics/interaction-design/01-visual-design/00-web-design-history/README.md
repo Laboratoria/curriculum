@@ -77,7 +77,7 @@ de que hubiera adopción general y muchas veces se encontraban muchos *bugs*.
 Además todos los navegadores tenían parámetros diferentes -- una pesadilla para
 los desarrolladores.
 
-### El alzamiento móvil - _grids_ y _frameworks_ (2007)
+### El alzamiento móvil - *grids* y *frameworks* (2007)
 
 ![grids](https://lh3.googleusercontent.com/Bq5zM-2NooVjbLlvwcI5Pbs3rMMuO4Qgb39onVRPHk5wjr0D4p3JhyUlXR6KcbBlLUiFT2l-E2sRTy3t8u9IchtCmtplzF_s_WE0Fvm4MrUKWaHHdWS6fKhTd0EWjmGLJ4r0QPYX)
 

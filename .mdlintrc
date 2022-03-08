@@ -29,7 +29,12 @@
       "pre",
       "key",
       "value",
-      "img"
+      "img",
+      "b",
+      "br",
+      "ul",
+      "li",
+      "p"
     ]
   }
 }

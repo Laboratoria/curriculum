@@ -87,6 +87,7 @@ El _boilerplate_ contiene una estructura de archivos como punto de partida:
 ├── README.md
 └── apache2
 └── html
+└── logs
 └── php-playground
 ```
 
@@ -102,6 +103,11 @@ En esta carpeta se encuentran los archivos y directorios de WordPress. Abre en
 tu IDE esta carpeta para desarrollar tu plugin. Puedes aprender más sobre la
 estructura de directorios de WordPress
 [acá](https://www.wpbeginner.com/beginners-guide/beginners-guide-to-wordpress-file-and-directory-structure/).
+
+#### `logs`
+
+En la carpeta `logs` se encuentran los archivos logs de apache. Puedes usar
+estos archivos para depurar errores en tu código.
 
 #### `php-playground`
 
@@ -163,8 +169,8 @@ desarrollado por la comunidad.
 ### Pruebas unitarias
 
 Deberás incluir pruebas unitarias para el plugin que desarrolles.
-Te invitamos a escribir casos de prueba prueba
-para las principales funcionalidades de tu plugin.
+Te invitamos a escribir casos de prueba para las principales
+funcionalidades de tu plugin.
 
 ## 6. Pistas, tips y lecturas complementarias
 
@@ -259,6 +265,105 @@ En este punto, ya podrás comenzar a desarrollar tu plugin para WordPress. Puede
 iniciar desarrollando un plugin básico como se indica en la sección
 [Plugin Basics](https://developer.wordpress.org/plugins/plugin-basics/)
 del [WordPress Plugin Handbook](https://developer.wordpress.org/plugins/).
+
+### PHPMyAdmin
+
+[PHPMyAdmin](https://www.phpmyadmin.net/) es un aplicación web para administrar
+ base de datos MySQL. Puedes usar la instancia de esta aplicación instalada por
+  el boilerplate accediendo en un navegador a la url
+  [http://localhost:8888/index.php](http://localhost:8888/index.php).
+
+Las bases de datos suelen tener varios usuarios con diferentes permisos. La
+base de datos instalada para este proyecto tiene un usuario _wordpress_ con
+permisos limitados y un usuario _root_ con permisos de superadministrador. La
+contraseña para ambos usuarios es _wordpress_. Puedes usar esta información
+para autenticarte en PHPMyAdmin.
+
+### Pruebas unitarias
+
+PHPUnit es la librería usada para desarrollar las pruebas unitarias del core
+de WordPress. Puedes usar esta misma librería para las pruebas unitarias de tu
+plugin. Debes ejecutar el siguiente procedimiento una sola vez para configurar
+el servicio de Docker con PHPUnit que ya tiene el boilerplate de este proyecto.
+
+Paso 1:
+
+En una terminal ubicada en el directorio de plugins de WordPress
+(./html/wp-content/plugins) ejecuta el siguiente comando reemplanzando
+`<plugin-name>` por el nombre de la carpeta de tu plugin:
+
+```bash
+docker-compose run --rm wp scaffold plugin-tests <plugin-name>
+```
+
+Esto creará varios
+[archivos y carpetas](https://github.com/wp-cli/scaffold-command#wp-scaffold-plugin-tests)
+para la ejecución de las pruebas unitarias.
+
+Paso 2:
+
+En la misma terminal ejecuta el siguiente comando reemplanzando
+`<plugin-name>` por el nombre de la carpeta de tu plugin:
+
+```bash
+docker-compose run phpunit /app/plugin-name>/bin/install-wp-tests.sh
+wordpress_test root wordpress db latest
+```
+
+Esto descargará la última versión de WordPress en una carpeta temporal y
+creará una base de datos temporal para esta versión. Las pruebas unitarias de
+tu plugin se ejecutarán sobre esta versión.
+
+Paso 3:
+En la misma terminal ejecuta el siguiente comando reemplanzando
+`<plugin-name>` por el nombre de la carpeta de tu plugin:
+
+```bash
+docker-compose run --rm phpunit composer require
+--dev yoast/ phpunit-polyfills --working-dir=/app/<plugin-name>
+```
+
+Este comando instalará la librería
+[PHPUnit Polyfills](https://github.com/Yoast/PHPUnit-Polyfills)
+con la ayuda de [Composer](https://getcomposer.org/). Composer es un
+administrador de dependencias para proyectos PHP, tal como
+[npm](https://www.npmjs.com/) lo es para proyectos JavaScript. Se crearán dos
+archivos _composer.json_ y _composer.lock_ que deberás incluir en tu
+repositorio. También se creará la carpeta _vendor_ que no deberás incluir en
+tu repositorio.
+
+Paso 4:
+
+Finalmente, modifica el archivo _tests/bootstrap.php_ y agregar dos nuevas
+líneas de código y asegúrate que quede como se muestra a continuación:
+
+```php
+//Require PHPUnit Polyfills
+require dirname( dirname( __FILE__ ) ).'/vendor/yoast/phpunit-polyfills/
+phpunitpolyfills-autoload.php';
+
+// Start up the WP testing environment.
+require "{$_tests_dir}/includes/bootstrap.php";
+
+```
+
+Este último paso garantiza que la librería PHPUnit Polyfills sea usada siempre
+en todas las pruebas unitarias.
+
+A partir de este punto ya puedes escribir pruebas en la carpeta _test_ del
+plugin. El nombre de los archivos que contengan pruebas unitarias debe iniciar
+con "test-".
+
+Cada vez que quieras ejecutar tus pruebas deberás ejecutar el siguiente
+comando reemplanzando `<plugin-name>` por el nombre de la carpeta de tu
+plugin:
+
+```bash
+docker-compose run --rm phpunit phpunit -c /app/<plugin-name>/phpunit.xml.dist
+```
+
+Puedes encontrar un video con este procedimiento
+[aquí](https://drive.google.com/drive/folders/1ntXVqA3fhL1YjZfg5PvT_74nWqSy3GQ1).
 
 ### Otros recursos
 

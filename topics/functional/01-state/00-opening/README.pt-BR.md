@@ -51,5 +51,5 @@ sirva como un "checklist" que vas marcando a medida que vas progresando.
   `Array#filter`, ... para crear arreglos nuevos en vez de mutar (modificar)
   valores existentes?
 * Cómo usar métodos de objetos (por ejemplo `Object.assign()`) para copiar
-  propiedades y así _clonar_ objetos?
-* Cómo usar el _spread operator_ (`...`) para copiar objetos y arreglos?
+  propiedades y así *clonar* objetos?
+* Cómo usar el *spread operator* (`...`) para copiar objetos y arreglos?

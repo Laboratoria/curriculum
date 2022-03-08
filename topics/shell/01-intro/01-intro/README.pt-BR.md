@@ -6,9 +6,9 @@
 
 ***
 
-## O que é a *shell* de UNIX?
+## O que é a _shell_ de UNIX?
 
-> Uma *Shell de Unix* ou também **shell**, é o terminal usado na informática
+> Uma _Shell de Unix_ ou também **shell**, é o terminal usado na informática
 > para se referir a um intérprete de comandos, o qual consiste na interface de
 > usuário tradicional dos sistemas operacionais baseados em Unix e similares
 > como GNU/Linux.

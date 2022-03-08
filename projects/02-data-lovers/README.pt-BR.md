@@ -80,6 +80,12 @@ Este são os dados que propomos:
   Lista de animações e personagens do [Studio Ghibli](https://ghiblicollection.com/).
   - [Pesquisa com seguidores de Studio Ghibli](src/data/ghibli/README.pt-BR.md)
 
+* [Harry Potter](src/data/harrypotter/harry.json).
+ Este conjunto nos fornece uma lista dos personagens, livros e feitiços de toda
+ a saga Harry Potter
+  [Harry Potter](https://harrypotter.fandom.com).
+  - [Pesquisa com seguidores de Harry Potter](src/data/harrypotter/README.md)
+
 O objetivo principal deste projeto é que aprenda a desenhar e construir uma
 interface web onde se possa visualizar e manipular dados, entendendo o que o
 usuário necessita.
@@ -237,6 +243,11 @@ como toda a configuração de dependências:
 |  |  |  ├── ghibli.js
 |  |  |  ├── ghibli.json
 |  |  |  └── README.md
+|  |  └── harrypotter
+|  |  |  ├── data.js
+|  |  |  ├── harry.json
+|  |  |  └── README.md
+
 |  ├── data.js
 |  ├── index.html
 |  ├── main.js
@@ -352,7 +363,7 @@ Quando estiver pronta para codar, sugerimos começar desta forma:
    [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) um `remote`
    a partir dele.
 2. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   seu *fork* para seu computador (cópia local).
+   seu _fork_ para seu computador (cópia local).
 3. Instale as dependências do projeto com o comando `npm install`, assumindo que
    já tenha instalado o [Node.js](https://nodejs.org/) (que inclui
    [npm](https://docs.npmjs.com/)).

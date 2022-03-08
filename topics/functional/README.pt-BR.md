@@ -20,7 +20,7 @@ Familiarizarnos con la programción funcional en JavaScript y ES2015 nos
 permitirá más adelante desenvolvernos con naturalidad con herramientas como
 React o Redux.
 
-***Tags***: `functional`, `es6`, ...
+**_Tags_**: `functional`, `es6`, ...
 
 ## Público objetivo
 

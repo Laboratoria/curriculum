@@ -27,13 +27,13 @@ mensaje que queremos transmitir.
 Retomando el punto anterior, cada color tiene una personalidad única que nos
 significado en conjunto.
 
-_Como este azul:_ que es como el color base en una composición.
+*Como este azul:* que es como el color base en una composición.
 
 ![image alt text](https://lh5.googleusercontent.com/SN4omjyMehr27O6iMqKTqEr7xYDJAEdfqJrJ_rEtDgv70xYUxpHp8i8WZ7w92Xy4hM5bP2q5-L5W2NDk_Yxex7WFs-O7aA2acHQ_S0UF_FW8dG-hazdK2QyacwsMJM963ppspxQJ)
 
 ![image alt text](https://lh6.googleusercontent.com/mhsVv2MpHxhwqxhRp0-urtAETZ3b6f9l0l0cGc_y1GJtNt_PCnSKNUwwvrGu3Y6h24-23GJCMw8C13ZsfN_YdegmIifhlTcKzMiji1TNJG7HpIG4dk6nUHaSY7tNonWFKz2pruAu)
 
-Y el _naranja_ es el color acento que se va a usar para dar énfasis a elementos
+Y el *naranja* es el color acento que se va a usar para dar énfasis a elementos
 que tienen que llamar la atención. Por lo cuál, para la elección de ambos se
 debe pensar en contraste con el color base.
 
