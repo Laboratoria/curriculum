@@ -1,6 +1,6 @@
 {
   "slug": "scm",
-  "createdAt": "2021-11-30T14:02:29.031Z",
+  "createdAt": "2022-03-14T14:32:09.576Z",
   "title": "Source Code Management (SCM) - Git + GitHub",
   "description": "",
   "tags": {
@@ -237,7 +237,7 @@
   "references": "",
   "repo": "Laboratoria/bootcamp",
   "path": "topics/scm",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "parserVersion": "3.1.0",
   "track": "js",
   "locale": "es-ES",
