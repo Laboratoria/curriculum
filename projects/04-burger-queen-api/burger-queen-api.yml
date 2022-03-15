@@ -1,0 +1,1083 @@
+openapi: 3.0.0
+info:
+  description: |
+    Documentación
+    [Burger Queen API](https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api)
+  version: 2.0.0
+  title: Burger Queen API
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+servers:
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/ssinuco/BurgerQueenAPI/2.0.0
+  - url: 'http://127.0.0.1:8080'
+tags:
+  - name: "auth"
+    description: "Operaciones de autenticación"
+  - name: "orders"
+    description: "Operaciones sobre ordenes"
+  - name: "products"
+    description: "Operaciones sobre productos"
+  - name: "users"
+    description: "Operaciones sobre usuarias"
+paths:
+  /auth:
+    post:
+      tags:
+      - "auth"
+      summary: "Crea token de autenticación"
+      operationId: "getToken"
+      requestBody:
+        description: "Información de autenticación"
+        required: true
+        content:
+          application/json:
+            schema:
+              type: "object"
+              properties:
+                email:
+                  type: "string"
+                  description: "Correo"
+                password:
+                  type: "string"
+                  description: "Contraseña"
+              example:
+                email: "anita.borg@systers.xyz"
+                password: "g6WQSrsv7rC7et5B"
+      responses:
+        "200":
+          description: "operación exitosa"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                properties:
+                  token:
+                    type: "string"
+                    description: "Token a usar para los requests sucesivos"
+                example:
+                  token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+        "400":
+          description: "si no se proveen `email` o `password` o ninguno de los dos"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "404":
+          description: "si las credenciales no coinciden"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /orders:
+    get:
+      tags:
+      - "orders"
+      summary: "Lista ordenes"
+      operationId: "getOrders"
+      security:
+        - bearerAuth: []
+      parameters:
+        - $ref: "#/components/parameters/pageParam"
+        - $ref: "#/components/parameters/limitParam"
+      responses:
+        "200":
+          description: "operación exitosa"
+          headers:
+            X-Link-First:
+              $ref: "#/components/headers/X-Link-First"
+            X-Link-Prev:
+              $ref: "#/components/headers/X-Link-Prev"
+            X-Link-Next:
+              $ref: "#/components/headers/X-Link-Next"
+            X-Link-Last:
+              $ref: "#/components/headers/X-Link-Last"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Orders"
+              examples:
+                AllOrders:
+                  $ref: "#/components/examples/AllOrders"
+        "401":
+          description: "si no hay cabecera de autenticación"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    post:
+      tags:
+      - "orders"
+      summary: "Crea una orden"
+      operationId: "createOrder"
+      security:
+        - bearerAuth: []
+      requestBody:
+        description: "Objeto con información de la nueva orden"
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Order"
+            examples:
+              NewOrder:
+                $ref: "#/components/examples/NewOrder"
+      responses:
+        "200":
+          description: "operación exitosa"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Order"
+              examples:
+                Order3:
+                  $ref: "#/components/examples/Order3"
+        "400":
+          description: "no se indica `userId` o se intenta crear una orden sin productos"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "401":
+          description: "si no hay cabecera de autenticación"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /orders/{orderId}:
+    get:
+      tags:
+      - "orders"
+      summary: "Obtiene los datos de una orden especifica"
+      operationId: "getOrderById"
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: "path"
+          name: "orderId"
+          description: "id de la orden a consultar"
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: "operación exitosa"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Order"
+              examples:
+                Order1:
+                  $ref: "#/components/examples/Order1"
+        "401":
+          description: "si no hay cabecera de autenticación"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "404":
+          description: "si la orden solicitada no existe"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    put:
+      tags:
+      - "orders"
+      summary: "Modifica una orden"
+      operationId: "updateOrder"
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: "path"
+          name: "orderId"
+          description: "id de la orden"
+          required: true
+          schema:
+            type: "string"
+      requestBody:
+        description: "Objeto con nueva información para la orden"
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Status"
+            examples:
+                Status1:
+                  $ref: "#/components/examples/Status1"
+      responses:
+        "200":
+          description: "operación exitosa"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Order"
+              examples:
+                Order3:
+                  $ref: "#/components/examples/Order2"
+        "400":
+          description: "si no se indican ninguna propiedad a modificar o la propiedad `status` no es valida"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "401":
+          description: "si no hay cabecera de autenticación"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "404":
+          description: "si la order con `orderId` indicado no existe"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    delete:
+      tags:
+      - "orders"
+      summary: "Elimina una orden"
+      operationId: "deleteOrder"
+      security:
+        - bearerAuth: []
+      parameters:
+      - in: "path"
+        name: "orderId"
+        description: "id de la orden"
+        required: true
+        schema:
+          type: "string"
+      responses:
+        "200":
+          description: "operación exitosa"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Order"
+              examples:
+                Order1:
+                  $ref: "#/components/examples/Order1"
+
+        "401":
+          description: "si no hay cabecera de autenticación"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "404":
+          description: "si la orden con `orderId` indicado no existe"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /products:
+    get:
+      tags:
+      - "products"
+      summary: "Lista productos"
+      operationId: "getProducts"
+      security:
+        - bearerAuth: []
+      parameters:
+        - $ref: "#/components/parameters/pageParam"
+        - $ref: "#/components/parameters/limitParam"
+      responses:
+        "200":
+          description: "operación exitosa"
+          headers:
+            X-Link-First:
+              $ref: "#/components/headers/X-Link-First"
+            X-Link-Prev:
+              $ref: "#/components/headers/X-Link-Prev"
+            X-Link-Next:
+              $ref: "#/components/headers/X-Link-Next"
+            X-Link-Last:
+              $ref: "#/components/headers/X-Link-Last"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Products"
+              examples:
+                Products:
+                  $ref: "#/components/examples/AllProducts"
+        "401":
+          description: "si no hay cabecera de autenticación"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    post:
+      tags:
+      - "products"
+      summary: "Crea un producto"
+      operationId: "createProduct"
+      security:
+        - bearerAuth: []
+      requestBody:
+        description: "Objeto con información del nuevo producto"
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/NewProduct"
+            examples:
+              NewProduct:
+                $ref: "#/components/examples/NewProduct"
+      responses:
+        "200":
+          description: "operación exitosa"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Product"
+              examples:
+                Water:
+                  $ref: "#/components/examples/Water"
+        "400":
+          description: "si no se indican `name` o `price`"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "401":
+          description: "si no hay cabecera de autenticación"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "403":
+          description: "si el token de autenticación no es de una usuaria administrador"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /products/{productId}:
+    get:
+      tags:
+      - "products"
+      summary: "Obtiene los datos de un producto especifico "
+      operationId: "getProductById"
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: "path"
+          name: "productId"
+          description: "id del producto"
+          required: true
+          schema:
+            type: "string"
+      responses:
+        "200":
+          description: "operación exitosa"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Product"
+              examples:
+                Sandwich:
+                  $ref: "#/components/examples/Sandwich"
+        "401":
+          description: "si no hay cabecera de autenticación"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "404":
+          description: "si el producto solicitado no existe"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    put:
+      tags:
+      - "products"
+      summary: "Modifica un producto"
+      operationId: "updateProduct"
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: "path"
+          name: "productId"
+          description: "id del producto"
+          required: true
+          schema:
+            type: "string"
+      requestBody:
+        description: "Objeto con nueva información para el producto"
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Product"
+            examples:
+              NewProduct:
+                $ref: "#/components/examples/NewProduct"
+      responses:
+        "200":
+          description: "operación exitosa"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Product"
+              examples:
+                Water:
+                  $ref: "#/components/examples/Water"
+        "400":
+          description: "si no se indican ninguna propiedad a modificar"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "401":
+          description: "si no hay cabecera de autenticación"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "403":
+          description: "si el token de autenticación no es de una usuaria administradora"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "404":
+          description: "si el producto con `productId` indicado no existe"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    delete:
+      tags:
+      - "products"
+      summary: "Elimina un producto"
+      operationId: "deleteProduct"
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: "path"
+          name: "productId"
+          description: "id del producto"
+          required: true
+          schema:
+            type: "string"
+      responses:
+        "200":
+          description: "operación exitosa"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Product"
+              examples:
+                Water:
+                  $ref: "#/components/examples/Water"
+        "401":
+          description: "si no hay cabecera de autenticación"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "403":
+          description: "si el token de autenticación no es de una usuaria administradora"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "404":
+          description: "si el producto con `productId` indicado no existe"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /users:
+    get:
+      tags:
+      - "users"
+      summary: "Lista usuarias"
+      operationId: "getUser"
+      security:
+        - bearerAuth: []
+      parameters:
+        - $ref: "#/components/parameters/pageParam"
+        - $ref: "#/components/parameters/limitParam"
+      responses:
+        "200":
+          description: "operación exitosa"
+          headers:
+            X-Link-First:
+              $ref: "#/components/headers/X-Link-First"
+            X-Link-Prev:
+              $ref: "#/components/headers/X-Link-Prev"
+            X-Link-Next:
+              $ref: "#/components/headers/X-Link-Next"
+            X-Link-Last:
+              $ref: "#/components/headers/X-Link-Last"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Users"
+              examples:
+                AllUsers:
+                  $ref: "#/components/examples/AllUsers"
+        "401":
+          description: "si no hay cabecera de autenticación"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "403":
+          description: "si el token de autenticación no es de una usuaria administrador"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    post:
+      tags:
+      - "users"
+      summary: "Crea una usuaria"
+      operationId: "createUser"
+      security:
+        - bearerAuth: []
+      requestBody:
+        description: "Objeto con información de la nueva usuaria"
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/User"
+            examples:
+              NewUser:
+                $ref: "#/components/examples/NewUser"
+      responses:
+        "200":
+          description: "operación exitosa"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+              examples:
+                NewUser:
+                  $ref: "#/components/examples/Grace"
+        "400":
+          description: "si no se proveen `email` o `password` o ninguno de los dos"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "401":
+          description: "si no hay cabecera de autenticación"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "403":
+          description: "si ya existe usuaria con ese `email`"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /users/{uid}:
+    get:
+      tags:
+      - "users"
+      summary: "Obtiene información de una usuaria"
+      operationId: "getUserById"
+      security:
+        - bearerAuth: []
+      parameters:
+      - in: "path"
+        name: "uid"
+        description: "id o email de la usuaria a consultar"
+        required: true
+        schema:
+          type: "string"
+        example: "anita.borg@systers.xyz"
+      responses:
+        "200":
+          description: "operación exitosa"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+              examples:
+                Anita:
+                  $ref: "#/components/examples/Anita"
+        "401":
+          description: "si no hay cabecera de autenticación"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "403":
+          description: "si el token de autenticación no es de una usuario administradora o no es de la misma usuaria que corresponde al parametro uid"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "404":
+          description: "si la usuaria solicitada no existe"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    put:
+      tags:
+      - "users"
+      summary: "Modifica una usuaria"
+      operationId: "updateUser"
+      security:
+        - bearerAuth: []
+      parameters:
+      - in: "path"
+        name: "uid"
+        description: "id o email de la usuaria a modificar"
+        required: true
+        schema:
+          type: "string"
+      requestBody:
+        description: "Objeto con nueva información para la usuaria"
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/User"
+            examples:
+              NewUser:
+                $ref: "#/components/examples/NewUser"
+      responses:
+        "200":
+          description: "operación exitosa"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+              examples:
+                Grace:
+                  $ref: "#/components/examples/Grace"
+        "401":
+          description: "si no hay cabecera de autenticación"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "403":
+          description: "Caso 1: si el token de autenticación no es de una usuario administradora o no es de la misma usuaria que corresponde al parametro uid. Caso 2: una usuaria no admin intenta de modificar sus `roles`"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "404":
+          description: "si la usuaria solicitada no existe"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    delete:
+      tags:
+      - "users"
+      summary: "Elimina una usuaria "
+      operationId: "deleteUser"
+      security:
+        - bearerAuth: []
+      parameters:
+      - in: "path"
+        name: "uid"
+        description: "id o email de la usuaria a eliminar"
+        required: true
+        schema:
+          type: "string"
+      responses:
+        "200":
+          description: "operación exitosa"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+              examples:
+                NewUser:
+                  $ref: "#/components/examples/Anita"
+        "401":
+          description: "si no hay cabecera de autenticación"
+        "403":
+          description: "si el token de autenticación no es de una usuario administradora o no es de la misma usuaria que corresponde al parametro uid"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "404":
+          description: "si la usuaria solicitada no existe"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+components:
+  schemas:
+    Users:
+      type: "array"
+      items:
+        $ref: "#/components/schemas/User"
+    User:
+      type: "object"
+      properties:
+        _id:
+          type: "integer"
+          format: "int64"
+          description: "Id"
+        email:
+          type: "string"
+          description: "Correo electrónico"
+        password:
+          type: "string"
+          description: "Contraseña"
+        roles:
+          type: object
+          description: "Rol administrador asignado"
+          properties:
+            admin:
+              type: boolean
+              description: "True si la usuario es administradora"
+    Orders:
+      type: "array"
+      items:
+        $ref: "#/components/schemas/Order"
+    Order:
+      type: "object"
+      properties:
+        _id:
+          type: "integer"
+          format: "int64"
+          description: "Id"
+        userId:
+          type: "string"
+          description: "Id usuaria que creó la orden"
+        client:
+          type: "string"
+          description: "Clienta para quien se creó la orden"
+        products:
+          description: "Productos de la orden"
+          type: "array"
+          items:
+            $ref: "#/components/schemas/ProductOrder"
+        status:
+          type: "string"
+          description: "Estado de la orden"
+          enum:
+            - "pending"
+            - "canceled"
+            - "delivering"
+            - "delivered"
+        dateEntry:
+          type: "string"
+          format: "date"
+          description: "Fecha de creación"
+        dateProcessed:
+          type: "string"
+          format: "date"
+          description: "Fecha de cambio de `status` a `delivered`"
+    Status:
+      type: object
+      properties:
+        status:
+          type: "string"
+          description: "Estado de la orden"
+          enum:
+            - "pending"
+            - "canceled"
+            - "delivering"
+            - "delivered"
+    ProductOrder:
+      type: "object"
+      properties:
+        qty:
+          description: "Cantidad"
+          type: "integer"
+          format: "int64"
+        product:
+          $ref: "#/components/schemas/Product"
+    Products:
+      type: "array"
+      items:
+        $ref: "#/components/schemas/Product"
+    NewProduct:
+      type: "object"
+      properties:
+        name:
+          description: "Nombre"
+          type: "string"
+        price:
+          description: "Precio"
+          type: "string"
+        image:
+          description: "URL a la imagen"
+          type: "string"
+        type:
+          description: "Tipo/Categoría"
+          type: "string"
+    Product:
+      type: "object"
+      properties:
+        _id:
+          description: "Id"
+          type: "string"
+        name:
+          description: "Nombre"
+          type: "string"
+        price:
+          description: "Precio"
+          type: "string"
+        image:
+          description: "URL a la imagen"
+          type: "string"
+        type:
+          description: "Tipo/Categoría"
+          type: "string"
+        dataEntry:
+          description: "Fecha de creación"
+          format: "date"
+          type: "string"
+    Error:
+      type: "object"
+      properties:
+        error:
+          description: "Mensaje de error"
+          type: "string"
+  examples:
+    AllProducts:
+      value:
+        - _id: 1214
+          name: "Sandwich de jam\u00f3n y queso"
+          price: 1000
+          image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg"
+          type: "Desayuno"
+          dateEntry: "2022-03-05 15:14:10"
+        - _id: 7450
+          name: "Caf\u00e9 americano"
+          price: 500
+          image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg"
+          type: "Desayuno"
+          dateEntry: "2022-03-05 15:14:10"
+    NewProduct:
+      value:
+        name: "Agua 500ml"
+        price: 500
+        image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg"
+        type: "Almuerzo"
+    Sandwich:
+      value:
+        _id: 1214
+        name: "Sandwich de jam\u00f3n y queso"
+        price: 1000
+        image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg"
+        type: "Desayuno"
+        dateEntry: "2022-03-05 15:14:10"
+    Coffe:
+      value:
+        _id: 7450
+        name: "Caf\u00e9 americano"
+        price: 500
+        image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg"
+        type: "Desayuno"
+        dateEntry: "2022-03-05 15:14:10"
+    Water:
+      value:
+        _id: 8452
+        name: "Agua 500ml"
+        price: 500
+        image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg"
+        type: "Almuerzo"
+        dateEntry: "2022-03-05 15:14:10"
+    AllOrders:
+      value:
+        - _id: 2324
+          userId: 15254
+          client: "Jude Milhon"
+          products:
+            - qty: 1
+              product:
+                _id: 1214
+                name: "Sandwich de jam\u00f3n y queso"
+                price: 1000
+                image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg"
+                type: "Desayuno"
+                dateEntry: "2022-03-05 15:14:10"
+            - qty: 1
+              product:
+                _id: 7450
+                name: "Caf\u00e9 americano"
+                price: 500
+                image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg"
+                type: "Desayuno"
+                dateEntry: "2022-03-05 15:14:10"
+          status: "pending"
+          dataEntry: "2022-03-05 15:00"
+        - _id: 8746
+          userId: 15254
+          client: "Katie Bouman"
+          products:
+            - qty: 2
+              product:
+                _id: 7450
+                name: "Caf\u00e9 americano"
+                price: 500
+                image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg"
+                type: "Desayuno"
+                dateEntry: "2022-03-05 15:14:10"
+            - qty: 1
+              product:
+                _id: 8452
+                name: "Agua 500ml"
+                price: 500
+                image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg"
+                type: "Almuerzo"
+                dateEntry: "2022-03-05 15:14:10"
+          status: "delivered"
+          dataEntry: "2022-03-05 15:00"
+          dateProcessed: "2022-03-05 16:00"
+    NewOrder:
+      value:
+        userId: 15254
+        client: "Carol Shaw"
+        products:
+          - qty: 5
+            product:
+              _id: 1214
+              name: "Sandwich de jam\u00f3n y queso"
+              price: 1000
+              image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg"
+              type: "Desayuno"
+              dateEntry: "2022-03-05 15:14:10"
+    Order1:
+      value:
+        _id: 2324
+        userId: 15254
+        client: "Jude Milhon"
+        products:
+          - qty: 1
+            product:
+              _id: 1214
+              name: "Sandwich de jam\u00f3n y queso"
+              price: 1000
+              image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg"
+              type: "Desayuno"
+              dateEntry: "2022-03-05 15:14:10"
+          - qty: 1
+            product:
+              _id: 7450
+              name: "Caf\u00e9 americano"
+              price: 500
+              image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg"
+              type: "Desayuno"
+              dateEntry: "2022-03-05 15:14:10"
+        status: "pending"
+        dataEntry: "2022-03-05 15:00"
+    Order2:
+      value:
+        _id: 8746
+        userId: 15254
+        client: "Katie Bouman"
+        products:
+          - qty: 2
+            product:
+              _id: 7450
+              name: "Caf\u00e9 americano"
+              price: 500
+              image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg"
+              type: "Desayuno"
+              dateEntry: "2022-03-05 15:14:10"
+          - qty: 1
+            product:
+              _id: 8452
+              name: "Agua 500ml"
+              price: 500
+              image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg"
+              type: "Almuerzo"
+              dateEntry: "2022-03-05 15:14:10"
+        status: "delivered"
+        dataEntry: "2022-03-05 15:00"
+        dateProcessed: "2022-03-05 16:00"
+    Order3:
+      value:
+        _id: 9541
+        userId: 15254
+        client: "Carol Shaw"
+        products:
+          - qty: 5
+            product:
+              _id: 1214
+              name: "Sandwich de jam\u00f3n y queso"
+              price: 1000
+              image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg"
+              type: "Desayuno"
+              dateEntry: "2022-03-05 15:14:10"
+        status: "pending"
+        dataEntry: "2022-03-05 15:00"
+    Status1:
+      value:
+        status: "delivered"
+    AllUsers:
+      value:
+        - _id: 15254
+          email: "anita.borg@systers.xyz"
+          roles:
+            admin: true
+        - _id: 15254
+          email: "grace.hopper@systers.xyz"
+          roles:
+            admin: true
+    NewUser:
+      value:
+        email: "grace.hopper@systers.xyz"
+        password: "9XXLqVhq3vw9yjNt"
+        roles:
+          admin: true
+    Anita:
+      value:
+        _id: 15254
+        email: "anita.borg@systers.xyz"
+        roles:
+          admin: true
+    Grace:
+      value:
+        _id: 15254
+        email: "grace.hopper@systers.xyz"
+        roles:
+          admin: true
+  parameters:
+    pageParam:
+      in: "query"
+      name: "page"
+      description: "Página del listado a consultar"
+      required: false
+      schema:
+        type: "integer"
+        default: 1
+    limitParam:
+      in: "query"
+      name: "limit"
+      description: "Cantitad de elementos por página"
+      required: false
+      schema:
+        type: "integer"
+        default: 10
+  headers:
+    X-Link-First:
+      schema:
+        type: "string"
+      description: "Link a la primera página"
+    X-Link-Prev:
+      schema:
+        type: "string"
+      description: "Link a la página anterior"
+    X-Link-Next:
+      schema:
+        type: "string"
+      description: "Link a la página siguiente"
+    X-Link-Last:
+      schema:
+        type: "string"
+      description: "Link a la última página"
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
