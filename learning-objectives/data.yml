@@ -15,67 +15,119 @@ css:
 
 browser:
   - dom:
-    - selectors
-    - events
-    - manipulation
+      - selectors
+      - events
+      - manipulation
   - routing
   - storage
   - fetch
 
 js:
   - data-types:
-    - primitive
-    - primitive-vs-non-primitive
-    # - values-and-refs
-    # - typeof
-    # - instanceof
-    - strings
-    - arrays
-    - objects
+      - primitive
+      - primitive-vs-non-primitive
+      # - values-and-refs
+      # - typeof
+      # - instanceof
+      - strings
+      - arrays
+      - objects
   - variables
   - conditionals
   - loops
   - functions
   - recursion
   - testing:
-    - unit
-    # - cases
-    # - assertions
-    - mocks
-    - async
-    # - coverage
-    - e2e
-    - compatibility
+      - unit
+      # - cases
+      # - assertions
+      - mocks
+      - async
+      # - coverage
+      - e2e
+      - compatibility
   - modules:
-    - es-modules
-    - commonjs
+      - es-modules
+      - commonjs
   - linting
   - semantics
   - expression-vs-statement
   - async:
-    - callbacks
-    - promises
+      - callbacks
+      - promises
     # - async/await
     # - streams
 
 scm:
   - git:
-    - setup
-    - intro
-    - integration
+      - setup
+      - intro
+      - integration
   - github:
-    - setup
-    - gh-pages
-    - collaboration
-    - project-management
-    - ci
+      - setup
+      - gh-pages
+      - collaboration
+      - project-management
+      - ci
 
-ux:
-  - user-understanding
-  - prototyping
+user-centricity:
+  - centricity
+  - persistency
+  - prioritization
+  
+business:
+  - alignment
+  - model
+  - goals
+  - metrics
+  - benchmark
+
+research:
+  - planning
+  - support
+  - guidelines
+  - interview
+  - documentation
+  - adaptation
+  - sources
+  - test
+  - analytics
+  - cuantitative-data
+  
+synthesis:
+  - weighing
+  - patterns
+  - insights
+  - mapping
+  - features
+  - ideation
+  - feature-prioritization
+
+product-design:
+  - user-flows
+  - content
+  - fidelity
+  - interactivity
+  - usability
+  - accessibility
   - visual-design
-  - usability-testing
+  - component-organization
+  - interface-guidelines
+  - project-organization
+  - documentation
+  - naming
+  - handoff
 
+communication:
+  - presentation
+  - negotiation
+  - relationship-management
+
+planning:
+  - monitor
+  - prioritization
+  - tools
+    
 firebase:
   - auth
   - firestore
@@ -160,37 +212,67 @@ cicd:
   - integration-tests
 
 db:
-  - install
-  - conection
-  - queries
+  - modeling
+  - connection
+  - indexes-constraints
+  # - diagramming
+  # - cap-theorem
+  # - sql-vs-nosql
+
+sql:
+  - tables
+  - crud
+  - drop
+
+postgres:
+  - psql
+  - data-types
+  - indexes
+  - dump-restore
+
+mysql:
+  - mysql
+  - data-types
+  - indexes
+  - dump-restore
+
+mongodb:
+  - crud
+  - schemas
+  - dump-restore
+  # - aggregation
+  # - transactions
+  # - inedexes
+  # - change-streams
+  # - replication
 
 slack:
   - slash-commands
 
 php:
   - data-types:
-    - primitive
-    - arrays
-    - objects
+      - primitive
+      - arrays
+      - objects
   - variables
   - control-structures
   - functions
   - testing:
-    - phpunit
-    - xdebug
+      - phpunit
+      - xdebug
   - package-management:
-    - composer
+      - composer
 
 wordpress:
   - plugin-development:
-    - hooks
-    - administration-menu
-    - shortcodes
-    - settings
-    - custom-post-types
-    - taxonomies
-    - users
-    - cron
-    - wordpress-rest-api
-    - wordpress-apis
-    - wordpress-plugin-directory
+      - hooks
+      - administration-menu
+      - shortcodes
+      - settings
+      - custom-post-types
+      - taxonomies
+      - users
+      - cron
+      - wordpress-rest-api
+      - wordpress-apis
+      - wordpress-plugin-directory

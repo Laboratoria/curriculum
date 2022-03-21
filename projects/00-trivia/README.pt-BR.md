@@ -31,9 +31,9 @@ dinheiro como recompensa.
 
 ## 2. Resumo do projeto
 
-O que tenho que fazer exatamente? Neste projeto você terá que construir uma
-aplicação web que permita que o usuário responda diferentes perguntas e escolha
-as respostas, a partir de uma lista de alternativas.
+Neste projeto você terá que construir uma aplicação web que permita que o
+usuário responda diferentes perguntas e escolha as respostas, a partir de uma
+lista de alternativas.
 
 O tema é livre. Você deve criar a melhor trivia possível e pensar em como deve
 ser a experiência de uso (que telas, explicações, mensagens, cores, marca?,
@@ -158,7 +158,7 @@ funções que sejam necessárias para atualizar o resultado na tela (UI).
    [fork](https://help.github.com/articles/fork-a-repo/) do repositório. Seus
    mentores vão compartilhar um _link_ para o repositório com acesso de leitura.
 4. :arrow_down: [Clone](https://help.github.com/articles/cloning-a-repository/)
-   seu *fork* em seu computador (cópia local).
+   seu _fork_ em seu computador (cópia local).
 5. Agora é só codar! :rocket:
 
 ### Recursos e temas relacionados

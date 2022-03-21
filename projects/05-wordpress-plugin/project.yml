@@ -19,3 +19,7 @@ learningObjectives:
   - wordpress/plugin-development/wordpress-rest-api
   - wordpress/plugin-development/wordpress-apis
   - wordpress/plugin-development/wordpress-plugin-directory
+  - mysql/mysql
+  - mysql/data-types
+  - db/modeling
+  - db/connection

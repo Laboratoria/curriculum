@@ -16,19 +16,6 @@
 
 ## 1. Preámbulo
 
-En este proyecto vamos a construir un simple videojuego de _3 en raya_, también
-conocido como _michi_ o _tic tac toe_ en inglés, para celulares y tabletas.
-
-Para construir el juego vamos a usar [React Native](https://facebook.github.io/react-native/),
-que nos permite construir aplicaciones _nativas_ (que no _híbridas_) que se
-puedan instalar y ejecutar en dispositivos Android e iOS, y todo ello usando
-JavaScript y React para componer nuestra interfaz.
-
-Nuestro público objetivo en este caso son niños en edad pre-escolar, así que el
-juego debe ser simple, intuitivo, con botones grandes, poco o nada de texto, ...
-
-## 2. Resumen del proyecto
-
 React Native es una herramienta que nos permite construir aplicaciones nativas
 para Android e iOS usando JavaScript y React.
 
@@ -49,6 +36,19 @@ desarrolladores web en el pasado, React Native nos permite construir
 aplicaciones realmente _nativas_, pero usando JavaScript y React. Esto significa
 mejor _performance_ y acceso directo al sistema en vez de estar confinado a una
 vista _web_.
+
+## 2. Resumen del proyecto
+
+En este proyecto vamos a construir un simple videojuego de _3 en raya_, también
+conocido como _michi_ o _tic tac toe_ en inglés, para celulares y tabletas.
+
+Para construir el juego vamos a usar [React Native](https://facebook.github.io/react-native/),
+que nos permite construir aplicaciones _nativas_ (que no _híbridas_) que se
+puedan instalar y ejecutar en dispositivos Android e iOS, y todo ello usando
+JavaScript y React para componer nuestra interfaz.
+
+Nuestro público objetivo en este caso son niños en edad pre-escolar, así que el
+juego debe ser simple, intuitivo, con botones grandes, poco o nada de texto, ...
 
 ## 3. Objetivos de aprendizaje
 
@@ -165,7 +165,7 @@ usar. Elige `blank`.
 ```txt
 ? Choose a template: (Use arrow keys)
   ----- Managed workflow -----
-❯ blank         minimal dependencies to run and an empty root component  
+❯ blank         minimal dependencies to run and an empty root component
   tabs          several example screens and tabs using react-navigation
   ----- Bare workflow -----
   bare-minimum  minimal setup for using unimodules

@@ -1,5 +1,5 @@
 import { Fragment, useState } from 'react';
-import { useHistory, useParams } from 'react-router-dom';
+import { useLocation, useNavigate, useParams } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import FormControl from '@material-ui/core/FormControl';
@@ -51,11 +51,12 @@ const useStyles = makeStyles((theme) => ({
 
 const TopBar = () => {
   const classes = useStyles();
-  const history = useHistory();
+  const navigate = useNavigate();
   const { lang } = useParams();
+  const location = useLocation();
   // const { auth } = useApp();
   const [drawerIsOpen, setDrawerIsOpen] = useState(false);
-  const urlWithoutLang = history.location.pathname.split('/').slice(2).join('/');
+  const urlWithoutLang = location.pathname.split('/').slice(2).join('/');
 
   return (
     <Fragment>
@@ -84,7 +85,7 @@ const TopBar = () => {
               id="lang-select"
               displayEmpty
               value={lang}
-              onChange={e => history.push(`/${e.target.value}/${urlWithoutLang}`)}
+              onChange={e => navigate(`/${e.target.value}/${urlWithoutLang}`)}
             >
               <MenuItem value="" disabled>Lang</MenuItem>
               <MenuItem value={'es'}>
@@ -107,7 +108,6 @@ const TopBar = () => {
         drawerIsOpen={drawerIsOpen}
         setDrawerIsOpen={setDrawerIsOpen}
         lang={lang}
-        history={history}
       />
     </Fragment>
   );

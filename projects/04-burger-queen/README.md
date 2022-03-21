@@ -35,16 +35,16 @@ los que trabajes.
 
 ## 2. Resumen del proyecto
 
-Esta vez tenemos un proyecto 100% por encargo. Si bien siempre puedes (y debes)
-hacer sugerencias de mejoras y/o cambios, muchas veces trabajarás en proyectos
-en los que primero hay que asegurarse de cumplir con lo requerido.
-
 Un pequeño restaurante de hamburguesas, que está creciendo, necesita una
 interfaz en la que puedan tomar pedidos usando una _tablet_, y enviarlos
 a la cocina para que se preparen ordenada y eficientemente (a través de un
-  _backend_ del que nos darán detalles más adelante).
+_backend_ del que nos darán detalles más adelante).
 
 ![burger-queen](https://user-images.githubusercontent.com/110297/42118136-996b4a52-7bc6-11e8-8a03-ada078754715.jpg)
+
+Esta vez tenemos un proyecto 100% por encargo. Si bien siempre puedes (y debes)
+hacer sugerencias de mejoras y/o cambios, muchas veces trabajarás en proyectos
+en los que primero hay que asegurarse de cumplir con lo requerido.
 
 Esta es la información que tenemos del cliente:
 
@@ -128,7 +128,7 @@ La aplicación debe ser un _Single Page App_. Los pedidos los tomaremos desde un
 _tablet_, pero **no queremos una app nativa**, sino una web app que sea
 **responsive** y pueda funcionar **offline**.
 
-Necesitamos pensar bien en el aspecto UX de de quienes van a tomar los pedidos,
+Necesitamos pensar bien en el aspecto UX de quienes van a tomar los pedidos,
  el tamaño y aspecto de los botones, la visibilidad del estado actual del
  pedido, etc.
 
@@ -305,17 +305,17 @@ podrán hacer sus propios _forks_ a partir del _fork_ principal de su equipo.
 
 ### Despliegue
 
-En esta sección revisamos algunas opciones para desplegar  
-el backend y frontend de tu app.  
-Si usas firebase con reglas de firestore, índices, cloud functions,  
+En esta sección revisamos algunas opciones para desplegar
+el backend y frontend de tu app.
+Si usas firebase con reglas de firestore, índices, cloud functions,
 necesitas desplegar el backend con firebase-cli.
 
-Puedes desplegar el frontend con Firebase hosting.  
-Hay otras opciones como Github Pages (que ya estan familiarizadas),  
+Puedes desplegar el frontend con Firebase hosting.
+Hay otras opciones como Github Pages (que ya estan familiarizadas),
 Netlify, y Heroku.
 
-Netlify y Heroku son servicios para desplegar tu web app - backend y  
-frontend - y no son limitados a usar solamente con Firebase.  
+Netlify y Heroku son servicios para desplegar tu web app - backend y
+frontend - y no son limitados a usar solamente con Firebase.
 Por ejemplo, puedes desplegar un app MySQL/Express/React.
 
 #### Build para production
@@ -364,7 +364,7 @@ firebase deploy
 ##### Netlify
 
 [Netlify](http://netlify.com) es un servicio de hosting
-para sitios web estáticos.  
+para sitios web estáticos.
 Para usarlo primero necesitas crear una cuenta en
 [Netlify](http://netlify.com) y después puedes conectar tu repo.
 

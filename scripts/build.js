@@ -126,11 +126,19 @@ const addLearningObjectives = () => {
     loadYaml(path.join(dir, 'intl', 'es.yml')),
     loadYaml(path.join(dir, 'intl', 'pt.yml')),
   ])
-    .then(([tree, es, pt]) => ({
-      tree,
-      flat: flattenLearningObjectives(tree),
-      intl: { es, pt },
-    }))
+    .then(([tree, es, pt]) => {
+      const flat = flattenLearningObjectives(tree);
+      return {
+        tree,
+        flat,
+        intl: { es, pt },
+        table: flat.map(key => ({
+          key,
+          es: es[key]?.title || es[key],
+          pt: pt[key]?.title || pt[key],
+        })),
+      };
+    })
     .then(json => fs.writeFile(
       path.join(buildDir, 'learning-objectives.json'),
       JSON.stringify(json),
@@ -154,15 +162,17 @@ buildItems([
   { type: 'project', id: '04-burger-queen-api-client', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '04-md-links', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '04-news-alerts', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '04-notes', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-battleship', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-chat-app', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '05-fleet-management', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-roman-numerals', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-roman-numerals-slack', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-social-network-fw', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-tic-tac-toe-rn', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-wordpress-plugin', locale: 'es-ES', track: 'js' },
-  { type: 'project', id: '06-open-project', locale: 'es-ES', track: 'js' },
-  { type: 'project', id: '07-job-application', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '05-open-project', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '06-job-application', locale: 'es-ES', track: 'js' },
   // JS Projects (portuguese)
   { type: 'project', id: '00-trivia', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '01-card-validation', locale: 'pt-BR', track: 'js' },
@@ -177,12 +187,13 @@ buildItems([
   { type: 'project', id: '04-burger-queen-api-client', locale: 'pt-BR', track: 'js' },
   { type: 'project', id: '04-md-links', locale: 'pt-BR', track: 'js' },
   // UX Projects (spanish)
-  { type: 'project', id: '00-usability', locale: 'es-ES', track: 'ux' },
-  { type: 'project', id: '01-small-businesses', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '00-hcd-intro', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '01-design-and-usability', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '02-small-businesses', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '03-ui-design', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '04-industry-deep-dive', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '04-service-design', locale: 'es-ES', track: 'ux' },
   { type: 'project', id: '04-ux-consultancy', locale: 'es-ES', track: 'ux' },
-  { type: 'project', id: '05-service-design', locale: 'es-ES', track: 'ux' },
-  { type: 'project', id: '05-visual-design', locale: 'es-ES', track: 'ux' },
-  { type: 'project', id: '06-redesign-and-data', locale: 'es-ES', track: 'ux' },
 
   // JS Topics (spanish)
   { type: 'topic', id: 'browser', locale: 'es-ES', track: 'js' },

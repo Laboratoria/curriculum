@@ -1,6 +1,5 @@
 const path = require('path');
 const { spawn } = require('child_process');
-const nodeFetch = require('node-fetch');
 const kill = require('tree-kill');
 
 const config = require('../config');
@@ -28,20 +27,19 @@ const __e2e = {
   // testObjects: [],
 };
 
-
-const fetch = (url, opts = {}) => nodeFetch(`${baseUrl}${url}`, {
-  ...opts,
-  headers: {
-    'content-type': 'application/json',
-    ...opts.headers,
-  },
-  ...(
-    opts.body && typeof opts.body !== 'string'
-      ? { body: JSON.stringify(opts.body) }
-      : {}
-  ),
-});
-
+const fetch = (url, opts = {}) => import('node-fetch')
+  .then(({ default: fetch }) => fetch(`${baseUrl}${url}`, {
+    ...opts,
+    headers: {
+      'content-type': 'application/json',
+      ...opts.headers,
+    },
+    ...(
+      opts.body && typeof opts.body !== 'string'
+        ? { body: JSON.stringify(opts.body) }
+        : {}
+    ),
+  }));
 
 const fetchWithAuth = (token) => (url, opts = {}) => fetch(url, {
   ...opts,
@@ -85,7 +83,6 @@ const checkAdminCredentials = () => fetch('/auth', {
   })
   .then(({ token }) => Object.assign(__e2e, { adminToken: token }));
 
-
 const waitForServerToBeReady = (retries = 10) => new Promise((resolve, reject) => {
   if (!retries) {
     return reject(new Error('Server took to long to start'));
@@ -101,7 +98,6 @@ const waitForServerToBeReady = (retries = 10) => new Promise((resolve, reject) =
       .catch(() => waitForServerToBeReady(retries - 1).then(resolve, reject));
   }, 1000);
 });
-
 
 module.exports = () => new Promise((resolve, reject) => {
   if (process.env.REMOTE_URL) {

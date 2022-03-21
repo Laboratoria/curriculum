@@ -1,6 +1,6 @@
 {
   "slug": "html-pt",
-  "createdAt": "2021-08-02T12:10:50.233Z",
+  "createdAt": "2022-03-14T14:32:09.735Z",
   "title": "HTML",
   "description": "",
   "tags": {
@@ -148,8 +148,8 @@
   "references": "",
   "repo": "Laboratoria/bootcamp",
   "path": "topics/html",
-  "version": "3.2.0",
-  "parserVersion": "3.0.0",
+  "version": "5.0.0",
+  "parserVersion": "3.1.0",
   "track": "js",
   "locale": "pt-BR",
   "stats": {

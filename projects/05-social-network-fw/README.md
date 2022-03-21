@@ -36,7 +36,9 @@ Como desarrolladora Front-end, estos kits de desarrollo pueden resultarte
 de gran ayuda para implementar rápidamente características de los proyectos en
 los que trabajes.
 
-![caracoles](http://www.animated-photography.com/images/portfolio/full/Evolution.jpg)
+![caracoles](https://user-images.githubusercontent.com/110297/135919690-c24009e7-4d6a-4b4d-a046-d9ca73b5587e.png)
+
+_Imagen tomada de [Animated Photography](http://www.animated-photography.com/)_.
 
 ## 2. Resumen del proyecto
 

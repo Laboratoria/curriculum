@@ -1,6 +1,6 @@
 {
   "slug": "shell",
-  "createdAt": "2021-08-02T12:10:50.378Z",
+  "createdAt": "2022-03-14T14:32:09.320Z",
   "title": "Unix Shell",
   "description": "<p>La línea de comandos es una interfaz que algunos pensarían está ya anticuada.\nPero la realidad es completamente distinta. El terminal se ha convertido en una\npieza crucial en el día a día de un desarrollador web, ya sea usando <code>git</code>,\ncorriendo un <code>bundler</code>, instalando dependencias con <code>npm</code> o escribiendo scripts\npara arrancar o desplegar aplicaciones.</p>\n<p>La primera <code>unix shell</code> apareció en 1971, con la primera versión de Unix. A\npesar de sus más de 40 años de edad, sigue siendo una tecnología totalmente\nvigente, y de alguna forma se ha convertido en el estándar para la interacción\ncon servidores y sistemas operativos \"Unix-like\" (GNU/Linux, BSD, MacOS,\nAndroid, ...).</p>\n<p>De hecho, en 2016, <code>unix shell</code>, es uno de los skills más buscados en la\nindustria (ranqueado No. 14 entre los 25 skills más importantes para ser\ncontratado en 2016, según LinkedIn).</p>\n<p>En este curso aprenderás a interactuar con la línea de comandos y escribir shell\nscripts.</p>\n\n",
   "tags": {
@@ -83,8 +83,8 @@
   "references": "",
   "repo": "Laboratoria/bootcamp",
   "path": "topics/shell",
-  "version": "3.2.0",
-  "parserVersion": "3.0.0",
+  "version": "5.0.0",
+  "parserVersion": "3.1.0",
   "track": "js",
   "locale": "es-ES",
   "stats": {

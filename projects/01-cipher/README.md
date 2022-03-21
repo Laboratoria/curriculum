@@ -43,9 +43,9 @@ aplicación en el sistema ROT13.
 
 ## 2. Resumen del proyecto
 
-¿Qué tengo que hacer exactamente? En este proyecto crearás una aplicación
-web que servirá para que el usuario pueda cifrar y descifrar un texto indicando
-un desplazamiento específico de caracteres (_offset_).
+En este proyecto crearás una aplicación web que servirá para que el usuario
+pueda cifrar y descifrar un texto indicando un desplazamiento específico de
+caracteres (_offset_).
 
 La temática es libre. Tú debes pensar en qué situaciones de la vida real se
 necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso
@@ -216,7 +216,7 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
    [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) un `remote`
    hacia el mismo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   tu *fork* a tu computadora (copia local).
+   tu _fork_ a tu computadora (copia local).
 5. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
    asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
 6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:

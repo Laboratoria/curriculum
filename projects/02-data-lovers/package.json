@@ -16,11 +16,15 @@
     "@babel/core": "^7.6.2",
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
     "babel-jest": "^27.0.1",
-    "eslint": "^7.12.1",
+    "eslint": "^8.3.0",
     "gh-pages": "^3.1.0",
-    "htmlhint": "^0.15.1",
+    "htmlhint": "^1.0.0",
     "jest": "^27.0.1",
     "opener": "^1.5.1",
-    "serve": "^12.0.0"
+    "serve": "^13.0.2"
+  },
+  "engines": {
+    "node": ">=14.x"
   }
 }
+

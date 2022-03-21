@@ -24,6 +24,7 @@ services:
       - ./apache2/ports.conf:/etc/apache2/ports.conf
       - ./apache2/sites-available:/etc/apache2/sites-available
       - ./apache2/sites-enabled:/etc/apache2/sites-enabled
+      - ./logs/:/var/log/apache2
     ports:
       - "80:80"
       - "8080:8080"
@@ -57,6 +58,22 @@ services:
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: wordpress
       WORDPRESS_DB_NAME: wordpress
+
+  phpmyadmin:
+    image: phpmyadmin
+    container_name: phpmyadmin
+    restart: always
+    ports:
+    - 8888:80
+    environment:
+    - PMA_ARBITRARY=1
+
+  phpunit:
+    image: "chriszarate/wordpress-phpunit:6.0.6"
+    volumes:
+      - "./html/wp-content/plugins:/app"
+      - "testsuite:/tmp"
+
 volumes:
   db_data: {}
-
+  testsuite: {}

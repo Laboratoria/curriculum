@@ -15,24 +15,24 @@
     "stylelint": "stylelint --aei src/**/*.css",
     "pretest": "npm run htmlhint && npm run eslint && npm run stylelint",
     "test": "jest --coverage",
-    "start": "serve src/"
+    "start": "serve -s src/"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",
     "@babel/preset-env": "^7.11.0",
     "babel-jest": "^27.0.1",
-    "eslint": "^7.7.0",
-    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^24.1.0",
-    "htmlhint": "^0.15.1",
+    "eslint-plugin-jest": "^25.3.0",
+    "htmlhint": "^1.0.0",
     "jest": "^27.0.1",
     "regenerator-runtime": "^0.13.1",
-    "serve": "^12.0.0",
-    "stylelint": "^13.13.1",
-    "stylelint-config-recommended": "^5.0.0"
+    "serve": "^13.0.2",
+    "stylelint": "^14.1.0",
+    "stylelint-config-recommended": "^6.0.0"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=14"
   }
 }

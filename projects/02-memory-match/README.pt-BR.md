@@ -22,7 +22,7 @@ entre outros, é um jogo de cartas em que todas as cartas são postas viradas
 pra baixo sobre a superficie, virando duas cartas em cada turno. O
 objetivo do jogo é encontrar pares de cartas iguais.
 
-![Concentration (card game)](https://upload.wikimedia.org/wikipedia/commons/4/4d/WMCZ_Protected_Areas_Card_Game-7_%28cropped%29.jpg)
+![Concentration (card game)](https://user-images.githubusercontent.com/110297/135919005-66aefadb-c462-49e2-bf10-2374f2e47688.png)
 
 Exemplos:
 
@@ -258,14 +258,14 @@ podem te ajudar:
 
 Quando estiver pronta para codar, te sugerimos começar desta maneira:
 
-1. Uma das integrantes da equipe deve realizar um :fork\*and_knife:
-   [fork](https://help.github.com/articles/fork-a-repo/) do repositório de sua
+1. Uma das integrantes da equipe deve realizar um
+[fork](https://help.github.com/articles/fork-a-repo/) do repositório de sua
    turma (a equipe de formação fornecerá o link). A outra integrante da dupla
    deve fazer um fork **a partir do repositório de sua companheira** e
    [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) um `remote`
    a partir dele.
-2. :arrow*down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   seu \_fork* a seu computadora (copia local).
+2. [Clona](https://help.github.com/articles/cloning-a-repository/)
+   seu _fork_ a seu computadora (copia local).
 3. Instale as dependências do projeto com o comando `npm install`, assumindo que
    já tenha instalado o [Node.js](https://nodejs.org/) (que inclui
    [npm](https://docs.npmjs.com/)).

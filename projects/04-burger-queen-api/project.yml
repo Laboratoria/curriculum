@@ -22,4 +22,17 @@ learningObjectives:
   - http
   - auth
   - webops
-  - db
+  - mongodb/crud
+  - mongodb/schemas
+  - mongodb/dump-restore
+  - postgres/psql
+  - postgres/data-types
+  - postgres/dump-restore
+  - mysql/mysql
+  - mysql/data-types
+  - mysql/dump-restore
+  - db/modeling
+  - db/connection
+  - sql/tables
+  - sql/crud
+  - sql/drop

@@ -7,9 +7,9 @@
 /* eslint no-restricted-globals: "off" */
 
 self.importScripts(
-  'https://cdnjs.cloudflare.com/ajax/libs/mocha/9.1.0/mocha.min.js',
-  'https://cdnjs.cloudflare.com/ajax/libs/chai/4.3.4/chai.min.js',
-  'https://cdnjs.cloudflare.com/ajax/libs/sinon.js/11.1.2/sinon.min.js'
+  'https://cdnjs.cloudflare.com/ajax/libs/mocha/9.2.2/mocha.min.js',
+  'https://cdnjs.cloudflare.com/ajax/libs/chai/4.3.6/chai.min.js',
+  'https://cdnjs.cloudflare.com/ajax/libs/sinon.js/13.0.1/sinon.min.js'
 );
 
 mocha.setup({

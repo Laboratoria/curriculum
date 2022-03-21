@@ -11,43 +11,40 @@
 
 ## 1. Preámbulo
 
-Los datos son de poca utilidad si no están organizados para ser analizados y que
-sirvan como para entender y tomar decisiones sobre un fenómeno. Para que los datos
-se conviertan en **información** fácil de entender para los usuarios, necesitamos
-procesar estos datos. Una manera simple de hacerlo es creando _interfaces_ interactivas
-y _visualizaciones_.
+> El Departamento de Emergencias (DE), a veces denominado Accidentes y
+> Emergencia (A & E), Sala de Urgencias (SU), Emergency Ward (EW) o Departamento
+> de Accidentes, es un hospital o departamento de atención primaria o sección de
+> un hospital que ofrece un tratamiento inicial de pacientes con un amplio
+> espectro de enfermedades y lesiones, algunas de las cuales pueden ser
+> potencialmente mortales y requieren atención inmediata.
+>
+> En algunos países, los servicios de urgencias se han convertido en importantes
+> puntos de entrada para quienes no tienen otros medios de acceso a la atención
+> médica.
+>
+> Fuente: [Departamento de Emergencias - Wikipedia](https://es.wikipedia.org/wiki/Departamento_de_Emergencias)
 
-Un caso especial, y que es crítico en los hospitales, es la gestión de los
-pacientes que llegan a la sala de emergencias según sus necesidades particulares.
-El análisis de la información nos puede permitir asignar médicos y salas,
-que son siempre escasas, a quienes más lo necesitan. Para lograrlo, existen sistemas
-de categorización de pacientes, donde no importa el orden de llegada sino su
-gravedad de acuerdo a la siguiente tabla:
+En las salas de emergencias de los hospitales, la gestión de los pacientes que
+van llegando es crítica. Es muy importante que las pacientes puedan ser
+atendidas no solo de acuerdo al orden de llegada, si no al nivel de gravedad.
 
-![Categorización-UEH-660x1025](https://user-images.githubusercontent.com/7809496/71842401-4d6b4e00-30a0-11ea-9784-910bcc7b2a8a.png)
+![Free to use from https://pxhere.com/es/photo/599363](https://c.pxhere.com/photos/41/df/hospital_a_e_emergency_hospital_beds_hospital_ward-599363.jpg!d)
 
-Los pacientes graves deben pasar inmediatamente a atenderse con un
-médico. Los de mediana gravedad deberán esperar por una camilla libre, si
-hay más de un paciente en esta categoría, se ordenarán según su hora de llegada.
-Los demás pacientes se ordenarán primero por categoría de gravedad y luego
-por hora de llegada; pasarán sólo si es que no hay alguien de mayor prioridad
-esperando por atención.
+Para este tipo de casos podemos hacer uso de la idea de **colas de prioridad**,
+que es una _estructura de datos_ que se encarga de ir dándonos los elementos de
+mayor _prioridad_ antes que los de menor prioridad. De esta forma podemos ir
+asignando salas y médicos disponibles a quienes más lo necesitan.
 
 ## 2. Resumen del proyecto
 
-![Free to use from https://pxhere.com/es/photo/599363](emergency-room.jpg)
-
-En esta ocasión trabajarás en dupla para crear una aplicación web para la gestión
-de filas/colas de la sala de emergencias de un hospital y que responda a los criterios
-de gravedad antes descritos. Esta vez tú misma tendrás que crear los datos con
-los que trabajarás.
-
-Este proyecto es agnóstico a la tecnología que uses, es decir puedes desarrollarlo
-en Vanilla JavaScript o algún _framework_  o biblioteca (librería) de tu elección.
+En este proyecto crearás una aplicación web para la gestión de la cola de
+pacientes en la sala de emergencias de un hospital. Esta aplicación permitirá
+registrar a las pacientes que llegan, e ir haciéndolas pasar según el nivel de
+gravedad de su caso.
 
 El objetivo principal de este proyecto es que te familiarices con el uso de
 arreglos y diccionarios, incluso que los combines para obtener estructuras de
-datos más complejas que te permitan resolver problemas grandes de datos.
+datos más complejas que te permitan resolver problemas de datos.
 
 ## 3. Objetivos de aprendizaje
 
@@ -62,45 +59,56 @@ datos más complejas que te permitan resolver problemas grandes de datos.
 ## 4. Consideraciones generales
 
 * El trabajo debe ser hecho en duplas.
-* Debes tener tu código alojado en *GitHub* usando *Git* y sus comandos *commit*,
- *push*, *pull*, etc.
+* Debes tener tu código alojado en _GitHub_ usando _Git_ y sus comandos
+  _commit_, _push_, _pull_, etc.
 * Debes desplegar tu aplicación usando [GitHub Pages](https://pages.github.com/).
-* Toma el tiempo necesario para completar el proyecto con la máxima calidad posible.
- Asume 3 semanas como una referencia inicial.
+* Toma el tiempo necesario para completar el proyecto con la máxima calidad
+  posible. Asume 3 semanas como una referencia inicial.
 * Tus pruebas unitarias deben tener una cobertura del 70% de _statements_.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
-* Se debe poder "ingresar" un paciente, guardando su nombre, edad, género, descripción
-de la emergencia y categoría de la misma (gravedad).
+Nuestro sistema de gestión de pacientes debe ir asignando pacientes según su
+gravedad y no solo según el orden de llegada. Debes tener en consideración los
+_niveles de gravedad_  de la siguiente tabla:
+
+![Categorización-UEH-660x1025](https://user-images.githubusercontent.com/7809496/71842401-4d6b4e00-30a0-11ea-9784-910bcc7b2a8a.png)
+
+Las pacientes se ordenarán primero por nivel de gravedad y luego por hora de
+llegada; pasarán sólo si es que no hay alguien de mayor prioridad esperando por
+atención.
+
+* Se debe poder "ingresar" un paciente, guardando su nombre, edad, género,
+  descripción de la emergencia y categoría de la misma (gravedad).
 * Se debe poder ver las salas de atención, si están ocupadas por pacientes, sus
-datos y la categoría de la emergencia en la que se encuentran.
+  datos y la categoría de la emergencia en la que se encuentran.
 * Se debe poder ver la cola de atención ordenada según el nivel de emergencia
-de cada paciente.
+  de cada paciente.
 * Se debe poder marcar una sala como "libre" porque ya terminó la atención del
-paciente que estaba en ella.
+  paciente que estaba en ella.
 * Se debe poder hacer pasar a un paciente de la cola para su atención en una de
-las salas disponible, comunicando su nombre y a cuál sala debe pasar.
+  las salas disponible, comunicando su nombre y a cuál sala debe pasar.
 
 Para facilitar el desarrollo toma en cuenta los siguientes consejos:
 
 * Quien usa el sistema es la médico a cargo de categorizar a los pacientes y
-nadie más. Su pantalla también es visible en un televisor del hospital.
+  nadie más. Su pantalla también es visible en un televisor del hospital.
 * Todo debe ser visible en una sola pantalla con resolución de TV (1280x720),
-considera esto al diseñar la interfaz.
-* Hay solamente 6 salas de atención pero sería genial si la aplicación permitiera
-cambiar ese número fácilmente. En primer lugar como una constante dentro de la
-aplicación y en una segunda iteración como una configuración que la usuaria puede
-definir.
+  considera esto al diseñar la interfaz.
+* Hay solamente 6 salas de atención pero sería genial si la aplicación
+  permitiera cambiar ese número fácilmente. En primer lugar como una constante
+  dentro de la aplicación y en una segunda iteración como una configuración que
+  la usuaria puede definir.
 
 ## 6. Hacker edition
 
 * Es probable que en tu solución toda la información se mantenga en memoria, es
-decir, si alguien recarga la página todo lo guardado desaparece; considera usar
-alguna herramienta para mantener la persistencia de esta. Una opción es guardar
-los datos en [window.localStorage](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
-, otra opción es considerar alguna base de datos, de estas hay muchas incluyendo
-Firebase.
+  decir, si alguien recarga la página todo lo guardado desaparece; considera
+  usar alguna herramienta para mantener la persistencia de esta. Una opción es
+  guardar los datos en
+  [window.localStorage](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage),
+  otra opción es considerar alguna base de datos, de estas hay muchas incluyendo
+  Firebase.
 
 ## Contenido de referencia
 

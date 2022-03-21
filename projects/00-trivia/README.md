@@ -29,9 +29,9 @@ incluso, ofrecen dinero como recompensa.
 
 ## 2. Resumen del proyecto
 
-¿Qué tengo que hacer exactamente? En este proyecto tendrás que construir una
-aplicación web que le permita a un usuario responder distintas preguntas
-escogiendo sus respuestas de una lista de alternativas.
+En este proyecto tendrás que construir una aplicación web que le permita a un
+usuario responder distintas preguntas escogiendo sus respuestas de una lista de
+alternativas.
 
 La temática es libre. Tú debes crear la mejor trivia que puedas y luego pensar
 en cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes,
@@ -156,7 +156,7 @@ funciones que sean necesarias para actualizar el resultado en la pantalla (UI).
    del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te
    darán acceso de lectura en ese repo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   tu *fork* a tu computadora (copia local).
+   tu _fork_ a tu computadora (copia local).
 5. A codear se ha dicho! :rocket:
 
 ### Recursos y temas relacionados

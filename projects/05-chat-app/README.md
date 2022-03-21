@@ -13,7 +13,7 @@
 
 ## 1. Preámbulo
 
-![Personas usando sus celulares en el metro de Japón](./docs/images/train.jpg)
+![Personas usando sus celulares en el metro de Japón](https://user-images.githubusercontent.com/110297/135544145-11cfe52c-c43a-4659-b86f-e5664a0b71bf.jpg)
 
 La mensajería instantánea es uno de los usos más populares que tiene la Internet
 desde que se popularizó su uso. Desde IRC, ICQ y MSN Messenger, a los chats en

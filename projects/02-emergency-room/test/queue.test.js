@@ -1,8 +1,8 @@
 // import { función } from '../src/queue';
 
-describe('Sistema de colas', () => {
-  describe('Debe …', () => {
-    it('…', () => {
+describe('queue', () => {
+  describe('Debe ...', () => {
+    it('...', () => {
       // Invocación a la función
     });
 
