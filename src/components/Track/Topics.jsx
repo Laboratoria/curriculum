@@ -4,6 +4,7 @@ import { FormattedMessage } from 'react-intl';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
 import CardActions  from '@material-ui/core/CardActions';
 import Grid from '@material-ui/core/Grid';
 import IconButton from '@material-ui/core/IconButton';
@@ -34,6 +35,12 @@ const Topic = ({ topic }) => {
   const { lang } = useParams();
   return (
     <Card>
+        <CardMedia
+          component="img"
+          height="200"
+          image={topic.thumb}
+          alt={topic.title}
+        />
       <CardHeader
         action={
           <IconButton component={Link} to={`/${lang}/topics/${topic.slug}`}>
