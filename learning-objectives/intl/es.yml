@@ -354,7 +354,12 @@ research/sources:
 
 research/test:
   title: Planear y ejecutar testeos de usabilidad de prototipos en distintos niveles de fidelidad
-
+  links:
+    - title: Intro a testeos usabilidad
+      url: https://coda.io/@bootcamp-laboratoria/contenido-ux/test-de-usabilidad-15
+    - title: Pruebas con Usuarios 1 — ¿Qué, cuándo y para qué testeamos?
+      url: https://eugeniacasabona.medium.com/pruebas-con-usuarios-1-qu%C3%A9-cu%C3%A1ndo-y-para-qu%C3%A9-testeamos-7c3a89b4b5e7
+    
 research/analytics:
   title: Utilizar herramientas de analítica
 
