@@ -3,7 +3,7 @@
 JavaScript, comúnmente abreviado JS, es  un lenguaje de programación
 que forma parte de las tecnologías centrales del desarrollo web,
 junto con HTML y CSS. Actualmente, la inmensa mayoría de los sitios
-webs utilizan JavaScript en el lado de _el cliente_ para controlar el
+webs utilizan JavaScript en el lado del _cliente_ para controlar el
 comportamiento y agregarle funcionalidad a ellos, usualmente
 incorporando librerías de terceros.
 

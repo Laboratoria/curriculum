@@ -1,10 +1,10 @@
 # HTML
 
-El lenguaje de _marcado_ de hipertexto, o HTML por su sigla en
-inglés (HyperText Markup Language) es el estándar para armar
-documentos que serán desplegados en un sitio web en el navegador,
-y es el lenguaje en el cual se describen los elementos presentes
-en el _DOM_ y su relación entre ellos.
+El lenguaje de _marcado_ de hipertexto, o HTML por sus siglas en
+inglés (HyperText Markup Language), es el estándar para armar
+documentos que serán desplegados en un sitio web en el navegador.
+HTML es el lenguaje en el que describimos el árbol de elementos presentes
+en el _DOM_ y cómo se estructuran.
 
 Los archivos HTML usualmente irán acompañados de un diseño
 realizado en CSS, y la funcionalidad realizada en JS.
