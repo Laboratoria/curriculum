@@ -55,14 +55,6 @@ a:hover {
   color: #ff009e;
 }
 
-.buttonFlexRight {
-  margin-left: auto;
-}
-
-.cardButtonRight {
-  margin-left: 80%;
-}
-
 .vega-embed,
 .vega-embed::after,
 .vega-embed::before {

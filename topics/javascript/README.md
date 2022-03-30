@@ -13,11 +13,6 @@ hoy en día existen motores de ejecución de JS nativos para
 los sistemas operativos, expandiendo el uso de JS hacia _servidores_
 y una gran variedad de aplicaciones de escritorio.
 
-Actualmente el estándar bajo el cual se escribe código en JavaScript
-es ECMAScript (o ES) cuyo propósito es asegurarse de la
-interoperabilidad de los sitios webs escritos con JS en los distintos
-navegadores web utilizados por las usuarias en el mundo.
-
 Tags: `value`, `variable`, `operator`, `comment`, `flow-control`, `branching`,
 `conditional`, `loop`, `function`, `array`, `object`, `string`, `built-ins`,
 `async`, `callback`, `promise`, `error`, `debugging`, `style`
