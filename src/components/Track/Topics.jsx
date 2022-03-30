@@ -53,11 +53,14 @@ const Topic = ({ topic }) => {
         <CardContent>
             <div dangerouslySetInnerHTML={{ __html: description }}>
             </div>
-            <CardActions style={{marginLeft: "80%"}}>
-              <IconButton onClick={() => toggleShowEntireDescription()}>
-                { dropArrow ? <ArrowDropDownIcon /> : <ArrowDropUpIcon /> }
-              </IconButton>
-            </CardActions>
+            {topic.description.length > 250 ? 
+              <CardActions style={{marginLeft: "80%"}}>
+                <IconButton onClick={() => toggleShowEntireDescription()}>
+                  { dropArrow ? <ArrowDropDownIcon /> : <ArrowDropUpIcon /> }
+                </IconButton>
+              </CardActions> : null
+            }
+            
         </CardContent>
       </Typography>
         
