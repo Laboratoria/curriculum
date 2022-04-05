@@ -1,6 +1,8 @@
 {
   "slug": "css-pt",
-  "createdAt": "2022-03-14T14:32:10.427Z",
+  "createdAt": "2022-04-05T18:51:06.323Z",
+  "cover": null,
+  "thumb": null,
   "title": "CSS",
   "description": "",
   "tags": {
@@ -1465,7 +1467,7 @@
   "repo": "Laboratoria/bootcamp",
   "path": "topics/css",
   "version": "5.0.0",
-  "parserVersion": "3.1.0",
+  "parserVersion": "3.2.0",
   "track": "js",
   "locale": "pt-BR",
   "stats": {
