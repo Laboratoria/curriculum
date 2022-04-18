@@ -1,6 +1,6 @@
 {
   "slug": "javascript-pt",
-  "createdAt": "2021-11-30T14:02:31.576Z",
+  "createdAt": "2022-03-14T14:32:11.417Z",
   "title": "JavaScript",
   "description": "<p>En un mundo que rápidamente se está digitalizando, aprender a programar abre\nnuevas (y muchas veces mejores) oportunidades. Con este curso darás tus primeros\npasos hacia el mundo de la programación. Empezaremos desde cero, enseñándote los\nfundamentos de JavaScript, el lenguaje de programación más popular de la Web.</p>\n<p>En este curso aprenderás mejores formas de estructurar y manipular la data de tu\nprograma haciendo uso de estructuras de datos básicas: <code>arreglos</code> y <code>objetos</code>.</p>\n\n",
   "tags": {
@@ -2950,7 +2950,7 @@
           "durationString": "20min"
         },
         "02-frameworks": {
-          "title": "*Frameworks*",
+          "title": "_Frameworks_",
           "type": "read",
           "format": "self-paced",
           "duration": 30,
@@ -2959,7 +2959,7 @@
           "durationString": "30min"
         },
         "03-assertions": {
-          "title": "*Asserts*",
+          "title": "_Asserts_",
           "type": "read",
           "format": "self-paced",
           "duration": 30,
@@ -3002,7 +3002,7 @@
   "references": "",
   "repo": "Laboratoria/bootcamp",
   "path": "topics/javascript",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "parserVersion": "3.1.0",
   "track": "js",
   "locale": "pt-BR",
