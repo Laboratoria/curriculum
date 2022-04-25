@@ -494,18 +494,36 @@ yarn start
 
 ## 7. Funcionalidades para reforzar OA de promesas
 
-Te sugerimos implementar las siguientes funcionalidades para que puedas reforzar los objetivos de aprendizaje de promesas vistos en el proyecto de MD Links.
+Te sugerimos implementar las siguientes funcionalidades para que
+puedas reforzar aún más los objetivos de aprendizaje de promesas.
 
-* Agrega la opción de actualizar 2 o más pedidos que esten en la cocina. Muestra al usuario un **único** mensaje de confirmación cuando **todos** los pedidos hayan sido actualizados con éxito. Recuerda, firestore al [actualizar un documento](https://firebase.google.com/docs/firestore/manage-data/add-data#update-data) retorna una promesa. ¿Cómo podrías mostrar el mensaje de confirmación unicamente cuando todas las promesas se hayan resuelto? Te sugerimos revisar la función [Promise.all](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all).
-* Cuando un pedido finalice se debe hacer una petición HTTP a la url [https://salty-escarpment-74924.herokuapp.com/](https://salty-escarpment-74924.herokuapp.com/) que responderá de forma aleatoria si el cliente tiene el 50% de descuento en su cuenta. Para esto deberás llamar la función _getDiscount_ mostrada a continuación. Termina la implementación de la función según los comentarios que hay en ella. Te sugerimos revisar la documentacion de [HTTP Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status),  [fetch](https://developer.mozilla.org/en-US/docs/Web/API/fetch) y [creación de promesas](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/Promise).
+* Agrega la opción de actualizar 2 o más pedidos que esten en la
+cocina. Muestra al usuario un **único** mensaje de confirmación
+cuando **todos** los pedidos hayan sido actualizados con éxito.
+Recuerda, firestore al
+[actualizar un documento](https://firebase.google.com/docs/firestore/manage-data/add-data#update-data)
+retorna una promesa. ¿Cómo podrías mostrar el mensaje de confirmación 
+unicamente cuando todas las promesas se hayan resuelto? Te sugerimos 
+revisar la función 
+[Promise.all](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all).
+* Cuando un pedido finalice se debe hacer una petición HTTP a la url
+[https://salty-escarpment-74924.herokuapp.com/](https://salty-escarpment-74924.herokuapp.com/)
+que responderá de forma aleatoria si el cliente tiene el 50% de descuento
+en su cuenta. Para esto deberás llamar la función _getDiscount_ mostrada
+a continuación. Termina la implementación de la función según los comentarios
+ que hay en ella. Te sugerimos revisar la documentacion de
+ [HTTP Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status),
+ [fetch](https://developer.mozilla.org/en-US/docs/Web/API/fetch)
+ y
+ [creación de promesas](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/Promise).
 
   ```js
   export const getDiscount = () => {
     return new Promise((resolve, reject) => {
 
-      //1. Realiza una peticion HTTP a la URL https://salty-escarpment-74924.herokuapp.com/
-      //2. Si la peticion retorna codigo 200 entonces resuelve la promesa
-      //3. Si la peticion retorna codigo 500 entonces rechaza la promesa
+      //1. Realiza una petición HTTP a la URL https://salty-escarpment-74924.herokuapp.com/
+      //2. Si la petición retorna código 200 entonces resuelve la promesa
+      //3. Si la petición retorna código 404 entonces rechaza la promesa
 
     });
   }
