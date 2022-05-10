@@ -65,7 +65,7 @@ clasificados en varios grupos según su función.
 - **CSS3:** Nos ofrece una nueva gran variedad de opciones para hacer diseños
   más sofisticados.
 
-> Este es un [extracto de la documentación de MDN](https://developer.mozilla.org/es/docs/HTML/HTML5)
+> Este es un [extracto de la documentación de MDN](https://developer.mozilla.org/es/docs/Glossary/HTML5)
 que podemos encontrar sobre HTML5.
 
 ## Anatomía de un elemento HTML
