@@ -1,6 +1,8 @@
 {
   "slug": "content-management",
-  "createdAt": "2022-03-14T14:32:14.100Z",
+  "createdAt": "2022-04-05T18:51:08.445Z",
+  "cover": null,
+  "thumb": null,
   "title": "Cómo crear y organizar el contenido de un producto digital",
   "description": "<p>En este curso entenderás cómo la organización del contenido mejora la\nexperiencia de los usuarios.</p>\n",
   "tags": {
@@ -170,7 +172,7 @@
   "repo": "Laboratoria/bootcamp",
   "path": "topics/content-management",
   "version": "5.0.0",
-  "parserVersion": "3.1.0",
+  "parserVersion": "3.2.0",
   "track": "ux",
   "locale": "es-ES",
   "stats": {

@@ -1,6 +1,8 @@
 {
   "slug": "paradigms",
-  "createdAt": "2022-03-14T14:32:10.559Z",
+  "createdAt": "2022-04-05T18:51:06.422Z",
+  "cover": null,
+  "thumb": null,
   "title": "Paradigmas de programación",
   "description": "<p>Los <strong>Paradigmas de Programación</strong> (<em>Programming Paradigms</em>) son formas\ndiferentes de pensar en cómo se organiza un programa basado en una serie de\nprincipios, los cuales resultan en estilos muy distintos y lenguajes muy\ndiversos.</p>\n<p><strong>JavaScript</strong> es un leguage <em>híbrido</em>, por decirlo de alguna forma, y contiene\nelementos propios de lenguajes funcionales (por ejemplo funciones como objetos\nde primera clase, lambdas, ...) pero no estamos limitados al paradigma\nfuncional, si no que en su dinamismo y rareza, <strong>JavaScript nos permite\nprogramar de forma <em>funcional</em>, <em>orientado a objetos</em>, <em>orientado a eventos</em>,\n<em>por procedimientos</em>, ...</strong></p>\n<p>Como desarrollador <strong>Full Stack JS</strong> es esencial entender los distintos\nparadigmas de programación y cómo se traducen al mundo real en proyectos de\nJavaScript.</p>\n<p>Históricamente, el paradigma orientado a objetos (OOP) ha sido el predominante,\npero recientemente, y en particular en la comunidad de JavaScript, hay un\nresurgir del paradigma funcional y sus bondades. <strong>JavaScript es un lenguaje de\ncorazón funcional</strong>, así que conocer el paradigma, y cómo se compara a la\nprogramación orientada a objetos, no sólo te hará una mejor coder, si no que\npodrás entender cómo se pueden enfrentar los mismos problemas con enfoques\ndistintos, e identificar y adaptarse a bases de código existentes.</p>\n",
   "tags": {
@@ -802,7 +804,7 @@
   "repo": "Laboratoria/bootcamp",
   "path": "topics/paradigms",
   "version": "5.0.0",
-  "parserVersion": "3.1.0",
+  "parserVersion": "3.2.0",
   "track": "js",
   "locale": "es-ES",
   "stats": {

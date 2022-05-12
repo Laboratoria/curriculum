@@ -1,6 +1,8 @@
 {
   "slug": "intro-ux",
-  "createdAt": "2022-03-14T14:32:14.075Z",
+  "createdAt": "2022-04-05T18:51:08.364Z",
+  "cover": null,
+  "thumb": null,
   "title": "Intro a User Experience Design",
   "description": "<p>En este curso empezarás a formar el mindset que todo UX Designer debe tener:\npensar en el usuario, pensar en el negocio y entender cómo los prototipos se\nvuelven una parte fundamental en un proceso de diseño. A lo largo del curso,\nentenderás las distintas etapas de un proceso de diseño y las podrás poner en\npráctica trabajando en un producto.</p>\n",
   "tags": {
@@ -161,7 +163,7 @@
   "repo": "Laboratoria/bootcamp",
   "path": "topics/intro-ux",
   "version": "5.0.0",
-  "parserVersion": "3.1.0",
+  "parserVersion": "3.2.0",
   "track": "ux",
   "locale": "es-ES",
   "stats": {
