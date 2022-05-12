@@ -1,6 +1,8 @@
 {
   "slug": "html",
-  "createdAt": "2022-03-14T14:32:05.130Z",
+  "createdAt": "2022-04-05T18:51:05.653Z",
+  "cover": null,
+  "thumb": null,
   "title": "HTML",
   "description": "",
   "tags": {
@@ -157,7 +159,7 @@
   "repo": "Laboratoria/bootcamp",
   "path": "topics/html",
   "version": "5.0.0",
-  "parserVersion": "3.1.0",
+  "parserVersion": "3.2.0",
   "track": "js",
   "locale": "es-ES",
   "stats": {

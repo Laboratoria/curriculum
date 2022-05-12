@@ -1,6 +1,8 @@
 {
   "slug": "interaction-design",
-  "createdAt": "2022-03-14T14:32:14.406Z",
+  "createdAt": "2022-04-05T18:51:08.595Z",
+  "cover": null,
+  "thumb": null,
   "title": "Interaction Design",
   "description": "<p>En este curso aprenderás las bases fundamentales para hacer que tus productos\nsean fáciles de usar, accesibles y luzcan profesionales visualmente hablando.</p>\n",
   "tags": {
@@ -245,7 +247,7 @@
   "repo": "Laboratoria/bootcamp",
   "path": "topics/interaction-design",
   "version": "5.0.0",
-  "parserVersion": "3.1.0",
+  "parserVersion": "3.2.0",
   "track": "ux",
   "locale": "es-ES",
   "stats": {

@@ -1,6 +1,8 @@
 {
   "slug": "functional",
-  "createdAt": "2022-03-14T14:32:05.659Z",
+  "createdAt": "2022-04-05T18:51:03.820Z",
+  "cover": null,
+  "thumb": null,
   "title": "Functional JavaScript",
   "description": "<p>En este curso exploraremos el paradigma funcional en JavaScript así como varios\npatrones, técnicas y convenciones asociadas a este paradigma, haciendo uso de\nlas nuevas características de ES2015.</p>\n<p>La programación funcional es un paradigma de programación de suma relevancia hoy\nen día, ya que se presta a resolver problemas de paralelización, asincronía y\nprogramación reactiva entre otros. La programación funcional (<em>Functional\nProgramming</em> o FP por sus siglas en inglés) no es realmente un paradigma nuevo,\nexiste desde hace medio siglo, pero recientemente, y en particular en el mundo\nde JavaScript, se ha convertido en tanto una moda como una necesidad. Poco a\npoco, desde la proliferación de librerías como <a href=\"http://underscorejs.org/\">underscore</a> y <a href=\"https://lodash.com/\">lodash</a>,\ndespués la adición de <code>map()</code>, <code>filter()</code>, <code>reduce()</code> y compañía, y ahora con\n<em>frameworks</em> como <a href=\"https://facebook.github.io/react/\">React</a> y <a href=\"http://redux.js.org/\">Redux</a>, conocer el paradigma funcional y estilo\ndeclarativo se han convertido en una necesidad para cualquier desarrollador de\nJavaScript.</p>\n<p>Familiarizarnos con la programción funcional en JavaScript y ES2015 nos\npermitirá más adelante desenvolvernos con naturalidad con herramientas como\nReact o Redux.</p>\n\n",
   "tags": {
@@ -759,7 +761,7 @@
   "repo": "Laboratoria/bootcamp",
   "path": "topics/functional",
   "version": "5.0.0",
-  "parserVersion": "3.1.0",
+  "parserVersion": "3.2.0",
   "track": "js",
   "locale": "es-ES",
   "stats": {

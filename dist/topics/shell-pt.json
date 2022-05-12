@@ -1,6 +1,8 @@
 {
   "slug": "shell-pt",
-  "createdAt": "2022-03-14T14:32:13.943Z",
+  "createdAt": "2022-04-05T18:51:08.278Z",
+  "cover": null,
+  "thumb": null,
   "title": "Unix Shell",
   "description": "<p>A linha de comandos é uma interface que alguns pensariam já estar antiquada. Mas\na realidade é completamente diferente. O terminal se converteu em uma peça\ncrucial no dia a dia dos desenvolvedores, seja para o uso do <code>Git</code>, executando\num <code>bundler</code> , instalando dependências com <code>npm</code> ou escrevendo scripts para\niniciar ou implantar aplicativos.</p>\n<p>A primera <code>unix shell</code> surgiu em 1971, com a primeira versão do Unix. Apesar de\nseus mais de 40 anos de idade, segue senfo uma tecnologia totalmente vigente e\nde alguma forma se converteu no padrão para a interação com servidores e\nsistemas operacionais \"Unix-like\" (GNU/Linux, BSD, MacOS, Android, ...).</p>\n<p>De fato, em 2016, <code>unix shell</code>, é um dos skills mais buscados na indústra\n(ranqueado como número 14 entre os 25 skills mais importantes para ser\ncontratado em 2016, segundo LinkedIn).</p>\n<p>Neste curso você aprenderá a interagir com a linha de comandos e escrever\nscripts shell.</p>\n\n<h2 id=\"objetivos-de-aprendizagem\">Objetivos de aprendizagem</h2>\n<ul>\n<li>O que é e como utilizar a interface da linha de comando (<code>CLI</code>)</li>\n<li>O que é shell de UNIX</li>\n<li>O que é um emulador de terminal</li>\n<li>Uso básico do <code>bash</code></li>\n<li>Escrever scripts shell para automatizar tarefas</li>\n<li>Construir aplicações CLI com Node.js</li>\n<li>Entender o que é um processo</li>\n<li>Entender nosso \"ambiente\" e usar variáveis de ambiente</li>\n</ul>\n",
   "tags": {
@@ -84,7 +86,7 @@
   "repo": "Laboratoria/bootcamp",
   "path": "topics/shell",
   "version": "5.0.0",
-  "parserVersion": "3.1.0",
+  "parserVersion": "3.2.0",
   "track": "js",
   "locale": "pt-BR",
   "stats": {
