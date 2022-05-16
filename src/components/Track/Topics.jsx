@@ -1,17 +1,46 @@
+import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import CardActions  from '@material-ui/core/CardActions';
 import Grid from '@material-ui/core/Grid';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import ArrowForward from '@material-ui/icons/ArrowForward';
+import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
+import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
 import { useLocale } from '../../intl/IntlProvider';
 
+
+const truncateText = (stringToTruncate, charactersQuantity, wordBoundary) => {
+  if (stringToTruncate.length <= charactersQuantity) { return stringToTruncate; }
+  const subString = stringToTruncate.substr(0, charactersQuantity-1);
+  return (wordBoundary
+    ? subString.substr(0, subString.lastIndexOf(" "))
+    : subString) + " &hellip;";
+}
+
 const Topic = ({ topic }) => {
+  const [description, setDescription] = useState(truncateText(topic.description, 250, new RegExp('\w')));
+  const [dropArrow, setDropArrow] = useState(true);
+  const toggleShowEntireDescription = () => {
+    dropArrow ?
+      setDescription(topic.description) :
+      setDescription(truncateText(topic.description, 250, new RegExp('\w')));
+    setDropArrow(!dropArrow);
+  }
   const { lang } = useParams();
   return (
     <Card>
+        <CardMedia
+          component="img"
+          height="200"
+          image={topic.thumb}
+          alt={topic.title}
+        />
       <CardHeader
         action={
           <IconButton component={Link} to={`/${lang}/topics/${topic.slug}`}>
@@ -20,6 +49,21 @@ const Topic = ({ topic }) => {
         }
         title={topic.title}
       />
+      <Typography variant='body2'>
+        <CardContent>
+            <div dangerouslySetInnerHTML={{ __html: description }}>
+            </div>
+            {topic.description.length > 250 ? 
+              <CardActions style={{marginLeft: "80%"}}>
+                <IconButton onClick={() => toggleShowEntireDescription()}>
+                  { dropArrow ? <ArrowDropDownIcon /> : <ArrowDropUpIcon /> }
+                </IconButton>
+              </CardActions> : null
+            }
+            
+        </CardContent>
+      </Typography>
+        
     </Card>
   );
 };

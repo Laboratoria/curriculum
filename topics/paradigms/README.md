@@ -12,7 +12,7 @@ funcional, si no que en su dinamismo y rareza, **JavaScript nos permite
 programar de forma _funcional_, _orientado a objetos_, _orientado a eventos_,
 _por procedimientos_, ...**
 
-Como desarrollador **Full Stack JS** es esencial entender los distintos
+Como desarrolladora **Full Stack JS** es esencial entender los distintos
 paradigmas de programación y cómo se traducen al mundo real en proyectos de
 JavaScript.
 

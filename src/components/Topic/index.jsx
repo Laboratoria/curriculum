@@ -31,6 +31,9 @@ const UnitsList = ({ topic }) => (
   <>
     <Breadcrumbs topic={topic} />
     <Typography variant="h2">{topic.title}</Typography>
+    <Typography variant="body1">
+      <div dangerouslySetInnerHTML={{ __html: topic.description }}></div>
+    </Typography>
     {Object.keys(topic.syllabus).map(key => (
       <div key={key}>
         <Link to={`${key}`}>
