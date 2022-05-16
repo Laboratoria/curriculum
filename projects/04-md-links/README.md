@@ -19,7 +19,7 @@
 
 [Markdown](https://es.wikipedia.org/wiki/Markdown) es un lenguaje de marcado
 ligero muy popular entre developers. Es usado en muchísimas plataformas que
-manejan texto plano (GitHub, foros, blogs, ...), y es muy común
+manejan texto plano (GitHub, foros, blogs, ...) y es muy común
 encontrar varios archivos en ese formato en cualquier tipo de repositorio
 (empezando por el tradicional `README.md`).
 
@@ -41,7 +41,7 @@ propia librería (o biblioteca - library) en JavaScript.
 
 En esta oportunidad nos alejamos un poco del navegador para construir un
 programa que se ejecute usando Node.js. Aprenderemos sobre procesos
-(`process.env`, `process.args`, ...), cómo interactuar con el sistema archivos,
+(`process.env`, `process.argv`, ...), cómo interactuar con el sistema archivos,
 cómo hacer consultas de red, etc.
 
 [Node.js](https://nodejs.org/es/) es un entorno de ejecución para JavaScript
@@ -133,9 +133,11 @@ siguiente interfaz:
 * `path`: Ruta **absoluta** o **relativa** al **archivo** o **directorio**.
 Si la ruta pasada es relativa, debe resolverse como relativa al directorio
 desde donde se invoca node - _current working directory_).
-* `options`: Un objeto con **únicamente** la siguiente propiedad:
+* `options`: Un objeto con **únicamente** las siguientes propiedades:
   - `validate`: Booleano que determina si se desea validar los links
     encontrados.
+  - `stats`: Booleano que determina si se desea obtener un output
+    con información estadística general.
 
 ##### Valor de retorno
 
