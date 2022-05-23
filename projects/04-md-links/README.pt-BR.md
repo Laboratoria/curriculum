@@ -12,6 +12,7 @@
 * [8. Guias, dicas e leituras complementares](#8-guias-dicas-e-leituras-complementares)
 * [9. Checklist](#9-checklist)
 * [10. Dividindo o problema - babies steps](#10-dividindo-o-problema)
+
 ***
 
 ## 1. Prefácio
@@ -97,7 +98,8 @@ detalhado no `README.md` do seu repositório e em uma série de _issues_ e
 _milestones_ para priorizar e organizar o trabalho, e para fazer um
 acompanhamento do seu progresso.
 
-Dentro de cada _milestone_ serão criados e atribuidos as _issues_ que considerar necessários.
+Dentro de cada _milestone_ serão criados e atribuidos as _issues_
+que considerar necessários.
 
 ### Arquivos do projeto
 
@@ -139,7 +141,8 @@ seguinte interface:
 
 ##### Valor de retorno
 
-A função deve **retornar uma promessa** (`Promise`) que **resolve um array** (`Array`) e
+A função deve **retornar uma promessa** (`Promise`) que
+**resolve um array** (`Array`) e
 objetos(`Object`), onde cada objeto representa um link, contendo as seguintes
 propriedades:
 
@@ -150,6 +153,7 @@ Com `validate:false` :
 * `file`: Rota do arquivo onde foi encontrado o link.
 
 Com `validate:true` :
+
 * `href`: URL encontrada.
 * `text`: Texto que aparecía dentro del link (`<a>`).
 * `file`: Ruta del archivo donde se encontró el link.
@@ -382,7 +386,7 @@ destas decisões. Não existe uma única maneira certa :wink:
 Uma das habilidades que esperamos que vocˆw possa desenvolver durante o bootcamp
 é o de definir "mini-projetos/babies steps" que a aproxime passo-a-passo
 da solução do "grande projeto". É o mesmo que começar fazendo
-as bordas de um quebra-cabeça sem necessariamente saber 
+as bordas de um quebra-cabeça sem necessariamente saber
 como se encaixará no final.
 
 Estas são algumas sugestões:
@@ -409,7 +413,7 @@ de planejamento e organização do GitHub
 Por meio de **issues** e **milestones** pode-se organizar e planificar
 tarefas e objetivos concretos.
 
-Levando em consideração os **entregáveis** do projeto, 
+Levando em consideração os **entregáveis** do projeto,
 [9. Checklist](#9-checklist) e os **passos** que foram definidos em seu
 `fluxograma`, crie o seu  planejamento em GitHub Projects.
 
