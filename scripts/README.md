@@ -184,50 +184,6 @@ Options:
 npm run build
 ```
 
-### deploy
-
-Este script se ejecuta através de GitHub Actions.
-
-El script de despliegue solo se ejecuta en builds de tags de `release` o
-`prerelease`. En caso de encontrarse un tag que comience con `v`, el script
-enviará los proyectos y tópicos que hayan en el directorio `dist` por HTTP POST
-a `api.laboratoria.la`.
-
-⚠️ Antes de hacer un tag de release, es imprescindible:
-
-1. Ejecutar comando `npm run changelog` y actualizar release en Github
-   (reemplazar nombres por users en Github).
-2. Actualizar el número de versión en `package.json`.
-3. Reconstruir el directorio `dist` (`rm -rf dist && npm run build`).
-4. Agregar cambios (`git add package* dist/`)
-5. Hacer commit de los cambios
-   (`git commit -m "chore(release): Bumps version to vX.X.X and updates dist files"`).
-6. Crear la etiqueta/tag de release
-   (`git tag -a vX.X.X -m "vX.X.X - Release name"`).
-7. Empujar cambios y tags a upstream (`git push upstream main --tags`).
-
-Variables de entorno:
-
-* `GITHUB_REF`
-* `LABORATORIA_API_EMAIL`
-* `LABORATORIA_API_PASS`
-* `LABORATORIA_API_URL`
-
-Archivos relacionados: [`.github/workflows/node.js.yml`](../.github/workflows/node.js.yml).
-
-```sh
-npm run deploy
-```
-
-⚠️ Por el momento la interfaz web se despliegue manualmente a `firebase` a la
-hora de etiquetar el release y reconstruir la carpeta `dist`.
-
-```sh
-firebase deploy --only hosting --project bootcamp-e078f
-```
-
-***
-
 ## Tareas de mantenimiento
 
 ### propagate
