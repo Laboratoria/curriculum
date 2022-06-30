@@ -4,12 +4,12 @@ on: pull_request
 
 jobs:
   build_and_preview:
-    if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - run: npm ci
       - run: npm test
+      if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
       - run: npm run build:content
       - run: echo ::set-output name=VERSION::$(node -e "console.log(require('./package.json').version)")
         id: version
