@@ -1,20 +1,32 @@
-name: Deploy to Firebase Hosting on PR
+name: Run tests and deploy to Firebase Hosting on PR
 
 on: pull_request
 
 jobs:
-  run_tests:
+  test:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x, 18.x]
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+
+      - run: npm ci
+      - run: npm test
+
+  build_and_preview:
+    if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
+    runs-on: ubuntu-latest
+    needs: test
     steps:
       - uses: actions/checkout@v2
       - run: npm ci
-      - run: npm test
-  build_and_preview:
-    if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
-    runs-on: ubuntu-latest
-    needs: run_tests
-    steps:
-      - uses: actions/checkout@v2
       - run: npm run build:content
       - run: echo ::set-output name=VERSION::$(node -e "console.log(require('./package.json').version)")
         id: version
@@ -26,6 +38,6 @@ jobs:
           REACT_APP_VERSION: ${{ steps.version.outputs.VERSION }}
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BOOTCAMP_E078F }}'
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_BOOTCAMP_E078F }}
           projectId: bootcamp-e078f
