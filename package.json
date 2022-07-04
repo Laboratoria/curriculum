@@ -9,12 +9,10 @@
     "pretest": "npm run mdlint && npm run eslint && npm run validate && npm run test:topics",
     "validate": "node ./scripts/build.js --validate",
     "build:content": "node ./scripts/build.js",
-    "deploy": "node ./scripts/deploy.js",
     "changelog": "git log $(git describe --tags --abbrev=0)..HEAD --oneline --format=\"* %h %s (%an)\"",
     "create-cohort-project": "node ./scripts/create-cohort-project.js",
     "watch": "concurrently ./scripts/watch.js \"react-scripts start\"",
     "start": "react-scripts start",
-    "prebuild": "npm run build:content",
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject"
