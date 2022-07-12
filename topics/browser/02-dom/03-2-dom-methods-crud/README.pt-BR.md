@@ -58,7 +58,7 @@ DOM:
 
 3. `nóPai.appendChild(nóFilho)`
 
-    Adiciona o `nóFilho` dentor do `nóPai`.
+    Adiciona o `nóFilho` dentro do `nóPai`.
 
 Desta maneira, se quiser adicionar um parágrafo no final de um página, é
 necessário incluir o seguinte código JavaScript.
@@ -71,7 +71,7 @@ const content = document.createTextNode("Hola Mundo!");
 // Adiciona o nó Text como filho do nós Element
 paragraph.appendChild(content);
 // Adiciona o nó Element como filho da página
-document.body.appendChild(parrafo);
+document.body.appendChild(paragraph);
 ```
 
 Temos que lembrar que o DOM é uma interface que conecta o documento HTML com o
@@ -193,12 +193,12 @@ pai.insertBefore(novoNo, noDeReferencia);
 e quiséssemos adicionar um novo parágrafo antes do segundo, faríamos assim:
 
 ```javascript
-// Criamos o novo parágrago com seu texto filho
+// Criamos o novo parágrafo com seu texto filho
 const newParagraph = document.createElement('p');
 const paragraphText = document.createTextNode('Novo parágrafo.');
 newParagraph.appendChild(paragraphText);
 
-// Armazenamos em uma varipavel o pai e em outra variável o segundo parágrafo
+// Armazenamos em uma variável o pai e em outra variável o segundo parágrafo
 const container = document.getElementById('container');
 const secondParagraph = container.getElementsByTagName('p')[1];
 
