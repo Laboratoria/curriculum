@@ -40,7 +40,7 @@ condicional](http://eloquentjavascript.net/img/controlflow-nested-if.svg)
 #### Opções
 
 1. loops e funções
-2. soente loops
+2. somente loops
 3. somente funções
 4. nenhuma das anteriores
 
@@ -171,7 +171,7 @@ const weather = 'nublado';
 
 switch (weather) {
   case 'chuvoso':
-    console.log('Lembre de levar um guardachuva.');
+    console.log('Lembre de levar um guarda-chuva.');
     break;
   case 'soleado':
     console.log('Use roupas leves.');

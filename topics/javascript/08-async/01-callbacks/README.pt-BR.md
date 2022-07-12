@@ -37,7 +37,7 @@ fs.readFile('assets/ajson.json', (err, buf) => {
   console.log(buf.toString());
 });
 
-console.log('Espera mientras leemos el archivo...');
+console.log('Espera enquanto leemos o arquivo...');
 ```
 
 Com esta maneira de programar não nos preocupamos em esperar os dados. Podemos

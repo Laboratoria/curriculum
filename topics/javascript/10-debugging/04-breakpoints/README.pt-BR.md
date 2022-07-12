@@ -65,7 +65,7 @@ indicador da linha de código onde queremos parar o script. Uma vez colocado o
 breakpoint, devemos recarregas a página para que pare onde indicamos.
 
 Uma vez parado, a linha de código onde colocamos o _breakpoint_ ficará
-destacada, enquanto que a páginaweb ficará opaca e mostrará uma mensagem _Paused
+destacada, enquanto que a página web ficará opaca e mostrará uma mensagem _Paused
 in debugger_ ao lado de 2 botões. O primeiro (cor azul), chamado  _Resume Script
 Execution_, determina que a execução continue até o próximo _breakpoint_ ou até
 que termine o script. O segundo (cor cinza), chamado _Step over next function

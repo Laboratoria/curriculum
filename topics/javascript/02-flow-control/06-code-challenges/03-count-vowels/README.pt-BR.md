@@ -11,4 +11,4 @@ Siga os passos a seguir para completar o programa.
 2. Iniciar um contador em `counter = 0`
 3. Iterar os caracteres da string; se o elemento atual é uma vogal
   então incrementar o contador `counter`.
-4. Retornar `counter`, que contẽm o número de vogais.
+4. Retornar `counter`, que contém o número de vogais.

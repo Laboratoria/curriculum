@@ -7,14 +7,14 @@
 ***
 
 Nesta unidade veremos com maior profundidade o tema de funções, aproveitando que
-o Javascript é fortemente influênciado pela programação funcional desdo seu
+o Javascript é fortemente influenciado pela programação funcional desde seu
 desenho inicial e que nos oferece características importante para atribuir
-funções a uma variável, passar como parametro à outra função, mudar o escopo de
+funções a uma variável, passar como parâmetro à outra função, mudar o escopo de
 variáveis, atribuir como valor de um objeto, etc.
 
 As funções são blocos de construção de aplicações que englobam múltiplas
 sequências de código. São particularmente importantes no Javascript porque
-suportam caracteristicas como _first-class functions_, _functions as objects_,
+suportam características como _first-class functions_, _functions as objects_,
 _runtime function definition_ e mais que veremos nesta unidade.
 
 Listamos alguns princípios que te vão te ajudar a escrever funções melhores:

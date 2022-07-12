@@ -245,7 +245,7 @@ balloons
 
 ## O escopo de uma variável
 
-O _scopo_ de uma variável é o local onde ela pode ser encontrada. Por exemplo:
+O _escopo_ de uma variável é o local onde ela pode ser encontrada. Por exemplo:
 
 ```js
 const foo = () => {
@@ -256,22 +256,22 @@ const foo = () => {
 Aqui, o _direct scope_ (escopo direto) de `x` é a função `foo`. Esta variável
 poderá ser acessada apenas dentro do corpo da função `foo`, mas não fora dela.
 
-Normalmente, no JavaScript podiamos apenas criar um novo escopo quando criavamos
-uma nova função. Mas desde a atulização do ES6 (ES2015) temos a `let` e a
-`const`, que introduzição o conceito de _block scope_ no JavaScript.
+Normalmente, no JavaScript podíamos apenas criar um novo escopo quando criávamos
+uma nova função. Mas desde a atualização do ES6 (ES2015) temos a `let` e a
+`const`, que introduziram o conceito de _block scope_ no JavaScript.
 
 ### Lexical scoping
 
 As variáveis no JavaScript são _lexically scoped_ (de escopo léxico), o que
 significa que a estrutura estática do programa determina o escopo da variável,
-que dizer que não é influênciada pelo local onde a função é chamada. Em palavras
+que dizer que não é influenciada pelo local onde a função é chamada. Em palavras
 mais simples, significa que as variáveis declarada dentro de um _escopo_ (uma
-função, ou um bloco indicado pelos caractéres `{}` no caso da `let` e `const`),
+função, ou um bloco indicado pelos caracteres `{}` no caso da `let` e `const`),
 não são visíveis fora desse _escopo_.
 
 ### Nested Scopes (escopos aninhados)
 
-Sim o escopo está aninado dentro de um escopo direto de uma variável e a
+Se o escopo está aninhado dentro de um escopo direto de uma variável, a
 variável será acessível a todos os escopos:
 
 ```js
@@ -293,7 +293,7 @@ O escopo direto de `arg` é `foo`, mas também é acessível no escopo aninhado
 
 Sim, é possível declarar uma variável que tem o mesmo nome em um escopo interno
 de uma função, com isso o acesso a variável externa é bloqueado no escopo
-interno e todo os escopos aninhados dentro dela. Mudanças nas variávels internas
+interno e todo os escopos aninhados dentro dela. Mudanças nas variáveis internas
 não afetam a variável externa, a qual é acessível fora do escopo interno.
 Exemplo:
 
@@ -360,7 +360,7 @@ for (let i = 0; i < students.length; i++) {
 ```
 
 Podemos utilizar `let` para que a variável seja local ao escopo do laço `for`.
-Se em seu lugar usassemos `var`, a variável seria visível em toda a função
+Se em seu lugar usássemos `var`, a variável seria visível em toda a função
 dentro do laço.
 
 ```js
@@ -369,7 +369,7 @@ dentro do laço.
     let x = 'Olá mundo';
   }
   console.log(x);
-  // Da error, porque "x" ha sido definida dentro del "if"
+  // Dá error, porque "x" foi definida dentro de "if"
 })();
 ```
 
@@ -377,7 +377,7 @@ No exemplo, `console.log(x)` não tem acesso a `let x = "Olá mundo"` e da erro
 porque `x` foi declarado dentro do laço `if`.
 
 No seguinte exemplo o console imprime `Olá Ju`, ja que a variável `x` no bloco
-do `if` se mantem dentro do seu escopo.
+do `if` se mantém dentro do seu escopo.
 
 ```js
 (function () {
@@ -395,7 +395,7 @@ do `if` se mantem dentro do seu escopo.
 
 As variáveis somente de leitura são outra novidade do ECMAScript 6, com a
 introdução da nova palavra reservada `const`. Qualquer variável declarada como
-constatante não poderá ser reatribuída.
+constante não poderá ser reatribuída.
 
 Vejamos o exemplo:
 
@@ -420,7 +420,7 @@ novo valor.
 })();
 ```
 
-Mas, o que acontence quando o valor de uma variável é um objeto, ou array?
+Mas, o que acontece quando o valor de uma variável é um objeto, ou array?
 
 ```js
 const user = {
