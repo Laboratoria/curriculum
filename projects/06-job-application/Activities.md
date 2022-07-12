@@ -207,8 +207,8 @@
         Sesiones de preparación para la simulación de entrevista tech
       </b>
       <p>
-        Durante el gym tech tendremos 2 sesiones de preparación para que conozcas los tipos de
-        pruebas técnicas que te puedes encontrar en
+        Durante el gym tech tendremos 2 sesiones de preparación para que
+        conozcas los tipos de pruebas técnicas que te puedes encontrar en
         un proceso de selección y llegues más familiarizada a este momento.
       <p>
     </td>
@@ -231,7 +231,10 @@
     <td>
       <ul>
         <li>Píldora: Perfil de Github para la búsqueda de empleo.</li>
-        <li>OH para ver perfil de Github (son opcionales y puedes usar las que ya tienen disponibles lxs coaches).</li>
+        <li>
+          OH para ver perfil de Github (son opcionales y puedes usar las que
+          ya tienen disponibles lxs coaches).
+        </li>
       </ul>
     </td>
     <td>Primera versión del perfil de GitHub (fecha)</td>
