@@ -75,7 +75,22 @@ src="https://mdn.mozillademos.org/files/13360/long.jpg"></p>
 ```
 
 ```css
-body {  width: 500px;  margin: 0 auto;}p {  background: aqua;  border: 3px solid blue;  padding: 10px;  margin: 10px;}span {  background: red;  border: 1px solid black;}
+body {
+  width: 500px;
+  margin: 0 auto;
+}
+
+p {
+  background: aqua;
+  border: 3px solid blue;
+  padding: 10px;
+  margin: 10px;
+}
+
+span {
+  background: red;
+  border: 1px solid black;
+}
 ```
 
 ![Fluxo Básico de
@@ -166,7 +181,7 @@ com posição absoluta são removidos do fluxo da página da web. Elementos de
 página com posição absoluta não afetarão a posição de outros elementos e outros
 elementos não os afetarão, sejam eles tocados ou não.
 
-Leia sobre os floats 
+Leia sobre os floats
 [aqui !](https://developer.mozilla.org/pt-BR/docs/Web/CSS/float)
 
 <!-- ### Valores de float
