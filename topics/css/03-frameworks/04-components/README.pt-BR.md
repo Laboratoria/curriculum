@@ -18,7 +18,7 @@ e dar estilos mais rapidamente como também possuem componentes que já contam c
 essa funcionalidade. Isso é possível por meio do uso de **jQuery**.
 
 jQuery é uma biblioteca de javascript (que por enquanto não vamos nos esforçar a
-enteder 100%), que por meio de nosso framework nos dá a facilidade de adicionar
+entender 100%), que por meio de nosso framework nos dá a facilidade de adicionar
 nossa funcionalidade com poucas linhas.
 
 Para isso também é preciso criar um *link* no nosso projeto para o CDN de JQuery
@@ -77,7 +77,7 @@ $('#myModal').modal('show');
 
 Pronto!!! Já podemos testar nosso modal.
 
-Agora vamos ver o código para criar nosso Caruosel.
+Agora vamos ver o código para criar nosso Carousel.
 
 ``` html
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

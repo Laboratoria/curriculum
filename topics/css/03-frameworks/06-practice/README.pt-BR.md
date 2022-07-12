@@ -13,7 +13,7 @@
 ## Enunciados
 
 Aqui estão alguns exercícios para você praticar, sugerimos que tenta resolver
-eles sozinha ou em grupo. Assim, você ficará familizariada com os desafios. E
+eles sozinha ou em grupo. Assim, você ficará familiarizada com os desafios. E
 se quiser pode apresentar a sua solução para a sala e ajudar as suas
 companheiras 😁
 
