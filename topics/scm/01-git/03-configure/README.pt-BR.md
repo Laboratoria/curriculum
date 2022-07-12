@@ -30,7 +30,7 @@ user.email = michelle@laboratoria.la
 
 Agora, vamos definir o nosso ambiente de `Git`:
 
-- Para definir seu **username** \(nome de usuário\), substitue `seu-username` na
+- Para definir seu **username** \(nome de usuário\), substitua `seu-username` na
   seguinte linha e depois pressione a tecla "enter":
 
   ```bash
