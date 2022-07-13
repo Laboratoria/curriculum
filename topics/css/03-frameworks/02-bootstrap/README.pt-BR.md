@@ -12,7 +12,7 @@
 
 ## O que é Bootstrap?
 
-Bootstrap é um incrível framework que torna o desenvolvmento web front-end muito
+Bootstrap é um incrível framework que torna o desenvolvimento web front-end muito
 mais rápido e mais fácil.
 
 Inicialmente foi criado como uma solução interna para o Twitter e posteriormente
@@ -34,7 +34,7 @@ o Bootstrap na sua página web.
 ![Bootstrap](https://raw.githubusercontent.com/Laboratoria/curricula-js/c6232fc0a639688fc216c72d17e325a588abae9d/04-social-network/01-css-frameworks/02-bootstrap/bcdn.png)
 
 Se utilizarmos as opções de baixar o Bootstrap, devemos descompactar e adicionar
-os arquivos do framework ao projeto. Além disso, devemo *linkar* todos no HTML
+os arquivos do framework ao projeto. Além disso, devemos *linkar* todos no HTML
 para que funcione.
 
 ![Bootstrap](https://camo.githubusercontent.com/095b7f079231a6d77cb81186e27344f739cba276/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f302a4e75755232626a705a636b31774336672e)
@@ -69,7 +69,7 @@ Utilizando a CDN você não vai se conectar à China.
 
 Você se conecta a algum lugar mais próximo. Como os Estado Unidos.
 
-Analize a imagem a seguir:
+Analise a imagem a seguir:
 
 ![cdn-example](https://camo.githubusercontent.com/06c4b1519427a89f49cc81f80f24c142ef65a55f/687474703a2f2f62612d6465766c61622e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031362f30342f63646e2e706e67)
 
@@ -107,7 +107,7 @@ que podemos reutilizar todas as vezes que sejam necessários.
 ### Como fazemos uso deste grande poder?
 
 Para utilizar o que já nos oferece nosso framework, só necessitamos ir à sua
-página, procurar o componente que queremos utilizaer e *copiar e colar* em nosso
+página, procurar o componente que queremos utilizar e *copiar e colar* em nosso
 HTML o código.
 
 ![Bootstrap-btn](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/02-bootstrap/btn-example.PNG)

@@ -52,7 +52,7 @@
 
 #### Opções
 
-1. Melhorar a navegação do sítio web em diferentes navegaores por meio do
+1. Melhorar a navegação do sítio web em diferentes navegadores por meio do
    `reset`
 2. Melhorar a compatibilidade do sítio web em diferentes navegadores por meio do
    `reset`

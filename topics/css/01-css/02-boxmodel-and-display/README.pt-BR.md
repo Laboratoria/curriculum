@@ -195,7 +195,7 @@ de borda seja explicitamente definido.
 Na imagem a seguir podemos ver os diferentes estilos de borda e a _palavra
 reservada_ para cada um deles:
 
-![estilos das bordas](https://camo.githubusercontent.com/5e32931f4471bd9bea864c69dae9c77765b3e925/68747470733a2f2f6c656e6775616a656373732e636f6d2f702f6373732f70726f70696564616465732f626f726465722d7374796c65732e706e67)
+![estilos das bordas](https://user-images.githubusercontent.com/110297/120240846-2b3f1680-c227-11eb-834c-756b3330fd87.png)
 
 #### Cor
 
@@ -442,7 +442,7 @@ uma diferença muito importante:
 
 ## Leituras complementares
 
-Continue lendo e aprendendo sobre o modelo de caixa e diplay com os seguintes
+Continue lendo e aprendendo sobre o modelo de caixa e display com os seguintes
 recursos:
 
 - [Modelo da caixa - W3S](https://www.w3schools.com/css/css_boxmodel.asp)

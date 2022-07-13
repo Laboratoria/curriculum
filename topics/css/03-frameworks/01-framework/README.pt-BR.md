@@ -13,7 +13,7 @@
 
 ## O que é Framework?
 
-Primeiramente devemos ter claro que existem framweworks tão variados como
+Primeiramente devemos ter claro que existem frameworks tão variados como
 sabores de sorvete. Existem frameworks para JavaScript, para CSS, para PHP, etc.
 
 Os frameworks são definidos como um conjunto padrão de conceitos, práticas e
@@ -26,7 +26,7 @@ resultados que deseja. Eles fornecem ferramentas e também dizem a forma correta
 de utilizá-las.
 
 Por enquanto vamos nos focar nos `frameworks CSS`, que são um conjunto de
-ferramentas pré-programandas de **estilos** genéricos que podemos implementar
+ferramentas pré-programadas de **estilos** genéricos que podemos implementar
 para desenvolver nossos sítios web de uma maneira mais simples, rápida e
 responsiva.
 
