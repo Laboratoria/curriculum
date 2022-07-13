@@ -82,14 +82,14 @@ const square = function (num) {
 };
 ```
 
-A mesma função usando a sintax de _função flexa_ (arrow function):
+A mesma função usando a sintaxe de _função flecha_ (arrow function):
 
 ```js
 const square = num => num * num;
 ```
 
 Uma função é criada por uma expressão que começa com o keyword `function`, ou
-pode ser usando a sintax de _arrow function_. As funções possuem um conjunto de
+pode ser usando a sintaxe de _arrow function_. As funções possuem um conjunto de
 _parâmetros_ (no exemplo anterior só temos **um** parâmetro: `num`) e um
 _corpo_, que contêm as sentenças a serem executadas. Os parâmetros servem para
 "transmitir" valores à função e, assim, mudar seu comportamento segundo os
@@ -104,7 +104,7 @@ implícitamente o valor do retorno).
 Para rodar o código dentro de uma função, necessitamos _"invocar, chamar, ou
 aplicar"_ a função. Isto se faz escrevendo o nome da função imediatamente
 seguido por parênteses `()`. Dentro dos parênteses se inclui o que você quer
-"transmitir" à função para usar como parâmetro. Os valores que se trasnmitem à
+"transmitir" à função para usar como parâmetro. Os valores que se transmitem à
 função para usar como parâmetros são chamados _argumentos_.
 
 Agregando ao exemplo anterior um chamado à função `square` transmitindo-lhe como
@@ -198,7 +198,7 @@ const fifthLetter = function (name) {
   if (name.length < 5) {
     return;
   }
-  return 'A quinta letro do seu nome é' + name[4] + '.';
+  return 'A quinta letra do seu nome é' + name[4] + '.';
 };
 ```
 
@@ -221,7 +221,7 @@ Podemos usar vários `return` dentro de diferentes sentenças `if` no corpo de u
 função para que a função devolva um valor diferente, dependendo do argumento
 oferecido. Por exemplo, digamos que você está escrevendo um jogo que dá medalhas
 aos jogadores conforme a sua pontuação. Uma pontuação menor a 3 é uma medalha de
-bronze, uma puntuação de 7 ou mais é ouro, e o que está no meio é prata. Você
+bronze, uma pontuação de 7 ou mais é ouro, e o que está no meio é prata. Você
 poderia utilizar uma função como `medalForScore` para avaliar uma pontuação e
 dar o tipo de medalha, como se mostra aqui:
 

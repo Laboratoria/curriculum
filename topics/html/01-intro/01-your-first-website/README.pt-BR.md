@@ -7,7 +7,7 @@
 ## Objetivos de aprendizagem
 
 - Entender o papel que o tem HTML de criar a estrutura básica de uma página web.
-- Conhecer os pricipais elementos e tags HTML
+- Conhecer os principais elementos e tags HTML
 - Aprender a dar dinamismo a uma página web usando JavaScript
 - Ter uma aproximação ao mundo do código, criando seu primeiro site web
 
@@ -42,7 +42,7 @@ explicaremos passo a passo mais abaixo):
 </html>
 ```
 
-Ao abrir este mesmo arquivo HTML em um navegadro (como Chrome), se vê o
+Ao abrir este mesmo arquivo HTML em um navegador (como Chrome), se vê o
 seguinte:
 
 ![Visualização no Chrome](https://user-images.githubusercontent.com/11894994/57495168-425ae680-72a3-11e9-96e2-7f1d33a7865c.png)
@@ -62,7 +62,7 @@ de você mesma criar uma página web e aprender HTML.
 A seguir um vídeo que explica o porquê você precisa de um editor de texto para
 os exercícios:
 
-[![Editor de texto intro](https://embed-ssl.wistia.com/deliveries/8cff57d37f73a74a557d246050d583027af215ce.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/37gb5iondx?wvideo=37gb5iondx)
+[![Editor de texto intro](https://img.youtube.com/vi/96usU1K0gwY/0.jpg)](https://www.youtube.com/watch?v=96usU1K0gwY)
 
 No próximo vídeo, você será guiada através dos seguintes passos para criar sua
 primeira página web:
@@ -79,7 +79,7 @@ primeira página web:
 
 Aqui o vídeo:
 
-[![Minha primeira HTML Web](https://embed-ssl.wistia.com/deliveries/5965a3abc9c483a990a081c16a199ce6ea2d70ce.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/u3xr67d4he?wvideo=u3xr67d4he)
+[![Minha primeira HTML Web](https://img.youtube.com/vi/OR0tpt3zftA/0.jpg)](https://www.youtube.com/watch?v=OR0tpt3zftA)
 
 ## Tags e elementos HTML
 
@@ -121,12 +121,12 @@ hora de regressar ao JavaScript.
 ## HTML e JavaScript
 
 É importante que você entenda que HTML _**não**_ é uma `linguagem de
-porgramação`, mas sim uma `linguaguem de marcação`. Como já vimos, com HTML
+programação`, mas sim uma `linguagem de marcação`. Como já vimos, com HTML
 damos uma estrutura a nosso site. No entanto, se queremos dar a ele
 _comportamento_ ou _interação_, necessitamos usar uma `linguagem de
 programação`. E a **única linguagem de programação que roda nos navegadores web
 é o JavaScript**. Com JavaScript conseguimos que os sites possam responder as
-ações dos usuários, torndo-os interativos.
+ações dos usuários, tornado-os interativos.
 
 Para incluir JavaScript em um arquivo HTML você pode utilizar o elemento
 `script` e colocar seu código JavaScript entre as tags de abertura e fechamento,
@@ -136,7 +136,7 @@ tal como mostra o seguinte exemplo:
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Mnha primeira página Web</title>
+    <title>Minha primeira página Web</title>
   </head>
   <body>
     <h1>Olá Mundo!</h1>
@@ -177,12 +177,12 @@ Os passos são os seguintes:
 4. Atualize a página de seu navegador onde está carregado o arquivo HTML
 5. Crie um novo arquivo chamado `app.js` na mesma pasta onde está o seu
    HTML
-6. Inclua no atributo `src` ao elemtento `script` com o caminho do arquivo
+6. Inclua no atributo `src` ao elemento `script` com o caminho do arquivo
    `app.js`
 7. Passe todo o código JavaScript do arquivo HTML para o arquivo JS
-8. Atualize a página do naveador e confirme se tudo funciona exatamente como
+8. Atualize a página do navegador e confirme se tudo funciona exatamente como
    antes.
 
 A seguir o vídeo:
 
-[![Minha primeira HTML Web](https://embed-ssl.wistia.com/deliveries/b01097fed7f8868ca3f815a940ab9761551e3d78.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/c7dis0vp80?wvideo=c7dis0vp80)
+[![Minha primeira HTML Web](https://img.youtube.com/vi/pJ4aYTUjpME/0.jpg)](https://www.youtube.com/watch?v=pJ4aYTUjpME)

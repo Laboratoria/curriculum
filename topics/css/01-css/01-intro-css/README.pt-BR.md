@@ -12,7 +12,7 @@
 - Conhecer as diferentes maneiras de adicionar estilos à sua web
 - Aprender a sintaxe CSS
 - Aprender o que são os seletores e quais são os seletores mais usados
-- Entender como funcionam as regras de casacata e herança do CSS
+- Entender como funcionam as regras de cascata e herança do CSS
 - Aprender os valores usuais de CSS e suas unidades
 
 ## O que é CSS e como funciona?
@@ -209,7 +209,7 @@ No final da sua pesquisa, você deve saber o que é e como usar:
 Os pseudo seletores são palavras chaves que alteram o estado de um elemento. Os
 pseudo seletores não são encontrados sozinhos. Estão sempre acompanhados de um
 seletor e são precedidos por `:`. Os pseudo seletores ou pseudo classes
-apresentam a seguinte síntaxe:
+apresentam a seguinte sintaxe:
 
 ```css
 button:hover {
@@ -226,7 +226,7 @@ ao realizarmos o login nos deparamos com o seguinte:
 
 ![hover](https://user-images.githubusercontent.com/11894994/57649699-489cdb80-759f-11e9-9af3-9159fa166124.gif)
 
-Note que ao passar do mouse os elementos adiquirem estilos novos. Isso é feito
+Note que ao passar do mouse os elementos adquirem estilos novos. Isso é feito
 através do `:hover`.
 
 ### :active
@@ -254,7 +254,7 @@ estilo aplicado sem o pseudo seletor `:active`.
 
 ### :focus
 
-O `:focus` é um pseudo seletor que se aplica particulamente aos elementos que
+O `:focus` é um pseudo seletor que se aplica particularmente aos elementos que
 recebem eventos como entrada de texto, ou outros inputs de usuário, como por
 exemplo, os inputs e textareas.
 
@@ -343,7 +343,7 @@ Vejamos um exemplo:
 ## Continuando a página de Grace Hopper da wikipedia
 
 Agora que você sabe mais sobre a profundidade CSS você pode acompanhar a
-Palomita no vídeo a seguir no qual ela termina de desenvolvar a página de Grace
+Palomita no vídeo a seguir no qual ela termina de desenvolver a página de Grace
 Hopper, usando uma estrutura semântica e todos os benefícios do CSS para
 representar o projeto o mais fiel possível.
 

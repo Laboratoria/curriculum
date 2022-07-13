@@ -27,7 +27,7 @@ Os elementos básicos necessários para construir uma página com Web Design
 Responsivo são ao menos os três a seguir:
 
 - Uma estrutura flexível, baseada em *Grid System*.
-- Imagens e múltimídia flexíveis.
+- Imagens e multimídias flexíveis.
 - *Media queries*.
 
 As vantagens de utilizar um Web Design Responsivo são:
