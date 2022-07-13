@@ -67,10 +67,10 @@ qué te puedes encontrar una vez comience tu proceso de placement.
   de la industria.
 - [ ] Tengo un perfil en Github en el que incorporé feedback de profesionales de
   la industria.
-- [ ] Tengo mi autoevaluación de un simulacro de entrevista de RRHH
-- [ ] Tengo mi feedback de un simulacro de entrevista de RRHH
-- [ ] Tengo mi autoevaluación de un simulacro de entrevista técnica.
-- [ ] Tengo mi feedback de un simulacro de entrevista técnica.
+- [ ] Tengo mi autoevaluación y feedback de mentorías RRHH
+- [ ] Tengo mi feedback de CV, LinkedIn y de un simulacro de entrevista de RRHH
+- [ ] Tengo mi autoevaluación y feedback de mentorías Tech.
+- [ ] Tengo mi feedback de Github profile y de un simulacro de entrevista técnica.
 
 ## 4. Resumen del proyecto
 

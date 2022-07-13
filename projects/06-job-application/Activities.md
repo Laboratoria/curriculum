@@ -22,7 +22,7 @@
       <ul>
         <li>Readme del proyecto</li>
         <li>Pildora: Cómo funciona un proceso de selección</li>
-        <li>Q&A Readme del proyecto (Slido)</li>
+        <li>Q&A Readme del proyecto</li>
       </ul>
     </td>
     <td>NA</td>
@@ -46,6 +46,7 @@
     </td>
     <td>
       <ul>
+        <li>Pre work del taller (slide 2 de la PPT del taller).</li>
         <li>Taller: Historia de vida y habilidades transferibles.</li>
         <li>Píldora: About me y pitch.</li>
         <li>Espacio grupal para compartir “about me” y dar y recibir feedback.</li>
@@ -71,11 +72,14 @@
         <li>Pildora: CV en la industria tech.</li>
         <li>Pildora: Funcionamiento de Linkedin</li>
         <li>Píldora: Recomendaciones para la foto.</li>
-        <li>Ayudantías con el equipo (opcionales).</li>
+        <li>OH con el equipo (son opcionales y puedes solicitarlas a tu CDP).</li>
         <li>Q&A externxs / placement.</li>
       </ul>
     </td>
-    <td>Primera versión del CV + LinkedIn</td>
+    <td>
+      <li>Primera versión del CV + LinkedIn (fecha) </li>
+      <li>Segunda versión del CV + LinkedIn (fecha) </li>
+    </td>
   </tr>
   <tr>
     <td><!-- aqui la fecha --></td>
@@ -106,7 +110,7 @@
     </td>
     <td>
       <ul>
-        <li>Q&A Readme del proyecto (Slido)</li>
+        <li>Q&A Readme del proyecto</li>
       </ul>
     </td>
     <td>NA</td>
@@ -164,8 +168,7 @@
       <ul>
         <li>Guía sesiones de mentoría (apartado en el read me).</li>
         <li>
-          Form autoevaluación estudiante y evaluación a la persona que te
-          entrevistó.
+          Form autoevaluación estudiante y evaluación a mentora/or
         </li>
       </ul>
     </td>
@@ -176,20 +179,24 @@
           entrevista + CV + Linkedin.
         </li>
         <li>Autoevaluación de performance en entrevista + CV + Linkedin.</li>
-        <li>Versión de CV + perfil de LinkedIn</li>
+        <li>Tercera versión de CV + perfil de LinkedIn con mejoras incorporadas</li>
       </ul>
     </td>
   </tr>
   <tr>
     <td><!-- aqui la fecha --></td>
     <td>
-      <b>Retrospectiva grupal de simulación de entrevista RH</b>
+      <b>Retrospectiva grupal de mentorías RH</b>
       <p>
-        Tendremos un espacio con toda la cohorte para compartir nuestras
+        Tendremos un espacio con toda la cohort para compartir nuestras
         reflexiones, aprendizajes y retos de este proceso.
       </p>
+        </td>
+    <td>
+      <ul>
+        <li>Prework de retrospectiva por confirmar</li>
+      </ul>
     </td>
-    <td></td>
     <td>NA</td>
   </tr>
   <tr>
@@ -200,14 +207,14 @@
         Sesiones de preparación para la simulación de entrevista tech
       </b>
       <p>
-        Tendremos dos sesiones de preparación para que conozcas los tipos de
-        pruebas técnicas que te puedes encontrar en
+        Durante el gym tech tendremos 2 sesiones de preparación para que
+        conozcas los tipos de pruebas técnicas que te puedes encontrar en
         un proceso de selección y llegues más familiarizada a este momento.
       <p>
     </td>
     <td>
       <ul>
-        <li>Guía de sesiones de preparación ((apartado en el read me).</li>
+        <li>Guía de sesiones de preparación (apartado en el read me).</li>
       </ul>
     </td>
     <td>NA</td>
@@ -224,10 +231,13 @@
     <td>
       <ul>
         <li>Píldora: Perfil de Github para la búsqueda de empleo.</li>
-        <li>Ayudantías para ver perfil de Github (opcionales).</li>
+        <li>
+          OH para ver perfil de Github (son opcionales y puedes usar las que
+          ya tienen disponibles lxs coaches).
+        </li>
       </ul>
     </td>
-    <td>Primera versión del perfil de GitHub</td>
+    <td>Primera versión del perfil de GitHub (fecha)</td>
   </tr>
   <tr>
     <td rowspan="3">
@@ -266,8 +276,7 @@
     <td>
       <ul>
         <li>Guía sesiones de mentoría (apartado en el read me).</li>
-        <li>Form autoevaluación estudiante.</li>
-        <li>Form evaluación entrevistadorx por parte de la estudiante.</li>
+        <li>Form autoevaluación estudiante y evaluación a mentora/or.</li>
       </ul>
     </td>
     <td>
@@ -288,14 +297,18 @@
   <tr>
     <td><!-- aqui la fecha --></td>
     <td>
-      <b>Retrospectiva grupal de simulación de entrevista Tech</b>
+      <b>Retrospectiva grupal de mentorías Tech</b>
       <p>
         Tendremos un espacio con toda la
         cohorte para compartir nuestras reflexiones, aprendizajes y retos
         de este proceso.
       </p>
     </td>
-    <td></td>
+    <td>
+      <ul>
+        <li>Prework de retrospectiva por confirmar</li>
+      </ul>
+    </td>
     <td>NA</td>
   </tr>
   <tr>
@@ -304,22 +317,21 @@
     <td>
       <b>Project Feedback:</b>
       <p>
-        Al finalizar el proyecto de manera grupal e individual tendremos algunos
+        Al finalizar el proyecto de manera grupal o individual tendremos algunos
         espacios de reflexión sobre tu
         experiencia. Esto sucederá en distintos momentos que se alinean a otros
-        objetivos de BC.
+        objetivos de BC (ej. 1:1 o bootcamp feedbacks)
       </p>
     </td>
     <td>
       <ul>
-        <li>Autoevaluación entrevistas RRHH + tech.</li>
-        <li>Evaluación entrevistas RRHH + tech.</li>
-        <li>Guía de retrospectiva grupal.</li>
+        <li>Dashboard de autoevaluación y evaluación de mentores.</li>
+        <li>Pre-work de las sesiones (por confirmar en cada caso).</li>
       </ul>
     </td>
     <td>
       <ul>
-        <li>Check de objetivos de aprendizaje</li>
+        <li>Listado de accionables</li>
       </ul>
     </td>
   </tr>
