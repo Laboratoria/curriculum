@@ -6,13 +6,19 @@ track: web-dev
 
 ## Índice
 
-- [1. Preámbulo](#1-preambulo)
-- [2. Resumen del proyecto](#2-resumen-del-proyecto)
-- [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-- [4. Consideraciones generales](#4-consideraciones-generales)
-- [5. Requerimientos funcionales](#5-requerimientos-funcionales)
-- [6. Consideraciones técnicas](#6-consideraciones-tecnicas)
-- [7. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
+- [Registro de Visitantes](#registro-de-visitantes)
+  - [Índice](#índice)
+  - [1. Preámbulo](#1-preámbulo)
+  - [2. Resumen del proyecto](#2-resumen-del-proyecto)
+  - [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+  - [4. Consideraciones generales](#4-consideraciones-generales)
+  - [5. Requerimientos funcionales](#5-requerimientos-funcionales)
+    - [Historias de Usuaria](#historias-de-usuaria)
+  - [6. Consideraciones técnicas](#6-consideraciones-técnicas)
+  - [7. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
+    - [Primeros pasos](#primeros-pasos)
+    - [Mobile first](#mobile-first)
+    - [Múltiples vistas](#múltiples-vistas)
 
 ## 1. Preámbulo
 
@@ -227,11 +233,9 @@ historias grandes en otras más chiquitas.
   etiqueta `<script>` en el archivo `index.html`. El constructor `QRCode` está
   disponible en el ámbito _global_.
 
-Sobre el _rol_ de admin...
-
 ## 7. Pistas, tips y lecturas complementarias
 
-Getting started
+### Primeros pasos
 
 - Para comenzar, una integrante del equipo tendrá que hacer un _fork_  de este
   repositorio. Este _primer fork_ será usado para integrar los cambios de todo
@@ -240,9 +244,66 @@ Getting started
   del equipo tiene su propio fork. Cada una puede trabajar en ramas dentro de su
   fork y después integrar a través de _pull requests_ en la rama principal del
   _primer fork_.
+
+### Mobile first
+
+El concepto de [_mobile first_](https://www.mediaclick.es/blog/diseno-web-responsive-design-y-la-importancia-del-mobile-first/)
+hace referencia a un proceso de diseño y desarrollo donde partimos de cómo se ve
+y cómo funciona la aplicación en un dispositivo móvil primero, y más adelante se
+ve como adaptar la aplicación a pantallas progresivamente grandes y
+características específicas del entorno desktop. Esto es en contraposición al
+modelo tradicional, donde primero se diseñaban los websites (o webapps) para
+desktop y después se trataba de _arrugar_ el diseño para que entre en pantallas
+más chicas. La clave acá es asegurarse de que desde el principio diseñan usando
+la vista _responsive_ de las herramientas de desarrollador (developer tools) del
+navegador. De esa forma, partimos de cómo se ve y comporta la aplicación en una
+pantalla y entorno móvil.
+
+Links relacionados:
+
+* [Diseño web, responsive design y la importancia del mobile first - Media Click](https://www.mediaclick.es/blog/diseno-web-responsive-design-y-la-importancia-del-mobile-first/)
+* [Mobile First: el enfoque actual del diseño web móvil - 1and1](https://www.1and1.es/digitalguide/paginas-web/diseno-web/mobile-first-la-nueva-tendencia-del-diseno-web/)
+* [Mobile First - desarrolloweb.com](https://desarrolloweb.com/articulos/mobile-first-responsive.html)
+* [Mobile First Is NOT Mobile Only - Nielsen Norman Group](https://www.nngroup.com/articles/mobile-first-not-mobile-only/)
+
+### Múltiples vistas
+
+En proyectos anteriores nuestras aplicaciones habían estado compuestas de una
+sola _vista_ principal (una sóla _página_). En este proyecto se introduce la
+necesidad de tener que dividir nuestra interfaz en varias _vistas_ o _páginas_
+y ofrecer una manera de navegar entre estas vistas. Vamos a construir una SPA
+(Single Page Application).
+
+El _boilerplate_ de este proyecto incluye una propuesta de **arquitectura basada
+en componentes**, con varias funciones que podemos usar para crear
+vistas/componentes y mapear rutas/URLs a dichas vistas, así como un ejemplo de
+cómo podemos usarlas. Las funciones en cuestión son:
+
+* `createElement` y `destroyElement` en el archivo [`src/lib/element.js`](src/lib/element.js).
+* `createRouter` en el archivo [`src/lib/router.js`](src/lib/router.js)
+
+Además de estas funciones que nos facilitan el manejo de múltiples vistas, el
+_boilerplate_ también incluye una función `createAuth`, diseñada para
+_centralizar_ la interacción con Firebase Auth y evitar usar el SDK de Firebase
+directamente desde nuestros componentes. Esto nos facilita mucho las pruebas
+unitarias de nuestros componentes ya que no necesitamos _mockear_ Firebase, si
+no solo la functión `createAuth`, que tiene una interfaz (API) mucho más
+reducida.
+
+* `createAuth` en el archivo `src/lib/auth.js`
+
 - Arquitectura basada en componentes
 - Hello world!
 - Routing
 - Hello routes!
 - Hello auth
 - Subsripciones a eventos de larga vida y fugas de memoria (_memory leaks_).
+
+Este problema se puede
+afrontar de muchas maneras: con archivos HTML independientes (cada uno con su
+URL) y links tradicionales, manteniendo estado en memoria y rederizando
+condicionalmente (sin refrescar la página), [manipulando el historial del
+navegador](https://developer.mozilla.org/es/docs/DOM/Manipulando_el_historial_del_navegador)
+con [`window.history`](https://developer.mozilla.org/es/docs/Web/API/Window/history).
+En este proyecto te invitamos a explorar opciones y decidir una opción
+de implementación.
