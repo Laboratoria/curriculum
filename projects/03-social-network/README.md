@@ -28,14 +28,9 @@ más comentado.
 
 ## 2. Resumen del proyecto
 
-En este proyecto construirás una Red Social sobre lo que decidan tú y tu equipo.
-Podría ser, por ejemplo, sobre alimentación saludable, feminismo, educación,
-salud, energías renovables, amantes de las [Empanadas](https://es.wikipedia.org/wiki/Empanada)
-o de los [Tacos de Canasta](https://es.wikipedia.org/wiki/Taco), de la
-[Feijoada](https://es.wikipedia.org/wiki/Feijoada), o de lo que sea.
+En este proyecto construirás una Red Social sobre lo que decidan tú y tu equipo. Podría ser, por ejemplo, sobre alimentación saludable, feminismo, educación, salud, energías renovables, amantes de las [Empanadas](https://es.wikipedia.org/wiki/Empanada) o de los [Tacos de Canasta](https://es.wikipedia.org/wiki/Taco), de la [Feijoada](https://es.wikipedia.org/wiki/Feijoada), o de lo que sea.
 
-Tu Red Social tendrá que permitir a cualquier usuario crear una cuenta de
-acceso y loguearse con ella; crear, editar, borrar y _"likear"_ publicacciones.
+Tu Red Social tendrá que permitir a cualquier usuario crear una cuenta de acceso y loguearse con ella; crear, editar, borrar y _"likear"_ publicacciones.
 
 Por lo tanto, en este proyecto construirás una [Single-page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application) [_responsive_](../../topics/css/02-responsive) (con más de una vista / página) en la que podamos **leer y escribir datos**.
 
