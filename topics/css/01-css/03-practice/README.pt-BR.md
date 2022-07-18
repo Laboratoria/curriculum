@@ -44,4 +44,4 @@ Você deve utilizar apenas `display`, sem usar `positioning` nem `floats`.
 Assista ao vídeo do Rafa para e veja uma possível solução para esse exercício:
 
 [![Solução - sinalizadores de
-exbição](https://img.youtube.com/vi/fhdFSrRR-YQ/0.jpg)](https://www.youtube.com/watch?v=fhdFSrRR-YQ)
+exibição](https://img.youtube.com/vi/fhdFSrRR-YQ/0.jpg)](https://www.youtube.com/watch?v=fhdFSrRR-YQ)

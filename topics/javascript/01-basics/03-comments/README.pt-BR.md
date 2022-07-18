@@ -4,7 +4,7 @@
 - Formato: `self-paced`
 - Duración: `15min`
 
-## Objetivos de Aprendizajem
+## Objetivos de Aprendizagem
 
 - Aprender o que são os _comentários_ e sua utilidade.
 
