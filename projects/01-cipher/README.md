@@ -129,12 +129,12 @@ La interfaz debe permitir al usuario:
 
 ### Deploy
 
-Hacer que los proyectos están disponibles e deja-los no ar para que cualquer
-persona pueda acesa-lo es algo comun no ciclo de desarrollo de um producto de tecnologia.
+Hacer que los sitios estén publicados (o _desplegados_) para que usuarias de la web puedan acceder a él es algo común en proyectos de desarrollo de software.
 
-Para este proyecto, utilizaremos Github Pages para este propósito.
-El comando `npm run deploy` puede ayudarte con esta tareay también puedes
- consultar la [documentación oficial](https://docs.github.com/es/pages).
+En este proyecto, utilizaremos _Github Pages_ para desplegar nuestro sitio web.
+
+El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
+ consultar su [documentación oficial](https://docs.github.com/es/pages).
 
 ## 6. Hacker edition
 
