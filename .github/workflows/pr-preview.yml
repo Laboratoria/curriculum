@@ -1,0 +1,43 @@
+name: Run tests and deploy to Firebase Hosting on PR
+
+on: pull_request
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x, 18.x]
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+
+      - run: npm ci
+      - run: npm test
+
+  build_and_preview:
+    if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm ci
+      - run: npm run build:content
+      - run: echo ::set-output name=VERSION::$(node -e "console.log(require('./package.json').version)")
+        id: version
+      - run: npm run build
+        env:
+          REACT_APP_LABORATORIA_API_URL: https://api.laboratoria.la
+          REACT_APP_FIREBASE_API_KEY: AIzaSyAXbaEbpq8NOfn0r8mIrcoHvoGRkJThwdc 
+          REACT_APP_FIREBASE_PROJECT: laboratoria-la
+          REACT_APP_VERSION: ${{ steps.version.outputs.VERSION }}
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_BOOTCAMP_E078F }}
+          projectId: bootcamp-e078f

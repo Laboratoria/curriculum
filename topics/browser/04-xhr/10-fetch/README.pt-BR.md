@@ -25,7 +25,7 @@ O que acontece se precisarmos dos dados de uma chamada em uma outra chamada?
 Para a nossa sorte o `fetch` está aqui, e já foi implementado pela maioria
 (exceto _Internet Explorer_). Com ele você pode utilizar _promises_ para
 retornar os resultados, só de não depender de _callbacks_ já é um benefício.
-Usar promessas também nos permite aninhar e exercutar elas em paralelo, deixando
+Usar promessas também nos permite aninhar e executar elas em paralelo, deixando
 o nosso código muito mais ordenado. Agora, vamos ver como usar.
 
 ## Uso básico de fetch
@@ -35,7 +35,7 @@ fetch(url).then((response) => {
   if (response.status !== 200) {
     // O status de 200 é uma resposta de que deu tudo certo no servidor
   } else {
-    // Caso respodam com algum erro
+    // Caso respondam com algum erro
   }
 }).catch((error) => {
   /*
@@ -46,7 +46,7 @@ fetch(url).then((response) => {
 ```
 
 Como vimos a cima, a única coisa que de precisamos passar o o `fetch` é a URL
-que quermos chamar, logo depois usamos o `then` para receber a respostas da
+que queremos chamar, logo depois usamos o `then` para receber a respostas da
 requisição. A diferença do `fetch` para o `XHR` e `JQuery` é que independente da
 resposta, ela chegará na `then` podendo ser um erro ou um sucesso. A promessa
 apenas irá falhar (passando pelo `catch`) se houver algum problema com a conexão
@@ -65,10 +65,10 @@ fetch(url).then((response) => {
     // O status de 200 é uma resposta de que deu tudo certo no servidor
     return response.json();
   } else {
-    // Caso respodam com algum erro
+    // Caso respondam com algum erro
   }
 }).then((responseJSON) => {
-  // Codígo que irá usar o JSON
+  // Código que irá usar o JSON
 }).catch((error) => {
   /*
    * Código em caso de erro na chamada.
@@ -87,7 +87,7 @@ usar:
 ```js
 response.json() //Para resposta deJSON
 response.blob() //Para arquivos binários como imagens
-response.text() //Para respotas em texto simples
+response.text() //Para respostas em texto simples
 ```
 
 Todos os métodos anteriores funcionam com promessas, com isso você terá que

@@ -7,12 +7,12 @@ um `bundler` , instalando dependências com `npm` ou escrevendo scripts para
 iniciar ou implantar aplicativos.
 
 A primera `unix shell` surgiu em 1971, com a primeira versão do Unix. Apesar de
-seus mais de 40 anos de idade, segue senfo uma tecnologia totalmente vigente e
+seus mais de 40 anos de idade, segue sendo uma tecnologia totalmente vigente e
 de alguma forma se converteu no padrão para a interação com servidores e
 sistemas operacionais "Unix-like" (GNU/Linux, BSD, MacOS, Android, ...).
 
-De fato, em 2016, `unix shell`, é um dos skills mais buscados na indústra
-(ranqueado como número 14 entre os 25 skills mais importantes para ser
+De fato, em 2016, `unix shell`, é uma das skills mais buscadas na indústria
+(ranqueada como número 14 entre os 25 skills mais importantes para ser
 contratado em 2016, segundo LinkedIn).
 
 Neste curso você aprenderá a interagir com a linha de comandos e escrever

@@ -15,7 +15,7 @@
 ## Enunciados
 
 Aqui estão alguns exercícios para você praticar, sugerimos que tenta resolver
-eles sozinha ou em grupo. Assim, você ficará familizariada com os desafios. E se
+eles sozinha ou em grupo. Assim, você ficará familiarizada com os desafios. E se
 quiser pode apresentar a sua solução para a sala e ajudar as suas companheiras
 😁
 
@@ -68,7 +68,7 @@ CAPTCHA tem como objetivo final identificar se é ou não uma pessoa e vai mudan
 conforme a tecnologia avança.
 
 Inicialmente consistia em um conjunto de imagens que o usuário devia determinar
-o conteúdo e indicar ao sistema. Hoje em dia, avaliam seu comportamente no
+o conteúdo e indicar ao sistema. Hoje em dia, avaliam seu comportamento no
 navegador e se tiver dúvidas, pede para você avaliar um conjunto de imagens
 maior.
 

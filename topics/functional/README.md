@@ -1,9 +1,5 @@
 # Functional JavaScript
 
-En este curso exploraremos el paradigma funcional en JavaScript así como varios
-patrones, técnicas y convenciones asociadas a este paradigma, haciendo uso de
-las nuevas características de ES2015.
-
 La programación funcional es un paradigma de programación de suma relevancia hoy
 en día, ya que se presta a resolver problemas de paralelización, asincronía y
 programación reactiva entre otros. La programación funcional (_Functional
@@ -13,7 +9,7 @@ de JavaScript, se ha convertido en tanto una moda como una necesidad. Poco a
 poco, desde la proliferación de librerías como [underscore][] y [lodash][],
 después la adición de `map()`, `filter()`, `reduce()` y compañía, y ahora con
 _frameworks_ como [React][] y [Redux][], conocer el paradigma funcional y estilo
-declarativo se han convertido en una necesidad para cualquier desarrollador de
+declarativo se han convertido en una necesidad para cualquier desarrolladora de
 JavaScript.
 
 Familiarizarnos con la programción funcional en JavaScript y ES2015 nos

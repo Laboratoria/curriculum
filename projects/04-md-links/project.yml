@@ -24,7 +24,6 @@ learningObjectives:
   - scm/git/intro
   - scm/git/integration
   - scm/github/setup
-  - scm/github/gh-pages
   - scm/github/collaboration
   - scm/github/project-management
   - http/request-response

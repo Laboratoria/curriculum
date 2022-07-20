@@ -98,7 +98,7 @@ World` === 'Hello\nWorld',
 
 ```
 
-Existe outros caractes especiais, que não são tão comuns. Aqui está a lista:
+Existe outros caracteres especiais, que não são tão comuns. Aqui está a lista:
 
 | Caractere | Descrição |
 |-----------|-------------|
@@ -150,7 +150,7 @@ contam apenas um.
 
 ## Acessando caracteres específicos
 
-Para obter o caractere da possição `pos`, usamos os colchetes `[pos]` ou o
+Para obter o caractere da posição `pos`, usamos os colchetes `[pos]` ou o
 método `str.charAt(pos)`.
 
 ```js
@@ -161,7 +161,7 @@ console.assert(str.charAt(0) === 'H');
 console.assert(str[1000] === undefined);
 console.assert(str.charAt(1000) === '');
 
-/* el último caracter */
+/* o último caractere */
 console.assert(str[str.length - 1] === 'o');
 ```
 
@@ -331,7 +331,7 @@ Em resumo:
 
 > Todos os anteriores realizam  a mesma tarefa, mas devemos ter em conta que
 > `substr` não é parte das especificação do `core` do JavaScript, mas o *Anexo*
-> B, que cobre funcionalidades exclusicas dos navegadores. Mas a prática
+> B, que cobre funcionalidades exclusivas dos navegadores. Mas a prática
 > funciona para todo o entorno.
 
 ## Comparando strings
@@ -353,7 +353,7 @@ Mas existem alguns casos raros:
    console.assert('Ñandu' > 'Zebra');
    ```
 
-Para entender o que acontence, vejamos um pouco como representam intermanente as
+Para entender o que acontece, vejamos um pouco como representam internamente as
 `strings` em JavaScript.
 
 As `strings` se codificam usando [UTF-16](https://pt.wikipedia.org/wiki/UTF-16).
@@ -396,7 +396,7 @@ Agora está claro porque `a > Z`.
 - As `strings` em JavaScript se codificam usando UTF-16.
 - Existem caracteres especiais como `\n`.
 - Para obter um caractere específico usamos: `[]`.
-- Para obter uma substring, usamod: `slice` ou `substring`.
+- Para obter uma substring, usamos: `slice` ou `substring`.
 
 Existem vários métodos úteis:
 

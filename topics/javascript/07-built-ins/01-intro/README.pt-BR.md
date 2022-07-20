@@ -15,7 +15,7 @@
 ### JavaScript, investigando o núcleo da linguagem
 
 Todas as linguagens de programação tem objetos pré-construídos (built-in) que
-oferencem mais funcionalidades do que só a linguagem em si. Os objetos
+oferecem mais funcionalidades do que só a linguagem em si. Os objetos
 pré-construídos nos permitem salvar tempo com funcionalidades disponíveis como
 parte da linguagem.
 
@@ -23,7 +23,7 @@ JavaScript tem muitos [objetos
 pré-construídos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects).
 
 O termo "objetos globais" (ou objetos padrão pré-construídos) não devem ser
-confundidos com o objetvo global em si. Aqui, os objetos globais se referem a
+confundidos com o objetivo global em si. Aqui, os objetos globais se referem a
 objetos no [ámbito global](https://developer.mozilla.org/en-US/docs/Glossary/global_scope).
 Estes objetos e funções que já vem com o JavaScript mas que não são parte da
 linguagem em si, também conhecidas como _biblioteca padrão_, já que sempre
@@ -44,8 +44,8 @@ e veja se ele é positivo? Muitas funções que você encontrará em um bibliote
 padrão são provavelmente triviais por natureza, mas já ter essas funções padrão
 vão acelerar a implementação do código (você vai falar menos vezes "tem alguma
 função para isso, ou eu deveria fazer"). Além disso outras pessoas que leem o
-seu codigo podem concentrar em aprender sobre as partes que realmente importam e
-não perder o seu tempo tentando entendero bibliotecas que fazem apenas uma linha
+seu código podem concentrar em aprender sobre as partes que realmente importam e
+não perder o seu tempo tentando entender bibliotecas que fazem apenas uma linha
 de código.
 
 ### Algumas vantagem de utilizar bibliotecas padrão
@@ -58,7 +58,7 @@ de código.
 
 - Estão otimizadas para rendimento
 
-  Existe um grupo de desenvolvimento focado em melhorá-las contantemente. Um dos
+  Existe um grupo de desenvolvimento focado em melhorá-las constantemente. Um dos
   objetivos dessa equipe é criar códigos mais eficientes e otimizados para obter
   o máximo rendimento.
 
@@ -71,7 +71,7 @@ de código.
 - São suportadas na maioria dos navegadores
 
   Você esperar que a sua aplicação funcione para sempre, em qualquer lugar e
-  dispositivo. Mas no mundo real as coisas estão sempre mundando. Com essas
+  dispositivo. Mas no mundo real as coisas estão sempre mudando. Com essas
   funções você terá uma garantia maior de que o seu código continuará
   funcionando.
 

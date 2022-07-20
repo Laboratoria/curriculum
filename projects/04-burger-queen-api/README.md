@@ -47,7 +47,7 @@ familiarizarnos con el _stack_ elegido ([Node.js](https://nodejs.org/) y
 datos, el cual tu deberás elegir entre [MongoDB](https://www.mongodb.com/),
 [PostgreSQL](https://www.postgresql.org/) y [MySQL](https://www.mysql.com/).
 
-La clienta nos ha dado un [link a la documentación](https://laboratoria.github.io/burger-queen-api/)
+La clienta nos ha dado un [link a la documentación](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 que especifica el comportamiento esperado de la API que expondremos por
 HTTP. Ahí puedes encontrar todos los detalles de qué _endpoints_ debe
 implementar la aplicación, qué parámetros esperan, qué deben responder, etc.
