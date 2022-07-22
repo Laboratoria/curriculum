@@ -177,10 +177,10 @@ const es = {
 
   'projects.ux.level.1': `
     <p>
-    Se aplica la mentalidad del diseño centrado en el humano a un proyecto de
-    UX Design, incursionando en conceptos como <strong>usabilidad</strong>,
-    <strong>utilidad</strong>, <strong>investigación con usuarios</strong>,
-    <strong>principios de diseño visual</strong>, entre otros.
+    Se desarrolla la mentalidad del diseño centrado en el humano trabjando
+    en distintos proyectos, también se fortalecen las bases de habilidades
+    que serán transversales en su trabajo como UX Designers como son:
+    <strong>user resesarch</strong> y <strong>UI design</strong>.
     </p>
   `,
 
@@ -195,22 +195,19 @@ const es = {
 
   'projects.ux.level.3': `
     <p>
-    Es un reto enfocado a fortalecer las habilidades de UI Design. La idea es
-    sentirse más cómodas creando interfaces y trabajando con conceptos propios
-    de este campo: <strong>alineaciones</strong>, <strong>jerarquías</strong>,
-    <strong>estilos</strong>, <strong>guías de componentes</strong>,
-    <strong>diseño responsivo</strong>, <strong>variantes</strong>,
-    <strong>autolayout</strong>, entre otros.
-    </p>
-  `,
-
-  'projects.ux.level.4': `
-    <p>
     Durante estos retos las estudiantes pondrán en práctica todo lo aprendido
     durante el bootcamp para realizar una consultoria en UX a distintas empresas
     de la industria. Estos retos incorporan temas como
     <strong>service design</strong>, <strong>manejo de data</strong>,
     <strong>definición de KPIs</strong>, entre otros.
+    </p>
+  `,
+
+  'projects.ux.level.4': `
+    <p>
+    A lo largo del bootcamp tenemos un proyecto llamado Portafolio, enfocado en
+    construir un portafolio online en el que puedan mostrar los proyectos en
+    los cuáles trabajaron durante el bootcamp.
     </p>
   `,
 
