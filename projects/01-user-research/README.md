@@ -14,7 +14,7 @@
 Solo podemos hablar de UX cuando conocemos las necesidades, motivaciones y
 problemas que tienen nuestros usuarios con nuestros productos o servicios. Esos
 hallazgos e insights nos acercarán a diseñar o rediseñar soluciones a medida de
-nuestros usuarios. 
+nuestros usuarios.
 
 ## 2. Resumen del proyecto
 
@@ -24,11 +24,12 @@ afectando la experiencia de usuario dentro de una plataforma.
 📣 El alcance de este proyecto va hasta síntesis, primer diamante 💎
 
 Para ello, tendrás que elegir una de las 5 categorías propuestas:
-* Venta de tickets/boletas para espectáculos
-* Portales de empleo
-* Tiendas por departamento
-* Tiendas de mejoramiento del hogar
-* Venta de autos
+
+- Venta de tickets/boletas para espectáculos
+- Portales de empleo
+- Tiendas por departamento
+- Tiendas de mejoramiento del hogar
+- Venta de autos
 
 ## 3. Objetivos de aprendizaje
 
@@ -43,12 +44,13 @@ Para ello, tendrás que elegir una de las 5 categorías propuestas:
 ### Entregables
 
 Informe de investigación por equipo que incluya:
-* Mapeo de la situación actual del mercado
-  * Quiénes son los principales actores y competidores
-* Explicación de los métodos y técnicas de investigación utilizados
-  * Considerar un mínimo de 4 entrevistas y testeos por equipo
-* Presentar los hallazgos de la investigación (e idealmente insights)
-* Recomendaciones de mejora de la plataforma
+
+- Mapeo de la situación actual del mercado
+  + Quiénes son los principales actores y competidores
+- Explicación de los métodos y técnicas de investigación utilizados
+  + Considerar un mínimo de 4 entrevistas y testeos por equipo
+- Presentar los hallazgos de la investigación (e idealmente insights)
+- Recomendaciones de mejora de la plataforma
 
 ## 4. Recursos
 
