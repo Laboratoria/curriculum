@@ -1,4 +1,4 @@
-# Diseño y usabilidad
+# User research
 
 ## Índice
 
@@ -21,6 +21,7 @@ nuestros usuarios.
 Durante este reto profundizarás en temas de investigación de usuarios,
 entendimiento de los negocios e identificación de problemas que puedan estar
 afectando la experiencia de usuario dentro de una plataforma.
+
 📣 El alcance de este proyecto va hasta síntesis, primer diamante 💎
 
 Para ello, tendrás que elegir una de las 5 categorías propuestas:
