@@ -2,15 +2,26 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Entrega](#7-entrega)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Checklist](#9-checklist)
+- [Rehaciendo tu red social usando librerías y frameworks](#rehaciendo-tu-red-social-usando-librerías-y-frameworks)
+  - [Índice](#índice)
+  - [1. Preámbulo](#1-preámbulo)
+  - [2. Resumen del proyecto](#2-resumen-del-proyecto)
+  - [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+  - [4. Consideraciones generales](#4-consideraciones-generales)
+  - [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+  - [6. Hacker edition](#6-hacker-edition)
+  - [7. Entrega](#7-entrega)
+  - [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+    - [React](#react)
+    - [Angular](#angular)
+    - [Vue](#vue)
+  - [9. Checklist](#9-checklist)
+    - [General](#general)
+    - [`README.md`](#readmemd)
+    - [Pruebas / tests](#pruebas--tests)
+    - [Creación de cuenta (sign up)](#creación-de-cuenta-sign-up)
+    - [Inicio de sesión (sign in)](#inicio-de-sesión-sign-in)
+    - [Muro (wall/feed)](#muro-wallfeed)
 
 ***
 
@@ -54,8 +65,6 @@ El alcance del proyecto y el detalle de sus características es exactamente
 [el mismo que el original](https://github.com/Laboratoria/curricula-js/tree/v2.x/projects/03-social-network),
 incluyendo la parte de Hacker Edition pero excluyendo la parte de UX.
 
-## 3. Objetivos de aprendizaje
-
 El objetivo principal de aprendizaje es familiarizarse con el desarrollo web
 usando el _framework_ o _librería_ elegido, y todo lo que ello conlleva:
 **documentación**, **arquitectura**, **principios de diseño**, **paradigma**,
@@ -67,6 +76,17 @@ un producto o prototipo. Dada la velocidad a la que evoluciona la tecnología
 web, es muy común tener que enfrentarse a este tipo de escenario donde decidimos
 (o alguien decide por nosotros) que lo mejor para seguir evolucionando una
 aplicación es re-escribirla usando una nueva tecnología.
+
+## 3. Objetivos de aprendizaje
+
+> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
+> al crear el repo del proyecto para un cohort en particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
+> que contempla nuestra currícula.
+
 
 ## 4. Consideraciones generales
 
