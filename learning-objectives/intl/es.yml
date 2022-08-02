@@ -542,7 +542,7 @@ http/verbs:
       url: https://developer.mozilla.org/es/docs/Web/HTTP/Methods
 
 http/status-codes:
-  title: Codigos de status de HTTP
+  title: Códigos de status de HTTP
   links:
     - title: Códigos de estado de respuesta HTTP - MDN
       url: https://developer.mozilla.org/es/docs/Web/HTTP/Status
@@ -885,7 +885,7 @@ angular/routing:
       url: https://angular.io/guide/router
 
 angular/observables:
-  title: Creación y uso Observables.
+  title: Creación y uso de Observables.
   links:
     - title: Observables in Angular - Documentación oficial (en inglés)
       url: https://angular.io/guide/observables-in-angular
