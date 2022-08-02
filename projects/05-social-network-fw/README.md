@@ -3,19 +3,19 @@
 ## Índice
 
 - [Rehaciendo tu red social usando librerías y frameworks](#rehaciendo-tu-red-social-usando-librerías-y-frameworks)
-  - [Índice](#índice)
-  - [1. Preámbulo](#1-preámbulo)
-  - [2. Resumen del proyecto](#2-resumen-del-proyecto)
-  - [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-  - [4. Consideraciones generales](#4-consideraciones-generales)
-  - [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-  - [6. Hacker edition](#6-hacker-edition)
-  - [7. Entrega](#7-entrega)
-  - [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+  * [Índice](#índice)
+  * [1. Preámbulo](#1-preámbulo)
+  * [2. Resumen del proyecto](#2-resumen-del-proyecto)
+  * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+  * [4. Consideraciones generales](#4-consideraciones-generales)
+  * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+  * [6. Hacker edition](#6-hacker-edition)
+  * [7. Entrega](#7-entrega)
+  * [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
     - [React](#react)
     - [Angular](#angular)
     - [Vue](#vue)
-  - [9. Checklist](#9-checklist)
+  * [9. Checklist](#9-checklist)
     - [General](#general)
     - [`README.md`](#readmemd)
     - [Pruebas / tests](#pruebas--tests)
@@ -87,7 +87,6 @@ aplicación es re-escribirla usando una nueva tecnología.
 > Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
 > que contempla nuestra currícula.
 
-
 ## 4. Consideraciones generales
 
 Este proyecto se debe "resolver" en duplas.
@@ -120,82 +119,82 @@ puedas haber encontrado en el camino.
 
 Antes de elegir un framework, te recomendamos leer los siguientes artículos:
 
-* [The deepest reason why modern JavaScript frameworks exist](https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445)
-* [Should I use frameworks or libraries such as Angular, React, or VueJS or not?](https://dev.to/ericpaulbasbas/should-i-use-frameworks-or-libraries-such-as-angular-react-or-vuejs-or-not-3dp)
+- [The deepest reason why modern JavaScript frameworks exist](https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445)
+- [Should I use frameworks or libraries such as Angular, React, or VueJS or not?](https://dev.to/ericpaulbasbas/should-i-use-frameworks-or-libraries-such-as-angular-react-or-vuejs-or-not-3dp)
 
 Hemos preparado algunos videos introductorios:
 
-* [Introducción a Frameworks de JavaScript (Lupo)](https://laboratoria-1.wistia.com/medias/22j8ut23y5)
-* [Introducción a Angular (Fabián)](https://laboratoria-1.wistia.com/medias/2dxpgs2s59)
-* [Introducción a React (Elizabeth)](https://es.reactjs.org/)
-* [Introducción a Vue (Luis)](https://vuejs.org/)
+- [Introducción a Frameworks de JavaScript (Lupo)](https://laboratoria-1.wistia.com/medias/22j8ut23y5)
+- [Introducción a Angular (Fabián)](https://laboratoria-1.wistia.com/medias/2dxpgs2s59)
+- [Introducción a React (Elizabeth)](https://es.reactjs.org/)
+- [Introducción a Vue (Luis)](https://vuejs.org/)
 
 No dejes de explorar la documentación oficial de cada herramienta:
 
 ### React
 
-* [React - docs oficiales](https://es.reactjs.org/)
-* [React - tutorial](https://egghead.io/courses/the-beginner-s-guide-to-react)
-* [Redux - tutorial](https://egghead.io/courses/getting-started-with-redux)
-* [create-react-app](https://github.com/facebook/create-react-app)
-* [React js en español - tutorial básico, primeros pasos y ejemplos - frontendlabs.io](https://frontendlabs.io/3158--react-js-espanol-tutorial-basico-primeros-pasos-ejemplos)
+- [React - docs oficiales](https://es.reactjs.org/)
+- [React - tutorial](https://egghead.io/courses/the-beginner-s-guide-to-react)
+- [Redux - tutorial](https://egghead.io/courses/getting-started-with-redux)
+- [create-react-app](https://github.com/facebook/create-react-app)
+- [React js en español - tutorial básico, primeros pasos y ejemplos - frontendlabs.io](https://frontendlabs.io/3158--react-js-espanol-tutorial-basico-primeros-pasos-ejemplos)
 
 ### Angular
 
-* [Angular - docs oficiales](https://angular.io/)
-* [Angular CLI](https://cli.angular.io/)
-* [Angular - tutorial](https://www.youtube.com/watch?v=0eWrpsCLMJQ&list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ)
-* [Angular - crud](https://www.youtube.com/watch?v=6wVolJfXn1c)
-* [Angular - redux](https://www.youtube.com/playlist?list=PLCKuOXG0bPi3FtoplJe0JOpiV6OyK30wd)
+- [Angular - docs oficiales](https://angular.io/)
+- [Angular CLI](https://cli.angular.io/)
+- [Angular - tutorial](https://www.youtube.com/watch?v=0eWrpsCLMJQ&list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ)
+- [Angular - crud](https://www.youtube.com/watch?v=6wVolJfXn1c)
+- [Angular - redux](https://www.youtube.com/playlist?list=PLCKuOXG0bPi3FtoplJe0JOpiV6OyK30wd)
 
 ### Vue
 
-* [Vue - docs oficiales](https://vuejs.org/)
-* [Vue CLI](https://cli.vuejs.org/)
-* [Vue- adicional](https://scotch.io/search?q=vue)
-* [Vue- school](https://vueschool.io/)
+- [Vue - docs oficiales](https://vuejs.org/)
+- [Vue CLI](https://cli.vuejs.org/)
+- [Vue- adicional](https://scotch.io/search?q=vue)
+- [Vue- school](https://vueschool.io/)
 
 Independientemente de si eliges React, Vue o Angular, todos estas herramientes
 se usan muchas veces en conjunción con Redux como manejador de _estado_.
 
-* [Redux - docs oficiales](https://redux.js.org/)
+- [Redux - docs oficiales](https://redux.js.org/)
 
 ## 9. Checklist
 
 ### General
 
-* [ ] Producto final sigue los lineamientos del diseño.
+- [ ] Producto final sigue los lineamientos del diseño.
 
 ### `README.md`
 
-* [ ] Información sobre instalación y despliegue de tu aplicación.
+- [ ] Información sobre instalación y despliegue de tu aplicación.
 
 ### Pruebas / tests
 
-* [ ] Tests unitarios cubren un mínimo del 70% de statements, functions, lines,
+- [ ] Tests unitarios cubren un mínimo del 70% de statements, functions, lines,
   y branches.
-* [ ] Pasa tests (y linters) (`npm test`).
+- [ ] Pasa tests (y linters) (`npm test`).
 
 ### Creación de cuenta (sign up)
 
-* [ ] Permite crear cuenta.
-* [ ] Valida email.
-* [ ] Valida password.
-* [ ] Muestra mensajes de error.
+- [ ] Permite crear cuenta.
+- [ ] Valida email.
+- [ ] Valida password.
+- [ ] Muestra mensajes de error.
 
 ### Inicio de sesión (sign in)
 
-* [ ] Permite iniciar sesión.
-* [ ] Valida email.
-* [ ] Valida password.
-* [ ] Muestra mensajes de error.
+- [ ] Permite iniciar sesión.
+- [ ] Valida email.
+- [ ] Valida password.
+- [ ] Muestra mensajes de error.
 
 ### Muro (wall/feed)
 
-* [ ] Muestra _muro_.
-* [ ] Permite publicar nuevos posts.
-* [ ] Permite eliminar posts.
-* [ ] Pide confirmación antes de borrar posts.
-* [ ] Permite editar posts (in place).
-* [ ] Permite filtrar posts por público/amigos.
-* [ ] Permite marcar posts como _gustados_ (like).
+- [ ] Muestra _muro_.
+- [ ] Permite publicar nuevos posts.
+- [ ] Permite eliminar posts.
+- [ ] Pide confirmación antes de borrar posts.
+- [ ] Permite editar posts (in place).
+- [ ] Permite filtrar posts por público/amigos.
+- [ ] Permite marcar posts como _gustados_ (like).
