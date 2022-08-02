@@ -29,9 +29,11 @@ de empezar este reto.
 
 Para ello, podrás elegir entre 3 opciones, y cada una con unas páginas sugeridas.
 
-* Opción 1
-* Opción 2
-* Opción 3
+* [Dropbox](https://www.dropbox.com/individual)
+* [Cabify](https://cabify.com/es)
+* [Rappi](https://www.rappi.com)
+* [ADPList](https://adplist.org/)
+* [Crehana](https://www.crehana.com)
 
 ## 3. Objetivos de aprendizaje
 
