@@ -10,16 +10,7 @@
 * [6. Hacker edition](#6-hacker-edition)
 * [7. Entrega](#7-entrega)
 * [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-  - [React](#react)
-  - [Angular](#angular)
-  - [Vue](#vue)
 * [9. Checklist](#9-checklist)
-  - [General](#general)
-  - [`README.md`](#readmemd)
-  - [Pruebas / tests](#pruebas--tests)
-  - [Creación de cuenta (sign up)](#creación-de-cuenta-sign-up)
-  - [Inicio de sesión (sign in)](#inicio-de-sesión-sign-in)
-  - [Muro (wall/feed)](#muro-wallfeed)
 
 ***
 
