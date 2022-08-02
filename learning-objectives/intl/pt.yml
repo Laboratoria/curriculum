@@ -29,7 +29,7 @@ css/selectors:
       url: https://developer.mozilla.org/pt_BR/docs/Web/CSS/CSS_Selectors
 
 css/box-model:
-  title: "Empregar o modelo de caixa (box model): borda, margem, preenchimento"
+  title: "Modelo de caixa (box model): borda, margem, preenchimento"
   links:
     - title: Modelo de Caixa e Display
       url: topics/css/01-css/02-boxmodel-and-display
@@ -81,7 +81,7 @@ browser/dom/selectors:
       url: https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors
 
 browser/dom/events:
-  title: Manipulação de eventos de DOM
+  title: Manipulação de eventos de DOM (listeners, propagação, delegação)
   links:
     - title: Introdução a eventos - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Events
@@ -115,7 +115,7 @@ browser/routing:
       url: https://developer.mozilla.org/pt-BR/docs/Web/API/History_API
 
 browser/storage:
-  title: Storage
+  title: Browser storage (localStorage, sessionStorage)
   links:
     - title: Window.localStorage - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/API/Window/Window.localStorage
@@ -139,13 +139,13 @@ js/data-types/strings:
   links:
     - title: Strings
       url: topics/javascript/06-strings
-    - title: String - MDN
+    - title: String — Cadeia de caracteres - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String
 
 js/data-types/arrays:
-  title: Manipular arrays (filter, map, sort, reduce)
+  title: Arrays (arranjos)
   links:
-    - title: Arrays
+    - title: Arranjos
       url: topics/javascript/04-arrays
     - title: Array - MDN
       url: https://developer.mozilla.org//pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/
@@ -161,7 +161,7 @@ js/data-types/arrays:
       url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 
 js/data-types/objects:
-  title: Manipular objects (key | value)
+  title: Objetos (key, value)
   links:
     - title: Objetos em JavaScript
       url: topics/javascript/05-objects/01-objects
@@ -178,7 +178,7 @@ js/variables:
       url: topics/javascript/01-basics/02-variables
 
 js/conditionals:
-  title: Uso de condicionais (if-else, switch, operador ternário)
+  title: Uso de condicionais (if-else, switch, operador ternário, lógica booleana)
   links:
     - title: Estruturas condicionais e repetitivas
       url: topics/javascript/02-flow-control/01-conditionals-and-loops
@@ -186,7 +186,7 @@ js/conditionals:
       url: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/conditionals
 
 js/functions:
-  title: Uso de funções (parâmetros, argumentos, valor de retorno)
+  title: Funções (params, args, return)
   links:
     - title: Funções (controle de fluxo)
       url: topics/javascript/02-flow-control/03-functions
@@ -198,7 +198,7 @@ js/functions:
       url: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Functions
 
 js/loops:
-  title: Uso de laços (for, for..of, while)
+  title: Uso de laços (while, for, for..of)
   links:
     - title: Laços (Loops)
       url: topics/javascript/02-flow-control/02-loops
@@ -214,10 +214,10 @@ js/recursion:
       url: https://medium.com/laboratoria-developers/recursi%C3%B3n-o-recursividad-ec8f1a359727
 
 js/semantics:
-  title: Uso de identificadores descritivos (Nomenclatura | Semântica)
+  title: Uso de identificadores descritivos (Nomenclatura e Semântica)
 
 js/expression-vs-statement:
-  title: Diferença entre expression e statements
+  title: Diferença entre expressões (expressions) e declarações (statements)
 
 js/modules/es-modules:
   title: Módulos de ECMAScript (ES modules)
@@ -234,7 +234,7 @@ js/modules/commonjs:
       url: https://nodejs.org/docs/latest/api/modules.html
 
 js/testing/unit:
-  title: Testes unitários
+  title: Testes unitários (unit tests)
   links:
     - title: Introdução ao Jest - Documentação oficial
       url: https://jestjs.io/docs/pt-BR/getting-started
@@ -246,7 +246,7 @@ js/testing/async:
       url: https://jestjs.io/docs/pt-BR/asynchronous
 
 js/testing/mocks:
-  title: Mocking
+  title: Uso de mocks e espiões
   links:
     - title: Simulações Manuais - Documentação oficial
       url: https://jestjs.io/docs/pt-BR/manual-mocks
@@ -261,13 +261,13 @@ js/linting:
   title: Uso de linter (ESLINT)
 
 js/async/callbacks:
-  title: Uso de callbacks
+  title: Callbacks
   links:
     - title: Função Callback - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Glossario/Callback_function
 
 js/async/promises:
-  title: Promessas (Promises)
+  title: Promessas
   links:
     - title: Promise - MDN
       url: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise
@@ -307,7 +307,7 @@ scm/github/ci:
 ux: UX (User eXperience)
 
 user-centricity/centricity:
-  title: Desenhar a aplicação pensando e entendendo a usuária
+  title: Desenhar um produto ou serviço colocando a usuária no centro
 
 product-design/interactivity:
   title: Criar protótipos para obter feedback e iterar
@@ -355,7 +355,7 @@ node:
       url: https://www.genbeta.com/desarrollo/node-js-y-npm
 
 node/npm-install:
-  title: Instalar e usar módulos (npm)
+  title: Instalar e usar módulos com npm
   links:
     - title: Sitio oficial de npm (em inglês)
       url: https://www.npmjs.com/
@@ -373,7 +373,7 @@ node/npm-scripts:
       url: https://docs.npmjs.com/misc/scripts
 
 node/filesystem:
-  title: Uso de sistema de arquivos (fs, path)
+  title: File system (fs, path)
   links:
     - title: File system - Documentação oficial (em inglês)
       url: https://nodejs.org/api/fs.html
@@ -389,7 +389,7 @@ node/process:
 express: Express.js
 
 express/routing:
-  title: Rotas
+  title: Gerenciamento de rotas
 
 express/middleware:
   title: Uso e criação de middleware
@@ -405,9 +405,9 @@ socket-io/server:
 http: HTTP
 
 http/request-response:
-  title: Solicitações HTTP ou requisições (request) e respostas (response).
+  title: Consulta ou solicitação (request) e resposta (response).
   links:
-    - title: Uma visão geral do HTTP - MDN
+    - title: Visão geral do protocolo HTTP - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview
     - title: Mensagens HTTP - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Messages
@@ -478,7 +478,7 @@ cicd/build-pipelines:
   title: Construção de pipelines (GitHub Actions/CircleCI)
 
 cicd/service-deployment:
-  title: Implantar serviços (Heroku/GitHub Pages)
+  title: Implantação de serviços (Heroku/GitHub Pages)
 
 cicd/tbd:
   title: Usar Trunk-based Development para Integração Contínua
@@ -640,7 +640,7 @@ react/events:
       url: https://pt-br.reactjs.org/docs/handling-events.html
 
 react/lists-and-keys:
-  title: Listas e chaves (keys)
+  title: Listas e keys
   links:
     - title: Listas e chaves - Documentação oficial
       url: https://pt-br.reactjs.org/docs/lists-and-keys.html
@@ -768,13 +768,13 @@ angular/services:
       url: https://angular.io/guide/architecture-services#providing-services
 
 angular/routing:
-  title: Rotas
+  title: Gerenciamento de rotas
   links:
     - title: "In-app navigation: routing to views - Documentação oficial (em inglês)"
       url: https://angular.io/guide/router
 
 angular/observables:
-  title: Criação e uso Observables
+  title: Criação e uso de Observables
   links:
     - title: Observables in Angular - Documentação oficial (em inglês)
       url: https://angular.io/guide/observables-in-angular
