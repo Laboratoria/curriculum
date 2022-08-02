@@ -71,7 +71,8 @@ scm:
       - ci
 
 user-centricity:
-  - persistency
+  - centricity
+  - user-oriented
   - prioritization
   
 business:

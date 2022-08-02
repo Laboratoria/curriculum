@@ -307,8 +307,11 @@ scm/github/ci:
 
 ux: UX (User eXperience)
 
-user-centricity/persistency:
-  title: Involucrar usuarios y tomar en cuenta sus necesidades a lo largo de todo el proceso de diseño
+user-centricity/centricity:
+  title: Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro
+
+user-centricity/user-oriented:
+  title: Involucrar usuarias y tomar en cuenta sus necesidades a lo largo de todo el proceso de diseño
 
 user-centricity/prioritization:
   title: Identificar y priorizar usuarias relevantes para el proyecto
