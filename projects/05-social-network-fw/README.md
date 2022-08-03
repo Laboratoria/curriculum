@@ -51,7 +51,7 @@ cero, su alcance, sus particularidades, el flujo, las validaciones, etc.
 Concéntrate en aprender y utilizar estas nuevas tecnologías.
 
 El alcance del proyecto y el detalle de sus características es exactamente
-[el mismo que el original](https://github.com/Laboratoria/curricula-js/tree/v2.x/projects/03-social-network),
+[el mismo que el original](https://github.com/Laboratoria/curricula-js/tree/main/projects/03-social-network),
 incluyendo la parte de Hacker Edition pero excluyendo la parte de UX.
 
 El objetivo principal de aprendizaje es familiarizarse con el desarrollo web
@@ -90,11 +90,11 @@ Para comenzar tendrás que hacer un _fork_ y _clonar_ este repositorio.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
-Ver [03-social-network](https://github.com/Laboratoria/curricula-js/tree/v2.x/projects/03-social-network#parte-obligatoria).
+Ver [03-social-network](https://github.com/Laboratoria/bootcamp/tree/main/projects/03-social-network#5-criterios-de-aceptación-mínimos-del-proyecto).
 
 ## 6. Hacker edition
 
-Ver [03-social-network](https://github.com/Laboratoria/curricula-js/tree/v2.x/projects/03-social-network#hacker-edition).
+Ver [03-social-network](https://github.com/Laboratoria/curricula-js/tree/main/projects/03-social-network#hacker-edition).
 
 ## 7. Entrega
 
@@ -110,13 +110,6 @@ Antes de elegir un framework, te recomendamos leer los siguientes artículos:
 
 * [The deepest reason why modern JavaScript frameworks exist](https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445)
 * [Should I use frameworks or libraries such as Angular, React, or VueJS or not?](https://dev.to/ericpaulbasbas/should-i-use-frameworks-or-libraries-such-as-angular-react-or-vuejs-or-not-3dp)
-
-Hemos preparado algunos videos introductorios:
-
-* [Introducción a Frameworks de JavaScript (Lupo)](https://laboratoria-1.wistia.com/medias/22j8ut23y5)
-* [Introducción a Angular (Fabián)](https://laboratoria-1.wistia.com/medias/2dxpgs2s59)
-* [Introducción a React (Elizabeth)](https://es.reactjs.org/)
-* [Introducción a Vue (Luis)](https://vuejs.org/)
 
 No dejes de explorar la documentación oficial de cada herramienta:
 
