@@ -8,7 +8,9 @@ learningObjectives:
   - js/data-types/arrays
   - js/data-types/objects
   - js/data-types/primitive-vs-non-primitive
+  - js/variables
   - js/conditionals
+  - js/loops
   - js/functions
   - js/testing/unit
   - js/testing/async
