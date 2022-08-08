@@ -129,7 +129,8 @@ La interfaz debe permitir al usuario:
 
 ### Deploy
 
-Hacer que los sitios estén publicados (o _desplegados_) para que usuarias de la web puedan acceder a él es algo común en proyectos de desarrollo de software.
+Hacer que los sitios estén publicados (o _desplegados_) para que usuarias de
+la web puedan acceder a él es algo común en proyectos de desarrollo de software.
 
 En este proyecto, utilizaremos _Github Pages_ para desplegar nuestro sitio web.
 
