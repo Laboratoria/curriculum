@@ -58,6 +58,100 @@ js:
     # - async/await
     # - streams
 
+a11y:
+  - perceivable:
+    - level-A
+    - level-AA
+  - operable:
+    - level-A
+    - level-AA
+  - understandable:
+    - level-A
+    - level-AA
+  - robust:
+    - level-A
+    - level-AA
+  - testing: 
+    - audit
+    - assistive-technologies
+
+# another form of grouping with principales and guidelines
+# a11y:
+# - perceivable:
+#   - text-alternatives
+#   - time-based-media
+#   - adaptable-content
+#   - distinguishable-content
+# - operable:
+#   - keyboard-accessible
+#   - enough-time
+#   - seizures-physical-reactions
+#   - navigable 
+#   - input-modalities
+# - understandable:
+#   - readable
+#   - predictable
+#   - input-assistance
+# - robust:
+#   - compatible
+
+# another form of grouping with principales and criteria
+# - a11y:
+#   - perceivable:
+#     - non-text-content
+#     - audio-video-only
+#     - captions
+#     - media-alternative
+#     - captions-live
+#     - audio-description-prerecorded
+#     - info-relationships
+#     - meaningful-sequence
+#     - sensory-characteristics
+#     - orientation
+#     - identify-input-purpose
+#     - use-of-color
+#     - audio-control
+#     - contrast-minimum
+#     - resize-text
+#     - images-text
+#     - reflow
+#     - non-text-contrast
+#     - text-spacing
+#     - content-hover-focus
+#   - operable:
+#     - keyboard
+#     - no-keyboard-trap
+#     - character-key-shortcuts
+#     - timing-adjustable
+#     - pause-stop-hide
+#     - three-flashes-or-below
+#     - bypass-blocks
+#     - page-titled
+#     - focus-order
+#     - link-purpose
+#     - multiple-ways
+#     - headings-labels
+#     - focus-visible
+#     - pointer-gestures
+#     - pointer-cancellation
+#     - label-in-name
+#     - motion-actuation
+#   - understandable:
+#     - language-page
+#     - language-parts
+#     - on-focus
+#     - on-input
+#     - consistent-navigation
+#     - consistent-identification
+#     - error-identification
+#     - labels-instructions
+#     - error-suggestion
+#     - error-prevention
+#   - robust:
+#     - parsing
+#     - name-role-value
+#     - status-messages
+
 scm:
   - git:
       - setup
