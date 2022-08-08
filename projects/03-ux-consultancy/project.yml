@@ -1,8 +1,6 @@
 learningObjectives:
-  - user-centricity/centricity
-  - user-centricity/persistency
+  - user-centricity/user-oriented
   - user-centricity/prioritization
-  - business/alignment
   - business/model
   - business/goals
   - business/metrics
@@ -15,7 +13,6 @@ learningObjectives:
   - research/adaptation
   - research/sources
   - research/test
-  - research/analytics
   - research/cuantitative-data
   - synthesis/weighing
   - synthesis/patterns
@@ -34,11 +31,10 @@ learningObjectives:
   - product-design/component-organization
   - product-design/project-organization
   - product-design/documentation
-  - product-design/naming
-  - product-design/handoff
   - communication/presentation
   - communication/negotiation
   - communication/relationship-management
+  - communication/case-study
   - planning/monitor
   - planning/prioritization
   - planning/tools
