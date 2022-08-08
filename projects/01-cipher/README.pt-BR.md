@@ -125,6 +125,15 @@ A interface deve permitir ao usuário:
 * `test/cipher.spec.js`: este arquivo contem alguns testes de exemplo e aqui
   você deve implementar os testes para `cipher.encode()` e `cipher.decode()`.
 
+### Deploy
+
+Disponibilizar os projetos e colocá-los "no ar" vai ser parte cotidiana do
+ciclo de desenvolvimento em produtos de tecnologia.
+
+Para este projeto, utilizaremos o Github Pages para essa finalidade.
+O comando `npm run deploy` pode te auxiliar nessa tarefa e você pode também
+consultar a [documentação oficial](https://docs.github.com/pt/pages).
+
 ## 6. Hacker Edition
 
 As seções chamadas _Hacker Edition_ são **opcionais**. Se você **terminou** tudo
