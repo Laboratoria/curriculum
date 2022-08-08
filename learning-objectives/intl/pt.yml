@@ -756,7 +756,7 @@ angular/structural-directives:
       url: https://angular.io/guide/structural-directives
 
 angular/input-output:
-  title: "@Input | @Ouput"
+  title: "@Input | @Output"
   links:
     - title: Component interaction - Documentação oficial (em inglês)
       url: https://angular.io/guide/component-interaction#component-interaction
