@@ -7,8 +7,9 @@
 * [3. Objetivos generales](#3-objetivos-generales)
 * [4. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [5. Consideraciones generales](#4-consideraciones-generales)
-* [6. Pistas, tips y lecturas complementarias](#5-pistas-tips-y-lecturas-complementarias)
-* [7. Hacker edition](#6-hacker-edition)
+* [7. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+* [7. Pistas, tips y lecturas complementarias](#5-pistas-tips-y-lecturas-complementarias)
+* [8. Hacker edition](#6-hacker-edition)
 
 ## 1. Preámbulo
 
@@ -67,7 +68,6 @@ en cada componente.
 todo lo que sabes de CSS y animaciones para que tengas un juego vistoso y que
 guste a la gente. Tienes que invitar a jugar tu juego.
 
-
 ## 4. Objetivos de aprendizaje
 
 > ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
@@ -106,7 +106,36 @@ contrincantes a cada jugador.
 * Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
 * Desplegaste tu aplicación y has etiquetado tu versión (git tag).
 
-## 6. Pistas, tips y lecturas complementarias
+## 6. Criterios de aceptación mínimos del proyecto
+
+### Definición del producto
+
+La [_Product Owner_](https://youtu.be/r2hU7MVIzxs) nos presenta este _backlog_
+que es el resultado de su trabajo colaborativo.
+
+***
+
+### Historias de usuaria
+
+#### [Historia de usuaria 1] Debería poder  
+
+Yo como usuaria debo ...
+
+***
+
+#### [Historia de usuaria 2] Debería poder tomar nota  
+
+Yo como usuaria quiero tomar ...
+
+***
+
+#### [Historia de usuaria 3] Debería poder ver  
+
+Yo como usuaria quiero ...
+
+***
+
+## 7. Pistas, tips y lecturas complementarias  
 
 1. Modelar los datos, es un paso muy importante, considera que el juego es de
 dos personas, pero más de una pareja puede estar jugando a la vez (modelo de
@@ -148,7 +177,7 @@ Puedes hacer un diagrama de estados para esto :
 * [visualizador-observables](https://rxviz.com/)
 * [visualizador-observables-2](https://rxmarbles.com/)
 
-## 7. Hacker edition
+## 8. Hacker edition
 
 Hasta el momento has usado javascript, html, css, react, angular, y otras
 herramientas para hacer tus aplicaciones, pero ¿qué tal si te aventuras con tu
