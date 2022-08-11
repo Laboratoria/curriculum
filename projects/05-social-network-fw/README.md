@@ -94,7 +94,7 @@ Ver [03-social-network](https://github.com/Laboratoria/bootcamp/tree/main/projec
 
 ## 6. Hacker edition
 
-Ver [03-social-network](https://github.com/Laboratoria/curricula-js/tree/main/projects/03-social-network#hacker-edition).
+Ver [03-social-network](https://github.com/Laboratoria/curricula-js/tree/main/projects/03-social-network#6-hacker-edition).
 
 ## 7. Entrega
 
