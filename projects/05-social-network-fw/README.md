@@ -121,6 +121,42 @@ No dejes de explorar la documentación oficial de cada herramienta:
 * [create-react-app](https://github.com/facebook/create-react-app)
 * [React js en español - tutorial básico, primeros pasos y ejemplos - frontendlabs.io](https://frontendlabs.io/3158--react-js-espanol-tutorial-basico-primeros-pasos-ejemplos)
 
+### :information_source: Nota para estudiantes que elijan React y `create-react-app`
+
+Si tratas de usar [`create-react-app`](https://reactjs.org/docs/create-a-new-react-app.html)
+en el directorio del proyecto recibirás un error diciendo que hay archivos que
+podrían presentar un conflicto. Para evitar este problema puedes crear una nueva
+app usando `create-react-app` y de ahí _mezclarla_ con la carpeta del proyecto:
+
+```sh
+# Si estabas en la carpeta del proyecto, salimos a la carpeta de más arriba
+cd ..
+
+# Creamos una nueva aplicación con `create-react-app` en la carpeta
+# `social-network-tmp`
+npx create-react-app social-network-tmp
+
+# Copiamos el _boilerplate_ del proyecto _encima_ de la aplicación creada con
+# `create-react-app`
+cp -r <cohort-id>-social-network-fw/* social-network-tmp/
+
+# Copiamos el contenido de la aplicación creada con `create-react-app` de vuelta
+# al repo del proyecto (teniendo en cuenta el archivo _oculto_ `.gitignore`).
+cp -r social-network-tmp/.gitignore social-network-tmp/* <cohort-id>-social-network-fw/
+
+# Ya podemos borrar la instalación _temporal_ y quedarnos solo con el repo del
+# proyecto, con el que partimos.
+rm -rf social-network-tmp
+
+# Volvemos a entrar en el directorio del proyecto y ya deberíamos estar listas
+# para comenzar.
+cd <cohort-id>-social-network-fw
+
+# Para confirmar que todo fue bien arranca la aplicación con el siguinte comando
+# y verifica que la interfaz se abre en el navegador.
+yarn start
+```
+
 ### Angular
 
 * [Angular - docs oficiales](https://angular.io/)
