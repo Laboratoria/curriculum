@@ -7,6 +7,7 @@
     <td><b>Subetapas</b></td>
     <td><b>Recursos</b></td>
     <td><b>Entregable</b></td>
+    <td><b>Criterios de aceptación</b></td>
   </tr>
   <tr>
     <td><b>Kick off</b></td>
@@ -25,6 +26,7 @@
         <li>Q&A Readme del proyecto</li>
       </ul>
     </td>
+    <td>NA</td>
     <td>NA</td>
   </tr>
   <tr>
@@ -53,6 +55,7 @@
       </ul>
     </td>
     <td>NA</td>
+    <td>NA</td>
   </tr>
   <tr>
     <td><!-- aqui la fecha --></td>
@@ -80,6 +83,11 @@
       <li>Primera versión del CV + LinkedIn (fecha) </li>
       <li>Segunda versión del CV + LinkedIn (fecha) </li>
     </td>
+    <td>
+      CRITERIOS
+      <li>Primera versión del CV + LinkedIn (fecha) </li>
+      <li>Segunda versión del CV + LinkedIn (fecha) </li>
+    </td>
   </tr>
   <tr>
     <td><!-- aqui la fecha --></td>
@@ -97,6 +105,7 @@
       </ul>
     </td>
     <td>NA</td>
+    <td>NA</td>
   </tr>
   <tr>
     <td><!-- aqui la fecha --></td>
@@ -113,6 +122,7 @@
         <li>Q&A Readme del proyecto</li>
       </ul>
     </td>
+    <td>NA</td>
     <td>NA</td>
   </tr>
   <tr>
@@ -139,6 +149,7 @@
       </ul>
     </td>
     <td>Segunda versión del CV con recomendaciones incorporadas.</td>
+    <td>CRITERIOS Segunda versión del CV con recomendaciones incorporadas.</td>
   </tr>
   <tr>
     <td><!-- aqui la fecha --></td>
@@ -151,6 +162,10 @@
       </p>
     </td>
     <td>
+      Actualización del perfil de LinkedIn con recomendaciones incorporadas.
+    </td>
+    <td>
+      CRITERIOS
       Actualización del perfil de LinkedIn con recomendaciones incorporadas.
     </td>
   </tr>
@@ -182,6 +197,17 @@
         <li>Tercera versión de CV + perfil de LinkedIn con mejoras incorporadas</li>
       </ul>
     </td>
+    <td>
+      <ul>
+        CRITERIOS
+        <li>
+          Feedback de entrevistadora/or sobre performance en
+          entrevista + CV + Linkedin.
+        </li>
+        <li>Autoevaluación de performance en entrevista + CV + Linkedin.</li>
+        <li>Tercera versión de CV + perfil de LinkedIn con mejoras incorporadas</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td><!-- aqui la fecha --></td>
@@ -197,6 +223,7 @@
         <li>Prework de retrospectiva por confirmar</li>
       </ul>
     </td>
+    <td>NA</td>
     <td>NA</td>
   </tr>
   <tr>
@@ -218,6 +245,7 @@
       </ul>
     </td>
     <td>NA</td>
+    <td>NA</td>
   </tr>
   <tr>
     <td><!-- aqui la fecha --></td>
@@ -238,6 +266,7 @@
       </ul>
     </td>
     <td>Primera versión del perfil de GitHub (fecha)</td>
+    <td>CRITERIOS: Primera versión del perfil de GitHub (fecha)</td>
   </tr>
   <tr>
     <td rowspan="3">
@@ -258,6 +287,7 @@
         <li>Pildora: Buenas prácticas entrevistas tech</li>
       </ul>
     </td>
+    <td>NA</td>
     <td>NA</td>
   </tr>
   <tr>
@@ -293,6 +323,21 @@
         </li>
       </ul>
     </td>
+    <td>
+      CRITERIOS
+      <ul>
+        <li>
+          Feedback de entrevistadorx sobre performance en
+          entrevista + perfil de GitHub.
+        </li>
+        <li>
+          Autoevaluación de performance en entrevista + perfil de GitHub.
+        </li>
+        <li>
+          Segunda versión del perfil de GitHub con recomendaciones incorporadas.
+        </li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td><!-- aqui la fecha --></td>
@@ -309,6 +354,7 @@
         <li>Prework de retrospectiva por confirmar</li>
       </ul>
     </td>
+    <td>NA</td>
     <td>NA</td>
   </tr>
   <tr>
@@ -330,6 +376,12 @@
       </ul>
     </td>
     <td>
+      <ul>
+        <li>Listado de accionables</li>
+      </ul>
+    </td>
+    <td>
+      CRITERIOS
       <ul>
         <li>Listado de accionables</li>
       </ul>
