@@ -22,9 +22,7 @@
       <ul>
         <li>Readme del proyecto</li>
         <li>
-          <a href="https://www.loom.com/share/eff20dfbb64a488abb6181acd95a8dbf">
-            Pildora: Cómo funciona un proceso de selección
-          </a>
+          <a href="https://www.loom.com/share/eff20dfbb64a488abb6181acd95a8dbf">Pildora: Cómo funciona un proceso de selección</a>
           <a href="https://docs.google.com/presentation/d/17xch4mAAjUGS6H7rTosIK2UBRJoCrrNAIWta-CldLUw/edit#slide=id.geb2e9575b7_0_0">
             (PPT)
           </a>
