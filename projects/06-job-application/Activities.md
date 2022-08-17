@@ -21,7 +21,12 @@
     <td>
       <ul>
         <li>Readme del proyecto</li>
-        <li>Pildora: Cómo funciona un proceso de selección</li>
+        <li>
+          <a href="https://www.loom.com/share/eff20dfbb64a488abb6181acd95a8dbf">Pildora: Cómo funciona un proceso de selección</a>
+          <a href="https://docs.google.com/presentation/d/17xch4mAAjUGS6H7rTosIK2UBRJoCrrNAIWta-CldLUw/edit#slide=id.geb2e9575b7_0_0">
+            (PPT)
+          </a>
+        </li>
         <li>Q&A Readme del proyecto</li>
       </ul>
     </td>
@@ -47,9 +52,20 @@
     <td>
       <ul>
         <li>Pre work del taller (slide 2 de la PPT del taller).</li>
-        <li>Taller: Historia de vida y habilidades transferibles.</li>
-        <li>Píldora: About me y pitch.</li>
-        <li>Espacio grupal para compartir “about me” y dar y recibir feedback.</li>
+        <li>
+          <a href="https://docs.google.com/presentation/d/1HzaNvB4koarDftWzCkBQD-phedSFVMKHOWopWfiiuI8/edit#slide=id.g108f9f34ebd_0_0">
+            Taller: Historia de vida y habilidades transferibles.
+          </a>
+          <a href="https://docs.google.com/presentation/d/1DVkE0yc1u730u0S_mLrlTpzoZR_iQlnubma4hlgswKI/edit#slide=id.g10daaaee466_0_36">
+            (Pre-work)
+          </a>
+        </li>
+        <li>
+          <a href="https://docs.google.com/presentation/d/18L3EXGPmOAJoZYdthmJ7xiEu2wOrTUzdsoDgG-2qJRY/edit#slide=id.g10f517c8353_0_0">
+            Píldora: About me y pitch.
+          </a>
+        </li>
+        <li>Espacio grupal para compartir "about me" y dar y recibir feedback.</li>
       </ul>
     </td>
     <td>NA</td>
@@ -69,9 +85,30 @@
     </td>
     <td>
       <ul>
-        <li>Pildora: CV en la industria tech.</li>
-        <li>Pildora: Funcionamiento de Linkedin</li>
-        <li>Píldora: Recomendaciones para la foto.</li>
+        <li>
+          <a href="https://www.loom.com/share/b682c1f7b7964641a5fe1b8acfcf4b8e">
+            Pildora: CV en la industria tech.
+          </a>
+          <a href="https://docs.google.com/presentation/d/1s77cJ8ILVCFefWNFzoyJova7s_Vlguz-rbeF50ck4t0/edit#slide=id.g108ff262332_0_0">
+            (PPT)
+          </a>
+        </li>
+        <li>
+          <a href="https://www.loom.com/share/8c43a7129e654962bb53ea1a74088a9b">
+            Pildora:  Recomendaciones para crear tu perfil en LinkedIn
+          </a>
+          <a href="https://docs.google.com/presentation/d/1XNyWxwofb098qxvaVR-LOLap93SVmw6PznlBMI2AhDc/edit#slide=id.g10e34a90977_0_0">
+            (PPT)
+          </a>
+        </li>
+        <li>
+          <a href="https://www.loom.com/share/cb019555280444ada9dacab2810fefdb">
+            Píldora: Recomendaciones para la foto.
+          </a>
+          <a href="https://docs.google.com/presentation/d/1pZI9Q8K6k2__eJ7-SSKPXQb5OYjTvlk-T_N6yRk4E4U/edit#slide=id.geb0fdc64a4_2_38">
+            (PPT)
+          </a>
+        </li>
         <li>OH con el equipo (son opcionales y puedes solicitarlas a tu CDP).</li>
         <li>Q&A externxs / placement.</li>
       </ul>
@@ -92,8 +129,22 @@
     </td>
     <td>
       <ul>
-        <li>Píldora: Tips y buenas prácticas entrevista RRHH.</li>
-        <li>Píldora: Negociación salario y condiciones laborales.</li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=HjOUpKgbdIM">
+            Píldora: Tips y buenas prácticas entrevista RRHH.
+          </a>
+          <a href="https://docs.google.com/presentation/d/1OnLtRHkpzPqZpOYtMatalCA1PDor8l7rMRhDV-s212M/edit#slide=id.g1100ac05e81_0_0">
+            (PPT)
+          </a>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/1BJz3dWOzIUAoTyCclnKpZlQRRAZ4vxv_/view?usp=sharing">
+            Píldora: Negociación salario y condiciones laborales.
+          </a>
+          <a href="https://docs.google.com/presentation/d/1s0IVHBwJzqj5FVCGtnv33cdeD2OfnSXW-FH9hYenz9A/edit#slide=id.geb2e9575b7_0_0">
+            (PPT)
+          </a>
+        </li>
       </ul>
     </td>
     <td>NA</td>
@@ -230,7 +281,14 @@
     </td>
     <td>
       <ul>
-        <li>Píldora: Perfil de Github para la búsqueda de empleo.</li>
+        <li>
+         <a href="https://www.youtube.com/watch?v=vQ_EBqgUR0c">
+            Píldora: Recomendaciones para crear tu perfil en Github.
+          </a>
+          <a href="https://docs.google.com/presentation/d/1Ntaj8IuE4Fcbe6Pbwt1bZwu2f6brA468oKmK6Qefs5s/edit#slide=id.g9d12fce375_0_22">
+            (PPT)
+          </a>
+        </li>
         <li>
           OH para ver perfil de Github (son opcionales y puedes usar las que
           ya tienen disponibles lxs coaches).
@@ -255,7 +313,14 @@
     </td>
     <td>
       <ul>
-        <li>Pildora: Buenas prácticas entrevistas tech</li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=0NMil00HKEU">
+            Píldora: Buenas prácticas entrevistas tech.
+          </a>
+          <a href="https://docs.google.com/presentation/d/1a-vn-o2TKS2csszuBUyw8rcJQY40HB9Ly9ryLE_ImOQ/edit?usp=sharing">
+            (PPT)
+          </a>
+        </li>
       </ul>
     </td>
     <td>NA</td>
