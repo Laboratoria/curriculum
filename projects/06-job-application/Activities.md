@@ -184,7 +184,7 @@
     <td rowspan="2">
       <b>Sesión de revisión y feedback de CV + LinkedIn</b>
       <p>
-        Este espacio será programado por el equipo de Laboratoria. 
+        Este espacio será programado por el equipo de Laboratoria.
       </p>
     </td>
     <td rowspan="2">
@@ -197,14 +197,14 @@
       <b>Estructura de CV</b>
       <ul>
           <li>La redacción es clara y concisa (no excede de más de 1 hoja)</li>
-          <li>Es de fácil lectura, usa tipografía y tamaño adecuados</li> 
-          <li>Tiene un diseño armónico</li>  
+          <li>Es de fácil lectura, usa tipografía y tamaño adecuados</li>
+          <li>Tiene un diseño armónico</li>
           <li>El orden de experiencias académicas y profesionales estén de la más reciente a la más antigua</li>
       </ul>
       <b>Contenido de CV</b>
       <ul>
         <li>Mencionas tus experiencias académicas previas</li>
-        <li>Mencionas tu paso por el bootcamp de Laboratoria como experiencia educativa</li> 
+        <li>Mencionas tu paso por el bootcamp de Laboratoria como experiencia educativa</li>
         <li>Mencionas los proyectos trabajados en bootcamp de Laboratoria y las - tecnologías que utilizó para desarrollarlos</li>
         <li>Menciona sus experiencias laborales previas</li>
         <li>Mencionas las habilidades técnicas y de vida con las que cuenta</li>
@@ -220,10 +220,10 @@
       <b>Contenido de LinkedIn</b>
       <ul>
         <li>La redacción es clara y concisa</li>
-        <li>La foto que elegiste muestra una imagen profesional y auténtica</li> 
+        <li>La foto que elegiste muestra una imagen profesional y auténtica</li>
         <li>Mencionas tus experiencias académicas previas</li>
-        <li>Mencionas tu paso por el bootcamp de Laboratoria experiencia educativa</li> 
-        <li>Mencionas los proyectos trabajados en bootcamp de Laboratoria y las tecnologías</li> 
+        <li>Mencionas tu paso por el bootcamp de Laboratoria experiencia educativa</li>
+        <li>Mencionas los proyectos trabajados en bootcamp de Laboratoria y las tecnologías</li>
         <li>Mencionas tus experiencias laborales previas</li>
         <li>Mencionas las habilidades técnicas y de vida con las que cuenta</li>
         <li>Contiene un “about me” adecuado, claro, conciso, coherente con tu narrativa</li>
@@ -236,7 +236,7 @@
     <td>
     <b>Sesión de seguimiento a la incorporación de feedback de CV + LinkedIn</b>
       <p>
-        Este espacio lo agendarás tú directamente con tu mentora/or. Es importante que vayas a la sesión con todos los ajustes que hayas hecho y que recuerdes a tu mentora/or que no se olvide de llenar el formulario de evaluación. 
+        Este espacio lo agendarás tú directamente con tu mentora/or. Es importante que vayas a la sesión con todos los ajustes que hayas hecho y que recuerdes a tu mentora/or que no se olvide de llenar el formulario de evaluación.
       </p>
     </td>
     <td>
@@ -248,6 +248,19 @@
     </td>
     <td>
       NA
+    </td>
+    <td>
+      <b>Contenido de LinkedIn</b>
+        <p>
+          <li>La redacción es clara y concisa</li>
+          <li>La foto que elegiste muestra una imagen profesional y auténtica</li>
+          <li>Mencionas tus experiencias académicas previas</li>
+          <li>Mencionas tu paso por el bootcamp de Laboratoria experiencia educativa</li>
+          <li>Mencionas los proyectos trabajados en bootcamp de Laboratoria y las tecnologías</li>
+          <li>Mencionas tus experiencias laborales previas</li>
+          <li>Mencionas las habilidades técnicas y de vida con las que cuenta</li>
+          <li>Contiene un “about me” adecuado, claro, conciso, coherente con tu narrativa</li>
+          <li>Incluyes otras secciones relevantes de información que suman a tu perfil</li>
     </td>
   </tr>
   <tr>
@@ -271,7 +284,7 @@
     <td>
       <ul>
         <li>
-          Feedback de entrevistadora/or sobre 
+          Feedback de entrevistadora/or sobre
           entrevista y CV + LinkedIn.
         </li>
         <li>Autoevaluación de entrevista y de CV + LinkedIn.</li>
@@ -283,15 +296,15 @@
       <b>Comunicación</b>
       <ul>
         <li>La estructura de mi pitch de presentación fue adecuado, claro, coherente con mi narrativa</li>
-        <li>Mostré seguridad al responder tanto en lo verbal como en tu lenguaje corporal</li> 
-        <li>Me comuniqué con fluidez y naturalidad</li> 
+        <li>Mostré seguridad al responder tanto en lo verbal como en tu lenguaje corporal</li>
+        <li>Me comuniqué con fluidez y naturalidad</li>
       </ul>
       <b>Presentación de tu perfil profesional</b>
       <ul>
-        <li>Logré conectar mi background con el puesto al que simulé aplicar</li> 
-        <li>Durante la entrevista mencioné lo aprendido en Laboratoria</li>  
-        <li>Logré comunicar mi perfil como desarrolladora web</li>   
-        <li>Envié a tiempo y previo a la entrevista ambas herramientas</li> 
+        <li>Logré conectar mi background con el puesto al que simulé aplicar</li>
+        <li>Durante la entrevista mencioné lo aprendido en Laboratoria</li>
+        <li>Logré comunicar mi perfil como desarrolladora web</li>
+        <li>Envié a tiempo y previo a la entrevista ambas herramientas</li>
         <li>La información que compartí en la entrevista coincide con la de mi CV y LinkedIn</li>
       </ul>
       <b>Fortalezas y áreas de mejora</b>
@@ -301,11 +314,11 @@
       <b>Habilidades y comportamientos profesionales</b>
       <ul>
         <li>Puntualidad</li>
-        <li>Cumplimiento de acuerdos</li> 
-        <li>Compartiste dificultades y/o pidiste ayuda de forma proactiva</li> 
-        <li>Llegaste con material y/o trabajo previo a las sesiones</li> 
-        <li>Articulaste pensamientos e ideas con claridad</li> 
-        <li>Te mostraste abierta al feedback e intentaste incorporarlo</li>    
+        <li>Cumplimiento de acuerdos</li>
+        <li>Compartiste dificultades y/o pidiste ayuda de forma proactiva</li>
+        <li>Llegaste con material y/o trabajo previo a las sesiones</li>
+        <li>Articulaste pensamientos e ideas con claridad</li>
+        <li>Te mostraste abierta al feedback e intentaste incorporarlo</li>
       <ul>
     </td>
   </tr>
@@ -440,13 +453,13 @@
     <td>
       <b>Preguntas Conceptuales</b>
       <ul>
-        <li>¿Cómo evaluarías tu respuesta a las preguntas conceptuales?</li> 
+        <li>¿Cómo evaluarías tu respuesta a las preguntas conceptuales?</li>
       </ul>
       <b>Ejercicios</b>
       <ul>
-        <li>¿Cómo evaluarías tu desempeño en el primer ejercicio?</li> 
+        <li>¿Cómo evaluarías tu desempeño en el primer ejercicio?</li>
         <li>¿Cómo  valuarías tu desempeño en el segundo ejercicio?</li>
-      </ul> 
+      </ul>
       <b>Razonamiento y comunicación</b>
       <ul>
         <li>¿Compartiste tu razonamiento y estrategias de solución de forma oportuna y asertiva? ¿Articulaste tus pensamientos e ideas con claridad?</li>
@@ -484,7 +497,7 @@
     <td>
       <b>Project Feedback:</b>
       <p>
-        Al finalizar el proyecto recibirás ya sea de forma asíncrona o síncrona 2 tipos de feedbacks, 1) RH, por BM y/o CDP 2)Tech, por un coach en la sesión de Bootcamp Feedback. 
+        Al finalizar el proyecto recibirás ya sea de forma asíncrona o síncrona 2 tipos de feedbacks, 1) RH, por BM y/o CDP 2)Tech, por un coach en la sesión de Bootcamp Feedback.
       </p>
     </td>
     <td>
@@ -503,4 +516,3 @@
     </td>
   </tr>
 </table>
-
