@@ -32,9 +32,7 @@ Las 3 sesiones que se contemplan en estas mentorías son:
   recordártelo, pero recuerda que alcanzar este objetivo de aprendizaje es tu
   responsabilidad.
   * Sesión de revisión y feedback de CV + LinkedIn: Este espacio será
-    programado por el equipo de Laboratoria y se dividirá en 2 momentos:
-    - Dinámica para que conozcas a tu mentora/or.
-    - Revisión y feedback de tu CV + LinkedIn.
+    programado por el equipo de Laboratoria.
   * Sesión de seguimiento a la incorporación del feeback: Este espacio debes coordinarlo
     directamente con tu mentora/or y serás tu la responsable de establecer
     este contacto.
@@ -56,7 +54,6 @@ quién coordine todo para que suceda (en un apartado de más abajo te dejamos
 algunas recomendaciones). Esto lo hacemos para que la experiencia sea lo más
 parecida a la realidad.
 
-
 ## Coordinación de entrevistas de RH y Tech
 
 La coordinación de ambas entrevistas será a través de un correo como el que
@@ -74,6 +71,10 @@ Para que envíes el correo toma en cuenta las siguientes recomendaciones:
 - Demuestra tu proactividad proponiendo 2 o 3 posibles fechas y hora para
   realizar la sesión, tomando en cuenta los tiempos que te ha compartido el
   equipo para lograr este objetivo de aprendizaje.
+
+La vacante a la que estarás postulando es la que encuentras en este
+[link](https://docs.google.com/document/d/1AQMpRAisd8X1raxhYzW7mviCB1sN42Okg32_ewfgTDI/edit).
+Es importante que tengas encuenta lo que se describe para la simulación.
 
 ## Recuerda que el feedback es un regalo
 
