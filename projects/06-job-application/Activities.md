@@ -184,20 +184,9 @@
     </td>
     <td rowspan="2"><!-- aqui la fecha --></td>
     <td rowspan="2">
-      <b>Meet and greet + sesión revisión y feedback CV</b>
+      <b>Sesión de revisión y feedback de CV + LinkedIn</b>
       <p>
-        Este espacio será programado por el equipo de Laboratoria y se dividirá
-        en 2 momentos:
-        <ul>
-          <li>Dinámica para que conozcas a tu mentora/or.</li>
-          <li>Revisión y feedback de CV.</li>
-        </ul>
-      </p>
-      <b>Sesión revisión y feedback LinkedIn</b>
-      <p>
-        Este espacio lo coordinarás directamente con la mentora/or que ya
-        estuviste en la sesión anterior y serás la responsable de establecer
-        este contacto.
+        Este espacio será programado por el equipo de Laboratoria. 
       </p>
     </td>
     <td rowspan="2">
