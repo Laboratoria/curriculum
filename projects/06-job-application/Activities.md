@@ -1,13 +1,13 @@
 # Resumen del proyecto
 
-<table>
+<table style="vertical-align: top;">
   <tr>
     <td><b>Etapa</b></td>
     <td><b>Fechas</b></td>
-    <td><b>Subetapas</b></td>
+    <td width="30%"><b>Subetapas</b></td>
     <td><b>Recursos</b></td>
     <td><b>Entregable</b></td>
-    <td><b>Criterios de aceptación</b></td>
+    <td width="30%"><b>Criterios de aceptación</b></td>
   </tr>
   <tr>
     <td><b>Kick off</b></td>
