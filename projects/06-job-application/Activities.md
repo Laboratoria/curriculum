@@ -7,6 +7,7 @@
     <td><b>Subetapas</b></td>
     <td><b>Recursos</b></td>
     <td><b>Entregable</b></td>
+    <td><b>Criterios de aceptación</b></td>
   </tr>
   <tr>
     <td><b>Kick off</b></td>
@@ -30,6 +31,7 @@
         <li>Q&A Readme del proyecto</li>
       </ul>
     </td>
+    <td>NA</td>
     <td>NA</td>
   </tr>
   <tr>
@@ -69,11 +71,12 @@
       </ul>
     </td>
     <td>NA</td>
+    <td>NA</td>
   </tr>
   <tr>
     <td><!-- aqui la fecha --></td>
     <td>
-      <b>Preparación de CV y Linkedin</b>
+      <b>Preparación de CV y LinkedIn</b>
       <p>
         Trabajarás en una primera versión de tu CV y perfil de LinkedIn para
         recibir feedback de profesionales de la industria.
@@ -114,8 +117,11 @@
       </ul>
     </td>
     <td>
-      <li>Primera versión del CV + LinkedIn (fecha) </li>
-      <li>Segunda versión del CV + LinkedIn (fecha) </li>
+      <li>Borrador del CV</li>
+      <li>Perfil de LinkedIn</li>
+    </td>
+    <td>
+      NA
     </td>
   </tr>
   <tr>
@@ -148,6 +154,7 @@
       </ul>
     </td>
     <td>NA</td>
+    <td>NA</td>
   </tr>
   <tr>
     <td><!-- aqui la fecha --></td>
@@ -165,23 +172,19 @@
       </ul>
     </td>
     <td>NA</td>
+    <td>NA</td>
   </tr>
   <tr>
-    <td rowspan="4">
+    <td rowspan="5">
       <b>
         Sesiones de revisión de herramientas y simulación de entrevista RH
       </b>
     </td>
-    <td><!-- aqui la fecha --></td>
-    <td>
-      <b>Meet and greet + sesión revisión y feedback CV</b>
+    <td rowspan="2"><!-- aqui la fecha --></td>
+    <td rowspan="2">
+      <b>Sesión de revisión y feedback de CV + LinkedIn</b>
       <p>
-        Este espacio será programado por el equipo de Laboratoria y se dividirá
-        en 2 momentos:
-        <ul>
-          <li>Dinámica para que conozcas a tu mentora/or.</li>
-          <li>Revisión y feedback de CV.</li>
-        </ul>
+        Este espacio será programado por el equipo de Laboratoria. 
       </p>
     </td>
     <td rowspan="2">
@@ -189,20 +192,62 @@
         <li>Guía sesiones de mentoría (apartado en el read me)</li>
       </ul>
     </td>
-    <td>Segunda versión del CV con recomendaciones incorporadas.</td>
+    <td>Primera versión del CV</td>
+    <td>
+      <b>Estructura de CV</b>
+      <ul>
+          <li>La redacción es clara y concisa (no excede de más de 1 hoja)</li>
+          <li>Es de fácil lectura, usa tipografía y tamaño adecuados</li> 
+          <li>Tiene un diseño armónico</li>  
+          <li>El orden de experiencias académicas y profesionales estén de la más reciente a la más antigua</li>
+      </ul>
+      <b>Contenido de CV</b>
+      <ul>
+        <li>Mencionas tus experiencias académicas previas</li>
+        <li>Mencionas tu paso por el bootcamp de Laboratoria como experiencia educativa</li> 
+        <li>Mencionas los proyectos trabajados en bootcamp de Laboratoria y las - tecnologías que utilizó para desarrollarlos</li>
+        <li>Menciona sus experiencias laborales previas</li>
+        <li>Mencionas las habilidades técnicas y de vida con las que cuenta</li>
+        <li>Contiene un “about me” adecuado, claro, conciso, coherente con tu narrativa</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Perfil de LinkedIn con recomendaciones incorporadas.
+    </td>
+    <td>
+      <b>Contenido de LinkedIn</b>
+      <ul>
+        <li>La redacción es clara y concisa</li>
+        <li>La foto que elegiste muestra una imagen profesional y auténtica</li> 
+        <li>Mencionas tus experiencias académicas previas</li>
+        <li>Mencionas tu paso por el bootcamp de Laboratoria experiencia educativa</li> 
+        <li>Mencionas los proyectos trabajados en bootcamp de Laboratoria y las tecnologías</li> 
+        <li>Mencionas tus experiencias laborales previas</li>
+        <li>Mencionas las habilidades técnicas y de vida con las que cuenta</li>
+        <li>Contiene un “about me” adecuado, claro, conciso, coherente con tu narrativa</li>
+        <li>Incluyes otras secciones relevantes de información que suman a tu perfil</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td><!-- aqui la fecha --></td>
     <td>
-      <b>Sesión revisión y feedback LinkedIn</b>
+    <b>Sesión de seguimiento a la incorporación de feedback de CV + LinkedIn</b>
       <p>
-        Este espacio lo coordinarás directamente con la mentora/or que ya
-        estuviste en la sesión anterior y serás la responsable de establecer
-        este contacto.
+        Este espacio lo agendarás tú directamente con tu mentora/or. Es importante que vayas a la sesión con todos los ajustes que hayas hecho y que recuerdes a tu mentora/or que no se olvide de llenar el formulario de evaluación. 
       </p>
     </td>
     <td>
-      Actualización del perfil de LinkedIn con recomendaciones incorporadas.
+      Guía sesiones de mentoría (apartado en el read me).
+    </td>
+    <td>
+      <li>Segunda versión del CV</li>
+      <li>Perfil de LinkedIn con recomendaciones incorporadas.</li>
+    </td>
+    <td>
+      NA
     </td>
   </tr>
   <tr>
@@ -226,12 +271,42 @@
     <td>
       <ul>
         <li>
-          Feedback de entrevistadora/or sobre performance en
-          entrevista + CV + Linkedin.
+          Feedback de entrevistadora/or sobre 
+          entrevista y CV + LinkedIn.
         </li>
-        <li>Autoevaluación de performance en entrevista + CV + Linkedin.</li>
-        <li>Tercera versión de CV + perfil de LinkedIn con mejoras incorporadas</li>
+        <li>Autoevaluación de entrevista y de CV + LinkedIn.</li>
+        <li>Tercera versión de CV</li>
+        <li>Perfil de LinkedIn con mejoras incorporadas</li>
       </ul>
+    </td>
+    <td>
+      <b>Comunicación</b>
+      <ul>
+        <li>La estructura de mi pitch de presentación fue adecuado, claro, coherente con mi narrativa</li>
+        <li>Mostré seguridad al responder tanto en lo verbal como en tu lenguaje corporal</li> 
+        <li>Me comuniqué con fluidez y naturalidad</li> 
+      </ul>
+      <b>Presentación de tu perfil profesional</b>
+      <ul>
+        <li>Logré conectar mi background con el puesto al que simulé aplicar</li> 
+        <li>Durante la entrevista mencioné lo aprendido en Laboratoria</li>  
+        <li>Logré comunicar mi perfil como desarrolladora web</li>   
+        <li>Envié a tiempo y previo a la entrevista ambas herramientas</li> 
+        <li>La información que compartí en la entrevista coincide con la de mi CV y LinkedIn</li>
+      </ul>
+      <b>Fortalezas y áreas de mejora</b>
+      <ul>
+        <li>Logré identificar y comunicar mis fortalezas y áreas de mejora</li>
+      </ul>
+      <b>Habilidades y comportamientos profesionales</b>
+      <ul>
+        <li>Puntualidad</li>
+        <li>Cumplimiento de acuerdos</li> 
+        <li>Compartiste dificultades y/o pidiste ayuda de forma proactiva</li> 
+        <li>Llegaste con material y/o trabajo previo a las sesiones</li> 
+        <li>Articulaste pensamientos e ideas con claridad</li> 
+        <li>Te mostraste abierta al feedback e intentaste incorporarlo</li>    
+      <ul>
     </td>
   </tr>
   <tr>
@@ -248,6 +323,7 @@
         <li>Prework de retrospectiva por confirmar</li>
       </ul>
     </td>
+    <td>NA</td>
     <td>NA</td>
   </tr>
   <tr>
@@ -268,6 +344,7 @@
         <li>Guía de sesiones de preparación (apartado en el read me).</li>
       </ul>
     </td>
+    <td>NA</td>
     <td>NA</td>
   </tr>
   <tr>
@@ -295,7 +372,8 @@
         </li>
       </ul>
     </td>
-    <td>Primera versión del perfil de GitHub (fecha)</td>
+    <td>Perfil de GitHub</td>
+    <td>NA</td>
   </tr>
   <tr>
     <td rowspan="3">
@@ -324,6 +402,7 @@
       </ul>
     </td>
     <td>NA</td>
+    <td>NA</td>
   </tr>
   <tr>
     <td><!-- aqui la fecha --></td>
@@ -348,14 +427,36 @@
       <ul>
         <li>
           Feedback de entrevistadorx sobre performance en
-          entrevista + perfil de GitHub.
+          entrevista y sobre el perfil de GitHub.
         </li>
         <li>
-          Autoevaluación de performance en entrevista + perfil de GitHub.
+          Autoevaluación de entrevista del perfil de GitHub.
         </li>
         <li>
-          Segunda versión del perfil de GitHub con recomendaciones incorporadas.
+          Perfil de GitHub con recomendaciones incorporadas.
         </li>
+      </ul>
+    </td>
+    <td>
+      <b>Preguntas Conceptuales</b>
+      <ul>
+        <li>¿Cómo evaluarías tu respuesta a las preguntas conceptuales?</li> 
+      </ul>
+      <b>Ejercicios</b>
+      <ul>
+        <li>¿Cómo evaluarías tu desempeño en el primer ejercicio?</li> 
+        <li>¿Cómo  valuarías tu desempeño en el segundo ejercicio?</li>
+      </ul> 
+      <b>Razonamiento y comunicación</b>
+      <ul>
+        <li>¿Compartiste tu razonamiento y estrategias de solución de forma oportuna y asertiva? ¿Articulaste tus pensamientos e ideas con claridad?</li>
+        <li>¿Compartiste tus dificultades y/o pediste ayuda de forma proactiva durante la entrevista?</li>
+      </ul>
+      <b>Habilidades y comportamientos profesionales</b>
+      <ul>
+        <li>Estuviste predispuesta y proactiva para la coordinación de la entrevista</li>
+        <li>Llegaste puntual</li>
+        <li>Enviaste a tiempo y previo a la entrevista tu CV y tu perfil de Github</li>
       </ul>
     </td>
   </tr>
@@ -375,6 +476,7 @@
       </ul>
     </td>
     <td>NA</td>
+    <td>NA</td>
   </tr>
   <tr>
     <td><b>Project Feedback</b></td>
@@ -382,10 +484,7 @@
     <td>
       <b>Project Feedback:</b>
       <p>
-        Al finalizar el proyecto de manera grupal o individual tendremos algunos
-        espacios de reflexión sobre tu
-        experiencia. Esto sucederá en distintos momentos que se alinean a otros
-        objetivos de BC (ej. 1:1 o bootcamp feedbacks)
+        Al finalizar el proyecto recibirás ya sea de forma asíncrona o síncrona 2 tipos de feedbacks, 1) RH, por BM y/o CDP 2)Tech, por un coach en la sesión de Bootcamp Feedback. 
       </p>
     </td>
     <td>
@@ -399,5 +498,9 @@
         <li>Listado de accionables</li>
       </ul>
     </td>
+    <td>
+      NA
+    </td>
   </tr>
 </table>
+
