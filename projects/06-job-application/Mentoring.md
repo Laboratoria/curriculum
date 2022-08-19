@@ -56,6 +56,7 @@ quién coordine todo para que suceda (en un apartado de más abajo te dejamos
 algunas recomendaciones). Esto lo hacemos para que la experiencia sea lo más
 parecida a la realidad.
 
+
 ## Coordinación de entrevistas de RH y Tech
 
 La coordinación de ambas entrevistas será a través de un correo como el que
