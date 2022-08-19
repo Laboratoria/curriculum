@@ -76,7 +76,7 @@
   <tr>
     <td><!-- aqui la fecha --></td>
     <td>
-      <b>Preparación de CV y Linkedin</b>
+      <b>Preparación de CV y LinkedIn</b>
       <p>
         Trabajarás en una primera versión de tu CV y perfil de LinkedIn para
         recibir feedback de profesionales de la industria.
@@ -121,9 +121,7 @@
       <li>Perfil de LinkedIn</li>
     </td>
     <td>
-      CRITERIOS
-      <li>Primera versión del CV + LinkedIn (fecha) </li>
-      <li>Segunda versión del CV + LinkedIn (fecha) </li>
+      NA
     </td>
   </tr>
   <tr>
@@ -177,7 +175,7 @@
     <td>NA</td>
   </tr>
   <tr>
-    <td rowspan="4">
+    <td rowspan="5">
       <b>
         Sesiones de revisión de herramientas y simulación de entrevista RH
       </b>
@@ -236,16 +234,20 @@
   <tr>
     <td><!-- aqui la fecha --></td>
     <td>
-      NUEVO ESPACIO
+    <b>Sesión de seguimiento a la incorporación de feedback de CV + LinkedIn</b>
+      <p>
+        Este espacio lo agendarás tú directamente con tu mentora/or. Es importante que vayas a la sesión con todos los ajustes que hayas hecho y que recuerdes a tu mentora/or que no se olvide de llenar el formulario de evaluación. 
+      </p>
     </td>
     <td>
-      NUEVO ESPACIO
+      Guía sesiones de mentoría (apartado en el read me).
     </td>
     <td>
-      NUEVO ESPACIO
+      <li>Segunda versión del CV</li>
+      <li>Perfil de LinkedIn con recomendaciones incorporadas.</li>
     </td>
     <td>
-      NUEVO ESPACIO
+      NA
     </td>
   </tr>
   <tr>
@@ -270,10 +272,11 @@
       <ul>
         <li>
           Feedback de entrevistadora/or sobre 
-          entrevista y CV + Linkedin.
+          entrevista y CV + LinkedIn.
         </li>
         <li>Autoevaluación de entrevista y de CV + LinkedIn.</li>
-        <li>Segunda versión de CV y perfil de LinkedIn con mejoras incorporadas</li>
+        <li>Tercera versión de CV</li>
+        <li>Perfil de LinkedIn con mejoras incorporadas</li>
       </ul>
     </td>
     <td>
@@ -481,10 +484,7 @@
     <td>
       <b>Project Feedback:</b>
       <p>
-        Al finalizar el proyecto de manera grupal o individual tendremos algunos
-        espacios de reflexión sobre tu
-        experiencia. Esto sucederá en distintos momentos que se alinean a otros
-        objetivos de BC (ej. 1:1 o bootcamp feedbacks)
+        Al finalizar el proyecto recibirás ya sea de forma asíncrona o síncrona 2 tipos de feedbacks, 1) RH, por BM y/o CDP 2)Tech, por un coach en la sesión de Bootcamp Feedback. 
       </p>
     </td>
     <td>
