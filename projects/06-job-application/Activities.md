@@ -236,6 +236,21 @@
   <tr>
     <td><!-- aqui la fecha --></td>
     <td>
+      NUEVO ESPACIO
+    </td>
+    <td>
+      NUEVO ESPACIO
+    </td>
+    <td>
+      NUEVO ESPACIO
+    </td>
+    <td>
+      NUEVO ESPACIO
+    </td>
+  </tr>
+  <tr>
+    <td><!-- aqui la fecha --></td>
+    <td>
       <b>Simulación de entrevista RH</b>
       <p>
         Este espacio lo tendrás con una persona distinta a la de las sesiones
