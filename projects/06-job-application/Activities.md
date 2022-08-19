@@ -186,12 +186,6 @@
       <p>
         Este espacio será programado por el equipo de Laboratoria.
       </p>
-      <b>Sesión revisión y feedback LinkedIn</b>
-      <p>
-        Este espacio lo coordinarás directamente con la mentora/or que ya
-        estuviste en la sesión anterior y serás la responsable de establecer
-        este contacto.
-      </p>
     </td>
     <td rowspan="2">
       <ul>
