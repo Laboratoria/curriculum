@@ -249,19 +249,6 @@
     <td>
       NA
     </td>
-    <td>
-      <b>Contenido de LinkedIn</b>
-        <p>
-          <li>La redacción es clara y concisa</li>
-          <li>La foto que elegiste muestra una imagen profesional y auténtica</li>
-          <li>Mencionas tus experiencias académicas previas</li>
-          <li>Mencionas tu paso por el bootcamp de Laboratoria experiencia educativa</li>
-          <li>Mencionas los proyectos trabajados en bootcamp de Laboratoria y las tecnologías</li>
-          <li>Mencionas tus experiencias laborales previas</li>
-          <li>Mencionas las habilidades técnicas y de vida con las que cuenta</li>
-          <li>Contiene un “about me” adecuado, claro, conciso, coherente con tu narrativa</li>
-          <li>Incluyes otras secciones relevantes de información que suman a tu perfil</li>
-    </td>
   </tr>
   <tr>
     <td><!-- aqui la fecha --></td>
