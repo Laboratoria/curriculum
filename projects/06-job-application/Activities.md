@@ -120,7 +120,10 @@
       <li>Borrador del CV</li>
       <li>Perfil de LinkedIn</li>
     </td>
-    <td>NA</td>
+    <td>
+      CRITERIOS
+      <li>Primera versión del CV + LinkedIn (fecha) </li>
+      <li>Segunda versión del CV + LinkedIn (fecha) </li>
     </td>
   </tr>
   <tr>
@@ -199,21 +202,22 @@
     <td>Primera versión del CV</td>
     <td>
       <b>Estructura de CV</b>
-        <p>
-      <li>La redacción es clara y concisa (no excede de más de 1 hoja)</li>
-      <li>Es de fácil lectura, usa tipografía y tamaño adecuados</li> 
-      <li>Tiene un diseño armónico</li>  
-      <li>El orden de experiencias académicas y profesionales estén de la más reciente a la más antigua</li>
-     <br>
+      <ul>
+          <li>La redacción es clara y concisa (no excede de más de 1 hoja)</li>
+          <li>Es de fácil lectura, usa tipografía y tamaño adecuados</li> 
+          <li>Tiene un diseño armónico</li>  
+          <li>El orden de experiencias académicas y profesionales estén de la más reciente a la más antigua</li>
+      </ul>
       <b>Contenido de CV</b>
-        <p>
-      <li>Mencionas tus experiencias académicas previas</li>
-      <li>Mencionas tu paso por el bootcamp de Laboratoria como experiencia educativa</li> 
-      <li>Mencionas los proyectos trabajados en bootcamp de Laboratoria y las - tecnologías que utilizó para desarrollarlos</li>
-      <li>Menciona sus experiencias laborales previas</li>
-      <li>Mencionas las habilidades técnicas y de vida con las que cuenta</li>
-      <li>Contiene un “about me” adecuado, claro, conciso, coherente con tu narrativa</li>
-     
+      <ul>
+        <li>Mencionas tus experiencias académicas previas</li>
+        <li>Mencionas tu paso por el bootcamp de Laboratoria como experiencia educativa</li> 
+        <li>Mencionas los proyectos trabajados en bootcamp de Laboratoria y las - tecnologías que utilizó para desarrollarlos</li>
+        <li>Menciona sus experiencias laborales previas</li>
+        <li>Mencionas las habilidades técnicas y de vida con las que cuenta</li>
+        <li>Contiene un “about me” adecuado, claro, conciso, coherente con tu narrativa</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td><!-- aqui la fecha --></td>
@@ -230,16 +234,17 @@
     </td>
     <td>
       <b>Contenido de LinkedIn</b>
-        <p>
-          <li>La redacción es clara y concisa</li>
-          <li>La foto que elegiste muestra una imagen profesional y auténtica</li> 
-          <li>Mencionas tus experiencias académicas previas</li>
-          <li>Mencionas tu paso por el bootcamp de Laboratoria experiencia educativa</li> 
-          <li>Mencionas los proyectos trabajados en bootcamp de Laboratoria y las tecnologías</li> 
-          <li>Mencionas tus experiencias laborales previas</li>
-          <li>Mencionas las habilidades técnicas y de vida con las que cuenta</li>
-          <li>Contiene un “about me” adecuado, claro, conciso, coherente con tu narrativa</li>
-          <li>Incluyes otras secciones relevantes de información que suman a tu perfil</li> 
+      <ul>
+        <li>La redacción es clara y concisa</li>
+        <li>La foto que elegiste muestra una imagen profesional y auténtica</li> 
+        <li>Mencionas tus experiencias académicas previas</li>
+        <li>Mencionas tu paso por el bootcamp de Laboratoria experiencia educativa</li> 
+        <li>Mencionas los proyectos trabajados en bootcamp de Laboratoria y las tecnologías</li> 
+        <li>Mencionas tus experiencias laborales previas</li>
+        <li>Mencionas las habilidades técnicas y de vida con las que cuenta</li>
+        <li>Contiene un “about me” adecuado, claro, conciso, coherente con tu narrativa</li>
+        <li>Incluyes otras secciones relevantes de información que suman a tu perfil</li>
+      </ul>
     </td>
   </tr>
   <tr>
@@ -271,32 +276,34 @@
       </ul>
     </td>
     <td>
-    <b>Comunicación</b>
-        <p>
+      <b>Comunicación</b>
+      <ul>
         <li>La estructura de mi pitch de presentación fue adecuado, claro, coherente con mi narrativa</li>
         <li>Mostré seguridad al responder tanto en lo verbal como en tu lenguaje corporal</li> 
         <li>Me comuniqué con fluidez y naturalidad</li> 
-       <br>
-    <b>Presentación de tu perfil profesional</b>
-       <p>
-       <li>Logré conectar mi background con el puesto al que simulé aplicar</li> 
-       <li>Durante la entrevista mencioné lo aprendido en Laboratoria</li>  
-       <li>Logré comunicar mi perfil como desarrolladora web</li>   
-       <li>Envié a tiempo y previo a la entrevista ambas herramientas</li> 
-       <li>La información que compartí en la entrevista coincide con la de mi CV y LinkedIn</li>
-      <br>
-    <b>Fortalezas y áreas de mejora</b>
-     <p>
-     <li>Logré identificar y comunicar mis fortalezas y áreas de mejora</li>
-      <br>
-     <b>Habilidades y comportamientos profesionales</b>
-        <p>
+      </ul>
+      <b>Presentación de tu perfil profesional</b>
+      <ul>
+        <li>Logré conectar mi background con el puesto al que simulé aplicar</li> 
+        <li>Durante la entrevista mencioné lo aprendido en Laboratoria</li>  
+        <li>Logré comunicar mi perfil como desarrolladora web</li>   
+        <li>Envié a tiempo y previo a la entrevista ambas herramientas</li> 
+        <li>La información que compartí en la entrevista coincide con la de mi CV y LinkedIn</li>
+      </ul>
+      <b>Fortalezas y áreas de mejora</b>
+      <ul>
+        <li>Logré identificar y comunicar mis fortalezas y áreas de mejora</li>
+      </ul>
+      <b>Habilidades y comportamientos profesionales</b>
+      <ul>
         <li>Puntualidad</li>
         <li>Cumplimiento de acuerdos</li> 
         <li>Compartiste dificultades y/o pidiste ayuda de forma proactiva</li> 
         <li>Llegaste con material y/o trabajo previo a las sesiones</li> 
         <li>Articulaste pensamientos e ideas con claridad</li> 
         <li>Te mostraste abierta al feedback e intentaste incorporarlo</li>    
+      <ul>
+    </td>
   </tr>
   <tr>
     <td><!-- aqui la fecha --></td>
@@ -362,8 +369,6 @@
       </ul>
     </td>
     <td>Perfil de GitHub</td>
-     </ul>
-    </td>
     <td>NA</td>
   </tr>
   <tr>
@@ -429,24 +434,25 @@
       </ul>
     </td>
     <td>
-        <b>Preguntas Conceptuales</b>
-        <p>
+      <b>Preguntas Conceptuales</b>
+      <ul>
         <li>¿Cómo evaluarías tu respuesta a las preguntas conceptuales?</li> 
-       <br>
-       <b>Ejercicios</b>
-       <p>
-       <li>¿Cómo evaluarías tu desempeño en el primer ejercicio?</li> 
-       <li>¿Cómo  valuarías tu desempeño en el segundo ejercicio?</li>
-       <br> 
-       <b> Razonamiento y comunicación</b>
-       <p>
-       <li>¿Compartiste tu razonamiento y estrategias de solución de forma oportuna y asertiva? ¿Articulaste tus pensamientos e ideas con claridad?</li>
-       <li>¿Compartiste tus dificultades y/o pediste ayuda de forma proactiva durante la entrevista?</li>
-       <br>
-       <b>Habilidades y comportamientos profesionales</b>
-       <li>Estuviste predispuesta y proactiva para la coordinación de la entrevista</li>
-       <li>Llegaste puntual</li>
-       <li>Enviaste a tiempo y previo a la entrevista tu CV y tu perfil de Github</li>
+      </ul>
+      <b>Ejercicios</b>
+      <ul>
+        <li>¿Cómo evaluarías tu desempeño en el primer ejercicio?</li> 
+        <li>¿Cómo  valuarías tu desempeño en el segundo ejercicio?</li>
+      </ul> 
+      <b>Razonamiento y comunicación</b>
+      <ul>
+        <li>¿Compartiste tu razonamiento y estrategias de solución de forma oportuna y asertiva? ¿Articulaste tus pensamientos e ideas con claridad?</li>
+        <li>¿Compartiste tus dificultades y/o pediste ayuda de forma proactiva durante la entrevista?</li>
+      </ul>
+      <b>Habilidades y comportamientos profesionales</b>
+      <ul>
+        <li>Estuviste predispuesta y proactiva para la coordinación de la entrevista</li>
+        <li>Llegaste puntual</li>
+        <li>Enviaste a tiempo y previo a la entrevista tu CV y tu perfil de Github</li>
       </ul>
     </td>
   </tr>
@@ -492,15 +498,8 @@
       </ul>
     </td>
     <td>
-        <b>Objetivos de aprendizaje</b>
-        <p>
-        <li>Entiendo cómo se vive en términos generales un proceso de selección en la industria. Qué etapas tiene y en qué consiste cada una.</li>
- <li>Entiendo qué es y para qué sirve mi CV en el contexto de un proceso de búsqueda de trabajo en la industria tech.</li>
- <li>Entiendo qué es y para qué sirve mi perfil de LinkedIn en este contexto.</li>
- <li>Entiendo qué es y para qué sirve mi perfil de Github en este contexto.</li>
- <li>Identifico las life skills que son fortalezas y áreas de mejora para mi participación en procesos de selección en la industria.</li>
- <li>Identifico las habilidades técnicas que son fortalezas y áreas de mejora para mi participación en procesos de selección en la industria.</li>
-      </ul>
+      NA
     </td>
   </tr>
 </table>
+
