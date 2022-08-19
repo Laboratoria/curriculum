@@ -182,8 +182,8 @@
         Sesiones de revisión de herramientas y simulación de entrevista RH
       </b>
     </td>
-    <td><!-- aqui la fecha --></td>
-    <td>
+    <td rowspan="2"><!-- aqui la fecha --></td>
+    <td rowspan="2">
       <b>Meet and greet + sesión revisión y feedback CV</b>
       <p>
         Este espacio será programado por el equipo de Laboratoria y se dividirá
@@ -192,6 +192,12 @@
           <li>Dinámica para que conozcas a tu mentora/or.</li>
           <li>Revisión y feedback de CV.</li>
         </ul>
+      </p>
+      <b>Sesión revisión y feedback LinkedIn</b>
+      <p>
+        Este espacio lo coordinarás directamente con la mentora/or que ya
+        estuviste en la sesión anterior y serás la responsable de establecer
+        este contacto.
       </p>
     </td>
     <td rowspan="2">
@@ -220,15 +226,6 @@
     </td>
   </tr>
   <tr>
-    <td><!-- aqui la fecha --></td>
-    <td>
-      <b>Sesión revisión y feedback LinkedIn</b>
-      <p>
-        Este espacio lo coordinarás directamente con la mentora/or que ya
-        estuviste en la sesión anterior y serás la responsable de establecer
-        este contacto.
-      </p>
-    </td>
     <td>
       Perfil de LinkedIn con recomendaciones incorporadas.
     </td>
