@@ -1,5 +1,18 @@
 # Mentorías de personas externas a Laboratoria
 
+### Objetivos de aprendizaje
+Recuerda que las mentorías está asociadas a un grupo de objetivos de aprendizaje del proyecto. Te recordamos cuáles son para que no los pierdas de vista y te guíen en el paso por cada espacio:
+ - [ ] Entiendo cómo se vive en términos generales un proceso de selección en la
+  industria. Qué etapas tiene y en qué consiste cada una.
+- [ ] Entiendo qué es y para qué sirve mi CV en el contexto de un proceso de
+  búsqueda de trabajo en la industria tech.
+- [ ] Entiendo qué es y para qué sirve mi perfil de LinkedIn en este contexto.
+- [ ] Entiendo qué es y para qué sirve mi perfil de Github en este contexto.
+- [ ] Identifico las life skills que son fortalezas y áreas de mejora para mi
+  participación en procesos de selección en la industria.
+- [ ] Identifico las habilidades técnicas que son fortalezas y áreas de mejora
+  para mi participación en procesos de selección en la industria.
+
 ## Mentorías de Recursos Humanos
 
 En estas mentorías tendrás vínculo con personas de la industria que tienen
@@ -38,6 +51,7 @@ entrevistará también nos compartirá feedback sobre tu perfil de GitHub. Será
 quién coordine todo para que suceda (en un apartado de más abajo te dejamos
 algunas recomendaciones). Esto lo hacemos para que la experiencia sea lo más
 parecida a la realidad.
+
 
 ## Coordinación de entrevistas de RH y Tech
 
