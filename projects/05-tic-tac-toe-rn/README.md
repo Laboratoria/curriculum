@@ -50,18 +50,23 @@ JavaScript y React para componer nuestra interfaz.
 Nuestro público objetivo en este caso son niños en edad pre-escolar, así que el
 juego debe ser simple, intuitivo, con botones grandes, poco o nada de texto, ...
 
-## 3. Objetivos de aprendizaje
-
 El objetivo principal de aprendizaje es tener una primera experiencia en
 desarrollo de aplicaciones nativas con React Native.
 
 En este proyecto tendrás que construir una aplicación usando React Native y
 Expo, y publicarla en tu cuenta de Expo, para que se pueda instalar en cualquier
-dispositivo Android o iOS.
-
-Para completar el proyecto tendrás que familiarizarte con conceptos como `View`,
-`Text` o `TouchableOpacity`, además del flujo de desarrollo propio de apps
+dispositivo Android o iOS. Para completar el proyecto tendrás que familiarizarte con conceptos como `View`, `Text` o `TouchableOpacity`, además del flujo de desarrollo propio de apps
 nativas.
+
+## 3. Objetivos de aprendizaje
+
+> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
+> al crear el repo del proyecto para un cohort en particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
+> que contempla nuestra currícula.
 
 ## 4. Consideraciones generales
 
