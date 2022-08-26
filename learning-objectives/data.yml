@@ -58,42 +58,43 @@ js:
     # - async/await
     # - streams
 
-a11y:
-  - perceivable:
-    - level-A
-    - level-AA
-  - operable:
-    - level-A
-    - level-AA
-  - understandable:
-    - level-A
-    - level-AA
-  - robust:
-    - level-A
-    - level-AA
-  - testing: 
-    - audit
-    - assistive-technologies
+# a11y:
+#   - perceivable:
+#     - level-A
+#     - level-AA
+#   - operable:
+#     - level-A
+#     - level-AA
+#   - understandable:
+#     - level-A
+#     - level-AA
+#   - robust:
+#     - level-A
+#     - level-AA
+#   - testing: 
+#     - audit
+#     - assistive-technologies
 
 # another form of grouping with principales and guidelines
-# a11y:
-# - perceivable:
-#   - text-alternatives
-#   - time-based-media
-#   - adaptable-content
-#   - distinguishable-content
-# - operable:
-#   - keyboard-accessible
-#   - enough-time
-#   - seizures-physical-reactions
-#   - navigable 
-#   - input-modalities
-# - understandable:
-#   - readable
-#   - predictable
-#   - input-assistance
-# - robust:
-#   - compatible
+a11y:
+- testing
+- perceivable:
+  - text-alternatives
+  - time-based-media
+  - adaptable-content
+  - distinguishable-content
+- operable:
+  - keyboard-accessible
+  - enough-time
+  - seizures-physical-reactions
+  - navigable 
+  - input-modalities
+- understandable:
+  - readable
+  - predictable
+  - input-assistance
+- robust:
+  - compatible
 
 # another form of grouping with principales and criteria
 # - a11y:
