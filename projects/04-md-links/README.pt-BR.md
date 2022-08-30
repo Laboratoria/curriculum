@@ -84,9 +84,13 @@ peculiaridades da linguagem, convenções e boas práticas.
 
 * Neste projeto não é permitido utilizar `async/await`.
 
+* Para este projeto, **não é permitido** o uso do `readFileSync`.
+
 * Para este projeto é opcional o uso de ES modules `(import/export)`. Caso
   você decida utilizá-lo deverá criar um script de `build` no `package.json`
   para que seja transformado em `requires` e `module.exports` com ajuda do Babel.
+
+* Para simplificar a recorrência, recomendamos o uso do `readdirSync`.
 
 ## 5. Critérios de aceitação mínimos do projeto
 
@@ -436,6 +440,8 @@ um caminho fixo e imprimir seu conteúdo no console com um `console.log`.
 
 A biblioteca nativa `FS` (FileSystem) será útil para você.
 
+**Lembrar**: não é permitido o uso do `readFileSync`.
+
 ### Descobrir a extensão de um arquivo
 
 Já sabendo ler um arquivo, aventure-se em saber qual
@@ -454,6 +460,8 @@ você deve primeiro ser capaz de vê-los.
 Tenta imprimir para console a lista de arquivos em uma pasta.
 
 A biblioteca `FS` também será útil aqui.
+
+**Lembrar**: não é permitido o uso do `readFileSync`.
 
 ### Definir rotas
 

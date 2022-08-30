@@ -84,9 +84,13 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
 * Para este proyecto **no está permitido** utilizar `async/await`.
 
+* Para este proyecto **no está permitido** utilizar `readFileSync`.
+
 * Para este proyecto es **opcional** el uso de ES Modules `(import/export)`, en el
   caso optes utilizarlo deberás de crear un script de `build` en el `package.json`
   que los transforme en `requires` y `module.exports` con ayuda de **babel**.
+
+* Para simplificar la recursividad, te recomendamos usar `readdirSync`.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
@@ -425,6 +429,8 @@ una ruta fija e imprimir su contenido en la consola con un `console.log`.
 
 La librería nativa `FS` (FileSystem) te será de utilidad.
 
+**Recuerda**: no esta permitido usar `readFileSync`.
+
 ### Averigua la extensión de un archivo
 
 Ya sabiendo leer un archivo, aventúrate a conocer cual
@@ -443,6 +449,9 @@ primero debes poder verlos.
 Intenta imprimir en consola la lista de archivos en una carpeta.
 
 La librería `FS` también te será útil aquí.
+
+**Recuerda**: Para simplificar a recorrência, recomendamos
+que você usando `readdirSync`.
 
 ### Une dos rutas
 
