@@ -238,6 +238,8 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
 ### Recursos y temas relacionados
 
+Súmate al canal de Slack [#project-cipher](https://claseslaboratoria.slack.com/archives/C03LJSH6R7D)
+
 A continuación un video de Michelle que te lleva a través de la fórmula
 matemática del Cifrado César y un par de cosas más que debes saber para
 resolver este proyecto. ¡Escúchala con detenimiento y sigue sus consejos! :)

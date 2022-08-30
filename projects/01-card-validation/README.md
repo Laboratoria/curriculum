@@ -242,6 +242,8 @@ El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
 
 ### Recursos y temas relacionados
 
+Súmate al canal de Slack [#project-card-validation](https://claseslaboratoria.slack.com/archives/C03LXJ10WJD)
+
 A continuación un video de Michelle que te lleva a través del algoritmo de Luhn
 y un par de cosas más que debes saber para resolver este proyecto. ¡Escúchala
 con detenimiento y sigue sus consejos! :)
