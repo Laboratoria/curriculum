@@ -13,7 +13,7 @@
 ## Enunciados
 
 Aqui estão alguns exercícios para você praticar, sugerimos que tenta resolver
-eles sozinha ou em grupo. Assim, você ficará familizariada com os desafios. E
+eles sozinha ou em grupo. Assim, você ficará familiarizada com os desafios. E
 se quiser pode apresentar a sua solução para a sala e ajudar as suas
 companheiras 😁
 
@@ -31,7 +31,7 @@ Agora que você sabe fazer uma grid no desktop, vamos fazer um desafio mais
 divertido. Apresentamos três desafios. Em cada imagem, verá duas versões:
 desktop (à esquerda) e mobile (à direita).
 
-Replique a estrutura dektop e modifique-a para mobile como a imagem indica. Você
+Replique a estrutura desktop e modifique-a para mobile como a imagem indica. Você
 consegue!
 
 ![desktop a

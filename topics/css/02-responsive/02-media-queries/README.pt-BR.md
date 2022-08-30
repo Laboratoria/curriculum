@@ -81,7 +81,7 @@ maximum-scale=1">
 
 Suas propriedades são as seguintes:
 
-- **width**: controla a largura da área de visualização. Pode ser incializada
+- **width**: controla a largura da área de visualização. Pode ser inicializada
   com um número fixo de pixels ou com o valor especial `device-width` que indica
   a largura total do dispositivo em pixels, em uma escala de 100%.
 

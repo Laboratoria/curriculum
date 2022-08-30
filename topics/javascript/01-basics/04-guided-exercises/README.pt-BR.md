@@ -4,7 +4,7 @@
 - Formato: `self-paced`
 - Duración: `60min`
 
-## Objetivos de Aprendizajem
+## Objetivos de Aprendizagem
 
 - Solidificar os conceitos de variáveis e tipos de dados resolvendo exercícios
   práticos.

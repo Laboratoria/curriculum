@@ -42,7 +42,7 @@ maneira de implementar.
 
 Uma das tarefas mais comuns da programação web com JavaScript consiste em
 manipular as páginas web. Desta forma, é comum obter o valor armazenado em
-alguns elementos (por exemplo os elementos de um formário), criar um elemento
+alguns elementos (por exemplo os elementos de um formulário), criar um elemento
 (`<p>`, `<div>`) de forma dinâmica e adicionar ele na página, inserir uma
 animação com um elemento (fazer aparecer e desaparecer, fazer se mover, etc).
 
@@ -50,7 +50,7 @@ Todas essas tarefas comuns são muito simples de realizar graças ao `DOM`, sem
 dificuldades, para poder realizar estas tarefas é necessário "transformar" a
 página original.
 
-Uma página `HTML` não é mais do que uma seqüência de caracateres, por isso que é
+Uma página `HTML` não é mais do que uma sequência de caracteres, por isso que é
 um formato difícil de manipular, os navegadores web (Chrome, Mozilla, IE, etc)
 transformam automaticamente todas as páginas web em uma estrutura mais eficiente
 de manipular.
@@ -184,7 +184,7 @@ Existem outros tipos de nós que não vamos mostrar aqui, como por exemplo:
 ## Relação entre nós
 
 Os nós do `DOM` se relacionam entre si, tendo em conta quem é o nós pai, quem
-são os irmão e filhos. Assim como você tem irmãos, pais e filhoes, **todos os
+são os irmão e filhos. Assim como você tem irmãos, pais e filhos, **todos os
 nós do DOM também tem alguma relação familiar**.
 
 ### Analisemos esta imagem

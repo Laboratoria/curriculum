@@ -196,6 +196,16 @@ mínimo del 50% de _branches_ (ramas).
 
 ***
 
+#### Deploy
+
+Hacer que los sitios estén publicados (o _desplegados_) para que usuarias de
+la web puedan acceder a él es algo común en proyectos de desarrollo de software.
+
+En este proyecto, utilizaremos _Github Pages_ para desplegar nuestro sitio web.
+
+El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
+ consultar su [documentación oficial](https://docs.github.com/es/pages).
+
 ## 6. Pistas, tips y lecturas complementarias
 
 ### Primeros pasos

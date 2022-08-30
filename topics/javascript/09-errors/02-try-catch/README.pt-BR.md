@@ -95,7 +95,7 @@ instruções no bloco `catch` atribuirão à variável `monthName` o valor de
 
 ```js
 function getMonthName (mo) {
-  mo = mo - 1; // Ajusta o índice do array para o aray de meses (1=Jan, 12=Dec)
+  mo = mo - 1; // Ajusta o índice do array para o array de meses (1=Jan, 12=Dec)
   const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul',
                 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   if (months[mo] != null) {
@@ -120,7 +120,7 @@ Um bloco `catch` é utilizado para tratar todas as exceções que possam ser
 geradas no bloco `try`.
 
 O bloco `catch` especifica um identificador (catchID na sintaxe anterior) que
-mantem o valor especificado pela sentença `throw`; este identificador pode ser
+mantém o valor especificado pela sentença `throw`; este identificador pode ser
 utilizado para obter informações a respeito da exceção gerada. O JavaScript cria
 este identificador ao entrar no bloco `catch`; o identificador se mantém na
 duração do bloco `catch`; após o término da execução do bloco `catch`, o

@@ -54,7 +54,7 @@ proporcionado por um `prompt()` produzindo um quadrado com as medidas indicadas.
 
 ## Gabaritos
 
-A seguir, o Rafael irá te explicar como ele resolveu cada um dos exerícios
+A seguir, o Rafael irá te explicar como ele resolveu cada um dos exercícios
 anteriores.
 
 ### 1. FizzBuzz: Gabarito

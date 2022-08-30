@@ -18,9 +18,9 @@ Você deve subir todos os seus exercícios no `GitHub` e publicá-los nas
 
 ### *Pokedex*
 
-Alguma vez você viu Pokemón? Se não, não importa, agora você vai saber do que se
-trata. Um *pokedex* é um buscador de Pokemóns, no qual você pode obter a
-informação sobre o Pokemón que estiver procurando. Usando a [API de
+Alguma vez você viu Pokemon? Se não, não importa, agora você vai saber do que se
+trata. Um *pokedex* é um buscador de Pokemons, no qual você pode obter a
+informação sobre o Pokemon que estiver procurando. Usando a [API de
 Pokeapi](https://pokeapi.co/), programe seu próprio *pokedex*. Deixamos aqui
 alguns slides com instruções um pouco mais detalhadas. Lembre-se de não se
 limitar e ir além do que foi proposto ;)

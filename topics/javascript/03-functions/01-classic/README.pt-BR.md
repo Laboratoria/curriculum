@@ -25,7 +25,7 @@ quadrado de um dado número:
 
 Funções são valores que podem ser chamados (invocados). Uma maneira de definir
 uma função é chamada uma `function declaration` ou `declaração de função`. Por
-exemplo, o código a seguir define uma função `id` que possue um parâmetro
+exemplo, o código a seguir define uma função `id` que possui um parâmetro
 simples `x`:
 
 ```js

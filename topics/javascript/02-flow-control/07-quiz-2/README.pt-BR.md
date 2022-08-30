@@ -169,9 +169,9 @@ for (let i = 0; i <= 10; i++) {
 1. Imprime os números inteiros do 0 a 10 (inclusive)
 2. Imprime os números inteiros do 1 ao 10 (inclusive)
 3. Imprime os números inteiros do 0 ao 10 (inclusive) e depois imprime o número
-   0 denovo
+   0 de novo
 4. Imprime os números inteiros do 1 ao 10 (inclusive) e depois imprime o número
-   0 denovo
+   0 de novo
 
 <solution style="display:none;">2</solution>
 

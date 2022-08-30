@@ -62,7 +62,7 @@ sempre `true`, então entra em um `infinite loop` (laço infinito).
 while (1 === 1) { }
 ```
 
-No próximo exemplo, eliminamos todos os elemnto do `array` e os mostramos no
+No próximo exemplo, eliminamos todos os elemento do `array` e os mostramos no
 console:
 
 ```js
@@ -92,7 +92,7 @@ do {
 } while (condition);
 ```
 
-Executa os `statements` pelo menos uma vez e continua equanto a condição for
+Executa os `statements` pelo menos uma vez e continua enquanto a condição for
 satisfeita. Por exemplo:
 
 ```js

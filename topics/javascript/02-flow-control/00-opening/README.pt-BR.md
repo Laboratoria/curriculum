@@ -6,7 +6,7 @@
 
 ## Objetivos de Aprendizado
 
-Nsta unidade aprenderemos:
+Nesta unidade aprenderemos:
 
 * O que é o controle de fluxo de um programa e quais são as estruturas básicas
   de controle de fluxo

@@ -9,7 +9,7 @@
 Com a chegada das aplicações ricas da internet (RIA: *Rich Internet
 Applications*), nossas páginas exigem uma melhor experiência para o usuário, o
 que leva a uma maior manipulação do DOM com muitas instruções `javascript`,
-animações, etc. Mas isto ocasiona um problema que nem sempre é previso antes do
+animações, etc. Mas isto ocasiona um problema que nem sempre é previsto antes do
 desenvolvimento e rapidamente tudo começa a funcionar lentamente ou consumindo
 muita memória na máquina do cliente.
 
@@ -22,8 +22,8 @@ muita memória na máquina do cliente.
 
 ### Adição, exclusão ou modificação dos estilos de CSS
 
-> Da mesma maneira que no JavaScript, aplicar diretamento os estilos, alterar
-> alguma classe ou propriedade, prococará um re-flow daquele ramo do DOM
+> Da mesma maneira que no JavaScript, aplicar diretamente os estilos, alterar
+> alguma classe ou propriedade, provocará um re-flow daquele ramo do DOM
 
 ### Animações e transições CSS
 
