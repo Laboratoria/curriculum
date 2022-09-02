@@ -16,7 +16,7 @@
 O texto abaixo é uma tradução para o português, com alguns ajustes, do capítulo
 5 de [JavaScript for
 kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
-Nick Morgan, 2015; e de [Eloquent JavaScript](http://braziljs.github.io/eloquente-javascript),
+Nick Morgan, 2015; e de [Eloquent JavaScript](https://github.com/braziljs/eloquente-javascript),
 de Marijn Haverbeke, 2014.
 
 ## HTML: HyperText Markup Language

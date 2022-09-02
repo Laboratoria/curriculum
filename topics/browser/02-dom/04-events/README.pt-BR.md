@@ -159,7 +159,7 @@ Estes são alguns dos eventos mais usados:
 * setting timers
 * debouncing
 
-[Aqui](https://codepen.io/Inti_Developer/pen/EvGMKG) você pode encontrar um
+[Aqui](https://codepen.io/intidev/pen/rNOQVyO) você pode encontrar um
 exemplo sobre interação com eventos.
 
 > Guia de uso:
