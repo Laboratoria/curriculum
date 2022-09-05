@@ -168,7 +168,7 @@ buildItems([
   { type: 'project', id: '05-fleet-management', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-roman-numerals', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-roman-numerals-slack', locale: 'es-ES', track: 'js' },
-  // { type: 'project', id: '05-social-network-fw', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '05-social-network-fw', locale: 'es-ES', track: 'js' },
   // { type: 'project', id: '05-tic-tac-toe-rn', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-wordpress-plugin', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-open-project', locale: 'es-ES', track: 'js' },
