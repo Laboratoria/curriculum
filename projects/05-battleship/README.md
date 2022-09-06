@@ -4,12 +4,11 @@
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos generales](#3-objetivos-generales)
-* [4. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [5. Consideraciones generales](#4-consideraciones-generales)
-* [7. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [7. Pistas, tips y lecturas complementarias](#5-pistas-tips-y-lecturas-complementarias)
-* [8. Hacker edition](#6-hacker-edition)
+* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [4. Consideraciones generales](#4-consideraciones-generales)
+* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+* [6. Pistas, tips y lecturas complementarias](#5-pistas-tips-y-lecturas-complementarias)
+* [7. Hacker edition](#6-hacker-edition)
 
 ## 1. Preámbulo
 
@@ -48,8 +47,6 @@ También el juego debe ser para dos jugadores, para lograrlo debes pensar en có
 puedes estructurar la información, estado de la aplicación y cómo guardarlos en
 alguna base de datos como __Firebase__ o __MongoDB Stitch__.
 
-## 3. Objetivos generales
-
 1. El objetivo principal de hacer este juego es que puedas diseñar un esquema de
 datos y lo apliques a una base de datos conocida, como _Firebase_ o _MongoDB_.
 Muchas veces el como modeles la información es más importante a como estructures
@@ -68,7 +65,7 @@ en cada componente.
 todo lo que sabes de CSS y animaciones para que tengas un juego vistoso y que
 guste a la gente. Tienes que invitar a jugar tu juego.
 
-## 4. Objetivos de aprendizaje
+## 3. Objetivos de aprendizaje
 
 > ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
@@ -78,7 +75,7 @@ guste a la gente. Tienes que invitar a jugar tu juego.
 > Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
 > que contempla nuestra currícula.
 
-## 5. Consideraciones generales
+## 4. Consideraciones generales
 
 Este proyecto se debe resolver en equipos de 3 personas.
 
@@ -106,7 +103,7 @@ contrincantes a cada jugador.
 * Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
 * Desplegaste tu aplicación y has etiquetado tu versión (git tag).
 
-## 6. Criterios de aceptación mínimos del proyecto
+## 5. Criterios de aceptación mínimos del proyecto
 
 ### Definición del producto
 
@@ -135,7 +132,7 @@ Yo como usuaria quiero ...
 
 ***
 
-## 7. Pistas, tips y lecturas complementarias  
+## 6. Pistas, tips y lecturas complementarias  
 
 1. Modelar los datos, es un paso muy importante, considera que el juego es de
 dos personas, pero más de una pareja puede estar jugando a la vez (modelo de
@@ -177,7 +174,7 @@ Puedes hacer un diagrama de estados para esto :
 * [visualizador-observables](https://rxviz.com/)
 * [visualizador-observables-2](https://rxmarbles.com/)
 
-## 8. Hacker edition
+## 7. Hacker edition
 
 Hasta el momento has usado javascript, html, css, react, angular, y otras
 herramientas para hacer tus aplicaciones, pero ¿qué tal si te aventuras con tu
