@@ -56,7 +56,7 @@ JavaScript nos ofrece un montón de métodos para manipular arreglos, para itera
 sobre ellos, ... no te preocupes por memorizar la lista completa (no creo que
 nadie la sepa de memoria), poco a poco con el uso irás familiarizándote y
 aprendiendo a apreciar sus beneficios. Recuerda que siempre tienes la
-[documentación oficial](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+[documentación oficial](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array)
 disponible, haz uso de ella, es la mejor referencia.
 
 Veamos algunos métodos comunes de los arreglos.

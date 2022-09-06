@@ -127,5 +127,5 @@ O resultado deste HTML deve ser esse:
 Agora está em suas mãos colocar o estilo que quiser no `css`.
 
 Para aprender a trabalhar com `forms` e `JavaScript` leia a documentação do
-capítulo 18 do [Eloquent JavaScript](http://braziljs.github.io/eloquente-javascript/chapters/formularios-e-campos-de-formularios/),
+capítulo 18 do [Eloquent JavaScript](https://github.com/braziljs/eloquente-javascript/blob/master/chapters/18-formularios-e-campos-de-formularios.md),
 de Marijn Haverbeke, 2014.

@@ -150,7 +150,7 @@ Blog posts:
 * [One webpack config to rule them all — environments that is](https://medium.com/@ryandrewjohnson/one-webpack-config-to-rule-them-all-environments-that-is-277457769779),
   [Ryan Johnson](https://medium.com/@ryandrewjohnson), Feb 12 2017
 * [What are NPM, Yarn, Babel, and Webpack; and how to properly use them?](https://medium.com/front-end-hacking/what-are-npm-yarn-babel-and-webpack-and-how-to-properly-use-them-d835a758f987),
-  [Gasim Gasimzada](https://medium.com/@gasim.appristas), May 9 2017 (needs review)
+  [Gasim Gasimzada](https://medium.com/@GasimGasimzada), May 9 2017 (needs review)
 
 Videos:
 
