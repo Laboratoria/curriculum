@@ -58,100 +58,85 @@ js:
     # - async/await
     # - streams
 
-# a11y:
-#   - perceivable:
-#     - level-A
-#     - level-AA
-#   - operable:
-#     - level-A
-#     - level-AA
-#   - understandable:
-#     - level-A
-#     - level-AA
-#   - robust:
-#     - level-A
-#     - level-AA
-#   - testing: 
-#     - audit
-#     - assistive-technologies
-
-# another form of grouping with principales and guidelines
-a11y:
-- testing
-- perceivable:
-  - text-alternatives
-  - time-based-media
-  - adaptable-content
-  - distinguishable-content
-- operable:
-  - keyboard-accessible
-  - enough-time
-  - seizures-physical-reactions
-  - navigable 
-  - input-modalities
-- understandable:
-  - readable
-  - predictable
-  - input-assistance
-- robust:
-  - compatible
-
-# another form of grouping with principales and criteria
-# - a11y:
-#   - perceivable:
-#     - non-text-content
-#     - audio-video-only
-#     - captions
-#     - media-alternative
-#     - captions-live
-#     - audio-description-prerecorded
-#     - info-relationships
-#     - meaningful-sequence
-#     - sensory-characteristics
-#     - orientation
-#     - identify-input-purpose
-#     - use-of-color
-#     - audio-control
-#     - contrast-minimum
-#     - resize-text
-#     - images-text
-#     - reflow
-#     - non-text-contrast
-#     - text-spacing
-#     - content-hover-focus
-#   - operable:
-#     - keyboard
-#     - no-keyboard-trap
-#     - character-key-shortcuts
-#     - timing-adjustable
-#     - pause-stop-hide
-#     - three-flashes-or-below
-#     - bypass-blocks
-#     - page-titled
-#     - focus-order
-#     - link-purpose
-#     - multiple-ways
-#     - headings-labels
-#     - focus-visible
-#     - pointer-gestures
-#     - pointer-cancellation
-#     - label-in-name
-#     - motion-actuation
-#   - understandable:
-#     - language-page
-#     - language-parts
-#     - on-focus
-#     - on-input
-#     - consistent-navigation
-#     - consistent-identification
-#     - error-identification
-#     - labels-instructions
-#     - error-suggestion
-#     - error-prevention
-#   - robust:
-#     - parsing
-#     - name-role-value
-#     - status-messages
+# OAs of accessibility follow the WCAG criteria of level A, AA organized by the 4 priciples.
+# https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&showtechniques=111%2C221%2C244%2C246%2C243&levels=aaa
+# Criteria are further grouped under a guideline, but are skipped and commented out here 
+# to simplify the nested hierachy and heading length 
+# Example: accessibility/perceivable/non-text-content vs
+# accessibility/perceivable/text-alternatives/non-text-content
+#
+# audit and test-assistive-technolgies are exceptional OAs that we have added 
+# that don't fall within a category, which are tests to perform in development workflow
+accessibility:
+  - audit
+  - test-assistive-technologies
+  - perceivable:
+  # - text-alternatives
+    - non-text-content
+  # - time-based-media
+    - audio-video-only
+    - captions
+    - media-alternative
+    - captions-live
+    - audio-description-prerecorded
+  # - adaptable-content
+    - info-relationships
+    - meaningful-sequence
+    - sensory-characteristics
+    - orientation
+    - identify-input-purpose
+  # - distinguishable-content
+    - use-of-color
+    - audio-control
+    - contrast-minimum
+    - resize-text
+    - images-text
+    - reflow
+    - non-text-contrast
+    - text-spacing
+    - content-hover-focus
+  - operable:
+  # - keyboard-accessible
+    - keyboard
+    - no-keyboard-trap
+    - character-key-shortcuts
+  # - enough-time
+    - timing-adjustable
+    - pause-stop-hide
+  # - seizures-physical-reactions
+    - three-flashes-or-below
+  # - navigable 
+    - bypass-blocks
+    - page-titled
+    - focus-order
+    - link-purpose
+    - multiple-ways
+    - headings-labels
+    - focus-visible
+  # - input-modalities
+    - pointer-gestures
+    - pointer-cancellation
+    - label-in-name
+    - motion-actuation
+  - understandable:
+  # - readable
+    - language-page
+    - language-parts
+  # - predictable
+    - on-focus
+    - on-input
+    - consistent-navigation
+    - consistent-identification
+  # - input-assistance
+    - error-identification
+    - labels-instructions
+    - error-suggestion
+    - error-prevention
+  - robust:
+  # - compatible
+    - parsing
+    - name-role-value
+    - status-messages
 
 scm:
   - git:
