@@ -1,0 +1,32 @@
+{
+  "slug": "portfolio",
+  "repo": "Laboratoria/bootcamp",
+  "path": "projects/04-portfolio",
+  "version": "5.3.0",
+  "parserVersion": "4.0.0",
+  "createdAt": "2022-09-05T21:26:00.596Z",
+  "prefix": 4,
+  "title": "Portafolio",
+  "locale": "es-ES",
+  "track": "ux",
+  "summary": "<p>El portafolio es una herramienta indispensable para tu etapa de búsqueda de\nempleo al terminar el bootcamp. El portafolio es un sitio donde mostrarás\ntodo lo que trabajaste durante el bootcamp ya sea utilizando una web o\nherramientas como notion, uxfolio o dribble.</p>\n",
+  "learningObjectives": [
+    "user-centricity/user-oriented",
+    "user-centricity/prioritization",
+    "business/goals",
+    "business/benchmark",
+    "research/planning",
+    "research/sources",
+    "synthesis/ideation",
+    "product-design/content",
+    "product-design/usability",
+    "product-design/accessibility",
+    "product-design/visual-design",
+    "product-design/component-organization",
+    "communication/case-study",
+    "planning/prioritization",
+    "planning/tools"
+  ],
+  "cover": null,
+  "thumb": "data:image/png;base64,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"
+}

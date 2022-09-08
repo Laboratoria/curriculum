@@ -31,7 +31,7 @@ Para poder fazer uso da magia dos eventos é necessário saber primeiro como
 A sintaxe é muito simples:
 
 ```javascript
-  elemento_que_escucha.addEventListener('evento', funcao_para_escutar);
+  elemento_que_escuta.addEventListener('evento', funcao_para_escutar);
 ```
 
 Aqui um [link](http://www.codexexempla.org/curso/curso_4_3_e.php) de referência.
@@ -69,15 +69,15 @@ function olaMundo(event){
   alert('Olá Mundo.');
 }
 
-const boton = document.getElementById('boton');
-boton.addEventListener('click', olaMundo, false);
+const botao = document.getElementById('botao');
+botao.addEventListener('click', olaMundo, false);
 ```
 
 Às vezes é necessário evitar certos comportamentos que um evento tem por padrão.
 Para isso existe **preventDefault.** Aqui está um exemplo:
 
 > Este é o código para um formulário muito simples Há um _input_ para inserir o
-> nome e outro para inserir o sobrenome. Finalmente, há um _inpu_ do tipo
+> nome e outro para inserir o sobrenome. Finalmente, há um _input_ do tipo
 > _submit_ \(botão de envio\)
 
 ```html
@@ -126,7 +126,7 @@ _Target phase_ e _Bubbling phase_ , conforme mostrado na imagem a seguir.
 
 ![flow-event](https://user-images.githubusercontent.com/11894994/59521680-4205ca80-8ea3-11e9-8332-0ac326994e11.png)
 
-A seguir, um vídeo que te explicará com um exemplo o fluco que seguem os
+A seguir, um vídeo que te explicará com um exemplo o fluxo que seguem os
 eventos:
 
 [![Adicionando nós
@@ -159,7 +159,7 @@ Estes são alguns dos eventos mais usados:
 * setting timers
 * debouncing
 
-[Aqui](https://codepen.io/Inti_Developer/pen/EvGMKG) você pode encontrar um
+[Aqui](https://codepen.io/intidev/pen/rNOQVyO) você pode encontrar um
 exemplo sobre interação com eventos.
 
 > Guia de uso:

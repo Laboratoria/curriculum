@@ -201,6 +201,15 @@ _branches_ (ramificações).
 
 ***
 
+#### Deploy
+
+Disponibilizar os projetos e colocá-los "no ar" vai ser parte cotidiana do
+ciclo de desenvolvimento em produtos de tecnologia.
+
+Para este projeto, utilizaremos o Github Pages para essa finalidade.
+O comando `npm run deploy` pode te auxiliar nessa tarefa e você pode também
+consultar a [documentação oficial](https://docs.github.com/pt/pages).
+
 ## 6. Guias, dicas e leituras complementares
 
 ### Primeiros passos

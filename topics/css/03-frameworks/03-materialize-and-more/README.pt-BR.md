@@ -29,7 +29,7 @@ de colunas: **s, m, l y, xl**.
 ![Foundation](https://camo.githubusercontent.com/0c620e316ae8cd1af872ae9d2b5f67cab36576f2/68747470733a2f2f69332e7974696d672e636f6d2f76692f6c4672706e6b304f6f5f382f6d617872657364656661756c742e6a7067)
 
 **Foundation** é um framework responsivo que inclui componentes de tipografia,
-formulários, botões, barras de navegação e outros, assim como extenções
+formulários, botões, barras de navegação e outros, assim como extensões
 Javascript opcionais. [Foundation](https://foundation.zurb.com) é mantida por
 zurb.com e é um projeto de código aberto. Foundation também possui um framework
 para e-mail responsivo.

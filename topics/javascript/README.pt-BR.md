@@ -92,19 +92,19 @@ como maneiras de trabalhar com tarefas assíncronas.
 ### Unidad 09: [Erros](09-errors)
 
 O tratamento de erros é importante dentro de todo o desenvolvimento de software,
-e mais ainda quando se pensa em costruir um produto que se esperar que sera
-reutilizável e mantenible. Nesta unidade vamos ver como tratar erros nas diversas
+e mais ainda quando se pensa em construir um produto que se esperar que sera
+reutilizável e sustentável. Nesta unidade vamos ver como tratar erros nas diversas
 parte do nosso código.
 
 ### Unidad 10: [Debugging](10-debugging)
 
-O debugging é um apescto importante na programação, trata de encontrar e
+O debugging é um aspecto importante na programação, trata de encontrar e
 corrigir diferentes tipos de erros que podem aparecer a qualquer momento.
 
 ### Unidad 11: [Testes](11-testing)
 
-Testar o seu codigo é importante para garantir que funcione como se espera.
-Escrever testes desdo começo ajuda a desenhar melhor o nosso código.
+Testar o seu código é importante para garantir que funcione como se espera.
+Escrever testes desde começo ajuda a desenhar melhor o nosso código.
 
 ***
 

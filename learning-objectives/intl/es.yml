@@ -308,22 +308,19 @@ scm/github/ci:
 ux: UX (User eXperience)
 
 user-centricity/centricity:
-  title: Diseñar un producto o servicio poniendo a la usuaria en el centro
+  title: Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro
 
-user-centricity/persistency:
-  title: Tomar en cuenta las necesidades de las usuarias a lo largo de todo el proceso de diseño
+user-centricity/user-oriented:
+  title: Involucrar usuarias y tomar en cuenta sus necesidades a lo largo de todo el proceso de diseño
 
 user-centricity/prioritization:
   title: Identificar y priorizar usuarias relevantes para el proyecto
-
-business/alignment:
-  title: Alinear los objetivos del negocio con los del proyecto
 
 business/model:
   title: Entender el modelo de negocio
 
 business/goals:
-  title: Considerar los objetivos del negocio durante el desarrollo del proyecto
+  title: Entender y considerar los objetivos del negocio durante el desarrollo del proyecto
 
 business/metrics:
   title: Definir métricas relevantes para validar el cumplimiento de los objetivos del negocio
@@ -360,11 +357,8 @@ research/test:
     - title: Pruebas con Usuarios 1 — ¿Qué, cuándo y para qué testeamos?
       url: https://eugeniacasabona.medium.com/pruebas-con-usuarios-1-qu%C3%A9-cu%C3%A1ndo-y-para-qu%C3%A9-testeamos-7c3a89b4b5e7
     
-research/analytics:
-  title: Utilizar herramientas de analítica
-
 research/cuantitative-data:
-  title: Analizar e interpretar data cuantitativa
+  title: Recopilar, analizar e interpretar data cuantitativa
 
 synthesis/weighing:
   title: Distinguir observaciones, data y/o respuestas que aportan valor al proyecto
@@ -373,19 +367,19 @@ synthesis/patterns:
   title: Encontrar patrones en los resultados de la investigación
 
 synthesis/insights:
-  title: Diferenciar entre insights, hallazgos y observaciones
+  title: Diferenciar entre observaciones, hallazagos e insights
 
 synthesis/mapping:
-  title: Mapear experiencias de clientes a través de herramientas de síntesis como el Service Blueprint y/o el Customer Journey Map
+  title: Usar herramientas de síntesis para mapear las experiencias de los usuarios
 
 synthesis/features:
-  title: Definir funcionalidades del producto o servicio
+  title: Definir funcionalidades del producto
 
 synthesis/ideation:
   title: Generar múltiples ideas de solución al reto del proyecto
 
 synthesis/feature-prioritization:
-  title: Priorizar posibles soluciones reto del proyecto basándose en los objetivos del proyecto, las necesidades de la usuaria y las factibilidad de implementación
+  title: Priorizar las posibles soluciones que aporten más valor al proyecto, basándose en los objetivos del proyecto y las necesidades de los usuarios
 
 product-design/user-flows:
   title: Priorizar y proponer flujos de usuaria que les ayuden a conseguir sus objetivos con el producto
@@ -409,22 +403,13 @@ product-design/visual-design:
   title: Seguir los principios básicos de diseño visual
 
 product-design/component-organization:
-  title: Construir y mantener una librería de componentes y estilos organizada
-
-product-design/interface-guidelines:
-  title: Entender y utilizar las guías de interfaces de iOS, Android y Material Design
+  title: Crear y utilizar componentes reutilizables
 
 product-design/project-organization:
   title: Nombrar, organizar, agrupar las capas (layers) del diseño siguiendo buenas prácticas
 
 product-design/documentation:
-  title: Documentar casos de uso para los distintos componentes de la interfaz
-
-product-design/naming:
-  title: Utilizar nombres de elementos estándares para la plataforma en la que diseña
-
-product-design/handoff:
-  title: Documentar requerimentos de diseño para equipo de desarrollo utilizando herramientas de handoff
+  title: Documentar los distintos componentes de UI y sus casos de uso
 
 communication/presentation:
   title: Presentar y sustentar propuestas a clientes
@@ -434,6 +419,9 @@ communication/negotiation:
 
 communication/relationship-management:
   title: Manejar relaciones con clientes
+
+communication/case-study:
+  title: Presentar su proceso de trabajo en un caso de estudio usando herramientas de storytelling 
 
 planning/monitor:
   title: Organizar  y dar seguimiento a actividades a desarrollarse durante el proyecto
@@ -557,7 +545,7 @@ http/verbs:
       url: https://developer.mozilla.org/es/docs/Web/HTTP/Methods
 
 http/status-codes:
-  title: Codigos de status de HTTP
+  title: Códigos de status de HTTP
   links:
     - title: Códigos de estado de respuesta HTTP - MDN
       url: https://developer.mozilla.org/es/docs/Web/HTTP/Status
@@ -882,7 +870,7 @@ angular/structural-directives:
       url: https://angular.io/guide/structural-directives
 
 angular/input-output:
-  title: "@Input | @Ouput"
+  title: "@Input | @Output"
   links:
     - title: Component interaction - Documentación oficial (en inglés)
       url: https://angular.io/guide/component-interaction#component-interaction
@@ -900,7 +888,7 @@ angular/routing:
       url: https://angular.io/guide/router
 
 angular/observables:
-  title: Creación y uso Observables.
+  title: Creación y uso de Observables.
   links:
     - title: Observables in Angular - Documentación oficial (en inglés)
       url: https://angular.io/guide/observables-in-angular

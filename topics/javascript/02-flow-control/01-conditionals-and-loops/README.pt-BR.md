@@ -18,7 +18,7 @@
 O texto a seguir se baseia em grande medida, com alguns ajustes, ao capítulo 2
 do [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn Haverbeke,
 2014. Tradução em
-[Português](http://braziljs.github.io/eloquente-javascript/chapters/valores-tipos-operadores),
+[Português](hhttps://github.com/braziljs/eloquente-javascript/blob/master/chapters/01-valores-tipos-operadores.md),
 e ao capítulo 6 do [JavaScript for
 kids](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
 Nick Morgan, 2015;
@@ -200,7 +200,7 @@ O fluxograma deste programa é algo assim:
 ![Flujo
 condicional](https://camo.githubusercontent.com/7da7c495c1528a60105d941be0181490fbffbc81/687474703a2f2f656c6f7175656e746a6176617363726970742e6e65742f696d672f636f6e74726f6c666c6f772d6e65737465642d69662e737667)
 
-Vamos ver outro exeplo de como usar `if...else`. Dessa vez com um vído da Paloma:
+Vamos ver outro exemplo de como usar `if...else`. Dessa vez com um vídeo da Paloma:
 
 [![if ...
 else](https://img.youtube.com/vi/wQ_s9sso9b0/0.jpg)](https://www.youtube.com/watch?v=wQ_s9sso9b0)
@@ -403,7 +403,7 @@ while (number <= 12) {
 
 O loop `do` é uma estrutura de controle similar ao loop `while`. A diferença
 está em um só ponto: um loop `do` sempre executa seu corpo **pelo menos uma
-vez** e começa a verificar se devería parar somente depois da primeira execução.
+vez** e começa a verificar se deveria parar somente depois da primeira execução.
 Para refletir isto, a condição aparece depois do corpo do loop. Vejamos um
 exemplo:
 
@@ -536,6 +536,6 @@ realizadas e o `while` quando não se sabe.
 Se dissermos, "gire o ventilador 10 vezes", você já sabe que vamos girar o
 ventilador 10 vezes, então seria uma boa ideal usar o `for`.
 
-Se dissermos, "enquanto estiver calor gire o ventilador". Não savemos quantas
+Se dissermos, "enquanto estiver calor gire o ventilador". Não sabemos quantas
 vezes vamos girar o ventilador até ficar frio, então usar o `while` nesse caso é
 melhor.

@@ -168,7 +168,7 @@ buildItems([
   { type: 'project', id: '05-fleet-management', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-roman-numerals', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-roman-numerals-slack', locale: 'es-ES', track: 'js' },
-  // { type: 'project', id: '05-social-network-fw', locale: 'es-ES', track: 'js' },
+  { type: 'project', id: '05-social-network-fw', locale: 'es-ES', track: 'js' },
   // { type: 'project', id: '05-tic-tac-toe-rn', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-wordpress-plugin', locale: 'es-ES', track: 'js' },
   { type: 'project', id: '05-open-project', locale: 'es-ES', track: 'js' },
@@ -189,11 +189,12 @@ buildItems([
   // UX Projects (spanish)
   { type: 'project', id: '00-hcd-intro', locale: 'es-ES', track: 'ux' },
   { type: 'project', id: '01-design-and-usability', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '01-ui-design', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '01-user-research', locale: 'es-ES', track: 'ux' },
   { type: 'project', id: '02-small-businesses', locale: 'es-ES', track: 'ux' },
-  { type: 'project', id: '03-ui-design', locale: 'es-ES', track: 'ux' },
-  { type: 'project', id: '04-industry-deep-dive', locale: 'es-ES', track: 'ux' },
-  { type: 'project', id: '04-service-design', locale: 'es-ES', track: 'ux' },
-  { type: 'project', id: '04-ux-consultancy', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '03-industry-deep-dive', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '03-ux-consultancy', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '04-portfolio', locale: 'es-ES', track: 'ux' },
 
   // JS Topics (spanish)
   { type: 'topic', id: 'browser', locale: 'es-ES', track: 'js' },

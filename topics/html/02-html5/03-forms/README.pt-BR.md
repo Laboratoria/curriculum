@@ -30,7 +30,7 @@ também vamos ver a guia do MDN para aprender mais detalhes sobre
 Agora que conhecemos os elementos para criar um formulário, vamos criar um.
 Mãos a obra!!👩🏽‍💻
 
-1. Crie um arquivo com o nome `index.html` e adicione a tag `form` para comecar
+1. Crie um arquivo com o nome `index.html` e adicione a tag `form` para começar
    o seu formulário.
 
 2. Depois adicione um `input` onde o usuário irá inserir o seu email, este campo
@@ -80,7 +80,7 @@ Mãos a obra!!👩🏽‍💻
    </form>
    ```
 
-5. Agore, crie um `select` para que o usuário possa escolher um valor da lista.
+5. Agora, crie um `select` para que o usuário possa escolher um valor da lista.
 
    ```html
    <select name="select-example">
@@ -114,7 +114,7 @@ Mãos a obra!!👩🏽‍💻
    </label>
    ```
 
-8. Por útimo crie o botão de enviar.
+8. Por último crie o botão de enviar.
 
    ```html
    <button type="submit">Send</button>
@@ -127,5 +127,5 @@ O resultado deste HTML deve ser esse:
 Agora está em suas mãos colocar o estilo que quiser no `css`.
 
 Para aprender a trabalhar com `forms` e `JavaScript` leia a documentação do
-capítulo 18 do [Eloquent JavaScript](http://braziljs.github.io/eloquente-javascript/chapters/formularios-e-campos-de-formularios/),
+capítulo 18 do [Eloquent JavaScript](https://github.com/braziljs/eloquente-javascript/blob/master/chapters/18-formularios-e-campos-de-formularios.md),
 de Marijn Haverbeke, 2014.
