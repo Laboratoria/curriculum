@@ -42,7 +42,7 @@ Por lo tanto, en este proyecto construirás una
 [_responsive_](../../topics/css/02-responsive) (con más de una vista / página)
 en la que podamos **leer y escribir datos**.
 
-### Los objetivos generales de este proyecto son los siguientes:
+### Los objetivos generales de este proyecto son los siguientes
 
 * Desarrollar una SPA con temática de red social
 * Aplicar los conceptos de responsividad en el desarrollo de las vistas (templates)
