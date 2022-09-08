@@ -207,7 +207,7 @@
         <li>Mencionas tu paso por el bootcamp de Laboratoria como experiencia educativa</li>
         <li>Mencionas los proyectos trabajados en bootcamp de Laboratoria y las - tecnologías que utilizó para desarrollarlos</li>
         <li>Menciona sus experiencias laborales previas</li>
-        <li>Mencionas las habilidades técnicas y de vida con las que cuenta</li>
+        <li>Mencionas las habilidades técnicas y de vida con las que cuentas</li>
         <li>Contiene un “about me” adecuado, claro, conciso, coherente con tu narrativa</li>
       </ul>
     </td>
@@ -283,7 +283,7 @@
       <b>Comunicación</b>
       <ul>
         <li>La estructura de mi pitch de presentación fue adecuado, claro, coherente con mi narrativa</li>
-        <li>Mostré seguridad al responder tanto en lo verbal como en tu lenguaje corporal</li>
+        <li>Mostré seguridad al responder tanto en lo verbal como en mi lenguaje corporal</li>
         <li>Me comuniqué con fluidez y naturalidad</li>
       </ul>
       <b>Presentación de tu perfil profesional</b>
@@ -302,7 +302,7 @@
       <ul>
         <li>Puntualidad</li>
         <li>Cumplimiento de acuerdos</li>
-        <li>Compartiste dificultades y/o pidiste ayuda de forma proactiva</li>
+        <li>Compartiste dificultades y/o pediste ayuda de forma proactiva</li>
         <li>Llegaste con material y/o trabajo previo a las sesiones</li>
         <li>Articulaste pensamientos e ideas con claridad</li>
         <li>Te mostraste abierta al feedback e intentaste incorporarlo</li>
@@ -445,12 +445,19 @@
       <b>Ejercicios</b>
       <ul>
         <li>¿Cómo evaluarías tu desempeño en el primer ejercicio?</li>
-        <li>¿Cómo  valuarías tu desempeño en el segundo ejercicio?</li>
+        <li>¿Cómo evaluarías tu desempeño en el segundo ejercicio?</li>
       </ul>
       <b>Razonamiento y comunicación</b>
       <ul>
-        <li>¿Compartiste tu razonamiento y estrategias de solución de forma oportuna y asertiva? ¿Articulaste tus pensamientos e ideas con claridad?</li>
-        <li>¿Compartiste tus dificultades y/o pediste ayuda de forma proactiva durante la entrevista?</li>
+        <li>
+          Compartiste tu razonamiento y estrategias de solución de forma
+          oportuna y asertiva. Articulaste tus pensamientos e ideas con
+          claridad.
+        </li>
+        <li>
+          Compartiste tus dificultades y/o pediste ayuda de forma proactiva
+          durante la entrevista.
+        </li>
       </ul>
       <b>Habilidades y comportamientos profesionales</b>
       <ul>
