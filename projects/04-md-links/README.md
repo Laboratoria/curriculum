@@ -90,7 +90,7 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
   caso optes utilizarlo deberás de crear un script de `build` en el `package.json`
   que los transforme en `requires` y `module.exports` con ayuda de **babel**.
 
-* Para simplificar la recursividad, te recomendamos usar `readdirSync`.
+* Para disminuir la complejidad de tu algoritmo recursivo, te recomendamos utilizar la versión síncrona de la función para leer directorios, `readdirSync`.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
