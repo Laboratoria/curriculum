@@ -90,7 +90,7 @@ peculiaridades da linguagem, convenções e boas práticas.
   você decida utilizá-lo deverá criar um script de `build` no `package.json`
   para que seja transformado em `requires` e `module.exports` com ajuda do Babel.
 
-* Para simplificar a recorrência, recomendamos o uso do `readdirSync`.
+* Para diminuir a complexidade de seu algoritmo recursivo, recomendamos usar a versão síncrona da função de leitura do diretórios, `readdirSync`.
 
 ## 5. Critérios de aceitação mínimos do projeto
 
