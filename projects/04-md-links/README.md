@@ -429,7 +429,7 @@ una ruta fija e imprimir su contenido en la consola con un `console.log`.
 
 La librería nativa `FS` (FileSystem) te será de utilidad.
 
-**Recuerda**: no esta permitido usar `readFileSync`.
+**Recuerda**: Te sugerimos **no utilizar** la versión síncrona de la función para leer archivos, `readFileSync`, y en cambio intentar resolver ese desafío de manera asíncrona.
 
 ### Averigua la extensión de un archivo
 
