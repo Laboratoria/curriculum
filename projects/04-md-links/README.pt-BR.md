@@ -84,7 +84,7 @@ peculiaridades da linguagem, convenções e boas práticas.
 
 * Neste projeto não é permitido utilizar `async/await`.
 
-* Para este projeto, **não é permitido** o uso do `readFileSync`.
+* Para este projeto, sugerimos que você **não use** a versão síncrona da função de leitura de arquivo, `readFileSync`, e tente resolver esse desafio de forma assíncrona.
 
 * Para este projeto é opcional o uso de ES modules `(import/export)`. Caso
   você decida utilizá-lo deverá criar um script de `build` no `package.json`
