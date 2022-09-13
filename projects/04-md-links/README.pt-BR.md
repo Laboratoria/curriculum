@@ -440,7 +440,7 @@ um caminho fixo e imprimir seu conteúdo no console com um `console.log`.
 
 A biblioteca nativa `FS` (FileSystem) será útil para você.
 
-**Lembrar**: não é permitido o uso do `readFileSync`.
+**Lembrar**: Para este projeto, sugerimos que você **não use** a versão síncrona da função de leitura de arquivo, `readFileSync`, e tente resolver esse desafio de forma assíncrona.
 
 ### Descobrir a extensão de um arquivo
 
