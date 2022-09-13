@@ -450,8 +450,7 @@ Intenta imprimir en consola la lista de archivos en una carpeta.
 
 La librería `FS` también te será útil aquí.
 
-**Recuerda**: Para simplificar a recorrência, recomendamos
-que você usando `readdirSync`.
+**Recuerda**: Para disminuir la complejidad de tu algoritmo recursivo, te recomendamos utilizar la versión síncrona de la función para leer directorios, `readdirSync`.
 
 ### Une dos rutas
 
