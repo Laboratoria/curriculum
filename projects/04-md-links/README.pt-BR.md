@@ -461,7 +461,7 @@ Tenta imprimir para console a lista de arquivos em uma pasta.
 
 A biblioteca `FS` também será útil aqui.
 
-**Lembrar**: não é permitido o uso do `readFileSync`.
+**Lembrar**: Para diminuir a complexidade de seu algoritmo recursivo, recomendamos usar a versão síncrona da função de leitura do diretórios, `readdirSync`.
 
 ### Definir rotas
 
