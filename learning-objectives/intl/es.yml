@@ -307,6 +307,8 @@ scm/github/ci:
 
 ux: UX (User eXperience)
 
+user-centricity: Centrado en el usuario
+
 user-centricity/centricity:
   title: Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro
 
@@ -315,6 +317,8 @@ user-centricity/user-oriented:
 
 user-centricity/prioritization:
   title: Identificar y priorizar usuarias relevantes para el proyecto
+
+business: Negocio
 
 business/model:
   title: Entender el modelo de negocio
@@ -327,6 +331,8 @@ business/metrics:
 
 business/benchmark:
   title: Entender estado del negocio en relación con el mercado local y global
+
+research: Investigación
 
 research/planning:
   title: Planificar investigación basada en las necesidades del proyecto
@@ -360,6 +366,8 @@ research/test:
 research/cuantitative-data:
   title: Recopilar, analizar e interpretar data cuantitativa
 
+synthesis: Síntesis
+
 synthesis/weighing:
   title: Distinguir observaciones, data y/o respuestas que aportan valor al proyecto
 
@@ -380,6 +388,8 @@ synthesis/ideation:
 
 synthesis/feature-prioritization:
   title: Priorizar las posibles soluciones que aporten más valor al proyecto, basándose en los objetivos del proyecto y las necesidades de los usuarios
+
+product-design: Deseño de producto
 
 product-design/user-flows:
   title: Priorizar y proponer flujos de usuaria que les ayuden a conseguir sus objetivos con el producto
@@ -411,6 +421,8 @@ product-design/project-organization:
 product-design/documentation:
   title: Documentar los distintos componentes de UI y sus casos de uso
 
+communication: Comunicación
+
 communication/presentation:
   title: Presentar y sustentar propuestas a clientes
 
@@ -423,8 +435,10 @@ communication/relationship-management:
 communication/case-study:
   title: Presentar su proceso de trabajo en un caso de estudio usando herramientas de storytelling 
 
+planning: Planificación
+
 planning/monitor:
-  title: Organizar  y dar seguimiento a actividades a desarrollarse durante el proyecto
+  title: Organizar y dar seguimiento a actividades a desarrollarse durante el proyecto
 
 planning/prioritization:
   title: Priorizar actividades a desarrollarse durante el proyecto
