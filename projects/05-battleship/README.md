@@ -114,23 +114,44 @@ que es el resultado de su trabajo colaborativo.
 
 ### Historias de usuaria
 
-#### [Historia de usuaria 1] Debería poder  
+#### [Historia de usuaria 1] Crear sesion
 
-Yo como usuaria debo ...
+Yo como usuaria debo poder crear una cuenta y autenticarme usando login de Google para acceder al juego.
 
-***
+#### [Historia de usuaria 2] Crear o unirme un juego
 
-#### [Historia de usuaria 2] Debería poder tomar nota  
+Yo como usuario debería crear un nuevo juego o unirme un juego creado de otro usuario.
 
-Yo como usuaria quiero tomar ...
+#### [Historia de usuaria 3] Armar el juego y iniciarlo
 
-***
+Yo como usuaria quiero posicionar mis naves en una tabla y avisar cuando estoy lista para jugar. 
 
-#### [Historia de usuaria 3] Debería poder ver  
+#### [Historia de usuaria 3] Jugar y saber el resultado
 
-Yo como usuaria quiero ...
+Yo como usuaria debería saber cuando es mi turno para adivinar una posicion de mi oponente. Deberia poder saber si anchunte (o unde) o no el nave de oponente.
 
-***
+#### [Historia de usuaria 4] El turno de mi oponente
+
+Yo como usuaria debería saber cual posicion adivino mi oponente y saber si anchunto (o undo) o no mi nave.
+
+#### [Historia de usuaria 5] Saber el estado de juego
+
+Yo como usuaria deberia saber el estado de juego: una historia de mis movimientos, y los que fueron exitos (achuntados) o no, y las posiciones de mis naves que son achuntados. 
+
+#### [Historia de usuaria 6] Termino de juego
+
+Yo como usuaria quiero saber cuando sea terminado el juego y quien es el ganador, y salir de juego si sea necesario.
+
+*** 
+
+#### Criterios de aceptación
+Lo que debe ocurrir para que se satisfagan las necesidades del usuario
+
+Crear o unir a un juego.  
+Aramar mis posiciones de naves antes que empezar el juego.  
+Adivinar una posicion de nave de mi oponente y saber el resultado (achunte, unde, o falta).  
+Saber el estado de juego: a quien se toca, la historia de movimientos y achuntados, quien gana.  
+Se ve y funciona bien en una tablet.  
 
 ## 6. Pistas, tips y lecturas complementarias  
 
