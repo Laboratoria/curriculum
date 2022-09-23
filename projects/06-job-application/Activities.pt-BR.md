@@ -1,34 +1,33 @@
-# Resumen del proyecto
+# Sumário do projeto
 
 <table style="vertical-align: top;">
   <tr>
     <td><b>Etapa</b></td>
-    <td><b>Fechas</b></td>
-    <td width="30%"><b>Subetapas</b></td>
+    <td><b>Datas</b></td>
+    <td width="30%"><b>Sub-etapas</b></td>
     <td><b>Recursos</b></td>
-    <td><b>Entregable</b></td>
-    <td width="30%"><b>Criterios de aceptación</b></td>
+    <td><b>Entregável</b></td>
+    <td width="30%"><b>Critérios de aceitação</b></td>
   </tr>
   <tr>
-    <td><b>Kick off</b></td>
+    <td><b>Início</b></td>
     <td><!-- aqui la fecha --></td>
     <td>
-      <b>Kick off</b>
+      <b>Início</b>
       <p>
-        Conocerás el readme del proyecto y te harás una idea más clara de los
-        aprendizajes que tendrás.
+        Você conhecerá o readme do projeto e terá uma ideia mais clara do que vai aprender.
       </p>
     </td>
     <td>
       <ul>
-        <li>Readme del proyecto</li>
+        <li>Readme do projeto</li>
         <li>
-          <a href="https://www.loom.com/share/eff20dfbb64a488abb6181acd95a8dbf">Pildora: Cómo funciona un proceso de selección</a>
-          <a href="https://docs.google.com/presentation/d/17xch4mAAjUGS6H7rTosIK2UBRJoCrrNAIWta-CldLUw/edit#slide=id.geb2e9575b7_0_0">
+          <a href="https://www.loom.com/share/eff20dfbb64a488abb6181acd95a8dbf">Pílula: Como funciona um processo de seleção</a>
+          <a href="https://docs.google.com/presentation/d/1fJFVEgBx-xO9lTaXMDMposMpfcoRX6FqWwWi2n9rCyU/edit#slide=id.p1">
             (PPT)
           </a>
         </li>
-        <li>Q&A Readme del proyecto</li>
+        <li>Perguntas e respostas sobre o readme do projeto</li>
       </ul>
     </td>
     <td>NA</td>
@@ -37,37 +36,33 @@
   <tr>
     <td rowspan="4">
       <b>
-        Preparación de herramientas y para la simulación de entrevista RH
+        Preparação de ferramentas e para a simulação de entrevista de RH
       </b>
     </td>
     <td><!-- aqui la fecha --></td>
     <td>
-      <b>Autoconocimiento</b>
+      <b>Autoconhecimento</b>
       <p>
-        Podrás reconocer en tu historia de vida, tus experiencias previas y tus
-        experiencias en laboratoria, esas habilidades y conocimientos y te hacen
-        única y que quieres plasmar en tu hoja de vida (cv), en tu perfil de
-        LinkedIn y transmitir en futuras entrevistas de recursos humanos o fit
-        cultural con empresas de la industria.
+        Você será capaz de reconhecer em sua história de vida, suas experiências anteriores e na Laboratória, as habilidades e conhecimentos que a
+        tornam única e que você quer mostrar no seu curriculum vitae (CV), no seu perfil do LinkedIn e transmitir em futuras entrevistas de
+        recursos humanos ou de adequação cultural com empresas do setor.
       </p>
     </td>
     <td>
       <ul>
-        <li>Pre work del taller (slide 2 de la PPT del taller).</li>
+        <li>Pré-trabalho do workshop (slide 2 do PPT do workshop).</li>
         <li>
-          <a href="https://docs.google.com/presentation/d/1HzaNvB4koarDftWzCkBQD-phedSFVMKHOWopWfiiuI8/edit#slide=id.g108f9f34ebd_0_0">
-            Taller: Historia de vida y habilidades transferibles.
+          <a href="https://docs.google.com/presentation/d/119WT5n93vabQ67BC3iQ7e4gL1ovCAnVpAIowxAbvGsw/edit#slide=id.p1">
+            Workshop: História de vida e habilidades transferíveis.
           </a>
-          <a href="https://docs.google.com/presentation/d/1DVkE0yc1u730u0S_mLrlTpzoZR_iQlnubma4hlgswKI/edit#slide=id.g10daaaee466_0_36">
-            (Pre-work)
           </a>
         </li>
         <li>
-          <a href="https://docs.google.com/presentation/d/18L3EXGPmOAJoZYdthmJ7xiEu2wOrTUzdsoDgG-2qJRY/edit#slide=id.g10f517c8353_0_0">
-            Píldora: About me y pitch.
+          <a href="https://docs.google.com/presentation/d/1zwGsjd2uVRAwt9xx9R32ztE8XeofXk0cIgRRgPuYRRk/edit#slide=id.p1">
+            Pílula: Sobre mim e pitch.
           </a>
         </li>
-        <li>Espacio grupal para compartir "about me" y dar y recibir feedback.</li>
+        <li>Espaço em grupo para compartilhar "sobre mim" e dar e receber feedback.</li>
       </ul>
     </td>
     <td>NA</td>
@@ -76,49 +71,47 @@
   <tr>
     <td><!-- aqui la fecha --></td>
     <td>
-      <b>Preparación de CV y LinkedIn</b>
+      <b>Preparação de CV e LinkedIn</b>
       <p>
-        Trabajarás en una primera versión de tu CV y perfil de LinkedIn para
-        recibir feedback de profesionales de la industria.
+        Você vai trabalhar na primeira versão do seu CV e perfil do LinkedIn para receber feedback de profissionais do setor.
       </p>
       <p>
-        Recuerda que también puedes autogestionar espacios de feedback con tus
-        peers y con el equipo de Laboratoria.
+        Lembre-se que você também pode autogerir espaços de feedback com suas colegas e com a equipe da Laboratória.
       </p>
     </td>
     <td>
       <ul>
         <li>
-          <a href="https://www.loom.com/share/b682c1f7b7964641a5fe1b8acfcf4b8e">
-            Pildora: CV en la industria tech.
+          <a href="https://www.loom.com/share/3662a454fb2340a2991328494bf7d5f4">
+            Pílula: CV na indústria tech.
           </a>
-          <a href="https://docs.google.com/presentation/d/1s77cJ8ILVCFefWNFzoyJova7s_Vlguz-rbeF50ck4t0/edit#slide=id.g108ff262332_0_0">
+          <a href="https://docs.google.com/presentation/d/12gn8cFdWepuJJjRzpfkoin5uCLFp4lSnZRU3mIw4Axg/edit#slide=id.p1">
             (PPT)
           </a>
         </li>
         <li>
-          <a href="https://www.loom.com/share/8c43a7129e654962bb53ea1a74088a9b">
-            Pildora:  Recomendaciones para crear tu perfil en LinkedIn
+          <a href="https://www.loom.com/share/9bc63c2c4eb84abd923be1a567430a32">
+            Pílula: Recomendações para criar seu perfil no LinkedIn
           </a>
-          <a href="https://docs.google.com/presentation/d/1XNyWxwofb098qxvaVR-LOLap93SVmw6PznlBMI2AhDc/edit#slide=id.g10e34a90977_0_0">
+          <a href="https://docs.google.com/presentation/d/1vbNx_hfasadhZP6x7GqslOf7mhvJSaF1UZq8IbG04HY/edit#slide=id.p1">
             (PPT)
           </a>
         </li>
         <li>
-          <a href="https://www.loom.com/share/cb019555280444ada9dacab2810fefdb">
-            Píldora: Recomendaciones para la foto.
+          <a href="https://www.loom.com/share/787f2e26c2d04758aacf54079e6a5b40">
+            Pílula: Recomendações para a foto.
           </a>
-          <a href="https://docs.google.com/presentation/d/1pZI9Q8K6k2__eJ7-SSKPXQb5OYjTvlk-T_N6yRk4E4U/edit#slide=id.geb0fdc64a4_2_38">
+          <a href="https://docs.google.com/presentation/d/1RJFJloLe60EXW8MJoRqica2s1BspslisBCFgU_vNiH4/edit#slide=id.p1">
             (PPT)
           </a>
         </li>
-        <li>OH con el equipo (son opcionales y puedes solicitarlas a tu CDP).</li>
-        <li>Q&A externxs / placement.</li>
+        <li>OH com a equipe (são opcionais e podem ser solicitados à sua CDP).</li>
+        <li>Perguntas e respostas externxs/colocação.</li>
       </ul>
     </td>
     <td>
-      <li>Borrador del CV</li>
-      <li>Perfil de LinkedIn</li>
+      <li>Esboço do CV</li>
+      <li>Perfil do LinkedIn</li>
     </td>
     <td>
       NA
@@ -127,19 +120,18 @@
   <tr>
     <td><!-- aqui la fecha --></td>
     <td>
-      <b>Preparación entrevista RRHH</b>
+      <b>Preparação para entrevista RH</b>
       <p>
-        Tendrás un simulacro grupal de entrevista de Recursos Humanos con tus
-        compañeras y con el equipo de Laboratoria.
+        Você vai ter uma simulação de entrevista de Recursos Humanos em grupo com suas colegas e com a equipe da Laboratória.
       </p>
     </td>
     <td>
       <ul>
         <li>
-          <a href="https://www.youtube.com/watch?v=HjOUpKgbdIM">
+          <a href="https://www.loom.com/share/b9e9837cb3664c51a17a92a424ea695e">
             Píldora: Tips y buenas prácticas entrevista RRHH.
           </a>
-          <a href="https://docs.google.com/presentation/d/1OnLtRHkpzPqZpOYtMatalCA1PDor8l7rMRhDV-s212M/edit#slide=id.g1100ac05e81_0_0">
+          <a href="https://docs.google.com/presentation/d/12LuouWVJKEvGkR6v4CkdddmbrBEL5qbsaYEJsqGPicg/edit#slide=id.p1">
             (PPT)
           </a>
         </li>
@@ -147,7 +139,7 @@
           <a href="https://drive.google.com/file/d/1BJz3dWOzIUAoTyCclnKpZlQRRAZ4vxv_/view?usp=sharing">
             Píldora: Negociación salario y condiciones laborales.
           </a>
-          <a href="https://docs.google.com/presentation/d/1s0IVHBwJzqj5FVCGtnv33cdeD2OfnSXW-FH9hYenz9A/edit#slide=id.geb2e9575b7_0_0">
+          <a href="https://docs.google.com/presentation/d/1bdxzpvUCxvIphQXvM2DkdcSdtRh43JjHUB-wbOIQJog/edit#slide=id.p1">
             (PPT)
           </a>
         </li>
@@ -159,16 +151,15 @@
   <tr>
     <td><!-- aqui la fecha --></td>
     <td>
-      <b>Q&A mentorías RH con el equipo</b>
+      <b>Perguntas e respostas sobre mentorias de RH com a equipe</b>
       <p>
-        Te compartiremos cómo serán las sesiones de revisión de herramientas y
-        la simulación de la entrevista de RH y podrás prepararte para esta
-        experiencia.
+       Compartilharemos com você como serão as sessões de revisão de ferramentas e a simulação da entrevista de RH para você se preparar para essa
+        experiência.
       </p>
     </td>
     <td>
       <ul>
-        <li>Q&A Readme del proyecto</li>
+        <li>Perguntas e respostas sobre o readme do projeto</li>
       </ul>
     </td>
     <td>NA</td>
@@ -177,74 +168,74 @@
   <tr>
     <td rowspan="5">
       <b>
-        Sesiones de revisión de herramientas y simulación de entrevista RH
+       Sessões de revisão de ferramentas e simulação da entrevista de RH
       </b>
     </td>
     <td rowspan="2"><!-- aqui la fecha --></td>
     <td rowspan="2">
-      <b>Sesión de revisión y feedback de CV + LinkedIn</b>
+      <b>Sessão de revisão e feedback de CV + LinkedIn</b>
       <p>
-        Este espacio será programado por el equipo de Laboratoria.
+        Este evento será programado pela equipe da Laboratória.
       </p>
     </td>
     <td rowspan="2">
       <ul>
-        <li>Guía sesiones de mentoría (apartado en el read me)</li>
+        <li>Guia de sessões de mentoria (parte do readme)</li>
       </ul>
     </td>
-    <td>Primera versión del CV</td>
+    <td>Primeira versão do CV</td>
     <td>
-      <b>Estructura de CV</b>
+      <b>Estrutura do CV</b>
       <ul>
-          <li>La redacción es clara y concisa (no excede de más de 1 hoja)</li>
-          <li>Es de fácil lectura, usa tipografía y tamaño adecuados</li>
-          <li>Tiene un diseño armónico</li>
-          <li>El orden de experiencias académicas y profesionales estén de la más reciente a la más antigua</li>
+          <li>A redação é clara e concisa (não mais que 1 página)</li>
+          <li>É de fácil leitura, usa fonte e tamanho adequados</li>
+          <li>Tem um design harmônico</li>
+          <li>As experiências acadêmicas e profissionais estão ordenadas da mais recente para a mais antiga</li>
+</li>
       </ul>
-      <b>Contenido de CV</b>
+      <b>Conteúdo do CV</b>
       <ul>
-        <li>Mencionas tus experiencias académicas previas</li>
-        <li>Mencionas tu paso por el bootcamp de Laboratoria como experiencia educativa</li>
-        <li>Mencionas los proyectos trabajados en bootcamp de Laboratoria y las - tecnologías que utilizó para desarrollarlos</li>
-        <li>Menciona sus experiencias laborales previas</li>
+        <li>Menciona suas experiências acadêmicas anteriores</li>
+        <li>Menciona sua passagem pelo bootcamp da Laboratória como uma experiência educacional</li>
+        <li>Menciona os projetos trabalhados no bootcamp da Laboratória e as tecnologias utilizadas em seu desenvolvimento</li>
+        <li>Menciona as habilidades técnicas e de vida que você tem</li>
         <li>Mencionas las habilidades técnicas y de vida con las que cuentas</li>
-        <li>Contiene un “about me” adecuado, claro, conciso, coherente con tu narrativa</li>
+        <li>Contém um "sobre mim" adequado, claro, conciso, coerente com a sua narrativa</li>
       </ul>
     </td>
   </tr>
   <tr>
     <td>
-      Perfil de LinkedIn con recomendaciones incorporadas.
+      Perfil do LinkedIn com recomendações incorporadas.
     </td>
     <td>
-      <b>Contenido de LinkedIn</b>
+      <b>Conteúdo do LinkedIn</b>
       <ul>
-        <li>La redacción es clara y concisa</li>
-        <li>La foto que elegiste muestra una imagen profesional y auténtica</li>
-        <li>Mencionas tus experiencias académicas previas</li>
-        <li>Mencionas tu paso por el bootcamp de Laboratoria experiencia educativa</li>
-        <li>Mencionas los proyectos trabajados en bootcamp de Laboratoria y las tecnologías</li>
-        <li>Mencionas tus experiencias laborales previas</li>
-        <li>Mencionas las habilidades técnicas y de vida con las que cuenta</li>
-        <li>Contiene un “about me” adecuado, claro, conciso, coherente con tu narrativa</li>
-        <li>Incluyes otras secciones relevantes de información que suman a tu perfil</li>
+        <li>A redação é clara e concisa</li>
+        <li>A foto escolhida passa uma imagem profissional e autêntica</li>
+        <li>Menciona suas experiências acadêmicas anteriores</li>
+        <li>Menciona sua passagem pelo bootcamp da Laboratória como experiência educacional</li>
+        <li>Menciona os projetos trabalhados no bootcamp da Laboratória e as tecnologias</li>
+        <li>Menciona suas experiências profissionais anteriores</li>
+        <li>Menciona as habilidades técnicas e de vida que você tem</li>
+        <li>Inclui outras seções com informações relevantes que agregam ao seu perfil</li>
       </ul>
     </td>
   </tr>
   <tr>
     <td><!-- aqui la fecha --></td>
     <td>
-    <b>Sesión de seguimiento a la incorporación de feedback de CV + LinkedIn</b>
+    <b>Sessão de acompanhamento à incorporação do feedback do CV + LinkedIn</b>
       <p>
-        Este espacio lo agendarás tú directamente con tu mentora/or. Es importante que vayas a la sesión con todos los ajustes que hayas hecho y que recuerdes a tu mentora/or que no se olvide de llenar el formulario de evaluación.
+        Esse momento será agendado por você diretamente com seu/sua mentor/a. É importante ir à sessão com todos os ajustes feitos e lembrar seu/sua mentor/a de preencher o formulário de avaliação.
       </p>
     </td>
     <td>
-      Guía sesiones de mentoría (apartado en el read me).
+      Guia de sessões de mentoria (parte do readme).
     </td>
     <td>
-      <li>Segunda versión del CV</li>
-      <li>Perfil de LinkedIn con recomendaciones incorporadas.</li>
+      <li>Segunda versão do CV</li>
+      <li>Perfil do LinkedIn com recomendações incorporadas.</li>
     </td>
     <td>
       NA
@@ -253,95 +244,87 @@
   <tr>
     <td><!-- aqui la fecha --></td>
     <td>
-      <b>Simulación de entrevista RH</b>
+      <b>Simulação de entrevista de RH</b>
       <p>
-        Este espacio lo tendrás con una persona distinta a la de las sesiones
-        anteriores. Luego de la simulación recibirás feedback de la entrevista
-        y de tu CV + LinkedIn y también harás una autoevaluación.
+        Esta etapa será realizada com uma pessoa diferente das sessões anteriores. Após a simulação, você receberá feedback da entrevista e de seu CV + LinkedIn e também fará uma autoavaliação.
       </p>
     </td>
     <td>
       <ul>
-        <li>Guía sesiones de mentoría (apartado en el read me).</li>
+        <li>Guia de sessões de mentoria (parte do readme).</li>
         <li>
-          Form autoevaluación estudiante y evaluación a mentora/or
+          Formulário de autoavaliação da estudante e avaliação do/a mentor/a
         </li>
       </ul>
     </td>
     <td>
       <ul>
-        <li>
-          Feedback de entrevistadora/or sobre
-          entrevista y CV + LinkedIn.
-        </li>
-        <li>Autoevaluación de entrevista y de CV + LinkedIn.</li>
-        <li>Tercera versión de CV</li>
-        <li>Perfil de LinkedIn con mejoras incorporadas</li>
+        <li>Feedback do/a entrevistador/a sobre entrevista e CV + LinkedIn.</li>
+        <li>Autoavaliação da entrevista e do CV + LinkedIn.</li>
+        <li>Terceira versão do CV</li>
+        <li>Perfil do LinkedIn com melhorias incorporadas</li>
       </ul>
     </td>
     <td>
-      <b>Comunicación</b>
+      <b>Comunicação</b>
       <ul>
-        <li>La estructura de mi pitch de presentación fue adecuado, claro, coherente con mi narrativa</li>
-        <li>Mostré seguridad al responder tanto en lo verbal como en mi lenguaje corporal</li>
-        <li>Me comuniqué con fluidez y naturalidad</li>
+        <li>A estrutura do meu pitch de apresentação foi adequada, clara, coerente com a minha narrativa</li>
+        <li>Demonstrei segurança ao responder, tanto verbalmente quanto a sua linguagem corporal</li>
+        <li>Me comuniquei com fluidez e naturalidade</li>
       </ul>
-      <b>Presentación de tu perfil profesional</b>
+      <b>Apresentação de seu perfil profissional</b>
       <ul>
-        <li>Logré conectar mi background con el puesto al que simulé aplicar</li>
-        <li>Durante la entrevista mencioné lo aprendido en Laboratoria</li>
-        <li>Logré comunicar mi perfil como desarrolladora web</li>
-        <li>Envié a tiempo y previo a la entrevista ambas herramientas</li>
-        <li>La información que compartí en la entrevista coincide con la de mi CV y LinkedIn</li>
+        <li>Consegui conectar minha experiência com a vaga a que me candidatei na simulação</li>
+        <li>Durante a entrevista, mencionei o que aprendi na Laboratória</li>
+        <li>Consegui comunicar meu perfil como desenvolvedora web</li>
+        <li>Enviei ambas as ferramentas a tempo antes da entrevista</li>
+        <li>As informações que compartilhei na entrevista coincidem com as que estão no meu CV e no meu LinkedIn</li>
       </ul>
-      <b>Fortalezas y áreas de mejora</b>
+      <b>Pontos fortes e áreas para melhoria</b>
       <ul>
-        <li>Logré identificar y comunicar mis fortalezas y áreas de mejora</li>
+        <li>Consegui identificar e comunicar meus pontos fortes e áreas para melhoria</li>
       </ul>
-      <b>Habilidades y comportamientos profesionales</b>
+      <b>Habilidades e comportamentos profissionais</b>
       <ul>
-        <li>Puntualidad</li>
-        <li>Cumplimiento de acuerdos</li>
-        <li>Compartiste dificultades y/o pediste ayuda de forma proactiva</li>
-        <li>Llegaste con material y/o trabajo previo a las sesiones</li>
-        <li>Articulaste pensamientos e ideas con claridad</li>
-        <li>Te mostraste abierta al feedback e intentaste incorporarlo</li>
+        <li>Pontualidade</li>
+        <li>Cumprimento de acordos</li>
+        <li>Você compartilhou dificuldades e/ou pediu ajuda de forma proativa</li>
+        <li>Você compareceu às sessões com os materiais e/ou trabalho prévio</li>
+        <li>Você articulou pensamentos e ideias com clareza</li>
+        <li>Você se mostrou aberta ao feedback e se interessou em incorporá-lo</li>
       <ul>
     </td>
   </tr>
   <tr>
     <td><!-- aqui la fecha --></td>
     <td>
-      <b>Retrospectiva grupal de mentorías RH</b>
+      <b>Retrospectiva em grupo das mentorias de RH</b>
       <p>
-        Tendremos un espacio con toda la cohort para compartir nuestras
-        reflexiones, aprendizajes y retos de este proceso.
+        Teremos um espaço com toda a turma para compartilhar nossas reflexões, aprendizados e desafios deste processo.
       </p>
         </td>
     <td>
       <ul>
-        <li>Prework de retrospectiva por confirmar</li>
+        <li>Pré-trabalho de retrospectiva a confirmar</li>
       </ul>
     </td>
     <td>NA</td>
     <td>NA</td>
   </tr>
   <tr>
-    <td rowspan="2"><b>Preparación tech</b></td>
+    <td rowspan="2"><b>Preparação tech</b></td>
     <td><!-- aqui la fecha --></td>
     <td>
       <b>
-        Sesiones de preparación para la simulación de entrevista tech
+        Sessões de preparação para a simulação de entrevista tech
       </b>
       <p>
-        Durante el gym tech tendremos 2 sesiones de preparación para que
-        conozcas los tipos de pruebas técnicas que te puedes encontrar en
-        un proceso de selección y llegues más familiarizada a este momento.
+        Durante essa etapa, teremos 2 sessões de preparação para você conhecer os tipos de testes técnicos que poderá encontrar em um processo de seleção e chegar lá mais familiarizada com eles.
       <p>
     </td>
     <td>
       <ul>
-        <li>Guía de sesiones de preparación (apartado en el read me).</li>
+        <li>Guia de sessões de preparação (parte do readme).</li>
       </ul>
     </td>
     <td>NA</td>
@@ -350,50 +333,47 @@
   <tr>
     <td><!-- aqui la fecha --></td>
     <td>
-      <b>Preparación perfil Github</b>
+      <b>Preparação do perfil no Github</b>
       <p>
-        Prepararás tu perfil de GitHub para que sea más atractivo para las
-        personas que te conocerán en un proceso de selección.
+        Você vai preparar seu perfil no Github para ser mais atrativo para as pessoas que conheceram você em um processo de seleção.
       </p>
     </td>
     <td>
       <ul>
         <li>
          <a href="https://www.youtube.com/watch?v=vQ_EBqgUR0c">
-            Píldora: Recomendaciones para crear tu perfil en Github.
+            Pílula: Recomendações para criar seu perfil no Github.
           </a>
           <a href="https://docs.google.com/presentation/d/1Ntaj8IuE4Fcbe6Pbwt1bZwu2f6brA468oKmK6Qefs5s/edit#slide=id.g9d12fce375_0_22">
             (PPT)
           </a>
         </li>
         <li>
-          OH para ver perfil de Github (son opcionales y puedes usar las que
-          ya tienen disponibles lxs coaches).
+          OH com a equipe para ver o perfil do Github (são opcionais e você pode usar os horários já disponíveis com xs coaches).
         </li>
       </ul>
     </td>
-    <td>Perfil de GitHub</td>
+    <td>Perfil no GitHub</td>
     <td>NA</td>
   </tr>
   <tr>
     <td rowspan="3">
       <b>
-        Simulación de entrevista tech y feedback de perfil de Github
+        Simulação de entrevista tech e feedback sobre o perfil no Github
       </b>
     </td>
     <td><!-- aqui la fecha --></td>
     <td>
-      <b>Kickoff + Q&A estudiantes</b>
+      <b>Início + perguntas e respostas estudantes</b>
       <p>
-        Te compartiremos cómo serán los simulacros de entrevista técnica y
-        podrás prepararte para esta experiencia.
+       Compartilharemos com você como serão as simulações de entrevista técnica para você se preparar para essa experiência.
       </p>
     </td>
     <td>
       <ul>
         <li>
           <a href="https://www.youtube.com/watch?v=0NMil00HKEU">
-            Píldora: Buenas prácticas entrevistas tech.
+            Pílula: Práticas recomendadas em entrevistas tech.
           </a>
           <a href="https://docs.google.com/presentation/d/1a-vn-o2TKS2csszuBUyw8rcJQY40HB9Ly9ryLE_ImOQ/edit?usp=sharing">
             (PPT)
@@ -407,102 +387,91 @@
   <tr>
     <td><!-- aqui la fecha --></td>
     <td>
-      <b>Simulación de entrevista técnica </b>
+      <b>Simulação de entrevista técnica</b>
       <p>
-        Está simulación la realizará una personas de la industria que
-        tienen experiencia en equipos de desarrollo de tecnología y que han
-        participado de algunos procesos de selección a
-        través de entrevistas técnicas. Luego de la simulación recibirás
-        feedback de la entrevista y de tu Github Profile
-        y también harás una autoevaluación.
+        Esta simulação será realizada com uma pessoa do setor que tenha experiência em equipes de desenvolvimento de tecnologia e que tenha participado de alguns processos de seleção através de entrevistas técnicas. Após a simulação, você receberá feedback da entrevista e de seu perfil no Github e também fará uma autoavaliação.
       </p>
     </td>
     <td>
       <ul>
-        <li>Guía sesiones de mentoría (apartado en el read me).</li>
-        <li>Form autoevaluación estudiante y evaluación a mentora/or.</li>
+        <li>Guia de sessões de mentoria (parte do readme).</li>
+        <li>Formulário de autoavaliação da estudante e avaliação do/a mentor/a.</li>
       </ul>
     </td>
     <td>
       <ul>
         <li>
-          Feedback de entrevistadorx sobre performance en
-          entrevista y sobre el perfil de GitHub.
+          Feedback do/a entevistador/a sobre o desempenho na entrevista e sobre o perfil no Github.
         </li>
         <li>
-          Autoevaluación de entrevista del perfil de GitHub.
+          Autoavaliação da entrevista do perfil no Github.
         </li>
         <li>
-          Perfil de GitHub con recomendaciones incorporadas.
+          Perfil do Github com recomendações incorporadas.
         </li>
       </ul>
     </td>
     <td>
-      <b>Preguntas Conceptuales</b>
+      <b>Perguntas conceituais</b>
       <ul>
-        <li>¿Cómo evaluarías tu respuesta a las preguntas conceptuales?</li>
+        <li>Como você avaliaria sua resposta às perguntas conceituais?</li>
       </ul>
-      <b>Ejercicios</b>
+      <b>Exercícios</b>
       <ul>
-        <li>¿Cómo evaluarías tu desempeño en el primer ejercicio?</li>
-        <li>¿Cómo evaluarías tu desempeño en el segundo ejercicio?</li>
+        <li>Como você avaliaria seu desempenho no primeiro exercício?</li>
+        <li>Como você avaliaria seu desempenho no segundo exercício?</li>
       </ul>
-      <b>Razonamiento y comunicación</b>
+      <b>Raciocínio e comunicação</b>
       <ul>
         <li>
-          Compartiste tu razonamiento y estrategias de solución de forma
-          oportuna y asertiva. Articulaste tus pensamientos e ideas con
-          claridad.
+          Você compartilhou seu raciocínio e estratégias de solução de forma oportuna e assertiva? Você articulou seus pensamentos e ideias com clareza?
         </li>
         <li>
-          Compartiste tus dificultades y/o pediste ayuda de forma proactiva
-          durante la entrevista.
+          Você compartilhou suas dificuldades e/ou pediu ajuda de forma proativa durante a entrevista?
         </li>
       </ul>
-      <b>Habilidades y comportamientos profesionales</b>
+      <b>Habilidades e comportamentos profissionais</b>
       <ul>
-        <li>Estuviste predispuesta y proactiva para la coordinación de la entrevista</li>
-        <li>Llegaste puntual</li>
-        <li>Enviaste a tiempo y previo a la entrevista tu CV y tu perfil de Github</li>
+        <li>Você estava disposta e foi proativa para marcar a entrevista</li>
+        <li>Você chegou pontualmente</li>
+        <li>Você enviou seu CV e seu perfil do Github a tempo antes da entrevista</li>
       </ul>
     </td>
   </tr>
   <tr>
     <td><!-- aqui la fecha --></td>
     <td>
-      <b>Retrospectiva grupal de mentorías Tech</b>
+      <b>Retrospectiva em grupo das mentorias Tech</b>
       <p>
-        Tendremos un espacio con toda la
-        cohorte para compartir nuestras reflexiones, aprendizajes y retos
-        de este proceso.
+        Teremos um espaço com toda a turma para compartilhar nossas reflexões, aprendizados e desafios deste processo.
       </p>
     </td>
     <td>
       <ul>
-        <li>Prework de retrospectiva por confirmar</li>
+        <li>Pré-trabalho de retrospectiva a confirmar</li>
       </ul>
     </td>
     <td>NA</td>
     <td>NA</td>
   </tr>
   <tr>
-    <td><b>Project Feedback</b></td>
+    <td><b>Feedback do projeto</b></td>
     <td><!-- aqui la fecha --></td>
     <td>
-      <b>Project Feedback:</b>
+      <b>Feedback do projeto:</b>
       <p>
-        Al finalizar el proyecto recibirás ya sea de forma asíncrona o síncrona 2 tipos de feedbacks, 1) RH, por BM y/o CDP 2)Tech, por un coach en la sesión de Bootcamp Feedback.
+        Ao final do projeto, você receberá 2 tipos de feedback, assíncrono ou síncrono: 1) RH, por BM e/ou CDP; 2) Tech, por um coach na sessão de feedback do Bootcamp.
       </p>
     </td>
     <td>
       <ul>
-        <li>Dashboard de autoevaluación y evaluación de mentores.</li>
-        <li>Pre-work de las sesiones (por confirmar en cada caso).</li>
+        <li>Painel de autoavaliação e avaliação de mentores.</li>
+        <li>Pré-trabalho das sessões (a confirmar caso a caso).</li>
       </ul>
     </td>
     <td>
       <ul>
-        <li>Listado de accionables</li>
+        <li>Lista de ações a serem tomadas</li>
       </ul>
     </td>
     <td>
