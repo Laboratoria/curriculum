@@ -158,12 +158,14 @@ const addLocalizedLearningObjectives = async (repoDir, opts) => {
     + contents.slice(startIndex + 1).findIndex(line => /^## /.test(line))
   );
 
+  const gitCommit = (await exec("git rev-parse HEAD")).stdout
   const updatedContent = contents.slice(0, startIndex + 1)
     .concat(
       '',
       intl.description,
       text.trim(),
       endIndex > startIndex ? contents.slice(endIndex) : '',
+      'ver: ' + gitCommit
     )
     .join('\n')
     .replace(/\.\.\/\.\.\/topics\//g, `${uiUrl}/${lang}/topics/`);
