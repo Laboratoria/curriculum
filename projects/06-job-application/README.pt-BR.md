@@ -2,142 +2,108 @@
 
 ## Índice
 
-- [1. Preámbulo](#1-preámbulo)
-- [2. Objetivos de aprendizaje](#2-objetivos-de-aprendizaje)
-- [3. Entregables](#3-entregables)
-- [4. Resumen del proyecto](#4-resumen-del-proyecto)
-- [5. Mentorías de personas externas a Laboratoria](#5-mentorías-de-personas-externas-a-laboratoria)
-- [6. Consideraciones generales](#6-consideraciones-generales)
+- [1. Prefácio](#1-prefácio)
+- [2. Objetivos de aprendizagem](#2-objetivos-de-aprendizagem)
+- [3. Entregáveis](#3-entregáveis)
+- [4. Resumo do projeto](#4-resumo-do-projeto)
+- [5. Mentorias de pessoas de fora da Laboratória](#5-mentorias-de-pessoas-de-fora-da-laboratória)
+- [6. Considerações gerais](#6-considerações-gerais)
+
 
 ---
 
-## 1. Preámbulo
+## 1. Prefácio
 
-Llegaste a Laboratoria para iniciar tu carrera en tecnología como desarrolladora
-web y/o U/X. Durante estos meses estarás preparándote para iniciar tu búsqueda
-laboral y conseguir ese primer empleo en la industria.
+Você veio para a Laboratória para iniciar sua carreira em tecnologia como desenvolvedora web e/ou U/X. 
+Durante esses meses, você estará se preparando para iniciar sua busca por trabalho e conseguir seu primeiro emprego na indústria.
 
-Ya iniciaste con algunos de los proyectos en el bootcamp y para este momento te
-habrás dado cuenta de que, desarrollando proyectos en equipo, con el
-acompañamiento de tus compañeras y del equipo de Laboratoria, vas adquiriendo
-conocimientos y habilidades que te permitirán desempeñarte en un ambiente
-laboral, seguir aprendiendo y aportar todo tu potencial.
+Você já começou com alguns dos projetos do bootcamp e já deve ter percebido que, desenvolvendo projetos em equipe, com o apoio das suas colegas e
+da equipe da Laboratória, está adquirindo conhecimentos e habilidades que lhe permitirão se desenvolver em um ambiente de trabalho, continuar
+aprendendo e contribuindo com todo seu potencial.
 
-Pero hay algo más… para que consigas ese primer trabajo (que es el objetivo que
-compartimos mutuamente) es importante que te prepares para los procesos de
-selección en los que participarás  una vez que termine el bootcamp.
+Mas tem outra coisa… Para você conseguir o primeiro emprego (que é o objetivo que compartilhamos mutuamente) é importante que você se prepare para
+os processos seletivos dos quais irá participar assim que o bootcamp terminar.
 
-Sabemos que hablar de búsqueda de empleo a estas alturas puede dar nervios,
-ansiedad, expectativas etc .. pero no te preocupes, empezamos a hablar del tema
-para que te prepares y para acompañarte de la mejor forma en esta preparación.
+Sabemos que falar de procura de emprego agora pode deixar você nervosa, trazer ansiedade, expectativas, etc. mas não se preocupe, já começamos a
+falar do assunto para que você se prepare e para acompanhar você da melhor forma possível nessa preparação.
 
-Si bien el objetivo del Bootcamp es prepararte para trabajar, dado el desfase
-que muchas veces existe entre lo que se evalúa en los procesos de contratación,
-y los roles y responsabilidades reales en un equipo de tecnología, no es
-suficiente con sólo desarrollar proyectos de código para que puedas conseguir tu
-primer trabajo. Es por eso que existe este proyecto que tiene como objetivo que
-vivas una experiencia práctica que te permita prepararte para los futuros
-procesos de selección en los que participaras.
+Embora o objetivo do Bootcamp seja preparar você para o trabalho, como existe muitas vezes uma lacuna entre o que é avaliado nos processos de
+contratação e as funções e responsabilidades reais em uma equipe de tecnologia, não basta apenas desenvolver projetos de programação para que você
+possa conseguir seu primeiro emprego. E é por isso que existe este projeto, que visa fornecer a você uma experiência prática que lhe permita
+preparar-se para os processos seletivos futuros dos quais irá participar.
 
-Estos procesos son tan diversos como las empresas. En esta experiencia hemos
-intentado recopilar las etapas más comunes que hemos identificado de nuestra
-experiencia, y siempre intentando de que sean lo más reales posible. Será un
-acercamiento inicial, un “ensayo”, que te permita tener una idea general de lo
-qué te puedes encontrar una vez comience tu proceso de placement.
+Esses processos são tão diversos quanto as empresas. Nesta experiência, tentamos reunir os estágios mais comuns que identificamos em nossa
+vivência, sempre com o objetivo de torná-los tão reais quanto possível. Será uma abordagem inicial, um “ensaio”, que permite ter uma ideia geral
+do que você poderá encontrar assim que o seu processo de colocação começar.
 
 ![Cartel que dice FOR HIRE](https://user-images.githubusercontent.com/110297/135535064-9a0c0aa1-5b25-4c83-a909-4875a86d9963.jpg)
 
-## 2. Objetivos de aprendizaje
+## 2. Objetivos de aprendizagem
 
-- [ ] Entiendo cómo se vive en términos generales un proceso de selección en la
-  industria. Qué etapas tiene y en qué consiste cada una.
-- [ ] Entiendo qué es y para qué sirve mi CV en el contexto de un proceso de
-  búsqueda de trabajo en la industria tech.
-- [ ] Entiendo qué es y para qué sirve mi perfil de LinkedIn en este contexto.
-- [ ] Entiendo qué es y para qué sirve mi perfil de Github en este contexto.
-- [ ] Identifico las life skills que son fortalezas y áreas de mejora para mi
-  participación en procesos de selección en la industria.
-- [ ] Identifico las habilidades técnicas que son fortalezas y áreas de mejora
-  para mi participación en procesos de selección en la industria.
+- [ ] Entendo como é a vivência de um processo seletivo em termos gerais na indústria, quais suas etapas e em que consiste cada uma.
+- [ ] Compreendo o que é o CV e para que serve no contexto de um processo de procura de emprego na indústria tech.
+- [ ] Compreendo o que é o meu perfil do LinkedIn e para que serve neste contexto.
+- [ ] Entendo o que é meu perfil do Github e para que serve neste contexto.
+- [ ] Identifico as life skills que são meus pontos fortes e as áreas de melhoria para a minha participação em processos de seleção na indústria.
+- [ ] Identifico as competências técnicas que são pontos fortes e as áreas de melhoria para a minha participação em processos seletivos na indústria.
 
-## 3. Entregables
+## 3. Entregáveis
 
-- [ ] Tengo una versión base de Curriculum Vitae / Hoja de vida
-- [ ] Tengo un perfil en LinkedIn en el que incorporé feedback de profesionales
-  de la industria.
-- [ ] Tengo un perfil en Github en el que incorporé feedback de profesionales de
-  la industria.
-- [ ] Tengo mi autoevaluación y feedback de mentorías RRHH
-- [ ] Tengo mi feedback de CV, LinkedIn y de un simulacro de entrevista de RRHH
-- [ ] Tengo mi autoevaluación y feedback de mentorías Tech.
-- [ ] Tengo mi feedback de Github profile y de un simulacro de entrevista técnica.
+- [ ] Tenho uma versão base do Curriculum Vitae / CV
+- [ ] Tenho um perfil no LinkedIn que já inclui o feedback de profissionais do setor.
+- [ ] Tenho um perfil no Github que já inclui o feedback de profissionais do setor.
+- [ ] Tenho minha auto avaliação e feedback da mentoria de RH
+- [ ] Tenho meu feedback do CV, do LinkedIn e de uma entrevista simulada de RH
+- [ ] Tenho minha autoavaliação e feedback da mentoria de tecnologia.
+- [ ] Tenho meu feedback do perfil do Github e de uma entrevista técnica simulada.
 
-## 4. Resumen del proyecto
 
-El proyecto tiene varias etapas que te permitirán prepararte, cada etapa está
-inspirada en los momentos que puedes vivir en un proceso de selección. Ten en
-cuenta que este proyecto es un proyecto de una duración aproximada de 3 meses.
+## 4. Resumo do projeto
 
-En cada etapa del proyecto podrás encontrar:
+O projeto tem várias etapas que permitirão que você se prepare. Cada etapa é inspirada nos momentos que você pode vivenciar em um processo
+seletivo. Tenha em mente que este projeto tem uma duração aproximada de 3 meses.
 
-- **Píldoras**: Son pequeños videos informativos sobre algún tema en específico.
-  Estos videos son insumos de información que puedes consultar para el avance en
-  tu proyecto.
-- **Talleres y sesiones de reflexión**: Donde compartirás con otras compañeras y
-  el equipo de Laboratoria sobre temáticas específicas y/o sobre tu experiencia
-  y aprendizajes a lo largo del proyecto.
-- **Ayudantías**: Office Hour con el equipo de Laboratoria para poder conversar
-  tus dudas/aprendizajes/bloqueos durante el proyecto. Estos espacios podrán ser
-  con la Bootcamp Manager, Coordinadora de Desarrollo Personal o Job Placement
-  coordinator para temas vinculados a tu CV/LinkedIn/Entrevistas de RRHH y con
-  el equipo de coaches para temas vinculados a entrevistas tech y Github.
-- **Mentorias / Entrevistas**: Serán espacios que tendrás con personas de la
-  industria para recibir asesoria y/o feedback.
+Em cada etapa do projeto, você encontrará:
 
-En el siguiente link, encontrarás una tabla donde te compartimos la descripción
-de cada etapa, las fechas en las que se realizará, los recursos con los que
-contarás y los entregables de cada momento.
+- **Pílulas:** são vídeos informativos curtos sobre um tópico específico. Esses vídeos trazem informações que você pode consultar para o andamento do
+seu projeto.
+- **Workshops e sessões de reflexão:** aqui você compartilhará com outras colegas e a equipe da Laboratória sobre temas específicos e/ou sobre sua
+experiência e aprendizado ao longo do projeto.
+- **Assessorias:** horários com a equipe da Laboratória para poder discutir suas dúvidas/aprendizados/bloqueios durante o projeto. Esses espaços
+podem ser com a Bootcamp Manager, Coordenadora de Desenvolvimento Pessoal ou Job Placement Coordinator para tópicos relacionados ao seu
+CV/LinkedIn/Entrevistas de RH, e com a equipe de coaches para tópicos relacionados a entrevistas técnicas e Github.
+- **Mentorias/Entrevistas:** serão espaços que você terá com pessoas da indústria para receber conselhos e/ou feedback.
 
-### [Actividades](./Activities.md)
+No link a seguir, você encontrará uma tabela onde compartilhamos a descrição de cada etapa, as datas em que será realizada, os recursos que você
+terá e os entregáveis de cada momento.
 
-## 5. Mentorías de personas externas a Laboratoria
+### [Actividades](./Activities.pt-BR.md)
 
-Como habrás visto durante el avance del proyecto tendrás contacto con personas
-voluntarias y con experiencia en la industria TI que quieren acompañar tu
-experiencia de preparación para los procesos de selección a través de mentorías.
+## 5. Mentorias de pessoas de fora da Laboratória
 
-Para que tengas claro las diferencias entre los temas y los tipos de
-acompañamiento te dejamos la siguiente guía para las sesiones de mentorías.
+Como você já viu, durante o andamento do projeto, você terá contato com pessoas voluntárias com experiência no setor de TI que desejam acompanhar
+sua experiência de preparação para processos seletivos por meio da mentoria.
 
-### [Guía para las sesiones de mentorías](./Mentoring.md)
+Para que fiquem claras as diferenças entre os tópicos e os tipos de acompanhamento, deixamos para você o guia a seguir para as sessões de
+mentoria.
 
-## 6. Consideraciones generales
+### [Guia para as mentorias](./Mentoring.pt-BR.md)
 
-- Este es un proyecto individual que irás avanzando en paralelo a los otros
-  proyectos del Bootcamp. Te recomendamos planear espacio para avanzar cada
-  semana y dedicar tiempo de calidad a cada espacio que destines para hacerlo,
-  lo que te recomendamos ampliamente es que te apoyes de dejar en calendario las
-  actividades/entregables a realizar y destinar un tiempo específico (por
-  ejemplo 2 horas del viernes) para avanzar en este proyecto.
-- Como podrás ver tiene algunas cosas diferentes a los otros proyectos del
-  bootcamp, en este tendremos etapas y un calendario con algunas fechas pre
-  establecidas.También hay algunas cosas muy parecidas a los otros proyectos del
-  bootcamp, tienes una serie de recursos que puedes consultar como guía, podrás
-  pedir ayudantías y feedback a lo largo del avance del proyecto.
-- Tendrás vínculo con personas externas que se unen al bootcamp para apoyar tu
-  aprendizaje en el proyecto. Aprovecha este vínculo para tener buen feedback y
-  recomendaciones de personas de la industria, aprovecha su interés en
-  acompañarte y recuerda establecer una relación fluida, aprovecha su interés en
-  aportar a tu proceso y  profesional como lo harías con una persona en el marco
-  de un proceso de selección.
-- Como en otros proyectos, al pedir feedback y recibir recomendaciones
-  escucharás diferentes puntos de vista; recuerda que eres tú quien toma las
-  decisiones sobre tu proceso y quien definirá qué aspectos de su perfil quiere
-  transmitir, comunicar y/o reforzar; si hay algo que no sabes como
-  interpretar/incorporar, conversa con el equipo. Juntxs podemos identificar
-  cómo incluirlo en tu proceso de preparación.
-- Si bien el proyecto tiene etapas, los aprendizajes de este proyecto no son
-  secuenciales. Puedes ir navegando en el contenido e ir avanzando en el orden
-  que prefieras. Recuerda siempre la importancia de la iteración. Siempre puedes
-  volver, revisar, actualizar, mejorar, iterar, etc cada parte del proyecto.
-  Pide feedback, y sé activa durante toda esta preparación.
+## 6. Considerações gerais
+
+- Este é um projeto individual que você desenvolverá paralelamente aos outros projetos do Bootcamp. Recomendamos que você planeje espaço para
+avançar a cada semana e dedique tempo de qualidade a cada momento alocado para isso. Sugerimos que você marque as atividades/entregáveis a serem
+realizadas no calendário e aloque um tempo específico (por exemplo, 2 horas na sexta-feira) para avançar neste projeto.
+- Como você pode ver, algumas coisas são diferentes dos outros projetos do bootcamp: neste teremos etapas e um calendário com algumas datas pré
+estabelecidas.Algumas coisas também são muito parecidas com os outros projetos do bootcamp: você tem uma série de recursos que pode consultar como
+guia, e pode solicitar assessoria e feedback ao longo do projeto.
+- Você terá contato com pessoas externas que participam do bootcamp para apoiar sua aprendizagem no projeto. Aproveite esse contato para obter
+bons feedbacks e recomendações de pessoas do setor; aproveite o interesse deles em acompanhá-la e lembre-se de estabelecer um relacionamento
+fluido. Aproveite o interesse deles em contribuir com seu processo profissional como faria com uma pessoa no contexto de uma seleção.
+- Como em outros projetos, ao pedir feedback e receber recomendações, você ouvirá diferentes pontos de vista; lembre-se que você é quem toma as
+decisões sobre o seu processo e quem vai definir quais aspectos do seu perfil você quer transmitir, comunicar e/ou reforçar; se houver algo que
+você não saiba interpretar/incorporar, converse com a equipe. Juntxs podemos identificar como incluir isso em seu processo de preparação.
+- Embora o projeto tenha etapas, os aprendizados deste projeto não são sequenciais. Você pode navegar pelo conteúdo e avançar na ordem que
+preferir. Lembre-se sempre da importância da iteração. Você sempre pode voltar, revisar, atualizar, melhorar, iterar, etc. cada parte do projeto.
+Peça feedback e seja ativa durante toda a preparação.
+
