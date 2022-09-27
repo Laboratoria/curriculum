@@ -306,14 +306,20 @@ scm/github/ci:
 
 ux: UX (User eXperience)
 
+user-centricity: Centrado no usuário
+
 user-centricity/centricity:
   title: Desenhar e desenvolver um produto ou serviço colocando as usuárias no centro
+
+product-design: Design de produto
 
 product-design/interactivity:
   title: Criar protótipos para obter feedback e iterar
 
 product-design/visual-design:
   title: Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
+
+research: Pesquisar
 
 research/test:
   title: Planejar e executar testes de usabilidade
