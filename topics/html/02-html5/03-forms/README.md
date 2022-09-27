@@ -26,7 +26,7 @@ o aplicación.
 Revisemos la documentación del MDN sobre
 [formularios](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/form),
 además tenemos la Zona de Aprendizaje de MDN donde podrás aprender a más
-detalle sobre [los forms](https://developer.mozilla.org/es/docs/Learn/HTML/Forms).
+detalle sobre [los forms](https://developer.mozilla.org/es/docs/Learn/Forms).
 
 Ahora que conocemos los elementos para realizar un formulario, crearemos uno.
 Manos a la obra!!

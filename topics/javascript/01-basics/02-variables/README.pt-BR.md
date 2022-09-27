@@ -14,7 +14,7 @@
 O texto a continuação se baseia principalmente, com algumas modificações, no
 capítulo 2 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
 Haverbeke, 2014. Tradução em
-[Português](http://braziljs.github.io/eloquente-javascript/chapters/valores-tipos-operadores).
+[Português](https://github.com/braziljs/eloquente-javascript/blob/master/chapters/01-valores-tipos-operadores.md).
 
 ## Variáveis
 
