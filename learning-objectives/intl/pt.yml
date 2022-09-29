@@ -8,7 +8,8 @@ description: >
 # Objetivos de aprendizagem #
 #############################
 
-html: HTML
+html:
+  title: HTML
 
 html/semantics:
   title: Uso de HTML semântico
@@ -18,7 +19,8 @@ html/semantics:
     - title: Semantics in HTML - MDN
       url: https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML
 
-css: CSS
+css:
+  title: CSS
 
 css/selectors:
   title: Uso de seletores de CSS
@@ -66,9 +68,11 @@ css/media-queries:
     - title: CSS media queries - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries
 
-browser: Web APIs
+browser:
+  title: Web APIs
 
-browser/dom: DOM (Document Object Model)
+browser/dom:
+  title: DOM (Document Object Model)
 
 browser/dom/selectors:
   title: Uso de seletores de DOM
@@ -126,7 +130,8 @@ browser/fetch:
     - title: Fetch API - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API
 
-js: JavaScript
+js:
+  title: JavaScript
 
 js/data-types/primitive:
   title: Tipos de dados primitivos
@@ -304,14 +309,17 @@ scm/github/project-management:
 scm/github/ci:
   title: "GitHub: Integração contínua com GitHub actions"
 
-ux: UX (User eXperience)
+ux:
+  title: UX (User eXperience)
 
-user-centricity: Centrado no usuário
+user-centricity:
+  title: Centrado no usuário
 
 user-centricity/centricity:
   title: Desenhar e desenvolver um produto ou serviço colocando as usuárias no centro
 
-product-design: Design de produto
+product-design:
+  title: Design de produto
 
 product-design/interactivity:
   title: Criar protótipos para obter feedback e iterar
@@ -319,12 +327,14 @@ product-design/interactivity:
 product-design/visual-design:
   title: Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
 
-research: Pesquisa
+research:
+  title: Pesquisa
 
 research/test:
   title: Planejar e executar testes de usabilidade
 
-firebase: Firebase
+firebase:
+  title: Firebase
 
 firebase/auth:
   title: Firebase Auth
@@ -392,7 +402,8 @@ node/process:
     - title: Process - Documentação oficial (em inglês)
       url: https://nodejs.org/api/process.html
 
-express: Express.js
+express:
+  title: Express.js
 
 express/routing:
   title: Gerenciamento de rotas
@@ -400,7 +411,8 @@ express/routing:
 express/middleware:
   title: Uso e criação de middleware
 
-socket-io: Socket.IO
+socket-io:
+  title: Socket.IO
 
 socket-io/client:
   title: Cliente JavaScript de Socket.io
@@ -408,7 +420,8 @@ socket-io/client:
 socket-io/server:
   title: Servidor de Node.js de Socket.io
 
-http: HTTP
+http:
+  title: HTTP
 
 http/request-response:
   title: Consulta ou solicitação (request) e resposta (response).
@@ -456,7 +469,8 @@ http/cors:
     - title: Cross-Origin Resource Sharing (CORS) - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS
 
-auth: Autenticação
+auth:
+  title: Autenticação
 
 auth/jwt:
   title: JWT (JSON Web Token)
@@ -464,7 +478,8 @@ auth/jwt:
 auth/password-access-and-storage:
   title: Armazenamento e acesso de senhas
 
-webops: WebOps
+webops:
+  title: WebOps
 
 webops/env-vars:
   title: Variáveis de ambiente
@@ -478,7 +493,8 @@ webops/docker-compose:
 webops/cloud-functions:
   title: Cloud Functions
 
-cicd: Integração Contínua/Entrega Contínua
+cicd:
+  title: Integração Contínua/Entrega Contínua
 
 cicd/build-pipelines:
   title: Construção de pipelines (GitHub Actions/CircleCI)
@@ -495,7 +511,8 @@ cicd/test-coverage:
 cicd/integration-tests:
   title: Testes de integração
 
-db: Bases de dados
+db:
+  title: Bases de dados
 
 db/modeling:
   title: Modelagem de dados
@@ -506,7 +523,8 @@ db/connection:
 db/indexes-constraints:
   title: Índices e limitações
 
-sql: SQL
+sql:
+  title: SQL
 
 sql/tables:
   title: Criação e modificação de tabelas
@@ -538,7 +556,8 @@ sql/drop:
     - title: DROP DATABASE
       url: https://www.postgresql.org/docs/8.2/sql-dropdatabase.html
 
-mongodb: MongoDB
+mongodb:
+  title: MongoDB
 
 mongodb/crud:
   title: Operações CRUD (Create-Read-Update-Delete)
@@ -571,7 +590,8 @@ mongodb/dump-restore:
     - title: MongoDB Backup Methods - Docs (em inglês)
       url: https://docs.mongodb.com/manual/core/backups/
 
-postgres: PostgreSQL
+postgres:
+  title: PostgreSQL
 
 postgres/psql:
   title: Cliente de terminal psql
@@ -597,7 +617,8 @@ postgres/dump-restore:
     - title: Chapter 26. Backup and Restore - Docs (em inglês)
       url: https://www.postgresql.org/docs/14/backup.html
 
-mysql: MySQL
+mysql:
+  title: MySQL
 
 mysql/mysql:
   title: Cliente de terminal mysql
@@ -625,7 +646,8 @@ mysql/dump-restore:
     - title: mysqldump — A Database Backup Program - Docs (em inglês)
       url: https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html
 
-react: React
+react:
+  title: React
 
 react/jsx:
   title: JSX
@@ -681,7 +703,8 @@ react/routing:
     - title: Quick Start - Documentação oficial (em inglês)
       url: https://reactrouter.com/web/guides/quick-start
 
-vue: Vue
+vue:
+  title: Vue
 
 vue/instance:
   title: Instância de Vue.js
@@ -745,7 +768,8 @@ vue/classes-and-styles:
     - title: Interligações de Classe e Estilo - Documentação oficial
       url: https://br.vuejs.org/v2/guide/class-and-style.html
 
-angular: Angular
+angular:
+  title: Angular
 
 angular/components-and-templates:
   title: Components & templates
@@ -797,7 +821,8 @@ angular/styles:
     - title: Template syntax - Documentação oficial (em inglês)
       url: https://angular.io/guide/template-syntax#built-in-directives
 
-slack: Slack
+slack:
+  title: Slack
 
 slack/slash-commands:
   title: Slash commands de Slack
@@ -805,7 +830,8 @@ slack/slash-commands:
     - title: Enabling interactivity with Slash Commands - Slack Docs
       url: https://api.slack.com/interactivity/slash-commands
 
-php: PHP
+php:
+  title: PHP
 
 php/data-types/primitive:
   title: Tipos de dados primitivos em PHP
@@ -873,7 +899,8 @@ php/package-management/composer:
     - title: Composer
       url: https://getcomposer.org/doc/00-intro.md
 
-wordpress: WordPress
+wordpress:
+  title: WordPress
 
 wordpress/plugin-development/hooks:
   title: "Hooks: action e filter"
