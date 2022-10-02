@@ -172,7 +172,7 @@ de _herança_ e a cadeia de protótipos.
 
 Nesta leitura, vimos alguns exemplos de métodos que todos os arranjos possuem,
 mas há muitos mais. Recomendamos que você explore a documentação oficial do
-[Array.prototype no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype);
+[Array.prototype no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array);
 lá, você pode ver todos os _métodos_ e _propriedades_ disponíveis e suas
 interfaces \(quais argumentos eles esperam, o que devolvem, ...\).
 
@@ -181,4 +181,4 @@ interfaces \(quais argumentos eles esperam, o que devolvem, ...\).
 * [Array na
   MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
 * [Object.prototype na
-  MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype)
+  MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object)

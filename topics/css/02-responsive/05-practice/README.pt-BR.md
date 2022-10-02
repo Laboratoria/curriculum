@@ -46,7 +46,7 @@ mobile](https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db27
 ### 3. Love Love Panda Desu
 
 Crie uma página web para os amantes dos pandas. Para obter as imagens [use este
-link.](https://github.com/rafaelbcerri/love-panda).
+link](https://drive.google.com/drive/folders/1H0v3wCL7I3cJWvJDs9anlCrJpg8FZv1p).
 
 - Versão 1: Crie sua página utilizando grid.
 - Versão 2: Crie sua própria versão móvel da página.

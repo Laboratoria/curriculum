@@ -17,4 +17,4 @@ os métodos e propriedades de `Object.prototype`, quer dizer que alterando este
 objeto, se pode alterar o comportamento de **todos** os objetos.
 
 Para entender melhor leia: [Object.prototype en
-MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype)
+MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object)
