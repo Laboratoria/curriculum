@@ -60,13 +60,13 @@ js:
 
 # OAs of accessibility follow the WCAG criteria of level A, AA organized by the 4 priciples.
 # https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&showtechniques=111%2C221%2C244%2C246%2C243&levels=aaa
-# Criteria are further grouped under a guideline, but are skipped and commented out here 
+# Criteria are further grouped under a guideline, the guidelines are commented out here and skipped
 # to simplify the nested hierachy and heading length 
 # Example: accessibility/perceivable/non-text-content vs
 # accessibility/perceivable/text-alternatives/non-text-content
 #
 # audit and test-assistive-technolgies are exceptional OAs that we have added 
-# that don't fall within a category, which are tests to perform in development workflow
+# that don't fall within a category, which are more practices/tests to perform in development workflow
 accessibility:
   - audit
   - test-assistive-technologies
@@ -76,7 +76,7 @@ accessibility:
   # - time-based-media
     - audio-video-only
     - captions
-    - media-alternative
+    - audio-description-media-alternative
     - captions-live
     - audio-description-prerecorded
   # - adaptable-content

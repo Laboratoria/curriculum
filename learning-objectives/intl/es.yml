@@ -278,308 +278,19 @@ js/async/promises:
       url: https://www.freecodecamp.org/news/how-to-write-a-javascript-promise-4ed8d44292b8/
 
 accessibility:
-  title: Accesibilidad (a11y)
+  title: Accesibilidad
   links:
     - title: "Que es accesibilidad?"
       url: https://developer.mozilla.org/es/docs/Learn/Accessibility/What_is_accessibility
-
-accessibility/perceivable:
-  title: Perceptible
-  description: Los estados perceptivos que los usuarios deben poder reconocer utilizando alguno (uno o más) de sus sentidos.
-  links:
-    - title: "Principios de accesibilidad - Información perceptible e interfaz de usuario"
-      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#perceivable
-
-accessibility/perceivable/non-text-content:
-  title: Contenido no textual
-  links:
-    - title: "Principios de accesibilidad: Alternativas de texto para contenido no textual"
-      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#alternatives
-    - title: "Mozilla - Pauta 1.1 — Dar alternativas de texto para contenido no textual"
-      url: https://developer.mozilla.org/es/docs/Web/Accessibility/Understanding_WCAG/Perceivable#pauta_1.1_%E2%80%94_dar_alternativas_de_texto_para_contenido_no_textual
-    - title: "web.dev - Etiquetas y texto alternativo"
-      url: https://web.dev/labels-and-text-alternatives/
-
-accessibility/perceivable/audio-video-only:
-  title: Sólo audio y sólo vídeo (grabado)
-  links:
-    - title: "Principios de accesibilidad: Subtítulos y otras alternativas para multimedia"
-      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#captions
-    - title: "Pauta 1.2 Medios tempodependientes - Web Content Accessibility Guidelines (WCAG) 2.0 (Español)"
-      url: http://www.sidar.org/traducciones/wcag20/es/#media-equiv
-    - title: "Mozilla - Pauta 1.2 — Proporcionar alternativas para los medios tempo-dependientes"
-      url: https://developer.mozilla.org/es/docs/Web/Accessibility/Understanding_WCAG/Perceivable#pauta_1.2_%E2%80%94_proporcionar_alternativas_para_los_medios_tempo-dependientes
-    - title: "web.dev Media Accessibility (Inglés)"
-      url: https://web.dev/media-accessibility/
-
-accessibility/perceivable/captions:
-  title: Subtítulos
-  links:
-    - title: "Principios de accesibilidad: Subtítulos y otras alternativas para multimedia"
-      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#captions
-    - title: "Pauta 1.2 Medios tempodependientes - Web Content Accessibility Guidelines (WCAG) 2.0 (Español)"
-      url: http://www.sidar.org/traducciones/wcag20/es/#media-equiv
-    - title: "Mozilla - Pauta 1.2 — Proporcionar alternativas para los medios tempo-dependientes"
-      url: https://developer.mozilla.org/es/docs/Web/Accessibility/Understanding_WCAG/Perceivable#pauta_1.2_%E2%80%94_proporcionar_alternativas_para_los_medios_tempo-dependientes
-    - title: "web.dev Media Accessibility (Inglés)"
-      url: https://web.dev/media-accessibility/
-   
-accessibility/perceivable/media-alternative:
-  title: Audiodescripción o Medio Alternativo (grabado)
-  links:
-    - title: Pauta 1.2 Medios tempodependientes - Web Content Accessibility Guidelines (WCAG) 2.0 (Español)"
-      url: http://www.sidar.org/traducciones/wcag20/es/#media-equiv
-
-accessibility/perceivable/captions-live:
-  title: Subtítulos (en directo)
-  links:
-    - title: Pauta 1.2 Medios tempodependientes - Web Content Accessibility Guidelines (WCAG) 2.0 (Español)"
-      url: http://www.sidar.org/traducciones/wcag20/es/#media-equiv
-
-
-accessibility/perceivable/audio-description-prerecorded:
-  title: Audiodescripción (grabado)
-  links:
-    - title: Pauta 1.2 Medios tempodependientes - Web Content Accessibility Guidelines (WCAG) 2.0 (Español)"
-      url: http://www.sidar.org/traducciones/wcag20/es/#media-equiv
-
-accessibility/perceivable/info-relationships:
-  title: Información y relaciones
-  links:
-    - title: Pauta 1.3 — Crear contenido que pueda presentarse de diferentes formas
-      url: https://developer.mozilla.org/es/docs/Web/Accessibility/Understanding_WCAG/Perceivable#pauta_1.3_%E2%80%94_crear_contenido_que_pueda_presentarse_de_diferentes_formas
-    - title: "HTML: Una buena base para la accesibilidad - Buena Semantica"
-      url: https://developer.mozilla.org/es/docs/Learn/Accessibility/HTML#buena_sem%C3%A1ntica
-    - title: "HTML: Una buena base para la accesibilidad - Controles de interfaz de usuario"
-      url: https://developer.mozilla.org/es/docs/Learn/Accessibility/HTML#controles_de_interfaz_de_usuario
-
-accessibility/perceivable/meaningful-sequence:
-  title: Secuencia significativa
-  links:
-    - title: Pauta 1.3 — Crear contenido que pueda presentarse de diferentes formas
-      url: https://developer.mozilla.org/es/docs/Web/Accessibility/Understanding_WCAG/Perceivable#pauta_1.3_%E2%80%94_crear_contenido_que_pueda_presentarse_de_diferentes_formas
-    - title: "HTML: Una buena base para la accesibilidad - Buena Semantica"
-      url: https://developer.mozilla.org/es/docs/Learn/Accessibility/HTML#buena_sem%C3%A1ntica
-    - title: "web.dev Content Reordering (Inglés)"
-      url: https://web.dev/content-reordering/
-
-accessibility/perceivable/sensory-characteristics:
-  title: Características sensoriales
-  links:
-    - title: Pauta 1.3 — Crear contenido que pueda presentarse de diferentes formas
-      url: https://developer.mozilla.org/es/docs/Web/Accessibility/Understanding_WCAG/Perceivable#pauta_1.3_%E2%80%94_crear_contenido_que_pueda_presentarse_de_diferentes_formas
-
-accessibility/perceivable/orientation:
-  title: Orientación
-  links:
-    - title: "Pauta 1.3 — Crear contenido que pueda presentarse de diferentes formas"
-      url: https://developer.mozilla.org/es/docs/Web/Accessibility/Understanding_WCAG/Perceivable#pauta_1.3_%E2%80%94_crear_contenido_que_pueda_presentarse_de_diferentes_formas
-
-
-accessibility/perceivable/identify-input-purpose:
-  title: Identificar el propósito de entrada
-  links:
-    - title: "Pauta 1.3 — Crear contenido que pueda presentarse de diferentes formas"
-      url: https://developer.mozilla.org/es/docs/Web/Accessibility/Understanding_WCAG/Perceivable#pauta_1.3_%E2%80%94_crear_contenido_que_pueda_presentarse_de_diferentes_formas
-    - title: "7. Input Purposes for User Interface Components"
-      url: https://www.w3.org/TR/WCAG21/#input-purposes
-
-accessibility/perceivable/use-of-color:
-  title: Uso del color
-  links:
-    - title:
-      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#distinguishable
-
-accessibility/perceivable/audio-control:
-  title: Control de sonido
-  links:
-    - title:
-      url:
-
-accessibility/perceivable/contrast-minimum:
-  title: Contraste (mínimo)
-  links:
-    - title:
-      url:
-
-accessibility/perceivable/resize-text:
-  title: Cambiar el tamaño del texto
-  links:
-    - title:
-      url:
-
-accessibility/perceivable/images-text:
-  title: Imágenes de texto
-  links:
-    - title:
-      url:
-
-accessibility/perceivable/reflow:
-  title: Reflujo
-  links:
-    - title:
-      url:
-
-accessibility/perceivable/non-text-contrast:
-  title: Contraste sin texto
-  links:
-    - title:
-      url:
-
-accessibility/perceivable/text-spacing:
-  title: Espaciado de texto
-  links:
-    - title:
-      url:
-
-accessibility/perceivable/content-hover-focus:
-  title: Contenido en Hover o Focus
-  links:
-    - title:
-      url:
-
-accessibility/operable:
-  title: Operable
-  description: Componentes y navegación deben ser operable.
-  links:
-    - title: "Principios de accesibilidad - Interfaz de usuario y navegación operables"
-      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#operable
-
-accessibility/operable/keyboard:
-  title: Teclado
-  links:
     - title: "Principios de accesibilidad | Web Accessibility Initiative (WAI) | W3C"
-      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#keyboard
-    - title: "Mozilla - Guideline 2.1 — Keyboard Accessible (Inglés)"
-      url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Operable#guideline_2.1_%E2%80%94_keyboard_accessible_make_all_functionality_available_from_a_keyboard
-    - title: "web.dev Keyboard access fundamentals (Inglés)"
-      url: https://web.dev/keyboard-access/
-
-accessibility/operable/no-keyboard-trap:
-  title: Sin trampa de teclado
-  links:
-    - title: "Principios de accesibilidad | Web Accessibility Initiative (WAI) | W3C"
-      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#keyboard
-    - title: "Pauta 2.1 Accesible por teclado - Web Content Accessibility Guidelines (WCAG) 2.0 (Español)"
-      url: http://www.sidar.org/traducciones/wcag20/es/#keyboard-operation
-
-accessibility/operable/character-key-shortcuts:
-  title: Atajos de teclas de caracteres
-  links:
-    - title: "Principios de accesibilidad | Web Accessibility Initiative (WAI) | W3C"
-      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#keyboard
-    - title: "Mozilla - Guideline 2.1 — Keyboard Accessible (Inglés)"
-      url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Operable#guideline_2.1_%E2%80%94_keyboard_accessible_make_all_functionality_available_from_a_keyboard
-
-accessibility/operable/enough-time:
-  title: Tiempo suficiente
-  links: 
-    - title: "Principios de accesibilidad | Web Accessibility Initiative (WAI) | W3C"
-      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#time
-    - title: "Mozilla Accessibility - Guideline 2.2 — Enough Time (Inglés)"
-      url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Operable#guideline_2.2_%E2%80%94_enough_time_provide_users_enough_time_to_read_and_use_content
-    - title: "WCAG - Pauta 2.2 Tiempo suficiente"
-      url: http://www.sidar.org/traducciones/wcag20/es/#time-limits
-    - title: "WCAG Pauta y Criteria Asociada (Inglés)"
-      url: https://www.w3.org/TR/WCAG21/#enough-time
-
-accessibility/operable/seizure-physical-reactions:
-  title: Convulsiones y Reacciones Físicas 
-  description: No diseñar contenido de un modo que se sepa podría provocar ataques, espasmos o convulsiones.
-  links:
-    - title: "WCAG - Pauta 2.3 Convulsiones"
-      url: http://www.sidar.org/traducciones/wcag20/es/#seizure
-    - title: "Mozilla Accessibility - Operable (Inglés)"
-      url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Operable#guideline_2.3_%E2%80%94_seizures_and_physical_reactions_do_not_design_content_in_a_way_that_is_known_to_cause_seizures_or_physical_reactions
-    - title: "WCAG Pauta y Criteria Asociada (Inglés)"
-      url: https://www.w3.org/TR/WCAG21/#seizures-and-physical-reactions
-
-accessibility/operable/navigable:
-  title: Navegable 
-  description: Proporcionar medios para ayudar a los usuarios a navegar, encontrar contenido y determinar dónde se encuentran
-  links: 
-  - title: "Mozilla Accessibility - Operable - Guideline 2.4 Navigable (Inglés)"
-    url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Operable#guideline_2.4_%E2%80%94_navigable_provide_ways_to_help_users_navigate_find_content_and_determine_where_they_are
-  - title: "Mozilla Accessibility - HTML: Una buena base para la accesibilidad - Etiquetas de texto significativas"
-    url: https://developer.mozilla.org/es/docs/Learn/Accessibility/HTML#etiquetas_de_texto_significativas
-  - title: "web.dev Controlar el enfoque con tabindex"
-    url: https://web.dev/control-focus-with-tabindex/
-  - title: "Mozilla Accessibility - WAI-ARIA Basics"
-    url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics#practical_wai-aria_implementations
-  - title: "WCAG Pauta y Criteria Asociada (Inglés)"
-    url: https://www.w3.org/TR/WCAG21/#navigable
- 
-accessibility/operable/input-modalities:
-  title: Modalidades de entrada
-  links:
-    - title: "Mozilla Accessibility - Operable - Guideline 2.5 Input Modalities (Inglés)"
-      url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Operable#guideline_2.5_input_modalities_make_it_easier_for_users_to_operate_functionality_through_various_inputs_beyond_keyboard
-    - title: "Principios de accesibilidad | Web Accessibility Initiative (WAI) | W3C"
-      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#modalities
-    - title: "WCAG Pauta y Criteria Asociada (Inglés)"
-      url: https://www.w3.org/TR/WCAG21/#input-modalities
-
-accessibility/understandable:
-  title: Entendible (accessibility principle) 
-  description: Información y la operación de user interface debe ser entendible.
-
-accessibility/understandable/readable:
-  title: Legible
-  description: Hacer que los contenidos textuales resulten legibles y comprensibles.
-  links:
-    - title: "Principios de accesibilidad | Web Accessibility Initiative (WAI) | W3C"
-      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#readable
-    - title: "Mozilla Accessibility - Understandable - Guideline 3.1 Readable (Inglés)"
-      url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Understandable#guideline_3.1_%E2%80%94_readable_make_text_content_readable_and_understandable
-    - title: "¿Qué hay en la cabecera? Metadatos en HTML - Establecer el idioma principal del documento"
-      url: https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#establecer_el_idioma_principal_del_documento
-    - title:  "WCAG Pauta y Criteria Asociada (Inglés)"
-      url: https://www.w3.org/TR/WCAG21/#readable
-
-accessibility/understandable/predictable:
-  title: Predecible
-  description: Hacer que las páginas web aparezcan y operen de manera predecible.
-  links: 
-    - title: "Mozilla Accessibility - Understandable - Guideline 3.2 Predictable (Inglés)"
-      url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Understandable#guideline_3.2_%E2%80%94_predictable_make_web_pages_appear_and_operate_in_predictable_ways
-    - title: "Principios de accesibilidad | Web Accessibility Initiative (WAI) | W3C"
-      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#predictable
-    - title:  "WCAG Pauta y Criteria Asociada (Inglés)"
-      url: https://www.w3.org/TR/WCAG21/#predictable
- 
-accessibility/understandable/input-assistance:
-  title: Asistencia de entrada
-  description: Ayudar a los usuarios a evitar y corregir los errores
-  links:
-    - title: "Principios de accesibilidad | Web Accessibility Initiative (WAI) | W3C"
-      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#tolerant
-    - title: "Mozilla - Validación de formularios de datos"
-      url: https://developer.mozilla.org/es/docs/Learn/Forms/Form_validation
-    - title: "Mozilla Accesibilidad - Una buena base para la accesibilidad - Etiquetas de texto significativas"
-      url: https://developer.mozilla.org/es/docs/Learn/Accessibility/HTML#etiquetas_de_texto_significativas
-    - title: "Mozilla Accessibility - WAI-ARIA_basics - Form Validation and Error Alerts (Inglés)"
-      url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics#form_validation_and_error_alerts
-
-accessibility/robust:
-  title: Robusto (accessibility principle) 
-  descripton: El contenido debe ser lo suficientemente sólido como para que pueda ser interpretado por una amplia variedad de agentes de usuario, incluidas las tecnologías de asistencia.
-
-accessibility/robust/compatible:
-  title: Compatible
-  description: Maximizar la compatibilidad con las aplicaciones de usuario actuales y futuras, incluyendo las ayudas técnicas.
-  links:
-    - title: "Principios de accesibilidad | Web Accessibility Initiative (WAI) | W3C"
-      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#compatible
-    - title: "How to Meet WCAG (Quickref Reference) - Guideline 4.1 Compatible - A, AA (Inglés)"
-      url: https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&levels=aaa#compatible
-    - title: "Mozilla - Depurar el HTML"
-      url: https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML
-    - title: "Mozilla Accessibility - WAI-ARIA basics (Inglés)"
-      url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics
-
+      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es
+    - title: "Accesibilidad Web: Principios y pautas de WCAG 2.1"
+      url: http://accesibilidadweb.dlsi.ua.es/?menu=principios-2.1
+    - title: "Comprender las WCAG 2.0 - Una guía para comprender e implementar las Pautas de Accesibilidad"
+      url: http://www.sidar.org/traducciones/wcag20/es/
+    
 accessibility/testing:
   title: Audit e Evaluacion de Accesibilidad
-  description: Uso de herramientas (AXE, Lighthouse, Lector de Pantalla) para evaluar accesibilidad
   links:
     - title: "web.dev Auditorías de accesibilidad (Lighthouse)"
       url: https://web.dev/lighthouse-accessibility/
@@ -589,6 +300,436 @@ accessibility/testing:
       url: http://accesibilidadweb.dlsi.ua.es/?menu=lectores
     - title: "Iniciar la prueba del lector de pantalla usando el Lector de pantalla y el árbol de accesibilidad"
       url: https://coder-solution-es.com/solution-es-blog/1223272
+
+accessibility/perceivable:
+  title: Perceptible (Principio de Accesibilidad)
+  links:
+    - title: "Principios y pautas de WCAG 2.1"
+      url: http://accesibilidadweb.dlsi.ua.es/?menu=principios-2.1
+    - title: "Principios de accesibilidad | Web Accessibility Initiative (WAI) | W3C - Perceptible"
+      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#perceivable
+    - title: "Perceivable - Accesibilidad | MDN"
+      url: https://developer.mozilla.org/es/docs/Web/Accessibility/Understanding_WCAG/Perceivable
+
+accessibility/perceivable/non-text-content:
+  title: Alternativos texto por contenido no textual (1.1.1)
+  links:
+    - title: "Principios de accesibilidad: Alternativas de texto para contenido no textual"
+      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#alternatives
+    - title: "Mozilla - Pauta 1.1 — Dar alternativas de texto para contenido no textual"
+      url: https://developer.mozilla.org/es/docs/Web/Accessibility/Understanding_WCAG/Perceivable#pauta_1.1_%E2%80%94_dar_alternativas_de_texto_para_contenido_no_textual
+    - title: "web.dev - Etiquetas y texto alternativo"
+      url: https://web.dev/labels-and-text-alternatives/
+
+accessibility/perceivable/audio-video-only:
+  title: Alternativos para sólo audio o sólo vídeo (grabado) (1.2.1)
+  links:
+    - title: "Mozilla - Pauta 1.2 — Proporcionar alternativas para los medios tiempo-dependientes"
+      url: https://developer.mozilla.org/es/docs/Web/Accessibility/Understanding_WCAG/Perceivable#pauta_1.2_%E2%80%94_proporcionar_alternativas_para_los_medios_tempo-dependientes
+    - title: "web.dev Media Accessibility (Inglés)"
+      url: https://web.dev/media-accessibility/
+
+accessibility/perceivable/captions:
+  title: Uso de subtítulos (1.2.2)
+  links:
+    - title: "Principios de accesibilidad: Subtítulos y otras alternativas para multimedia"
+      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#captions
+    - title: "web.dev Media Accessibility (Inglés)"
+      url: https://web.dev/media-accessibility/
+   
+accessibility/perceivable/media-alternative:
+  title: Uso de audiodescripción o medio alternativo (1.2.3)
+  links:
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 1.2 Medios tempodependientes"
+      url: http://www.sidar.org/traducciones/wcag20/es/#media-equiv
+
+accessibility/perceivable/captions-live:
+  title: Uso de subtítulos (en directo) (1.2.4)
+  links:
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 1.2 Medios tempodependientes"
+      url: http://www.sidar.org/traducciones/wcag20/es/#media-equiv
+
+accessibility/perceivable/audio-description-prerecorded:
+  title: Uso de audiodescripción (grabado) (1.2.5)
+  links:
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 1.2 Medios tempodependientes"
+      url: http://www.sidar.org/traducciones/wcag20/es/#media-equiv
+
+accessibility/perceivable/info-relationships:
+  title: Información y relaciones semanticas (1.3.1)
+  links:
+    - title: Pauta 1.3 — Crear contenido que pueda presentarse de diferentes formas
+      url: https://developer.mozilla.org/es/docs/Web/Accessibility/Understanding_WCAG/Perceivable#pauta_1.3_%E2%80%94_crear_contenido_que_pueda_presentarse_de_diferentes_formas
+    - title: "HTML: Una buena base para la accesibilidad (Buena Semantica, Controles de interfaz de usuario)"
+      url: https://developer.mozilla.org/es/docs/Learn/Accessibility/HTML
+
+accessibility/perceivable/meaningful-sequence:
+  title: Secuencia de contenido significativa (1.3.2)
+  links:
+    - title: Pauta 1.3 — Crear contenido que pueda presentarse de diferentes formas
+      url: https://developer.mozilla.org/es/docs/Web/Accessibility/Understanding_WCAG/Perceivable#pauta_1.3_%E2%80%94_crear_contenido_que_pueda_presentarse_de_diferentes_formas
+    - title: "HTML: Una buena base para la accesibilidad"
+      url: https://developer.mozilla.org/es/docs/Learn/Accessibility/HTML
+    - title: "web.dev Content Reordering (Inglés)"
+      url: https://web.dev/content-reordering/
+
+accessibility/perceivable/sensory-characteristics:
+  title: Uso de características sensoriales (1.3.3)
+  links:
+    - title: Pauta 1.3 — Crear contenido que pueda presentarse de diferentes formas
+      url: https://developer.mozilla.org/es/docs/Web/Accessibility/Understanding_WCAG/Perceivable#pauta_1.3_%E2%80%94_crear_contenido_que_pueda_presentarse_de_diferentes_formas
+
+accessibility/perceivable/orientation:
+  title: Opciones de orientación (1.3.4)
+  links:
+    - title: "Pauta 1.3 — Crear contenido que pueda presentarse de diferentes formas"
+      url: https://developer.mozilla.org/es/docs/Web/Accessibility/Understanding_WCAG/Perceivable#pauta_1.3_%E2%80%94_crear_contenido_que_pueda_presentarse_de_diferentes_formas
+
+
+accessibility/perceivable/identify-input-purpose:
+  title: Identifica el propósito de entrada (1.3.5)
+  links:
+    - title: "Pauta 1.3 — Crear contenido que pueda presentarse de diferentes formas"
+      url: https://developer.mozilla.org/es/docs/Web/Accessibility/Understanding_WCAG/Perceivable#pauta_1.3_%E2%80%94_crear_contenido_que_pueda_presentarse_de_diferentes_formas
+    - title: "7. Input Purposes for User Interface Components"
+      url: https://www.w3.org/TR/WCAG21/#input-purposes
+
+accessibility/perceivable/use-of-color:
+  title: Uso de color solo (1.4.1)
+  links:
+    - title: "Principios de accesibilidad - Distinguible"
+      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#distinguishable
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 1.4 Distinguible"
+      url: http://www.sidar.org/traducciones/wcag20/es/#visual-audio-contrast
+
+accessibility/perceivable/audio-control:
+  title: Proporciona control del audio (1.4.2)
+  links:
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 1.4 Distinguible"
+      url: http://www.sidar.org/traducciones/wcag20/es/#visual-audio-contrast
+
+accessibility/perceivable/contrast-minimum:
+  title: Uso de contraste (mínimo) (1.4.3)
+  links:
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 1.4 Distinguible"
+      url: http://www.sidar.org/traducciones/wcag20/es/#visual-audio-contrast
+    - title: "Buenas prácticas de accesibilidad CSS y JavaScript"
+      url: https://developer.mozilla.org/es/docs/Learn/Accessibility/CSS_and_JavaScript#color_y_contraste_de_color
+
+accessibility/perceivable/resize-text:
+  title: Apoya el cambio del tamaño del texto (1.4.4)
+  links:
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 1.4 Distinguible"
+      url: http://www.sidar.org/traducciones/wcag20/es/#visual-audio-contrast
+
+accessibility/perceivable/images-text:
+  title: No usa imágenes de texto (1.4.5)
+  links:
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 1.4 Distinguible"
+      url: http://www.sidar.org/traducciones/wcag20/es/#visual-audio-contrast
+
+accessibility/perceivable/reflow:
+  title: Contenido y reflujo (scrolling dos dimensiones) (1.4.10)
+  links:
+    - title: "Understanding Success Criterion 1.4.10: Reflow"
+      url: https://www.w3.org/WAI/WCAG21/Understanding/reflow.html
+
+accessibility/perceivable/non-text-contrast:
+  title: Uso de contraste non-textual (1.4.11)
+  links:
+    - title: "Understanding Success Criterion 1.4.11: Non-text contrast"
+      url: https://www.w3.org/WAI/WCAG21/Understanding/reflow.html
+
+accessibility/perceivable/text-spacing:
+  title: Apoya el cambio del espaciado de texto (1.4.12)
+  links:
+    - title: "Understanding Success Criterion 1.4.12: Text spacing"
+      url: https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html
+
+accessibility/perceivable/content-hover-focus:
+  title: Comportamento de contenido en hover o focus (1.4.13)
+  links:
+    - title: "Understanding Success Criterion 1.4.13: Content on Hover or Focus"
+      url: https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html
+
+accessibility/operable:
+  title: Operable (Principio de Accesibilidad) 
+  links:
+    - title: "Principios de accesibilidad | Web Accessibility Initiative (WAI) | W3C - Operable"
+      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#operable
+    - title: "Principios y pautas de WCAG 2.1"
+      url: http://accesibilidadweb.dlsi.ua.es/?menu=principios-2.1
+    - title: "Operable - Accesibilidad | MDN"
+      url: https://developer.mozilla.org/es/docs/Web/Accessibility/Understanding_WCAG/Operable
+
+accessibility/operable/keyboard:
+  title: Funcionalidad disponible desde el teclado (2.1.1)
+  links:
+    - title: "Principios de accesibilidad | Web Accessibility Initiative (WAI) | W3C  - Operable"
+      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#keyboard
+    - title: "Operable - Accessibility | MDN — Keyboard Accessible (Inglés)"
+      url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Operable#guideline_2.1_%E2%80%94_keyboard_accessible_make_all_functionality_available_from_a_keyboard
+    - title: "web.dev Keyboard access fundamentals (Inglés)"
+      url: https://web.dev/keyboard-access/
+
+accessibility/operable/no-keyboard-trap:
+  title: Sin trampa de foco del teclado (2.1.2)
+  links:
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 2.1 Accesible por teclado"
+      url: http://www.sidar.org/traducciones/wcag20/es/#keyboard-operation
+
+accessibility/operable/character-key-shortcuts:
+  title: Configuración de atajos de teclas de caracteres (2.1.4)
+  links:
+    - title: "Understanding Success Criterion 2.1.4: Character Key Shortcuts"
+      url: https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html
+
+accessibility/operable/timing-adjustable:
+  title: Tiempo ajustable (2.2.1)
+  links: 
+    - title: "Principios de accesibilidad | Web Accessibility Initiative (WAI) | W3C - Operable"
+      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#time
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 2.2 Tiempo suficiente"
+      url: http://www.sidar.org/traducciones/wcag20/es/#time-limits
+
+accessibility/operable/pause-stop-hide:
+  title: Poner en pausa, detener, ocultar (2.2.2)
+  links: 
+    - title: "Principios de accesibilidad | Web Accessibility Initiative (WAI) | W3C - Operable"
+      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#time
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 2.2 Tiempo suficiente"
+      url: http://www.sidar.org/traducciones/wcag20/es/#time-limits
+
+accessibility/operable/three-flashes-or-below:
+  title: Umbral de tres destellos o menos (2.3.1) 
+  description: No diseñar contenido de un modo que se sepa podría provocar ataques, espasmos o convulsiones.
+  links:
+    - title: "Principios de accesibilidad | Web Accessibility Initiative (WAI) | W3C - Operable"
+      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#time
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 2.3 Convulsiones"
+      url: http://www.sidar.org/traducciones/wcag20/es/#seizure
+      
+accessibility/operable/bypass-blocks:
+  title: Uso de mecanismos para evitar bloques (2.4.1) 
+  links: 
+    - title: "Principios de accesibilidad | Web Accessibility Initiative (WAI) | W3C - Operable"
+      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#navigable
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 2.4 Navegable"
+      url: http://www.sidar.org/traducciones/wcag20/es/#navigation-mechanisms
+    - title: "WAI-ARIA basics - Learn web development | MDN - Signposts / Landmarks"
+      url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics#practical_wai-aria_implementations
+  
+accessibility/operable/page-titled:
+  title: Titulado de páginas (2.4.2)
+  links:
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 2.4 Navegable"
+      url: http://www.sidar.org/traducciones/wcag20/es/#navigation-mechanisms
+
+accessibility/operable/focus-order:
+  title: Orden del foco (2.4.3)
+  links:
+    - title: "web.dev Controlar el enfoque con tabindex"
+      url: https://web.dev/control-focus-with-tabindex/
+    - title: "HTML: Una buena base para la accesibilidad - Aprende sobre desarrollo web | MDN - Controles de Interfaz"
+      url: https://developer.mozilla.org/es/docs/Learn/Accessibility/HTML#controles_de_interfaz_de_usuario
+
+accessibility/operable/link-purpose:
+  title: Propósito de los enlaces determinable(2.4.4)
+  links:
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 2.4 Navegable"
+      url: http://www.sidar.org/traducciones/wcag20/es/#navigation-mechanisms
+
+accessibility/operable/multiple-ways:
+  title: Múltiples vías de navegacion (2.4.5)
+  links:
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 2.4 Navegable"
+      url: http://www.sidar.org/traducciones/wcag20/es/#navigation-mechanisms
+
+accessibility/operable/headings-labels:
+  title: Encabezados y etiquetas claros (2.4.6 )
+  links:
+    - title: "HTML: Una buena base para la accesibilidad - Etiquetas de texto significativas"
+      url: https://developer.mozilla.org/es/docs/Learn/Accessibility/HTML#etiquetas_de_texto_significativas
+    - title: "Fundamentos de texto en HTML - Conceptos básicos: Encabezados y párrafos"
+      url: https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals#conceptos_b%C3%A1sicos_encabezados_y_p%C3%A1rrafos
+
+accessibility/operable/focus-visible:
+  title: Foco visible (2.4.7)
+  links:
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 2.4 Navegable"
+      url: http://www.sidar.org/traducciones/wcag20/es/#navigation-mechanisms
+    - title: "web.dev Controlar el enfoque con tabindex"
+      url: https://web.dev/control-focus-with-tabindex/
+
+accessibility/operable/pointer-gestures:
+  title: Gestos de puntero (2.5.1)
+  links:
+    - title: "Principios de accesibilidad | Web Accessibility Initiative (WAI) | W3C"
+      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#modalities
+    - title: "Web Content Accessibility Guidelines (WCAG) 2.1"
+      url: https://www.w3.org/TR/WCAG21/#pointer-gestures
+  
+accessibility/operable/pointer-cancellation:
+  title: Cancelación de puntero (2.5.2)
+  links:
+    title: "Web Content Accessibility Guidelines (WCAG) 2.1"
+    url: https://www.w3.org/TR/WCAG21/#pointer-cancellation
+
+accessibility/operable/label-in-name:
+  title: Etiqueta en nombre (2.5.3)
+  links:
+    title: "Web Content Accessibility Guidelines (WCAG) 2.1"
+    url: https://www.w3.org/TR/WCAG21/#label-in-name
+
+accessibility/operable/motion-actuation:
+  title: Actuación de movimiento (2.5.4)
+  links:
+    title: "Web Content Accessibility Guidelines (WCAG) 2.1"
+    url: https://www.w3.org/TR/WCAG21/#motion-actuation
+
+accessibility/understandable:
+  title: Comprensible (Principio de Accesibilidad) 
+  links:
+    - title: "Principios de accesibilidad | Web Accessibility Initiative (WAI) | W3C - Comprensible"
+      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#understandable
+    - title: "Principios y pautas de WCAG 2.1"
+      url: http://accesibilidadweb.dlsi.ua.es/?menu=principios-2.1
+    - title: "Understandable - Accesibilidad | MDN"
+      url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Understandable
+
+accessibility/understandable/language-page:
+  title: Idioma de la página (3.1.1)
+  links:
+    - title: "Principios y pautas de WCAG 2.1"
+      url: http://accesibilidadweb.dlsi.ua.es/?menu=principios-2.1
+    - title: "¿Qué hay en la cabecera? Metadatos en HTML - Establecer el idioma principal del documento"
+      url: https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#establecer_el_idioma_principal_del_documento
+    
+accessibility/understandable/language-parts:
+  title:  Idioma de las partes (3.1.2)
+  links:
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 3.1 Legible"
+      url: http://www.sidar.org/traducciones/wcag20/es/#understandable
+    - title: "Principios de accesibilidad | Web Accessibility Initiative (WAI) | W3C"
+      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#readable
+ 
+accessibility/understandable/on-focus:
+  title: Al recibir el foco (3.2.1)
+  links:
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 3.2 Predicible"
+      url: http://www.sidar.org/traducciones/wcag20/es/#consistent-behavior
+    - title: "Comprender el Criterio de Conformidad 3.2.1 | Comprender las WCAG 2.0"
+      url: http://www.sidar.org/traducciones/wcag20/es/comprender-wcag20/consistent-behavior-receive-focus.html
+    - title: "Mozilla Accessibility - Understandable - Guideline 3.2 Predictable (Inglés)"
+      url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Understandable#guideline_3.2_%E2%80%94_predictable_make_web_pages_appear_and_operate_in_predictable_ways
+    
+accessibility/understandable/on-input:
+  title: Al recibir entradas (3.2.2)
+  links:
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 3.2 Predicible"
+      url: http://www.sidar.org/traducciones/wcag20/es/#consistent-behavior
+    - title: "Comprender el Criterio de Conformidad 3.2.2 | Comprender las WCAG 2.0"
+      url: http://www.sidar.org/traducciones/wcag20/es/comprender-wcag20/consistent-behavior-unpredictable-change.html
+    - title: "Mozilla Accessibility - Understandable - Guideline 3.2 Predictable (Inglés)"
+      url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Understandable#guideline_3.2_%E2%80%94_predictable_make_web_pages_appear_and_operate_in_predictable_ways
+    
+accessibility/understandable/consistent-navigation:
+  title: Navegación coherente (3.2.3)
+  links:
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 3.2 Predicible"
+      url: http://www.sidar.org/traducciones/wcag20/es/#consistent-behavior
+    - title: "Comprender el Criterio de Conformidad 3.2.3 | Comprender las WCAG 2.0"
+      url: http://www.sidar.org/traducciones/wcag20/es/comprender-wcag20/consistent-behavior-consistent-locations.html
+    - title: "Mozilla Accessibility - Understandable - Guideline 3.2 Predictable (Inglés)"
+      url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Understandable#guideline_3.2_%E2%80%94_predictable_make_web_pages_appear_and_operate_in_predictable_ways
+    
+accessibility/understandable/consistent-identification:
+  title: Identificación de componentes coherente (3.2.4)
+  links:
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 3.2 Predicible"
+      url: http://www.sidar.org/traducciones/wcag20/es/#consistent-behavior
+    - title: "Comprender el Criterio de Conformidad 3.2.4 | Comprender las WCAG 2.0"
+      url: http://www.sidar.org/traducciones/wcag20/es/comprender-wcag20/consistent-behavior-consistent-functionality.html
+    - title: "Mozilla Accessibility - Understandable - Guideline 3.2 Predictable (Inglés)"
+      url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Understandable#guideline_3.2_%E2%80%94_predictable_make_web_pages_appear_and_operate_in_predictable_ways
+    
+accessibility/understandable/input-assistance:
+  title: Asistencia de entrada
+  links:
+    - title: "Principios de accesibilidad | Web Accessibility Initiative (WAI) | W3C"
+      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#tolerant
+    - title: "Mozilla Accesibilidad - Una buena base para la accesibilidad - Etiquetas de texto significativas"
+      url: https://developer.mozilla.org/es/docs/Learn/Accessibility/HTML#etiquetas_de_texto_significativas
+    - title: "Mozilla Accessibility - WAI-ARIA_basics - Form Validation and Error Alerts (Inglés)"
+      url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics#form_validation_and_error_alerts
+
+accessibility/understandable/error-identification:
+  title: Identificación de errores (3.3.1)
+  links:
+    - title: "Mozilla - Validación de formularios de datos"
+      url: https://developer.mozilla.org/es/docs/Learn/Forms/Form_validation
+    - title: "Comprender el Criterio de Conformidad 3.3.1 | Comprender las WCAG 2.0"
+      url: http://www.sidar.org/traducciones/wcag20/es/comprender-wcag20/minimize-error-identified.html
+    - title: "Forms - Accessibility | MDN (Inglés)"
+      url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/forms
+  
+accessibility/understandable/labels-instructions:
+  title: Etiquetas o instrucciones (3.3.2)
+  links:
+    - title: "Etiquetas de texto y nombres - Accesibilidad | MDN"
+      url: https://developer.mozilla.org/es/docs/Web/Accessibility/Understanding_WCAG/Text_labels_and_names
+    - title: "Comprender el Criterio de Conformidad 3.3.2 | Comprender las WCAG 2.0"
+      url: http://www.sidar.org/traducciones/wcag20/es/comprender-wcag20/minimize-error-cues.html
+
+accessibility/understandable/error-suggestion:
+  title: Sugerencias ante errores (3.3.3)
+  links:
+    - title: "Comprender el Criterio de Conformidad 3.3.3 | Comprender las WCAG 2.0"
+      url: http://www.sidar.org/traducciones/wcag20/es/comprender-wcag20/minimize-error-suggestions.html
+
+accessibility/understandable/error-prevention:
+  title: Prevención de errores (legales, financieros, datos) (3.3.4)
+  links:
+    - title: "Comprender el Criterio de Conformidad 3.3.4 | Comprender las WCAG 2.0"
+      url: http://www.sidar.org/traducciones/wcag20/es/comprender-wcag20/minimize-error-reversible.html
+
+accessibility/robust:
+  title: Robusto (Principio de Accesibilidad) 
+  links:
+    - title: "Principios y pautas de WCAG 2.1"
+      url: http://accesibilidadweb.dlsi.ua.es/?menu=principios-2.1
+    - title: "Principios de accesibilidad | Web Accessibility Initiative (WAI) | W3C - Robusto"
+      url: https://www.w3.org/WAI/fundamentals/accessibility-principles/es#robust
+    - title: "Robust - Accesibilidad | MDN (Inglés)"
+      url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Robust
+
+accessibility/robust/parsing:
+  title: Procesamiento (4.1.1)
+  links:
+    - title: "Comprender el Criterio de Conformidad 4.1.1 | Comprender las WCAG 2.0"
+      url: http://www.sidar.org/traducciones/wcag20/es/comprender-wcag20/ensure-compat-parses.html
+    - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 - Pauta 4.1 Compatible"
+      url: http://www.sidar.org/traducciones/wcag20/es/#robust
+    - title: "Mozilla - Depurar el HTML"
+      url: https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML
+
+accessibility/robust/name-role-value:
+  title: Nombre, función, valor de componentes (4.1.2)
+  links:
+    - title: "Mozilla Accessibility - WAI-ARIA basics (Inglés)"
+      url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics
+    - title: "Mozilla - HTML: Una buena base para la accesibilidad"
+      url: https://developer.mozilla.org/es/docs/Learn/Accessibility/HTML
+    - title: "Comprender el Criterio de Conformidad 4.1.2 | Comprender las WCAG 2.0"
+      url: http://www.sidar.org/traducciones/wcag20/es/comprender-wcag20/ensure-compat-rsv.html
+
+accessibility/robust/status-messages:
+  title: Mensajes de Estatus (4.1.3)
+  links:
+    - title: "ARIA: status role - Accessibility | MDN"
+      url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/status_role
+    - title: "Understanding Success Criterion 4.1.3: Status Messages"
+      url: https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html
 
 scm:
   title: Control de Versiones (Git y GitHub)
