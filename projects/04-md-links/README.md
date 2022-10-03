@@ -84,9 +84,16 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
 * Para este proyecto **no está permitido** utilizar `async/await`.
 
+* Para este proyecto te sugerimos **no utilizar** la versión síncrona
+de la función para leer archivos, `readFileSync`, y en cambio intentar
+resolver este desafío de manera asíncrona.
+
 * Para este proyecto es **opcional** el uso de ES Modules `(import/export)`, en el
   caso optes utilizarlo deberás de crear un script de `build` en el `package.json`
   que los transforme en `requires` y `module.exports` con ayuda de **babel**.
+
+* Para disminuir la complejidad de tu algoritmo recursivo, te recomendamos
+utilizar la versión síncrona de la función para leer directorios, `readdirSync`.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
@@ -425,6 +432,10 @@ una ruta fija e imprimir su contenido en la consola con un `console.log`.
 
 La librería nativa `FS` (FileSystem) te será de utilidad.
 
+**Recuerda**: Te sugerimos **no utilizar** la versión síncrona
+de la función para leer archivos, `readFileSync`, y en cambio
+intentar resolver ese desafío de manera asíncrona.
+
 ### Averigua la extensión de un archivo
 
 Ya sabiendo leer un archivo, aventúrate a conocer cual
@@ -443,6 +454,10 @@ primero debes poder verlos.
 Intenta imprimir en consola la lista de archivos en una carpeta.
 
 La librería `FS` también te será útil aquí.
+
+**Recuerda**: Para disminuir la complejidad de tu algoritmo
+recursivo, te recomendamos utilizar la versión síncrona de
+la función para leer directorios, `readdirSync`.
 
 ### Une dos rutas
 
