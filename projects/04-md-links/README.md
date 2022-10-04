@@ -140,7 +140,7 @@ siguiente interfaz:
 * `path`: Ruta **absoluta** o **relativa** al **archivo** o **directorio**.
 Si la ruta pasada es relativa, debe resolverse como relativa al directorio
 desde donde se invoca node - _current working directory_).
-* `options`: Un objeto con **únicamente** las siguiente propiedad:
+* `options`: Un objeto con **únicamente** la siguiente propiedad:
   - `validate`: Booleano que determina si se desea validar los links
     encontrados.
 
