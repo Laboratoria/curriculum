@@ -220,7 +220,7 @@ El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
    interpreter) así como tener [git](https://curriculum.laboratoria.la/es/topics/scm/01-git)
    instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
    ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
-   también). Si usas Windows puedes usar la versión completa de [Cmder](https://cmder.net/)
+   también). Si usas Windows puedes usar la versión completa de [Cmder](https://cmder.app/)
    que incluye [Git bash](https://git-scm.com/download/win) y si tienes Windows
    10 o superior puedes usar [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 3. Una de las integrantes del equipo debe realizar un :fork_and_knife:
