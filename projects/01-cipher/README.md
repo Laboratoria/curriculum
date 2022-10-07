@@ -2,31 +2,19 @@
 
 ## Índice
 
-* [1. Objetivos de aprendizaje generales](#1-objetivos-de-aprendizaje-generales)
-* [2. Preámbulo](#2-preámbulo)
-* [3. Resumen del proyecto](#2-resumen-del-proyecto)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Hito 1: Criterios de aceptación mínimos del proyecto](#5-hito-1-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hito 2 (opcional): Agrega soporte para minúsculas y otros caracteres](#6-hito-2-(opcional)-agrega-soporte-para-minúsculas-y-otros-caracteres)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [9. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [10. Para considerar Project Feedback](#10-para-considerar-project-feedback)
+* [1. Preámbulo](#2-preámbulo)
+* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [3. Consideraciones generales](#3-consideraciones-generales)
+* [4. Hito: Criterios de aceptación mínimos del proyecto](#4-hito-criterios-de-aceptación-mínimos-del-proyecto)
+* [5. Hito Opcional: Agrega soporte para minúsculas y otros caracteres](#5-hito-opcional-agrega-soporte-para-minúsculas-y-otros-caracteres)
+* [6. Consideraciones técnicas](#6-consideraciones-técnicas)
+* [7. Objetivos de aprendizaje](#7-objetivos-de-aprendizaje)
+* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+* [9. Para considerar Project Feedback](#9-para-considerar-project-feedback)
 
 ***
 
-## 1. Objetivos de aprendizaje generales
-Como continuación del proyecto de preadmisión, volverás a trabajar sobre fundamentos de JavaScript, incluyendo conceptos como variables, condicionales, y funciones, así como eventos y manipulación básica del DOM, fundamentos de HTML y CSS.
-
-Mientras desarrollas este proyecto, te familiarizarás con estos nuevos conceptos:
-
-* Un _boilerplate_, la estructura básica de un proyecto en distintas carpetas (a través `modulos` en JS).
-* Las herramientas de mantenimiento y mejora del código (linters y pruebas unitarias).
-* Objetos en JavaScript, su estructura y métodos.
-* Iteración (bucles) en JavaScript.
-* Control de versiones con git (y la plataforma github)
-
-## 2. Preámbulo
+## 1. Preámbulo
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
 es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
@@ -53,7 +41,7 @@ comunicación por sí mismos; el cifrado César sí puede formar parte de sistem
 más complejos de codificación, como el cifrado Vigenère, e incluso tiene
 aplicación en el sistema ROT13.
 
-## 3. Resumen del proyecto
+## 2. Resumen del proyecto
 
 En este proyecto crearás una aplicación web que servirá para que tu usuaria
 pueda cifrar y descifrar un texto en el navegador indicando un desplazamiento específico de
@@ -69,14 +57,23 @@ Algunas ideas de ejemplo:
   una zona de conflicto.
 * Mensajería secreta para parejas.
 
-## 4. Consideraciones generales
+Como continuación del proyecto de preadmisión, volverás a trabajar sobre fundamentos de JavaScript, incluyendo conceptos como variables, condicionales, y funciones, así como eventos y manipulación básica del DOM, fundamentos de HTML y CSS. Mientras desarrollas este proyecto, te familiarizarás con nuevos conceptos también.
+
+### Los objetivos generales de este proyecto son los siguientes
+
+* Trabajar en base a un boilerplate, la estructura básica de un proyecto en distintas carpetas (a través modulos en JS).
+* Conocer las herramientas de mantenimiento y mejora del código (linters y pruebas unitarias).
+* Aprender sobre objetos, estructuras, métodos e iteración (bucles) en JavaScript
+* Implementar control de versiones con git (y la plataforma github)
+
+## 3. Consideraciones generales
 
 * Este proyecto lo resolvemos de manera individual. Te recomendamos una duracion de 1-3 sprints.
 * Enfócate en aprender y no solamente en "completar" el proyecto. Te va a costar.
 * Te sugerimos que no intentes saberlo todo antes de empezar a codear. No te preocupes demasiado ahora por lo que _todavía_ no entiendas. Irás aprendiendo.
 
 
-## 5. Hito 1: Criterios de aceptación mínimos del proyecto 
+## 4. Hito: Criterios de aceptación mínimos del proyecto 
 
 Estos son los requisitos que tu proyecto debe que cumplir para asegurar que tu trabajo cubra los objetivos principales.  
 
@@ -109,17 +106,17 @@ Estos son los requisitos que tu proyecto debe que cumplir para asegurar que tu t
 
 Con estos requisitos cumplidos puedes agendar un Project Feedback con unx coach.
 
-## 6. Hito 2 (opcional): Agrega soporte para minúsculas y otros caracteres
+## 5. Hito Opcional: Agrega soporte para minúsculas y otros caracteres
 
 Las partes "opcionales" tienen como intención permitirte profundizar un poco más sobre 
 los objetivos de aprendizaje del proyecto. Todo en la vida tiene pros y contras, decide 
 sabiamente si quieres invertir el tiempo en profundizar/perfeccionar o aprender cosas 
 nuevas en el siguiente proyecto.
 
-El hito 1 no menciona qué pasaría con las letras minúsculas y otros caracteres (como espacios, puntuación, ñ, ...). El _boilerplate_ incluye algunos _tests_ (comentados en principio) que 
+El hito de los críterios mínimos no menciona qué pasaría con las letras minúsculas y otros caracteres (como espacios, puntuación, ñ, ...). El _boilerplate_ incluye algunos _tests_ (comentados en principio) que 
 puedes usar como punto de partida para implementar el soporte para estos casos adicionales.
 
-## 7. Consideraciones técnicas
+## 6. Consideraciones técnicas
 
 La lógica del proyecto debe estar implementada completamente en JavaScript. En
 este proyecto NO está permitido usar librerías o frameworks, solo JavaScript puro
@@ -200,172 +197,17 @@ El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
  
 ***
 
-## 8. Objetivos de aprendizaje
+## 7. Objetivos de aprendizaje
 
-Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
+> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
+> al crear el repo del proyecto para un cohort en particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
+> que contempla nuestra currícula.
 
-### HTML
-
-- [ ] **Uso de HTML semántico**
-
-  <details><summary>Links</summary><p>
-
-  * [HTML semántico](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
-  * [Semantics - MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-</p></details>
-
-### CSS
-
-- [ ] **Uso de selectores de CSS**
-
-  <details><summary>Links</summary><p>
-
-  * [Intro a CSS](https://curriculum.laboratoria.la/es/topics/css/01-css/01-intro-css)
-  * [CSS Selectors - MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors)
-</p></details>
-
-- [ ] **Modelo de caja (box model): borde, margen, padding**
-
-  <details><summary>Links</summary><p>
-
-  * [Box Model & Display](https://curriculum.laboratoria.la/es/topics/css/01-css/02-boxmodel-and-display)
-  * [The box model - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
-  * [Introduction to the CSS box model - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
-  * [CSS display - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
-  * [display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
-</p></details>
-
-### Web APIs
-
-- [ ] **Uso de selectores del DOM**
-
-  <details><summary>Links</summary><p>
-
-  * [Manipulación del DOM](https://curriculum.laboratoria.la/es/topics/browser/02-dom/03-1-dom-methods-selection)
-  * [Introducción al DOM - MDN](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction)
-  * [Localizando elementos DOM usando selectores - MDN](https://developer.mozilla.org/es/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
-</p></details>
-
-- [ ] **Manejo de eventos del DOM (listeners, propagación, delegación)**
-
-  <details><summary>Links</summary><p>
-
-  * [Introducción a eventos - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Events)
-  * [EventTarget.addEventListener() - MDN](https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener)
-  * [EventTarget.removeEventListener() - MDN](https://developer.mozilla.org/es/docs/Web/API/EventTarget/removeEventListener)
-  * [El objeto Event](https://developer.mozilla.org/es/docs/Web/API/Event)
-</p></details>
-
-- [ ] **Manipulación dinámica del DOM**
-
-  <details><summary>Links</summary><p>
-
-  * [Introducción al DOM](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction)
-  * [Node.appendChild() - MDN](https://developer.mozilla.org/es/docs/Web/API/Node/appendChild)
-  * [Document.createElement() - MDN](https://developer.mozilla.org/es/docs/Web/API/Document/createElement)
-  * [Document.createTextNode()](https://developer.mozilla.org/es/docs/Web/API/Document/createTextNode)
-  * [Element.innerHTML - MDN](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML)
-  * [Node.textContent - MDN](https://developer.mozilla.org/es/docs/Web/API/Node/textContent)
-</p></details>
-
-### JavaScript
-
-- [ ] **Tipos de datos primitivos**
-
-  <details><summary>Links</summary><p>
-
-  * [Valores primitivos - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures#valores_primitivos)
-</p></details>
-
-- [ ] **Strings (cadenas de caracteres)**
-
-  <details><summary>Links</summary><p>
-
-  * [Strings](https://curriculum.laboratoria.la/es/topics/javascript/06-strings)
-  * [String — Cadena de caracteres - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String)
-</p></details>
-
-- [ ] **Variables (declaración, asignación, ámbito)**
-
-  <details><summary>Links</summary><p>
-
-  * [Valores, tipos de datos y operadores](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/01-values-variables-and-types)
-  * [Variables](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/02-variables)
-</p></details>
-
-- [ ] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
-
-  <details><summary>Links</summary><p>
-
-  * [Estructuras condicionales y repetitivas](https://curriculum.laboratoria.la/es/topics/javascript/02-flow-control/01-conditionals-and-loops)
-  * [Tomando decisiones en tu código — condicionales - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/conditionals)
-</p></details>
-
-- [ ] **Uso de bucles/ciclos (while, for, for..of)**
-
-  <details><summary>Links</summary><p>
-
-  * [Bucles (Loops)](https://curriculum.laboratoria.la/es/topics/javascript/02-flow-control/02-loops)
-  * [Bucles e iteración - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Loops_and_iteration)
-</p></details>
-
-- [ ] **Funciones (params, args, return)**
-
-  <details><summary>Links</summary><p>
-
-  * [Funciones (control de flujo)](https://curriculum.laboratoria.la/es/topics/javascript/02-flow-control/03-functions)
-  * [Funciones clásicas](https://curriculum.laboratoria.la/es/topics/javascript/03-functions/01-classic)
-  * [Arrow Functions](https://curriculum.laboratoria.la/es/topics/javascript/03-functions/02-arrow)
-  * [Funciones — bloques de código reutilizables - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Functions)
-</p></details>
-
-- [ ] **Pruebas unitarias (unit tests)**
-
-  <details><summary>Links</summary><p>
-
-  * [Empezando con Jest - Documentación oficial](https://jestjs.io/docs/es-ES/getting-started)
-</p></details>
-
-- [ ] **Módulos de ECMAScript (ES Modules)**
-
-  <details><summary>Links</summary><p>
-
-  * [import - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/import)
-  * [export - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/export)
-</p></details>
-
-- [ ] **Uso de linter (ESLINT)**
-
-- [ ] **Uso de identificadores descriptivos (Nomenclatura y Semántica)**
-
-### Control de Versiones (Git y GitHub)
-
-- [ ] **Git: Instalación y configuración**
-
-- [ ] **Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)**
-
-- [ ] **GitHub: Creación de cuenta y repos, configuración de llaves SSH**
-
-- [ ] **GitHub: Despliegue con GitHub Pages**
-
-  <details><summary>Links</summary><p>
-
-  * [Sitio oficial de GitHub Pages](https://pages.github.com/)
-</p></details>
-
-### Centrado en el usuario
-
-- [ ] **Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro**
-
-### Diseño de producto
-
-- [ ] **Crear prototipos de alta fidelidad que incluyan interacciones**
-
-- [ ] **Seguir los principios básicos de diseño visual**
-
-***
-
-## 9. Pistas, tips y lecturas complementarias
+## 8. Pistas, tips y lecturas complementarias
 
 ### Prepara tu PC para trabajar.
 
@@ -425,6 +267,7 @@ Desarrollo Front-end:
 * [Aprende más sobre `charCodeAt()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/charCodeAt)
 * [Aprende más sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
 * [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
+* Aprende más sobre [objetos](https://es.javascript.info/object) y [como definir métodos](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Working_with_Objects#definici%C3%B3n_de_m%C3%A9todos) 
 * [Documentación de NPM](https://docs.npmjs.com/)
 
 Organización del Trabajo:
@@ -437,7 +280,7 @@ Organización del Trabajo:
 
 ***
 
-## 10. Para considerar Project Feedback
+## 9. Para considerar Project Feedback
 
 En resumen, los criterios de aceptación mínimos del proyecto para considerar Project Feedback:
 
