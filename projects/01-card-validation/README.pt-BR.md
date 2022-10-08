@@ -225,7 +225,7 @@ consultar a [documentação oficial](https://docs.github.com/pt/pages).
    instalado. Se você usa um sistema operacional do tipo UNIX, como GNU/Linux ou
    MacOS, já possui um _shell_ (terminal) instalado por padrão (e provavelmente
    `git`) também. Se você usa o Windows, pode utilizar a versão completa do
-   [Cmder](https://cmder.net/) que inclui [Git bash](https://git-scm.com/download/win)
+   [Cmder](https://cmder.app/) que inclui [Git bash](https://git-scm.com/download/win)
    e, se tiver o Windows 10 ou superior, pode usar o
    [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 3. :arrow_down: [Clone](https://help.github.com/articles/cloning-a-repository/)
