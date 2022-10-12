@@ -99,7 +99,7 @@ seu trabalho atenda aos objetivos principais.
   a cifra muda cada caractere do alfabeto. O número será positivo e inteiro (inteiro positivo).
     * Veja o resultado da mensagem descriptografada.
 
-**dois. Testes unitários dos métodos.**
+**2. Testes unitários dos métodos.**
   Os métodos `cipher` (`encode` e `decode`) devem ser cobertos por testes de unidade.
 
 **3. Código do seu projeto enviado para seu repositório e interface "implantado".**
