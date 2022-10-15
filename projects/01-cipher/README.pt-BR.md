@@ -10,7 +10,7 @@
 * [6. Considerações técnicas](#6-considerações-técnicas)
 * [7. Objetivos de aprendizagem](#7-objetivos-de-aprendizagem)
 * [8. Guias, dicas e leituras complementares](#8-guias-dicas-e-leituras-complementares)
-* [9. Considerar o feedback do projeto](#9-considerar-o-feedback-do-projeto)
+* [9. Para considerar o feedback do projeto](#9-para-considerar-o-feedback-do-projeto)
 
 ***
 
@@ -72,10 +72,8 @@ bem como eventos e manipulação básica de DOM, fundamentos HTML e CSS.
 
 ## 3. Considerações gerais
 
-## 4. Considerações gerais
-
 * Resolvemos este projeto individualmente. Recomendamos uma duração de 1-3 sprints.
-* Concentre-se em aprender e não apenas "concluir" o projeto. Vai te custar.
+* Concentre-se em aprender e não apenas "concluir" o projeto.
 * Sugerimos que você não tente saber tudo antes de começar a codificar. 
   Não se preocupe muito agora com o que você _ainda_ não entende.
   Você vai aprender.

@@ -69,9 +69,8 @@ Como continuación del proyecto de preadmisión, volverás a trabajar sobre fund
 ## 3. Consideraciones generales
 
 * Este proyecto lo resolvemos de manera individual. Te recomendamos una duracion de 1-3 sprints.
-* Enfócate en aprender y no solamente en "completar" el proyecto. Te va a costar.
+* Enfócate en aprender y no solamente en "completar" el proyecto.
 * Te sugerimos que no intentes saberlo todo antes de empezar a codear. No te preocupes demasiado ahora por lo que _todavía_ no entiendas. Irás aprendiendo.
-
 
 ## 4. Hito: Criterios de aceptación mínimos del proyecto 
 
@@ -108,7 +107,7 @@ Con estos requisitos cumplidos puedes agendar un Project Feedback con unx coach.
 
 ## 5. Hito Opcional: Agrega soporte para minúsculas y otros caracteres
 
-Las partes "opcionales" tienen como intención permitirte profundizar un poco más sobre 
+Las partes opcionales tienen como intención permitirte profundizar un poco más sobre 
 los objetivos de aprendizaje del proyecto. Todo en la vida tiene pros y contras, decide 
 sabiamente si quieres invertir el tiempo en profundizar/perfeccionar o aprender cosas 
 nuevas en el siguiente proyecto.
@@ -209,7 +208,7 @@ El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
 
 ## 8. Pistas, tips y lecturas complementarias
 
-### Prepara tu PC para trabajar.
+### Prepara tu PC para trabajar
 
 1. Asegúrate de tener un :pencil: editor de texto en
    condiciones, algo como [Atom](https://atom.io/) o
