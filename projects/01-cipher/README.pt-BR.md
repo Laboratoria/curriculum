@@ -42,8 +42,9 @@ a cifra de Vigenère, e tem aplicação no sistema ROT13.
 ## 2. Resumo do projeto
 
 Neste projeto você criará a primeira aplicação web do _bootcamp_. Nela o usuário
-poderá cifrar e decifrar um texto no navegador indicando um deslocamento específico de
-caracteres (_offset_). Você fará isso usando HTML, CSS e JavaScript.
+poderá cifrar e decifrar um texto no navegador indicando um deslocamento
+específico de caracteres (_offset_). Você fará isso usando HTML, CSS e
+JavaScript.
 
 O tema é livre. Você deve pensar em alguma situação de vida real em que seja
 necessário cifrar uma mensagem e pensar em como deve ser a experiência do
@@ -58,7 +59,7 @@ exemplo:
 
 Como continuação do projeto de pré-admissão, você retrabalhará os fundamentos
 do JavaScript, incluindo conceitos como variáveis, condicionais e funções,
-bem como eventos e manipulação básica de DOM, fundamentos HTML e CSS. 
+bem como eventos e manipulação básica de DOM, fundamentos HTML e CSS.
  desenvolver este projeto, você também se familiarizará com novos conceitos.
 
 ### Os objetivos gerais deste projeto são os seguintes
@@ -74,7 +75,7 @@ bem como eventos e manipulação básica de DOM, fundamentos HTML e CSS.
 
 * Resolvemos este projeto individualmente. Recomendamos uma duração de 1-3 sprints.
 * Concentre-se em aprender e não apenas "concluir" o projeto.
-* Sugerimos que você não tente saber tudo antes de começar a codificar. 
+* Sugerimos que você não tente saber tudo antes de começar a codificar.
   Não se preocupe muito agora com o que você _ainda_ não entende.
   Você vai aprender.
 
@@ -85,42 +86,55 @@ seu trabalho atenda aos objetivos principais.
 
 **1. Uma interface que deve permitir ao usuário:**
 
-  * **Criptografar uma mensagem**
-    * Inserir a mensagem (texto) que deseja criptografar. A mensagem usa um alfabeto simplificado (apenas letras maiúsculas).
-    * Escolher um número de deslocamento (_offset_) indicando quantas posições você deseja
- que a cifra desloque cada caractere do alfabeto. O número será positivo e inteiro (inteiro positivo).
-    * Veja o resultado da mensagem criptografada.
+* **Criptografar uma mensagem**
+  - Inserir a mensagem (texto) que deseja criptografar. A mensagem usa um
+    alfabeto simplificado (apenas letras maiúsculas).
+  - Escolher um número de deslocamento (_offset_) indicando quantas posições
+    você deseja que a cifra desloque cada caractere do alfabeto. O número
+    será positivo e inteiro (inteiro positivo).
+  - Veja o resultado da mensagem criptografada.
 
- * **Descriptografar uma mensagem**
-    * Inserir a mensagem (texto) que deseja descriptografar. A mensagem usa um alfabeto simplificado (apenas letras maiúsculas).
-    * Escolher um número de deslocamento (_offset_, que corresponde ao que usamos para criptografar) indicando quantas posições você deseja
- que a cifra desloque cada caractere do alfabeto. O número será positivo e inteiro (inteiro positivo).
-    * Veja o resultado da mensagem descriptografada.
+* **Descriptografar uma mensagem**
+  - Inserir a mensagem (texto) que deseja descriptografar. A mensagem usa um
+    alfabeto simplificado (apenas letras maiúsculas).
+  - Escolher um número de deslocamento (_offset_, que corresponde ao que usamos
+    para criptografar) indicando quantas posições você deseja que a cifra
+    desloque cada caractere do alfabeto. O número será positivo e inteiro
+    (inteiro positivo).
+  - Veja o resultado da mensagem descriptografada.
 
 **2. Testes unitários dos métodos.**
-  Os métodos `cipher` (`encode` e `decode`) devem ser cobertos por testes unitários.
+Os métodos `cipher` (`encode` e `decode`) devem ser cobertos por testes
+unitários.
 
 **3. Código do seu projeto enviado para seu repositório e interface "implantada".**
-  O código final deve estar um repositório no GitHub. A interface, ou página da web, deve ser "implantada" usando o GitHub Pages.
+O código final deve estar um repositório no GitHub. A interface, ou página da
+web, deve ser "implantada" usando o GitHub Pages.
 
 **4. Um README contendo uma definição de produto.**
-  No README, conte-nos como você pensou sobre os usuários e qual foi o seu processo para definir o produto final em nível de experiência e interface. Estas perguntas servem de guia:
+No README, conte-nos como você pensou sobre os usuários e qual foi o seu
+processo para definir o produto final em nível de experiência e interface.
+Estas perguntas servem de guia:
 
-  * Quem são os principais usuários do produto.
-  * Quais são os objetivos desses usuários em relação ao seu produto.
-  * Como você acha que o produto que você está criando está resolvendo seus problemas.
+* Quem são os principais usuários do produto
+* Quais são os objetivos desses usuários em relação ao seu produto
+* Como você acha que o produto que você está criando está resolvendo seus
+  problemas
 
-Com esses requisitos atendidos, você pode agendar um feedback do projeto com um coach.
+Com esses requisitos atendidos, você pode agendar um feedback do projeto com
+um coach.
 
 ## 5. Marco Opcional: Adicione suporte para letras minúsculas e outros caracteres
 
 As partes opcionais permitem que você se aprofunde um pouco mais
-nos objetivos de aprendizagem do projeto. Tudo na vida tem prós e contras, decida
-sabiamente se você quiser gastar o tempo aprofundando/refinando ou aprendendo coisas
-novas no próximo projeto.
+nos objetivos de aprendizagem do projeto. Tudo na vida tem prós e contras,
+decida sabiamente se você quiser gastar o tempo aprofundando/refinando ou
+aprendendo coisas novas no próximo projeto.
 
-O marco de critérios mínimos não menciona o que aconteceria com letras minúsculas e outros caracteres (como espaços, pontuação, ñ, ...). O _boilerplate_ inclui alguns _tests_ (comentados no início) que
-você pode usar como ponto de partida para implementar o suporte para esses casos adicionais.
+O marco de critérios mínimos não menciona o que aconteceria com letras
+minúsculas e outros caracteres (como espaços, pontuação, ...). O _boilerplate_
+inclui alguns _tests_ (comentados no início) que você pode usar como ponto
+de partida para implementar o suporte para esses casos adicionais.
 
 ## 6. Considerações técnicas
 
@@ -129,11 +143,13 @@ projeto **NÃO** está permitido usar bibliotecas ou frameworks, só vanilla
 JavaScript.
 
 Para iniciar este projeto você terá que fazer um _fork_ e _clone_ desse
-repositório, que contém um _boilerplate_ com testes. Um _boilerplate_ é a estrutura básica de um projeto que serve como ponto de partida com arquivos iniciais e configuração básica de dependências e testes.
+repositório, que contém um _boilerplate_ com testes. Um _boilerplate_ é a
+estrutura básica de um projeto que serve como ponto de partida com arquivos
+iniciais e configuração básica de dependências e testes.
 
 Os testes unitários devem cobrir no mínimo de 70% dos _statements_, _functions_
-e _lines_, e um mínimo de 50% de _branches_. O _boilerplate_ já contem o setup e
-configurações necessárias para executar os testes assim como _code coverage_
+e _lines_, e um mínimo de 50% de _branches_. O _boilerplate_ já contem o setup
+e configurações necessárias para executar os testes assim como _code coverage_
 para ver o nível de cobertura dos testes usando o comando `npm test`.
 
 O _boilerplate_ que fornecemos contém esta estrutura:
@@ -261,14 +277,18 @@ Desenvolvimento Front-end:
 * [Aprenda mais sobre
   `ASCII`](https://web.fe.up.pt/~ee96100/projecto/Tabela%20ascii.htm)
 * [Documentação do NPM](https://docs.npmjs.com/)
-* Saiba mais sobre [objetos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects) e [como definir métodos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects#definindo_m%C3%A9todos##)
+* Saiba mais sobre [objetos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects)
+  e [como definir métodos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects#definindo_m%C3%A9todos##)
 
 ## 9. Para considerar o feedback do projeto
 
-Em resumo, os critérios mínimos de aceitação do projeto para considerar o Project Feedback:
+Em resumo, os critérios mínimos de aceitação do projeto para considerar o
+Project Feedback:
 
-* [ ] Possui uma interface que permite ao usuário criptografar e descriptografar.
-* [ ] O projeto será entregue incluindo testes unitários dos métodos `cipher` (`encode` e `decode`).
+* [ ] Possui uma interface que permite ao usuário criptografar e
+  descriptografar.
+* [ ] O projeto será entregue incluindo testes unitários dos métodos `cipher`
+  (`encode` e `decode`).
 * [ ] O projeto será entregue livre de _erros_ de `eslint` (_warnings_ são ok).
 * [ ] O código do seu projeto será entregue no GitHub.
 * [ ] A interface será "implantada" usando o GitHub Pages.
