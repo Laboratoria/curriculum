@@ -4,12 +4,14 @@
 
 * [1. Introdução](#1-Introdução)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
-* [4. Considerações gerais](#4-consideracoes-gerais)
-* [5. Critérios mínimos de aceitação do
-  projeto](#5-criterios-de-aceptacao-mínimos-do-projeto)
-* [6. Guias, dicas e leituras
+* [3. Considerações gerais](#3-considerações-gerais)
+* [4. Marco: Critérios de Aceitação Mínimos do Projeto](#5-marco-critérios-de-aceitação-mínimos-do-projeto)
+* [5. Marco Opcional: Mostrar a franquia do cartão](#5-marco-opcional-mostrar-a-franquia-do-cartão)
+* [6. Considerações técnicas](#6-considerações-técnicas)
+* [7. Objetivos de aprendizagem](#7-objetivos-de-aprendizagem)
+* [8. Guias, dicas e leituras
   complementares](#6-guias-dicas-e-leituras-complementares)
+* [9. Para considerar o feedback do projeto](#9-para-considerar-o-feedback-do-projeto)
 
 ***
 
@@ -40,139 +42,127 @@ O tema é livre. Você deve pensar em quais situações da vida real um cartão 
 crédito precisaria ser validado e em como deveria ser a experiência do usuário
 (telas, explicações, mensagens, cores, marca?) etc.
 
-Você aprenderá a criar um aplicativo Web que irá interagir interagir com uma
-pessoa ao final do desenvolvimento através do navegador, usando HTML, CSS e
-JavaScript como tecnologias.
+Como continuação do projeto de pré-admissão, você retrabalhará os fundamentos
+do JavaScript, incluindo conceitos como variáveis, condicionais e funções,
+bem como eventos e manipulação básica de DOM, fundamentos HTML e CSS.
+Ao desenvolver este projeto, você também se familiarizará com novos conceitos.
 
-## 3. Objetivos de aprendizagem
+### Os objetivos gerais deste projeto são os seguintes
 
-> ℹ️ Esta seção será automaticamente gerada no idioma pertinente, a partir dos
-> objetivos de aprendizagem declarados em [`project.yml`](./project.yml), ao
-> criar o repositório do projeto para uma coorte em particular usando
-> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
->
-> Aqui você pode ver uma [lista de todos os objetivos de aprendizagem](../../learning-objectives/data.yml)
-> cobertos em nosso currículo.
+* Trabalhar com base em um boilerplate, a estrutura básica de um projeto em diferentes
+  pastas (através de módulos em JS).
+* Conhecer as ferramentas de manutenção e melhoria do código (linters e testes
+  unitários).
+* Aprenda sobre objetos, estruturas, métodos e iteração (loops) em JavaScript
+* Implementar controle de versão com git (e a plataforma github)
 
-## 4. Considerações gerais
+## 3. Considerações gerais
 
-* A equipe de mentores te dará um tempo sugerido e indicações sobre trabalhar
-  individualmente ou em equipe. Lembre-se de que cada pessoa aprende em um ritmo
-  diferente.
+* Resolvemos este projeto individualmente. Recomendamos uma duração de 1-3 sprints.
+* Concentre-se em aprender e não apenas "concluir" o projeto.
+* Sugerimos que você não tente saber tudo antes de começar a codificar.
+  Não se preocupe muito agora com o que você _ainda_ não entende.
+  Você vai aprender.
 
-* O projeto será entregue subindo seu código no GitHub (commit/push) e a
-  interface será implementada usando as páginas do GitHub. Caso desconheça o
-  GitHub, não se preocupe, pois você vai aprender sobre ele ao longo do projeto.
+## 4. Marco: Critérios de Aceitação Mínimos do Projeto
 
-## 5. Critérios mínimos de aceitação do projeto
+Esses são os requisitos que seu projeto deve atender para garantir que
+seu trabalho atenda aos objetivos principais.
 
 Use apenas caracteres numéricos (dígitos) no cartão para validar [0-9].
 
-### Definição do produto
-
-No `README.md`, conte-nos como você pensou sobre os usuários e qual foi seu
-processo para definir o produto final a nível da experiência e da interface.
-
-* Quem são os principais usuários do produto.
-* Quais os objetivos destes usuários em relação a seu produto.
-* Como você considera que o produto que está criando resolverá os problemas dos
-  usuários.
-
-### Interface do usuário (UI)
-
-A interface deve permitir ao usuário:
-
+**1. Uma interface que deve permitir ao usuário:**  
 * Inserir o número que desejamos validar.
 * Constatar se o resultado é válido ou não.
 * Ocultar todos os dígitos do número do cartão, excetuando os últimos 4
   caracteres.
 * Não deve poder inserir um campo vazio.
 
-### UX (Design da experiência do usuário)
+**2. Testes unitários dos métodos.**
+Os métodos `validator` (`isValid` e `maskify`) devem ser cobertos por testes unitários.
 
-Antes de começar a codificar, você deve entender o problema que deseja resolver
-e como o aplicativo o resolve.
+**3. Código do seu projeto enviado para seu repositório e interface "implantada".**
+O código final deve estar um repositório no GitHub. A interface, ou página da web, deve ser "implantada" usando o GitHub Pages.
 
-* Trabalhe seu primeiro protótipo com papel e lápis (preto e branco).
-* Em seguida, valide esta solução com uma companheira (peça feedback).
-* Use o aprendizado no momento de validar seu primeiro protótipo e desenvolva um
-  novo protótipo empregando alguma ferramenta para design de protótipos
-  ([Balsamiq](https://balsamiq.com/), [Figma](https://www.figma.com/),
-  [Apresentações Google](https://www.google.com/intl/pt-br/slides/about/) etc.)
-  Esses pontos serão apresentados no `README.md`.
+**4. Um README contendo uma definição de produto.**
+No README, conte-nos como você pensou sobre os usuários e qual foi o seu
+processo para definir o produto final em nível de experiência e interface.
+Estas perguntas servem de guia:
 
-### Scripts / Arquivos
+* Quem são os principais usuários do produto
+* Quais são os objetivos desses usuários em relação ao seu produto
+* Como você acha que o produto que você está criando está resolvendo seus
+  problemas
 
-#### Geral
+Com esses requisitos atendidos, você pode agendar um feedback do projeto com
+um coach.
 
-##### `README.md`
+## 5. Marco Opcional: Mostrar a franquia do cartão
 
-Ele deve conter o seguinte:
+As partes opcionais permitem que você se aprofunde um pouco mais
+nos objetivos de aprendizagem do projeto. Tudo na vida tem prós e contras, decida
+sabiamente se você quiser gastar o tempo aprofundando/refinando ou aprendendo coisas
+novas no próximo projeto.
 
-* Um título com o nome do seu projeto.
-* Um resumo de 1 ou 2 linhas sobre o seu projeto.
-* A imagem final do seu projeto.
-* Pesquisa UX:
-  1. Explicar quem irá usá-lo e os objetivos quanto ao produto.
-  2. Explicar como o produto resolve os problemas/necessidades desses usuários.
-  3. Em seguida, você colocará a foto do seu primeiro protótipo no papel.
-  4. Adicionar um resumo do feedback recebido indicando as melhorias a serem
-     feitas.
-  5. Imagem do protótipo final.
+No marco opcional você também pode validar se o número do
+cartão é válido, mostre a [franquia](https://es.wikipedia.org/wiki/N%C3%BAmero_de_programa_bancaria)
+do cartão (por exemplo, Visa, MasterCard, etc) usando estas [regras de validação](https://stevemorse.org/ssn/cc.html).
+Se você escrever um novo método para isso, terá que fazer testes de unidade.
 
-#### Interface
+## 6. Considerações técnicas
 
-Você precisará definir exatamente o protótipo final que você criou na ferramenta
-de design de protótipos que você escolheu usando HTML e CSS. Nesse momento, você
-escolherá as cores, o tipo de fonte etc. que irá usar.
+A lógica do projeto deve estar implementada inteiramente em JavaScript. Nesse
+projeto **NÃO** está permitido usar bibliotecas ou frameworks, só vanilla
+JavaScript.
 
-Abaixo, descrevemos os arquivos que você usará:
+Para iniciar este projeto você terá que fazer um _fork_ e _clone_ desse
+repositório, que contém um _boilerplate_ com testes. Um _boilerplate_ é a
+estrutura básica de um projeto que serve como ponto de partida com arquivos
+iniciais e configuração básica de dependências e testes.
 
-##### `src/index.html`
+Os testes unitários devem cobrir no mínimo de 70% dos _statements_, _functions_
+e _lines_, e um mínimo de 50% de _branches_. O _boilerplate_ já contem o setup e
+configurações necessárias para executar os testes assim como _code coverage_
+para ver o nível de cobertura dos testes usando o comando `npm test`.
 
-Este arquivo contém o conteúdo que será exibido ao usuário (esqueleto HTML).
-Você encontrará três marcadores iniciais que, se você quiser, poderá excluir e
-começar do zero:
+O _boilerplate_ que fornecemos contém esta estrutura:
 
-* `<header>`: cabeçalho do seu projeto.
-* `<main>`: conteúdo principal do seu projeto.
-* `<footer>`: rodapé do seu projeto.
+```text
+./
+├── .babelrc
+├── .editorconfig
+├── .eslintrc
+├── .gitignore
+├── README.md
+├── package.json
+├── src
+│   ├── validator.js
+│   ├── index.html
+│   ├── index.js
+│   └── style.css
+└── test
+    ├── .eslintrc
+    └── validator.spec.js
+```
 
-##### `src/style.css`
+### Descrição de scripts/arquivos
 
-Este arquivo deve conter as regras de estilo. Queremos que você escreva suas
-próprias regras. Por isso, o uso de estruturas CSS (Bootstrap, materialize etc.)
-NÃO é permitido.
-
-#### Funcionalidades e testes de unidade (JavaScript)
-
-* A lógica do projeto deve ser totalmente implementada em JavaScript.
-* NÃO é permitido usar bibliotecas ou frameworks neste projeto, apenas
-  JavaScript puro, também conhecido como JavaScript Vanilla.
-
-Você terá 2 arquivos JavaScript que separam responsabilidades, eis o que você
-fará em cada arquivo:
-
-##### `src/validator.js`
-
-Aqui você escreverá as funções necessárias para que o usuário possa verificar o
-cartão de crédito e ocultar os dígitos do número do cartão. Esta função deve ser
-pura e independente do DOM.
-
-Para isso, você deve implementar o **validador `de objeto`**, que já está
-_exportado_ no _boilerplate_. Este objeto (`validador`) contém dois métodos
-(`isValid` e `maskify`):
-
-* **`validator.isValid(creditCardNumber)`**: `creditCardNumber` é um `string`
-  com o número do cartão a ser verificado. Esta função deve retornar um
-  `boolean`, dependendo de sua validade, de acordo com o [algoritmo de
-  Luhn](https://en.wikipedia.org/wiki/Luhn_algorithm).
-
-* **`validator.maskify(creditCardNumber)`**: `creditCardNumber` é um `string`
-  com o número do cartão e esta função deve retornar um `string` onde todos,
-  exceto os últimos quatro caracteres, são substituídos por um número (`#`) ou
-  🐱. Essa função deve sempre manter os quatro últimos caracteres intactos,
-  mesmo quando o `string` for mais curto.
+* `README.md`: deve explicar como "deployar", instalar e executar a aplicação,
+  assim como uma introdução a aplicação, suas funcionalidades e as decisões que
+  foram tomadas.
+* `src/index.html`: aqui será o ponto de entrada da sua aplicação. Este arquivo
+  deve conter a marcação HTML e chamar o CSS e JavaScript necessários.
+* `src/validator.js`: aqui você deve implementar o objeto `validator`, o qual já está
+  _exportado_ no _boilerplate_. Este objeto (`validator`) deve conter dois métodos:
+  - `validator.isValid(creditCardNumber)`: `creditCardNumber` é um `string`
+    com o número do cartão a ser verificado. Esta função deve retornar um
+    `boolean`, dependendo de sua validade, de acordo com o [algoritmo de
+    Luhn](https://en.wikipedia.org/wiki/Luhn_algorithm).
+  - `validator.maskify(creditCardNumber)`: `creditCardNumber` é um `string`
+    com o número do cartão e esta função deve retornar um `string` onde todos,
+    exceto os últimos quatro caracteres, são substituídos por um número (`#`) ou
+    🐱. Essa função deve sempre manter os quatro últimos caracteres intactos,
+    mesmo quando o `string` for mais curto.
 
     Exemplo de uso:
 
@@ -182,24 +172,22 @@ _exportado_ no _boilerplate_. Este objeto (`validador`) contém dois métodos
     maskify(               '1') ===                '1'
     maskify(               '')  ===                ''
     ```
+* `src/index.js`: aqui você deve escutar os eventos de DOM, chamar
+  `validator.isValid()` e `validator.maskify()`.
+* `test/validator.spec.js`: este arquivo contem alguns testes de exemplo e aqui
+  você deve implementar os testes para `validator.isValid()` e `validator.maskify()`.
 
-##### `src/index.js
-
-Aqui, você escreverá todo o código relacionado à interação do DOM (selecionar,
-atualizar e manipular elementos do DOM e eventos). Ou seja, nesse arquivo, você
-precisará ativar as funções `isValid` e `maskify` conforme seja necessário para
-atualizar o resultado na tela (UI).
-
-##### `test/validator.spec.js`
-
-Nesse arquivo, você deverá concluir os testes de unidade das funções
-`validator.isValid(creditCardNumber)` e `validator.maskify(creditCardNumber)`
-implementadas em `validator.js` usando [Jest](https://jestjs.io/pt-BR/). Seus
-testes de unidade devem proporcionar 70% em _coverage_ (cobertura), _statements_
-(instruções), _functions_ (funções) e _lines_ (linhas); e um mínimo de 50% de
-_branches_ (ramificações).
-
-***
+O _boilerplate_ inclui tarefas que executam [eslint](https://eslint.org/) e
+[htmlhint](https://github.com/yaniswang/HTMLHint) para verificar o `HTML` e
+`JavaScript` com respeito a uma guia de estilos. Ambas tarefas são executadas
+automaticamente antes de executar os testes quando usamos o comando `npm run
+test`.
+No caso do `JavaScript` estamos usando o `eslint` que está configurado no
+arquivo `.eslintrc` que contem o mínimo de informação como versão do
+JavaScript/ECMAScript, o ambiente (_browser_ nesse caso) e as [regras
+recomendadas (`"eslint:recommended"`)](https://eslint.org/docs/rules/).
+Nas regras/guias de estilo usaremos das recomendações padrão tanto para o
+`eslint` quanto `htmlhint`.
 
 #### Deploy
 
@@ -210,7 +198,17 @@ Para este projeto, utilizaremos o Github Pages para essa finalidade.
 O comando `npm run deploy` pode te auxiliar nessa tarefa e você pode também
 consultar a [documentação oficial](https://docs.github.com/pt/pages).
 
-## 6. Guias, dicas e leituras complementares
+## 7. Objetivos de aprendizagem
+
+> ℹ️ Esta seção será automaticamente gerada no idioma pertinente, a partir dos
+> objetivos de aprendizagem declarados em [`project.yml`](./project.yml), ao
+> criar o repositório do projeto para uma coorte em particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Aqui você pode ver uma [lista de todos os objetivos de aprendizagem](../../learning-objectives/data.yml)
+> cobertos em nosso currículo.
+
+## 8. Guias, dicas e leituras complementares
 
 ### Primeiros passos
 
@@ -225,7 +223,7 @@ consultar a [documentação oficial](https://docs.github.com/pt/pages).
    instalado. Se você usa um sistema operacional do tipo UNIX, como GNU/Linux ou
    MacOS, já possui um _shell_ (terminal) instalado por padrão (e provavelmente
    `git`) também. Se você usa o Windows, pode utilizar a versão completa do
-   [Cmder](https://cmder.net/) que inclui [Git bash](https://git-scm.com/download/win)
+   [Cmder](https://cmder.app/) que inclui [Git bash](https://git-scm.com/download/win)
    e, se tiver o Windows 10 ou superior, pode usar o
    [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 3. :arrow_down: [Clone](https://help.github.com/articles/cloning-a-repository/)
@@ -251,17 +249,18 @@ crédito](https://img.youtube.com/vi/f0zL6Ot9y_w/0.jpg)](https://www.youtube.com
 
 [Link](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
 
-Design da experiência do usuário (User Experience Design):
-
-* Concepção
-* Prototipagem (desenho)
-* Testes e iteração
-
 Desenvolvimento de front-end:
 
-* Valores
-* Tipos
-* Variáveis
-* Controle de fluxo
-* Testes unitários
+* Saiba mais sobre [objetos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects) e [como definir métodos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects#definindo_m%C3%A9todos##)
 * [Documentação do NPM](https://docs.npmjs.com/)
+
+## 9. Para considerar o feedback do projeto
+
+Em resumo, os critérios mínimos de aceitação do projeto para considerar o Project Feedback:
+
+* [ ] Possui uma interface que permite ao usuário criptografar e descriptografar.
+* [ ] O projeto será entregue incluindo testes unitários dos métodos `cipher` (`encode` e `decode`).
+* [ ] O projeto será entregue livre de _erros_ de `eslint` (_warnings_ são ok).
+* [ ] O código do seu projeto será entregue no GitHub.
+* [ ] A interface será "implantada" usando o GitHub Pages.
+* [ ] O README contém uma definição de produto.
