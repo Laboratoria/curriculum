@@ -26,8 +26,6 @@ git commit -m 'deploy'
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
-echo "hello git"
-
 # si estas desplegando a https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
 # tambien en vite.config.js agrega el propiedad "base" con el valor de tu <REPO> 
