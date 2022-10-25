@@ -18,7 +18,8 @@
     "test": "jest --coverage",
     "dev": "vite dev src",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "./deploy.sh"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.19.4",
