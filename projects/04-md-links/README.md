@@ -140,11 +140,9 @@ siguiente interfaz:
 * `path`: Ruta **absoluta** o **relativa** al **archivo** o **directorio**.
 Si la ruta pasada es relativa, debe resolverse como relativa al directorio
 desde donde se invoca node - _current working directory_).
-* `options`: Un objeto con **únicamente** las siguientes propiedades:
+* `options`: Un objeto con **únicamente** la siguiente propiedad:
   - `validate`: Booleano que determina si se desea validar los links
     encontrados.
-  - `stats`: Booleano que determina si se desea obtener un output
-    con información estadística general.
 
 ##### Valor de retorno
 
@@ -314,7 +312,7 @@ links podría plantearse de las siguientes maneras (todas válidas):
 * Usando un _custom renderer_ de [marked](https://github.com/markedjs/marked)
   (`new marked.Renderer()`).
 
-No dudes en consultar a tus compañeras, coaches y/o el [foro de la comunidad](http://community.laboratoria.la/c/js)
+No dudes en consultar a tus compañeras y coaches
 si tienes dudas existenciales con respecto a estas decisiones. No existe una
 "única" manera correcta :wink:
 
