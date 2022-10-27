@@ -69,10 +69,10 @@ Ao desenvolver este projeto, você também se familiarizará com novos conceitos
 Esses são os requisitos que seu projeto deve atender para garantir que
 seu trabalho atenda aos objetivos principais.
 
-Use apenas caracteres numéricos (dígitos) no cartão para validar [0-9].
-
 **1. Uma interface que deve permitir ao usuário:**  
-* Inserir o número que desejamos validar.
+
+* Inserir o número que desejamos validar. Use apenas caracteres
+  numéricos (dígitos) no cartão para validar [0-9].
 * Constatar se o resultado é válido ou não.
 * Ocultar todos os dígitos do número do cartão, excetuando os últimos 4
   caracteres.
@@ -82,7 +82,8 @@ Use apenas caracteres numéricos (dígitos) no cartão para validar [0-9].
 Os métodos `validator` (`isValid` e `maskify`) devem ser cobertos por testes unitários.
 
 **3. Código do seu projeto enviado para seu repositório e interface "implantada".**
-O código final deve estar um repositório no GitHub. A interface, ou página da web, deve ser "implantada" usando o GitHub Pages.
+O código final deve estar um repositório no GitHub. A interface, ou página da web,
+deve ser "implantada" usando o GitHub Pages.
 
 **4. Um README contendo uma definição de produto.**
 No README, conte-nos como você pensou sobre os usuários e qual foi o seu
@@ -152,8 +153,9 @@ O _boilerplate_ que fornecemos contém esta estrutura:
   foram tomadas.
 * `src/index.html`: aqui será o ponto de entrada da sua aplicação. Este arquivo
   deve conter a marcação HTML e chamar o CSS e JavaScript necessários.
-* `src/validator.js`: aqui você deve implementar o objeto `validator`, o qual já está
-  _exportado_ no _boilerplate_. Este objeto (`validator`) deve conter dois métodos:
+* `src/validator.js`: aqui você deve implementar o objeto `validator`, o qual
+  já está _exportado_ no _boilerplate_. Este objeto (`validator`) deve conter
+  dois métodos:
   - `validator.isValid(creditCardNumber)`: `creditCardNumber` é um `string`
     com o número do cartão a ser verificado. Esta função deve retornar um
     `boolean`, dependendo de sua validade, de acordo com o [algoritmo de
@@ -172,6 +174,7 @@ O _boilerplate_ que fornecemos contém esta estrutura:
     maskify(               '1') ===                '1'
     maskify(               '')  ===                ''
     ```
+
 * `src/index.js`: aqui você deve escutar os eventos de DOM, chamar
   `validator.isValid()` e `validator.maskify()`.
 * `test/validator.spec.js`: este arquivo contem alguns testes de exemplo e aqui
@@ -251,15 +254,20 @@ crédito](https://img.youtube.com/vi/f0zL6Ot9y_w/0.jpg)](https://www.youtube.com
 
 Desenvolvimento de front-end:
 
-* Saiba mais sobre [objetos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects) e [como definir métodos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects#definindo_m%C3%A9todos##)
+* Saiba mais sobre [objetos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects)
+  e [como definir métodos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects#definindo_m%C3%A9todos##)
 * [Documentação do NPM](https://docs.npmjs.com/)
 
 ## 9. Para considerar o feedback do projeto
 
-Em resumo, os critérios mínimos de aceitação do projeto para considerar o Project Feedback:
+Em resumo, os critérios mínimos de aceitação do projeto para considerar o
+Project Feedback:
 
-* [ ] Possui uma interface que permite ao usuário criptografar e descriptografar.
-* [ ] O projeto será entregue incluindo testes unitários dos métodos `cipher` (`encode` e `decode`).
+* [ ] Possui uma interface que permite ao usuário permita ao usuário
+  validar o número de um cartão de crédito e ocultar todos os dígitos de um cartão
+  e ocultar o número até os 4 últimos dígitos.
+* [ ] O projeto será entregue incluindo testes unitários dos métodos
+  `validator` (`isValid` e `maskify`).
 * [ ] O projeto será entregue livre de _erros_ de `eslint` (_warnings_ são ok).
 * [ ] O código do seu projeto será entregue no GitHub.
 * [ ] A interface será "implantada" usando o GitHub Pages.
