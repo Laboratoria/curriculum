@@ -9,6 +9,10 @@
   "extends": "eslint:recommended",
   "rules": {
     "no-console": "warn",
-    "import/extensions": 0
+    "import/extensions": 0,
+    "no-var": "error",
+    "prefer-const": "error",
+    "eqeqeq": "error",
+    "indent": ["error", 2]
   }
 }

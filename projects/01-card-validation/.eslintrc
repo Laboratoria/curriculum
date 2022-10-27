@@ -8,6 +8,10 @@
   },
   "extends": "eslint:recommended",
   "rules": {
-    "no-console": "warn"
+    "no-console": "warn",
+    "no-var": "error",
+    "prefer-const": "error",
+    "eqeqeq": "error",
+    "indent": ["error", 2]
   }
 }
