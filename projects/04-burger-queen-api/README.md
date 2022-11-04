@@ -221,10 +221,9 @@ seleccionada. Por otro lado, con respecto al despliegue, no es obligatorio usar
 con el mecanismo de despligue y estrategia de alojamiento. Te recomendamos
 explorar las siguientes opciones:
 
-* [Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) es
+* [Glitch](https://glitch.com) es
   probablemente la opción más _sencilla_ (la que requiere menos configuración) y
-  nos permite alojar tanto el servidor web como la base de datos (PostgreSQL) en
-  el mismo sitio con pocos clicks.
+  nos permite alojar el servidor web express importando nuestro repositorio desde github
 * Si quieres explorar opciones más personalizadas y ver docker del lado del
   servidor puedes cosiderar proveedores como
   [AWS (Amazon Web Services)](https://aws.amazon.com/) o
@@ -234,6 +233,9 @@ explorar las siguientes opciones:
   aplicaciones en contenedores (por ejemplo [Compute Engine](https://cloud.google.com/compute/docs/containers)
   de GCP o [Elastic Container Service](https://aws.amazon.com/ecs/) de AWS).
 * Si quieres trabajar con MongoDB, [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+  es una muy buena opción para alojar nuestra base datos de producción, la cuál
+  podemos usar en conjunción con cualquiera de las opciones mencionadas arriba.
+* Si quieres trabajar con PostgreSql, [ElephantSQL](https://www.mongodb.com/cloud/atlas](https://www.elephantsql.com/plans.html)
   es una muy buena opción para alojar nuestra base datos de producción, la cuál
   podemos usar en conjunción con cualquiera de las opciones mencionadas arriba.
 
