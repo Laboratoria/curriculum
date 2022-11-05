@@ -1,9 +1,9 @@
 ## Índice
 
 * [1. Preâmbulo](#1-preâmbulo)
-* [2. Resumo do projeto](#2-resumo do projeto)
-* [3. Objetivos de aprendizagem](#3-objetivos de aprendizagem)
-* [4. Considerações gerais](#4-considerações gerais)
+* [2. Resumo do projeto](#2-resumo-do-projeto)
+* [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
+* [4. Considerações gerais](#4-considerações-gerais)
 * [5. Critérios Mínimos de Aceitação do Projeto](#5-project-minimum-acceptance-criteria)
 * [6. Pistas, dicas e leituras complementares](#5-dicas-dicas-e-leituras-complementares)
 * [7. Edição de hackers](#6-hacker-edição)
