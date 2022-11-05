@@ -11,7 +11,7 @@ Em todos os modos de jogo, os jogadores controlam os personagens chamados
 "campeões", que são escolhidos ou designados em cada jogo, e que possuem um
 conjunto único de habilidades. É com esses campeões que todo o jogo é jogado.
 Para entender um pouco mais sobre o jogo, você pode entrar neste
-[link](https://esportsbr.com/noticia/lol-entenda-o-basico-para-comecar-a-jogar-league-of-legends).
+[link](https://www.leagueoflegends.com/pt-br/how-to-play/).
 
 ## Constatações
 
