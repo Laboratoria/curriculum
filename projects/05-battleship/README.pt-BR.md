@@ -1,7 +1,7 @@
 ## Índice
 
 * [1. Preâmbulo](#1-preâmbulo)
-* [dois. Resumo do projeto](#2-resumo do projeto)
+* [2. Resumo do projeto](#2-resumo do projeto)
 * [3. Objetivos de aprendizagem](#3-objetivos de aprendizagem)
 * [4. Considerações gerais](#4-considerações gerais)
 * [5. Critérios Mínimos de Aceitação do Projeto](#5-project-minimum-acceptance-criteria)
@@ -227,77 +227,3 @@ Internet:
 * [Babylon](https://www.babylonjs.com/)
 * [Impact](https://github.com/phoboslab/impact)
 * [Phaser](https://phaser.io)
-
-#### [User Story 3] Implantar minha frota
-
-Como usuário, quero posicionar meus navios em uma tabela (grade)
-e me avise quando estiver pronto para começar a jogar.
-
-#### [User Story 3] Ataque e saiba o resultado
-
-Como usuário, devo saber quando é minha vez de escolher
-uma coordenada para atacar. Eu também deveria ser capaz de saber se eu anchunte ou não
-qualquer um dos navios do meu oponente e se eu afundei ou não algum de seus navios.
-
-#### [User Story 4] Recebendo ataques
-
-Eu como usuário deveria saber qual coordenada meu oponente atacou
-e saber se ele alargou ou não algum dos meus navios e se afundou algum ou não.
-
-#### [User Story 5] Conheça o estado do jogo
-
-Eu como usuário deveria saber o estado do jogo, ver um histórico
-dos movimentos realizados e quais acertaram o alvo e quais não acertaram, e se
-Afundei ou não um navio adversário, além de ver meus navios afundados e
-coordenadas atacadas.
-
-#### [User Story 6] Fim de um jogo
-
-Eu, como usuário, deveria saber quando o jogo acabou
-e quem é o vencedor, além de poder sair de um jogo se
-é necessário.
-
-***
-
-#### Critérios de aceitação
-
-O que deve acontecer para que os objetivos do projeto sejam alcançados
-e atender às necessidades dos usuários.
-
-* Crie uma conta e/ou faça login com o Google.
-* Crie ou participe de um jogo.
-* Escolha as coordenadas das posições do navio antes de iniciar o jogo.
-* Comece o jogo, escolha uma coordenada para atacar meus navios
-oponente e saber o resultado desse ataque
-(acerte o alvo, afunde um navio ou erre).
-* Conheça o estado do jogo: de quem é a vez; história do movimento,
-tiros no alvo ou na água e quem é o vencedor.
-* Parece e funciona bem em um dispositivo móvel.
-
-## 6. Dicas, dicas e leitura adicional
-
-1. Modele os dados, é um passo muito importante, considere que o jogo é de
-duas pessoas, mas mais de um casal pode estar jogando ao mesmo tempo (modelo de
-sala de jogos).
-
-2. Fork este repositório (no GitHub). Depois de seus colegas
-projeto por sua vez _fork_ __your__ repositório. Lembre-se, como em
-projetos anteriores, que um de vocês deve ser o integrador ou _professor_ do
-repositório principal.
-
-3. Para facilitar, pense em uma grade e que cada _navio_ ocupe apenas um dos
-elas. Se você quiser dimensionar a dificuldade para este projeto, você pode tentar
-barcos de diferentes formas e tamanhos.
-
-4. Tenha o conceito de turno e mantenha quem é o turno toda vez na base do
-dados. Ele também define a condição de término de forma que seu código
-pode detectar, tais como: todos os navios afundaram.
-
-5. Tomar o estado do jogo é primordial, define bem as ações,
-redutores e dados que estarão em cada jogo, turno e movimento dos jogadores.
-Você pode fazer um diagrama de estado para isso:
-[state-diagram](https://www.lucidchart.com/pages/en/state-machine-diagram)
-
-### Outros recursos
-
-#### Bibliotecas e componentes
