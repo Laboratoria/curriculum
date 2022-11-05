@@ -93,14 +93,13 @@ const copy = async (src, repoDir, opts) => {
 
 const addBootcampInfo = async (repoDir) => {
   const projectPkgJsonPath = path.resolve(`${repoDir}/package.json`);
-  let pkg = require(projectPkgJsonPath);
-  let last_commit_hash = (await exec("git rev-parse HEAD")).stdout.replace(/(\r\n|\n|\r)/gm, "");
-  let bootcamp_info = {
-    created_at: Date.now(),
-    bootcamp_version: process.env.npm_package_version,
-    last_bootcamp_commit: last_commit_hash
-  }
-  pkg.bootcamp_info = bootcamp_info;
+  const pkg = Object.assign(require(projectPkgJsonPath), {
+    bootcamp: {
+      createdAt: (new Date()).toISOString(),
+      version: process.env.npm_package_version,
+      commit: (await exec('git rev-parse HEAD')).stdout.trim(),
+    },
+  });
   await fs.writeFile(projectPkgJsonPath, JSON.stringify(pkg, null, 2));
 }
 
@@ -171,14 +170,12 @@ const addLocalizedLearningObjectives = async (repoDir, opts) => {
     + contents.slice(startIndex + 1).findIndex(line => /^## /.test(line))
   );
 
-  const gitCommit = (await exec("git rev-parse HEAD")).stdout
   const updatedContent = contents.slice(0, startIndex + 1)
     .concat(
       '',
       intl.description,
       text.trim(),
       endIndex > startIndex ? contents.slice(endIndex) : '',
-      'ver: ' + gitCommit
     )
     .join('\n')
     .replace(/\.\.\/\.\.\/topics\//g, `${uiUrl}/${lang}/topics/`);
