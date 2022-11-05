@@ -235,7 +235,7 @@ explorar las siguientes opciones:
 * Si quieres trabajar con MongoDB, [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
   es una muy buena opción para alojar nuestra base datos de producción, la cuál
   podemos usar en conjunción con cualquiera de las opciones mencionadas arriba.
-* Si quieres trabajar con PostgreSql, [ElephantSQL](https://www.mongodb.com/cloud/atlas](https://www.elephantsql.com/plans.html)
+* Si quieres trabajar con PostgreSql, [ElephantSQL](https://www.elephantsql.com/plans.html)
   es una muy buena opción para alojar nuestra base datos de producción, la cuál
   podemos usar en conjunción con cualquiera de las opciones mencionadas arriba.
 
