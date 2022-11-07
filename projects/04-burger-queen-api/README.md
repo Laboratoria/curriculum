@@ -223,7 +223,8 @@ explorar las siguientes opciones:
 
 * [Glitch](https://glitch.com) es
   probablemente la opción más _sencilla_ (la que requiere menos configuración) y
-  nos permite alojar el servidor web Express importando nuestro repositorio desde GitHub.
+  nos permite alojar el servidor web Express
+importando nuestro repositorio desde GitHub.
 * Si quieres explorar opciones más personalizadas y ver docker del lado del
   servidor puedes cosiderar proveedores como
   [AWS (Amazon Web Services)](https://aws.amazon.com/) o
