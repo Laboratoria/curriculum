@@ -13,7 +13,7 @@
 
 ## 1. Preámbulo
 
-[Hacker News](http://hackerne.ws/) y [Lobsters](https://lobste.rs/) son
+[Hacker News](https://news.ycombinator.com/) y [Lobsters](https://lobste.rs/) son
 "agregadores" de noticias sobre tecnología que recopilan noticias de diversas
 fuentes y las agregan en un único lugar. En cualquier momento puedes visitar
 esos sitios _web_ y encontrar las últimas noticias respecto a temas de

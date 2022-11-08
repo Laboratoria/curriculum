@@ -4,13 +4,13 @@
 
 * [1. Prefácio](#1-prefácio)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
-* [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios de aceitação mínimos do projeto](#5-critérios-de-aceitação-mínimos-do-projeto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Considerações técnicas](#7-considerações-técnicas)
+* [3. Considerações gerais](#3-considerações-gerais)
+* [4. Marco: Critérios de Aceitação Mínimos do Projeto](#5-marco-critérios-de-aceitação-mínimos-do-projeto)
+* [5. Marco Opcional: Adicione suporte para letras minúsculas e outros caracteres](#5-marco-opcional-adicione-suporte-para-letras-minúsculas-e-outros-caracteres)
+* [6. Considerações técnicas](#6-considerações-técnicas)
+* [7. Objetivos de aprendizagem](#7-objetivos-de-aprendizagem)
 * [8. Guias, dicas e leituras complementares](#8-guias-dicas-e-leituras-complementares)
-* [9. Checklist](#9-checklist)
+* [9. Para considerar o feedback do projeto](#9-para-considerar-o-feedback-do-projeto)
 
 ***
 
@@ -20,8 +20,6 @@ Cifrar significa codificar. A [cifra de César](https://pt.wikipedia.org/wiki/Ci
 é um dos primeiros tipos de criptografias conhecidas na história.
 O imperador romano Júlio César utilizava essa cifra para enviar
 ordens secretas aos seus generais no campo de batalha.
-
-![caeser-cipher](https://user-images.githubusercontent.com/11894994/60990999-07ffdb00-a320-11e9-87d0-b7c291bc4cd1.png)
 
 A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um
 tipo de cifra por substituição, em que cada letra do texto original é
@@ -44,7 +42,9 @@ a cifra de Vigenère, e tem aplicação no sistema ROT13.
 ## 2. Resumo do projeto
 
 Neste projeto você criará a primeira aplicação web do _bootcamp_. Nela o usuário
-poderá cifrar e decifrar um texto indicando a chave de deslocamento (_offset_).
+poderá cifrar e decifrar um texto no navegador indicando um deslocamento
+específico de caracteres (_offset_). Você fará isso usando HTML, CSS e
+JavaScript.
 
 O tema é livre. Você deve pensar em alguma situação de vida real em que seja
 necessário cifrar uma mensagem e pensar em como deve ser a experiência do
@@ -57,115 +57,102 @@ exemplo:
   em uma zona de conflito.
 * Mensagens secretas para alguma pessoa.
 
-Neste projeto você aprenderá a construir uma aplicação web (_WebApp_) que irá
-interagir com o usuário final através do navegador utilizando HTML, CSS e
-JavaScript como ferramentas.
+Como continuação do projeto de pré-admissão, você retrabalhará os fundamentos
+do JavaScript, incluindo conceitos como variáveis, condicionais e funções,
+bem como eventos e manipulação básica de DOM, fundamentos HTML e CSS.
+ desenvolver este projeto, você também se familiarizará com novos conceitos.
 
-## 3. Objetivos de aprendizagem
+### Os objetivos gerais deste projeto são os seguintes
 
-> ℹ️ Esta seção será automaticamente gerada no idioma pertinente, a partir dos
-> objetivos de aprendizagem declarados em [`project.yml`](./project.yml), ao
-> criar o repositório do projeto para uma coorte em particular usando
-> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
->
-> Aqui você pode ver uma [lista de todos os objetivos de aprendizagem](../../learning-objectives/data.yml)
-> cobertos em nosso currículo.
+* Trabalhar com base em um boilerplate, a estrutura básica de um projeto em diferentes
+  pastas (através de módulos em JS).
+* Conhecer as ferramentas de manutenção e melhoria do código (linters e testes
+  unitários).
+* Aprenda sobre objetos, estruturas, métodos e iteração (loops) em JavaScript
+* Implementar controle de versão com git (e a plataforma github)
 
-## 4. Considerações gerais
+## 3. Considerações gerais
 
-* Este projeto deve ser resolvido individualmente.
-* O projeto será entregue subindo o seu código no GitHub (commit/push) e o
-  deploy será feito no GitHub Pages. Se não sabe o que é o GitHub, não se
-  preocupe, você aprendera durante o projeto.
-* Tempo para completar: tempo referência 2 semanas.
+* Resolvemos este projeto individualmente. Recomendamos uma duração de 1-3 sprints.
+* Concentre-se em aprender e não apenas "concluir" o projeto.
+* Sugerimos que você não tente saber tudo antes de começar a codificar.
+  Não se preocupe muito agora com o que você _ainda_ não entende.
+  Você vai aprender.
 
-## 5. Critérios de aceitação mínimos do projeto
+## 4. Marco: Critérios de Aceitação Mínimos do Projeto
 
-Use o alfabeto simples (somente maiúsculas e sem ç):
+Esses são os requisitos que seu projeto deve atender para garantir que
+seu trabalho atenda aos objetivos principais.
 
-* A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+**1. Uma interface que deve permitir ao usuário:**
 
-### Definição do produto
+* **Criptografar uma mensagem**
+  - Inserir a mensagem (texto) que deseja criptografar. A mensagem usa um
+    alfabeto simplificado (apenas letras maiúsculas).
+  - Escolher um número de deslocamento (_offset_) indicando quantas posições
+    você deseja que a cifra desloque cada caractere do alfabeto. O número
+    será positivo e inteiro (inteiro positivo).
+  - Veja o resultado da mensagem criptografada.
 
-No README.md, escreva como você definiu seu usuário e qual foi o processo para
-definir o produto final a nível de expriência e interface.
+* **Descriptografar uma mensagem**
+  - Inserir a mensagem (texto) que deseja descriptografar. A mensagem usa um
+    alfabeto simplificado (apenas letras maiúsculas).
+  - Escolher um número de deslocamento (_offset_, que corresponde ao que usamos
+    para criptografar) indicando quantas posições você deseja que a cifra
+    desloque cada caractere do alfabeto. O número será positivo e inteiro
+    (inteiro positivo).
+  - Veja o resultado da mensagem descriptografada.
 
-* Quem são os principais usuário do produto?
-* Quais são os objetivos do usuário em relação com o produto?
-* Como você acredita que o produto está resolvendo os problemas do usuário?
+**2. Testes unitários dos métodos.**
+Os métodos `cipher` (`encode` e `decode`) devem ser cobertos por testes
+unitários.
 
-### Interface do usuário (UI)
+**3. Código do seu projeto enviado para seu repositório e interface "implantada".**
+O código final deve estar um repositório no GitHub. A interface, ou página da
+web, deve ser "implantada" usando o GitHub Pages.
 
-A interface deve permitir ao usuário:
+**4. Um README contendo uma definição de produto.**
+No README, conte-nos como você pensou sobre os usuários e qual foi o seu
+processo para definir o produto final em nível de experiência e interface.
+Estas perguntas servem de guia:
 
-* Eleger um _offset_ indicando quantas posições de deslocamento de caracteres
-  quer que a cifra utilize.
-* Inserir uma mensagem (texto) para ser cifrada.
-* Ver o resultado da mensagem cifrada.
-* Inserir uma mensagem (texto) para ser decifrada.
-* Ver o resultado da mensagem decifrada.
+* Quem são os principais usuários do produto
+* Quais são os objetivos desses usuários em relação ao seu produto
+* Como você acha que o produto que você está criando está resolvendo seus
+  problemas
 
-### Scripts / Arquivos
+Com esses requisitos atendidos, você pode agendar um feedback do projeto com
+um coach.
 
-* `REAME.md`: deve explicar como "deployar", instalar e executar a aplicação,
-  assim como uma introdução a aplicação, suas funcionalidades e as decisões que
-  foram tomadas.
-* `src/index.html`: aqui será o ponto de entrada da sua aplicação. Este arquivo
-  deve conter a marcação HTML e chamar o CSS e JavaScript necessários.
-* `src/cipher.js`: aqui você deve implementar o objeto `cipher`, o qual já está
-  _exportado_ no _boilerplate_. Este objeto (`cipher`) deve conter dois métodos:
-  - `cipher.encode(offset, string)`: `offset` é o número de posições que
-      queremos mover para a direita no alfabeto e `string` é a mensagem (texto)
-      que queremos cifrar.
-  - `cipher.decode(offset, string)`: `offset` é o número de posições que
-      queremos mover para a esquerda no alfabeto e `string` é a mensagem (texto)
-      que queremos decifrar.
-* `src/index.js`: aqui você deve escutar os eventos de DOM, chamar
-  `cipher.encode()` e `cipher.decode()`.
-* `test/cipher.spec.js`: este arquivo contem alguns testes de exemplo e aqui
-  você deve implementar os testes para `cipher.encode()` e `cipher.decode()`.
+## 5. Marco Opcional: Adicione suporte para letras minúsculas e outros caracteres
 
-### Deploy
+As partes opcionais permitem que você se aprofunde um pouco mais
+nos objetivos de aprendizagem do projeto. Tudo na vida tem prós e contras,
+decida sabiamente se você quiser gastar o tempo aprofundando/refinando ou
+aprendendo coisas novas no próximo projeto.
 
-Disponibilizar os projetos e colocá-los "no ar" vai ser parte cotidiana do
-ciclo de desenvolvimento em produtos de tecnologia.
+O marco de critérios mínimos não menciona o que aconteceria com letras
+minúsculas e outros caracteres (como espaços, pontuação, ...). O _boilerplate_
+inclui alguns _tests_ (comentados no início) que você pode usar como ponto
+de partida para implementar o suporte para esses casos adicionais.
 
-Para este projeto, utilizaremos o Github Pages para essa finalidade.
-O comando `npm run deploy` pode te auxiliar nessa tarefa e você pode também
-consultar a [documentação oficial](https://docs.github.com/pt/pages).
-
-## 6. Hacker Edition
-
-As seções chamadas _Hacker Edition_ são **opcionais**. Se você **terminou** tudo
-e ainda sobrou tempo, faça essa parte. Assim você poderá aprofundar e exercitar
-mais sobre os objetivos de aprendizagem do projeto.
-
-A descrição geral deste projeto não menciona o que aconteceria com letras
-minúsculas ou outros caracteres (como espaço, pontuação, ç, ...). O
-_boilerplate_ inclui alguns testes (comentados) que vocês podem usar como ponto
-de partida para implementar o suporte para esses casos.
-
-Também não foi mencionado o que aconteceria com _offset_ negativo. Como parte da
-hacker edition te convidamos a explorar esse caso sozinha.
-
-## 7. Considerações técnicas
+## 6. Considerações técnicas
 
 A lógica do projeto deve estar implementada inteiramente em JavaScript. Nesse
 projeto **NÃO** está permitido usar bibliotecas ou frameworks, só vanilla
 JavaScript.
 
+Para iniciar este projeto você terá que fazer um _fork_ e _clone_ desse
+repositório, que contém um _boilerplate_ com testes. Um _boilerplate_ é a
+estrutura básica de um projeto que serve como ponto de partida com arquivos
+iniciais e configuração básica de dependências e testes.
+
 Os testes unitários devem cobrir no mínimo de 70% dos _statements_, _functions_
-e _lines_, e um mínimo de 50% de _branches_. O _boilerplate_ já contem o setup e
-configurações necessárias para executar os testes assim como _code coverage_
+e _lines_, e um mínimo de 50% de _branches_. O _boilerplate_ já contem o setup
+e configurações necessárias para executar os testes assim como _code coverage_
 para ver o nível de cobertura dos testes usando o comando `npm test`.
 
-O _boilerplate_ inclui testes de exemplo, como ponto de partida.
-
-Para começar esse projeto você terá que fazer um _fork_ e _clonar_ este
-repositório que contém o _boilerplate_.
-
-O _boilerplate_ contém uma estrutura de arquivos como ponto de partida assim
-como toda a configuração de dependências e testes de exemplo:
+O _boilerplate_ que fornecemos contém esta estrutura:
 
 ```text
 ./
@@ -185,6 +172,26 @@ como toda a configuração de dependências e testes de exemplo:
     └── cipher.spec.js
 ```
 
+### Descrição de scripts/arquivos
+
+* `REAME.md`: deve explicar como "deployar", instalar e executar a aplicação,
+  assim como uma introdução a aplicação, suas funcionalidades e as decisões que
+  foram tomadas.
+* `src/index.html`: aqui será o ponto de entrada da sua aplicação. Este arquivo
+  deve conter a marcação HTML e chamar o CSS e JavaScript necessários.
+* `src/cipher.js`: aqui você deve implementar o objeto `cipher`, o qual já está
+  _exportado_ no _boilerplate_. Este objeto (`cipher`) deve conter dois métodos:
+  - `cipher.encode(offset, string)`: `offset` é o número de posições que
+      queremos mover para a direita no alfabeto e `string` é a mensagem (texto)
+      que queremos cifrar.
+  - `cipher.decode(offset, string)`: `offset` é o número de posições que
+      queremos mover para a esquerda no alfabeto e `string` é a mensagem (texto)
+      que queremos decifrar.
+* `src/index.js`: aqui você deve escutar os eventos de DOM, chamar
+  `cipher.encode()` e `cipher.decode()`.
+* `test/cipher.spec.js`: este arquivo contem alguns testes de exemplo e aqui
+  você deve implementar os testes para `cipher.encode()` e `cipher.decode()`.
+
 O _boilerplate_ inclui tarefas que executam [eslint](https://eslint.org/) e
 [htmlhint](https://github.com/yaniswang/HTMLHint) para verificar o `HTML` e
 `JavaScript` com respeito a uma guia de estilos. Ambas tarefas são executadas
@@ -199,13 +206,32 @@ recomendadas (`"eslint:recommended"`)](https://eslint.org/docs/rules/).
 Nas regras/guias de estilo usaremos das recomendações padrão tanto para o
 `eslint` quanto `htmlhint`.
 
+### Deploy
+
+Disponibilizar os projetos e colocá-los "no ar" vai ser parte cotidiana do
+ciclo de desenvolvimento em produtos de tecnologia.
+
+Para este projeto, utilizaremos o Github Pages para essa finalidade.
+O comando `npm run deploy` pode te auxiliar nessa tarefa e você pode também
+consultar a [documentação oficial](https://docs.github.com/pt/pages).
+
+## 7. Objetivos de aprendizagem
+
+> ℹ️ Esta seção será automaticamente gerada no idioma pertinente, a partir dos
+> objetivos de aprendizagem declarados em [`project.yml`](./project.yml), ao
+> criar o repositório do projeto para uma coorte em particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Aqui você pode ver uma [lista de todos os objetivos de aprendizagem](../../learning-objectives/data.yml)
+> cobertos em nosso currículo.
+
 ***
 
 ## 8. Guias, dicas e leituras complementares
 
 ### Primeiros passos
 
-1. Antes de mais nada, se assegure de ter um bom :pencil: editor de texto, algo
+1. Se assegure de ter um bom :pencil: editor de texto, algo
    como [Code](https://code.visualstudio.com/) ou [Atom](https://atom.io/).
 2. Para executar os comandos você precisará de um :shell: UNIX Shell, que é um
    programa que interpreta linhas de comando (command-line interpreter) e também
@@ -242,19 +268,8 @@ projeto. Escute com atenção e siga seus conselhos ! :)
 [![Dicas Cifra de
 César](https://img.youtube.com/vi/utiLWBXmNQU/0.jpg)](https://www.youtube.com/watch?v=utiLWBXmNQU)
 
-Desenho da experiência do usuário (User Experience Design):
-
-* Ideação
-* Prototipagem
-* Teste e iteração
-
 Desenvolvimento Front-end:
 
-* Valores
-* Tipos
-* Variáveis
-* Controle de fluxo
-* Testes unitários
 * [Aprenda mais sobre
   `charCodeAt()`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)
 * [Aprenda mais sobre
@@ -262,50 +277,19 @@ Desenvolvimento Front-end:
 * [Aprenda mais sobre
   `ASCII`](https://web.fe.up.pt/~ee96100/projecto/Tabela%20ascii.htm)
 * [Documentação do NPM](https://docs.npmjs.com/)
+* Saiba mais sobre [objetos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects)
+  e [como definir métodos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects#definindo_m%C3%A9todos##)
 
-Ferramentas:
+## 9. Para considerar o feedback do projeto
 
-* [Terminal](https://www.loom.com/share/29a6cf0f3c5245bf995738284b706468)
-* [Git config](https://www.loom.com/share/c7d445872b9f4618a24605fdcb26a48d)
-* GitHub e GitHub Pages.
+Em resumo, os critérios mínimos de aceitação do projeto para considerar o
+Project Feedback:
 
-Organização do trabalho:
-
-* [Agilidade](https://www.youtube.com/watch?v=vozsjbh4noU)
-* [Scrum em menos de 2 minutos](https://www.youtube.com/watch?v=IKZHPjCQ2m8)
-* [Scrum em detalhes](https://www.youtube.com/watch?v=mt2hM4yrPn0). Não
-  esperamos que você faça tudo isso neste projeto. Iremos aprofundando nesses
-  conceitos ao longo do _bootcamp_.
-* [Guia em espanhol para a
-  cifra](https://docs.google.com/presentation/d/e/2PACX-1vTQ7-8LZDHrT4Y6AOBN72Nkfz1eJAeseBHpcHX8BSq0aFCFoZmuMjluMeyFNgK9ISKxTz0H03yGfJiT/pub?start=false&loop=false&delayms=60000)
-
-## 9. Checklist
-
-Essa seção é para te ajudar a ter um controle do que você precisa completar.
-
-### Parte Obrigatória
-
-* [ ] `README.md` adicionar informação sobre o processo e decisões do desenho.
-* [ ] `README.md` explicar claramente quem são os usuários e as suas relações
-  com o produto.
-* [ ] `README.md` explicar claramente como o produto soluciona os
-  problemas/necessidades dos usuários.
-* [ ] Usar VanillaJS.
-* [ ] Implementar `cipher.encode`.
-* [ ] Implementar `cipher.decode`.
-* [ ] Passar o linter com a configuração definida.
-* [ ] Passar as provas unitárias.
-* [ ] Testes unitários cobrindo 70% dos _statements_, _functions_ e _lines_, e
-  no mínimo 50% das _branches_.
-* [ ] Interface que permita escolher o `offset` (chave de deslocamento) usava
-  para cifrar/decifrar.
-* [ ] Interface que permita escrever um texto para ser cifrado.
-* [ ] Interface que mostre o resultado da cifra corretamente.
-* [ ] Interface que permita escrever um texto para ser decifrado.
-* [ ] Interface que mostre o resultado decifrado corretamente.
-
-### Parte Opcional: "Hacker edition"
-
-* [ ] Cifrar/decifrar minúsculas.
-* [ ] Cifrar/decifrar _outros_ caractéres (espaços, pontuação, `ç`, `á`, ...).
-* [ ] Permitir usar `offset` negativo.
+* [ ] Possui uma interface que permite ao usuário criptografar e
+  descriptografar.
+* [ ] O projeto será entregue incluindo testes unitários dos métodos `cipher`
+  (`encode` e `decode`).
+* [ ] O projeto será entregue livre de _erros_ de `eslint` (_warnings_ são ok).
+* [ ] O código do seu projeto será entregue no GitHub.
+* [ ] A interface será "implantada" usando o GitHub Pages.
+* [ ] O README contém uma definição de produto.

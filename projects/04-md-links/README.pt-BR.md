@@ -84,9 +84,16 @@ peculiaridades da linguagem, convenções e boas práticas.
 
 * Neste projeto não é permitido utilizar `async/await`.
 
+* Para este projeto, sugerimos que você **não use** a versão síncrona
+da função de leitura de arquivo, `readFileSync`, e tente resolver esse
+desafio de forma assíncrona.
+
 * Para este projeto é opcional o uso de ES modules `(import/export)`. Caso
   você decida utilizá-lo deverá criar um script de `build` no `package.json`
   para que seja transformado em `requires` e `module.exports` com ajuda do Babel.
+
+* Para diminuir a complexidade de seu algoritmo recursivo, recomendamos usar
+a versão síncrona da função de leitura do diretórios, `readdirSync`.
 
 ## 5. Critérios de aceitação mínimos do projeto
 
@@ -332,8 +339,6 @@ destas decisões. Não existe uma única maneira certa :wink:
 * [Node.js – O que é, como funciona e quais as
   vantagens](https://www.opus-software.com.br/node-js/)
 * [O que é npm](https://www.hostinger.com.br/tutoriais/o-que-e-npm)
-* [Módulos, librerías, paquetes, frameworks... ¿cuál es la
-  diferencia?](http://community.laboratoria.la/t/modulos-librerias-paquetes-frameworks-cual-es-la-diferencia/175)
 * [JavaScript assíncrono: callbacks, promises e async
   functions](https://medium.com/@alcidesqueiroz/javascript-ass%C3%ADncrono-callbacks-promises-e-async-functions-9191b8272298)
 * [NPM](https://docs.npmjs.com/getting-started/what-is-npm)
@@ -436,6 +441,10 @@ um caminho fixo e imprimir seu conteúdo no console com um `console.log`.
 
 A biblioteca nativa `FS` (FileSystem) será útil para você.
 
+**Lembrar**: Para este projeto, sugerimos que você **não use**
+a versão síncrona da função de leitura de arquivo,
+`readFileSync`, e tente resolver esse desafio de forma assíncrona.
+
 ### Descobrir a extensão de um arquivo
 
 Já sabendo ler um arquivo, aventure-se em saber qual
@@ -454,6 +463,10 @@ você deve primeiro ser capaz de vê-los.
 Tenta imprimir para console a lista de arquivos em uma pasta.
 
 A biblioteca `FS` também será útil aqui.
+
+**Lembrar**: Para diminuir a complexidade de seu algoritmo
+recursivo, recomendamos usar a versão síncrona da função
+de leitura do diretórios, `readdirSync`.
 
 ### Definir rotas
 
