@@ -83,7 +83,7 @@ Os métodos `validator` (`isValid` e `maskify`) devem ser cobertos por testes un
 
 **3. Código do seu projeto enviado para seu repositório e interface "implantada".**
 O código final deve estar um repositório no GitHub. A interface, ou página da web,
-deve ser "implantada" usando o GitHub Pages.
+deve ser "implantada" (acessível online publicamente) usando o GitHub Pages.
 
 **4. Um README contendo uma definição de produto.**
 No README, conte-nos como você pensou sobre os usuários e qual foi o seu

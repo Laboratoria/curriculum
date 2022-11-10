@@ -86,7 +86,8 @@ pruebas unitarias.
 
 **3. Código de tu proyecto subido a tu repo e interfaz "desplegada".**  
 El código final debe estar subido en un repositorio en GitHub. La interfaz o
-pagina web, debe ser "desplegada" usando GitHub Pages.
+pagina web, debe ser "desplegada" (accesible públicamente online) usando
+GitHub Pages.
   
 **4. Un README que contiene una definición del producto.**  
 En el README cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
