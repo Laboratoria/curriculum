@@ -99,7 +99,7 @@ Estas preguntas sirven como guía:
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
 Con estos requisitos cumplidos puedes
-[considerar agendar un Project Feedback con unx coach.](https://github.com/Laboratoria/DEV001-card-validation#10-para-considerar-project-feedback)
+[considerar agendar un Project Feedback con unx coach.](#9-para-considerar-project-feedback)
 
 ## 5. Hito Opcional: Mostrar la franquicia de tarjeta
 
