@@ -215,31 +215,33 @@ consultar a [documentação oficial](https://docs.github.com/pt/pages).
 
 ### Primeiros passos
 
-1. Antes de tudo, verifique se você possui um :pencil: editor de texto em boa
-   condição, algo como [Atom](https://atom.io/) ou
-   [Code](https://code.visualstudio.com/).
-2. Para executar os comandos abaixo, você precisará de um :shell:
-   [Shell UNIX](../../topics/shell), que
-   é um pequeno programa que interpreta linhas de comando (command-line
-   interpreter), além de ter o
-   [git](../../topics/scm/01-git)
-   instalado. Se você usa um sistema operacional do tipo UNIX, como GNU/Linux ou
-   MacOS, já possui um _shell_ (terminal) instalado por padrão (e provavelmente
-   `git`) também. Se você usa o Windows, pode utilizar a versão completa do
-   [Cmder](https://cmder.app/) que inclui [Git bash](https://git-scm.com/download/win)
-   e, se tiver o Windows 10 ou superior, pode usar o
-   [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-3. :arrow_down: [Clone](https://help.github.com/articles/cloning-a-repository/)
-   sua _fork_ no seu computador (cópia local).
-4. 📦 Instale as dependências do projeto com o comando `npm install`. Isso
-   pressupõe que você instalou [Node.js](https://nodejs.org/) (que inclui
-   [npm](https://docs.npmjs.com/)).
-5. Se tudo correu bem, você poderá executar :traffic_light: testes de unidade
-   (unit tests) com o comando `npm test`.
-6. Para visualizar a interface do seu programa no navegador, use o comando `npm
-   start` para iniciar o servidor da web e acesse `http://localhost:5000` no seu
+1. Se assegure de ter um bom :pencil: editor de texto, algo
+   como [Code](https://code.visualstudio.com/) ou [Atom](https://atom.io/).
+2. Para executar os comandos você precisará de um :shell: UNIX Shell, que é um
+   programa que interpreta linhas de comando (command-line interpreter) e também
+   deve ter o git instalado. Se você usa um sistema operacional "UNIX-like",
+   como GNU/Linux ou MacOS, você já tem um _shell_ (terminal) instalado (e
+   provavelmente o `git` também). Se você usa Windows você pode usar o [Git
+   bash](https://git-scm.com/download/win), embora seja recomendado que você
+   teste :penguin: GNU/Linux.
+3. Faça seu próprio :fork_and_knife:
+   [fork](https://help.github.com/articles/fork-a-repo/) do repositório. Seus
+   _mentores_ compartilharão com você um _link_ para um repositório privado e te
+   darão acesso a este repositório.
+4. :arrow_down: [Clone](https://help.github.com/articles/cloning-a-repository/)
+   o _fork_ para seu computador (cópia local).
+5. 📦 Instale as dependências do projeto rodando o comando `npm install`. Mas
+   antes disso tenha certeza de ter instalado o [Node.js](https://nodejs.org/)
+   (que inclui o [npm](https://docs.npmjs.com/)).
+6. Se tudo foi bem, você deve conseguir executar os :traffic_light: testes
+   unitários com o comando `npm test`.
+7. Para ver a interface do seu programa no navegador, use o comando `npm start`
+   para iniciar o servidor web e entre na url `http://localhost:5000` no seu
    navegador.
-7. Comece a programar! :rocket:
+8. Let's Code! :rocket:
+
+Este [video](https://drive.google.com/file/d/1CM6ZfpGfJMF6A8IcXoK5cFBBq-CY8oBR/view?usp=sharing)
+da Paloma também pode te ajudar nos seus primeiros passos ;)
 
 ### Recursos e tópicos relacionados
 
