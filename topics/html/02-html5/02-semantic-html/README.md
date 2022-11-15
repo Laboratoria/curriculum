@@ -38,7 +38,6 @@ usar nuevas etiquetas para estructurar correctamente una página web.
 
 ![html antes y ahora](https://user-images.githubusercontent.com/92090/201944530-c9e13e36-a290-4bd0-931d-919cfb87f748.gif)
 
-
 Para implementar estas secciones semánticas, HTML dispone de etiquetas adecuadas
 que podemos usar para representar estas secciones. Revisa el link anterior e
 investiga el uso de los siguientes elementos semánticos:
