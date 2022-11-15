@@ -161,7 +161,7 @@ Si te decides por API REST, recuerda que puedes implementar un servidor HTTP
 usando, por ejemplo,
 [Node.js](https://shorturl.at/xyFIP) o
 [Express](https://expressjs.com/en/starter/hello-world.html) o
-[Fastify](https://www.fastify.io/docs/latest/Getting-Started/).
+[Fastify](https://www.fastify.io/docs/latest/Guides/Getting-Started/).
 
 Si te decides por API GraphQL te recomendamos usar la librería
 [Apollo Server](https://shorturl.at/puU46)

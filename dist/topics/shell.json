@@ -1,6 +1,6 @@
 {
   "slug": "shell",
-  "createdAt": "2022-09-05T21:26:03.634Z",
+  "createdAt": "2022-10-20T18:16:33.597Z",
   "cover": null,
   "thumb": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAS0AAACnCAMAAABzYfrWAAAAq1BMVEUpMDb///8eJy4OGiMUHybt7u7ExcZ3en2sr7AAEh0mLjQjKzEhKS8AERwADBgXIShbX2PX2NmytLYQGyPP0NEIFh+Ymp0bJCvx8fF/goXIycpna25MUVWho6VydXnm5+cvNjw3PkNCSE0AAxKHioy7vb6PkpVRVlre3t9fY2c+REgAAAKPxnzr9efC3rhIqBYnnQBut1GYyodesDvZ69NLqh2x1qSAv2ny+fD3P0wcAAAEr0lEQVR4nO3deZeaOhgGcBJQh4RFhQw4bqOMy0zb69z2bt//k11QkEXAjM6ptnl+/7THjnPoc5IQYvKqaQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8FMwbvFbX8MvgrmO1h9PTEFvfSW/AJdNOyThz0w0sHaW8xgHNX9a+fEf241gt76gO8bscdyuhgtH90Q02xKyYu6tr+luec9PhAyW4tABqf0St6+1ad34qu4TNaeEhDMnH6xcOox7Zd9Gd6zi9iwkZKoHxReZmAwI6T4bt7qqO+Ut4mHdf/Oqr3NnFIf4GGE2kQuMB0I6Y6duxhCIw7+hOx5wu5e0H72p/ejLuN09LU7anYqYWJ4bm7izH9NMdMcgSO57r2emoVTs75e22pN7HiWD+FrikVBfxHMxf+GpO3wxsUnm65bUfJ07yTz/wQ3O/+hvyaWrZPJpyjYXKuJnyLBXe+f83VlO8mDz4nzkwcZ47saPRhPlnrWZ2Z/Hz89ynbD4ttfkbVStZ+3A6l64IEPtddwdXyKFmpc3jv/Ho+iyAWg/3PlcmdHL6MW9Kbj45sbMzZzMqSKty9oQ0rtqGcZyfDKwP+2C7pqYkxdx3a9g9paslRjq6YgMnOt+BaPukoRKrHqJAelft3rs0vEo6JKeCk/ZgoRXNS3LTj4WIlOyUmANh2/Ik3752w/T2r2t+XlXda/ojAwvbxQBX5HMXIW0euTh0vGZOyOS6yCtNnqyyoq05N6YrJ8iLSnMHocEackxkg/9kZYUy1mfZIW06jGxmdeEhbTqBMawLiukVaM8xUJarby3QVNYSKv6s/a0MSukVXbYV4m0pNJyebctK6RVwPYfziItqbSYd6ZhIa0Cs/lWiLSqvLZ7IdIqY5pEWEgrFZwd4ZFWrvhkGFaXtZBWReGG2P3iI612ep7WxGm8OyKtg0JafTrRKdJqU0hryTkdI602eVr9wPOiB6TV5pjWowiGuCee+ZksrY6ttzwBIa2DLK2peG0OC2mlsrT6bsMAj7QKsrQWnI6mw6bOiLQOsrQmXKOuEak8g5DYv3UctyKebH12Tj/VT6iwf0tmb+BxBjFdWsLQ3PrVLhX2BsrsO9WLy8xDw32sTUuFfacye5pLaRHh5Qs4X7/lryuxp1liv3wprY5tZ5tG/ti952mFSpwukDiLUUqr56VT1G9/7nZf89fVOIshcc6nkFY40qPt/m/f33c//srDUuWcz/kzZFla3beJF6R7If7e7f4p9k9LkTNkmubN2s8nZmmNXM6C9Ib4/u9/hbAUOp+YnX1tPCCdpWXZ3rNIp6aFTkiIUmdfj+eqGw5IZ2ltfTKOTj/iV+1ctZbtvK0/s19cl19UdyUpeGY/0VwPopBWdQFC0XoQ2rHWyGm/0hs32Khba0RrrGPTlJb/pnAdm0RaI6ncHevTUr5GklZff6s2LdTf2jut7VaTFmq7HVXrBp6khbqBJWlNynRRtZoWalJWlOqdlrfoot5pjUIt3eJC/PwVtXRreYu0TjPfHMNCneZGPKsB/iVdpkEN8FZZfflhshSP+vJnGfjugo/A92J8EL5zBQAAAAAAAAAAAAAAAAAAAAAAAAAAAADgJ/of1N9HUpLs3HsAAAAASUVORK5CYII=",
   "title": "Unix Shell",
@@ -85,7 +85,7 @@
   "references": "",
   "repo": "Laboratoria/bootcamp",
   "path": "topics/shell",
-  "version": "5.3.0",
+  "version": "5.4.0",
   "parserVersion": "4.0.0",
   "track": "js",
   "locale": "es-ES",

@@ -251,7 +251,7 @@ essas telas. Esse problema pode ser resolvido de várias maneiras: com arquivos
 HTML independentes (cada um com seu próprio URL) e links tradicionais; mantendo
 na memória e renderizando condicionalmente (sem atualizar a página);
 [manipulando o histórico do
-navegador](https://developer.mozilla.org/es/docs/DOM/Manipulando_el_historial_del_na_gador)
+navegador](https://developer.mozilla.org/pt-BR/docs/Web/API/History_API)
 com
 [`window.history`](https://developer.mozilla.org/es/docs/Web/API/Window/history).
 Neste projeto, convidamos você a explorar opções e decidir sobre uma opção de
