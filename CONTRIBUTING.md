@@ -10,9 +10,11 @@ El lugar donde empezar es nuestro
 puedes buscar y ver si tu pregunta o sugerencia ya se ha preguntado antes,
 participar en discusiones relevantes y añadir nuevos _issues_.
 
-## Para ayudar con review, validación y sugerencias de contenido
+### Para ayudar con review, validación y sugerencias de contenido
 
 Busca _issues_ con los tags [`help-wanted`](https://github.com/Laboratoria/bootcamp/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).
+
+## Temas de Desarollo 
 
 ### Git workflow
 
@@ -32,6 +34,10 @@ por un issue.
 Si son cambios menores, o tienes muy claro qué cambiar y cómo,
 lo ideal es pull request directamente y describir el issue/error
 en la descripción de PR.
+
+### Estilo de codigo
+
+Link to wiki
 
 ## Creación de contenido
 
