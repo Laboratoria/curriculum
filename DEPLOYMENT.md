@@ -2,6 +2,15 @@
 
 Descripción de los pasos a seguir para realizar el despliegue.
 
+Para preparar el release:
+
+1. Ejecutar el comando para ver si necesitamos actualizar las dependencias de proyecto
+  `npm outdated —depth 0`. 
+2. Revisa/compara si las versiones son actualizados, y si no, si podemos actualizarlo
+  (revisando que se trata el nuevo version, si va a romper algo o no, puede actualizarlo localmente y probar)
+3. Empieza escribir un nuevo log de version en github. Va a incluir el changelog y en casos de version 
+  mayor, una descripción.
+
 ⚠️ Antes de hacer un tag de release, es imprescindible:
 
 1. Ejecutar comando `npm run changelog` y actualizar release en Github
