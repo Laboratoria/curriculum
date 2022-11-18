@@ -56,7 +56,7 @@ Un topico siguen un formato en particular. Nuevos topicos necesitan nuevo direct
 dentro de carpeta `topic` con el nombre de topic, y dentro eso creas directorios por casa "capitulo".
 
 En el directorio `topics` de proyecto encuentras un `_template` que puede seguir. 
-Aqui es un descripcion de [anaotmia de n topico](https://github.com/Laboratoria/bootcamp/wiki/Anatom%C3%ADa-de-un-t%C3%B3pico).
+Aqui es un descripcion de [anaotmia de un topico](https://github.com/Laboratoria/bootcamp/wiki/Anatom%C3%ADa-de-un-t%C3%B3pico){:target="_blank"}.
 
 Cuando estas haciendo contenido o cambios puedes visualizar los cambios corriendo el sitio
 de curricula localmente con estos pasos:
@@ -71,9 +71,9 @@ de curricula localmente con estos pasos:
 
 Puedes encontrar los proyectos dentro `projects`. Cada proyecto tiene su propio carpeta con un 
 boilerplate. Los READMEs son generado con un script que incluye los Objetivos de Aprendizaje 
-en una manera automatizado. Mas detalle aqui en
-[anatomia de proyecto](https://github.com/Laboratoria/bootcamp/wiki/Anatom%C3%ADa-de-un-proyecto)
-y [anatomia de un unidad](https://github.com/Laboratoria/bootcamp/wiki/Anatom%C3%ADa-de-una-unidad).
+en una manera automatizado. Mas detalle aqui en el wiki
+[anatomia de proyecto](https://github.com/Laboratoria/bootcamp/wiki/Anatom%C3%ADa-de-un-proyecto){:target="_blank"}
+y [anatomia de un unidad](https://github.com/Laboratoria/bootcamp/wiki/Anatom%C3%ADa-de-una-unidad){:target="_blank"}.
 
 Si haces cambios a un README y o agregas objetivos de aprendizaje al proyecto 
 y quieres ver como parece en su totalidad,
@@ -91,10 +91,10 @@ Los Objetivos de Aprendizaje (Learning Objectives) tambien son abiertos a evoluc
 Cada proyecto viene con objetivos que definimos en su `project.yml`.
 
 Los objetivos que encuentran en el `proyect.yml` de un proyecto son solo algunos,
-la lista completo esta en (`learning-objectives/data.yml`)[./src/learning-objectives.data.yml].
+la lista completo esta en [`learning-objectives/data.yml`](./src/learning-objectives.data.yml){:target="_blank"}.
  
  Con esta lista definimos los objetivos completos, traducidos, en formato yaml
- que se encuentra en (`learning-objectives/intl`)[./src/learning-objectives.data.yml]
+ que se encuentra en [`learning-objectives/intl`](./src/learning-objectives.data.yml){:target="_blank"}.
 
  Para proponer cambios...
 
