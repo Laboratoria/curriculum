@@ -265,6 +265,10 @@ criar (salvar) novos dados, além de ler, atualizar e modificar os dados
 existentes. Esses dados podem ser salvos remotamente usando o
 [Firebase](https://firebase.google.com/).
 
+Para usar o Firebase, você precisa criar um projeto Firebase no console do Firebase
+e instale a dependência `firebase` com `npm`.
+Leia [instruções passo a passo aqui](https://firebase.google.com/docs/web/setup).
+
 Outras:
 
 * [Mobile
