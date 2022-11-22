@@ -46,9 +46,10 @@ describe('reduce()', () => {
     const mapSpy = Sinon.spy(Array.prototype, 'map');
     // const forEachSpy = Sinon.spy(Array.prototype, 'forEach');
     const reduceSpy = Sinon.spy(Array.prototype, 'reduce');
-    Assert.equal(Submission([1, 2, 3], (prev, curr, index, arr) => {
-      return prev + curr;
-    }, 0), 6);
+
+    Submission([1, 2, 3], (prev, curr, index, arr) => {
+        return prev + curr;
+      }, 0)
     Assert.equal(mapSpy.callCount, 0);
     // Assert.equal(forEachSpy.callCount, 0);
     Assert.equal(reduceSpy.callCount, 0);
