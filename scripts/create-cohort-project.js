@@ -93,7 +93,9 @@ const copy = async (src, repoDir, opts) => {
 
 const addBootcampInfo = async (repoDir) => {
   const projectPkgJsonPath = path.resolve(`${repoDir}/package.json`);
-  if(!fs.existsSync(projectPkgJsonPath)) return;
+  if (!fs.existsSync(projectPkgJsonPath)) {
+    return;
+  }
   const pkg = Object.assign(require(projectPkgJsonPath), {
     bootcamp: {
       createdAt: (new Date()).toISOString(),
