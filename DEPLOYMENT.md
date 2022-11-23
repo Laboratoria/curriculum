@@ -70,7 +70,7 @@ cumplido todos los demás pasos y esté ya el _tag_ de la versión a publicar
 en Github) se deben ejecutar los siguiente pasos:
 
 1. Actualización de dependencias: Se debe ejecutar el comando
-  `npm outdated` para revisar qué dependencias pueden actualizarse,
+  `npm outdated --depth 0` para revisar qué dependencias pueden actualizarse,
   se recomienda, antes de cambiar la versión de ellas, revisar el _changelog_
   o release de la dependencia para ver si incluye o no _breaking changes_
   que podrían afectarnos; Luego de cambiar la versión y hacer `npm install`
@@ -78,7 +78,7 @@ en Github) se deben ejecutar los siguiente pasos:
   local para asegurar que no se ha gatillado ningún nuevo error.
 
 2. Actualización del _changelog_: Se debe ejecutar el comando
-  `npm changelog` para obtener la lista de todos los cambios que han
+  `npm run changelog` para obtener la lista de todos los cambios que han
   ocurrido desde el último release hasta ahora, y agregar esa lista al
   _draft_ de release de la currícula en Github, cambiando los _handles_
   para etiquetar a las personas correspondientes (tipo `@username`).
@@ -126,7 +126,7 @@ para hacer un deploy a `staging`.
 
 Deploy a `staging`: Ocurre cuando el _tag_ asociado a un _push_
 comienza con una `v` minúscula y contiene las palabras `alpha` o `beta`, por
-ejemplo: `git tag -a vX.X.X-alpha` o `git tag -a vX.X.X-beta`, y en ese caso,
+ejemplo: `git tag -a vX.X.X-alpha.X` o `git tag -a vX.X.X-beta.X`, y en ese caso,
 se ejecutará la _action_ que creará una url (distinta a la del deploy a
 `production`) con el sitio deployado para ser revisado y compartido en caso
 de que se necesite recibir feedback de él, o se necesiten hacer más pruebas
