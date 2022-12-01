@@ -106,8 +106,8 @@ El boilerplate que les damos contiene esta estructura:
   - `isValid(creditCardNumber)`: `creditCardNumber` es un `string`
      con el número de tarjeta que se va a verificar. Esta función debe retornar
      un `boolean` dependiendo si es válida de acuerdo al [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
-  Finalmente debes completar la función `validate` para que, según el resultado de la función
-  `isValid`, muestre al usuario un mensaje apropiado.
+  Finalmente, debes completar la función `validate` para que, según
+el resultado de la función `isValid`, muestre al usuario un mensaje apropiado.
 
 ## 7. Objetivos de aprendizaje
 
