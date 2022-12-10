@@ -92,6 +92,11 @@ Para começar, você precisará criar um _fork_ e _clone_ deste repositório.
 Este projeto não inclui um _boilerplate_, portanto você terá que definir a
 estrutura de pastas e escrever seus próprios testes unitários (_tests_). Para
 isso, você pode guiar-se por meio de projetos anteriores.
+Este projeto não inclui um _boilerplate_ completo, apenas alguns arquivos de
+configuração básica, então você terá que definir a estrutura de pastas e
+escrever seus próprios testes de unidade (_tests_). Para isso, você pode ser guiado
+por projetos anteriores e/ou organizar os arquivos seguindo uma estrutura de
+[Model-View-Controller](https://developer.mozilla.org/es/docs/Glossary/MVC).
 
 ### 5.2 Definição do produto
 
