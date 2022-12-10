@@ -95,10 +95,11 @@ Para comenzar tendrás que hacer un _fork_ y _clonar_ este repositorio.
 
 ### 5.1 Boilerplate
 
-Este proyecto no incluye un _boilerplate_ completo, solo algunos archivos de configuración basico,
-así es que tendrás que definir la estructura de carpetas y escribir tus propias Pruebas Unitarias (_tests_).
-Para hacerlo, puedes guiarte de los proyectos anteriores y/o organizar los archivos siguiendo una estructura
-de [Modelo-Vista-Controlador](https://developer.mozilla.org/es/docs/Glossary/MVC).
+Este proyecto no incluye un _boilerplate_ completo, solo algunos archivos de
+configuración basico, así es que tendrás que definir la estructura de carpetas y escribir
+tus propias Pruebas Unitarias (_tests_). Para hacerlo, puedes guiarte de los proyectos anteriores
+y/o organizar los archivos siguiendo una estructura de
+[Modelo-Vista-Controlador](https://developer.mozilla.org/es/docs/Glossary/MVC).
 
 ### 5.2 Definición del producto
 
