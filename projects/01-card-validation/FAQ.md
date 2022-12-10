@@ -2,7 +2,7 @@
 
 - [Por qué usar html semántico](https://youtu.be/vRqQRrULSxI)
 - [Diferencia entre datos atómicos y estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
-- [Para qué sirve el ESLint](https://antoniomasia.com/que-es-eslint-y-por-que-deberias-usarlo/)
+- [Para qué sirve el ESLint](https://es.paperblog.com/que-es-eslint-y-por-que-deberias-usarlo-5393037/)
 - [Para qué sirven las pruebas unitarias](http://oscarmoreno.com/pruebas-unitarias/)
 - Tengo que testear toda mi función
 
