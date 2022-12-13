@@ -229,8 +229,10 @@ profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
 ## 7. Entrega
 
 El proyecto será _entregado_ subiendo tu código a GitHub (`commit`/`push`) y la
-interfaz será desplegada usando GitHub pages u otro servicio de hosting que
-puedas haber encontrado en el camino.
+interfaz será desplegada usando GitHub pages u otro servicio de hosting
+(Firebase, Netlify, Vercel, etc) que puedas haber encontrado en el camino. Revisa la
+[documentación de Vite](https://vitejs.dev/guide/static-deploy.html) para guiarse
+con la desplegada.
 
 ***
 
