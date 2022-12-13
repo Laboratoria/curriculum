@@ -226,8 +226,10 @@ projeto.
 ## 7. Entrega
 
 O projeto será entregue subindo seu código no GitHub (`commit` /`push`) e a
-interface será hospedada usando o GitHub pages ou outro serviço de hospedagem
-que você pode ter encontrado ao longo do caminho.
+interface será exibida usando páginas do GitHub ou outro serviço de hospedagem
+(Firebase, Netlify, Vercel, etc) que você pode ter encontrado pelo caminho. Verifica a
+[Documentação Vite](https://vitejs.dev/guide/static-deploy.html) para orientação
+com o desdobrado.
 
 ***
 
