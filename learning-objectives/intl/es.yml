@@ -8,7 +8,8 @@ description: >
 # Objetivos de aprendizaje #
 ############################
 
-html: HTML
+html:
+  title: HTML
 
 html/semantics:
   title: Uso de HTML semántico
@@ -19,7 +20,8 @@ html/semantics:
     - title: Semantics - MDN Web Docs Glossary
       url: https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML
 
-css: CSS
+css:
+  title: CSS
 
 css/selectors:
   title: Uso de selectores de CSS
@@ -67,9 +69,11 @@ css/media-queries:
     - title: CSS media queries - MDN
       url: https://developer.mozilla.org/es/docs/CSS/Media_queries
 
-browser: Web APIs
+browser:
+  title: Web APIs
 
-browser/dom: DOM (Document Object Model)
+browser/dom:
+  title: DOM (Document Object Model)
 
 browser/dom/selectors:
   title: Uso de selectores del DOM
@@ -127,7 +131,8 @@ browser/fetch:
     - title: Fetch API - MDN
       url: https://developer.mozilla.org/es/docs/Web/API/Fetch_API
 
-js: JavaScript
+js:
+  title: JavaScript
 
 js/data-types/primitive:
   title: Tipos de datos primitivos
@@ -305,31 +310,38 @@ scm/github/project-management:
 scm/github/ci:
   title: "GitHub: Integración continua con GitHub actions"
 
-ux: UX (User eXperience)
+ux:
+  title: UX (User eXperience)
+
+user-centricity:
+  title: Centrado en el usuario
 
 user-centricity/centricity:
-  title: Diseñar un producto o servicio poniendo a la usuaria en el centro
+  title: Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro
 
-user-centricity/persistency:
-  title: Tomar en cuenta las necesidades de las usuarias a lo largo de todo el proceso de diseño
+user-centricity/user-oriented:
+  title: Involucrar usuarias y tomar en cuenta sus necesidades a lo largo de todo el proceso de diseño
 
 user-centricity/prioritization:
   title: Identificar y priorizar usuarias relevantes para el proyecto
 
-business/alignment:
-  title: Alinear los objetivos del negocio con los del proyecto
+business:
+  title: Negocio
 
 business/model:
   title: Entender el modelo de negocio
 
 business/goals:
-  title: Considerar los objetivos del negocio durante el desarrollo del proyecto
+  title: Entender y considerar los objetivos del negocio durante el desarrollo del proyecto
 
 business/metrics:
   title: Definir métricas relevantes para validar el cumplimiento de los objetivos del negocio
 
 business/benchmark:
   title: Entender estado del negocio en relación con el mercado local y global
+
+research:
+  title: Investigación
 
 research/planning:
   title: Planificar investigación basada en las necesidades del proyecto
@@ -354,12 +366,17 @@ research/sources:
 
 research/test:
   title: Planear y ejecutar testeos de usabilidad de prototipos en distintos niveles de fidelidad
-
-research/analytics:
-  title: Utilizar herramientas de analítica
-
+  links:
+    - title: Intro a testeos usabilidad
+      url: https://coda.io/@bootcamp-laboratoria/contenido-ux/test-de-usabilidad-15
+    - title: Pruebas con Usuarios 1 — ¿Qué, cuándo y para qué testeamos?
+      url: https://eugeniacasabona.medium.com/pruebas-con-usuarios-1-qu%C3%A9-cu%C3%A1ndo-y-para-qu%C3%A9-testeamos-7c3a89b4b5e7
+    
 research/cuantitative-data:
-  title: Analizar e interpretar data cuantitativa
+  title: Recopilar, analizar e interpretar data cuantitativa
+
+synthesis:
+  title: Síntesis
 
 synthesis/weighing:
   title: Distinguir observaciones, data y/o respuestas que aportan valor al proyecto
@@ -368,19 +385,22 @@ synthesis/patterns:
   title: Encontrar patrones en los resultados de la investigación
 
 synthesis/insights:
-  title: Diferenciar entre insights, hallazgos y observaciones
+  title: Diferenciar entre observaciones, hallazagos e insights
 
 synthesis/mapping:
-  title: Mapear experiencias de clientes a través de herramientas de síntesis como el Service Blueprint y/o el Customer Journey Map
+  title: Usar herramientas de síntesis para mapear las experiencias de los usuarios
 
 synthesis/features:
-  title: Definir funcionalidades del producto o servicio
+  title: Definir funcionalidades del producto
 
 synthesis/ideation:
   title: Generar múltiples ideas de solución al reto del proyecto
 
 synthesis/feature-prioritization:
-  title: Priorizar posibles soluciones reto del proyecto basándose en los objetivos del proyecto, las necesidades de la usuaria y las factibilidad de implementación
+  title: Priorizar las posibles soluciones que aporten más valor al proyecto, basándose en los objetivos del proyecto y las necesidades de los usuarios
+
+product-design:
+  title: Diseño de producto
 
 product-design/user-flows:
   title: Priorizar y proponer flujos de usuaria que les ayuden a conseguir sus objetivos con el producto
@@ -404,22 +424,16 @@ product-design/visual-design:
   title: Seguir los principios básicos de diseño visual
 
 product-design/component-organization:
-  title: Construir y mantener una librería de componentes y estilos organizada
-
-product-design/interface-guidelines:
-  title: Entender y utilizar las guías de interfaces de iOS, Android y Material Design
+  title: Crear y utilizar componentes reutilizables
 
 product-design/project-organization:
   title: Nombrar, organizar, agrupar las capas (layers) del diseño siguiendo buenas prácticas
 
 product-design/documentation:
-  title: Documentar casos de uso para los distintos componentes de la interfaz
+  title: Documentar los distintos componentes de UI y sus casos de uso
 
-product-design/naming:
-  title: Utilizar nombres de elementos estándares para la plataforma en la que diseña
-
-product-design/handoff:
-  title: Documentar requerimentos de diseño para equipo de desarrollo utilizando herramientas de handoff
+communication:
+  title: Comunicación
 
 communication/presentation:
   title: Presentar y sustentar propuestas a clientes
@@ -430,8 +444,14 @@ communication/negotiation:
 communication/relationship-management:
   title: Manejar relaciones con clientes
 
+communication/case-study:
+  title: Presentar su proceso de trabajo en un caso de estudio usando herramientas de storytelling 
+
+planning:
+  title: Planificación
+
 planning/monitor:
-  title: Organizar  y dar seguimiento a actividades a desarrollarse durante el proyecto
+  title: Organizar y dar seguimiento a actividades a desarrollarse durante el proyecto
 
 planning/prioritization:
   title: Priorizar actividades a desarrollarse durante el proyecto
@@ -439,7 +459,8 @@ planning/prioritization:
 planning/tools:
   title: Elegir las herramientas y métodos a utilizar de acuerdo a las necesidades  del proyecto
 
-firebase: Firebase
+firebase:
+  title: Firebase
 
 firebase/auth:
   title: Firebase Auth
@@ -507,7 +528,8 @@ node/process:
     - title: Process - Documentación oficial (en inglés)
       url: https://nodejs.org/api/process.html
 
-express: Express.js
+express:
+  title: Express.js
 
 express/routing:
   title: Manejo de rutas
@@ -515,7 +537,8 @@ express/routing:
 express/middleware:
   title: Uso y creación de middleware
 
-socket-io: Socket.IO
+socket-io:
+  title: Socket.IO
 
 socket-io/client:
   title: Cliente JavaScript de Socket.io
@@ -523,7 +546,8 @@ socket-io/client:
 socket-io/server:
   title: Servidor de Node.js de Socket.io
 
-http: HTTP
+http:
+  title: HTTP
 
 http/request-response:
   title: Consulta o petición (request) y respuesta (response).
@@ -552,7 +576,7 @@ http/verbs:
       url: https://developer.mozilla.org/es/docs/Web/HTTP/Methods
 
 http/status-codes:
-  title: Codigos de status de HTTP
+  title: Códigos de status de HTTP
   links:
     - title: Códigos de estado de respuesta HTTP - MDN
       url: https://developer.mozilla.org/es/docs/Web/HTTP/Status
@@ -571,7 +595,8 @@ http/cors:
     - title: Control de acceso HTTP (CORS) - MDN
       url: https://developer.mozilla.org/es/docs/Web/HTTP/CORS
 
-auth: Autenticación
+auth:
+  title: Autenticación
 
 auth/jwt:
   title: JWT (JSON Web Token)
@@ -579,7 +604,8 @@ auth/jwt:
 auth/password-access-and-storage:
   title: Almacenamiento y acceso de contraseñas
 
-webops: WebOps
+webops:
+  title: WebOps
 
 webops/env-vars:
   title: Variables de entorno
@@ -593,7 +619,8 @@ webops/docker-compose:
 webops/cloud-functions:
   title: Cloud Functions
 
-cicd: Integración Continua/Entrega Continua
+cicd:
+  title: Integración Continua/Entrega Continua
 
 cicd/build-pipelines:
   title: Construcción de pipelines (GitHub Actions/CircleCI)
@@ -610,7 +637,8 @@ cicd/test-coverage:
 cicd/integration-tests:
   title: Pruebas de integración
 
-db: Bases de datos
+db:
+  title: Bases de datos
 
 db/modeling:
   title: Modelado de datos
@@ -621,7 +649,8 @@ db/connection:
 db/indexes-constraints:
   title: Índices y limitaciones
 
-sql: SQL
+sql:
+  title: SQL
 
 sql/tables:
   title: Creación y modificación de tablas
@@ -653,7 +682,8 @@ sql/drop:
     - title: DROP DATABASE
       url: https://www.postgresql.org/docs/8.2/sql-dropdatabase.html
 
-mongodb: MongoDB
+mongodb:
+  title: MongoDB
 
 mongodb/crud:
   title: Operaciones CRUD (Create-Read-Update-Delete)
@@ -686,7 +716,8 @@ mongodb/dump-restore:
     - title: MongoDB Backup Methods - Docs (en inglés)
       url: https://docs.mongodb.com/manual/core/backups/
 
-postgres: PostgreSQL
+postgres:
+  title: PostgreSQL
 
 postgres/psql:
   title: Cliente de terminal psql
@@ -712,7 +743,8 @@ postgres/dump-restore:
     - title: Chapter 26. Backup and Restore - Docs (en inglés)
       url: https://www.postgresql.org/docs/14/backup.html
 
-mysql: MySQL
+mysql:
+  title: MySQL
 
 mysql/mysql:
   title: Cliente de terminal mysql
@@ -740,7 +772,8 @@ mysql/dump-restore:
     - title: mysqldump — A Database Backup Program - Docs (en inglés)
       url: https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html
 
-react: React
+react:
+  title: React
 
 react/jsx:
   title: JSX
@@ -796,7 +829,8 @@ react/routing:
     - title: Quick Start - Documentación oficial (en inglés)
       url: https://reactrouter.com/web/guides/quick-start
 
-vue: Vue
+vue:
+  title: Vue
 
 vue/instance:
   title: Instancia de Vue.js
@@ -860,7 +894,8 @@ vue/classes-and-styles:
     - title: Enlace Clases y Estilos - Documentación oficial
       url: https://es.vuejs.org/v2/guide/class-and-style.html
 
-angular: Angular
+angular:
+  title: Angular
 
 angular/components-and-templates:
   title: Components & templates
@@ -877,7 +912,7 @@ angular/structural-directives:
       url: https://angular.io/guide/structural-directives
 
 angular/input-output:
-  title: "@Input | @Ouput"
+  title: "@Input | @Output"
   links:
     - title: Component interaction - Documentación oficial (en inglés)
       url: https://angular.io/guide/component-interaction#component-interaction
@@ -895,7 +930,7 @@ angular/routing:
       url: https://angular.io/guide/router
 
 angular/observables:
-  title: Creación y uso Observables.
+  title: Creación y uso de Observables.
   links:
     - title: Observables in Angular - Documentación oficial (en inglés)
       url: https://angular.io/guide/observables-in-angular
@@ -912,7 +947,8 @@ angular/styles:
     - title: Template syntax - Documentación oficial (en inglés)
       url: https://angular.io/guide/template-syntax#built-in-directives
 
-slack: Slack
+slack:
+  title: Slack
 
 slack/slash-commands:
   title: Slash commands de Slack
@@ -920,7 +956,8 @@ slack/slash-commands:
     - title: Enabling interactivity with Slash Commands - Slack Docs
       url: https://api.slack.com/interactivity/slash-commands
 
-php: PHP
+php:
+  title: PHP
 
 php/data-types/primitive:
   title: Tipos de datos primitivos en PHP
@@ -988,7 +1025,8 @@ php/package-management/composer:
     - title: Composer
       url: https://getcomposer.org/doc/00-intro.md
 
-wordpress: WordPress
+wordpress:
+  title: WordPress
 
 wordpress/plugin-development/hooks:
   title: "Hooks: action y filter"

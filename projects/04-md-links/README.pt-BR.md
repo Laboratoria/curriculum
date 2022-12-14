@@ -11,6 +11,7 @@
 * [7. Hacker edition](#7-hacker-edition)
 * [8. Guias, dicas e leituras complementares](#8-guias-dicas-e-leituras-complementares)
 * [9. Checklist](#9-checklist)
+* [10. Dividindo o problema - babies steps](#10-dividindo-o-problema)
 
 ***
 
@@ -35,20 +36,20 @@ estatísticas.
 
 ## 2. Resumo do projeto
 
+Neste projeto, será criado uma ferramenta de linha de comando (CLI) assim como
+a sua própria biblioteca (library) em Javascript.
+
+Desta vez, vamos ficar um pouco longe do navegador para construir um programa
+executado com Node.js. Iremos aprender sobre processos
+(`process.env`, `process.argv`, ...),como interagir com sistemas de arquivos,
+como fazer consultas de rede, etc.
+
 [Node.js](https://nodejs.org/pt-br/) é um ambiente de execução para JavaScript
 construído com o [motor de JavaScript V8 do
 Chrome](https://developers.google.com/v8/). Ele vai nos permitir executar o
 JavaScript no nosso sistema operacional, seja no seu computador ou em um
 servidor, o que nos abre portas para poder interagir com sistemas, arquivos,
 redes e etc.
-
-Neste projeto vamos ficar um pouco longe do navegador para construir um programa
-que seja executado com Node.js, onde iremos aprender sobre como interagir com
-sistemas de arquivos e com o ambiente onde é executado o Node (_processo_, _env_,
-_stdin/stdout/stderr_).
-
-Neste projeto você criará uma ferramenta de linha de comando (CLI) assim como a
-sua própria biblioteca (library) em JavaScript.
 
 Desenvolver sua própria biblioteca é uma experiência fundamental para qualquer
 desenvolvedora, pois te obriga a pensar na interface (API) dos seus _módulos_ e
@@ -83,9 +84,16 @@ peculiaridades da linguagem, convenções e boas práticas.
 
 * Neste projeto não é permitido utilizar `async/await`.
 
+* Para este projeto, sugerimos que você **não use** a versão síncrona
+da função de leitura de arquivo, `readFileSync`, e tente resolver esse
+desafio de forma assíncrona.
+
 * Para este projeto é opcional o uso de ES modules `(import/export)`. Caso
   você decida utilizá-lo deverá criar um script de `build` no `package.json`
   para que seja transformado em `requires` e `module.exports` com ajuda do Babel.
+
+* Para diminuir a complexidade de seu algoritmo recursivo, recomendamos usar
+a versão síncrona da função de leitura do diretórios, `readdirSync`.
 
 ## 5. Critérios de aceitação mínimos do projeto
 
@@ -97,7 +105,8 @@ detalhado no `README.md` do seu repositório e em uma série de _issues_ e
 _milestones_ para priorizar e organizar o trabalho, e para fazer um
 acompanhamento do seu progresso.
 
-Dentro de cada _milestone_ deve-se criar e atribuir as _issues_.
+Dentro de cada _milestone_ serão criados e atribuidos as _issues_
+que considerar necessários.
 
 ### Arquivos do projeto
 
@@ -109,16 +118,19 @@ Dentro de cada _milestone_ deve-se criar e atribuir as _issues_.
   dependências e scripts (pretest, test e etc).
 * `.editorconfig` com a configuração para o editor de texto. Este arquivo não
   deve ser alterado.
-* `.eslintrc` com a configuração para o linter. Este arquivo não deve ser
-  alterado.
+* `.eslintrc` com a configuração para o linter. Este arquivo contém uma
+configuração básica para ESLint, se quiser colocar regras adicionais
+como Airbnb, você deverá modificar este arquivo.
 * `.gitignore` para ignorar o `node_modules` e outras pastas que não devem
   ser incluídas no controle de versão (`git`).
 * `test/md-links.spec.js` deve conter os testes unitários para a função
   `mdLinks()`. A sua implementação deve rodar estes testes.
 
-### JavaScript API
+## Este proyecto consta de DOS partes
 
-O módulo deve poder ser importado em outros scripts Node.js e deve oferecer a
+### 1) JavaScript API
+
+O módulo deve poder ser **importado** em outros scripts Node.js e deve oferecer a
 seguinte interface:
 
 #### `mdLinks(path, options)`
@@ -131,16 +143,29 @@ seguinte interface:
 * `options`: Um objeto com a seguinte propriedade:
   - `validate`: Um booleano que determina se deseja validar os links
     encontrados.
+  - `stats`: Booleano que determina se deseja obter um output
+    com informações estatísticas gerais.
 
 ##### Valor de retorno
 
-A função deve retornar uma promessa (`Promise`) que resolve um array (`Array`) e
+A função deve **retornar uma promessa** (`Promise`) que
+**resolve um array** (`Array`) e
 objetos(`Object`), onde cada objeto representa um link, contendo as seguintes
 propriedades:
+
+Com `validate:false` :
 
 * `href`: URL encontrada.
 * `text`: Texto que irá aparecer dentro de um link (`<a>`).
 * `file`: Rota do arquivo onde foi encontrado o link.
+
+Com `validate:true` :
+
+* `href`: URL encontrada.
+* `text`: Texto que aparecía dentro del link (`<a>`).
+* `file`: Ruta del archivo donde se encontró el link.
+* `status`: Código de resposta HTTP.
+* `ok`: Mensagem `fail` em caso de falha ou `ok` em caso de sucesso.
 
 #### Exemplo
 
@@ -149,27 +174,27 @@ const mdLinks = require("md-links");
 
 mdLinks("./some/example.md")
   .then(links => {
-    // => [{ href, text, file }]
+    // => [{ href, text, file }, ...]
   })
   .catch(console.error);
 
 mdLinks("./some/example.md", { validate: true })
   .then(links => {
-    // => [{ href, text, file, status, ok }]
+    // => [{ href, text, file, status, ok }, ...]
   })
   .catch(console.error);
 
 mdLinks("./some/dir")
   .then(links => {
-    // => [{ href, text, file }]
+    // => [{ href, text, file }, ...]
   })
   .catch(console.error);
 ```
 
-### CLI (Command Line Interface - Interface de Linha de Comando)
+### 2) CLI (Command Line Interface - Interface de Linha de Comando)
 
 O executável da nossa aplicação deve poder ser executado da seguinte maneira,
-através do terminal:
+através do **terminal**:
 
 `md-links <path-to-file> [options]`
 
@@ -232,8 +257,8 @@ Broken: 1
 ## 6. Entregáveis
 
 O módulo deve ser instalável via `npm install <github-user>/md-links`. Este
-módulo deve incluir um executável que pode ser chamado tanto por linha de
-comando quanto importado com `require` para usá-lo no seu código.
+módulo deve incluir **um executável** que pode ser chamado tanto por linha de
+comando, como também possa ser importado com `require` para usá-lo no seu código.
 
 ## 7. Hacker edition
 
@@ -292,8 +317,8 @@ criado das seguintes maneiras (todas são válidas):
 * Usando um _custom renderer_ de [marked](https://github.com/markedjs/marked)
   (`new marked.Renderer()`).
 
-Não hesite em consultar as suas companheiras, mentores e/ou o [fórum da
-comunidade](http://community.laboratoria.la/c/js) se tiver dúvidas a respeito
+Não hesite em consultar as suas companheiras e mentores
+se tiver dúvidas a respeito
 destas decisões. Não existe uma única maneira certa :wink:
 
 ### Tutoriais / NodeSchool workshoppers
@@ -314,8 +339,6 @@ destas decisões. Não existe uma única maneira certa :wink:
 * [Node.js – O que é, como funciona e quais as
   vantagens](https://www.opus-software.com.br/node-js/)
 * [O que é npm](https://www.hostinger.com.br/tutoriais/o-que-e-npm)
-* [Módulos, librerías, paquetes, frameworks... ¿cuál es la
-  diferencia?](http://community.laboratoria.la/t/modulos-librerias-paquetes-frameworks-cual-es-la-diferencia/175)
 * [JavaScript assíncrono: callbacks, promises e async
   functions](https://medium.com/@alcidesqueiroz/javascript-ass%C3%ADncrono-callbacks-promises-e-async-functions-9191b8272298)
 * [NPM](https://docs.npmjs.com/getting-started/what-is-npm)
@@ -362,3 +385,126 @@ destas decisões. Não existe uma única maneira certa :wink:
 * [ ] Os testes unitários devem cobrir no mínimo 70% dos statements, functions,
   lines e branches.
 * [ ] Rodar os testes e linter (`npm test`).
+
+## 10. Dividindo o problema
+
+Uma das habilidades que esperamos que vocˆw possa desenvolver durante o bootcamp
+é o de definir "mini-projetos/babies steps" que a aproxime passo-a-passo
+da solução do "grande projeto". É o mesmo que começar fazendo
+as bordas de um quebra-cabeça sem necessariamente saber
+como se encaixará no final.
+
+Estas são algumas sugestões:
+
+### Comece com um fluxograma
+
+Este projeto é diferente dos que você tem trabalhado até agora.
+Como não há uma interface web, tudo será desenvolvido em seu editor e
+consola/terminal.
+
+Por isso, para visualizar melhor o que você terá que fazer
+para planejar suas tarefas e objetivos, é aconselhável fazer um
+`fluxograma`.
+
+Se você nunca fez um fluxograma, confira este [recurso](https://www.youtube.com/watch?v=Lub5qOmY4JQ).
+
+Uma alternativa ao fluxograma pode ser `pseudocódigo`.
+
+### Planejamento
+
+Neste projeto recomendamos o uso do **Github Projects**, ferramenta
+de planejamento e organização do GitHub
+
+Por meio de **issues** e **milestones** pode-se organizar e planificar
+tarefas e objetivos concretos.
+
+Levando em consideração os **entregáveis** do projeto,
+[9. Checklist](#9-checklist) e os **passos** que foram definidos em seu
+`fluxograma`, crie o seu  planejamento em GitHub Projects.
+
+### Antes do código
+
+Desta vez você estará trabalhando em **NodeJS**, certifique-se de
+saber para que serve e suas considerações.
+
+Em particular, é preciso decidir antecipadamente se usará
+`ES Modules`, ou seja usar **import/export**, ou se utilizará
+`CommonJS Modules`, ou seja **require/module.exports**.
+
+Certifique-se de ter esta decisão clara desde o início para
+que você não encontre problemas mais tarde.
+
+### Ler um arquivo
+
+Como primeiro desafio, você pode tentar ler um único arquivo com
+um caminho fixo e imprimir seu conteúdo no console com um `console.log`.
+
+A biblioteca nativa `FS` (FileSystem) será útil para você.
+
+**Lembrar**: Para este projeto, sugerimos que você **não use**
+a versão síncrona da função de leitura de arquivo,
+`readFileSync`, e tente resolver esse desafio de forma assíncrona.
+
+### Descobrir a extensão de um arquivo
+
+Já sabendo ler um arquivo, aventure-se em saber qual
+é a sua extensão.
+
+Lembre-se, as extensões são aquelas letras no final do
+nome de um arquivo, por exemplo: .js, .txt, .doc etc.
+
+A biblioteca `FS` também pode ser útil aqui.
+
+### Obter o conteúdo de um diretório
+
+Este projeto consiste em buscar arquivos, mas para isso,
+você deve primeiro ser capaz de vê-los.
+
+Tenta imprimir para console a lista de arquivos em uma pasta.
+
+A biblioteca `FS` também será útil aqui.
+
+**Lembrar**: Para diminuir a complexidade de seu algoritmo
+recursivo, recomendamos usar a versão síncrona da função
+de leitura do diretórios, `readdirSync`.
+
+### Definir rotas
+
+Para acessar pastas e arquivos, será necessário
+indicar onde eles estão localizados em seu computador, sendo
+chamadas de **rotas**.
+
+Use a biblioteca nativa `path` para unir dois segmentos de caminho,
+Por exemplo, se quisermos juntar:
+
+1) /home/Laboratório/
+2) ./teste
+
+O resultado seria: /home/Lab/test
+
+### Recursão
+
+Este projeto pode ser resolvido com
+**recursão**.
+
+Por que?
+
+Porque não sabemos quantas pastas e arquivos
+teremos que passar antes de terminar.
+
+Se você receber um caminho de pasta, não saberá com antecedência se
+há mais pastas dentro ou mais arquivos.
+
+Portanto, certifique-se de entender o que o
+recursão e veja alguns exemplos.
+
+### Crie uma promessa
+
+O valor de retorno da nossa biblioteca é uma `Promise`,
+não um `Array`.
+
+Tente ler sobre promessas e criando uma por
+conta própria usando **new Promise()**
+
+É importante que você saiba o que é um **callback** porque serão usadas
+nas promessas.

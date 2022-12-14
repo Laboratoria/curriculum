@@ -15,7 +15,7 @@
 O texto em seguida se baseia em grande parte, com certos ajustes, ao capítulo 1
 de [Eloquent JavaScript](http://eloquentjavascript.net/), de Marijn Haverbeke
 (2014). Tradução em
-[Português](http://braziljs.github.io/eloquente-javascript/chapters/valores-tipos-operadores).
+[Português](https://github.com/braziljs/eloquente-javascript/blob/master/chapters/01-valores-tipos-operadores.md).
 
 ## Vivemos num mundo de Dados
 
@@ -204,12 +204,12 @@ seguintes textos em seu console (lembre-se de sempre colocá-los entre aspas,
 simples ou duplas).
 
 ```js
-'sta é a primeira linha \n E esta a segunda'
+'Esta é a primeira linha \n E esta a segunda'
 // retorna: "Esta é a primeira linha
 //            E esta a segunda"
 
 'Minha linguagem favorita é \t JavaScript'
-// retuns: "Minha linguagem favorita é      JavaScript"
+// retorna: "Minha linguagem favorita é      JavaScript"
 ```
 
 Quando as aspas são precedidas pela barra invertida, elas não terminarão a
@@ -435,11 +435,11 @@ semântica) é importante e mais simples do que parece. Ambos valores denotam da
 ausência de um valor, mas em um caso podemos dizer que é intencional (`null`) e
 o no outro não (`undefined`).
 
-O valor `undefined` signigica que não existe um valor designado, o que é
+O valor `undefined` significa que não existe um valor designado, o que é
 diferente de `null`, que significa que designamos o valor `null`. Este pode ser
 muito útil para diferenciar o estado em operações asíncronas, ... é comum que
 `undefined` signifique que a operação não foi completada, enquanto que `null`
-signigica que completo mas o retorno é um valor nulo.
+significa que completo mas o retorno é um valor nulo.
 
 ### Conversão automática do tipo
 

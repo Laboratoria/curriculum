@@ -91,6 +91,21 @@ const copy = async (src, repoDir, opts) => {
   }
 };
 
+const addBootcampInfo = async (repoDir) => {
+  const projectPkgJsonPath = path.resolve(`${repoDir}/package.json`);
+  if (!fs.existsSync(projectPkgJsonPath)) {
+    return;
+  }
+  const pkg = Object.assign(require(projectPkgJsonPath), {
+    bootcamp: {
+      createdAt: (new Date()).toISOString(),
+      version: process.env.npm_package_version,
+      commit: (await exec('git rev-parse HEAD')).stdout.trim(),
+    },
+  });
+  await fs.writeFile(projectPkgJsonPath, JSON.stringify(pkg, null, 2));
+}
+
 
 const linkToString = ({ title, url }, lang) => (
   `[${title}](${url.startsWith('topics/') ? `${uiUrl}/${lang}/${url}` : url})`
@@ -235,6 +250,7 @@ const main = async (args, opts) => {
 
   await ensureRepoDir(repoDir, opts);
   await copy(src, repoDir, opts);
+  await addBootcampInfo(repoDir);
   await addLocalizedLearningObjectives(repoDir, opts);
   await initRepo(repoDir, opts);
 

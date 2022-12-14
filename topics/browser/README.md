@@ -1,6 +1,9 @@
 # Browser JavaScript
 
-Este _tópico_ cubre JavaScript en el contexto del navegador.
+Este tópico cubre JavaScript en el contexto del navegador, donde más comunmente
+se estará ocupando para interactuar con el _DOM_ u otras _browser APIs_ como las
+_Cookies_, `fetch`, _Web Storage_, _geolocalozación_, etc, añadiéndole
+funcionalidad y dinamismo a los sitios webs.
 
 ## Público Objetivo
 

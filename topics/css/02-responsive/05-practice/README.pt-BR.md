@@ -13,7 +13,7 @@
 ## Enunciados
 
 Aqui estão alguns exercícios para você praticar, sugerimos que tenta resolver
-eles sozinha ou em grupo. Assim, você ficará familizariada com os desafios. E
+eles sozinha ou em grupo. Assim, você ficará familiarizada com os desafios. E
 se quiser pode apresentar a sua solução para a sala e ajudar as suas
 companheiras 😁
 
@@ -31,7 +31,7 @@ Agora que você sabe fazer uma grid no desktop, vamos fazer um desafio mais
 divertido. Apresentamos três desafios. Em cada imagem, verá duas versões:
 desktop (à esquerda) e mobile (à direita).
 
-Replique a estrutura dektop e modifique-a para mobile como a imagem indica. Você
+Replique a estrutura desktop e modifique-a para mobile como a imagem indica. Você
 consegue!
 
 ![desktop a
@@ -46,7 +46,7 @@ mobile](https://raw.githubusercontent.com/Laboratoria/curricula-js/3f8afb2f9db27
 ### 3. Love Love Panda Desu
 
 Crie uma página web para os amantes dos pandas. Para obter as imagens [use este
-link.](https://github.com/rafaelbcerri/love-panda).
+link](https://drive.google.com/drive/folders/1H0v3wCL7I3cJWvJDs9anlCrJpg8FZv1p).
 
 - Versão 1: Crie sua página utilizando grid.
 - Versão 2: Crie sua própria versão móvel da página.

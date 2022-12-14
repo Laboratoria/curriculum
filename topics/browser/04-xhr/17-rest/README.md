@@ -148,8 +148,8 @@ Fuente: [SOAP - Wikipedia](https://es.wikipedia.org/wiki/Simple_Object_Access_Pr
 > - Se implementan RECURSOS para generar comunicación, es decir crea URIs únicas
 >   que permiten al cliente entender y utilizar lo que está exponiendo.
 >   Por ejemplo:
->   * `api.anexsoft.com/users/`
->   * `api.anexsoft.com/users/1405`
+>   * `https://jsonplaceholder.typicode.com/users`
+>   * `https://jsonplaceholder.typicode.com/users/1`
 > - Cada petición realizada a nuestra API responde a un verbo, y dicho verbo a
 >   una operación en común. Mediante los métodos HTTP hacemos las peticiones, lo
 >   común es GET y POST, PUT y DELETE.
@@ -171,7 +171,7 @@ Fuente: [SOAP - Wikipedia](https://es.wikipedia.org/wiki/Simple_Object_Access_Pr
 > Con esto hemos mencionado algunas caracteristicas básicas de lo que es REST,
 > la cual podríamos decir que es un estándar para crear una REST Api o RESTFul.
 
-Fuente: [¿Qué es REST? - Anexsoft](http://anexsoft.com/p/117/que-es-rest)
+Lee más: [¿Qué es REST? Conoce su potencia](https://openwebinars.net/blog/que-es-rest-conoce-su-potencia/)
 
 A continuación puedes ver un video que resume SOAP y REST:
 

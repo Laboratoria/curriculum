@@ -48,7 +48,7 @@ ou seja, depois que a página XHTML estiver carregada completamente. Mais adiant
 veremos como garantir que um código JavaScript só seja executado quando o
 navegador tenha carregado toda a página XHTML.
 
-Por fim, tem recomendamos que prove os siguentes métodos replicando o código no
+Por fim, tem recomendamos que prove os seguintes métodos replicando o código no
 seu editor de texto.
 
 ### **getElementById()**

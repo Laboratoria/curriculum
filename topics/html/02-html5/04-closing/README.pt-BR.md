@@ -11,7 +11,7 @@
 Sim e não. HTML5 é a última versão do HTML, mas ele não é só isso, ele é um
 padrão engloba um conjunto de tecnologias da web, como CSS3 e uma palavra que
 vocês irão ouvir muito: **APIS**. Com as apis vocês irão conhecer os
-superpoderes do navegador e entender o porque o navegador evoluir tanto desdo
+super-poderes do navegador e entender o porque o navegador evoluir tanto desde
 seu início.
 
 ## Curiosidade

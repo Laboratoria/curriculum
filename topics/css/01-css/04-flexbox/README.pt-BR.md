@@ -63,7 +63,7 @@ a serem alinhados) e quais serão declaradas nos elementos-filhas. Abaixo,
 seguem algumas propriedades que devem ser declaradas utilizando o elemento-mãe
 como seletor (para alinhar elementos-filhas):
 
-**flex-direction** determina a origem e o término do fluxo dos ítens. Eles
+**flex-direction** determina a origem e o término do fluxo dos itens. Eles
 seguem o vetor estabelecido pelo modo tradicional de escrita: esquerda para
 direita em `row`, cima para baixo em `column`, ou no sentido inverso utilizando
 `-reverse`.
@@ -115,7 +115,7 @@ funciona de forma similar ao `justify-content`, porém no eixo perpendicular.
 ![align-items](https://css-tricks.com/wp-content/uploads/2018/10/align-items.svg)
 
 **align-content** alinha o conteúdo dentro do container quando há espaço extra
-no eixo vertical, similar à forma que `justify-content` alinha ítens
+no eixo vertical, similar à forma que `justify-content` alinha itens
 individuais dentro do eixo principal.
 
 ```css
@@ -163,7 +163,7 @@ A propriedade **order** determina o lugar que os elementos aparecerão.
 
 **flex-grow** define a habilidade de um elemento-filha de "crescer" e ocupar
 uma área maior, se necessário. Por exemplo, se em uma lista de 3 filhas, 2
-delas têm propriedade `flex-grox: 1` e 1 delas tem `flex-grow:2`, essa última
+delas têm propriedade `flex-grow: 1` e 1 delas tem `flex-grow:2`, essa última
 crescerá para ocupar o dobro do tamanho das irmãs.
 
 ```css
@@ -175,7 +175,7 @@ crescerá para ocupar o dobro do tamanho das irmãs.
 ![grow](https://css-tricks.com/wp-content/uploads/2018/10/flex-grow.svg)
 
 **align-self** permite que o alinhamento padrão (definido por `align-items`)
-seja sobrescrito para ítens individuais.
+seja sobrescrito para itens individuais.
 
 ```css
   .flex-item {

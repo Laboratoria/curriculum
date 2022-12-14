@@ -85,7 +85,7 @@ Esta es la información que tenemos del cliente:
 > o huevo.
 >
 > Nuestros clientes son bastante indecisos, por lo que es muy común que cambien
->el su pedido varias veces antes de finalizarlo.
+> su pedido varias veces antes de finalizarlo.
 
 La interfaz debe mostrar los dos menús (desayuno y resto del día), cada uno
 con todos sus _productos_. El usuario debe poder ir eligiendo qué _productos_

@@ -12,7 +12,7 @@
     "start": "serve ./src",
     "deploy": "gh-pages -d src"
   },
-  "dependencies": {
+  "devDependencies": {
     "@babel/core": "^7.6.2",
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
     "babel-jest": "^27.0.1",
@@ -24,7 +24,7 @@
     "serve": "^13.0.2"
   },
   "engines": {
-    "node": ">=14.x"
+    "node": ">=16.x"
   }
 }
 

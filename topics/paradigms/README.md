@@ -12,7 +12,7 @@ funcional, si no que en su dinamismo y rareza, **JavaScript nos permite
 programar de forma _funcional_, _orientado a objetos_, _orientado a eventos_,
 _por procedimientos_, ...**
 
-Como desarrollador **Full Stack JS** es esencial entender los distintos
+Como desarrolladora **Full Stack JS** es esencial entender los distintos
 paradigmas de programación y cómo se traducen al mundo real en proyectos de
 JavaScript.
 
@@ -121,7 +121,7 @@ orientado a objetos en un ámbito concreto de arquitectura y reuso de código.
 * [Object-Oriented vs. Functional Programming]( http://www.oreilly.com/programming/free/object-oriented-vs-functional-programming.csp),
   Richard Warburton, O'Reilly Media
 * [Eloquent JavaScript](http://eloquentjavascript.net/), Marijn Haverbeke, 2014
-* [You Don't Know JS: this & Object Prototypes](https://github.com/getify/You-Dont-Know-JS/tree/master/this%20%26%20object%20prototypes),
+* [You Don't Know JS Yet: Objects & Classes - 2nd Edition, Chapter 4: This Works](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/objects-classes/ch4.md),
   Kyle Simpson, O'Reilly Media, Jul 2014
 * [Programming Paradigms for Dummies: What Every Programmer Should Know](https://www.info.ucl.ac.be/~pvr/VanRoyChapter.pdf),
   Peter Van Roy, Université Catholique de Louvain, Bélgica, circa 2010.

@@ -8,7 +8,8 @@ description: >
 # Objetivos de aprendizagem #
 #############################
 
-html: HTML
+html:
+  title: HTML
 
 html/semantics:
   title: Uso de HTML semântico
@@ -18,7 +19,8 @@ html/semantics:
     - title: Semantics in HTML - MDN
       url: https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML
 
-css: CSS
+css:
+  title: CSS
 
 css/selectors:
   title: Uso de seletores de CSS
@@ -29,7 +31,7 @@ css/selectors:
       url: https://developer.mozilla.org/pt_BR/docs/Web/CSS/CSS_Selectors
 
 css/box-model:
-  title: "Empregar o modelo de caixa (box model): borda, margem, preenchimento"
+  title: "Modelo de caixa (box model): borda, margem, preenchimento"
   links:
     - title: Modelo de Caixa e Display
       url: topics/css/01-css/02-boxmodel-and-display
@@ -66,9 +68,11 @@ css/media-queries:
     - title: CSS media queries - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries
 
-browser: Web APIs
+browser:
+  title: Web APIs
 
-browser/dom: DOM (Document Object Model)
+browser/dom:
+  title: DOM (Document Object Model)
 
 browser/dom/selectors:
   title: Uso de seletores de DOM
@@ -81,7 +85,7 @@ browser/dom/selectors:
       url: https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors
 
 browser/dom/events:
-  title: Manipulação de eventos de DOM
+  title: Manipulação de eventos de DOM (listeners, propagação, delegação)
   links:
     - title: Introdução a eventos - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Events
@@ -115,7 +119,7 @@ browser/routing:
       url: https://developer.mozilla.org/pt-BR/docs/Web/API/History_API
 
 browser/storage:
-  title: Storage
+  title: Browser storage (localStorage, sessionStorage)
   links:
     - title: Window.localStorage - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/API/Window/Window.localStorage
@@ -126,7 +130,8 @@ browser/fetch:
     - title: Fetch API - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API
 
-js: JavaScript
+js:
+  title: JavaScript
 
 js/data-types/primitive:
   title: Tipos de dados primitivos
@@ -139,13 +144,13 @@ js/data-types/strings:
   links:
     - title: Strings
       url: topics/javascript/06-strings
-    - title: String - MDN
+    - title: String — Cadeia de caracteres - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String
 
 js/data-types/arrays:
-  title: Manipular arrays (filter, map, sort, reduce)
+  title: Arrays (arranjos)
   links:
-    - title: Arrays
+    - title: Arranjos
       url: topics/javascript/04-arrays
     - title: Array - MDN
       url: https://developer.mozilla.org//pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/
@@ -161,7 +166,7 @@ js/data-types/arrays:
       url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 
 js/data-types/objects:
-  title: Manipular objects (key | value)
+  title: Objetos (key, value)
   links:
     - title: Objetos em JavaScript
       url: topics/javascript/05-objects/01-objects
@@ -178,7 +183,7 @@ js/variables:
       url: topics/javascript/01-basics/02-variables
 
 js/conditionals:
-  title: Uso de condicionais (if-else, switch, operador ternário)
+  title: Uso de condicionais (if-else, switch, operador ternário, lógica booleana)
   links:
     - title: Estruturas condicionais e repetitivas
       url: topics/javascript/02-flow-control/01-conditionals-and-loops
@@ -186,7 +191,7 @@ js/conditionals:
       url: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/conditionals
 
 js/functions:
-  title: Uso de funções (parâmetros, argumentos, valor de retorno)
+  title: Funções (params, args, return)
   links:
     - title: Funções (controle de fluxo)
       url: topics/javascript/02-flow-control/03-functions
@@ -198,7 +203,7 @@ js/functions:
       url: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Functions
 
 js/loops:
-  title: Uso de laços (for, for..of, while)
+  title: Uso de laços (while, for, for..of)
   links:
     - title: Laços (Loops)
       url: topics/javascript/02-flow-control/02-loops
@@ -214,10 +219,10 @@ js/recursion:
       url: https://medium.com/laboratoria-developers/recursi%C3%B3n-o-recursividad-ec8f1a359727
 
 js/semantics:
-  title: Uso de identificadores descritivos (Nomenclatura | Semântica)
+  title: Uso de identificadores descritivos (Nomenclatura e Semântica)
 
 js/expression-vs-statement:
-  title: Diferença entre expression e statements
+  title: Diferença entre expressões (expressions) e declarações (statements)
 
 js/modules/es-modules:
   title: Módulos de ECMAScript (ES modules)
@@ -234,7 +239,7 @@ js/modules/commonjs:
       url: https://nodejs.org/docs/latest/api/modules.html
 
 js/testing/unit:
-  title: Testes unitários
+  title: Testes unitários (unit tests)
   links:
     - title: Introdução ao Jest - Documentação oficial
       url: https://jestjs.io/docs/pt-BR/getting-started
@@ -246,7 +251,7 @@ js/testing/async:
       url: https://jestjs.io/docs/pt-BR/asynchronous
 
 js/testing/mocks:
-  title: Mocking
+  title: Uso de mocks e espiões
   links:
     - title: Simulações Manuais - Documentação oficial
       url: https://jestjs.io/docs/pt-BR/manual-mocks
@@ -261,13 +266,13 @@ js/linting:
   title: Uso de linter (ESLINT)
 
 js/async/callbacks:
-  title: Uso de callbacks
+  title: Callbacks
   links:
     - title: Função Callback - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Glossario/Callback_function
 
 js/async/promises:
-  title: Promessas (Promises)
+  title: Promessas
   links:
     - title: Promise - MDN
       url: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise
@@ -304,10 +309,17 @@ scm/github/project-management:
 scm/github/ci:
   title: "GitHub: Integração contínua com GitHub actions"
 
-ux: UX (User eXperience)
+ux:
+  title: UX (User eXperience)
+
+user-centricity:
+  title: Centrado no usuário
 
 user-centricity/centricity:
-  title: Desenhar a aplicação pensando e entendendo a usuária
+  title: Desenhar e desenvolver um produto ou serviço colocando as usuárias no centro
+
+product-design:
+  title: Design de produto
 
 product-design/interactivity:
   title: Criar protótipos para obter feedback e iterar
@@ -315,10 +327,14 @@ product-design/interactivity:
 product-design/visual-design:
   title: Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
 
+research:
+  title: Pesquisa
+
 research/test:
   title: Planejar e executar testes de usabilidade
 
-firebase: Firebase
+firebase:
+  title: Firebase
 
 firebase/auth:
   title: Firebase Auth
@@ -355,7 +371,7 @@ node:
       url: https://www.genbeta.com/desarrollo/node-js-y-npm
 
 node/npm-install:
-  title: Instalar e usar módulos (npm)
+  title: Instalar e usar módulos com npm
   links:
     - title: Sitio oficial de npm (em inglês)
       url: https://www.npmjs.com/
@@ -373,7 +389,7 @@ node/npm-scripts:
       url: https://docs.npmjs.com/misc/scripts
 
 node/filesystem:
-  title: Uso de sistema de arquivos (fs, path)
+  title: File system (fs, path)
   links:
     - title: File system - Documentação oficial (em inglês)
       url: https://nodejs.org/api/fs.html
@@ -386,15 +402,17 @@ node/process:
     - title: Process - Documentação oficial (em inglês)
       url: https://nodejs.org/api/process.html
 
-express: Express.js
+express:
+  title: Express.js
 
 express/routing:
-  title: Rotas
+  title: Gerenciamento de rotas
 
 express/middleware:
   title: Uso e criação de middleware
 
-socket-io: Socket.IO
+socket-io:
+  title: Socket.IO
 
 socket-io/client:
   title: Cliente JavaScript de Socket.io
@@ -402,12 +420,13 @@ socket-io/client:
 socket-io/server:
   title: Servidor de Node.js de Socket.io
 
-http: HTTP
+http:
+  title: HTTP
 
 http/request-response:
-  title: Solicitações HTTP ou requisições (request) e respostas (response).
+  title: Consulta ou solicitação (request) e resposta (response).
   links:
-    - title: Uma visão geral do HTTP - MDN
+    - title: Visão geral do protocolo HTTP - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview
     - title: Mensagens HTTP - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Messages
@@ -450,7 +469,8 @@ http/cors:
     - title: Cross-Origin Resource Sharing (CORS) - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS
 
-auth: Autenticação
+auth:
+  title: Autenticação
 
 auth/jwt:
   title: JWT (JSON Web Token)
@@ -458,7 +478,8 @@ auth/jwt:
 auth/password-access-and-storage:
   title: Armazenamento e acesso de senhas
 
-webops: WebOps
+webops:
+  title: WebOps
 
 webops/env-vars:
   title: Variáveis de ambiente
@@ -472,13 +493,14 @@ webops/docker-compose:
 webops/cloud-functions:
   title: Cloud Functions
 
-cicd: Integração Contínua/Entrega Contínua
+cicd:
+  title: Integração Contínua/Entrega Contínua
 
 cicd/build-pipelines:
   title: Construção de pipelines (GitHub Actions/CircleCI)
 
 cicd/service-deployment:
-  title: Implantar serviços (Heroku/GitHub Pages)
+  title: Implantação de serviços (Heroku/GitHub Pages)
 
 cicd/tbd:
   title: Usar Trunk-based Development para Integração Contínua
@@ -489,7 +511,8 @@ cicd/test-coverage:
 cicd/integration-tests:
   title: Testes de integração
 
-db: Bases de dados
+db:
+  title: Bases de dados
 
 db/modeling:
   title: Modelagem de dados
@@ -500,7 +523,8 @@ db/connection:
 db/indexes-constraints:
   title: Índices e limitações
 
-sql: SQL
+sql:
+  title: SQL
 
 sql/tables:
   title: Criação e modificação de tabelas
@@ -532,7 +556,8 @@ sql/drop:
     - title: DROP DATABASE
       url: https://www.postgresql.org/docs/8.2/sql-dropdatabase.html
 
-mongodb: MongoDB
+mongodb:
+  title: MongoDB
 
 mongodb/crud:
   title: Operações CRUD (Create-Read-Update-Delete)
@@ -565,7 +590,8 @@ mongodb/dump-restore:
     - title: MongoDB Backup Methods - Docs (em inglês)
       url: https://docs.mongodb.com/manual/core/backups/
 
-postgres: PostgreSQL
+postgres:
+  title: PostgreSQL
 
 postgres/psql:
   title: Cliente de terminal psql
@@ -591,7 +617,8 @@ postgres/dump-restore:
     - title: Chapter 26. Backup and Restore - Docs (em inglês)
       url: https://www.postgresql.org/docs/14/backup.html
 
-mysql: MySQL
+mysql:
+  title: MySQL
 
 mysql/mysql:
   title: Cliente de terminal mysql
@@ -619,7 +646,8 @@ mysql/dump-restore:
     - title: mysqldump — A Database Backup Program - Docs (em inglês)
       url: https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html
 
-react: React
+react:
+  title: React
 
 react/jsx:
   title: JSX
@@ -640,7 +668,7 @@ react/events:
       url: https://pt-br.reactjs.org/docs/handling-events.html
 
 react/lists-and-keys:
-  title: Listas e chaves (keys)
+  title: Listas e keys
   links:
     - title: Listas e chaves - Documentação oficial
       url: https://pt-br.reactjs.org/docs/lists-and-keys.html
@@ -675,7 +703,8 @@ react/routing:
     - title: Quick Start - Documentação oficial (em inglês)
       url: https://reactrouter.com/web/guides/quick-start
 
-vue: Vue
+vue:
+  title: Vue
 
 vue/instance:
   title: Instância de Vue.js
@@ -739,7 +768,8 @@ vue/classes-and-styles:
     - title: Interligações de Classe e Estilo - Documentação oficial
       url: https://br.vuejs.org/v2/guide/class-and-style.html
 
-angular: Angular
+angular:
+  title: Angular
 
 angular/components-and-templates:
   title: Components & templates
@@ -756,7 +786,7 @@ angular/structural-directives:
       url: https://angular.io/guide/structural-directives
 
 angular/input-output:
-  title: "@Input | @Ouput"
+  title: "@Input | @Output"
   links:
     - title: Component interaction - Documentação oficial (em inglês)
       url: https://angular.io/guide/component-interaction#component-interaction
@@ -768,13 +798,13 @@ angular/services:
       url: https://angular.io/guide/architecture-services#providing-services
 
 angular/routing:
-  title: Rotas
+  title: Gerenciamento de rotas
   links:
     - title: "In-app navigation: routing to views - Documentação oficial (em inglês)"
       url: https://angular.io/guide/router
 
 angular/observables:
-  title: Criação e uso Observables
+  title: Criação e uso de Observables
   links:
     - title: Observables in Angular - Documentação oficial (em inglês)
       url: https://angular.io/guide/observables-in-angular
@@ -791,7 +821,8 @@ angular/styles:
     - title: Template syntax - Documentação oficial (em inglês)
       url: https://angular.io/guide/template-syntax#built-in-directives
 
-slack: Slack
+slack:
+  title: Slack
 
 slack/slash-commands:
   title: Slash commands de Slack
@@ -799,7 +830,8 @@ slack/slash-commands:
     - title: Enabling interactivity with Slash Commands - Slack Docs
       url: https://api.slack.com/interactivity/slash-commands
 
-php: PHP
+php:
+  title: PHP
 
 php/data-types/primitive:
   title: Tipos de dados primitivos em PHP
@@ -867,7 +899,8 @@ php/package-management/composer:
     - title: Composer
       url: https://getcomposer.org/doc/00-intro.md
 
-wordpress: WordPress
+wordpress:
+  title: WordPress
 
 wordpress/plugin-development/hooks:
   title: "Hooks: action e filter"

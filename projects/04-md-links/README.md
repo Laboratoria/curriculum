@@ -19,7 +19,7 @@
 
 [Markdown](https://es.wikipedia.org/wiki/Markdown) es un lenguaje de marcado
 ligero muy popular entre developers. Es usado en muchísimas plataformas que
-manejan texto plano (GitHub, foros, blogs, ...), y es muy común
+manejan texto plano (GitHub, foros, blogs, ...) y es muy común
 encontrar varios archivos en ese formato en cualquier tipo de repositorio
 (empezando por el tradicional `README.md`).
 
@@ -41,7 +41,7 @@ propia librería (o biblioteca - library) en JavaScript.
 
 En esta oportunidad nos alejamos un poco del navegador para construir un
 programa que se ejecute usando Node.js. Aprenderemos sobre procesos
-(`process.env`, `process.args`, ...), cómo interactuar con el sistema archivos,
+(`process.env`, `process.argv`, ...), cómo interactuar con el sistema archivos,
 cómo hacer consultas de red, etc.
 
 [Node.js](https://nodejs.org/es/) es un entorno de ejecución para JavaScript
@@ -84,9 +84,16 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
 * Para este proyecto **no está permitido** utilizar `async/await`.
 
+* Para este proyecto te sugerimos **no utilizar** la versión síncrona
+de la función para leer archivos, `readFileSync`, y en cambio intentar
+resolver este desafío de manera asíncrona.
+
 * Para este proyecto es **opcional** el uso de ES Modules `(import/export)`, en el
   caso optes utilizarlo deberás de crear un script de `build` en el `package.json`
   que los transforme en `requires` y `module.exports` con ayuda de **babel**.
+
+* Para disminuir la complejidad de tu algoritmo recursivo, te recomendamos
+utilizar la versión síncrona de la función para leer directorios, `readdirSync`.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
@@ -305,7 +312,7 @@ links podría plantearse de las siguientes maneras (todas válidas):
 * Usando un _custom renderer_ de [marked](https://github.com/markedjs/marked)
   (`new marked.Renderer()`).
 
-No dudes en consultar a tus compañeras, coaches y/o el [foro de la comunidad](http://community.laboratoria.la/c/js)
+No dudes en consultar a tus compañeras y coaches
 si tienes dudas existenciales con respecto a estas decisiones. No existe una
 "única" manera correcta :wink:
 
@@ -423,6 +430,10 @@ una ruta fija e imprimir su contenido en la consola con un `console.log`.
 
 La librería nativa `FS` (FileSystem) te será de utilidad.
 
+**Recuerda**: Te sugerimos **no utilizar** la versión síncrona
+de la función para leer archivos, `readFileSync`, y en cambio
+intentar resolver ese desafío de manera asíncrona.
+
 ### Averigua la extensión de un archivo
 
 Ya sabiendo leer un archivo, aventúrate a conocer cual
@@ -441,6 +452,10 @@ primero debes poder verlos.
 Intenta imprimir en consola la lista de archivos en una carpeta.
 
 La librería `FS` también te será útil aquí.
+
+**Recuerda**: Para disminuir la complejidad de tu algoritmo
+recursivo, te recomendamos utilizar la versión síncrona de
+la función para leer directorios, `readdirSync`.
 
 ### Une dos rutas
 
