@@ -101,6 +101,17 @@ y escribir tus propias Pruebas Unitarias (_tests_). Para hacerlo, puedes guiarte
 de los proyectos anteriores y/o organizar los archivos siguiendo una estructura
 de [Modelo-Vista-Controlador](https://developer.mozilla.org/es/docs/Glossary/MVC).
 
+Estamos usando una herramienta se llama [Vite](https://es.vitejs.dev/) para
+la empaquetación de los modulos y el server de desarollo.
+Ayuda también en el flujo de desarollo con algo se llama `Hot Module Reload`
+(HMR) - eso significa que cuando corras el server y hagas cambios en el
+código, automaticamente tu app actualiza en el navegador. _Ojo_ que
+tu codigo no contenga dependencias circular
+porque puede [causar problemas con HMR](https://es.vitejs.dev/guide/troubleshooting.html#ocurre-un-refresco-completo-en-lugar-de-hmr).
+(`eslint-plugin-import` tiene una regla
+[import/no-cycle](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md)
+que va a avisar si las tiene.)
+
 ### 5.2 Definición del producto
 
 En el `README.md` cuéntanos brevemente cómo descubriste las necesidades de los

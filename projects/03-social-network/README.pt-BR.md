@@ -110,8 +110,8 @@ detalhe:
 ### 5.3 Histórias de usuário
 
 Depois de entender as necessidades de seus usuários, escreva as Histórias de
-Usuário. Elas representam tudo o que ele precisa fazer/ver na Rede Social. Cada
-uma de suas histórias de usuário deve possuir:
+Usuário. Elas representam tudo o que ele precisa fazer/ver na Rede Social.
+Cada uma de suas histórias de usuário deve possuir:
 
 * **Critérios de aceitação:** tudo o que deve acontecer para satisfazer as
   necessidades do usuário.
@@ -228,8 +228,20 @@ projeto.
 O projeto será entregue subindo seu código no GitHub (`commit` /`push`) e a
 interface será exibida usando páginas do GitHub ou outro serviço de hospedagem
 (Firebase, Netlify, Vercel, etc) que você pode ter encontrado pelo caminho.
-Verifica a [Documentação Vite](https://vitejs.dev/guide/static-deploy.html) 
+Verifica a [Documentação Vite](https://vitejs.dev/guide/static-deploy.html)
 para orientá-lo sobre isso.
+
+Estamos usando uma ferramenta chamada [Vite](https://es.vitejs.dev/) para
+o empacotamento dos módulos e o servidor de desenvolvimento.
+Também ajuda no pipeline de desenvolvimento com algo chamado
+`Hot Module Reload` (HMR) - isso significa que quando você executa o
+servidor e faz alterações no código,
+automaticamente seu aplicativo é atualizado no navegador. _Ojo_ isso
+seu código não contém dependências circulares
+porque pode [causar problemas com HMR](https://vitejs.dev/guide/troubleshooting.html#full-refresh-occurs-instead-of-hmr).
+(`eslint-plugin-import` tem uma regra
+[import/no-cycle](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md)
+que notificará se os tiver.)
 
 ***
 
