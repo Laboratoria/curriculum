@@ -63,3 +63,12 @@ Lista de alguns fatos curiosos sobre a saga, contém tipo e conteúdo.
 
 Nesta lista você pode encontrar os nomes das poções que são mencionadas no
 livro, bem como uma breve descrição das mesmas.
+
+---
+
+#### Disclaimer
+
+De acordo com os princípios da convivência harmoniosa e da diversidade como valor
+intrínsecos que norteiam nossa política de diversidade e inclusão,
+Laboratoria não tolera ou endossa os comentários da autora dos dados
+usado neste dataset do projeto.
