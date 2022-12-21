@@ -243,7 +243,7 @@ El proyecto será _entregado_ subiendo tu código a GitHub (`commit`/`push`) y l
 interfaz será desplegada usando GitHub pages u otro servicio de hosting
 (Firebase, Netlify, Vercel, etc) que puedas haber encontrado en el camino.
 Revisa la [documentación de Vite](https://vitejs.dev/guide/static-deploy.html)
-para guiarse en eso.
+para guiarte con eso.
 
 ***
 
