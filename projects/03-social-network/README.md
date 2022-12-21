@@ -285,8 +285,7 @@ proyecto tendrás que crear (salvar) nuevos datos, así como leer, actualizar y
 modificar datos existentes. Estos datos se podrán guardar de forma remota
 usando [Firebase](https://firebase.google.com/).
 
-Para usar Firebase hay que crear un proyecto de Firebase en Firebase consola
-y instalar la dependencia `firebase` con `npm`.  
+Para usar Firebase hay que crear un proyecto en la consola de Firebase e instalar la dependencia `firebase` utilizando `npm`. 
 Lee [las instrucciones paso a paso aqui](https://firebase.google.com/docs/web/setup).
 
 Otras:
