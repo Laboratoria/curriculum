@@ -99,16 +99,16 @@ por projetos anteriores e/ou organizar os arquivos seguindo uma estrutura de
 [Model-View-Controller](https://developer.mozilla.org/es/docs/Glossary/MVC).
 
 Neste projeto vamos utilizar uma ferramenta chamada
-[Vite](https://es.vitejs.dev/) para empacotar nossos módulos e começar
-o servidor de desenvolvimento, que fornece nossos arquivos usando
+[Vite](https://es.vitejs.dev/) para empacotar nossos módulos e iniciar
+o servidor de desenvolvimento, que disponibiliza nossos arquivos usando
 a estratégia `Hot Module Replacement`
 [(HMR)](https://en.vitejs.dev/guide/features.html#hot-module-replacement),
 isso significa que quando você faz alterações em arquivos que estão sendo
-servido, o navegador será atualizado automaticamente sem precisar atualizar
-e recarregue todo o site. Você deve ter um cuidado especial para não ter
-nenhuma _dependência circular_ em seu código desde
+hosteados, o navegador será atualizado automaticamente sem a necessidade
+de fazê-lo manualmente para recarregar todo o site. Você deve ter um
+cuidado especial para não ter nenhuma _dependência circular_ em seu código já
 [que pode causar problemas com o HMR](https://vitejs.dev/guide/troubleshooting.html#full-refresh-occurs-instead-of-hmr).
-(`eslint-plugin-import` tem uma regra
+(O `eslint-plugin-import` tem a regra
 [import/no-cycle](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md)
 que notificará se os tiver.)
 
