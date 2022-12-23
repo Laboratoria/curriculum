@@ -110,7 +110,7 @@ esto significa que cuando hagas cambios en los archivos que estén siendo
 servidos, el navegador automáticamente se actualizará sin tener que refrescar
 y volver a cargar todo el sitio. Debes tener especial cuidado de no tener
 ninguna _dependencia circular_ en tu código ya que
-[eso puede ocasionar problemas con HMR](ttps://es.vitejs.dev/guide/troubleshooting.html#ocurre-un-refresco-completo-en-lugar-de-hmr).
+[eso puede ocasionar problemas con HMR](https://es.vitejs.dev/guide/troubleshooting.html#ocurre-un-refresco-completo-en-lugar-de-hmr).
 (`eslint-plugin-import` tiene una regla
 [import/no-cycle](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md)
 que va a avisar si las tiene.)
@@ -288,7 +288,8 @@ proyecto tendrás que crear (salvar) nuevos datos, así como leer, actualizar y
 modificar datos existentes. Estos datos se podrán guardar de forma remota
 usando [Firebase](https://firebase.google.com/).
 
-Para usar Firebase hay que crear un proyecto en la consola de Firebase e instalar la dependencia `firebase` utilizando `npm`. 
+Para usar Firebase hay que crear un proyecto en la consola de Firebase e
+instalar la dependencia `firebase` utilizando `npm`.
 Lee [las instrucciones paso a paso aqui](https://firebase.google.com/docs/web/setup).
 
 Otras:

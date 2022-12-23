@@ -98,6 +98,20 @@ escrever seus próprios testes de unidade (_tests_). Para isso, você pode ser g
 por projetos anteriores e/ou organizar os arquivos seguindo uma estrutura de
 [Model-View-Controller](https://developer.mozilla.org/es/docs/Glossary/MVC).
 
+Neste projeto vamos utilizar uma ferramenta chamada
+[Vite](https://es.vitejs.dev/) para empacotar nossos módulos e começar
+o servidor de desenvolvimento, que fornece nossos arquivos usando
+a estratégia `Hot Module Replacement`
+[(HMR)](https://en.vitejs.dev/guide/features.html#hot-module-replacement),
+isso significa que quando você faz alterações em arquivos que estão sendo
+servido, o navegador será atualizado automaticamente sem precisar atualizar
+e recarregue todo o site. Você deve ter um cuidado especial para não ter
+nenhuma _dependência circular_ em seu código desde
+[que pode causar problemas com o HMR](https://vitejs.dev/guide/troubleshooting.html#full-refresh-occurs-instead-of-hmr).
+(`eslint-plugin-import` tem uma regra
+[import/no-cycle](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md)
+que notificará se os tiver.)
+
 ### 5.2 Definição do produto
 
 No `README.md`, conte-nos brevemente como você mapeou as necessidades dos seus
@@ -231,18 +245,6 @@ interface será exibida usando páginas do GitHub ou outro serviço de hospedage
 Verifica a [Documentação Vite](https://vitejs.dev/guide/static-deploy.html)
 para orientá-lo sobre isso.
 
-Estamos usando uma ferramenta chamada [Vite](https://es.vitejs.dev/) para
-o empacotamento dos módulos e o servidor de desenvolvimento.
-Também ajuda no pipeline de desenvolvimento com algo chamado
-`Hot Module Reload` (HMR) - isso significa que quando você executa o
-servidor e faz alterações no código,
-automaticamente seu aplicativo é atualizado no navegador. _Ojo_ isso
-seu código não contém dependências circulares
-porque pode [causar problemas com HMR](https://vitejs.dev/guide/troubleshooting.html#full-refresh-occurs-instead-of-hmr).
-(`eslint-plugin-import` tem uma regra
-[import/no-cycle](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md)
-que notificará se os tiver.)
-
 ***
 
 ## 8. Guias, dicas e leituras complementares
@@ -284,8 +286,8 @@ criar (salvar) novos dados, além de ler, atualizar e modificar os dados
 existentes. Esses dados podem ser salvos remotamente usando o
 [Firebase](https://firebase.google.com/).
 
-Para usar o Firebase, você precisa criar um projeto Firebase no console do Firebase
-e instale a dependência `firebase` com `npm`.
+Para usar o Firebase, você deve criar um projeto no console do Firebase e
+instale a dependência `firebase` usando `npm`.
 Leia [instruções passo a passo aqui](https://firebase.google.com/docs/web/setup).
 
 Outras:
