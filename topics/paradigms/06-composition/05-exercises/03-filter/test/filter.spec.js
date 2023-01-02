@@ -1,30 +1,27 @@
-'use strict';
-
-
 const Assert = require('chai').assert;
 const Submission = require('../solution/filter');
 
 
 const message = () => {
   return Assert.deepEqual(Submission([{
-      message: 'Tempor quis esse consequat sunt ea eiusmod.'
-    }, {
-      message: 'Id culpgetShortMessages.speca ad proident ad nulla laborum incididunt. Blah blah'
-    }, {
-      message: 'Ullamco in ea et ad anim anim ullamco est.'
-    }, {
-      message: 'Est ut irure irure nisi.'
-    }]), [
-      'Tempor quis esse consequat sunt ea eiusmod.',
-      'Ullamco in ea et ad anim anim ullamco est.',
-      'Est ut irure irure nisi.'
-    ]);
+    message: 'Tempor quis esse consequat sunt ea eiusmod.'
+  }, {
+    message: 'Id culpgetShortMessages.speca ad proident ad nulla laborum incididunt. Blah blah'
+  }, {
+    message: 'Ullamco in ea et ad anim anim ullamco est.'
+  }, {
+    message: 'Est ut irure irure nisi.'
+  }]), [
+    'Tempor quis esse consequat sunt ea eiusmod.',
+    'Ullamco in ea et ad anim anim ullamco est.',
+    'Est ut irure irure nisi.'
+  ]);
 };
 
 
 describe('getShortMessages()', () => {
 
-  it('debería retornar [ ] cuando input array es [ ]', ( )  => {
+  it('debería retornar [ ] cuando input array es [ ]', () => {
     Assert.deepEqual(Submission([]), []);
   });
 
@@ -36,7 +33,7 @@ describe('getShortMessages()', () => {
     Assert.equal(/(for|while)\s+\(/g.test(Submission.toString()), false);
   });
 
-  it('debería invocar Array.prototype.filter' , () => {
+  it('debería invocar Array.prototype.filter', () => {
     const filter = Array.prototype.filter;
     let filterCount = 0;
 

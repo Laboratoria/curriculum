@@ -1,6 +1,3 @@
-'use strict';
-
-
 const Assert = require('chai').assert;
 const Sinon = require('sinon');
 const globalScope = (typeof self !== 'undefined' ? self : global);
@@ -8,7 +5,7 @@ const globalScope = (typeof self !== 'undefined' ? self : global);
 const claim = globalScope.claim = (actual, expected) =>
   Array.isArray(expected) || (typeof expected === 'object' && expected instanceof Object) ?
     Assert.deepEqual(actual, expected) :
-    Assert.equal(actual,expected);
+    Assert.equal(actual, expected);
 
 const spy = Sinon.spy(globalScope, 'claim');
 const Submission = require('../solution/objectCreate');
@@ -28,9 +25,9 @@ describe('objectCreate', () => {
   });
 
   [
-    [ true, true ],
-    [ true, true ],
-    [ {}, {} ]
+    [true, true],
+    [true, true],
+    [{}, {}]
   ].forEach((args, idx) => {
     describe(`invocación ${idx + 1} a claim`, () =>
       it(`debería comparar ${args[0]} con ${args[1]}`, () =>

@@ -1,6 +1,3 @@
-'use strict';
-
-
 const Assert = require('chai').assert;
 const Submission = require('../solution/serializeUser');
 
@@ -9,10 +6,10 @@ describe('serializeUser()', () => {
 
   it('debería retornar un string con el objeto serializado como JSON', () => {
     const grace = {
-    	userId: 'xxx',
-    	name: 'Grace Hopper',
-    	country: 'us',
-    	date: new Date()
+      userId: 'xxx',
+      name: 'Grace Hopper',
+      country: 'us',
+      date: new Date()
     };
     const dateStr = grace.date.toJSON();
     Assert.equal(

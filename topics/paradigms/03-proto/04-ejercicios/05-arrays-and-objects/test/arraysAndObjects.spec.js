@@ -1,6 +1,3 @@
-'use strict';
-
-
 const Assert = require('chai').assert;
 const Sinon = require('sinon');
 const globalScope = (typeof self !== 'undefined' ? self : global);
@@ -8,7 +5,7 @@ const globalScope = (typeof self !== 'undefined' ? self : global);
 const claim = globalScope.claim = (actual, expected) =>
   Array.isArray(expected) || (typeof expected === 'object' && expected instanceof Object) ?
     Assert.deepEqual(actual, expected) :
-    Assert.equal(actual,expected);
+    Assert.equal(actual, expected);
 
 const spy = Sinon.spy(globalScope, 'claim');
 const Submission = require('../solution/arraysAndObjects');
@@ -28,14 +25,14 @@ describe('arraysAndObjects', () => {
     Assert.equal(spy.callCount, 8);
   });
 
-  [ [ [ 'core' ], [] ],
-    [ [ 'core' ], [] ],
-    [ { fly: true }, {} ],
-    [ { fly: true }, {} ],
-    [ [ 'core' ], [ 'core' ] ],
-    [ [ 'core' ], [ 'core' ] ],
-    [ { fly: true }, { fly: true } ],
-    [ { fly: true }, { fly: true } ]
+  [[['core'], []],
+  [['core'], []],
+  [{ fly: true }, {}],
+  [{ fly: true }, {}],
+  [['core'], ['core']],
+  [['core'], ['core']],
+  [{ fly: true }, { fly: true }],
+  [{ fly: true }, { fly: true }]
   ].forEach((args, idx) => {
     describe(`invocación ${idx + 1} a claim`, () =>
       it(`debería comparar ${args[0]} con ${args[1]}`, () =>
@@ -53,7 +50,7 @@ describe('arraysAndObjects', () => {
 
     describe('machine.parts', () => {
       it('debería tener valor ["core"]', () => {
-        Assert.deepEqual(machine.parts,['core']);
+        Assert.deepEqual(machine.parts, ['core']);
       });
     });
 
