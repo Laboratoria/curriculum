@@ -1,17 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createTheme, ThemeProvider, StyledEngineProvider, adaptV4Theme } from '@mui/material/styles';
-import { AppProvider } from './lib/app';
+import {
+  createTheme,
+  ThemeProvider,
+  StyledEngineProvider,
+} from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+import { AppProvider, themeConfig } from '@laboratoria/react';
+import '@laboratoria/react/src/theme/index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
-import themeConfig from './lib/theme';
+import customThemeConfig from './lib/theme';
 import './index.css';
+
+console.log(customThemeConfig);
 
 ReactDOM.render(
   <React.StrictMode>
     <StyledEngineProvider injectFirst>
-      <ThemeProvider theme={createTheme(adaptV4Theme(themeConfig))}>
+      <ThemeProvider theme={createTheme(themeConfig)}>
         <AppProvider>
+          <CssBaseline />
           <App />
         </AppProvider>
       </ThemeProvider>

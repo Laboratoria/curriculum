@@ -6,7 +6,7 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import TextField from '@mui/material/TextField';
 import Loading from '../Loading';
-import { useApp } from '../../lib/app';
+import { useApp } from '@laboratoria/react';
 
 const useStyles = makeStyles((theme) => ({
   root: {
