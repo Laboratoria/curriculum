@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import { FormattedMessage } from 'react-intl';
-import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import Menu from '@material-ui/core/Menu';
-import MenuItem from '@material-ui/core/MenuItem';
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
-import LockOpenIcon from '@material-ui/icons/LockOpen';
+import Button from '@mui/material/Button';
+import IconButton from '@mui/material/IconButton';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import LockOpenIcon from '@mui/icons-material/LockOpen';
 
 
 const UserMenu = ({ lang, auth, history }) => {
@@ -30,9 +30,7 @@ const UserMenu = ({ lang, auth, history }) => {
 
   return (
     <div>
-      <IconButton
-        onClick={handleMenu}
-      >
+      <IconButton onClick={handleMenu} size="large">
         <AccountCircleIcon />
       </IconButton>
       <Menu

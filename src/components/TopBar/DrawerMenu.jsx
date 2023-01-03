@@ -1,16 +1,16 @@
 import { Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
-import { makeStyles } from '@material-ui/core/styles';
-import Divider from '@material-ui/core/Divider';
-import Drawer from '@material-ui/core/Drawer';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-import HomeIcon from '@material-ui/icons/Home';
-import DeveloperModeIcon from '@material-ui/icons/DeveloperMode';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import PeopleIcon from '@material-ui/icons/People';
+import makeStyles from '@mui/styles/makeStyles';
+import Divider from '@mui/material/Divider';
+import Drawer from '@mui/material/Drawer';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
+import HomeIcon from '@mui/icons-material/Home';
+import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import PeopleIcon from '@mui/icons-material/People';
 
 const version = process.env.REACT_APP_VERSION;
 

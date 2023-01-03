@@ -1,17 +1,17 @@
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
-import Card from '@material-ui/core/Card';
-import CardHeader from '@material-ui/core/CardHeader';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import CardActions  from '@material-ui/core/CardActions';
-import Grid from '@material-ui/core/Grid';
-import IconButton from '@material-ui/core/IconButton';
-import Typography from '@material-ui/core/Typography';
-import ArrowForward from '@material-ui/icons/ArrowForward';
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
-import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
+import Card from '@mui/material/Card';
+import CardHeader from '@mui/material/CardHeader';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import CardActions  from '@mui/material/CardActions';
+import Grid from '@mui/material/Grid';
+import IconButton from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
+import ArrowForward from '@mui/icons-material/ArrowForward';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 import { useLocale } from '../../intl/IntlProvider';
 
 
@@ -43,7 +43,7 @@ const Topic = ({ topic }) => {
         />
       <CardHeader
         action={
-          <IconButton component={Link} to={`/${lang}/topics/${topic.slug}`}>
+          <IconButton component={Link} to={`/${lang}/topics/${topic.slug}`} size="large">
             <ArrowForward />
           </IconButton>
         }
@@ -55,7 +55,7 @@ const Topic = ({ topic }) => {
             </div>
             {topic.description.length > 250 ? 
               <CardActions style={{marginLeft: "80%"}}>
-                <IconButton onClick={() => toggleShowEntireDescription()}>
+                <IconButton onClick={() => toggleShowEntireDescription()} size="large">
                   { dropArrow ? <ArrowDropDownIcon /> : <ArrowDropUpIcon /> }
                 </IconButton>
               </CardActions> : null

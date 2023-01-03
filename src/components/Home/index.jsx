@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
+import { useTheme } from '@mui/material/styles';
+import makeStyles from '@mui/styles/makeStyles';
 import { FormattedMessage } from 'react-intl';
 
 const useStyles = makeStyles(theme => ({

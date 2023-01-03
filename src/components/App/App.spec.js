@@ -1,5 +1,5 @@
 import { render, screen, waitFor } from '@testing-library/react';
-import { createTheme, ThemeProvider } from '@material-ui/core/styles';
+import { createTheme, ThemeProvider, StyledEngineProvider, adaptV4Theme } from '@mui/material/styles';
 import themeConfig from '../../lib/theme';
 import app from '../../lib/app';
 import App from '.';
@@ -22,9 +22,11 @@ describe('App', () => {
       auth: { user: null },
     }));
     render(
-      <ThemeProvider theme={createTheme(themeConfig)}>
-        <App />
-      </ThemeProvider>
+      <StyledEngineProvider injectFirst>
+        <ThemeProvider theme={createTheme(adaptV4Theme(themeConfig))}>
+          <App />
+        </ThemeProvider>
+      </StyledEngineProvider>
     );
     await waitFor(() => screen.getByText('Desarrollo Web'));
   });
@@ -36,9 +38,11 @@ describe('App', () => {
       auth: { user: null },
     }));
     render(
-      <ThemeProvider theme={createTheme(themeConfig)}>
-        <App />
-      </ThemeProvider>
+      <StyledEngineProvider injectFirst>
+        <ThemeProvider theme={createTheme(adaptV4Theme(themeConfig))}>
+          <App />
+        </ThemeProvider>
+      </StyledEngineProvider>
     );
     await waitFor(() => screen.getByText('Desenvolvimento Web'));
     spy.mockRestore();
