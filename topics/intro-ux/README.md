@@ -1,3 +1,7 @@
+---
+track: ux
+---
+
 # Intro a User Experience Design
 
 En este curso empezarás a formar el mindset que todo UX Designer debe tener:
