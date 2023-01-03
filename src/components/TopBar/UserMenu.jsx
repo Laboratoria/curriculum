@@ -7,9 +7,11 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import LockOpenIcon from '@mui/icons-material/LockOpen';
+import { useApp } from '@laboratoria/react';
 
 
-const UserMenu = ({ lang, auth, history }) => {
+const UserMenu = ({ lang, history }) => {
+  const { auth } = useApp();
   const [anchorEl, setAnchorEl] = useState(null);
 
   if (!auth.user) {

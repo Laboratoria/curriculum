@@ -1,37 +1,25 @@
-import { Fragment, useState } from 'react';
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
 import makeStyles from '@mui/styles/makeStyles';
 import AppBar from '@mui/material/AppBar';
 import FormControl from '@mui/material/FormControl';
-import IconButton from '@mui/material/IconButton';
 import MenuItem from '@mui/material/MenuItem';
 import Select from '@mui/material/Select';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import MenuIcon from '@mui/icons-material/Menu';
-// import { useApp } from '../../lib/app';
 import DrawerMenu from './DrawerMenu';
 // import UserMenu from './UserMenu';
-import laboratoriaLogo from '../../icons/laboratoria-logo.svg';
-import laboratoriaIcon from '../../icons/laboratoria-isotipo.svg';
+import laboratoriaLogo from '@laboratoria/react/dist/icons/laboratoria-logo.svg';
+import laboratoriaIcon from '@laboratoria/react/dist/icons/laboratoria-isotipo.svg';
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
   title: {
     flexGrow: 1,
     display: 'flex',
+    alignItems: 'center',
   },
-  offset: theme.mixins.toolbar,
-  list: {
-    width: 280,
-  },
-  langSelect: {
-    marginRight: theme.spacing(1),
+  offset: {
+    ...theme.mixins.toolbar,
+    marginBottom: theme.spacing(4),
   },
   hideWhenNotSmall: {
     display: 'flex',
@@ -54,36 +42,40 @@ const TopBar = () => {
   const navigate = useNavigate();
   const { lang } = useParams();
   const location = useLocation();
-  // const { auth } = useApp();
-  const [drawerIsOpen, setDrawerIsOpen] = useState(false);
   const urlWithoutLang = location.pathname.split('/').slice(2).join('/');
 
   return (
-    <Fragment>
-      <AppBar style={{ backgroundColor: 'white' }}>
+    <>
+      <AppBar position="fixed">
         <Toolbar>
-          <IconButton
-            onClick={() => setDrawerIsOpen(true)}
-            edge="start"
-            className={classes.menuButton}
-            color="inherit"
-            aria-label="menu"
-            size="large">
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="subtitle1" className={classes.title}>
-            <div className={classes.hideWhenNotSmall}>
-              <img alt="Laboratoria logo" src={laboratoriaIcon} height={56} />
-            </div>
-            <div className={classes.hideWhenSmall}>
-              <img alt="Laboratoria logo" src={laboratoriaLogo} height={32} style={{ marginRight: 10 }} /> Curriculum
-            </div>
+          <DrawerMenu lang={lang} />
+          <Typography variant="body2" className={classes.title}>
+            <span className={classes.hideWhenNotSmall}>
+              <img
+                alt="Laboratoria logo"
+                src={laboratoriaIcon}
+                height={56}
+              />
+            </span>
+            <span className={classes.hideWhenSmall}>
+              <img
+                alt="Laboratoria logo"
+                src={laboratoriaLogo}
+                height={32}
+                style={{ marginRight: 10 }}
+              />
+            </span>
+            Curriculum
           </Typography>
-          <FormControl className={classes.langSelect}>
+          <FormControl
+            variant="standard"
+            sx={{ marginRight: 3 }}
+          >
             <Select
               labelId="lang-select-label"
               id="lang-select"
               displayEmpty
+              disableUnderline
               value={lang}
               onChange={e => navigate(`/${e.target.value}/${urlWithoutLang}`)}
             >
@@ -98,18 +90,12 @@ const TopBar = () => {
               </MenuItem>
             </Select>
           </FormControl>
-          {/* <UserMenu lang={lang} auth={auth} history={history} /> */}
+          {/* <UserMenu lang={lang} history={history} /> */}
         </Toolbar>
       </AppBar>
 
       <div className={classes.offset} />
-
-      <DrawerMenu
-        drawerIsOpen={drawerIsOpen}
-        setDrawerIsOpen={setDrawerIsOpen}
-        lang={lang}
-      />
-    </Fragment>
+    </>
   );
 };
 

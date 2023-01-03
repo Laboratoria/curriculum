@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { useApp } from '../../lib/app';
+import { useApp } from '@laboratoria/react';
 import Loading from '../Loading';
 import RoutesWithIntl from './RoutesWithIntl';
 import './App.css';
@@ -10,18 +10,15 @@ const App = () => {
   const [defaulLocale, setDefaulLocale] = useState();
 
   useEffect(() => {
-    if (auth.user && !auth.profile) {
-      return;
-    }
-
-
-    const profileLocale = (auth.profile || {}).locale;
+    const userLang = auth.user?.lang;
     setDefaulLocale(
-      ['es-ES', 'pt-BR'].includes(profileLocale)
-        ? profileLocale
-        : navigator.language.split('-')[0] === 'pt'
+      userLang === 'es'
+        ? 'es-ES'
+        : userLang === 'pt'
           ? 'pt-BR'
-          : 'es-ES'
+          : navigator.language.split('-')[0] === 'pt'
+            ? 'pt-BR'
+            : 'es-ES'
     )
   }, [auth]);
 
