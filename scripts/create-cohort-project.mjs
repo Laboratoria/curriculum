@@ -1,21 +1,24 @@
 #! /usr/bin/env node
 
-const fs = require('fs-extra');
-const path = require('path');
-const readline = require('readline');
-const util = require('util');
-const exec = util.promisify(require('child_process').exec);
-const minimist = require('minimist');
-const mkdirp = require('mkdirp');
-const { Octokit } = require('@octokit/rest');
-const {
+import childProcess from 'node:child_process';
+import { existsSync, statSync } from 'node:fs';
+import { cp, rename, unlink, readFile, writeFile } from 'node:fs/promises';
+import path from 'node:path';
+import readline from 'node:readline';
+import { fileURLToPath } from 'node:url';
+import { promisify } from 'node:util';
+import minimist from 'minimist';
+import mkdirp from 'mkdirp';
+import { Octokit } from '@octokit/rest';
+import {
   getLearningObjectives,
   loadYaml,
-} = require('@laboratoria/curriculum-parser/lib/project');
+} from '@laboratoria/curriculum-parser/lib/project.js';
 
-
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const uiUrl = 'https://curriculum.laboratoria.la';
 
+const exec = promisify(childProcess.exec);
 
 const prompt = text => new Promise((resolve) => {
   const rl = readline.createInterface({
@@ -29,21 +32,19 @@ const prompt = text => new Promise((resolve) => {
   });
 });
 
-
 const ensureSrc = (src) => {
   if (!src) {
     throw new Error('Please specify a source dir containing a project');
   }
 
-  if (!fs.existsSync(src) || !fs.statSync(src).isDirectory()) {
+  if (!existsSync(src) || !statSync(src).isDirectory()) {
     throw new Error('Source dir is not a directory!');
   }
 };
 
-
 const ensureRepoDir = async (repoDir, opts) => {
-  if (fs.existsSync(repoDir)) {
-    if (!fs.statSync(repoDir).isDirectory()) {
+  if (existsSync(repoDir)) {
+    if (!statSync(repoDir).isDirectory()) {
       throw new Error('Destination exists and its a file??');
     }
 
@@ -62,7 +63,6 @@ const ensureRepoDir = async (repoDir, opts) => {
   }
 };
 
-
 const copy = async (src, repoDir, opts) => {
   console.log(`You are about to copy all files from ${src} to ${repoDir}`);
   const confirmCopy = await prompt('Are you sure you want to continue? [Y/n]: ');
@@ -76,41 +76,35 @@ const copy = async (src, repoDir, opts) => {
   }
 
   console.log('Copying files...');
-  await fs.copy(src, repoDir);
+  await cp(src, repoDir, { recursive: true });
 
   if (opts.locale === 'pt-BR') {
-    return fs.move(
-      `${repoDir}/README.pt-BR.md`,
-      `${repoDir}/README.md`,
-      { overwrite: true },
-    );
+    return rename(`${repoDir}/README.pt-BR.md`, `${repoDir}/README.md`);
   }
 
-  if (fs.existsSync(`${repoDir}/README.pt-BR.md`)) {
-    return fs.unlink(`${repoDir}/README.pt-BR.md`);
+  if (existsSync(`${repoDir}/README.pt-BR.md`)) {
+    return unlink(`${repoDir}/README.pt-BR.md`);
   }
 };
 
 const addBootcampInfo = async (repoDir) => {
   const projectPkgJsonPath = path.resolve(`${repoDir}/package.json`);
-  if (!fs.existsSync(projectPkgJsonPath)) {
+  if (!existsSync(projectPkgJsonPath)) {
     return;
   }
-  const pkg = Object.assign(require(projectPkgJsonPath), {
+  const pkg = Object.assign(JSON.parse(await readFile('package.json')), {
     bootcamp: {
       createdAt: (new Date()).toISOString(),
       version: process.env.npm_package_version,
       commit: (await exec('git rev-parse HEAD')).stdout.trim(),
     },
   });
-  await fs.writeFile(projectPkgJsonPath, JSON.stringify(pkg, null, 2));
-}
-
+  await writeFile(projectPkgJsonPath, JSON.stringify(pkg, null, 2));
+};
 
 const linkToString = ({ title, url }, lang) => (
   `[${title}](${url.startsWith('topics/') ? `${uiUrl}/${lang}/${url}` : url})`
 );
-
 
 const addLocalizedLearningObjectives = async (repoDir, opts) => {
   const learningObjectives = await getLearningObjectives(repoDir, {
@@ -159,7 +153,7 @@ const addLocalizedLearningObjectives = async (repoDir, opts) => {
   );
 
   const readmePath = path.join(repoDir, 'README.md');
-  const contents = (await fs.readFile(readmePath, 'utf8')).split('\n');
+  const contents = (await readFile(readmePath, 'utf8')).split('\n');
   const startIndex = contents.findIndex(
     line => /^## \d\. Objetivos de aprendiza(je|gem)/i.test(line),
   );
@@ -183,10 +177,9 @@ const addLocalizedLearningObjectives = async (repoDir, opts) => {
     .join('\n')
     .replace(/\.\.\/\.\.\/topics\//g, `${uiUrl}/${lang}/topics/`);
 
-  await fs.writeFile(readmePath, updatedContent);
-  await fs.unlink(path.join(repoDir, 'project.yml'));
+  await writeFile(readmePath, updatedContent);
+  await unlink(path.join(repoDir, 'project.yml'));
 };
-
 
 const initRepo = async (repoDir, opts) => {
   if (opts.noop) {
@@ -201,7 +194,6 @@ const initRepo = async (repoDir, opts) => {
   await exec('git branch -M main', { cwd: repoDir });
 };
 
-
 const createRemote = async (name, opts) => {
   if (!process.env.GITHUB_TOKEN) {
     throw new Error('GITHUB_TOKEN env var is not set!');
@@ -215,11 +207,7 @@ const createRemote = async (name, opts) => {
   }
 
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
-
-  return octokit.repos.createInOrg({
-    org,
-    name,
-  });
+  return octokit.repos.createInOrg({ org, name });
 };
 
 const pushChanges = async (repoDir, repo, useHttps, opts) => {
@@ -287,11 +275,6 @@ const main = async (args, opts) => {
   `);
 };
 
-/* Arguments From Shell \m/ */
-const handleArgs = (argumentsFromShell) => {
-  return minimist(argumentsFromShell.slice(2));
-}
-
 const trimSlashes = (args) => {
   return args.map(arg => (
     arg[arg.length - 1] === '/'
@@ -312,31 +295,22 @@ Este es un mensaje de ayuda para que puedas usarlo.
 
   Ejemplo:
 
-    # crea el proyecto Markdown Links en la ruta actual para LIM042
-    npm run create-cohort-project projects/04-md-links ./ LIM042
+    # crea el proyecto Markdown Links en la ruta actual para DEV999
+    npm run create-cohort-project projects/04-md-links ./ DEV999
 
 Acá puedes encontrar la documentación completa:
 https://github.com/Laboratoria/bootcamp/tree/main/scripts#create-cohort-project
 `);
 };
 
-const noOptionsOrHelp = (args) => {
-  return args.length === 0 || ['-h', '--help'].includes(args[0]);
+const { _: args, ...opts } = minimist(process.argv.slice(2));
+
+if (args.length === 0 || opts.h || opts.help) {
+  printUsage();
+  process.exit(0);
 }
 
-if (module === require.main) {
-  const { _: args, ...opts } = handleArgs(process.argv);
-
-  if (noOptionsOrHelp(args)) {
-    printUsage();
-    process.exit(0);
-  }
-
-  const argsWithoutSlashes = trimSlashes(args);
-
-  main(argsWithoutSlashes, opts)
-    .catch((err) => {
-      console.error(err);
-      process.exit(1);
-    });
-}
+main(trimSlashes(args), opts).catch((err) => {
+  console.error(err);
+  process.exit(1);
+});

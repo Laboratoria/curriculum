@@ -1,30 +1,33 @@
 #! /usr/bin/env node
 
-const { spawn } = require('child_process');
-const { EventEmitter } = require('events');
-const fs = require('fs');
-const path = require('path');
-const chokidar = require('chokidar');
-const WebSocket = require('ws');
-const { repository, version } = require('../package.json');
+import { spawn } from 'node:child_process';
+import { EventEmitter } from 'node:events';
+import { openSync } from 'node:fs';
+import { readFile } from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import chokidar from 'chokidar';
+import { WebSocketServer } from 'ws';
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const { repository, version } = JSON.parse(
+  await readFile(path.join(__dirname, '../package.json')),
+);
 
 const log = (...args) => {
   console.log((new Date()), ...args);
 };
 
-
-const parse = (type, dir, locale, track) => {
-  log(`Parsing ${type} ${dir} ${locale}...`);
-  const suffix = locale.split('-')[0];
+const parse = (type, dir, track) => {
+  log(`Parsing ${type} ${dir}...`);
   const slug = type === 'topic' ? dir : dir.split('-').slice(1).join('-');
   const fname = path.join(
     './dist',
     `${type}s`,
-    `${locale === 'es-ES' ? slug : `${slug}-${suffix}`}.json`,
+    `${slug}.json`,
   );
   const ee = new EventEmitter();
-  const fd = fs.openSync(fname, 'w');
+  const fd = openSync(fname, 'w');
   const child = spawn('npx', [
     'curriculum-parser',
     type,
@@ -32,29 +35,22 @@ const parse = (type, dir, locale, track) => {
     '--repo', repository,
     '--version', version,
     '--track', track,
-    '--locale', locale,
     '--lo', path.join(__dirname, '../learning-objectives'),
-    ...(locale === 'es-ES' ? [] : ['--suffix', suffix]),
   ], { stdio: [null, fd, 'inherit'] });
 
   child.on('error', (err) => {
     ee.emit('error', err);
   });
 
-  child.on('close', (code) => {
+  child.on('close', async (code) => {
     if (code !== 0) {
-      console.error('Failed parsing', type, dir, locale, track, code);
+      console.error('Failed parsing', type, dir, track, code);
       return;
     }
 
-    log(`Finished parsing ${type} ${dir} ${locale}...`);
-
-    const absPath = path.resolve(fname);
-    delete require.cache[absPath];
-    const json = require(absPath);
-    ee.emit('parse', json);
+    log(`Finished parsing ${type} ${dir}...`);
+    ee.emit('parse', JSON.parse(await readFile(path.resolve(fname))));
   });
-
 
   ee.cancel = () => {
     child.kill();
@@ -63,15 +59,14 @@ const parse = (type, dir, locale, track) => {
   return ee;
 };
 
-
 const main = () => {
-  const wss = new WebSocket.Server({ port: 8080 });
+  const wss = new WebSocketServer({ port: 8080 });
   const watcher = chokidar.watch(['./topics', './projects']);
   let sockets = [];
   const jobs = {};
 
-  const runJob = (type, dir, locale) => {
-    const jobId = `${type}-${dir}-${locale}`;
+  const runJob = (type, dir) => {
+    const jobId = `${type}-${dir}`;
 
     // if already parsing 1st cancel current job...
     if (jobs[jobId]) {
@@ -79,7 +74,8 @@ const main = () => {
     }
 
     // parse and keep cancel function for later...
-    jobs[jobId] = parse(type, dir, locale, 'js');
+    // TODO: Where should we get the track from?
+    jobs[jobId] = parse(type, dir, 'webDev');
 
     jobs[jobId].on('error', (err) => {
       console.error(err);
@@ -112,15 +108,7 @@ const main = () => {
     }
 
     log(`Change detected in file ${path}`);
-    const locales = (
-      path.endsWith('.pt-BR.md')
-        ? ['pt-BR']
-        : path.endsWith('.md')
-          ? ['es-ES']
-          : ['es-ES', 'pt-BR']
-    );
-
-    locales.forEach(locale => runJob(type, dir, locale));
+    runJob(type, dir);
   });
 };
 
