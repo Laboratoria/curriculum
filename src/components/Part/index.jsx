@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import Typography from '@material-ui/core/Typography';
+import Typography from '@mui/material/Typography';
 import Breadcrumbs from '../Breadcrumbs';
 import Content from '../Content';
 import ExercisesList from './ExercisesList';

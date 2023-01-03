@@ -1,14 +1,14 @@
 import { Fragment, useState } from 'react';
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import FormControl from '@material-ui/core/FormControl';
-import IconButton from '@material-ui/core/IconButton';
-import MenuItem from '@material-ui/core/MenuItem';
-import Select from '@material-ui/core/Select';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import MenuIcon from '@material-ui/icons/Menu';
+import makeStyles from '@mui/styles/makeStyles';
+import AppBar from '@mui/material/AppBar';
+import FormControl from '@mui/material/FormControl';
+import IconButton from '@mui/material/IconButton';
+import MenuItem from '@mui/material/MenuItem';
+import Select from '@mui/material/Select';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import MenuIcon from '@mui/icons-material/Menu';
 // import { useApp } from '../../lib/app';
 import DrawerMenu from './DrawerMenu';
 // import UserMenu from './UserMenu';
@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
   hideWhenSmall: {
     display: 'flex',
     alignItems: 'center',
-    [theme.breakpoints.down('xs')]: {
+    [theme.breakpoints.down('sm')]: {
       display: 'none',
     },
   },
@@ -68,7 +68,7 @@ const TopBar = () => {
             className={classes.menuButton}
             color="inherit"
             aria-label="menu"
-          >
+            size="large">
             <MenuIcon />
           </IconButton>
           <Typography variant="subtitle1" className={classes.title}>

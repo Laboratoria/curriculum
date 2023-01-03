@@ -55,7 +55,7 @@ const theme = {
     },
   },
   palette: {
-    type: 'light',
+    mode: 'light',
     primary: {
       light: '#ffea4d',
       main: '#ffe521',

@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
-import { makeStyles } from '@material-ui/core/styles';
-import Button from '@material-ui/core/Button';
-import Paper from '@material-ui/core/Paper';
+import makeStyles from '@mui/styles/makeStyles';
+import Button from '@mui/material/Button';
+import Paper from '@mui/material/Paper';
 import Question from './Question';
 
 const useStyles = makeStyles(theme => ({

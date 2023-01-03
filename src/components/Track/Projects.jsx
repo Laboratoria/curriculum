@@ -1,14 +1,14 @@
 import { Link, useParams } from 'react-router-dom';
 import { FormattedMessage, useIntl } from 'react-intl';
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardHeader from '@material-ui/core/CardHeader';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Grid from '@material-ui/core/Grid';
-import IconButton from '@material-ui/core/IconButton';
-import Typography from '@material-ui/core/Typography';
-import ArrowForward from '@material-ui/icons/ArrowForward';
+import makeStyles from '@mui/styles/makeStyles';
+import Card from '@mui/material/Card';
+import CardHeader from '@mui/material/CardHeader';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Grid from '@mui/material/Grid';
+import IconButton from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
+import ArrowForward from '@mui/icons-material/ArrowForward';
 import { useLocale } from '../../intl/IntlProvider';
 import { learningObjectiveToIcon } from '../../lib/learning-objectives';
 
@@ -46,7 +46,7 @@ const Project = ({ project }) => {
         className={classes.cardHeader}
         titleTypographyProps={{ style: { fontSize: '1.3em', marginTop: 0 } }}
         action={
-          <IconButton component={Link} to={`/${lang}/projects/${project.slug}`}>
+          <IconButton component={Link} to={`/${lang}/projects/${project.slug}`} size="large">
             <ArrowForward />
           </IconButton>
         }

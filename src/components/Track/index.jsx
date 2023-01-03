@@ -10,10 +10,10 @@ import {
   useParams,
 } from 'react-router-dom';
 import { FormattedMessage, useIntl } from 'react-intl';
-import Container from '@material-ui/core/Container';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
-import Typography from '@material-ui/core/Typography';
+import Container from '@mui/material/Container';
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
+import Typography from '@mui/material/Typography';
 import data from '../../lib/data';
 import Loading from '../Loading';
 import Gym from './Gym';

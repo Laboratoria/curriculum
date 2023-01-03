@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { FormattedMessage } from 'react-intl';
-import Typography from '@material-ui/core/Typography';
+import Typography from '@mui/material/Typography';
 import data from '../../lib/data';
 import ExercisesList from '../Part/ExercisesList';
 

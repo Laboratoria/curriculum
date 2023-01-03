@@ -1,5 +1,5 @@
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
+import ListItem from '@mui/material/ListItem';
+import ListItemText from '@mui/material/ListItemText';
 import Test from './Test';
 
 const Suite = ({ suite }) => (

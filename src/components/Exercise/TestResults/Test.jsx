@@ -1,11 +1,10 @@
-import { makeStyles } from '@material-ui/core/styles';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import Avatar from '@material-ui/core/Avatar';
-import DoneIcon from '@material-ui/icons/Done';
-import ErrorIcon from '@material-ui/icons/Error';
-import red from '@material-ui/core/colors/red';
-import green from '@material-ui/core/colors/green';
+import makeStyles from '@mui/styles/makeStyles';
+import ListItem from '@mui/material/ListItem';
+import ListItemText from '@mui/material/ListItemText';
+import Avatar from '@mui/material/Avatar';
+import DoneIcon from '@mui/icons-material/Done';
+import ErrorIcon from '@mui/icons-material/Error';
+import { red, green } from '@mui/material/colors';
 
 const useStyles = makeStyles((theme) => ({
   success: {

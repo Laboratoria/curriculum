@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, Route, Routes, useParams } from 'react-router-dom';
-import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
 import Loading from '../Loading';
 import Breadcrumbs from '../Breadcrumbs';
 import Exercise from '../Exercise';
