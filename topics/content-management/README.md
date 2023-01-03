@@ -1,3 +1,7 @@
+---
+track: ux
+---
+
 # Cómo crear y organizar el contenido de un producto digital
 
 En este curso entenderás cómo la organización del contenido mejora la

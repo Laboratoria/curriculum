@@ -1,3 +1,7 @@
+---
+track: ux
+---
+
 # Prototipado
 
 En este curso concerás distintas técnicas de prototipado desde papel hasta

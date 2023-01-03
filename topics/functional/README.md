@@ -1,3 +1,7 @@
+---
+track: web-dev
+---
+
 # Functional JavaScript
 
 La programación funcional es un paradigma de programación de suma relevancia hoy

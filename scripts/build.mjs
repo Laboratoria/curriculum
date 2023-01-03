@@ -67,7 +67,6 @@ const parse = (dir, validate) => new Promise((resolve) => {
     dir,
     '--repo', repository,
     '--version', version,
-    '--track', 'webDev',
     '--lo', path.join(__dirname, '../learning-objectives'),
   ], { stdio: [null, fd, 'pipe'] });
 
