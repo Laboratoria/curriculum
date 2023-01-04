@@ -129,7 +129,7 @@
       <ul>
         <li>
           <a href="https://www.loom.com/share/b9e9837cb3664c51a17a92a424ea695e">
-            Píldora: Tips y buenas prácticas entrevista RRHH.
+            Pílula: Tips y buenas prácticas entrevista RRHH.
           </a>
           <a href="https://docs.google.com/presentation/d/12LuouWVJKEvGkR6v4CkdddmbrBEL5qbsaYEJsqGPicg/edit#slide=id.p1">
             (PPT)
@@ -137,7 +137,7 @@
         </li>
         <li>
           <a href="https://drive.google.com/file/d/1BJz3dWOzIUAoTyCclnKpZlQRRAZ4vxv_/view?usp=sharing">
-            Píldora: Negociación salario y condiciones laborales.
+            Pílula: Negociação, salário e condições de trabalho.
           </a>
           <a href="https://docs.google.com/presentation/d/1bdxzpvUCxvIphQXvM2DkdcSdtRh43JjHUB-wbOIQJog/edit#slide=id.p1">
             (PPT)
