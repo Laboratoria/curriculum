@@ -129,7 +129,7 @@
       <ul>
         <li>
           <a href="https://www.loom.com/share/b9e9837cb3664c51a17a92a424ea695e">
-            Pílula: Tips y buenas prácticas entrevista RRHH.
+            Pílula: Tips e boas práticas em entrevista RRHH.
           </a>
           <a href="https://docs.google.com/presentation/d/12LuouWVJKEvGkR6v4CkdddmbrBEL5qbsaYEJsqGPicg/edit#slide=id.p1">
             (PPT)
