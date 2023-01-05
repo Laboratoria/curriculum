@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Historia del diseño visual para web
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
-
-***
 
 ## Historia breve de diseño visual para web
 

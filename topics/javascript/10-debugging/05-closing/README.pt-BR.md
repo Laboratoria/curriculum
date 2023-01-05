@@ -1,10 +1,9 @@
+---
+type: read
+duration: 10min
+---
+
 # Encerramento: Debugging
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `10min`
-
-***
 
 ## Agenda
 

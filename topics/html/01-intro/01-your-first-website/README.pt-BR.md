@@ -1,8 +1,9 @@
-# Sua primeira página Web
+---
+type: read
+duration: 20min
+---
 
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `20min`
+# Sua primeira página Web
 
 ## Objetivos de aprendizagem
 

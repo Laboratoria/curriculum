@@ -1,8 +1,9 @@
-# Objetos pré-construídos
+---
+type: read
+duration: 15min
+---
 
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `15min`
+# Objetos pré-construídos
 
 ## Objetivos de Aprendizagem
 

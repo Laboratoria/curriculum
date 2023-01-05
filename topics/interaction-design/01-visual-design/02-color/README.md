@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Color
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
-
-***
 
 ## Intro
 

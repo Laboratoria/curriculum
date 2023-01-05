@@ -1,10 +1,9 @@
-# `filter`, `map`,`sort` e`reduce`
+---
+type: read
+duration: 45min
+---
 
-- Tipo: `leitura`
-- Formato: `individual`
-- Duración: `45min`
-
-***
+# filter, map, sort e reduce
 
 Já vimos alguns dos métodos de uso mais comuns para arrays, porém
 `Array.prototype` nos fornece vários outros métodos úteis.

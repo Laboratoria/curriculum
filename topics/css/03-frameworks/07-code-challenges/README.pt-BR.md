@@ -1,8 +1,9 @@
-# Desafios
+---
+type: practice
+duration: 20h
+---
 
-- Tipo: `exercício`
-- Formato: `individual`
-- Duración: `20h`
+# Desafios
 
 ## Objetivos
 

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 20min
+---
+
 # Encerramento: tornando o seu site interativo
-
-- Tipo: `seminário`
-- Formato: `guiado`
-- Duración: `120min`
-
-***
 
 ## Agenda
 

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Array Proto
-
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `30 min`
-
-***
 
 Arranjos \(_arrays_\) em JavaScript são implementados como objetos, o que pode
 soar um pouco estranho mas, em JavaScript, quase todos os tipos de dados

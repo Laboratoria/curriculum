@@ -1,10 +1,9 @@
+---
+type: read
+duration: 20min
+---
+
 # O que é um teste?
-
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `20min`
-
-***
 
 Quando falamos de **tests** (testes), poderíamos pensar em ferramentas de testes
 como `Mocha`, `Jest`, `Jasmine`, ... ou metodologias de desenvolvimento como TDD

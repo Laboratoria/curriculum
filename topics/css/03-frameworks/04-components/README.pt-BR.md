@@ -1,10 +1,9 @@
+---
+type: read
+duration: 20min
+---
+
 # Componentes e funcionalidade
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `20min`
-
-***
 
 ## Objetivos de Aprendizagem
 

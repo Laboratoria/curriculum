@@ -1,10 +1,9 @@
+---
+type: practice
+duration: 2h
+---
+
 # Exercitando com Web Storage
-
-- Tipo: `oficina`
-- Formato: `guiado`
-- Duração: `2h`
-
-***
 
 ## Objetivos
 

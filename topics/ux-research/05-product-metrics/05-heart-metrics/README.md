@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Heart metrics
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30 min`
-
-***
 
 ## Intro
 

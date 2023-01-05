@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Media Queries e Viewport
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `30min`
-
-***
 
 ## Objetivos de Aprendizagem
 

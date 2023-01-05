@@ -1,10 +1,9 @@
+---
+type: read
+duration: 10min
+---
+
 # Redesenho do navegador
-
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `10min`
-
-***
 
 Com a chegada das aplicações ricas da internet (RIA: *Rich Internet
 Applications*), nossas páginas exigem uma melhor experiência para o usuário, o

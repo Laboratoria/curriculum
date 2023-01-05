@@ -1,7 +1,6 @@
+---
+type: practice
+duration: 5min
+---
+
 # Ejercicio imperativo
-
-* Tipo: `practice`
-* Formato: `self-paced`
-* Duración: `5min`
-
-***

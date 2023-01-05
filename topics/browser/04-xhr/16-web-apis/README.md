@@ -1,10 +1,9 @@
+---
+type: read
+duration: 40min
+---
+
 # Web APIs
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `40min`
-
-***
 
 ## Objetivos de Aprendizaje
 

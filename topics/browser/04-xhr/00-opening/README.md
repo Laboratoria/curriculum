@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Opening: ¿Qué significa traer datos de un servidor asíncronamente?
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `15min`
-
-***
 
 ## Objetivos de Aprendizaje
 

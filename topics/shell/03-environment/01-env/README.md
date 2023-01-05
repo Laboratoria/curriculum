@@ -1,10 +1,9 @@
+---
+type: read
+duration: 5min
+---
+
 # Entorno / Envirnoment
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
-
-***
 
 ## Ejecución de comandos
 

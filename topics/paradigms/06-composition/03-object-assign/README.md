@@ -1,10 +1,9 @@
+---
+type: read
+duration: 5min
+---
+
 # Object.assign()
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
-
-***
 
 Llegado a este punto, probablemente te estés preguntando cómo podemos acceder
 ahora a `text` y `createdAt`. En nuestro caso, estas propiedades no necesitan

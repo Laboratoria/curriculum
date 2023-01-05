@@ -1,10 +1,9 @@
+---
+type: read
+duration: 5min
+---
+
 # Encerramento
-
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `5min`
-
-***
 
 ## Resumo
 

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Promesas
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
-
-***
 
 Hasta ahora hemos visto el uso de _callbacks_ para manejar tareas asíncronas. En
 esta lectura introducimos un tipo de dato nuevo (`Promise`), que está

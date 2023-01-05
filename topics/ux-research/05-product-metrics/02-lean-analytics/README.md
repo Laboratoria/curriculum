@@ -1,10 +1,9 @@
+---
+type: read
+duration: 20min
+---
+
 # Lean Analytics
-
-- Tipo: `video`
-- Formato: `self-paced`
-- Duración: `20min`
-
-***
 
 ## Intro
 

@@ -1,8 +1,9 @@
-# Quiz #2
+---
+type: quiz
+duration: 15min
+---
 
-- Tipo: `quiz`
-- Formato: `individual`
-- Duração: `30min`
+# Quiz #2
 
 ## Objetivos
 

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 2h
+---
+
 # Casos Prático (vídeo)
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `2h`
-
-***
 
 ## Objetivos
 

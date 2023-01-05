@@ -1,10 +1,9 @@
+---
+type: read
+duration: 3min
+---
+
 # Closures
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `3min`
-
-***
 
 Para poder entender las funciones _factory_ y el mecanismo de composición de
 objetos que vamos ver más adelante, es esencial sentirse cómoda con el concepto

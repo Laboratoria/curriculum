@@ -1,10 +1,9 @@
+---
+type: practice
+duration: 3h
+---
+
 # Exercitando com DnD
-
-- Tipo: `oficina`
-- Formato: `guiado`
-- Duração: `3h`
-
-***
 
 ## Objetivos
 

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 5min
+---
+
 # Procesos
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
-
-***
 
 ## Entrada/Salida/Pipes/Redirección
 

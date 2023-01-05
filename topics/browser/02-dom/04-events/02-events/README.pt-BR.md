@@ -1,8 +1,7 @@
 # Events handling
 
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `20min`
+type: read
+duration: 20min
 
 ***
 

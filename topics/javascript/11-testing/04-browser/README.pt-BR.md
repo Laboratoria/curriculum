@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Testes no navegador
-
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `15min`
-
-***
 
 Até este ponto estivemos executando nossos testes com Node.js, mas como
 _front-end developers_ também é interessante executar nossos testes em um

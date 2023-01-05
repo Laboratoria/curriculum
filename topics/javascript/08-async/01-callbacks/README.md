@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Callbacks
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
-
-***
 
 En los diferentes lenguajes y estilos de programación siempre ha habido un
 problema con el tiempo que toman las cosas en realizarse, quizá no en el sentido

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 20min
+---
+
 # Materialize e outros
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duración: `20min`
-
-***
 
 ## Objetivos de Aprendizagem
 

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 10min
+---
+
 # Shell de UNIX
-
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `10min`
-
-***
 
 ## O que é a _shell_ de UNIX?
 

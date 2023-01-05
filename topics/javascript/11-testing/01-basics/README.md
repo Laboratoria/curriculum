@@ -1,10 +1,9 @@
+---
+type: read
+duration: 20min
+---
+
 # Qué es un test?
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `20min`
-
-***
 
 Cuando hablamos de **tests** (pruebas), podríamos ponernos a pensar en
 herramientas de testing, como `Mocha`, `Jest`, `Jasmine`, ... o metodologías de

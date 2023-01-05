@@ -1,10 +1,9 @@
+---
+type: read
+duration: 20min
+---
+
 # GitHub
-
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `20min`
-
-***
 
 ## Objetivos de Aprendizagem
 

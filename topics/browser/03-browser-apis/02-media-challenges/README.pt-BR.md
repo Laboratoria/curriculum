@@ -1,10 +1,9 @@
+---
+type: practice
+duration: 2h
+---
+
 # Jogando com Áudio & Vídeo
-
-- Tipo: `oficina`
-- Formato: `guiado`
-- Duração: `2h`
-
-***
 
 ## Objetivos
 

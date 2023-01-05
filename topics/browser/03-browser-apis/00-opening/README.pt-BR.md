@@ -1,10 +1,9 @@
+---
+type: read
+duration: 25min
+---
+
 # Opening
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `25min`
-
-***
 
 ## Objetivos de Aprendizagem
 

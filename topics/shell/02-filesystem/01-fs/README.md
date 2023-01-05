@@ -1,10 +1,9 @@
+---
+type: read
+duration: 10min
+---
+
 # Sistema de archivos
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
-
-***
 
 Cuando abrimos un emulador de terminal, normalmente nos encontramos (por
 defecto) en nuestra carpeta `HOME` (por ejemplo: `/home/<usuario>` en la mayoría

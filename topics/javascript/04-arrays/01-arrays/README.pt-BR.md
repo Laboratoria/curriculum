@@ -1,10 +1,9 @@
+---
+type: read
+duration: 60min
+---
+
 # Arrays
-
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `60 min`
-
-***
 
 ## Objetivos de Aprendizagem
 

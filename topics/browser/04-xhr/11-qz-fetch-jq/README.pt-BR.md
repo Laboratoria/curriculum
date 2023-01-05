@@ -1,10 +1,9 @@
+---
+type: quiz
+duration: 15min
+---
+
 # Quiz
-
-- Tipo: `quiz`
-- Formato: `individual`
-- Duração: `15min`
-
-***
 
 ## Objetivos
 

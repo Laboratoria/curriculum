@@ -1,8 +1,7 @@
 # Bubbling vs Capturing
 
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `15min`
+type: read
+duration: 15min
 
 ***
 

@@ -1,8 +1,9 @@
-# Clase de Conceptos
+---
+type: read
+duration: 2h
+---
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `2h`
+# Clase de Conceptos
 
 ## Objetivos
 

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Callbacks
-
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `15min`
-
-***
 
 As diferentes linguagens e estilos de programação sempre tiveram um problema com
 o tempo que as coisas levam para serem realizadas, talvez não no sentido humano,

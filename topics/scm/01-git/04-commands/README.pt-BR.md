@@ -1,10 +1,10 @@
+---
+type: read
+duration: 5min
+---
+
 # Comandos comuns
 
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `5min`
-
-***
 A seguir, você encontrará uma lista dos comandos mais comuns ao trabalhar com
 `Git` e `GitHub`.
 

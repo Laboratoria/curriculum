@@ -1,10 +1,9 @@
+---
+type: practice
+duration: 2h
+---
+
 # Exercícios Livres
-
-- Tipo: `exercício`
-- Formato: `individual`
-- Duração: `2h`
-
-***
 
 ## Objetivos
 

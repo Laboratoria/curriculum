@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Erros em callbacks
-
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `15min`
-
-***
 
 Na unidade anterior vimos como a sentença `try...catch` nos permite cercar
 código que poderia resultar em uma exceção e assim evitar que a exceção

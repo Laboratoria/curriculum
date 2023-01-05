@@ -1,10 +1,9 @@
+---
+type: practice
+duration: 4h
+---
+
 # Exercícios Livres
-
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `4h`
-
-***
 
 ## Objetivos
 

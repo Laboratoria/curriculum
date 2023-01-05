@@ -1,10 +1,9 @@
-# _Frameworks_
+---
+type: read
+duration: 30min
+---
 
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `30min`
-
-***
+# Frameworks
 
 Já vimos um pouco o que fazemos quando testamos e porque testamos. Agora vamos
 introduzir algumas ferramentas para facilitar esse processo de ter que executar

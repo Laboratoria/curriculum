@@ -1,10 +1,9 @@
+---
+type: read
+duration: 1h
+---
+
 # Modelo de Negocios
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `1h`
-
-***
 
 ## Intro a Modelos de Negocios
 

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Media: Audio & Video
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
-
-***
 
 ## Objetivos de Aprendizaje
 

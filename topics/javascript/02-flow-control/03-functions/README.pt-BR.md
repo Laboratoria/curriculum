@@ -1,8 +1,9 @@
-# Funções
+---
+type: read
+duration: 30min
+---
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duração: `30min`
+# Funções
 
 ## Objetivos
 

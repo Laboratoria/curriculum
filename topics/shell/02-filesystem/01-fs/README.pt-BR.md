@@ -1,10 +1,9 @@
+---
+type: read
+duration: 10min
+---
+
 # Interagindo com o sistema de arquivos
-
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `10min`
-
-***
 
 Quando abrimos um emulador de terminal, normalmente estamos (por padrão) na
 nossa pasta `HOME` (por exemplo: `/home/<usuario>` na maioria das distribuições

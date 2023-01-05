@@ -1,7 +1,6 @@
+---
+type: practice
+duration: 10min
+---
+
 # Ejercicios de recursividad
-
-* Tipo: `practice`
-* Formato: `self-paced`
-* Duración: `10min`
-
-***

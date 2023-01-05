@@ -1,8 +1,9 @@
-# Modificando o DOM
+---
+type: read
+duration: 60min
+---
 
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `120min`
+# Modificando o DOM
 
 ## Objetivos de Aprendizagem
 

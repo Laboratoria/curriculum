@@ -1,10 +1,9 @@
+---
+type: read
+duration: 40min
+---
+
 # Como debuggar em JS?
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `40min`
-
-***
 
 ## Objetivos de Aprendizagem
 

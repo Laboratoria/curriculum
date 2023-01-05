@@ -1,10 +1,9 @@
+---
+type: read
+duration: 5min
+---
+
 # Configuración
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `5min`
-
-***
 
 Ya tenemos instalado`Git` en nuestro equipo, ahora personalizaremos nuestro
 entorno de `Git`.

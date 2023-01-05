@@ -1,10 +1,9 @@
+---
+type: practice
+duration: 24h
+---
+
 # Desafio
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `24h`
-
-***
 
 ## Objetivos
 

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 45min
+---
+
 # Recursividad en JavaScript
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `45min`
-
-***
 
 La recursividad es uno de los conceptos de programación más simples pero a su
 vez uno de los más difíciles de dominar. La definición teórica para recursividad

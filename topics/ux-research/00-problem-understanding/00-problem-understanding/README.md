@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Entendimiento del problema
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30 min`
-
-***
 
 ## Intro
 

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Document Object Model (DOM)
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
-
-***
 
 ## Objetivos de Aprendizaje
 

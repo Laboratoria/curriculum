@@ -1,8 +1,9 @@
-# Atributos de dados
+---
+type: read
+duration: 30min
+---
 
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `30min`
+# Atributos de dados
 
 ## Objetivos de Aprendizagem
 

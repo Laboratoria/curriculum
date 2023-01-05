@@ -1,8 +1,9 @@
-# Variáveis
+---
+type: read
+duration: 60min
+---
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `60min`
+# Variáveis
 
 ## Objetivos de Aprendizagem
 

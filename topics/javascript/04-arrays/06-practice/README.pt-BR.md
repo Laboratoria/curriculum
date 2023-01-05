@@ -1,10 +1,9 @@
+---
+type: practice
+duration: 3h
+---
+
 # Exercícios
-
-* Tipo: `exercício`
-* Formato: `individual`
-* Duração: `3 h`
-
-***
 
 ## Objetivos
 

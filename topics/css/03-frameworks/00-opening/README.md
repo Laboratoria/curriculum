@@ -1,8 +1,9 @@
-# Opening: No reinventes la rueda
+---
+type: read
+duration: 15min
+---
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `15min`
+# Opening: No reinventes la rueda
 
 ***
 

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Abertura: Não reinvente a roda
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `15min`
-
-***
 
 ## Objetivos de Aprendizagem
 

@@ -1,8 +1,9 @@
-# Reglas básicas de diseño visual
+---
+type: read
+duration: 2h
+---
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `2h`
+# Reglas básicas de diseño visual
 
 ***
 

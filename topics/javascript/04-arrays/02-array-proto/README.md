@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Array.prototype
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
-
-***
 
 Los arreglos (arrays) en JavaScript están implementados como objetos, lo cual
 puede sonar un poco raro, pero en JavaScript casi todos los tipos de datos

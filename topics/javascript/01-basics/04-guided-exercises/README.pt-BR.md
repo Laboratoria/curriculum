@@ -1,8 +1,9 @@
-# Exercícios Livres
+---
+type: practice
+duration: 60min
+---
 
-- Tipo: `leitura`
-- Formato: `self-paced`
-- Duración: `60min`
+# Exercícios Livres
 
 ## Objetivos de Aprendizagem
 
