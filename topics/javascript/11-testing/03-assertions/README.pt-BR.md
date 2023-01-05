@@ -1,10 +1,9 @@
-# _Asserts_
+---
+type: read
+duration: 30min
+---
 
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `30min`
-
-***
+# Asserts
 
 Nas leituras anteriores vimos como usar `mocha` para construir a estrutura que
 queremos verificar/testar, mas contudo ainda nos falta fazer as

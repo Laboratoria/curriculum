@@ -1,10 +1,9 @@
+---
+type: read
+duration: 5min
+---
+
 # Instalação
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `5min`
-
-***
 
 Se estivermos usando Linux ou Mac OS X, não será necessário instalar o Git
 porque ele já vem instalado, mas se nosso sistema operacional for Windows,

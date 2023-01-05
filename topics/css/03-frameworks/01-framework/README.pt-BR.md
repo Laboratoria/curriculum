@@ -1,10 +1,9 @@
+---
+type: read
+duration: 60min
+---
+
 # Frameworks
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `60min`
-
-***
 
 ## Objetivos de Aprendizagem
 

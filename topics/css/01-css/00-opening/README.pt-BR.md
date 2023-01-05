@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Opening: CSS
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `15min`
-
-***
 
 ## Objetivos de Aprendizagem
 

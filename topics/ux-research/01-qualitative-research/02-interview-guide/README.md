@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Guía para entrevistas
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
-
-***
 
 ## Guía para las entrevistas
 

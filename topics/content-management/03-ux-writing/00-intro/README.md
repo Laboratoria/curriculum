@@ -1,10 +1,9 @@
+---
+type: read
+duration: 1h
+---
+
 # UX Writing
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `1h`
-
-***
 
 ## Qué es una UX Writer
 

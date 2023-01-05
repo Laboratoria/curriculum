@@ -1,10 +1,9 @@
+---
+type: read
+duration: 20min
+---
+
 # Closing: Haciendo tu sitio web interactivo
-
-- Tipo: `seminario`
-- Formato: `guided`
-- Duración: `120min`
-
-***
 
 ## Agenda
 

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Frameworks
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `30min`
-
-***
 
 Ya hemos visto un poco de qué hacemos cuando testeamos y por qué lo hacemos.
 Ahora vamos a ir introduciendo algunas herramientas para facilitar ese proceso

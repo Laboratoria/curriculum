@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Bucles (Loops)
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
-
-***
 
 ## Mecanismos que pueden ser usados con ciclos/bucles
 

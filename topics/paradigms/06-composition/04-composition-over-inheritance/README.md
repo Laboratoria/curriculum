@@ -1,10 +1,9 @@
+---
+type: read
+duration: 10min
+---
+
 # Composition over inheritance
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
-
-***
 
 Por lo general, a la hora de "diseñar" programas tratamos de favorecer la
 composición con respecto a la herencia. El motivo principal es la flexibilidad

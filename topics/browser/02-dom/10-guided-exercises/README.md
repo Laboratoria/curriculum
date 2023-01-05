@@ -1,27 +1,21 @@
-# Clase Práctica
+---
+type: practice
+duration: 120min
+---
 
-- Tipo: `taller`
-- Formato: `guiado`
-- Duración: `120min`
+# Clase Práctica
 
 ## Objetivos
 
-- Practicar codeando junto a tu equipo de profes, resolviendo problemas de
-  estructuras condicionales, repetitivas y funciones
+- Practicar resolviendo problemas de estructuras condicionales, repetitivas y
+  funciones
 - Practicar, practicar y practicar
 
 ***
 
 ## Enunciados
 
-A continuación tienes más problemas de práctica. Estos problemas serán
-resueltos, paso a paso, por tu equipo de profes en una sesión presencial
-(`workshop`).
-
-Te sugerimos que intentes resolver los ejercicios por tu cuenta (o en equipo)
-**antes** de la sesión presencial. Así, ya vienes con dudas específicas y
-estarás familiarizada con los retos. Quizás, puedas tú presentar tu solución
-ante el resto de la clase y así ayudar al resto de tus compañeras.
+A continuación tienes más problemas de práctica.
 
 ### 1. Tic Tac Toe
 

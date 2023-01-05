@@ -1,10 +1,9 @@
+---
+type: read
+duration: 5min
+---
+
 # O que é o Git?
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `5min`
-
-***
 
 O texto a seguir é baseado em grande parte, com alguns ajustes, nas seguintes
 referências:

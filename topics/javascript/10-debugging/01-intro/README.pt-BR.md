@@ -1,10 +1,9 @@
-# O que é _debugging_?
+---
+type: read
+duration: 30min
+---
 
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `30min`
-
-***
+# O que é debugging?
 
 ## Objetivos de Aprendizagem
 

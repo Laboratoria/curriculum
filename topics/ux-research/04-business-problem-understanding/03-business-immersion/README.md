@@ -1,10 +1,9 @@
+---
+type: read
+duration: 1h
+---
+
 # Inmersión en el problema / oportunidad
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `1h`
-
-***
 
 ## Entendimiento del problema
 

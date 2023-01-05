@@ -1,10 +1,9 @@
+---
+type: read
+duration: 20min
+---
+
 # Funções clásicas
-
-* Tipo: `leitura`
-* Formato: `self-paced`
-* Duração: `20min`
-
-***
 
 ## Declarando uma função
 

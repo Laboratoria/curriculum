@@ -1,10 +1,9 @@
+---
+type: read
+duration: 5min
+---
+
 # Closing
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `5min`
-
-***
 
 ## HTML5 é a última versão do HTML?
 

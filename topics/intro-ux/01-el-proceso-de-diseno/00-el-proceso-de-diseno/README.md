@@ -1,10 +1,9 @@
+---
+type: read
+duration: 1h
+---
+
 # Clase de Conceptos
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `1h`
-
-***
 
 ## El proceso de diseño
 

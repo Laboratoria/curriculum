@@ -1,10 +1,9 @@
+---
+type: read
+duration: 5min
+---
+
 # Apertura
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
-
-***
 
 En esta unidad nos concentraremos en control de flujo usando funciones:
 _recursividad_ y _asincronía_.

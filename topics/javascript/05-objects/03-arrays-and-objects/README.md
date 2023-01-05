@@ -1,10 +1,9 @@
+---
+type: read
+duration: 60min
+---
+
 # Combinando arrays con objects
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `60min`
-
-***
 
 ## Objetivos de Aprendizaje
 

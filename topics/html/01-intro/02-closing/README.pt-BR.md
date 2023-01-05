@@ -1,10 +1,9 @@
+---
+type: read
+duration: 20min
+---
+
 # Closing
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `20min`
-
-***
 
 ## Responda as perguntas do opening
 

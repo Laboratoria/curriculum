@@ -1,10 +1,9 @@
+---
+type: read
+duration: 20min
+---
+
 # Responsive Web Design
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `20min`
-
-***
 
 ## Objetivos de Aprendizaje
 

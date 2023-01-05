@@ -1,8 +1,9 @@
-# Quiz #1
+---
+type: quiz
+duration: 30min
+---
 
-- Tipo: `quiz`
-- Formato: `self-paced`
-- Duración: `30min`
+# Quiz #1
 
 ## Objetivos
 

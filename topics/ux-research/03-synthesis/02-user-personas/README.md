@@ -1,10 +1,9 @@
+---
+type: read
+duration: 2h
+---
+
 # User personas
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `2h`
-
-***
 
 ## Intro
 

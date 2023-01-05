@@ -1,10 +1,9 @@
+---
+type: practice
+duration: 1h
+---
+
 # Desafios de código
-
-- Tipo: `practice`
-- Formato: `individual`
-- Duração: `1h`
-
-***
 
 ## Objetivos
 

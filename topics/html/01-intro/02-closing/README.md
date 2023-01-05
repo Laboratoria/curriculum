@@ -1,10 +1,9 @@
+---
+type: read
+duration: 20min
+---
+
 # Closing
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `120min`
-
-***
 
 ## Responde las preguntas del opening
 

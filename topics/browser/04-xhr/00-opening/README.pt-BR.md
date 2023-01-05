@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Abertura: O que significa trazer dados de um servidor assincronamente?
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `15min`
-
-***
 
 ## Objetivos de Aprendizagem
 

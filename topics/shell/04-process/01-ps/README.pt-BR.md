@@ -1,10 +1,9 @@
+---
+type: read
+duration: 5min
+---
+
 # Processos
-
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `5min`
-
-***
 
 ## Entrada/Saída/Pipes/Redirecionamento
 

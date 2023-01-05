@@ -1,8 +1,9 @@
-# Manipulación del DOM
+---
+type: read
+duration: 60min
+---
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `60min`
+# Manipulación del DOM
 
 ## Objetivos de Aprendizaje
 

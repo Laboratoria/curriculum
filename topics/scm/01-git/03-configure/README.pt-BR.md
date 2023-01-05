@@ -1,10 +1,9 @@
+---
+type: read
+duration: 5min
+---
+
 # Configuração
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `5min`
-
-***
 
 Com o Git já instalado em nosso computador, vamos agora personalizar o ambiente
 do Git.

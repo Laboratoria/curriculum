@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Modo Estricto
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
-
-***
 
 El modo estricto realiza cambios en la semántica normal de javascript. Un
 aspecto importante es que el modo estricto elimina errores silenciosos, lo que

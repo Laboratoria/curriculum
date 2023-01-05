@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Modo Estrito
-
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `15min`
-
-***
 
 O modo estrito realiza mudanças na semântica normal do JavaScript. Um aspecto
 importante disso é que o modo estrito elimina erros silenciosos, forçando a

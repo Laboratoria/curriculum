@@ -1,10 +1,9 @@
+---
+type: practice
+duration: 3h
+---
+
 # Jugando con Geolocation
-
-- Tipo: `taller`
-- Formato: `guiado`
-- Duración: `3h`
-
-***
 
 ## Objetivos
 

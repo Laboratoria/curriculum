@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Opening: A jugar con Web APIs
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `15min`
-
-***
 
 ## Objetivos de Aprendizaje
 

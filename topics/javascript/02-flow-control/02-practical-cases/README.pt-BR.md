@@ -1,8 +1,9 @@
-# Casos práticos
+---
+type: read
+duration: 60min
+---
 
-- Tipo: `leitura`
-- Formato: `self-paced`
-- Duração: `60min`
+# Casos práticos
 
 ## Objetivos
 

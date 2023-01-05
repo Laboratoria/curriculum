@@ -1,7 +1,6 @@
+---
+type: practice
+duration: 15min
+---
+
 # Desafios de código
-
-- Tipo: `practice`
-- Formato: `individual`
-- Duração: `15min`
-
-***

@@ -1,8 +1,9 @@
-# Modificando atributos desde el DOM
+---
+type: read
+duration: 20min
+---
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `20min`
+# Modificando atributos desde el DOM
 
 ## Objetivos de Aprendizaje
 

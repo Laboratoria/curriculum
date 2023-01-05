@@ -1,8 +1,9 @@
-# Exercícios Livres
+---
+type: read
+duration: 6h
+---
 
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `6h`
+# Exercícios Livres
 
 ## Objetivos
 

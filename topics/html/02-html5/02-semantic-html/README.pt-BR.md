@@ -1,10 +1,9 @@
+---
+type: read
+duration: 1h
+---
+
 # HTML Semântico
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `1h`
-
-***
 
 ## Objetivos de Aprendizagem
 

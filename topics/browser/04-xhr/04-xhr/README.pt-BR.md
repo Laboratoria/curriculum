@@ -1,10 +1,9 @@
+---
+type: read
+duration: 90min
+---
+
 # XHR
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `90min`
-
-***
 
 ## Objetivos de Aprendizagem
 

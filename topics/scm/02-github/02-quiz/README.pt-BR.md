@@ -1,10 +1,9 @@
+---
+type: quiz
+duration: 5min
+---
+
 # Quiz
-
-- Tipo: `quiz`
-- Formato: `individual`
-- Duração: `5min`
-
-***
 
 ## Perguntas
 

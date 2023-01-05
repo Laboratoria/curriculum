@@ -1,10 +1,9 @@
+---
+type: read
+duration: 1h
+---
+
 # Storytelling
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `1h`
-
-***
 
 ## Intro
 

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Try...catch
-
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `15min`
-
-***
 
 O JavaScript suporta um conjunto compacto de declarações específicas para o
 manejo de fluxo, que podem ser utilizadas para incorporar uma maior

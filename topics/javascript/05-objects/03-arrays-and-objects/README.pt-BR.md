@@ -1,10 +1,9 @@
+---
+type: read
+duration: 60min
+---
+
 # Vetores e Objetos
-
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `60 min`
-
-***
 
 ## Objetivos de Aprendizagem
 

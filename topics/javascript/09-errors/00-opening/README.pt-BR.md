@@ -1,10 +1,9 @@
+---
+type: read
+duration: 5min
+---
+
 # Abertura
-
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `5min`
-
-***
 
 ## Por que aprender?
 

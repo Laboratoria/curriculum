@@ -1,10 +1,9 @@
+---
+type: read
+duration: 5min
+---
+
 # Ambiente/Environment
-
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `5min`
-
-***
 
 ## Execução de comandos
 

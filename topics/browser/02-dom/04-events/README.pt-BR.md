@@ -1,8 +1,9 @@
-# Eventos
+---
+type: read
+duration: 30min
+---
 
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `30min`
+# Eventos
 
 ## Objetivos de Aprendizagem
 

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 4h
+---
+
 # CSS
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `4h`
-
-***
 
 ## Objetivos de Aprendizagem
 

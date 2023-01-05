@@ -1,8 +1,9 @@
-# Modelo de Caixa e Display
+---
+type: read
+duration: 1h
+---
 
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `1h`
+# Modelo de Caixa e Display
 
 ## Objetivos de Aprendizagem
 

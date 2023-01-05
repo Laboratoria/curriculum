@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Asincronía en JavaScript
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: 30min
-
-***
 
 ## ¿Cuál es la diferencia entre código síncrono y asíncrono?
 

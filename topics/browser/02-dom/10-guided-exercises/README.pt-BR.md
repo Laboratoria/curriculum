@@ -1,23 +1,19 @@
-# Aula Prática
+---
+type: practice
+duration: 120min
+---
 
-- Tipo: `oficina`
-- Formato: `guiado`
-- Duração: `120min`
+# Aula Prática
 
 ## Objetivos
 
-- Praticar programando com sua equipe de professoras, resolvendo problemas de
-  estruturas condicionais, estruturas de repetição e funções
+- Praticar resolvendo problemas de estruturas condicionais, estruturas de
+  repetição e funções
 - Praticar, praticar e praticar
 
 ***
 
 ## Enunciados
-
-Aqui estão alguns exercícios para você praticar, sugerimos que tenta resolver
-eles sozinha ou em grupo. Assim, você ficará familiarizada com os desafios. E se
-quiser pode apresentar a sua solução para a sala e ajudar as suas companheiras
-😁
 
 ### 1. Tic Tac Toe
 

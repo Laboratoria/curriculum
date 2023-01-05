@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # A Web em um Dispositivo Móvel
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `15min`
-
-***
 
 ## Objetivos de Aprendizagem
 

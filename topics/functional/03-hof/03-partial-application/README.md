@@ -1,10 +1,9 @@
+---
+type: read
+duration: 10min
+---
+
 # Aplicación parcial
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
-
-***
 
 Quizá la mejor manera de explicar este concepto es verlo directamente en acción.
 Imagina la siguiente función:

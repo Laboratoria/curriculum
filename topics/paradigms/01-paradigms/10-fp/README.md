@@ -1,10 +1,9 @@
+---
+type: read
+duration: 10min
+---
+
 # FP
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
-
-***
 
 Finalmente llegamos al paradigma funcional (_Functional Programming_), y digo
 finalmente porque es probable que sientas curiosidad por conocer un poco más

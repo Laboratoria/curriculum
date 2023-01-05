@@ -1,7 +1,6 @@
+---
+type: read
+duration: 5min
+---
+
 # Scripts
-
-* Tipo: `leitura`
-* Formato: `individual`
-* Duração: `5min`
-
-***

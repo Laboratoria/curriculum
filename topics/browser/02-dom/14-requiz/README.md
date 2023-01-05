@@ -1,8 +1,9 @@
-# Quiz #2: _requizzing_
+---
+type: quiz
+duration: 30min
+---
 
-- Tipo: `quiz`
-- Formato: `guiado`
-- Duración: `30min`
+# Quiz #2: Requizzing
 
 ## Objetivos
 

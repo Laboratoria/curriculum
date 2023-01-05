@@ -1,10 +1,9 @@
+---
+type: read
+duration: 10min
+---
+
 # Abertura: Debugging
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duração: `10min`
-
-***
 
 ## Objetivos de Aprendizagem
 

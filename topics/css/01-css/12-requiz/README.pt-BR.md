@@ -1,8 +1,9 @@
-# Quiz #2: requizzing
+---
+type: quiz
+duration: 30min
+---
 
-- Tipo: `quiz`
-- Formato: `individual`
-- Duração: `30min`
+# Quiz #2: requizzing
 
 ## Objetivos
 

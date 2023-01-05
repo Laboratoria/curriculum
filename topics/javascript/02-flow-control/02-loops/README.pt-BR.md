@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Laços (Loops)
-
-* Tipo: `leitura`
-* Formato: `individual`
-* Duración: `15min`
-
-***
 
 ## Mecanismos que podem ser usados como laços
 

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 1h
+---
+
 # Formulários
-
-- Tipo: `leitura`
-- Formato: `individual`
-- Duración: `1h`
-
-***
 
 ## Objetivos de Aprendizagem
 
