@@ -1,4 +1,4 @@
-# Proyecto Job Application
+# Projeto Job Application
 
 ## Índice
 
@@ -105,7 +105,7 @@ No link a seguir, você encontrará uma tabela onde compartilhamos a descrição
 cada etapa, as datas em que será realizada, os recursos que você terá e os
 entregáveis de cada momento.
 
-### [Actividades](./Activities.pt-BR.md)
+### [Atividades](./Activities.pt-BR.md)
 
 ## 5. Mentorias de pessoas de fora da Laboratória
 

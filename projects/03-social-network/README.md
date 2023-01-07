@@ -95,9 +95,25 @@ Para comenzar tendrás que hacer un _fork_ y _clonar_ este repositorio.
 
 ### 5.1 Boilerplate
 
-Este proyecto no incluye un _boilerplate_, así es que tendrás que definir la
-estructura de carpetas y escribir tus propias Pruebas Unitarias (_tests_). Para
-hacerlo, puedes guiarte de los proyectos anteriores.
+Este proyecto no incluye un _boilerplate_ completo, solo algunos archivos de
+configuración basico, así es que tendrás que definir la estructura de carpetas
+y escribir tus propias Pruebas Unitarias (_tests_). Para hacerlo, puedes guiarte
+de los proyectos anteriores y/o organizar los archivos siguiendo una estructura
+de [Modelo-Vista-Controlador](https://developer.mozilla.org/es/docs/Glossary/MVC).
+
+En este proyecto vamos a usar una herramienta llamada
+[Vite](https://es.vitejs.dev/) para empaquetar nuestros módulos y arrancar
+el servidor de desarrollo, el cual provee nuestros archivos utilizando
+la estrategia `Hot Module Replacement`
+[(HMR)](https://es.vitejs.dev/guide/features.html#hot-module-replacement),
+esto significa que cuando hagas cambios en los archivos que estén siendo
+servidos, el navegador automáticamente se actualizará sin tener que refrescar
+y volver a cargar todo el sitio. Debes tener especial cuidado de no tener
+ninguna _dependencia circular_ en tu código ya que
+[eso puede ocasionar problemas con HMR](https://es.vitejs.dev/guide/troubleshooting.html#ocurre-un-refresco-completo-en-lugar-de-hmr).
+(`eslint-plugin-import` tiene una regla
+[import/no-cycle](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md)
+que va a avisar si las tiene.)
 
 ### 5.2 Definición del producto
 
@@ -227,8 +243,10 @@ profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
 ## 7. Entrega
 
 El proyecto será _entregado_ subiendo tu código a GitHub (`commit`/`push`) y la
-interfaz será desplegada usando GitHub pages u otro servicio de hosting que
-puedas haber encontrado en el camino.
+interfaz será desplegada usando GitHub pages u otro servicio de hosting
+(Firebase, Netlify, Vercel, etc) que puedas haber encontrado en el camino.
+Revisa la [documentación de Vite](https://vitejs.dev/guide/static-deploy.html)
+para guiarte con eso.
 
 ***
 
@@ -269,6 +287,10 @@ habíamos escrito datos (salvar cambios, crear datos, borrar, ...). En este
 proyecto tendrás que crear (salvar) nuevos datos, así como leer, actualizar y
 modificar datos existentes. Estos datos se podrán guardar de forma remota
 usando [Firebase](https://firebase.google.com/).
+
+Para usar Firebase hay que crear un proyecto en la consola de Firebase e
+instalar la dependencia `firebase` utilizando `npm`.
+Lee [las instrucciones paso a paso aqui](https://firebase.google.com/docs/web/setup).
 
 Otras:
 
