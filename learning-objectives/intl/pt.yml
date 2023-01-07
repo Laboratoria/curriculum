@@ -318,20 +318,140 @@ user-centricity:
 user-centricity/centricity:
   title: Desenhar e desenvolver um produto ou serviço colocando as usuárias no centro
 
-product-design:
-  title: Design de produto
+user-centricity/user-oriented:
+  title: Envolva os usuários e leve em consideração suas necessidades durante todo o processo de design
 
-product-design/interactivity:
-  title: Criar protótipos para obter feedback e iterar
+user-centricity/prioritization:
+  title: Identificar e priorizar usuários relevantes para o projeto
 
-product-design/visual-design:
-  title: Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
+business:
+  title: Negócios
+
+business/model:
+  title: Entendendo o modelo de negócio
+
+business/goals:
+  title: Entenda e considere os objetivos do negócio durante o desenvolvimento do projeto
+
+business/metrics:
+  title: Definir métricas relevantes para validar a conformidade com os objetivos de negócios
+
+business/benchmark:
+  title: Entendendo a situação do negócio em relação ao mercado local e global
 
 research:
   title: Pesquisa
 
+research/planning:
+  title: Planejamento da pesquisa com base nas necessidades do projeto
+
+research/support:
+  title: "Escolha e apoie os # usuários que participam de atividades de pesquisa"
+
+research/guidelines:
+  title: Criar e testar guia de atividades de pesquisa
+
+research/interview:
+  title: Conduzindo entrevistas com usuários empáticos e imparciais
+
+research/documentation:
+  title: Documentar entrevistas e testes
+
+research/adaptation:
+  title: Adaptar o plano de pesquisa de acordo com os resultados obtidos
+
+research/sources:
+  title: Identificar e revisar diferentes fontes de informação e inspiração relevantes para o projeto
+
 research/test:
   title: Planejar e executar testes de usabilidade
+
+research/cuantitative-data:
+  title: Coletar, analisar e interpretar dados quantitativos
+
+synthesis:
+  title: Síntese
+
+synthesis/weighing:
+  title: Distinguir observações, dados e/ou respostas que agregam valor ao projeto
+
+synthesis/patterns:
+  title: Encontrando padrões nos resultados da pesquisa
+
+synthesis/insights:
+  title: Diferenciar entre observações, descobertas e insights
+
+synthesis/mapping:
+  title: Usando ferramentas de síntese para mapear as experiências do usuário
+
+synthesis/features:
+  title: Definir características do produto
+
+synthesis/ideation:
+  title: Gerar várias ideias de soluções para o desafio do projeto
+
+synthesis/feature-prioritization:
+  title: Priorizar as possíveis soluções que agregam mais valor ao projeto, com base nos objetivos do projeto e nas necessidades dos usuários
+
+product-design:
+  title: Design de produto
+
+product-design/user-flows:
+  title: Priorizar e propor fluxos de usuários que os ajudem a atingir seus objetivos com o produto
+
+product-design/content:
+  title: Identificar e priorizar conteúdos relevantes e necessários para o produto
+
+product-design/fidelity:
+  title: Design em diferentes níveis de fidelidade
+
+product-design/interactivity:
+  title: Criar protótipos para obter feedback e iterar
+
+product-design/usability:
+  title: Projetar produto ou serviço seguindo as melhores práticas de usabilidade
+
+product-design/accessibility:
+  title: Projetar produto ou serviço seguindo as melhores práticas de acessibilidade
+
+product-design/visual-design:
+  title: Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
+
+product-design/component-organization:
+  title: Criar e usar componentes reutilizáveis
+
+product-design/project-organization:
+  title: Nomear, organizar, agrupar as camadas (layers) do design seguindo boas práticas
+
+product-design/documentation:
+  title: Documentar os vários componentes da interface do usuário e seus casos de uso
+
+communication:
+  title: Comunicação
+
+communication/presentation:
+  title: Apresentar e apoiar propostas aos clientes
+
+communication/negotiation:
+  title: Negociando de forma eficaz com os clientes
+
+communication/relationship-management:
+  title: Gerenciando o Relacionamento com o Cliente
+
+communication/case-study:
+  title: Apresente seu processo de trabalho em um estudo de caso usando ferramentas de storytelling
+
+planning:
+  title: Planejamento
+
+planning/monitor:
+  title: Organizar e monitorar as atividades a serem desenvolvidas durante o projeto
+
+planning/prioritization:
+  title: Priorizar as atividades a serem desenvolvidas durante o projeto
+
+planning/tools:
+  title: Escolha as ferramentas e métodos a utilizar de acordo com as necessidades do projeto
 
 firebase:
   title: Firebase
