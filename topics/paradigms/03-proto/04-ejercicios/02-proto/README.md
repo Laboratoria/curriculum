@@ -1,4 +1,4 @@
-# El objeto __proto__
+# El objeto \_\_proto\_\_
 
 * Environment: `js`
 
