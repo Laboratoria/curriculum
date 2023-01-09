@@ -1,4 +1,4 @@
-# Repite una operación `n` número de veces
+# Repite una operación n número de veces
 
 * Environment: `js`
 
