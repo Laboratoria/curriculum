@@ -30,7 +30,8 @@
     "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject",
-    "link-parser": "rm -rf node_modules/@laboratoria/curriculum-parser && ln -s ../../../curriculum-parser-next node_modules/@laboratoria/curriculum-parser"
+    "link-parser": "rm -rf node_modules/@laboratoria/curriculum-parser && ln -s ../../../curriculum-parser node_modules/@laboratoria/",
+    "link-react": "rm -rf node_modules/@laboratoria/react && ln -s ../../../react node_modules/@laboratoria/"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
