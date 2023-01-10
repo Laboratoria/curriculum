@@ -92,6 +92,25 @@ Para começar, você precisará criar um _fork_ e _clone_ deste repositório.
 Este projeto não inclui um _boilerplate_, portanto você terá que definir a
 estrutura de pastas e escrever seus próprios testes unitários (_tests_). Para
 isso, você pode guiar-se por meio de projetos anteriores.
+Este projeto não inclui um _boilerplate_ completo, apenas alguns arquivos de
+configuração básica, então você terá que definir a estrutura de pastas e
+escrever seus próprios testes de unidade (_tests_). Para isso, você pode ser guiado
+por projetos anteriores e/ou organizar os arquivos seguindo uma estrutura de
+[Model-View-Controller](https://developer.mozilla.org/es/docs/Glossary/MVC).
+
+Neste projeto vamos utilizar uma ferramenta chamada
+[Vite](https://es.vitejs.dev/) para empacotar nossos módulos e iniciar
+o servidor de desenvolvimento, que disponibiliza nossos arquivos usando
+a estratégia `Hot Module Replacement`
+[(HMR)](https://en.vitejs.dev/guide/features.html#hot-module-replacement),
+isso significa que quando você faz alterações em arquivos que estão sendo
+hosteados, o navegador será atualizado automaticamente sem a necessidade
+de fazê-lo manualmente para recarregar todo o site. Você deve ter um
+cuidado especial para não ter nenhuma _dependência circular_ em seu código já
+[que pode causar problemas com o HMR](https://vitejs.dev/guide/troubleshooting.html#full-refresh-occurs-instead-of-hmr).
+(O `eslint-plugin-import` tem a regra
+[import/no-cycle](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md)
+que notificará se os tiver.)
 
 ### 5.2 Definição do produto
 
@@ -105,8 +124,8 @@ detalhe:
 ### 5.3 Histórias de usuário
 
 Depois de entender as necessidades de seus usuários, escreva as Histórias de
-Usuário. Elas representam tudo o que ele precisa fazer/ver na Rede Social. Cada
-uma de suas histórias de usuário deve possuir:
+Usuário. Elas representam tudo o que ele precisa fazer/ver na Rede Social.
+Cada uma de suas histórias de usuário deve possuir:
 
 * **Critérios de aceitação:** tudo o que deve acontecer para satisfazer as
   necessidades do usuário.
@@ -221,8 +240,10 @@ projeto.
 ## 7. Entrega
 
 O projeto será entregue subindo seu código no GitHub (`commit` /`push`) e a
-interface será hospedada usando o GitHub pages ou outro serviço de hospedagem
-que você pode ter encontrado ao longo do caminho.
+interface será exibida usando páginas do GitHub ou outro serviço de hospedagem
+(Firebase, Netlify, Vercel, etc) que você pode ter encontrado pelo caminho.
+Verifica a [Documentação Vite](https://vitejs.dev/guide/static-deploy.html)
+para orientá-lo sobre isso.
 
 ***
 
@@ -264,6 +285,10 @@ Nos projetos anteriores, consumimos dados, mas ainda não tínhamos escrito dado
 criar (salvar) novos dados, além de ler, atualizar e modificar os dados
 existentes. Esses dados podem ser salvos remotamente usando o
 [Firebase](https://firebase.google.com/).
+
+Para usar o Firebase, você deve criar um projeto no console do Firebase e
+instale a dependência `firebase` usando `npm`.
+Leia [instruções passo a passo aqui](https://firebase.google.com/docs/web/setup).
 
 Outras:
 
