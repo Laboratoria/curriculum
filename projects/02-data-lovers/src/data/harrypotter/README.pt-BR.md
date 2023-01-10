@@ -71,4 +71,5 @@ livro, bem como uma breve descrição das mesmas.
 De acordo com os princípios da convivência harmoniosa e da diversidade como valor
 intrínsecos que norteiam nossa política de diversidade e inclusão,
 Laboratoria não tolera ou endossa os comentários da autora dos dados
-usado neste dataset do projeto.
+usado neste dataset do projeto, Joanne Rowling, sobre a
+identidade de gênero e pessoas neurodivergentes.

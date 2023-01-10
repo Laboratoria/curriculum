@@ -70,4 +70,5 @@ libro así como una pequeña descripción de la misma.
 De acuerdo a los principios de convivencia armónica y diversidad como valor
 intrínseco que orientan nuestra política de diversidad e inclusión,
 Laboratoria no condona ni avala los comentarios de la autora de la data
-utilizada en este dataset del proyecto.
+utilizada en este dataset del proyecto, Joanne Rowling, respecto a la
+identidad de género y personas neurodivergentes.
