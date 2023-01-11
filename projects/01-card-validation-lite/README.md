@@ -1,16 +1,14 @@
-# Tarjeta de crédito válida
+# Tarjeta de crédito válida, parte 1
 
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [2. Objetivos de aprendizaje generales](#2-objetivos-de-aprendizaje-generales-de-este-proyecto)
 * [3. Consideraciones generales](#3-consideraciones-generales)
-* [4. Hito: Criterios de aceptación mínimos del proyecto](#4-hito-criterios-de-aceptación-mínimos-del-proyecto)
-* [5. Hito Opcional: Mostrar la franquicia de tarjeta](#5-hito-opcional-mostrar-la-franquicia-de-tarjeta)
-* [6. Consideraciones técnicas](#6-consideraciones-técnicas)
-* [7. Objetivos de aprendizaje](#7-objetivos-de-aprendizaje)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Para considerar Project Feedback](#9-para-considerar-project-feedback)
+* [4. Criterios de aceptación mínimos del proyecto](#4-criterios-de-aceptación-mínimos-del-proyecto)
+* [5. Consideraciones técnicas](#5-consideraciones-técnicas)
+* [6. Objetivos de aprendizaje específicos](#7-objetivos-de-aprendizaje)
+* [7. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
 
 ***
 
@@ -29,7 +27,7 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 ![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
-## 2. Resumen del proyecto
+No te quedes demasiado tiempo pensando en el algoritmo, lo vas a utilizar para completar el proyecto pero los objetivos de aprendizaje no tratan sobre el algoritmo en sí mismo.
 
 En este proyecto tendrás que construir una aplicación web que le permita a un
 usuario validar el número de una tarjeta de crédito.
@@ -39,39 +37,42 @@ fundamentos de JavaScript, incluyendo conceptos como variables, condicionales,
 y funciones, así como eventos y manipulación básica del DOM, fundamentos de
 HTML y CSS.
 
-### Los objetivos generales de este proyecto son los siguientes
+## 2. Objetivos de aprendizaje generales
+Este proyecto está dividido en 2 partes o sub-proyectos "independientes", esta es la primera parte. Al dividir forzadamente el proyecto buscamos reducir la complejidad inicial con la que tienes que lidiar y ayudarte así a evitar perderte en demasiados aspectos y detalles.
 
-* Trabajar en base a un boilerplate, la estructura básica de un proyecto.
-* Aprender sobre estructuras, métodos e iteración (bucles)
-  en JavaScript
+Los objetivos de aprendizaje generales de esta primera parte son:
+
+* Aprender a trabajar en base a un _boilerplate_, que es la estructura básica de un proyecto.
+* Aprender sobre estructuras, métodos e iteración (bucles) en JavaScript
 
 ## 3. Consideraciones generales
+* Este proyecto se debe trajar de manera **individual**. 
+* Tiempo estimado para completar las 2 partes: **1-3 _sprints_** (semanas). 
+* Tiempo estimado para completar esta 1era parte: no más de **1 _sprint_** (semanas). 
 
-* Este proyecto lo resolvemos de manera individual. Te recomendamos una
-  duracion de 1 sprint.
-* Enfócate en aprender y no solamente en "completar" el proyecto.
+### 3.1 Recomendaciones
+* No te sientas culpable por no saber. SI estás acá es porque quieres aprender, si ya supieras programar estarías trabajando.
+* Enfócate en aprender y no solamente en "completar" el proyecto, "completarlo" es un medio para aprender.
 * Te sugerimos que no intentes saberlo todo antes de empezar a codear.
-  No te preocupes demasiado ahora por lo que _todavía_ no entiendas.
-  Irás aprendiendo.
+* Intenta hacer ciclos cortos (horas, no días) de leer/ver videos y probar inmediatamente. Intenta poner a prueba (codear) lo que crees que has entendido al leer o ver algo.
+* No te preocupes po rel aspecto estético-visual en esta primera parte.
 
-## 4. Hito: Criterios de aceptación mínimos del proyecto
+## 4. Criterios de aceptación mínimos del proyecto
 
-Estos son los requisitos que tu proyecto debe que cumplir para asegurar que tu
-trabajo cubra los objetivos principales.
+Estos son los requisitos que debe cumplir tu trabajo para que consideremos que has completado lo mínimamemnte indispensable para esta etapa de tu aprendizaje.
 
-**1. Una interfaz que debe permitir a la usuaria:**
+**1. La interfaz de tu aplicación debe:**
 
-* Insertar un numero (texto) que quieres validar. Usa solo caracteres numéricos
-  (dígitos) en la tarjeta a validar [0-9].  
-* Ver si el resultado es válido o no.  
-* Ocultar todos los dígitos del número de tarjeta a exepción de los últimos
+* Permitir insertar el número de la tarjeta que se quiere validar (texto) en un campo de texto vacío. 
+* Evitar que puedan escribir caracteres que no sean numéricos (dígitos 0-9).  
+* Impedir que se intente validar si es que el campo está vacío (no se ha escrito nada).  
+* Comunicar a la usuaria si se trata una taerjeta válida o no.  
+* Ocultar todos los dígitos del número de tarjeta con exepción de los últimos
   4 caracteres.  
-* No debes poder ingresar un campo vacío.  
   
-Con estos requisitos cumplidos puedes
-[considerar agendar un Project Feedback con unx coach.](#9-para-considerar-project-feedback)
+Tan pronto consideres que tu trabajo cumpla con todos estos criterios, puedes comenzar a trabajar en la segunda parte. 
 
-## 2. Consideraciones técnicas
+## 5. Consideraciones técnicas
 
 La lógica del proyecto debe estar implementada completamente en JavaScript. En
 este proyecto NO está permitido usar librerías o frameworks, solo JavaScript
@@ -99,7 +100,7 @@ El boilerplate que les damos contiene esta estructura:
 
 * `README.md`: debe explicar la información necesaria para el uso de tu aplicación
   web, así como una introducción a la aplicación, su funcionalidad y decisiones de
-  diseño que tomaron.
+  diseño que se tomaron.
 * `src/index.html`: este es el punto de entrada a tu aplicación. Este archivo
   contiene tu _markup_ (HTML) para mostrar una caja de texto (input) y un botón (button).
   Debes completar la función _isValid_:
@@ -109,7 +110,7 @@ El boilerplate que les damos contiene esta estructura:
   Finalmente, debes completar la función `validate` para que, según
 el resultado de la función `isValid`, muestre al usuario un mensaje apropiado.
 
-## 7. Objetivos de aprendizaje
+## 6. Objetivos de aprendizaje
 
 > ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
@@ -119,7 +120,7 @@ el resultado de la función `isValid`, muestre al usuario un mensaje apropiado.
 > Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
 > que contempla nuestra currícula.
 
-## 8. Pistas, tips y lecturas complementarias
+## 7. Pistas, tips y lecturas complementarias
 
 ### Prepara tu PC para trabajar
 
@@ -143,21 +144,13 @@ el resultado de la función `isValid`, muestre al usuario un mensaje apropiado.
 
 ### Recursos y temas relacionados
 
-Súmate al canal de Slack [#project-card-validation](https://claseslaboratoria.slack.com/archives/C03LXJ10WJD)
+* Súmate al canal de Slack destinado a este proyecto [#project-card-validation](https://claseslaboratoria.slack.com/archives/C03LXJ10WJD)
 
-A continuación un video de Michelle que te lleva a través del algoritmo de Luhn
-y un par de cosas más que debes saber para resolver este proyecto. ¡Escúchala
-con detenimiento y sigue sus consejos! :)
+* [Blog: cómo funciona el algoritmo de Luhn](http://www.quobit.mx/asi-funciona-el-algoritmo-de-luhn-para-generar-numeros-de-tarjetas-de-credito.html).
 
-[![tips credit card](https://img.youtube.com/vi/f0zL6Ot9y_w/0.jpg)](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
+* [Guía a través del algoritmo de Luhn](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
 
-[Link](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
-
-Terminal y shell de UNIX:
-
-[![Playlist de Terminal y shell de UNIX](https://img.youtube.com/vi/GB35Eyb-J4c/0.jpg)](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
-
-[Link](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
+* [Playlist de Terminal y shell de UNIX](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
 
 Organización del Trabajo:
 
@@ -166,4 +159,4 @@ Organización del Trabajo:
 * [Scrum en Detalle](https://www.youtube.com/watch?v=nOlwF3HRrAY&t=297s). No
   esperamos que hagas todo eso desde este proyecto. Iremos profundizando poco a
   poco a lo largo del -_bootcamp_.
-* [Blog: cómo funciona el algoritmo de Luhn](http://www.quobit.mx/asi-funciona-el-algoritmo-de-luhn-para-generar-numeros-de-tarjetas-de-credito.html).
+
