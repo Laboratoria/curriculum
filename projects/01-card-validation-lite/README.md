@@ -84,7 +84,7 @@ Para comenzar este proyecto tendrás que descargar las _fuentes_ de este
 repositorio que contiene un _boilerplate_. Un _boilerplate_ es la estructura
 básica de un proyecto que sirve como un punto de partida con archivos iniciales.
 
-El boilerplate que les damos contiene esta estructura:
+El boilerplate contiene esta estructura:
 
 ```text
 ./

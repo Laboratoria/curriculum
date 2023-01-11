@@ -29,56 +29,50 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 ![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
-## 2. Resumen del proyecto
+No te quedes demasiado tiempo pensando en el algoritmo, lo vas a utilizar para completar el proyecto pero los objetivos de aprendizaje no tratan sobre el algoritmo en sí mismo.
 
-En este proyecto tendrás que construir una aplicación web que le permita a un
-usuario validar el número de una tarjeta de crédito. Además, tendrás que
-implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos
-los últimos cuatro.
+En este proyecto tendrás que construir una aplicación web que le permita a una usuaria validar el número de una tarjeta de crédito.
+
+Como continuación del proyecto de preadmisión, volverás a trabajar sobre fundamentos de JavaScript, incluyendo conceptos como variables, condicionales, y funciones, así como eventos y manipulación básica del DOM, fundamentos de HTML y CSS.
 
 La temática es libre. Tú debes pensar en qué situaciones de la vida real se
 necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
 experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?)
 etc.
 
-Como continuación del proyecto de preadmisión, volverás a trabajar sobre
-fundamentos de JavaScript, incluyendo conceptos como variables, condicionales,
-y funciones, así como eventos y manipulación básica del DOM, fundamentos de
-HTML y CSS. Mientras desarrollas este proyecto, te familiarizarás con nuevos
-conceptos también.
+## 2. Objetivos de aprendizaje generales
 
-### Los objetivos generales de este proyecto son los siguientes
-
-* Trabajar en base a un boilerplate, la estructura básica de un proyecto en
+* Aprender a trabajar en base a un boilerplate, la estructura básica de un proyecto en
   distintas carpetas (a través modulos en JS).
-* Conocer las herramientas de mantenimiento y mejora del código (linters y
-  pruebas unitarias).
 * Aprender sobre objetos, estructuras, métodos e iteración (bucles)
   en JavaScript
-* Implementar control de versiones con git (y la plataforma github)
+* Conocer las herramientas de mantenimiento y mejora del código (linters y
+  pruebas unitarias).
+* Implementar control de versiones con git (y la plataforma GitHub)
 
 ## 3. Consideraciones generales
+* Este proyecto se debe trajar de manera **individual**. 
+* Tiempo estimado para completar las 2 partes: **1-3 _sprints_** (semanas). 
+* Tiempo estimado para completar esta 1era parte: no más de **1 _sprint_** (semanas). 
 
-* Este proyecto lo resolvemos de manera individual. Te recomendamos una
-  duracion de 1-3 sprints.
-* Enfócate en aprender y no solamente en "completar" el proyecto.
+### 3.1 Recomendaciones
+* No te sientas culpable por no saber. SI estás acá es porque quieres aprender, si ya supieras programar estarías trabajando.
+* Enfócate en aprender y no solamente en "completar" el proyecto, "completarlo" es un medio para aprender.
 * Te sugerimos que no intentes saberlo todo antes de empezar a codear.
-  No te preocupes demasiado ahora por lo que _todavía_ no entiendas.
-  Irás aprendiendo.
+* Intenta hacer ciclos cortos (horas, no días) de leer/ver videos y probar inmediatamente. Intenta poner a prueba (codear) lo que crees que has entendido al leer o ver algo.
 
-## 4. Hito: Criterios de aceptación mínimos del proyecto
+## 4. Hito 1: Criterios de aceptación mínimos del proyecto
 
-Estos son los requisitos que tu proyecto debe que cumplir para asegurar que tu
-trabajo cubra los objetivos principales.
+Estos son los requisitos que debe cumplir tu trabajo para que consideremos que has completado lo mínimamemnte indispensable para esta etapa de tu aprendizaje.
 
-**1. Una interfaz que debe permitir a la usuaria:**
+**1. La interfaz de tu aplicación debe:**
 
-* Insertar un numero (texto) que quieres validar. Usa solo caracteres numéricos
-  (dígitos) en la tarjeta a validar [0-9].  
-* Ver si el resultado es válido o no.  
-* Ocultar todos los dígitos del número de tarjeta a exepción de los últimos
+* Permitir insertar el número de la tarjeta que se quiere validar (texto) en un campo de texto vacío. 
+* Evitar que puedan escribir caracteres que no sean numéricos (dígitos 0-9).  
+* Impedir que se intente validar si es que el campo está vacío (no se ha escrito nada).  
+* Comunicar a la usuaria si se trata una taerjeta válida o no.  
+* Ocultar todos los dígitos del número de tarjeta con exepción de los últimos
   4 caracteres.  
-* No debes poder ingresar un campo vacío.  
 
 **2. Pruebas unitarias de los métodos.**  
 Los metódos de `validator` (`isValid` y `maskify`) deben tener cobertura con
@@ -99,7 +93,7 @@ Estas preguntas sirven como guía:
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
 Con estos requisitos cumplidos puedes
-[considerar agendar un Project Feedback con unx coach.](#9-para-considerar-project-feedback)
+[considerar pedir tu sesión de Project Feedback con unx coach.](#9-para-considerar-project-feedback)
 
 ## 5. Hito Opcional: Mostrar la franquicia de tarjeta
 
@@ -108,11 +102,11 @@ sobre los objetivos de aprendizaje del proyecto. Todo en la vida tiene pros y
 contras, decide sabiamente si quieres invertir el tiempo en profundizar/
 perfeccionar o aprender cosas nuevas en el siguiente proyecto.
 
-En hito 2 puedes además de validar si el número de la
+En este hito 2 puedes, además de validar si el número de la
 tarjeta es válida, mostrar la [franquicia](https://es.wikipedia.org/wiki/N%C3%BAmero_de_tarjeta_bancaria)
 de la tarjeta (ej: Visa, MasterCard, etc)
 usando estas [reglas de validación](https://stevemorse.org/ssn/cc.html).
-Si escribes un nuevo método para eso, hay que hacer pruebas unitarias.
+Si escribes un nuevo método para eso, debes hacer las respectivas pruebas unitarias.
 
 ## 6. Consideraciones técnicas
 
@@ -131,7 +125,7 @@ setup y configuración necesaria para ejecutar los tests (pruebas) así como _co
 coverage_ para ver el nivel de cobertura de los tests usando el comando `npm
 test`.
 
-El boilerplate que les damos contiene esta estructura:
+El boilerplate contiene esta estructura:
 
 ```text
 ./
@@ -201,17 +195,17 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
 ***
 
-#### Deploy
+#### Desplegar tu aplicación (Deploy)
 
-Hacer que los sitios estén publicados (o _desplegados_) para que usuarias de
+Hacer que los sitios estén publicados (o _desplegados_) para que las usuarias de
 la web puedan acceder a él es algo común en proyectos de desarrollo de software.
 
-En este proyecto, utilizaremos _Github Pages_ para desplegar nuestro sitio web.
+En este proyecto utilizaremos _Github Pages_ para desplegar nuestro sitio web.
 
-El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
+El comando `npm run deploy` puede ayudarte con esta tarea. Puedes
  consultar su [documentación oficial](https://docs.github.com/es/pages).
 
-## 7. Objetivos de aprendizaje
+## 7. Objetivos de aprendizaje especçíficos
 
 > ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
@@ -257,27 +251,17 @@ El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
 
 ### Recursos y temas relacionados
 
-Súmate al canal de Slack [#project-card-validation](https://claseslaboratoria.slack.com/archives/C03LXJ10WJD)
+* Súmate al canal de Slack destinado a este proyecto [#project-card-validation](https://claseslaboratoria.slack.com/archives/C03LXJ10WJD)
 
-A continuación un video de Michelle que te lleva a través del algoritmo de Luhn
-y un par de cosas más que debes saber para resolver este proyecto. ¡Escúchala
-con detenimiento y sigue sus consejos! :)
+* [Blog: cómo funciona el algoritmo de Luhn](http://www.quobit.mx/asi-funciona-el-algoritmo-de-luhn-para-generar-numeros-de-tarjetas-de-credito.html).
 
-[![tips credit card](https://img.youtube.com/vi/f0zL6Ot9y_w/0.jpg)](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
+* [Guía a través del algoritmo de Luhn](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
 
-[Link](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
-
-Terminal y shell de UNIX:
-
-[![Playlist de Terminal y shell de UNIX](https://img.youtube.com/vi/GB35Eyb-J4c/0.jpg)](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
-
-[Link](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
+* [Playlist de Terminal y shell de UNIX](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
 
 Control de versiones y trabajo colaborativo con Git y GitHub:
 
-[![Playlist de control de versiones y trabajo colaborativo](https://img.youtube.com/vi/F1EoBbvhaqU/0.jpg)](https://www.youtube.com/playlist?list=PLiAEe0-R7u8k9o3PbT3_QdyoBW_RX8rnV)
-
-[Link](https://www.youtube.com/playlist?list=PLiAEe0-R7u8k9o3PbT3_QdyoBW_RX8rnV)
+[Playlist de control de versiones y trabajo colaborativo](https://img.youtube.com/vi/F1EoBbvhaqU/0.jpg)](https://www.youtube.com/playlist?list=PLiAEe0-R7u8k9o3PbT3_QdyoBW_RX8rnV)
 
 Desarrollo Front-end:
 
@@ -296,16 +280,23 @@ Organización del Trabajo:
 
 ***
 
-## 9. Para considerar Project Feedback
+## 9. Para pedir tu sesión de Project Feedback
 
-En resumen, los criterios de aceptación mínimos del proyecto para considerar
-Project Feedback:
+Asegúrate de que tu trabajo cumple con los criterios de aceptación mínimos:
 
-* [ ] Tiene una interfaz que permite a la usuaria saber si la tarjeta es valido
-  y ocultar el numero hasta las 4 ultimos digitos.
-* [ ] El proyecto será entregado incluyendo pruebas unitarios de los métodos de
+* [ ] Tiene una interfaz que permite a la usuaria saber si la tarjeta es valida.
+* [ ] Seoculta el número de tarjeta esxcepto los 4 últimos digitos.
+* [ ] El proyecto será entregado incluyendo pruebas unitarias de los métodos de
   `validator` (`isValid` y `maskify`).
 * [ ] El proyecto será entregado libre de _errores_ de `eslint` (_warnings_ son ok).
 * [ ] El proyecto será entregado subiendo tu código a GitHub.
 * [ ] La interfaz será "desplegada" usando GitHub Pages.
 * [ ] El README contiene una definición del producto.
+
+Debes hacer un ejercicio de autoevaluación de objetivos de aprendizaje específicos desde tu dashboard de estudiante.
+
+Debes hacer una autoevaluación de tus _life skills_ también desde tu dashboard de estudiante.
+
+Si no has completado todo lo anterior, no consideramos que estás lista para tu sesión de Project Feedback.
+
+
