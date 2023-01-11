@@ -42,8 +42,10 @@ Este proyecto está dividido en 2 partes o sub-proyectos "independientes", esta 
 
 Los objetivos de aprendizaje generales de esta primera parte son:
 
-* Aprender a trabajar en base a un _boilerplate_, que es la estructura básica de un proyecto.
-* Aprender sobre estructuras, métodos e iteración (bucles) en JavaScript
+* Aprender a trabajar en base a un boilerplate, la estructura básica de un proyecto en
+  distintas carpetas (a través modulos en JS).
+* Aprender sobre objetos, estructuras, métodos e iteración (bucles)
+  en JavaScript
 
 ## 3. Consideraciones generales
 * Este proyecto se debe trajar de manera **individual**. 
