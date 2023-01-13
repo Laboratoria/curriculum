@@ -164,7 +164,6 @@ alternativa estava correta.
 
 Como construir uma página básica HTML com elementos de formulário.
 
-![Microprojeto-1A](./media/trivia-1a.gif)
 </details>
 
 <details>
@@ -190,7 +189,7 @@ _addEventListener_.
 * Identificar os elementos HTML que estão no navegador e obter seus valores
   e/ou estados.
 
-![Microprojeto-1B](./media/trivia-1b.gif)
+![Microprojeto-1B](https://user-images.githubusercontent.com/12631491/212097891-fba01b43-d2dd-4362-9318-29660922eb7b.gif)
 </details>
 
 <details>
@@ -211,7 +210,7 @@ resultados”.
 * Identificar os elementos HTML que existem no navegador e obter seus
   valores/estados.
 
-![Microprojeto-1C](./media/trivia-1c.gif)
+![Microprojeto-1C](https://user-images.githubusercontent.com/12631491/212098017-07d9a5e5-d015-4d8b-a859-32f0a05f8580.gif)
 </details>
 
 ***
@@ -343,4 +342,4 @@ como [Replit](https://replit.com/) ou [CodeSandbox](https://codesandbox.io).
   **repositório github ou o link do seu projeto online** [Replit](https://repl.it)
   ou [CodeSandbox](https://codesandbox.io/)
 
-![URL](./media/entrega-links.gif)
+![URL](https://user-images.githubusercontent.com/12631491/212091716-cd0118f4-0fa5-407c-b580-b5dc0cf0f609.gif)
