@@ -26,8 +26,8 @@ _trivias_ de diversas temáticas (ciencia, series, televisión, etc.).
 
 ## 2. Resumen del proyecto
 
-**¿Qué tengo que hacer exactamente?**
-Construirás la aplicación Web de una _trivia_.
+**¿Qué tengo que hacer exactamente?**  
+Construirás la aplicación Web de una _trivia_.  
 No temas, vas a aprender mucho estos días.
 
 El objetivo principal de este proyecto es que tengas una primera experiencia
@@ -204,7 +204,7 @@ características:
 * Un botón para volver a jugar que vuelve a la pantalla inicial en la que se
   pide el nombre.
 
-#### Sugerencias de micro-proyecto: Prueba evaluar las respuestas de tu usuaria
+#### Sugerencia de micro-proyecto: Prueba evaluar las respuestas de tu usuaria
 
 Para determinar si las respuestas seleccionadas son correctas o incorrectas,
 necesitas predefinir cuál alternativa es la correcta para cada pregunta y
