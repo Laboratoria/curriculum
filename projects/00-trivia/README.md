@@ -26,8 +26,9 @@ _trivias_ de diversas temáticas (ciencia, series, televisión, etc.).
 
 ## 2. Resumen del proyecto
 
-**¿Qué tengo que hacer exactamente?** Como es obvio, construirás la
-aplicación Web de una _trivia_. No temas, vas a aprender mucho estos días.
+**¿Qué tengo que hacer exactamente?**  
+Construirás la aplicación Web de una _trivia_.  
+No temas, vas a aprender mucho estos días.
 
 El objetivo principal de este proyecto es que tengas una primera experiencia
 desarrollando aplicaciones Web que interactúen con las usuarias a través del
@@ -54,6 +55,9 @@ en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
 
 * Completar el proyecto **no es un requisito para ser admitida al _bootcamp_**.
 * Este proyecto se debe trabajar en duplas.
+* La lógica del proyecto debe estar implementada completamente en JS, HTML y CSS.
+En este proyecto NO está permitido usar librerías o frameworks,
+solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
 * Preocúpate de que ambas puedan hacer y aprender de todo. Esto no se trata
 de "repartir" el trabajo para hacer "más". El objetivo es aprender
 colaborativamente, no "terminar y entregar".
@@ -63,7 +67,7 @@ resultado final.
 
 ## 5. Recomendaciones
 
-### 5.1 Prototipo
+### Prototipo
 
 Algo que siempre ayuda a "poner en concreto” lo que tienes en mente,
 es hacer un simple prototipo en papel y lápiz **de todo el proyecto**.
@@ -73,7 +77,7 @@ si la usuaria hace A o B, dónde debe hacer _click_, qué información
 exactamente quieres mostrarle, etc.
 **Dedica un máximo de dos horas a esto antes de ponerte a codear**.
 
-### 5.2 No postergues lo que no sabes hacer, comienza por ahí
+### No postergues lo que no sabes hacer, comienza por ahí
 
 No gastes horas discutiendo la temática de la _trivia_ o haciendo logotipos
 teniendo la sensación de que estás “avanzando”. Es natural que tengas el
@@ -83,14 +87,14 @@ avance, **tu objetivo es aprender**. Enfréntate a lo que no sabes lo más
 pronto posible, es el único camino
 para lograrlo.
 
-### 5.3 Aprender por encima de completar el proyecto
+### Aprender por encima de completar el proyecto
 
 Evita la tentación de copiar y pegar código que “funcione” para ir completando
 el proyecto sin entender cómo ni por qué funciona. Prefiere siempre hacer poco
 pero que sea algo que entiendes y puedes explicar, antes que mucho que
 funciona a medias y/o que no sabes bien cómo ni por qué funciona.
 
-### 5.4 Achicar el gran problema en problemas más pequeños
+### Achicar el gran problema en problemas más pequeños
 
 Un "superpoder" que esperamos puedas desarrollar durante el _bootcamp_ es el
 de definir "micro-proyectos" que te acerquen paso a paso, pero de manera
@@ -101,7 +105,7 @@ libremente, no tienes que saberlo todo antes de comenzar.
 
 Más adelante te daremos algunas sugerencias como ejemplo.
 
-## 6 Alcance del proyecto
+## 6. Alcance del proyecto
 
 Sabemos que cada una de ustedes sabe un poco más o un poco menos de
 Desarrollo Web; No olvidamos que cada una tiene experiencias de vida y
@@ -111,9 +115,9 @@ aprender y completar lo mismo sería absurdo. Te proponemos trabajar en hitos
 o etapas incrementales según tus posibilidades, hasta donde logres llegar.
 **No esperamos que todas completen todos 3 hitos**.
 
-No trabajes como si fuera una fábrica haciendo tooooooooooooooooooooooooodo el
-HTML y CSS de todas las pantallas que imaginaste para luego comenzar con el
-toooooooooooooooooooooodo el JavaScript y la funcionalidad. El riesgo de
+No trabajes como si fuera una fábrica haciendo _todo_ el
+HTML y CSS de _todas_ las pantallas que imaginaste para luego comenzar con el
+_todo_ el JavaScript y la funcionalidad. El riesgo de
 trabajar así es que consigas muchas partes sin ninguna funcionalidad o a
 medias y que aprendas poco; tampoco hagas lo inverso, un montón de
 funcionalidad en la consola pero que no tiene una interfaz para ser utilizada
@@ -140,48 +144,44 @@ Comienza intentando hacer la versión más simple de una _trivia_.
 * 1 botón para responder y ver cuál es la alternativa correcta.
 * No te dice si acertaste o no, sólo te dice cuál alternativa era la correcta.
 
-#### Sugerencia de micro-proyecto A
+#### Sugerencia de micro-proyecto A: Prueba hacer el "esqueleto" estático en HTML
 
-##### Solamente el "esqueleto" estático
+Una interfaz básica con:
 
 * Dos preguntas con sus respectivas alternativas de respuesta en forma de
 _radio buttons_ (🔘)
 * El botón para “Responder y ver resultados”.
 
-##### Aprenderás
+**Aprenderás:**
 
 Cómo construir una página básica HTML con elementos de formulario.
 
-#### Sugerencia de micro-proyecto B
-
-##### Vamos a darle algo de interacción
+#### Sugerencia de micro-proyecto B: Prueba darle algo de interacción
 
 Cuando la usuaria dé _click_ en alguno de los _radio button_, muéstrale un
 mensaje de alerta (_alert_) en el navegador que contenga el valor (texto) del
 _radio button_ cliqueado.
 
-**Pista**: Para mostrar un mensaje de alerta básico hay una función de
+_Pista:_ Para mostrar un mensaje de alerta básico hay una función de
 JavaScript llamada “_alert_”. Esta función puede “escuchar” eventos del
 navegador como _click_ y hacer algo cuando suceda usando _onclick_
 o _addEventListener_.
 
-##### Aprenderás
+**Aprenderás:**
 
 * A detectar eventos en el navegador (los _clicks_ de la usuaria) y hacer algo
   cuando sucedan.
 * Identificar los elementos HTML que hay en el navegador y obtener sus valores
   y/o estados.
 
-#### Sugerencia de micro-proyecto C
-
-##### Prueba darle algo de interacción más cercana a la que pide el proyecto
+#### Sugerencia de micro-proyecto C: Prueba darle interacción más cercana a la que pide el proyecto
 
 En lugar de mostrar el valor de cada _radio button_ cuando se le hace _click_,
 que esta vez solamente se marque el _radio button_ seleccionado y que el
 mensaje _alert_ con  los valores de los _radio button_ seleccionados se muestre
 cuando al hacer _click_ en el botón “Responder y ver resultados”.
 
-##### Aprenderás
+**Aprenderás:**
 
 * A detectar eventos en el navegador (los _clicks_ de la usuaria) .
 * Identificar los elementos HTML que hay en el navegador y obtener sus valores/estados.
@@ -204,17 +204,15 @@ características:
 * Un botón para volver a jugar que vuelve a la pantalla inicial en la que se
   pide el nombre.
 
-#### Sugerencia de micro-proyecto A
-
-##### Evaluando las respuestas de tu usuaria
+#### Sugerencia de micro-proyecto: Prueba evaluar las respuestas de tu usuaria
 
 Para determinar si las respuestas seleccionadas son correctas o incorrectas,
 necesitas predefinir cuál alternativa es la correcta para cada pregunta y
 evaluar (comparar) si la respuesta de tu usuaria coincide o no.
 
-**Pistas:** Lee sobre condicionales y control de flujo (IF, ELSE).
+_Pista:_ Lee sobre condicionales y control de flujo (`if`, `else`, `else if`).
 
-##### Aprenderás
+**Aprenderás:**
 
 * A identificar los elementos HTML que hay en el navegador y obtener sus
   valores/estados.
