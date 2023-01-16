@@ -126,22 +126,24 @@ el resultado de la función `isValid`, muestre al usuario un mensaje apropiado.
 
 ### Prepara tu PC para trabajar
 
-1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
-   condiciones, algo como [Code](https://code.visualstudio.com/).
-2. Para ejecutar los comandos a continuación necesitarás una :shell:
-   [UNIX Shell](../../topics/shell),
-   que es un programita que interpreta líneas de comando (command-line
-   interpreter) así como tener [git](../../topics/scm/01-git)
-   instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
-   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
-   también). Si usas Windows puedes usar la versión completa de [Cmder](https://cmder.app/)
-   que incluye [Git bash](https://git-scm.com/download/win) y si tienes Windows
-   10 o superior puedes usar [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-3. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
-   asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
-4. Para ver la interfaz de tu programa en el navegador, usa el comando
-   `npm start` para arrancar el servidor web y dirígete a
-   `http://localhost:5000` en tu navegador.
+Antes de comenzar instala lo siguiente:
+1. [Node.js](https://nodejs.org/)
+2. [git](https://git-scm.com/download/) Si estas en Linux es muy probable que ya este instalado 👀.
+    Para conocer más de git visita [este enlace](https://curriculum.laboratoria.la/es/topics/scm/01-git)
+3. Un editor de código, te sugerimos [Code](https://code.visualstudio.com/)
+
+Después en [GitHub](https://github.com/):
+1. Crear una cuenta. Conoce más de GitHub en este [link](https://curriculum.laboratoria.la/es/topics/scm/02-github/01-github)
+2. Realiza un fork de este proyecto
+3. Configura tu SSH Key  en GitHub. Puedes revisar este [video](https://www.youtube.com/watch?v=g0ZV-neSM7E) o 
+[artículo](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+Luego en una [shell](https://curriculum.laboratoria.la/es/topics/shell) ejecuta lo siguiente. Si estas en Windows puedes usar Git Bash:
+1. Clona el fork en tu PC
+2. Ubica la shell en el proyecto que clonaste
+3. Instala las dependencias del proyecto con 📦 `npm install`
+4. Para arrancar el servidor web `npm start` y dirígete a
+   `http://localhost:3000` en tu navegador.
 5. A codear se ha dicho! :rocket:
 
 ### Recursos y temas relacionados
