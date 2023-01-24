@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # With bind
-
-* Environment: `js`
-
-***
 
 **Usa Function#bind** para implementar una función `logger` que nos permita
 separar mensajes en diferentes ámbitos (namespaces).

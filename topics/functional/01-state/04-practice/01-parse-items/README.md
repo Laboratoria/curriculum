@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # Parse items
 
 Refactoriza le siguiente función para que devuelva un nuevo arreglo en vez de

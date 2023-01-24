@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # parseJson
 
 Implementa una función que reciba un string (en formato JSON) y retorne el JSON

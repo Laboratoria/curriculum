@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # getLongestOfThreeWords
 
 Escribe una función llamada `getLongestOfThreeWords`.

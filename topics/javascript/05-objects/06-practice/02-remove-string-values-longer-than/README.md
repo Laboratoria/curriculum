@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # removeStringValuesLongerThan
 
 Escribe una función llamada `removeStringValuesLongerThan`.

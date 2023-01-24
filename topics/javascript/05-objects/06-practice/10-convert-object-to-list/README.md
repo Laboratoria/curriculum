@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # convertObjectToList
 
 Escribe una función llamada `convertObjectToList` que convierte un objeto

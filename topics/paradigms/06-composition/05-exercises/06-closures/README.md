@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Closures
-
-* Environment: `js`
-
-***
 
 ## Tarea
 

@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Objetos simples
-
-* Environment: `js`
-
-***
 
 Hay muchas formas de crear objetos en JavaScript, pero la más sencilla es usando
 objetos "literales":

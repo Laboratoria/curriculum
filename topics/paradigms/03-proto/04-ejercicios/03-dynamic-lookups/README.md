@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Búsquedas dinámicas (dynamic lookups)
-
-* Environment: `js`
-
-***
 
 Las búsquedas en el prototipo son dinámicas.
 

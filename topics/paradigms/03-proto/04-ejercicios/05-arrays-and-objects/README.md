@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Arreglos y objetos en prototipos
-
-* Environment: `js`
-
-***
 
 Los arreglos y objetos podrían no comportarse como esperas.
 

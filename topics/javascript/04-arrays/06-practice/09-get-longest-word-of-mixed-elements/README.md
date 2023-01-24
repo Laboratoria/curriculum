@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # getLongestWordOfMixedElements
 
 Escribe una función llamada "getLongestWordOfMixedElements".

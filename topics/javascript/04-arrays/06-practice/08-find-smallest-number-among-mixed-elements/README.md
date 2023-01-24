@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # findSmallestNumberAmongMixedElements
 
 Escribe una función llamada "findSmallestNumberAmongMixedElements".

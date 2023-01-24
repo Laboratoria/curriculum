@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # getProductOfAllElementsAtProperty
 
 Escribe una función llamada `getProductOfAllElementsAtProperty`.

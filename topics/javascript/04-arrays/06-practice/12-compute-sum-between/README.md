@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # computeSumBetween
 
 Escribe una función llamada "computeSumBetween".

@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # Contador de propiedades
 
 Dado un objeto como parámetro, contar la cantidad de propiedades que este

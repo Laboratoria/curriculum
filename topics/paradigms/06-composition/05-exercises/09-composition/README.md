@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Object composition
-
-* Environment: `js`
-
-***
 
 ## Tarea
 

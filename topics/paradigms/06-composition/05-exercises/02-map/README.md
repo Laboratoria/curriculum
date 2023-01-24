@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Map
-
-* Environment: `js`
-
-***
 
 ## Tarea
 
