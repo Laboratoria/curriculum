@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # findPairForSum
 
 Dada una lista de números enteros no negativos y una suma objetivo, encuentra un

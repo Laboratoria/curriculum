@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # validateString
 
 Escribe una función que reciba un string como argumento y arroje los siguientes

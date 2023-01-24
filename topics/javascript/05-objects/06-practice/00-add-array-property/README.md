@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # addArrayProperty
 
 Escribe una función llamada `addArrayProperty(obj, key, array)`.

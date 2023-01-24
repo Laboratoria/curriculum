@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # addObjectProperty
 
 Escribe una función llamada `addObjectProperty`.

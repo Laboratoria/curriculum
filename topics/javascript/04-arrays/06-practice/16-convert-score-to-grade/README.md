@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # convertScoreToGrade
 
 Escribe una función llamada `convertScoreToGrade`.

@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # El objeto \_\_proto\_\_
-
-* Environment: `js`
-
-***
 
 Para entender las cadenas de prototipos, no hay nada más simple que la propiedad
 `__proto__`. Desgraciadamente `__proto__` todavía no es parte de la interfaz

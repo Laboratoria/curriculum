@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Función par/impar
-
-* Environment: `js`
-
-***
 
 Crea una función que compruebe si un número es par o impar.
 

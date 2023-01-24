@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # createArray
 
 Corrige los errores en la función y explique cuál fue el problema en un

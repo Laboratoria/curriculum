@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # greetCustomer
 
 Escribe una función llamada `greetCustomer`.

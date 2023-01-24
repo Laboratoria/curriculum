@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # transformFirstAndLast
 
 Escribe una función `transformFirstAndLast` que toma un array y devuelve un

@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # serializeUser()
-
-* Environment: `js`
-
-***
 
 Imagínate que estás trabajando en una aplicación donde tienes una función
 llamada `serializeUser()` que lo que hace es convertir un objeto de usuario en

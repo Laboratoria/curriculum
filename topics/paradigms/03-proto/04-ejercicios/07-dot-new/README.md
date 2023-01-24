@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Nuestro propio 'new'
-
-* Environment: `js`
-
-***
 
 Llegado a este punto, sabemos suficiente como para hacer cosas increibles con
 objetos en JavaScript.

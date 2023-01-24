@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Without bind
-
-* Environment: `js`
-
-***
 
 La aplicación parcial nos permite crear nuevas funciones a partir de funciones
 existentes, a la vez que fijamos algunos argumentos. Despues de fijar los

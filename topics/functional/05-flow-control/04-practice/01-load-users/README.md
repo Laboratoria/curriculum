@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # loadUsers
-
-* Environment: `js`
-
-***
 
 ¡Este código está dañado!
 

@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # getNthElement
 
 Escribe una función llamada `getNthElement`.

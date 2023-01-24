@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # curryN
-
-* Environment: `js`
-
-***
 
 Este es un ejemplo de implementación usando `curry3`, el cual tiene capacidad de
 manejar hasta tres argumentos:

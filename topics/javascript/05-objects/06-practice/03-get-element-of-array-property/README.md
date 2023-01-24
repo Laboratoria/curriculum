@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # getElementOfArrayProperty
 
 Escriba una función llamada `getElementOfArrayProperty`.
