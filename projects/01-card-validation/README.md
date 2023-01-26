@@ -27,7 +27,7 @@ par se les debe multiplicar por dos, si este número es mayor o igual a 10,
 debemos sumar los dígitos del resultado; el número a verificar será válido si
 la suma de sus dígitos finales es un múltiplo de 10.
 
-![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
+![gráfica de algoritmo de Luhn](./AlgoritmoLuhn.png)
 
 ## 2. Resumen del proyecto
 
@@ -59,7 +59,7 @@ conceptos también.
 
 ## 3. Consideraciones generales
 
-* Este proyecto lo resolvemos de manera individual. Te recomendamos una
+* Este proyecto lo resolvemos de manera **individual**. Te recomendamos una
   duracion de 1-3 sprints.
 * Enfócate en aprender y no solamente en "completar" el proyecto.
 * Te sugerimos que no intentes saberlo todo antes de empezar a codear.
@@ -226,8 +226,7 @@ El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
 ### Prepara tu PC para trabajar
 
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
-   condiciones, algo como [Atom](https://atom.io/) o
-   [Code](https://code.visualstudio.com/).
+   condiciones, algo como [VS Code](https://code.visualstudio.com/).
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
    [UNIX Shell](../../topics/shell),
    que es un programita que interpreta líneas de comando (command-line
@@ -235,15 +234,10 @@ El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
    instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
    ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
    también). Si usas Windows puedes usar la versión completa de [Cmder](https://cmder.app/)
-   que incluye [Git bash](https://git-scm.com/download/win) y si tienes Windows
-   10 o superior puedes usar [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-3. Una de las integrantes del equipo debe realizar un :fork_and_knife:
-   [fork](https://help.github.com/articles/fork-a-repo/) del repo de tu cohort,
-   tus _coaches_ te compartirán un _link_ a un repo y te darán acceso de lectura
-   en ese repo. La otra integrante del equipo deber hacer un fork **del
-   repositorio de su compañera** y
-   [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) un `remote`
-   hacia el mismo.
+   que incluye [Git bash](https://git-scm.com/download/win).
+3. Tus _coaches_ te compartirán un _link_ a un repo y te darán acceso de lectura.
+Debes realizar un :fork_and_knife:
+   [fork](https://help.github.com/articles/fork-a-repo/) del repo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
    tu _fork_ a tu computadora (copia local).
 5. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
@@ -281,9 +275,11 @@ Control de versiones y trabajo colaborativo con Git y GitHub:
 
 Desarrollo Front-end:
 
-* Aprende más sobre [objetos](https://es.javascript.info/object) y
-  [como definir métodos](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Working_with_Objects#definici%C3%B3n_de_m%C3%A9todos)
-* [Documentación de NPM](https://docs.npmjs.com/)
+* Aprende más sobre [strings](https://es.javascript.info/string),
+[arreglos](https://es.javascript.info/array),
+[iterar arreglos](https://dev.to/duxtech/6-maneras-de-iterar-un-array-3fbm),
+[objetos](https://es.javascript.info/object) y
+[como definir métodos](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Working_with_Objects#definici%C3%B3n_de_m%C3%A9todos)
 
 Organización del Trabajo:
 
