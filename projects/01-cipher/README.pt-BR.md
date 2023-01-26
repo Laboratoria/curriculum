@@ -16,7 +16,9 @@
 
 ## 1. Prefácio
 
-Cifrar significa codificar. A [cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar)
+Encriptar significa ocultar o conteúdo de uma mensagem a olho nu,
+para que somente as partes autorizadas possam decifrar um texto cifrado.
+A [cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar)
 é um dos primeiros tipos de criptografias conhecidas na história.
 O imperador romano Júlio César utilizava essa cifra para enviar
 ordens secretas aos seus generais no campo de batalha.
@@ -73,7 +75,7 @@ bem como eventos e manipulação básica de DOM, fundamentos HTML e CSS.
 
 ## 3. Considerações gerais
 
-* Resolvemos este projeto individualmente. Recomendamos uma duração de 1-3 sprints.
+* Resolvemos este projeto **individualmente**. Recomendamos uma duração de 1-3 sprints.
 * Concentre-se em aprender e não apenas "concluir" o projeto.
 * Sugerimos que você não tente saber tudo antes de começar a codificar.
   Não se preocupe muito agora com o que você _ainda_ não entende.
@@ -232,7 +234,7 @@ consultar a [documentação oficial](https://docs.github.com/pt/pages).
 ### Primeiros passos
 
 1. Se assegure de ter um bom :pencil: editor de texto, algo
-   como [Code](https://code.visualstudio.com/) ou [Atom](https://atom.io/).
+   como [VS Code](https://code.visualstudio.com/).
 2. Para executar os comandos você precisará de um :shell: UNIX Shell, que é um
    programa que interpreta linhas de comando (command-line interpreter) e também
    deve ter o git instalado. Se você usa um sistema operacional "UNIX-like",
@@ -276,7 +278,6 @@ Desenvolvimento Front-end:
   `String.fromCharCode()`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)
 * [Aprenda mais sobre
   `ASCII`](https://web.fe.up.pt/~ee96100/projecto/Tabela%20ascii.htm)
-* [Documentação do NPM](https://docs.npmjs.com/)
 * Saiba mais sobre [objetos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects)
   e [como definir métodos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects#definindo_m%C3%A9todos##)
 
