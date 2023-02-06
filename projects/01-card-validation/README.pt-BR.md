@@ -28,7 +28,7 @@ ser multiplicados por dois; se esse número for maior ou igual a 10, devemos
 adicionar os dígitos do resultado; o número a verificar será válido se a soma de
 seus dígitos finais for um múltiplo de 10.
 
-![gráfica de algoritmo de Luhn](./AlgoritmoLuhn.png)
+![gráfica de algoritmo de Luhn](https://user-images.githubusercontent.com/12631491/217016579-865679e0-0949-4afd-b13f-d2ebba7a0c54.png)
 
 ## 2. Resumo do projeto
 
