@@ -260,7 +260,7 @@ js/testing/e2e:
   title: Testes de integração (end-to-end)
 
 js/testing/compatibility:
-  title: Teste de compatibilidade em vários ambientes de tempo de execução
+  title: Teste de compatibilidade em vários ambientes de execução
 
 js/linting:
   title: Uso de linter (ESLINT)

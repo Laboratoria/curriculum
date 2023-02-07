@@ -28,8 +28,7 @@ ser multiplicados por dois; se esse número for maior ou igual a 10, devemos
 adicionar os dígitos do resultado; o número a verificar será válido se a soma de
 seus dígitos finais for um múltiplo de 10.
 
-![gráfico do algoritmo de
-Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
+![gráfica de algoritmo de Luhn](https://user-images.githubusercontent.com/12631491/217016579-865679e0-0949-4afd-b13f-d2ebba7a0c54.png)
 
 ## 2. Resumo do projeto
 
@@ -58,7 +57,7 @@ Ao desenvolver este projeto, você também se familiarizará com novos conceitos
 
 ## 3. Considerações gerais
 
-* Resolvemos este projeto individualmente. Recomendamos uma duração de 1-3 sprints.
+* Resolvemos este projeto **individualmente**. Recomendamos uma duração de 1-3 sprints.
 * Concentre-se em aprender e não apenas "concluir" o projeto.
 * Sugerimos que você não tente saber tudo antes de começar a codificar.
   Não se preocupe muito agora com o que você _ainda_ não entende.
@@ -216,7 +215,7 @@ consultar a [documentação oficial](https://docs.github.com/pt/pages).
 ### Primeiros passos
 
 1. Se assegure de ter um bom :pencil: editor de texto, algo
-   como [Code](https://code.visualstudio.com/) ou [Atom](https://atom.io/).
+   como [VS Code](https://code.visualstudio.com/).
 2. Para executar os comandos você precisará de um :shell: UNIX Shell, que é um
    programa que interpreta linhas de comando (command-line interpreter) e também
    deve ter o git instalado. Se você usa um sistema operacional "UNIX-like",
@@ -256,9 +255,11 @@ crédito](https://img.youtube.com/vi/f0zL6Ot9y_w/0.jpg)](https://www.youtube.com
 
 Desenvolvimento de front-end:
 
-* Saiba mais sobre [objetos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects)
+* Saiba mais sobre [strings](https://javascript.info/string),
+[arrays](https://javascript.info/array),
+[iterate arrays](https://www.freecodecamp.org/news/how-to-loop-through-an-array-in-javascript-js-iterate-tutorial/),
+[objetos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects)
   e [como definir métodos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects#definindo_m%C3%A9todos##)
-* [Documentação do NPM](https://docs.npmjs.com/)
 
 ## 9. Para considerar o feedback do projeto
 

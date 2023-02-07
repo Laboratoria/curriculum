@@ -58,7 +58,17 @@ de cada libro dentro de la saga .
 
 Lista de algunos datos curiosos sobre la saga, contiene tipo y contenido.
 
-#### Pociones
+### Pociones
 
 En esta lista puedes encontrar nombres de las pociones que se mencionan en el
 libro así como una pequeña descripción de la misma.
+
+---
+
+#### Disclaimer
+
+De acuerdo a los principios de convivencia armónica y diversidad como valor
+intrínseco que orientan nuestra política de diversidad e inclusión,
+Laboratoria no condona ni avala los comentarios de la autora de la data
+utilizada en este dataset del proyecto, Joanne Rowling, respecto a la
+identidad de género y personas neurodivergentes.
