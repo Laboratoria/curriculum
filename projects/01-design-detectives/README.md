@@ -77,22 +77,23 @@ Estos son los requisitos que tu proyecto debe que cumplir para asegurar que tu
 trabajo cubra los objetivos principales.
 
 1. Síntesis de la propuesta y descripción de la oportunidad de mejora:
-  Es necesario que identifiques una oportunidad de mejora de UX específica,
-  que resuelva una necesidad o problema de quienes realmente utilizan la
-  plataforma elegida. Debe ser una mejora viable para resolver en el tiempo
-  disponible para el proyecto.
-  Presentar los resultados de la investigación
-  Mapa de priorización que muestre el problema u oportunidad elegida
-  Justificar y detallar las funcionalidades de la solución
+   - Es necesario que identifiques una oportunidad de mejora de UX específica,
+    que resuelva una necesidad o problema de quienes realmente utilizan la
+    plataforma elegida.
+   - Debe ser una mejora viable para resolver en el tiempo
+    disponible para el proyecto.
+   - Presentar los resultados de la investigación.
+   - Mapa de priorización que muestre el problema u oportunidad elegida.
+   - Justificar y detallar las funcionalidades de la solución.
 
 2. Propuesta de diseño que resuelva los problemas encontrados:
-  Esperamos que la propuesta sea testeada con usuario (por lo menos 1 test),
-  para asegurar que resuelva las necesidades y/o problemáticas que priorizaron.
-  Ten en cuenta los siguientes requisitos:
-  Prototipo que incluya pantallas con elementos visuales básicos de la marca
-  (logotipo, colores primarios, íconos, tipografías)
-  Prototipo con navegaciones básicas (cambios de pantalla, botones, flujo de
-  la funcionalidad)
+   - Esperamos que la propuesta sea testeada con usuario (por lo menos 1 test),
+    para asegurar que resuelva las necesidades y/o problemáticas que priorizaron.
+   - Ten en cuenta los siguientes requisitos:
+      + Prototipo que incluya pantallas con elementos visuales básicos de la
+      marca (logotipo, colores primarios, íconos, tipografías)
+      + Prototipo con navegaciones básicas (cambios de pantalla, botones,
+      flujo de la funcionalidad)
 
 ## 5. Hito Opcional
 
@@ -101,11 +102,11 @@ sobre los objetivos de aprendizaje del proyecto. Todo en la vida tiene pros y
 contras, decide sabiamente si quieres invertir el tiempo en
 profundizar/perfeccionar o aprender cosas nuevas en el siguiente proyecto.
 
-Etapa de investigación: diagnosticar la situación actual del mercado en el
-que se encuentra la empresa para identificar a los competidores y sus buenas
-prácticas de solución a la problemática.
+* Etapa de investigación: diagnosticar la situación actual del mercado en el
+  que se encuentra la empresa para identificar a los competidores y sus buenas
+  prácticas de solución a la problemática.
 
-Etapa de prototipado: iterar el prototipo con el feedback levantado en el testing
+* Etapa de prototipado: iterar el prototipo con el feedback levantado en el testing
 
 ## 6. Consideraciones técnicas
 
@@ -122,6 +123,31 @@ relacionadas con el servicio.
 >
 > Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
 > que contempla nuestra currícula.
+
+### Life Skills
+
+Si bien las [8 habilidades](https://coda.io/d/UX005-Estudiantes_dar86Gsp1Ic/Life-Skills-que-desarrollaras-en-el-Bootcamp_suUoS#_luYEV)
+siempre estarán presentes, échale un ojo 👀 a estas:
+
+1. *Planificación, organización y manejo de tiempo*. Es capaz de estructurar
+  una “ruta”, identificar dependencias y posibles impedimentos. Logra
+  priorizar y organizar su trabajo de forma adaptativa en lugar de intentar “predecir”.
+2. *Trabajo en equipo*. Respetando y reconociendo la diversidad de cada una de
+  las personas de su equipo de trabajo, es capaz de comprender su
+  interdependencia para conseguir un objetivo común. Escucha activamente,
+  trabaja de manera colaborativa, busca espacios de diálogo para construir acuerdos.
+3. *Autoaprendizaje*. Es capaz de adquirir continuamente nuevos conocimientos
+  y habilidades. Puede monitorear sus propias necesidades de aprendizaje y
+  encontrar los medios para intentarlo y lograrlo autónomamente. Aprende de los
+  propios errores.
+4. *Adaptabilidad*. Responde apropiadamente al cambio, se adapta a distintos
+  problemas, contextos, roles y responsabilidades,. Es capaz de trabajar de
+  manera efectiva cuando hay ambigüedad e incorporando
+  feedback/retroalimentación para mejorar su desempeño y comportamiento.
+5. *Iniciativa*. Monitorea, define, prioriza y completa tareas sin supervisión
+  directa. Participa de manera activa preguntando y emitiendo opinión. Intenta
+  ir más allá de los requisitos mínimos del trabajo. Es diligente, tomando
+  activamente el control e intenta siempre solucionar los problemas que surgen.
 
 ## 8. Pistas, tips y lecturas complementarias
 
