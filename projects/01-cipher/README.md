@@ -272,7 +272,7 @@ A continuación un video que te lleva a través de la fórmula matemática del
 Cifrado Césary un par de cosas más que debes saber para resolver este proyecto.
 La fórmula no es lo importante del proyecto, no te confundas.
 
-[![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
+[![Getting started cipher](https://img.youtube.com/vi/uehgMrP6few/0.jpg)](https://youtu.be/uehgMrP6few)
 
 Terminal y shell de UNIX:
 
