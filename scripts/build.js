@@ -189,8 +189,7 @@ buildItems([
   // UX Projects (spanish)
   { type: 'project', id: '00-hcd-intro', locale: 'es-ES', track: 'ux' },
   { type: 'project', id: '01-design-and-usability', locale: 'es-ES', track: 'ux' },
-  { type: 'project', id: '01-ui-design', locale: 'es-ES', track: 'ux' },
-  { type: 'project', id: '01-user-research', locale: 'es-ES', track: 'ux' },
+  { type: 'project', id: '01-design-detectives', locale: 'es-ES', track: 'ux' },
   { type: 'project', id: '02-small-businesses', locale: 'es-ES', track: 'ux' },
   { type: 'project', id: '03-industry-deep-dive', locale: 'es-ES', track: 'ux' },
   { type: 'project', id: '03-ux-consultancy', locale: 'es-ES', track: 'ux' },
