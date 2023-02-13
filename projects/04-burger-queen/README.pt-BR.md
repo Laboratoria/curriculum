@@ -127,6 +127,8 @@ em **tablets**
 
 Este projeto é individual.
 
+O intervalo de tempo estimado para concluir o projeto é de 3 a 5 Sprints.
+
 Trabalhe integralmente uma história de usuário antes de passar para a próxima.
 Cumpra todas as histórias possíveis dentro do tempo especificado.
 

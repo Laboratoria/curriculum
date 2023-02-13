@@ -67,6 +67,8 @@ herramientas o habilidades técnicas:
 
 * Este proyecto se debe trabajar en equipos de tres.
 
+* El rango de tiempo estimado para completar el proyecto es de 4 a 5 Sprints.
+
 * La lógica del proyecto debe estar implementada completamente en JavaScript
   (ES6+), HTML y CSS :smiley:. Para este proyecto **no está permitido** utilizar
   _frameworks_ o librerías de CSS y JS.

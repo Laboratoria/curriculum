@@ -61,6 +61,8 @@ qual seja possível **ler e escrever dados**.
 
 * Este projeto deve ser desenvolvido em trios.
 
+* O intervalo de tempo estimado para concluir o projeto é de 4 a 5 Sprints.
+
 * A lógica do projeto deve estar implementada completamente em JavaScript
   (ES6+), HTML e CSS :smiley:. Para este projeto **não está permitido** o uso de
   _frameworks_ ou bibliotecas de CSS e JS.

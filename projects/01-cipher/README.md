@@ -77,8 +77,8 @@ conceptos también.
 
 ## 3. Consideraciones generales
 
-* Este proyecto lo resolvemos de manera **individual**. Te recomendamos una
-  duracion de 1-3 sprints.
+* Este proyecto lo resolvemos de manera **individual**.
+* El rango de tiempo estimado para completar el proyecto es de 1 a 3 Sprints.
 * Enfócate en aprender y no solamente en "completar" el proyecto.
 * Te sugerimos que no intentes saberlo todo antes de empezar a codear.
   No te preocupes demasiado ahora por lo que _todavía_ no entiendas.
@@ -272,7 +272,7 @@ A continuación un video que te lleva a través de la fórmula matemática del
 Cifrado Césary un par de cosas más que debes saber para resolver este proyecto.
 La fórmula no es lo importante del proyecto, no te confundas.
 
-[![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
+[![Getting started cipher](https://img.youtube.com/vi/uehgMrP6few/0.jpg)](https://youtu.be/uehgMrP6few)
 
 Terminal y shell de UNIX:
 

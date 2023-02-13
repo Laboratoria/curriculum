@@ -29,10 +29,10 @@ usuários, precisamos entender e processar estes dados. Uma forma simples de
 fazer isso é criando _interfaces_ e _visualizações_.
 
 Na imagem seguinte, você pode ver como os dados que estão na parte esquerda
-podem ser usados para construir a interface amigável e compreensível que está na
-parte direita.
+podem ser usados para construir a interface amigável e compreensível que está
+na parte direita.
 
-![json-interface](https://lh4.googleusercontent.com/Tn-RPXS26pVvOTdUzRT1KVaJ-_QbFs9SpcGLxSPE43fgbHaXtFgMUInuDt7kV41DkT1j8Tt29V0LxQW7SMtC6digOIhfTXSBKdwI08wUwhD3RAqlwy0hjfmhZ2BFe91mtmCSEqysfgk)
+![pokemon-data-to-ui](https://user-images.githubusercontent.com/12631491/218505816-c6d11758-9de4-428f-affb-2a56ea4d68c4.png)
 
 ## 2. Resumo do projeto
 
@@ -103,9 +103,9 @@ usuário necessita.
 ## 4. Considerações gerais
 
 * Este projeto será executado em duplas.
+* O intervalo de tempo estimado para concluir o projeto é de 3 a 4 Sprints.
 * Este projeto será entregue através do GitHub e a interface deve ser publicada
   no [GitHub Pages](https://pages.github.com/).
-* Tempo para completá-lo: Tome como referencia 4 semanas.
 
 ## 5. Critérios mínimos de aceitação do projeto
 

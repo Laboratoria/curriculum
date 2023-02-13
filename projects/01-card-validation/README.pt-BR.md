@@ -57,7 +57,8 @@ Ao desenvolver este projeto, você também se familiarizará com novos conceitos
 
 ## 3. Considerações gerais
 
-* Resolvemos este projeto **individualmente**. Recomendamos uma duração de 1-3 sprints.
+* Resolvemos este projeto **individualmente**.
+* O intervalo de tempo estimado para concluir o projeto é de 1 a 3 Sprints.
 * Concentre-se em aprender e não apenas "concluir" o projeto.
 * Sugerimos que você não tente saber tudo antes de começar a codificar.
   Não se preocupe muito agora com o que você _ainda_ não entende.
