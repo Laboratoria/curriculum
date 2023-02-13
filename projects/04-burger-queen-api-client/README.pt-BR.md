@@ -122,6 +122,8 @@ esteja terminada para começar a codar. Pode utilizar ferramentas
 como [nock](https://github.com/nock/nock), [json-server](https://www.npmjs.com/package/json-server)
 ou [mockoon](https://mockoon.com) para mockar a API.
 
+O intervalo de tempo estimado para concluir o projeto é de 3 a 5 Sprints.
+
 Trabalhe integralmente uma história de usuário antes de passar para a próxima.
 Cumpra todas as histórias possíveis dentro do tempo especificado.
 

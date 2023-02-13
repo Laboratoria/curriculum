@@ -70,6 +70,8 @@ peculiaridades da linguagem, convenções e boas práticas.
 
 * Este projeto deve ser feito individualmente.
 
+* O intervalo de tempo estimado para concluir o projeto é de 4 a 5 Sprints.
+
 * A biblioteca e script executável (ferramenta de linha de comando - CLI) devem
   ser implementados em JavaScript para serem executadas com Node.JS.
   **É permitido usar bibliotecas externas**.

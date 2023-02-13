@@ -103,9 +103,9 @@ usuário necessita.
 ## 4. Considerações gerais
 
 * Este projeto será executado em duplas.
+* O intervalo de tempo estimado para concluir o projeto é de 3 a 4 Sprints.
 * Este projeto será entregue através do GitHub e a interface deve ser publicada
   no [GitHub Pages](https://pages.github.com/).
-* Tempo para completá-lo: Tome como referencia 4 semanas.
 
 ## 5. Critérios mínimos de aceitação do projeto
 

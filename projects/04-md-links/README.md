@@ -69,6 +69,8 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
 * Este proyecto se debe "resolver" de manera individual.
 
+* El rango de tiempo estimado para completar el proyecto es de 4 a 5 Sprints.
+
 * La **librería** y el **script ejecutable** (herramienta de línea de comando -
   CLI) deben estar implementados en JavaScript para ser ejecutados con
   Node.js. **Está permitido usar librerías externas**.
