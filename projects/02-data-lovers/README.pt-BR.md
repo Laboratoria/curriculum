@@ -28,11 +28,7 @@ quantidades de dados se convertam em **informação** compreensível para os
 usuários, precisamos entender e processar estes dados. Uma forma simples de
 fazer isso é criando _interfaces_ e _visualizações_.
 
-Na imagem seguinte, você pode ver como os dados que estão na parte esquerda
-podem ser usados para construir a interface amigável e compreensível que está na
-parte direita.
-
-![json-interface](https://lh4.googleusercontent.com/Tn-RPXS26pVvOTdUzRT1KVaJ-_QbFs9SpcGLxSPE43fgbHaXtFgMUInuDt7kV41DkT1j8Tt29V0LxQW7SMtC6digOIhfTXSBKdwI08wUwhD3RAqlwy0hjfmhZ2BFe91mtmCSEqysfgk)
+![data-visualization](https://user-images.githubusercontent.com/12631491/218175296-823c75ce-4ae9-47f2-a4c5-ca08d2477778.png)
 
 ## 2. Resumo do projeto
 
