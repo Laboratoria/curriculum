@@ -73,8 +73,7 @@ de notas).
 
 * Este proyecto se debe "resolver" de forma individual.
 
-* La duración estimada del proyecto es de 4 sprints, con una duración de una
-  semana cada uno.
+* El rango de tiempo estimado para completar el proyecto es de 3 a 5 Sprints.
 
 * Trabaja en una historia hasta terminarla antes de pasar a la siguiente.
 

@@ -50,9 +50,9 @@ interface web baseada em data e interação com a usuária.
 ## 4. Considerações gerais
 
 - Este projeto deverá ser feito em duplas.
+- O intervalo de tempo estimado para concluir o projeto é de 3 a 4 Sprints.
 - O projeto será entregue subindo seu código no GitHub (commit/push) e a
   interface será publicada usando [GitHub Pages](https://pages.github.com/).
-- Tempo para completá-lo: Toma como referência 4 semanas.
 
 ## 5. Critérios de aceitação mínimos do projeto
 

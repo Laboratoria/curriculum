@@ -104,9 +104,9 @@ usuario necesita.
 ## 4. Consideraciones generales
 
 * Este proyecto se debe resolver en duplas.
+* El rango de tiempo estimado para completar el proyecto es de 3 a 4 Sprints.
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
   interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
-* Tiempo para completarlo: Toma como referencia 4 semanas.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
