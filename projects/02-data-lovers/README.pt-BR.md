@@ -28,7 +28,11 @@ quantidades de dados se convertam em **informação** compreensível para os
 usuários, precisamos entender e processar estes dados. Uma forma simples de
 fazer isso é criando _interfaces_ e _visualizações_.
 
-![data-visualization](https://user-images.githubusercontent.com/12631491/218175296-823c75ce-4ae9-47f2-a4c5-ca08d2477778.png)
+Na imagem seguinte, você pode ver como os dados que estão na parte esquerda
+podem ser usados para construir a interface amigável e compreensível que está
+na parte direita.
+
+![pokemon-data-to-ui](https://user-images.githubusercontent.com/12631491/218505816-c6d11758-9de4-428f-affb-2a56ea4d68c4.png)
 
 ## 2. Resumo do projeto
 
