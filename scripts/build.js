@@ -201,6 +201,7 @@ buildItems([
   { type: 'topic', id: 'functional', locale: 'es-ES', track: 'js' },
   { type: 'topic', id: 'html', locale: 'es-ES', track: 'js' },
   { type: 'topic', id: 'javascript', locale: 'es-ES', track: 'js' },
+  { type: 'topic', id: 'learning-mindset', locale: 'es-ES', track: 'js' },
   { type: 'topic', id: 'paradigms', locale: 'es-ES', track: 'js' },
   { type: 'topic', id: 'scm', locale: 'es-ES', track: 'js' },
   { type: 'topic', id: 'shell', locale: 'es-ES', track: 'js' },
