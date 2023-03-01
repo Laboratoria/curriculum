@@ -10,10 +10,6 @@ import { AppProvider, themeConfig } from '@laboratoria/react';
 import '@laboratoria/react/src/theme/index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
-import customThemeConfig from './lib/theme';
-import './index.css';
-
-console.log(customThemeConfig);
 
 ReactDOM.render(
   <React.StrictMode>
