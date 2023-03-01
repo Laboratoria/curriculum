@@ -6,9 +6,21 @@ const es = {
   signout: 'Cerrar sesión',
   learningObjectives: 'Objetivos de aprendizaje',
   webDev: 'Desarrollo Web',
-  ux: 'UX (User eXperience)',
+  ux: 'Diseño UX',
   submit: 'Enviar',
   reset: 'Reiniciar',
+
+  'home/alert': `
+    <p>
+      En este sitio web encontrarás contenido de referencia y apoyo que
+      usamos en nuestros bootcamps.
+    </p>
+    <p>
+      Si estás interesada en postular,
+      <a href="https://bootcamp.laboratoria.la/es/">acá</a>
+      puedes encontrar más información.
+    </p>
+  `,
 
   'projects.web-dev.intro': `
     <p>
