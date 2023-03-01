@@ -1,81 +1,86 @@
 import { Link, useParams } from 'react-router-dom';
+import { FormattedMessage, useIntl } from 'react-intl';
 import { useTheme } from '@mui/material/styles';
-import makeStyles from '@mui/styles/makeStyles';
-import { FormattedMessage } from 'react-intl';
-
-const useStyles = makeStyles(theme => ({
-  root: {
-    position: 'absolute',
-    top: 56,
-    right: 0,
-    bottom: 0,
-    left: 0,
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'stretch',
-    [theme.breakpoints.up('sm')]: {
-      top: 64,
-    },
-  },
-  link: {
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    fontFamily: theme.typography.h2.fontFamily,
-    height: 'calc(50vh - 23px)',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    textDecoration: 'none',
-    fontSize: '1.6em',
-    fontWeight: 'bold',
-    [theme.breakpoints.up('sm')]: {
-      height: 'calc(50vh - 32px)',
-      fontSize: '2em',
-    },
-  },
-  linkInner: {
-    padding: theme.spacing(1),
-  },
-}));
+import Alert from '@mui/material/Alert';
+import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
+import Typography from '@mui/material/Typography';
 
 const Home = () => {
   const theme = useTheme();
-  const classes = useStyles();
   const { lang } = useParams();
+  const { formatMessage } = useIntl();
+  const linkStyle = {
+    display: 'block',
+    position: 'relative',
+    height: 333,
+    borderRadius: '0.625rem',
+    backgroundSize: 'cover',
+    color: '#000',
+  };
+  const h2Sx = {
+    position: 'absolute',
+    bottom: 20,
+    left: 20,
+    px: 2,
+    py: 1,
+    borderRadius: '0.625rem',
+  };
 
   return (
-    <div className={classes.root}>
-      <Link
-        to={`/${lang}/js`}
-        className={classes.link}
-        style={{
-          backgroundColor: theme.palette.primary.main,
-          backgroundImage: 'url(https://user-images.githubusercontent.com/110297/122165868-6f910000-ce3e-11eb-980f-3ec28dde6276.jpg)',
-        }}
-      >
-        <div
-          className={classes.linkInner}
-          style={{ backgroundColor: theme.palette.primary.main }}
-        >
-          <FormattedMessage id="webDev" />
-        </div>
-      </Link>
-      <Link
-        to={`/${lang}/ux`}
-        className={classes.link}
-        style={{
-          backgroundColor: theme.palette.mint.main,
-          backgroundImage: 'url(https://user-images.githubusercontent.com/110297/122165864-6ef86980-ce3e-11eb-8040-e1b5a07f7492.jpg)',
-        }}
-      >
-        <div
-          className={classes.linkInner}
-          style={{ backgroundColor: theme.palette.mint.main }}
-        >
-          <FormattedMessage id="ux" />
-        </div>
-      </Link>
-    </div>
+    <Container>
+      <Grid container spacing={6}>
+        <Grid item xs={12}>
+          <Alert severity="info">
+            <span
+              dangerouslySetInnerHTML={{
+                __html: formatMessage({ id: 'home/alert' }),
+              }}
+            />
+          </Alert>
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <Link
+            to={`/${lang}/web-dev`}
+            style={{
+              ...linkStyle,
+              backgroundColor: theme.palette.mint.main,
+              backgroundImage: 'url(https://user-images.githubusercontent.com/110297/213300132-3da5efe6-fd3a-4cf1-8367-c88219811257.png)',
+            }}
+          >
+            <Typography
+              variant="h2"
+              sx={{
+                ...h2Sx,
+                backgroundColor: theme.palette.mint.main,
+              }}
+            >
+              <FormattedMessage id="webDev" />
+            </Typography>
+          </Link>
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <Link
+            to={`/${lang}/ux`}
+            style={{
+              ...linkStyle,
+              backgroundColor: theme.palette.magenta.main,
+              backgroundImage: 'url(https://user-images.githubusercontent.com/110297/213300838-1d55a270-e8e4-4a67-b75e-7e95364f5f45.png)',
+            }}
+          >
+            <Typography
+              variant="h2"
+              sx={{
+                ...h2Sx,
+                backgroundColor: theme.palette.magenta.main,
+              }}
+            >
+              <FormattedMessage id="ux" />
+            </Typography>
+          </Link>
+        </Grid>
+      </Grid>
+    </Container>
   )
 };
 
