@@ -1,7 +1,8 @@
-import { useLocation, useNavigate, useParams } from 'react-router-dom';
-import makeStyles from '@mui/styles/makeStyles';
+import { useLocation, useNavigate, useParams, Link } from 'react-router-dom';
 import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
 import FormControl from '@mui/material/FormControl';
+import Grid from '@mui/material/Grid';
 import MenuItem from '@mui/material/MenuItem';
 import Select from '@mui/material/Select';
 import Toolbar from '@mui/material/Toolbar';
@@ -11,91 +12,116 @@ import DrawerMenu from './DrawerMenu';
 import laboratoriaLogo from '@laboratoria/react/dist/icons/laboratoria-logo.svg';
 import laboratoriaIcon from '@laboratoria/react/dist/icons/laboratoria-isotipo.svg';
 
-const useStyles = makeStyles((theme) => ({
-  title: {
-    flexGrow: 1,
-    display: 'flex',
-    alignItems: 'center',
+const flexCenter = {
+  display: 'flex',
+  alignItems: 'center',
+};
+
+const sx = theme => ({
+  pt: 1,
+  pb: 3,
+  [theme.breakpoints.up('sm')]: {
+    pt: 4,
   },
-  offset: {
-    ...theme.mixins.toolbar,
-    marginBottom: theme.spacing(4),
+  backgroundColor: '#fff',
+
+  '.MuiAppBar-root': {
+    mx: 'auto',
+    maxWidth: 'lg',
   },
-  hideWhenNotSmall: {
-    display: 'flex',
-    alignItems: 'center',
-    [theme.breakpoints.up('sm')]: {
-      display: 'none',
-    },
-  },
-  hideWhenSmall: {
-    display: 'flex',
-    alignItems: 'center',
+  '.hide-when-small': {
+    ...flexCenter,
     [theme.breakpoints.down('sm')]: {
       display: 'none',
     },
   },
-}));
+  '.hide-when-not-small': {
+    ...flexCenter,
+    [theme.breakpoints.up('sm')]: {
+      display: 'none !important',
+    },
+  },
+  '.MuiGrid-item': {
+    ...flexCenter,
+  },
+});
 
 const TopBar = () => {
-  const classes = useStyles();
-  const navigate = useNavigate();
   const { lang } = useParams();
-  const location = useLocation();
-  const urlWithoutLang = location.pathname.split('/').slice(2).join('/');
+  const navigate = useNavigate();
+  const { pathname, search } = useLocation();
+  const urlWithoutLang = `${pathname.split('/').slice(2).join('/')}${search}`;
 
   return (
-    <>
-      <AppBar position="fixed">
+    <Box sx={sx}>
+      <AppBar position="static">
         <Toolbar>
-          <DrawerMenu lang={lang} />
-          <Typography variant="body2" className={classes.title}>
-            <span className={classes.hideWhenNotSmall}>
-              <img
-                alt="Laboratoria logo"
-                src={laboratoriaIcon}
-                height={56}
-              />
-            </span>
-            <span className={classes.hideWhenSmall}>
-              <img
-                alt="Laboratoria logo"
-                src={laboratoriaLogo}
-                height={32}
-                style={{ marginRight: 10 }}
-              />
-            </span>
-            Curriculum
-          </Typography>
-          <FormControl
-            variant="standard"
-            sx={{ marginRight: 3 }}
-          >
-            <Select
-              labelId="lang-select-label"
-              id="lang-select"
-              displayEmpty
-              disableUnderline
-              value={lang}
-              onChange={e => navigate(`/${e.target.value}/${urlWithoutLang}`)}
+          <Grid container spacing={0}>
+            <Grid item xs={3}>
+              <DrawerMenu lang={lang} />
+              <Link to={`/${lang}/`}>
+                <Typography variant="body2" sx={{
+                  flexGrow: 1,
+                  display: 'flex',
+                  alignItems: 'center',
+                }}>
+                  <span className="hide-when-not-small">
+                    <img
+                      alt="Laboratoria logo"
+                      src={laboratoriaIcon}
+                      height={56}
+                    />
+                  </span>
+                  <span className="hide-when-small">
+                    <img
+                      alt="Laboratoria logo"
+                      src={laboratoriaLogo}
+                      height={36}
+                      style={{ marginRight: 10 }}
+                    />
+                  </span>
+                  Curriculum
+                </Typography>
+              </Link>
+            </Grid>
+            <Grid
+              item
+              xs={8}
+              sx={{
+                justifyContent: 'right',
+              }}
             >
-              <MenuItem value="" disabled>Lang</MenuItem>
-              <MenuItem value={'es'}>
-                <span className={classes.hideWhenNotSmall}>ES</span>
-                <span className={classes.hideWhenSmall}>Español</span>
-              </MenuItem>
-              <MenuItem value={'pt'}>
-                <span className={classes.hideWhenNotSmall}>PT</span>
-                <span className={classes.hideWhenSmall}>Português</span>
-              </MenuItem>
-            </Select>
-          </FormControl>
-          {/* <UserMenu lang={lang} history={history} /> */}
+              <FormControl variant="standard" sx={{ marginRight: 3 }}>
+                <Select
+                  labelId="lang-select-label"
+                  id="lang-select"
+                  displayEmpty
+                  disableUnderline
+                  value={lang}
+                  onChange={e => navigate(`/${e.target.value}/${urlWithoutLang}`)}
+                >
+                  <MenuItem value="" disabled>Lang</MenuItem>
+                  <MenuItem value={'es'}>ES</MenuItem>
+                  <MenuItem value={'pt'}>PT</MenuItem>
+                </Select>
+              </FormControl>
+            </Grid>
+            <Grid
+              item
+              xs={1}
+              sx={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                mb: '-5px',
+              }}
+            >
+              <x-tech-support lang={lang} />
+            </Grid>
+          </Grid>
         </Toolbar>
       </AppBar>
-
-      <div className={classes.offset} />
-    </>
+    </Box>
   );
 };
 
