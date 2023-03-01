@@ -10,7 +10,7 @@ const es = {
   submit: 'Enviar',
   reset: 'Reiniciar',
 
-  'projects.js.intro': `
+  'projects.web-dev.intro': `
     <p>
       Nuestra propuesta de aprendizaje se basa en
       <strong>aprender haciendo</strong>. El foco central de nuestro curriculum
@@ -28,7 +28,7 @@ const es = {
     </p>
   `,
 
-  'projects.js.level.0': `
+  'projects.web-dev.level.0': `
     <p>
       Los proyectos de este nivel se caracterizan por ser <strong>apps vanilla,
       todavía sin backend, sin persistencia y sin autenticación</strong>.
@@ -45,7 +45,7 @@ const es = {
     </p>
   `,
 
-  'projects.js.level.1': `
+  'projects.web-dev.level.1': `
     <p>
       Los proyectos de este nivel siguen siendo <strong>apps de una sola vista o
       página, vanilla, todavía sin backend, ni persistencia, ni
@@ -63,7 +63,7 @@ const es = {
     </p>
   `,
 
-  'projects.js.level.2': `
+  'projects.web-dev.level.2': `
     <p>
       Los proyectos de este nivel siguen siendo <strong>apps de una sola vista o
       página, vanilla, todavía sin backend, ni persistencia, ni
@@ -80,7 +80,7 @@ const es = {
     </p>
   `,
 
-  'projects.js.level.3': `
+  'projects.web-dev.level.3': `
     <p>
       Llegado a este <em>nivel</em> finalmente pasamos a <strong>aplicaciones
       con múltiples vistas, aunque todavía vanilla</strong>. También se incluye
@@ -100,7 +100,7 @@ const es = {
     </p>
   `,
 
-  'projects.js.level.4': `
+  'projects.web-dev.level.4': `
     <p>
       Este <em>nivel</em> es mucho más amplio. Acá encontramos proyectos de
       frontend usando <strong>frameworks como React, Angular o Vue</strong>, así
@@ -116,7 +116,7 @@ const es = {
     </p>
   `,
 
-  'projects.js.level.5': `
+  'projects.web-dev.level.5': `
     <p>
       A medida que avazamos de nivel, el rango de opciones se va ampliando. En
       este nivel tenemos proyectos variados que cubren temas tanto de
@@ -137,7 +137,7 @@ const es = {
     </p>
   `,
 
-  'projects.js.level.6': `
+  'projects.web-dev.level.6': `
     <p>
       Como último nivel tenemos un único proyecto llamado
       <em>Job Application</em>. Este proyecto está enfocado en preparación para
@@ -212,14 +212,6 @@ const es = {
   `,
 
   'gym': 'Ejercicios',
-
-  // 'exercise.problem': 'Enunciado',
-  // 'exercise.code': 'Código',
-  'exercise.runTests': 'Ejecutar pruebas',
-  // 'exercise.reset': 'Resetear',
-
-  'exercise-test-results.failures': '{failures} de {tests} tests fallaron',
-  'exercise-test-results.passes': '{passes} tests pasaron ;-)',
 
   'quiz-results': 'Respuestas correctas: {success}/{total}',
 };

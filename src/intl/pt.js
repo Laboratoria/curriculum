@@ -10,7 +10,7 @@ const pt = {
   submit: 'Enviar',
   reset: 'Resetar',
 
-  'projects.js.intro': `
+  'projects.web-dev.intro': `
     <p>
       Nossa proposta de aprendizagem se baseia em
       <strong>aprender fazendo</strong>. O foco central de nosso currículo
@@ -28,7 +28,7 @@ const pt = {
     </p>
   `,
 
-  'projects.js.level.0': `
+  'projects.web-dev.level.0': `
     <p>
       Os projetos deste nível se caracterizam por ser <strong>apps vanilla,
       ainda sem backend, sem persistência e sem autenticação</strong>.
@@ -45,7 +45,7 @@ const pt = {
     </p>
   `,
 
-  'projects.js.level.1': `
+  'projects.web-dev.level.1': `
     <p>
       Os projetos deste nível continuam sendo <strong>apps de uma só tela ou
       página, vanilla, ainda sem backend, nem persistência, nem
@@ -63,7 +63,7 @@ const pt = {
     </p>
   `,
 
-  'projects.js.level.2': `
+  'projects.web-dev.level.2': `
     <p>
       Os projetos deste nível continuam sendo <strong>apps de uma só tela ou
       página, vanilla, ainda sem backend, nem persistência, nem
@@ -80,7 +80,7 @@ const pt = {
     </p>
   `,
 
-  'projects.js.level.3': `
+  'projects.web-dev.level.3': `
     <p>
       Neste <em>nível</em> finalmente passamos para <strong>aplicações
       com múltiplas telas, ainda em vanilla</strong>. Também é incluso
@@ -100,7 +100,7 @@ const pt = {
     </p>
   `,
 
-  'projects.js.level.4': `
+  'projects.web-dev.level.4': `
     <p>
       Este <em>nível</em> é muito mais amplo. Aqui encontramos projetos de
       frontend usando <strong>frameworks como React, Angular ou Vue</strong>,
@@ -116,7 +116,7 @@ const pt = {
     </p>
   `,
 
-  'projects.js.level.5': `
+  'projects.web-dev.level.5': `
     <p>
       A medida que avançamos de nível, a variedade de opções vai ampliando.
       Neste nível teremos projetos variados que abrangem temas tanto de
@@ -137,7 +137,7 @@ const pt = {
     </p>
   `,
 
-  'projects.js.level.6': `
+  'projects.web-dev.level.6': `
     <p>
       Como último nível, temos un único projeto chamado
       <em>Job Application</em>. Este projeto está focado na preparação para
@@ -214,14 +214,6 @@ const pt = {
   `,
 
   'gym': 'Exercícios',
-
-  // 'exercise.problem': 'Declaração',
-  // 'exercise.code': 'Código',
-  'exercise.runTests': 'Executar testes',
-  // 'exercise.reset': 'Reiniciar',
-
-  'exercise-test-results.failures': '{failures} dos {tests} testes falharam',
-  'exercise-test-results.passes': '{passes} testes passaram ;-)',
 
   'quiz-results': 'Respostas corretas: {success}/{total}',
 };
