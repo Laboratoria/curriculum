@@ -8,7 +8,6 @@ import Select from '@mui/material/Select';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import DrawerMenu from './DrawerMenu';
-// import UserMenu from './UserMenu';
 import laboratoriaLogo from '@laboratoria/react/dist/icons/laboratoria-logo.svg';
 import laboratoriaIcon from '@laboratoria/react/dist/icons/laboratoria-isotipo.svg';
 
