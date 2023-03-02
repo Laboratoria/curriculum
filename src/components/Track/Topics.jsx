@@ -5,74 +5,72 @@ import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import CardActions  from '@mui/material/CardActions';
+import CardActions from '@mui/material/CardActions';
 import Grid from '@mui/material/Grid';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import ArrowForward from '@mui/icons-material/ArrowForward';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
-import { useLocale } from '../../intl/IntlProvider';
 
-
-const truncateText = (stringToTruncate, charactersQuantity, wordBoundary) => {
-  if (stringToTruncate.length <= charactersQuantity) { return stringToTruncate; }
-  const subString = stringToTruncate.substr(0, charactersQuantity-1);
-  return (wordBoundary
-    ? subString.substr(0, subString.lastIndexOf(" "))
-    : subString) + " &hellip;";
-}
-
-const Topic = ({ topic }) => {
-  const [description, setDescription] = useState(truncateText(topic.description, 250, new RegExp('\w')));
-  const [dropArrow, setDropArrow] = useState(true);
-  const toggleShowEntireDescription = () => {
-    dropArrow ?
-      setDescription(topic.description) :
-      setDescription(truncateText(topic.description, 250, new RegExp('\w')));
-    setDropArrow(!dropArrow);
+const truncate = (str, limit) => {
+  if (str.length <= limit) {
+    return str;
   }
-  const { lang } = useParams();
+
+  const chunk = str.substr(0, limit - 1);
+  return `${chunk.substr(0, chunk.lastIndexOf(' '))} &hellip;`;
+};
+
+const Topic = ({ lang, topic }) => {
+  const [showFullDescription, setShowFullDescription] = useState(false);
+  const { title, summary } = topic.intl[lang];
+
+  const toggleShowEntireDescription = () => {
+    setShowFullDescription(!showFullDescription);
+  };
+
   return (
     <Card>
-        <CardMedia
-          component="img"
-          height="200"
-          image={topic.thumb}
-          alt={topic.title}
-        />
+      <CardMedia
+        component="img"
+        height="200"
+        image={topic.thumb}
+        alt={title}
+      />
       <CardHeader
         action={
           <IconButton component={Link} to={`/${lang}/topics/${topic.slug}`} size="large">
             <ArrowForward />
           </IconButton>
         }
-        title={topic.title}
+        title={title}
       />
       <Typography variant='body2'>
         <CardContent>
-            <div dangerouslySetInnerHTML={{ __html: description }}>
-            </div>
-            {topic.description.length > 250 ? 
-              <CardActions style={{marginLeft: "80%"}}>
-                <IconButton onClick={() => toggleShowEntireDescription()} size="large">
-                  { dropArrow ? <ArrowDropDownIcon /> : <ArrowDropUpIcon /> }
-                </IconButton>
-              </CardActions> : null
-            }
-            
+          <div
+            dangerouslySetInnerHTML={{
+              __html: showFullDescription ? summary : truncate(summary, 250),
+            }}
+          ></div>
+          {summary?.length > 250 && (
+            <CardActions style={{ marginLeft: "80%" }}>
+              <IconButton onClick={() => toggleShowEntireDescription()} size="large">
+                {showFullDescription
+                  ? <ArrowDropUpIcon />
+                  : <ArrowDropDownIcon />}
+              </IconButton>
+            </CardActions>
+          )}
         </CardContent>
       </Typography>
-        
+
     </Card>
   );
 };
 
-const Topics = ({ topics, track }) => {
-  const { locale } = useLocale();
-  const filteredTopics = topics
-    .map(t => ({ ...t, slug: /-pt/.test(t.slug) ? t.slug.slice(0, -3) : t.slug }))
-    .filter(t => t.track === track && t.locale === locale);
+const Topics = ({ lang, topics, track }) => {
+  const filteredTopics = topics.filter(t => t.track === track && t.intl[lang]);
   const jsTopicIdx = filteredTopics.findIndex(({ slug }) => slug === 'javascript');
   if (jsTopicIdx >= 0) {
     const jsTopic = filteredTopics[jsTopicIdx];
@@ -80,18 +78,18 @@ const Topics = ({ topics, track }) => {
     filteredTopics.unshift(jsTopic);
   }
   return (
-    <div>
+    <>
       <Typography variant="h2">
         <FormattedMessage id="topics" />
       </Typography>
-      <Grid container spacing={3}>
+      <Grid container spacing={3} sx={{ mt: 1 }}>
         {filteredTopics.map(topic => (
           <Grid key={topic.slug} item xs={12} sm={6} md={4} lg={3}>
-            <Topic topic={topic} />
+            <Topic topic={topic} lang={lang} />
           </Grid>
         ))}
       </Grid>
-    </div>
+    </>
   )
 };
 

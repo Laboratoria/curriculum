@@ -14,8 +14,8 @@ import Container from '@mui/material/Container';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
+import { Loading } from '@laboratoria/react';
 import data from '../../lib/data';
-import Loading from '../Loading';
 import Gym from './Gym';
 import Projects from './Projects';
 import Topics from './Topics';
@@ -45,13 +45,13 @@ const Track = () => {
     return <Loading />;
   }
 
-  if (!['js', 'ux'].includes(track)) {
+  if (!['web-dev', 'ux'].includes(track)) {
     return <Navigate to="/" />;
   }
 
   const heading = (
     <Typography variant="h1">
-      <FormattedMessage id={track === 'js' ? 'webDev' : 'ux'} />
+      <FormattedMessage id={track === 'web-dev' ? 'webDev' : 'ux'} />
     </Typography>
   );
 
@@ -69,7 +69,7 @@ const Track = () => {
   return (
     <Container>
       {heading}
-      <Tabs value={location.pathname}>
+      <Tabs value={location.pathname} sx={{ mb: 3 }}>
         <Tab
           label={intl.formatMessage({ id: 'projects' })}
           value={pathnameBase}
@@ -82,7 +82,7 @@ const Track = () => {
           component={Link}
           to={`topics`}
         />
-        {track === 'js' && (
+        {track === 'web-dev' && (
           <Tab
             label={intl.formatMessage({ id: 'gym' })}
             value={`${pathnameBase}/gym`}
@@ -94,17 +94,17 @@ const Track = () => {
       <Routes>
         <Route
           path={`topics`}
-          element={<Topics topics={topics} track={track} />}
+          element={<Topics topics={topics} track={track} lang={lang} />}
         />
-        {track === 'js' && (
+        {track === 'web-dev' && (
           <Route
             path={`gym`}
-            element={<Gym topics={topics} track={track} lang={lang} intl={intl} />}
+            element={<Gym lang={lang} intl={intl} />}
           />
         )}
         <Route
           path=""
-          element={<Projects projects={projects} track={track} />}
+          element={<Projects projects={projects} track={track} lang={lang} />}
         />
       </Routes>
     </Container>
