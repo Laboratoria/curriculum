@@ -9,20 +9,20 @@ const pt = {
   ux: 'UX Design',
   submit: 'Enviar',
   reset: 'Resetar',
+  here: 'aqui',
 
   'not-available-in-lang': 'Este conteúdo não está disponível atualmente em português.',
 
   'top-bar/hire': 'Contrate talento',
 
-  'home/alert': `
-    <p>
-      Neste site você encontrará conteúdo de referência e suporte que utilizamos
-      em nossos bootcamps.
-    </p>
-    <p>
-      Se estiver interessada em candidatar-se, pode encontrar mais informações
-      <a href="https://bootcamp.laboratoria.la/pt/">aqui</a>.
-    </p>
+  'home/alert-info': `
+    Neste site você encontrará conteúdo de referência e suporte que utilizamos
+    em nossos bootcamps.
+  `,
+
+  'home/alert-apply': `
+    Se estiver interessada em candidatar-se, pode encontrar mais informações
+    {link}.
   `,
 
   'projects.web-dev.intro': `

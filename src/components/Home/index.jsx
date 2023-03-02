@@ -6,6 +6,9 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 
+const version = process.env.REACT_APP_VERSION;
+const isPrerelease = /(alpha|beta)/.test(version);
+
 const Home = () => {
   const theme = useTheme();
   const { lang } = useParams();
@@ -27,14 +30,27 @@ const Home = () => {
     borderRadius: '0.625rem',
   };
 
+  const applyUrl = (
+    isPrerelease
+      ? `https://laboratoria-bootcamp-next.web.app/${lang}/`
+      : `https://bootcamp.laboratoria.la/${lang}/`
+  );
+
   return (
     <Container>
       <Grid container spacing={6}>
         <Grid item xs={12}>
           <Alert severity="info">
-            <span
+            <p
               dangerouslySetInnerHTML={{
-                __html: formatMessage({ id: 'home/alert' }),
+                __html: formatMessage({ id: 'home/alert-info' }),
+              }}
+            />
+            <p
+              dangerouslySetInnerHTML={{
+                __html: formatMessage({ id: 'home/alert-apply' }, {
+                  link: `<a href="${applyUrl}">${formatMessage({ id: 'here' })}</a>`,
+                }),
               }}
             />
           </Alert>
