@@ -32,7 +32,7 @@ const App = () => {
       <Routes>
         <Route
           path="/"
-          element={<Navigate to={`/${defaultLang}/`} />}
+          element={<Navigate to={`/${defaultLang}/${window.location.search}`} />}
         />
         <Route
           path="/:lang/*"
