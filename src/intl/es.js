@@ -10,6 +10,8 @@ const es = {
   submit: 'Enviar',
   reset: 'Reiniciar',
 
+  'top-bar/hire': 'Contrata talento',
+
   'home/alert': `
     <p>
       En este sitio web encontrarás contenido de referencia y apoyo que

@@ -10,6 +10,8 @@ const pt = {
   submit: 'Enviar',
   reset: 'Resetar',
 
+  'top-bar/hire': 'Contrate talento',
+
   'home/alert': `
     <p>
       Neste site você encontrará conteúdo de referência e suporte que utilizamos
