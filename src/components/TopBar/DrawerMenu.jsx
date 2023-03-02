@@ -92,16 +92,23 @@ const DrawerMenu = ({ lang }) => {
               <ListItemText secondary={`v${version}`} />
             </ListItem> */}
           </List>
-          <ListItemButton component={Link} to="https://talento.laboratoria.la">
-            <ListItemText primary="Contrata talento" />
+          <ListItemButton
+            component={Link}
+            to={`https://talento.laboratoria.la/${lang === 'pt' ? 'br/' : ''}`}
+          >
+            <ListItemText primary={<FormattedMessage id="top-bar/hire" />} />
           </ListItemButton>
         </List>
-        <Divider />
-        <List>
-          <ListItemButton component={Link} to="https://www.laboratoriaplus.la/">
-            <ListItemText primary="Conoce Laboratoria+" />
-          </ListItemButton>
-        </List>
+        {lang === 'es' && (
+          <>
+            <Divider />
+            <List>
+              <ListItemButton component={Link} to="https://www.laboratoriaplus.la/">
+                <ListItemText primary="Conoce Laboratoria+" />
+              </ListItemButton>
+            </List>
+          </>
+        )}
       </Drawer>
     </>
   );
