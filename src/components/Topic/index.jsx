@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, Route, Routes, useParams } from 'react-router-dom';
+import { FormattedMessage } from 'react-intl';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import { Loading, Challenge } from '@laboratoria/react';
@@ -79,6 +80,14 @@ const Topic = () => {
 
   if (!topic) {
     return <Loading />;
+  }
+
+  if (!topic.intl[lang]) {
+    return (
+      <Container>
+        <FormattedMessage id="not-available-in-lang" />
+      </Container>
+    );
   }
 
   return (
