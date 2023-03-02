@@ -8,7 +8,7 @@ import readline from 'node:readline';
 import { fileURLToPath } from 'node:url';
 import { promisify } from 'node:util';
 import minimist from 'minimist';
-import mkdirp from 'mkdirp';
+import { mkdirp } from 'mkdirp';
 import { Octokit } from '@octokit/rest';
 import {
   getLearningObjectives,

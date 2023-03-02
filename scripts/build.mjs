@@ -7,7 +7,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import minimist from 'minimist';
-import mkdirp from 'mkdirp';
+import { mkdirp } from 'mkdirp';
 import porch from 'porch';
 import {
   loadYaml,
@@ -60,15 +60,21 @@ const parse = (dir, validate) => new Promise((resolve) => {
   const slug = type === 'topic' ? id : id.split('-').slice(1).join('-');
   const dest = path.join(buildDir, `${type}s`, `${slug}.json`);
   const fd = openSync(validate ? '/dev/null' : dest, 'w');
-
-  const child = spawn('npx', [
+  const args = [
     'curriculum-parser',
     type,
     dir,
     '--repo', repository,
     '--version', version,
-    '--lo', path.join(__dirname, '../learning-objectives'),
-  ], { stdio: [null, fd, 'pipe'] });
+  ];
+
+  const child = spawn(
+    'npx',
+    type === 'project'
+      ? args.concat('--lo', path.join(__dirname, '../learning-objectives'))
+      : args,
+    { stdio: [null, fd, 'pipe'] },
+  );
 
   const stderrChunks = [];
   child.stderr.on('data', chunk => stderrChunks.push(chunk));
