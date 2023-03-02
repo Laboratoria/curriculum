@@ -65,7 +65,7 @@ const Gym = ({ lang }) => {
       <Typography variant="h2"><FormattedMessage id="gym" /></Typography>
       {topicIds.map((slug) => {
         const topic = topicsWithChallenges.find(t => t.slug === slug);
-        if (!topic) {
+        if (!topic || !topic.intl[lang]) {
           return null;
         }
         return (

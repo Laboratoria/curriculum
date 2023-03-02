@@ -10,6 +10,8 @@ const pt = {
   submit: 'Enviar',
   reset: 'Resetar',
 
+  'not-available-in-lang': 'Este conteúdo não está disponível atualmente em português.',
+
   'top-bar/hire': 'Contrate talento',
 
   'home/alert': `

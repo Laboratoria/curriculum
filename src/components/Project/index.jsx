@@ -87,6 +87,14 @@ const Project = () => {
     return <Loading />;
   }
 
+  if (!project.intl[lang]) {
+    return (
+      <Container>
+        <FormattedMessage id="not-available-in-lang" />
+      </Container>
+    );
+  }
+
   const learningObjectiveCats = (project.learningObjectives || []).reduce(
     (memo, item) => {
       const cat = item.split('/')[0];
