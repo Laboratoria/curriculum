@@ -18,7 +18,7 @@ const log = (...args) => {
   console.log((new Date()), ...args);
 };
 
-const parse = (type, dir, track) => {
+const parse = (type, dir) => {
   log(`Parsing ${type} ${dir}...`);
   const slug = type === 'topic' ? dir : dir.split('-').slice(1).join('-');
   const fname = path.join(
@@ -28,15 +28,20 @@ const parse = (type, dir, track) => {
   );
   const ee = new EventEmitter();
   const fd = openSync(fname, 'w');
-  const child = spawn('npx', [
+  const args = [
     'curriculum-parser',
     type,
     `${type}s/${dir}`,
     '--repo', repository,
     '--version', version,
-    '--track', track,
-    '--lo', path.join(__dirname, '../learning-objectives'),
-  ], { stdio: [null, fd, 'inherit'] });
+  ];
+  const child = spawn(
+    'npx',
+    type === 'project'
+      ? args.concat('--lo', path.join(__dirname, '../learning-objectives'))
+      : args,
+    { stdio: [null, fd, 'inherit'] },
+  );
 
   child.on('error', (err) => {
     ee.emit('error', err);
@@ -44,7 +49,7 @@ const parse = (type, dir, track) => {
 
   child.on('close', async (code) => {
     if (code !== 0) {
-      console.error('Failed parsing', type, dir, track, code);
+      console.error('Failed parsing', type, dir, code);
       return;
     }
 
@@ -74,8 +79,7 @@ const main = () => {
     }
 
     // parse and keep cancel function for later...
-    // TODO: Where should we get the track from?
-    jobs[jobId] = parse(type, dir, 'webDev');
+    jobs[jobId] = parse(type, dir);
 
     jobs[jobId].on('error', (err) => {
       console.error(err);
