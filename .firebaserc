@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "bootcamp-e078f"
+  },
+  "targets": {
+    "bootcamp-e078f": {
+      "hosting": {
+        "bootcamp-e078f": [
+          "bootcamp-e078f"
+        ],
+        "laboratoria-curriculum-next": [
+          "laboratoria-curriculum-next"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

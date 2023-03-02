@@ -31,8 +31,6 @@ yarn-debug.log*
 yarn-error.log*
 
 .firebase/
-.firebaserc
-
 
 #documents extensions
 **.[pP][dD][fF]
