@@ -4,6 +4,10 @@ import { useApp, themeConfig } from '@laboratoria/react';
 import App from '.';
 
 describe('App', () => {
+  beforeEach(() => {
+    useApp.mockRestore();
+  });
+
   it('should show loading when auth user is undefined', () => {
     useApp.mockReturnValue({ auth: {} });
     const { container } = render(
