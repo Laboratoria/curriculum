@@ -35,17 +35,18 @@ describe('applyDiscount()', () => {
   it('no debería usar Array#map, Array#forEach o Array#reduce', () => {
     const cart = [{ price: 1 }, { price: 2 }, { price: 3 }];
     const mapSpy = Sinon.spy(Array.prototype, 'map');
-    //const forEachSpy = Sinon.spy(Array.prototype, 'forEach');
+    const forEachSpy = Sinon.spy(Array.prototype, 'forEach');
     const reduceSpy = Sinon.spy(Array.prototype, 'reduce');
-    Assert.deepEqual(
-      Submission(cart, .2),
-      [{ price: 0.8 }, { price: 1.6 }, { price: 2.4000000000000004 }]
-    );
+    const result = Submission(cart, .2);
+    Assert.equal(result.length, 3);
+    Assert.equal(result[0].price, 0.8);
+    Assert.equal(result[1].price, 1.6);
+    Assert.equal(result[2].price, 2.4000000000000004);
     Assert.equal(mapSpy.callCount, 0);
-    //Assert.equal(forEachSpy.callCount, 0);
+    Assert.equal(forEachSpy.callCount, 0);
     Assert.equal(reduceSpy.callCount, 0);
     mapSpy.restore();
-    //forEachSpy.restore();
+    forEachSpy.restore();
     reduceSpy.restore();
   });
 

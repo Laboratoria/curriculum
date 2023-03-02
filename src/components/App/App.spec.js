@@ -11,8 +11,7 @@ describe('App', () => {
         <App />
       </ThemeProvider>
     );
-    const progress = container.querySelector('.MuiCircularProgress-root');
-    expect(progress instanceof HTMLSpanElement).toBe(true);
+    expect(container.outerHTML).toBe('<div>Loading...</div>');
   });
 
   it('should show spanish home by default', async () => {
