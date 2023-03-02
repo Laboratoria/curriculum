@@ -18,6 +18,10 @@ jest.mock('react-router-dom', () => {
 });
 
 describe('TopBar', () => {
+  beforeEach(() => {
+    useApp.mockRestore();
+  });
+
   it('should render without crashing', async () => {
     useParams.mockReturnValue({ lang: 'es' });
     useLocation.mockReturnValue({ pathname: '/es/' });
