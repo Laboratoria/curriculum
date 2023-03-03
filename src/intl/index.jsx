@@ -1,24 +1,9 @@
 import { createContext, useContext, useEffect } from 'react';
-import { IntlProvider as BaseIntlProvider, FormattedMessage } from 'react-intl';
+import { IntlProvider as BaseIntlProvider } from 'react-intl';
 import es from './es';
 import pt from './pt';
 
 const messages = { es, pt };
-
-export const registerMessages = (namespace, newMessages) => {
-  Object.keys(newMessages).forEach((lang) => {
-    Object.keys(newMessages[lang]).forEach((key) => {
-      Object.assign(messages[lang], {
-        [`${namespace}/${key}`]: newMessages[lang][key],
-      });
-    });
-  });
-  return {
-    FormattedMessage: (props) => {
-      return <FormattedMessage {...props} />
-    },
-  };
-};
 
 const LangContext = createContext();
 
