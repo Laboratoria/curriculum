@@ -6,11 +6,28 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "redirects": [{
+      "regex": "/(es|pt)/topics/([a-z0-9\\-]+)/\\d{2}-([a-z0-9\\-]+)/\\d{2}-([a-z0-9\\-]+)/\\d{2}-([a-z0-9\\-]+)",
+      "destination": "/:1/topics/:2/:3/:4/:5",
+      "type": 301
+    },
+    {
+      "regex": "/(es|pt)/topics/([a-z0-9\\-]+)/\\d{2}-([a-z0-9\\-]+)/\\d{2}-([a-z0-9\\-]+)",
+      "destination": "/:1/topics/:2/:3/:4",
+      "type": 301
+    },
+    {
+      "regex": "/(es|pt)/topics/([a-z0-9\\-]+)/\\d{2}-([a-z0-9\\-]+)",
+      "destination": "/:1/topics/:2/:3",
+      "type": 301
+      }
+    ],
     "rewrites": [
       {
         "source": "**",
         "destination": "/index.html"
       }
-    ]
+    ],
+    "trailingSlash": false
   }
 }
