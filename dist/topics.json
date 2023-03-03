@@ -5,7 +5,7 @@
     "path": "topics/browser",
     "version": "6.0.0-alpha.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-02T16:00:11.068Z",
+    "createdAt": "2023-03-03T19:10:11.978Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -26,7 +26,7 @@
     "path": "topics/content-management",
     "version": "6.0.0-alpha.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-02T16:00:10.550Z",
+    "createdAt": "2023-03-03T19:10:11.393Z",
     "track": "ux",
     "intl": {
       "es": {
@@ -43,7 +43,7 @@
     "path": "topics/css",
     "version": "6.0.0-alpha.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-02T16:00:10.844Z",
+    "createdAt": "2023-03-03T19:10:11.855Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -64,7 +64,7 @@
     "path": "topics/functional",
     "version": "6.0.0-alpha.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-02T16:00:12.673Z",
+    "createdAt": "2023-03-03T19:10:11.694Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -81,7 +81,7 @@
     "path": "topics/html",
     "version": "6.0.0-alpha.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-02T16:00:12.517Z",
+    "createdAt": "2023-03-03T19:10:11.657Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -102,7 +102,7 @@
     "path": "topics/interaction-design",
     "version": "6.0.0-alpha.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-02T16:00:12.485Z",
+    "createdAt": "2023-03-03T19:10:11.452Z",
     "track": "ux",
     "intl": {
       "es": {
@@ -119,7 +119,7 @@
     "path": "topics/intro-ux",
     "version": "6.0.0-alpha.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-02T16:00:12.258Z",
+    "createdAt": "2023-03-03T19:10:11.411Z",
     "track": "ux",
     "intl": {
       "es": {
@@ -136,7 +136,7 @@
     "path": "topics/javascript",
     "version": "6.0.0-alpha.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-02T16:00:13.231Z",
+    "createdAt": "2023-03-03T19:10:13.844Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -157,7 +157,7 @@
     "path": "topics/paradigms",
     "version": "6.0.0-alpha.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-02T16:00:12.763Z",
+    "createdAt": "2023-03-03T19:10:13.348Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -174,7 +174,7 @@
     "path": "topics/prototyping",
     "version": "6.0.0-alpha.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-02T16:00:12.324Z",
+    "createdAt": "2023-03-03T19:10:12.943Z",
     "track": "ux",
     "intl": {
       "es": {
@@ -191,7 +191,7 @@
     "path": "topics/scm",
     "version": "6.0.0-alpha.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-02T16:00:14.044Z",
+    "createdAt": "2023-03-03T19:10:12.985Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -212,7 +212,7 @@
     "path": "topics/shell",
     "version": "6.0.0-alpha.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-02T16:00:13.942Z",
+    "createdAt": "2023-03-03T19:10:13.019Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -233,7 +233,7 @@
     "path": "topics/ux-research",
     "version": "6.0.0-alpha.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-02T16:00:14.103Z",
+    "createdAt": "2023-03-03T19:10:13.138Z",
     "track": "ux",
     "intl": {
       "es": {
