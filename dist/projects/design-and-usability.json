@@ -2,9 +2,9 @@
   "slug": "design-and-usability",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/01-design-and-usability",
-  "version": "6.0.0-alpha.0",
+  "version": "6.0.0",
   "parserVersion": "5.0.0-alpha.3",
-  "createdAt": "2023-03-03T19:10:06.708Z",
+  "createdAt": "2023-03-03T19:21:30.461Z",
   "prefix": 1,
   "track": "ux",
   "learningObjectives": [

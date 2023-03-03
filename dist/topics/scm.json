@@ -2,9 +2,9 @@
   "slug": "scm",
   "repo": "Laboratoria/bootcamp",
   "path": "topics/scm",
-  "version": "6.0.0-alpha.0",
+  "version": "6.0.0",
   "parserVersion": "5.0.0-alpha.3",
-  "createdAt": "2023-03-03T19:10:12.985Z",
+  "createdAt": "2023-03-03T19:21:36.486Z",
   "track": "web-dev",
   "intl": {
     "es": {

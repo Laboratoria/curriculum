@@ -2,9 +2,9 @@
   "slug": "social-network",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/03-social-network",
-  "version": "6.0.0-alpha.0",
+  "version": "6.0.0",
   "parserVersion": "5.0.0-alpha.3",
-  "createdAt": "2023-03-03T19:10:07.983Z",
+  "createdAt": "2023-03-03T19:21:31.649Z",
   "prefix": 3,
   "track": "web-dev",
   "learningObjectives": [

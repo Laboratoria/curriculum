@@ -3,9 +3,9 @@
     "slug": "browser",
     "repo": "Laboratoria/bootcamp",
     "path": "topics/browser",
-    "version": "6.0.0-alpha.0",
+    "version": "6.0.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-03T19:10:11.978Z",
+    "createdAt": "2023-03-03T19:21:35.609Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -24,9 +24,9 @@
     "slug": "content-management",
     "repo": "Laboratoria/bootcamp",
     "path": "topics/content-management",
-    "version": "6.0.0-alpha.0",
+    "version": "6.0.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-03T19:10:11.393Z",
+    "createdAt": "2023-03-03T19:21:34.974Z",
     "track": "ux",
     "intl": {
       "es": {
@@ -41,9 +41,9 @@
     "slug": "css",
     "repo": "Laboratoria/bootcamp",
     "path": "topics/css",
-    "version": "6.0.0-alpha.0",
+    "version": "6.0.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-03T19:10:11.855Z",
+    "createdAt": "2023-03-03T19:21:35.471Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -62,9 +62,9 @@
     "slug": "functional",
     "repo": "Laboratoria/bootcamp",
     "path": "topics/functional",
-    "version": "6.0.0-alpha.0",
+    "version": "6.0.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-03T19:10:11.694Z",
+    "createdAt": "2023-03-03T19:21:35.309Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -79,9 +79,9 @@
     "slug": "html",
     "repo": "Laboratoria/bootcamp",
     "path": "topics/html",
-    "version": "6.0.0-alpha.0",
+    "version": "6.0.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-03T19:10:11.657Z",
+    "createdAt": "2023-03-03T19:21:35.243Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -100,9 +100,9 @@
     "slug": "interaction-design",
     "repo": "Laboratoria/bootcamp",
     "path": "topics/interaction-design",
-    "version": "6.0.0-alpha.0",
+    "version": "6.0.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-03T19:10:11.452Z",
+    "createdAt": "2023-03-03T19:21:35.064Z",
     "track": "ux",
     "intl": {
       "es": {
@@ -117,9 +117,9 @@
     "slug": "intro-ux",
     "repo": "Laboratoria/bootcamp",
     "path": "topics/intro-ux",
-    "version": "6.0.0-alpha.0",
+    "version": "6.0.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-03T19:10:11.411Z",
+    "createdAt": "2023-03-03T19:21:34.906Z",
     "track": "ux",
     "intl": {
       "es": {
@@ -134,9 +134,9 @@
     "slug": "javascript",
     "repo": "Laboratoria/bootcamp",
     "path": "topics/javascript",
-    "version": "6.0.0-alpha.0",
+    "version": "6.0.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-03T19:10:13.844Z",
+    "createdAt": "2023-03-03T19:21:37.258Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -155,9 +155,9 @@
     "slug": "paradigms",
     "repo": "Laboratoria/bootcamp",
     "path": "topics/paradigms",
-    "version": "6.0.0-alpha.0",
+    "version": "6.0.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-03T19:10:13.348Z",
+    "createdAt": "2023-03-03T19:21:36.803Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -172,9 +172,9 @@
     "slug": "prototyping",
     "repo": "Laboratoria/bootcamp",
     "path": "topics/prototyping",
-    "version": "6.0.0-alpha.0",
+    "version": "6.0.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-03T19:10:12.943Z",
+    "createdAt": "2023-03-03T19:21:36.444Z",
     "track": "ux",
     "intl": {
       "es": {
@@ -189,9 +189,9 @@
     "slug": "scm",
     "repo": "Laboratoria/bootcamp",
     "path": "topics/scm",
-    "version": "6.0.0-alpha.0",
+    "version": "6.0.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-03T19:10:12.985Z",
+    "createdAt": "2023-03-03T19:21:36.486Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -210,9 +210,9 @@
     "slug": "shell",
     "repo": "Laboratoria/bootcamp",
     "path": "topics/shell",
-    "version": "6.0.0-alpha.0",
+    "version": "6.0.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-03T19:10:13.019Z",
+    "createdAt": "2023-03-03T19:21:36.546Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -231,9 +231,9 @@
     "slug": "ux-research",
     "repo": "Laboratoria/bootcamp",
     "path": "topics/ux-research",
-    "version": "6.0.0-alpha.0",
+    "version": "6.0.0",
     "parserVersion": "5.0.0-alpha.3",
-    "createdAt": "2023-03-03T19:10:13.138Z",
+    "createdAt": "2023-03-03T19:21:36.601Z",
     "track": "ux",
     "intl": {
       "es": {

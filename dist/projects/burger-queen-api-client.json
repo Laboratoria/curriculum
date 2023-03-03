@@ -2,9 +2,9 @@
   "slug": "burger-queen-api-client",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/04-burger-queen-api-client",
-  "version": "6.0.0-alpha.0",
+  "version": "6.0.0",
   "parserVersion": "5.0.0-alpha.3",
-  "createdAt": "2023-03-03T19:10:09.018Z",
+  "createdAt": "2023-03-03T19:21:32.622Z",
   "prefix": 4,
   "track": "web-dev",
   "learningObjectives": [

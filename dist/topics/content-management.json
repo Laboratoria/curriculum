@@ -2,9 +2,9 @@
   "slug": "content-management",
   "repo": "Laboratoria/bootcamp",
   "path": "topics/content-management",
-  "version": "6.0.0-alpha.0",
+  "version": "6.0.0",
   "parserVersion": "5.0.0-alpha.3",
-  "createdAt": "2023-03-03T19:10:11.393Z",
+  "createdAt": "2023-03-03T19:21:34.974Z",
   "track": "ux",
   "intl": {
     "es": {
