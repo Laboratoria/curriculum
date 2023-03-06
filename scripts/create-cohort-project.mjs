@@ -78,12 +78,12 @@ const copy = async (src, repoDir, opts) => {
   console.log('Copying files...');
   await cp(src, repoDir, { recursive: true });
 
-  if (opts.locale === 'pt-BR') {
-    return rename(`${repoDir}/README.pt-BR.md`, `${repoDir}/README.md`);
+  if (opts.locale === 'pt') {
+    return rename(`${repoDir}/README.pt.md`, `${repoDir}/README.md`);
   }
 
-  if (existsSync(`${repoDir}/README.pt-BR.md`)) {
-    return unlink(`${repoDir}/README.pt-BR.md`);
+  if (existsSync(`${repoDir}/README.pt.md`)) {
+    return unlink(`${repoDir}/README.pt.md`);
   }
 };
 
