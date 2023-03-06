@@ -11,7 +11,7 @@ import minimist from 'minimist';
 import { mkdirp } from 'mkdirp';
 import { Octokit } from '@octokit/rest';
 import {
-  getLearningObjectives,
+  transformLearningObjectives,
   loadYaml,
 } from '@laboratoria/curriculum-parser/lib/project.js';
 
@@ -78,12 +78,12 @@ const copy = async (src, repoDir, opts) => {
   console.log('Copying files...');
   await cp(src, repoDir, { recursive: true });
 
-  if (opts.locale === 'pt-BR') {
-    return rename(`${repoDir}/README.pt-BR.md`, `${repoDir}/README.md`);
+  if (opts.locale === 'pt') {
+    return rename(`${repoDir}/README.pt.md`, `${repoDir}/README.md`);
   }
 
-  if (existsSync(`${repoDir}/README.pt-BR.md`)) {
-    return unlink(`${repoDir}/README.pt-BR.md`);
+  if (existsSync(`${repoDir}/README.pt.md`)) {
+    return unlink(`${repoDir}/README.pt.md`);
   }
 };
 
@@ -106,10 +106,11 @@ const linkToString = ({ title, url }, lang) => (
   `[${title}](${url.startsWith('topics/') ? `${uiUrl}/${lang}/${url}` : url})`
 );
 
-const addLocalizedLearningObjectives = async (repoDir, opts) => {
-  const learningObjectives = await getLearningObjectives(repoDir, {
+const addLocalizedLearningObjectives = async (repoDir, opts, meta) => {
+
+  const learningObjectives = await transformLearningObjectives(repoDir, {
     lo: path.join(__dirname, '../learning-objectives'),
-  });
+  }, meta);
 
   if (!learningObjectives) {
     return;
@@ -239,7 +240,10 @@ const main = async (args, opts) => {
   await ensureRepoDir(repoDir, opts);
   await copy(src, repoDir, opts);
   await addBootcampInfo(repoDir);
-  await addLocalizedLearningObjectives(repoDir, opts);
+  const meta = await loadYaml(path.join(src, 'project.yml'));
+  // console.log('learning Objectives son', learningObjectives);
+  await addLocalizedLearningObjectives(repoDir, opts, meta);
+  return;
   await initRepo(repoDir, opts);
 
   const confirmRemote = await prompt(
