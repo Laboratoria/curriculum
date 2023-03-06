@@ -53,7 +53,7 @@
     "web-vitals": "^3.1.1"
   },
   "devDependencies": {
-    "@laboratoria/curriculum-parser": "^5.0.0-alpha.3",
+    "@laboratoria/curriculum-parser": "^5.0.0-alpha.4",
     "@laboratoria/mdlint": "^1.2.3",
     "@octokit/rest": "^19.0.7",
     "buffer": "^6.0.3",
