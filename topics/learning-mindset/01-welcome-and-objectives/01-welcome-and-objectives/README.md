@@ -3,7 +3,7 @@ type: read
 duration: 1min
 ---
 
-# Bienvenida
+# Bienvenida y objetivos
 
 ***
 
