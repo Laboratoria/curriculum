@@ -3,8 +3,8 @@
   "repo": "Laboratoria/bootcamp",
   "path": "topics/learning-mindset",
   "version": "6.0.0-alpha.0",
-  "parserVersion": "5.0.0-alpha.3",
-  "createdAt": "2023-03-03T13:18:52.178Z",
+  "parserVersion": "5.0.0-alpha.4",
+  "createdAt": "2023-03-07T15:01:54.160Z",
   "track": "web-dev",
   "intl": {
     "es": {
@@ -32,7 +32,7 @@
           "intl": {
             "es": {
               "title": "Bienvenida",
-              "body": "<hr>\n<p><a href=\"https://youtu.be/xiG3J-PtkuE\">video</a></p>"
+              "body": "<hr>\n<p><a href=\"https://youtu.be/xiG3J-PtkuE\"><img src=\"https://user-images.githubusercontent.com/12631491/223459795-f51091b0-4fda-4bdc-baad-520a66d041c4.png\" alt=\"video\"></a></p>"
             }
           }
         }
@@ -55,7 +55,7 @@
           "intl": {
             "es": {
               "title": "Malentendidos del aprendizaje",
-              "body": "<hr>\n<h2>Los 4 malentendidos del aprendizaje</h2>\n<h3>1. Caemos en creencias limitantes y la importancia de la mentalidad de crecimiento</h3>\n<p><a href=\"https://youtu.be/LUCclX2JXmc\">video</a></p>\n<h3>2. Tenemos la expectativa de que el aprendizaje sea fácil y la importancia de la apropiación del aprendizaje</h3>\n<p><a href=\"https://youtu.be/miP8frXak-g\">video</a></p>\n<h3>3. Caemos en ilusiones del aprendizaje y la importancia de la metacognición</h3>\n<p><a href=\"https://youtu.be/hwY3yVZgWdg\">video</a></p>\n<h3>4. El aprendizaje no debe encasillarse en el tiempo y la importancia del aprendizaje permanente</h3>\n<p><a href=\"https://youtu.be/-jBVNRk5d6Q\">video</a></p>\n<p>También te compartimos los siguientes recursos adicionales por si te interesa\nprofundizar sobre el tema.</p>\n<ul>\n<li><a href=\"https://bit.ly/37AGi71\">Vídeo ¿Qué es Growth Mindset?</a> por Maria Paula\nRivarola, Ex Directora de Laboratoria en Perú</li>\n<li>Te invitamos a ver el <a href=\"https://bit.ly/39t15Mg\">Entrevista con Susana Claro</a>\n, académica de la Escuela de Gobierno Universidad de Chile y co-fundadora de\nEnseña Chile de nuestro programa #EsBuenoSaberlo, donde hablamos sobre la\nmentalidad de crecimiento junto a Susana Claro.</li>\n<li>Blog de Nat Eliason (en inglés) sobre Self-Education: Teach Yourself Anything\nwith the Sandbox Method. La relevancia de desarrollar la habilidad para\nsolucionar problemas y el método sandbox.</li>\n</ul>"
+              "body": "<hr>\n<h2>Los 4 malentendidos del aprendizaje</h2>\n<h3>1. Caemos en creencias limitantes y la importancia de la mentalidad de crecimiento</h3>\n<p><a href=\"https://youtu.be/LUCclX2JXmc\"><img src=\"https://user-images.githubusercontent.com/12631491/223459911-847f24eb-26b6-4cbd-9421-259c41d86de9.png\" alt=\"video\"></a></p>\n<h3>2. Tenemos la expectativa de que el aprendizaje sea fácil y la importancia de la apropiación del aprendizaje</h3>\n<p><a href=\"https://youtu.be/miP8frXak-g\"><img src=\"https://user-images.githubusercontent.com/12631491/223460131-568bbbd7-80ef-4814-a605-7fb93bb577af.png\" alt=\"video\"></a></p>\n<h3>3. Caemos en ilusiones del aprendizaje y la importancia de la metacognición</h3>\n<p><a href=\"https://youtu.be/hwY3yVZgWdg\"><img src=\"https://user-images.githubusercontent.com/12631491/223460583-fac68825-5f98-43f4-a068-ecfcef17dd14.png\" alt=\"video\"></a></p>\n<h3>4. El aprendizaje no debe encasillarse en el tiempo y la importancia del aprendizaje permanente</h3>\n<p><a href=\"https://youtu.be/-jBVNRk5d6Q\"><img src=\"https://user-images.githubusercontent.com/12631491/223460683-74465513-ab93-46c5-b9d2-5f372bf2865d.png\" alt=\"video\"></a></p>\n<p>También te compartimos los siguientes recursos adicionales por si te interesa\nprofundizar sobre el tema.</p>\n<ul>\n<li><a href=\"https://bit.ly/37AGi71\">Vídeo ¿Qué es Growth Mindset?</a> por Maria Paula\nRivarola, Ex Directora de Laboratoria en Perú</li>\n<li>Te invitamos a ver el <a href=\"https://bit.ly/39t15Mg\">Entrevista con Susana Claro</a>\n, académica de la Escuela de Gobierno Universidad de Chile y co-fundadora de\nEnseña Chile de nuestro programa #EsBuenoSaberlo, donde hablamos sobre la\nmentalidad de crecimiento junto a Susana Claro.</li>\n<li>Blog de Nat Eliason (en inglés) sobre Self-Education: Teach Yourself Anything\nwith the Sandbox Method. La relevancia de desarrollar la habilidad para\nsolucionar problemas y el método sandbox.</li>\n</ul>"
             }
           }
         }

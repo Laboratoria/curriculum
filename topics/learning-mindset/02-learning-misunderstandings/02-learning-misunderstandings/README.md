@@ -11,19 +11,19 @@ duration: 20min
 
 ### 1. Caemos en creencias limitantes y la importancia de la mentalidad de crecimiento
 
-  [video](https://youtu.be/LUCclX2JXmc)
+  [![video](https://user-images.githubusercontent.com/12631491/223459911-847f24eb-26b6-4cbd-9421-259c41d86de9.png)](https://youtu.be/LUCclX2JXmc)
 
 ### 2. Tenemos la expectativa de que el aprendizaje sea fácil y la importancia de la apropiación del aprendizaje
 
-  [video](https://youtu.be/miP8frXak-g)
+  [![video](https://user-images.githubusercontent.com/12631491/223460131-568bbbd7-80ef-4814-a605-7fb93bb577af.png)](https://youtu.be/miP8frXak-g)
 
 ### 3. Caemos en ilusiones del aprendizaje y la importancia de la metacognición
 
-[video](https://youtu.be/hwY3yVZgWdg)
+  [![video](https://user-images.githubusercontent.com/12631491/223460583-fac68825-5f98-43f4-a068-ecfcef17dd14.png)](https://youtu.be/hwY3yVZgWdg)
 
 ### 4. El aprendizaje no debe encasillarse en el tiempo y la importancia del aprendizaje permanente
 
-  [video](https://youtu.be/-jBVNRk5d6Q)
+  [![video](https://user-images.githubusercontent.com/12631491/223460683-74465513-ab93-46c5-b9d2-5f372bf2865d.png)](https://youtu.be/-jBVNRk5d6Q)
 
 También te compartimos los siguientes recursos adicionales por si te interesa
 profundizar sobre el tema.
