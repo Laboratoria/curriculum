@@ -1,8 +1,7 @@
 import { useParams } from 'react-router-dom';
 import Typography from '@mui/material/Typography';
-import { Challenges, loadFromLocalStorage } from '@laboratoria/react';
+import { Challenges, Content, loadFromLocalStorage } from '@laboratoria/react';
 import Breadcrumbs from '../Breadcrumbs';
-import Content from '../Content';
 
 const Part = ({ lang, topic }) => {
   const params = useParams();
