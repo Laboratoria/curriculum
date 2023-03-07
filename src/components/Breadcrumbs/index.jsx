@@ -29,10 +29,12 @@ const Breadcrumbs = ({ topic, project }) => {
 
     if (topic && unit) {
       const unitObj = topic.units.find(({ slug }) => slug === unit);
-      links.push({
-        title: unitObj.intl[lang].title,
-        url: `/${lang}/topics/${slug}/${unit}`,
-      });
+      if (topic.units.length > 1) {
+        links.push({
+          title: unitObj.intl[lang].title,
+          url: `/${lang}/topics/${slug}/${unit}`,
+        });
+      }
 
       if (part) {
         const partObj = unitObj.parts.find(({ slug }) => slug === part);

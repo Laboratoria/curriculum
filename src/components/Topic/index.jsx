@@ -31,14 +31,16 @@ const UnitsList = ({ topic, lang }) => (
   <>
     <Breadcrumbs topic={topic} />
     <Typography variant="h2">{topic.intl[lang].title}</Typography>
-    <Typography variant="body1">
+    <Typography variant="body1" component="div">
       <div dangerouslySetInnerHTML={{ __html: topic.summary }}></div>
     </Typography>
-    {topic.units.map(unit => (
+    {topic.units.map((unit, _, arr) => (
       <div key={unit.slug}>
-        <Link to={`${unit.slug}`}>
-          <Typography variant="h3">{unit.intl[lang].title}</Typography>
-        </Link>
+        {arr.length > 1 && (
+          <Link to={`${unit.slug}`}>
+            <Typography variant="h3">{unit.intl[lang].title}</Typography>
+          </Link>
+        )}
         {unit.parts.map(part => (
           <div key={`${unit.slug}-${part.slug}`}>
             <Link to={`${unit.slug}/${part.slug}`}>
