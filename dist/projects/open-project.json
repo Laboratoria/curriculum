@@ -2,9 +2,9 @@
   "slug": "open-project",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/05-open-project",
-  "version": "6.0.0",
-  "parserVersion": "5.0.0-alpha.3",
-  "createdAt": "2023-03-03T19:21:33.551Z",
+  "version": "6.1.0",
+  "parserVersion": "5.0.0-alpha.4",
+  "createdAt": "2023-03-07T17:56:26.731Z",
   "prefix": 5,
   "track": "web-dev",
   "intl": {
