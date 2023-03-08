@@ -80,12 +80,6 @@ Este são os dados que propomos:
   Lista de animações e personagens do [Studio Ghibli](https://ghiblicollection.com/).
   - [Pesquisa com seguidores de Studio Ghibli](src/data/ghibli/README.pt-BR.md)
 
-* [Harry Potter](src/data/harrypotter/harry.json).
- Este conjunto nos fornece uma lista dos personagens, livros e feitiços de toda
- a saga Harry Potter
-  [Harry Potter](https://harrypotter.fandom.com).
-  - [Pesquisa com seguidores de Harry Potter](src/data/harrypotter/README.md)
-
 O objetivo principal deste projeto é que aprenda a desenhar e construir uma
 interface web onde se possa visualizar e manipular dados, entendendo o que o
 usuário necessita.
@@ -243,11 +237,6 @@ como toda a configuração de dependências:
 |  |  |  ├── ghibli.js
 |  |  |  ├── ghibli.json
 |  |  |  └── README.md
-|  |  └── harrypotter
-|  |  |  ├── data.js
-|  |  |  ├── harry.json
-|  |  |  └── README.md
-
 |  ├── data.js
 |  ├── index.html
 |  ├── main.js
