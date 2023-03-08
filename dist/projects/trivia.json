@@ -2,9 +2,9 @@
   "slug": "trivia",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/00-trivia",
-  "version": "6.1.0",
+  "version": "6.1.1",
   "parserVersion": "5.0.0-alpha.4",
-  "createdAt": "2023-03-07T17:56:24.075Z",
+  "createdAt": "2023-03-08T17:45:47.605Z",
   "prefix": 0,
   "track": "web-dev",
   "learningObjectives": [
