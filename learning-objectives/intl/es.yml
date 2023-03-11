@@ -174,6 +174,9 @@ js/data-types/objects:
 
 js/data-types/primitive-vs-non-primitive:
   title: Diferenciar entre tipos de datos primitivos y no primitivos
+  links:
+    - title: "datos atómicos vs datos estructurados"
+      url: https://www.todojs.com/tipos-datos-javascript-es6/
 
 js/variables:
   title: Variables (declaración, asignación, ámbito)
@@ -224,6 +227,9 @@ js/semantics:
 
 js/expression-vs-statement:
   title: Diferenciar entre expresiones (expressions) y sentencias (statements)
+  links:
+    - title: "expresión vs sentencia"
+      url: https://openclassrooms.com/en/courses/4309531-descubre-las-funciones-en-javascript/5108986-diferencia-entre-expresion-y-sentencia
 
 js/modules/es-modules:
   title: Módulos de ECMAScript (ES Modules)

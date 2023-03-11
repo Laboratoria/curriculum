@@ -223,6 +223,9 @@ js/semantics:
 
 js/expression-vs-statement:
   title: Diferença entre expressões (expressions) e declarações (statements)
+  links:
+    - title: "expressions-vs-statements"
+      url: https://2ality.com/2012/09/expressions-vs-statements.html
 
 js/modules/es-modules:
   title: Módulos de ECMAScript (ES modules)
