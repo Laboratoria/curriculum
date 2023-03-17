@@ -269,7 +269,7 @@ Súmate al canal de Slack
 para conversar y pedir ayuda del proyecto.
 
 A continuación un video que te lleva a través de la fórmula matemática del
-Cifrado Césary un par de cosas más que debes saber para resolver este proyecto.
+Cifrado César y un par de cosas más que debes saber para resolver este proyecto.
 La fórmula no es lo importante del proyecto, no te confundas.
 
 [![Getting started cipher](https://img.youtube.com/vi/uehgMrP6few/0.jpg)](https://youtu.be/uehgMrP6few)
