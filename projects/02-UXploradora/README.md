@@ -4,44 +4,47 @@
 
 - [1. Preámbulo](#1-preámbulo)
 - [2. Resumen del proyecto](#2-resumen-del-proyecto)
-- [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-- [4. Recursos](#4-recursos)
+- [3. Consideraciones generales](#3-consideraciones-generales)
+- [4. Objetivos de aprendizaje](#4-objetivos-de-aprendizaje)
 
 ---
 
 ## 1. Preámbulo
 
-Solo podemos hablar de UX cuando conocemos las necesidades, motivaciones y problemas
-que tienen nuestros usuarios con los productos o servicios que creamos. Esos hallazgos
-e insights nos acercarán a diseñar o rediseñar soluciones a la medida, realizando
-mejoras continuamente.
+En este proyecto tienes la oportunidad de profundizar los OAs que necesites, de manera
+que puedas explorar el mundo del UX aún cuando por razones especiales no puedas participar
+en proyectos colaborativos con empresas.
 
-Como insumos indispensables para mejorar la experiencia actual, necesitamos evaluar
-la interacción que tienen las personas con el producto que utilizan y elegir la
-oportunidad de mejora que más satisfaga sus necesidades. Una vez que tenemos claro
-el problema, podemos crear propuestas de diseño con las funcionalidades mínimas (MVP)
-que nos permitan ir con usuarios a recoger su feedback.
+Con 3 rutas diferentes para elegir, podrás profundizar en research,
+enfocarte en temas de UI o reforzar el proceso de diseño de principio a fin.
 
 ## 2. Resumen del proyecto
 
-Durante este reto profundizarás en temas de investigación de usuarios, identificación
-de problemas que puedan estar afectando la experiencia de quienes utilizan la plataforma
-y diseñarás un flujo de pantallas que resuelvan esa problemática.
-
-Vas a ejecutar un proyecto poniendo en práctica las técnicas y herramientas del proceso
-de diseño (investigación, síntesis, ideación y prototipado). Todo enmarcado dentro del
-análisis de un producto digital real de una empresa regional.
+Este es un proyecto flexible que puedes adecuar según el contexto de aprendizaje
+en el que te encuentres. En conjunto con el equipo de Laboratoria, vas a elegir
+UNA de las 3 opciones disponibles, para poner en práctica técnicas y
+herramientas específicas según una etapa de diseño específica.
 
 Para ello, tendrás que elegir una empresa regional con plataforma en los países donde
-cada integrante del equipo se encuentre, aquí te damos algunas opciones que podrás elegir:
-- [Amazon](https://www.amazon.com/-/es/)
-- [Mercado libre](https://mercadolibre.com/)
-- [AliExpress](https://es.aliexpress.com/)
-- [Platzi](https://platzi.com/)
-- [Atrápalo](https://www.atrapalo.com/)
-- Otro a elección del squad (recuerda debe ser regional y tener una plataforma digital)
+cada integrante del equipo se encuentre, aquí te damos algunas opciones que
+podrás elegir:
 
-## 3. Objetivos de aprendizaje
+- Reto: La jungla del research
+- Reto: El universo del UI
+- Reto: Ruta a la cima del UX
+
+## 3. Consideraciones generales
+
+- Este proyecto es opcional y debe ser elegido en conjunto con el equipo de Laboratoria.
+- El proyecto lo puedes trabajar de forma individual o en un equipo de máximo 3 personas.
+- Asegúrate de elegir solamente uno de los retos disponibles, y que sea el que
+mejor calce con los objetivos de aprendizaje que necesitas potenciar.
+- La duración del reto la puedes acordar en conjunto con el equipo de Laboratoria.
+
+## 4. Objetivos de aprendizaje
+
+Acá listamos todos los objetivos de aprendizaje existentes, sin embargo, debes enfocarte
+solamente en los que estén disponibles según el reto que elijas.
 
 > ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
