@@ -81,12 +81,6 @@ Estos son datos que te proponemos:
   [Studio Ghibli](https://ghiblicollection.com/).
   - [Investigación con seguidores de las animaciones del Studio Ghibli](src/data/ghibli/README.md)
 
-* [Harry Potter](src/data/harrypotter/harry.json).
-  En este set encontrarás una lista de los personajes,libros pociones
-  y hechizos de toda la saga de
-  [Harry Potter](https://harrypotter.fandom.com).
-  - [Investigación con seguidoras de Harry Potter](src/data/harrypotter/README.md)
-
 El objetivo principal de este proyecto es que aprendas a diseñar y construir una
 interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
 usuario necesita.
