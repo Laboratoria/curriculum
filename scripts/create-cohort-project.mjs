@@ -243,7 +243,6 @@ const main = async (args, opts) => {
   const meta = await loadYaml(path.join(src, 'project.yml'));
   // console.log('learning Objectives son', learningObjectives);
   await addLocalizedLearningObjectives(repoDir, opts, meta);
-  return;
   await initRepo(repoDir, opts);
 
   const confirmRemote = await prompt(
