@@ -18,7 +18,7 @@ interés son:
 - Información sobre los personajes como nombre,
 titulo, imagen y famila
 
-Adicionalmente a esta información, para nuestros usuarios es importante poder
+Adicionalmente a esta información, para nuestras usuarias es importante poder
 ver la lista de personajes que aparecen en
 la serie y la cantidad de miembros en cada familia para
 tener mayor información de la serie.
