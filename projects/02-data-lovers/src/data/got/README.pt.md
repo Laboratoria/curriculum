@@ -26,7 +26,7 @@ tem mais informações sobre a série.
 ## Detalhes dos data
 
 - nome
-- Sobrenome
+- sobrenome
 - qualificação
 - família
 - imagem
