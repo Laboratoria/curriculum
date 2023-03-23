@@ -13,7 +13,7 @@ inevitável.
 ## Constatações
 
 Fazendo uma investigação (pesquisa) sobre as
-informações que nossos usuários podem precisar,
+informações que nossas usuárias podem precisar,
 descobrimos que os dados de maior interesse são:
 
 - Informações sobre os personagens como nome, apelido,
