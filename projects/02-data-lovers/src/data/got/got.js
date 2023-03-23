@@ -548,4 +548,5 @@ export default{
       "imageUrl": "https://thronesapi.com/assets/images/bronn.jpg",
       "born": "268 DC"
     }
-  ]}
+  ]
+}
