@@ -195,7 +195,7 @@ export default{
       "title": "Lord of Dragonstone",
       "family": "House Baratheon",
       "imageUrl": "https://thronesapi.com/assets/images/stannis.jpg",
-      "born": "265 AL",
+      "born": "265 AL"
     },
     {
       "id": 19,
