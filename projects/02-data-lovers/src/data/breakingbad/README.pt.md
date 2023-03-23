@@ -32,6 +32,6 @@ Com este conjunto de dados você pode obter os seguintes dados de um caractere:
 - imagem
 - ocupação
 - estado de vida
-- apelido/apelido
+- sobrenome
 - categoria
 - estação em que aparece
