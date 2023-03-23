@@ -1,5 +1,5 @@
 export default {
-  "breaking bad": [
+  "breaking_bad": [
     {
       char_id: 1,
       name: "Walter White",
