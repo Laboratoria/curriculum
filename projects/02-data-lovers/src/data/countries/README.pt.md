@@ -35,7 +35,8 @@ Cada um contém informações sobre:
 - Sua área total (em metros quadrados).
 - Um emoji com sua respectiva bandeira.
 - A população total.
-- Seu coeficiente Gini (do ano mais recente para o qual há dados disponíveis).
+- Seu [coeficiente Gini](https://www.ipea.gov.br/desafios/index.php?option=com_content&id=2048:catid=28#:~:text=O%20que%20%C3%A9%3F%20%2D%20%C3%8Dndice%20de%20Gini&text=O%20%C3%8Dndice%20de%20Gini%2C%20criado,apresentam%20de%20zero%20a%20cem)
+  (do ano mais recente para o qual há dados disponíveis).
 - A nomenclatura usada pela FIFA para identificar o país.
 - Seu fuso horário.
 - O continente a que pertence.
