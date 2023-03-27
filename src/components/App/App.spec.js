@@ -30,7 +30,7 @@ describe('App', () => {
     await waitFor(() => screen.getByText('Desarrollo Web'));
   });
 
-  it('should show portuguese home when navigator.language is pt-BR', async () => {
+  it('should show portuguese home when navigator.language is pt', async () => {
     window.history.pushState({}, 'Test page', '/');
     const spy = jest.spyOn(window.navigator, 'language', 'get').mockReturnValue('pt');
     useApp.mockImplementation(() => ({

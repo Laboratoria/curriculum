@@ -105,7 +105,7 @@ No link a seguir, você encontrará uma tabela onde compartilhamos a descrição
 cada etapa, as datas em que será realizada, os recursos que você terá e os
 entregáveis de cada momento.
 
-### [Atividades](./Activities.pt-BR.md)
+### [Atividades](./Activities.pt.md)
 
 ## 5. Mentorias de pessoas de fora da Laboratória
 
@@ -116,7 +116,7 @@ experiência de preparação para processos seletivos por meio da mentoria.
 Para que fiquem claras as diferenças entre os tópicos e os tipos de
 acompanhamento, deixamos para você o guia a seguir para as sessões de mentoria.
 
-### [Guia para as mentorias](./Mentoring.pt-BR.md)
+### [Guia para as mentorias](./Mentoring.pt.md)
 
 ## 6. Considerações gerais
 
