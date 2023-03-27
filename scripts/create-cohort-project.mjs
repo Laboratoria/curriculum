@@ -190,11 +190,8 @@ const initRepo = async (repoDir, opts) => {
 
   console.log('Initializing repo...');
   await exec('git init', { cwd: repoDir });
-  const { stdout: hasChanges } = await exec('git status --porcelain', { cwd: repoDir });
-  if (!!hasChanges) {
-    await exec('git add .', { cwd: repoDir });
-    await exec('git commit -m "chore(init): Adds project files from curriculum"', { cwd: repoDir });
-  }
+  await exec('git add .', { cwd: repoDir });
+  await exec('git commit -m "chore(init): Adds project files from curriculum"', { cwd: repoDir });
   await exec('git branch -M main', { cwd: repoDir });
 };
 
