@@ -1,3 +1,5 @@
+# Battleship
+
 ## Índice
 
 * [1. Preâmbulo](#1-preâmbulo)
@@ -38,20 +40,21 @@ afundar todos os navios do outro.
 
 Neste projeto, você criará uma nova versão, adicionando um toque especial a ela para
 atualizá-lo e torná-lo mais atraente para as novas gerações. Também não
-você é obrigado a fazer este jogo sobre navios, você pode fazê-lo com o tema que mais
-você gosta, desde que a jogabilidade seja semelhante.
+você é obrigado a fazer este jogo sobre navios, você pode fazê-lo com o
+tema que mais você gosta, desde que a jogabilidade seja semelhante.
 
-Além disso, o jogo deve ser para dois jogadores, para conseguir isso você deve pensar em como
-você pode estruturar as informações, estado do aplicativo e como salvá-los em
-algum banco de dados como __Firebase__ ou __MongoDB Stitch__.
+Além disso, o jogo deve ser para dois jogadores, para conseguir isso você
+deve pensar em como você pode estruturar as informações, estado do
+aplicativo e como salvá-los em algum banco de dados como __Firebase__
+ou __MongoDB Stitch__.
 
 ### Os objetivos gerais deste projeto são os seguintes
 
 1. Projete um esquema de dados e aplique-o a um banco de dados conhecido,
 como _Firebase_ ou _MongoDB_.
-Muitas vezes, como você modela a informação é mais importante do que como você a estrutura.
-seu código, pois problemas que possam aparecer no futuro terão sua
-origem aqui.
+Muitas vezes, como você modela a informação é mais importante do que como
+você a estrutura seu código, pois problemas que possam aparecer no futuro
+terão sua origem aqui.
 
 2. Não menos importante, você terá que projetar e manter o estado dentro do
 aplicação, esta é a informação que você usa e salva temporariamente para cada
@@ -62,8 +65,8 @@ e seu uso conjunto com os __services__ e claro as propriedades que você usa
 em cada componente.
 
 3. E, finalmente, você terá que projetar uma interface atraente, usando e abusando
-tudo o que você sabe sobre CSS e animações para que você tenha um jogo atraente e que
-as pessoas gostam. Você tem que convidar para jogar o seu jogo.
+tudo o que você sabe sobre CSS e animações para que você tenha um jogo atraente
+e que as pessoas gostam. Você tem que convidar para jogar o seu jogo.
 
 ## 3. Objetivos de aprendizagem
 
@@ -132,8 +135,9 @@ e me avise quando estiver pronto para começar a jogar.
 #### [História de usuário 4] Ataque e saiba o resultado
 
 Como usuário, devo saber quando é minha vez de escolher
-uma coordenada para atacar. Eu também deveria ser capaz de saber se eu anchunte ou não
-qualquer um dos navios do meu oponente e se eu afundei ou não algum de seus navios.
+uma coordenada para atacar. Eu também deveria ser capaz de saber se eu anchunte
+ou não qualquer um dos navios do meu oponente e se eu afundei ou não algum de
+seus navios.
 
 #### [História de usuário 5] Recebendo ataques
 
