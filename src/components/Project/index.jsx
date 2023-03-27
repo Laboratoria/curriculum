@@ -106,7 +106,7 @@ const Project = () => {
   const { repo, version, path, intl } = project;
   const { title, summary } = intl[lang];
   const repoUrl = `https://github.com/${repo}`;
-  const readmeUrl = `${repoUrl}/blob/v${version}/${path}/README${lang === 'pt' ? '.pt-BR' : ''}.md`;
+  const readmeUrl = `${repoUrl}/blob/v${version}/${path}/README${lang === 'pt' ? '.pt' : ''}.md`;
   const projectUrl = `${repoUrl}/tree/v${version}/${path}`;
 
   return (
