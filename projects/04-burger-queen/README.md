@@ -156,7 +156,7 @@ archivos/carpetas con la configuración de Fierbase (hosting y firestore):
 ├── firestore.indexes.json
 ├── firestore.rules
 ├── README.md
-└── README.pt-BR.md
+└── README.pt.md
 ```
 
 Por otro lado, la parte de la interfaz no está incluida, por lo que, deberás
