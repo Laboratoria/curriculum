@@ -10,8 +10,9 @@ track: web-dev
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Pistas, tips y lecturas complementarias](#5-pistas-tips-y-lecturas-complementarias)
-* [6. Hacker edition](#6-hacker-edition)
+* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+* [6. Pistas, tips y lecturas complementarias](#5-pistas-tips-y-lecturas-complementarias)
+* [7. Hacker edition](#6-hacker-edition)
 
 ## 1. Preámbulo
 
@@ -35,34 +36,34 @@ Battleship es un juego clásico, con múltiples versiones en juegos de mesa y en
 linea (si no lo conoces, puedes verlo en este link :
 [battle-ship](https://es.wikipedia.org/wiki/Batalla_naval_(juego))).
 
-El juego es para dos personas. Consiste en que en un tablero cada jugador coloca
+El juego es para dos personas. Consiste en que en un tablero cada jugadora coloca
 un conjunto de barcos, ocultando su posición del contrincante. Luego, por
-turnos, van anunciando una posición del tablero y el enemigo informa si le han
-dado a uno de sus barcos o no. El juego termina cuando un jugador ha conseguido
-hundir todos los barcos del otro.
+turnos, van anunciando una posición del tablero y la enemiga informa si le han
+dado a uno de sus barcos o no. El juego termina cuando una jugadora ha conseguido
+hundir todos los barcos de la otra.
 
 En este proyecto deberás crear una nueva versión, agregándole algún giro para
 actualizarlo y hacerlo más atractivo para las nuevas generaciones. También, no
 estás atada a hacer este juego sobre barcos, puedes hacerlo con el tema que más
 te guste, siempre y cuando el modo de juego sea parecido.
 
-También el juego debe ser para dos jugadores, para lograrlo debes pensar en cómo
+También el juego debe ser para dos jugadoras, para lograrlo debes pensar en cómo
 puedes estructurar la información, estado de la aplicación y cómo guardarlos en
 alguna base de datos como __Firebase__ o __MongoDB Stitch__.
 
-## 3. Objetivos de aprendizaje
+### Los objetivos generales de este proyecto son los siguientes
 
-1. El objetivo principal de hacer este juego es que puedas diseñar un esquema de
-datos y lo apliques a una base de datos conocida, como _firebase_ o _mongodb_.
+1. Diseñar un esquema de datos y lo apliques a una base de datos conocida,
+como _Firebase_ o _MongoDB_.
 Muchas veces el como modeles la información es más importante a como estructures
 tu código, ya que los problemas que puedan aparecer en el futuro tendrán su
 origen acá.
 
 2. No menos importante, tendrás que diseñar y mantener el estado dentro de la
 aplicación, esto es la información que usas y guardas temporalmente por cada
-ejecución. Para esto unas herramientas para _react_ que te pueden servir son
+ejecución. Para esto unas herramientas para _React_ que te pueden servir son
 __Redux__ o también __Context API__ así como también los estados internos de
-cada componente. Por el lado de _angular_ tendrás a los __observables__
+cada componente. Por el lado de _Angular_ tendrás a los __observables__
 y su uso conjunto con los __servicios__ y por supuesto las propiedades que uses
 en cada componente.
 
@@ -70,37 +71,112 @@ en cada componente.
 todo lo que sabes de CSS y animaciones para que tengas un juego vistoso y que
 guste a la gente. Tienes que invitar a jugar tu juego.
 
-Tópicos: _react_, _angular_, _redux_, _firebase_, _mongodb stitch_.
+## 3. Objetivos de aprendizaje
+
+> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
+> al crear el repo del proyecto para un cohort en particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
+> que contempla nuestra currícula.
 
 ## 4. Consideraciones generales
 
 Este proyecto se debe resolver en equipos de 3 personas.
 
 La planificación es clave, por lo que debes coordinarte con tu equipo e
-identificar las historias de usuario, priorizarlas y trabajarlas sprint a sprint
+identificar las historias de usuaria, priorizarlas y trabajarlas sprint a sprint
 cuidando de que hayan test para el código, se haya hecho test con usuarios sobre
 la usabilidad y cumpliendo con las ceremonias de SCRUM que has aprendido a lo
 largo del bootcamp.
 
-También para este proyecto, usa cualquier framework (_react_, _angular_, etc...)
-cuidando de que se vea bien en las pantallas de celular o computador, que los
-jugadores puedan elegir la plataforma libremente sin prejuicio de la
+También para este proyecto, usa cualquier framework (_React_, _Angular_, etc...)
+cuidando de que se vea bien en las pantallas de celular o computador, que las
+jugadoras puedan elegir la plataforma libremente sin prejuicio de la
 jugabilidad. Para esto considera un tamaño variable de pantalla y que los
 elementos del juego se redimensionen dependiendo de ella.
 
 Para la base de datos, trata de modelar bien cómo guardarás los datos y piensa
 bien el cómo soportar varios usuarios a la vez en diferentes salas de juego.
 Recuerda que "battleship" se juega de a dos. Usa tu creatividad para asignar
-contrincantes a cada jugador.
+contrincantes a cada jugadora.
 
-### Definición de terminado para cada historia de usuario
+### Definición de terminado para cada historia de usuaria
 
 * Debes haber recibido _code review_ de al menos una compañera.
 * Haces _test_ unitarios y, además, has testeado tu producto manualmente.
 * Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
 * Desplegaste tu aplicación y has etiquetado tu versión (git tag).
 
-## 5. Pistas, tips y lecturas complementarias
+## 5. Criterios de aceptación mínimos del proyecto
+
+### Definición del producto
+
+La [_Product Owner_](https://youtu.be/r2hU7MVIzxs) nos presenta este _backlog_
+que es el resultado de su trabajo colaborativo.
+
+***
+
+### Historias de usuaria
+
+#### [Historia de usuaria 1] Crear usuaria e iniciar sesión
+
+Yo como usuaria debo poder crear una cuenta y
+autenticarme usando el login de Google para acceder al juego.
+
+#### [Historia de usuaria 2] Crear o unirme un juego
+
+Yo como usuaria debería poder crear un nuevo juego o
+unirme a un juego creado por otra usuaria.
+
+#### [Historia de usuaria 3] Desplegar mi flota
+
+Yo como usuaria quiero posicionar mis naves en una tabla (grilla)
+y avisar cuando estoy lista para comenzar a jugar.
+
+#### [Historia de usuaria 3] Atacar y conocer el resultado
+
+Yo como usuaria debería saber cuando es mi turno para escoger
+una coordenada a atacar. Deberia además poder saber si anchunté o no
+alguna nave de mi oponente y si hundí o no alguna de sus naves.
+
+#### [Historia de usuaria 4] Recibir ataques
+
+Yo como usuaria debería saber cual coordenada ha atacado mi oponente
+y saber si anchuntó o no alguna de mis naves y si hundió alguna o no.
+
+#### [Historia de usuaria 5] Conocer el estado del juego
+
+Yo como usuaria debería poder conocer el estado del juego, ver un historial
+de los movimientos jugados y cuales dieron en el blanco y cuales no, y si
+he hundido una nave oponente o no, además de ver mis naves hundidas y
+coordenadas atacadas.
+
+#### [Historia de usuaria 6] Fin de un juego
+
+Yo como usuaria debería poder saber cuando se ha terminado el juego
+y quien es la persona ganadora, además de poder abandonar un juego si
+es necesario.
+
+***
+
+#### Criterios de aceptación
+
+Lo que debe ocurrir para que se satisfagan los objetivos del proyecto
+y cubra las necesidades de las usuarias.
+
+* Crear cuenta y/o iniciar sesión con Google.
+* Crear o unirse a un juego.
+* Escoger las coordenadas de posiciones de naves antes de empezar el juego.
+* Iniciar el juego, escoger una coordenada para atacar las naves de mi
+oponente y saber el resultado de ese ataque
+(da en el blanco, hunde una nave, o falla).
+* Saber el estado del juego: A quien le toca; Historial de movimientos,
+tiros al blanco o al agua y quien resulta vencedora.
+* Se ve y funciona bien en un dispositivo móvil.
+
+## 6. Pistas, tips y lecturas complementarias
 
 1. Modelar los datos, es un paso muy importante, considera que el juego es de
 dos personas, pero más de una pareja puede estar jugando a la vez (modelo de
@@ -117,11 +193,11 @@ barcos de formas y tamaños diferentes.
 
 4. Ten el concepto de turno y guarda de quién es el turno cada vez en la base de
 datos. También define la condición de término en una forma que tu código lo
-pueda detectar, como por ejemplo : todos los barcos se han hundido.
+pueda detectar, como por ejemplo: todos los barcos se han hundido.
 
 5. Llevar el estado del juego es primordial, define bien las acciones,
 reducidores y datos que estarán en cada juego, turno y movida de los jugadores.
-Puedes hacer un diagrama de estados para esto :
+Puedes hacer un diagrama de estados para esto:
 [diagrama-estados](https://www.lucidchart.com/pages/es/diagrama-de-maquina-de-estados)
 
 ### Otros recursos
@@ -142,7 +218,7 @@ Puedes hacer un diagrama de estados para esto :
 * [visualizador-observables](https://rxviz.com/)
 * [visualizador-observables-2](https://rxmarbles.com/)
 
-## 6. Hacker edition
+## 7. Hacker edition
 
 Hasta el momento has usado javascript, html, css, react, angular, y otras
 herramientas para hacer tus aplicaciones, pero ¿qué tal si te aventuras con tu
