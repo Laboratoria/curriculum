@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Aplicando descuentos
-
-* Environment: `js`
-
-***
 
 Un día aparece un bug en una tienda online en la que estás trabjando. Alguien
 del equipo ha añadido una nueva funcionalidad para poder aplicar descuentos a

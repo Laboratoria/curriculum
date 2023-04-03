@@ -1,6 +1,3 @@
-'use strict';
-
-
 // Broken: returns new array but mutates same object references.
 // const applyDiscount = (cart) => {
 //   if (!cart.length) {

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 40min
+---
+
 # Web APIs
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `40min`
-
-***
 
 ## Objetivos de Aprendizaje
 
@@ -18,7 +17,7 @@ dónde podemos ver cuáles existen. Para ello, te dejamos los siguientes recurso
 
 - [Public-APIS](https://github.com/abhishekbanthia/Public-APIs)
 - [Any API](https://any-api.com/)
-- [Public APIs - Github Repo](https://public.apis.zone/)
+- [Public APIs - Github Repo](https://github.com/public-apis/public-apis)
 - [API Directory](https://www.programmableweb.com/apis/directory)
 - [API List](https://apilist.fun/)
 

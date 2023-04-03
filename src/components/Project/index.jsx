@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
-import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
+import { Loading } from '@laboratoria/react';
 import Breadcrumbs from '../Breadcrumbs';
-import Loading from '../Loading';
 import data from '../../lib/data';
 
 const ExternalLink = ({ url, title }) => (
@@ -75,7 +75,7 @@ const Project = () => {
   const [learningObjectives, setLearningObjectives] = useState();
 
   useEffect(() => {
-    const id = `projects/${slug}${lang !== 'es' ? '-pt' : ''}`;
+    const id = `projects/${slug}`;
     data.subscribe(id, setProject);
     data.subscribe('learning-objectives', setLearningObjectives);
     return () => {
@@ -87,6 +87,14 @@ const Project = () => {
     return <Loading />;
   }
 
+  if (!project.intl[lang]) {
+    return (
+      <Container>
+        <FormattedMessage id="not-available-in-lang" />
+      </Container>
+    );
+  }
+
   const learningObjectiveCats = (project.learningObjectives || []).reduce(
     (memo, item) => {
       const cat = item.split('/')[0];
@@ -95,7 +103,8 @@ const Project = () => {
     [],
   );
 
-  const { repo, version, path } = project;
+  const { repo, version, path, intl } = project;
+  const { title, summary } = intl[lang];
   const repoUrl = `https://github.com/${repo}`;
   const readmeUrl = `${repoUrl}/blob/v${version}/${path}/README${lang === 'pt' ? '.pt-BR' : ''}.md`;
   const projectUrl = `${repoUrl}/tree/v${version}/${path}`;
@@ -103,11 +112,11 @@ const Project = () => {
   return (
     <Container>
       <Breadcrumbs project={project} />
-      <Typography variant="h1">{project.title}</Typography>
+      <Typography variant="h1">{title}</Typography>
 
       <div>
-        <img alt={project.title} src={project.cover} width="100%" />
-        <div dangerouslySetInnerHTML={{ __html: project.summary }} />
+        <img alt={title} src={project.cover} width="100%" />
+        <div dangerouslySetInnerHTML={{ __html: summary }} />
       </div>
 
       <p>

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 25min
+---
+
 # Opening
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `25min`
-
-***
 
 ## Objetivos de Aprendizaje
 

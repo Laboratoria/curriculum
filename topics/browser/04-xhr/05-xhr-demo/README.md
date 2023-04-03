@@ -1,10 +1,9 @@
+---
+type: read
+duration: 120min
+---
+
 # XHR Project Demo
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `120min`
-
-***
 
 ## Objetivos de Aprendizaje
 

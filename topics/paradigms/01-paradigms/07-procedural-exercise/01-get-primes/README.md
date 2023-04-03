@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # getPrimes()
-
-* Environment: `js`
-
-***
 
 La programación _procedural_ (por procedimientos) introduce el concepto de
 procedimientos o funciones que nos permiten agrupar instrucciones, y así reusar

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 10min
+---
+
 # Shell de UNIX
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
-
-***
 
 ## Qué es la shell de UNIX?
 

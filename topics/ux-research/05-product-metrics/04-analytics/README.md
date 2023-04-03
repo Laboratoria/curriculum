@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Analytics
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30 min`
-
-***
 
 ## Intro
 

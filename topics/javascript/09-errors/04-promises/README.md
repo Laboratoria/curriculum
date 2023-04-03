@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Errores en promesas
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
-
-***
 
 A partir de ECMAScript 6, JavaScript incluye objetos `Promise` que nos permiten
 controlar el flujo de operaciones diferidas y asíncronas.

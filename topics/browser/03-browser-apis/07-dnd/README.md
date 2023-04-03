@@ -1,10 +1,9 @@
+---
+type: read
+duration: 90min
+---
+
 # Drag and Drop
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `90min`
-
-***
 
 ## Objetivos de Aprendizaje
 

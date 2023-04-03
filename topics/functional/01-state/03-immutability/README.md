@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Inmutabilitidad
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `30min`
-
-***
 
 La inmutabilidad es un principio fundamental en la programación funcional, y
 también tiene ventajas que ofrecer a otros paradigmas como el orientado a

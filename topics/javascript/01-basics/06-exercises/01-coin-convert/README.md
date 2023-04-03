@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # coinConvert
 
 En este ejercicio nos concentraremos en asignar _valores_ en _variables_. El

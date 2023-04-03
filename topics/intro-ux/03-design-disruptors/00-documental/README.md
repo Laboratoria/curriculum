@@ -1,10 +1,9 @@
+---
+type: read
+duration: 90min
+---
+
 # Clase de Conceptos
-
-- Tipo: `video`
-- Formato: `self-paced`
-- Duración: `90min`
-
-***
 
 ## Documental `Design Disruptors`
 

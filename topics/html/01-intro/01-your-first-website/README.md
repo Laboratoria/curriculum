@@ -1,8 +1,9 @@
-# Tu primer sitio web
+---
+type: read
+duration: 20min
+---
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `20min`
+# Tu primer sitio web
 
 ## Objetivos de aprendizaje
 

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 4h
+---
+
 # Intro a CSS
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `4h`
-
-***
 
 ## Objetivos de Aprendizaje
 

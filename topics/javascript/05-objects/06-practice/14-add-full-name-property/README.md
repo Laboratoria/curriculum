@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # addFullNameProperty
 
 Escribe una función llamada `addFullNameProperty(person)`.

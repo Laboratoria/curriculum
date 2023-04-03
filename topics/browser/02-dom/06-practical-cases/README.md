@@ -1,8 +1,9 @@
-# Casos prácticos (videos)
+---
+type: read
+duration: 6h
+---
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `6h`
+# Casos prácticos (videos)
 
 ## Objetivos
 

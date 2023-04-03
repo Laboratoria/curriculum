@@ -1,10 +1,9 @@
+---
+type: read
+duration: 40min
+---
+
 # User Stories
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `40 min`
-
-***
 
 ## Intro
 

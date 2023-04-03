@@ -1,10 +1,9 @@
+---
+type: practice
+duration: 1h
+---
+
 # Ejercicio guía de entrevistas
-
-- Tipo: `workshop`
-- Formato: `self-paced`
-- Duración: `1h`
-
-***
 
 ## Indicaciones
 
@@ -25,4 +24,3 @@ y si tienes que hacer algún ajuste, házlo ahora.
   con tu primera entrevista para adaptar/mejorar tu guía de entrevistas.
 - Júntate nuevamente en grupos de 3 (con otras compañeras) y repitan el
   ejercicio de entrevistarse.
-  

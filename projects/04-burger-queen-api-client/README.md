@@ -123,6 +123,8 @@ este terminada para empezar a codear, puedes utilizar herramientas
 como [nock](https://github.com/nock/nock), [json-server](https://www.npmjs.com/package/json-server)
 o [mockoon](https://mockoon.com) para mockear la API.
 
+El rango de tiempo estimado para completar el proyecto es de 3 a 5 Sprints.
+
 Trabaja en una historia hasta terminarla antes de pasar a la siguiente. Trabaja
 hasta la historia que puedas en el tiempo especificado.
 

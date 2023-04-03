@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Object.create
-
-* Environment: `js`
-
-***
 
 Como comentamos anteriormente, `__proto__` no es una manera estándar de asignar
 prototipos. Una manera más sencilla es usando `Object.create()`,

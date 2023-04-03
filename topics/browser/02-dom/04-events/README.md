@@ -1,8 +1,9 @@
-# Eventos
+---
+type: read
+duration: 30min
+---
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
+# Eventos
 
 ## Objetivos de Aprendizaje
 
@@ -168,7 +169,7 @@ Estos son algunos de los eventos más utilizados:
 - setting timers
 - debouncing
 
-[Aquí](https://codepen.io/Inti_Developer/pen/EvGMKG) podrás encontrar un
+[Aquí](https://codepen.io/intidev/pen/rNOQVyO) podrás encontrar un
 ejemplo sobre la interacción con los eventos.
 
 > Guía de uso:

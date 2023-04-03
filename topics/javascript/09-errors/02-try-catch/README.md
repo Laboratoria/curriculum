@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Try...catch
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
-
-***
 
 JavaScript soporta un conjunto compacto de sentencias específicamente para el
 manejo de flujo, que pueden ser utilizadas para incorporar mayor interactividad

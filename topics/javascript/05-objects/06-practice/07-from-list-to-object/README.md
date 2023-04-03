@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # fromListToObject
 
 Escribe una función `fromListToObject` que toma un array de matrices, y

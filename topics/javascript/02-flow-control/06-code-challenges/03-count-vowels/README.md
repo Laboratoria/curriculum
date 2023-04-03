@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Contar vocales
-
-* Environment: `js`
-
-***
 
 Crea una función que cuente el número de vocales de un `string`. Sigue los pasos
 a continuación para que completes el programa.

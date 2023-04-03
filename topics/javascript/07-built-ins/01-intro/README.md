@@ -1,8 +1,9 @@
-# Objetos preconstruidos
+---
+type: read
+duration: 15min
+---
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+# Objetos preconstruidos
 
 ## Objetivos de Aprendizaje
 
@@ -102,10 +103,10 @@ simplemente usando la función `Math.sqrt()`.
 * [Error](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Error)
 * [EvalError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/EvalError)
 * [InternalError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/InternalError)
-* [RangeError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/RangeError)
+* [RangeError](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/RangeError)
 * [ReferenceError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/ReferenceError)
 * [SyntaxError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/SyntaxError)
-* [TypeError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/TypeError)
+* [TypeError](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
 * [URIError](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/URIError)
-* [DataView](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/DataView)
+* [DataView](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView)
 * [Proxy](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Proxy)

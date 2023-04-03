@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # convertDoubleSpaceToSingle
 
 Escribe una función llamada `convertDoubleSpaceToSingle`.

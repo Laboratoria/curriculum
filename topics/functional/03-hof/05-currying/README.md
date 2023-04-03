@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Aplicando curry en JavaScript funcional
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `30min`
-
-***
 
 La técnica de definir funciones atadas a múltiples parámetros como una serie de
 funciones anidadas que solo esperan un parámetro fue popularizada por el

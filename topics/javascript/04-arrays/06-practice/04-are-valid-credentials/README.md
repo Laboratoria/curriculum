@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # areValidCredentials
 
 Escribe una función llamada `areValidCredentials`.

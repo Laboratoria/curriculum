@@ -1,7 +1,6 @@
+---
+type: practice
+duration: 30min
+---
+
 # Ejercicios
-
-* Tipo: `practice`
-* Formato: `self-paced`
-* Duración: `30min`
-
-***

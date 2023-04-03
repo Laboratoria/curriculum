@@ -1,10 +1,9 @@
+---
+type: read
+duration: 60min
+---
+
 # Bootstrap
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `60min`
-
-***
 
 ## Objetivos de Aprendizaje
 

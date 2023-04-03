@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Funciones de orden superior (Higher Order Functions)
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `30min`
-
-***
 
 Una función de orden superior se adhiere a una definición muy específica:
 

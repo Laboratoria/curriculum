@@ -1,8 +1,9 @@
+---
+env: cjs
+---
+
 # Object factories
 
-* Environment: `js`
-
-***
 Las factories o factory functions son simplemente functiones que crean objetos.
 Podemos usar factories como alternativa a los constructores, siendo más simples
 y por la tanto más fácil visualizar lo que hacen.

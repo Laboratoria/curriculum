@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Aserciones
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `30min`
-
-***
 
 En las lecturas anteriores hemos visto como usar `mocha` para construir la
 estructura de qué queremos probar/testear, pero todavía nos falta hacer las

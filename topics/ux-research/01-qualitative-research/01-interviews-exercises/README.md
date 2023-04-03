@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Ejercicio entrevistas mudas
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
-
-***
 
 ## Indicaciones
 

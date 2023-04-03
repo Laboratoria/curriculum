@@ -31,16 +31,27 @@ más comentado.
 En este proyecto construirás una Red Social sobre lo que decidan tú y tu equipo.
 Podría ser, por ejemplo, sobre alimentación saludable, feminismo, educación,
 salud, energías renovables, amantes de las [Empanadas](https://es.wikipedia.org/wiki/Empanada)
-o de los [Tacos de Canasta](https://es.wikipedia.org/wiki/Taco), de la
-[Feijoada](https://es.wikipedia.org/wiki/Feijoada), o de lo que sea.
+o de los [Tacos de Canasta](https://es.wikipedia.org/wiki/Taco),
+de la [Feijoada](https://es.wikipedia.org/wiki/Feijoada), o de lo que sea.
 
-Tu Red Social tendrá que permitir a cualquier usuario crear una cuenta de
-acceso y loguearse con ella; crear, editar, borrar y _"likear"_ publicacciones.
+Tu Red Social tendrá que permitir a cualquier usuario crear una cuenta de acceso
+y loguearse con ella; crear, editar, borrar y _"likear"_ publicacciones.
 
-El objetivo principal de aprendizaje de este proyecto es construir una
+Por lo tanto, en este proyecto construirás una
 [Single-page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application)
 [_responsive_](../../topics/css/02-responsive) (con más de una vista / página)
 en la que podamos **leer y escribir datos**.
+
+### Los objetivos generales de este proyecto son los siguientes
+
+* Desarrollar una SPA con temática de red social
+* Aplicar los conceptos de responsividad en el desarrollo de las vistas (templates)
+* Implementar un router para la navegación entre las diferentes vistas de la aplicación
+* Emplear un servicio externo para la persistencia de datos de la aplicación
+* Crear una suite de pruebas unitarias que permitan testear código asíncrono
+
+Para lograr estos objetivos, deberás aprender y hacer uso de las siguientes
+herramientas o habilidades técnicas:
 
 ## 3. Objetivos de aprendizaje
 
@@ -55,6 +66,8 @@ en la que podamos **leer y escribir datos**.
 ## 4. Consideraciones generales
 
 * Este proyecto se debe trabajar en equipos de tres.
+
+* El rango de tiempo estimado para completar el proyecto es de 4 a 5 Sprints.
 
 * La lógica del proyecto debe estar implementada completamente en JavaScript
   (ES6+), HTML y CSS :smiley:. Para este proyecto **no está permitido** utilizar
@@ -84,9 +97,25 @@ Para comenzar tendrás que hacer un _fork_ y _clonar_ este repositorio.
 
 ### 5.1 Boilerplate
 
-Este proyecto no incluye un _boilerplate_, así es que tendrás que definir la
-estructura de carpetas y escribir tus propias Pruebas Unitarias (_tests_). Para
-hacerlo, puedes guiarte de los proyectos anteriores.
+Este proyecto no incluye un _boilerplate_ completo, solo algunos archivos de
+configuración basico, así es que tendrás que definir la estructura de carpetas
+y escribir tus propias Pruebas Unitarias (_tests_). Para hacerlo, puedes guiarte
+de los proyectos anteriores y/o organizar los archivos siguiendo una estructura
+de [Modelo-Vista-Controlador](https://developer.mozilla.org/es/docs/Glossary/MVC).
+
+En este proyecto vamos a usar una herramienta llamada
+[Vite](https://es.vitejs.dev/) para empaquetar nuestros módulos y arrancar
+el servidor de desarrollo, el cual provee nuestros archivos utilizando
+la estrategia `Hot Module Replacement`
+[(HMR)](https://es.vitejs.dev/guide/features.html#hot-module-replacement),
+esto significa que cuando hagas cambios en los archivos que estén siendo
+servidos, el navegador automáticamente se actualizará sin tener que refrescar
+y volver a cargar todo el sitio. Debes tener especial cuidado de no tener
+ninguna _dependencia circular_ en tu código ya que
+[eso puede ocasionar problemas con HMR](https://es.vitejs.dev/guide/troubleshooting.html#ocurre-un-refresco-completo-en-lugar-de-hmr).
+(`eslint-plugin-import` tiene una regla
+[import/no-cycle](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md)
+que va a avisar si las tiene.)
 
 ### 5.2 Definición del producto
 
@@ -216,8 +245,10 @@ profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
 ## 7. Entrega
 
 El proyecto será _entregado_ subiendo tu código a GitHub (`commit`/`push`) y la
-interfaz será desplegada usando GitHub pages u otro servicio de hosting que
-puedas haber encontrado en el camino.
+interfaz será desplegada usando GitHub pages u otro servicio de hosting
+(Firebase, Netlify, Vercel, etc) que puedas haber encontrado en el camino.
+Revisa la [documentación de Vite](https://vitejs.dev/guide/static-deploy.html)
+para guiarte con eso.
 
 ***
 
@@ -258,6 +289,10 @@ habíamos escrito datos (salvar cambios, crear datos, borrar, ...). En este
 proyecto tendrás que crear (salvar) nuevos datos, así como leer, actualizar y
 modificar datos existentes. Estos datos se podrán guardar de forma remota
 usando [Firebase](https://firebase.google.com/).
+
+Para usar Firebase hay que crear un proyecto en la consola de Firebase e
+instalar la dependencia `firebase` utilizando `npm`.
+Lee [las instrucciones paso a paso aqui](https://firebase.google.com/docs/web/setup).
 
 Otras:
 

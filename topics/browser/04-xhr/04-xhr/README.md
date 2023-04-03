@@ -1,10 +1,9 @@
+---
+type: read
+duration: 90min
+---
+
 # XHR
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `90min`
-
-***
 
 ## Objetivos de Aprendizaje
 

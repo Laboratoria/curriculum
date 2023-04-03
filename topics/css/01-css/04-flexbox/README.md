@@ -1,8 +1,9 @@
-# Flexbox
+---
+type: read
+duration: 2h
+---
 
-- Tipo: `lectura`
-- Formato: `individual`
-- Duración: `2h`
+# Flexbox
 
 ## Objetivos de aprendizaje
 

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 1h
+---
+
 # Objetivos de Negocio
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `1h`
-
-***
 
 ## Objetivos de negocio
 

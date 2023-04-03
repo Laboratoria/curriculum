@@ -1,8 +1,9 @@
-# Sketching
+---
+type: read
+duration: 90min
+---
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `90min`
+# Sketching
 
 ## Objetivos de aprendizaje
 

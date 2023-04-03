@@ -1,10 +1,9 @@
+---
+type: practice
+duration: 40min
+---
+
 # Ejercicios sobre color
-
-- Tipo: `practice`
-- Formato: `self-paced`
-- Duración: `40min`
-
-***
 
 ## RETO 1
 

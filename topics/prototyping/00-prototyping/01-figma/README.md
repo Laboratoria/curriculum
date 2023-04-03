@@ -1,10 +1,9 @@
+---
+type: practice
+duration: 2h
+---
+
 # Figma
-
-- Tipo: `taller`
-- Formato: `guiado`
-- Duración: `2h`
-
-***
 
 ## Intro
 
@@ -25,7 +24,7 @@ de UXShot.
 
 - Anda a [Figma.com](https://www.figma.com/)
 - Configura tu browser para que puedas usar Figma de la mejor manera. Mira este
-  [link](https://help.figma.com/getting-started/configuring-your-browser). Te
+  [link](https://help.figma.com/hc/en-us/articles/360039828614). Te
   recomendamos usar Google Chrome.
 
 #### Qué permite una cuenta gratiuta

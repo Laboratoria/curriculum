@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Número mayor que otro
-
-* Environment: `js`
-
-***
 
 Implementa una función que determine si un número es mayor a otro.
 

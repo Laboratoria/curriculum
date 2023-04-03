@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # listAllValues
 
 Escribe una función llamada `listAllValues` que devuelve un array de todos los

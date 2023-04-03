@@ -1,7 +1,8 @@
 **/node_modules/
-topics/000-FIXME/
-projects/000-FIXME/
+tmp/
 projects/learning-objectives.md
 /README.md
-/README.pt-BR.md
+/README.pt.md
+projects/00-trivia/README.pt.md
 projects/06-job-application/Activities.md
+projects/06-job-application/Activities.pt.md

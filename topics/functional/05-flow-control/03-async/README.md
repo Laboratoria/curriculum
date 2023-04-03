@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Asincronía en JavaScript
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: 30min
-
-***
 
 ## ¿Cuál es la diferencia entre código síncrono y asíncrono?
 
@@ -454,7 +453,7 @@ asíncrono.
 
 ## Referencias
 
-* [Introduction to asynchronous JavaScript](https://www.pluralsight.com/guides/front-end-javascript/introduction-to-asynchronous-javascript)
+* [Introduction to asynchronous JavaScript](https://www.pluralsight.com/guides/introduction-to-asynchronous-javascript)
 * [WindowOrWorkerGlobalScope.setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
 * [WindowOrWorkerGlobalScope.setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)
 * [Async](http://caolan.github.io/async/)

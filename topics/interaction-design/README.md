@@ -1,3 +1,7 @@
+---
+track: ux
+---
+
 # Interaction Design
 
 En este curso aprenderás las bases fundamentales para hacer que tus productos

@@ -1,50 +1,44 @@
 import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { useApp } from '../../lib/app';
-import Loading from '../Loading';
+import { useApp, Loading } from '@laboratoria/react';
 import RoutesWithIntl from './RoutesWithIntl';
 import './App.css';
 
 const App = () => {
   const { auth } = useApp();
-  const [defaulLocale, setDefaulLocale] = useState();
+  const [defaultLang, setDefaultLang] = useState();
 
   useEffect(() => {
     if (auth.user && !auth.profile) {
       return;
     }
 
-
-    const profileLocale = (auth.profile || {}).locale;
-    setDefaulLocale(
-      ['es-ES', 'pt-BR'].includes(profileLocale)
-        ? profileLocale
+    const profileLang = auth.user?.lang;
+    setDefaultLang(
+      ['es', 'pt'].includes(profileLang)
+        ? profileLang
         : navigator.language.split('-')[0] === 'pt'
-          ? 'pt-BR'
-          : 'es-ES'
+          ? 'pt'
+          : 'es'
     )
   }, [auth]);
 
-  if (!defaulLocale) {
+  if (!defaultLang) {
     return <Loading />;
   }
 
-  const defaultLang = defaulLocale.split('-')[0];
-
   return (
     <Router>
-      <div className="App">
-        <Routes>
-          <Route
-            path="/"
-            element={<Navigate to={`/${defaultLang}`} />}
-          />
-          <Route
-            path="/:lang/*"
-            element={<RoutesWithIntl defaultLang={defaultLang} />}
-          />
-        </Routes>
-      </div>
+      <Routes>
+        <Route
+          path="/"
+          element={<Navigate to={`/${defaultLang}/${window.location.search}`} />}
+        />
+        <Route
+          path="/:lang/*"
+          element={<RoutesWithIntl defaultLang={defaultLang} />}
+        />
+      </Routes>
     </Router>
   );
 };

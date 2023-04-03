@@ -1,13 +1,12 @@
 import { lazy, Suspense } from 'react';
 import { Navigate, Routes, Route, useLocation, useParams } from 'react-router-dom';
-import IntlProvider from '../../intl/IntlProvider';
-import Loading from '../Loading';
+import { Loading, ScrollRestoration } from '@laboratoria/react';
+import { IntlProvider } from '../../intl';
 
 // Dynamic lazy imports for code splitting based on routes.
 const Home = lazy(() => import('../Home'));
 const Topic = lazy(() => import('../Topic'));
 const Project = lazy(() => import('../Project'));
-const SignIn = lazy(() => import('../SignIn'));
 const TopBar = lazy(() => import('../TopBar'));
 const Track = lazy(() => import('../Track'));
 
@@ -26,9 +25,9 @@ const RoutesWithIntl = ({ defaultLang }) => {
   return (
     <Suspense fallback={<Loading />}>
       <IntlProvider lang={lang}>
+        <ScrollRestoration />
         <TopBar />
         <Routes>
-          <Route path={`signin`} element={<SignIn />} />
           <Route path={`projects/:slug`} element={<Project />} />
           <Route path={`topics/:slug/*`} element={<Topic />} />
           <Route path={`:track/*`} element={<Track />} />

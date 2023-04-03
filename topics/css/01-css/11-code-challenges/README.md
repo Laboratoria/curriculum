@@ -1,10 +1,9 @@
+---
+type: practice
+duration: 24h
+---
+
 # Retos de código
-
-- Tipo: `práctica`
-- Formato: `self-paced`
-- Duración: `24h`
-
-***
 
 ## Objetivos
 

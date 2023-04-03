@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Asignación de propiedades
-
-* Environment: `js`
-
-***
 
 Qué pasa si actualizas una propiedad que ya existía en el prototipo? Veamos:
 

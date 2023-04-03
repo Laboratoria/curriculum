@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Puedes conducir y votar?
-
-* Environment: `js`
-
-***
 
 Crea una función que determine si una persona puede manejar (16 años o más) y
 votar (18 años o más)

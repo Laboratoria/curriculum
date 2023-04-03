@@ -1,10 +1,9 @@
+---
+type: read
+duration: 90min
+---
+
 # Jerarquía y diseño responsivo
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `90min`
-
-***
 
 ## Objetivos de aprendizaje
 

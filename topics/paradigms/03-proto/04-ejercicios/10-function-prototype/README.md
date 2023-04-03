@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Prototipos de funciones
-
-* Environment: `js`
-
-***
 
 Toda función en JavaScript tiene una propiedad especial llamada `prototype`.
 

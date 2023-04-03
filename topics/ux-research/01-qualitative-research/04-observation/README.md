@@ -1,10 +1,9 @@
+---
+type: read
+duration: 20min
+---
+
 # Investigación Contextual
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `20min`
-
-***
 
 ## Intro
 

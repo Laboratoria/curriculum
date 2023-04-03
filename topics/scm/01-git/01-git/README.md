@@ -1,10 +1,9 @@
+---
+type: read
+duration: 5min
+---
+
 # ¿Qué es Git?
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `5min`
-
-***
 
 El texto a continuación se basa en gran medida, con ciertos ajustes, en las
 siguientes páginas:
