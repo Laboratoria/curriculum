@@ -2,6 +2,12 @@ const path = require('path');
 const { spawn } = require('child_process');
 const kill = require('tree-kill');
 
+/* Descomentar eso para mongoDB
+const globalSetup = require("@shelf/jest-mongodb/lib/setup");
+const MongodbMemoryServer = require('mongodb-memory-server').default;
+
+global.__MONGOD__ = MongodbMemoryServer;
+*/
 const config = require('../config');
 
 const port = process.env.PORT || 8888;
@@ -106,9 +112,23 @@ module.exports = () => new Promise((resolve, reject) => {
   }
 
   // TODO: Configurar DB de tests
-
-  console.info('Staring local server...');
-  const child = spawn('npm', ['start', process.env.PORT || 8888], {
+  
+  /* si usas mongoDB
+    globalSetup({rootDir: __dirname}).then(() => {
+      // console.log(global.__MONGOD__);
+      console.info('Starting local server...');
+      const child = spawn("node", [ "index.js", process.env.PORT || 8888], 
+        { 
+          cwd: path.resolve(__dirname, "../"), 
+          stdio: ["ignore", "pipe", "pipe"], 
+          env: { PATH: process.env.PATH, MONGO_URL: process.env.MONGO_URL }
+        }
+      );
+      })
+      .catch((error) => console.log(error));
+  */
+  console.info('Starting local server...');
+  const child = spawn(/^win/.test(process.platform) ? 'npm.cmd' : 'npm', ['start', process.env.PORT || 8888], {
     cwd: path.resolve(__dirname, '../'),
     stdio: ['ignore', 'pipe', 'pipe'],
   });
