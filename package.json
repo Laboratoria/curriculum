@@ -38,8 +38,8 @@
     "@emotion/styled": "^11.10.6",
     "@laboratoria/react": "^4.0.0-beta.4",
     "@mui/icons-material": "^5.11.11",
-    "@mui/material": "^5.11.11",
-    "@mui/styles": "^5.11.11",
+    "@mui/material": "^5.11.12",
+    "@mui/styles": "^5.11.12",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^12.1.5",
     "@testing-library/user-event": "^13.5.0",
@@ -50,7 +50,7 @@
     "react-intl": "^6.2.10",
     "react-router-dom": "^6.6.1",
     "react-scripts": "^5.0.1",
-    "web-vitals": "^3.1.1"
+    "web-vitals": "^3.3.1"
   },
   "devDependencies": {
     "@laboratoria/curriculum-parser": "^5.0.0-alpha.4",
@@ -59,18 +59,18 @@
     "buffer": "^6.0.3",
     "chai": "^4.3.7",
     "chokidar": "^3.5.3",
-    "concurrently": "^7.6.0",
+    "concurrently": "^8.0.1",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jest": "^27.2.1",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.32.2",
     "minimist": "^1.2.8",
-    "mkdirp": "^2.1.4",
+    "mkdirp": "^2.1.6",
     "mocha": "^10.2.0",
     "porch": "^2.0.0",
-    "sinon": "^15.0.1",
-    "ws": "^8.12.1"
+    "sinon": "^15.0.3",
+    "ws": "^8.13.0"
   },
   "engines": {
     "node": ">=16.x"
