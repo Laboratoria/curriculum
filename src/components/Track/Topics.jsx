@@ -46,7 +46,7 @@ const Topic = ({ lang, topic }) => {
         }
         title={title}
       />
-      <Typography variant='body2'>
+      <Typography component='div' variant='body2'>
         <CardContent>
           <div
             dangerouslySetInnerHTML={{
