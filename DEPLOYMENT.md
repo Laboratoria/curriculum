@@ -60,7 +60,7 @@ La operación de hacer un release incluye las siguientes consideraciones:
 
 * La publicación del release en Github debe ser realizada **después**
   de haber hecho el último _push_, que incluye el _tag_ de la nueva versión,
-  el cual será utilizado para ser asociado a esta. Puedes empezar 
+  el cual será utilizado para ser asociado a esta. Puedes empezar
   la publicación como draft en cualquier momento, y después del último
   _push_ con el tag, la puedes publicar.
 
