@@ -120,8 +120,8 @@ en Github) se deben ejecutar los siguiente pasos:
   al release (normalmente al repo original
   del cual hacemos fork se le configura su _remote_ bajo el alias "upstream")
   ejecutando el comando `git push upstream main --tags` (Ahora puedes
-  publicar el draft de release, eligiendo el tag correcto que acaba
-  de empujer.)
+  publicar el draft de release, eligiendo el tag correspondiente que acabas
+  de _pushear_.)
 
 Una vez realizado ese último paso, se ejecutarán en Github las
 [actions](https://github.com/features/actions) asociadas al repositorio,
