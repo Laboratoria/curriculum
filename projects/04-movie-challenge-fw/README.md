@@ -83,7 +83,7 @@ los que trabajes.
 ## 5. Criterios de aceptación mínimos del proyecto
 
 - Utilizar la _The Movie Database API V3_ o _OMDB_ o cualquier otra API
-  mediante _Fetch_ para obtener y mostrar una interfaz basada en los datos
+  mediante _fetch_ para obtener y mostrar una interfaz basada en los datos
   de cada respuesta.
 - Tu solución debe ser _responsive_. Debe adaptarse a pantallas de escritorio,
   tabletas y teléfonos.
@@ -109,6 +109,6 @@ los que trabajes.
 
 ## Contenido de referencia
 
-- [Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
+- [Fetch API](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
 
 Trata de divertirte. ¡a empezar esta aventura 🎬!

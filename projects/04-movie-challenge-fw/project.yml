@@ -7,6 +7,7 @@ learningObjectives:
   - browser/dom/selectors
   - browser/dom/events
   - browser/dom/manipulation
+  - browser/fetch
   - js/data-types/primitive-vs-non-primitive
   - js/data-types/arrays
   - js/data-types/objects
