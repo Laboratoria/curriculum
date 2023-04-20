@@ -44,8 +44,8 @@ _endpoints_ (puntos de conexión o URLs) y nos piden completar la aplicación.
 Esto implica que tendremos que partir por leer la implementación existente, y
 familiarizarnos con el _stack_ elegido ([Node.js](https://nodejs.org/) y
 [Express](https://expressjs.com/)) y complementarlo con un motor de bases de
-datos, el cual tu deberás elegir entre [MongoDB](https://www.mongodb.com/),
-[PostgreSQL](https://www.postgresql.org/) y [MySQL](https://www.mysql.com/).
+datos. El boilerplate viene con logica para usar con [MongoDB](https://www.mongodb.com/).
+Pero puedes tambien elegir entre [PostgreSQL](https://www.postgresql.org/) y [MySQL](https://www.mysql.com/), sacando o comentando los partes que apoyan MongoDB.
 
 La clienta nos ha dado un [link a la documentación](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 que especifica el comportamiento esperado de la API que expondremos por
@@ -205,19 +205,22 @@ Nuestra aplicación usa las siguientes variables de entorno:
 ### 5.3 Despliegue (Deployment)
 
 Nuestra clienta nos ha manifestado que su equipo de _devops_ está siempre con
-muchas tareas, por por lo que nos pide como requerimiento que la aplicación esté
+muchas tareas, por lo que nos pide como requerimiento que la aplicación esté
 configurada con `docker-compose` para que pueda ser desplegada sin dificultades
 en cualquier entorno.
 
 El _boilerplate_ ya cuenta con una configuración incial de `docker-compose` para
 la aplicación de node, tu tarea será extender esa configuración para incluir la
-configuración de base de datos que hayas elegido. Ten en cuenta que como vas a
-tener dos servidores corriendo sobre una misma configuración, deberás exponer
-los servicios en diferentes puertos.
+configuración de base de datos que hayas elegido (como MongoDB).
+Ten en cuenta que como vas a tener dos servidores corriendo sobre una misma configuración, deberás exponer los servicios en diferentes puertos.
 
-Para este proyecto te recomendamos usar `docker-compose` localmente (en tu
-computadora) para ejecutar la aplicación junto con la base de datos
-seleccionada. Por otro lado, con respecto al despliegue, no es obligatorio usar
+No es obligatorio, pero para este proyecto te recomendamos usar `docker-compose`
+localmente (en tu computadora) para ejecutar la aplicación junto con la base de datos
+seleccionada. Si complica usar `docker` con tu sistema (estamos pensando
+en Windows) para desarrollo local, puedes dejar `docker`
+y levantar (correr) el base de datos y express server localmente.
+
+Por otro lado, con respecto al despliegue, tampoco es obligatorio usar
 `docker-compose`, puedes elegir el proveedor (o proveedores) que prefieras junto
 con el mecanismo de despligue y estrategia de alojamiento. Te recomendamos
 explorar las siguientes opciones:
