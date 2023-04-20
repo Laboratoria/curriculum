@@ -45,7 +45,9 @@ Esto implica que tendremos que partir por leer la implementación existente, y
 familiarizarnos con el _stack_ elegido ([Node.js](https://nodejs.org/) y
 [Express](https://expressjs.com/)) y complementarlo con un motor de bases de
 datos. El boilerplate viene con logica para usar con [MongoDB](https://www.mongodb.com/).
-Pero puedes tambien elegir entre [PostgreSQL](https://www.postgresql.org/) y [MySQL](https://www.mysql.com/), sacando o comentando los partes que apoyan MongoDB.
+Pero puedes tambien elegir entre [PostgreSQL](https://www.postgresql.org/)
+y [MySQL](https://www.mysql.com/), sacando o comentando los partes
+que apoyan MongoDB.
 
 La clienta nos ha dado un [link a la documentación](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 que especifica el comportamiento esperado de la API que expondremos por
@@ -210,9 +212,10 @@ configurada con `docker-compose` para que pueda ser desplegada sin dificultades
 en cualquier entorno.
 
 El _boilerplate_ ya cuenta con una configuración incial de `docker-compose` para
-la aplicación de node, tu tarea será extender esa configuración para incluir la
-configuración de base de datos que hayas elegido (como MongoDB).
-Ten en cuenta que como vas a tener dos servidores corriendo sobre una misma configuración, deberás exponer los servicios en diferentes puertos.
+la aplicación de node, tu tarea será extender esa configuración para incluir
+la configuración de base de datos que hayas elegido (como MongoDB).
+Ten en cuenta que como vas a tener dos servidores corriendo sobre una misma
+configuración, deberás exponer los servicios en diferentes puertos.
 
 No es obligatorio, pero para este proyecto te recomendamos usar `docker-compose`
 localmente (en tu computadora) para ejecutar la aplicación junto con la base de datos

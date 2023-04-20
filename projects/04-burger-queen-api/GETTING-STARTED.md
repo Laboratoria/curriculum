@@ -244,13 +244,13 @@ connection.query("SELECT 1 + 1 AS solution", (error, results) => {
 connection.end();
 ```
 
-## 6. Iniciar, re-iniciar y parar los servicios 
+## 6. Iniciar, re-iniciar y parar los servicios
 
 Nota: Si no estas usando `docker` vas a levantar el servidor y instancia de
 base de datos desde la linea comando o interfaz que has instalado con el base
 de datos.
 
-TODO: ejemplos  de levantar ? 
+TODO: ejemplos  de levantar ?
 
 ### con `docker-compose`
 
@@ -505,6 +505,7 @@ remotas. Por ejemplo:
 ```sh
 REMOTE_URL=https://api.my-super-app.com npm run test:e2e
 ```
+
 ### e2e con MongoDB
 
 TODO: habla de @shelf/jest-mongodb + mongodb-memory-server
