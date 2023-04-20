@@ -2,9 +2,9 @@
   "slug": "fleet-management",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/05-fleet-management",
-  "version": "6.1.1",
+  "version": "6.2.0",
   "parserVersion": "5.0.0-alpha.4",
-  "createdAt": "2023-03-08T17:45:50.061Z",
+  "createdAt": "2023-04-04T20:28:27.846Z",
   "prefix": 5,
   "track": "web-dev",
   "learningObjectives": [

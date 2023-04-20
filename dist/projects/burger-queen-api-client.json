@@ -2,9 +2,9 @@
   "slug": "burger-queen-api-client",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/04-burger-queen-api-client",
-  "version": "6.1.1",
+  "version": "6.2.0",
   "parserVersion": "5.0.0-alpha.4",
-  "createdAt": "2023-03-08T17:45:49.260Z",
+  "createdAt": "2023-04-04T20:28:24.164Z",
   "prefix": 4,
   "track": "web-dev",
   "learningObjectives": [
@@ -61,6 +61,7 @@
     "vue/computed-props-and-observers",
     "vue/routing",
     "vue/classes-and-styles",
+    "db/modeling",
     "user-centricity/centricity",
     "product-design/interactivity",
     "product-design/visual-design",
@@ -73,7 +74,7 @@
     },
     "pt": {
       "title": "Burger Queen (API Client)",
-      "summary": "<p>Desta vez temos um projeto 100% por demanda. Você sempre pode (e deve) fazer\nsugestões de melhora e mudança, mas muitas vezes trabalhará em um projeto em que\nprimeiro deve se assegurar de cumprir os requisitos.</p>"
+      "summary": "<p>Um pequeno restaurante de hambúrgueres, que está crescendo, necessita uma\ninterface em que se possa realizar pedidos utilizando um <em>tablet</em>, e enviá-los\npara a cozinha para que sejam preparados de forma ordenada e eficiente.</p>"
     }
   },
   "cover": "https://user-images.githubusercontent.com/110297/42118136-996b4a52-7bc6-11e8-8a03-ada078754715.jpg",

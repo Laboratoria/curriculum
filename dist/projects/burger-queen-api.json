@@ -2,9 +2,9 @@
   "slug": "burger-queen-api",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/04-burger-queen-api",
-  "version": "6.1.1",
+  "version": "6.2.0",
   "parserVersion": "5.0.0-alpha.4",
-  "createdAt": "2023-03-08T17:45:49.311Z",
+  "createdAt": "2023-04-04T20:28:24.175Z",
   "prefix": 4,
   "track": "web-dev",
   "learningObjectives": [
@@ -63,7 +63,7 @@
     },
     "pt": {
       "title": "Burger Queen - API com Node.js",
-      "summary": "<p>Como API, nesse caso nos referimos a um <em>servidor web</em>, que é basicamente\num programa que <em>ouve</em> o que acontece na aplicação através de uma porta de rede,\npela qual podemos enviar <em>requisições</em> (<em>requests</em>) e obter <em>respostas</em> (<em>responses</em>).</p>"
+      "summary": "<p>Como API, nesse caso nos referimos a um <em>servidor web</em>, que é basicamente\num programa que <em>ouve</em> o que acontece na aplicação através de uma porta de rede,\npela qual podemos enviar <em>requisições</em> (<em>requests</em>) e obter <em>respostas</em> (<em>responses</em>)\nusando o protocolo HTTP (o HTTPS).</p>"
     }
   },
   "cover": "https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg",
