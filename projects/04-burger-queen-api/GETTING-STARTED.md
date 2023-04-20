@@ -9,7 +9,7 @@ Para ello te recomendamos seguir los pasos a continuación:
 * [3. Configurar "servicio" de base de datos](#3-configurar-servicio-de-base-de-datos)
 * [4. Configurar conexión a BBDD en "servicio" node](#4-configurar-conexión-a-bbdd-en-servicio-node)
 * [5. Elegir módulo (cliente)](#5-elegir-módulo-cliente)
-* [6. Iniciar, re-iniciar y parar los servicios con `docker-compose`](#6-iniciar-re-iniciar-y-parar-los-servicios-con-docker-compose)
+* [6. Iniciar, re-iniciar y parar los servicios](#6-iniciar-re-iniciar-y-parar-los-servicios)
 * [7. Familiarizarte con admisitración de contenedores](#7-familiarizarte-con-admisitración-de-contenedores)
 * [8. Opcionalmente, instalar interfaz gráfica para admisitrar data](#8-opcionalmente-instalar-interfaz-gráfica-para-admisitrar-data)
 * [9. Definir esquemas](#9-definir-esquemas)
@@ -23,12 +23,14 @@ Para ello te recomendamos seguir los pasos a continuación:
 La primera decisión que tenemos que tomar, antes de comenzar a programar, es
 elegir una base de datos. En este proyecto se sugieren 3 opciones: dos de ellas
 _relacionales_ y basadas en SQL, (PostgreSQL y MySQL), y otra _no relacional_
-(MongoDB). Las 3 son excelentes opciones.
+(MongoDB). Las 3 son excelentes opciones. Estamos entregando el proyecto como
+has elegido MongoDB, pero puedes editar el boilerplate pare trabajar con
+otro base de datos.
 
 Algunos puntos a tener en cuenta:
 
 * MongoDB es la más _común_ (popular) a día de hoy en el ecosistema de
-  Node.js.
+  Node.js. Por eso estamos entregando el proyecto como fuera elegido.
 * Las bases de datos _relacionales_ normalmente requieren más diseño
   _a priori_ (definir tablas, columnas, relaciones, ...) mientras que las
   _no relacionales_ nos permiten ser más _flexibles_.
@@ -46,6 +48,8 @@ Algunos puntos a tener en cuenta:
   JSON y otras características como indización de JSON.
 
 ## 2. Instalar `docker` y `docker-compose`
+
+Note: Si tienes sistema Windows y complica usar docker, salta partes 2, 3, y 4.
 
 Independientemente de qué base datos elijas, en este proyecto vamos a ejecutar
 localmente (en nuestra computadora) el servidor de bases de datos usando
@@ -240,7 +244,15 @@ connection.query("SELECT 1 + 1 AS solution", (error, results) => {
 connection.end();
 ```
 
-## 6. Iniciar, re-iniciar y parar los servicios con `docker-compose`
+## 6. Iniciar, re-iniciar y parar los servicios 
+
+Nota: Si no estas usando `docker` vas a levantar el servidor y instancia de
+base de datos desde la linea comando o interfaz que has instalado con el base
+de datos.
+
+TODO: ejemplos  de levantar ? 
+
+### con `docker-compose`
 
 Ahora que ya tenemos nuestra configuración de `docker-compose` lista, veamos
 cómo podemos _levantar_ la aplicación. Para eso usamos el comando
@@ -493,3 +505,7 @@ remotas. Por ejemplo:
 ```sh
 REMOTE_URL=https://api.my-super-app.com npm run test:e2e
 ```
+### e2e con MongoDB
+
+TODO: habla de @shelf/jest-mongodb + mongodb-memory-server
+y las configuraciones
