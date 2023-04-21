@@ -3,7 +3,9 @@
 MongoDB es un base de datos no-relacionado, y es la más _común_ (popular)
 a día de hoy en el ecosistema de Node.js.
 
-Si vas a trabajar con MongoDB y Docker, mejor leer [**guía de _primeros pasos con Docker_**](./GETTING-STARTED-DOCKER.md) primero. Si vas a instalar MongoDB y desarollar el proyecto sin
+Si vas a trabajar con MongoDB y Docker, mejor leer
+[**la guía de _primeros pasos con Docker_**](./GETTING-STARTED-DOCKER.md)
+primero. Si vas a instalar MongoDB y desarollar el proyecto sin
 Docker en este momento, seguir leyendo este guia.
 
 Una vez creado tu fork y clonado el repo en tu computadora, y haces `npm install`
@@ -29,44 +31,44 @@ Para ello te recomendamos seguir los pasos a continuación:
 El sitio de MongoDB tiene tutorials como instalar el [Community Edition](https://www.mongodb.com/docs/compass/current/install/).
 Elige tu plataforma (Windows, Mac, Ubuntu etc) y sigue [el tutorial](https://www.mongodb.com/docs/manual/installation/#mongodb-installation-tutorials).
 
-Con los tutorials, va a descargar y instalar MongoDB en tu sistema, con algunas
-herramientas y comandos para usar en tu linea de comando.
+Con los tutorials, va a descargar y instalar MongoDB en tu sistema,
+con algunas herramientas y comandos para usar en la linea de comando.
 
-Tambien recomendamos que instales [Compass](https://www.mongodb.com/products/compass), que es
-un GUI (Graphical User Interface) para interactuar con el base de datos. Puedes interactuar
-con MongoDB sin Compass y solo en la linea de comando, pero un GUI puede ayudarte visualizar
-y entender que esta en el db. Sigue [las
+Tambien recomendamos que instales [Compass](https://www.mongodb.com/products/compass),
+que es un GUI (Graphical User Interface) para interactuar con el base de datos.
+Puedes interactuar con MongoDB sin Compass y solo en la linea de comando,
+pero un GUI puede ayudarte visualizar y entender que esta en el db. Sigue [las
 instrucciones de instalacion de Compass](https://www.mongodb.com/docs/compass/current/install/).
-
 
 ## 2. Levanta el base de datos y server
 
-Podemos decir este proyecto tiene dos "servicios", uno es el base de datos para almanecenar
-los productos, usuarios, etc., y el otro es el server para exponer el API.
+Podemos decir este proyecto tiene dos "servicios", uno es el base de datos para
+almanecenar los productos, usuarios, etc., y el otro es el server para exponer
+el API.
 
-Estes servicios tienen que estar corriendo, disponible, para este proyecto, el API,
-puede funcionar.
+Estes servicios tienen que estar corriendo, disponible, para este proyecto,
+el API, puede funcionar.
 
-Para correr el server, es bien simple - con `npm start` va a ejecutar 
+Para correr el server, es bien simple - con `npm start` va a ejecutar
 [`index.js`](../index.js) que tiene logica basica de server con express.
 
-Para levantar el server, este depende en tu instalación y sistema. 
-Por ejemplo, en MacOS si instalaste con `homebrew`, puede usar 
+Para levantar el server, este depende en tu instalación y sistema.
+Por ejemplo, en MacOS si instalaste con `homebrew`, puede usar
 `brew services start mongodb-community@6.0` para levantarlo. O sin `homebrew`,
-`mongod --config /usr/local/etc/mongod.conf --fork`. En Windows, hay que levantarlo
-desde Services console.
+`mongod --config /usr/local/etc/mongod.conf --fork`. En Windows, hay que
+levantarlo desde Services console.
 
 Revisa [la guia de instalacion de
-](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/#run-mongodb-community-edition), 
-[guia de instalacion de Windows](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/#run-mongodb-community-edition-as-a-windows-service), o tu instalación en particular, para
-ejemplos en como levantarlo.
+](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/#run-mongodb-community-edition),
+[guia de instalacion de Windows](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/#run-mongodb-community-edition-as-a-windows-service),
+o tu instalación en particular, para ejemplos en como levantarlo.
 
 ## 5. Elegir módulo (cliente)
 
 Ahora que ya tenemos un servidor de bases de datos vamos a necesitar elegir un
 módulo o librería diseñado para interactuar con nuestra base de datos desde
 Node.js. Existen un montón de opciones, pero para este proyecto te recomendamos
-elegir [Mongoose](https://mongoosejs.com/) (MongoDB), que es la más popular para MongoDB).
+elegir [Mongoose](https://mongoosejs.com/) (que es la más popular para MongoDB).
 
 Hay que instalar Mongoose como dependencia en este proyecto usando `npm`.
 
@@ -149,16 +151,18 @@ Esto levanta la aplicación con `npm start` y corre los tests contra la URL de
 esta instancia (por defecto `http://127.0.0.1:8080`). Esto asume que la base de
 datos está disponible.
 
-Los pruebas e2e depende en codigo de (`globalSetup.js`)[../e2e/globalSetup.js] que `jest`
-sabe correr primero antes de los tests. En este paso de setup, hay que levantar un 
-mock db (como hemos hablado de [`mongodb-memory-server`](https://github.com/nodkz/mongodb-memory-server))
+Los pruebas e2e depende en codigo de (`globalSetup.js`)[../e2e/globalSetup.js]
+que `jest` sabe correr primero antes de los tests.
+En este paso de setup, hay que levantar un mock db (como hemos hablado de
+[`mongodb-memory-server`](https://github.com/nodkz/mongodb-memory-server))
 y hacer que jest se conecta a este mock db.
 
 Para este configuracion - hay que instalar `mongodb-memory-server` y un preset (`jest-mongodb`)[https://github.com/shelfio/jest-mongodb].
 
-El patrón de setup no es tan directo y documentado, porque `jest-mongodb` tambien usa su propio `globalSetup`
-y los dos no juegan bien en conjunto. Hemos agregado este codigo para configurar los e2e tests
-y `globalSetup` en un patch (`usando git diff`) que puedes aplicar automaticamente con
+El patrón de setup no es tan directo y documentado, porque `jest-mongodb`
+tambien usa su propio `globalSetup` y los dos no juegan bien en conjunto.
+Hemos agregado este codigo para configurar los e2e tests y `globalSetup`
+en un patch (`usando git diff`) que puedes aplicar automaticamente con
 `git apply ./mongoDB-e2e.patch`.
 
 TODO: necesitamos crear un user de authenticacion?
