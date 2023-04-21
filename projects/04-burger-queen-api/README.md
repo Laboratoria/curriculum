@@ -219,7 +219,7 @@ configuración, deberás exponer los servicios en diferentes puertos.
 
 No es obligatorio, pero para este proyecto te recomendamos usar `docker-compose`
 localmente (en tu computadora) para ejecutar la aplicación junto con la base de datos
-seleccionada. Si complica usar `docker` con tu sistema (estamos pensando
+seleccionada. Si complica usar `docker` con tu sistema (a veces es costoso y lento
 en Windows) para desarrollo local, puedes dejar `docker`
 y levantar (correr) el base de datos y express server localmente.
 
