@@ -1,0 +1,74 @@
+diff --git a/config.js b/config.js
+index 58b4b6e..f7d4787 100644
+--- a/config.js
++++ b/config.js
+@@ -3,3 +3,4 @@ exports.dbUrl = process.env.DB_URL || 'mongodb://localhost:27017/test';
+ exports.secret = process.env.JWT_SECRET || 'esta-es-la-api-burger-queen';
+ exports.adminEmail = process.env.ADMIN_EMAIL || 'admin@localhost';
+ exports.adminPassword = process.env.ADMIN_PASSWORD || 'changeme';
++exports.dbUrl = process.env.MONGO_URL || process.env.DB_URL || 'mongodb://localhost:27017/test';
+diff --git a/e2e/globalSetup.js b/e2e/globalSetup.js
+index 93e9b56..536d9dd 100644
+--- a/e2e/globalSetup.js
++++ b/e2e/globalSetup.js
+@@ -2,6 +2,11 @@ const path = require('path');
+ const { spawn } = require('child_process');
+ const kill = require('tree-kill');
+ 
++const globalSetup = require("@shelf/jest-mongodb/lib/setup");
++const MongodbMemoryServer = require('mongodb-memory-server').default;
++
++global.__MONGOD__ = MongodbMemoryServer;
++
+ const config = require('../config');
+ 
+ const port = process.env.PORT || 8888;
+@@ -105,7 +110,17 @@ module.exports = () => new Promise((resolve, reject) => {
+     return resolve();
+   }
+ 
+-  // TODO: Configurar DB de tests 
++  globalSetup({rootDir: __dirname}).then(() => {
++    console.info('Starting local server...');
++    spawn("node", [ "index.js", process.env.PORT || 8888],
++      {
++        cwd: path.resolve(__dirname, "../"),
++        stdio: ["ignore", "pipe", "pipe"],
++        env: { PATH: process.env.PATH, MONGO_URL: process.env.MONGO_URL }
++      }
++    );
++    })
++    .catch((error) => console.log(error));
+ 
+   console.info('Starting local server...');
+ 
+diff --git a/e2e/jest.config.js b/e2e/jest.config.js
+new file mode 100644
+index 0000000..38d8cb3
+--- /dev/null
++++ b/e2e/jest.config.js
+@@ -0,0 +1,3 @@
++module.exports = {
++  preset: '@shelf/jest-mongodb',
++};
+diff --git a/jest-mongodb-config.js b/jest-mongodb-config.js
+new file mode 100644
+index 0000000..283bc56
+--- /dev/null
++++ b/jest-mongodb-config.js
+@@ -0,0 +1,15 @@
++// Para usar con MongoDB y jest-mongodb
++// https://www.npmjs.com/package/@shelf/jest-mongodb
++
++module.exports = {
++  mongodbMemoryServerOptions: {
++    instance: {
++      dbName: 'jest',
++    },
++    binary: {
++      version: '4.0.3',
++      skipMD5: true,
++    },
++    autoStart: false,
++  },
++};
