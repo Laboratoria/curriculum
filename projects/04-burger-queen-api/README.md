@@ -44,10 +44,9 @@ _endpoints_ (puntos de conexión o URLs) y nos piden completar la aplicación.
 Esto implica que tendremos que partir por leer la implementación existente, y
 familiarizarnos con el _stack_ elegido ([Node.js](https://nodejs.org/) y
 [Express](https://expressjs.com/)) y complementarlo con un motor de bases de
-datos. El boilerplate viene con logica para usar con [MongoDB](https://www.mongodb.com/).
-Pero puedes tambien elegir entre [PostgreSQL](https://www.postgresql.org/)
-y [MySQL](https://www.mysql.com/), sacando o comentando los partes
-que apoyan MongoDB.
+datos. Recomendamos el uso de [MongoDB](https://www.mongodb.com/),
+pero puedes también elegir entre [PostgreSQL](https://www.postgresql.org/)
+y [MySQL](https://www.mysql.com/).
 
 La clienta nos ha dado un [link a la documentación](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 que especifica el comportamiento esperado de la API que expondremos por

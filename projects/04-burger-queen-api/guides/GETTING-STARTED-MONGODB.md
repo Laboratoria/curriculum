@@ -154,11 +154,11 @@ sabe correr primero antes de los tests. En este paso de setup, hay que levantar 
 mock db (como hemos hablado de [`mongodb-memory-server`](https://github.com/nodkz/mongodb-memory-server))
 y hacer que jest se conecta a este mock db.
 
-Para este configuracion - hay que instalar `mongodb-memory-server` y un preset (`jest-mongodb`)[https://www.npmjs.com/package/@shelf/jest-mongodb].
+Para este configuracion - hay que instalar `mongodb-memory-server` y un preset (`jest-mongodb`)[https://github.com/shelfio/jest-mongodb].
 
 El patrón de setup no es tan directo y documentado, porque `jest-mongodb` tambien usa su propio `globalSetup`
 y los dos no juegan bien en conjunto. Hemos agregado este codigo para configurar los e2e tests
-y `globalSetup` en un patch (`git diff`) que puedes aplicar manualmente (copy/pega) o automatica con
+y `globalSetup` en un patch (`usando git diff`) que puedes aplicar automaticamente con
 `git apply ./mongoDB-e2e.patch`.
 
 TODO: necesitamos crear un user de authenticacion?
