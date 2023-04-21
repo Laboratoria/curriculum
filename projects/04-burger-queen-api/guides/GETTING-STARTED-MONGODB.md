@@ -13,16 +13,12 @@ para instalar las dependencias basicas, antes de poder
 comenzar a codear, tenemos que crear nuestro _entorno de desarrollo_.
 Para ello te recomendamos seguir los pasos a continuación:
 
-* [1. Instalar MongoDB](#1-instalar-mongodb-y-compass)
-* [3. Configurar "servicio" de base de datos](#3-configurar-servicio-de-base-de-datos)
-* [4. Configurar conexión a BBDD en "servicio" node](#4-configurar-conexión-a-bbdd-en-servicio-node)
-* [5. Elegir módulo (cliente)](#5-elegir-módulo-cliente)
-* [6. Iniciar, re-iniciar y parar los servicios con `docker-compose`](#6-iniciar-re-iniciar-y-parar-los-servicios-con-docker-compose)
-* [7. Familiarizarte con admisitración de contenedores](#7-familiarizarte-con-admisitración-de-contenedores)
-* [8. Opcionalmente, instalar interfaz gráfica para admisitrar data](#8-opcionalmente-instalar-interfaz-gráfica-para-admisitrar-data)
-* [9. Definir esquemas](#9-definir-esquemas)
-* [10. Definir estrategia de pruebas unitarias](#10-definir-estrategia-de-pruebas-unitarias)
-* [11. Familiarizarte con las pruebas de integración (e2e)](#11-familiarizarte-con-las-pruebas-de-integración-e2e)
+* [1. Instalar MongoDB y Compass](#1-instalar-mongodb-y-compass)
+* [2. Levanta el base de datos y server](#2-levanta-el-base-de-datos-y-server)
+* [3. Elegir módulo (cliente)](#5-elegir-módulo-cliente)
+* [4. Definir esquemas](#9-definir-esquemas)
+* [5. Definir estrategia de pruebas unitarias](#10-definir-estrategia-de-pruebas-unitarias)
+* [6. Familiarizarte con las pruebas de integración (e2e)](#11-familiarizarte-con-las-pruebas-de-integración-e2e)
 
 ***
 
@@ -63,7 +59,7 @@ Revisa [la guia de instalacion de
 [guia de instalacion de Windows](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/#run-mongodb-community-edition-as-a-windows-service),
 o tu instalación en particular, para ejemplos en como levantarlo.
 
-## 5. Elegir módulo (cliente)
+## 3. Elegir módulo (cliente)
 
 Ahora que ya tenemos un servidor de bases de datos vamos a necesitar elegir un
 módulo o librería diseñado para interactuar con nuestra base de datos desde
@@ -100,7 +96,7 @@ mongoose
   .catch(console.error);
 ```
 
-## 6. Definir esquemas
+## 4. Definir esquemas
 
 Como parte del proceso de diseño de nuestra base de datos vamos a tener que
 especificar los _esquemas_ de nuestros _modelos_ de datos. Con esto nos
@@ -112,7 +108,7 @@ Si has elegido MongoDB y Mongoose, este último nos ofrece un mecanismo para
 describir esos [_modelos_](https://mongoosejs.com/docs/models.html) y
 [_esquemas_](https://mongoosejs.com/docs/guide.html) de datos en JavaScript.
 
-## 7. Definir estrategia de pruebas unitarias
+## 5. Definir estrategia de pruebas unitarias
 
 Además de las pruebas `e2e` que ya incluye el _boilerplate_ del proyecto, se
 espera que puedas también usar pruebas _unitarias_ para el desarrollo de los
@@ -131,7 +127,7 @@ se, pero por lo general querremos considerar cómo abstraer la interacción
 con la base de datos para facilitar _mocks_ que nos permitan concentrarnos en
 la lógica de las rutas.
 
-## 8. Familiarizarte con las pruebas de integración (e2e)
+## 6. Familiarizarte con las pruebas de integración (e2e)
 
 El _boilerplate_ de este proyecto ya incluye pruebas `e2e` (end-to-end) o de
 _integración_, que se encargan de probar nuestra aplicación en conjunto,
@@ -164,5 +160,3 @@ tambien usa su propio `globalSetup` y los dos no juegan bien en conjunto.
 Hemos agregado este codigo para configurar los e2e tests y `globalSetup`
 en un patch (`usando git diff`) que puedes aplicar automaticamente con
 `git apply ./mongoDB-e2e.patch`.
-
-TODO: necesitamos crear un user de authenticacion?
