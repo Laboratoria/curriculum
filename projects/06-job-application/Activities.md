@@ -89,11 +89,8 @@
     <td>
       <ul>
         <li>
-          <a href="https://www.loom.com/share/b682c1f7b7964641a5fe1b8acfcf4b8e">
-            Pildora: CV en la industria tech.
-          </a>
-          <a href="https://docs.google.com/presentation/d/1s77cJ8ILVCFefWNFzoyJova7s_Vlguz-rbeF50ck4t0/edit#slide=id.g108ff262332_0_0">
-            (PPT)
+          <a href="https://docs.google.com/document/d/1uBGI1M7QLox1IfqUE_2KOKTIfwhYm2F3HUwfTCINoLY/edit#heading=h.a609hvklrvxv">
+            Guía para tu CV en la industria tech.
           </a>
         </li>
         <li>
