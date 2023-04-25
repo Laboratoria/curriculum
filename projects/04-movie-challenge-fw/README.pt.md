@@ -59,14 +59,17 @@ pessoas na equipe, permita a conclusão do projeto em 2 semanas.
 
 ## 4. Objetivos de aprendizagem
 
-- Colocar em prática tudo aprendeu até agora.
-- Desenhar e teste um produto antes de desenvolver-lo.
-- Obter dados de um serviço externo como OMDB usando _Fetch_.
-- Entender a idea de aleatoriedade aplicada aos algoritmos.
+> ℹ️ Esta seção será automaticamente gerada no idioma pertinente, a partir dos
+> objetivos de aprendizagem declarados em [`project.yml`](./project.yml), ao
+> criar o repositório do projeto para uma coorte em particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Aqui você pode ver uma [lista de todos os objetivos de aprendizagem](../../learning-objectives/data.yml)
+> cobertos em nosso currículo.
 
 ## 5. Critérios de aceitação mínimos do projeto
 
-- Utilizar a API de OMDB usando _Fetch_ para obter e mostrar uma interface baseada
+- Utilizar a API de OMDB usando _fetch_ para obter e mostrar uma interface baseada
 nos dados de cada resposta.
 - Independentemente do que decida fazer, deve selecionar dados aleatoriamente e mostrar-los
 em alguma das características de seu projeto. Para isto geralmente
@@ -90,7 +93,7 @@ suficiente, mas te recomendamos o uso responsável deste recurso gratuito.
 
 ## Conteúdo de referência
 
-- [Fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
+- [Fetch API](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
 - [Math.random](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
 Se divirta e comece esta aventura 🎬!
