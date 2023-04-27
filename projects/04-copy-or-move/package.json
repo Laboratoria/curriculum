@@ -1,0 +1,7 @@
+{
+  "name": "copy-or-move",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=18.x"
+  }
+}
