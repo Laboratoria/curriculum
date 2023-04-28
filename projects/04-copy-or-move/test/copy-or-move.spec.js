@@ -1,5 +1,4 @@
-import { copyOrMove } from "..";
-
+import { copyOrMove } from "../index.js";
 
 describe('copyOrMove', () => {
 
