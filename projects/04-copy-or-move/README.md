@@ -53,6 +53,30 @@ desarrolladora porque que te obliga a pensar en la interfaz (API) de tus
 _módulos_ y cómo será usado por otras developers. Debes tener especial
 consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
+Esta aplicación, que publicarás como librería, debe poder ser ejecutable
+en una terminal, y debe contemplar los casos de uso para poder:
+
+1.- Copiar un archivo hacia un archivo o directorio
+  de destino
+
+2.- Copiar un directorio, incluyendo todo su contenido, hacia un directorio
+  de destino
+
+3.- Mover un archivo hacia un archivo o directorio
+  de destino
+
+4.- Mover un directorio, incluyendo todo su contenido, hacia un directorio
+  de destino
+
+### Los objetivos generales de este proyecto son los siguientes
+
+* Desarrollar una librería con Node.js
+* Publicar tu librería en NPM
+* Trabajar con el sistema de archivos del computador
+* Trabajar con asincronía en JavaScript
+* Trabajar utilizando recursividad
+* Crear una suite de pruebas unitarias que permitan testear código asíncrono
+
 ## 3. Objetivos de aprendizaje
 
 > ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
@@ -67,7 +91,7 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
 * Este proyecto se debe "resolver" de manera individual.
 
-* El rango de tiempo estimado para completar el proyecto es de 4 a 5 Sprints.
+* El rango de tiempo estimado para completar el proyecto es de 3 a 4 Sprints.
 
 * La **librería** como **script ejecutable** (herramienta de línea de comando -
   CLI - terminal) debe estar implementada en JavaScript para ser ejecutados con
@@ -102,16 +126,16 @@ consideres necesario.
 ### Archivos del proyecto
 
 * `README.md` con descripción del módulo, instrucciones de instalación/uso,
-  documentación del API y ejemplos. Todo lo relevante para que cualquier
-  developer que quiera usar tu librería pueda hacerlo sin inconvenientes.
-* `index.js`: Desde este archivo debes exportar **una** función (`mdLinks`).
+  documentación y ejemplos. Todo lo relevante para que cualquier
+  usuaria que quiera utilizar tu librería pueda hacerlo sin inconvenientes.
+* `index.js` desde este archivo debes exportar **una** función (`copyOrMove`).
 * `package.json` con nombre, versión, descripción, autores, licencia,
   dependencias, scripts (pretest, test, ...), main, bin
 * `.editorconfig` con configuración para editores de texto. Este archivo no se
   debe cambiar.
 * `.eslintrc` con configuración para linter. Este archivo contiene una
   configuración básica para ESLint, si deseas agregar reglas adicionales
-  como Airbnb deberás modificar este archivo.
+  deberás modificar este archivo.
 * `.gitignore` para ignorar `node_modules` u otras carpetas que no deban
   incluirse en control de versiones (`git`).
 * `test/copy-or-move.spec.js` debe contener los tests unitarios para la función
@@ -125,23 +149,27 @@ manera a través de la _terminal_ (o _CLI_):
 `copy-or-move <path-to-source-file-or-directory>
   <path-to-destination-file-or-directory> [options]`
 
-Como probablemente ya te estés dando cuenta, este programa debe responder
-tanto a poder copiar, y mover, archivos, como directorios completos.
-
 Por ejemplo, si una usuaria quisiera **mover** el archivo `README.md` contenido
 dentro del directorio actual donde está ubicada en su terminal hacia un
 directorio llamado `Documentos/` que a su vez también se encuentra _dentro_ del
-directorio actual, tendría que tipear lo siguiente en su terminal:
+directorio actual, deberá ejecutar el siguiente comando en su terminal:
 
-```sh
-$ copy-or-move ./README.md ./Documentos/
+`$ copy-or-move ./README.md ./Documentos/`
 
-README.md was moved
-```
+Otro ejemplo, en caso de que una usuaria quisiera **copiar** todos los
+contenidos de un directorio llamado `DCIM/` a un directorio llamado `Fotos/`,
+deberá ejecutar el siguiente comando en su terminal, esta vez, incluyendo la
+_opción_ (o _flag_) `-c` para hacerle saber a la librería que esta vez, en vez
+de mover los contenidos, estos sólo deben ser copiados:
+
+`$ copy-or-move ruta/hacia/DCIM/ ruta/hacia/Fotos/ -c`
 
 ### Options
 
-### `-c`
+El comportamiento por defecto del programa será el de **mover** los archivos
+o directorios de una fuente hacia un destino, pero en caso de que la usuaria,
+en vez de mover, quiera **copiar** esos archivos o directorios, entonces deberá
+pasarle a ese comando la opción (también llamadas _flags_) `-c`.
 
 ## 6. Entregables
 
@@ -149,6 +177,18 @@ Módulo instalable via `npm install <github-user>/copy-or-move`. Este módulo
 debe incluir **un ejecutable** para ser utilizado desde la terminal.
 
 ## 7. Hacker edition
+
+Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
+con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
+profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
+
+* Puedes intentar agregarle a tu aplicación la opción de tomar un conjunto de
+  archivos siguiendo un patrón utilizando un wildcard (`*`), por ejemplo:
+  `$ copy-or-move "package*" ./Documentos/ -c` o también:
+  `$ copy-or-move "*.js" ./Proyectos/`
+* Puedes agregar más opciones aparte de `-c`, por ejemplo una opción `-n` que
+  le haga saber a tu programa que no es necesario sobreescribir un archivo
+  en el directorio de destino si este ya existe ahí.
 
 ## 8. Pistas, tips y lecturas complementarias
 
@@ -173,13 +213,13 @@ debe incluir **un ejecutable** para ser utilizado desde la terminal.
 * [¿Qué es Nodejs? Javascript en el Servidor - Fazt en YouTube](https://www.youtube.com/watch?v=WgSc1nv_4Gw)
 * [¿Simplemente qué es Node.js? - IBM Developer Works, 2011](https://www.ibm.com/developerworks/ssa/opensource/library/os-nodejs/index.html)
 * [Node.js y npm](https://www.genbeta.com/desarrollo/node-js-y-npm)
-* [Módulos, librerías, paquetes, frameworks... ¿cuál es la diferencia?](http://community.laboratoria.la/t/modulos-librerias-paquetes-frameworks-cual-es-la-diferencia/175)
 * [Asíncronía en js](https://carlosazaustre.es/manejando-la-asincronia-en-javascript)
+* [Función async](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/async_function)
 * [NPM](https://docs.npmjs.com/getting-started/what-is-npm)
 * [Publicar packpage](https://docs.npmjs.com/getting-started/publishing-npm-packages)
 * [Crear módulos en Node.js](https://docs.npmjs.com/getting-started/publishing-npm-packages)
-* [Leer un archivo](https://nodejs.org/api/fs.html#fs_fs_readfile_path_options_callback)
-* [Leer un directorio](https://nodejs.org/api/fs.html#fs_fs_readdir_path_options_callback)
+* [Leer un directorio](https://nodejs.org/api/fs.html#fspromisesreaddirpath-options)
+* [Checkear si es directorio](https://nodejs.org/docs/latest-v18.x/api/fs.html#statsisdirectory)
 * [Path](https://nodejs.org/api/path.html)
 * [Linea de comando CLI](https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e)
 
@@ -187,27 +227,20 @@ debe incluir **un ejecutable** para ser utilizado desde la terminal.
 
 ### General
 
-* [ ] Puede instalarse via `npm install --global <github-user>/md-links`
+* [ ] Puede instalarse via `npm install --global <github-user>/copy-or-move`
 
 ### `README.md`
 
 * [ ] Un board con el backlog para la implementación de la librería.
 * [ ] Documentación técnica de la librería.
-* [ ] Guía de uso e instalación de la librería
-
-### API `mdLinks(path, opts)`
-
-* [ ] El módulo exporta una función con la interfaz (API) esperada.
-* [ ] Implementa soporte para archivo individual
-* [ ] Implementa soporte para directorios
-* [ ] Implementa `options.validate`
+* [ ] Guía de uso e instalación de la librería.
 
 ### CLI
 
-* [ ] Expone ejecutable `md-links` en el path (configurado en `package.json`)
+* [ ] Expone ejecutable `copy-or-move` en el path (configurado en `package.json`)
 * [ ] Se ejecuta sin errores / output esperado
-* [ ] Implementa `--validate`
-* [ ] Implementa `--stats`
+* [ ] Permite mover o copiar archivos y directorios completos
+* [ ] Implementa `-c`
 
 ### Pruebas / tests
 
@@ -263,39 +296,22 @@ En particular, deberás decidir desde un comienzo si usarás
 Asegurate de tener clara esta decisión desde un inicio para
 que no encuentres problemas más adelante.
 
-### Lee un archivo
+### Lee el contenido de un directorio
 
-Como primer reto, puedes tratar de leer un solo archivo con
+Como primer reto, puedes tratar de leer un solo directorio con
 una ruta fija e imprimir su contenido en la consola con un `console.log`.
 
-La librería nativa `FS` (FileSystem) te será de utilidad.
+La librería nativa `FS` (FileSystem) te será de mucha utilidad.
 
 **Recuerda**: Te sugerimos **no utilizar** la versión síncrona
-de la función para leer archivos, `readFileSync`, y en cambio
+de la función para leer directorios, `readdirSync`, y en cambio
 intentar resolver ese desafío de manera asíncrona.
 
-### Averigua la extensión de un archivo
+### Averigua si un elemento contenido es un directorio o un archivo
 
-Ya sabiendo leer un archivo, aventúrate a conocer cual
-es su extensión.
-
-Recuerda, las extensiones son esas letras al final del
-nombre de un archivo, por ejemplo: .js, .txt, .doc, etc
-
-Aquí también podrá ser útil `FS`.
-
-### Obtén el contenido de un directorio
-
-Este proyecto consiste en buscar archivos, pero para eso,
-primero debes poder verlos.
-
-Intenta imprimir en consola la lista de archivos en una carpeta.
-
-La librería `FS` también te será útil aquí.
-
-**Recuerda**: Para disminuir la complejidad de tu algoritmo
-recursivo, te recomendamos utilizar la versión síncrona de
-la función para leer directorios, `readdirSync`.
+Para este proyecto será necesario poder discernir si un elemento
+es un archivo o un directorio, lo puedes hacer utilizando
+la libería `stat`.
 
 ### Une dos rutas
 
@@ -326,16 +342,3 @@ dentro hay más carpetas o muchos archivos.
 
 Por ello, asegurate bien de entender de qué trata la
 recursividad y ver algunos ejemplos.
-
-Entre los recursos de este proyecto hay un video que te ayudará.
-
-### Crea una promesa
-
-El valor de retorno de nuestra librería es una `Promesa`,
-no un `Array`.
-
-Prueba leyendo sobre las promesas y creando una por tu
-cuenta utilizando **new Promise()**
-
-Es importante que sepas qué es un **callback** pues las
-promesas los utilizarán.
