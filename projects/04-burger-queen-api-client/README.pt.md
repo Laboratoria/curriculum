@@ -7,19 +7,12 @@
 * [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
 * [4. Considerações gerais](#4-considerações-gerais)
 * [5. Critérios de aceitação mínimos do projeto](#5-critérios-de-aceitação-mínimos-do-projeto)
-* [6. Pistas, tips e leituras complementares](#6-pistas-tips-e-leituras-complementares)
+* [6. Implantação](#6-implantação)
+* [7. Pistas, tips e leituras complementares](#7-pistas-tips-e-leituras-complementares)
 
 ***
 
 ## 1. Prefácio
-
-Um pequeno restaurante de hambúrgueres, que está crescendo, necessita uma
-interface em que se possa realizar pedidos utilizando um _tablet_, e enviá-los
-para a cozinha para que sejam preparados de forma ordenada e eficiente.
-
-Este projeto tem duas áreas: interface (cliente) e API (servidor). Nosso
-cliente nos pediu para desenvolver uma interface que se integre com a API
-que outra equipe de desenvolvedoras está trabalhando simultaneamente.
 
 [React](https://reactjs.org/) e [Angular](https://angular.io/)
 são alguns dos _frameworks_ e _bibliotecas_ de JavaScript mais usados
@@ -35,7 +28,7 @@ aplicação.
 Quando escolhemos uma destas tecnologias não só importamos um pedaço de código
 para reusar (o qual já é um grande valor por si só), mas também adotamos uma
 **arquitetura**, uma série de **princípios de design**, um paradigma, algumas
-**abstrações**, um **vocabulário**, uma **comunidade**, etc...
+**abstrações**, um **vocabulário**, uma **comunidade**, etc.
 
 Como desenvolvedora Front-End, estes kits de desenvolvimento podem resultar em
 uma grande ajuda para implementar rapidamente características dos projetos em que
@@ -43,11 +36,19 @@ você for trabalhar.
 
 ## 2. Resumo do projeto
 
+Um pequeno restaurante de hambúrgueres, que está crescendo, necessita uma
+interface em que se possa realizar pedidos utilizando um _tablet_, e enviá-los
+para a cozinha para que sejam preparados de forma ordenada e eficiente.
+
+![burger-queen](https://user-images.githubusercontent.com/110297/42118136-996b4a52-7bc6-11e8-8a03-ada078754715.jpg)
+
+Este projeto tem duas áreas: interface (cliente) e API (servidor). Nosso
+cliente nos pediu para desenvolver uma interface que se integre com a API
+que outra equipe de desenvolvedoras está trabalhando simultaneamente.
+
 Desta vez temos um projeto 100% por demanda. Você sempre pode (e deve) fazer
 sugestões de melhora e mudança, mas muitas vezes trabalhará em um projeto em que
 primeiro deve se assegurar de cumprir os requisitos.
-
-![burger-queen](https://user-images.githubusercontent.com/110297/42118136-996b4a52-7bc6-11e8-8a03-ada078754715.jpg)
 
 Estas são as informações que temos do cliente:
 
@@ -91,8 +92,10 @@ adicionar e a interface deve mostrar o _resumo do pedido_ com o custo total.
 
 ![out](https://user-images.githubusercontent.com/110297/45984241-b8b51c00-c025-11e8-8fa4-a390016bee9d.gif)
 
-Além disso a cliente nos deu um [link da documentação](https://laboratoria.github.io/burger-queen-api/)
-que especifica o comportamento esperado da API que iremos expor por HTTP.
+Além disso a cliente nos deu um
+[link](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
+da documentação que especifica o comportamento esperado da API que
+iremos expor por HTTP.
 Lá podemos encontrar todos os detalhes dos _endpoints_, como por exemplo
 que parâmetros esperam, o que devem responder, etc.
 
@@ -116,11 +119,17 @@ atualizar a lista de pedidos e o total).
 
 ## 4. Considerações gerais
 
-Este projeto deve ser feito em pares. Lembre-se que deverá consumir uma
-API que suas companheiras desenvolverão, entretanto, não deve esperar que esta API
-esteja terminada para começar a codar. Pode utilizar ferramentas
-como [nock](https://github.com/nock/nock), [json-server](https://www.npmjs.com/package/json-server)
-ou [mockoon](https://mockoon.com) para mockar a API.
+Este projeto deve ser feito em pares e você pode escolher entre
+estas três opções como você vai trabalhar com o backend.
+
+1. Consumindo um API a ser desenvolvido por suas companheiras.
+2. Consumindo esta
+[API](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
+que desenvolvemos para você.
+3. Mockar a API, pode utilizar ferramentas como
+[nock](https://github.com/nock/nock),
+[json-server](https://www.npmjs.com/package/json-server)
+ou [mockoon](https://mockoon.com).
 
 O intervalo de tempo estimado para concluir o projeto é de 3 a 5 Sprints.
 
@@ -301,14 +310,29 @@ para manter atualizado o menu.
 
 ***
 
-## 6. Pistas, tips e leituras complementares
+## 6. Implantação
+
+Você pode escolher o provedor (ou provedores) que preferir junto
+com o mecanismo de implantação e a estratégia de hospedagem.
+Lembre-se de que, se você mock da API, você também tem que implantá-la.
+Te recomendamos explorar as seguintes opcões:
+
+* [Vercel](https://vercel.com/) é uma plataforma que nos permite implantar
+nossa aplicação web estática (HTML, CSS e JavaScript) e também nos permite
+implantar aplicações web rodando no servidor (Node.js).
+* [Netlify](https://www.netlify.com/) como Vercel, é uma plataforma
+que nos permite implantar nossa aplicação web estática (HTML, CSS e
+JavaScript) e também nos permite implantar aplicações web rodando
+no servidor (Node.js).
+
+## 7. Pistas, tips e leituras complementares
 
 ### Frameworks / bibliotecas
 
 * [React](https://reactjs.org/)
 * [Angular](https://angular.io/)
 
-### ferramentas
+### Ferramentas
 
 * [npm-scripts](https://docs.npmjs.com/misc/scripts)
 * [Babel](https://babeljs.io/)
