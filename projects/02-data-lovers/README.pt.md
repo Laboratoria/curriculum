@@ -59,26 +59,26 @@ Este são os dados que propomos:
 * [Pokémon](src/data/pokemon/pokemon.json): Neste conjunto você encontrará uma
   lista com os 151 Pokémon da região de Kanto, com suas respectivas estatísticas
   utilizadas no jogo [Pokémon GO](http://pokemongolive.com).
-  - [Pesquisa com jogadores de Pokémon Go](src/data/pokemon/README.pt-BR.md)
+  - [Pesquisa com jogadores de Pokémon Go](src/data/pokemon/README.pt.md)
 
 * [League of Legends - Challenger leaderboard](src/data/lol/lol.json): Este
   conjunto mostra a lista de campeões do jogo League of Legends
   (LoL).
-  - [Pesquisa com jogadores de LoL](src/data/lol/README.pt-BR.md)
+  - [Pesquisa com jogadores de LoL](src/data/lol/README.pt.md)
 
 * [Rick and Morty](src/data/rickandmorty/rickandmorty.json). Lista de
   personagens da série Rick & Morty. Você pode revisar a documentação da API
   neste [link](https://rickandmortyapi.com).
-  - [Pesquisa com seguidores de Rick and Morty](src/data/rickandmorty/README.pt-BR.md)
+  - [Pesquisa com seguidores de Rick and Morty](src/data/rickandmorty/README.pt.md)
 
 * [Jogos Olímpicos do Rio de Janeiro](src/data/atletas/atletas.json).
    Este conjunto nos fornece a lista de atletas que conquistaram medalhas nas
    Olimpíadas do Rio de Janeiro.
-  - [Pesquisa com stakeholders dos Jogos Olímpicos do Rio de Janeiro](src/data/atletas/README.pt-BR.md)
+  - [Pesquisa com stakeholders dos Jogos Olímpicos do Rio de Janeiro](src/data/atletas/README.pt.md)
 
 * [Studio Ghibli](src/data/ghibli/ghibli.json).
   Lista de animações e personagens do [Studio Ghibli](https://ghiblicollection.com/).
-  - [Pesquisa com seguidores de Studio Ghibli](src/data/ghibli/README.pt-BR.md)
+  - [Pesquisa com seguidores de Studio Ghibli](src/data/ghibli/README.pt.md)
 
 O objetivo principal deste projeto é que aprenda a desenhar e construir uma
 interface web onde se possa visualizar e manipular dados, entendendo o que o

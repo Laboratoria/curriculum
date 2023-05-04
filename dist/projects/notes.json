@@ -2,9 +2,9 @@
   "slug": "notes",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/04-notes",
-  "version": "6.1.1",
+  "version": "6.2.0",
   "parserVersion": "5.0.0-alpha.4",
-  "createdAt": "2023-03-08T17:45:49.232Z",
+  "createdAt": "2023-04-04T20:28:25.974Z",
   "prefix": 4,
   "track": "web-dev",
   "learningObjectives": [

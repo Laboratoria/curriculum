@@ -92,7 +92,7 @@ const addBootcampInfo = async (repoDir) => {
   if (!existsSync(projectPkgJsonPath)) {
     return;
   }
-  const pkg = Object.assign(JSON.parse(await readFile('package.json')), {
+  const pkg = Object.assign(JSON.parse(await readFile(projectPkgJsonPath)), {
     bootcamp: {
       createdAt: (new Date()).toISOString(),
       version: process.env.npm_package_version,
@@ -243,7 +243,6 @@ const main = async (args, opts) => {
   const meta = await loadYaml(path.join(src, 'project.yml'));
   // console.log('learning Objectives son', learningObjectives);
   await addLocalizedLearningObjectives(repoDir, opts, meta);
-  return;
   await initRepo(repoDir, opts);
 
   const confirmRemote = await prompt(

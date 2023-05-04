@@ -19,7 +19,7 @@ sistema para realizar pedidos usando um _tablet_, e que os enviem à
 cozinha para que sejam preparados de forma ordenada e eficiente.
 
 Este projeto tem duas áreas: interface (cliente) e API (servidor). Nosso
-cliente nos solicitou que desenvolvêssemos uma API que deve integrar com a
+cliente nos solicitou que desenvolvêssemos uma API que pode integrar com a
 interface, que outra equipe de desenvolvedores está trabalhando
 simultaneamente
 
@@ -27,7 +27,8 @@ simultaneamente
 
 Como API, nesse caso nos referimos a um _servidor web_, que é basicamente
 um programa que _ouve_ o que acontece na aplicação através de uma porta de rede,
-pela qual podemos enviar _requisições_ (_requests_) e obter _respostas_ (_responses_).
+pela qual podemos enviar _requisições_ (_requests_) e obter _respostas_ (_responses_)
+usando o protocolo HTTP (o HTTPS).
 
 Um servidor web deve _lidar_ com as requisições que chegam e devolver respostas,
 que serão enviadas de volta ao _cliente_. Quando falamos de _aplicações de servidor_,
@@ -46,9 +47,11 @@ familiarizar-nos com a _stack_ escolhida ([Node.js](https://nodejs.org/) e
 no qual você deverá escolher entre [MongoDB](https://www.mongodb.com/),
 [PostgreSQL](https://www.postgresql.org/) e [MySQL](https://www.mysql.com/).
 
-O cliente nos deu um [link para a documentação](https://laboratoria.github.io/burger-queen-api/)
-que especifica o comportamento esperado da API que iremos expor por
-HTTP. Lá podemos encontrar todos os detalhes que os _endpoints_ deve
+O cliente nos deu um
+[link](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
+para a documentação que especifica o comportamento esperado da API que
+iremos expor por HTTP.
+Lá podemos encontrar todos os detalhes que os _endpoints_ deve
 implementar na aplicação, que parâmetros esperam, o que devem responder, etc.
 
 O objetivo de aprendizagem principal é adquirir experiência com o **Node.js**
@@ -63,7 +66,7 @@ Ao final do projeto, você deverá estar familiarizada com conceitos como **rota
 (_routes_), **URLs**, **HTTP** (verbos, request, response, headers, body, status
 codes, etc), **JSON**, **JWT** (_JSON Web Tokens_), **conexão com uma base de dados**
 (`MongoDB`, `PostgreSQL` ou `MySQL`), **variables de ambiente**, **deployment**,
-**containers de `docker`**...
+**containers de `docker`**, etc.
 
 ## 3. Objetivos de aprendizagem
 
@@ -77,7 +80,7 @@ codes, etc), **JSON**, **JWT** (_JSON Web Tokens_), **conexão com uma base de d
 
 ## 4. Considerações gerais
 
-Este projeto será realizado em duplas e deverá estar integrado com o projeto
+Este projeto será realizado em duplas e pode estar integrado com o projeto
 [Burger Queen API client](../04-burger-queen-api-client)
 que a equipe de Frontend developers do seu squad desenvolve simultaneamente.
 
@@ -118,7 +121,8 @@ usá-los como um guia de implementação e lista de verificação de integridade
 
 ### 5.1 API
 
-Conforme estabelecido pela [documentação](https://laboratoria.github.io/burger-queen-api/)
+Conforme estabelecido pela
+[documentação](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 entregue pelo nosso cliente, a API deve expor os seguintes endpoints:
 
 #### 5.1,1 `/`
@@ -134,7 +138,7 @@ entregue pelo nosso cliente, a API deve expor os seguintes endpoints:
 * `GET /users`
 * `GET /users/:uid`
 * `POST /users`
-* `PUT /users/:uid`
+* `PATCH /users/:uid`
 * `DELETE /users/:uid`
 
 #### 5.1.4 `/products`
@@ -142,7 +146,7 @@ entregue pelo nosso cliente, a API deve expor os seguintes endpoints:
 * `GET /products`
 * `GET /products/:productid`
 * `POST /products`
-* `PUT /products/:productid`
+* `PATCH /products/:productid`
 * `DELETE /products/:productid`
 
 #### 5.1.5 `/orders`
@@ -150,7 +154,7 @@ entregue pelo nosso cliente, a API deve expor os seguintes endpoints:
 * `GET /orders`
 * `GET /orders/:orderId`
 * `POST /orders`
-* `PUT /orders/:orderId`
+* `PATCH /orders/:orderId`
 * `DELETE /orders/:orderId`
 
 ### 5.2 CLI
@@ -219,10 +223,13 @@ selecionada. Por outro lado, em relação a implantação, não é obrigatório 
 com o mecanismo de implantação e estratégia de hospedagem. Te recomendamos
 explorar as seguintes opcões:
 
-* [Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) é
-provavelmente a opção mais _simples_ (requer menos configuração) e nos
-permite hospedar tanto o servidor web como a base de dados (PostgreSQL)
-em um mesmo lucar com poucos clicks.
+* [Glitch](https://glitch.com) é provavelmente a opção mais _simples_
+(requer menos configuração) e nos permite hospedar o servidor web Express
+importando nosso repositório do GitHub.
+* [Vercel](https://vercel.com/) é uma opção semelhante ao Glitch, mas
+focada em aplicativos web estáticos (como os construídos com React).
+No entanto, o Vercel também nos permite implantar aplicativos node usando
+[Serverless Functions](https://vercel.com/docs/serverless-functions/introduction)
 * Se quiser explorar opções mais personalizadas e ver o docker do lado do
 servidor, pode considerar provedores como
 [AWS (Amazon Web Services)](https://aws.amazon.com/) ou
@@ -234,6 +241,9 @@ de GCP ou [Elastic Container Service](https://aws.amazon.com/ecs/) de AWS).
 * Se quiser trabalhar com MongoDB, [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 é uma opção muito boa para hospedar a base dados de produção, que
 podemos usar em conjunto com qualquer uma das opções mencionadas acima.
+* Se quiser trabalhar com MySQL, [ClearDB](https://www.cleardb.com/) é uma
+boa opção para hospedar a base de dados de produção, que podemos usar em
+conjunto com qualquer uma das opções mencionadas acima.
 
 Se tiver dúvidas sobre as diferentes (e múltiplas) opções de implantação,
 não hesite em consultar seus colegas e mentores.
@@ -267,7 +277,7 @@ não hesite em consultar seus colegas e mentores.
 * [ ] `GET /users`
 * [ ] `GET /users/:uid`
 * [ ] `POST /users`
-* [ ] `PUT /users/:uid`
+* [ ] `PATCH /users/:uid`
 * [ ] `DELETE /users/:uid`
 
 ### 7.4 `/products`
@@ -275,7 +285,7 @@ não hesite em consultar seus colegas e mentores.
 * [ ] `GET /products`
 * [ ] `GET /products/:productid`
 * [ ] `POST /products`
-* [ ] `PUT /products/:productid`
+* [ ] `PATCH /products/:productid`
 * [ ] `DELETE /products/:productid`
 
 ### 7.5 `/orders`
@@ -283,5 +293,5 @@ não hesite em consultar seus colegas e mentores.
 * [ ] `GET /orders`
 * [ ] `GET /orders/:orderId`
 * [ ] `POST /orders`
-* [ ] `PUT /orders/:orderId`
+* [ ] `PATCH /orders/:orderId`
 * [ ] `DELETE /orders/:orderId`

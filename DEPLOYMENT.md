@@ -60,7 +60,9 @@ La operación de hacer un release incluye las siguientes consideraciones:
 
 * La publicación del release en Github debe ser realizada **después**
   de haber hecho el último _push_, que incluye el _tag_ de la nueva versión,
-  el cual será utilizado para ser asociado a esta.
+  el cual será utilizado para ser asociado a esta. Puedes empezar
+  la publicación como draft en cualquier momento, y después del último
+  _push_ con el tag, la puedes publicar.
 
 Una vez que se haya revisado el contenido del milestone y se haya asegurado
 que no queda ningún issue o PR pendiente en él, y que se haya actualizado el
@@ -117,7 +119,9 @@ en Github) se deben ejecutar los siguiente pasos:
   directamente al repositorio de Laboratoria incluyendo el _tag_ asociado
   al release (normalmente al repo original
   del cual hacemos fork se le configura su _remote_ bajo el alias "upstream")
-  ejecutando el comando `git push upstream main --tags`
+  ejecutando el comando `git push upstream main --tags` (Ahora puedes
+  publicar el draft de release, eligiendo el tag correspondiente que acabas
+  de _pushear_.)
 
 Una vez realizado ese último paso, se ejecutarán en Github las
 [actions](https://github.com/features/actions) asociadas al repositorio,

@@ -264,12 +264,11 @@ da Paloma também pode te ajudar nos seus primeiros passos ;)
 
 ### Recursos extras
 
-A seguir um vídeo do Daniel que te ajudará a entender a fórmula matemática usada
-pela Cifra de César e algumas coisas mais que deve saber para resolver o seu
-projeto. Escute com atenção e siga seus conselhos ! :)
+A seguir um vídeo que mostra a fórmula matemática de Cifra de César mais
+algumas coisas que você precisa saber para resolver este projeto.
+A fórmula não é o importante do projeto, não se engane.
 
-[![Dicas Cifra de
-César](https://img.youtube.com/vi/utiLWBXmNQU/0.jpg)](https://www.youtube.com/watch?v=utiLWBXmNQU)
+[![Getting started cipher](https://img.youtube.com/vi/uehgMrP6few/0.jpg)](https://youtu.be/uehgMrP6few)
 
 Desenvolvimento Front-end:
 
