@@ -15,10 +15,11 @@ Para ello te recomendamos seguir los pasos a continuación:
 
 * [1. Instalar MongoDB y Compass](#1-instalar-mongodb-y-compass)
 * [2. Levanta el base de datos y server](#2-levanta-el-base-de-datos-y-server)
-* [3. Elegir módulo (cliente)](#5-elegir-módulo-cliente)
-* [4. Definir esquemas](#9-definir-esquemas)
-* [5. Definir estrategia de pruebas unitarias](#10-definir-estrategia-de-pruebas-unitarias)
-* [6. Familiarizarte con las pruebas de integración (e2e)](#11-familiarizarte-con-las-pruebas-de-integración-e2e)
+* [3. Elegir módulo (cliente)](#3-elegir-módulo-cliente)
+* [4. Definir esquemas](#4-definir-esquemas)
+* [5. Implementar los primeros TODOs](#5-codigar-los-primeros-todos)
+* [6. Definir estrategia de pruebas unitarias](#6-definir-estrategia-de-pruebas-unitarias)
+* [7. Familiarizarte con las pruebas de integración (e2e)](#7-familiarizarte-con-las-pruebas-de-integración-e2e)
 
 ***
 
@@ -64,9 +65,15 @@ o tu instalación en particular, para ejemplos en como levantarlo.
 Ahora que ya tenemos un servidor de bases de datos vamos a necesitar elegir un
 módulo o librería diseñado para interactuar con nuestra base de datos desde
 Node.js. Existen un montón de opciones, pero para este proyecto te recomendamos
-elegir [Mongoose](https://mongoosejs.com/) (que es la más popular para MongoDB).
+usar el [Node driver de MongoDB](https://www.mongodb.com/docs/drivers/node/current/)
+ (lo mas directo interactuar con MongoDB).
 
-Hay que instalar Mongoose como dependencia en este proyecto usando `npm`.
+También hay opciones mas abstractas como [Mongoose](https://mongoosejs.com/)
+(que es muy popular para MongoDB) o [Prisma](https://www.prisma.io/),
+pero si estas empezando con el mundo backend es mejor entender como interactuar
+con el base de datos con el driver.
+
+Hay que instalar el Node Driver en este proyecto usando `npm`.
 
 El _boilerplate_ ya incluye un archivo `config.js` donde se leen las
 variables de entorno, y entre ellas está `DB_URL`. Como vemos ese valor lo
@@ -81,20 +88,29 @@ Ahora que ya sabemos dónde encontrar el _connection string_ (en el módulo
 config), podemos proceder a establecer una conexión con la base de datos
 usando el cliente elegido.
 
-Ejemplo de conexión usando [Mongoose](https://mongoosejs.com/) (MongoDB):
+### Ejemplo de conexión usando MongoDB Node Driver
 
 ```js
-const mongoose = require("mongoose");
+const { MongoClient } = require('mongodb');
 const config = require("./config");
 
-mongoose
-  .connect(config.dbUrl, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then(console.log)
-  .catch(console.error);
+const client = new MongoClient(config.dbUrl);
+
+async function run() {
+  try {
+    await client.connect();
+    const db = client.db('test');
+    // ...
+  } finally {
+    // Close the database connection when finished or an error occurs
+    await client.close();
+  }
+}
+run().catch(console.error);
 ```
+
+Puedes encontrar mas ejemplos en [la documentación de MongoDB](https://www.mongodb.com/docs/drivers/node/current/?utm_campaign=w3schools_mdb&utm_source=w3schools&utm_medium=referral#fundamentals)
+y también en [un tutorial de w3schools](https://www.w3schools.com/mongodb/mongodb_nodejs_connect_database.php).
 
 ## 4. Definir esquemas
 
@@ -104,11 +120,103 @@ referimos a que tenemos que _describir_ de alguna forma las colecciones o
 tablas que vamos a usar y la _forma_ de los objetos o filas que vayamos a
 guardar en esas colecciones.
 
-Si has elegido MongoDB y Mongoose, este último nos ofrece un mecanismo para
-describir esos [_modelos_](https://mongoosejs.com/docs/models.html) y
-[_esquemas_](https://mongoosejs.com/docs/guide.html) de datos en JavaScript.
+Puedes usar [la documentación de API](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
+que describe la estructura de `products`, `orders`, etc. para guiar el diseño.
 
-## 5. Definir estrategia de pruebas unitarias
+## 5. Implementar primeros TODOs
+
+El boilerplate del proyecto viene con archivos con logica para arrancar el server
+y otros que contienen funciones de rutas y authenticación, pero muchas estan vacios.
+Hemos marcado los primeros partes essencial con comentarios `TODO` - que es un
+convención de documentacion de desarollo cuando hay algo para hacer.
+
+Aqui te guiamos un poco de estes todos.
+
+### TODO 1: Conectar al base de datos
+
+En el `index.js` donde arrancamos express y el API, hay
+
+```js
+const { port, dbUrl, secret } = config;
+const app = express();
+
+// TODO: Conexión a la Base de Datos (MongoDB o MySQL)
+```
+
+Aquí debes usar el `dbUrl` que importamos del config para establecer la conexión,
+quiza atravez una funcion que defines en un modulo y importas en el index.
+
+### TODO 2: Crear el usuario admin
+
+EL proyecto depende en la existencia de un usuario en el base de datos que
+tiene privilegios de administrador - para crear otros usuarios, etc.
+
+En `routes/users.js` invocamos una funcion `initAdminUser(app, next)`
+al final de archivo, y definimos esta funcion arriba en este misma archivo.
+
+`initAdminUser` es incompleto, y hay un TODO para crear el usuario admin,
+donde tienes que primero porbar si un admin ya existe, y si no agregar uno
+al base de datos.
+
+```js
+const initAdminUser = (app, next) => {
+  const { adminEmail, adminPassword } = app.get('config');
+  if (!adminEmail || !adminPassword) {
+    return next();
+  }
+
+  const adminUser = {
+    email: adminEmail,
+    password: bcrypt.hashSync(adminPassword, 10),
+    roles: { admin: true },
+  };
+
+  // TODO: crear usuaria admin
+  next();
+};
+
+Puedes confirmar si tu codigo funciona revisando el base de datos y un testeo unitario.
+
+```
+
+### TODO 3: Implementar autenticación de usuario
+
+En `routes/auth.js` hay la ruta '/auth' definida, con un
+
+```js
+ // TODO: autenticar a la usuarix
+ ```
+
+Aqui es donde debe que verificar que el correo y password coinciden con
+datos de un usuario en el base de datos, y si coinciden, hay que generar un
+[JWT token](https://jwt.io/introduction)
+y mandarlo en la respuesta, para el usuario puede usar con peticiones futuros.
+Para ejemplos con mas detalle, busca tutoriales de autenticacion con JWT y node/express.
+
+### TODO 4: Implementar el middleware de autenticación
+
+En `middleware/auth.js` hay varios `TODOs`. Usa este oportunidad a familiarizarte
+con [el concepto de middleware en express](https://expressjs.com/es/guide/using-middleware.html).
+
+La aplicacion va a usar este middleware para chequear que los peticiones
+que requiere autenticacion son autorizados, que tiene un token valido.
+
+### TODO 5: Implemenatar la ruta GET `/users`
+
+Para juntar y verificar todo el trabajo que has hecho, seria bueno implementar
+una ruta basica del API, en este caso recomendamos `/users` porque ya debes
+tener el user admin en tu base de datos, y este ruta usa el middleware de auth.
+
+Vas a ver que la ruta `/users` usa la funcion `getUsers` que es definido en
+`controller/users.js`. El concepto de controller nos sirve para separar más
+la logica de la definición de rutas con la implementacion que va a hablar con
+el base de datos. Hay que implementar `getUsers` para obtener la lista de
+users del colleción en tu base de datos.
+
+Revisa [el tutorial de Node y express en Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes)
+que habla de controllers.
+
+## 6. Definir estrategia de pruebas unitarias
 
 Además de las pruebas `e2e` que ya incluye el _boilerplate_ del proyecto, se
 espera que puedas también usar pruebas _unitarias_ para el desarrollo de los
@@ -127,7 +235,7 @@ se, pero por lo general querremos considerar cómo abstraer la interacción
 con la base de datos para facilitar _mocks_ que nos permitan concentrarnos en
 la lógica de las rutas.
 
-## 6. Familiarizarte con las pruebas de integración (e2e)
+## 7. Familiarizarte con las pruebas de integración (e2e)
 
 El _boilerplate_ de este proyecto ya incluye pruebas `e2e` (end-to-end) o de
 _integración_, que se encargan de probar nuestra aplicación en conjunto,

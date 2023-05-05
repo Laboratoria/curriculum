@@ -44,7 +44,9 @@ _endpoints_ (puntos de conexión o URLs) y nos piden completar la aplicación.
 Esto implica que tendremos que partir por leer la implementación existente, y
 familiarizarnos con el _stack_ elegido ([Node.js](https://nodejs.org/) y
 [Express](https://expressjs.com/)) y complementarlo con un motor de bases de
-datos. Recomendamos el uso de [MongoDB](https://www.mongodb.com/),
+datos. Recomendamos el uso de [MongoDB](https://www.mongodb.com/) y tenemos una
+[guia para empezar con Mongo](./GETTING-STARTED-MONGO-DB.md)
+> para ayudarte a elegir tu stack (base de datos, módulo para conectar a la base,
 pero puedes también elegir entre [PostgreSQL](https://www.postgresql.org/)
 y [MySQL](https://www.mysql.com/).
 
@@ -227,11 +229,7 @@ Por otro lado, con respecto al despliegue, tampoco es obligatorio usar
 con el mecanismo de despligue y estrategia de alojamiento. Te recomendamos
 explorar las siguientes opciones:
 
-* [Glitch](https://glitch.com) es
-  probablemente la opción más _sencilla_ (la que requiere menos configuración) y
-  nos permite alojar el servidor web Express
-  importando nuestro repositorio desde GitHub.
-* [Vercel](https://vercel.com/) es una opción similar a Glitch, pero enfocada
+* [Vercel](https://vercel.com/) es una opción enfocada
   a aplicaciones web estáticas (como las que se construyen con React). Sin embargo,
   Vercel también nos permite desplegar aplicaciones node usando [Serverless
   Functions](https://vercel.com/docs/serverless-functions/introduction).
@@ -261,9 +259,11 @@ dudes en consultar con tus pares y tus coaches.
 ### Primeros pasos
 
 > :information_source: Antes de comenzar a programar te recomendamos leer y
-> seguir con detenimiento la [**guía de _primeros pasos_**](./GETTING-STARTED.md)
-> para ayudarte a elegir tu stack (base de datos, módulo para conectar a la base
-> de datos desde Node.js, etc) y configurar tu entorno de desarrollo.
+> seguir con detenimiento la [**guía de _primeros pasos_**](./GETTING-STARTED-MONGODB.md)
+> para ayudarte con el stack recomendado (stack significa base de datos,
+> módulo para conectar a la base de datos desde Node.js, etc)
+> y configurar tu entorno de desarrollo.
+> Si vas a intentar con Docker, tambien tenemos [**guia con docker**](./GETTING-STARTED-DOCKER.md)
 
 ### Otros recursos
 
