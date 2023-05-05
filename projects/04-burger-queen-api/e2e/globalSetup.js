@@ -85,7 +85,7 @@ const checkAdminCredentials = () => fetch('/auth', {
 
 const waitForServerToBeReady = (retries = 10) => new Promise((resolve, reject) => {
   if (!retries) {
-    return reject(new Error('Server took to long to start'));
+    return reject(new Error('Server took too long to start'));
   }
 
   setTimeout(() => {
