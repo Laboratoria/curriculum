@@ -1,5 +1,5 @@
 {
-  "name": "card-validation",
+  "name": "text-analyzer",
   "version": "1.0.0",
   "main": "src/index.html",
   "license": "MIT",
@@ -9,11 +9,12 @@
     "pretest": "npm run eslint && npm run htmlhint",
     "test": "jest --verbose --coverage test/analyzer.spec.js",
     "test:oas": "jest --verbose read-only/test/oa/oa-*.spec.js",
-    "test:html": "jest --verbose read-only/test/oa/oa-html.spec.js",
-    "test:css": "jest --verbose read-only/test/oa/oa-css.spec.js",
-    "test:web-api": "jest --verbose read-only/test/oa/oa-web-api.spec.js",
-    "test:js": "jest --verbose read-only/test/oa/oa-javascript.spec.js",
+    "test:oas-html": "jest --verbose read-only/test/oa/oa-html.spec.js",
+    "test:oas-css": "jest --verbose read-only/test/oa/oa-css.spec.js",
+    "test:oas-web-api": "jest --verbose read-only/test/oa/oa-web-api.spec.js",
+    "test:oas-js": "jest --verbose read-only/test/oa/oa-javascript.spec.js",
     "test:e2e": "playwright test",
+    "test:e2e-browser": "playwright test --headed",
     "open-coverage-report": "opener ./coverage/lcov-report/index.html",
     "start": "serve ./src",
     "deploy": "gh-pages -d src"

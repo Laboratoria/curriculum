@@ -440,10 +440,10 @@ como se muestra en la siguiente imagen:
 Puedes ejecutar las pruebas de cada grupo de objetivos de aprendizaje de
 manera individual con los siguientes comandos:
 
-* `npm run test:html`
-* `npm run test:css`
-* `npm run test:web-api`
-* `npm run test:js`
+* `npm run test:oas-html`
+* `npm run test:oas-css`
+* `npm run test:oas-web-api`
+* `npm run test:oas-js`
 
 #### Pruebas end-to-end
 
