@@ -330,6 +330,8 @@ implementadas en el archivo `data.js`.
 
 ### Primeros pasos
 
+Súmate al canal de Slack [#project-data-lovers](https://claseslaboratoria.slack.com/archives/C03MV35EP5M)
+
 Antes de empezar a escribir código, debes definir qué deberá hacer el producto
 en base al conocimiento que puedas obtener de tu usuario. Estas preguntas te
 pueden ayudar:

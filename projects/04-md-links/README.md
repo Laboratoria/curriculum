@@ -275,6 +275,8 @@ profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
 
 ## 8. Pistas, tips y lecturas complementarias
 
+Súmate al canal de Slack [#project-md-links](https://claseslaboratoria.slack.com/archives/C03T1E5TJCQ)
+
 ### FAQs
 
 #### ¿Cómo hago para que mi módulo sea _instalable_ desde GitHub?
