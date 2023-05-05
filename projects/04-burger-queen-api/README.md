@@ -45,8 +45,7 @@ Esto implica que tendremos que partir por leer la implementación existente, y
 familiarizarnos con el _stack_ elegido ([Node.js](https://nodejs.org/) y
 [Express](https://expressjs.com/)) y complementarlo con un motor de bases de
 datos. Recomendamos el uso de [MongoDB](https://www.mongodb.com/) y tenemos una
-[guia para empezar con Mongo](./GETTING-STARTED-MONGO-DB.md)
-> para ayudarte a elegir tu stack (base de datos, módulo para conectar a la base,
+[guia para empezar con Mongo](./GETTING-STARTED-MONGO-DB.md) en este proyecto,
 pero puedes también elegir entre [PostgreSQL](https://www.postgresql.org/)
 y [MySQL](https://www.mysql.com/).
 
@@ -260,10 +259,8 @@ dudes en consultar con tus pares y tus coaches.
 
 > :information_source: Antes de comenzar a programar te recomendamos leer y
 > seguir con detenimiento la [**guía de _primeros pasos_**](./GETTING-STARTED-MONGODB.md)
-> para ayudarte con el stack recomendado (stack significa base de datos,
-> módulo para conectar a la base de datos desde Node.js, etc)
-> y configurar tu entorno de desarrollo.
-> Si vas a intentar con Docker, tambien tenemos [**guia con docker**](./GETTING-STARTED-DOCKER.md)
+> para ayudarte con el stack recomendado y configurar tu entorno de desarrollo.
+> Si vas a intentar con Docker, también tenemos una [**guia para docker**](./GETTING-STARTED-DOCKER.md)
 
 ### Otros recursos
 
