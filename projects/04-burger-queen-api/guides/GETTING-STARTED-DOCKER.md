@@ -23,7 +23,8 @@ Para ello te recomendamos seguir los pasos a continuación:
 La primera decisión que tenemos que tomar, antes de comenzar a programar, es
 elegir una base de datos. En este proyecto se sugieren 3 opciones: dos de ellas
 _relacionales_ y basadas en SQL, (PostgreSQL y MySQL), y otra _no relacional_
-(MongoDB). Las 3 son excelentes opciones.
+(MongoDB). Las 3 son excelentes opciones. Recomendamos `MongoDB` para tu primer
+proyecto backend.
 
 Algunos puntos a tener en cuenta:
 

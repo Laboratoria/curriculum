@@ -44,9 +44,7 @@ Esto implica que tendremos que partir por leer la implementación existente, y
 familiarizarnos con el _stack_ elegido ([Node.js](https://nodejs.org/) y
 [Express](https://expressjs.com/)) y complementarlo con un motor de bases de
 datos. Recomendamos el uso de [MongoDB](https://www.mongodb.com/) y tenemos una
-[guia para empezar con Mongo](./GETTING-STARTED-MONGO-DB.md) en este proyecto,
-pero puedes también elegir entre [PostgreSQL](https://www.postgresql.org/)
-y [MySQL](https://www.mysql.com/).
+[guia para empezar con MongoDB](./GETTING-STARTED-MONGO-DB.md).
 
 La clienta nos ha dado un [link a la documentación](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 que especifica el comportamiento esperado de la API que expondremos por
@@ -56,8 +54,7 @@ implementar la aplicación, qué parámetros esperan, qué deben responder, etc.
 El objetivo principal de aprendizaje es adquirir experiencia con **Node.js**
 como herramienta para desarrollar _aplicaciones de servidor_, junto con una
 serie de herramientas comunes usadas en este tipo de contexto (Express como
-framework, MongoDB, PostgreSQL o MySQL como base datos, contenedores de docker,
-etc).
+framework, MongoDB como base datos, etc).
 
 En este proyecto tendrás que construir un servidor web que debe _servir_ `JSON`
 sobre `HTTP`, y desplegarlo en un servidor en la nube.
@@ -65,8 +62,8 @@ sobre `HTTP`, y desplegarlo en un servidor en la nube.
 Para completar el proyecto tendrás que familiarizarte con conceptos como
 **rutas** (_routes_), **URLs**, **HTTP** y **REST** (verbs, request, response,
 headers, body, status codes...), **JSON**, **JWT** (_JSON Web Tokens_),
-**conexión con una base datos** (`MongoDB`, `PostgreSQL`, o `MySQL`),
-**variables de entorno**, **deployment**, **contenedores de `docker`**, etc.
+**conexión con una base datos** (`MongoDB`),
+**variables de entorno**, **deployment**, etc.
 
 ## 3. Objetivos de aprendizaje
 
@@ -205,25 +202,7 @@ Nuestra aplicación usa las siguientes variables de entorno:
 
 ### 5.3 Despliegue (Deployment)
 
-Nuestra clienta nos ha manifestado que su equipo de _devops_ está siempre con
-muchas tareas, por lo que nos pide como requerimiento que la aplicación esté
-configurada con `docker-compose` para que pueda ser desplegada sin dificultades
-en cualquier entorno.
-
-El _boilerplate_ ya cuenta con una configuración incial de `docker-compose` para
-la aplicación de node, tu tarea será extender esa configuración para incluir
-la configuración de base de datos que hayas elegido (como MongoDB).
-Ten en cuenta que como vas a tener dos servidores corriendo sobre una misma
-configuración, deberás exponer los servicios en diferentes puertos.
-
-No es obligatorio, pero para este proyecto te recomendamos usar `docker-compose`
-localmente (en tu computadora) para ejecutar la aplicación junto con la base de datos
-seleccionada. Si complica usar `docker` con tu sistema (a veces es costoso y lento
-en Windows) para desarrollo local, puedes dejar `docker`
-y levantar (correr) el base de datos y express server localmente.
-
-Por otro lado, con respecto al despliegue, tampoco es obligatorio usar
-`docker-compose`, puedes elegir el proveedor (o proveedores) que prefieras junto
+Puedes elegir el proveedor (o proveedores) que prefieras junto
 con el mecanismo de despligue y estrategia de alojamiento. Te recomendamos
 explorar las siguientes opciones:
 
@@ -231,20 +210,42 @@ explorar las siguientes opciones:
   a aplicaciones web estáticas (como las que se construyen con React). Sin embargo,
   Vercel también nos permite desplegar aplicaciones node usando [Serverless
   Functions](https://vercel.com/docs/serverless-functions/introduction).
-* Para MongoDB, [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+* [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
   es una muy buena opción para alojar nuestra base datos de producción, la cuál
   podemos usar en conjunción con cualquiera de las opciones mencionadas arriba.
+
+Si tienes dudas sobre las diferentes (y múltiples) opciones de despliegue no
+dudes en consultar con tus pares y tus coaches.
+
+### 5.4 Hacker (Devops) Edition con Docker
+
+Nuestra clienta nos ha manifestado que su equipo de _devops_ está siempre con
+muchas tareas, por lo que nos pide como requerimiento que la aplicación esté
+configurada con `docker-compose` para que pueda ser desplegada sin dificultades
+en cualquier entorno.
+
+El _boilerplate_ ya cuenta con una configuración inicial de `docker-compose` para
+la aplicación de node, tu tarea será extender esa configuración para incluir
+la configuración de base de datos. Ten en cuenta que como vas a tener dos servidores corriendo sobre una misma
+configuración, deberás exponer los servicios en diferentes puertos.
+
+Lee la [**guia para docker**] incluido en el proyecto (./GETTING-STARTED-DOCKER.md) para mas información.
+
+Para probar tu configuración de docker, te recomendamos usar `docker-compose`
+localmente (en tu computadora) para ejecutar la aplicación junto
+con la base de datos.
+
+Con respecto al despliegue, puedes elegir el proveedor (o proveedores) que prefieras junto con el mecanismo de despligue y estrategia de alojamiento. Te recomendamos
+explorar las siguientes opciones:
+
 * Si quieres explorar opciones más personalizadas y ver docker del lado del
-  servidor puedes cosiderar proveedores como
+  servidor puedes considerar proveedores como
   [AWS (Amazon Web Services)](https://aws.amazon.com/) o
   [GCP (Google Cloud Platform)](https://cloud.google.com/), ambos tienen algún
   tipo de _free tier_ así como tanto _instancias_ de _servidores virtuales_
   (VPS) donde configurar nuestro propio Docker o servicios para desplegar
   aplicaciones en contenedores (por ejemplo [Compute Engine](https://cloud.google.com/compute/docs/containers)
   de GCP o [Elastic Container Service](https://aws.amazon.com/ecs/) de AWS).
-
-Si tienes dudas sobre las diferentes (y múltiples) opciones de despliegue no
-dudes en consultar con tus pares y tus coaches.
 
 ## 6. Pistas, tips y lecturas complementarias
 
@@ -253,7 +254,6 @@ dudes en consultar con tus pares y tus coaches.
 > :information_source: Antes de comenzar a programar te recomendamos leer y
 > seguir con detenimiento la [**guía de _primeros pasos_**](./GETTING-STARTED-MONGODB.md)
 > para ayudarte con el stack recomendado y configurar tu entorno de desarrollo.
-> Si vas a intentar con Docker, también tenemos una [**guia para docker**](./GETTING-STARTED-DOCKER.md)
 
 ### Otros recursos
 
