@@ -22,6 +22,9 @@ const initAdminUser = (app, next) => {
   };
 
   // TODO: crear usuaria admin
+  // Primero ver si ya existe adminUser en base de datos
+  // si no existe, hay que guardarlo
+
   next();
 };
 
