@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # calculateBillTotal
 
 Escribe una función llamada `calculateBillTotal`.

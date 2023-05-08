@@ -1,6 +1,3 @@
-'use strict';
-
-
 const discount = .2;
 
 // Broken: returns new array but mutates same object references.

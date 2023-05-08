@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # 'this' se asigna implícitamente
-
-* Environment: `js`
-
-***
 
 Cuando usamos `new` con una función, JavaScript inyecta una referencia implícita
 al nuevo objeto creado a través de la pseudo-variable `this`.

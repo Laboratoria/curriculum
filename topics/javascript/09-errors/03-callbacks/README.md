@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Errores en callbacks
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
-
-***
 
 En la lectura anterior hemos visto como la sentencia `try...catch` nos permite
 envolver código que podría resultar en una excepción y así evitar que la

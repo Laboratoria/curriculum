@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Grid System
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
-
-***
 
 ## Objetivos de Aprendizaje
 

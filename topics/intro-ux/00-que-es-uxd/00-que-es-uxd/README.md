@@ -1,10 +1,9 @@
+---
+type: read
+duration: 1h
+---
+
 # User Experience Design
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `1h`
-
-***
 
 ## ¿Qué es User Experience Design?
 

@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # filterOddElements
 
 Escribe una función llamada "filterOddElements".

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Tests en el navegador
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
-
-***
 
 Hasta este punto hemos estado ejecutando nuestros tests con Node.js, pero como
 front-end developers nos interesa también poder ejcutar nuestros tests en un

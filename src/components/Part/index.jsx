@@ -1,27 +1,31 @@
 import { useParams } from 'react-router-dom';
-import Typography from '@material-ui/core/Typography';
+import Typography from '@mui/material/Typography';
+import { Challenges, Content, loadFromLocalStorage } from '@laboratoria/react';
 import Breadcrumbs from '../Breadcrumbs';
-import Content from '../Content';
-import ExercisesList from './ExercisesList';
-import Quiz from '../Quiz';
 
-const Part = ({ topic }) => {
+const Part = ({ lang, topic }) => {
   const params = useParams();
-  const part = topic.syllabus[params.unit].parts[params.part];
-  const exercises = Object.keys(part.exercises || {}).map(key => ({
-    ...part.exercises[key],
-    slug: key,
-  }));
+  const unit = topic.units.find(({ slug }) => slug === params.unit);
+  const part = unit.parts.find(({ slug }) => slug === params.part);
+  const challenges = part.challenges?.map((challenge) => {
+    const pathPrefix = `${topic.slug}/${unit.slug}/${part.slug}`;
+    const path = `${pathPrefix}/${challenge.slug}/${topic.version}`;
+    return {
+      ...challenge,
+      lastActivityLog: {
+        data: loadFromLocalStorage(path),
+      },
+    };
+  });
 
   return (
     <>
       <Breadcrumbs topic={topic} />
-      <Typography variant="h1">{part.title}</Typography>
-      <Content html={part.body} />
-      {!!exercises.length && (
-        <ExercisesList exercises={exercises} />
+      <Typography variant="h1">{part.intl[lang].title}</Typography>
+      <Content html={part.intl[lang].body} />
+      {!!challenges?.length && (
+        <Challenges challenges={challenges} lang={lang} />
       )}
-      {!!part.questions && <Quiz topic={topic} part={part} />}
     </>
   );
 };

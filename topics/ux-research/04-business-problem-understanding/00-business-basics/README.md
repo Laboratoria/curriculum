@@ -1,10 +1,9 @@
+---
+type: read
+duration: 2h
+---
+
 # Introducción a los negocios
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `2h`
-
-***
 
 ## Intro a los negocios y al mundo digital
 

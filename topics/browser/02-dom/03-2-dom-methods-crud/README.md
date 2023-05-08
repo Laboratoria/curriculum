@@ -1,10 +1,9 @@
+---
+type: read
+duration: 120min
+---
+
 # Modificando el DOM
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `120min`
-
-***
 
 ## Objetivos de Aprendizaje
 

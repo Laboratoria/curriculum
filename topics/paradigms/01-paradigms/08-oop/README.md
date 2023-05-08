@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # OOP
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
-
-***
 
 [![Paradigmas - Programación Orientada a Objetos (OOP)](https://embedwistia-a.akamaihd.net/deliveries/38e39ef424004f87bb6766c6e2da5f510d88e0d2.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/8id6wdxrdn?wvideo=8id6wdxrdn)
 

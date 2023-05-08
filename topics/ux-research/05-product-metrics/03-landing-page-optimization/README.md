@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Landing Page Optimization
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30 min`
-
-***
 
 ## Intro
 

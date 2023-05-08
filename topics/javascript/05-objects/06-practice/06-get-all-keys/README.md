@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # getAllKeys
 
 Escribe una función llamada `getAllKeys` que devuelve un array de todas las

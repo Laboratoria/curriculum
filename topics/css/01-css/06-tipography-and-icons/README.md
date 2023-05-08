@@ -1,8 +1,9 @@
-# Tipografías, íconos y sprites
+---
+type: read
+duration: 1h
+---
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `1h`
+# Tipografías, íconos y sprites
 
 ## Objetivos de Aprendizaje
 

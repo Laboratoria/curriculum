@@ -1,10 +1,9 @@
+---
+type: practice
+duration: 2h
+---
+
 # Jugando con XHR
-
-- Tipo: `taller`
-- Formato: `guiado`
-- Duración: `2h`
-
-***
 
 ## Objetivos
 

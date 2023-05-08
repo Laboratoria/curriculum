@@ -1,10 +1,9 @@
+---
+type: read
+duration: 60min
+---
+
 # Síntesis e interpretación
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `60 min`
-
-***
 
 ## Intro
 

@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Constructores
-
-* Environment: `js`
-
-***
 
 Los __Constructores__ son probablemente la manera más común de implementar
 cadenas de prototipos. La popularidad de los constructores se debe a que estos

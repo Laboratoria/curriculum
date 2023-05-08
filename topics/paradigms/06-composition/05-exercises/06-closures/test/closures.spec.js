@@ -1,7 +1,4 @@
-'use strict';
-
-
-const Assert =  require('chai').assert;
+const Assert = require('chai').assert;
 const Sinon = require('sinon');
 const Submission = require('../solution/closures');
 

@@ -1,115 +1,126 @@
-import { Fragment, useState } from 'react';
-import { useLocation, useNavigate, useParams } from 'react-router-dom';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import FormControl from '@material-ui/core/FormControl';
-import IconButton from '@material-ui/core/IconButton';
-import MenuItem from '@material-ui/core/MenuItem';
-import Select from '@material-ui/core/Select';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import MenuIcon from '@material-ui/icons/Menu';
-// import { useApp } from '../../lib/app';
+import { useLocation, useNavigate, useParams, Link } from 'react-router-dom';
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import FormControl from '@mui/material/FormControl';
+import Grid from '@mui/material/Grid';
+import MenuItem from '@mui/material/MenuItem';
+import Select from '@mui/material/Select';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
 import DrawerMenu from './DrawerMenu';
-// import UserMenu from './UserMenu';
-import laboratoriaLogo from '../../icons/laboratoria-logo.svg';
-import laboratoriaIcon from '../../icons/laboratoria-isotipo.svg';
+import laboratoriaLogo from '@laboratoria/react/dist/icons/laboratoria-logo.svg';
+import laboratoriaIcon from '@laboratoria/react/dist/icons/laboratoria-isotipo.svg';
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
+const flexCenter = {
+  display: 'flex',
+  alignItems: 'center',
+};
+
+const sx = theme => ({
+  pt: 1,
+  pb: 3,
+  [theme.breakpoints.up('sm')]: {
+    pt: 4,
   },
-  menuButton: {
-    marginRight: theme.spacing(2),
+  backgroundColor: '#fff',
+
+  '.MuiAppBar-root': {
+    mx: 'auto',
+    maxWidth: 'lg',
   },
-  title: {
-    flexGrow: 1,
-    display: 'flex',
+  '.hide-when-small': {
+    ...flexCenter,
+    [theme.breakpoints.down('sm')]: {
+      display: 'none',
+    },
   },
-  offset: theme.mixins.toolbar,
-  list: {
-    width: 280,
-  },
-  langSelect: {
-    marginRight: theme.spacing(1),
-  },
-  hideWhenNotSmall: {
-    display: 'flex',
-    alignItems: 'center',
+  '.hide-when-not-small': {
+    ...flexCenter,
     [theme.breakpoints.up('sm')]: {
-      display: 'none',
+      display: 'none !important',
     },
   },
-  hideWhenSmall: {
-    display: 'flex',
-    alignItems: 'center',
-    [theme.breakpoints.down('xs')]: {
-      display: 'none',
-    },
+  '.MuiGrid-item': {
+    ...flexCenter,
   },
-}));
+});
 
 const TopBar = () => {
-  const classes = useStyles();
-  const navigate = useNavigate();
   const { lang } = useParams();
-  const location = useLocation();
-  // const { auth } = useApp();
-  const [drawerIsOpen, setDrawerIsOpen] = useState(false);
-  const urlWithoutLang = location.pathname.split('/').slice(2).join('/');
+  const navigate = useNavigate();
+  const { pathname, search } = useLocation();
+  const urlWithoutLang = `${pathname.split('/').slice(2).join('/')}${search}`;
 
   return (
-    <Fragment>
-      <AppBar style={{ backgroundColor: 'white' }}>
+    <Box sx={sx}>
+      <AppBar position="static">
         <Toolbar>
-          <IconButton
-            onClick={() => setDrawerIsOpen(true)}
-            edge="start"
-            className={classes.menuButton}
-            color="inherit"
-            aria-label="menu"
-          >
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="subtitle1" className={classes.title}>
-            <div className={classes.hideWhenNotSmall}>
-              <img alt="Laboratoria logo" src={laboratoriaIcon} height={56} />
-            </div>
-            <div className={classes.hideWhenSmall}>
-              <img alt="Laboratoria logo" src={laboratoriaLogo} height={32} style={{ marginRight: 10 }} /> Curriculum
-            </div>
-          </Typography>
-          <FormControl className={classes.langSelect}>
-            <Select
-              labelId="lang-select-label"
-              id="lang-select"
-              displayEmpty
-              value={lang}
-              onChange={e => navigate(`/${e.target.value}/${urlWithoutLang}`)}
+          <Grid container spacing={0}>
+            <Grid item xs={3}>
+              <DrawerMenu lang={lang} />
+              <Link to={`/${lang}/`}>
+                <Typography variant="body2" sx={{
+                  flexGrow: 1,
+                  display: 'flex',
+                  alignItems: 'center',
+                }}>
+                  <span className="hide-when-not-small">
+                    <img
+                      alt="Laboratoria logo"
+                      src={laboratoriaIcon}
+                      height={56}
+                    />
+                  </span>
+                  <span className="hide-when-small">
+                    <img
+                      alt="Laboratoria logo"
+                      src={laboratoriaLogo}
+                      height={36}
+                      style={{ marginRight: 10 }}
+                    />
+                  </span>
+                  Curriculum
+                </Typography>
+              </Link>
+            </Grid>
+            <Grid
+              item
+              xs={8}
+              sx={{
+                justifyContent: 'right',
+              }}
             >
-              <MenuItem value="" disabled>Lang</MenuItem>
-              <MenuItem value={'es'}>
-                <span className={classes.hideWhenNotSmall}>ES</span>
-                <span className={classes.hideWhenSmall}>Español</span>
-              </MenuItem>
-              <MenuItem value={'pt'}>
-                <span className={classes.hideWhenNotSmall}>PT</span>
-                <span className={classes.hideWhenSmall}>Português</span>
-              </MenuItem>
-            </Select>
-          </FormControl>
-          {/* <UserMenu lang={lang} auth={auth} history={history} /> */}
+              <FormControl variant="standard" sx={{ marginRight: 3 }}>
+                <Select
+                  labelId="lang-select-label"
+                  id="lang-select"
+                  displayEmpty
+                  disableUnderline
+                  value={lang}
+                  onChange={e => navigate(`/${e.target.value}/${urlWithoutLang}`)}
+                >
+                  <MenuItem value="" disabled>Lang</MenuItem>
+                  <MenuItem value={'es'}>ES</MenuItem>
+                  <MenuItem value={'pt'}>PT</MenuItem>
+                </Select>
+              </FormControl>
+            </Grid>
+            <Grid
+              item
+              xs={1}
+              sx={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                mb: '-5px',
+              }}
+            >
+              <x-tech-support lang={lang} />
+            </Grid>
+          </Grid>
         </Toolbar>
       </AppBar>
-
-      <div className={classes.offset} />
-
-      <DrawerMenu
-        drawerIsOpen={drawerIsOpen}
-        setDrawerIsOpen={setDrawerIsOpen}
-        lang={lang}
-      />
-    </Fragment>
+    </Box>
   );
 };
 

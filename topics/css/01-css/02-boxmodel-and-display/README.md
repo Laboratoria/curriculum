@@ -1,8 +1,9 @@
-# Box Model & Display
+---
+type: read
+duration: 1h
+---
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `1h`
+# Box Model & Display
 
 ## Objetivos de Aprendizaje
 

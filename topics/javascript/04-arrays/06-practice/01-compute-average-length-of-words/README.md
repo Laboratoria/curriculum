@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # computeAverageLengthOfWords
 
 Escribe una función 'computeAverageLengthOfWords' que recibe dos strings y

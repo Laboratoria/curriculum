@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Arrow Functions
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
-
-***
 
 ## Diferencias entre arrow functions y funciones clásicas
 

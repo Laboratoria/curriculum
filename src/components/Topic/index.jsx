@@ -1,25 +1,25 @@
 import { useEffect, useState } from 'react';
 import { Link, Route, Routes, useParams } from 'react-router-dom';
-import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
-import Loading from '../Loading';
-import Breadcrumbs from '../Breadcrumbs';
-import Exercise from '../Exercise';
-import Part from '../Part';
+import { FormattedMessage } from 'react-intl';
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
+import { Loading, Challenge } from '@laboratoria/react';
 import data from '../../lib/data';
+import Breadcrumbs from '../Breadcrumbs';
+import Part from '../Part';
 
-const Unit = ({ topic }) => {
+const Unit = ({ topic, lang }) => {
   const params = useParams();
-  const unit = topic.syllabus[params.unit];
+  const unit = topic.units.find(({ slug }) => slug === params.unit);
 
   return (
     <>
       <Breadcrumbs topic={topic} />
-      <Typography variant="h2">{unit.title}</Typography>
-      {Object.keys(unit.parts).map(key => (
-        <div key={key}>
-          <Link to={`${key}`}>
-            {unit.parts[key].title}
+      <Typography variant="h2">{unit.intl[lang].title}</Typography>
+      {unit.parts.map(part => (
+        <div key={part.slug}>
+          <Link to={`${part.slug}`}>
+            {part.intl[lang].title}
           </Link>
         </div>
       ))}
@@ -27,22 +27,24 @@ const Unit = ({ topic }) => {
   );
 };
 
-const UnitsList = ({ topic }) => (
+const UnitsList = ({ topic, lang }) => (
   <>
     <Breadcrumbs topic={topic} />
-    <Typography variant="h2">{topic.title}</Typography>
-    <Typography variant="body1">
-      <div dangerouslySetInnerHTML={{ __html: topic.description }}></div>
+    <Typography variant="h2">{topic.intl[lang].title}</Typography>
+    <Typography variant="body1" component="div">
+      <div dangerouslySetInnerHTML={{ __html: topic.summary }}></div>
     </Typography>
-    {Object.keys(topic.syllabus).map(key => (
-      <div key={key}>
-        <Link to={`${key}`}>
-          <Typography variant="h3">{topic.syllabus[key].title}</Typography>
-        </Link>
-        {Object.keys(topic.syllabus[key].parts).map(partKey => (
-          <div key={`${key}-${partKey}`}>
-            <Link to={`${key}/${partKey}`}>
-              {topic.syllabus[key].parts[partKey].title}
+    {topic.units.map((unit, _, arr) => (
+      <div key={unit.slug}>
+        {arr.length > 1 && (
+          <Link to={`${unit.slug}`}>
+            <Typography variant="h3">{unit.intl[lang].title}</Typography>
+          </Link>
+        )}
+        {unit.parts.map(part => (
+          <div key={`${unit.slug}-${part.slug}`}>
+            <Link to={`${unit.slug}/${part.slug}`}>
+              {part.intl[lang].title}
             </Link>
           </div>
         ))}
@@ -51,12 +53,27 @@ const UnitsList = ({ topic }) => (
   </>
 );
 
+const ChallengeRoute = ({ topic, lang }) => {
+  const params = useParams();
+  const unit = topic.units.find(({ slug }) => slug === params.unit);
+  const part = unit.parts.find(({ slug }) => slug === params.part);
+  const challenge = part.challenges.find(({ slug }) => slug === params.challengeid);
+
+  return (
+    <Challenge
+      challenge={{ ...challenge, version: topic.version }}
+      lang={lang}
+      pathPrefix={`${topic.slug}/${unit.slug}/${part.slug}`}
+    />
+  );
+};
+
 const Topic = () => {
   const { lang, slug } = useParams();
   const [topic, setTopic] = useState();
 
   useEffect(() => {
-    const id = `topics/${slug}${lang !== 'es' ? '-pt' : ''}`;
+    const id = `topics/${slug}`;
     data.subscribe(id, setTopic);
     return () => {
       data.unsubscribe(id, setTopic);
@@ -67,13 +84,33 @@ const Topic = () => {
     return <Loading />;
   }
 
+  if (!topic.intl[lang]) {
+    return (
+      <Container>
+        <FormattedMessage id="not-available-in-lang" />
+      </Container>
+    );
+  }
+
   return (
     <Container>
       <Routes>
-        <Route path=":unit/:part/:exerciseid/*" element={<Exercise topic={topic} />} />
-        <Route path=":unit/:part" element={<Part topic={topic} />} />
-        <Route path=":unit" element={<Unit topic={topic} />} />
-        <Route path="" element={<UnitsList topic={topic} />} />
+        <Route
+          path=":unit/:part/:challengeid/*"
+          element={<ChallengeRoute topic={topic} lang={lang} />}
+        />
+        <Route
+          path=":unit/:part"
+          element={<Part topic={topic} lang={lang} />}
+        />
+        <Route
+          path=":unit"
+          element={<Unit topic={topic} lang={lang} />}
+        />
+        <Route
+          path=""
+          element={<UnitsList topic={topic} lang={lang} />}
+        />
       </Routes>
     </Container>
   );

@@ -8,6 +8,7 @@
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
+* [7. Funcionalidades para reforzar OA de promesas](#7-funcionalidades-para-reforzar-oa-de-promesas)
 
 ***
 
@@ -115,6 +116,8 @@ la lista del pedido y el total).
 
 Este proyecto se debe "resolver" de forma individual.
 
+El rango de tiempo estimado para completar el proyecto es de 3 a 5 Sprints.
+
 Trabaja en una historia hasta terminarla antes de pasar a la siguiente. Trabaja
 hasta la historia que puedas en el tiempo especificado.
 
@@ -153,7 +156,7 @@ archivos/carpetas con la configuración de Fierbase (hosting y firestore):
 ├── firestore.indexes.json
 ├── firestore.rules
 ├── README.md
-└── README.pt-BR.md
+└── README.pt.md
 ```
 
 Por otro lado, la parte de la interfaz no está incluida, por lo que, deberás
@@ -490,3 +493,44 @@ yarn start
 * [Qué es Serverless? | FooBar - YouTube](https://www.youtube.com/watch?v=_SYHUpLi-2U)
 * [Firebase](https://firebase.google.com/)
 * [Serverless Architectures - Martin Fowler](https://www.martinfowler.com/articles/serverless.html)
+
+## 7. Funcionalidades para reforzar OA de promesas
+
+Te sugerimos implementar las siguientes funcionalidades para que
+puedas reforzar aún más los Objetivos de Aprendizaje asociados a
+promesas.
+
+* Agrega la opción de actualizar 2 o más pedidos que esten en la
+  cocina. Muestra al usuario un **único** mensaje de confirmación
+  cuando **todos** los pedidos hayan sido actualizados con éxito.
+  Recuerda, firestore al
+  [actualizar un documento](https://firebase.google.com/docs/firestore/manage-data/add-data#update-data)
+  retorna una promesa. ¿Cómo podrías mostrar el mensaje de confirmación
+  unicamente cuando todas las promesas se hayan resuelto? Te sugerimos
+  revisar la función
+  [Promise.all](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all).
+
+* Cuando un pedido finalice, puedes incorporar a tu código la
+  siguiente función `getDiscount`:
+  
+  ```js
+  export const getDiscount = () => {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        const discount = parseInt(Math.random() * 100);
+        if (discount > 80) {
+          reject(new Error(`¡${discount}% es demasiado descuento!`));
+        } else {
+          resolve(discount);
+        }
+      }, 0);
+    });
+  }
+  ```
+  
+  Que retornará una promesa que generará un número entero aleatorio
+  `discount` que puedes utilizar como porcentaje de descuento para
+  calcular el total del pedido en caso de que sea menor o igual a 80;
+  En caso de que el número entero `discount` sea mayor a 80,
+  la promesa retornará un error con el mensaje de que el descuento es
+  demasiado grande, y por ende, no aplicable.

@@ -1,3 +1,4 @@
+track: web-dev
 learningObjectives:
   - html/semantics
   - css/selectors
@@ -22,6 +23,7 @@ learningObjectives:
   - angular
   - react
   - vue
+  - db/modeling
   - user-centricity/centricity
   - product-design/interactivity
   - product-design/visual-design

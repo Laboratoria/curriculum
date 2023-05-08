@@ -1,10 +1,9 @@
+---
+type: read
+duration: 1h
+---
+
 # User flows
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `1h`
-
-***
 
 El flujo de usuario es la representación visual de una secuencia de pasos que el
 usuario debe seguir dentro de tu producto para lograr una meta. Por ejemplo, si

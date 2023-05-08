@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # findShortestOfThreeWords
 
 Escribe una función llamada `findShortestOfThreeWords`.

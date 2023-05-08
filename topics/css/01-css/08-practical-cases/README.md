@@ -1,10 +1,9 @@
+---
+type: read
+duration: 2h
+---
+
 # Caso práctico (video)
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `2h`
-
-***
 
 ## Objetivos
 

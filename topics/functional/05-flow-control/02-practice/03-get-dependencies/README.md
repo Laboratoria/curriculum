@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # getDependencies
-
-* Environment: `js`
-
-***
 
 ## Tarea
 

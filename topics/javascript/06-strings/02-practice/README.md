@@ -1,7 +1,6 @@
+---
+type: practice
+duration: 15min
+---
+
 # Retos de código
-
-- Tipo: `practice`
-- Formato: `self-paced`
-- Duración: `15min`
-
-***

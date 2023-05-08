@@ -16,7 +16,9 @@
 
 ## 1. Preámbulo
 
-Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
+Cifrar significa ocultar el contenido de un mensaje a simple vista, de manera
+que sólo las partes autorizadas pueden descifrar un texto cifrado.
+El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
 es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
 César lo usaba para enviar órdenes secretas a sus generales en los campos de
 batalla.
@@ -75,8 +77,8 @@ conceptos también.
 
 ## 3. Consideraciones generales
 
-* Este proyecto lo resolvemos de manera individual. Te recomendamos una
-  duracion de 1-3 sprints.
+* Este proyecto lo resolvemos de manera **individual**.
+* El rango de tiempo estimado para completar el proyecto es de 1 a 3 Sprints.
 * Enfócate en aprender y no solamente en "completar" el proyecto.
 * Te sugerimos que no intentes saberlo todo antes de empezar a codear.
   No te preocupes demasiado ahora por lo que _todavía_ no entiendas.
@@ -237,8 +239,7 @@ El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
 ### Prepara tu PC para trabajar
 
 1. Asegúrate de tener un :pencil: editor de texto en
-   condiciones, algo como [Atom](https://atom.io/) o
-   [Code](https://code.visualstudio.com/).
+   condiciones, algo como [VS Code](https://code.visualstudio.com/).
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
    [UNIX Shell](https://curriculum.laboratoria.la/es/topics/shell),
    que es un programa que interpreta líneas de comando (command-line
@@ -246,15 +247,10 @@ El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
    instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
    ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
    también). Si usas Windows puedes usar la versión completa de [Cmder](https://cmder.app/)
-   que incluye [Git bash](https://git-scm.com/download/win) y si tienes Windows
-   10 o superior puedes usar [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-3. Una de las integrantes del equipo debe realizar un :fork_and_knife:
-   [fork](https://help.github.com/articles/fork-a-repo/) del repo de tu cohort,
-   tus _coaches_ te compartirán un _link_ a un repo y te darán acceso de lectura
-   en ese repo. La otra integrante del equipo deber hacer un fork **del
-   repositorio de su compañera** y
-   [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) un `remote`
-   hacia el mismo.
+   que incluye [Git bash](https://git-scm.com/download/win).
+3. Tus _coaches_ te compartirán un _link_ a un repo y te darán acceso de lectura
+   en ese repo. Debes realizar un :fork_and_knife:
+   [fork](https://help.github.com/articles/fork-a-repo/) del repo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
    tu _fork_ a tu computadora (copia local).
 5. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
@@ -273,10 +269,10 @@ Súmate al canal de Slack
 para conversar y pedir ayuda del proyecto.
 
 A continuación un video que te lleva a través de la fórmula matemática del
-Cifrado Césary un par de cosas más que debes saber para resolver este proyecto.
+Cifrado César y un par de cosas más que debes saber para resolver este proyecto.
 La fórmula no es lo importante del proyecto, no te confundas.
 
-[![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
+[![Getting started cipher](https://img.youtube.com/vi/uehgMrP6few/0.jpg)](https://youtu.be/uehgMrP6few)
 
 Terminal y shell de UNIX:
 
@@ -297,7 +293,6 @@ Desarrollo Front-end:
 * [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
 * Aprende más sobre [objetos](https://es.javascript.info/object) y
   [como definir métodos](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Working_with_Objects#definici%C3%B3n_de_m%C3%A9todos)
-* [Documentación de NPM](https://docs.npmjs.com/)
 
 Organización del Trabajo:
 

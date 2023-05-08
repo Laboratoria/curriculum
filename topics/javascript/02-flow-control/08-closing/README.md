@@ -1,10 +1,9 @@
+---
+type: read
+duration: 5min
+---
+
 # Cierre
-
-- Tipo: `read`
-- Formato: `self-paced`
-- Duración: `5min`
-
-***
 
 ## Respondamos las preguntas del opening
 

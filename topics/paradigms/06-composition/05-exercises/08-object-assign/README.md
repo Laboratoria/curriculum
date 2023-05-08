@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Object.assign()
-
-* Environment: `js`
-
-***
 
 ## Tarea
 

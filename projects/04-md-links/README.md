@@ -48,11 +48,11 @@ cómo hacer consultas de red, etc.
 construido con el [motor de JavaScript V8 de Chrome](https://developers.google.com/v8/).
 Esto nos va a permitir ejecutar JavaScript en el entorno del sistema operativo,
 ya sea tu máquina o un servidor, lo cual nos abre las puertas para poder
-interactuar con el sistema en sí, archivos, redes, ...
+interactuar con el sistema en sí, archivos, redes, etc.
 
 Diseñar tu propia librería es una experiencia fundamental para cualquier
-desarrollador porque que te obliga a pensar en la interfaz (API) de tus
-_módulos_ y cómo será usado por otros developers. Debes tener especial
+desarrolladora porque que te obliga a pensar en la interfaz (API) de tus
+_módulos_ y cómo será usado por otras developers. Debes tener especial
 consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
 ## 3. Objetivos de aprendizaje
@@ -68,6 +68,8 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 ## 4. Consideraciones generales
 
 * Este proyecto se debe "resolver" de manera individual.
+
+* El rango de tiempo estimado para completar el proyecto es de 4 a 5 Sprints.
 
 * La **librería** y el **script ejecutable** (herramienta de línea de comando -
   CLI) deben estar implementados en JavaScript para ser ejecutados con
@@ -85,15 +87,15 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 * Para este proyecto **no está permitido** utilizar `async/await`.
 
 * Para este proyecto te sugerimos **no utilizar** la versión síncrona
-de la función para leer archivos, `readFileSync`, y en cambio intentar
-resolver este desafío de manera asíncrona.
+  de la función para leer archivos, `readFileSync`, y en cambio intentar
+  resolver este desafío de manera asíncrona.
 
 * Para este proyecto es **opcional** el uso de ES Modules `(import/export)`, en el
   caso optes utilizarlo deberás de crear un script de `build` en el `package.json`
   que los transforme en `requires` y `module.exports` con ayuda de **babel**.
 
 * Para disminuir la complejidad de tu algoritmo recursivo, te recomendamos
-utilizar la versión síncrona de la función para leer directorios, `readdirSync`.
+  utilizar la versión síncrona de la función para leer directorios, `readdirSync`.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
@@ -124,7 +126,7 @@ considere necesarios.
 * `.gitignore` para ignorar `node_modules` u otras carpetas que no deban
   incluirse en control de versiones (`git`).
 * `test/md-links.spec.js` debe contener los tests unitarios para la función
-  `mdLinks()`. Tu inplementación debe pasar estos tets.
+  `mdLinks()`. Tu implementación debe pasar estos tests.
 
 ## Este proyecto consta de DOS partes
 
@@ -333,7 +335,6 @@ si tienes dudas existenciales con respecto a estas decisiones. No existe una
 * [¿Qué es Nodejs? Javascript en el Servidor - Fazt en YouTube](https://www.youtube.com/watch?v=WgSc1nv_4Gw)
 * [¿Simplemente qué es Node.js? - IBM Developer Works, 2011](https://www.ibm.com/developerworks/ssa/opensource/library/os-nodejs/index.html)
 * [Node.js y npm](https://www.genbeta.com/desarrollo/node-js-y-npm)
-* [Módulos, librerías, paquetes, frameworks... ¿cuál es la diferencia?](http://community.laboratoria.la/t/modulos-librerias-paquetes-frameworks-cual-es-la-diferencia/175)
 * [Asíncronía en js](https://carlosazaustre.es/manejando-la-asincronia-en-javascript)
 * [NPM](https://docs.npmjs.com/getting-started/what-is-npm)
 * [Publicar packpage](https://docs.npmjs.com/getting-started/publishing-npm-packages)

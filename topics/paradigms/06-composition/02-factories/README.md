@@ -1,10 +1,9 @@
+---
+type: read
+duration: 5min
+---
+
 # Factories
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
-
-***
 
 Las `factories` o `factory functions` son simplemente funciones que crean
 objetos. Podemos usar factories como alternativa a los constructores, siendo más

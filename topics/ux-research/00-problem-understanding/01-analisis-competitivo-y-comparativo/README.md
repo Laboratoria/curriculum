@@ -1,10 +1,9 @@
+---
+type: read
+duration: 10min
+---
+
 # Análisis competitivo y comparativo
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `10 min`
-
-***
 
 ## Intro
 

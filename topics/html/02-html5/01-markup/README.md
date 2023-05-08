@@ -1,10 +1,9 @@
+---
+type: read
+duration: 1h
+---
+
 # HTML
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `1h`
-
-***
 
 ## Objetivos de Aprendizaje
 

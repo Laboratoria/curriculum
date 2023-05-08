@@ -1,8 +1,9 @@
-# Valores, tipos de datos y operadores
+---
+type: read
+duration: 60min
+---
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `60min`
+# Valores, tipos de datos y operadores
 
 ## Objetivos de Aprendizaje
 

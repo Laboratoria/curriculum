@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # transformEmployeeData
 
 Escribe una función llamada `transformEmployeeData` que transforma algunos

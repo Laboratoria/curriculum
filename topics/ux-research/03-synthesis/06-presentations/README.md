@@ -1,10 +1,9 @@
+---
+type: read
+duration: 1h
+---
+
 # Presentaciones
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `1h`
-
-***
 
 ## Intro
 
@@ -93,4 +92,3 @@ Algunos ejemplos creativos que podrías aplicar:
 - Haz un poster o infografía con los hallazgos principales (Facebook llama a
   esto el método análogo - imprime tus hallazgos principales y ponlos en algún
   lugar de la oficina donde puedan ser vistos).
-  

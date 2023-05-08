@@ -1,8 +1,9 @@
-# Objetos preconstruidos
+---
+type: read
+duration: 15min
+---
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
+# Objetos preconstruidos
 
 ## Objetivos de Aprendizaje
 

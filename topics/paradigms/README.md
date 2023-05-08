@@ -1,3 +1,7 @@
+---
+track: web-dev
+---
+
 # Paradigmas de programación
 
 Los **Paradigmas de Programación** (_Programming Paradigms_) son formas

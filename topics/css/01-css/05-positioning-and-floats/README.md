@@ -1,8 +1,9 @@
-# Positioning & Floats
+---
+type: read
+duration: 2h
+---
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `2h`
+# Positioning & Floats
 
 ## Objetivos de Aprendizaje
 

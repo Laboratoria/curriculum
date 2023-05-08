@@ -1,10 +1,9 @@
+---
+type: read
+duration: 20min
+---
+
 # Third party APIs
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `20min`
-
-***
 
 ## Objetivos de Aprendizaje
 

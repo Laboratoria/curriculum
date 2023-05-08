@@ -1,10 +1,9 @@
+---
+type: read
+duration: 40min
+---
+
 # Análisis de datos
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `40min`
-
-***
 
 ## Analítica
 

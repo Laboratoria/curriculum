@@ -1,8 +1,9 @@
+---
+env: cjs
+---
+
 # Arrow Functions
 
-* Environment: `js`
-
-***
 Una _función flecha_ (arrow function) es una expresión con una sintáxis más
 corta comparada con la expresión de función convencional (`function`) y se
 diferencia de ésta en los siguiente:
