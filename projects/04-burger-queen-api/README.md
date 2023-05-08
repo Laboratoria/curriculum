@@ -8,7 +8,6 @@
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptaci%C3%B3n-m%C3%ADnimos-del-proyecto)
 * [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
-* [7 HTTP API Checklist](#7-http-api-checklist)
 
 ## 1. Preámbulo
 
@@ -187,7 +186,7 @@ Nuestra aplicación usa las siguientes variables de entorno:
 * `PORT`: Si no se ha especificado un puerto como argumento de lína de comando,
   podemos usar la variable de entorno `PORT` para especificar el puerto. Valor
   por defecto `8080`.
-* `DB_URL`: El _string_ de conexión de _MongoDB_ o _MySQL_. Cuando ejecutemos la
+* `DB_URL`: El _string_ de conexión de _MongoDB_. Cuando ejecutemos la
   aplicación en nuestra computadora (en entorno de desarrollo), podemos usar el
   una base de datos local, pero en producción deberemos utilizar las instancias
   configuradas con `docker-compose` (mas sobre esto en la siguiente sección de
@@ -232,6 +231,9 @@ explorar las siguientes opciones:
   a aplicaciones web estáticas (como las que se construyen con React). Sin embargo,
   Vercel también nos permite desplegar aplicaciones node usando [Serverless
   Functions](https://vercel.com/docs/serverless-functions/introduction).
+* Para MongoDB, [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+  es una muy buena opción para alojar nuestra base datos de producción, la cuál
+  podemos usar en conjunción con cualquiera de las opciones mencionadas arriba.
 * Si quieres explorar opciones más personalizadas y ver docker del lado del
   servidor puedes cosiderar proveedores como
   [AWS (Amazon Web Services)](https://aws.amazon.com/) o
@@ -240,15 +242,6 @@ explorar las siguientes opciones:
   (VPS) donde configurar nuestro propio Docker o servicios para desplegar
   aplicaciones en contenedores (por ejemplo [Compute Engine](https://cloud.google.com/compute/docs/containers)
   de GCP o [Elastic Container Service](https://aws.amazon.com/ecs/) de AWS).
-* Si quieres trabajar con MongoDB, [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
-  es una muy buena opción para alojar nuestra base datos de producción, la cuál
-  podemos usar en conjunción con cualquiera de las opciones mencionadas arriba.
-* Si quieres trabajar con PostgreSql, [ElephantSQL](https://www.elephantsql.com/plans.html)
-  es una muy buena opción para alojar nuestra base datos de producción, la cuál
-  podemos usar en conjunción con cualquiera de las opciones mencionadas arriba.
-* Si quieres trabajar con MySQL, [ClearDB](https://www.cleardb.com/) es una
-  muy buena opción para alojar nuestra base datos de producción, la cuál podemos
-  usar en conjunción con cualquiera de las opciones mencionadas arriba.
 
 Si tienes dudas sobre las diferentes (y múltiples) opciones de despliegue no
 dudes en consultar con tus pares y tus coaches.
@@ -266,47 +259,10 @@ dudes en consultar con tus pares y tus coaches.
 
 * [Express](https://expressjs.com/)
 * [MongoDB](https://www.mongodb.com/)
-* [PostgreSQL](https://www.postgresql.org/)
-* [MySQL](https://www.mysql.com/)
+* [MongoDB Node Driver](https://www.mongodb.com/docs/drivers/node/current/)
 * [docker](https://docs.docker.com/)
 * [docker compose](https://docs.docker.com/compose/)
 * [¿Qué es Docker? | Curso de Docker | Platzi Cursos](https://youtu.be/hQgvt-s-AHQ)
 * [Postman](https://www.getpostman.com)
 * [Variable de entorno - Wikipedia](https://es.wikipedia.org/wiki/Variable_de_entorno)
 * [`process.env` - Node.js docs](https://nodejs.org/api/process.html#process_process_env)
-
----
-
-## 7 HTTP API Checklist
-
-### 7.1 `/`
-
-* [ ] `GET /`
-
-### 7.2 `/auth`
-
-* [ ] `POST /auth`
-
-### 7.3 `/users`
-
-* [ ] `GET /users`
-* [ ] `GET /users/:uid`
-* [ ] `POST /users`
-* [ ] `PATCH /users/:uid`
-* [ ] `DELETE /users/:uid`
-
-### 7.4 `/products`
-
-* [ ] `GET /products`
-* [ ] `GET /products/:productid`
-* [ ] `POST /products`
-* [ ] `PATCH /products/:productid`
-* [ ] `DELETE /products/:productid`
-
-### 7.5 `/orders`
-
-* [ ] `GET /orders`
-* [ ] `GET /orders/:orderId`
-* [ ] `POST /orders`
-* [ ] `PATCH /orders/:orderId`
-* [ ] `DELETE /orders/:orderId`
