@@ -7,7 +7,8 @@
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptaci%C3%B3n-m%C3%ADnimos-del-proyecto)
-* [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
+* [6. Hacker (Devops) Edition con Docker](#6-hacker-%28devops%29-edition-con-docker)
+* [7. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
 
 ## 1. Preámbulo
 
@@ -217,7 +218,7 @@ explorar las siguientes opciones:
 Si tienes dudas sobre las diferentes (y múltiples) opciones de despliegue no
 dudes en consultar con tus pares y tus coaches.
 
-### 5.4 Hacker (Devops) Edition con Docker
+### 6. Hacker (Devops) Edition con Docker
 
 Nuestra clienta nos ha manifestado que su equipo de _devops_ está siempre con
 muchas tareas, por lo que nos pide como requerimiento que la aplicación esté
@@ -226,17 +227,20 @@ en cualquier entorno.
 
 El _boilerplate_ ya cuenta con una configuración inicial de `docker-compose` para
 la aplicación de node, tu tarea será extender esa configuración para incluir
-la configuración de base de datos. Ten en cuenta que como vas a tener dos servidores corriendo sobre una misma
-configuración, deberás exponer los servicios en diferentes puertos.
+la configuración de base de datos. Ten en cuenta que como vas a tener dos
+servidores corriendo sobre una misma configuración, deberás exponer
+los servicios en diferentes puertos.
 
-Lee la [**guia para docker**] incluido en el proyecto (./GETTING-STARTED-DOCKER.md) para mas información.
+Lee la [**guia para docker**] (./GETTING-STARTED-DOCKER.md) 
+incluido en el proyecto para mas información.
 
 Para probar tu configuración de docker, te recomendamos usar `docker-compose`
 localmente (en tu computadora) para ejecutar la aplicación junto
 con la base de datos.
 
-Con respecto al despliegue, puedes elegir el proveedor (o proveedores) que prefieras junto con el mecanismo de despligue y estrategia de alojamiento. Te recomendamos
-explorar las siguientes opciones:
+Con respecto al despliegue, puedes elegir el proveedor (o proveedores)
+que prefieras junto con el mecanismo de despligue y estrategia de alojamiento.
+Te recomendamos explorar las siguientes opciones:
 
 * Si quieres explorar opciones más personalizadas y ver docker del lado del
   servidor puedes considerar proveedores como
@@ -247,7 +251,7 @@ explorar las siguientes opciones:
   aplicaciones en contenedores (por ejemplo [Compute Engine](https://cloud.google.com/compute/docs/containers)
   de GCP o [Elastic Container Service](https://aws.amazon.com/ecs/) de AWS).
 
-## 6. Pistas, tips y lecturas complementarias
+## 7. Pistas, tips y lecturas complementarias
 
 ### Primeros pasos
 
