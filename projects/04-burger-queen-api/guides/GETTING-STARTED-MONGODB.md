@@ -37,7 +37,7 @@ Puedes interactuar con MongoDB sin Compass y solo en la linea de comando,
 pero un GUI puede ayudarte visualizar y entender lo que está en la base de datos. Sigue [las
 instrucciones de instalacion de Compass](https://www.mongodb.com/docs/compass/current/install/).
 
-## 2. Levanta la base de datos y server
+## 2. Levanta la base de datos y servidor
 
 Podemos decir que este proyecto tiene dos "servicios", uno es la base de datos para
 almanecenar los productos, usuarios, etc., y el otro es el servidor para exponer
@@ -62,7 +62,7 @@ o tu instalación en particular, para ejemplos en cómo levantarlo.
 
 ## 3. Elegir módulo (cliente)
 
-Ahora que ya tenemos un servidor de bases de datos vamos a necesitar elegir un
+Ahora que ya tenemos un servidor de base de datos, vamos a necesitar elegir un
 módulo o librería diseñado para interactuar con nuestra base de datos desde
 Node.js. Existen un montón de opciones, pero para este proyecto te recomendamos
 usar el [Node driver de MongoDB](https://www.mongodb.com/docs/drivers/node/current/)
@@ -78,6 +78,8 @@ estamos asignando en la propiedad `dbUrl` del módulo `config`.
 // `config.js`
 exports.dbUrl = process.env.DB_URL || "mongodb://localhost:27017/test";
 ```
+
+https://github.com/Laboratoria/bootcamp/blob/main/projects/04-burger-queen-api/config.js#L2
 
 Ahora que ya sabemos dónde encontrar el _connection string_ (en el módulo
 config), podemos proceder a establecer una conexión con la base de datos
@@ -135,7 +137,7 @@ En el `index.js` donde arrancamos express y el API, hay:
 const { port, dbUrl, secret } = config;
 const app = express();
 
-// TODO: Conexión a la Base de Datos (MongoDB o MySQL)
+// TODO: Conexión a la Base de Datos
 ```
 
 Aquí debes usar el `dbUrl` que importamos del config para establecer la conexión,
