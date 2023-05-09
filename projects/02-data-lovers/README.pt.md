@@ -328,7 +328,9 @@ Você também deverá fazer os teste unitários das funções implementadas no a
 
 ## 8. Pistas, dicas e leituras complementares
 
-Participe do canal do Slack [#project-data-lovers](https://claseslaboratoria.slack.com/archives/C03MV35EP5M) para conversar e pedir ajuda no projeto.
+Participe do canal do Slack
+[#project-data-lovers](https://claseslaboratoria.slack.com/archives/C03MV35EP5M)
+para conversar e pedir ajuda no projeto.
 
 ### Primeiros passos
 

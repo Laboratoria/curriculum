@@ -193,7 +193,9 @@ pasarte a esta sección.
 
 ## 8. Pistas, tips y lecturas complementarias
 
-Súmate al canal de Slack [#project-lab-notes](https://claseslaboratoria.slack.com/archives/C03SBNSE7HQ) para conversar y pedir ayuda del proyecto.
+Súmate al canal de Slack
+[#project-lab-notes](https://claseslaboratoria.slack.com/archives/C03SBNSE7HQ)
+para conversar y pedir ayuda del proyecto.
 
 ### Frameworks / libraries
 

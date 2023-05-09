@@ -277,7 +277,10 @@ aprendizagem deste projeto.
 ***
 
 ## 8. Guias, dicas e leituras complementares
-Participe do canal do Slack [#project-md-links](https://claseslaboratoria.slack.com/archives/C03T1E5TJCQ) para conversar e pedir ajuda no projeto.
+
+Participe do canal do Slack
+[#project-md-links](https://claseslaboratoria.slack.com/archives/C03T1E5TJCQ)
+para conversar e pedir ajuda no projeto.
 
 ### FAQs
 

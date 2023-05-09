@@ -240,7 +240,9 @@ o `.json` está aqui para opcionalmente carregar os dados de forma assíncrona c
 
 ## 8. Pistas, tips e leituras complementares
 
-Participe do canal do Slack [#project-memory-match](https://claseslaboratoria.slack.com/archives/C03NZDFB324) para conversar e pedir ajuda no projeto.
+Participe do canal do Slack
+[#project-memory-match](https://claseslaboratoria.slack.com/archives/C03NZDFB324)
+para conversar e pedir ajuda no projeto.
 
 ### Primeiros passos
 

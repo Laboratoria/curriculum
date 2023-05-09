@@ -329,7 +329,9 @@ aplicaciones web que se ejecutan en el servidor (Node.js).
 
 ## 7. Pistas / Tips
 
-Súmate al canal de Slack [#project-bq-api-client](https://claseslaboratoria.slack.com/archives/C04A0GS1WJX) para conversar y pedir ayuda del proyecto.
+Súmate al canal de Slack
+[#project-bq-api-client](https://claseslaboratoria.slack.com/archives/C04A0GS1WJX)
+para conversar y pedir ayuda del proyecto.
 
 ### Frameworks / libraries
 
