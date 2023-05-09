@@ -264,6 +264,9 @@ da Paloma também pode te ajudar nos seus primeiros passos ;)
 
 ### Recursos extras
 
+Participe do canal Slack [#project-cipher](https://claseslaboratoria.slack.com/archives/C03LJSH6R7D)
+para conversar e pedir ajuda no projeto.
+
 A seguir um vídeo que mostra a fórmula matemática de Cifra de César mais
 algumas coisas que você precisa saber para resolver este projeto.
 A fórmula não é o importante do projeto, não se engane.

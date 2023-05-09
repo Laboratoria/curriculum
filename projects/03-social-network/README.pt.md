@@ -251,6 +251,8 @@ para orientá-lo sobre isso.
 
 ## 8. Guias, dicas e leituras complementares
 
+Participe do canal do Slack [#project-social-network](https://claseslaboratoria.slack.com/archives/C03SE63GFJQ) para conversar e pedir ajuda no projeto.
+
 ### Mobile first
 
 O conceito de [_mobile
