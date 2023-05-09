@@ -275,7 +275,7 @@ profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
 
 ## 8. Pistas, tips y lecturas complementarias
 
-Súmate al canal de Slack  [#project-md-links](https://claseslaboratoria.slack.com/archives/C03T1E5TJCQ)  para conversar y pedir ayuda del proyecto.
+Súmate al canal de Slack [#project-md-links](https://claseslaboratoria.slack.com/archives/C03T1E5TJCQ) para conversar y pedir ayuda del proyecto.
 
 ### FAQs
 
