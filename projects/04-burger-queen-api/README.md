@@ -45,7 +45,7 @@ Esto implica que tendremos que partir por leer la implementación existente, y
 familiarizarnos con el _stack_ elegido ([Node.js](https://nodejs.org/) y
 [Express](https://expressjs.com/)) y complementarlo con un motor de bases de
 datos. Recomendamos el uso de [MongoDB](https://www.mongodb.com/) y tenemos una
-[guia para empezar con MongoDB](./GETTING-STARTED-MONGO-DB.md).
+[guía para empezar con MongoDB](./GETTING-STARTED-MONGO-DB.md).
 
 La clienta nos ha dado un [link a la documentación](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 que especifica el comportamiento esperado de la API que expondremos por
@@ -68,7 +68,7 @@ headers, body, status codes...), **JSON**, **JWT** (_JSON Web Tokens_),
 
 ## 3. Objetivos de aprendizaje
 
-> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
 > al crear el repo del proyecto para un cohort en particular usando
 > [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
@@ -181,7 +181,7 @@ npm start 8888
 
 Nuestra aplicación usa las siguientes variables de entorno:
 
-* `PORT`: Si no se ha especificado un puerto como argumento de lína de comando,
+* `PORT`: Si no se ha especificado un puerto como argumento de línea de comando,
   podemos usar la variable de entorno `PORT` para especificar el puerto. Valor
   por defecto `8080`.
 * `DB_URL`: El _string_ de conexión de _MongoDB_. Cuando ejecutemos la
@@ -204,7 +204,7 @@ Nuestra aplicación usa las siguientes variables de entorno:
 ### 5.3 Despliegue (Deployment)
 
 Puedes elegir el proveedor (o proveedores) que prefieras junto
-con el mecanismo de despligue y estrategia de alojamiento. Te recomendamos
+con el mecanismo de despliegue y estrategia de alojamiento. Te recomendamos
 explorar las siguientes opciones:
 
 * [Vercel](https://vercel.com/) es una opción enfocada
@@ -231,7 +231,7 @@ la configuración de base de datos. Ten en cuenta que como vas a tener dos
 servidores corriendo sobre una misma configuración, deberás exponer
 los servicios en diferentes puertos.
 
-Lee la [**guia para docker**] (./GETTING-STARTED-DOCKER.md) 
+Lee la [**guía para docker**] (./GETTING-STARTED-DOCKER.md)
 incluido en el proyecto para mas información.
 
 Para probar tu configuración de docker, te recomendamos usar `docker-compose`
@@ -239,7 +239,7 @@ localmente (en tu computadora) para ejecutar la aplicación junto
 con la base de datos.
 
 Con respecto al despliegue, puedes elegir el proveedor (o proveedores)
-que prefieras junto con el mecanismo de despligue y estrategia de alojamiento.
+que prefieras junto con el mecanismo de despliegue y estrategia de alojamiento.
 Te recomendamos explorar las siguientes opciones:
 
 * Si quieres explorar opciones más personalizadas y ver docker del lado del
