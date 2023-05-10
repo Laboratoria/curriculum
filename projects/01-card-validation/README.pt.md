@@ -245,6 +245,10 @@ da Paloma também pode te ajudar nos seus primeiros passos ;)
 
 ### Recursos e tópicos relacionados
 
+Participe do canal Slack
+[#project-card-validation](https://claseslaboratoria.slack.com/archives/C03LXJ10WJD)
+para conversar e pedir ajuda no projeto.
+
 Aqui está um vídeo de Michelle que mostra o algoritmo de Luhn (o vídeo está em
 espanhol, mas pode ser útil) e mais algumas coisas que você deve saber para
 realizar este projeto. Ouça com atenção e siga os conselhos dela! :)
