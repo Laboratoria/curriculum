@@ -327,6 +327,10 @@ no servidor (Node.js).
 
 ## 7. Pistas, tips e leituras complementares
 
+Participe do canal do Slack
+[#project-bq-api-client](https://claseslaboratoria.slack.com/archives/C04A0GS1WJX)
+para conversar e pedir ajuda no projeto.
+
 ### Frameworks / bibliotecas
 
 * [React](https://reactjs.org/)
