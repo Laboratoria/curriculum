@@ -125,7 +125,7 @@ Hemos marcado las primeras partes esenciales con comentarios `TODO`
 (del inglés _por hacer_), que es una convención en el desarrollo de software,
 cuando queda algo pendiente de hacer.
 
-Aquí te guiamos un poco sobre esto ToDo's.
+Aquí te guiamos un poco sobre esto TODO's.
 
 ### TODO 1: Conectar a la base de datos
 
@@ -144,7 +144,7 @@ el index.
 
 ### TODO 2: Crear el usuario _admin_
 
-EL proyecto depende en la existencia de un usuario en la base de datos que
+El proyecto depende en la existencia de un usuario en la base de datos que
 tiene privilegios de administrador, para así poder crear otros usuarios, etc.
 
 En `routes/users.js` invocamos una función `initAdminUser(app, next)`
