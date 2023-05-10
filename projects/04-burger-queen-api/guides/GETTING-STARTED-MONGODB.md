@@ -117,7 +117,7 @@ guardar en esas colecciones.
 Puedes usar [la documentación de API](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 que describe la estructura de `products`, `orders`, etc. para guiar el diseño.
 
-## 5. Implementar primeros TODOs
+## 5. Implementar los primeros TODOs
 
 El boilerplate del proyecto viene con archivos con lógica para arrancar el server
 y otros que contienen funciones de rutas y autenticación, pero muchas están vacías.
@@ -258,5 +258,5 @@ Este paso de setup levanta un mock db (como hemos hablado de
 y jest se conecta a este mock db.
 
 Para este configuración usamos `mongodb-memory-server` y
-un preset (`jest-mongodb`)[https://github.com/shelfio/jest-mongodb]
+un preset [`jest-mongodb`](https://github.com/shelfio/jest-mongodb)
 que ya están incluido en el boilerplate.
