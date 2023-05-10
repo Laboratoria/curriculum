@@ -6,7 +6,7 @@
 - [2. Resumen del proyecto](#2-resumen-del-proyecto)
 - [3. Consideraciones generales](#3-consideraciones-generales)
 - [4. Objetivos de aprendizaje](#4-objetivos-de-aprendizaje)
-- [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptacion-minimos-del-proyecto)
+- [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 - [6. Consideraciones técnicas](#6-consideraciones-tecnicas)
 
 ---
@@ -87,7 +87,10 @@ los que trabajes.
   de cada respuesta.
 - Tu solución debe ser _responsive_. Debe adaptarse a pantallas de escritorio,
   tabletas y teléfonos.
-- Debes desplegar tu aplicación usando [GitHub Pages](https://pages.github.com/).
+- Debes desplegar tu aplicación en cualquier servicio en la nube.
+  Algunas opciones son [GitHub Pages](https://pages.github.com/)
+  o [Vercel](https://vercel.com/)
+  o [Netlify](https://www.netlify.com/)
 
 ## 6. Consideraciones técnicas
 
