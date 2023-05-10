@@ -254,6 +254,10 @@ para guiarte con eso.
 
 ## 8. Pistas, tips y Lecturas complementarias
 
+Súmate al canal de Slack
+[#project-social-network](https://claseslaboratoria.slack.com/archives/C03SE63GFJQ)
+para conversar y pedir ayuda del proyecto.
+
 ### Mobile first
 
 El concepto de [_mobile first_](https://www.mediaclick.es/blog/diseno-web-responsive-design-y-la-importancia-del-mobile-first/)
