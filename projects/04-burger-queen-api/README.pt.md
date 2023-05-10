@@ -7,8 +7,8 @@
 * [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
 * [4. Considerações gerais](#4-considerações-gerais)
 * [5. Critérios de aceitação mínimos do projeto](#5-critérios-de-aceitação-mínimos-do-projeto)
-* [6. Pistas, tips e leituras complementares](#6-pistas-tips-e-leituras-complementares)
-* [7 HTTP API Checklist](#7-http-api-checklist)
+* [6. Hacker (Devops) Edition con Docker](#6-edição-hacker-devops-com-docker)
+* [7. Pistas, tips e leituras complementares](#7-pistas-tips-e-leituras-complementares)
 
 ## 1. Prefácio
 
@@ -41,10 +41,14 @@ de maneira relativamente simples, tudo isso usando JavaScript!
 
 Neste projeto partimos de um _boilerplate_ que já contém uma série de
 _endpoints_ (pontos de conexão ou URLs) e nos pedem para completar a aplicação.
-Isto implica que teremos que começar a ler a implementação existente, e
-familiarizar-nos com a _stack_ escolhida ([Node.js](https://nodejs.org/) e
-[Express](https://expressjs.com/)) e complementá-la com um motor de banco de dados,
-no qual você deverá escolher entre [MongoDB](https://www.mongodb.com/),
+Isso implica que teremos que começar lendo a implementação existente e nos
+familiarizar com o _stack_ escolhido ([Node.js](https://nodejs.org/) e
+[Express](https://expressjs.com/)), além de complementá-lo com um motor de
+banco de dados. Recomendamos o uso do [MongoDB](https://www.mongodb.com/)
+e temos [um guia para começar com o MongoDB.](./GETTING-STARTED-MONGO-DB.pt.md)
+
+
+[MongoDB](https://www.mongodb.com/),
 [PostgreSQL](https://www.postgresql.org/) e [MySQL](https://www.mysql.com/).
 
 O cliente nos deu um
@@ -56,8 +60,8 @@ implementar na aplicação, que parâmetros esperam, o que devem responder, etc.
 
 O objetivo de aprendizagem principal é adquirir experiência com o **Node.js**
 como ferramenta para desenvolvimento de _aplicações de servidor_, junto com uma série
-de outras ferramentas comumente utilizadas nesse contexto (Express como framework,
-MongoDB, PostgreSQL ou MySQL como base de dados, containers de docker, etc).
+de outras ferramentas comumente utilizadas nesse contexto (Express como
+framework, MongoDB como base de dados, etc.).
 
 Neste projeto, você desenvolverá um servidor web que deverá _servir_ `JSON`
 através de uma conexão `HTTP`, e implantá-lo em um servidor na nuvem.
@@ -65,8 +69,7 @@ através de uma conexão `HTTP`, e implantá-lo em um servidor na nuvem.
 Ao final do projeto, você deverá estar familiarizada com conceitos como **rotas**
 (_routes_), **URLs**, **HTTP** (verbos, request, response, headers, body, status
 codes, etc), **JSON**, **JWT** (_JSON Web Tokens_), **conexão com uma base de dados**
-(`MongoDB`, `PostgreSQL` ou `MySQL`), **variables de ambiente**, **deployment**,
-**containers de `docker`**, etc.
+(`MongoDB`), **variables de ambiente**, **deployment**, etc.
 
 ## 3. Objetivos de aprendizagem
 
@@ -205,31 +208,47 @@ Nossa aplicação usa as seguintes variáveis de ambiente:
 
 ### 5.3 Implantação (Deployment)
 
-Nosso cliente nos informou que a sua equipe de _devops_ está sempre com muitas
-tarefas, portanto, pediu como requesito que a aplicação esteja configurada
-com `docker-compose` para que possa ser implantada sem dificuldades em qualquer
-ambiente.
+Você pode escolher o provedor (ou provedores) que preferir, juntamente com o mecanismo de implantação e estratégia de hospedagem. Recomendamos que você explore as seguintes opções:
 
-O _boilerplate_ já conta com uma configuração incial de `docker-compose` para
-a aplicação de node, sua tarefa será estender essa configuração para incluir a
-configuração do banco de dados escolhido.
-Leve em consideração que como terá dois servidores rodando sobre uma mesma
-configuração, deverá colocar os serviços em diferentes portas.
+Vercel é uma opção focada em aplicativos da web estáticos (como os construídos com React). No entanto, o Vercel também nos permite implantar aplicativos node usando Serverless Functions.
+MongoDB Atlas é uma ótima opção para hospedar nosso banco de dados de produção, que pode ser usado em conjunto com qualquer uma das opções mencionadas acima.
+Se você tiver dúvidas sobre as diferentes opções de implantação (que são várias), não hesite em consultar seus colegas e seus coaches.
 
-Para este projeto te recomendamos a usar `docker-compose` localmente (em seu
-computador) para executar a aplicação junto com a base de dados
-selecionada. Por outro lado, em relação a implantação, não é obrigatório usar
-`docker-compose`, você pode escolher o provedor (ou provedores) que preferir junto
-com o mecanismo de implantação e estratégia de hospedagem. Te recomendamos
-explorar as seguintes opcões:
-
-* [Glitch](https://glitch.com) é provavelmente a opção mais _simples_
-(requer menos configuração) e nos permite hospedar o servidor web Express
-importando nosso repositório do GitHub.
-* [Vercel](https://vercel.com/) é uma opção semelhante ao Glitch, mas
-focada em aplicativos web estáticos (como os construídos com React).
-No entanto, o Vercel também nos permite implantar aplicativos node usando
+* [Vercel](https://vercel.com/) é uma opção focada em aplicativos
+da web estáticos (como os construídos com React). No entanto,
+o Vercel também nos permite implantar aplicativos node usando 
 [Serverless Functions](https://vercel.com/docs/serverless-functions/introduction)
+[MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+é uma ótima opção para hospedar nosso banco de dados de produção,
+que pode ser usado em conjunto com qualquer uma das opções mencionadas acima.
+
+Se tiver dúvidas sobre as diferentes opções de implantação (que são várias),
+não hesite em consultar seus colegas e seus coaches.
+
+## 6. Edição Hacker (DevOps) com Docker
+
+Nossa cliente nos informou que sua equipe de DevOps está sempre
+ocupada com muitas tarefas, portanto, ela nos pede como requisito que
+o aplicativo seja configurado com `docker-compose` para que possa ser
+implantado facilmente em qualquer ambiente.
+
+O boilerplate já possui uma configuração inicial de `docker-compose`
+para o aplicativo Node.js, sua tarefa será estender essa configuração para
+incluir a configuração do banco de dados. Tenha em mente que,
+como você terá dois servidores sendo executados na mesma configuração,
+você precisará expor os serviços em portas diferentes.
+
+Leia o [guia para docker](./GETTING-STARTED-DOCKER.pt.md) incluído 
+no projeto para mais informações.
+
+Para testar sua configuração do Docker, recomendamos que você use o
+`docker-compose` localmente (em seu computador) para executar o
+aplicativo junto com o banco de dados.
+
+Quanto à implantação, você pode escolher o provedor (ou provedores)
+que preferir, juntamente com o mecanismo de implantação e estratégia
+de hospedagem. Recomendamos que você explore as seguintes opções:
+
 * Se quiser explorar opções mais personalizadas e ver o docker do lado do
 servidor, pode considerar provedores como
 [AWS (Amazon Web Services)](https://aws.amazon.com/) ou
@@ -238,60 +257,14 @@ de serviço experimental gratuito (_free tier_) assim como instâncias de servid
 virtuais (VPS), onde configuramos nosso próprio Docker ou serviços para implantar
 aplicações em contêineres (por exemplo [Compute Engine](https://cloud.google.com/compute/docs/containers)
 de GCP ou [Elastic Container Service](https://aws.amazon.com/ecs/) de AWS).
-* Se quiser trabalhar com MongoDB, [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
-é uma opção muito boa para hospedar a base dados de produção, que
-podemos usar em conjunto com qualquer uma das opções mencionadas acima.
-* Se quiser trabalhar com MySQL, [ClearDB](https://www.cleardb.com/) é uma
-boa opção para hospedar a base de dados de produção, que podemos usar em
-conjunto com qualquer uma das opções mencionadas acima.
 
-Se tiver dúvidas sobre as diferentes (e múltiplas) opções de implantação,
-não hesite em consultar seus colegas e mentores.
-
-## 6. Pistas, tips e leituras complementares
+## 7. Pistas, tips e leituras complementares
 
 * [Express](https://expressjs.com/)
 * [MongoDB](https://www.mongodb.com/)
-* [PostgreSQL](https://www.postgresql.org/)
-* [MySQL](https://www.mysql.com/)
+* [MongoDB Node Driver](https://www.mongodb.com/docs/drivers/node/current/)
 * [docker](https://docs.docker.com/)
 * [docker compose](https://docs.docker.com/compose/)
 * [Postman](https://www.getpostman.com)
 * [Variável de ambiente - Wikipedia](https://pt.wikipedia.org/wiki/Variável_de_ambiente)
 * [`process.env` - Node.js docs](https://nodejs.org/api/process.html#process_process_env)
-
-***
-
-## 7 HTTP API Checklist
-
-### 7.1 `/`
-
-* [ ] `GET /`
-
-### 7.2 `/auth`
-
-* [ ] `POST /auth`
-
-### 7.3 `/users`
-
-* [ ] `GET /users`
-* [ ] `GET /users/:uid`
-* [ ] `POST /users`
-* [ ] `PATCH /users/:uid`
-* [ ] `DELETE /users/:uid`
-
-### 7.4 `/products`
-
-* [ ] `GET /products`
-* [ ] `GET /products/:productid`
-* [ ] `POST /products`
-* [ ] `PATCH /products/:productid`
-* [ ] `DELETE /products/:productid`
-
-### 7.5 `/orders`
-
-* [ ] `GET /orders`
-* [ ] `GET /orders/:orderId`
-* [ ] `POST /orders`
-* [ ] `PATCH /orders/:orderId`
-* [ ] `DELETE /orders/:orderId`
