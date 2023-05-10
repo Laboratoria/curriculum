@@ -4,44 +4,17 @@ Depois de criar o fork e clonar o repositório em seu computador,
 antes de começar a codificar, precisamos criar nosso _ambiente de desenvolvimento_.
 Recomendamos que você siga as etapas a seguir:
 
-* [1. Escolher o banco de dados](#1-elegir-base-de-datos)
-* [2. Instalar `docker` e `docker-compose`](#2-instalar-docker-y-docker-compose)
-* [3. Configurar o "serviço" de banco de dados](#3-configurar-servicio-de-base-de-datos)
-* [4. Configurar a conexão com o banco de dados no "serviço" node](#4-configurar-conexión-a-bbdd-en-servicio-node)
-* [5. Iniciar, reiniciar e parar os serviços com `docker-compose`](#5-iniciar-re-iniciar-y-parar-los-servicios-con-docker-compose)
-* [6. Familiarizar-se com a administração de contêineres](#6-familiarizarte-con-admisitración-de-contenedores)
-* [7. Opcionalmente, instalar uma interface gráfica para administrar dados](#7-opcionalmente-instalar-interfaz-gráfica-para-administrar-data)
-* [8. Execute os testes de integração (e2e)](#8-corre-las-pruebas-de-integración-e2e)
+* [1. Instalar `docker` e `docker-compose`](#1-instalar-docker-y-docker-compose)
+* [2. Configurar o "serviço" de banco de dados](#2-configurar-servicio-de-base-de-datos)
+* [3. Configurar a conexão com o banco de dados no "serviço" node](#3-configurar-conexión-a-bbdd-en-servicio-node)
+* [4. Iniciar, reiniciar e parar os serviços com `docker-compose`](#4-iniciar-re-iniciar-y-parar-los-servicios-con-docker-compose)
+* [5. Familiarizar-se com a administração de contêineres](#5-familiarizarte-con-admisitración-de-contenedores)
+* [6. Opcionalmente, instalar uma interface gráfica para administrar dados](#6-opcionalmente-instalar-interfaz-gráfica-para-administrar-data)
+* [7. Execute os testes de integração (e2e)](#7-corre-las-pruebas-de-integración-e2e)
 
 ***
 
-## 1. Escolher o banco de dados
-
-A primeira decisão que devemos tomar antes de começar a programar é escolher
-um banco de dados. Neste projeto, sugerimos 3 opções: duas delas são relacionais
-e baseadas em SQL (PostgreSQL e MySQL), e a terceira é não relacional (MongoDB).
-As 3 são excelentes opções. Recomendamos o uso do MongoDB
-para o seu primeiro projeto backend.
-
-Alguns pontos a serem considerados:
-
-* O MongoDB é o mais comum (popular) atualmente no ecossistema Node.js.
-* Bancos de dados _relacionais_ normalmente exigem mais design prévio
-(definir tabelas, colunas, relacionamentos, ...) enquanto os _não relacionais_
-nos permitem ser mais flexíveis.
-* Bancos de dados _relacionais_ nos permitem relacionar dados de forma mais
-natural e garantir a consistência dos dados. Eles fornecem rigidez que reduz
-a flexibilidade, mas oferecem outros tipos de garantias, além de nos permitir
-pensar em tabelas e colunas, que é um conceito com o qual muitos já estão
-familiarizados.
-* O MySQL, o PostgreSQL e o MongoDB (nessa ordem) são os bancos de dados de
-código aberto (open source) mais populares em dezembro de 2020](https://www.statista.com/statistics/809750/worldwide-popularity-ranking-database-management-systems/).
-Isso no contexto geral dos bancos de dados, não apenas no ecossistema do Node.js.
-* PostgreSQL é um banco de dados _objeto-relacional_ (ORDBMS), enquanto
-o MySQL é puramente relacional. O PostgreSQL possui suporte nativo para objetos
-JSON e outras características, como indexação de JSON.
-
-## 2. Instale o docker e o docker-compose
+## 1. Instale o docker e o docker-compose
 
 Independentemente do banco de dados que você escolher, neste projeto iremos executar
 localmente (em nosso computador) o servidor de banco de dados usando
@@ -55,7 +28,7 @@ seu sistema operacional.
 * [Get Docker](https://docs.docker.com/get-docker/)
 * [Install Docker Compose](https://docs.docker.com/compose/install/)
 
-## 3. Configurando o "serviço" de banco de dados
+## 2. Configurando o "serviço" de banco de dados
 
 O boilerplate deste projeto inclui um arquivo
 [`docker-compose.yml`](./docker-compose.yml) que já contém parte da
@@ -124,7 +97,7 @@ db:
     - private
 ```
 
-## 4. Configurar conexão ao BD no serviço node
+## 3. Configurar conexão ao BD no serviço node
 
 Agora que temos a configuração do serviço db, precisamos completar a configuração do
 serviço Node.js. Em particular, queremos definir o valor da variável de ambiente `DB_URL`,
@@ -162,7 +135,7 @@ seria assim:
   DB_URL: mysql://bq:secret@db:3306/bq
   ```
 
-## 5. Iniciar, reiniciar e parar os serviços com `docker-compose`
+## 4. Iniciar, reiniciar e parar os serviços com `docker-compose`
 
 Agora que temos nossa configuração do docker-compose pronta, 
 vamos ver como podemos iniciar a aplicação.
@@ -215,7 +188,7 @@ docker-compose stop db
 docker-compose restart db
 ```
 
-## 7. Familiarize-se com a administração de contêineres
+## 5. Familiarize-se com a administração de contêineres
 
 Além dos comandos que já vimos com `docker-compose`, recomendamos
 que você se familiarize com outros comandos (entre outros) para poder _administrar_
@@ -268,7 +241,7 @@ Por exemplo, se quisermos ver a ajuda do subcomando up, poderíamos fazer isso:
 docker-compose help up
 ```
 
-## 8. Opcionalmente, instale uma interface gráfica para administrar dados
+## 6. Opcionalmente, instale uma interface gráfica para administrar dados
 
 Ao trabalhar com bancos de dados, é muito comum usar algum tipo de interface gráfica que
 nos permita visualizar e manipular nossos dados de forma visual.
@@ -336,7 +309,7 @@ NOTA: Para conectar desde pgAdmin usando um contêiner, use o _nome_ do contêin
 do banco de dados (por exemplo: `XXX-001-burger-queen-api_db_1`) como nome do host
 para que o pgAdmin possa se conectar através da rede _privada_.
 
-## 11. Execute os testes de integração (e2e)
+## 7. Execute os testes de integração (e2e)
 
 O _boilerplate_ deste projeto já inclui testes `e2e` (end-to-end) ou de integração,
 que são responsáveis por testar nossa aplicação como um todo, através da interface HTTP.
