@@ -2,39 +2,41 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Entregables](#6-entregables)
+* [1. Prefácio](#1-prefácio)
+* [2. Resumo do projeto](#2-resumo-do-projeto)
+* [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
+* [4. Considerações gerais](#4-considerações-gerais)
+* [5. Critérios de aceitação mínimos do projeto](#5-criterios-de-aceitação-mínimos-do-projeto)
+* [6. Entregáveis](#6-entregáveis)
 * [7. Hacker edition](#7-hacker-edition)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+* [8. Guias, dicas e leituras complementares](#8-guias-dicas-e-leituras-complementares)
 * [9. Checklist](#9-checklist)
-* [10. Achicando el problema](#10-achicando-el-problema)
+* [10. Dividindo o problema](#10-dividindo-o-problema)
 
 ***
 
-## 1. Preámbulo
+## 1. Prefácio
 
-[Node.js](https://nodejs.org/es/) es un entorno de ejecución para JavaScript
-construido con el [motor de JavaScript V8 de Chrome](https://developers.google.com/v8/).
-Esto nos va a permitir ejecutar JavaScript en el entorno del sistema operativo,
-ya sea tu máquina o un servidor, lo cual nos abre las puertas para poder
-interactuar con el sistema en sí, archivos, redes, procesos del sistema, etc.
+[Node.js](https://nodejs.org/es/) é um ambiente de tempo de execução para
+JavaScript construído com
+[Chrome V8 JavaScript Engine](https://developers.google.com/v8/).
+Isso nos permitirá executar o JavaScript no ambiente do sistema operacional,
+sua máquina ou um servidor, o que abre as portas para que possamos
+interagir com o próprio sistema, arquivos, redes, processos do sistema, etc.
 
-En este proyecto te enfocarás en trabajar con el sistema de archivos de tu
-sistema operativo, utilizando Node.js, para re-crear una funcionalidad que
-probablemente utilices diariamente: Vas a crear tu propio programa para poder
-copiar y mover archivos dentro de tu computadora.
+Neste projeto, você se concentrará em trabalhar com o sistema de arquivos do
+seu sistema operacional, utilizando o Node.js, para recriar uma funcionalidade
+que você provavelmente usa diariamente: você irá criar seu próprio programa
+para copiar e mover arquivos em seu computador.
 
-Para lograrlo, vas a intentar replicar el _comportamiento_ que esperamos que
-ocurra cuando en la computadora haces _copiar y pegar_ o también
-_cortar y pegar_, pero esta vez ejecutado desde tu [_línea de comandos_.](https://tutorial.djangogirls.org/es/intro_to_command_line/)
+Para alcançar esse objetivo, você irá tentar replicar o _comportamento_
+que esperamos quando você faz _copiar e colar_ ou também _recortar e colar_
+em seu computador, mas desta vez executado a partir da sua
+[_linha de comando_.](https://tutorial.djangogirls.org/pt/intro_to_command_line/)
 
 ![copy-or-move](https://user-images.githubusercontent.com/12631491/234972777-fe2c40aa-a989-40c5-ad30-ce94f58386d8.png)
 
-## 2. Resumen del proyecto
+## 2. Resumo do projeto
 
 En este proyecto crearás una herramienta de línea de comando (CLI) así como tu
 propia librería (o biblioteca - library) en JavaScript.
@@ -77,17 +79,17 @@ en una terminal, y debe contemplar los casos de uso para poder:
 * Trabajar utilizando recursividad
 * Crear una suite de pruebas unitarias que permitan testear código asíncrono
 
-## 3. Objetivos de aprendizaje
+## 3. Objetivos de aprendizagem
 
-> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
-> de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
-> al crear el repo del proyecto para un cohort en particular usando
+> ℹ️ Esta seção será automaticamente gerada no idioma pertinente, a partir dos
+> objetivos de aprendizagem declarados em [`project.yml`](./project.yml), ao
+> criar o repositório do projeto para uma coorte em particular usando
 > [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
 >
-> Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
-> que contempla nuestra currícula.
+> Aqui você pode ver uma [lista de todos os objetivos de aprendizagem](../../learning-objectives/data.yml)
+> cobertos em nosso currículo.
 
-## 4. Consideraciones generales
+## 4. Considerações gerais
 
 * Este proyecto se debe "resolver" de manera individual.
 
@@ -109,7 +111,7 @@ en una terminal, y debe contemplar los casos de uso para poder:
   de la función para leer directorios, `readdirSync`, y en cambio intentar
   resolver este desafío de manera asíncrona.
 
-## 5. Criterios de aceptación mínimos del proyecto
+## 5. Critérios de aceitação mínimos do projeto
 
 Para comenzar este proyecto tendrás que hacer un **_fork_** y **_clonar_** este
 repositorio.
@@ -123,7 +125,7 @@ seguimiento de tu progreso. Además de eso, te recomendamos crear un
 Dentro de cada **_milestone_** se crearán y asignarán los **_issues_** que
 consideres necesario.
 
-### Archivos del proyecto
+### Arquivos do projeto
 
 * `README.md` con descripción del módulo, instrucciones de instalación/uso,
   documentación y ejemplos. Todo lo relevante para que cualquier
@@ -171,7 +173,7 @@ o directorios de una fuente hacia un destino, pero en caso de que la usuaria,
 en vez de mover, quisiera **copiar** esos archivos o directorios, entonces deberá
 pasarle a ese comando la opción (también llamadas _flags_) `-c`.
 
-## 6. Entregables
+## 6. Entregáveis
 
 Módulo instalable via `npm install <github-user>/copy-or-move`. Este módulo
 debe incluir **un ejecutable** para ser utilizado desde la terminal.
@@ -190,11 +192,11 @@ profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
   le haga saber a tu programa que no es necesario sobreescribir un archivo
   en el directorio de destino si este ya existe ahí.
 
-## 8. Pistas, tips y lecturas complementarias
+## 8. Guias, dicas e leituras complementares
 
 ### FAQs
 
-#### ¿Cómo hago para que mi módulo sea _instalable_ desde GitHub?
+#### Como faço para que o meu módulo seja instalável pelo GitHub?
 
 Para que el módulo sea instalable desde GitHub solo tiene que:
 
@@ -209,7 +211,7 @@ que usamos para la currícula no está publicado en el registro público de NPM,
 así que lo instalamos directamente desde GitHub con el comando `npm install
 Laboratoria/curriculum-parser`.
 
-### Sugerencias de implementación
+### Sugestões de implementação
 
 La implementación de este proyecto tiene varias partes: leer del sistema de
 archivos, recibir argumentos a través de la línea de comando, discernir entre
@@ -279,7 +281,7 @@ desarrollarlo.
   lines, y branches.
 * [ ] Pasa tests (y linters) (`npm test`).
 
-## 10. Achicando el problema
+## 10. Dividindo o problema
 
 Un "superpoder" que esperamos puedas desarrollar durante el bootcamp
 es el de definir "mini-proyectos" que te acerquen paso a paso a
