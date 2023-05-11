@@ -52,7 +52,9 @@ Por exemplo, no macOS, se você instalou com o homebrew, pode usar o comando
 Ou, sem o homebrew, utilize `mongod --config /usr/local/etc/mongod.conf --fork`.
 No Windows, é necessário iniciar o serviço pelo console de serviços.
 
-Consulte o [guia de instalação para macOS](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/#run-mongodb-community-edition), [guia de instalação para Windows](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/#run-mongodb-community-edition-as-a-windows-service)
+Consulte o
+[guia de instalação para macOS](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/#run-mongodb-community-edition),
+[guia de instalação para Windows](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/#run-mongodb-community-edition-as-a-windows-service)
 ou a documentação específica da sua instalação para obter exemplos de como
 iniciar o servidor.
 
@@ -100,14 +102,15 @@ async function run() {
 run().catch(console.error);
 ```
 
-Você pode encontrar mais exemplos [na documentação do MongoDB](https://www.mongodb.com/docs/drivers/node/current/).
+Você pode encontrar mais exemplos
+[na documentação do MongoDB](https://www.mongodb.com/docs/drivers/node/current/).
 
 ## 4. Definir esquemas
 
-Como parte do processo de design do nosso banco de dados, precisamos especificar os
-"esquemas" dos nossos "modelos" de dados. Isso significa que precisamos descrever
-de alguma forma a estrutura das coleções que vamos usar e a forma dos objetos
-que vamos armazenar nessas coleções.
+Como parte do processo de design do nosso banco de dados, precisamos
+especificar os "esquemas" dos nossos "modelos" de dados. Isso significa
+que precisamos descrever de alguma forma a estrutura das coleções que
+vamos usar e a forma dos objetos que vamos armazenar nessas coleções.
 
 Você pode usar [a documentación de API](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 que descreve a estrutura de `products`, `orders`, etc. para orientar o design.
@@ -180,15 +183,17 @@ En routes/auth.js, a rota '/auth' está definida com um
  ```
 
 Aqui é onde você deve verificar se o email e a senha correspondem aos dados de
-algum usuário no banco de dados. Se coincidirem, é necessário gerar um 
+algum usuário no banco de dados. Se coincidirem, é necessário gerar um
 [token JWT](https://jwt.io/introduction)
-e enviá-lo na resposta, para que o usuário possa usá-lo em suas futuras solicitações.
-Para exemplos mais detalhados, procure tutoriais de autenticação com JWT e node/express.
+e enviá-lo na resposta, para que o usuário possa usá-lo em suas futuras
+solicitações. Para exemplos mais detalhados, procure tutoriais de autenticação
+com JWT e node/express.
 
 ### TODO 4: Implementar o middleware de autenticação
 
-Em `middleware/auth.js`, existem vários TODOs. 
-Aproveite esta oportunidade para se familiarizar com o [conceito de middleware no express](https://expressjs.com/es/guide/using-middleware.html).
+Em `middleware/auth.js`, existem vários TODOs.
+Aproveite esta oportunidade para se familiarizar com o
+[conceito de middleware no express](https://expressjs.com/es/guide/using-middleware.html).
 
 A aplicação usará esse middleware para verificar se as solicitações que exigem
 autenticação são autorizadas, ou seja, se possuem um token válido.
@@ -202,12 +207,12 @@ middleware de autenticação.
 
 Você verá que a rota `/users` usa a função `getUsers` que está definida
 em `controller/users.js`.
-O conceito de controller é usado para separar ainda mais a lógica da definição
-de rotas da implementação que irá interagir com o banco de dados.
+O conceito de controller é usado para separar ainda mais a lógica da
+definição de rotas da implementação que irá interagir com o banco de dados.
 É necessário implementar a função `getUsers` para obter a lista de
 usuários da coleção em seu banco de dados.
 
-Consulte o [tutorial de Node.js e express na Mozilla ](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes)
+Consulte o [tutorial de Node.js e express na Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes)
 que aborda os controllers.
 
 ## 6. Definir estratégia de testes unitários
@@ -221,8 +226,8 @@ Para realizar testes unitários em `rotas` do Express,
 recomendamos explorar a biblioteca [`supertest`](https://www.npmjs.com/package/supertest),
 , que pode ser usada em combinação com o `jest`.
 
-Outro ponto a ser considerado nos testes unitários é como fazer `mock` do banco de dados.
-Alguns bancos de dados oferecem ferramentas (como o
+Outro ponto a ser considerado nos testes unitários é como fazer `mock` do banco
+de dados. Alguns bancos de dados oferecem ferramentas (como o
 [`mongodb-memory-server`](https://github.com/nodkz/mongodb-memory-server)) que nos
 permitem usar um banco de dados em memória e evitar a necessidade de criar `mocks`
 propriamente ditos. No entanto, geralmente queremos considerar como
@@ -245,11 +250,12 @@ Para executar testes `e2e` em uma instância local, podemos usar:
 npm run test:e2e
 ```
 
-Isso inicia a aplicação com npm start e executa os testes contra a URL desta instância (por padrão, http://127.0.0.1:8080).
+Isso inicia a aplicação com npm start e executa os testes contra a
+URL desta instância (por padrão, `http://127.0.0.1:8080`).
 
 Os testes e2e dependem do código (`globalSetup.js`)[../e2e/globalSetup.js]
 que o jest executa primeiro, antes dos testes. Essa etapa de configuração
-inicia um banco de dados falso (como mencionamos anteriormente, usando o 
+inicia um banco de dados falso (como mencionamos anteriormente, usando o
 [`mongodb-memory-server`](https://github.com/nodkz/mongodb-memory-server))
 e o jest se conecta a esse banco de dados falso.
 

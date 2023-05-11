@@ -22,8 +22,8 @@ contêineres do Docker, em vez de instalar o programa diretamente em nosso
 computador. Além disso, também iremos usar a ferramenta `docker-compose` para
 orquestrar nossos contêineres: banco de dados e servidor web (node).
 
-Nos seguintes links, você pode ver como instalar o `docker` e o `docker-compose` em
-seu sistema operacional.
+Nos seguintes links, você pode ver como instalar o `docker` e o `docker-compose`
+em seu sistema operacional.
 
 * [Get Docker](https://docs.docker.com/get-docker/)
 * [Install Docker Compose](https://docs.docker.com/compose/install/)
@@ -99,10 +99,11 @@ db:
 
 ## 3. Configurar conexão ao BD no serviço node
 
-Agora que temos a configuração do serviço db, precisamos completar a configuração do
-serviço Node.js. Em particular, queremos definir o valor da variável de ambiente `DB_URL`,
-onde colocaremos a connection string correspondente ao nosso banco de dados. 
-Esta string de conexão segue o formato de URL e se parece com isso:
+Agora que temos a configuração do serviço db, precisamos completar a
+configuração do serviço Node.js. Em particular, queremos definir o valor
+da variável de ambiente `DB_URL`, onde colocaremos a connection string
+correspondente ao nosso banco de dados. Esta string de conexão segue
+o formato de URL e se parece com isso:
 
 ```text
 protocol://username:password@host:port/dbname?opt1=val1&...
@@ -113,7 +114,7 @@ escolhido (`mongodb`, `postgresql` ou `mysql`), e `username`, `password` e `dbna
 pelos valores usados na configuração do serviço db no ponto anterior.
 Neste caso, o valor de host será `db`, que é o nome do serviço de banco de dados
 na configuração do `docker-compose.yml`, e podemos nos referir a ele pelo nome
-na rede interna entre os contêineres. 
+na rede interna entre os contêineres.
 Seguindo os exemplos do ponto anterior, a variável `DB_URL` no `docker-compose.yml`
 seria assim:
 
@@ -137,7 +138,7 @@ seria assim:
 
 ## 4. Iniciar, reiniciar e parar os serviços com `docker-compose`
 
-Agora que temos nossa configuração do docker-compose pronta, 
+Agora que temos nossa configuração do docker-compose pronta,
 vamos ver como podemos iniciar a aplicação.
 Para isso, usamos o comando `docker-compose up` dentro da pasta do
 nosso projeto (onde está o arquivo `docker-compose.yml`).
@@ -146,8 +147,8 @@ nosso projeto (onde está o arquivo `docker-compose.yml`).
 docker-compose up
 ```
 
-Para interromper o comando e ter o terminal de volta ao _prompt_, você pode usar a 
-combinação de teclas `Ctrl + C`.
+Para interromper o comando e ter o terminal de volta ao _prompt_,
+você pode usar a combinação de teclas `Ctrl + C`.
 
 Se usarmos o comando dessa forma, sem opções, ele iniciará todos os serviços
 descritos no `docker-compose.yml`. Alternativamente, podemos iniciar um serviço
@@ -158,9 +159,8 @@ Por exemplo, se quisermos iniciar apenas o serviço de banco de dados:
 docker-compose up db
 ```
 
-
 Também temos a opção de iniciar os serviços e executá-los em segundo plano,
-como _daemons_, usando a opção `-d`, para que o prompt seja 
+como _daemons_, usando a opção `-d`, para que o prompt seja
 imediatamente retornado e os serviços continuem em execução.
 
 ```sh
@@ -220,8 +220,8 @@ de um serviço específico indicando seu nome:
 docker-compose rm db
 ```
 
-Por fim, quando executamos nossos serviços em segundo plano, como_ daemons_, para nos
-conectarmos aos contêineres e vermos os _logs_, podemos usar:
+Por fim, quando executamos nossos serviços em segundo plano, como _daemons_,
+para nos conectarmos aos contêineres e vermos os _logs_, podemos usar:
 
 ```sh
 docker-compose logs
@@ -234,8 +234,9 @@ Podemos adicionar também a opção `-f` para fazer streaming dos logs e ficar o
 docker-compose logs -f db
 ```
 
-Lembre-se de sempre consultar a _ajuda_ do `docker-compose` com o comando `help`.
-Por exemplo, se quisermos ver a ajuda do subcomando up, poderíamos fazer isso:
+Lembre-se de sempre consultar a _ajuda_ do `docker-compose` com o
+comando `help`. Por exemplo, se quisermos ver a ajuda do subcomando
+up, poderíamos fazer isso:
 
 ```sh
 docker-compose help up
@@ -243,8 +244,8 @@ docker-compose help up
 
 ## 6. Opcionalmente, instale uma interface gráfica para administrar dados
 
-Ao trabalhar com bancos de dados, é muito comum usar algum tipo de interface gráfica que
-nos permita visualizar e manipular nossos dados de forma visual.
+Ao trabalhar com bancos de dados, é muito comum usar algum tipo de interface
+gráfica que nos permita visualizar e manipular nossos dados de forma visual.
 Existem opções para cada banco de dados. Recomendamos as seguintes:
 
 [Compass](https://www.mongodb.com/products/compass) (MongoDB),
@@ -266,11 +267,11 @@ ports:
 ```
 
 Ao listar as portas de um contêiner ou serviço no `docker-compose.yml`,
-tenha em mente que o número à direita é a porta no contêiner (rede privada do Docker),
-enquanto o número à esquerda é a porta no host do Docker
-(geralmente o seu computador - `127.0.0.1` ou `localhost`).
-No exemplo acima, estamos "mapeando" a porta `27017` do contêiner para a porta `28017`
-do host do Docker.
+tenha em mente que o número à direita é a porta no contêiner
+(rede privada do Docker), enquanto o número à esquerda é a porta no
+host do Docker (geralmente o seu computador - `127.0.0.1` ou `localhost`).
+No exemplo acima, estamos "mapeando" a porta `27017` do contêiner para a
+porta `28017` do host do Docker.
 
 Se você estiver usando PostgreSQL ou MySQL, as portas que gostaríamos de mapear
 seriam `5432` e `330`6, respectivamente.
@@ -312,11 +313,12 @@ para que o pgAdmin possa se conectar através da rede _privada_.
 ## 7. Execute os testes de integração (e2e)
 
 O _boilerplate_ deste projeto já inclui testes `e2e` (end-to-end) ou de integração,
-que são responsáveis por testar nossa aplicação como um todo, através da interface HTTP.
-Ao contrário dos testes unitários, onde importamos ou requeremos um módulo e testamos
-uma função de forma isolada, aqui iremos iniciar toda a aplicação e testá-la como
-se estivéssemos usando no mundo real. Para isso, os testes de integração
-precisarão de um banco de dados e estarão ouvindo em uma porta de rede.
+que são responsáveis por testar nossa aplicação como um todo, através da
+interface HTTP. Ao contrário dos testes unitários, onde importamos ou requeremos
+um módulo e testamos uma função de forma isolada, aqui iremos iniciar toda a
+aplicação e testá-la como se estivéssemos usando no mundo real. Para isso,
+os testes de integração precisarão de um banco de dados e estarão ouvindo em
+uma porta de rede.
 
 Para executar os testes e2e em uma instância local, podemos usar:
 
@@ -329,7 +331,7 @@ URL desta instância (por padrão `http://127.0.0.1:8080`).
 Isso pressupõe que o banco de dados esteja disponível.
 
 Alternativamente, e talvez mais fácil de usar, podemos iniciar nossa aplicação
-usando `docker-compos`e`, ou até mesmo em produção, e em seguida, executar os
+usando `docker-compose`, ou até mesmo em produção, e em seguida, executar os
 testes e2e passando a URL da aplicação na variável de ambiente `REMOTE_URL`.
 Por exemplo:
 
@@ -337,7 +339,7 @@ Por exemplo:
 REMOTE_URL=http://127.0.0.1:8080 npm run test:e2e
 ```
 
-Ao especificar R`EMOTE_URL`, os testes não tentarão _iniciar_ um servidor local,
+Ao especificar `REMOTE_URL`, os testes não tentarão _iniciar_ um servidor local,
 mas usarão diretamente a URL fornecida, assumindo que a aplicação esteja disponível
 nessa URL. Isso nos permite testar também em URLs remotas. Por exemplo:
 

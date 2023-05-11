@@ -47,7 +47,6 @@ familiarizar com o _stack_ escolhido ([Node.js](https://nodejs.org/) e
 banco de dados. Recomendamos o uso do [MongoDB](https://www.mongodb.com/)
 e temos [um guia para começar com o MongoDB.](./GETTING-STARTED-MONGO-DB.pt.md)
 
-
 [MongoDB](https://www.mongodb.com/),
 [PostgreSQL](https://www.postgresql.org/) e [MySQL](https://www.mysql.com/).
 
@@ -208,15 +207,21 @@ Nossa aplicação usa as seguintes variáveis de ambiente:
 
 ### 5.3 Implantação (Deployment)
 
-Você pode escolher o provedor (ou provedores) que preferir, juntamente com o mecanismo de implantação e estratégia de hospedagem. Recomendamos que você explore as seguintes opções:
+Você pode escolher o provedor (ou provedores) que preferir,
+juntamente com o mecanismo de implantação e estratégia de hospedagem.
+Recomendamos que você explore as seguintes opções:
 
-Vercel é uma opção focada em aplicativos da web estáticos (como os construídos com React). No entanto, o Vercel também nos permite implantar aplicativos node usando Serverless Functions.
-MongoDB Atlas é uma ótima opção para hospedar nosso banco de dados de produção, que pode ser usado em conjunto com qualquer uma das opções mencionadas acima.
-Se você tiver dúvidas sobre as diferentes opções de implantação (que são várias), não hesite em consultar seus colegas e seus coaches.
+Vercel é uma opção focada em aplicativos da web estáticos
+(como os construídos com React). No entanto, o Vercel também nos permite
+implantar aplicativos node usando Serverless Functions.
+MongoDB Atlas é uma ótima opção para hospedar nosso banco de dados de produção,
+que pode ser usado em conjunto com qualquer uma das opções mencionadas acima.
+Se você tiver dúvidas sobre as diferentes opções de implantação
+(que são várias), não hesite em consultar seus colegas e seus coaches.
 
 * [Vercel](https://vercel.com/) é uma opção focada em aplicativos
 da web estáticos (como os construídos com React). No entanto,
-o Vercel também nos permite implantar aplicativos node usando 
+o Vercel também nos permite implantar aplicativos node usando
 [Serverless Functions](https://vercel.com/docs/serverless-functions/introduction)
 [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 é uma ótima opção para hospedar nosso banco de dados de produção,
@@ -238,7 +243,7 @@ incluir a configuração do banco de dados. Tenha em mente que,
 como você terá dois servidores sendo executados na mesma configuração,
 você precisará expor os serviços em portas diferentes.
 
-Leia o [guia para docker](./GETTING-STARTED-DOCKER.pt.md) incluído 
+Leia o [guia para docker](./GETTING-STARTED-DOCKER.pt.md) incluído
 no projeto para mais informações.
 
 Para testar sua configuração do Docker, recomendamos que você use o
