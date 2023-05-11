@@ -102,7 +102,7 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 Para comenzar este proyecto tendrás que hacer un **_fork_** y **_clonar_** este
 repositorio.
 
-Antes de comenzar a codear, es necesario crear un **plan de acción**. Esto debería
+Antes de codear, es necesario crear un **plan de acción**. Esto debería
 quedar detallado en el `README.md` de tu repo y en una serie de **_issues_**
 y **_milestones_** para priorizar y organizar el trabajo, y para poder hacer
 seguimiento de tu progreso.
@@ -128,29 +128,55 @@ considere necesarios.
 * `test/md-links.spec.js` debe contener los tests unitarios para la función
   `mdLinks()`. Tu implementación debe pasar estos tests.
 
-## Este proyecto consta de DOS partes
+Este proyecto lo puedes ir construyendo por hitos. A continuación te sugerimos algunos:
 
-### 1) JavaScript API
+## HITO 1: Javascript API
 
-El módulo debe poder **importarse** en otros scripts de Node.js y debe ofrecer la
-siguiente interfaz:
+Comienza haciendo la versión más sencilla de mdlinks. Crea una función que devuelva una promesa con los links encontrados dentro de un archivo md específico.
 
-#### `mdLinks(path, options)`
+Esta función debe ser un módulo que puede **importarse** en otros scripts de Node.js y debe ofrecer la siguiente interfaz:
 
-##### Argumentos
+#### `mdLinks(path)`
+
+##### Argumentos:
 
 * `path`: Ruta **absoluta** o **relativa** al **archivo** o **directorio**.
-Si la ruta pasada es relativa, debe resolverse como relativa al directorio
-desde donde se invoca node - _current working directory_).
-* `options`: Un objeto con **únicamente** la siguiente propiedad:
-  - `validate`: Booleano que determina si se desea validar los links
-    encontrados.
+Si la ruta pasada es relativa, debe resolverse como relativa al directorio desde donde se invoca node (transformar a absoluta).
 
-##### Valor de retorno
+##### Valor de retorno:
 
-La función debe **retornar una promesa** (`Promise`) que **resuelva a un arreglo**
-(`Array`) de objetos (`Object`), donde cada objeto representa un link y contiene
-las siguientes propiedades
+La función `mdLinks(path)` debe **retornar una promesa** (`Promise`) que **resuelva a un arreglo**
+(`Array`) de objetos (`Object`), donde cada objeto representa un link y contiene las siguientes propiedades:
+
+* `href`: URL encontrada.
+* `text`: Texto que aparecía dentro del link (`<a>`).
+* `file`: Ruta del archivo donde se encontró el link.
+
+#### Ejemplo (resultados como comentarios)
+
+```js
+const mdLinks = require("md-links");
+
+mdLinks("./some/example.md")
+  .then(links => {
+    // => [{ href, text, file }, ...]
+  })
+  .catch(console.error);
+```
+
+### HITO 2: Javascript API con argumento "options"
+
+Agrega un argumento más a la función mdLinks. El segundo parámetro recibirá un objeto **options** con el valor validate que deberá ser un booleano
+
+* Crear una función `mdLinks(path, options)`
+  
+  Argumentos:
+
+  - path: Ruta absoluta o relativa al archivo o directorio. Si la ruta pasada es relativa, debe resolverse como relativa al directorio desde donde se invoca node (transformar a absoluta).
+  - options: Un objeto con únicamente la siguiente propiedad:
+    - validate: Booleano que determina si se desea validar los links encontrados.
+
+* La función `mdLinks(path, options)` debe retornar una promesa (Promise) que resuelva a un arreglo (Array) de objetos (Object), donde cada objeto representa un link y contiene las siguientes propiedades:
 
 Con `validate:false` :
 
@@ -182,18 +208,51 @@ mdLinks("./some/example.md", { validate: true })
     // => [{ href, text, file, status, ok }, ...]
   })
   .catch(console.error);
+```
+
+### HITO 3: Buscando dentro de una carpeta
+
+* Para este hito vas a trabajar con la misma función mdLinks pero esta vez la usuaria será capaz de pasar una carpeta como ruta. 
+
+* El La función `mdLinks(path, options)`  debe recorrer todos los archivos existentes en la carpeta y por cada archivo md que encuentre deberá extraer los links para mostrarlos en pantalla. 
+
+* Debes tener en cuenta que la carpeta puede contener archivos con extensiones que no sean md. En este caso debes la función debe ignorarlos. (Crea una carpeta con archivos de diferentes extensiones para probar tu función)
+
+* Aquí también se deberá tener el cuenta el valor del objeto options
+
+#### Ejemplo (resultados como comentarios)
+
+```js
+const mdLinks = require("md-links");
 
 mdLinks("./some/dir")
   .then(links => {
     // => [{ href, text, file }, ...]
   })
   .catch(console.error);
+
+mdLinks("./some/dir", { validate: true })
+  .then(links => {
+    // => [{ href, text, file, status, ok }, ...]
+  })
+  .catch(console.error);
 ```
 
-### 2) CLI (Command Line Interface - Interfaz de Línea de Comando)
+### HITO 4: Buscando dentro de subcarpetas
 
-El ejecutable de nuestra aplicación debe poder ejecutarse de la siguiente
-manera a través de la **terminal**:
+* Misma funcionalidad que el HITO 3 pero ahora la usuaria será capaz de pasar una carpeta como ruta con más carpetas dentro además de posibles archivos. 
+
+* La función `mdLinks(path, options)`  tendrá que recorrer todas las carpetas existentes en la ruta y buscar los links en todos los archivos md que encuentre.
+
+* Para resolver este hito te recomendacón leer acerca del concepto de recursividad.
+
+* Los resultados van a depender del valor que se obtenga dentro del objeto options.
+
+### HITO 5: CLI - Interfaz de Línea de Comando
+
+En este último hito, crearás un paquete ejecutable de tu código, el mismo que deberá estar documentado y alojado en [npm](https://www.npmjs.com/) para poderlo descargar.
+
+El ejecutable de nuestra aplicación debe poder ejecutarse de la siguiente manera a través de la **terminal**:
 
 `md-links <path-to-file> [options]`
 
@@ -201,16 +260,22 @@ Por ejemplo:
 
 ```sh
 $ md-links ./some/example.md
-./some/example.md http://algo.com/2/3/ Link a algo
-./some/example.md https://otra-cosa.net/algun-doc.html algún doc
-./some/example.md http://google.com/ Google
+
+./some/example.md 
+http://algo.com/2/3/ 
+Link a algo
+
+./some/example.md 
+https://otra-cosa.net/algun-doc.html 
+algún doc
+
+./some/example.md 
+http://google.com/ 
+Google
 ```
 
-El comportamiento por defecto no debe validar si las URLs responden ok o no,
-solo debe identificar el archivo markdown (a partir de la ruta que recibe como
-argumento), analizar el archivo Markdown e imprimir los links que vaya
-encontrando, junto con la ruta del archivo donde aparece y el texto
-que hay dentro del link (truncado a 50 caracteres).
+El comportamiento por defecto no debe validar si las URLs responden ok o no, solo debe identificar el archivo markdown (a partir de la ruta que recibe como argumento), analizar el archivo Markdown e imprimir los links que vaya
+encontrando, junto con la ruta del archivo donde aparece y el texto que hay dentro del link (truncado a 50 caracteres).
 
 #### Options
 
@@ -224,9 +289,24 @@ Por ejemplo:
 
 ```sh
 $ md-links ./some/example.md --validate
-./some/example.md http://algo.com/2/3/ ok 200 Link a algo
-./some/example.md https://otra-cosa.net/algun-doc.html fail 404 algún doc
-./some/example.md http://google.com/ ok 301 Google
+
+./some/example.md 
+http://algo.com/2/3/ 
+ok 
+200 
+Link a algo
+
+./some/example.md 
+https://otra-cosa.net/algun-doc.html 
+fail 
+404 
+algún doc
+
+./some/example.md 
+http://google.com/ 
+ok 
+301 
+Google
 ```
 
 Vemos que el _output_ en este caso incluye la palabra `ok` o `fail` después de
@@ -240,6 +320,7 @@ básicas sobre los links.
 
 ```sh
 $ md-links ./some/example.md --stats
+
 Total: 3
 Unique: 3
 ```
@@ -249,6 +330,7 @@ necesiten de los resultados de la validación.
 
 ```sh
 $ md-links ./some/example.md --stats --validate
+
 Total: 3
 Unique: 3
 Broken: 1
