@@ -71,11 +71,11 @@ en una terminal, y debe contemplar los casos de uso para poder:
 ### Los objetivos generales de este proyecto son los siguientes
 
 * Desarrollar una librería con Node.js
-* Publicar tu librería en NPM
 * Trabajar con el sistema de archivos del computador
 * Trabajar con asincronía en JavaScript
 * Trabajar utilizando recursividad
 * Crear una suite de pruebas unitarias que permitan testear código asíncrono
+* Publicar tu librería en NPM
 
 ## 3. Objetivos de aprendizaje
 
@@ -141,7 +141,7 @@ consideres necesario.
 * `test/copy-or-move.spec.js` debe contener los tests unitarios para la función
   `copyOrMove()`. Tu implementación debe pasar estos tests.
 
-## El funcionamiento del programa debe contemplar lo siguiente
+### El funcionamiento del programa debe contemplar lo siguiente
 
 El ejecutable de nuestra aplicación debe poder ejecutarse de la siguiente
 manera a través de la _terminal_ (o _CLI_):
@@ -183,8 +183,12 @@ con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
 profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
 
 * Puedes intentar agregarle a tu aplicación la opción de tomar un conjunto de
-  archivos siguiendo un patrón utilizando un wildcard (`*`), por ejemplo:
-  `$ copy-or-move "package*" ./Documentos/ -c` o también:
+  archivos siguiendo un patrón utilizando un wildcard (`*`).
+  
+  Por ejemplo:
+  `$ copy-or-move "package*" ./Documentos/ -c`
+  
+  O también:
   `$ copy-or-move "*.js" ./Proyectos/`
 * Puedes agregar más opciones aparte de `-c`, por ejemplo una opción `-n` que
   le haga saber a tu programa que no es necesario sobreescribir un archivo
@@ -204,21 +208,16 @@ Para que el módulo sea instalable desde GitHub solo tiene que:
 Con el comando `npm install githubname/reponame` podemos instalar directamente
 desde GitHub. Ver [docs oficiales de `npm install` acá](https://docs.npmjs.com/cli/install).
 
-Por ejemplo, el [`curriculum-parser`](https://github.com/Laboratoria/curriculum-parser)
-que usamos para la currícula no está publicado en el registro público de NPM,
-así que lo instalamos directamente desde GitHub con el comando `npm install
-Laboratoria/curriculum-parser`.
-
 ### Sugerencias de implementación
 
-La implementación de este proyecto tiene varias partes: leer del sistema de
+La implementación de este proyecto tiene varias partes: Leer del sistema de
 archivos, recibir argumentos a través de la línea de comando, discernir entre
-archivos y directorios, crear directorios, ... y todas estas cosas pueden
+archivos y directorios, crear directorios, etc... Y todas estas cosas pueden
 enfocarse de muchas formas, tanto usando librerías como implementando en
 VanillaJS.
 
 En los ejemplos anteriores, a propósito, hemos declarado que el input
-de la usuaria tenga un orden específico, donde primero viene la _fuente_,
+de la usuaria tenga un orden específico, donde primero viene el _origen_,
 luego el _destino_ y **al final** la opción (o flag) `-c`. Te recomendamos
 seguir ese orden específico, de manera que sea más fácil poder analizar ese
 input (o argumentos) recibido desde la terminal.
@@ -292,8 +291,7 @@ Estas son algunas sugerencias:
 ### Empieza con un diagrama de flujo
 
 Este proyecto es distinto de los que has venido trabajando hasta ahora
-dado que no hay una interfaz web, todo se desarrollará en tu editor y
-consola/terminal.
+dado que no hay una interfaz web, todo se desarrollará en tu editor y terminal.
 
 Es por ello que, para visualizar mejor lo que tendrás que hacer
 y planificar tus tareas y objetivos, es recomendable hacer un
@@ -321,7 +319,7 @@ En esta ocasión estarás trabajando en **NodeJS**, asegúrate
 de saber para qué sirve y sus consideraciones.
 
 En particular, deberás decidir desde un comienzo si usarás
-`ES Modules`, es decir, **import/export**, ó, por el contrario,
+`ES Modules`, es decir, **import/export**, o, por el contrario,
 `CommonJS Modules`, es decir, **require/module.exports**.
 
 Asegurate de tener clara esta decisión desde un inicio para

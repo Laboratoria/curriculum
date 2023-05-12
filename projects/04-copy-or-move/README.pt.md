@@ -6,7 +6,7 @@
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
 * [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios de aceitação mínimos do projeto](#5-criterios-de-aceitação-mínimos-do-projeto)
+* [5. Critérios de aceitação mínimos do projeto](#5-critérios-de-aceitação-mínimos-do-projeto)
 * [6. Entregáveis](#6-entregáveis)
 * [7. Hacker edition](#7-hacker-edition)
 * [8. Guias, dicas e leituras complementares](#8-guias-dicas-e-leituras-complementares)
@@ -38,46 +38,44 @@ em seu computador, mas desta vez executado a partir da sua
 
 ## 2. Resumo do projeto
 
-En este proyecto crearás una herramienta de línea de comando (CLI) así como tu
-propia librería (o biblioteca - library) en JavaScript.
+Neste projeto, você criará uma ferramenta de linha de comando (CLI) e sua
+própria biblioteca em JavaScript.
 
-En esta oportunidad nos alejamos un poco del navegador para construir un
-programa que se ejecute usando Node.js en una CLI (también llamada _terminal_).
-Aprenderemos sobre procesos (`process.env`, `process.argv`, ...), cómo
-interactuar con el sistema archivos, rutas de directorios, grupos de archivos,
-etc.
+Desta vez, iremos nos afastar um pouco do navegador para construir um programa
+que será executado usando o Node.js em uma CLI (também chamada de _terminal_).
+Aprenderemos sobre processos (`process.env`, `process.argv`, ...), como
+interagir com o sistema de arquivos, caminhos de diretórios, grupos de
+arquivos, etc.
 
-Tu programa debe ser publicado como paquete descargable desde
-[NPM](https://www.npmjs.com/), el gestor de paquetes de Node.
+Seu programa deve ser publicado como um pacote disponível para download no
+[NPM](https://www.npmjs.com/), o gerenciador de pacotes do Node.
 
-Diseñar tu propia librería es una experiencia fundamental para cualquier
-desarrolladora porque que te obliga a pensar en la interfaz (API) de tus
-_módulos_ y cómo será usado por otras developers. Debes tener especial
-consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
+Projetar sua própria biblioteca é uma experiência fundamental para qualquer
+desenvolvedora, pois isso a obriga a pensar na interface (API) de seus módulos
+e como eles serão usados por outras desenvolvedoras. Você deve levar em
+consideração as peculiaridades da linguagem, convenções e boas práticas.
 
-Esta aplicación, que publicarás como librería, debe poder ser ejecutable
-en una terminal, y debe contemplar los casos de uso para poder:
+Este aplicativo, que você publicará como uma biblioteca, deve ser executável
+em um terminal e deve contemplar os seguintes casos de uso:
 
-1.- Copiar un archivo hacia un archivo o directorio
-  de destino
+1.- Copiar um arquivo para um arquivo ou diretório de destino.
 
-2.- Copiar un directorio, incluyendo todo su contenido, hacia un directorio
-  de destino
+2.- Copiar um diretório, incluindo todo o seu conteúdo,
+  para um diretório de destino.
 
-3.- Mover un archivo hacia un archivo o directorio
-  de destino
+3.- Mover um arquivo para um arquivo ou diretório de destino.
 
-4.- Mover un directorio, incluyendo todo su contenido, hacia un directorio
-  de destino
+4.- Mover um diretório, incluindo todo o seu conteúdo,
+  para um diretório de destino.
 
-### Los objetivos generales de este proyecto son los siguientes
+### Os objetivos gerais deste projeto são os seguintes
 
-* Desarrollar una librería con Node.js
-* Publicar tu librería en NPM
-* Trabajar con el sistema de archivos del computador
-* Trabajar con asincronía en JavaScript
-* Trabajar utilizando recursividad
-* Crear una suite de pruebas unitarias que permitan testear código asíncrono
+* Desenvolver uma biblioteca com Node.js.
+* Trabalhar com o sistema de arquivos do computador.
+* Trabalhar com assincronia em JavaScript.
+* Trabalhar utilizando recursividade.
+* Criar uma suíte de testes unitários que permita testar código assíncrono.
+* Publicar sua biblioteca no NPM.
 
 ## 3. Objetivos de aprendizagem
 
@@ -91,106 +89,110 @@ en una terminal, y debe contemplar los casos de uso para poder:
 
 ## 4. Considerações gerais
 
-* Este proyecto se debe "resolver" de manera individual.
+* Este projeto deve ser "resolvido" de forma individual.
 
-* El rango de tiempo estimado para completar el proyecto es de 3 a 4 Sprints.
+* O intervalo de tempo estimado para completar o projeto é de 3 a 4 Sprints.
 
-* La **librería** como **script ejecutable** (herramienta de línea de comando -
-  CLI - terminal) debe estar implementada en JavaScript para ser ejecutados con
-  Node.js. **Está permitido usar librerías externas**.
+* A **biblioteca**, como um **script executável** (ferramenta de linha de
+  comando - CLI - terminal), deve ser implementada em JavaScript para ser
+  executada com o Node.js. **É permitido usar bibliotecas externas**.
 
-* Tu módulo **debe ser instalable** via
-  `npm install <github-user>/node-or-move`. Este módulo debe incluir el
-  _ejecutable_ que podamos invocar en la línea de comandos.
+* Seu módulo deve ser **instalável** via
+  `npm install <github-user>/node-or-move`. Este módulo deve incluir o
+  _executável_ que podemos invocar na linha de comando.
 
-* Los **tests unitarios** deben cubrir un mínimo del 70% de _statements_,
-  _functions_, _lines_ y _branches_. Te recomendamos explorar [Vitest](https://vitest.dev/)
-  para tus pruebas unitarias.
+* Os **testes unitários** devem abranger no mínimo 70% de _statements_,
+  _funções_, _linhas_ e _branches_. Recomendamos explorar o
+  [Vitest](https://vitest.dev/) para seus testes unitários.
 
-* Para este proyecto te sugerimos **no utilizar** la versión síncrona
-  de la función para leer directorios, `readdirSync`, y en cambio intentar
-  resolver este desafío de manera asíncrona.
+* Para este projeto, sugerimos **não utilizar** a versão síncrona da função
+  para ler diretórios, `readdirSync`, e, em vez disso, tentar resolver esse
+  desafio de forma assíncrona.
 
 ## 5. Critérios de aceitação mínimos do projeto
 
-Para comenzar este proyecto tendrás que hacer un **_fork_** y **_clonar_** este
-repositorio.
+Para começar este projeto, você precisará fazer um **_fork_** e **_clonar_**
+este repositório.
 
-Antes de comenzar a codear, es necesario crear un **plan de acción**. Esto debería
-quedar detallado en el `README.md` de tu repo y en una serie de **_issues_**
-y **_milestones_** para priorizar y organizar el trabajo, y para poder hacer
-seguimiento de tu progreso. Además de eso, te recomendamos crear un
-**diagrama de flujo** de tu programa.
+Antes de começar a codificar, é necessário criar um **plano de ação**. Isso
+deve ser detalhado no arquivo `README.md` do seu repositório e em uma série de
+**_issues_** e **_milestones_** para priorizar e organizar o trabalho, e para
+poder acompanhar seu progresso. Além disso, recomendamos criar um
+**diagrama de fluxo** do seu programa.
 
-Dentro de cada **_milestone_** se crearán y asignarán los **_issues_** que
-consideres necesario.
+Dentro de cada **_milestone_**, serão criados e atribuídos os **_issues_** que
+você considerar necessário.
 
 ### Arquivos do projeto
 
-* `README.md` con descripción del módulo, instrucciones de instalación/uso,
-  documentación y ejemplos. Todo lo relevante para que cualquier
-  usuaria que quiera utilizar tu librería pueda hacerlo sin inconvenientes.
-* `index.js` desde este archivo debes exportar **una** función (`copyOrMove`).
-* `package.json` con nombre, versión, descripción, autores, licencia,
-  dependencias, scripts (pretest, test, ...), main, bin
-* `.editorconfig` con configuración para editores de texto. Este archivo no se
-  debe cambiar.
-* `.eslintrc` con configuración para linter. Este archivo contiene una
-  configuración básica para ESLint, si deseas agregar reglas adicionales
-  deberás modificar este archivo.
-* `.gitignore` para ignorar `node_modules` u otras carpetas que no deban
-  incluirse en control de versiones (`git`).
-* `test/copy-or-move.spec.js` debe contener los tests unitarios para la función
-  `copyOrMove()`. Tu implementación debe pasar estos tests.
+* `README.md` com a descrição do módulo, instruções de instalação/usuário,
+  documentação e exemplos. Tudo relevante para que qualquer usuária que queira
+  utilizar sua biblioteca possa fazê-lo sem problemas.
+* `index.js` - Neste arquivo, você deve exportar **uma** função (`copyOrMove`).
+* `package.json` com o nome, versão, descrição, autores, licença, dependências,
+  scripts (pretest, test, ...), main, bin.
+* `.editorconfig` com a configuração para editores de texto. Este arquivo não
+  deve ser alterado.
+* `.eslintrc` com a configuração para o linter. Este arquivo contém uma
+  configuração básica para o ESLint. Se você desejar adicionar regras
+  adicionais, deverá modificar este arquivo.
+* `.gitignore` para ignorar `node_modules` ou outras pastas que não devem ser
+  incluídas no controle de versão (`git`).
+* `test/copy-or-move.spec.js` deve conter os testes unitários para a função
+  `copyOrMove()`. Sua implementação deve passar nesses testes.
 
-## El funcionamiento del programa debe contemplar lo siguiente
+### O funcionamento do programa deve contemplar o seguinte
 
-El ejecutable de nuestra aplicación debe poder ejecutarse de la siguiente
-manera a través de la _terminal_ (o _CLI_):
+O executável do nosso aplicativo deve poder ser executado da seguinte forma
+através da _terminal_ (ou _CLI_):
 
 `copy-or-move <path-to-source-file-or-directory>
   <path-to-destination-file-or-directory> [options]`
 
-Por ejemplo: Si una usuaria quisiera **mover** el archivo `README.md` contenido
-dentro del directorio actual donde está ubicada en su terminal hacia un
-directorio llamado `Documentos/` que a su vez también se encuentra _dentro_ del
-directorio actual, deberá ejecutar el siguiente comando en su terminal:
+Por exemplo: Se uma usuária quiser **mover** o arquivo `README.md` localizado
+dentro do diretório atual em sua terminal para um diretório chamado
+`Documentos/`, que por sua vez também está _dentro_ do diretório atual, ela
+deve executar o seguinte comando em sua terminal:
 
 `$ copy-or-move ./README.md ./Documentos/`
 
-Otro ejemplo: En caso de que una usuaria quisiera **copiar** todos los
-contenidos de un directorio llamado `DCIM/` a un directorio llamado `Fotos/`,
-deberá ejecutar el siguiente comando en su terminal, esta vez, incluyendo la
-_opción_ (o _flag_) `-c` para hacerle saber a la librería que esta vez, en vez
-de mover los contenidos, estos sólo deben ser copiados:
+Outro exemplo: Se uma usuária quiser **copiar** todos os conteúdos de um
+diretório chamado `DCIM/` para um diretório chamado `Fotos/`, ela deve executar
+o seguinte comando em sua terminal, desta vez incluindo a _opção_ (ou _flag_)
+`-c` para informar à biblioteca que, desta vez, em vez de mover os conteúdos,
+eles devem apenas ser copiados:
 
-`$ copy-or-move ruta/hacia/DCIM/ ruta/hacia/Fotos/ -c`
+`$ copy-or-move caminho/para/DCIM/ caminho/para/Fotos/ -c`
 
 ### Options
 
-El comportamiento por defecto del programa será el de **mover** los archivos
-o directorios de una fuente hacia un destino, pero en caso de que la usuaria,
-en vez de mover, quisiera **copiar** esos archivos o directorios, entonces deberá
-pasarle a ese comando la opción (también llamadas _flags_) `-c`.
+O comportamento padrão do programa será **mover** os arquivos ou diretórios de
+uma origem para um destino. No entanto, caso a usuária queira **copiar** esses
+arquivos ou diretórios em vez de movê-los, ela deverá passar a opção (também
+chamada de _flags_) `-c` para esse comando.
 
 ## 6. Entregáveis
 
-Módulo instalable via `npm install <github-user>/copy-or-move`. Este módulo
-debe incluir **un ejecutable** para ser utilizado desde la terminal.
+Módulo instalável via `npm install <github-user>/copy-or-move`. Este módulo
+deve incluir **um executável** para ser utilizado a partir da linha de comando.
 
 ## 7. Hacker edition
 
-Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
-con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
-profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
+As seções chamadas _Hacker Edition_ são **opcionais**. Se você **concluir**
+tudo anteriormente e ainda tiver tempo, tente completá-las. Assim, você poderá
+aprofundar e/ou praticar mais sobre os objetivos de aprendizado do projeto.
 
-* Puedes intentar agregarle a tu aplicación la opción de tomar un conjunto de
-  archivos siguiendo un patrón utilizando un wildcard (`*`), por ejemplo:
-  `$ copy-or-move "package*" ./Documentos/ -c` o también:
-  `$ copy-or-move "*.js" ./Proyectos/`
-* Puedes agregar más opciones aparte de `-c`, por ejemplo una opción `-n` que
-  le haga saber a tu programa que no es necesario sobreescribir un archivo
-  en el directorio de destino si este ya existe ahí.
+* Você pode tentar adicionar à sua aplicação a opção de selecionar um conjunto
+  de arquivos seguindo um padrão usando um caractere wildcard (`*`).
+  
+  Por exemplo:
+  `$ copy-or-move "package*" ./Documentos/ -c`
+  
+  Ou também:
+  `$ copy-or-move "*.js" ./Projetos/`
+* Você pode adicionar mais opções além de `-c`, por exemplo, uma opção `-n` que
+  informa ao seu programa que não é necessário substituir um arquivo no
+  diretório de destino se ele já existir lá.
 
 ## 8. Guias, dicas e leituras complementares
 
@@ -198,36 +200,32 @@ profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
 
 #### Como faço para que o meu módulo seja instalável pelo GitHub?
 
-Para que el módulo sea instalable desde GitHub solo tiene que:
+Para que o módulo seja instalável a partir do GitHub, é necessário:
 
-* Estar en un repo público de GitHub
-* Contener un `package.json` válido
+* Estar em um repositório público do GitHub
+* Conter um `package.json` válido
 
-Con el comando `npm install githubname/reponame` podemos instalar directamente
-desde GitHub. Ver [docs oficiales de `npm install` acá](https://docs.npmjs.com/cli/install).
-
-Por ejemplo, el [`curriculum-parser`](https://github.com/Laboratoria/curriculum-parser)
-que usamos para la currícula no está publicado en el registro público de NPM,
-así que lo instalamos directamente desde GitHub con el comando `npm install
-Laboratoria/curriculum-parser`.
+Com o comando `npm install githubname/reponame`, podemos instalar diretamente
+do GitHub. Consulte a
+[documentação oficial do `npm install` aqui](https://docs.npmjs.com/cli/install).
 
 ### Sugestões de implementação
 
-La implementación de este proyecto tiene varias partes: leer del sistema de
-archivos, recibir argumentos a través de la línea de comando, discernir entre
-archivos y directorios, crear directorios, ... y todas estas cosas pueden
-enfocarse de muchas formas, tanto usando librerías como implementando en
-VanillaJS.
+A implementação deste projeto possui várias partes: leitura do sistema de
+arquivos, recebimento de argumentos pela linha de comando, diferenciação entre
+arquivos e diretórios, criação de diretórios, etc... E todas essas coisas podem
+ser abordadas de várias maneiras, tanto usando bibliotecas quanto implementando
+em VanillaJS.
 
-En los ejemplos anteriores, a propósito, hemos declarado que el input
-de la usuaria tenga un orden específico, donde primero viene la _fuente_,
-luego el _destino_ y **al final** la opción (o flag) `-c`. Te recomendamos
-seguir ese orden específico, de manera que sea más fácil poder analizar ese
-input (o argumentos) recibido desde la terminal.
+Nos exemplos anteriores, de propósito, declaramos que a entrada da usuária
+segue uma ordem específica, onde primeiro vem a "origem", depois o "destino"
+e, **por último**, a opção (ou flag) `-c`. Recomendamos que você siga essa
+ordem específica para facilitar a análise desses argumentos recebidos pela
+linha de comando.
 
-No dudes en consultar a tus compañeras y coaches si tienes dudas existenciales
-con respecto a estas decisiones. No existe una "única" manera correcta de
-desarrollarlo.
+Não hesite em consultar suas colegas e instrutoras se tiver dúvidas
+existenciais sobre essas decisões. Não há apenas uma maneira "correta"
+de desenvolver isso.
 
 ### Tutoriales / NodeSchool workshoppers
 
@@ -237,141 +235,137 @@ desarrollarlo.
 
 ### Otros recursos
 
-* [Acerca de Node.js - Documentación oficial](https://nodejs.org/es/about/)
-* [Node.js file system - Documentación oficial](https://nodejs.org/api/fs.html)
+* [Sobre Node.js - Documentação oficial](https://nodejs.org/pt-br/about/)
+* [Node.js file system - Documentação oficial](https://nodejs.org/api/fs.html)
 * [Node.js http.get - Documentación oficial](https://nodejs.org/api/http.html#http_http_get_options_callback)
-* [Node.js - Wikipedia](https://es.wikipedia.org/wiki/Node.js)
+* [Node.js - Wikipedia](https://pt.wikipedia.org/wiki/Node.js)
 * [What exactly is Node.js? - freeCodeCamp](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5)
-* [¿Qué es Node.js y para qué sirve? - drauta.com](https://www.drauta.com/que-es-nodejs-y-para-que-sirve)
-* [¿Qué es Nodejs? Javascript en el Servidor - Fazt en YouTube](https://www.youtube.com/watch?v=WgSc1nv_4Gw)
-* [¿Simplemente qué es Node.js? - IBM Developer Works, 2011](https://www.ibm.com/developerworks/ssa/opensource/library/os-nodejs/index.html)
-* [Node.js y npm](https://www.genbeta.com/desarrollo/node-js-y-npm)
-* [Asíncronía en js](https://carlosazaustre.es/manejando-la-asincronia-en-javascript)
-* [Función async](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/async_function)
+* [Node.js – O que é, como funciona e quais as vantagens](https://www.opus-software.com.br/node-js/)
+* [O que é npm](https://www.hostinger.com.br/tutoriais/o-que-e-npm)
+* [JavaScript assíncrono: callbacks, promises e async functions](https://medium.com/@alcidesqueiroz/javascript-ass%C3%ADncrono-callbacks-promises-e-async-functions-9191b8272298)
+* [Funções assíncronas](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/async_function)
 * [NPM](https://docs.npmjs.com/getting-started/what-is-npm)
 * [Publicar packpage](https://docs.npmjs.com/getting-started/publishing-npm-packages)
-* [Crear módulos en Node.js](https://docs.npmjs.com/getting-started/publishing-npm-packages)
-* [Leer un directorio](https://nodejs.org/api/fs.html#fspromisesreaddirpath-options)
-* [Checkear si es directorio](https://nodejs.org/docs/latest-v18.x/api/fs.html#statsisdirectory)
+* [Criar módulos no Node.js](https://docs.npmjs.com/getting-started/publishing-npm-packages)
+* [Ler um diretório](https://nodejs.org/api/fs.html#fspromisesreaddirpath-options)
+* [Verifique se é diretório](https://nodejs.org/docs/latest-v18.x/api/fs.html#statsisdirectory)
 * [Path](https://nodejs.org/api/path.html)
 * [Linea de comando CLI](https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e)
 
 ## 9. Checklist
 
-### General
+### Geral
 
-* [ ] Puede instalarse via `npm install --global <github-user>/copy-or-move`
+* [ ] Pode ser instalado via `npm install --global <github-user>/copy-or-move`
 
 ### `README.md`
 
-* [ ] Un board con el backlog para la implementación de la librería.
-* [ ] Documentación técnica de la librería.
-* [ ] Guía de uso e instalación de la librería.
+* [ ] Quadro (board) com o backlog para implementação da biblioteca.
+* [ ] Documentação técnica da biblioteca.
+* [ ] Guia de uso e instalação da biblioteca.
 
 ### CLI
 
-* [ ] Expone ejecutable `copy-or-move` en el path (configurado en `package.json`)
-* [ ] Se ejecuta sin errores / output esperado
-* [ ] Permite mover o copiar archivos y directorios completos
-* [ ] Implementa `-c`
+* [ ] Expõe o executável `copy-or-move` no caminho (path) configurado no
+  `package.json`.
+* [ ] Executa sem erros / produz saída esperada.
+* [ ] Permite mover ou copiar arquivos e diretórios completos.
+* [ ] Implementa a opção `-c`.
 
-### Pruebas / tests
+### Testes
 
-* [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions,
-  lines, y branches.
-* [ ] Pasa tests (y linters) (`npm test`).
+* [ ] Os testes unitários cobrem pelo menos 70% dos statements, funções,
+  linhas e branches.
+* [ ] Passa nos testes (e linters) (`npm test`).
 
 ## 10. Dividindo o problema
 
-Un "superpoder" que esperamos puedas desarrollar durante el bootcamp
-es el de definir "mini-proyectos" que te acerquen paso a paso a
-la solución del "gran proyecto". Es el equivalente a comenzar armando
-esquinas o bordes del rompecabezas/puzzle sin saber necesariamente
-cómo encajarán al final. Déjate llevar y explora.
+Um "superpoder" que esperamos que você desenvolva durante o bootcamp
+é a capacidade de definir "mini-projetos" que o levem passo a passo
+à solução do "grande projeto". É o equivalente a começar montando
+as esquinas ou bordas do quebra-cabeça sem necessariamente saber
+como elas se encaixarão no final. Deixe-se levar e explore.
 
-Estas son algunas sugerencias:
+Aqui estão algumas sugestões:
 
-### Empieza con un diagrama de flujo
+### Comece com um diagrama de fluxo
 
-Este proyecto es distinto de los que has venido trabajando hasta ahora
-dado que no hay una interfaz web, todo se desarrollará en tu editor y
-consola/terminal.
+Este projeto é diferente dos que você tem trabalhado até agora,
+pois não há uma interface web, tudo será desenvolvido no seu editor
+e terminal.
 
-Es por ello que, para visualizar mejor lo que tendrás que hacer
-y planificar tus tareas y objetivos, es recomendable hacer un
-`diagrama de flujo`.
+Por isso, para visualizar melhor o que você terá que fazer e planejar suas
+tarefas e objetivos, é recomendável fazer um `diagrama de fluxo`.
 
-Si nunca has hecho un diagrama de flujo revisa este [recurso](https://www.youtube.com/watch?v=Lub5qOmY4JQ).
+Se você nunca fez um diagrama de fluxo, confira este
+[recurso](https://www.youtube.com/watch?v=Lub5qOmY4JQ).
 
-Una alternativa al diagrama de flujo puede ser el `pseudocódigo`.
+Uma alternativa ao diagrama de fluxo pode ser o `pseudocódigo`.
 
-### Planificación
+### Planejamento
 
-En este proyecto te recomendamos usar la herramienta de planificación
-y organización de GitHub llamada **Github Projects**.
+Neste projeto, recomendamos o uso da ferramenta de planejamento
+e organização do GitHub chamada **Github Projects**.
 
-Mediante **issues** y **milestones** podrás organizar y planificar
-tareas y objetivos concretos.
+Através de **issues** e **milestones**, você pode organizar e planejar
+tarefas e objetivos concretos.
 
-Tomando en consideración los **entregables** del proyecto, el
-[9. Checklist](#9-checklist) y los **pasos** que definiste en tu
-`diagrama de flujo`, crea tu planificación en GitHub Projects.
+Levando em consideração os **entregáveis** do projeto, o
+[9. Checklist](#9-checklist) e os **passos** que você definiu no seu
+`diagrama de fluxo`, crie seu planejamento no GitHub Projects.
 
-### Antes de codear
+### Antes de codificar
 
-En esta ocasión estarás trabajando en **NodeJS**, asegúrate
-de saber para qué sirve y sus consideraciones.
+Nesta ocasião, você estará trabalhando com **Node.js**, certifique-se
+de entender para que serve e suas considerações.
 
-En particular, deberás decidir desde un comienzo si usarás
-`ES Modules`, es decir, **import/export**, ó, por el contrario,
-`CommonJS Modules`, es decir, **require/module.exports**.
+Especificamente, você precisará decidir desde o início se usará
+`ES Modules`, ou seja, **import/export**, ou, em vez disso,
+`CommonJS Modules`, ou seja, **require/module.exports**.
 
-Asegurate de tener clara esta decisión desde un inicio para
-que no encuentres problemas más adelante.
+Certifique-se de ter essa decisão clara desde o início para evitar
+problemas futuros.
 
-### Lee el contenido de un directorio
+### Ler o conteúdo de um diretório
 
-Como primer reto, puedes tratar de leer un solo directorio con
-una ruta fija e imprimir su contenido en la consola con un `console.log`.
+Como primeiro desafio, você pode tentar ler um único diretório com um caminho
+fixo e imprimir seu conteúdo no console usando `console.log`.
 
-La librería nativa `FS` (FileSystem) te será de mucha utilidad.
+A biblioteca nativa `FS` (FileSystem) será muito útil.
 
-**Recuerda**: Te sugerimos **no utilizar** la versión síncrona
-de la función para leer directorios, `readdirSync`, y en cambio
-intentar resolver ese desafío de manera asíncrona.
+**Lembre-se**: Sugerimos **não usar** a versão síncrona da função de leitura
+de diretórios, `readdirSync`, e em vez disso, tente resolver esse desafio de
+forma assíncrona.
 
-### Averigua si un elemento contenido es un directorio o un archivo
+### Verificar se um item é um diretório ou um arquivo
 
-Para este proyecto será necesario poder discernir si un elemento
-es un archivo o un directorio, lo puedes hacer utilizando
-la libería `stat`.
+Para este projeto, será necessário determinar se um item é um arquivo ou um
+diretório, você pode fazer isso usando a biblioteca `stat`.
 
-### Une dos rutas
+### Concatenar dois caminhos
 
-Para poder acceder a carpetas y archivos será necesario que
-indiques en qué lugar de tu computadora se encuentran, a esto
-le llamamos **rutas**.
+Para acessar pastas e arquivos, será necessário indicar em qual local do seu
+computador eles estão, isso é chamado de **caminho**.
 
-Usa la librería nativa `path` para unir dos segmentos de ruta,
-por ejemplo, si queremos unir:
+Use a biblioteca nativa `path` para concatenar dois segmentos de caminho, por
+exemplo, se quisermos juntar:
 
 1) /home/Laboratoria/
 2) ./test
 
-El resultado sería: /home/Laboratoria/test
+O resultado seria: /home/Laboratoria/test
 
-### Recursividad
+### Recursividade
 
-Este proyecto se ha de resolver de forma casi natural con
-**recursividad**.
+Este projeto é naturalmente resolvido com **recursividade**.
 
-¿Por qué?.
+Por quê?
 
-Porque no conocemos realmente cuantas carpetas y archivos
-tendremos que recorrer antes de terminar.
+Porque não sabemos quantas pastas e arquivos teremos que percorrer antes de
+terminar.
 
-Si recibes una ruta de carpeta, no sabrás de ante mano si
-dentro hay más carpetas o muchos archivos.
+Se você receber um caminho de diretório, não saberá de antemão se há mais
+diretórios ou muitos arquivos dentro dele.
 
-Por ello, asegurate bien de entender de qué trata la
-recursividad y ver algunos ejemplos.
+Portanto, certifique-se de entender bem o conceito de recursividade e ver
+alguns exemplos.
