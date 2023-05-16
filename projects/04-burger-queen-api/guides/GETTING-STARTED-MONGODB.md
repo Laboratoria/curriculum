@@ -128,7 +128,7 @@ Aquí te guiamos un poco sobre esto TODO's.
 
 ### TODO 1: Conectar a la base de datos
 
-En el `connect.js` hay que conectar al base de datos.
+En el archivo `connect.js` hay que hacer la conexión con la base de datos.
 
 ```js
 const { dbUrl } = config;
