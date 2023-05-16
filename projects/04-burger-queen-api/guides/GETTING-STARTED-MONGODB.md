@@ -69,7 +69,7 @@ usar el [Node.js driver de MongoDB](https://www.mongodb.com/docs/drivers/node/cu
 que es la forma más directa de interactuar con tu instancia de MongoDB.
 
 Hay que instalar el Node.js Driver en este proyecto usando `npm`,
-[revisa los docs por más info](https://www.mongodb.com/docs/drivers/node/current/quick-start/download-and-install/#install-the-node.js-driver).
+revisa [la documentación oficial para más información](https://www.mongodb.com/docs/drivers/node/current/quick-start/download-and-install/#install-the-node.js-driver).
 
 El _boilerplate_ ya incluye un archivo `config.js` donde se leen las
 variables de entorno, y entre ellas está `DB_URL`. Como vemos ese valor lo
