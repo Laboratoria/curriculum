@@ -213,11 +213,11 @@ users de la colección en tu base de datos.
 Revisa [el tutorial de Node y express en Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes)
 que habla de controllers.
 
-### TODO 6: Implementar a rota POST `/users`
+### TODO 6: Implementar la ruta POST `/users`
 
-Os testes e2e invocam a rota POST /users para adicionar a usuária aos testes.
-Portanto, antes de poder executar os testes e2e, essa rota deve funcionar
-corretamente.
+Los tests e2e invocan la ruta POST `/users` para agregar la usuaria para los tests.
+Por lo tanto, antes de poder ejecutar los tests e2e, esta ruta debe funcionar
+correctamente.
 
 ## 6. Definir estrategia de pruebas unitarias
 

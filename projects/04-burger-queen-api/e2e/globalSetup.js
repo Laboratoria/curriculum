@@ -61,13 +61,13 @@ const createTestUser = () => fetchAsAdmin('/users', {
 })
   .then((resp) => {
     if (resp.status !== 200) {
-      throw new Error(`Response ${resp.status} - Could not create test user`);
+      throw new Error(`Error: Could not create test user - response ${resp.status}`);
     }
     return fetch('/auth', { method: 'POST', body: __e2e.testUserCredentials });
   })
   .then((resp) => {
     if (resp.status !== 200) {
-      throw new Error(`Response ${resp.status} - Could not authenticate test user`);
+      throw new Error(`Error: Could not authenticate test user - response ${resp.status}`);
     }
     return resp.json();
   })
@@ -79,7 +79,7 @@ const checkAdminCredentials = () => fetch('/auth', {
 })
   .then((resp) => {
     if (resp.status !== 200) {
-      throw new Error(`Response ${resp.status} - Could not authenticate as admin user`);
+      throw new Error(`Error: Could not authenticate as admin user - response ${resp.status}`);
     }
 
     return resp.json();
