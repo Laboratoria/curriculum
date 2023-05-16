@@ -118,6 +118,8 @@ module.exports = (app, next) => {
    * @code {403} si ya existe usuaria con ese `email`
    */
   app.post('/users', requireAdmin, (req, resp, next) => {
+    // TODO: implementar la ruta para agregar
+    // nuevos usuarios
   });
 
   /**

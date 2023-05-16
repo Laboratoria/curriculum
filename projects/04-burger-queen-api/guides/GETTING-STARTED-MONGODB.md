@@ -65,10 +65,11 @@ o tu instalación en particular, para ejemplos en cómo levantarlo.
 Ahora que ya tenemos un servidor de base de datos, vamos a necesitar elegir un
 módulo o librería diseñado para interactuar con nuestra base de datos desde
 Node.js. Existen un montón de opciones, pero para este proyecto te recomendamos
-usar el [Node driver de MongoDB](https://www.mongodb.com/docs/drivers/node/current/)
+usar el [Node.js driver de MongoDB](https://www.mongodb.com/docs/drivers/node/current/)
 que es la forma más directa de interactuar con tu instancia de MongoDB.
 
-Hay que instalar el Node Driver en este proyecto usando `npm`.
+Hay que instalar el Node.js Driver en este proyecto usando `npm`,
+[revisa los docs por más info](https://www.mongodb.com/docs/drivers/node/current/quick-start/download-and-install/#install-the-node.js-driver).
 
 El _boilerplate_ ya incluye un archivo `config.js` donde se leen las
 variables de entorno, y entre ellas está `DB_URL`. Como vemos ese valor lo
@@ -91,17 +92,15 @@ const config = require("./config");
 
 const client = new MongoClient(config.dbUrl);
 
-async function run() {
+async function connect() {
   try {
     await client.connect();
-    const db = client.db('test');
-    // ...
-  } finally {
-    // Close the database connection when finished or an error occurs
-    await client.close();
+    const db = client.db(<NOMBRE_DB>); // Reemplaza <NOMBRE_DB> por el nombre del db
+    return db;
+  } catch (error) {
+    //
   }
 }
-run().catch(console.error);
 ```
 
 Puedes encontrar mas ejemplos en [la documentación de MongoDB](https://www.mongodb.com/docs/drivers/node/current/).
@@ -129,18 +128,19 @@ Aquí te guiamos un poco sobre esto TODO's.
 
 ### TODO 1: Conectar a la base de datos
 
-En el `index.js` donde arrancamos express y el API, hay:
+En el `connect.js` hay que conectar al base de datos.
 
 ```js
-const { port, dbUrl, secret } = config;
-const app = express();
+const { dbUrl } = config;
 
-// TODO: Conexión a la Base de Datos
+async function connect() {
+  // TODO: Conexión a la Base de Datos
+}
 ```
 
-Aquí debes usar el `dbUrl` que importamos del config para establecer la conexión,
-quizá a través de una función que defines en un modulo y luego importas desde
-el index.
+Aquí debes usar el `dbUrl` que importamos del config para establecer la conexión.
+Las funciones que van a interactuar con la base de datos tienen que invocar
+`connect`.
 
 ### TODO 2: Crear el usuario _admin_
 
@@ -212,6 +212,12 @@ users de la colección en tu base de datos.
 
 Revisa [el tutorial de Node y express en Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes)
 que habla de controllers.
+
+### TODO 6: Implementar a rota POST `/users`
+
+Os testes e2e invocam a rota POST /users para adicionar a usuária aos testes.
+Portanto, antes de poder executar os testes e2e, essa rota deve funcionar
+corretamente.
 
 ## 6. Definir estrategia de pruebas unitarias
 

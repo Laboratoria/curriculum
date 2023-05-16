@@ -63,10 +63,11 @@ iniciar o servidor.
 Agora que já temos um servidor de banco de dados, precisamos escolher
 um módulo ou biblioteca projetado para interagir com nosso banco de dados
 a partir do Node.js. Existem muitas opções, mas para este projeto,
-recomendamos o uso do [Node driver do MongoDB](https://www.mongodb.com/docs/drivers/node/current/)
+recomendamos o uso do [Node.js driver do MongoDB](https://www.mongodb.com/docs/drivers/node/current/)
 que é a forma mais direta de interagir com sua instância do MongoDB.
 
-É necessário instalar o Node Driver neste projeto usando o `npm`.
+É necessário instalar o Node.js Driver neste projeto usando o `npm`,
+[verifique os documentos para mais informações](https://www.mongodb.com/docs/drivers/node/current/quick-start/download-and-install/#install-the-node.js-driver).
 
 O _boilerplate_ já inclui um arquivo config.js onde as variáveis
 de ambiente são lidas, e uma delas é DB_URL. Conforme podemos ver,
@@ -87,19 +88,15 @@ o cliente escolhido.
 const { MongoClient } = require('mongodb');
 const config = require("./config");
 
-const client = new MongoClient(config.dbUrl);
-
-async function run() {
+async function connect() {
   try {
     await client.connect();
-    const db = client.db('test');
-    // ...
-  } finally {
-    // Close the database connection when finished or an error occurs
-    await client.close();
+    const db = client.db(<NOMBRE_DB>); // Reemplaza <NOMBRE_DB> por el nombre del db
+    return db;
+  } catch (error) {
+    //
   }
 }
-run().catch(console.error);
 ```
 
 Você pode encontrar mais exemplos
@@ -127,18 +124,18 @@ Aqui vamos orientá-lo um pouco sobre esses TODOs.
 
 ### TODO 1: Conectar a la base de datos
 
-No arquivo `index.js` onde iniciamos o Express e a API, há:
+No arquivo `connect.js`, é necessário conectar ao banco de dados..
 
 ```js
-const { port, dbUrl, secret } = config;
-const app = express();
+const { dbUrl } = config;
 
-// TODO: Conexión a la Base de Datos
+async function connect() {
+  // TODO: Conexão com o Banco de Dados
+}
 ```
 
-Aqui você deve usar o `dbUrl` que importamos do arquivo de configuração
-para estabelecer a conexão, talvez através de uma função que você define
-em um módulo e depois importa no index.
+Aqui você deve usar o `dbUrl` que importamos do config para estabelecer a conexão.
+As funções que vão interagir com o banco de dados devem invocar o `connect`.
 
 ### TODO 2: Criar o usuário _admin_
 
