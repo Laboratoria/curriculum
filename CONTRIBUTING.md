@@ -1,6 +1,5 @@
 # Contribución
 
-
 ## Índice
 
 * [Cómo contribuir a este repo](#cómo-contribuir-a-este-repo)
@@ -22,9 +21,10 @@
 
 ## Cómo contribuir a este repo
 
-Este repositorio es un recurso abierto, y como tal estamos todos invitados a
-participar. Puedes contribuir con sugerencias, reportajes de errores o bugs,
-comentarios en pull requests o conversaciones de issues. 
+Este repositorio es un recurso abierto, y como tal estamos toas y todos
+invitados a participar. Puedes contribuir con sugerencias, ideas, cambios,
+reportes de errores o bugs, comentarios en pull requests o conversaciones de
+issues.
 
 ### Sugerencias, errores y comentarios generales
 
@@ -52,12 +52,12 @@ Para crear nuevo contenido, el trabajo necesita tener un issue para describir el
 propósito de trabajo y conversar con la comunidad de la idea.
 Puede ser [un issue que ya existe](https://github.com/Laboratoria/bootcamp/issues)
 o puedes crear un nuevo issue. Si es un nuevo issue,
-hay que conversar con el equipo de contenido de curricula, y otros coaches,
-si vale hacer el trabajo que el issue se propone.
+intenta conversar con el equipo de contenido de curricula, y otras coaches,
+si el cambio propuesto es válido y le hace sentido a las demás.
 
-Igual, lee las secciones de Guía de Desarrollo para aprender 
-como construir nuevo contenido (proyectos y tópicos),
-probar y mandar su código.
+De igual manera, te invitamos a leer las secciones de Guía de Desarrollo
+para aprender como construir nuevo contenido (ya sea de proyectos o tópicos),
+testear y enviar tu código como PR.
 
 ---
 
@@ -89,19 +89,22 @@ por un issue.
 Cuando estas haciendo cambios a contenido puedes visualizar los cambios corriendo el sitio
 de curricula localmente con estos pasos:
 
-1. Corre `npm test` para ver si los cambios han afectado los tests
-2. Corre `npm build:content` para crear/actualizar los jsons de tópicos y proyectos (el sitio usa esos jsons)
-3. Corre `npm run build` para hacer los componentes de sitio
-4. Correr `npm start` para correr el server y navegar al sitio, o `npm run watch` si quiere.
+1. Corre `npm test` para ver si los cambios han afectado los tests.
+2. Corre `npm run build:content` para crear/actualizar los jsons de tópicos y
+  proyectos de los cuales la App de React del repo se alimenta.
+3. Correr `npm start` para correr el server y navegar al sitio, o 
+  también puedes hacer `npm run watch` para poder visualizar los cambios en
+  vivo sin tener que estar actualizando el sitio.
 
-Puedes ver los proyectos y topicos en el sitio localmente.
+Puedes navegar hacia los proyectos y topicos en el sitio localmente.
 
 También puedes visualizar los cambios de READMEs de proyecto en otras maneras.
 
 1. Directamente en VSC con un preview de markdown.
 2. Empujando los cambios a tu rama y navegando al README en tu rama en tu fork.
-3. Corriendo el script `create-cohort-project` para ver el proyecto 
-  generado como tal los coaches van a usar. TODO link a script
+3. Corriendo el script [`create-cohort-project`](./scripts/create-cohort-project.mjs)
+  para ver el proyecto generado tal cual como las coaches se lo compartirán a
+  las estudiantes.
 
 ***
 
@@ -111,9 +114,9 @@ El contenido que se vaya creando en este repo debe seguir una serie de
 **convenciones** a nivel de **estilo**, **formato** y **estructura** con los
 siguientes objetivos:
 
-* crear una **experiencia consistente**
-* sacar el máximo provecho al **proceso colaborativo**
-* poder **analizar los cursos de forma programática** para después ofrecer la
+* Crear una **experiencia consistente**
+* Sacar el máximo provecho al **proceso colaborativo**
+* Poder **analizar los cursos de forma programática** para después ofrecer la
   experiencia de aprendizaje a nuestras estudiantes
 
 Estas convenciones se irán documentando acá e irán evolucionando en el tiempo,
@@ -147,7 +150,7 @@ A tener en cuenta a la hora de escribir...
 * Tono coloquial (tú en vez de usted)
 * Narración dirigida a la estudiante como lectora, 2da persona, singular (ie: en esta
   lección aprenderás a ...)
-* Femenino genérico o `x` para neutro (ie: `Todxs lxs programadorxs`) TODO resalta eso
+* **Femenino genérico o `x` para neutro (ie: `Todxs lxs programadorxs`)**
 * [El adverbio solo y los pronombres demostrativos, sin tilde](http://www.rae.es/consultas/el-adverbio-solo-y-los-pronombres-demostrativos-sin-tilde)
 * Marcado semántico (ie: usar `blockquotes` para _citas_ y solo citas)
 * Frases cortas
@@ -227,47 +230,46 @@ Ver [#114](https://github.com/Laboratoria/bootcamp/issues/114#issuecomment-32145
 ### Tópicos
 
 Un tópico siguen un formato en particular. Nuevos tópicos necesitan nuevo
-directorio dentro de carpeta `topic` con el nombre de topic, y dentro eso
-creas directorios por cada "capitulo".
+directorio dentro de carpeta [`/topics`](./topics/) con el nombre del tópico,
+y dentro eso creas directorios por cada _unidad_.
 
-Para aprender como estructurar un tópico, lee [la guía de tópicos](contributing/TOPICS.md)
+Para aprender como estructurar un tópico, lee [la guía de tópicos](./contributing/TOPICS.md)
 
-// TODO verifica pasos
-
-Cuando estas haciendo contenido o cambios puedes visualizar los cambios corriendo el sitio
-de curricula localmente con estos pasos:
-
-1. ejecuta `npm run test:topics` para confirmar que los tests pasen
-2. corre `npm build:content` para crear/actualizar el contenido tópicos
-3. corre `npm run build` para hacer los componentes de sitio
-4. correr `npm start` para correr el server y navegar al sitio, o `npm run watch` si quiere.
+Cuando estés creando contenido o haciendo cambios puedes visualizarlos
+corriendo el sitio de curricula localmente como
+[se explica anteriormente](#viendo-cambios).
 
 ### Proyectos
 
-Puedes encontrar los proyectos de curricula dentro [la carpeta `projects`](https://github.com/Laboratoria/bootcamp/blob/main/projects).
-Cada proyecto tiene su propio carpeta con un boilerplate y README. 
+Puedes encontrar los proyectos de la curricula en el directorio
+[`projects`](./projects/).
 
-Para aprender como estructurar un proyecto, revisa [la guía de Proyectos](contributing/PROJECTS.md)
+Cada proyecto tiene su propio directorio con el boilerplate necesario y
+su enunciado en el archivo README.
+
+Para aprender como estructurar un proyecto, revisa [la guía de Proyectos](./contributing/PROJECTS.md)
 
 Si haces cambios a un README y o agregas objetivos de aprendizaje al proyecto 
 y quieres ver como parece el proyecto en su totalidad,
-usa (`create-cohort-project` script)[scripts/README.md#scripts-para-coaches] para generar
-el repo de proyecto localmente (no tienes que empujar el repo). Este script incluye los
-Objetivos de Aprendizaje en una manera automatizado. 
+usa el script [`create-cohort-project`](./scripts/README.md#create-cohort-project)
+para generar el proyecto localmente (no es necesario empujarlo a Github).
 
-También puedes verlo en el sitio de curricula, usando los mismos pasos
-para ver tópicos.
+Este script crea la sección de Objetivos de Aprendizaje del proyecto a partir
+del archivo `project-yml` que lo acompaña y que enlista los OAs asociados a él.
 
-TODO hay que hacer npm run test?
+También puedes ir viendo el resultado corriendo el sitio de curricula
+localmente como [se explica anteriormente](#viendo-cambios).
 
-1. corre `npm build:content` para crear/actualizar el contenido tópicos
-2. corre `npm run build` para hacer los componentes de sitio
-3. correr `npm start` para correr el server y navegar al sitio, o `npm run watch` si quiere.
+Otro script que debes ejecutar mientras realizas cambios a un README de un
+proyecto es `npm run mdlint` que va a ejecutar el linter que va a analizar los
+archivos Markdown y resaltar errores. Si no se ejecuta de manera local, de
+igual forma será ejecutado en una Github Action cuando abras tu PR,
+recomendamos ejecutarlo de manera local de manera de arreglar errores de estilo
+que puedan haber de manera que luego la Github Action asociada pase
+satisfactoriamente sin errores.
 
-Otro script que debes ejecutar mientras cambiar un README de un proyecto es
-`npm run mdlint` que va a chequear los archivos Markdown y resaltar errores. Corremos
-eso con github actions también entonces mejor usarlo localmente para ver y corregir
-errores.
-
-Si haces cambios con un impacto a boilerplate o creas un proyecto nuevo,
-seria bueno tener un ejemplo de implementación, un proyecto desplegada para probarlo.
+Si haces cambios con que impacten directamente el _boilerplate_ de un proyecto,
+o derechamente si quieres proponer un nuevo proyecto, es necesario contar con
+una implementación modelo del proyecto de manera de entender cualquier caso
+borde o _caveat_ que pueda haber con respecto al enunciado, OAs, o tecnología
+asociada a la solución propuesta para ese proyecto.
