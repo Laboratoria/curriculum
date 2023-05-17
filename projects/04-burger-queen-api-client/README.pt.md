@@ -333,7 +333,7 @@ para conversar e pedir ajuda no projeto.
 
 ### Frameworks / bibliotecas
 
-* [React](https://pt-br.react.dev/)
+* [React](https://react.dev/)
 * [Angular](https://angular.io/)
 
 ### Ferramentas

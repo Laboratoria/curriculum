@@ -335,7 +335,7 @@ para conversar y pedir ayuda del proyecto.
 
 ### Frameworks / libraries
 
-* [React](https://es.react.dev/
+* [React](https://react.dev/)
 * [Angular](https://angular.io/)
 
 ### Herramientas
