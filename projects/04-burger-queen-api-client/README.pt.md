@@ -14,7 +14,7 @@
 
 ## 1. Prefácio
 
-[React](https://reactjs.org/) e [Angular](https://angular.io/)
+[React](https://pt-br.react.dev/) e [Angular](https://angular.io/)
 são alguns dos _frameworks_ e _bibliotecas_ de JavaScript mais usados
 na área de desenvolvimento ao redor do mundo e existe uma razão para isso.
 No contexto do navegador, [_manter a interface sincronizada com o estado é
@@ -139,7 +139,7 @@ Cumpra todas as histórias possíveis dentro do tempo especificado.
 A lógica do projeto deve ser totalmente implementada em JavaScript (ES6 +), HTML
 e CSS e empacotada de forma automatizada.
 
-Neste projeto você deve usar [React](https://reactjs.org/) ou
+Neste projeto você deve usar [React](https://pt-br.react.dev/) ou
 [Angular](https://angular.io/)).
 
 O aplicativo deve ser um _Single Page App_. Os pedidos serão enviados por meio
@@ -329,7 +329,7 @@ no servidor (Node.js).
 
 ### Frameworks / bibliotecas
 
-* [React](https://reactjs.org/)
+* [React](https://pt-br.react.dev/)
 * [Angular](https://angular.io/)
 
 ### Ferramentas
