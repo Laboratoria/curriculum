@@ -1,10 +1,9 @@
-# `this` y `bind`
+---
+type: read
+duration: 10min
+---
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
-
-***
+# this y bind
 
 [![Paradigmas - Proto: this y bind](https://embedwistia-a.akamaihd.net/deliveries/0ccfe81dd7f51b5ed2055ff685f6f4ad94777525.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/wuv699tbbx?wvideo=wuv699tbbx)
 

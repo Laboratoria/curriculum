@@ -52,9 +52,9 @@ interfaz web basada en data e interacción con la usuaria.
 ## 4. Consideraciones generales
 
 * Este proyecto se debe resolver en duplas.
+* El rango de tiempo estimado para completar el proyecto es de 3 a 4 Sprints.
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
   interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
-* Tiempo para completarlo: Toma como referencia 4 semanas.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
@@ -240,6 +240,10 @@ el `.json` está ahí para opcionalmente cargar la data de forma asíncrona con
 [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API).
 
 ## 8. Pistas, tips y lecturas complementarias
+
+Súmate al canal de Slack
+[#project-memory-match](https://claseslaboratoria.slack.com/archives/C03NZDFB324)
+para conversar y pedir ayuda del proyecto.
 
 ### Primeros pasos
 

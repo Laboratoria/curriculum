@@ -1,30 +1,16 @@
-import { Link, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { FormattedMessage, useIntl } from 'react-intl';
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardHeader from '@material-ui/core/CardHeader';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Grid from '@material-ui/core/Grid';
-import IconButton from '@material-ui/core/IconButton';
-import Typography from '@material-ui/core/Typography';
-import ArrowForward from '@material-ui/icons/ArrowForward';
-import { useLocale } from '../../intl/IntlProvider';
+import Card from '@mui/material/Card';
+import CardHeader from '@mui/material/CardHeader';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Grid from '@mui/material/Grid';
+import IconButton from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
+import ArrowForward from '@mui/icons-material/ArrowForward';
 import { learningObjectiveToIcon } from '../../lib/learning-objectives';
 
-const useStyles = makeStyles((theme) => ({
-  cardHeader: {
-    paddingBottom: 0,
-  },
-  cardContent: {
-    paddingTop: 0,
-    paddingBottom: 0,
-  },
-}));
-
-const Project = ({ project }) => {
-  const classes = useStyles();
-  const { lang } = useParams();
+const Project = ({ lang, project }) => {
   const learningObjectiveCats = (project.learningObjectives || []).reduce(
     (memo, item) => (
       !memo.includes(item.split('/')[0])
@@ -34,23 +20,29 @@ const Project = ({ project }) => {
     [],
   );
 
+  const { title, summary } = project.intl[lang];
+
   return (
     <Card>
       <CardMedia
         component="img"
         height="200"
         image={project.thumb}
-        alt={project.title}
+        alt={title}
       />
       <CardHeader
-        className={classes.cardHeader}
-        titleTypographyProps={{ style: { fontSize: '1.3em', marginTop: 0 } }}
+        sx={{ pb: 0 }}
+        titleTypographyProps={{ sx: { fontSize: '1.6em', mt: 0, mb: 1 } }}
         action={
-          <IconButton component={Link} to={`/${lang}/projects/${project.slug}`}>
+          <IconButton
+            component={Link}
+            to={`/${lang}/projects/${project.slug}`}
+            size="large"
+          >
             <ArrowForward />
           </IconButton>
         }
-        title={project.title}
+        title={title}
         subheader={(
           <span>
             {learningObjectiveCats.map(cat => {
@@ -74,7 +66,7 @@ const Project = ({ project }) => {
           </span>
         )}
       />
-      <CardContent className={classes.cardContent}>
+      <CardContent sx={{ pt: 0, pb: 0 }}>
         <div
           style={{
             whiteSpace: 'inherit',
@@ -82,14 +74,14 @@ const Project = ({ project }) => {
             textOverflow: 'ellipsis',
             maxHeight: 200,
           }}
-          dangerouslySetInnerHTML={{ __html: project.summary }}
+          dangerouslySetInnerHTML={{ __html: summary }}
         ></div>
       </CardContent>
     </Card>
   );
 };
 
-const ProjectGroup = ({ prefix, projects, track, intl }) => {
+const ProjectGroup = ({ prefix, projects, track, lang, intl }) => {
   return (
     <div style={{ marginTop: 30, marginBottom: 50 }}>
       <Typography variant="h3">Nivel {prefix}</Typography>
@@ -102,7 +94,7 @@ const ProjectGroup = ({ prefix, projects, track, intl }) => {
       <Grid container spacing={3}>
         {projects.map(project => (
           <Grid key={project.slug} item xs={12} sm={6} md={4}>
-            <Project project={project} />
+            <Project project={project} lang={lang} />
           </Grid>
         ))}
       </Grid>
@@ -111,19 +103,18 @@ const ProjectGroup = ({ prefix, projects, track, intl }) => {
   );
 };
 
-const Projects = ({ projects, track }) => {
+const Projects = ({ lang, projects, track }) => {
   const intl = useIntl();
-  const { locale } = useLocale();
+
   const projectsByPrefix = projects
-    .filter(p => p.track === track && p.locale === locale)
-    .map(p => ({ ...p, slug: /-pt/.test(p.slug) ? p.slug.slice(0, -3) : p.slug }))
+    .filter(p => p.track === track && p.intl[lang])
     .reduce(
       (memo, p) => ({ ...memo, [p.prefix]: (memo[p.prefix] || []).concat(p) }),
       {},
     );
 
   return (
-    <div>
+    <>
       <Typography variant="h2"><FormattedMessage id="projects" /></Typography>
       <div dangerouslySetInnerHTML={{
         __html: intl.formatMessage({
@@ -136,10 +127,11 @@ const Projects = ({ projects, track }) => {
           prefix={prefix}
           projects={projectsByPrefix[prefix]}
           track={track}
+          lang={lang}
           intl={intl}
         />
       ))}
-    </div>
+    </>
   )
 };
 

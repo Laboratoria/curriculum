@@ -1,21 +1,8 @@
 import { useParams, Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
-import { makeStyles } from '@material-ui/core/styles';
-
-const useStyles = makeStyles(theme => ({
-  root: {
-    marginTop: theme.spacing(2),
-    fontSize: '0.9em',
-  },
-  separator: {
-    display: 'inline-block',
-    paddingLeft: theme.spacing(1),
-    paddingRight: theme.spacing(1),
-  }
-}));
+import Box from '@mui/material/Box';
 
 const Breadcrumbs = ({ topic, project }) => {
-  const classes = useStyles();
   const { lang, slug, unit, part, exerciseid } = useParams();
   const track = topic ? topic.track : project.track;
 
@@ -25,7 +12,7 @@ const Breadcrumbs = ({ topic, project }) => {
       url: `/${lang}`,
     },
     {
-      title: <FormattedMessage id={track === 'js' ? 'webDev' : 'ux'} />,
+      title: <FormattedMessage id={track === 'web-dev' ? 'webDev' : 'ux'} />,
       url: `/${lang}/${track}`,
     },
     {
@@ -36,25 +23,30 @@ const Breadcrumbs = ({ topic, project }) => {
 
   if (slug) {
     links.push({
-      title: topic ? topic.title : project.title,
+      title: topic ? topic.intl[lang].title : project.intl[lang].title,
       url: `/${lang}/${topic ? 'topics' : 'projects'}/${slug}`,
     });
 
     if (topic && unit) {
-      links.push({
-        title: topic.syllabus[unit].title,
-        url: `/${lang}/${topic ? 'topics' : 'projects'}/${slug}/${unit}`,
-      });
+      const unitObj = topic.units.find(({ slug }) => slug === unit);
+      if (topic.units.length > 1) {
+        links.push({
+          title: unitObj.intl[lang].title,
+          url: `/${lang}/topics/${slug}/${unit}`,
+        });
+      }
 
       if (part) {
+        const partObj = unitObj.parts.find(({ slug }) => slug === part);
         links.push({
-          title: topic.syllabus[unit].parts[part].title,
-          url: `/${lang}/${topic ? 'topics' : 'projects'}/${slug}/${unit}/${part}`,
+          title: partObj.intl[lang].title,
+          url: `/${lang}/topics/${slug}/${unit}/${part}`,
         });
         if (exerciseid) {
+          const challenge = partObj.challenges.find(({ slug }) => slug === exerciseid);
           links.push({
-            title: topic.syllabus[unit].parts[part].exercises[exerciseid].title,
-            url: `/${lang}/${topic ? 'topics' : 'projects'}/${slug}/${unit}/${part}/${exerciseid}`,
+            title: challenge.intl[lang].title,
+            url: `/${lang}/topics/${slug}/${unit}/${part}/${exerciseid}`,
           });
         }
       }
@@ -62,14 +54,14 @@ const Breadcrumbs = ({ topic, project }) => {
   }
 
   return (
-    <div className={classes.root}>
+    <Box sx={{ mb: 3, fontSize: '0.9em' }}>
       {links.map(({ title, url }, idx) => (
         <span key={`${url}-${idx}`}>
-          {idx > 0 && (<span className={classes.separator}>»</span>)}
+          {idx > 0 && (<Box sx={{ display: 'inline-block', px: 1 }}>»</Box>)}
           <Link to={url}>{title}</Link>
         </span>
       ))}
-    </div>
+    </Box>
   );
 };
 

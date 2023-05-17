@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Determinar si dos números son pares
-
-* Environment: `js`
-
-***
 
 Implementa una función que determine si dos número son pares.
 

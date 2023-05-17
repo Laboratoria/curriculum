@@ -1,10 +1,9 @@
+---
+type: practice
+duration: 2h
+---
+
 # Jugando con Web Storage
-
-- Tipo: `taller`
-- Formato: `guiado`
-- Duración: `2h`
-
-***
 
 ## Objetivos
 

@@ -1,10 +1,9 @@
+---
+type: practice
+duration: 180min
+---
+
 # Ejercicios libres
-
-- Tipo: `práctica`
-- Formato: `self-paced`
-- Duración: `180min`
-
-***
 
 ## Objetivos
 

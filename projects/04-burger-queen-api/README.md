@@ -19,7 +19,7 @@ sistema a través del cual puedan tomar pedidos usando una _tablet_, y enviarlos
 a la cocina para que se preparen ordenada y eficientemente.
 
 Este proyecto tiene dos áreas: interfaz web (cliente) y API (servidor). Nuestra
-clienta nos ha solicitado desarrollar la API que se debe integra con la
+clienta nos ha solicitado desarrollar la API que se puede integrar con la
 interfaz, que otro equipo de desarrolladoras está trabajando simultáneamente.
 
 ## 2. Resumen del proyecto
@@ -33,7 +33,7 @@ Un servidor web debe _manejar_ consultas entrantes y producir respuestas a esas
 consultas que serán enviadas de vuelta al _cliente_. Cuando hablamos de
 _aplicaciones de servidor_, esto implica una arquitectura de _cliente/servidor_,
 donde el cliente es un programa que hace consultas a través de una red (por
-ejemplo el navegador, cURL, ...), y el _servidor_ es el programa que recibe
+ejemplo el navegador, cURL, etc.), y el _servidor_ es el programa que recibe
 estas consultas y las responde.
 
 [Node.js](https://nodejs.org/) nos permite crear servidores web súper eficientes
@@ -65,7 +65,7 @@ Para completar el proyecto tendrás que familiarizarte con conceptos como
 **rutas** (_routes_), **URLs**, **HTTP** y **REST** (verbs, request, response,
 headers, body, status codes...), **JSON**, **JWT** (_JSON Web Tokens_),
 **conexión con una base datos** (`MongoDB`, `PostgreSQL`, o `MySQL`),
-**variables de entorno**, **deployment**, **contenedores de `docker`**...
+**variables de entorno**, **deployment**, **contenedores de `docker`**, etc.
 
 ## 3. Objetivos de aprendizaje
 
@@ -79,7 +79,7 @@ headers, body, status codes...), **JSON**, **JWT** (_JSON Web Tokens_),
 
 ## 4. Consideraciones generales
 
-Este proyecto se realizará en duos y deberá integrarse con el proyecto
+Este proyecto se realizará en duplas y podrá integrarse con el proyecto
 [Burger Queen API client](../04-burger-queen-api-client)
 que desarrolle simultáneamente el equipo de Frontend developers de tu squad.
 
@@ -120,7 +120,8 @@ usarlas como guía de implementación y checklist de completitud.
 
 ### 5.1 API
 
-Según lo establecido por la [documentación](https://laboratoria.github.io/burger-queen-api/)
+Según lo establecido por la
+[documentación](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 entregada por nuestra clienta, la API debe exponer los siguientes endpoints:
 
 #### 5.1.1 `/`
@@ -136,7 +137,7 @@ entregada por nuestra clienta, la API debe exponer los siguientes endpoints:
 * `GET /users`
 * `GET /users/:uid`
 * `POST /users`
-* `PUT /users/:uid`
+* `PATCH /users/:uid`
 * `DELETE /users/:uid`
 
 #### 5.1.4 `/products`
@@ -144,7 +145,7 @@ entregada por nuestra clienta, la API debe exponer los siguientes endpoints:
 * `GET /products`
 * `GET /products/:productid`
 * `POST /products`
-* `PUT /products/:productid`
+* `PATCH /products/:productid`
 * `DELETE /products/:productid`
 
 #### 5.1.5 `/orders`
@@ -152,7 +153,7 @@ entregada por nuestra clienta, la API debe exponer los siguientes endpoints:
 * `GET /orders`
 * `GET /orders/:orderId`
 * `POST /orders`
-* `PUT /orders/:orderId`
+* `PATCH /orders/:orderId`
 * `DELETE /orders/:orderId`
 
 ### 5.2 CLI
@@ -161,8 +162,8 @@ La clienta nos ha solicitado que la aplicación cuente un comando **`npm start`*
 que se debe encargar de ejecutar nuestra aplicación node y que además pueda
 recibir información de configuración, como el puerto en el que escuchar, a qué
 base datos conectarse, etc. Estos datos de configuración serán distintos entre
-diferentes entornos (desarrollo, producción, ...). El _boilerplate_ ya implementa
-[el código necesario](config.js) para leer esta información de los
+diferentes entornos (desarrollo, producción, etc.). El _boilerplate_ ya
+implementa [el código necesario](config.js) para leer esta información de los
 [argumentos de invocación](https://nodejs.org/docs/latest/api/process.html#process_process_argv)
 y el
 [entorno](https://nodejs.org/docs/latest/api/process.html#process_process_env).
@@ -221,10 +222,14 @@ seleccionada. Por otro lado, con respecto al despliegue, no es obligatorio usar
 con el mecanismo de despligue y estrategia de alojamiento. Te recomendamos
 explorar las siguientes opciones:
 
-* [Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) es
+* [Glitch](https://glitch.com) es
   probablemente la opción más _sencilla_ (la que requiere menos configuración) y
-  nos permite alojar tanto el servidor web como la base de datos (PostgreSQL) en
-  el mismo sitio con pocos clicks.
+  nos permite alojar el servidor web Express
+  importando nuestro repositorio desde GitHub.
+* [Vercel](https://vercel.com/) es una opción similar a Glitch, pero enfocada
+  a aplicaciones web estáticas (como las que se construyen con React). Sin embargo,
+  Vercel también nos permite desplegar aplicaciones node usando [Serverless
+  Functions](https://vercel.com/docs/serverless-functions/introduction).
 * Si quieres explorar opciones más personalizadas y ver docker del lado del
   servidor puedes cosiderar proveedores como
   [AWS (Amazon Web Services)](https://aws.amazon.com/) o
@@ -236,6 +241,12 @@ explorar las siguientes opciones:
 * Si quieres trabajar con MongoDB, [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
   es una muy buena opción para alojar nuestra base datos de producción, la cuál
   podemos usar en conjunción con cualquiera de las opciones mencionadas arriba.
+* Si quieres trabajar con PostgreSql, [ElephantSQL](https://www.elephantsql.com/plans.html)
+  es una muy buena opción para alojar nuestra base datos de producción, la cuál
+  podemos usar en conjunción con cualquiera de las opciones mencionadas arriba.
+* Si quieres trabajar con MySQL, [ClearDB](https://www.cleardb.com/) es una
+  muy buena opción para alojar nuestra base datos de producción, la cuál podemos
+  usar en conjunción con cualquiera de las opciones mencionadas arriba.
 
 Si tienes dudas sobre las diferentes (y múltiples) opciones de despliegue no
 dudes en consultar con tus pares y tus coaches.
@@ -279,7 +290,7 @@ dudes en consultar con tus pares y tus coaches.
 * [ ] `GET /users`
 * [ ] `GET /users/:uid`
 * [ ] `POST /users`
-* [ ] `PUT /users/:uid`
+* [ ] `PATCH /users/:uid`
 * [ ] `DELETE /users/:uid`
 
 ### 7.4 `/products`
@@ -287,7 +298,7 @@ dudes en consultar con tus pares y tus coaches.
 * [ ] `GET /products`
 * [ ] `GET /products/:productid`
 * [ ] `POST /products`
-* [ ] `PUT /products/:productid`
+* [ ] `PATCH /products/:productid`
 * [ ] `DELETE /products/:productid`
 
 ### 7.5 `/orders`
@@ -295,5 +306,5 @@ dudes en consultar con tus pares y tus coaches.
 * [ ] `GET /orders`
 * [ ] `GET /orders/:orderId`
 * [ ] `POST /orders`
-* [ ] `PUT /orders/:orderId`
+* [ ] `PATCH /orders/:orderId`
 * [ ] `DELETE /orders/:orderId`

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Mapas de afinidad
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `15 min`
-
-***
 
 ## Intro
 

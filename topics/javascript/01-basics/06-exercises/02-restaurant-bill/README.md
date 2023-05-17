@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # Cuenta de restaurante
 
 Imagina que has salido a comer con tus cuatro mejores amigas.  La cuenta total

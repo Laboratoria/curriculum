@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # getLargestNumberAmongMixedElements
 
 Escriba una función llamada "getLargestNumberAmongMixedElements".

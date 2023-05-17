@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Encuestas
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `30min`
-
-***
 
 Una encuesta es, probablemente, el método de investigación más rápido y
 económico que podemos implementar. Cualquiera puede crear una encuesta sobre su

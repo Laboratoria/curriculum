@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Notes (OOP)
-
-* Environment: `js`
-
-***
 
 En la programación orientada a objetos (OOP), nos concentramos en describir
 objetos, que tienen una data (un estado) y una serie de operaciones que pueden

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 10min
+---
+
 # Research cuantitativo
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `10min`
-
-***
 
 ## Intro
 

@@ -1,6 +1,3 @@
-'use strict';
-
-
 const Assert = require('chai').assert;
 const Submission = require('../solution/notes');
 const Note = Submission.Note;
@@ -54,7 +51,7 @@ describe('Notes#add', () => {
   it('debería botar error cuando argumento no es instancia de Note', () => {
     [
       undefined, null, true, false, 0, 1, 3.14, '', 'foo', [], [1, 2], {},
-      {foo: 'bar'}, new Date(), function () {}
+      { foo: 'bar' }, new Date(), function () { }
     ].forEach((val) => {
 
       const notes = new Notes();

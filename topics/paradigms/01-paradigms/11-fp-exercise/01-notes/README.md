@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Notes (FP)
-
-* Environment: `js`
-
-***
 
 ## Tarea
 

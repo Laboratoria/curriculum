@@ -1,10 +1,9 @@
+---
+type: read
+duration: 10min
+---
+
 # Redibujo del navegador
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
-
-***
 
 Con la llegada de las aplicaciones ricas de internet (RIA: Rich Internet
 Applications), nuestras páginas requieren mejor experiencia de usuario, lo que

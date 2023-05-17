@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # findShortestWordAmongMixedElements
 
 Escribe una función llamada "findShortestWordAmongMixedElements".

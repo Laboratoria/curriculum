@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # reduce
-
-* Environment: `js`
-
-***
 
 Una función recursiva es una función que se llama a sí misma. Por ejemplo, esta
 función recursiva recibe un Array de palabras, y retorna un arreglo con las

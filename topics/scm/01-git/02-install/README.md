@@ -1,10 +1,9 @@
+---
+type: read
+duration: 5min
+---
+
 # Instalación
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `5min`
-
-***
 
 Si nos encontramos en Linux o Mac OS X no será necesario hacer la
 instalación de Git porque ya viene instalado, pero si nuestro sistema operativo

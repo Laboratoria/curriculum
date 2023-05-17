@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # getSumOfAllElementsAtProperty
 
 Escribe una función llamada `getSumOfAllElementsAtProperty`.

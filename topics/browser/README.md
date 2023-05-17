@@ -1,3 +1,7 @@
+---
+track: web-dev
+---
+
 # Browser JavaScript
 
 Este tópico cubre JavaScript en el contexto del navegador, donde más comunmente

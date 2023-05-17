@@ -1,19 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createTheme, ThemeProvider } from '@material-ui/core/styles';
-import { AppProvider } from './lib/app';
+import {
+  createTheme,
+  ThemeProvider,
+  StyledEngineProvider,
+} from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+import { AppProvider, themeConfig } from '@laboratoria/react';
+import '@laboratoria/react/src/theme/index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
-import themeConfig from './lib/theme';
-import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider theme={createTheme(themeConfig)}>
-      <AppProvider>
-        <App />
-      </AppProvider>
-    </ThemeProvider>
+    <StyledEngineProvider injectFirst>
+      <ThemeProvider theme={createTheme(themeConfig)}>
+        <AppProvider>
+          <CssBaseline />
+          <App />
+        </AppProvider>
+      </ThemeProvider>
+    </StyledEngineProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

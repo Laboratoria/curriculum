@@ -1,10 +1,9 @@
+---
+type: read
+duration: 30min
+---
+
 # Funciones puras
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `30min`
-
-***
 
 Las funciones puras tienen aplicaciones en muchos ámbitos, entre ellos la
 programación funcional. También facilitan la concurrencia, y como veremos en

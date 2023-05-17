@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Reduce
-
-* Environment: `js`
-
-***
 
 ## Tarea
 

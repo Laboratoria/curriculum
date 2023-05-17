@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Convertir a Mayúsculas
-
-* Environment: `js`
-
-***
 
 Implementa una función que capitalice la primera y última letra de un _string_.
 

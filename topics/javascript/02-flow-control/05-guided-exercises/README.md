@@ -1,8 +1,9 @@
-# Ejercicios Guiados
+---
+type: practice
+duration: 120min
+---
 
-- Tipo: `práctica`
-- Formato: `self-paced`
-- Duración: `120min`
+# Ejercicios Guiados
 
 ## Objetivos
 

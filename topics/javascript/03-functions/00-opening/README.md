@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Apertura
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `15min`
-
-***
 
 En esta unidad, veremos en profundidad el tema de funciones, aprovechando que
 JavaScript está fuertemente influenciado por la programación funcional desde su

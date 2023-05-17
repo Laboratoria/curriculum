@@ -7,7 +7,8 @@
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones](#4-consideraciones)
 * [5. Criterios de aceptación del proyecto](#5-criterios-de-aceptación-del-proyecto)
-* [6. Pistas / tips](#6-pistas--tips)
+* [6. Despliegue](#6-despliegue)
+* [7. Pistas / tips](#7-pistas--tips)
 
 ***
 
@@ -27,7 +28,7 @@ nuestra aplicación.
 Cuando elegimos una de estas tecnologías no solo importamos un pedacito de
 código para reusarlo (lo cuál es un gran valor per se), si no que adoptamos una
 **arquitectura**, una serie de **principios de diseño**, un **paradigma**, unas
-**abstracciones**, un **vocabulario**, una **comunidad**, etc...
+**abstracciones**, un **vocabulario**, una **comunidad**, etc.
 
 Como desarrolladora Front-end, estos kits de desarrollo pueden resultarte
 de gran ayuda para implementar rápidamente características de los proyectos en
@@ -42,14 +43,13 @@ a la cocina para que se preparen ordenada y eficientemente.
 ![burger-queen](https://user-images.githubusercontent.com/110297/42118136-996b4a52-7bc6-11e8-8a03-ada078754715.jpg)
 
 Este proyecto tiene dos áreas: interfaz (cliente) y API (servidor). Nuestra
-clienta nos ha solicitado desarrollar la interfaz que se integre con la API
-que otro equipo de desarrolladoras está trabajando simultáneamente
+clienta nos ha solicitado desarrollar la interfaz que se integre con una API.
 
 Esta vez tenemos un proyecto 100% por encargo. Si bien siempre puedes (y debes)
 hacer sugerencias de mejoras y/o cambios, muchas veces trabajarás en proyectos
 en los que primero hay que asegurarse de cumplir con lo requerido.
 
-Esta es la información que tenemos dxl clientx:
+Esta es la información que tenemos de la clienta:
 
 > Somos **Burguer Queen**, una cadena de comida 24hrs.
 >
@@ -92,7 +92,7 @@ costo total.
 
 ![out](https://user-images.githubusercontent.com/110297/45984241-b8b51c00-c025-11e8-8fa4-a390016bee9d.gif)
 
-Además la clienta nos ha dado un [link a la documentación](https://laboratoria.github.io/burger-queen-api/)
+Además la clienta nos ha dado un [link a la documentación](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 que especifica el comportamiento esperado de la API HTTP que deberás consumir.
 Ahí puedes encontrar todos los detalles de los _endpoints_, como por ejemplo
 qué parámetros esperan, qué deben responder, etc.
@@ -117,11 +117,19 @@ a un _pedido_, la interfaz debe actualizar la lista del pedido y el total).
 
 ## 4. Consideraciones
 
-Este proyecto se debe "resolver" de a pares. Recuerda que deberas de consumir una
-API que desarrollaran tus compañeras, sin embargo no debes esperar a que esta API
-este terminada para empezar a codear, puedes utilizar herramientas
-como [nock](https://github.com/nock/nock), [json-server](https://www.npmjs.com/package/json-server)
-o [mockoon](https://mockoon.com) para mockear la API.
+Este proyecto se debe "resolver" en duplas y puedes elegir entre
+estas tres opciones la manera en que trabajarás con el backend.
+
+1. Consumiendo una API que desarrollarán tus compañeras.
+2. Consumiendo esta
+[API](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
+que desarrollamos para ti.
+3. Mockeando la API, puedes utilizar herramientas como
+[nock](https://github.com/nock/nock),
+[json-server](https://www.npmjs.com/package/json-server)
+o [mockoon](https://mockoon.com).
+
+El rango de tiempo estimado para completar el proyecto es de 3 a 5 Sprints.
 
 Trabaja en una historia hasta terminarla antes de pasar a la siguiente. Trabaja
 hasta la historia que puedas en el tiempo especificado.
@@ -303,7 +311,27 @@ para mantener actualizado el menú.
 
 ***
 
-## 6. Pistas / Tips
+## 6. Despliegue
+
+Puedes elegir el proveedor (o proveedores) que prefieras junto
+con el mecanismo de despligue y estrategia de alojamiento.
+Recuerda que si mockeaste la API, también tienes que desplegarla.
+Te recomendamos explorar las siguientes opciones:
+
+* [Vercel](https://vercel.com/) es una plataforma de _despliegue_ que
+nos permite desplegar nuestra aplicación web estática (HTML, CSS y
+JavaScript) y también nos permite desplegar aplicaciones web que se
+ejecutan en el servidor (Node.js).
+* [Netlify](https://www.netlify.com/) al igual que Vercel, es una
+plataforma de _despliegue_ que nos permite desplegar nuestra aplicación
+web estática (HTML, CSS y JavaScript) y también nos permite desplegar
+aplicaciones web que se ejecutan en el servidor (Node.js).
+
+## 7. Pistas / Tips
+
+Súmate al canal de Slack
+[#project-bq-api-client](https://claseslaboratoria.slack.com/archives/C04A0GS1WJX)
+para conversar y pedir ayuda del proyecto.
 
 ### Frameworks / libraries
 

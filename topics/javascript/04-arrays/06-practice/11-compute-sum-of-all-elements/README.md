@@ -1,3 +1,7 @@
+---
+env: cjs
+---
+
 # computeSumOfAllElements
 
 Escribe una función llamada `computeSumOfAllElements`.

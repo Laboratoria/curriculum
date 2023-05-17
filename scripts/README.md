@@ -70,7 +70,7 @@ Argumentos:
 
 Opciones:
 
-* `--locale`: Puede ser `es-ES` o `pt-BR`. Por defecto es `es-ES`.
+* `--locale`: Puede ser `es` o `pt`. Por defecto es `es`.
 * `--noop`: Si esta opción está presente el script nos dirá que es lo que haríá
   paso a paso pero sin realmente hacer nada. Es útil para familiarizarse con el
   script.

@@ -1,10 +1,9 @@
+---
+type: read
+duration: 5min
+---
+
 # Apertura
-
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `5min`
-
-***
 
 ## ¿Por qué aprender esto?
 

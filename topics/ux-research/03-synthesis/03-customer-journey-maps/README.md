@@ -1,10 +1,9 @@
+---
+type: read
+duration: 15min
+---
+
 # Customer Journey Maps
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `15 min`
-
-***
 
 ## Intro
 

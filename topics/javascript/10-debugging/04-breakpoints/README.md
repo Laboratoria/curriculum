@@ -1,10 +1,9 @@
+---
+type: read
+duration: 40min
+---
+
 # ¿Cómo debuggear en JS?
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `40min`
-
-***
 
 ## Objetivos de Aprendizaje
 

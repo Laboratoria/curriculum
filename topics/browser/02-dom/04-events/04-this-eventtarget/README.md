@@ -1,8 +1,7 @@
 # `this` vs `event.target`
 
-* Tipo: `lectura`
-* Formato: `self-paced`
-* Duración: `10min`
+type: read
+duration: 10min
 
 ***
 

@@ -1,10 +1,9 @@
+---
+type: practice
+duration: 2h
+---
+
 # Figma
-
-- Tipo: `taller`
-- Formato: `guiado`
-- Duración: `2h`
-
-***
 
 ## Intro
 

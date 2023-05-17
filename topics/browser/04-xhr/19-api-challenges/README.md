@@ -1,10 +1,9 @@
+---
+type: practice
+duration: 2h
+---
+
 # Jugando con APIs
-
-- Tipo: `taller`
-- Formato: `guiado`
-- Duración: `2h`
-
-***
 
 ## Objetivos
 

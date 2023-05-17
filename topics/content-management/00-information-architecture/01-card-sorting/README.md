@@ -1,10 +1,9 @@
+---
+type: read
+duration: 1h
+---
+
 # Card - sorting
-
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `1h`
-
-***
 
 El card sorting es una técnica que nos permite saber, desde el lado del usuario,
 cuál sería la mejor manera de organizar la información que tenemos. Es una

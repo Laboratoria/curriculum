@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Filter
-
-* Environment: `js`
-
-***
 
 ## Tarea
 

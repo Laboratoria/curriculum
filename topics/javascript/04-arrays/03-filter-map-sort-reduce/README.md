@@ -1,10 +1,9 @@
-# `filter`, `map`,`sort` y`reduce`
+---
+type: read
+duration: 45min
+---
 
-- Tipo: `lectura`
-- Formato: `self-paced`
-- Duración: `45min`
-
-***
+# filter, map, sort y reduce
 
 Ya vimos algunos de los métodos de uso más común de los arreglos,
 pero `Array.prototype` provee mucho métodos más.

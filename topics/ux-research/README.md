@@ -1,3 +1,7 @@
+---
+track: ux
+---
+
 # UX Research
 
 En este curso concerás distintas herramientas que te ayudarán a entender mejor

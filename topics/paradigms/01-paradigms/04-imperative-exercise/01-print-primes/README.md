@@ -1,8 +1,8 @@
+---
+env: cjs
+---
+
 # Imprime los número enteros menores que 20
-
-* Environment: `js`
-
-***
 
 La programación imperativa tiene un nivel de abstracción bajo, lo que quiere
 decir que se enfoca en describir, desde el punto de vista de la computadora,
