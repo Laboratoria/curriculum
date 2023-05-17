@@ -45,7 +45,7 @@ Esto implica que tendremos que partir por leer la implementación existente, y
 familiarizarnos con el _stack_ elegido ([Node.js](https://nodejs.org/) y
 [Express](https://expressjs.com/)) y complementarlo con un motor de bases de
 datos. Recomendamos el uso de [MongoDB](https://www.mongodb.com/) y tenemos una
-[guía para empezar con MongoDB](./GETTING-STARTED-MONGO-DB.md).
+[guía para empezar con MongoDB](./guides/GETTING-STARTED-MONGO-DB.md).
 
 La clienta nos ha dado un [link a la documentación](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 que especifica el comportamiento esperado de la API que expondremos por
@@ -231,7 +231,7 @@ la configuración de base de datos. Ten en cuenta que como vas a tener dos
 servidores corriendo sobre una misma configuración, deberás exponer
 los servicios en diferentes puertos.
 
-Lee la [**guía para docker**] (./GETTING-STARTED-DOCKER.md)
+Lee la [**guía para docker**] (./guides/GETTING-STARTED-DOCKER.md)
 incluido en el proyecto para mas información.
 
 Para probar tu configuración de docker, te recomendamos usar `docker-compose`
