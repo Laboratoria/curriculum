@@ -34,12 +34,12 @@
     "link-react": "rm -rf node_modules/@laboratoria/react && ln -s ../../../react node_modules/@laboratoria/"
   },
   "dependencies": {
-    "@emotion/react": "^11.10.6",
-    "@emotion/styled": "^11.10.6",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
     "@laboratoria/react": "^4.0.0-beta.4",
     "@mui/icons-material": "^5.11.11",
-    "@mui/material": "^5.11.12",
-    "@mui/styles": "^5.11.12",
+    "@mui/material": "^5.13.1",
+    "@mui/styles": "^5.13.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^12.1.5",
     "@testing-library/user-event": "^13.5.0",
