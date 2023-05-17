@@ -9,7 +9,8 @@
 * [5. Critérios de aceitação mínima do
   projeto](#5-critérios-de-aceitação-mínima-do-projeto)
 * [6. Guias, dicas e leituras
-  complementares](#7-guias-dicas-e-leituras-complementares)
+  complementares](#6-guias-dicas-e-leituras-complementares)
+* [7. Funcionalidades para reforçar OA de promessas](#7-funcionalidades-para-reforçar-OA-de-promessas)
 
 ***
 
@@ -366,3 +367,40 @@ cd burger-queen
 
 * [Cloud functions - Firebase
   Docs](https://firebase.google.com/docs/functions/?hl=es-419)
+
+## 7. Funcionalidades para reforçar OA de promessas
+
+Sugerimos que você implemente as seguintes funcionalidades para
+reforçar ainda mais os Objetivos de Aprendizagem associados a promessas.
+
+Adicione a opção de atualizar 2 ou mais pedidos que estejam na cozinha.
+Mostre ao usuário uma única mensagem de confirmação quando todos os
+pedidos forem atualizados com sucesso. Lembre-se, [ao atualizar um documento no Firestore](https://firebase.google.com/docs/firestore/manage-data/add-data#update-data),
+uma promessa é retornada. Como você poderia mostrar a
+mensagem de confirmação somente quando todas as promessas forem
+resolvidas? Sugerimos que você revise a função [Promise.all](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all).
+
+Quando um pedido for concluído, você pode incorporar a
+seguinte função getDiscount ao seu código:
+
+```js
+  export const getDiscount = () => {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        const discount = parseInt(Math.random() * 100);
+        if (discount > 80) {
+          reject(new Error(`¡${discount}% desconto é muito grande!`));
+        } else {
+          resolve(discount);
+        }
+      }, 0);
+    });
+  }
+  ```
+
+  A função `getDiscount` retornará uma promessa que gerará
+  um número inteiro aleatório, `discount`, que você pode usar como
+  porcentagem de desconto para calcular o total do pedido,
+  caso seja menor ou igual a 80. Caso o número inteiro `discount`
+  seja maior que 80, a promessa retornará um erro com a mensagem
+  de que o desconto é muito grande e, portanto, não pode ser aplicado.
