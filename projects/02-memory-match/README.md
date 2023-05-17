@@ -241,6 +241,10 @@ el `.json` está ahí para opcionalmente cargar la data de forma asíncrona con
 
 ## 8. Pistas, tips y lecturas complementarias
 
+Súmate al canal de Slack
+[#project-memory-match](https://claseslaboratoria.slack.com/archives/C03NZDFB324)
+para conversar y pedir ayuda del proyecto.
+
 ### Primeros pasos
 
 Antes de empezar a escribir código, debes definir qué deberá hacer el producto

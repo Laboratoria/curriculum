@@ -22,6 +22,9 @@ const initAdminUser = (app, next) => {
   };
 
   // TODO: crear usuaria admin
+  // Primero ver si ya existe adminUser en base de datos
+  // si no existe, hay que guardarlo
+
   next();
 };
 
@@ -115,6 +118,8 @@ module.exports = (app, next) => {
    * @code {403} si ya existe usuaria con ese `email`
    */
   app.post('/users', requireAdmin, (req, resp, next) => {
+    // TODO: implementar la ruta para agregar
+    // nuevos usuarios
   });
 
   /**
