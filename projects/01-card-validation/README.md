@@ -251,7 +251,9 @@ Debes realizar un :fork_and_knife:
 
 ### Recursos y temas relacionados
 
-Súmate al canal de Slack [#project-card-validation](https://claseslaboratoria.slack.com/archives/C03LXJ10WJD)
+Súmate al canal de Slack
+[#project-card-validation](https://claseslaboratoria.slack.com/archives/C03LXJ10WJD)
+para conversar y pedir ayuda del proyecto.
 
 A continuación un video de Michelle que te lleva a través del algoritmo de Luhn
 y un par de cosas más que debes saber para resolver este proyecto. ¡Escúchala
