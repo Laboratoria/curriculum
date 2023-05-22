@@ -2,9 +2,9 @@
   "slug": "card-validation",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/01-card-validation",
-  "version": "6.2.0",
+  "version": "6.3.0",
   "parserVersion": "5.0.0-alpha.4",
-  "createdAt": "2023-04-04T20:28:11.907Z",
+  "createdAt": "2023-05-17T20:35:45.831Z",
   "prefix": 1,
   "track": "web-dev",
   "learningObjectives": [
