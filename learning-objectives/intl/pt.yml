@@ -773,55 +773,55 @@ react/jsx:
   title: JSX
   links:
     - title: Introduzindo JSX - Documentação oficial
-      url: https://pt-br.reactjs.org/docs/introducing-jsx.html
+      url: https://pt-br.react.dev/learn/writing-markup-with-jsx
 
 react/components:
   title: Componentes e propriedades (props)
   links:
     - title: Componentes e propriedades - Documentação oficial
-      url: https://pt-br.reactjs.org/docs/components-and-props.html
+      url: https://pt-br.react.dev/learn/passing-props-to-a-component
 
 react/events:
   title: Manipulação de eventos
   links:
     - title: Manipulando eventos - Documentação oficial
-      url: https://pt-br.reactjs.org/docs/handling-events.html
+      url: https://pt-br.react.dev/learn/responding-to-events
 
 react/lists-and-keys:
   title: Listas e keys
   links:
     - title: Listas e chaves - Documentação oficial
-      url: https://pt-br.reactjs.org/docs/lists-and-keys.html
+      url: https://pt-br.react.dev/learn/rendering-lists
 
 react/conditional-rendering:
   title: Renderização condicional
   links:
     - title: Renderização condicional - Documentação oficial
-      url: https://pt-br.reactjs.org/docs/conditional-rendering.html
+      url: https://pt-br.react.dev/learn/conditional-rendering
 
 react/lifting-up-state:
   title: Elevação de estado
   links:
     - title: Elevação de estado - Documentação oficial
-      url: https://pt-br.reactjs.org/docs/lifting-state-up.html
+      url: https://pt-br.react.dev/learn/sharing-state-between-components
 
 react/hooks:
   title: Hooks
   links:
     - title: Introduzindo Hooks - Documentação oficial
-      url: https://pt-br.reactjs.org/docs/hooks-intro.html
+      url: https://pt-br.react.dev/reference/react
 
 react/css-modules:
   title: CSS modules
   links:
     - title: Adding a CSS Modules Stylesheet - Documentação de Create React App (em inglês)
-      url: https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/
+      url: https://vitejs.dev/guide/features.html#css-modules
 
 react/routing:
   title: React Router
   links:
     - title: Quick Start - Documentação oficial (em inglês)
-      url: https://reactrouter.com/web/guides/quick-start
+      url: https://reactrouter.com/en/main/start/tutorial
 
 vue:
   title: Vue
