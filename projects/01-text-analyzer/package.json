@@ -8,7 +8,7 @@
     "eslint": "eslint --ext .js src/ test/",
     "pretest": "npm run eslint && npm run htmlhint",
     "test": "jest --verbose --coverage test/analyzer.spec.js",
-    "test:oas": "jest --verbose read-only/test/oa/oa-*.spec.js",
+    "test:oas": "jest --verbose read-only/test/oa/",
     "test:oas-html": "jest --verbose read-only/test/oa/oa-html.spec.js",
     "test:oas-css": "jest --verbose read-only/test/oa/oa-css.spec.js",
     "test:oas-web-api": "jest --verbose read-only/test/oa/oa-web-api.spec.js",
