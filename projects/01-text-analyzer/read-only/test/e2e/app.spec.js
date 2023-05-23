@@ -1,84 +1,10 @@
 import { test, expect } from '@playwright/test';
 
-const TEST_TEXT_EMPTY = '';
-const TEST_TEXT_SPACES = '       ';
+
 const TEST_TEXT_NO_NUMBERS = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
 const TEST_TEXT_NUMBERS = 'Si tengo 8 manzanas y compro 2 más, ¿cúantas manzanas tengo en total?';
 const TEST_TEXT_DECIMALS = 'Calcular la suma de 1.65 más 0.15 y más 1.10';
 const TEST_TEXT_NOT_A_NUMBER = 'Esto no es un número: 41u0003jot';
-const TEST_TEXT_PUNCTUATION_MARKS = '.,;:"«»[]{}()¿?¡!-';
-
-test.describe('Para un texto vacio:', () => {
-
-  test.beforeEach(async ({ page }) => {
-    await page.goto('http://localhost:3000/');
-    const textarea = await page.locator('textarea[name="user-input"]');
-    await textarea.click();
-    await textarea.type(TEST_TEXT_EMPTY);
-  });
-
-  test('Caracteres: 0', async ({ page }) => {
-    await expect(page.locator('li:nth-child(1):has-text("0")')).toBeVisible();
-  });
-
-  test('Caracteres Sin Espacios: 0', async ({ page }) => {
-    await expect(page.locator('li:nth-child(2):has-text("0")')).toBeVisible();
-  });
-
-  test('Palabras: 0', async ({ page }) => {
-    await expect(page.locator('li:nth-child(3):has-text("0")')).toBeVisible();
-
-  });
-
-  test('Números: 0', async ({ page }) => {
-    await expect(page.locator('li:nth-child(4):has-text("0")')).toBeVisible();
-  });
-
-  test('Suma números: 0', async ({ page }) => {
-    await expect(page.locator('li:nth-child(5):has-text("0")')).toBeVisible();
-  });
-
-  test('Longitud promedio palabra: 0', async ({ page }) => {
-    await expect(page.locator('li:nth-child(6):has-text("0")')).toBeVisible();
-  });
-
-});
-
-test.describe('Para un texto de solo espacios:', () => {
-
-  test.beforeEach(async ({ page }) => {
-    await page.goto('http://localhost:3000/');
-    const textarea = await page.locator('textarea[name="user-input"]');
-    await textarea.click();
-    await textarea.type(TEST_TEXT_SPACES);
-  });
-
-  test('Caracteres: 7', async ({ page }) => {
-    await expect(page.locator('li:nth-child(1):has-text("7")')).toBeVisible();
-  });
-
-  test('Caracteres Sin Espacios: 0', async ({ page }) => {
-    await expect(page.locator('li:nth-child(2):has-text("0")')).toBeVisible();
-  });
-
-  test('Palabras: 0', async ({ page }) => {
-    await expect(page.locator('li:nth-child(3):has-text("0")')).toBeVisible();
-
-  });
-
-  test('Números: 0', async ({ page }) => {
-    await expect(page.locator('li:nth-child(4):has-text("0")')).toBeVisible();
-  });
-
-  test('Suma números: 0', async ({ page }) => {
-    await expect(page.locator('li:nth-child(5):has-text("0")')).toBeVisible();
-  });
-
-  test('Longitud promedio palabra: 0', async ({ page }) => {
-    await expect(page.locator('li:nth-child(6):has-text("0")')).toBeVisible();
-  });
-
-});
 
 test.describe('Para un texto con sólo palábras:', () => {
 
@@ -110,8 +36,8 @@ test.describe('Para un texto con sólo palábras:', () => {
     await expect(page.locator('li:nth-child(5):has-text("0")')).toBeVisible();
   });
 
-  test('Longitud promedio palabra: 5.37', async ({ page }) => {
-    await expect(page.locator('li:nth-child(6):has-text("5.37")')).toBeVisible();
+  test('Longitud promedio palabra: 5.53', async ({ page }) => {
+    await expect(page.locator('li:nth-child(6):has-text("5.53")')).toBeVisible();
   });
 });
 
@@ -169,40 +95,6 @@ test.describe('Para un texto sin números válidos:', () => {
   });
 });
 
-test.describe('Para un texto con sólo signos de puntuación:', () => {
-
-  test.beforeEach(async ({ page }) => {
-    await page.goto('http://localhost:3000/');
-    const textarea = await page.locator('textarea[name="user-input"]');
-    await textarea.click();
-    await textarea.type(TEST_TEXT_PUNCTUATION_MARKS);
-  });
-
-  test('Caracteres: 18', async ({ page }) => {
-    await expect(page.locator('li:nth-child(1):has-text("18")')).toBeVisible();
-  });
-
-  test('Caracteres Sin Espacios: 0', async ({ page }) => {
-    await expect(page.locator('li:nth-child(2):has-text("0")')).toBeVisible();
-  });
-
-  test('Palabras: 0', async ({ page }) => {
-    await expect(page.locator('li:nth-child(3):has-text("0")')).toBeVisible();
-  });
-
-  test('Números: 0', async ({ page }) => {
-    await expect(page.locator('li:nth-child(4):has-text("0")')).toBeVisible();
-  });
-
-  test('Suma números: 0', async ({ page }) => {
-    await expect(page.locator('li:nth-child(5):has-text("0")')).toBeVisible();
-  });
-
-  test('Longitud promedio palabra: 0', async ({ page }) => {
-    await expect(page.locator('li:nth-child(6):has-text("0")')).toBeVisible();
-  });
-});
-
 test.describe('Botón:', () => {
   
   test.beforeEach(async ({ page }) => {
@@ -219,4 +111,118 @@ test.describe('Botón:', () => {
     await button.click();
     await expect(textarea).toHaveValue(TEST_TEXT_EMPTY);
   });
+});
+
+//TODO: Reemplazar skip por describe para ejecutar el test de funcionalidades opcionales
+test.skip('Opcional:', () => {
+  const TEST_TEXT_EMPTY = '';
+  const TEST_TEXT_SPACES = '       ';
+  const TEST_TEXT_PUNCTUATION_MARKS = '.,;:"«»[]{}()¿?¡!-';
+  
+  test.describe('Para un texto con sólo signos de puntuación:', () => {
+
+    test.beforeEach(async ({ page }) => {
+      await page.goto('http://localhost:3000/');
+      const textarea = await page.locator('textarea[name="user-input"]');
+      await textarea.click();
+      await textarea.type(TEST_TEXT_PUNCTUATION_MARKS);
+    });
+
+    test('Caracteres: 18', async ({ page }) => {
+      await expect(page.locator('li:nth-child(1):has-text("18")')).toBeVisible();
+    });
+
+    test('Caracteres Sin Espacios: 0', async ({ page }) => {
+      await expect(page.locator('li:nth-child(2):has-text("0")')).toBeVisible();
+    });
+
+    test('Palabras: 0', async ({ page }) => {
+      await expect(page.locator('li:nth-child(3):has-text("0")')).toBeVisible();
+    });
+
+    test('Números: 0', async ({ page }) => {
+      await expect(page.locator('li:nth-child(4):has-text("0")')).toBeVisible();
+    });
+
+    test('Suma números: 0', async ({ page }) => {
+      await expect(page.locator('li:nth-child(5):has-text("0")')).toBeVisible();
+    });
+
+    test('Longitud promedio palabra: 0', async ({ page }) => {
+      await expect(page.locator('li:nth-child(6):has-text("0")')).toBeVisible();
+    });
+  });
+
+  test.describe('Para un texto vacio:', () => {
+
+    test.beforeEach(async ({ page }) => {
+      await page.goto('http://localhost:3000/');
+      const textarea = await page.locator('textarea[name="user-input"]');
+      await textarea.click();
+      await textarea.type(TEST_TEXT_EMPTY);
+    });
+
+    test('Caracteres: 0', async ({ page }) => {
+      await expect(page.locator('li:nth-child(1):has-text("0")')).toBeVisible();
+    });
+
+    test('Caracteres Sin Espacios: 0', async ({ page }) => {
+      await expect(page.locator('li:nth-child(2):has-text("0")')).toBeVisible();
+    });
+
+    test('Palabras: 0', async ({ page }) => {
+      await expect(page.locator('li:nth-child(3):has-text("0")')).toBeVisible();
+
+    });
+
+    test('Números: 0', async ({ page }) => {
+      await expect(page.locator('li:nth-child(4):has-text("0")')).toBeVisible();
+    });
+
+    test('Suma números: 0', async ({ page }) => {
+      await expect(page.locator('li:nth-child(5):has-text("0")')).toBeVisible();
+    });
+
+    test('Longitud promedio palabra: 0', async ({ page }) => {
+      await expect(page.locator('li:nth-child(6):has-text("0")')).toBeVisible();
+    });
+
+  });
+
+  test.describe('Para un texto de solo espacios:', () => {
+
+    test.beforeEach(async ({ page }) => {
+      await page.goto('http://localhost:3000/');
+      const textarea = await page.locator('textarea[name="user-input"]');
+      await textarea.click();
+      await textarea.type(TEST_TEXT_SPACES);
+    });
+
+    test('Caracteres: 7', async ({ page }) => {
+      await expect(page.locator('li:nth-child(1):has-text("7")')).toBeVisible();
+    });
+
+    test('Caracteres Sin Espacios: 0', async ({ page }) => {
+      await expect(page.locator('li:nth-child(2):has-text("0")')).toBeVisible();
+    });
+
+    test('Palabras: 0', async ({ page }) => {
+      await expect(page.locator('li:nth-child(3):has-text("0")')).toBeVisible();
+
+    });
+
+    test('Números: 0', async ({ page }) => {
+      await expect(page.locator('li:nth-child(4):has-text("0")')).toBeVisible();
+    });
+
+    test('Suma números: 0', async ({ page }) => {
+      await expect(page.locator('li:nth-child(5):has-text("0")')).toBeVisible();
+    });
+
+    test('Longitud promedio palabra: 0', async ({ page }) => {
+      await expect(page.locator('li:nth-child(6):has-text("0")')).toBeVisible();
+    });
+
+  });
+
 });

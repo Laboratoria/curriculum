@@ -6,9 +6,11 @@
 * [2. Preámbulo](#2-preámbulo)
 * [3. Funcionalidades](#3-funcionalidades)
 * [4. Boilerplate](#4-boilerplate)
-* [5. Objetivos de aprendizaje y Criterios de aceptación mínimos del proyecto](#5-objetivos-de-aprendizaje-y-criterios-de-aceptación-mínimos-del-proyecto)
+* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Pruebas](#6-pruebas)
 * [7. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
+* [8. Objetivos de aprendizaje](#8-objetivos-de-aprendizaje)
+* [9. Funcionalidades opcionales](#9-funcionalidades-opcionales)
 
 ***
 
@@ -142,6 +144,15 @@ El boilerplate que les damos contiene esta estructura:
   Para ejemplo de uso de cada función recomendamos ver el archivo
   [`test/analyzer.spec.js`](./test/analyzer.spec.js).
 
+  _Nota:  para simplificar las funcionalidades, definiremos las palabras como
+  un grupos de caracteres separados por espacios. Por ejemplo las palabras del
+  texto de entrada `¡Si, Tú puedes hacerlo!` son cuatro:_
+
+  - _`¡Si,`_
+  - _`Tú`_
+  - _`puedes`_
+  - _`hacerlo!`_
+
 * [`src/index.js`](./src/index.js): acá debes escuchar eventos del DOM, invocar
   los métodos del objeto `analyzer` según sea necesario y actualizar el resultado
   en la UI (interfaz de usuario).
@@ -160,39 +171,43 @@ En este proyecto, utilizaremos _Github Pages_ para desplegar nuestro sitio web.
 El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
  consultar su [documentación oficial](https://docs.github.com/es/pages).
 
-## 5. Objetivos de Aprendizaje y Criterios de aceptación mínimos del proyecto
+## 5. Criterios de aceptación mínimos del proyecto
+
+A continuación encontrarás los criterios de aceptación mínimos del proyecto
+relacionados con cada objetivo de aprendizaje.
 
 ### HTML
 
 * **Uso de HTML semántico**
 
-  [ ] La aplicación tiene un encabezado conformado por un
+  - [ ] La aplicación tiene un encabezado conformado por un
   [`<header>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
   que es padre de un
   [`<h1>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1)
-  con texto `Analizador de texto`. Estos elementos no pueden tener
-  atributos `id`, ni `name`, ni `class`.
+  con texto `Analizador de texto`. Para que puedas practicar más, estos
+  elementos no pueden tener atributos `id`, ni `name`, ni `class`.
 
-  [ ] La aplicación usa un
+  - [ ] La aplicación usa un
   [`<textarea>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
   con un el atributo `name` en el valor `user-input` para permitir al usuario
-  ingresar un texto. Este elemento no pueden tener
-  atributos `id`, ni `class`.
+  ingresar un texto. Para que puedas practicar más, este elemento no puede
+  tener atributos `id`, ni `class`.
 
-  [ ] La aplicación usa un
+  - [ ] La aplicación usa un
   [`<ul>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
   con 6 hijos [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li),
-  uno para mostrar cada métrica. Estos elementos no pueden
-  tener atributos `id` ni `name`.
+  uno para mostrar cada métrica.  Para que puedas practicar más, estos
+  elementos no pueden tener atributos `id` ni `name`.
 
-  [ ] La aplicación tiene un pie de página conformado por un
+  - [ ] La aplicación tiene un pie de página conformado por un
   [`<footer>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
   que es padre de un
   [`<p>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
   que tiene como texto el nombre de la estudiante desarrolladora de la aplicación.
-  Estos elementos no pueden tener atributos `id`, ni `name`, ni `class`.
+  Para que puedas practicar más, estos elementos no pueden
+  tener atributos `id`, ni `name`, ni `class`.
 
-  [ ] La aplicación usa un
+  - [ ] La aplicación usa un
   [`<button>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
   con el atributo `id` en el valor `reset-button` para permitir al usuario,
   mediante un clic, limpiar el contenido de la caja de texto.
@@ -201,14 +216,14 @@ El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
 
 * **Uso de selectores de CSS**  
 
-  [ ] La aplicación usa
+  - [ ] La aplicación usa
   [`selectores CSS de tipo`](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#type_selectors)
   para darle estilo al
   [`<header>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
   y al
   [`<footer>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer).
   
-  [ ] La aplicación usa
+  - [ ] La aplicación usa
   [`selectores CSS de class`](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#class_selectors)
   para darle estilo al
   [`<ul>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
@@ -216,21 +231,21 @@ El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
   y sus hijos
   [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li).
   
-  [ ] La aplicación usa
+  - [ ] La aplicación usa
   [`selectores de atributo`](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Attribute_selectors)
   para darle estilo al
   [`<textarea>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
   usando el atributo `name`.
 
-  [ ] La aplicación usa
+  - [ ] La aplicación usa
   [`selectores CSS de ID`](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#id_selectors)
   para darle estilo al
   [`<button>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
-  con el atributo `id` en el valor `clear-button`.
+  con el atributo `id` en el valor `reset-button`.
 
 * **Modelo de caja (box model): border, margen, padding**
 
-  [ ] Las
+  - [ ] Las
   [`clases css`](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#class_selectors)
   de los
   [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
@@ -247,40 +262,40 @@ El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
 
 * **Uso de selectores del DOM**
 
-  [ ] La aplicación usa el
+  - [ ] La aplicación usa el
   [`selector del DOM querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector).
 
-  [ ] La aplicación usa el
+  - [ ] La aplicación usa el
   [`selector del DOM getElementById`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById).
   
 * **Manejo de eventos del DOM (listeners, propagación, delegación)**
 
-  [ ] La aplicación registra un
+  - [ ] La aplicación registra un
   [Event Listener](https://developer.mozilla.org/en/docs/Web/API/EventTarget/addEventListener)
   para escuchar el evento `keyup` del `<textarea>` para actualizar las métricas
   cuando se haga escriba en el cuadro de texto.
 
-  [ ] La aplicación registra un
+  - [ ] La aplicación registra un
   [Event Listener](https://developer.mozilla.org/en/docs/Web/API/EventTarget/addEventListener)
   para escuchar el evento `click` del `<button>` que limpia el contenido de la
   caja de texto.
 
 * **Manipulación dinámica del DOM**
-  [ ] La aplicación actualiza el atributo
+  - [ ] La aplicación actualiza el atributo
   [`textContent`](https://developer.mozilla.org/es/docs/Web/API/Node/textContent)
   o
   [`innerHTML`](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML)
-  de los `<div>` que mostrar las métricas del texto.
+  de los `<li>` que mostrar las métricas del texto.
 
 ### JavaScript
 
 * **Tipos de datos primitivos**
 
-  [ ] La aplicación convierte valores tipo `string` a tipo `number`.
+  - [ ] La aplicación convierte valores tipo `string` a tipo `number`.
 
 * **Strings (cadenas de caracteres)**
 
-  [ ] La aplicación usa métodos para manipular strings como
+  - [ ] La aplicación usa métodos para manipular strings como
   [`split`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split),
   [`trim`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim)
   o
@@ -288,53 +303,53 @@ El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
 
 * **Variables (declaración, asignación, ámbito)**
 
-  [ ] La aplicación declara variables con
+  - [ ] La aplicación declara variables con
   [`let`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
   y
   [`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const).
 
-  [ ] La aplicación NO declara variables con  `var`.
+  - [ ] La aplicación NO declara variables con  `var`.
 
 * **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
 
-  [ ] La aplicación usa el statement
+  - [ ] La aplicación usa el statement
   [`if..else`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
   para evaluar condiciones.
 
 * **Uso de bucles/ciclos (while, for, for..of)**
 
-  [ ] La aplicación usa el statement
+  - [ ] La aplicación usa el statement
   [`for`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
   para crear un bucle.
 
 * **Funciones (params, args, return)**
 
-  [ ] El objeto `analyzer` contiene un método `getWordCount` para calcular el
+  - [ ] El objeto `analyzer` contiene un método `getWordCount` para calcular el
   recuento de palabras de un texto.
 
-  [ ] El objeto `analyzer` contiene un método `getCharacterCount` para calcular
+  - [ ] El objeto `analyzer` contiene un método `getCharacterCount` para calcular
   el recuento de caracteres de un texto.
 
-  [ ] El objeto `analyzer` contiene un método `getCharacterCountExcludingSpaces`
+  - [ ] El objeto `analyzer` contiene un método `getCharacterCountExcludingSpaces`
   para calcular el recuento de caracteres excluyendo espacios y signos de
   puntuación de un texto.
 
-  [ ] El objeto `analyzer` contiene un método `getNumbersCount` para contar
+  - [ ] El objeto `analyzer` contiene un método `getNumbersCount` para contar
   cúantos números hay en un texto.
 
-  [ ] El objeto `analyzer` contiene un método `getNumbersSum` para la suma
+  - [ ] El objeto `analyzer` contiene un método `getNumbersSum` para la suma
   longitud media de los números en un texto.
 
-  [ ] El objeto `analyzer` contiene un método `getAverageWordLength` para
+  - [ ] El objeto `analyzer` contiene un método `getAverageWordLength` para
   calcular la longitud media de las palabras en un texto.
 
 * **Pruebas unitarias (unit tests)**
 
-  [ ] Se pasan todas las pruebas unitarias.
+  - [ ] Se pasan todas las pruebas unitarias.
 
 * **Módulos de ECMAScript (ES Modules)**
 
-  [ ] La aplicación usan
+  - [ ] La aplicación usan
   [`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
   y
   [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export)
@@ -342,32 +357,32 @@ El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
 
 * **Uso de linter (ESLINT)**
 
-  [ ] Al ejecutar el linter no se muestran errores de formato y estilo.
+  - [ ] Al ejecutar el linter no se muestran errores de formato y estilo.
 
 * **Uso de identificadores descriptivos (Nomenclatura y Semántica)**
 
-  [ ] En el código se utilizan identificadores descriptivos para variables
+  - [ ] En el código se utilizan identificadores descriptivos para variables
   y funciones.
 
 ### Control de Versiones (Git y GitHub)
 
 * **GitHub: Creación de cuenta y repos, configuración de llaves SSH**
 
-  [ ] La estudiante creó una cuenta en Github.
+  - [ ] La estudiante creó una cuenta en Github.
 
-  [ ] La estudiante configuró su cuenta de Github con una llave SSH.
+  - [ ] La estudiante configuró su cuenta de Github con una llave SSH.
 
 * **Git: Control de versiones con git (clone, add, commit, push)**
 
-  [ ] La estudiante creó un _fork_ para su proyecto.
+  - [ ] La estudiante creó un _fork_ para su proyecto.
 
-  [ ] La estudiante clonó su repositorio usando una llave SSH.
+  - [ ] La estudiante clonó su repositorio usando una llave SSH.
 
-  [ ] La estudiante creó _commits_ y los guardó en Github.
+  - [ ] La estudiante creó _commits_ y los guardó en Github.
 
 * **GitHub: Despliegue con GitHub Pages**
 
-  [ ] La aplicación está desplegada en Github Pages.
+  - [ ] La aplicación está desplegada en Github Pages.
 
 ### Centrado en el usuario
 
@@ -376,13 +391,13 @@ usuarias en el centro**
 
 ### Diseño de producto
 
-* **Crear prototipos de alta fidelidad que incluyan interacciones**
+* **Diseñar en distintos niveles de fidelidad**
 
-  [ ] La estudiante creó prototipos de alta fidelidad para la UI (interfaz gŕafica).
+  - [ ] La estudiante creó prototipos de baja fidelidad para la UI (interfaz gŕafica).
 
 * **Seguir los principios básicos de diseño visual**
 
-  [ ] Se tuvieron en cuenta las reglas básica del
+  - [ ] Se tuvieron en cuenta las reglas básica del
   [diseño visual](https://coda.io/d/Bootcamp-UX-Contenido_dqkqk2rV9Z2/Reglas-basicas-de-diseno-visual_suVcO)
   para diseñar la UI (interfáz gráfica)
 
@@ -475,32 +490,62 @@ como se muestra en la siguiente imagen:
 
 ### Prepara tu PC para trabajar
 
-1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
-   condiciones, algo como [VS Code](https://code.visualstudio.com/).
-2. Para ejecutar los comandos a continuación necesitarás una :shell:
-   [UNIX Shell](../../topics/shell),
-   que es un programita que interpreta líneas de comando (command-line
-   interpreter) así como tener [git](../../topics/scm/01-git)
-   instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
-   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
-   también). Si usas Windows puedes usar la versión completa de
-   [Cmder](https://cmder.app/) que incluye
-   [Git bash](https://git-scm.com/download/win).
-3. Tus _coaches_ te compartirán un _link_ a un repo y te darán acceso de lectura.
-   Debes realizar un :fork_and_knife:
-   [fork](https://help.github.com/articles/fork-a-repo/) del repo.
-4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   tu _fork_ a tu computadora (copia local).
-5. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
-   asume que has instalado [Node.js](https://nodejs.org/) (que incluye
-   [npm](https://docs.npmjs.com/)).
-6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
-   pruebas unitarias (unit tests) con el comando `npm test`.
-7. Para ver la interfaz de tu programa en el navegador, usa el comando
-   `npm start` para arrancar el servidor web y dirígete a
-   `http://localhost:5000` en tu navegador.
-8. A codear se ha dicho! :rocket:
+Antes de comenzar instala lo siguiente:
+
+1. [Node.js](https://nodejs.org/)
+2. [git](https://git-scm.com/download/) Si estas en Linux es muy probable que
+  ya este instalado 👀.
+  Para conocer más de git visita
+  [este enlace](https://curriculum.laboratoria.la/es/topics/scm/01-git)
+3. Un editor de código, te sugerimos [Code](https://code.visualstudio.com/)
+
+Después en [GitHub](https://github.com/):
+
+1. Crear una cuenta. Conoce más de GitHub en este
+  [link](https://curriculum.laboratoria.la/es/topics/scm/02-github/01-github)
+2. Realiza un fork de este proyecto
+3. Configura tu SSH Key  en GitHub. Puedes revisar este
+[video](https://www.youtube.com/watch?v=g0ZV-neSM7E) o
+[artículo](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+Luego en una [shell](https://curriculum.laboratoria.la/es/topics/shell)
+ejecuta lo siguiente. Si estas en Windows puedes usar Git Bash:
+
+1. Clona el fork en tu PC
+2. Ubica la shell en el proyecto que clonaste
+3. Instala las dependencias del proyecto con `npm install`
+4. Instala `playwright` con `npx playwright install chromium --with-deps`
+5. Para arrancar el servidor web `npm start` y dirígete a
+   `http://localhost:3000` en tu navegador.
+6. A codear se ha dicho! :rocket:
 
 ### Recursos y temas relacionados
 
-Súmate al canal de Slack [#project-text-analyzer](https://claseslaboratoria.slack.com/archives/C03LXJ10WJD)
+Súmate al canal de Slack [#project-text-analyzer](https://claseslaboratoria.slack.com/archives/C058GP6K9NY)
+
+## 8. Objetivos de aprendizaje
+
+> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
+> al crear el repo del proyecto para un cohort en particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
+> que contempla nuestra currícula.
+
+## 9. Funcionalidades opcionales
+
+Si terminaste con todas las [funcionalidades requeridas](#3-funcionalidades),
+intenta implementar las siguientes funcionalidades opcionales para
+profundizar en los objetivos de aprendizaje del proyecto:
+
+* Que el recuento de palabras y caracteres sea 0 para una entrada de
+  texto vacía.
+* Que el recuento de palabras y caracteres sea 0 para una entrada de
+  texto con solo espacios.
+* Que el recuento de palabras y caracteres sea 0 para una entrada de
+  texto con solo caracteres de puntuación.
+
+Puedes habilitar las pruebas unitarias y en _end to end_ de estos casos
+en los archivos [test/analyzer.spec.js](test/analyzer.spec.js) y
+[read-only/test/e2e/app.spec.js](read-only/test/e2e/app.spec.js).
