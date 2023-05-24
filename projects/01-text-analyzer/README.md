@@ -75,7 +75,7 @@ resultado en tiempo real a medida que el usuario escribe su texto:
 3. La aplicación debe permitir limpiar el contenido de la caja de texto haciendo
 clic en un botón.
 
-![Text analyzer demo](docs/images/text-analyzer-demo.gif "Text analyzer demo")
+![Text analyzer demo](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650556-988dcd6f-bc46-473b-894c-888a66c9fe2d.gif "Text analyzer demo")
 
 ## 4. Boilerplate
 
@@ -421,7 +421,7 @@ confirmará que los valores retornados sean los esperados.
 Puedes ejecutar estas pruebas con el comando `npm run test` como se muestra
 en la siguiente imagen:
 
-![npm run test](docs/images/npm-run-test.gif "npm run test")
+![npm run test](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650584-c8267968-d631-4fbb-b05f-458a970544b7.gif "npm run test")
 
 El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
 [htmlhint](https://github.com/yaniswang/HTMLHint) para verificar el `HTML` y
@@ -450,7 +450,7 @@ Cada criterio esta relacionado con un objetivo de aprendizaje.
 Puedes ejecutar todas estas pruebas con el comando `npm run test:oas`
 como se muestra en la siguiente imagen:
 
-![npm run test oas](docs/images/npm-run-test-oas.gif "npm run test oas")
+![npm run test oas](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650602-f0ca9170-7563-4edc-9e78-874fa012c4fd.gif "npm run test oas")
 
 Puedes ejecutar las pruebas de cada grupo de objetivos de aprendizaje de
 manera individual con los siguientes comandos:
@@ -471,7 +471,7 @@ partes del sistema funcionan correctamente en conjunto.
 Puedes ejecutar estas pruebas con el comando `npm run test:e2e` como se muestra
 en la siguiente imagen:
 
-![npm run test e2e](docs/images/npm-run-test-e2e.gif "npm run test e2e")
+![npm run test e2e](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650622-a4da630e-8d39-4dd8-9fde-1a38c31a53e2.gif "npm run test e2e")
 
 ### Github actions
 
@@ -484,7 +484,7 @@ Puedes consultar el resultado de esta Github Action
 en la pestaña _Actions_ de tu repositorio en Github
 como se muestra en la siguiente imagen:
 
-![Github Action](docs/images/githubaction.gif "Github Action")
+![Github Action](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650640-a8a8ed26-6f48-4053-8b3b-7dec7e35a9f8.gif "Github Action")
 
 ## 7. Pistas, tips y lecturas complementarias
 
