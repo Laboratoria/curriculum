@@ -91,10 +91,11 @@ Blog posts:
 
 Videos:
 
-* [Programming Paradigms](https://www.youtube.com/watch?v=sqV3pL5x8PI),
+* [Programming Paradigms](https://www.youtube.com/watch?v=sqV3pL5x8PI "Programming Paradigms /no-iframe/"),
   `10:43`, [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA),
   30 Aug 2013
-* [HTML IS a Programming Language (Imperative vs Declarative)](https://www.youtube.com/watch?v=4A2mWqLUpzw),
+* [HTML IS a Programming Language (Imperative vs Declarative)](https://www.youtube.com/watch?v=4A2mWqLUpzw 
+  "HTML IS a Programming Language (Imperative vs Declarative) /no-iframe/"),
   `8:27`, [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA),
   Jun 28 2016
 * [Qué es un paradigma de programación](https://www.video2brain.com/mx/tutorial/que-es-un-paradigma-de-programacion),

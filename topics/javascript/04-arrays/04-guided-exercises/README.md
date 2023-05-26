@@ -38,9 +38,9 @@ search`](https://en.wikipedia.org/wiki/Linear_search). Con este ejercicio
 introducimos el concepto de `algoritmo`. Para entender qué es un algoritmo,
 revisa los siguientes videos:
 
-- [Magic Markers: ¿Qué es un algoritmo?](https://www.youtube.com/watch?v=U3CGMyjzlvM)
-- [Kahn Academy: ¿Qué es un algoritmo y por qué debería importarte?]
-  (<https://es.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms>)
+- [Magic Markers: ¿Qué es un algoritmo?](https://www.youtube.com/watch?v=U3CGMyjzlvM
+  "Magic Markers: ¿Qué es un algoritmo? /no-iframe/")
+- [Kahn Academy: ¿Qué es un algoritmo y por qué debería importarte?](https://es.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms)
 
 ## Solucionarios
 
