@@ -9,8 +9,9 @@
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Pruebas](#6-pruebas)
 * [7. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
-* [8. Objetivos de aprendizaje](#8-objetivos-de-aprendizaje)
-* [9. Funcionalidades opcionales](#9-funcionalidades-opcionales)
+* [8. Consideraciones para pedir tu Project Feedback](#8-consideraciones-para-pedir-tu-project-feedback)
+* [9. Objetivos de aprendizaje](#9-objetivos-de-aprendizaje)
+* [10. Funcionalidades opcionales](#10-funcionalidades-opcionales)
 
 ***
 
@@ -140,6 +141,7 @@ El boilerplate que les damos contiene esta estructura:
   los números que se encuentran en el parámetro `text` de tipo `string`.
   - `analyzer.getAverageWordLength(text)`: esta función debe retornar la longitud
   media de palabras que se encuentran en el parámetro `text` de tipo `string`.
+  En este caso usa 2 dígitos decimales.
 
   Para ejemplo de uso de cada función recomendamos ver el archivo
   [`test/analyzer.spec.js`](./test/analyzer.spec.js).
@@ -523,7 +525,25 @@ ejecuta lo siguiente. Si estas en Windows puedes usar Git Bash:
 
 Súmate al canal de Slack [#project-text-analyzer](https://claseslaboratoria.slack.com/archives/C058GP6K9NY)
 
-## 8. Objetivos de aprendizaje
+## 8. Consideraciones para pedir tu Project Feedback
+
+Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
+
+* [ ] Cumple con todos los criterios mínimos de aceptación al ejecutar `npm run test:oas`
+* [ ] Cumple con todas las pruebas unitarias al ejecutar `npm run test`
+* [ ] Cumple con todas las pruebas _end to end_ al ejecutar `npm run test:e2e`
+* [ ] Esta libre de _errores_ de `eslint` al ejecutar `npm run test`
+* [ ] Está subido a GitHub.
+* [ ] Esta desplegado en GitHub Pages.
+* [ ] Tiene un README con la definición del producto.
+
+Recuerda que debes hacer una autoevaluación de _objetivos de aprendizaje_ y
+_life skills_ desde tu dashboard de estudiante.
+
+Si no has completado todo lo anterior, no consideramos que estás lista para
+tu sesión de Project Feedback.
+
+## 9. Objetivos de aprendizaje
 
 > ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
@@ -533,7 +553,7 @@ Súmate al canal de Slack [#project-text-analyzer](https://claseslaboratoria.sla
 > Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
 > que contempla nuestra currícula.
 
-## 9. Funcionalidades opcionales
+## 10. Funcionalidades opcionales
 
 Si terminaste con todas las [funcionalidades requeridas](#3-funcionalidades),
 intenta implementar las siguientes funcionalidades opcionales para
