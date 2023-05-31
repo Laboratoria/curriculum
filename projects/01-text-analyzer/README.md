@@ -26,6 +26,8 @@
 
 ## 2. Preámbulo
 
+![Una lupa sobre texto de libro](https://github.com/Laboratoria/bootcamp/assets/92090/2b45f653-69a5-4282-a65c-d34125c36113)
+
 Un analizador de texto es una aplicación para extraer información útil de un
 texto utilizando diversas técnicas, como el procesamiento del lenguaje
 natural (NLP), el aprendizaje automático (ML) y el análisis estadístico.
@@ -433,7 +435,7 @@ automáticamente antes de ejecutar las pruebas unitarias cuando usamos el comand
 configuración de `eslint` que se llama `.eslintrc` que contiene un mínimo de
 información sobre el parser que usar (qué version de JavaScript/ECMAScript), el
 entorno (browser en este caso) y
-las [reglas recomendadas (`"eslint:recommended`)](https://eslint.org/docs/rules/).
+las [reglas recomendadas (`eslint:recommended`)](https://eslint.org/docs/rules/).
 En cuanto a reglas/guías de estilo en sí,
 usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
