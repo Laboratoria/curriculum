@@ -228,6 +228,8 @@ const es = {
   'gym': 'Ejercicios',
 
   'quiz-results': 'Respuestas correctas: {success}/{total}',
+
+  'emergency-room': 'Sala de Emergencias',
 };
 
 export default es;

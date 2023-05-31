@@ -231,6 +231,8 @@ const pt = {
   'gym': 'Exercícios',
 
   'quiz-results': 'Respostas corretas: {success}/{total}',
+
+  'emergency-room': 'Sala de Emergências',
 };
 
 export default pt;
