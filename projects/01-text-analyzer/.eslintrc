@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "no-console": "warn",
+    "no-var": "error",
+    "prefer-const": "error",
+    "eqeqeq": "error",
+    "indent": ["error", 2]
+  }
+}

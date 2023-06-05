@@ -1,0 +1,25 @@
+track: web-dev
+learningObjectives:
+  - html/semantics
+  - css/selectors
+  - css/box-model
+  - browser/dom/selectors
+  - browser/dom/events
+  - browser/dom/manipulation
+  - js/data-types/primitive
+  - js/data-types/strings
+  - js/variables
+  - js/conditionals
+  - js/loops
+  - js/functions
+  - js/testing/unit
+  - js/modules/es-modules
+  - js/linting
+  - js/semantics
+  - scm/git/setup
+  - scm/git/intro
+  - scm/github/setup
+  - scm/github/gh-pages
+  - user-centricity/centricity
+  - product-design/fidelity
+  - product-design/visual-design
