@@ -325,6 +325,8 @@ si tienes dudas existenciales con respecto a estas decisiones. No existe una
 ### Tutoriales / NodeSchool workshoppers
 
 * [learnyounode](https://github.com/workshopper/learnyounode)
+  Considera los primeros puntos para conocer más de Node.js, y cuales
+  son pertinentes a este proyecto, no es necesario hacer todos los pasos.
 * [how-to-npm](https://github.com/workshopper/how-to-npm)
 * [promise-it-wont-hurt](https://github.com/stevekane/promise-it-wont-hurt)
 
