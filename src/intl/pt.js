@@ -232,7 +232,44 @@ const pt = {
 
   'quiz-results': 'Respostas corretas: {success}/{total}',
 
+  'trivia': 'Trivia',
+
+  'card-validation': 'Cartão de Crédito Válido',
+
+  'cipher': 'Cifra de César',
+
+  'data-lovers': 'Data Lovers',
+
   'emergency-room': 'Sala de Emergências',
+
+  'memory-match': 'Memory Match Game',
+
+  'movie-challenge': 'Movie Challenge',
+
+  'social-network': 'Criando uma Rede Social',
+
+  'burger-queen-api': 'Burger Queen - API com Node.js',
+
+  'burger-queen-api-client': 'Burger Queen (API Client)',
+
+  'md-links': 'Markdown Links',
+
+  'movie-challenge-fw': 'Desafio de Filmes com Framework',
+
+  'job-application': 'Projeto Job Application',
+
+  'browser': 'Browser JavaScript',
+
+  'css': 'CSS',
+
+  'html': 'HTML',
+
+  'javascript': 'JavaScript',
+
+  'scm': 'Source Code Management (SCM) - Git + GitHub',
+
+  'shell': 'Unix Shell',
+
 };
 
 export default pt;
