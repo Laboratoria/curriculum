@@ -10,3 +10,4 @@ export const themeConfig = {
 
 export const Loading = () => <>Loading...</>;
 export const ScrollRestoration = () => null;
+export const setPage = () => null;

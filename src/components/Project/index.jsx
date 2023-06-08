@@ -75,7 +75,7 @@ const Project = () => {
   const [learningObjectives, setLearningObjectives] = useState();
   const { formatMessage } = useIntl();
   const pageTitle = formatMessage({id: slug});
-  setPage(pageTitle ? {title: pageTitle} : {title: 'Laboratoria Currículum'});
+  setPage(pageTitle !== slug ? {title: pageTitle} : {title: formatMessage({id: 'app-title'})});
   
   useEffect(() => {
     const id = `projects/${slug}`;

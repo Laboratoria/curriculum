@@ -229,6 +229,8 @@ const es = {
 
   'quiz-results': 'Respuestas correctas: {success}/{total}',
 
+  'app-title': 'Laboratoria Currículum',
+
   'hcd-intro': 'Intro al diseño centrado en el humano',
 
   'trivia': 'Trivia',

@@ -232,6 +232,8 @@ const pt = {
 
   'quiz-results': 'Respostas corretas: {success}/{total}',
 
+  'app-title': 'Laboratoria Currículum',
+
   'trivia': 'Trivia',
 
   'card-validation': 'Cartão de Crédito Válido',

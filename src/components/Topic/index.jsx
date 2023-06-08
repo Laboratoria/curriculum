@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import { Link, Route, Routes, useParams } from 'react-router-dom';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, useIntl } from 'react-intl';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
-import { Loading, Challenge } from '@laboratoria/react';
+import { Loading, Challenge, setPage } from '@laboratoria/react';
 import data from '../../lib/data';
 import Breadcrumbs from '../Breadcrumbs';
 import Part from '../Part';
@@ -71,6 +71,9 @@ const ChallengeRoute = ({ topic, lang }) => {
 const Topic = () => {
   const { lang, slug } = useParams();
   const [topic, setTopic] = useState();
+  const { formatMessage } = useIntl();
+  const pageTitle = formatMessage({id: slug});
+  setPage(pageTitle !== slug ? {title: pageTitle} : {title: formatMessage({id: 'app-title'})});
 
   useEffect(() => {
     const id = `topics/${slug}`;

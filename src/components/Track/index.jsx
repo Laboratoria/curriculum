@@ -14,7 +14,7 @@ import Container from '@mui/material/Container';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
-import { Loading } from '@laboratoria/react';
+import { Loading, setPage } from '@laboratoria/react';
 import data from '../../lib/data';
 import Gym from './Gym';
 import Projects from './Projects';
@@ -24,10 +24,11 @@ const Track = () => {
   const location = useLocation();
   const { lang, track } = useParams();
   const { pathnameBase } = useMatch('/:lang/:track/*');
-  const intl = useIntl();
   const [learningObjectives, setLearningObjectives] = useState();
   const [projects, setProjects] = useState();
   const [topics, setTopics] = useState();
+  const { formatMessage } = useIntl();
+  setPage({title: formatMessage({id: track === 'web-dev' ? 'webDev' : 'ux'})});
 
   useEffect(() => {
     data.subscribe('learning-objectives', setLearningObjectives);
@@ -71,20 +72,20 @@ const Track = () => {
       {heading}
       <Tabs value={location.pathname} sx={{ mb: 3 }}>
         <Tab
-          label={intl.formatMessage({ id: 'projects' })}
+          label={formatMessage({ id: 'projects' })}
           value={pathnameBase}
           component={Link}
           to=""
         />
         <Tab
-          label={intl.formatMessage({ id: 'topics' })}
+          label={formatMessage({ id: 'topics' })}
           value={`${pathnameBase}/topics`}
           component={Link}
           to={`topics`}
         />
         {track === 'web-dev' && (
           <Tab
-            label={intl.formatMessage({ id: 'gym' })}
+            label={formatMessage({ id: 'gym' })}
             value={`${pathnameBase}/gym`}
             component={Link}
             to={`gym`}
@@ -99,7 +100,7 @@ const Track = () => {
         {track === 'web-dev' && (
           <Route
             path={`gym`}
-            element={<Gym lang={lang} intl={intl} />}
+            element={<Gym lang={lang} intl={formatMessage} />}
           />
         )}
         <Route

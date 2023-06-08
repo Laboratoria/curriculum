@@ -5,6 +5,7 @@ import Alert from '@mui/material/Alert';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
+import { setPage } from '@laboratoria/react';
 
 const version = process.env.REACT_APP_VERSION;
 const isPrerelease = /(alpha|beta)/.test(version);
@@ -13,6 +14,8 @@ const Home = () => {
   const theme = useTheme();
   const { lang } = useParams();
   const { formatMessage } = useIntl();
+  setPage({title: formatMessage({id: 'app-title'})});
+
   const linkStyle = {
     display: 'block',
     position: 'relative',
