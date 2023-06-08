@@ -257,10 +257,9 @@ no el resultado. ¿Fuiste cambiando cosas en el camino?, ¿Cuáles?, ¿Por qué?
 #### Si estás dando tus primeros pasos en el Desarrolo Web
 
 Quizás prefieras trabajar con alguna herramienta de edición de código en línea
-como [Replit](https://repl.it)  o [CodeSandbox](https://codesandbox.io/).
+como [Glitch](https://glitch.com/), [Codepen](https://codepen.io/)  o [CodeSandbox](https://codesandbox.io/).
 
-[Tutorial Replit](https://www.loom.com/share/2f796990c8054df793c8b61ddebf63ad)
-
+<!--[Tutorial Glitch]()-->
 [Tutorial CodeSandbox](https://www.loom.com/share/7dc9fcef9cdb4c6a826dd702ab214452)
 
 ### Recursos y temas relacionados
