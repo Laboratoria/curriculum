@@ -102,6 +102,15 @@ const addBootcampInfo = async (repoDir) => {
   await writeFile(projectPkgJsonPath, JSON.stringify(pkg, null, 2));
 };
 
+const addExplainDevConfigFile = async (slug, prefix, repoDir) => {
+  const explainDevConfigFilePath = path.resolve(`${repoDir}/explaindev.json`);
+  const explainDevConfig = {
+    project: slug,
+    cohort: prefix,
+  }
+  await writeFile(explainDevConfigFilePath, JSON.stringify(explainDevConfig, null, 2));
+};
+
 const linkToString = ({ title, url }, lang) => (
   `[${title}](${url.startsWith('topics/') ? `${uiUrl}/${lang}/${url}` : url})`
 );
@@ -240,6 +249,7 @@ const main = async (args, opts) => {
   await ensureRepoDir(repoDir, opts);
   await copy(src, repoDir, opts);
   await addBootcampInfo(repoDir);
+  await addExplainDevConfigFile(slug, prefix, repoDir);
   const meta = await loadYaml(path.join(src, 'project.yml'));
   // console.log('learning Objectives son', learningObjectives);
   await addLocalizedLearningObjectives(repoDir, opts, meta);
