@@ -6,20 +6,20 @@
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Entregables](#6-entregables)
+* [5. Consideraciones técnicas](#5-consideraciones-técnicas)
+* [6. Hitos](#6-hitos)
 * [7. Hacker edition](#7-hacker-edition)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Checklist](#9-checklist)
-* [10. Achicando el problema](#10-achicando-el-problema)
+* [8.Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+* [9. Para pedir project feedback](#9-para-pedir-project-feedback)
+
 
 ***
 
 ## 1. Preámbulo
 
 [Markdown](https://es.wikipedia.org/wiki/Markdown) es un lenguaje de marcado
-ligero muy popular entre developers. Es usado en muchísimas plataformas que
-manejan texto plano (GitHub, foros, blogs, ...) y es muy común
+ligero muy popular entre desarrolladores. Es usado en muchísimas plataformas que
+manejan texto plano (GitHub, foros, blogs, etc.) y es muy común
 encontrar varios archivos en ese formato en cualquier tipo de repositorio
 (empezando por el tradicional `README.md`).
 
@@ -36,11 +36,10 @@ algunas estadísticas.
 
 ## 2. Resumen del proyecto
 
-En este proyecto crearás una herramienta de línea de comando (CLI) así como tu
-propia librería (o biblioteca - library) en JavaScript.
+En este proyecto crearás una biblioteca de código que servirá como herramienta para analizar enlaces dentro de archivos Markdown. Esta biblioteca será accesible desde la línea de comandos (CLI) que permitirá al usuario ejecutar la biblioteca directamente desde el terminal. Esta librería, escrita en Node.js, se encargará de analizar los archivos en formato Markdown. La biblioteca será accesible al importarla desde el módulo publicado.
 
 En esta oportunidad nos alejamos un poco del navegador para construir un
-programa que se ejecute usando Node.js. Aprenderemos sobre procesos
+script que se ejecute usando Node.js. Aprenderemos sobre procesos
 (`process.env`, `process.argv`, ...), cómo interactuar con el sistema archivos,
 cómo hacer consultas de red, etc.
 
@@ -69,7 +68,19 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
 * Este proyecto se debe "resolver" de manera individual.
 
-* El rango de tiempo estimado para completar el proyecto es de 4 a 5 Sprints.
+* El rango de tiempo estimado para completar el proyecto es de 3 a 5 sprints.
+
+* Consideramos los hitos 1 y 2 como los criterios de aceptación mínimos del proyecto.
+
+* Enfócate en aprender y no solamente en "completar" todos los hitos del proyecto.
+
+* Te sugerimos que no intentes saber todo de Node.js antes de empezar a codear. No es necesario tomar un curso de Node.js completo. Aprenderás a medida que avances en el proceso.
+
+## 5. Consideraciones técnicas
+
+Para comenzar este proyecto tendrás que hacer un fork y clonar este repositorio.
+
+* En este proyecto hay que adoptar las convenciones que los proyectos open source de software usan para hacer seguimiento. Vas a usar Github projects con Issues y milestones para priorizar y organizar el trabajo y hacer seguimiento de tu proceso. Dentro de cada milestone se crearán y asignarán los issues que cada quien considere necesarios.
 
 * La **librería** y el **script ejecutable** (herramienta de línea de comando -
   CLI) deben estar implementados en JavaScript para ser ejecutados con
@@ -81,36 +92,20 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
   programáticamente.
 
 * Los **tests unitarios** deben cubrir un mínimo del 70% de _statements_,
-  _functions_, _lines_ y _branches_. Te recomendamos explorar [Jest](https://jestjs.io/)
-  para tus pruebas unitarias.
+  _functions_, _lines_ y _branches_. Te recomendamos explorar [Jest](https://jestjs.io/) para tus pruebas unitarias.
 
 * Para este proyecto **no está permitido** utilizar `async/await`.
 
-* Para este proyecto te sugerimos **no utilizar** la versión síncrona
-  de la función para leer archivos, `readFileSync`, y en cambio intentar
-  resolver este desafío de manera asíncrona.
+* Para este proyecto, te recomendamos utilizar los módulos CommonJS con `require`,  que es el formato de módulos original de Node.js. Si prefieres utilizar ES Modules 
+`(import/export)`, puedes hacerlo, pero ten en cuenta que deberás configurar adecuadamente tu proyecto para que Node.js pueda utilizar este formato. Puedes encontrar más información al respecto [aquí](https://nodejs.org/api/esm.html#enabling)
 
-* Para este proyecto es **opcional** el uso de ES Modules `(import/export)`, en el
-  caso optes utilizarlo deberás de crear un script de `build` en el `package.json`
-  que los transforme en `requires` y `module.exports` con ayuda de **babel**.
+* Para este proyecto, te recomendamos evitar el uso de la función síncrona
+  `readFileSync` para leer archivos. En su lugar, te sugerimos abordar este desafío de manera asíncrona utilizando `readFile`. Además, si utilizas el módulo [require("fs/promises")](https://nodejs.org/dist/latest-v18.x/docs/api/fs.html), podrás aprovechar las promesas con `readFile`. 
 
 * Para disminuir la complejidad de tu algoritmo recursivo, te recomendamos
   utilizar la versión síncrona de la función para leer directorios, `readdirSync`.
 
-## 5. Criterios de aceptación mínimos del proyecto
-
-Para comenzar este proyecto tendrás que hacer un **_fork_** y **_clonar_** este
-repositorio.
-
-Antes de codear, es necesario crear un **plan de acción**. Esto debería
-quedar detallado en el `README.md` de tu repo y en una serie de **_issues_**
-y **_milestones_** para priorizar y organizar el trabajo, y para poder hacer
-seguimiento de tu progreso.
-
-Dentro de cada **_milestone_** se crearán y asignarán los **_issues_** que cada quien
-considere necesarios.
-
-### Archivos del proyecto
+### Descripción de los archivos del proyecto
 
 * `README.md` con descripción del módulo, instrucciones de instalación/uso,
   documentación del API y ejemplos. Todo lo relevante para que cualquier
@@ -130,26 +125,27 @@ considere necesarios.
 
 Este proyecto lo puedes ir construyendo por hitos. A continuación te sugerimos algunos:
 
-## HITO 1: Javascript API
+## 6. Hitos
 
-Comienza haciendo la versión más sencilla de mdlinks. Crea una función que devuelva una promesa con los links encontrados dentro de un archivo md específico.
+### **HITO 1:** Javascript API
+
+Comienza haciendo la versión más sencilla de mdlinks. Crea una función que devuelva una promesa con los links encontrados dentro de un archivo markdown específico.
 
 Esta función debe ser un módulo que puede **importarse** en otros scripts de Node.js y debe ofrecer la siguiente interfaz:
 
-#### `mdLinks(path)`
+`mdLinks(path)`
 
-##### Argumentos:
+Argumento:
 
 * `path`: Ruta **absoluta** o **relativa** al **archivo** o **directorio**.
 Si la ruta pasada es relativa, debe resolverse como relativa al directorio desde donde se invoca node (transformar a absoluta).
 
-##### Valor de retorno:
+Valor de retorno:
 
-La función `mdLinks(path)` debe **retornar una promesa** (`Promise`) que **resuelva a un arreglo**
-(`Array`) de objetos (`Object`), donde cada objeto representa un link y contiene las siguientes propiedades:
+La función `mdLinks(path)` debe **retornar una promesa** que **resuelva a un arreglo** de objetos, donde cada objeto representa un link y contiene las siguientes propiedades:
 
 * `href`: URL encontrada.
-* `text`: Texto que aparecía dentro del link (`<a>`).
+* `text`: Texto que aparecía dentro del link.
 * `file`: Ruta del archivo donde se encontró el link.
 
 #### Ejemplo (resultados como comentarios)
@@ -164,30 +160,79 @@ mdLinks("./some/example.md")
   .catch(console.error);
 ```
 
-### HITO 2: Javascript API con argumento "options"
+Test unitarios:
 
-Agrega un argumento más a la función mdLinks. El segundo parámetro recibirá un objeto **options** con el valor validate que deberá ser un booleano
+Los tests unitarios son una excelente forma de verificar si tus funciones están funcionando correctamente mientras escribes el código. En este proyecto, recuerda que no hay una interfaz gráfica de navegador, por lo tanto para poderlo probar es necesario recurrir a los test unitarios. 
 
-* Crear una función `mdLinks(path, options)`
+Por ejemplo, es recomendable escribir tests que invoquen la función `mdLinks` y comprueben que esta función resuelva con un arreglo con la información esperada. También es importante probar las otras funciones que hayas escrito en tu código. 
+
+#### Ejemplo:
+```js
+describe('mdLinks', () => {
+  it('debería retornar un arreglo con 3 links para un archivo .md con 3 links', ()=>{
+    return mdLinks('miArchivo.md').then((result) => {
+      expect...
+    });
+  });
+});
+
+```
+
+⚠️ Antes de pasar al siguiente hito, asegúrate de escribir los tests correspondientes al código del hito actual.
+
+## Tareas de este hito:
+
+### ✅ Crea una promesa
+
+El valor de retorno de nuestra librería es una Promesa, no un array (la promesa resuelve un array). Prueba leyendo sobre las promesas y creando una por tu cuenta utilizando new Promise()
+
+Es importante que sepas qué es un callback pues las promesas los utilizarán.
+
+### ✅ Lee un archivo
+
+Empieza leyendo un solo archivo con una ruta fija y retorna su contenido. Para ver este contenido puedes utilizar un console.log al momento de ejecutar la función.
+
+El módulo fs (FileSystem) te será de utilidad. Como mencionamos en las consideraciones técnicas, preferimos que uses readFile (en vez de readFileSync) Y recomendamos el módulo fs/promises para utilizar estas funciones con promesas.
+
+### ✅ Asegúrate que el archivo es markdown
+
+Ya sabiendo leer un archivo, aventúrate a conocer cuál es su extensión.
+
+Recuerda, las extensiones son esas letras al final del nombre de un archivo, por ejemplo: .js, .txt, .doc, etc
+
+Aquí podrá ser útil el módulo `path`.
+
+En caso de que la extensión del archivo no sea md, la promesa de la función mdLinks debería rechazarse con un error.
+
+
+### **HITO 2:** Javascript API con segundo parámetro opcional "validate"
+
+Agrega un argumento más a la función `mdLinks`. El segundo parámetro recibirá un booleano **validate**. Este segundo parámetro será opcional.
+
+Ahora la función deberá ofrecer la siguiente interfaz:
+
+`mdLinks(path, validate)`
   
-  Argumentos:
+Argumentos:
 
   - path: Ruta absoluta o relativa al archivo o directorio. Si la ruta pasada es relativa, debe resolverse como relativa al directorio desde donde se invoca node (transformar a absoluta).
-  - options: Un objeto con únicamente la siguiente propiedad:
-    - validate: Booleano que determina si se desea validar los links encontrados.
 
-* La función `mdLinks(path, options)` debe retornar una promesa (Promise) que resuelva a un arreglo (Array) de objetos (Object), donde cada objeto representa un link y contiene las siguientes propiedades:
+  - validate: Booleano que determina si se desea validar los links encontrados.
 
-Con `validate:false` :
+**Valor que resuelve la promesa con validate = false ó undefined:**
+Un arreglo con objetos que representan links. Cada objeto tiene las propiedades:
 
 * `href`: URL encontrada.
 * `text`: Texto que aparecía dentro del link (`<a>`).
 * `file`: Ruta del archivo donde se encontró el link.
 
-Con `validate:true` :
+_(OJO: el valor anterior es el mismo que el del hito 1)_
+
+**Valor que resuelve la promesa con validate = true:**
+Un arreglo con objetos que representan links. Cada objeto tiene las propiedades:
 
 * `href`: URL encontrada.
-* `text`: Texto que aparecía dentro del link (`<a>`).
+* `text`: Texto que aparecía dentro del link.
 * `file`: Ruta del archivo donde se encontró el link.
 * `status`: Código de respuesta HTTP.
 * `ok`: Mensaje `fail` en caso de fallo u `ok` en caso de éxito.
@@ -197,33 +242,44 @@ Con `validate:true` :
 ```js
 const mdLinks = require("md-links");
 
+
 mdLinks("./some/example.md")
   .then(links => {
     // => [{ href, text, file }, ...]
   })
   .catch(console.error);
 
-mdLinks("./some/example.md", { validate: true })
+
+mdLinks("./some/example.md", true )
   .then(links => {
     // => [{ href, text, file, status, ok }, ...]
   })
   .catch(console.error);
+
+
+mdLinks("./some/example.md", false)
+  .then(links => {
+    // => [{ href, text, file }, ...]
+  })
+  .catch(console.error);
+
 ```
 
-### HITO 3: Buscando dentro de una carpeta
+⚠️ **Test unitarios.** Antes de pasar al siguiente hito, asegúrate de hacer los tests del hito actual. Los tests aquí van a mockear http, fecth o axios.
 
-* Para este hito vas a trabajar con la misma función mdLinks pero esta vez la usuaria será capaz de pasar una carpeta como ruta. 
+### **HITO 3:** Buscando dentro de una carpeta
 
-* El La función `mdLinks(path, options)`  debe recorrer todos los archivos existentes en la carpeta y por cada archivo md que encuentre deberá extraer los links para mostrarlos en pantalla. 
+Para este hito vas a trabajar con la misma función `mdLinks` pero esta vez la usuaria será capaz de pasar una carpeta como ruta. 
 
-* Debes tener en cuenta que la carpeta puede contener archivos con extensiones que no sean md. En este caso debes la función debe ignorarlos. (Crea una carpeta con archivos de diferentes extensiones para probar tu función)
+El La función `mdLinks(path, validate)`  debe recorrer todos los archivos existentes en la carpeta y por cada archivo .md que encuentre deberá extraer los links para mostrarlos en pantalla. 
 
-* Aquí también se deberá tener el cuenta el valor del objeto options
+Debes tener en cuenta que la carpeta puede contener archivos con extensiones que no sean md. En este caso debes la función debe ignorarlos. (Crea una carpeta con archivos de diferentes extensiones para probar tu función)
 
 #### Ejemplo (resultados como comentarios)
 
 ```js
 const mdLinks = require("md-links");
+
 
 mdLinks("./some/dir")
   .then(links => {
@@ -231,48 +287,63 @@ mdLinks("./some/dir")
   })
   .catch(console.error);
 
-mdLinks("./some/dir", { validate: true })
+
+mdLinks("./some/dir", true )
   .then(links => {
     // => [{ href, text, file, status, ok }, ...]
   })
   .catch(console.error);
+
+
+mdLinks("./some/dir", false)
+  .then(links => {
+    // => [{ href, text, file }, ...]
+  })
+  .catch(console.error);
+
 ```
+⚠️ **Test unitarios.** Te recomendamos antes de pasar al siguiente hito hacer los tests del hito actual
 
-### HITO 4: Buscando dentro de subcarpetas
+## Tareas de este hito:
 
-* Misma funcionalidad que el HITO 3 pero ahora la usuaria será capaz de pasar una carpeta como ruta con más carpetas dentro además de posibles archivos. 
+### ✅ Obtén el contenido de un directorio
 
-* La función `mdLinks(path, options)`  tendrá que recorrer todas las carpetas existentes en la ruta y buscar los links en todos los archivos md que encuentre.
+Este hito consiste en buscar archivos en un directorio (o carpeta). Para eso, hay que leer el directorio, osea ver que está dentro. 
 
-* Para resolver este hito te recomendacón leer acerca del concepto de recursividad.
+El módulo de `fs` también te será útil aquí. Recomendamos `readdirSync`.
 
-* Los resultados van a depender del valor que se obtenga dentro del objeto options.
+Intenta imprimir en consola la lista de archivos en una carpeta para probar como funciona.
 
-### HITO 5: CLI - Interfaz de Línea de Comando
+### ✅ Une dos rutas
 
-En este último hito, crearás un paquete ejecutable de tu código, el mismo que deberá estar documentado y alojado en [npm](https://www.npmjs.com/) para poderlo descargar.
+Para poder acceder a carpetas y archivos será necesario que indiques en qué lugar de tu computadora se encuentran, a esto le llamamos rutas.
 
-El ejecutable de nuestra aplicación debe poder ejecutarse de la siguiente manera a través de la **terminal**:
+Usa el módulo path para unir dos segmentos de ruta a una ruta completa, por ejemplo, si queremos unir:
+
+/home/Laboratoria/
+
+./test
+
+El resultado sería: /home/Laboratoria/test
+
+
+### **HITO 4:** - Interfaz de Línea de comando
+
+En este hito, crearás un paquete ejecutable de tu código, el mismo que internamente ejecutará la función mdLinks que acabas de crear.
+
+Tu módulo debe ser instalable via npm install `<github-user>/md-links`.
+
+Este módulo debe incluir tanto un ejecutable que podamos invocar en la línea de comando como una interfaz que podamos importar con require para usarlo programáticamente.
+
+Este paquete deberá estar documentado y alojado en npm para poderlo descargar.
+
+El ejecutable de tu aplicación debe poder correr de la siguiente manera a través de la terminal:
 
 `md-links <path-to-file> [options]`
 
 Por ejemplo:
 
-```sh
-$ md-links ./some/example.md
-
-./some/example.md 
-http://algo.com/2/3/ 
-Link a algo
-
-./some/example.md 
-https://otra-cosa.net/algun-doc.html 
-algún doc
-
-./some/example.md 
-http://google.com/ 
-Google
-```
+![mdlinks-example](https://github.com/Laboratoria/bootcamp/assets/123121338/7dcc83c4-873e-4ef8-b7d0-a15adb102680)
 
 El comportamiento por defecto no debe validar si las URLs responden ok o no, solo debe identificar el archivo markdown (a partir de la ruta que recibe como argumento), analizar el archivo Markdown e imprimir los links que vaya
 encontrando, junto con la ruta del archivo donde aparece y el texto que hay dentro del link (truncado a 50 caracteres).
@@ -287,27 +358,7 @@ URL que responde ok, entonces consideraremos el link como ok.
 
 Por ejemplo:
 
-```sh
-$ md-links ./some/example.md --validate
-
-./some/example.md 
-http://algo.com/2/3/ 
-ok 
-200 
-Link a algo
-
-./some/example.md 
-https://otra-cosa.net/algun-doc.html 
-fail 
-404 
-algún doc
-
-./some/example.md 
-http://google.com/ 
-ok 
-301 
-Google
-```
+![mdlinks-example-validate](https://github.com/Laboratoria/bootcamp/assets/123121338/502cbafc-b4ac-4734-85b3-1734f67af1d3)
 
 Vemos que el _output_ en este caso incluye la palabra `ok` o `fail` después de
 la URL, así como el status de la respuesta recibida a la petición HTTP a dicha
@@ -318,29 +369,33 @@ URL.
 Si pasamos la opción `--stats` el output (salida) será un texto con estadísticas
 básicas sobre los links.
 
-```sh
-$ md-links ./some/example.md --stats
+![mdlinks-example-stats](https://github.com/Laboratoria/bootcamp/assets/123121338/910720c6-aa3f-4d08-b076-c1add13c95f1)
 
-Total: 3
-Unique: 3
-```
-
-También podemos combinar `--stats` y `--validate` para obtener estadísticas que
+También podemos combinar `--validate` y `--stats` para obtener estadísticas que
 necesiten de los resultados de la validación.
 
-```sh
-$ md-links ./some/example.md --stats --validate
+![mdlinks-example-stats-validate](https://github.com/Laboratoria/bootcamp/assets/123121338/9d9971a0-866a-4c64-a890-4c62c3df3700)
 
-Total: 3
-Unique: 3
-Broken: 1
-```
+Para ejecutar tu script utilizando el comando `mdlinks`, debes vincular este comando al sistema. Sin embargo, antes de vincular el comando, puedes desarrollar tu interfaz de línea de comandos (CLI) invocándola con node. Por ejemplo, puedes usar el siguiente comando: 
 
-## 6. Entregables
+`node <RUTA_DE_TU_CLI.js> ruta options`
 
-Módulo instalable via `npm install <github-user>/md-links`. Este módulo debe
-incluir tanto **un ejecutable** como **una interfaz** que podamos importar con `require`
-para usarlo programáticamente.
+### **HITO 5:** - Buscando dentro de subcarpetas
+
+
+Misma funcionalidad que el HITO 3 pero ahora la usuaria será capaz de pasar una carpeta como ruta con más carpetas dentro además de posibles archivos. 
+
+La función `mdLinks(path, validate)` tendrá que recorrer todas las carpetas existentes en la ruta y buscar los links en todos los archivos md que encuentre.
+
+Para resolver este hito te recomendacón leer acerca del concepto de recursividad y ver algunos ejemplos (ojo con concepto de casos base)
+
+¿Por qué utilizaremos la recursividad aquí?
+
+La recursividad se utiliza en este caso porque no conocemos de antemano la cantidad de carpetas y archivos que tendremos que recorrer antes de finalizar. Cuando recibimos una ruta de carpeta, no sabemos si dentro de ella hay más carpetas que también debemos abrir y leer, y estas a su vez pueden contener más carpetas. Este tipo de problema se resuelve de manera eficiente utilizando un proceso recursivo.
+
+Entre los recursos de este proyecto hay un video que te ayudará.
+
+⚠️ **Test unitarios.** Te recomendamos antes de pasar al siguiente hito hacer los tests del hito actual
 
 ## 7. Hacker edition
 
@@ -357,9 +412,40 @@ profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
 
 ## 8. Pistas, tips y lecturas complementarias
 
-### FAQs
+### **Inicia con un diagrama de flujo y/o pseudocódigo**
 
-#### ¿Cómo hago para que mi módulo sea _instalable_ desde GitHub?
+Este proyecto difiere de los anteriores en los que has trabajado, ya que no implica una interfaz web. Todo el desarrollo se llevará a cabo en tu editor y en la consola/terminal.
+
+El proyecto se basa en un proceso lógico compuesto por diferentes pasos. Para comprender mejor lo que debes hacer y planificar tus tareas y objetivos, se recomienda desglosar el proceso en pasos y visualizarlo mediante un diagrama de flujo o escribiendo frases de pseudocódigo
+
+### **Sugerencias de implementación**
+
+La implementación de este proyecto tiene varias partes: leer del sistema de archivos, recibir argumentos a través de la línea de comando, analizar texto, hacer consultas HTTP, ... y todas estas cosas pueden enfocarse de muchas formas, tanto usando librerías como implementando en VanillaJS.
+
+Por poner un ejemplo, el parseado (análisis) del markdown para extraer los links podría plantearse de las siguientes maneras (todas válidas):
+
+* Usando un módulo como markdown-it, que nos devuelve un arreglo de tokens que podemos recorrer para identificar los links.
+
+* También podríamos usar una combinación de varios módulos (podría ser válido transformar el markdown a HTML usando algo como marked y de ahí extraer los link con una librería de DOM como JSDOM o Cheerio entre otras).
+
+* Usando un custom renderer de la librería marked (new marked.Renderer()).
+
+* Siguiendo otro camino completamente diferente, podríamos usar expresiones regulares (RegExp).
+
+No dudes en consultar a tus compañeras, coaches y/o el foro de la comunidad si tienes dudas existenciales con respecto a estas decisiones. No existe una "única" manera correcta 😉 Lo importante es que entiendas el código que escribes para lograr la tarea.
+
+### **¿CommonJS Modules o ES Modules, cual debería usar?**
+
+Deberás decidir desde el principio si utilizarás ES Modules, es decir, import/export, o CommonJS Modules, es decir, require/module.exports.
+Ambos cumplen el mismo objetivo de modularizar y compartir código. Node.js ha utilizado históricamente los CommonJS Modules (require) y funciona así sin necesidad de configuraciones adicionales. Sin embargo, en las nuevas versiones de Node.js, puedes utilizar ES Modules, pero requiere algunos pasos de configuración. Si decides utilizar ES Modules, asegúrate de revisar cómo configurar tu proyecto con la versión de Node que estás utilizando.
+Asegúrate de tener en cuenta esta decisión desde el inicio del proyecto, ya que afectará la forma de importar y exportar módulos en tu código.
+
+### **¿Cuáles son partes de node son relevantes para este proyecto?**
+
+Node ofrece una amplia gama de módulos y funciones, pero no es necesario conocerlos todos antes de comenzar a programar. Los hitos se refieren a partes específicas de Node que puedes explorar, como los módulos fs (readFile, readdirSync) y path.
+Estos módulos son útiles para realizar operaciones de lectura y escritura de archivos, así como para manipular y trabajar con rutas de archivos en tu código. A medida que avanzas en tu proyecto, puedes investigar más sobre estos módulos y cómo utilizar sus funciones para lograr tareas específicas. ¡No dudes en sumergirte en la programación y explorar los partes relevantes de Node mientras avanzas en tu proyecto!
+
+### **¿Cómo hago para que mi módulo sea instalable con npm?**
 
 Para que el módulo sea instalable desde GitHub solo tiene que:
 
@@ -374,33 +460,9 @@ que usamos para la currícula no está publicado en el registro público de NPM,
 así que lo instalamos directamente desde GitHub con el comando `npm install
 Laboratoria/course-parser`.
 
-### Sugerencias de implementación
 
-La implementación de este proyecto tiene varias partes: leer del sistema de
-archivos, recibir argumentos a través de la línea de comando, analizar texto,
-hacer consultas HTTP, ... y todas estas cosas pueden enfocarse de muchas formas,
-tanto usando librerías como implementando en VanillaJS.
 
-Por poner un ejemplo, el _parseado_ (análisis) del markdown para extraer los
-links podría plantearse de las siguientes maneras (todas válidas):
-
-* Usando un _módulo_ como [markdown-it](https://github.com/markdown-it/markdown-it),
-  que nos devuelve un arreglo de _tokens_ que podemos recorrer para identificar
-  los links.
-* Siguiendo otro camino completamente, podríamos usar
-  [expresiones regulares (`RegExp`)](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions).
-* También podríamos usar una combinación de varios _módulos_ (podría ser válido
-  transformar el markdown a HTML usando algo como [marked](https://github.com/markedjs/marked)
-  y de ahí extraer los link con una librería de DOM como [JSDOM](https://github.com/jsdom/jsdom)
-  o [Cheerio](https://github.com/cheeriojs/cheerio) entre otras).
-* Usando un _custom renderer_ de [marked](https://github.com/markedjs/marked)
-  (`new marked.Renderer()`).
-
-No dudes en consultar a tus compañeras y coaches
-si tienes dudas existenciales con respecto a estas decisiones. No existe una
-"única" manera correcta :wink:
-
-### Tutoriales / NodeSchool workshoppers
+### Tutoriales 
 
 * [learnyounode](https://github.com/workshopper/learnyounode)
 * [how-to-npm](https://github.com/workshopper/how-to-npm)
@@ -410,175 +472,31 @@ si tienes dudas existenciales con respecto a estas decisiones. No existe una
 
 * [Acerca de Node.js - Documentación oficial](https://nodejs.org/es/about/)
 * [Node.js file system - Documentación oficial](https://nodejs.org/api/fs.html)
+* [Node.js path - Documentación oficial](https://nodejs.org/api/path.html)
 * [Node.js http.get - Documentación oficial](https://nodejs.org/api/http.html#http_http_get_options_callback)
-* [Node.js - Wikipedia](https://es.wikipedia.org/wiki/Node.js)
 * [What exactly is Node.js? - freeCodeCamp](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5)
 * [¿Qué es Node.js y para qué sirve? - drauta.com](https://www.drauta.com/que-es-nodejs-y-para-que-sirve)
 * [¿Qué es Nodejs? Javascript en el Servidor - Fazt en YouTube](https://www.youtube.com/watch?v=WgSc1nv_4Gw)
-* [¿Simplemente qué es Node.js? - IBM Developer Works, 2011](https://www.ibm.com/developerworks/ssa/opensource/library/os-nodejs/index.html)
-* [Node.js y npm](https://www.genbeta.com/desarrollo/node-js-y-npm)
 * [Asíncronía en js](https://carlosazaustre.es/manejando-la-asincronia-en-javascript)
 * [NPM](https://docs.npmjs.com/getting-started/what-is-npm)
 * [Publicar packpage](https://docs.npmjs.com/getting-started/publishing-npm-packages)
-* [Crear módulos en Node.js](https://docs.npmjs.com/getting-started/publishing-npm-packages)
-* [Leer un archivo](https://nodejs.org/api/fs.html#fs_fs_readfile_path_options_callback)
-* [Leer un directorio](https://nodejs.org/api/fs.html#fs_fs_readdir_path_options_callback)
-* [Path](https://nodejs.org/api/path.html)
-* [Linea de comando CLI](https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e)
+* [Una guía para crear un paquete de línea de comandos NodeJS](https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e)
+* [Tú, yo y package.json](https://medium.com/noders/t%C3%BA-yo-y-package-json-9553929fb2e3)
 
-## 9. Checklist
 
-### General
+## 9. Para pedir project feedback
 
-* [ ] Puede instalarse via `npm install --global <github-user>/md-links`
+* [ ] Un board en github projects con el backlog para la implementación de la librería.
 
-### `README.md`
+* [ ] un `README.md` con documentación técnica de la librería y una guía de uso e instalación de la librería.
 
-* [ ] Un board con el backlog para la implementación de la librería.
-* [ ] Documentación técnica de la librería.
-* [ ] Guía de uso e instalación de la librería
+* [ ] un API `mdLinks(path, validate)` con los siguientes requisitos mínimos:
 
-### API `mdLinks(path, opts)`
+  - El módulo debe exportar una función que cumpla con la interfaz (API) requerida.
+  - Deberá implementar el soporte para archivos individuales.
+  - Deberá implementar la funcionalidad de validación.
+  - Deberá ofrecer soporte para directorios.
+  - Deberá ofrecer soporte para directorios que pueden contener otros directorios.
 
-* [ ] El módulo exporta una función con la interfaz (API) esperada.
-* [ ] Implementa soporte para archivo individual
-* [ ] Implementa soporte para directorios
-* [ ] Implementa `options.validate`
-
-### CLI
-
-* [ ] Expone ejecutable `md-links` en el path (configurado en `package.json`)
-* [ ] Se ejecuta sin errores / output esperado
-* [ ] Implementa `--validate`
-* [ ] Implementa `--stats`
-
-### Pruebas / tests
-
-* [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions,
-  lines, y branches.
-* [ ] Pasa tests (y linters) (`npm test`).
-
-## 10. Achicando el problema
-
-Un "superpoder" que esperamos puedas desarrollar durante el bootcamp
-es el de definir "mini-proyectos" que te acerquen paso a paso a
-la solución del "gran proyecto". Es el equivalente a comenzar armando
-esquinas o bordes del rompecabezas/puzzle sin saber necesariamente
-cómo encajarán al final. Déjate llevar y explora.
-
-Estas son algunas sugerencias:
-
-### Empieza con un diagrama de flujo
-
-Este proyecto es distinto de los que has venido trabajando hasta ahora
-dado que no hay una interfaz web, todo se desarrollará en tu editor y
-consola/terminal.
-
-Es por ello que, para visualizar mejor lo que tendrás que hacer
-y planificar tus tareas y objetivos, es recomendable hacer un
-`diagrama de flujo`.
-
-Si nunca has hecho un diagrama de flujo revisa este [recurso](https://www.youtube.com/watch?v=Lub5qOmY4JQ).
-
-Una alternativa al diagrama de flujo puede ser el `pseudocódigo`.
-
-### Planificación
-
-En este proyecto te recomendamos usar la herramienta de planificación
-y organización de GitHub llamada **Github Projects**.
-
-Mediante **issues** y **milestones** podrás organizar y planificar
-tareas y objetivos concretos.
-
-Tomando en consideración los **entregables** del proyecto, el
-[9. Checklist](#9-checklist) y los **pasos** que definiste en tu
-`diagrama de flujo`, crea tu planificación en GitHub Projects.
-
-### Antes de codear
-
-En esta ocasión estarás trabajando en **NodeJS**, asegúrate
-de saber para qué sirve y sus consideraciones.
-
-En particular, deberás decidir desde un comienzo si usarás
-`ES Modules`, es decir, **import/export**, ó, por el contrario,
-`CommonJS Modules`, es decir, **require/module.exports**.
-
-Asegurate de tener clara esta decisión desde un inicio para
-que no encuentres problemas más adelante.
-
-### Lee un archivo
-
-Como primer reto, puedes tratar de leer un solo archivo con
-una ruta fija e imprimir su contenido en la consola con un `console.log`.
-
-La librería nativa `FS` (FileSystem) te será de utilidad.
-
-**Recuerda**: Te sugerimos **no utilizar** la versión síncrona
-de la función para leer archivos, `readFileSync`, y en cambio
-intentar resolver ese desafío de manera asíncrona.
-
-### Averigua la extensión de un archivo
-
-Ya sabiendo leer un archivo, aventúrate a conocer cual
-es su extensión.
-
-Recuerda, las extensiones son esas letras al final del
-nombre de un archivo, por ejemplo: .js, .txt, .doc, etc
-
-Aquí también podrá ser útil `FS`.
-
-### Obtén el contenido de un directorio
-
-Este proyecto consiste en buscar archivos, pero para eso,
-primero debes poder verlos.
-
-Intenta imprimir en consola la lista de archivos en una carpeta.
-
-La librería `FS` también te será útil aquí.
-
-**Recuerda**: Para disminuir la complejidad de tu algoritmo
-recursivo, te recomendamos utilizar la versión síncrona de
-la función para leer directorios, `readdirSync`.
-
-### Une dos rutas
-
-Para poder acceder a carpetas y archivos será necesario que
-indiques en qué lugar de tu computadora se encuentran, a esto
-le llamamos **rutas**.
-
-Usa la librería nativa `path` para unir dos segmentos de ruta,
-por ejemplo, si queremos unir:
-
-1) /home/Laboratoria/
-2) ./test
-
-El resultado sería: /home/Laboratoria/test
-
-### Recursividad
-
-Este proyecto se ha de resolver de forma casi natural con
-**recursividad**.
-
-¿Por qué?.
-
-Porque no conocemos realmente cuantas carpetas y archivos
-tendremos que recorrer antes de terminar.
-
-Si recibes una ruta de carpeta, no sabrás de ante mano si
-dentro hay más carpetas o muchos archivos.
-
-Por ello, asegurate bien de entender de qué trata la
-recursividad y ver algunos ejemplos.
-
-Entre los recursos de este proyecto hay un video que te ayudará.
-
-### Crea una promesa
-
-El valor de retorno de nuestra librería es una `Promesa`,
-no un `Array`.
-
-Prueba leyendo sobre las promesas y creando una por tu
-cuenta utilizando **new Promise()**
-
-Es importante que sepas qué es un **callback** pues las
-promesas los utilizarán.
+* [ ] un CLI que se ejecuta sin errores y tiene el output esperado. Que se  Implementa --validate Implementa --stats. Expone ejecutable md-links en el path (configurado en package.json)
+* [ ] Pasa tests y linters (`npm test`).
