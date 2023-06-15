@@ -1088,7 +1088,7 @@ wordpress/plugin-development/wordpress-plugin-directory:
     - title: WordPress Plugin Directory
       url: https://developer.wordpress.org/plugins/wordpress-org/planning-your-plugin/
 
-typescript/basic-types/static-type-checkin:
+typescript/basic-types/static-type-checking:
   title: Verificação estática de tipos
   links:
     - title: Documentação oficial do Typescript
@@ -1120,20 +1120,20 @@ typescript/basic-types/any:
     - title: Documentação oficial do Typescript
       url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#any
 
-typescript/basic-types/funcions:
+typescript/basic-types/functions:
   title: Funções
   links:
-    - title: Documentação oficial do Typescript 1
+    - title: Documentação oficial do Typescript
       url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#functions
-    - title: Documentação oficial do Typescript 2
+    - title: Documentação oficial do Typescript
       url: https://www.typescriptlang.org/docs/handbook/2/functions.html
 
 typescript/basic-types/object-types:
   title: Tipos Objecto
   links:
-    - title: Documentação oficial do Typescript 1
+    - title: Documentação oficial do Typescript
       url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#object-types
-    - title: Documentação oficial do Typescript 2
+    - title: Documentação oficial do Typescript
       url: https://www.typescriptlang.org/docs/handbook/2/objects.html
 
 typescript/basic-types/object-types/optional-properties:

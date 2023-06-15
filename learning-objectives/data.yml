@@ -275,12 +275,12 @@ wordpress:
 
 typescript:
   - basic-types
-    - static-type-checkin
+    - static-type-checking
     - strictness
     - primitives
     - arrays
     - any
-    - funcions
+    - functions
     - object-types
       - optional-properties
     - union-types

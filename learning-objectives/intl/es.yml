@@ -1094,7 +1094,7 @@ wordpress/plugin-development/wordpress-plugin-directory:
     - title: WordPress Plugin Directory
       url: https://developer.wordpress.org/plugins/wordpress-org/planning-your-plugin/
 
-typescript/basic-types/static-type-checkin:
+typescript/basic-types/static-type-checking:
   title: Chequeo estático de tipos
   links:
     - title: Documentación oficial de Typescript
@@ -1103,9 +1103,9 @@ typescript/basic-types/static-type-checkin:
 typescript/basic-types/strictness:
   title: Rigurosidad
   links:
-    - title: Documentación oficial de Typescript 1
+    - title: Documentación oficial de Typescript
       url: https://www.typescriptlang.org/docs/handbook/2/basic-types.html#strictness
-    - title: Documentación oficial de Typescript 2
+    - title: Documentación oficial de Typescript
       url: https://www.typescriptlang.org/tsconfig#Type_Checking_6248
 
 
@@ -1127,20 +1127,20 @@ typescript/basic-types/any:
     - title: Documentación oficial de Typescript
       url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#any
 
-typescript/basic-types/funcions:
+typescript/basic-types/functions:
   title: Funciones
   links:
-    - title: Documentación oficial de Typescript 1
+    - title: Documentación oficial de Typescript
       url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#functions
-    - title: Documentación oficial de Typescript 2
+    - title: Documentación oficial de Typescript
       url: https://www.typescriptlang.org/docs/handbook/2/functions.html
 
 typescript/basic-types/object-types:
   title: Tipos Objecto
   links:
-    - title: Documentación oficial de Typescript 1
+    - title: Documentación oficial de Typescript
       url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#object-types
-    - title: Documentación oficial de Typescript 2
+    - title: Documentación oficial de Typescript
       url: https://www.typescriptlang.org/docs/handbook/2/objects.html
 
 typescript/basic-types/object-types/optional-properties:
