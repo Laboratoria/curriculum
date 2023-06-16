@@ -341,4 +341,3 @@ como [Glitch](https://glitch.com/) o [Stackblitz](https://stackblitz.com/).
   funcional do seu projeto. Pode ser o link do seu
   **repositório github ou o link do seu projeto online** [Glitch](https://glitch.com/) o [Stackblitz](https://stackblitz.com/).
 
-![URL](https://user-images.githubusercontent.com/12631491/212091716-cd0118f4-0fa5-407c-b580-b5dc0cf0f609.gif)
