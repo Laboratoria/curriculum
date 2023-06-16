@@ -28,7 +28,12 @@ const Track = () => {
   const [projects, setProjects] = useState();
   const [topics, setTopics] = useState();
   const { formatMessage } = useIntl();
-  setPage({title: formatMessage({id: track === 'web-dev' ? 'webDev' : 'ux'})});
+  const trackNameIntl = formatMessage({id: track === 'web-dev' ? 'webDev' : 'ux'});
+  //TODO: abstract to named func
+  const tabTitle = formatMessage({
+    id: location.pathname.split('/').at(-1) === pathnameBase.split('/').at(-1) ? 'projects' : location.pathname.split('/').at(-1)
+  });
+  setPage({title: `${trackNameIntl} - ${tabTitle}`});
 
   useEffect(() => {
     data.subscribe('learning-objectives', setLearningObjectives);
