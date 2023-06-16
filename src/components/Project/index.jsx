@@ -86,7 +86,7 @@ const Project = () => {
       data.unsubscribe(id, setProject);
     };
   }, [lang, slug]);
-  
+
   if (!project || !learningObjectives) {
     return <Loading />;
   }
@@ -98,7 +98,6 @@ const Project = () => {
       </Container>
     );
   }
-  
 
   const learningObjectiveCats = (project.learningObjectives || []).reduce(
     (memo, item) => {
