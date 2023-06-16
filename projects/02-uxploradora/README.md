@@ -46,7 +46,7 @@ mejor calce con los objetivos de aprendizaje que necesitas potenciar.
 Acá listamos todos los objetivos de aprendizaje existentes, sin embargo, debes enfocarte
 solamente en los que estén disponibles según el reto que elijas.
 
-> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
 > al crear el repo del proyecto para un cohort en particular usando
 > [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
