@@ -257,10 +257,8 @@ no el resultado. ¿Fuiste cambiando cosas en el camino?, ¿Cuáles?, ¿Por qué?
 #### Si estás dando tus primeros pasos en el Desarrolo Web
 
 Quizás prefieras trabajar con alguna herramienta de edición de código en línea
-como [Glitch](https://glitch.com/), [Codepen](https://codepen.io/)  o [CodeSandbox](https://codesandbox.io/).
-
-<!--[Tutorial Glitch]()-->
-[Tutorial CodeSandbox](https://www.loom.com/share/7dc9fcef9cdb4c6a826dd702ab214452)
+como [Glitch](https://glitch.com/) o [Stackblitz](https://stackblitz.com/).
+<!--Agregar los tutoriales de glitch y stackblitz-->
 
 ### Recursos y temas relacionados
 
@@ -285,4 +283,4 @@ como [Glitch](https://glitch.com/), [Codepen](https://codepen.io/)  o [CodeSandb
 
 * Todo tu proyecto debe estar como entregable en un link funcional que nos
   permita ver tu código, puede ser el link de tu proyecto en linea ya sea
-  [Replit](https://repl.it) o [CodeSandbox](https://codesandbox.io/)
+  [Glitch](https://glitch.com/) o [Stackblitz](https://stackblitz.com/).
