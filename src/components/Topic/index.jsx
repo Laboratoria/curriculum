@@ -58,7 +58,8 @@ const ChallengeRoute = ({ topic, lang }) => {
   const unit = topic.units.find(({ slug }) => slug === params.unit);
   const part = unit.parts.find(({ slug }) => slug === params.part);
   const challenge = part.challenges.find(({ slug }) => slug === params.challengeid);
-  setPage({title: challenge.intl[lang].title});
+  const { formatMessage } = useIntl();
+  setPage({title: `${challenge.intl[lang].title} - ${formatMessage({id: topic.slug})} - ${formatMessage({id: 'app-title'})}`});
 
   return (
     <Challenge
