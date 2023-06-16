@@ -74,8 +74,9 @@ const Project = () => {
   const [project, setProject] = useState();
   const [learningObjectives, setLearningObjectives] = useState();
   const { formatMessage } = useIntl();
-  const pageTitle = formatMessage({id: slug});
-  setPage(pageTitle !== slug ? {title: pageTitle} : {title: formatMessage({id: 'app-title'})});
+  const projectTitle = formatMessage({id: slug});
+  const pageTitle = `${formatMessage({id: slug})} - ${formatMessage({id: 'app-title'})}`;
+  setPage(projectTitle !== slug ? {title: pageTitle} : {title: formatMessage({id: 'app-title'})});
   
   useEffect(() => {
     const id = `projects/${slug}`;
