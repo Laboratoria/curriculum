@@ -29,7 +29,6 @@ const Track = () => {
   const [topics, setTopics] = useState();
   const { formatMessage } = useIntl();
   const trackNameIntl = formatMessage({id: track === 'web-dev' ? 'webDev' : 'ux'});
-  //TODO: abstract to named func
   const tabTitle = formatMessage({
     id: location.pathname.split('/').at(-1) === pathnameBase.split('/').at(-1) ? 'projects' : location.pathname.split('/').at(-1)
   });
