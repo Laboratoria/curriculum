@@ -258,7 +258,7 @@ no el resultado. ¿Fuiste cambiando cosas en el camino?, ¿Cuáles?, ¿Por qué?
 
 Quizás prefieras trabajar con alguna herramienta de edición de código en línea
 como [Glitch](https://glitch.com/) o [Stackblitz](https://stackblitz.com/).
-<!--Agregar los tutoriales de glitch y stackblitz-->
+<!-- TODO: Agregar los tutoriales de glitch y stackblitz -->
 
 ### Recursos y temas relacionados
 
