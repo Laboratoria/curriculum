@@ -254,7 +254,7 @@ no el resultado. ¿Fuiste cambiando cosas en el camino?, ¿Cuáles?, ¿Por qué?
 
 ### Prepara tu ambiente de trabajo
 
-#### Si estás dando tus primeros pasos en el Desarrolo Web
+#### Si estás dando tus primeros pasos en el Desarrollo Web
 
 Quizás prefieras trabajar con alguna herramienta de edición de código en línea
 como [Glitch](https://glitch.com/) o [Stackblitz](https://stackblitz.com/).
