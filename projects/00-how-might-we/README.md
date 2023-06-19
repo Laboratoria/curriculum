@@ -52,7 +52,7 @@ tiempo o prioridad a la educación escolar/profesional.
 
 **En este link puedes encontrar un video explicativo: [Contexto de los retos](https://drive.google.com/file/d/1wVG7u0XPJWeTmGAx9Bnv8SxK0E3jHP1z/view?usp=drive_link)**
 
-### Objetivos generales del proyecto:
+### Objetivos generales del proyecto
 
 - Queremos que te enfoques en aprender mucho y trabajar en equipo de forma efectiva.
 - Implementar todas las etapas del proceso de diseño, ajustando las actividades
@@ -95,7 +95,7 @@ que alcances los objetivos principales.
   clave.
   * Construye un prototipo básico en Figma que simule la solución propuesta.
 
-### Entregables del proyecto:
+### Entregables del proyecto
 
 Al final de la semana (jueves) esperamos que como equipo nos compartan los siguientes
 entregables a través del canal de Slack que te indicará el equipo de Laboratoria:
