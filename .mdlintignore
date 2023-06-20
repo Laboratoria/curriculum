@@ -1,4 +1,4 @@
-**/node_modules/
+node_modules/
 tmp/
 projects/learning-objectives.md
 /README.md

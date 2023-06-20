@@ -12,7 +12,6 @@
 * [8.Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
 * [9. Para pedir project feedback](#9-para-pedir-project-feedback)
 
-
 ***
 
 ## 1. Preámbulo
@@ -80,7 +79,7 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
 Para comenzar este proyecto tendrás que hacer un fork y clonar este repositorio.
 
-* En este proyecto hay que adoptar las convenciones que los proyectos open source de software usan para hacer seguimiento. Vas a usar Github projects con Issues y milestones para priorizar y organizar el trabajo y hacer seguimiento de tu proceso. Dentro de cada milestone se crearán y asignarán los issues que cada quien considere necesarios.
+* En este proyecto hay que adoptar las convenciones que los proyectos open source de software usan para hacer seguimiento. Vas a usar Github projects con issues y milestones para priorizar y organizar el trabajo y hacer seguimiento de tu proceso. Dentro de cada milestone se crearán y asignarán los issues que cada quien considere necesarios.
 
 * La **librería** y el **script ejecutable** (herramienta de línea de comando -
   CLI) deben estar implementados en JavaScript para ser ejecutados con
@@ -148,7 +147,9 @@ La función `mdLinks(path)` debe **retornar una promesa** que **resuelva a un ar
 * `text`: Texto que aparecía dentro del link.
 * `file`: Ruta del archivo donde se encontró el link.
 
-#### Ejemplo (resultados como comentarios)
+Ejemplo:
+
+(resultados como comentarios)
 
 ```js
 const mdLinks = require("md-links");
@@ -166,7 +167,7 @@ Los tests unitarios son una excelente forma de verificar si tus funciones están
 
 Por ejemplo, es recomendable escribir tests que invoquen la función `mdLinks` y comprueben que esta función resuelva con un arreglo con la información esperada. También es importante probar las otras funciones que hayas escrito en tu código. 
 
-#### Ejemplo:
+Ejemplo:
 ```js
 describe('mdLinks', () => {
   it('debería retornar un arreglo con 3 links para un archivo .md con 3 links', ()=>{
@@ -180,31 +181,31 @@ describe('mdLinks', () => {
 
 ⚠️ Antes de pasar al siguiente hito, asegúrate de escribir los tests correspondientes al código del hito actual.
 
-## Tareas de este hito:
+#### Tareas de este hito:
 
-### ✅ Crea una promesa
+* Crea una promesa
 
-El valor de retorno de nuestra librería es una Promesa, no un array (la promesa resuelve un array). Prueba leyendo sobre las promesas y creando una por tu cuenta utilizando new Promise()
+  El valor de retorno de nuestra librería es una Promesa, no un array (la promesa resuelve un array). Prueba leyendo sobre las promesas y creando una por tu cuenta utilizando new Promise()
 
-Es importante que sepas qué es un callback pues las promesas los utilizarán.
+  Es importante que sepas qué es un callback pues las promesas los utilizarán.
 
-### ✅ Lee un archivo
+* Lee un archivo
 
-Empieza leyendo un solo archivo con una ruta fija y retorna su contenido. Para ver este contenido puedes utilizar un console.log al momento de ejecutar la función.
+  Empieza leyendo un solo archivo con una ruta fija y retorna su contenido. Para ver este contenido puedes utilizar un console.log al momento de ejecutar la función.
 
-El módulo fs (FileSystem) te será de utilidad. Como mencionamos en las consideraciones técnicas, preferimos que uses readFile (en vez de readFileSync) Y recomendamos el módulo fs/promises para utilizar estas funciones con promesas.
+  El módulo fs (FileSystem) te será de utilidad. Como mencionamos en las consideraciones técnicas, preferimos que uses readFile (en vez de readFileSync) Y recomendamos el módulo fs/promises para utilizar estas funciones con promesas.
 
-### ✅ Asegúrate que el archivo es markdown
+* Asegúrate que el archivo es markdown
 
-Ya sabiendo leer un archivo, aventúrate a conocer cuál es su extensión.
+  Ya sabiendo leer un archivo, aventúrate a conocer cuál es su extensión.
 
-Recuerda, las extensiones son esas letras al final del nombre de un archivo, por ejemplo: .js, .txt, .doc, etc
+  Recuerda, las extensiones son esas letras al final del nombre de un archivo, por ejemplo: .js, .txt, .doc, etc
 
-Aquí podrá ser útil el módulo `path`.
+  Aquí podrá ser útil el módulo `path`.
 
-En caso de que la extensión del archivo no sea md, la promesa de la función mdLinks debería rechazarse con un error.
+  En caso de que la extensión del archivo no sea md, la promesa de la función mdLinks debería rechazarse con un error.
 
-
+---
 ### **HITO 2:** Javascript API con segundo parámetro opcional "validate"
 
 Agrega un argumento más a la función `mdLinks`. El segundo parámetro recibirá un booleano **validate**. Este segundo parámetro será opcional.
@@ -267,6 +268,7 @@ mdLinks("./some/example.md", false)
 
 ⚠️ **Test unitarios.** Antes de pasar al siguiente hito, asegúrate de hacer los tests del hito actual. Los tests aquí van a mockear http, fecth o axios.
 
+---
 ### **HITO 3:** Buscando dentro de una carpeta
 
 Para este hito vas a trabajar con la misma función `mdLinks` pero esta vez la usuaria será capaz de pasar una carpeta como ruta. 
@@ -424,7 +426,7 @@ La implementación de este proyecto tiene varias partes: leer del sistema de arc
 
 Por poner un ejemplo, el parseado (análisis) del markdown para extraer los links podría plantearse de las siguientes maneras (todas válidas):
 
-* Usando un módulo como markdown-it, que nos devuelve un arreglo de tokens que podemos recorrer para identificar los links.
+* Usando un módulo como [markdown-it](https://www.npmjs.com/package/markdown-it), que nos devuelve un arreglo de tokens que podemos recorrer para identificar los links.
 
 * También podríamos usar una combinación de varios módulos (podría ser válido transformar el markdown a HTML usando algo como marked y de ahí extraer los link con una librería de DOM como JSDOM o Cheerio entre otras).
 
@@ -498,5 +500,5 @@ Laboratoria/course-parser`.
   - Deberá ofrecer soporte para directorios.
   - Deberá ofrecer soporte para directorios que pueden contener otros directorios.
 
-* [ ] un CLI que se ejecuta sin errores y tiene el output esperado. Que se  Implementa --validate Implementa --stats. Expone ejecutable md-links en el path (configurado en package.json)
-* [ ] Pasa tests y linters (`npm test`).
+* [ ] un CLI que se ejecuta sin errores y tiene el output esperado. Que implementa --validate y --stats. Expone ejecutable md-links en el path (configurado en package.json)
+* [ ] Pasa tests y linters (`npm test`). Tests unitarios cubren un mínimo del 70% de statements, functions, lines y branches.
