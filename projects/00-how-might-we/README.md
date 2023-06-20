@@ -6,7 +6,7 @@
 - [2. Resumen del proyecto](#2-resumen-del-proyecto)
 - [3. Consideraciones generales](#3-consideraciones-generales)
 - [4. Hitos del proyecto](#4-hitos-del-proyecto)
-- [5. Consideraciones técnicas](#5-consideraciones-tecnicas)
+- [5. Consideraciones técnicas](#5-consideraciones-técnicas)
 - [6. Objetivos de aprendizaje](#6-objetivos-de-aprendizaje)
 - [7. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
 
@@ -183,19 +183,19 @@ en nuestro CODA.
 
 ### Información adicional
 
-[Transitando entre el trabajo y el hogar: Barreras de género de las mujeres académicas
-en un nuevo contexto de pandemia](https://tesis.pucp.edu.pe/repositorio/handle/20.500.12404/23535)
-[Invisible Women Study Guide](https://rednaranja.com.ve/wp-content/uploads/2022/04/Invisible-Women-Study-Guide-FULL.pdf)
-[El impacto económico de la brecha salarial por razones de género](https://www.defensoria.gob.pe/deunavezportodas/wp-content/uploads/2019/11/Brecha-salarial-por-razones-de-genero-2019-DP.pdf)
-[ODS #5: Igualdad de género - Panel](https://www.youtube.com/watch?v=KmMj65ZS-KA)
-[Brecha salarial de género](https://imco.org.mx/wp-content/uploads/2022/11/Brecha-salarial-de-genero_estudio.pdf)
-[Más allá del techo de cristal: por qué las empresas necesitan a las mujeres en puestos
-directivos](https://ilo.org/infostories/es-ES/Stories/Employment/beyond-the-glass-ceiling#introduction)
-[El cierre de escuelas debido a la Covid-19 en todo el mundo afectará más a las niñas](https://es.unesco.org/news/cierre-escuelas-debido-covid-19-todo-mundo-afectara-mas-ninas)
-[LOS EFECTOS DEL COVID-19 SOBRE LAS MUJERES Y LAS NIÑAS](https://interactive.unwomen.org/multimedia/explainer/covid19/es/index.html)
-[Mujeres y empleo: avances y desafíos en las políticas para la participación
-laboral de las mujeres en Europa, América Latina y Caribe en el contexto de
-la recuperación post-pandémica](https://eurosocial.eu/wp-content/uploads/2022/06/PS_EULAC_Policy-Brief-mujeres-empleo-ES.pdf)
+- [Transitando entre el trabajo y el hogar: Barreras de género de las mujeres
+  académicas en un nuevo contexto de pandemia](https://tesis.pucp.edu.pe/repositorio/handle/20.500.12404/23535)
+- [Invisible Women Study Guide](https://rednaranja.com.ve/wp-content/uploads/2022/04/Invisible-Women-Study-Guide-FULL.pdf)
+- [El impacto económico de la brecha salarial por razones de género](https://www.defensoria.gob.pe/deunavezportodas/wp-content/uploads/2019/11/Brecha-salarial-por-razones-de-genero-2019-DP.pdf)
+- [ODS #5: Igualdad de género - Panel](https://www.youtube.com/watch?v=KmMj65ZS-KA)
+- [Brecha salarial de género](https://imco.org.mx/wp-content/uploads/2022/11/Brecha-salarial-de-genero_estudio.pdf)
+- [Más allá del techo de cristal: por qué las empresas necesitan a las mujeres
+  en puestos directivos](https://ilo.org/infostories/es-ES/Stories/Employment/beyond-the-glass-ceiling#introduction)
+- [El cierre de escuelas debido a la Covid-19 en todo el mundo afectará más a las niñas](https://es.unesco.org/news/cierre-escuelas-debido-covid-19-todo-mundo-afectara-mas-ninas)
+- [LOS EFECTOS DEL COVID-19 SOBRE LAS MUJERES Y LAS NIÑAS](https://interactive.unwomen.org/multimedia/explainer/covid19/es/index.html)
+- [Mujeres y empleo: avances y desafíos en las políticas para la participación
+  laboral de las mujeres en Europa, América Latina y Caribe en el contexto de
+  la recuperación post-pandémica](https://eurosocial.eu/wp-content/uploads/2022/06/PS_EULAC_Policy-Brief-mujeres-empleo-ES.pdf)
 
 **Esperamos que disfrutes mucho esta experiencia, que aprendas y conozcas nuevos
 mundos por explorar** 💪🏽💛
