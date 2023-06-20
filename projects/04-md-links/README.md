@@ -9,7 +9,7 @@
 * [5. Consideraciones técnicas](#5-consideraciones-técnicas)
 * [6. Hitos](#6-hitos)
 * [7. Hacker edition](#7-hacker-edition)
-* [8.Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
 * [9. Para pedir project feedback](#9-para-pedir-project-feedback)
 
 
@@ -18,7 +18,7 @@
 ## 1. Preámbulo
 
 [Markdown](https://es.wikipedia.org/wiki/Markdown) es un lenguaje de marcado
-ligero muy popular entre desarrolladores. Es usado en muchísimas plataformas que
+ligero muy popular entre desarrolladores y desarrolladoras. Es usado en muchísimas plataformas que
 manejan texto plano (GitHub, foros, blogs, etc.) y es muy común
 encontrar varios archivos en ese formato en cualquier tipo de repositorio
 (empezando por el tradicional `README.md`).
@@ -36,7 +36,7 @@ algunas estadísticas.
 
 ## 2. Resumen del proyecto
 
-En este proyecto crearás una biblioteca de código que servirá como herramienta para analizar enlaces dentro de archivos Markdown. Esta biblioteca será accesible desde la línea de comandos (CLI) que permitirá al usuario ejecutar la biblioteca directamente desde el terminal. Esta librería, escrita en Node.js, se encargará de analizar los archivos en formato Markdown. La biblioteca será accesible al importarla desde el módulo publicado.
+En este proyecto crearás una biblioteca de código que servirá como herramienta para analizar links dentro de archivos Markdown. Esta biblioteca será accesible desde la línea de comandos (CLI) que permitirá al usuario ejecutar la biblioteca directamente desde el terminal. Esta biblioteca, escrita en Node.js, se encargará de analizar los archivos en formato Markdown. La biblioteca será accesible al importarla desde el módulo publicado.
 
 En esta oportunidad nos alejamos un poco del navegador para construir un
 script que se ejecute usando Node.js. Aprenderemos sobre procesos
@@ -80,7 +80,7 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
 Para comenzar este proyecto tendrás que hacer un fork y clonar este repositorio.
 
-* En este proyecto hay que adoptar las convenciones que los proyectos open source de software usan para hacer seguimiento. Vas a usar Github projects con Issues y milestones para priorizar y organizar el trabajo y hacer seguimiento de tu proceso. Dentro de cada milestone se crearán y asignarán los issues que cada quien considere necesarios.
+* En este proyecto hay que adoptar las convenciones que los proyectos open source de software usan para hacer seguimiento. Vas a usar Github projects con **[issues](https://docs.github.com/es/issues)** y **[milestones](https://docs.github.com/es/issues/using-labels-and-milestones-to-track-work/about-milestones)** para priorizar y organizar el trabajo y hacer seguimiento de tu proceso. Dentro de cada milestone se crearán y asignarán los issues que cada quien considere necesarios.
 
 * La **librería** y el **script ejecutable** (herramienta de línea de comando -
   CLI) deben estar implementados en JavaScript para ser ejecutados con
@@ -142,7 +142,7 @@ Si la ruta pasada es relativa, debe resolverse como relativa al directorio desde
 
 Valor de retorno:
 
-La función `mdLinks(path)` debe **retornar una promesa** que **resuelva a un arreglo** de objetos, donde cada objeto representa un link y contiene las siguientes propiedades:
+La función `mdLinks(path)` debe **retornar una promesa** que **resuelva a un arreglo de objetos**, donde cada objeto representa un link y contiene las siguientes propiedades:
 
 * `href`: URL encontrada.
 * `text`: Texto que aparecía dentro del link.
@@ -184,7 +184,7 @@ describe('mdLinks', () => {
 
 ### ✅ Crea una promesa
 
-El valor de retorno de nuestra librería es una Promesa, no un array (la promesa resuelve un array). Prueba leyendo sobre las promesas y creando una por tu cuenta utilizando new Promise()
+El valor de retorno de nuestra librería es una Promesa, no un array (la promesa resuelve un array). Prueba leyendo sobre las promesas y creando una por tu cuenta utilizando `new Promise()`
 
 Es importante que sepas qué es un callback pues las promesas los utilizarán.
 
@@ -192,7 +192,7 @@ Es importante que sepas qué es un callback pues las promesas los utilizarán.
 
 Empieza leyendo un solo archivo con una ruta fija y retorna su contenido. Para ver este contenido puedes utilizar un console.log al momento de ejecutar la función.
 
-El módulo fs (FileSystem) te será de utilidad. Como mencionamos en las consideraciones técnicas, preferimos que uses readFile (en vez de readFileSync) Y recomendamos el módulo fs/promises para utilizar estas funciones con promesas.
+El módulo `fs` (FileSystem) te será de utilidad. Como mencionamos en las consideraciones técnicas, preferimos que uses `readFile` (en lugar de `readFileSync`) y recomendamos el módulo `fs/promises` para utilizar estas funciones con promesas.
 
 ### ✅ Asegúrate que el archivo es markdown
 
@@ -271,7 +271,7 @@ mdLinks("./some/example.md", false)
 
 Para este hito vas a trabajar con la misma función `mdLinks` pero esta vez la usuaria será capaz de pasar una carpeta como ruta. 
 
-El La función `mdLinks(path, validate)`  debe recorrer todos los archivos existentes en la carpeta y por cada archivo .md que encuentre deberá extraer los links para mostrarlos en pantalla. 
+El La función `mdLinks(path, validate)` debe recorrer todos los archivos existentes en la carpeta y por cada archivo `.md` que encuentre deberá extraer los links para mostrarlos en pantalla. 
 
 Debes tener en cuenta que la carpeta puede contener archivos con extensiones que no sean md. En este caso debes la función debe ignorarlos. (Crea una carpeta con archivos de diferentes extensiones para probar tu función)
 
@@ -416,7 +416,7 @@ profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
 
 Este proyecto difiere de los anteriores en los que has trabajado, ya que no implica una interfaz web. Todo el desarrollo se llevará a cabo en tu editor y en la consola/terminal.
 
-El proyecto se basa en un proceso lógico compuesto por diferentes pasos. Para comprender mejor lo que debes hacer y planificar tus tareas y objetivos, se recomienda desglosar el proceso en pasos y visualizarlo mediante un diagrama de flujo o escribiendo frases de pseudocódigo
+El proyecto se basa en un proceso lógico compuesto por diferentes pasos. Para comprender mejor lo que debes hacer y planificar tus tareas y objetivos, se recomienda desglosar el proceso en pasos y visualizarlo mediante un diagrama de flujo o escribiendo pseudocódigo
 
 ### **Sugerencias de implementación**
 
