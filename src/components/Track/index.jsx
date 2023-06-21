@@ -32,7 +32,7 @@ const Track = () => {
   const tabTitle = formatMessage({
     id: location.pathname.split('/').at(-1) === pathnameBase.split('/').at(-1) ? 'projects' : location.pathname.split('/').at(-1)
   });
-  setPage({title: `${trackNameIntl} - ${tabTitle}`});
+  setPage({title: `${trackNameIntl} - ${tabTitle}`, description: ''});
 
   useEffect(() => {
     data.subscribe('learning-objectives', setLearningObjectives);

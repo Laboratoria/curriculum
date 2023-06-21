@@ -20,7 +20,10 @@ const Part = ({ lang, topic }) => {
   });
 
   const { formatMessage } = useIntl();
-  setPage({title: `${part.intl[lang].title} - ${formatMessage({id: topic.slug})} - ${formatMessage({id: 'app-title'})}`});
+  setPage({
+    title: `${part.intl[lang].title} - ${formatMessage({id: topic.slug})} - ${formatMessage({id: 'app-title'})}`,
+    description: ''
+  });
 
   return (
     <>

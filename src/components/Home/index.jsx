@@ -14,7 +14,7 @@ const Home = () => {
   const theme = useTheme();
   const { lang } = useParams();
   const { formatMessage } = useIntl();
-  setPage({title: formatMessage({id: 'app-title'})});
+  setPage({title: formatMessage({id: 'app-title'}), description: ''});
 
   const linkStyle = {
     display: 'block',

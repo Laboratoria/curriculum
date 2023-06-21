@@ -76,7 +76,9 @@ const Project = () => {
   const { formatMessage } = useIntl();
   const projectTitle = formatMessage({id: slug});
   const pageTitle = `${formatMessage({id: slug})} - ${formatMessage({id: 'app-title'})}`;
-  setPage(projectTitle !== slug ? {title: pageTitle} : {title: formatMessage({id: 'app-title'})});
+  setPage(projectTitle !== slug ?
+    {title: pageTitle, description: ''} :
+    {title: formatMessage({id: 'app-title'}), description: ''});
   
   useEffect(() => {
     const id = `projects/${slug}`;

@@ -59,7 +59,10 @@ const ChallengeRoute = ({ topic, lang }) => {
   const part = unit.parts.find(({ slug }) => slug === params.part);
   const challenge = part.challenges.find(({ slug }) => slug === params.challengeid);
   const { formatMessage } = useIntl();
-  setPage({title: `${challenge.intl[lang].title} - ${formatMessage({id: topic.slug})} - ${formatMessage({id: 'app-title'})}`});
+  setPage({
+    title: `${challenge.intl[lang].title} - ${formatMessage({id: topic.slug})} - ${formatMessage({id: 'app-title'})}`,
+    description: ''
+  });
 
   return (
     <Challenge
@@ -76,7 +79,9 @@ const Topic = () => {
   const { formatMessage } = useIntl();
   const topicTitle = formatMessage({id: slug});
   const pageTitle = `${formatMessage({id: slug})} - ${formatMessage({id: 'app-title'})}`;
-  setPage(topicTitle !== slug ? {title: pageTitle} : {title: formatMessage({id: 'app-title'})});
+  setPage(topicTitle !== slug ?
+    {title: pageTitle, description: ''} :
+    {title: formatMessage({id: 'app-title'}), description: ''});
 
   useEffect(() => {
     const id = `topics/${slug}`;
