@@ -498,11 +498,12 @@ Laboratoria/course-parser`.
 
 * [ ] un API `mdLinks(path, validate)` con los siguientes requisitos mínimos:
 
-  - El módulo debe exportar una función que cumpla con la interfaz (API) requerida.
-  - Deberá implementar el soporte para archivos individuales.
-  - Deberá implementar la funcionalidad de validación.
-  - Deberá ofrecer soporte para directorios.
-  - Deberá ofrecer soporte para directorios que pueden contener otros directorios.
+  - El módulo debe exportar una función que cumpla con la interfaz (API) requerida. (Hito 1)
+  - Deberá implementar el soporte para archivos individuales. (Hito 1)
+  - Deberá implementar la funcionalidad de validación. (Hitos 1 y 2)
+  - Deberá ofrecer soporte para directorios. (Hitos 1 al 3)
+  - Ofrecerá un CLI(Command Line Interface) instalable de través de NPM(Node Package Manager). (Hitos 1 al 4)
+  - Deberá ofrecer soporte para directorios que pueden contener otros directorios. (Hitos 1 al 5)
 
 * [ ] un CLI que se ejecuta sin errores y tiene el output esperado. Además acepta los parámetros `--validate` y `--stats`. Y expone un ejecutable md-links en el path (configurado en el package.json)
 * [ ] Pasa tests y linters (`npm test`). Tests unitarios cubren un mínimo del 70% de coverage tests, es decir statements, functions, lines y branches.
