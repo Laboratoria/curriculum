@@ -179,13 +179,11 @@ describe('mdLinks', () => {
 
 ```
 
-⚠️ Antes de pasar al siguiente hito, asegúrate de escribir los tests correspondientes al código del hito actual.
-
 #### Tareas de este hito:
 
 * Crea una promesa
 
-El valor de retorno de nuestra librería es una Promesa, no un array (la promesa resuelve un array). Prueba leyendo sobre las promesas y creando una por tu cuenta utilizando `new Promise()`
+  El valor de retorno de nuestra librería es una Promesa, no un array (la promesa resuelve un array). Prueba leyendo sobre las promesas y creando una por tu cuenta utilizando `new Promise()`
 
   Es importante que sepas qué es un callback pues las promesas los utilizarán.
 
@@ -193,7 +191,7 @@ El valor de retorno de nuestra librería es una Promesa, no un array (la promesa
 
   Empieza leyendo un solo archivo con una ruta fija y retorna su contenido. Para ver este contenido puedes utilizar un `console.log()` al momento de ejecutar la función.
 
-El módulo `fs` (FileSystem) te será de utilidad. Como mencionamos en las consideraciones técnicas, preferimos que uses `readFile` (en lugar de `readFileSync`) y recomendamos el módulo `fs/promises` para utilizar estas funciones con promesas.
+  El módulo `fs` (FileSystem) te será de utilidad. Como mencionamos en las consideraciones técnicas, preferimos que uses `readFile` (en lugar de `readFileSync`) y recomendamos el módulo `fs/promises` para utilizar estas funciones con promesas.
 
 * Asegúrate que el archivo es markdown
 
@@ -204,6 +202,8 @@ El módulo `fs` (FileSystem) te será de utilidad. Como mencionamos en las consi
   Aquí podrá ser útil el módulo `path`.
 
   En caso de que la extensión del archivo no sea md, la promesa de la función mdLinks debería rechazarse con un error.
+
+⚠️ Antes de pasar al siguiente hito, asegúrate de escribir los tests correspondientes al código del hito actual.
 
 ---
 ### **HITO 2:** Javascript API con segundo parámetro opcional "validate"
@@ -308,7 +308,6 @@ mdLinks("./some/dir", false)
   .catch(console.error);
 
 ```
-⚠️ **Test unitarios.** Te recomendamos antes de pasar al siguiente hito hacer los tests del hito actual
 
 #### Tareas de este hito:
 
@@ -332,6 +331,7 @@ mdLinks("./some/dir", false)
 
   El resultado sería: /home/Laboratoria/test
 
+⚠️ **Test unitarios.** Te recomendamos antes de pasar al siguiente hito hacer los tests del hito actual
 
 ### **HITO 4:** - Interfaz de Línea de comando
 
@@ -401,7 +401,7 @@ La recursividad se utiliza en este caso porque no conocemos de antemano la canti
 
 Entre los recursos de este proyecto hay un video que te ayudará.
 
-⚠️ **Test unitarios.** Te recomendamos antes de pasar al siguiente hito hacer los tests del hito actual
+⚠️ **Test unitarios.** Antes de dar el proyecto por terminado, recuerda hacer los tests del hito actual.
 
 ## 7. Hacker edition
 
