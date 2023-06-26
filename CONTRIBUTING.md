@@ -84,7 +84,11 @@ propuestas de cambios desde su fork en un pull request (PR).
 Si no estás segura de cómo enviar un PR o si deberías hacerlo, lo mejor es comenzar
 por un issue.
 
-### Viendo cambios
+### Commits 
+
+TODO: describir estilo https://www.conventionalcommits.org/
+
+### Viendo tus cambios
 
 Cuando estas haciendo cambios a contenido puedes visualizar los cambios corriendo el sitio
 de curricula localmente con estos pasos:
@@ -150,7 +154,7 @@ A tener en cuenta a la hora de escribir...
 * Tono coloquial (tú en vez de usted)
 * Narración dirigida a la estudiante como lectora, 2da persona, singular (ie: en esta
   lección aprenderás a ...)
-* **Femenino genérico o `x` para neutro (ie: `Todxs lxs programadorxs`)**
+* **Femenino genérico o `x` para neutro (ie: `Todxs lxs programadorxs`)** TODO: resalta eso o cambiar/omitirlo - el x se dificulta lecturas de pantalla
 * [El adverbio solo y los pronombres demostrativos, sin tilde](http://www.rae.es/consultas/el-adverbio-solo-y-los-pronombres-demostrativos-sin-tilde)
 * Marcado semántico (ie: usar `blockquotes` para _citas_ y solo citas)
 * Frases cortas
@@ -213,9 +217,9 @@ Si tienes una idea para un curso o proyecto, chequea el
 propuesta es nueva, abre un issue con tu idea y veamos que opina la
 comunidad.
 
-TODO: donde mencionamos eso?
+TODO: donde mencionamos el siguiente:
 
-\* Dependiendo de la naturaleza del contenido, se decidirán los detalles
+Dependiendo de la naturaleza del contenido, se decidirán los detalles
 exactos ya que no todos los proyectos o tópicos tienen la misma naturaleza._
 
 ### Buenas prácticas
@@ -251,6 +255,7 @@ Para aprender como estructurar un proyecto, revisa [la guía de Proyectos](./con
 
 Si haces cambios a un README y o agregas objetivos de aprendizaje al proyecto 
 y quieres ver como parece el proyecto en su totalidad,
+
 usa el script [`create-cohort-project`](./scripts/README.md#create-cohort-project)
 para generar el proyecto localmente (no es necesario empujarlo a Github).
 

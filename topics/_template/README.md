@@ -1,3 +1,7 @@
+---
+track: ...
+---
+
 # Título del tópico
 
 Dos o tres párrafos explicando el tópico en líneas generales. Introducción al
