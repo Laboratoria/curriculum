@@ -99,9 +99,8 @@ const TopBar = () => {
                   value={lang}
                   onChange={e => navigate(`/${e.target.value}/${urlWithoutLang}`)}
                 >
-                  <MenuItem value="" disabled>Lang</MenuItem>
-                  <MenuItem value={'es'}>ES</MenuItem>
-                  <MenuItem value={'pt'}>PT</MenuItem>
+                  <MenuItem value="es">ES</MenuItem>
+                  <MenuItem value="pt">PT</MenuItem>
                 </Select>
               </FormControl>
             </Grid>
