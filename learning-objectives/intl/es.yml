@@ -779,55 +779,55 @@ react/jsx:
   title: JSX
   links:
     - title: Presentando JSX - Documentación oficial
-      url: https://es.reactjs.org/docs/introducing-jsx.html
+      url: https://es.react.dev/learn/writing-markup-with-jsx
 
 react/components:
   title: Componentes y propiedades (props)
   links:
     - title: Componentes y propiedades - Documentación oficial
-      url: https://es.reactjs.org/docs/components-and-props.html
+      url: https://es.react.dev/learn/passing-props-to-a-component
 
 react/events:
   title: Manejo de eventos
   links:
     - title: Manejando eventos - Documentación oficial
-      url: https://es.reactjs.org/docs/handling-events.html
+      url: https://es.react.dev/learn/responding-to-events
 
 react/lists-and-keys:
   title: Listas y keys
   links:
     - title: Listas y keys - Documentación oficial
-      url: https://es.reactjs.org/docs/lists-and-keys.html
+      url: https://es.react.dev/learn/rendering-lists
 
 react/conditional-rendering:
   title: Renderizado condicional
   links:
     - title: Renderizado condicional - Documentación oficial
-      url: https://es.reactjs.org/docs/conditional-rendering.html
+      url: https://es.react.dev/learn/conditional-rendering
 
 react/lifting-up-state:
   title: Elevación de estado
   links:
     - title: Levantando el estado - Documentación oficial
-      url: https://es.reactjs.org/docs/lifting-state-up.html
+      url: https://es.react.dev/learn/sharing-state-between-components
 
 react/hooks:
   title: Hooks
   links:
     - title: Presentando Hooks - Documentación oficial
-      url: https://es.reactjs.org/docs/hooks-intro.html
+      url: https://es.react.dev/reference/react
 
 react/css-modules:
   title: CSS modules
   links:
     - title: Adding a CSS Modules Stylesheet - Documentación de Create React App (en inglés)
-      url: https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/
+      url: https://vitejs.dev/guide/features.html#css-modules
 
 react/routing:
   title: React Router
   links:
     - title: Quick Start - Documentación oficial (en inglés)
-      url: https://reactrouter.com/web/guides/quick-start
+      url: https://reactrouter.com/en/main/start/tutorial
 
 vue:
   title: Vue

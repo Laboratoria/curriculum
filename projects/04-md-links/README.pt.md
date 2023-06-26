@@ -278,6 +278,10 @@ aprendizagem deste projeto.
 
 ## 8. Guias, dicas e leituras complementares
 
+Participe do canal do Slack
+[#project-md-links](https://claseslaboratoria.slack.com/archives/C03T1E5TJCQ)
+para conversar e pedir ajuda no projeto.
+
 ### FAQs
 
 #### Como faço para que o meu módulo seja instalável pelo GitHub?
@@ -326,6 +330,8 @@ destas decisões. Não existe uma única maneira certa :wink:
 ### Tutoriais / NodeSchool workshoppers
 
 * [learnyounode](https://github.com/workshopper/learnyounode)
+  Considere os primeiros pontos para aprender mais sobre Node.js e quais
+  são relevantes para este projeto, não é necessário fazer todas as etapas.
 * [how-to-npm](https://github.com/workshopper/how-to-npm)
 * [promise-it-wont-hurt](https://github.com/stevekane/promise-it-wont-hurt)
 

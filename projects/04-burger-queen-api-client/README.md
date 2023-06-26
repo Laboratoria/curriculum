@@ -14,7 +14,7 @@
 
 ## 1. Preámbulo
 
-[React](https://reactjs.org/) y [Angular](https://angular.io/)
+[React](https://es.react.dev/) y [Angular](https://angular.io/)
 son algunos de los _frameworks_ y _librerías_ de JavaScript más utilizados por
 lxs desarrolladorxs alrededor del mundo, y hay una razón para eso.
 En el contexto del navegador, [_mantener la interfaz sincronizada con el estado
@@ -107,7 +107,7 @@ a un _pedido_, la interfaz debe actualizar la lista del pedido y el total).
 
 ## 3. Objetivos de aprendizaje
 
-> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
 > al crear el repo del proyecto para un cohort en particular usando
 > [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
@@ -138,7 +138,7 @@ La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6+), HTML y CSS y empaquetada de manera automatizada.
 
 En este proyecto Sí está permitido usar librerías o frameworks
-(debes elegir entre [React](https://reactjs.org/) o
+(debes elegir entre [React](https://es.react.dev/) o
 [Angular](https://angular.io/)).
 
 La aplicación debe ser un _Single Page App_. Los pedidos los tomaremos desde una
@@ -329,9 +329,13 @@ aplicaciones web que se ejecutan en el servidor (Node.js).
 
 ## 7. Pistas / Tips
 
+Súmate al canal de Slack
+[#project-bq-api-client](https://claseslaboratoria.slack.com/archives/C04A0GS1WJX)
+para conversar y pedir ayuda del proyecto.
+
 ### Frameworks / libraries
 
-* [React](https://reactjs.org/)
+* [React](https://react.dev/)
 * [Angular](https://angular.io/)
 
 ### Herramientas

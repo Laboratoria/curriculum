@@ -41,7 +41,7 @@ interfaz web basada en data e interacción con la usuaria.
 
 ## 3. Objetivos de aprendizaje
 
-> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
 > al crear el repo del proyecto para un cohort en particular usando
 > [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
@@ -240,6 +240,10 @@ el `.json` está ahí para opcionalmente cargar la data de forma asíncrona con
 [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API).
 
 ## 8. Pistas, tips y lecturas complementarias
+
+Súmate al canal de Slack
+[#project-memory-match](https://claseslaboratoria.slack.com/archives/C03NZDFB324)
+para conversar y pedir ayuda del proyecto.
 
 ### Primeros pasos
 
