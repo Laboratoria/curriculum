@@ -121,7 +121,7 @@ En este proyecto puedes elegir realizarlo en duplas y puedes escoger entre
 estas dos opciones la manera en que trabajarás con el backend.
 
 
-1. Crear tu propia Mock API que te ayudara a entender mejor el flujo de como se crea y se implementa una API, puedes usar [json-server](https://www.npmjs.com/package/json-server) como herramienta para lograrlo. 
+1. Crear tu propia Mock API que te ayudara a entender mejor el flujo de cómo se crea y se implementa una API, puedes usar [json-server](https://www.npmjs.com/package/json-server) como herramienta para lograrlo. 
 2. Consumiendo esta
 [API](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 que desarrollamos para ti.
