@@ -17,24 +17,52 @@
 
 ## 1. Preámbulo
 
+Un sistema de archivos en un sistema operativo es una estructura organizada
+que permite el almacenamiento y la recuperación de datos en un dispositivo
+de almacenamiento, como un disco duro o una memoria USB. Funciona como una
+interfaz entre el sistema operativo y el hardware de almacenamiento,
+proporcionando un conjunto de funciones esenciales. Estas funciones incluyen
+la capacidad de crear, leer, escribir y borrar archivos, así como
+organizarlos en directorios y subdirectorios para facilitar la gestión
+y la búsqueda eficiente de datos. Además, un sistema de archivos debe ser
+capaz de mantener la integridad de los datos, garantizar la seguridad y el
+acceso controlado a los archivos, y ofrecer mecanismos de recuperación ante
+fallos o errores.
+
 [Node.js](https://nodejs.org/es/) es un entorno de ejecución para JavaScript
 construido con el [motor de JavaScript V8 de Chrome](https://developers.google.com/v8/).
 Esto nos va a permitir ejecutar JavaScript en el entorno del sistema operativo,
 ya sea tu máquina o un servidor, lo cual nos abre las puertas para poder
 interactuar con el sistema en sí, archivos, redes, procesos del sistema, etc.
 
-En este proyecto te enfocarás en trabajar con el sistema de archivos de tu
-sistema operativo, utilizando Node.js, para re-crear una funcionalidad que
-probablemente utilices diariamente: Vas a crear tu propio programa para poder
-copiar y mover archivos dentro de tu computadora.
-
-Para lograrlo, vas a intentar replicar el _comportamiento_ que esperamos que
-ocurra cuando en la computadora haces _copiar y pegar_ o también
-_cortar y pegar_, pero esta vez ejecutado desde tu [_línea de comandos_.](https://tutorial.djangogirls.org/es/intro_to_command_line/)
+[Node.js](https://nodejs.org/es/) proporciona una serie de módulos y funciones
+integradas que facilitan la manipulación del sistema de archivos. Con la ayuda
+de [Node.js](https://nodejs.org/es/), podemos realizar tareas como leer,
+escribir, actualizar y eliminar archivos de manera sencilla. Esto se logra
+mediante el uso del módulo 'fs' (filesystem), el cual nos brinda una amplia
+gama de métodos para interactuar con el sistema de archivos del sistema
+operativo. Podemos abrir archivos, leer su contenido, escribir datos en
+ellos, crear directorios, eliminar archivos y directorios, entre muchas
+otras operaciones. [Node.js](https://nodejs.org/es/) nos permite trabajar
+de forma asíncrona, lo que significa que podemos realizar operaciones de
+lectura y escritura sin bloquear la ejecución de otras tareas, lo que
+resulta en un rendimiento eficiente y una manipulación ágil del sistema
+de archivos. Además, [Node.js](https://nodejs.org/es/) también ofrece
+módulos adicionales, como 'path', que nos ayuda a trabajar con rutas de
+archivos y directorios de manera consistente y portátil.
 
 ![copy-or-move](https://user-images.githubusercontent.com/12631491/234972777-fe2c40aa-a989-40c5-ad30-ce94f58386d8.png)
 
 ## 2. Resumen del proyecto
+
+En este proyecto te enfocarás en trabajar con el sistema de archivos de tu
+sistema operativo, utilizando Node.js, para re-crear una funcionalidad que
+probablemente utilices diariamente: vas a crear tu propio programa para poder
+copiar y mover archivos dentro de tu computadora.
+
+Para lograrlo, vas a intentar replicar el _comportamiento_ que esperamos que
+ocurra cuando en la computadora haces _copiar y pegar_ y también
+_cortar y pegar_, pero esta vez ejecutado desde tu [_línea de comandos_.](https://tutorial.djangogirls.org/es/intro_to_command_line/)
 
 En este proyecto crearás una herramienta de línea de comando (CLI) así como tu
 propia librería (o biblioteca - library) en JavaScript.
@@ -53,20 +81,64 @@ desarrolladora porque que te obliga a pensar en la interfaz (API) de tus
 _módulos_ y cómo será usado por otras developers. Debes tener especial
 consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
+### El funcionamiento del programa debe contemplar lo siguiente
+
+El ejecutable de nuestra aplicación debe poder ejecutarse de la siguiente
+manera a través de la _terminal_ (o _CLI_):
+
+`copy-or-move <path-to-source-file-or-directory>
+  <path-to-destination-file-or-directory> [options]`
+
+Por ejemplo: Si una usuaria quisiera **mover** el archivo `README.md` contenido
+dentro del directorio actual donde está ubicada en su terminal hacia un
+directorio llamado `Documentos/` que a su vez también se encuentra _dentro_ del
+directorio actual, deberá ejecutar el siguiente comando en su terminal:
+
+`$ copy-or-move ./README.md ./Documentos/`
+
+Otro ejemplo: En caso de que una usuaria quisiera **copiar** todos los
+contenidos de un directorio llamado `DCIM/` a un directorio llamado `Fotos/`,
+deberá ejecutar el siguiente comando en su terminal, esta vez, incluyendo la
+_opción_ (o _flag_) `-c` para hacerle saber a la librería que esta vez, en vez
+de mover los contenidos, estos sólo deben ser copiados:
+
+`$ copy-or-move ruta/hacia/DCIM/ ruta/hacia/Fotos/ -c`
+
+#### Options
+
+El comportamiento por defecto del programa será el de **mover** los archivos
+o directorios de una fuente hacia un destino, pero en caso de que la usuaria,
+en vez de mover, quisiera **copiar** esos archivos o directorios, entonces deberá
+pasarle a ese comando la opción (también llamadas _flags_) `-c`.
+
+### Casos de uso
+
 Esta aplicación, que publicarás como librería, debe poder ser ejecutable
 en una terminal, y debe contemplar los casos de uso para poder:
 
-1.- Copiar un archivo hacia un archivo o directorio
-  de destino
+#### Copiar un archivo hacia un archivo
 
-2.- Copiar un directorio, incluyendo todo su contenido, hacia un directorio
-  de destino
+![file-file-copy](https://github.com/Laboratoria/bootcamp/assets/16993732/0b6e731b-7dac-4e9f-a6d0-c043cc6e9bff)
 
-3.- Mover un archivo hacia un archivo o directorio
-  de destino
+#### Copiar un archivo hacia un directorio
 
-4.- Mover un directorio, incluyendo todo su contenido, hacia un directorio
-  de destino
+![file-folder-copy](https://github.com/Laboratoria/bootcamp/assets/16993732/c27f58d0-3b3f-48c6-ae28-64a65d387a79)
+
+#### Copiar un directorio hacia un directorio
+
+![folder-folder-copy](https://github.com/Laboratoria/bootcamp/assets/16993732/c7ad0320-984e-4cff-a14e-134939145490)
+
+#### Mover un archivo hacia un archivo
+
+![file-file-move](https://github.com/Laboratoria/bootcamp/assets/16993732/4f7a8506-8a14-4abb-a760-83be67a235fc)
+
+#### Mover un archivo hacia un directorio
+
+![file-folder-move](https://github.com/Laboratoria/bootcamp/assets/16993732/4b535772-c7ac-4f0c-b7f7-5be834dbfe30)
+
+#### Mover un directorio hacia un directorio
+
+![folder-folder-move](https://github.com/Laboratoria/bootcamp/assets/16993732/c88d01df-7f7d-4d96-ae85-d74b384831dd)
 
 ### Los objetivos generales de este proyecto son los siguientes
 
@@ -98,16 +170,22 @@ en una terminal, y debe contemplar los casos de uso para poder:
   Node.js. **Está permitido usar librerías externas**.
 
 * Tu módulo **debe ser instalable** via
-  `npm install <github-user>/node-or-move`. Este módulo debe incluir el
+  `npm install <github-user>/copy-or-move`. Este módulo debe incluir el
   _ejecutable_ que podamos invocar en la línea de comandos.
 
 * Los **tests unitarios** deben cubrir un mínimo del 70% de _statements_,
   _functions_, _lines_ y _branches_. Te recomendamos explorar [Vitest](https://vitest.dev/)
   para tus pruebas unitarias.
 
-* Para este proyecto te sugerimos **no utilizar** la versión síncrona
-  de la función para leer directorios, `readdirSync`, y en cambio intentar
+* Para este proyecto **no está permitido** utilizar `async/await`.
+
+* Para este proyecto te sugerimos **no utilizar** ninguna función síncrona
+  como `copyFileSync`, `renameSync` o `mkdirSync`, y en cambio intentar
   resolver este desafío de manera asíncrona.
+
+* Cómo excepcion a la recomendación anterior, te recomendamos utilizar
+  la versión síncrona de la función para leer directorios, `readdirSync`,
+  para disminuir la complejidad de tu algoritmo recursivo.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
@@ -140,36 +218,6 @@ consideres necesario.
   incluirse en control de versiones (`git`).
 * `test/copy-or-move.spec.js` debe contener los tests unitarios para la función
   `copyOrMove()`. Tu implementación debe pasar estos tests.
-
-### El funcionamiento del programa debe contemplar lo siguiente
-
-El ejecutable de nuestra aplicación debe poder ejecutarse de la siguiente
-manera a través de la _terminal_ (o _CLI_):
-
-`copy-or-move <path-to-source-file-or-directory>
-  <path-to-destination-file-or-directory> [options]`
-
-Por ejemplo: Si una usuaria quisiera **mover** el archivo `README.md` contenido
-dentro del directorio actual donde está ubicada en su terminal hacia un
-directorio llamado `Documentos/` que a su vez también se encuentra _dentro_ del
-directorio actual, deberá ejecutar el siguiente comando en su terminal:
-
-`$ copy-or-move ./README.md ./Documentos/`
-
-Otro ejemplo: En caso de que una usuaria quisiera **copiar** todos los
-contenidos de un directorio llamado `DCIM/` a un directorio llamado `Fotos/`,
-deberá ejecutar el siguiente comando en su terminal, esta vez, incluyendo la
-_opción_ (o _flag_) `-c` para hacerle saber a la librería que esta vez, en vez
-de mover los contenidos, estos sólo deben ser copiados:
-
-`$ copy-or-move ruta/hacia/DCIM/ ruta/hacia/Fotos/ -c`
-
-### Options
-
-El comportamiento por defecto del programa será el de **mover** los archivos
-o directorios de una fuente hacia un destino, pero en caso de que la usuaria,
-en vez de mover, quisiera **copiar** esos archivos o directorios, entonces deberá
-pasarle a ese comando la opción (también llamadas _flags_) `-c`.
 
 ## 6. Entregables
 
@@ -249,7 +297,7 @@ desarrollarlo.
 * [Publicar packpage](https://docs.npmjs.com/getting-started/publishing-npm-packages)
 * [Crear módulos en Node.js](https://docs.npmjs.com/getting-started/publishing-npm-packages)
 * [Leer un directorio](https://nodejs.org/api/fs.html#fspromisesreaddirpath-options)
-* [Checkear si es directorio](https://nodejs.org/docs/latest-v18.x/api/fs.html#statsisdirectory)
+* [Checkear si es directorio](https://nodejs.org/docs/latest/api/fs.html#statsisdirectory)
 * [Path](https://nodejs.org/api/path.html)
 * [Linea de comando CLI](https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e)
 
@@ -332,15 +380,11 @@ una ruta fija e imprimir su contenido en la consola con un `console.log`.
 
 La librería nativa `FS` (FileSystem) te será de mucha utilidad.
 
-**Recuerda**: Te sugerimos **no utilizar** la versión síncrona
-de la función para leer directorios, `readdirSync`, y en cambio
-intentar resolver ese desafío de manera asíncrona.
-
 ### Averigua si un elemento contenido es un directorio o un archivo
 
 Para este proyecto será necesario poder discernir si un elemento
 es un archivo o un directorio, lo puedes hacer utilizando
-la libería `stat`.
+la función `fs.stat`.
 
 ### Une dos rutas
 
