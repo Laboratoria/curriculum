@@ -257,8 +257,9 @@ no el resultado. ¿Fuiste cambiando cosas en el camino?, ¿Cuáles?, ¿Por qué?
 #### Si estás dando tus primeros pasos en el Desarrollo Web
 
 Quizás prefieras trabajar con alguna herramienta de edición de código en línea
-como [Glitch](https://glitch.com/) o [Stackblitz](https://stackblitz.com/).
-<!-- TODO: Agregar los tutoriales de glitch y stackblitz -->
+como [Glitch](https://glitch.com/).
+
+[Tutorial glitch](https://www.loom.com/share/778940c923c4437bae3a94cfabddd462?sid=6fd2f314-a5f1-4b99-9deb-e35b578b2d6d)
 
 ### Recursos y temas relacionados
 
@@ -282,5 +283,5 @@ como [Glitch](https://glitch.com/) o [Stackblitz](https://stackblitz.com/).
 #### Entrega
 
 * Todo tu proyecto debe estar como entregable en un link funcional que nos
-  permita ver tu código, puede ser el link de tu proyecto en linea ya sea
-  [Glitch](https://glitch.com/) o [Stackblitz](https://stackblitz.com/).
+  permita ver tu código, puede ser el link de tu proyecto en linea como
+  [Glitch](https://glitch.com/).

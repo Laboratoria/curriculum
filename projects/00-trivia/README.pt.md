@@ -290,7 +290,7 @@ resultado. Você mudou algumas coisas ao longo do caminho? Quais? Por quê?
 #### Se você está dando os primeiros passos no desenvolvimento Web
 
 Talvez você prefira trabalhar com uma ferramenta de edição de código on-line,
-como [Glitch](https://glitch.com/) o [Stackblitz](https://stackblitz.com/).
+como [Glitch](https://glitch.com/).
 
 #### Se você já tem alguma experiência e vai trabalhar com um repositório de código
 
@@ -339,5 +339,5 @@ como [Glitch](https://glitch.com/) o [Stackblitz](https://stackblitz.com/).
 
 * A entrega será feita via form (a ser disponibilizado) através de um link
   funcional do seu projeto. Pode ser o link do seu
-  **repositório github ou o link do seu projeto online** [Glitch](https://glitch.com/) o [Stackblitz](https://stackblitz.com/).
+  **repositório github ou o link do seu projeto online** [Glitch](https://glitch.com/).
 
