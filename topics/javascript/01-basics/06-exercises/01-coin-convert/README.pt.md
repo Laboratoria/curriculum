@@ -1,4 +1,4 @@
-# coinConvert
+# Conversor de Moeda
 
 Neste exercício vamos nos concentrar em atribuir _valores_ em _variáveis_. O
 exercício já inclui um _boilerplate_ (_modelo_), com uma _função_, dentro da qual
