@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-
+const TEST_TEXT_EMPTY = '';
 const TEST_TEXT_NO_NUMBERS = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
 const TEST_TEXT_NUMBERS = 'Si tengo 8 manzanas y compro 2 más, ¿cúantas manzanas tengo en total?';
 const TEST_TEXT_DECIMALS = 'Calcular la suma de 1.65 más 0.15 y más 1.10';
@@ -107,7 +107,7 @@ test.describe('Botón:', () => {
   test('Limpia caja de texto', async ({ page }) => {
     const textarea = await page.locator('textarea[name="user-input"]');
     await expect(textarea).toHaveValue(TEST_TEXT_NO_NUMBERS);
-    const button = await page.locator('id=clear-button')
+    const button = await page.locator('id=reset-button')
     await button.click();
     await expect(textarea).toHaveValue(TEST_TEXT_EMPTY);
   });
@@ -115,7 +115,6 @@ test.describe('Botón:', () => {
 
 //TODO: Reemplazar skip por describe para ejecutar el test de funcionalidades opcionales
 test.skip('Opcional:', () => {
-  const TEST_TEXT_EMPTY = '';
   const TEST_TEXT_SPACES = '       ';
   const TEST_TEXT_PUNCTUATION_MARKS = '.,;:"«»[]{}()¿?¡!-';
   
