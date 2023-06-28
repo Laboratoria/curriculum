@@ -1222,7 +1222,7 @@ typescript/classes/static-members:
       url: https://www.typescriptlang.org/docs/handbook/2/classes.html#static-members
 
 typescript/classes/this:
-  title: `this`
+  title: this
   links:
     - title: Documentación oficial de Typescript
       url: https://www.typescriptlang.org/docs/handbook/2/classes.html#this-at-runtime-in-classes
