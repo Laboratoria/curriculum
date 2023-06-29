@@ -15,6 +15,9 @@ import {
   loadYaml,
 } from '@laboratoria/curriculum-parser/lib/project.js';
 
+const defaultLocale = "es";
+const supportedLocales = ["es", "pt"];
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const uiUrl = 'https://curriculum.laboratoria.la';
 
@@ -63,9 +66,10 @@ const ensureRepoDir = async (repoDir, opts) => {
   }
 };
 
-const copy = async (src, repoDir, opts) => {
+export const copy = async (src, repoDir, opts) => {
   console.log(`You are about to copy all files from ${src} to ${repoDir}`);
   const confirmCopy = await prompt('Are you sure you want to continue? [Y/n]: ');
+
   if (['n', 'N'].includes(confirmCopy)) {
     throw new Error('Aborting');
   }
@@ -78,15 +82,14 @@ const copy = async (src, repoDir, opts) => {
   console.log('Copying files...');
   await cp(src, repoDir, { recursive: true });
 
-  if (opts.locale === 'pt') {
-    const allPtFiles = getAllFilesInDir(repoDir, 'pt.md');
-    return allPtFiles.map((filepath) => rename(`${repoDir}/${filepath}`, `${repoDir}/${filepath.replace('.pt', '')}`));
+  // rename / replace default files with localized content
+  if (opts.locale && opts.locale !== defaultLocale) {
+    const files = getFilesWithLocales(repoDir, [opts.locale]);
+    files.map((filepath) => rename(`${repoDir}/${filepath}`, `${repoDir}/${filepath.replace(`.${opts.locale}`, '')}`));
   }
 
-  const files = getAllFilesInDir(repoDir, 'pt.md');
-  if (files.length) {
-    return files.map(filepath => unlink(`${repoDir}/${filepath}`));
-  }
+  const files = getFilesWithLocales(repoDir, supportedLocales); // might be empty while only support pt
+  return files.map(filepath => unlink(`${repoDir}/${filepath}`));
 };
 
 const addBootcampInfo = async (repoDir) => {
@@ -129,7 +132,7 @@ const addLocalizedLearningObjectives = async (repoDir, opts, meta) => {
     return;
   }
 
-  const lang = opts.locale ? opts.locale.split('-')[0] : 'es';
+  const lang = opts.locale ? opts.locale.split('-')[0] : defaultLocale;
   const intl = await loadYaml(
     path.join(__dirname, '../learning-objectives', 'intl', `${lang}.yml`),
   );
@@ -332,7 +335,9 @@ if (args.length === 0 || opts.h || opts.help) {
   process.exit(0);
 }
 
+if (!process.argv[1].endsWith('mocha')) {
 main(trimSlashes(args), opts).catch((err) => {
   console.error(err);
   process.exit(1);
 });
+}
