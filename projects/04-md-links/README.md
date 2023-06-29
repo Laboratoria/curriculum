@@ -580,26 +580,38 @@ que usamos para la currícula no está publicado en el registro público de NPM,
 así que lo instalamos directamente desde GitHub con el comando `npm install
 Laboratoria/course-parser`.
 
-### Tutoriales
-
-* [learnyounode](https://github.com/workshopper/learnyounode)
-* [how-to-npm](https://github.com/workshopper/how-to-npm)
-* [promise-it-wont-hurt](https://github.com/stevekane/promise-it-wont-hurt)
-
 ### Otros recursos
 
 * [Acerca de Node.js - Documentación oficial](https://nodejs.org/es/about/)
-* [Node.js file system - Documentación oficial](https://nodejs.org/api/fs.html)
-* [Node.js path - Documentación oficial](https://nodejs.org/api/path.html)
-* [Node.js http.get - Documentación oficial](https://nodejs.org/api/http.html#http_http_get_options_callback)
-* [What exactly is Node.js? - freeCodeCamp](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5)
-* [¿Qué es Node.js y para qué sirve? - drauta.com](https://www.drauta.com/que-es-nodejs-y-para-que-sirve)
+* [¿Qué es Node.js y para qué sirve? - serquo.com](https://serquo.com/blog/node-js/)
 * [¿Qué es Nodejs? Javascript en el Servidor - Fazt en YouTube](https://www.youtube.com/watch?v=WgSc1nv_4Gw)
 * [Asíncronía en js](https://carlosazaustre.es/manejando-la-asincronia-en-javascript)
-* [NPM](https://docs.npmjs.com/getting-started/what-is-npm)
-* [Publicar packpage](https://docs.npmjs.com/getting-started/publishing-npm-packages)
-* [Una guía para crear un paquete de línea de comandos NodeJS](https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e)
 * [Tú, yo y package.json](https://medium.com/noders/t%C3%BA-yo-y-package-json-9553929fb2e3)
+* [Patrones para coincidencia de caracteres con expresiones regulares - mozilla.org ](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_expressions)
+
+### Hito 1
+
+* [Node.js file system - Documentación oficial](https://nodejs.org/api/fs.html)
+* [Node.js path - Documentación oficial](https://nodejs.org/api/path.html)
+* [Cómo crear promesas - javascript.info](https://es.javascript.info/promise-basics)
+
+### Hito 2
+
+* [Validación de URLs con peticiones http - luisrrleal.com](https://luisrrleal.com/blog/como-hacer-peticiones-http-en-javascript)
+
+#### Hito 3
+
+* [Cómo iterar un arreglo de promesas - mozilla.org](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
+
+#### Hito 4
+
+* [Qué es NPM - freecode.camp](https://www.freecodecamp.org/espanol/news/que-es-npm/)
+* [Cómo crear y publicar packpage - npmjs.com](https://docs.npmjs.com/getting-started/publishing-npm-packages)
+* [Una guía para crear un paquete de línea de comandos NodeJS - medium.com](https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e)
+
+### Hito 5
+
+* [Qué es la recursividad y cómo crear funciones recursivas - javascript.info](https://es.javascript.info/recursion)
 
 ## 9. Para pedir project feedback
 
