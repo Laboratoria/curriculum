@@ -79,11 +79,13 @@ const copy = async (src, repoDir, opts) => {
   await cp(src, repoDir, { recursive: true });
 
   if (opts.locale === 'pt') {
-    return rename(`${repoDir}/README.pt.md`, `${repoDir}/README.md`);
+    const allPtFiles = getAllFilesInDir(repoDir, 'pt.md');
+    return allPtFiles.map((filepath) => rename(`${repoDir}/${filepath}`, `${repoDir}/${filepath.replace('.pt', '')}`));
   }
 
-  if (existsSync(`${repoDir}/README.pt.md`)) {
-    return unlink(`${repoDir}/README.pt.md`);
+  const files = getAllFilesInDir(repoDir, 'pt.md');
+  if (files.length) {
+    return files.map(filepath => unlink(`${repoDir}/${filepath}`));
   }
 };
 
