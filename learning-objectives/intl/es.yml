@@ -1093,3 +1093,148 @@ wordpress/plugin-development/wordpress-plugin-directory:
   links:
     - title: WordPress Plugin Directory
       url: https://developer.wordpress.org/plugins/wordpress-org/planning-your-plugin/
+
+typescript/basic-types/static-type-checking:
+  title: Chequeo estático de tipos
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/basic-types.html#static-type-checking
+
+typescript/basic-types/strictness:
+  title: Rigurosidad
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/basic-types.html#strictness
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/tsconfig#Type_Checking_6248
+
+
+typescript/basic-types/primitives:
+  title: Tipos primitivos
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#the-primitives-string-number-and-boolean
+
+typescript/basic-types/arrays:
+  title: Arreglos
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#arrays
+
+typescript/basic-types/any:
+  title: Tipo `any`
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#any
+
+typescript/basic-types/functions:
+  title: Funciones
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#functions
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/functions.html
+
+typescript/basic-types/object-types:
+  title: Tipos Objecto
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#object-types
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/objects.html
+
+typescript/basic-types/object-types/optional-properties:
+  title: Propiedades opcionales
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#optional-properties
+
+typescript/basic-types/union-types:
+  title: Tipos Union
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types
+
+typescript/basic-types/type-aliases:
+  title: Alias de tipos
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases
+
+typescript/basic-types/interfaces:
+  title: Interfaces
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#interfaces
+
+typescript/basic-types/type-assertions:
+  title: Type assertions
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions
+
+typescript/basic-types/literal-types:
+  title: Tipos literales
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types
+
+typescript/basic-types/enums:
+  title: Enums
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#enums
+
+typescript/narrowing:
+  title: Narrowing
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/narrowing.html
+
+typescript/classes:
+  title: Clases
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/classes.html
+
+typescript/classes/members:
+  title: Miembros de clase
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#class-members
+
+typescript/classes/class-heritage:
+  title: Herencia de clases
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#class-heritage
+
+typescript/classes/member-visibility:
+  title: Visibilidad de miembros de clase
+  links:
+    - title: 
+      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#member-visibility
+
+typescript/classes/static-members:
+  title: Miembros de clase estáticos
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#static-members
+
+typescript/classes/this:
+  title: this
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#this-at-runtime-in-classes
+
+typescript/classes/abstract-classes:
+  title: Clases abstractas
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#abstract-classes-and-members
+
+typescript/decorators:
+  title: Decoradores
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/decorators.html
