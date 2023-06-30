@@ -16,28 +16,28 @@ test.describe('Para un texto con sólo palábras:', () => {
   });
 
   test('Caracteres: 123', async ({ page }) => {
-    await expect(page.locator('li:nth-child(1):has-text("123")')).toBeVisible();
+    await expect(page.locator('li[data-testid="character-count"]:has-text("123")')).toBeVisible();
   });
 
   test('Caracteres Sin Espacios: 102', async ({ page }) => {
-    await expect(page.locator('li:nth-child(2):has-text("102")')).toBeVisible();
+    await expect(page.locator('li[data-testid="character-no-spaces-count"]:has-text("102")')).toBeVisible();
   });
 
   test('Palabras: 19', async ({ page }) => {
-    await expect(page.locator('li:nth-child(3):has-text("19")')).toBeVisible();
+    await expect(page.locator('li[data-testid="word-count"]:has-text("19")')).toBeVisible();
 
   });
 
   test('Números: 0', async ({ page }) => {
-    await expect(page.locator('li:nth-child(4):has-text("0")')).toBeVisible();
+    await expect(page.locator('li[data-testid="number-count"]:has-text("0")')).toBeVisible();
   });
 
   test('Suma números: 0', async ({ page }) => {
-    await expect(page.locator('li:nth-child(5):has-text("0")')).toBeVisible();
+    await expect(page.locator('li[data-testid="number-sum"]:has-text("0")')).toBeVisible();
   });
 
   test('Longitud promedio palabra: 5.53', async ({ page }) => {
-    await expect(page.locator('li:nth-child(6):has-text("5.53")')).toBeVisible();
+    await expect(page.locator('li[data-testid="word-length-average"]:has-text("5.53")')).toBeVisible();
   });
 });
 
@@ -51,11 +51,11 @@ test.describe('Para un texto con números:', () => {
   });
 
   test('Números: 2', async ({ page }) => {
-    await expect(page.locator('li:nth-child(4):has-text("2")')).toBeVisible();
+    await expect(page.locator('li[data-testid="number-count"]:has-text("2")')).toBeVisible();
   });
 
   test('Suma números: 10', async ({ page }) => {
-    await expect(page.locator('li:nth-child(5):has-text("10")')).toBeVisible();
+    await expect(page.locator('li[data-testid="number-sum"]:has-text("10")')).toBeVisible();
   });
 });
 
@@ -69,11 +69,11 @@ test.describe('Para un texto números decimales:', () => {
   });
 
   test('Números: 3', async ({ page }) => {
-    await expect(page.locator('li:nth-child(4):has-text("3")')).toBeVisible();
+    await expect(page.locator('li[data-testid="number-count"]:has-text("3")')).toBeVisible();
   });
 
   test('Suma números: 2.9', async ({ page }) => {
-    await expect(page.locator('li:nth-child(5):has-text("2.9")')).toBeVisible();
+    await expect(page.locator('li[data-testid="number-sum"]:has-text("2.9")')).toBeVisible();
   });
 });
 
@@ -87,11 +87,11 @@ test.describe('Para un texto sin números válidos:', () => {
   });
 
   test('Números: 0', async ({ page }) => {
-    await expect(page.locator('li:nth-child(4):has-text("0")')).toBeVisible();
+    await expect(page.locator('li[data-testid="number-count"]:has-text("0")')).toBeVisible();
   });
 
   test('Suma números: 0', async ({ page }) => {
-    await expect(page.locator('li:nth-child(5):has-text("0")')).toBeVisible();
+    await expect(page.locator('li[data-testid="number-sum"]:has-text("0")')).toBeVisible();
   });
 });
 
@@ -128,27 +128,27 @@ test.skip('Opcional:', () => {
     });
 
     test('Caracteres: 18', async ({ page }) => {
-      await expect(page.locator('li:nth-child(1):has-text("18")')).toBeVisible();
+      await expect(page.locator('li[data-testid="character-count"]:has-text("18")')).toBeVisible();
     });
 
     test('Caracteres Sin Espacios: 0', async ({ page }) => {
-      await expect(page.locator('li:nth-child(2):has-text("0")')).toBeVisible();
+      await expect(page.locator('li[data-testid="character-no-spaces-count"]:has-text("0")')).toBeVisible();
     });
 
     test('Palabras: 0', async ({ page }) => {
-      await expect(page.locator('li:nth-child(3):has-text("0")')).toBeVisible();
+      await expect(page.locator('li[data-testid="word-count"]:has-text("0")')).toBeVisible();
     });
 
     test('Números: 0', async ({ page }) => {
-      await expect(page.locator('li:nth-child(4):has-text("0")')).toBeVisible();
+      await expect(page.locator('li[data-testid="number-count"]:has-text("0")')).toBeVisible();
     });
 
     test('Suma números: 0', async ({ page }) => {
-      await expect(page.locator('li:nth-child(5):has-text("0")')).toBeVisible();
+      await expect(page.locator('li[data-testid="number-sum"]:has-text("0")')).toBeVisible();
     });
 
     test('Longitud promedio palabra: 0', async ({ page }) => {
-      await expect(page.locator('li:nth-child(6):has-text("0")')).toBeVisible();
+      await expect(page.locator('li[data-testid="word-length-average"]:has-text("0")')).toBeVisible();
     });
   });
 
@@ -162,28 +162,28 @@ test.skip('Opcional:', () => {
     });
 
     test('Caracteres: 0', async ({ page }) => {
-      await expect(page.locator('li:nth-child(1):has-text("0")')).toBeVisible();
+      await expect(page.locator('li[data-testid="character-count"]:has-text("0")')).toBeVisible();
     });
 
     test('Caracteres Sin Espacios: 0', async ({ page }) => {
-      await expect(page.locator('li:nth-child(2):has-text("0")')).toBeVisible();
+      await expect(page.locator('li[data-testid="character-no-spaces-count"]:has-text("0")')).toBeVisible();
     });
 
     test('Palabras: 0', async ({ page }) => {
-      await expect(page.locator('li:nth-child(3):has-text("0")')).toBeVisible();
+      await expect(page.locator('li[data-testid="word-count"]:has-text("0")')).toBeVisible();
 
     });
 
     test('Números: 0', async ({ page }) => {
-      await expect(page.locator('li:nth-child(4):has-text("0")')).toBeVisible();
+      await expect(page.locator('li[data-testid="number-count"]:has-text("0")')).toBeVisible();
     });
 
     test('Suma números: 0', async ({ page }) => {
-      await expect(page.locator('li:nth-child(5):has-text("0")')).toBeVisible();
+      await expect(page.locator('li[data-testid="number-sum"]:has-text("0")')).toBeVisible();
     });
 
     test('Longitud promedio palabra: 0', async ({ page }) => {
-      await expect(page.locator('li:nth-child(6):has-text("0")')).toBeVisible();
+      await expect(page.locator('li[data-testid="word-length-average"]:has-text("0")')).toBeVisible();
     });
 
   });
@@ -198,28 +198,28 @@ test.skip('Opcional:', () => {
     });
 
     test('Caracteres: 7', async ({ page }) => {
-      await expect(page.locator('li:nth-child(1):has-text("7")')).toBeVisible();
+      await expect(page.locator('li[data-testid="character-count"]:has-text("7")')).toBeVisible();
     });
 
     test('Caracteres Sin Espacios: 0', async ({ page }) => {
-      await expect(page.locator('li:nth-child(2):has-text("0")')).toBeVisible();
+      await expect(page.locator('li[data-testid="character-no-spaces-count"]:has-text("0")')).toBeVisible();
     });
 
     test('Palabras: 0', async ({ page }) => {
-      await expect(page.locator('li:nth-child(3):has-text("0")')).toBeVisible();
+      await expect(page.locator('li[data-testid="word-count"]:has-text("0")')).toBeVisible();
 
     });
 
     test('Números: 0', async ({ page }) => {
-      await expect(page.locator('li:nth-child(4):has-text("0")')).toBeVisible();
+      await expect(page.locator('li[data-testid="number-count"]:has-text("0")')).toBeVisible();
     });
 
     test('Suma números: 0', async ({ page }) => {
-      await expect(page.locator('li:nth-child(5):has-text("0")')).toBeVisible();
+      await expect(page.locator('li[data-testid="number-sum"]:has-text("0")')).toBeVisible();
     });
 
     test('Longitud promedio palabra: 0', async ({ page }) => {
-      await expect(page.locator('li:nth-child(6):has-text("0")')).toBeVisible();
+      await expect(page.locator('li[data-testid="word-length-average"]:has-text("0")')).toBeVisible();
     });
 
   });
