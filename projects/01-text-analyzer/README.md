@@ -600,3 +600,5 @@ profundizar en los objetivos de aprendizaje del proyecto:
 Puedes habilitar las pruebas unitarias y en _end to end_ de estos casos
 en los archivos [test/analyzer.spec.js](test/analyzer.spec.js) y
 [read-only/test/e2e/app.spec.js](read-only/test/e2e/app.spec.js).
+También tendrás que ajustar las pruebas ya existentes de las
+funcionalidades requeridas
