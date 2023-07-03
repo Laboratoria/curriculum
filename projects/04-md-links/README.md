@@ -195,10 +195,10 @@ funcionando correctamente mientras escribes el código. En este proyecto,
 recuerda que no hay una interfaz gráfica de navegador, por lo tanto para
 poderlo probar es necesario recurrir a los test unitarios.
 
-Por ejemplo, es recomendable escribir tests que invoquen la función `mdLinks`
-y comprueben que esta función resuelva con un arreglo con la información
-esperada. También es importante probar las otras funciones que hayas escrito
-en tu código.
+Recuerda que es muy importante testear tus funciones puras, mientras
+escribes la función `mdLinks`. Y cuando ésta esté terminada, también deberás
+testearla  al final asegurándote que resuelva un arreglo con la
+información esperada.
 
 Ejemplo:
 
@@ -218,8 +218,8 @@ describe('mdLinks', () => {
 
 * Crea una promesa
 
-  El valor de retorno de nuestra librería es una Promesa, no un array (la
-  promesa resuelve un array). Prueba leyendo sobre las promesas y creando
+  El valor de retorno de nuestra librería es una Promesa que resuelve un array.
+  Prueba leyendo sobre las promesas y creando
   una por tu cuenta utilizando `new Promise()`
 
   Es importante que sepas qué es un callback pues las promesas los utilizarán.
@@ -573,21 +573,11 @@ Para que el módulo sea instalable desde GitHub solo tiene que:
 * Contener un `package.json` válido
 
 Con el comando `npm install githubname/reponame` podemos instalar directamente
-desde GitHub. Ver [docs oficiales de `npm install` acá](https://docs.npmjs.com/cli/install).
 
 Por ejemplo, el [`course-parser`](https://github.com/Laboratoria/course-parser)
 que usamos para la currícula no está publicado en el registro público de NPM,
 así que lo instalamos directamente desde GitHub con el comando `npm install
 Laboratoria/course-parser`.
-
-### Otros recursos
-
-* [Acerca de Node.js - Documentación oficial](https://nodejs.org/es/about/)
-* [¿Qué es Node.js y para qué sirve? - serquo.com](https://serquo.com/blog/node-js/)
-* [¿Qué es Nodejs? Javascript en el Servidor - Fazt en YouTube](https://www.youtube.com/watch?v=WgSc1nv_4Gw)
-* [Asíncronía en js](https://carlosazaustre.es/manejando-la-asincronia-en-javascript)
-* [Tú, yo y package.json](https://medium.com/noders/t%C3%BA-yo-y-package-json-9553929fb2e3)
-* [Patrones para coincidencia de caracteres con expresiones regulares - mozilla.org ](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_expressions)
 
 ### Hito 1
 
@@ -605,13 +595,20 @@ Laboratoria/course-parser`.
 
 #### Hito 4
 
-* [Qué es NPM - freecode.camp](https://www.freecodecamp.org/espanol/news/que-es-npm/)
+* [Tú, yo y package.json](https://medium.com/noders/t%C3%BA-yo-y-package-json-9553929fb2e3)
 * [Cómo crear y publicar packpage - npmjs.com](https://docs.npmjs.com/getting-started/publishing-npm-packages)
 * [Una guía para crear un paquete de línea de comandos NodeJS - medium.com](https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e)
 
 ### Hito 5
 
 * [Qué es la recursividad y cómo crear funciones recursivas - javascript.info](https://es.javascript.info/recursion)
+
+### Otros recursos
+
+* [Acerca de Node.js - Documentación oficial](https://nodejs.org/es/about/)
+* [¿Qué es Nodejs? Javascript en el Servidor - Fazt en YouTube](https://www.youtube.com/watch?v=WgSc1nv_4Gw)
+* [Asíncronía en js](https://carlosazaustre.es/manejando-la-asincronia-en-javascript)
+* [Patrones para coincidencia de caracteres con expresiones regulares - mozilla.org](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_expressions)
 
 ## 9. Para pedir project feedback
 
