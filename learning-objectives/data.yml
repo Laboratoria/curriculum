@@ -131,6 +131,7 @@ firebase:
 front-end-web-dev:
   - components
   - state
+  - separation of concerns
   # - routing
 
 angular:
