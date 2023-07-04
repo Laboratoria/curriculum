@@ -36,7 +36,7 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "@laboratoria/react": "^5.1.0",
+    "@laboratoria/react": "^6.1.0",
     "@mui/icons-material": "^5.13.7",
     "@mui/material": "^5.13.7",
     "@mui/styles": "^5.13.7",
