@@ -91,8 +91,8 @@ Para comenzar este proyecto tendrás que hacer un fork y clonar este repositorio
   con **[issues](https://docs.github.com/es/issues)** y
   **[milestones](https://docs.github.com/es/issues/using-labels-and-milestones-to-track-work/about-milestones)**
   para priorizar y organizar el trabajo y hacer seguimiento de tu proceso.
-  Dentro de cada milestone se crearán y asignarán los issues que cada quien
-  considere necesarios.
+  Dentro de cada milestone crearás los issues que
+  consideres necesarios.
 
 * La **librería** y el **script ejecutable** (herramienta de línea de comando -
   CLI) deben estar implementados en JavaScript para ser ejecutados con
@@ -218,26 +218,29 @@ describe('mdLinks', () => {
 
 * Crea una promesa
 
-  El valor de retorno de nuestra librería es una Promesa que resuelve un array.
-  Prueba leyendo sobre las promesas y creando
-  una por tu cuenta utilizando `new Promise()`
+  El valor de retorno de nuestra librería es una _Promesa_ que resuelve un
+  _array_. Prueba leyendo sobre las promesas y creando una por tu cuenta
+  utilizando `new Promise()`
 
   Es importante que sepas qué es un callback pues las promesas los utilizarán.
 
-* Lee un archivo
+* Comprueba si la ruta ingresada es relativa o absoluta
 
-  Empieza leyendo un solo archivo con una ruta fija y retorna su contenido.
-  Para ver este contenido puedes utilizar un `console.log()` al momento de
-  ejecutar la función.
+  Los módulos de node.js que utilizarás después, trabajan con rutas absolutas.
+  Entonces, si a la función mdlinks, se le pasa una ruta relativa, debes
+  convertirla a absoluta primero. Puedes valerte del módulo `path`, con su
+  método `isAbsolute()`
 
-  El módulo `fs` (FileSystem) te será de utilidad. Como mencionamos en las
-  consideraciones técnicas, preferimos que uses `readFile` (en lugar de
-  `readFileSync`) y recomendamos el módulo `fs/promises` para utilizar estas
-  funciones con promesas.
+* Comprueba que la ruta existe en el computador
+
+  Una vez que tienes la ruta absoluta, asegúrate que la ruta exista en el
+  computador. Este paso es importante, ya que si la ruta ingresada es erronea
+  la función `mdLinks` deberá rechazarse con un error.
 
 * Asegúrate que el archivo es markdown
 
-  Ya sabiendo leer un archivo, aventúrate a conocer cuál es su extensión.
+  Como la ruta que se utilizará para este hito, será la ruta de un archivo
+  en específico, aventúrate a conocer cuál es su extensión.
 
   Recuerda, las extensiones son esas letras al final del nombre de un archivo,
   por ejemplo: .js, .txt, .doc, etc
@@ -246,6 +249,23 @@ describe('mdLinks', () => {
 
   En caso de que la extensión del archivo no sea md, la promesa de la función
   mdLinks debería rechazarse con un error.
+
+* Lee un archivo
+
+  Ahora que sabes que el archivo es del tipo markdown, lee este archivo y
+  retorna su contenido. Para ver este contenido puedes utilizar un
+  `console.log()` al momento de ejecutar la función.
+
+  El módulo `fs` (FileSystem) te será de utilidad. Como mencionamos en las
+  consideraciones técnicas, preferimos que uses `readFile` (en lugar de
+  `readFileSync`) y recomendamos el módulo `fs/promises` para utilizar estas
+  funciones con promesas.
+
+* Encuentra los links dentro del documento.
+
+  Una vez tienes acceso al contenido del archivo, extrae los links que
+  encuentres dentro del mismo. Estos links los tendrás que armar dentro de un
+  arreglo para que la función de mdLinks los pueda resolver.
 
 ⚠️ Antes de pasar al siguiente hito, asegúrate de escribir los tests
 correspondientes al código del hito actual.
