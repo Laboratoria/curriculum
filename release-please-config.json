@@ -1,5 +1,9 @@
 {
   "packages": {
-    "path/to/pkg": {}
+    ".": {
+      "exclude-paths": ["topics"]
+    },
+    "projects/*": {},
+    "bootstrap-sha": "61054a0bb06bf8a18091e264d67ce11e612a8cf8"
   }
 }
