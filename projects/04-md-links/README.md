@@ -37,10 +37,10 @@ algunas estadísticas.
 
 En este proyecto crearás una librería de código que servirá como herramienta
 para analizar links dentro de archivos Markdown. Esta librería será accesible
-desde la línea de comandos (CLI) que permitirá al usuario ejecutar la librería
-directamente desde el terminal. Esta librería, escrita en Node.js, se encargará
-de analizar los archivos en formato Markdown. La librería será accesible al
-importarla desde el módulo publicado.
+desde la línea de comandos (CLI), la misma que, que permitirá al usuario
+ejecutar la librería directamente desde el terminal. Esta librería, escrita
+en Node.js, se encargará de analizar los archivos en formato Markdown. La
+librería será accesible al importarla desde el módulo publicado.
 
 En esta oportunidad nos alejamos un poco del navegador para construir un
 script que se ejecute usando Node.js. Aprenderemos sobre procesos
@@ -147,7 +147,135 @@ Este proyecto lo puedes ir construyendo por hitos. A continuación te sugerimos 
 
 ## 6. Hitos
 
-[hito 1](./docs/hito1.md)
+Recuerda que la mejor manera de abordar un problema es descomponiéndolo en
+problemas más pequeños. Por esta razón, te recomendamos que completes este
+proyecto trabajando por hitos. A continuación, encontrarás los hitos que puedes
+seguir:
+
+### **HITO 1:** Javascript API
+
+Comienza haciendo la versión más sencilla de mdlinks. Crea una función que
+devuelva una promesa con los links encontrados dentro de un archivo markdown
+específico.
+
+Esta función debe ser un módulo que puede **importarse** en otros scripts de
+Node.js y debe ofrecer la siguiente interfaz:
+
+`mdLinks(path)`
+
+Argumento:
+
+* `path`: Ruta **absoluta** o **relativa** al **archivo** o **directorio**.
+Si la ruta pasada es relativa, debe resolverse como relativa al directorio
+desde donde se invoca node (transformar a absoluta).
+
+Valor de retorno:
+
+La función `mdLinks(path)` debe **retornar una promesa** que **resuelva a un**
+**arreglo de objetos**, donde cada objeto representa un link y contiene las
+siguientes propiedades:
+
+* `href`: URL encontrada.
+* `text`: Texto que aparecía dentro del link.
+* `file`: Ruta del archivo donde se encontró el link.
+
+Ejemplo:
+
+(resultados como comentarios)
+
+```js
+const mdLinks = require("md-links");
+
+mdLinks("./some/example.md")
+  .then(links => {
+    // => [{ href, text, file }, ...]
+  })
+  .catch(console.error);
+```
+
+Test unitarios:
+
+Los tests unitarios son una excelente forma de verificar si tus funciones están
+funcionando correctamente mientras escribes el código. En este proyecto,
+recuerda que no hay una interfaz gráfica de navegador, por lo tanto para
+poderlo probar es necesario recurrir a los test unitarios.
+
+Recuerda que es muy importante testear tus funciones puras, mientras
+escribes la función `mdLinks`. Y cuando ésta esté terminada, también deberás
+testearla  al final asegurándote que resuelva un arreglo con la
+información esperada.
+
+Ejemplo:
+
+```js
+
+describe('mdLinks', () => {
+  it('debería retornar un arreglo con 3 links para un archivo .md con 3 links', ()=>{
+    return mdLinks('miArchivo.md').then((result) => {
+      expect...;
+    });
+  });
+});
+
+```
+
+#### Tareas de este hito
+
+* Crea una promesa
+
+  El valor de retorno de nuestra librería es una _Promesa_ que resuelve un
+  _array_. Prueba leyendo sobre las promesas y creando una por tu cuenta
+  utilizando `new Promise()`
+
+  Es importante que sepas qué es un callback pues las promesas los utilizarán.
+
+* Comprueba si la ruta ingresada es relativa o absoluta
+
+  Los módulos de node.js que utilizarás después, trabajan con rutas absolutas.
+  Entonces, si a la función mdlinks, se le pasa una ruta relativa, debes
+  convertirla a absoluta primero. Puedes valerte del módulo `path`, con su
+  método `isAbsolute()`
+
+* Comprueba que la ruta existe en el computador
+
+  Una vez que tienes la ruta absoluta, asegúrate que la ruta exista en el
+  computador. Este paso es importante, ya que si la ruta ingresada es erronea
+  la función `mdLinks` deberá rechazarse con un error.
+
+* Asegúrate que el archivo es markdown
+
+  Como la ruta que se utilizará para este hito, será la ruta de un archivo
+  en específico, aventúrate a conocer cuál es su extensión.
+
+  Recuerda, las extensiones son esas letras al final del nombre de un archivo,
+  por ejemplo: .js, .txt, .doc, etc
+
+  Aquí podrá ser útil el módulo `path`.
+
+  En caso de que la extensión del archivo no sea md, la promesa de la función
+  mdLinks debería rechazarse con un error.
+
+* Lee un archivo
+
+  Ahora que sabes que el archivo es del tipo markdown, lee este archivo y
+  retorna su contenido. Para ver este contenido puedes utilizar un
+  `console.log()` al momento de ejecutar la función.
+
+  El módulo `fs` (FileSystem) te será de utilidad. Como mencionamos en las
+  consideraciones técnicas, preferimos que uses `readFile` (en lugar de
+  `readFileSync`) y recomendamos el módulo `fs/promises` para utilizar estas
+  funciones con promesas.
+
+* Encuentra los links dentro del documento.
+
+  Una vez tienes acceso al contenido del archivo, extrae los links que
+  encuentres dentro del mismo. Estos links los tendrás que armar dentro de un
+  arreglo para que la función de mdLinks los pueda resolver.
+
+⚠️ Antes de pasar al siguiente hito, asegúrate de escribir los tests
+correspondientes al código del hito actual.
+
+***
 
 ### **HITO 2:** Javascript API con segundo parámetro opcional "validate"
 
@@ -299,18 +427,25 @@ los tests del hito actual
 En este hito, crearás un paquete ejecutable de tu código, el mismo que
 internamente ejecutará la función mdLinks que acabas de crear.
 
-Tu módulo debe ser instalable via npm install `<github-user>/md-links`.
+Este paquete deberá estar documentado en un repositorio público con un package.json
+para poderlo instalar a con npm.
+
+La instalación sería de la siguiente manera: 
+
+```shell
+npm install `<github-user>/md-links`.
+```
 
 Este módulo debe incluir tanto un ejecutable que podamos invocar en la
 línea de comando como una interfaz que podamos importar con require para
 usarlo programáticamente.
 
-Este paquete deberá estar documentado y alojado en npm para poderlo descargar.
-
 El ejecutable de tu aplicación debe poder correr de la siguiente manera a
 través de la terminal:
 
+```shell
 `md-links <path-to-file> [options]`
+```
 
 Por ejemplo:
 
@@ -377,7 +512,8 @@ carpetas que también debemos abrir y leer, y estas a su vez pueden contener má
 carpetas. Este tipo de problema se resuelve de manera eficiente utilizando un
 proceso recursivo.
 
-Entre los recursos de este proyecto hay un video que te ayudará.
+Entre los [recursos](../README.md#hito-5) de este proyecto hay una página que te ayudará.
+
 
 ⚠️ **Test unitarios.** Antes de dar el proyecto por terminado, recuerda hacer
 los tests del hito actual.
@@ -471,18 +607,20 @@ Para que el módulo sea instalable desde GitHub solo tiene que:
 
 Con el comando `npm install githubname/reponame` podemos instalar directamente
 
-Por ejemplo, el [`course-parser`](https://github.com/Laboratoria/course-parser)
+Por ejemplo, el [`curriculum-parser`](https://github.com/Laboratoria/curriculum-parser)
 que usamos para la currícula no está publicado en el registro público de NPM,
 así que lo instalamos directamente desde GitHub con el comando `npm install
-Laboratoria/course-parser`.
+Laboratoria/curriculum-parser`.
 
-### Hito 1
+### Recursos
+
+#### Hito 1
 
 * [Node.js file system - Documentación oficial](https://nodejs.org/api/fs.html)
 * [Node.js path - Documentación oficial](https://nodejs.org/api/path.html)
 * [Cómo crear promesas - javascript.info](https://es.javascript.info/promise-basics)
 
-### Hito 2
+#### Hito 2
 
 * [Validación de URLs con peticiones http - luisrrleal.com](https://luisrrleal.com/blog/como-hacer-peticiones-http-en-javascript)
 
@@ -496,7 +634,7 @@ Laboratoria/course-parser`.
 * [Cómo crear y publicar packpage - npmjs.com](https://docs.npmjs.com/getting-started/publishing-npm-packages)
 * [Una guía para crear un paquete de línea de comandos NodeJS - medium.com](https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e)
 
-### Hito 5
+#### Hito 5
 
 * [Qué es la recursividad y cómo crear funciones recursivas - javascript.info](https://es.javascript.info/recursion)
 
