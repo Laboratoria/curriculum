@@ -79,6 +79,9 @@ const Topic = () => {
   const { formatMessage } = useIntl();
   const topicTitle = formatMessage({id: slug});
   const pageTitle = `${formatMessage({id: slug})} - ${formatMessage({id: 'app-title'})}`;
+  // en el caso en que no exista un id = slug del tópico en nuestros archivos
+  // de internacionalización (por ej. cuando un tópico existe en un lang, pero
+  // en otro no), vamos a dejar como `title` el título general del sitio.
   setPage(topicTitle !== slug ?
     {title: pageTitle, description: ''} :
     {title: formatMessage({id: 'app-title'}), description: ''});

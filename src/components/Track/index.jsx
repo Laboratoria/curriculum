@@ -29,6 +29,12 @@ const Track = () => {
   const [topics, setTopics] = useState();
   const { formatMessage } = useIntl();
   const trackNameIntl = formatMessage({id: track === 'web-dev' ? 'webDev' : 'ux'});
+  // en este componente el `title` dependerá de en qué tab esté
+  // posicionada la usuaria, en caso de que el último string luego de
+  // los slashes (/) en location y pathname sea igual, quiere decir que
+  // están posicionadas en el tab 'proyectos' y ese será el id para pasar a la
+  // función formatMessage, si no, entonces el id será igual al último
+  // string luego de los slashes (/) en location.pathname
   const tabTitle = formatMessage({
     id: location.pathname.split('/').at(-1) === pathnameBase.split('/').at(-1) ? 'projects' : location.pathname.split('/').at(-1)
   });

@@ -76,6 +76,9 @@ const Project = () => {
   const { formatMessage } = useIntl();
   const projectTitle = formatMessage({id: slug});
   const pageTitle = `${formatMessage({id: slug})} - ${formatMessage({id: 'app-title'})}`;
+  // en el caso en que no exista un id = slug del proyecto en nuestros archivos
+  // de internacionalización (por ej. cuando un proyecto existe en un lang, pero
+  // en otro no), vamos a dejar como `title` el título general del sitio.
   setPage(projectTitle !== slug ?
     {title: pageTitle, description: ''} :
     {title: formatMessage({id: 'app-title'}), description: ''});
