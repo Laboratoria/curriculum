@@ -131,7 +131,7 @@ clonar el [repo](https://github.com/Laboratoria/burger-queen-api-mock.)
 puedes usar esta [API](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 que desarrollamos para ti.
 
-Puedes empezar usando un mock API y en cualquier momento y en cualquier
+Puedes empezar usando un mock API y en cualquier
 momento del proyeto pasarte a la API desplegada
 
 El rango de tiempo estimado para completar el proyecto es de 3 a 5 Sprints.
