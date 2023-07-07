@@ -524,7 +524,7 @@ carpetas que también debemos abrir y leer, y estas a su vez pueden contener má
 carpetas. Este tipo de problema se resuelve de manera eficiente utilizando un
 proceso recursivo.
 
-Entre los [recursos](../README.md#hito-5) de este proyecto hay una página
+Entre los [recursos](#hito-5) de este proyecto hay una página
 que te ayudará.
 
 ⚠️ **Test unitarios.** Antes de dar el proyecto por terminado, recuerda hacer
