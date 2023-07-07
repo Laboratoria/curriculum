@@ -43,7 +43,7 @@ los mensajes, colores, etc.
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar
 en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
 
-> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
 > al crear el repo del proyecto para un cohort en particular usando
 > [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
@@ -254,14 +254,12 @@ no el resultado. ¿Fuiste cambiando cosas en el camino?, ¿Cuáles?, ¿Por qué?
 
 ### Prepara tu ambiente de trabajo
 
-#### Si estás dando tus primeros pasos en el Desarrolo Web
+#### Si estás dando tus primeros pasos en el Desarrollo Web
 
 Quizás prefieras trabajar con alguna herramienta de edición de código en línea
-como [Replit](https://repl.it)  o [CodeSandbox](https://codesandbox.io/).
+como [Glitch](https://glitch.com/).
 
-[Tutorial Replit](https://www.loom.com/share/2f796990c8054df793c8b61ddebf63ad)
-
-[Tutorial CodeSandbox](https://www.loom.com/share/7dc9fcef9cdb4c6a826dd702ab214452)
+[Tutorial glitch](https://www.loom.com/share/778940c923c4437bae3a94cfabddd462?sid=6fd2f314-a5f1-4b99-9deb-e35b578b2d6d)
 
 ### Recursos y temas relacionados
 
@@ -285,5 +283,5 @@ como [Replit](https://repl.it)  o [CodeSandbox](https://codesandbox.io/).
 #### Entrega
 
 * Todo tu proyecto debe estar como entregable en un link funcional que nos
-  permita ver tu código, puede ser el link de tu proyecto en linea ya sea
-  [Replit](https://repl.it) o [CodeSandbox](https://codesandbox.io/)
+  permita ver tu código, puede ser el link de tu proyecto en linea como
+  [Glitch](https://glitch.com/).

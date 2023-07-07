@@ -107,7 +107,7 @@ a un _pedido_, la interfaz debe actualizar la lista del pedido y el total).
 
 ## 3. Objetivos de aprendizaje
 
-> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
 > al crear el repo del proyecto para un cohort en particular usando
 > [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
@@ -137,9 +137,17 @@ hasta la historia que puedas en el tiempo especificado.
 La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6+), HTML y CSS y empaquetada de manera automatizada.
 
-En este proyecto Sí está permitido usar librerías o frameworks
-(debes elegir entre [React](https://es.react.dev/) o
-[Angular](https://angular.io/)).
+Uno de los mayores objetivos de este proyecto es aprender a usar una librería o
+framework popular para desarrollar una web app.
+Debes elegir entre [React](https://es.react.dev/) o [Angular](https://angular.io/).
+
+Ten en cuenta que si eliges Angular, tienes la obligación de usar [TypeScript](https://www.typescriptlang.org/).
+_Typescript_ es un lenguaje de programación fuertemente tipado basado en
+javascript.
+
+Si eliges React, la decisión de usar Typescript es opcional (pero te lo
+recomendamos!). Aquí puedes encontrar más información en relación a cómo iniciar
+tu proyecto con [Typescript y React](https://itnext.io/create-react-v18-typescript-project-with-vite-d0d602e4a60e).
 
 La aplicación debe ser un _Single Page App_. Los pedidos los tomaremos desde una
 _tablet_, pero **no queremos una app nativa**, sino una web app que sea

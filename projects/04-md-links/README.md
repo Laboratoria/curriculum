@@ -57,7 +57,7 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
 ## 3. Objetivos de aprendizaje
 
-> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
 > al crear el repo del proyecto para un cohort en particular usando
 > [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
@@ -325,6 +325,8 @@ si tienes dudas existenciales con respecto a estas decisiones. No existe una
 ### Tutoriales / NodeSchool workshoppers
 
 * [learnyounode](https://github.com/workshopper/learnyounode)
+  Considera los primeros puntos para conocer más de Node.js, y cuales
+  son pertinentes a este proyecto, no es necesario hacer todos los pasos.
 * [how-to-npm](https://github.com/workshopper/how-to-npm)
 * [promise-it-wont-hurt](https://github.com/stevekane/promise-it-wont-hurt)
 
