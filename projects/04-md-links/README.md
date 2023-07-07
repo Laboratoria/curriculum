@@ -36,10 +36,9 @@ algunas estadísticas.
 ## 2. Resumen del proyecto
 
 En este proyecto crearás una librería de código que servirá como herramienta
-para analizar links dentro de archivos Markdown. Esta librería será accesible
-desde la línea de comandos (CLI), la misma que, que permitirá al usuario
-ejecutar la librería directamente desde el terminal. Esta librería, escrita
-en Node.js, se encargará de analizar los archivos en formato Markdown. La
+para analizar links dentro de archivos Markdown. Esta librería, escrita en
+Node.js, será accesible desde la línea de comandos (CLI) y permitirá a la
+usuaria ejecutar la librería directamente desde la terminal. La
 librería será accesible al importarla desde el módulo publicado.
 
 En esta oportunidad nos alejamos un poco del navegador para construir un
@@ -116,6 +115,13 @@ Para comenzar este proyecto tendrás que hacer un fork y clonar este repositorio
   este formato. Puedes encontrar más información al respecto
   [aquí](https://nodejs.org/api/esm.html#enabling)
 
+* Para que practiques otra forma de importar y exportar módulos en Node.js,
+  puedes utilizar CommonJS con `require`, que es el formato de módulos original
+  de Node.js.  Si deseas utilizar los ES Modules (`import/export`), asegúrate
+  de configurar correctamente tu archivo package.json agregando la propiedad
+  "type" con el valor "module". Esto permitirá que Node.js reconozca y utilice
+  el formato de módulos ES.
+
 * Para este proyecto, te recomendamos evitar el uso de la función síncrona
   `readFileSync` para leer archivos. En su lugar, te sugerimos abordar este
   desafío de manera asíncrona utilizando `readFile`. Además, si utilizas el
@@ -154,7 +160,7 @@ seguir:
 
 ### **HITO 1:** Javascript API
 
-Comienza haciendo la versión más sencilla de mdlinks. Crea una función que
+Comienza haciendo la versión más sencilla de `mdlinks`. Crea una función que
 devuelva una promesa con los links encontrados dentro de un archivo markdown
 específico.
 
@@ -430,7 +436,7 @@ internamente ejecutará la función mdLinks que acabas de crear.
 Este paquete deberá estar documentado en un repositorio público con un package.json
 para poderlo instalar a con npm.
 
-La instalación sería de la siguiente manera: 
+La instalación sería de la siguiente manera:
 
 ```shell
 npm install `<github-user>/md-links`.
@@ -498,7 +504,8 @@ Misma funcionalidad que el HITO 3 pero ahora la usuaria será capaz de pasar una
 carpeta como ruta con más carpetas dentro además de posibles archivos.
 
 La función `mdLinks(path, validate)` tendrá que recorrer todas las carpetas
-existentes en la ruta y buscar los links en todos los archivos md que encuentre.
+existentes en la ruta y buscar los links en todos los archivos markdown que
+encuentre.
 
 Para resolver este hito te recomendacón leer acerca del concepto de
 recursividad y ver algunos ejemplos (ojo con concepto de casos base)
@@ -512,8 +519,8 @@ carpetas que también debemos abrir y leer, y estas a su vez pueden contener má
 carpetas. Este tipo de problema se resuelve de manera eficiente utilizando un
 proceso recursivo.
 
-Entre los [recursos](../README.md#hito-5) de este proyecto hay una página que te ayudará.
-
+Entre los [recursos](../README.md#hito-5) de este proyecto hay una página
+que te ayudará.
 
 ⚠️ **Test unitarios.** Antes de dar el proyecto por terminado, recuerda hacer
 los tests del hito actual.
@@ -559,8 +566,9 @@ links podría plantearse de las siguientes maneras (todas válidas):
   un arreglo de tokens que podemos recorrer para identificar los links.
 
 * También podríamos usar una combinación de varios módulos (podría ser válido
-  transformar el markdown a HTML usando algo como marked y de ahí extraer los
-  link con una librería de DOM como JSDOM o Cheerio entre otras).
+  transformar el markdown a HTML usando algo como [marked](https://github.com/markedjs/marked)
+  y de ahí extraer los links con una librería de DOM como [JSDOM](https://www.npmjs.com/package/jsdom)
+  o [Cheerio](https://cheerio.js.org/) entre otras).
 
 * Usando un custom renderer de la librería marked (new marked.Renderer()).
 
