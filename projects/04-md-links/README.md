@@ -235,18 +235,18 @@ describe('mdLinks', () => {
 
   Es importante que sepas qué es un callback pues las promesas los utilizarán.
 
-* Comprueba si la ruta ingresada es relativa o absoluta
+* Transforma la ruta ingresada a absoluta
 
   Los módulos de node.js que utilizarás después, trabajan con rutas absolutas.
-  Entonces, si a la función mdlinks, se le pasa una ruta relativa, debes
+  Entonces, si a la función `mdlinks()`, se le pasa una ruta relativa, debes
   convertirla a absoluta primero. Puedes valerte del módulo `path`, con su
-  método `isAbsolute()`
+  método `resolve()`.
 
 * Comprueba que la ruta existe en el computador
 
   Una vez que tienes la ruta absoluta, asegúrate que la ruta exista en el
   computador. Este paso es importante, ya que si la ruta ingresada es erronea
-  la función `mdLinks` deberá rechazarse con un error.
+  la función `mdLinks()` deberá rechazarse con un error.
 
 * Asegúrate que el archivo es markdown
 
