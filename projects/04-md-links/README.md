@@ -50,7 +50,7 @@ interactuar con el sistema en sí, archivos, redes, etc.
 
 En esta oportunidad nos alejamos un poco del navegador para construir una
 librería que interactua con el sistema archivos y un script que se ejecute
-usando Node.js. prenderemos cómo buscar y leer archivos, cómo hacer consultas
+usando Node.js. Aprenderemos cómo buscar y leer archivos, cómo hacer consultas
 de red, sobre procesos (`process.env`, `process.argv`, ...), etc.
 
 Diseñar tu propia librería es una experiencia fundamental para cualquier
