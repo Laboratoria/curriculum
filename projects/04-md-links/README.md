@@ -32,7 +32,7 @@ herramienta usando [Node.js](https://nodejs.org/), que lea y analice archivos
 en formato `Markdown`, para verificar los links que contengan y reportar
 algunas estadísticas.
 
-![md-links](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/249291631-e1bc9e29-c1e9-4cf5-9260-a86faa976b33.png)
+![md-links](https://github.com/Laboratoria/bootcamp/assets/12631491/fc6bc380-7824-4fab-ab8f-7ab53cd9d0e4)
 
 ## 2. Resumen del proyecto
 
