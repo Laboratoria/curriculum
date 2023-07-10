@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, useIntl } from 'react-intl';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
-import { Loading } from '@laboratoria/react';
+import { Loading, setPage } from '@laboratoria/react';
 import Breadcrumbs from '../Breadcrumbs';
 import data from '../../lib/data';
 
@@ -73,7 +73,16 @@ const Project = () => {
   const { lang, slug } = useParams();
   const [project, setProject] = useState();
   const [learningObjectives, setLearningObjectives] = useState();
-
+  const { formatMessage } = useIntl();
+  const projectTitle = formatMessage({id: slug});
+  const pageTitle = `${formatMessage({id: slug})} - ${formatMessage({id: 'app-title'})}`;
+  // en el caso en que no exista un id = slug del proyecto en nuestros archivos
+  // de internacionalización (por ej. cuando un proyecto existe en un lang, pero
+  // en otro no), vamos a dejar como `title` el título general del sitio.
+  setPage(projectTitle !== slug ?
+    {title: pageTitle, description: ''} :
+    {title: formatMessage({id: 'app-title'}), description: ''});
+  
   useEffect(() => {
     const id = `projects/${slug}`;
     data.subscribe(id, setProject);
@@ -86,7 +95,7 @@ const Project = () => {
   if (!project || !learningObjectives) {
     return <Loading />;
   }
-
+  
   if (!project.intl[lang]) {
     return (
       <Container>

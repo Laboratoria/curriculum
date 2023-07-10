@@ -2,7 +2,7 @@
 env: cjs
 ---
 
-# coinConvert
+# Conversor de Moneda
 
 En este ejercicio nos concentraremos en asignar _valores_ en _variables_. El
 ejercicio ya incluye un _boilerplate_ (_plantilla_), con una _función_, dentro
