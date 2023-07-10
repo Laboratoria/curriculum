@@ -21,3 +21,9 @@ Si tienes una idea para un curso, chequea el
 [`README.md`](README.md) para ver si ya se ha propuesto algo parecido. Si tu
 propuesta es algo nuevo, abre un issue con tu idea y veamos que opina la
 comunidad.
+
+### Pull requests
+
+Si tengas cambios al contenido o un bug fix, hay que hacer un pull request para
+obtener feedback. Crea tu pull request desde tu fork hacia la rama `next` de
+curricula.

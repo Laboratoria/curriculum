@@ -71,6 +71,8 @@ _draft_ de release en Github con la información pertinente al release
 cumplido todos los demás pasos y esté ya el _tag_ de la versión a publicar
 en Github) se deben ejecutar los siguiente pasos:
 
+Nota: Todo los siguiente pasos esta ejecutado desde la rama `next`.
+
 1. Actualización de dependencias: Se debe ejecutar el comando
   `npm outdated --depth 0` para revisar qué dependencias pueden actualizarse,
   se recomienda, antes de cambiar la versión de ellas, revisar el _changelog_
@@ -119,11 +121,14 @@ en Github) se deben ejecutar los siguiente pasos:
   directamente al repositorio de Laboratoria incluyendo el _tag_ asociado
   al release (normalmente al repo original
   del cual hacemos fork se le configura su _remote_ bajo el alias "upstream")
-  ejecutando el comando `git push upstream main --tags` (Ahora puedes
-  publicar el draft de release, eligiendo el tag correspondiente que acabas
-  de _pushear_.)
+  ejecutando el comando `git push upstream next --tags`. **Ver nota abajo.
+  Ahora puedes publicar el draft de release, eligiendo el tag correspondiente
+  que acabas de _pushear_.
 
-Una vez realizado ese último paso, se ejecutarán en Github las
+8. Para "distribuir" la version estable, hay que aplicar los cambios en
+`next` a `main`. En la rama `main`, ejecute `git rebase next` y `git push`.
+
+** Una vez realizado ese paso, se ejecutarán en Github las
 [actions](https://github.com/features/actions) asociadas al repositorio,
 que en este caso son 2, una para hacer un deploy a `production` y otra
 para hacer un deploy a `staging`.
