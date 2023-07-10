@@ -117,22 +117,21 @@ a un _pedido_, la interfaz debe actualizar la lista del pedido y el total).
 
 ## 4. Consideraciones
 
- En este proyecto puedes elegir realizarlo en duplas y puedes escoger entre
-estas dos opciones la manera en que trabajarás con el backend.
+Este proyecto se debe "resolver" en duplas y puedes elegir entre
+las siguientes opciones la manera en que trabajarás con el backend.
 
-1. Crear tu propia mock API que te ayudara a entender mejor el flujo de
-cómo se crea y se implementa una API, puedes usar
+1. Usando mock API. Puedes crear un mock API con las herramientas
 [json-server](https://www.npmjs.com/package/json-server) y
 [json-server-auth](https://www.npmjs.com/package/json-server-auth)
-como  herramientas para lograrlo o puedes hacer fork y
+que te ayudaran a realizarlo o puedes hacer fork y
 clonar el [repo](https://github.com/Laboratoria/burger-queen-api-mock.)
 
-2. Consumiendo una API que desarrollarán tus compañeras o
+2. Consumiendo una API desplegada que desarrollarán tus compañeras o
 puedes usar esta [API](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
-que desarrollamos para ti.
+que hemos desarrollado.
 
 Puedes empezar usando un mock API y en cualquier
-momento del proyeto pasarte a la API desplegada
+momento del proyecto pasarte a la API desplegada.
 
 El rango de tiempo estimado para completar el proyecto es de 3 a 5 Sprints.
 
