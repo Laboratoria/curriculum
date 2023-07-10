@@ -113,19 +113,13 @@ Para comenzar este proyecto tendrás que hacer un fork y clonar este repositorio
 
 * Para este proyecto **no está permitido** utilizar `async/await`.
 
-* Para este proyecto, te recomendamos utilizar los módulos CommonJS con
-  `require`,  que es el formato de módulos original de Node.js. Si prefieres
-  utilizar ES Modules `(import/export)`, puedes hacerlo, pero ten en cuenta que
-  deberás configurar adecuadamente tu proyecto para que Node.js pueda utilizar
-  este formato. Puedes encontrar más información al respecto
-  [aquí](https://nodejs.org/api/esm.html#enabling)
-
 * Para que practiques otra forma de importar y exportar módulos en Node.js,
-  puedes utilizar CommonJS con `require`, que es el formato de módulos original
-  de Node.js.  Si deseas utilizar los ES Modules (`import/export`), asegúrate
-  de configurar correctamente tu archivo package.json agregando la propiedad
-  "type" con el valor "module". Esto permitirá que Node.js reconozca y utilice
-  el formato de módulos ES.
+  te recomendamos utilizar CommonJS con `require`, que es el formato de módulos
+  original de Node.js.  Si deseas utilizar los ES Modules (`import/export`),
+  asegúrate de configurar correctamente tu archivo package.json agregando la
+  propiedad "type" con el valor "module". Esto permitirá que Node.js reconozca
+  y utilice el formato de ES Modules. (Solamente ten en cuenta que el soporte
+  de Jest para ES Modules aún es experimental)
 
 * Para este proyecto, te recomendamos evitar el uso de la función síncrona
   `readFileSync` para leer archivos. En su lugar, te sugerimos abordar este
@@ -587,16 +581,17 @@ para lograr la tarea.
 
 ### **¿CommonJS Modules o ES Modules, cual debería usar?**
 
-Deberás decidir desde el principio si utilizarás ES Modules, es decir,
-import/export, o CommonJS Modules, es decir, require/module.exports.
-Ambos cumplen el mismo objetivo de modularizar y compartir código. Node.js ha
-utilizado históricamente los CommonJS Modules (require) y funciona así sin
-necesidad de configuraciones adicionales. Sin embargo, en las nuevas versiones
-de Node.js, puedes utilizar ES Modules, pero requiere algunos pasos de
-configuración. Si decides utilizar ES Modules, asegúrate de revisar cómo
-configurar tu proyecto con la versión de Node que estás utilizando.
-Asegúrate de tener en cuenta esta decisión desde el inicio del proyecto,
-ya que afectará la forma de importar y exportar módulos en tu código.
+Desde el principio, es importante que tomes una decisión respecto a qué tipo de
+módulos utilizarás: ES Modules (import/export) o CommonJS Modules
+(require/module.exports). Ambos cumplen el mismo propósito de modularizar y
+compartir código. Hasta ahora, Node.js ha empleado mayormente los CommonJS
+Modules (require) y funcionan sin necesidad de configuraciones adicionales.
+Sin embargo, en las versiones más recientes de Node.js, también puedes optar
+por utilizar ES Modules, aunque esto requerirá algunos pasos de configuración
+adicionales. Si decides utilizar ES Modules, asegúrate de investigar cómo
+configurar tu proyecto según la versión de Node que estés utilizando. Ten en
+cuenta esta decisión desde el inicio de tu proyecto, ya que afectará la forma
+en que importas y exportas módulos en tu código.
 
 ### **¿Cuáles son partes de node son relevantes para este proyecto?**
 
