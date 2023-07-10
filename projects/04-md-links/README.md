@@ -57,7 +57,7 @@ Diseñar tu propia librería es una experiencia fundamental para cualquier
 desarrolladora porque que te obliga a pensar en la interfaz (API) de tus
 _módulos_ y cómo será usado por otras developers. Debes tener especial
 consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
-Al finalizar, podrás compartir esta biblioteca utilizando NPM (Node Package
+Al finalizar, podrás instalar esta biblioteca utilizando NPM (Node Package
 Manager), que facilita la búsqueda e instalación de bibliotecas de Node a
 través de su registro y también de GitHub. Una vez que hayas subido la
 biblioteca a tu repositorio público, será accesible para otras developers.
