@@ -39,7 +39,7 @@ En este proyecto desarrollarás una librería en Node.js que funcionará como
 herramienta para analizar links dentro de archivos Markdown. Esta librería
 estará disponible de dos formas: como un módulo publicado en GitHub, que las
 usuarias podrán instalar e importar en otros proyectos, y como una interfaz
-de línea de comandos (CLI) que permitirá utilizar la biblioteca directamente
+de línea de comandos (CLI) que permitirá utilizar la librería directamente
 desde el terminal.
 
 [Node.js](https://nodejs.org/es/) es un entorno de ejecución para JavaScript
@@ -57,10 +57,10 @@ Diseñar tu propia librería es una experiencia fundamental para cualquier
 desarrolladora porque que te obliga a pensar en la interfaz (API) de tus
 _módulos_ y cómo será usado por otras developers. Debes tener especial
 consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
-Al finalizar, podrás instalar esta biblioteca utilizando NPM (Node Package
-Manager), que facilita la búsqueda e instalación de bibliotecas de Node a
+Al finalizar, podrás instalar esta librería utilizando NPM (Node Package
+Manager), que facilita la búsqueda e instalación de librerías de Node a
 través de su registro y también de GitHub. Una vez que hayas subido la
-biblioteca a tu repositorio público, será accesible para otras developers.
+librería a tu repositorio público, será accesible para otras developers.
 
 ## 3. Objetivos de aprendizaje
 
@@ -113,13 +113,14 @@ Para comenzar este proyecto tendrás que hacer un fork y clonar este repositorio
 
 * Para este proyecto **no está permitido** utilizar `async/await`.
 
-* Para que practiques otra forma de importar y exportar módulos en Node.js,
-  te recomendamos utilizar CommonJS con `require`, que es el formato de módulos
-  original de Node.js.  Si deseas utilizar los ES Modules (`import/export`),
-  asegúrate de configurar correctamente tu archivo package.json agregando la
-  propiedad "type" con el valor "module". Esto permitirá que Node.js reconozca
-  y utilice el formato de ES Modules. (Solamente ten en cuenta que el soporte
-  de Jest para ES Modules aún es experimental)
+* Para este proyecto, te recomendamos utilizar los módulos CommonJS con
+  `require`,  que es el formato de módulos original de Node.js. Si prefieres
+  utilizar ES Modules `(import/export)`, puedes hacerlo, pero ten en cuenta que
+  deberás configurar adecuadamente tu proyecto para que Node.js pueda utilizar
+  este formato. Puedes encontrar más información al respecto
+  [aquí](https://nodejs.org/api/esm.html#enabling). Algo a tener en
+  consideración también, es el [soporte](https://jestjs.io/docs/ecmascript-modules)
+  de Jest para ES Modules el mismo que aún es experimental.
 
 * Para este proyecto, te recomendamos evitar el uso de la función síncrona
   `readFileSync` para leer archivos. En su lugar, te sugerimos abordar este
@@ -360,7 +361,7 @@ tests del hito actual. Los tests aquí van a mockear http, fecth o axios.
 Para este hito vas a trabajar con la misma función `mdLinks` pero esta vez la
 usuaria será capaz de pasar una carpeta como ruta.
 
-El La función `mdLinks(path, validate)` debe recorrer todos los archivos
+La función `mdLinks(path, validate)` debe recorrer todos los archivos
 existentes en la carpeta y por cada archivo `.md` que encuentre deberá
 extraer los links para mostrarlos en pantalla.
 
