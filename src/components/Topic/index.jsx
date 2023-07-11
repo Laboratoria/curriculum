@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import { Link, Route, Routes, useParams } from 'react-router-dom';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, useIntl } from 'react-intl';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
-import { Loading, Challenge } from '@laboratoria/react';
+import { Loading, Challenge, setPage } from '@laboratoria/react';
 import data from '../../lib/data';
 import Breadcrumbs from '../Breadcrumbs';
 import Part from '../Part';
@@ -58,6 +58,11 @@ const ChallengeRoute = ({ topic, lang }) => {
   const unit = topic.units.find(({ slug }) => slug === params.unit);
   const part = unit.parts.find(({ slug }) => slug === params.part);
   const challenge = part.challenges.find(({ slug }) => slug === params.challengeid);
+  const { formatMessage } = useIntl();
+  setPage({
+    title: `${challenge.intl[lang].title} - ${formatMessage({id: topic.slug})} - ${formatMessage({id: 'app-title'})}`,
+    description: ''
+  });
 
   return (
     <Challenge
@@ -71,6 +76,15 @@ const ChallengeRoute = ({ topic, lang }) => {
 const Topic = () => {
   const { lang, slug } = useParams();
   const [topic, setTopic] = useState();
+  const { formatMessage } = useIntl();
+  const topicTitle = formatMessage({id: slug});
+  const pageTitle = `${formatMessage({id: slug})} - ${formatMessage({id: 'app-title'})}`;
+  // en el caso en que no exista un id = slug del tópico en nuestros archivos
+  // de internacionalización (por ej. cuando un tópico existe en un lang, pero
+  // en otro no), vamos a dejar como `title` el título general del sitio.
+  setPage(topicTitle !== slug ?
+    {title: pageTitle, description: ''} :
+    {title: formatMessage({id: 'app-title'}), description: ''});
 
   useEffect(() => {
     const id = `topics/${slug}`;

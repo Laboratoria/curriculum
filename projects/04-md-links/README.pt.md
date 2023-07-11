@@ -32,7 +32,7 @@ Uma comunidade open source nos propôs criar uma ferramenta, usando
 `Markdown`, para verificar os arquivos que contenham links e mostrar algumas
 estatísticas.
 
-![md-links](https://user-images.githubusercontent.com/110297/42118443-b7a5f1f0-7bc8-11e8-96ad-9cc5593715a6.jpg)
+![md-links](https://github.com/Laboratoria/bootcamp/assets/12631491/fc6bc380-7824-4fab-ab8f-7ab53cd9d0e4)
 
 ## 2. Resumo do projeto
 
