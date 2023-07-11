@@ -131,6 +131,9 @@ puedes usar [esta API que hemos desarrollado.](https://app.swaggerhub.com/apis-d
 
 Puedes empezar usando un mock API y en cualquier
 momento del proyecto pasarte a la API desplegada.
+(Esta situación ocurre en el trabajo cuando necesita avanzar
+con el desarrollo de frontend mientras el backend o la API aún
+se están desarrollando.)
 
 El rango de tiempo estimado para completar el proyecto es de 3 a 5 Sprints.
 
