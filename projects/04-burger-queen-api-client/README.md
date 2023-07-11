@@ -126,9 +126,8 @@ las siguientes opciones la manera en que trabajarás con el backend.
 que te ayudaran a realizarlo, o puedes hacer fork y
 clonar [este repo de un mock API.](https://github.com/Laboratoria/burger-queen-api-mock)
 
-2. Consumiendo una API desplegada que desarrollarán tus compañeras o
-puedes usar esta [API](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
-que hemos desarrollado.
+2. Consumiendo una API desplegada. Puedes usar una que desarrollarán tus compañeras o
+puedes usar [esta API que hemos desarrollado.](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 
 Puedes empezar usando un mock API y en cualquier
 momento del proyecto pasarte a la API desplegada.
