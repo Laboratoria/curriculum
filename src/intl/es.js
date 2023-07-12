@@ -285,6 +285,8 @@ const es = {
 
   'wordpress-plugin': 'Plugin para WordPress',
 
+  'text-analyzer': 'Analizador de texto',
+
   'job-application': 'Proyecto Job Application',
 
   'browser': 'Browser JavaScript',
