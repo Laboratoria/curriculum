@@ -125,16 +125,15 @@ como você vai trabalhar com o backend.
 1. Usando uma mock API. Você pode criar sua própria mock API com as ferramentas
 [json-server](https://www.npmjs.com/package/json-server) e
 [json-server-auth](https://www.npmjs.com/package/json-server-auth)
-para ajudá-lo a fazer isso, ou você pode fazer um fork e
-clone [este repositório de uma mock API.](https://github.com/Laboratoria/burger-queen-api-mock)
+ou você pode fazer um fork e clone [deste repositório de uma mock API.](https://github.com/Laboratoria/burger-queen-api-mock)
 
-2. Consumindo uma API implantada. Você pode usar uma Api que suas companheiras
+2. Consumindo uma API implantada. Você pode usar uma API que suas companheiras
 vão desenvolver ou você pode usar
 [esta API que desenvolvemos.](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 
-Você pode começar a usar uma mock API e mudar a uma API implantada em qualquer momento.
-(Essa situação ocorre no trabalho quando você precisa seguir em frente com
-desenvolvimento de front-end enquanto back-end ou API ainda estão se desenvolvendo.)
+Você pode começar a usar uma mock API e mudar para uma API implantada em qualquer momento.
+(Essa situação ocorre no trabalho quando você precisa seguir em frente
+desenvolvendo front-end enquanto o back-end ou a API ainda estão em desenvolvimento.)
 
 O intervalo de tempo estimado para concluir o projeto é de 3 a 5 Sprints.
 
