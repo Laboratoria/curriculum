@@ -131,9 +131,10 @@ ou você pode fazer um fork e clone [deste repositório de uma mock API.](https:
 vão desenvolver ou você pode usar
 [esta API que desenvolvemos.](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 
-Você pode começar a usar uma mock API e mudar para uma API implantada em qualquer momento.
-(Essa situação ocorre no trabalho quando você precisa seguir em frente
-desenvolvendo front-end enquanto o back-end ou a API ainda estão em desenvolvimento.)
+Você pode começar a usar uma mock API e mudar para uma API implantada em
+qualquer momento. (Essa situação ocorre no trabalho quando você precisa seguir
+em frente desenvolvendo front-end enquanto o back-end ou a API ainda estão em
+desenvolvimento.)
 
 O intervalo de tempo estimado para concluir o projeto é de 3 a 5 Sprints.
 
