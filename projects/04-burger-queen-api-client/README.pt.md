@@ -119,17 +119,23 @@ atualizar a lista de pedidos e o total).
 
 ## 4. Considerações gerais
 
-Este projeto deve ser feito em pares e você pode escolher entre
-estas três opções como você vai trabalhar com o backend.
+Este projeto deve ser feito em pares e você pode escolher entre as 
+seguintes  opções como você vai trabalhar com o backend.
 
-1. Consumindo um API a ser desenvolvido por suas companheiras.
-2. Consumindo esta
-[API](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
-que desenvolvemos para você.
-3. Mockar a API, pode utilizar ferramentas como
-[nock](https://github.com/nock/nock),
-[json-server](https://www.npmjs.com/package/json-server)
-ou [mockoon](https://mockoon.com).
+1. Usando uma mock API. Você pode criar sua própria mock API com as ferramentas
+[json-server](https://www.npmjs.com/package/json-server) e
+[json-server-auth](https://www.npmjs.com/package/json-server-auth)
+para ajudá-lo a fazer isso, ou você pode fazer um fork e
+clone [este repositório de uma mock API.](https://github.com/Laboratoria/burger-queen-api-mock)
+
+2. Consumindo uma API implantada. Você pode usar uma Api que 
+suas companheiras vão desenvolver ou você pode usar [esta API que desenvolvemos.](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
+
+Você pode começar a usar uma mock API e
+mudar a uma API implantada em qualquer momento.
+(Essa situação ocorre no trabalho quando você precisa seguir em frente
+com desenvolvimento de front-end enquanto back-end ou API ainda
+estão se desenvolvendo.)
 
 O intervalo de tempo estimado para concluir o projeto é de 3 a 5 Sprints.
 
@@ -342,8 +348,6 @@ para conversar e pedir ajuda no projeto.
 * [Babel](https://babeljs.io/)
 * [webpack](https://webpack.js.org/)
 * [json-server](https://www.npmjs.com/package/json-server)
-* [mockoon](https://mockoon.com)
-* [nock](https://github.com/nock/nock)
 
 ### PWA
 
