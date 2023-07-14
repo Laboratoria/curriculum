@@ -338,9 +338,8 @@ if (args.length === 0 || opts.h || opts.help) {
   process.exit(0);
 }
 
-if (!process.argv[1].endsWith('mocha')) {
 main(trimSlashes(args), opts).catch((err) => {
   console.error(err);
   process.exit(1);
 });
-}
+
