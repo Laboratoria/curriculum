@@ -14,9 +14,7 @@ import {
   transformLearningObjectives,
   loadYaml,
 } from '@laboratoria/curriculum-parser/lib/project.js';
-
-const defaultLocale = "es";
-const supportedLocales = ["es", "pt"];
+import { getFilesWithLocales, defaultLocale, supportedLocales } from './script-utils.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const uiUrl = 'https://curriculum.laboratoria.la';
@@ -84,12 +82,17 @@ export const copy = async (src, repoDir, opts) => {
 
   // rename / replace default files with localized content
   if (opts.locale && opts.locale !== defaultLocale) {
-    const files = getFilesWithLocales(repoDir, [opts.locale]);
-    files.map((filepath) => rename(`${repoDir}/${filepath}`, `${repoDir}/${filepath.replace(`.${opts.locale}`, '')}`));
+    const files = getFilesWithLocales(repoDir, [ opts.locale ]);
+    await Promise.all(files.map(
+      (filepath) => rename(`${repoDir}/${filepath}`, `${repoDir}/${filepath.replace(`.${opts.locale}`, '')}`))
+    );
   }
 
-  const files = getFilesWithLocales(repoDir, supportedLocales); // might be empty while only support pt
-  return files.map(filepath => unlink(`${repoDir}/${filepath}`));
+  const files = getFilesWithLocales(repoDir, supportedLocales);
+  // we dont need to filter supportedLocales to remove the opts.locale since those files
+  // will already be renamed by the step above, or should we ?
+  await Promise.all(files.map(filepath => unlink(`${repoDir}/${filepath}`)));
+  return; // necistamos devolver algo?
 };
 
 const addBootcampInfo = async (repoDir) => {

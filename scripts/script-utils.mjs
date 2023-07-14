@@ -1,33 +1,22 @@
+import { readdirSync } from 'node:fs';
+import path from 'node:path';
 
-export const getRemainingLocalizedFiles = (dir, locales) => {
-  const dirents = readdirSync(dir, { withFileTypes: true });
-  let filesWithExt = [];
-  dirents.forEach((x) => {
-    const fullPath = path.join(dir, x.name);
-    if (x.isDirectory()) {
-      filesWithExt.push(...getRemainingLocalizedFiles(fullPath));
-    } else {
-      filesWithExt.push(x.name); 
-    }
-  });
-  const filepaths = filesWithExt.map(filepath => path.join(dir, filepath))
-  const regexLocaleMD = new RegExp(`\.(${supportedLocales.join('|')})\.md`);
-  return filepaths.filter((filepath) => filepath.match(regexLocaleMD));
-}
+export const defaultLocale = "es";
+export const supportedLocales = ["es", "pt", "jp"];
 
 export const getFilesWithLocales = (dir, locales) => {
   const dirents = readdirSync(dir, { withFileTypes: true });
   let filesWithExt = [];
-  dirents.forEach((x) => {
-    const fullPath = path.join(dir, x.name);
-    if (x.isDirectory()) {
+  dirents.forEach((dirent) => {
+    const fullPath = path.join(dir, dirent.name);
+    if (dirent.isDirectory()) {
       filesWithExt.push(...getFilesWithLocales(fullPath, locales));
     } else {
-      filesWithExt.push(x.name); 
+      filesWithExt.push(dirent.name); 
     }
   });
   const filepaths = filesWithExt.map(filepath => path.join(dir, filepath))
   // return filepaths.filter((filepath) => filepath.endsWith(langExt));
-  const regexLocaleMD = new RegExp(`\.(${supportedLocales.join('|')})\.md`);
+  const regexLocaleMD = new RegExp(`\.(${locales.join('|')})\.md`);
   return filepaths.filter((filepath) => filepath.match(regexLocaleMD));
 }
