@@ -21,3 +21,9 @@ Si tienes una idea para un curso, chequea el
 [`README.md`](README.md) para ver si ya se ha propuesto algo parecido. Si tu
 propuesta es algo nuevo, abre un issue con tu idea y veamos que opina la
 comunidad.
+
+### Pull requests
+
+Si quieres proponer cambios o arreglar un bug, debes abrir un PR para que
+pueda ser revisado por el equipo. Crea tu PR desde tu _fork_ apuntando
+hacia la rama `next` del repositorio.
