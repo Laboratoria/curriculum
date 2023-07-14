@@ -24,6 +24,6 @@ comunidad.
 
 ### Pull requests
 
-Si tengas cambios al contenido o un bug fix, hay que hacer un pull request para
-obtener feedback. Crea tu pull request desde tu fork hacia la rama `next` de
-curricula.
+Si quieres proponer cambios o arreglar un bug, debes abrir un PR para que
+pueda ser revisado por el equipo. Crea tu PR desde tu _fork_ apuntando
+hacia la rama `next` del repositorio.
