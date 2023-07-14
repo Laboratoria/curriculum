@@ -64,7 +64,7 @@ const ensureRepoDir = async (repoDir, opts) => {
   }
 };
 
-export const copy = async (src, repoDir, opts) => {
+const copy = async (src, repoDir, opts) => {
   console.log(`You are about to copy all files from ${src} to ${repoDir}`);
   const confirmCopy = await prompt('Are you sure you want to continue? [Y/n]: ');
 
