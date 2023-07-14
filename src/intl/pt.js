@@ -258,6 +258,8 @@ const pt = {
 
   'movie-challenge-fw': 'Desafio de Filmes com Framework',
 
+  'text-analyzer': 'Analisador de texto',
+
   'job-application': 'Projeto Job Application',
 
   'browser': 'Browser JavaScript',

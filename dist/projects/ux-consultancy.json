@@ -2,9 +2,9 @@
   "slug": "ux-consultancy",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/03-ux-consultancy",
-  "version": "6.3.0",
-  "parserVersion": "5.0.0-alpha.4",
-  "createdAt": "2023-05-17T20:36:24.826Z",
+  "version": "6.4.0",
+  "parserVersion": "5.0.0-alpha.5",
+  "createdAt": "2023-07-11T19:31:56.933Z",
   "prefix": 3,
   "track": "ux",
   "learningObjectives": [

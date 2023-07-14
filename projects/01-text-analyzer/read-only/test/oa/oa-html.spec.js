@@ -111,6 +111,35 @@ describe('Uso de HTML semántico', () => {
         expect(div.getAttribute('name')).toBeNull();
       });
     });
+
+    it('<li> no tienen hijos', () => { 
+      const childLiCount = [...lis].reduce((acc, li) => acc + li.childElementCount, 0);
+      expect(childLiCount).toBe(0);
+    });
+
+    it('Hay un <li> con atributo "data-testid" y valor "character-count"', () => { 
+      expect([...lis].find((div) => div.getAttribute('data-testid') === 'character-count')).not.toBeNull();
+    });
+
+    it('Hay un <li> con atributo "data-testid" y valor "word-count"', () => { 
+      expect([...lis].find((div) => div.getAttribute('data-testid') === 'word-count')).not.toBeNull();
+    });
+
+    it('Hay un <li> con atributo "data-testid" y valor "character-no-spaces-count"', () => { 
+      expect([...lis].find((div) => div.getAttribute('data-testid') === 'character-no-spaces-count')).not.toBeNull();
+    });
+
+    it('Hay un <li> con atributo "data-testid" y valor "number-count"', () => { 
+      expect([...lis].find((div) => div.getAttribute('data-testid') === 'number-count')).not.toBeNull();
+    });
+
+    it('Hay un <li> con atributo "data-testid" y valor "number-sum"', () => { 
+      expect([...lis].find((div) => div.getAttribute('data-testid') === 'number-sum')).not.toBeNull();
+    });
+
+    it('Hay un <li> con atributo "data-testid" y valor "character-count"', () => { 
+      expect([...lis].find((div) => div.getAttribute('data-testid') === 'word-length-average')).not.toBeNull();
+    });
   });
 
   describe('<button>', () => {
