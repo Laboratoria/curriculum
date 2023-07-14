@@ -11,9 +11,9 @@ describe('script utils', () => {
     });
   
     it('should return all files with supported locales jp, pt', () => { // we don't support japanese yet, but what if
-      const filesPt = getFilesWithLocales('scripts/test/fixtures/project-with-localized-docs', ['jp', 'pt']);
-      assert.equal(filesPt.length, 3);
-      assert.equal(filesPt.filter(f => !(f.endsWith('.pt.md') || f.endsWith('.jp.md'))).length, 0);
+      const filesPtJp = getFilesWithLocales('scripts/test/fixtures/project-with-localized-docs', ['jp', 'pt']);
+      assert.equal(filesPtJp.length, 3);
+      assert.equal(filesPtJp.filter(f => !(f.endsWith('.pt.md') || f.endsWith('.jp.md'))).length, 0);
     });
   })
 });
