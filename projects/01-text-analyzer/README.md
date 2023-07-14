@@ -204,7 +204,33 @@ relacionados con cada objetivo de aprendizaje.
   [`<ul>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
   con 6 hijos [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li),
   uno para mostrar cada métrica.  Para que puedas practicar más, estos
-  elementos no pueden tener atributos `id` ni `name`.
+  elementos no pueden tener atributos `id` ni `name` ni hijos.
+
+  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+  para mostrar el _recuento de palabras_ debe tener un atributo
+  `data-testid` con valor `word-count`.
+
+  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+  para mostrar el _recuento de caracteres_ debe tener un atributo
+  `data-testid` con valor `character-count`.
+
+  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+  para mostrar el
+  _recuento de caracteres excluyendo espacios y signos de puntuación_
+  debe tener un atributo
+  `data-testid` con valor `character-no-spaces-count`.
+
+  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+  para mostrar el _recuento de números_ debe tener un atributo
+  `data-testid` con valor `number-count`.
+
+  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+  para mostrar la _suma total de números_ debe tener un atributo
+  `data-testid` con valor `number-sum`.
+
+  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+  para mostrar la _longitud media de palabras_ debe tener un atributo
+  `data-testid` con valor `word-length-average`.
 
   - [ ] La aplicación tiene un pie de página conformado por un
   [`<footer>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
@@ -232,11 +258,9 @@ relacionados con cada objetivo de aprendizaje.
   
   - [ ] La aplicación usa
   [`selectores CSS de class`](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#class_selectors)
-  para darle estilo al
-  [`<ul>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
+  para darle estilo a los
+  [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
   descrito anteriormente.
-  y sus hijos
-  [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li).
   
   - [ ] La aplicación usa
   [`selectores de atributo`](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Attribute_selectors)
@@ -574,3 +598,5 @@ profundizar en los objetivos de aprendizaje del proyecto:
 Puedes habilitar las pruebas unitarias y en _end to end_ de estos casos
 en los archivos [test/analyzer.spec.js](test/analyzer.spec.js) y
 [read-only/test/e2e/app.spec.js](read-only/test/e2e/app.spec.js).
+También tendrás que ajustar las pruebas ya existentes de las
+funcionalidades requeridas.
