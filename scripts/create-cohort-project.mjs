@@ -88,11 +88,10 @@ const copy = async (src, repoDir, opts) => {
     );
   }
 
-  const files = getFilesWithLocales(repoDir, supportedLocales);
-  // we dont need to filter supportedLocales to remove the opts.locale since those files
-  // will already be renamed by the step above, or should we ?
-  await Promise.all(files.map(filepath => unlink(`${repoDir}/${filepath}`)));
-  return; // necistamos devolver algo?
+  const files = getFilesWithLocales(repoDir, supportedLocales.filter((loc) => loc !== (opts.locale || defaultLocale)));
+  // we dont need necesarily need to filter supportedLocales to remove the opts.locale since those files
+  // will already be renamed by the step above and should no longer exist...
+  return Promise.all(files.map(filepath => unlink(`${repoDir}/${filepath}`)));
 };
 
 const addBootcampInfo = async (repoDir) => {
