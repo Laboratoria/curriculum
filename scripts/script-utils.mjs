@@ -1,8 +1,8 @@
 import { readdirSync } from 'node:fs';
 import path from 'node:path';
 
-export const defaultLocale = "es";
-export const supportedLocales = ["es", "pt"];
+export const defaultLocale = 'es';
+export const supportedLocales = ['es', 'pt'];
 
 export const getFilesWithLocales = (dir, locales) => {
   const dirents = readdirSync(dir, { withFileTypes: true });
