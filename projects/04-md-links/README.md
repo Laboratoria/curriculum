@@ -118,9 +118,11 @@ Para comenzar este proyecto tendrás que hacer un fork y clonar este repositorio
   utilizar ES Modules `(import/export)`, puedes hacerlo, pero ten en cuenta que
   deberás configurar adecuadamente tu proyecto para que Node.js pueda utilizar
   este formato. Puedes encontrar más información al respecto
-  [aquí](https://nodejs.org/api/esm.html#enabling). Algo a tener en
-  consideración también, es el [soporte](https://jestjs.io/docs/ecmascript-modules)
-  de Jest para ES Modules el mismo que aún es experimental.
+  [aquí](https://nodejs.org/api/packages.html#determining-module-system). Además,
+  tendrás que configurar Jest para ello también, siguiendo los
+  [siguientes pasos](https://jestjs.io/docs/ecmascript-modules).
+  Ten en consideración que Jest considera esto aún como un _feature
+  experimental_.
 
 * Para este proyecto, te recomendamos evitar el uso de la función síncrona
   `readFileSync` para leer archivos. En su lugar, te sugerimos abordar este
@@ -216,7 +218,7 @@ Ejemplo:
 ```js
 
 describe('mdLinks', () => {
-  it('debería retornar un arreglo con 3 links para un archivo .md con 3 links', ()=>{
+  it('debería resolver un arreglo con 3 links para un archivo .md con 3 links', ()=>{
     return mdLinks('miArchivo.md').then((result) => {
       expect...;
     });
@@ -286,7 +288,7 @@ correspondientes al código del hito actual.
 ### **HITO 2:** Javascript API con segundo parámetro opcional "validate"
 
 Agrega un argumento más a la función `mdLinks`. El segundo parámetro recibirá
-un booleano **validate**. Este segundo parámetro será opcional.
+un booleano que se llamará _validate_. Este segundo parámetro será opcional.
 
 Ahora la función deberá ofrecer la siguiente interfaz:
 
