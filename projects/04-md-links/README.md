@@ -127,8 +127,9 @@ Para comenzar este proyecto tendrás que hacer un fork y clonar este repositorio
 * Para este proyecto, te recomendamos evitar el uso de la función síncrona
   `readFileSync` para leer archivos. En su lugar, te sugerimos abordar este
   desafío de manera asíncrona utilizando `readFile`. Además, si utilizas el
-  módulo [require("fs/promises")](https://nodejs.org/dist/latest-v18.x/docs/api/fs.html),
-  podrás aprovechar las promesas con `readFile`.
+  módulo `fs/promises`, podrás utilizar la versión promisificada de las
+  funciones como
+  [`readFile`](https://nodejs.org/dist/latest-v18.x/docs/api/fs.html#fspromisesreadfilepath-options).
 
 * Para disminuir la complejidad de tu algoritmo recursivo, te recomendamos
   utilizar la versión síncrona de la función para leer directorios, `readdirSync`.
