@@ -119,7 +119,7 @@ atualizar a lista de pedidos e o total).
 
 ## 4. Considerações gerais
 
-Este projeto deve ser "resolvido" em duplas e, para trabalhar com o backend,
+Este projeto deve ser implementado em duplas e, para trabalhar com o backend,
 sugerimos que você escolha um dos seguintes métodos:
 
 1. Usando uma mock API: Você pode criar sua própria mock API com as ferramentas
