@@ -120,20 +120,21 @@ a un _pedido_, la interfaz debe actualizar la lista del pedido y el total).
 Este proyecto se debe "resolver" en duplas y para trabajar con el backend
 te sugerimos elegir un metodo entre las siguientes opciones:
 
-1. Consumiendo esta
-[mock API que desarrollamos para ti](https://github.com/Laboratoria/burger-queen-api-mock).
-2. Mockeando la API, puedes utilizar herramientas como
-[json-server](https://www.npmjs.com/package/json-server) o
-[mockoon](https://mockoon.com/) o
-[nock](https://github.com/nock/nock)
-json-server o mockoon.
-3. Consumiendo una API que desarrollarán tus compañeras.
+1. Usando una mock API. Puedes crear tu propia mock API con las herramientas
+  [json-server](https://www.npmjs.com/package/json-server) y
+  [json-server-auth](https://www.npmjs.com/package/json-server-auth)
+  o puedes hacer fork y clonar
+  [este repo de una mock API](https://github.com/Laboratoria/burger-queen-api-mock).
 
-Puedes empezar usando un mock API y en cualquier
-momento del proyecto pasarte a la API desplegada.
-(Esta situación ocurre en el trabajo cuando necesita avanzar
-con el desarrollo de frontend mientras el backend o la API aún
-se están desarrollando.)
+2. Consumiendo una API desplegada. Puedes usar una que desarrollarán tus
+  compañeras o puedes usar
+  [esta API que hemos desarrollado](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0).
+
+Puedes empezar usando una mock API y en cualquier momento del proyecto
+pasarte a la API desplegada. Esta situación suele ocurrir en Desarrollo Web
+cuando se necesita avanzar con la implementación del frontend mientras las
+personas encargadas del backend aún están en proceso de diseño o desarrollo
+de la API a consumir cuando el proyecto ya sea desplegado y pase a producción.
 
 El rango de tiempo estimado para completar el proyecto es de 3 a 5 Sprints.
 

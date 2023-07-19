@@ -119,16 +119,25 @@ atualizar a lista de pedidos e o total).
 
 ## 4. Considerações gerais
 
-Este projeto deve ser feito em pares e você pode escolher entre as seguintes opções
-como você vai trabalhar com o backend.
+Este projeto deve ser "resolvido" em duplas e, para trabalhar com o backend,
+sugerimos que você escolha um dos seguintes métodos:
 
-1. Consumindo esta
-[API mock que desenvolvemos para você](https://github.com/Laboratoria/burger-queen-api-mock).
-2. Simulando a API, você pode usar ferramentas como
-[json-server](https://www.npmjs.com/package/json-server) ou
-[mockoon](https://mockoon.com/) ou
-[nock](https://github.com/nock/nock).
-3. Consumindo uma API que suas colegas irão desenvolver.
+1. Usando uma mock API: Você pode criar sua própria mock API com as ferramentas
+  [json-server](https://www.npmjs.com/package/json-server) e
+  [json-server-auth](https://www.npmjs.com/package/json-server-auth), ou pode
+  fazer um fork e clonar
+  [este repositório de uma mock API](https://github.com/Laboratoria/burger-queen-api-mock).
+
+2. Consumindo uma API implantada: Você pode usar uma API que suas colegas
+  desenvolverão, ou pode usar
+  [esta API que desenvolvemos](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0).
+
+Você pode começar usando uma mock API e, a qualquer momento do projeto, migrar
+para a API implantada. Essa situação costuma ocorrer no Desenvolvimento Web,
+quando é necessário avançar com a implementação do frontend enquanto as
+pessoas responsáveis pelo backend ainda estão no processo de design ou
+desenvolvimento da API a ser consumida quando o projeto estiver pronto
+para ser implantado e passar para a produção.
 
 O intervalo de tempo estimado para concluir o projeto é de 3 a 5 Sprints.
 
