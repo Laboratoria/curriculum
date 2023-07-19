@@ -69,4 +69,4 @@ mdLinks("./some/example.md", false)
 ⚠️ **Test unitarios.** Antes de pasar al siguiente hito, asegúrate de hacer los
 tests del hito actual. Los tests aquí van a mockear http, fecth o axios.
 
-### [👈Todos los hitos](../README.md#6-hitos)
+[👈Todos los hitos](../README.md#6-hitos)

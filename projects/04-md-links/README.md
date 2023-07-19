@@ -161,11 +161,11 @@ problemas más pequeños. Por esta razón, te recomendamos que completes este
 proyecto trabajando por hitos. A continuación, encontrarás los hitos que puedes
 seguir:
 
-* [Hito 1](./docs/milestone1.md)
-* [Hito 2](./docs/milestone2.md)
-* [Hito 3](./docs/milestone3.md)
-* [Hito 4](./docs/milestone4.md)
-* [Hito 5](./docs/milestone5.md)
+* [Hito 1](./docs/01-milestone.md)
+* [Hito 2](./docs/02-milestone.md)
+* [Hito 3](./docs/03-milestone.md)
+* [Hito 4](./docs/04-milestone.md)
+* [Hito 5](./docs/05-milestone.md)
 
 ## 7. Hacker edition
 

@@ -68,4 +68,4 @@ puedes usar el siguiente comando:
 
 `node <RUTA_DE_TU_CLI.js> ruta options`
 
-### [👈Todos los hitos](../README.md#6-hitos)
+[👈Todos los hitos](../README.md#6-hitos)

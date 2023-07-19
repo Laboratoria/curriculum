@@ -121,4 +121,4 @@ describe('mdLinks', () => {
 ⚠️ Antes de pasar al siguiente hito, asegúrate de escribir los tests
 correspondientes al código del hito actual.
 
-### [👈Todos los hitos](../README.md#6-hitos)
+[👈Todos los hitos](../README.md#6-hitos)

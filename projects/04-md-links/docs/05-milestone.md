@@ -25,4 +25,4 @@ que te ayudará.
 ⚠️ **Test unitarios.** Antes de dar el proyecto por terminado, recuerda hacer
 los tests del hito actual.
 
-### [👈Todos los hitos](../README.md#6-hitos)
+[👈Todos los hitos](../README.md#6-hitos)

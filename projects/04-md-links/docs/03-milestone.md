@@ -70,4 +70,4 @@ mdLinks("./some/dir", false)
 ⚠️ **Test unitarios.** Te recomendamos antes de pasar al siguiente hito hacer
 los tests del hito actual
 
-### [👈Todos los hitos](../README.md#6-hitos)
+[👈Todos los hitos](../README.md#6-hitos)
