@@ -17,7 +17,7 @@
     "url": "https://github.com/Laboratoria/bootcamp/issues"
   },
   "scripts": {
-    "mdlint": "mdlint projects\\04-md-links\\README.md",
+    "mdlint": "mdlint projects\\04-md-links\\docs\\05-milestone.md",
     "eslint": "eslint topics/",
     "test:topics": "mocha './topics/!(node_modules)/**/*.spec.js' --verbose",
     "pretest": "npm run mdlint && npm run eslint && npm run validate && npm run test:topics",

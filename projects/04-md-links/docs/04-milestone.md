@@ -1,10 +1,10 @@
-### **HITO 4:** - Interfaz de Línea de comando
+# **HITO 4:** - Interfaz de Línea de comando
 
 En este hito, crearás un paquete ejecutable de tu código, el mismo que
 internamente ejecutará la función mdLinks que acabas de crear.
 
 Este paquete deberá estar documentado en un repositorio público con un package.json
-para poderlo instalar a con npm.
+para poderlo instalar con [NPM](https://www.npmjs.com/).
 
 La instalación sería de la siguiente manera:
 
@@ -13,7 +13,7 @@ npm install `<github-user>/md-links`.
 ```
 
 Este módulo debe incluir tanto un ejecutable que podamos invocar en la
-línea de comando como una interfaz que podamos importar con require para
+línea de comando como una interfaz que podamos importar para
 usarlo programáticamente.
 
 El ejecutable de tu aplicación debe poder correr de la siguiente manera a
@@ -33,9 +33,9 @@ argumento), analizar el archivo Markdown e imprimir los links que vaya
 encontrando, junto con la ruta del archivo donde aparece y el texto que hay
 dentro del link (truncado a 50 caracteres).
 
-#### Options
+## Options
 
-##### `--validate`
+### `--validate`
 
 Si pasamos la opción `--validate`, el módulo debe hacer una petición HTTP para
 averiguar si el link funciona o no. Si el link resulta en una redirección a una
@@ -49,7 +49,7 @@ Vemos que el _output_ en este caso incluye la palabra `ok` o `fail` después de
 la URL, así como el status de la respuesta recibida a la petición HTTP a dicha
 URL.
 
-##### `--stats`
+### `--stats`
 
 Si pasamos la opción `--stats` el output (salida) será un texto con estadísticas
 básicas sobre los links.

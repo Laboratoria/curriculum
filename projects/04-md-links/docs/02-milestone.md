@@ -1,4 +1,4 @@
-### **HITO 2:** Javascript API con segundo parámetro opcional "validate"
+# **HITO 2:** Javascript API con segundo parámetro opcional "validate"
 
 Agrega un argumento más a la función `mdLinks`. El segundo parámetro recibirá
 un booleano que se llamará _validate_. Este segundo parámetro será opcional.

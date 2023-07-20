@@ -1,7 +1,7 @@
-### **HITO 1:** Javascript API
+# **HITO 1:** Javascript API
 
 Comienza haciendo la versión más sencilla de `mdlinks`. Crea una función que
-devuelva una promesa con los links encontrados dentro de un archivo markdown
+retorne una promesa con los links encontrados dentro de un archivo markdown
 específico.
 
 Esta función debe ser un módulo que puede **importarse** en otros scripts de
@@ -47,7 +47,7 @@ recuerda que no hay una interfaz gráfica de navegador, por lo tanto para
 poderlo probar es necesario recurrir a los test unitarios.
 
 Recuerda que es muy importante testear tus funciones puras, mientras
-escribes la función `mdLinks`. Y cuando ésta esté terminada, también deberás
+escribes la función `mdLinks`. También deberás
 testearla  al final asegurándote que resuelva un arreglo con la
 información esperada.
 
@@ -65,7 +65,7 @@ describe('mdLinks', () => {
 
 ```
 
-#### Tareas de este hito
+## Tareas de este hito
 
 * Crea una promesa
 
@@ -77,7 +77,7 @@ describe('mdLinks', () => {
 
 * Transforma la ruta ingresada a absoluta
 
-  Los módulos de node.js que utilizarás después, trabajan con rutas absolutas.
+  Los módulos de Node.js que utilizarás después, trabajan con rutas absolutas.
   Entonces, si a la función `mdlinks()`, se le pasa una ruta relativa, debes
   convertirla a absoluta primero. Puedes valerte del módulo `path`, con su
   método `resolve()`.
@@ -98,7 +98,10 @@ describe('mdLinks', () => {
 
   Aquí podrá ser útil el módulo `path`.
 
-  En caso de que la extensión del archivo no sea md, la promesa de la función
+  Ten en cuenta que un archivo es considerado markdown si tiene cualquiera
+  de las siguientes extensiones: `.md`, `.mkd`, `.mdwn`, `.mdown`, `.mdtxt`,
+  `.mdtext`, `.markdown`, `.text`; así que en caso de que la extensión del
+  archivo no sea alguna de las anteriores, la promesa de la función
   mdLinks debería rechazarse con un error.
 
 * Lee un archivo
