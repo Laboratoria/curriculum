@@ -44,39 +44,39 @@ legibilidad, que utiliza algoritmos para evaluar la complejidad y la
 legibilidad del texto.
 
 En general, las aplicaciones de análisis de texto brindan información
-valiosa y métricas sobre los textos que pueden ayudar a los usuarios a
+valiosa y métricas sobre los textos que pueden ayudar a las usuarias a
 tomar decisiones informadas y sacar conclusiones significativas.
-Mediante el uso de estas herramientas de análisis, los usuarios pueden
+Mediante el uso de estas herramientas de análisis, las usuarias pueden
 obtener una comprensión más profunda de los textos.
 
 ## 3. Funcionalidades
 
 En este proyecto implementarás un analizador de texto web para calcular
-y mostrar métricas de un texto enviado por el usuario.
+y mostrar métricas de un texto enviado por la usuaria.
 
 El listado de funcionalidades es el siguiente:
 
-1. La aplicación debe permitir al usuario ingresar un texto escribiéndolo
+1. La aplicación debe permitir a la usuaria ingresar un texto escribiéndolo
 en un cuadro de texto.
 
 2. La aplicación debe calcular las siguientes métricas y actualizar el
-resultado en tiempo real a medida que el usuario escribe su texto:
+resultado en tiempo real a medida que la usuaria escribe su texto:
 
     - **Recuento de palabras**: la aplicación debe poder contar el número de
-    palabras en el texto de entrada y mostrar este recuento al usuario
+    palabras en el texto de entrada y mostrar este recuento a la usuaria
     - **Recuento de caracteres**: la aplicación debe poder contar el número de
     caracteres en el texto de entrada, incluidos espacios y signos de
-    puntuación, y mostrar este recuento al usuario.
+    puntuación, y mostrar este recuento a la usuaria.
     - **Recuento de caracteres excluyendo espacios y signos de puntuación**:
     la aplicación debe poder contar el número de caracteres en el texto de
     entrada, excluyendo espacios y signos de puntuación, y mostrar este recuento
-    al usuario.  
+    a la usuaria.  
     - **Recuento de números**: la aplicación debe contar cúantos números hay en
-    el texto de entrada y mostrar este recuento al usuario.
+    el texto de entrada y mostrar este recuento a la usuaria.
     - **Suma total de números**: la aplicación debe sumar todos los números que
-    hay en el texto de entrada y mostrar el resultado al usuario.
+    hay en el texto de entrada y mostrar el resultado a la usuaria.
     - **Longitud media de las palabras**: la aplicación debe calcular la
-    longitud media de las palabras en el texto de entrada y mostrársela al usuario.
+    longitud media de las palabras en el texto de entrada y mostrársela a la usuaria.
 
 3. La aplicación debe permitir limpiar el contenido de la caja de texto haciendo
 clic en un botón.
@@ -162,7 +162,7 @@ El boilerplate que les damos contiene esta estructura:
 
 * [`src/index.js`](./src/index.js): acá debes escuchar eventos del DOM, invocar
   los métodos del objeto `analyzer` según sea necesario y actualizar el resultado
-  en la UI (interfaz de usuario).
+  en la UI (interfaz de usuaria).
 * [`test/analyzer.spec.js`](./test/analyzer.spec.js): este archivo contiene las
 pruebas unitarias para los métodos del objeto `analyzer`.
 
@@ -196,7 +196,7 @@ relacionados con cada objetivo de aprendizaje.
 
   - [ ] La aplicación usa un
   [`<textarea>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
-  con un el atributo `name` en el valor `user-input` para permitir al usuario
+  con un el atributo `name` en el valor `user-input` para permitir a la usuaria
   ingresar un texto. Para que puedas practicar más, este elemento no puede
   tener atributos `id`, ni `class`.
 
@@ -242,7 +242,7 @@ relacionados con cada objetivo de aprendizaje.
 
   - [ ] La aplicación usa un
   [`<button>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
-  con el atributo `id` en el valor `reset-button` para permitir al usuario,
+  con el atributo `id` en el valor `reset-button` para permitir a la usuaria,
   mediante un clic, limpiar el contenido de la caja de texto.
 
 ### CSS
@@ -415,7 +415,7 @@ relacionados con cada objetivo de aprendizaje.
 
   - [ ] La aplicación está desplegada en Github Pages.
 
-### Centrado en el usuario
+### Centrado en la usuaria
 
 * **Diseñar y desarrollar un producto o servicio poniendo a las
 usuarias en el centro**
@@ -496,8 +496,8 @@ manera individual con los siguientes comandos:
 Una prueba end-to-end (E2E) es una técnica de prueba de software en la que
 se verifica el funcionamiento de todo el sistema desde el inicio hasta el
 final. En otras palabras, se prueba el flujo completo del software, simulando
-la interacción del usuario con la aplicación, para asegurarse de que todas las
-partes del sistema funcionan correctamente en conjunto.
+la interacción de la usuaria con la aplicación, para asegurarse de que todas
+las partes del sistema funcionan correctamente en conjunto.
 
 Puedes ejecutar estas pruebas con el comando `npm run test:e2e` como se muestra
 en la siguiente imagen:
