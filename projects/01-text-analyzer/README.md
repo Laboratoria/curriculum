@@ -4,14 +4,15 @@
 
 * [1. Consideraciones generales](#1-consideraciones-generales)
 * [2. Preámbulo](#2-preámbulo)
-* [3. Funcionalidades](#3-funcionalidades)
-* [4. Boilerplate](#4-boilerplate)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Pruebas](#6-pruebas)
-* [7. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
-* [8. Consideraciones para pedir tu Project Feedback](#8-consideraciones-para-pedir-tu-project-feedback)
-* [9. Objetivos de aprendizaje](#9-objetivos-de-aprendizaje)
-* [10. Funcionalidades opcionales](#10-funcionalidades-opcionales)
+* [3. Resumen del proyecto](#3-resumen-del-proyecto)
+* [4. Funcionalidades](#4-funcionalidades)
+* [5. Boilerplate](#5-boilerplate)
+* [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
+* [7. Pruebas](#7-pruebas)
+* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+* [9. Consideraciones para pedir tu Project Feedback](#9-consideraciones-para-pedir-tu-project-feedback)
+* [10. Objetivos de aprendizaje](#10-objetivos-de-aprendizaje)
+* [11. Funcionalidades opcionales](#11-funcionalidades-opcionales)
 
 ***
 
@@ -49,10 +50,12 @@ tomar decisiones informadas y sacar conclusiones significativas.
 Mediante el uso de estas herramientas de análisis, las usuarias pueden
 obtener una comprensión más profunda de los textos.
 
-## 3. Funcionalidades
+## 3. Resumen del proyecto
 
 En este proyecto implementarás un analizador de texto web para calcular
 y mostrar métricas de un texto enviado por la usuaria.
+
+## 4. Funcionalidades
 
 El listado de funcionalidades es el siguiente:
 
