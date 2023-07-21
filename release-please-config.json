@@ -3,7 +3,8 @@
   "draft": true,
   "packages": {
     ".": {
-      "release-type": "node"
+      "release-type": "node",
+      "initial-version": "6.4.0"
     },
     "projects/00-how-might-we": {
       "release-type": "simple",
