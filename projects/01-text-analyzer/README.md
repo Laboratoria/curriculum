@@ -52,8 +52,6 @@ obtener una comprensión más profunda de los textos.
 
 ## 3. Resumen del proyecto
 
-En este proyecto implementarás un analizador de texto web para calcular
-y mostrar métricas de un texto enviado por la usuaria.
 En este proyecto crearás una aplicación web que servirá para que tu usuaria
 pueda analizar un texto en el navegador mostrando una serie de indicadores y
 métricas específicas sobre caracteres, letras, números, etc. Que hayan sido
