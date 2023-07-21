@@ -5,7 +5,11 @@
     ".": {
       "release-type": "node"
     },
-    "00-how-might-we": "1.0.0",
+    "00-how-might-we": {
+      "release-type": "simple",
+      "version-file": "version.json",
+      "initial-version": "1.0.0"
+    },
     "00-trivia": "1.1.0",
     "01-card-validation": "1.1.0",
     "01-cipher": "1.1.0",
