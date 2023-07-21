@@ -91,10 +91,13 @@
       "version-file": "version.json",
       "initial-version": "1.0.0"
     },
-    "projects/05-social-network-fw": "1.0.0",
+    "projects/05-social-network-fw": {
+      "release-type": "simple",
+      "version-file": "version.json",
+      "initial-version": "1.0.0"
+    },
     "projects/05-wordpress-plugin": {
       "release-type": "php",
-      "version-file": "version.json",
       "initial-version": "1.0.0"
     },
     "projects/06-job-application": {
