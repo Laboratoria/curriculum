@@ -4,7 +4,8 @@
 
 * [1. Consideraciones generales](#1-consideraciones-generales)
 * [2. Preámbulo](#2-preámbulo)
-* [3. Funcionalidades](#3-funcionalidades)
+* [3. Resumen del proyecto](#3-resumen-del-proyecto)
+* [4. Funcionalidades](#4-funcionalidades)
 * [4. Boilerplate](#4-boilerplate)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Pruebas](#6-pruebas)
@@ -49,10 +50,16 @@ tomar decisiones informadas y sacar conclusiones significativas.
 Mediante el uso de estas herramientas de análisis, las usuarias pueden
 obtener una comprensión más profunda de los textos.
 
-## 3. Funcionalidades
+## 3. Resumen del proyecto
 
 En este proyecto implementarás un analizador de texto web para calcular
 y mostrar métricas de un texto enviado por la usuaria.
+En este proyecto crearás una aplicación web que servirá para que tu usuaria
+pueda analizar un texto en el navegador mostrando una serie de indicadores y
+métricas específicas sobre caracteres, letras, números, etc. Que hayan sido
+enviadas como _input_ por ella. Lo harás utilizando HTML, CSS y JavaScript.
+
+## 4. Funcionalidades
 
 El listado de funcionalidades es el siguiente:
 
