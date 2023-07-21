@@ -1,16 +1,7 @@
-# **HITO 4:** - Interfaz de Línea de comando
+# **HITO 4:** - Interfaz de Línea de Comando (CLI)
 
-En este hito, crearás un paquete ejecutable de tu código, el mismo que
-internamente ejecutará la función mdLinks que acabas de crear.
-
-Este paquete deberá estar documentado en un repositorio público con un package.json
-para poderlo instalar con [NPM](https://www.npmjs.com/).
-
-La instalación sería de la siguiente manera:
-
-```shell
-npm install `<github-user>/md-links`.
-```
+En este hito, crearás un Interfaz de Linea de Comando (CLI), un script
+ejecutable que internamente ejecutará la función `mdLinks` que acabas de crear.
 
 Este módulo debe incluir tanto un ejecutable que podamos invocar en la
 línea de comando como una interfaz que podamos importar para
@@ -28,7 +19,7 @@ Por ejemplo:
 ![mdlinks-example](https://github.com/Laboratoria/bootcamp/assets/123121338/7dcc83c4-873e-4ef8-b7d0-a15adb102680)
 
 El comportamiento por defecto no debe validar si las URLs responden ok o no,
-solo debe identificar el archivo markdown (a partir de la ruta que recibe como
+solo debe identificar el archivo Markdown (a partir de la ruta que recibe como
 argumento), analizar el archivo Markdown e imprimir los links que vaya
 encontrando, junto con la ruta del archivo donde aparece y el texto que hay
 dentro del link (truncado a 50 caracteres).
@@ -66,6 +57,17 @@ comando al sistema. Sin embargo, antes de vincular el comando, puedes desarrolla
 tu interfaz de línea de comandos (CLI) invocándola con node. Por ejemplo,
 puedes usar el siguiente comando:
 
-`node <RUTA_DE_TU_CLI.js> ruta options`
+```shell
+node <RUTA_DE_TU_CLI.js> ruta options
+```
+
+Este paquete deberá estar documentado en un repositorio público con un `package.json`
+para poderlo instalar con [NPM](https://www.npmjs.com/).
+
+La instalación sería de la siguiente manera:
+
+```shell
+npm install `<github-user>/md-links`.
+```
 
 [👈Todos los hitos](../README.md#6-hitos)

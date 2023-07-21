@@ -1,7 +1,7 @@
 # **HITO 1:** Javascript API
 
 Comienza haciendo la versión más sencilla de `mdlinks`. Crea una función que
-retorne una promesa con los links encontrados dentro de un archivo markdown
+retorne una promesa con los links encontrados dentro de un archivo Markdown
 específico.
 
 Esta función debe ser un módulo que puede **importarse** en otros scripts de
@@ -11,7 +11,7 @@ Node.js y debe ofrecer la siguiente interfaz:
 
 Argumento:
 
-* `path`: Ruta **absoluta** o **relativa** al **archivo** o **directorio**.
+* `path`: Ruta **absoluta** o **relativa** al **archivo**.
 Si la ruta pasada es relativa, debe resolverse como relativa al directorio
 desde donde se invoca node (transformar a absoluta).
 
@@ -56,7 +56,7 @@ Ejemplo:
 ```js
 
 describe('mdLinks', () => {
-  it('debería resolver un arreglo con 3 links para un archivo .md con 3 links', ()=>{
+  it('debería resolver un arreglo con 3 links para un archivo .md con 3 links', () => {
     return mdLinks('miArchivo.md').then((result) => {
       expect...;
     });
@@ -67,7 +67,7 @@ describe('mdLinks', () => {
 
 ## Tareas de este hito
 
-* Crea una promesa
+* Crea una Promesa
 
   El valor de retorno de nuestra librería es una _Promesa_ que resuelve un
   _array_. Prueba leyendo sobre las promesas y creando una por tu cuenta
@@ -88,25 +88,25 @@ describe('mdLinks', () => {
   computador. Este paso es importante, ya que si la ruta ingresada es erronea
   la función `mdLinks()` deberá rechazarse con un error.
 
-* Asegúrate que el archivo es markdown
+* Asegúrate que el archivo es Markdown
 
   Como la ruta que se utilizará para este hito, será la ruta de un archivo
   en específico, aventúrate a conocer cuál es su extensión.
 
   Recuerda, las extensiones son esas letras al final del nombre de un archivo,
-  por ejemplo: .js, .txt, .doc, etc
+  por ejemplo: `.js`, `.txt`, `.doc`, etc.
 
   Aquí podrá ser útil el módulo `path`.
 
-  Ten en cuenta que un archivo es considerado markdown si tiene cualquiera
+  Ten en cuenta que un archivo es considerado Markdown si tiene cualquiera
   de las siguientes extensiones: `.md`, `.mkd`, `.mdwn`, `.mdown`, `.mdtxt`,
   `.mdtext`, `.markdown`, `.text`; así que en caso de que la extensión del
   archivo no sea alguna de las anteriores, la promesa de la función
-  mdLinks debería rechazarse con un error.
+  `mdLinks` debería rechazarse con un error.
 
 * Lee un archivo
 
-  Ahora que sabes que el archivo es del tipo markdown, lee este archivo y
+  Ahora que sabes que el archivo es del tipo Markdown, lee este archivo y
   retorna su contenido. Para ver este contenido puedes utilizar un
   `console.log()` al momento de ejecutar la función.
 
@@ -115,11 +115,11 @@ describe('mdLinks', () => {
   `readFileSync`) y recomendamos el módulo `fs/promises` para utilizar estas
   funciones con promesas.
 
-* Encuentra los links dentro del documento.
+* Encuentra los links dentro del documento
 
   Una vez tienes acceso al contenido del archivo, extrae los links que
   encuentres dentro del mismo. Estos links los tendrás que armar dentro de un
-  arreglo para que la función de mdLinks los pueda resolver.
+  arreglo para que la función de `mdLinks` los pueda resolver.
 
 ⚠️ Antes de pasar al siguiente hito, asegúrate de escribir los tests
 correspondientes al código del hito actual.

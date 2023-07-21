@@ -4,11 +4,11 @@ Misma funcionalidad que el HITO 3 pero ahora la usuaria será capaz de pasar un
 directorio como ruta con más directorios dentro además de posibles archivos.
 
 La función `mdLinks(path, validate)` tendrá que recorrer todos los directorios
-existentes en la ruta y buscar los links en todos los archivos markdown que
+existentes en la ruta y buscar los links en todos los archivos Markdown que
 encuentre.
 
 Para resolver este hito te recomendacón leer acerca del concepto de
-recursividad y ver algunos ejemplos (ojo con concepto de casos base)
+recursividad y ver algunos ejemplos (ojo con concepto de casos base).
 
 ¿Por qué utilizaremos la recursividad aquí?
 

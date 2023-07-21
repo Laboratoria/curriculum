@@ -200,19 +200,20 @@ archivos, recibir argumentos a través de la línea de comando, analizar texto,
 hacer consultas HTTP, ... y todas estas cosas pueden enfocarse de muchas
 formas, tanto usando librerías como implementando en VanillaJS.
 
-Por poner un ejemplo, el parseado (análisis) del markdown para extraer los
+Por poner un ejemplo, el parseado (análisis) del Markdown para extraer los
 links podría plantearse de las siguientes maneras (todas válidas):
 
 * Usando un módulo como
-  [markdown-it](https://www.npmjs.com/package/markdown-it), que nos devuelve
+  [Markdown-it](https://www.npmjs.com/package/markdown-it), que nos devuelve
   un arreglo de tokens que podemos recorrer para identificar los links.
 
 * También podríamos usar una combinación de varios módulos (podría ser válido
-  transformar el markdown a HTML usando algo como [marked](https://github.com/markedjs/marked)
+  transformar el Markdown a HTML usando algo como [marked](https://github.com/markedjs/marked)
   y de ahí extraer los links con una librería de DOM como [JSDOM](https://www.npmjs.com/package/jsdom)
   o [Cheerio](https://cheerio.js.org/) entre otras).
 
-* Usando un custom renderer de la librería marked (new marked.Renderer()).
+* Usando un [custom renderer de la librería marked](https://marked.js.org/using_pro#renderer)
+  (new marked.Renderer()).
 
 * Siguiendo otro camino completamente diferente, podríamos usar expresiones
   regulares (RegExp).
@@ -240,8 +241,8 @@ en que importas y exportas módulos en tu código.
 
 Node ofrece una amplia gama de módulos y funciones, pero no es necesario
 conocerlos todos antes de comenzar a programar. Los hitos se refieren a partes
-específicas de Node que puedes explorar, como los módulos fs (readFile,
-readdirSync) y path.
+específicas de Node que puedes explorar, como los módulos `fs` (`readFile`,
+`readdirSync`) y `path`.
 Estos módulos son útiles para realizar operaciones de lectura y escritura de
 archivos, así como para manipular y trabajar con rutas de archivos en tu código.
 A medida que avanzas en tu proyecto, puedes investigar más sobre estos módulos
@@ -304,20 +305,20 @@ Laboratoria/curriculum-parser`.
 * [ ] un `README.md` con documentación técnica de la librería y una guía de
   uso e instalación de la librería.
 
-* [ ] un API `mdLinks(path, validate)` con los siguientes requisitos mínimos:
+* [ ] un API `mdLinks(path, validate)` con los siguientes requisitos
+  (Hito 1 y 2 son los mínimos):
 
   - El módulo debe exportar una función que cumpla con la interfaz (API)
     requerida. (Hito 1)
   - Deberá implementar el soporte para archivos individuales. (Hito 1)
   - Deberá implementar la funcionalidad de validación. (Hitos 1 y 2)
   - Deberá ofrecer soporte para directorios. (Hitos 1 al 3)
-  - Ofrecerá un CLI(Command Line Interface) instalable de través de NPM(Node
-    Package Manager). (Hitos 1 al 4)
   - Deberá ofrecer soporte para directorios que pueden contener otros
     directorios. (Hitos 1 al 5)
 
-* [ ] un CLI que se ejecuta sin errores y tiene el output esperado. Además
-  acepta los parámetros `--validate` y `--stats`. Y expone un ejecutable
-  md-links en el path (configurado en el package.json)
+* [ ] un CLI (Command Line Interface) que se ejecuta sin errores
+  y tiene el output esperado. Además acepta los parámetros
+  `--validate` y `--stats`. Y expone un ejecutable
+  md-links en el path (configurado en el `package.json`)
 * [ ] Pasa tests y linters (`npm test`). Tests unitarios cubren un mínimo
   del 70% de coverage tests, es decir statements, functions, lines y branches.

@@ -1,7 +1,7 @@
 # **HITO 3:** Buscando dentro de un directorio
 
 Para este hito vas a trabajar con la misma función `mdLinks` pero esta vez la
-usuaria será capaz de pasar un directorio como ruta.
+usuaria será capaz de pasar un directorio como ruta para el argumento `path`.
 
 La función `mdLinks(path, validate)` debe recorrer todos los archivos
 existentes en el directorio y por cada archivo `.md` que encuentre deberá
@@ -26,7 +26,7 @@ mdLinks("./some/dir")
   .catch(console.error);
 
 
-mdLinks("./some/dir", true )
+mdLinks("./some/dir", true)
   .then(links => {
     // => [{ href, text, file, status, ok }, ...]
   })
@@ -61,11 +61,11 @@ mdLinks("./some/dir", false)
   Usa el módulo path para unir dos segmentos de ruta a una ruta completa, por
   ejemplo, si queremos unir:
 
-  /home/Laboratoria/
+  `/home/Laboratoria/`
 
-  ./test
+  `./test`
 
-  El resultado sería: /home/Laboratoria/test
+  El resultado sería: `/home/Laboratoria/test`
 
 ⚠️ **Test unitarios.** Te recomendamos antes de pasar al siguiente hito hacer
 los tests del hito actual
