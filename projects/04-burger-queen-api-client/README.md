@@ -134,7 +134,7 @@ Puedes empezar usando una mock API y en cualquier momento del proyecto
 pasarte a la API desplegada. Esta situación suele ocurrir en Desarrollo Web
 cuando se necesita avanzar con la implementación del frontend mientras las
 personas encargadas del backend aún están en proceso de diseño o desarrollo
-de la API a consumir cuando el proyecto ya sea desplegado y pase a producción.
+de la API.
 
 El rango de tiempo estimado para completar el proyecto es de 3 a 5 Sprints.
 
