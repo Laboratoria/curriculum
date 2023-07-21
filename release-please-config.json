@@ -69,8 +69,8 @@
       "version-file": "version.json",
       "initial-version": "1.0.0"
     },
-    "05-chat-app": "1.0.0",
-    "05-fleet-management": {
+    "projects/05-chat-app": "1.0.0",
+    "projects/05-fleet-management": {
       "release-type": "simple",
       "version-file": "version.json",
       "initial-version": "1.0.0"
