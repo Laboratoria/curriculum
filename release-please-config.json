@@ -1,0 +1,38 @@
+{
+  "bootstrap-sha": "4ea26447e1a259476f237a7a6212e3a02409910b",
+  "draft": true,
+  "packages": {
+    ".": {
+      "release-type": "node"
+    },
+    "00-how-might-we": "1.0.0",
+    "00-trivia": "1.1.0",
+    "01-card-validation": "1.1.0",
+    "01-cipher": "1.1.0",
+    "01-design-and-usability": "1.0.0",
+    "01-design-detectives": "1.0.0",
+    "01-text-analyzer": "1.0.1",
+    "02-data-lovers": "1.2.0",
+    "02-emergency-room": "1.0.0",
+    "02-memory-match": "1.0.0",
+    "02-movie-challenge":  "1.0.0",
+    "02-small-businesses": "1.0.0",
+    "02-uxploradora": "1.0.0",
+    "03-industry-deep-dive": "1.0.0",
+    "03-social-network": "1.0.0",
+    "03-ux-consultancy": "1.0.0",
+    "04-burger-queen-api": "1.1.0",
+    "04-burger-queen-api-client": "1.2.0",
+    "04-md-links": "1.0.1",
+    "04-notes": "1.0.0",
+    "05-chat-app": "1.0.0",
+    "05-fleet-management": "1.0.0",
+    "05-movie-challenge-fw": "1.0.0",
+    "05-open-project": "1.0.0",
+    "05-roman-numerals": "1.0.0",
+    "05-roman-numerals-slack": "",
+    "05-social-network-fw": "1.0.0",
+    "05-wordpress-plugin": "1.0.0",
+    "06-job-application": "1.0.0"
+  }
+}
