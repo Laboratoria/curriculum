@@ -281,8 +281,8 @@ typescript:
     - arrays
     - any
     - functions
-    - object-types
-    - optional-properties
+    - object-types:
+      - optional-properties
     - union-types
     - type-aliases
     - interfaces
