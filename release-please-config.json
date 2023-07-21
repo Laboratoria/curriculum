@@ -58,7 +58,11 @@
       "initial-version": "1.0.0"
     },
     "projects/04-burger-queen-api": "1.1.0",
-    "projects/04-burger-queen-api-client": "1.2.0",
+    "projects/04-burger-queen-api-client": {
+      "release-type": "simple",
+      "version-file": "version.json",
+      "initial-version": "1.2.0"
+    },
     "projects/04-md-links": "1.0.1",
     "projects/04-notes": {
       "release-type": "simple",
