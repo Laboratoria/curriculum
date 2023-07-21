@@ -274,14 +274,14 @@ wordpress:
       - wordpress-plugin-directory
 
 typescript:
-  - basic-types
+  - basic-types:
     - static-type-checking
     - strictness
     - primitives
     - arrays
     - any
     - functions
-    - object-types
+    - object-types:
       - optional-properties
     - union-types
     - type-aliases
@@ -291,16 +291,16 @@ typescript:
     - null-and-undefined
     - enums
   - narrowing
-  - classes
-    - members
+  - classes:
+    - members:
       - fields
       - constructor
       - methods
       - getter-setters
-    - class-heritage
+    - class-heritage:
       - implements
       - extends
-    - member-visibility
+    - member-visibility:
       - public
       - protected
       - private
