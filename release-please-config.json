@@ -97,6 +97,6 @@
       "release-type": "simple",
       "version-file": "version.json",
       "initial-version": "1.0.0"
-    },
+    }
   }
 }
