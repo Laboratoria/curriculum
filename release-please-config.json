@@ -1,110 +1,92 @@
 {
   "bootstrap-sha": "4ea26447e1a259476f237a7a6212e3a02409910b",
   "draft": true,
+  "initial-version": "6.4.0",
   "packages": {
     ".": {
-      "release-type": "node",
-      "initial-version": "6.4.0"
+      "release-type": "node"
     },
     "projects/00-how-might-we": {
       "release-type": "simple",
-      "version-file": "version.json",
-      "initial-version": "1.0.0"
+      "version-file": "version.json"
     },
     "projects/00-trivia": {
       "release-type": "simple",
-      "version-file": "version.json",
-      "initial-version": "1.1.0"
+      "version-file": "version.json"
     },
-    "projects/01-card-validation": "1.1.0",
-    "projects/01-cipher": "1.1.0",
+    "projects/01-card-validation": {},
+    "projects/01-cipher": {},
     "projects/01-design-and-usability": {
       "release-type": "simple",
-      "version-file": "version.json",
-      "initial-version": "1.0.0"
+      "version-file": "version.json"
     },
     "projects/01-design-detectives": {
       "release-type": "simple",
-      "version-file": "version.json",
-      "initial-version": "1.0.0"
+      "version-file": "version.json"
     },
-    "projects/01-text-analyzer": "1.0.1",
-    "projects/02-data-lovers": "1.2.0",
-    "projects/02-emergency-room": "1.0.0",
-    "projects/02-memory-match": "1.0.0",
+    "projects/01-text-analyzer": {},
+    "projects/02-data-lovers": {},
+    "projects/02-emergency-room": {},
+    "projects/02-memory-match": {},
     "projects/02-movie-challenge": {
       "release-type": "simple",
-      "version-file": "version.json",
-      "initial-version": "1.0.0"
+      "version-file": "version.json"
     },
     "projects/02-small-businesses": {
       "release-type": "simple",
-      "version-file": "version.json",
-      "initial-version": "1.0.0"
+      "version-file": "version.json"
     },
     "projects/02-uxploradora": {
       "release-type": "simple",
-      "version-file": "version.json",
-      "initial-version": "1.0.0"
+      "version-file": "version.json"
     },
     "projects/03-industry-deep-dive": {
       "release-type": "simple",
-      "version-file": "version.json",
-      "initial-version": "1.0.0"
+      "version-file": "version.json"
     },
-    "projects/03-social-network": "1.0.0",
+    "projects/03-social-network": {},
     "projects/03-ux-consultancy": {
       "release-type": "simple",
-      "version-file": "version.json",
-      "initial-version": "1.0.0"
+      "version-file": "version.json"
     },
-    "projects/04-burger-queen-api": "1.1.0",
+    "projects/04-burger-queen-api": {},
     "projects/04-burger-queen-api-client": {
       "release-type": "simple",
-      "version-file": "version.json",
-      "initial-version": "1.2.0"
+      "version-file": "version.json"
     },
-    "projects/04-md-links": "1.0.1",
+    "projects/04-md-links": {},
     "projects/04-notes": {
       "release-type": "simple",
-      "version-file": "version.json",
-      "initial-version": "1.0.0"
+      "version-file": "version.json"
     },
-    "projects/05-chat-app": "1.0.0",
+    "projects/05-chat-app": {},
     "projects/05-fleet-management": {
       "release-type": "simple",
-      "version-file": "version.json",
-      "initial-version": "1.0.0"
+      "version-file": "version.json"
     },
     "projects/05-movie-challenge-fw": {
       "release-type": "simple",
-      "version-file": "version.json",
-      "initial-version": "1.0.0"
+      "version-file": "version.json"
     },
     "projects/05-open-project": {
       "release-type": "simple",
-      "version-file": "version.json",
-      "initial-version": "1.0.0"
+      "version-file": "version.json"
     },
-    "projects/05-roman-numerals": "1.0.0",
+    "projects/05-roman-numerals": {},
     "projects/05-roman-numerals-slack": {
       "release-type": "simple",
-      "version-file": "version.json",
-      "initial-version": "1.0.0"
+      "version-file": "version.json"
     },
     "projects/05-social-network-fw": {
       "release-type": "simple",
-      "version-file": "version.json",
-      "initial-version": "1.0.0"
+      "version-file": "version.json"
     },
     "projects/05-wordpress-plugin": {
-      "release-type": "php",
-      "initial-version": "1.0.0"
+      "release-type": "php"
     },
     "projects/06-job-application": {
       "release-type": "simple",
-      "version-file": "version.json",
-      "initial-version": "1.0.0"
+      "version-file": "version.json"
     }
   }
 }

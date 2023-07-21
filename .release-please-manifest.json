@@ -1,1 +1,32 @@
-{}
+{ 
+  "projects/00-how-might-we": "1.0.0",
+  "projects/00-trivia": "1.1.0",
+  "projects/01-card-validation": "1.1.0",
+  "projects/01-cipher": "1.1.0",
+  "projects/01-design-and-usability": "1.0.0",
+  "projects/01-design-detectives": "1.0.0",
+  "projects/01-text-analyzer": "1.0.1",
+  "projects/02-data-lovers": "1.2.0",
+  "projects/02-emergency-room": "1.0.0",
+  "projects/02-memory-match": "1.0.0",
+  "projects/02-movie-challenge": "1.0.0",
+  "projects/02-small-businesses": "1.0.0",
+  "projects/02-uxploradora": "1.0.0",
+  "projects/03-industry-deep-dive": "1.0.0",
+  "projects/03-social-network": "1.0.0",
+  "projects/03-ux-consultancy": "1.0.0",
+  "projects/04-burger-queen-api": "1.1.0",
+  "projects/04-burger-queen-api-client": "1.2.0",
+  "projects/04-md-links": "1.0.1",
+  "projects/04-notes": "1.0.0",
+  "projects/05-chat-app": "1.0.0",
+  "projects/05-fleet-management": "1.0.0",
+  "projects/05-movie-challenge-fw": "1.0.0",
+  "projects/05-open-project": "1.0.0",
+  "projects/05-roman-numerals": "1.0.0",
+  "projects/05-roman-numerals-slack": "1.0.0",
+  "projects/05-social-network-fw": "1.0.0",
+  "projects/05-wordpress-plugin": "1.0.0",
+  "projects/06-job-application": "1.0.0"
+}
+
