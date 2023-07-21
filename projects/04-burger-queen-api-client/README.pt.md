@@ -133,15 +133,9 @@ sugerimos que você escolha um dos seguintes métodos:
   [esta API que desenvolvemos](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0).
 
 Você pode começar usando uma mock API e, a qualquer momento do projeto, migrar
-para a API implantada. Isso costuma ocorrer no Desenvolvimento Web, em duas
-principais situações:
-
-* Quando é necessário avançar com a implementação do frontend enquanto as
-  pessoas responsáveis pelo backend ainda estão no processo de design.
-
-* Quando é necessário avançar com a implementação do frontend enquanto as
-  pessoas responsáveis pelo backend ainda estão desenvolvendo a API a ser
-  consumida quando o projeto estiver pronto para ser implantado e passar para a produção.
+para a API implantada. Isso costuma ocorrer no Desenvolvimento Web, 
+quando é necessário avançar com a implementação do frontend enquanto
+as pessoas responsáveis pelo backend ainda estão desenvolvendo a API.
 
 O intervalo de tempo estimado para concluir o projeto é de 3 a 5 Sprints.
 
