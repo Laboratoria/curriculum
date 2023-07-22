@@ -47,7 +47,8 @@
     "projects/03-ux-consultancy": {
       "package-name": "ux-consultancy",
       "changelog-path": false,
-      "version-file": "version.json"
+      "release-type": "simple",
+      "version-file": "project-version.txt"
     },
     "projects/04-burger-queen-api": {},
     "projects/04-burger-queen-api-client": {
