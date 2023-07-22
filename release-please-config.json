@@ -46,8 +46,7 @@
     "projects/03-social-network": {},
     "projects/03-ux-consultancy": {
       "package-name": "ux-consultancy",
-      "changelog-path": "",
-      "release-type": "simple",
+      "changelog-path": false,
       "version-file": "version.json"
     },
     "projects/04-burger-queen-api": {},
