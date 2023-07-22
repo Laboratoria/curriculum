@@ -45,6 +45,8 @@
     },
     "projects/03-social-network": {},
     "projects/03-ux-consultancy": {
+      "package-name": "ux-consultancy",
+      "changelog-path": "",
       "release-type": "simple",
       "version-file": "version.json"
     },
