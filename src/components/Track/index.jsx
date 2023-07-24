@@ -14,7 +14,7 @@ import Container from '@mui/material/Container';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
-import { Loading } from '@laboratoria/react';
+import { Loading, setPage } from '@laboratoria/react';
 import data from '../../lib/data';
 import Gym from './Gym';
 import Projects from './Projects';
@@ -24,10 +24,21 @@ const Track = () => {
   const location = useLocation();
   const { lang, track } = useParams();
   const { pathnameBase } = useMatch('/:lang/:track/*');
-  const intl = useIntl();
   const [learningObjectives, setLearningObjectives] = useState();
   const [projects, setProjects] = useState();
   const [topics, setTopics] = useState();
+  const { formatMessage } = useIntl();
+  const trackNameIntl = formatMessage({id: track === 'web-dev' ? 'webDev' : 'ux'});
+  // en este componente el `title` dependerá de en qué tab esté
+  // posicionada la usuaria, en caso de que el último string luego de
+  // los slashes (/) en location y pathname sea igual, quiere decir que
+  // están posicionadas en el tab 'proyectos' y ese será el id para pasar a la
+  // función formatMessage, si no, entonces el id será igual al último
+  // string luego de los slashes (/) en location.pathname
+  const tabTitle = formatMessage({
+    id: location.pathname.split('/').at(-1) === pathnameBase.split('/').at(-1) ? 'projects' : location.pathname.split('/').at(-1)
+  });
+  setPage({title: `${trackNameIntl} - ${tabTitle}`, description: ''});
 
   useEffect(() => {
     data.subscribe('learning-objectives', setLearningObjectives);
@@ -71,20 +82,20 @@ const Track = () => {
       {heading}
       <Tabs value={location.pathname} sx={{ mb: 3 }}>
         <Tab
-          label={intl.formatMessage({ id: 'projects' })}
+          label={formatMessage({ id: 'projects' })}
           value={pathnameBase}
           component={Link}
           to=""
         />
         <Tab
-          label={intl.formatMessage({ id: 'topics' })}
+          label={formatMessage({ id: 'topics' })}
           value={`${pathnameBase}/topics`}
           component={Link}
           to={`topics`}
         />
         {track === 'web-dev' && (
           <Tab
-            label={intl.formatMessage({ id: 'gym' })}
+            label={formatMessage({ id: 'gym' })}
             value={`${pathnameBase}/gym`}
             component={Link}
             to={`gym`}
@@ -99,7 +110,7 @@ const Track = () => {
         {track === 'web-dev' && (
           <Route
             path={`gym`}
-            element={<Gym lang={lang} intl={intl} />}
+            element={<Gym lang={lang} intl={formatMessage} />}
           />
         )}
         <Route

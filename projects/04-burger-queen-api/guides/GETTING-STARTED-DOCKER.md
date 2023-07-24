@@ -4,48 +4,17 @@ Una vez creado tu fork y clonado el repo en tu computadora, antes de poder
 comenzar a codear, tenemos primero que crear nuestro _entorno de desarrollo_.
 Para ello te recomendamos seguir los pasos a continuación:
 
-* [1. Elegir base de datos](#1-elegir-base-de-datos)
-* [2. Instalar `docker` y `docker-compose`](#2-instalar-docker-y-docker-compose)
-* [3. Configurar "servicio" de base de datos](#3-configurar-servicio-de-base-de-datos)
-* [4. Configurar conexión a BBDD en "servicio" node](#4-configurar-conexión-a-bbdd-en-servicio-node)
-* [5. Elegir módulo (cliente)](#5-elegir-módulo-cliente)
-* [6. Iniciar, re-iniciar y parar los servicios con `docker-compose`](#6-iniciar-re-iniciar-y-parar-los-servicios-con-docker-compose)
-* [7. Familiarizarte con admisitración de contenedores](#7-familiarizarte-con-admisitración-de-contenedores)
-* [8. Opcionalmente, instalar interfaz gráfica para admisitrar data](#8-opcionalmente-instalar-interfaz-gráfica-para-admisitrar-data)
-* [9. Definir esquemas](#9-definir-esquemas)
-* [10. Definir estrategia de pruebas unitarias](#10-definir-estrategia-de-pruebas-unitarias)
-* [11. Familiarizarte con las pruebas de integración (e2e)](#11-familiarizarte-con-las-pruebas-de-integración-e2e)
+* [1. Instalar `docker` y `docker-compose`](#1-instalar-docker-y-docker-compose)
+* [2. Configurar "servicio" de base de datos](#2-configurar-servicio-de-base-de-datos)
+* [3. Configurar conexión a BBDD en "servicio" node](#3-configurar-conexión-a-bbdd-en-servicio-node)
+* [4. Iniciar, re-iniciar y parar los servicios con `docker-compose`](#4-iniciar-re-iniciar-y-parar-los-servicios-con-docker-compose)
+* [5. Familiarizarte con administración de contenedores](#5-familiarizarte-con-admisitración-de-contenedores)
+* [6. Opcionalmente, instalar interfaz gráfica para administrar data](#6-opcionalmente-instalar-interfaz-gráfica-para-administrar-data)
+* [7. Corre las pruebas de integración (e2e)](#7-corre-las-pruebas-de-integración-e2e)
 
 ***
 
-## 1. Elegir base de datos
-
-La primera decisión que tenemos que tomar, antes de comenzar a programar, es
-elegir una base de datos. En este proyecto se sugieren 3 opciones: dos de ellas
-_relacionales_ y basadas en SQL, (PostgreSQL y MySQL), y otra _no relacional_
-(MongoDB). Las 3 son excelentes opciones.
-
-Algunos puntos a tener en cuenta:
-
-* MongoDB es la más _común_ (popular) a día de hoy en el ecosistema de
-  Node.js.
-* Las bases de datos _relacionales_ normalmente requieren más diseño
-  _a priori_ (definir tablas, columnas, relaciones, ...) mientras que las
-  _no relacionales_ nos permiten ser más _flexibles_.
-* Las bases de datos _relacionales_ nos permiten relacionar datos de forma
-  más natural y garantizar la consistencia de la data. Nos dan una rigidez
-  que quita _flexibilidad_ pero agrega otro tipo de garantías, además de
-  permitirnos pensar en tablas y columnas, que es una idea con la que muchas
-  ya están familiarizadas.
-* MySQL, PostgreSQL y MongoDB (en ese orden) son las [bases de datos de
-  código abierto (Open Source) más populares a diciembre de 2020](https://www.statista.com/statistics/809750/worldwide-popularity-ranking-database-management-systems/).
-  Esto en el panorama general de las bases de datos, no solo el ecosistema de
-  Node.js.
-* PostgreSQL es una base datos _objeto-relacional_ (ORDBMS), mientras que
-  MySQL es puramente relacional. PostgreSQL tiene soporte nativo para objetos
-  JSON y otras características como indización de JSON.
-
-## 2. Instalar `docker` y `docker-compose`
+## 1. Instalar `docker` y `docker-compose`
 
 Independientemente de qué base datos elijas, en este proyecto vamos a ejecutar
 localmente (en nuestra computadora) el servidor de bases de datos usando
@@ -59,7 +28,7 @@ tu sistema opetativo.
 * [Get Docker](https://docs.docker.com/get-docker/)
 * [Install Docker Compose](https://docs.docker.com/compose/install/)
 
-## 3. Configurar "servicio" de base de datos
+## 2. Configurar "servicio" de base de datos
 
 El boilerplate de este proyecto incluye un archivo
 [`docker-compose.yml`](./docker-compose.yml) que ya contiene parte de la
@@ -128,7 +97,7 @@ db:
     - private
 ```
 
-## 4. Configurar conexión a BBDD en "servicio" node
+## 3. Configurar conexión a BBDD en "servicio" node
 
 Ahora que ya tenemos la configuración del _servicio_ `db`, tenemos que
 completar la configuración del _servicio_ de Node.js. En particular nos
@@ -167,80 +136,7 @@ contenedores. Siguiendo con los ejemplos del punto anterior, la variable
   DB_URL: mysql://bq:secret@db:3306/bq
   ```
 
-## 5. Elegir módulo (cliente)
-
-Ahora que ya tenemos un servidor de bases de datos vamos a necesitar elegir un
-módulo o librería diseñado para interactuar con nuestra base de datos desde
-Node.js. Existen un montón de opciones, pero para este proyecto te recomendamos
-elegir una de estas (que son las más populares para cada una de las bases de
-datos): [Mongoose](https://mongoosejs.com/) (MongoDB),
-[pg](https://www.npmjs.com/package/pg) (PostgreSQL) o
-[mysql](https://www.npmjs.com/package/mysql) (MySQL).
-
-El _boilerplate_ ya incluye un archivo `config.js` donde se leen las
-variables de entorno, y entre ellas está `DB_URL`. Como vemos ese valor lo
-estamos asignando en la propiedad `dbUrl` del módulo `config`.
-
-```js
-// `config.js`
-exports.dbUrl = process.env.DB_URL || "mongodb://localhost:27017/test";
-```
-
-Ahora que ya sabemos dónde encontrar el _connection string_ (en el módulo
-config), podemos proceder a establecer una conexión con la base de datos
-usando el cliente elegido.
-
-Ejemplo de conexión usando [Mongoose](https://mongoosejs.com/) (MongoDB):
-
-```js
-const mongoose = require("mongoose");
-const config = require("./config");
-
-mongoose
-  .connect(config.dbUrl, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then(console.log)
-  .catch(console.error);
-```
-
-Ejemplo de conexión usando [pg](https://www.npmjs.com/package/pg)
-(PostgreSQL):
-
-```js
-const pg = require("pg");
-const config = require("./config");
-
-const pgClient = new pg.Client({ connectionString: config.dbUrl });
-
-pgClient.connect();
-pgClient.query("SELECT NOW()", (err, res) => {
-  console.log(err, res);
-  pgClient.end();
-});
-```
-
-Ejemplo de conexión usando [mysql](https://www.npmjs.com/package/mysql)
-(MySQL):
-
-```js
-const mysql = require("mysql");
-const config = require("./config");
-
-const connection = mysql.createConnection(config.dbUrl);
-
-connection.connect();
-connection.query("SELECT 1 + 1 AS solution", (error, results) => {
-  if (error) {
-    return console.error(error);
-  }
-  console.log(`The solution is: ${results[0].solution}`);
-});
-connection.end();
-```
-
-## 6. Iniciar, re-iniciar y parar los servicios con `docker-compose`
+## 4. Iniciar, re-iniciar y parar los servicios con `docker-compose`
 
 Ahora que ya tenemos nuestra configuración de `docker-compose` lista, veamos
 cómo podemos _levantar_ la aplicación. Para eso usamos el comando
@@ -293,7 +189,7 @@ docker-compose stop db
 docker-compose restart db
 ```
 
-## 7. Familiarizarte con admisitración de contenedores
+## 5. Familiarizarte con administración de contenedores
 
 Además de los comandos que ya hemos visto de `docker-compose`, te recomendamos
 familiarizarte con estos otros comandos (entre otros) para poder _administrar_
@@ -349,7 +245,7 @@ podríamos hacer esto:
 docker-compose help up
 ```
 
-## 8. Opcionalmente, instalar interfaz gráfica para administrar data
+## 6. Opcionalmente, instalar interfaz gráfica para administrar data
 
 A la hora de trabajar con bases de datos es muy común usar algún tipo de
 interfaz gráfica que nos permita ver y manipular visualmente nuestra data.
@@ -417,46 +313,7 @@ NOTA: Para conectar desde pgAdmin usando un contenedor, usa el _nombre_ del
 contenedor de la base datos (ie: `XXX-001-burger-queen-api_db_1`) como nombre
 de host para que pgAdmin se pueda conectar a través de la red _privada_.
 
-## 9. Definir esquemas
-
-Llegado a este punto ya deberíamos tener una configuración de `docker-compose`
-capaz de _levantar_ la base datos y servidor de Node.js.
-
-Como parte del proceso de diseño de nuestra base de datos vamos a tener que
-especificar los _esquemas_ de nuestros _modelos_ de datos. Con esto nos
-referimos a que tenemos que _describir_ de alguna forma las colecciones o
-tablas que vamos a usar y la _forma_ de los objetos o filas que vayamos a
-guardar en esas colecciones.
-
-Si has elegido MongoDB y Mongoose, este último nos ofrece un mecanismo para
-describir esos [_modelos_](https://mongoosejs.com/docs/models.html) y
-[_esquemas_](https://mongoosejs.com/docs/guide.html) de datos en JavaScript.
-
-Si has elegido usar una base de datos SQL, es común incluir algunos scripts
-`.sql` con el código SQL que nos permita _crear_ (o alterar) las tablas
-necesarias. Alternativamente, podrías también explorar abstracciones más
-modernas como [Prisma](https://www.prisma.io/).
-
-## 10. Definir estrategia de pruebas unitarias
-
-Además de las pruebas `e2e` que ya incluye el _boilerplate_ del proyecto, se
-espera que puedas también usar pruebas _unitarias_ para el desarrollo de los
-diferentes _endpoints_ o _rutas_ así como otros módulos internos que decidas
-desarrollar.
-
-Para hacer pruebas unitarias de _rutas_ de Express, te recomendamos explorar la
-librería [`supertest`](https://www.npmjs.com/package/supertest), que puedes usar
-en combinación con `jest`.
-
-Otro punto a tener en cuenta en las pruebas unitarias, es cómo _mockear_ la base
-de datos. Algunas bases de datos ofrecen herramientas (como
-[`mongodb-memory-server`](https://github.com/nodkz/mongodb-memory-server)) que
-nos permiten usar una base de datos en memoria y así evitar hacer _mocks_ per
-se, pero por lo general querremos considerar cómo abstraer la interacción
-con la base de datos para facilitar _mocks_ que nos permitan concentrarnos en
-la lógica de las rutas.
-
-## 11. Familiarizarte con las pruebas de integración (e2e)
+## 7. Corre las pruebas de integración (e2e)
 
 El _boilerplate_ de este proyecto ya incluye pruebas `e2e` (end-to-end) o de
 _integración_, que se encargan de probar nuestra aplicación en conjunto,

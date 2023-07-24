@@ -2,9 +2,9 @@
   "slug": "css",
   "repo": "Laboratoria/bootcamp",
   "path": "topics/css",
-  "version": "6.2.0",
-  "parserVersion": "5.0.0-alpha.4",
-  "createdAt": "2023-04-04T20:28:34.696Z",
+  "version": "6.4.1",
+  "parserVersion": "5.0.0-beta.0",
+  "createdAt": "2023-07-24T16:40:11.130Z",
   "track": "web-dev",
   "intl": {
     "es": {

@@ -25,6 +25,10 @@ module.exports = (app, nextMain) => {
     }
 
     // TODO: autenticar a la usuarix
+    // Hay que confirmar si el email y password
+    // coinciden con un user en la base de datos
+    // Si coinciden, manda un access token creado con jwt
+
     next();
   });
 

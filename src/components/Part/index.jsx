@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
+import { useIntl } from 'react-intl';
 import Typography from '@mui/material/Typography';
-import { Challenges, Content, loadFromLocalStorage } from '@laboratoria/react';
+import { Challenges, Content, loadFromLocalStorage, setPage } from '@laboratoria/react';
 import Breadcrumbs from '../Breadcrumbs';
 
 const Part = ({ lang, topic }) => {
@@ -16,6 +17,12 @@ const Part = ({ lang, topic }) => {
         data: loadFromLocalStorage(path),
       },
     };
+  });
+
+  const { formatMessage } = useIntl();
+  setPage({
+    title: `${part.intl[lang].title} - ${formatMessage({id: topic.slug})} - ${formatMessage({id: 'app-title'})}`,
+    description: ''
   });
 
   return (

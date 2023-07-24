@@ -87,7 +87,7 @@ usuario necesita.
 
 ## 3. Objetivos de aprendizaje
 
-> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
 > al crear el repo del proyecto para un cohort en particular usando
 > [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
@@ -329,6 +329,10 @@ implementadas en el archivo `data.js`.
 ## 8. Pistas, tips y lecturas complementarias
 
 ### Primeros pasos
+
+Súmate al canal de Slack
+[#project-data-lovers](https://claseslaboratoria.slack.com/archives/C03MV35EP5M)
+para conversar y pedir ayuda del proyecto.
 
 Antes de empezar a escribir código, debes definir qué deberá hacer el producto
 en base al conocimiento que puedas obtener de tu usuario. Estas preguntas te

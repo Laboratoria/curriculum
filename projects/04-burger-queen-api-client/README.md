@@ -14,7 +14,7 @@
 
 ## 1. Preámbulo
 
-[React](https://reactjs.org/) y [Angular](https://angular.io/)
+[React](https://es.react.dev/) y [Angular](https://angular.io/)
 son algunos de los _frameworks_ y _librerías_ de JavaScript más utilizados por
 lxs desarrolladorxs alrededor del mundo, y hay una razón para eso.
 En el contexto del navegador, [_mantener la interfaz sincronizada con el estado
@@ -107,7 +107,7 @@ a un _pedido_, la interfaz debe actualizar la lista del pedido y el total).
 
 ## 3. Objetivos de aprendizaje
 
-> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
 > al crear el repo del proyecto para un cohort en particular usando
 > [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
@@ -117,17 +117,24 @@ a un _pedido_, la interfaz debe actualizar la lista del pedido y el total).
 
 ## 4. Consideraciones
 
-Este proyecto se debe "resolver" en duplas y puedes elegir entre
-estas tres opciones la manera en que trabajarás con el backend.
+Este proyecto se debe "resolver" en duplas y para trabajar con el backend
+te sugerimos elegir un metodo entre las siguientes opciones:
 
-1. Consumiendo una API que desarrollarán tus compañeras.
-2. Consumiendo esta
-[API](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
-que desarrollamos para ti.
-3. Mockeando la API, puedes utilizar herramientas como
-[nock](https://github.com/nock/nock),
-[json-server](https://www.npmjs.com/package/json-server)
-o [mockoon](https://mockoon.com).
+1. Usando una mock API. Puedes crear tu propia mock API con las herramientas
+  [json-server](https://www.npmjs.com/package/json-server) y
+  [json-server-auth](https://www.npmjs.com/package/json-server-auth)
+  o puedes hacer fork y clonar
+  [este repo de una mock API](https://github.com/Laboratoria/burger-queen-api-mock).
+
+2. Consumiendo una API desplegada. Puedes usar una que desarrollarán tus
+  compañeras o puedes usar
+  [esta API que hemos desarrollado](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0).
+
+Puedes empezar usando una mock API y en cualquier momento del proyecto
+pasarte a la API desplegada. Esta situación suele ocurrir en Desarrollo Web
+cuando se necesita avanzar con la implementación del frontend mientras las
+personas encargadas del backend aún están en proceso de diseño o desarrollo
+de la API.
 
 El rango de tiempo estimado para completar el proyecto es de 3 a 5 Sprints.
 
@@ -137,9 +144,17 @@ hasta la historia que puedas en el tiempo especificado.
 La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6+), HTML y CSS y empaquetada de manera automatizada.
 
-En este proyecto Sí está permitido usar librerías o frameworks
-(debes elegir entre [React](https://reactjs.org/) o
-[Angular](https://angular.io/)).
+Uno de los mayores objetivos de este proyecto es aprender a usar una librería o
+framework popular para desarrollar una web app.
+Debes elegir entre [React](https://es.react.dev/) o [Angular](https://angular.io/).
+
+Ten en cuenta que si eliges Angular, tienes la obligación de usar [TypeScript](https://www.typescriptlang.org/).
+_Typescript_ es un lenguaje de programación fuertemente tipado basado en
+javascript.
+
+Si eliges React, la decisión de usar Typescript es opcional (pero te lo
+recomendamos!). Aquí puedes encontrar más información en relación a cómo iniciar
+tu proyecto con [Typescript y React](https://itnext.io/create-react-v18-typescript-project-with-vite-d0d602e4a60e).
 
 La aplicación debe ser un _Single Page App_. Los pedidos los tomaremos desde una
 _tablet_, pero **no queremos una app nativa**, sino una web app que sea
@@ -329,9 +344,13 @@ aplicaciones web que se ejecutan en el servidor (Node.js).
 
 ## 7. Pistas / Tips
 
+Súmate al canal de Slack
+[#project-bq-api-client](https://claseslaboratoria.slack.com/archives/C04A0GS1WJX)
+para conversar y pedir ayuda del proyecto.
+
 ### Frameworks / libraries
 
-* [React](https://reactjs.org/)
+* [React](https://react.dev/)
 * [Angular](https://angular.io/)
 
 ### Herramientas
@@ -340,8 +359,6 @@ aplicaciones web que se ejecutan en el servidor (Node.js).
 * [Babel](https://babeljs.io/)
 * [webpack](https://webpack.js.org/)
 * [json-server](https://www.npmjs.com/package/json-server)
-* [mockoon](https://mockoon.com)
-* [nock](https://github.com/nock/nock)
 
 ### PWA
 

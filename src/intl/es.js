@@ -228,6 +228,95 @@ const es = {
   'gym': 'Ejercicios',
 
   'quiz-results': 'Respuestas correctas: {success}/{total}',
+
+  'app-title': 'Laboratoria Currículum',
+
+  'hcd-intro': 'Intro al diseño centrado en el humano',
+
+  'trivia': 'Trivia',
+
+  'card-validation': 'Tarjeta de crédito válida',
+
+  'cipher': 'Cifrado César',
+
+  'design-and-usability': 'Diseño y usabilidad',
+
+  'design-detectives': 'Design Detectives',
+
+  'data-lovers': 'Data Lovers',
+
+  'emergency-room': 'Sala de Emergencias',
+
+  'memory-match': 'Memory Match Game',
+
+  'movie-challenge': 'Movie Challenge',
+
+  'small-businesses': 'Pequeñas empresas',
+
+  'uxploradora': 'UXploradoras',
+
+  'industry-deep-dive': 'Industry deep dive',
+
+  'social-network': 'Creando una Red Social',
+
+  'ux-consultancy': 'Consultoria UX',
+
+  'burger-queen-api': 'Burger Queen - API con Node.js',
+
+  'burger-queen-api-client': 'Burger Queen (API Client)',
+
+  'md-links': 'Markdown Links',
+
+  'notes': 'Lab Notes',
+
+  'chat-app': 'Chat App',
+
+  'fleet-management': 'Fleet Management Software',
+
+  'movie-challenge-fw': 'Movie Challenge con Framework',
+
+  'open-project': 'Proyecto Abierto',
+
+  'roman-numerals': 'Números romanos',
+
+  'roman-numerals-slack': 'Números romanos: slash command de Slack',
+
+  'social-network-fw': 'Rehaciendo tu red social usando librerías y frameworks',
+
+  'wordpress-plugin': 'Plugin para WordPress',
+
+  'text-analyzer': 'Analizador de texto',
+
+  'job-application': 'Proyecto Job Application',
+
+  'browser': 'Browser JavaScript',
+
+  'content-management': 'Cómo crear y organizar el contenido de un producto digital',
+
+  'css': 'CSS',
+
+  'functional': 'Functional JavaScript',
+
+  'html': 'HTML',
+
+  'interaction-design': 'Interaction Design',
+
+  'intro-ux': 'Intro a User Experience Design',
+
+  'javascript': 'JavaScript',
+
+  'learning-mindset': 'Learning Mindset',
+
+  'paradigms': 'Paradigmas de programación',
+
+  'prototyping': 'Prototipado',
+
+  'scm': 'Source Code Management (SCM) - Git + GitHub',
+
+  'shell': 'Unix Shell',
+
+  'ux-research': 'UX Research',
+
 };
 
 export default es;

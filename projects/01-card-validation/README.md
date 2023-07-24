@@ -213,7 +213,7 @@ El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
 
 ## 7. Objetivos de aprendizaje
 
-> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
+> ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
 > al crear el repo del proyecto para un cohort en particular usando
 > [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
@@ -251,7 +251,9 @@ Debes realizar un :fork_and_knife:
 
 ### Recursos y temas relacionados
 
-Súmate al canal de Slack [#project-card-validation](https://claseslaboratoria.slack.com/archives/C03LXJ10WJD)
+Súmate al canal de Slack
+[#project-card-validation](https://claseslaboratoria.slack.com/archives/C03LXJ10WJD)
+para conversar y pedir ayuda del proyecto.
 
 A continuación un video de Michelle que te lleva a través del algoritmo de Luhn
 y un par de cosas más que debes saber para resolver este proyecto. ¡Escúchala

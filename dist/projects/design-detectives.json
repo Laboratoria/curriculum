@@ -2,9 +2,9 @@
   "slug": "design-detectives",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/01-design-detectives",
-  "version": "6.2.0",
-  "parserVersion": "5.0.0-alpha.4",
-  "createdAt": "2023-04-04T20:28:14.110Z",
+  "version": "6.4.1",
+  "parserVersion": "5.0.0-beta.0",
+  "createdAt": "2023-07-24T16:39:46.206Z",
   "prefix": 1,
   "track": "ux",
   "learningObjectives": [

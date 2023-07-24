@@ -290,7 +290,7 @@ resultado. Você mudou algumas coisas ao longo do caminho? Quais? Por quê?
 #### Se você está dando os primeiros passos no desenvolvimento Web
 
 Talvez você prefira trabalhar com uma ferramenta de edição de código on-line,
-como [Replit](https://replit.com/) ou [CodeSandbox](https://codesandbox.io).
+como [Glitch](https://glitch.com/).
 
 #### Se você já tem alguma experiência e vai trabalhar com um repositório de código
 
@@ -339,7 +339,5 @@ como [Replit](https://replit.com/) ou [CodeSandbox](https://codesandbox.io).
 
 * A entrega será feita via form (a ser disponibilizado) através de um link
   funcional do seu projeto. Pode ser o link do seu
-  **repositório github ou o link do seu projeto online** [Replit](https://repl.it)
-  ou [CodeSandbox](https://codesandbox.io/)
+  **repositório github ou o link do seu projeto online** [Glitch](https://glitch.com/).
 
-![URL](https://user-images.githubusercontent.com/12631491/212091716-cd0118f4-0fa5-407c-b580-b5dc0cf0f609.gif)

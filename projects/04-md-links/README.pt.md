@@ -32,7 +32,7 @@ Uma comunidade open source nos propôs criar uma ferramenta, usando
 `Markdown`, para verificar os arquivos que contenham links e mostrar algumas
 estatísticas.
 
-![md-links](https://user-images.githubusercontent.com/110297/42118443-b7a5f1f0-7bc8-11e8-96ad-9cc5593715a6.jpg)
+![md-links](https://github.com/Laboratoria/bootcamp/assets/12631491/fc6bc380-7824-4fab-ab8f-7ab53cd9d0e4)
 
 ## 2. Resumo do projeto
 
@@ -278,6 +278,10 @@ aprendizagem deste projeto.
 
 ## 8. Guias, dicas e leituras complementares
 
+Participe do canal do Slack
+[#project-md-links](https://claseslaboratoria.slack.com/archives/C03T1E5TJCQ)
+para conversar e pedir ajuda no projeto.
+
 ### FAQs
 
 #### Como faço para que o meu módulo seja instalável pelo GitHub?
@@ -326,6 +330,8 @@ destas decisões. Não existe uma única maneira certa :wink:
 ### Tutoriais / NodeSchool workshoppers
 
 * [learnyounode](https://github.com/workshopper/learnyounode)
+  Considere os primeiros pontos para aprender mais sobre Node.js e quais
+  são relevantes para este projeto, não é necessário fazer todas as etapas.
 * [how-to-npm](https://github.com/workshopper/how-to-npm)
 * [promise-it-wont-hurt](https://github.com/stevekane/promise-it-wont-hurt)
 
