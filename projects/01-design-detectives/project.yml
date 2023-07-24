@@ -1,24 +1,57 @@
 track: ux
 learningObjectives:
-  - user-centricity/user-oriented
-  - user-centricity/prioritization
-  - research/planning
-  - research/support
-  - research/guidelines
-  - research/interview
-  - research/documentation
-  - research/adaptation
-  - research/sources
-  - synthesis/patterns
-  - synthesis/mapping
-  - synthesis/ideation
-  - synthesis/feature-prioritization
-  - product-design/user-flows
-  - product-design/usability
-  - product-design/visual-design
-  - product-design/project-organization
-  - communication/case-study
-  - planning/monitor
-  - planning/prioritization
-  - planning/tools
+  #- agile-planning/scope
+  #- agile-planning/workplan
+  - agile-planning/tasks
   
+  #- business-understandig/businessModel
+  #- business-understandig/goalsAndKPIs
+  - business-understandig/benchmark
+
+  # - research-planning/researchPlan
+  # - research-planning/deskResearch
+  # - research-planning/researchSample
+  # - research-planning/participants
+
+  # - research-qualitative/userInterviews
+  # - research-qualitative/exploratoryTechniques
+  # - research-quantitative/userSurveys
+  # - research-quantitative/analyticalTechniques
+
+  # - research-analysis/processInformation
+  # - research-analysis/experienceMapping
+  # - research-analysis/identifyPatterns
+  # - research-analysis/synthesizeResults
+
+  - design-concept/defineMVP
+  - design-concept/designReferences
+  - design-concept/ideate
+  - design-concept/prioritizeIdeas
+
+  - interaction-design/userFlows
+  - interaction-design/usability
+  - interaction-design/informationArchitecture
+
+  # - content-design/voiceTone
+  # - content-design/createContent
+
+  - interface-design/visualDesign
+  - interface-design/accesibility
+  # - interface-design/responsiveDesign
+
+  - design-prototype/basicPrototypes
+  # - design-prototype/highFidelity
+  # - design-prototype/advancedInteractions
+
+  - design-validation/moderatedTesting
+  - design-validation/heuristicAnalysis
+  # - design-validation/nonModeratedTesting
+
+  - design-documentation/fileOrganization
+  - design-documentation/handoverDocumentation
+  # - design-documentation/atomicDesign
+  # - design-documentation/designSystem
+
+  - design-presentation/designFeedback
+  - design-presentation/designPitch
+  - design-presentation/designProcess

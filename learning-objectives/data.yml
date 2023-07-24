@@ -70,60 +70,6 @@ scm:
       - project-management
       - ci
 
-user-centricity:
-  - centricity
-  - user-oriented
-  - prioritization
-  
-business:
-  - model
-  - goals
-  - metrics
-  - benchmark
-
-research:
-  - planning
-  - support
-  - guidelines
-  - interview
-  - documentation
-  - adaptation
-  - sources
-  - test
-  - cuantitative-data
-  
-synthesis:
-  - weighing
-  - patterns
-  - insights
-  - mapping
-  - features
-  - ideation
-  - feature-prioritization
-
-product-design:
-  - user-flows
-  - content
-  - fidelity
-  - interactivity
-  - usability
-  - accessibility
-  - visual-design
-  - component-organization
-  - project-organization
-  - documentation
-
-communication:
-  - presentation
-  - negotiation
-  - relationship-management
-  - case-study
-
-planning:
-  - monitor
-  - prioritization
-  - tools
-    
 firebase:
   - auth
   - firestore
@@ -274,14 +220,14 @@ wordpress:
       - wordpress-plugin-directory
 
 typescript:
-  - basic-types:
+  - basic-types
     - static-type-checking
     - strictness
     - primitives
     - arrays
     - any
     - functions
-    - object-types:
+    - object-types
       - optional-properties
     - union-types
     - type-aliases
@@ -291,16 +237,16 @@ typescript:
     - null-and-undefined
     - enums
   - narrowing
-  - classes:
-    - members:
+  - classes
+    - members
       - fields
       - constructor
       - methods
       - getter-setters
-    - class-heritage:
+    - class-heritage
       - implements
       - extends
-    - member-visibility:
+    - member-visibility
       - public
       - protected
       - private
@@ -308,3 +254,130 @@ typescript:
     - this
     - abstract-classes
   - decorators
+
+# Deprecated OAs for UXD
+user-centricity:
+  - centricity
+  - user-oriented
+  - prioritization
+  
+business:
+  - model
+  - goals
+  - metrics
+  - benchmark
+
+research:
+  - planning
+  - support
+  - guidelines
+  - interview
+  - documentation
+  - adaptation
+  - sources
+  - test
+  - cuantitative-data
+  
+synthesis:
+  - weighing
+  - patterns
+  - insights
+  - mapping
+  - features
+  - ideation
+  - feature-prioritization
+
+product-design:
+  - user-flows
+  - content
+  - fidelity
+  - interactivity
+  - usability
+  - accessibility
+  - visual-design
+  - component-organization
+  - project-organization
+  - documentation
+
+communication:
+  - presentation
+  - negotiation
+  - relationship-management
+  - case-study
+
+planning:
+  - monitor
+  - prioritization
+  - tools
+
+# Current OAs since UXD006
+agile-planning:
+  - scope #UXD-OA01
+  - workplan #UXD-OA02
+  - tasks #UXD-OA03
+
+business-understandig:
+  - businessModel #UXD-OA04
+  - goalsAndKPIs #UXD-OA05
+  - benchmark #UXD-OA06
+
+research-planning:
+  - researchPlan #UXD-OA07
+  - deskResearch #UXD-OA08
+  - researchSample #UXD-OA09
+  - participants #UXD-OA10
+
+research-qualitative:
+  - userInterviews #UXD-OA11
+  - exploratoryTechniques #UXD-OA12
+
+research-quantitative:
+  - userSurveys #UXD-OA13
+  - analyticalTechniques #UXD-OA14
+
+research-analysis:
+  - processInformation #UXD-OA15
+  - experienceMapping #UXD-OA16
+  - identifyPatterns #UXD-OA17
+  - synthesizeResults #UXD-OA18
+
+design-concept:
+  - defineMVP #UXD-OA19
+  - designReferences #UXD-OA20
+  - ideate #UXD-OA21
+  - prioritizeIdeas #UXD-OA22
+
+interaction-design:
+  - userFlows #UXD-OA23
+  - usability #UXD-OA24
+  - informationArchitecture #UXD-OA25
+
+content-design:
+  - voiceTone #UXD-OA26
+  - createContent #UXD-OA27
+
+interface-design:
+  - visualDesign #UXD-OA28
+  - accesibility #UXD-OA29
+  - responsiveDesign #UXD-OA30
+
+design-prototype:
+  - basicPrototypes #UXD-OA31
+  - highFidelity #UXD-OA32
+  - advancedInteractions #UXD-OA33
+
+design-validation:
+  - moderatedTesting #UXD-OA34
+  - heuristicAnalysis #UXD-OA35
+  - nonModeratedTesting #UXD-OA36
+
+design-documentation:
+  - fileOrganization #UXD-OA37
+  - handoverDocumentation #UXD-OA38
+  - atomicDesign #UXD-OA39
+  - designSystem #UXD-OA40
+
+design-presentation:
+  - designFeedback #UXD-OA41
+  - designPitch #UXD-OA42
+  - designProcess #UXD-OA43
