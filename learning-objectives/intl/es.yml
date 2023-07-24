@@ -1307,7 +1307,7 @@ research-quantitative/analyticalTechniques:
 research-analysis/processInformation:
   #id: UXD-OA15
   title: Procesar información
-  description: Procesar a profundidad la información obtenida en las entrevistas, evitando sesgos
+  description: Procesar a profundidad la información obtenida evitando sesgos
 research-analysis/experienceMapping:
   #id: UXD-OA16
   title: Mapear la experiencia
