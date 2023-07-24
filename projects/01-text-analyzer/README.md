@@ -90,7 +90,7 @@ clic en un botón.
 
 ![Text analyzer demo](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650556-988dcd6f-bc46-473b-894c-888a66c9fe2d.gif "Text analyzer demo")
 
-## 4. Boilerplate
+## 5. Boilerplate
 
 La lógica del proyecto debe estar implementada completamente en JavaScript. En
 este proyecto NO está permitido usar librerías o frameworks, solo JavaScript
@@ -185,7 +185,7 @@ En este proyecto, utilizaremos _Github Pages_ para desplegar nuestro sitio web.
 El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
  consultar su [documentación oficial](https://docs.github.com/es/pages).
 
-## 5. Criterios de aceptación mínimos del proyecto
+## 6. Criterios de aceptación mínimos del proyecto
 
 A continuación encontrarás los criterios de aceptación mínimos del proyecto
 relacionados con cada objetivo de aprendizaje.
@@ -439,7 +439,7 @@ usuarias en el centro**
   [diseño visual](https://coda.io/d/Bootcamp-UX-Contenido_dqkqk2rV9Z2/Reglas-basicas-de-diseno-visual_suVcO)
   para diseñar la UI (interfáz gráfica)
 
-## 6. Pruebas
+## 7. Pruebas
 
 Este proyecto cuenta con 3 conjuntos de pruebas que te ayudarán a conocer si
 cumples los criterios mínimos de aceptación.
@@ -524,7 +524,7 @@ como se muestra en la siguiente imagen:
 
 ![Github Action](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650640-a8a8ed26-6f48-4053-8b3b-7dec7e35a9f8.gif "Github Action")
 
-## 7. Pistas, tips y lecturas complementarias
+## 8. Pistas, tips y lecturas complementarias
 
 ### Prepara tu PC para trabajar
 
@@ -561,7 +561,7 @@ ejecuta lo siguiente. Si estas en Windows puedes usar Git Bash:
 
 Súmate al canal de Slack [#project-text-analyzer](https://claseslaboratoria.slack.com/archives/C058GP6K9NY)
 
-## 8. Consideraciones para pedir tu Project Feedback
+## 9. Consideraciones para pedir tu Project Feedback
 
 Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
 
@@ -579,7 +579,7 @@ _life skills_ desde tu dashboard de estudiante.
 Si no has completado todo lo anterior, no consideramos que estás lista para
 tu sesión de Project Feedback.
 
-## 9. Objetivos de aprendizaje
+## 10. Objetivos de aprendizaje
 
 > ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
@@ -589,7 +589,7 @@ tu sesión de Project Feedback.
 > Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
 > que contempla nuestra currícula.
 
-## 10. Funcionalidades opcionales
+## 11. Funcionalidades opcionales
 
 Si terminaste con todas las [funcionalidades requeridas](#3-funcionalidades),
 intenta implementar las siguientes funcionalidades opcionales para
