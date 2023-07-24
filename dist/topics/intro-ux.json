@@ -2,9 +2,9 @@
   "slug": "intro-ux",
   "repo": "Laboratoria/bootcamp",
   "path": "topics/intro-ux",
-  "version": "6.4.0",
-  "parserVersion": "5.0.0-alpha.5",
-  "createdAt": "2023-07-11T19:32:00.607Z",
+  "version": "6.4.1",
+  "parserVersion": "5.0.0-beta.0",
+  "createdAt": "2023-07-24T16:40:13.477Z",
   "track": "ux",
   "intl": {
     "es": {

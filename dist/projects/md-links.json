@@ -2,9 +2,9 @@
   "slug": "md-links",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/04-md-links",
-  "version": "6.4.0",
-  "parserVersion": "5.0.0-alpha.5",
-  "createdAt": "2023-07-11T19:31:57.163Z",
+  "version": "6.4.1",
+  "parserVersion": "5.0.0-beta.0",
+  "createdAt": "2023-07-24T16:40:00.454Z",
   "prefix": 4,
   "track": "web-dev",
   "learningObjectives": [

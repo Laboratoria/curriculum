@@ -287,9 +287,57 @@
       }
     ],
     "typescript": [
-      "basic-types - static-type-checking - strictness - primitives - arrays - any - functions - object-types - optional-properties - union-types - type-aliases - interfaces - type-assertions - literal-types - null-and-undefined - enums",
+      {
+        "basic-types": [
+          "static-type-checking",
+          "strictness",
+          "primitives",
+          "arrays",
+          "any",
+          "functions",
+          {
+            "object-types": [
+              "optional-properties"
+            ]
+          },
+          "union-types",
+          "type-aliases",
+          "interfaces",
+          "type-assertions",
+          "literal-types",
+          "null-and-undefined",
+          "enums"
+        ]
+      },
       "narrowing",
-      "classes - members - fields - constructor - methods - getter-setters - class-heritage - implements - extends - member-visibility - public - protected - private - static-members - this - abstract-classes",
+      {
+        "classes": [
+          {
+            "members": [
+              "fields",
+              "constructor",
+              "methods",
+              "getter-setters"
+            ]
+          },
+          {
+            "class-heritage": [
+              "implements",
+              "extends"
+            ]
+          },
+          {
+            "member-visibility": [
+              "public",
+              "protected",
+              "private"
+            ]
+          },
+          "static-members",
+          "this",
+          "abstract-classes"
+        ]
+      },
       "decorators"
     ]
   },
@@ -516,9 +564,39 @@
     "wordpress/plugin-development/wordpress-apis",
     "wordpress/plugin-development/wordpress-plugin-directory",
     "typescript",
-    "typescript/basic-types - static-type-checking - strictness - primitives - arrays - any - functions - object-types - optional-properties - union-types - type-aliases - interfaces - type-assertions - literal-types - null-and-undefined - enums",
+    "typescript/basic-types",
+    "typescript/basic-types/static-type-checking",
+    "typescript/basic-types/strictness",
+    "typescript/basic-types/primitives",
+    "typescript/basic-types/arrays",
+    "typescript/basic-types/any",
+    "typescript/basic-types/functions",
+    "typescript/basic-types/object-types",
+    "typescript/basic-types/object-types/optional-properties",
+    "typescript/basic-types/union-types",
+    "typescript/basic-types/type-aliases",
+    "typescript/basic-types/interfaces",
+    "typescript/basic-types/type-assertions",
+    "typescript/basic-types/literal-types",
+    "typescript/basic-types/null-and-undefined",
+    "typescript/basic-types/enums",
     "typescript/narrowing",
-    "typescript/classes - members - fields - constructor - methods - getter-setters - class-heritage - implements - extends - member-visibility - public - protected - private - static-members - this - abstract-classes",
+    "typescript/classes",
+    "typescript/classes/members",
+    "typescript/classes/members/fields",
+    "typescript/classes/members/constructor",
+    "typescript/classes/members/methods",
+    "typescript/classes/members/getter-setters",
+    "typescript/classes/class-heritage",
+    "typescript/classes/class-heritage/implements",
+    "typescript/classes/class-heritage/extends",
+    "typescript/classes/member-visibility",
+    "typescript/classes/member-visibility/public",
+    "typescript/classes/member-visibility/protected",
+    "typescript/classes/member-visibility/private",
+    "typescript/classes/static-members",
+    "typescript/classes/this",
+    "typescript/classes/abstract-classes",
     "typescript/decorators"
   ],
   "intl": {
@@ -5122,7 +5200,80 @@
       "key": "typescript"
     },
     {
-      "key": "typescript/basic-types - static-type-checking - strictness - primitives - arrays - any - functions - object-types - optional-properties - union-types - type-aliases - interfaces - type-assertions - literal-types - null-and-undefined - enums"
+      "key": "typescript/basic-types"
+    },
+    {
+      "key": "typescript/basic-types/static-type-checking",
+      "es": "Chequeo estático de tipos",
+      "pt": "Verificação estática de tipos"
+    },
+    {
+      "key": "typescript/basic-types/strictness",
+      "es": "Rigurosidad",
+      "pt": "Rigor"
+    },
+    {
+      "key": "typescript/basic-types/primitives",
+      "es": "Tipos primitivos",
+      "pt": "Tipos primitivos"
+    },
+    {
+      "key": "typescript/basic-types/arrays",
+      "es": "Arreglos",
+      "pt": "Arrays"
+    },
+    {
+      "key": "typescript/basic-types/any",
+      "es": "Tipo `any`",
+      "pt": "Tipo `any`"
+    },
+    {
+      "key": "typescript/basic-types/functions",
+      "es": "Funciones",
+      "pt": "Funções"
+    },
+    {
+      "key": "typescript/basic-types/object-types",
+      "es": "Tipos Objecto",
+      "pt": "Tipos Objecto"
+    },
+    {
+      "key": "typescript/basic-types/object-types/optional-properties",
+      "es": "Propiedades opcionales",
+      "pt": "Propriedades opcionais"
+    },
+    {
+      "key": "typescript/basic-types/union-types",
+      "es": "Tipos Union",
+      "pt": "Tipos de união"
+    },
+    {
+      "key": "typescript/basic-types/type-aliases",
+      "es": "Alias de tipos",
+      "pt": "Alias de tipos"
+    },
+    {
+      "key": "typescript/basic-types/interfaces",
+      "es": "Interfaces",
+      "pt": "Interfaces"
+    },
+    {
+      "key": "typescript/basic-types/type-assertions",
+      "es": "Type assertions",
+      "pt": "Type assertions"
+    },
+    {
+      "key": "typescript/basic-types/literal-types",
+      "es": "Tipos literales",
+      "pt": "Tipos literais"
+    },
+    {
+      "key": "typescript/basic-types/null-and-undefined"
+    },
+    {
+      "key": "typescript/basic-types/enums",
+      "es": "Enums",
+      "pt": "Enums"
     },
     {
       "key": "typescript/narrowing",
@@ -5130,7 +5281,66 @@
       "pt": "Narrowing"
     },
     {
-      "key": "typescript/classes - members - fields - constructor - methods - getter-setters - class-heritage - implements - extends - member-visibility - public - protected - private - static-members - this - abstract-classes"
+      "key": "typescript/classes",
+      "es": "Clases",
+      "pt": "Classes"
+    },
+    {
+      "key": "typescript/classes/members",
+      "es": "Miembros de clase",
+      "pt": "Membros da classe"
+    },
+    {
+      "key": "typescript/classes/members/fields"
+    },
+    {
+      "key": "typescript/classes/members/constructor"
+    },
+    {
+      "key": "typescript/classes/members/methods"
+    },
+    {
+      "key": "typescript/classes/members/getter-setters"
+    },
+    {
+      "key": "typescript/classes/class-heritage",
+      "es": "Herencia de clases",
+      "pt": "Herança de classe"
+    },
+    {
+      "key": "typescript/classes/class-heritage/implements"
+    },
+    {
+      "key": "typescript/classes/class-heritage/extends"
+    },
+    {
+      "key": "typescript/classes/member-visibility",
+      "es": "Visibilidad de miembros de clase",
+      "pt": "Visibilidade dos membros da classe"
+    },
+    {
+      "key": "typescript/classes/member-visibility/public"
+    },
+    {
+      "key": "typescript/classes/member-visibility/protected"
+    },
+    {
+      "key": "typescript/classes/member-visibility/private"
+    },
+    {
+      "key": "typescript/classes/static-members",
+      "es": "Miembros de clase estáticos",
+      "pt": "Membros estáticos da classe"
+    },
+    {
+      "key": "typescript/classes/this",
+      "es": "this",
+      "pt": "this"
+    },
+    {
+      "key": "typescript/classes/abstract-classes",
+      "es": "Clases abstractas",
+      "pt": "Classes abstratas"
     },
     {
       "key": "typescript/decorators",

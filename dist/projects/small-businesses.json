@@ -2,9 +2,9 @@
   "slug": "small-businesses",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/02-small-businesses",
-  "version": "6.4.0",
-  "parserVersion": "5.0.0-alpha.5",
-  "createdAt": "2023-07-11T19:31:55.859Z",
+  "version": "6.4.1",
+  "parserVersion": "5.0.0-beta.0",
+  "createdAt": "2023-07-24T16:39:51.313Z",
   "prefix": 2,
   "track": "ux",
   "learningObjectives": [

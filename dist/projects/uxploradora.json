@@ -2,9 +2,9 @@
   "slug": "uxploradora",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/02-uxploradora",
-  "version": "6.4.0",
-  "parserVersion": "5.0.0-alpha.5",
-  "createdAt": "2023-07-11T19:31:55.807Z",
+  "version": "6.4.1",
+  "parserVersion": "5.0.0-beta.0",
+  "createdAt": "2023-07-24T16:39:53.953Z",
   "prefix": 2,
   "track": "ux",
   "learningObjectives": [

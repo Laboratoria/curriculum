@@ -2,9 +2,9 @@
   "slug": "interaction-design",
   "repo": "Laboratoria/bootcamp",
   "path": "topics/interaction-design",
-  "version": "6.4.0",
-  "parserVersion": "5.0.0-alpha.5",
-  "createdAt": "2023-07-11T19:31:59.320Z",
+  "version": "6.4.1",
+  "parserVersion": "5.0.0-beta.0",
+  "createdAt": "2023-07-24T16:40:13.541Z",
   "track": "ux",
   "intl": {
     "es": {
