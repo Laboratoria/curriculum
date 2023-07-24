@@ -23,7 +23,7 @@ propiedades:
 * `text`: Texto que aparecía dentro del link (`<a>`).
 * `file`: Ruta del archivo donde se encontró el link.
 
-OJO: _el valor anterior es el mismo que el del hito 1_
+Recuerda que el valor anterior es el mismo que el del hito 1
 
 **Valor que resuelve la promesa con validate = true:**
 Un arreglo con objetos que representan links. Cada objeto tiene las

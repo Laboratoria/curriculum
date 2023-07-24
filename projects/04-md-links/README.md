@@ -113,9 +113,10 @@ Para comenzar este proyecto tendrás que hacer un fork y clonar este repositorio
 
 * Para este proyecto **no está permitido** utilizar `async/await`.
 
-* Para este proyecto, te recomendamos utilizar los módulos CommonJS con
-  `require`,  que es el formato de módulos original de Node.js. Si prefieres
-  utilizar ES Modules `(import/export)`, puedes hacerlo, pero ten en cuenta que
+* Para este proyecto, hay que decidir si vas a utilizar los módulos CommonJS
+  o ES Modules. Los módulos CommonJS usan la síntaxis `require` y es el formato
+  de módulos original de Node.js. Si prefieres utilizar ES Modules
+  `(import/export)`, puedes hacerlo, pero ten en cuenta que
   deberás configurar adecuadamente tu proyecto para que Node.js pueda utilizar
   este formato. Puedes encontrar más información al respecto
   [aquí](https://nodejs.org/api/packages.html#determining-module-system). Además,
