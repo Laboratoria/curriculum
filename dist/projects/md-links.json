@@ -2,9 +2,9 @@
   "slug": "md-links",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/04-md-links",
-  "version": "6.4.1",
+  "version": "6.5.0",
   "parserVersion": "5.0.0-beta.0",
-  "createdAt": "2023-07-24T16:40:00.454Z",
+  "createdAt": "2023-07-26T20:09:24.901Z",
   "prefix": 4,
   "track": "web-dev",
   "learningObjectives": [
@@ -41,7 +41,7 @@
   "intl": {
     "es": {
       "title": "Markdown Links",
-      "summary": "<p>En este proyecto crearás una herramienta de línea de comando (CLI) así como tu\npropia librería (o biblioteca - library) en JavaScript.</p>"
+      "summary": "<p>En este proyecto desarrollarás una librería en Node.js que funcionará como\nherramienta para analizar links dentro de archivos Markdown. Esta librería\nestará disponible de dos formas: como un módulo publicado en GitHub, que las\nusuarias podrán instalar e importar en otros proyectos, y como una interfaz\nde línea de comandos (CLI) que permitirá utilizar la librería directamente\ndesde el terminal.</p>"
     },
     "pt": {
       "title": "Markdown Links",
