@@ -136,10 +136,6 @@ en una terminal, y debe contemplar los casos de uso para poder:
 
 ![file-folder-move](https://github.com/Laboratoria/bootcamp/assets/16993732/4b535772-c7ac-4f0c-b7f7-5be834dbfe30)
 
-#### Mover un directorio hacia un directorio
-
-![folder-folder-move](https://github.com/Laboratoria/bootcamp/assets/16993732/c88d01df-7f7d-4d96-ae85-d74b384831dd)
-
 ### Los objetivos generales de este proyecto son los siguientes
 
 * Desarrollar una librería con Node.js
@@ -229,6 +225,12 @@ debe incluir **un ejecutable** para ser utilizado desde la terminal.
 Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
 con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
 profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
+
+* Puedes agregar un caso de uso extra que no mencionamos anteriormente, y es
+  el de poder **mover** un directorio completo (incluyendo sub-directorios y
+  sus contenidos) hacia un directorio de destino
+
+  ![folder-folder-move](https://github.com/Laboratoria/bootcamp/assets/16993732/c88d01df-7f7d-4d96-ae85-d74b384831dd)
 
 * Puedes intentar agregarle a tu aplicación la opción de tomar un conjunto de
   archivos siguiendo un patrón utilizando un wildcard (`*`).
@@ -379,7 +381,7 @@ que no encuentres problemas más adelante.
 Como primer reto, puedes tratar de leer un solo directorio con
 una ruta fija e imprimir su contenido en la consola con un `console.log`.
 
-La librería nativa `FS` (FileSystem) te será de mucha utilidad.
+La librería nativa `fs` (FileSystem) te será de mucha utilidad.
 
 ### Averigua si un elemento contenido es un directorio o un archivo
 
