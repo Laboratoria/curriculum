@@ -36,10 +36,10 @@ ya sea tu máquina o un servidor, lo cual nos abre las puertas para poder
 interactuar con el sistema en sí, archivos, redes, procesos del sistema, etc.
 
 [Node.js](https://nodejs.org/es/) proporciona una serie de módulos y funciones
-integradas que facilitan la manipulación del sistema de archivos. Con la ayuda
-de [Node.js](https://nodejs.org/es/), podemos realizar tareas como leer,
+integradas que facilitan la manipulación del sistema de archivos. Con su ayuda,
+podemos realizar tareas como leer,
 escribir, actualizar y eliminar archivos de manera sencilla. Esto se logra
-mediante el uso del módulo 'fs' (filesystem), el cual nos brinda una amplia
+mediante el uso del módulo `fs` (filesystem), el cual nos brinda una amplia
 gama de métodos para interactuar con el sistema de archivos del sistema
 operativo. Podemos abrir archivos, leer su contenido, escribir datos en
 ellos, crear directorios, eliminar archivos y directorios, entre muchas
@@ -47,9 +47,9 @@ otras operaciones. [Node.js](https://nodejs.org/es/) nos permite trabajar
 de forma asíncrona, lo que significa que podemos realizar operaciones de
 lectura y escritura sin bloquear la ejecución de otras tareas, lo que
 resulta en un rendimiento eficiente y una manipulación ágil del sistema
-de archivos. Además, [Node.js](https://nodejs.org/es/) también ofrece
-módulos adicionales, como 'path', que nos ayuda a trabajar con rutas de
-archivos y directorios de manera consistente y portátil.
+de archivos. Además, también ofrece módulos adicionales, como `path`,
+que nos ayuda a trabajar con rutas de archivos y directorios de manera
+consistente y portátil.
 
 ![copy-or-move](https://user-images.githubusercontent.com/12631491/234972777-fe2c40aa-a989-40c5-ad30-ce94f58386d8.png)
 
@@ -238,6 +238,7 @@ profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
   
   O también:
   `$ copy-or-move "*.js" ./Proyectos/`
+  
 * Puedes agregar más opciones aparte de `-c`, por ejemplo una opción `-n` que
   le haga saber a tu programa que no es necesario sobreescribir un archivo
   en el directorio de destino si este ya existe ahí.
