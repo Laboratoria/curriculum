@@ -4,31 +4,26 @@ learningObjectives:
   - css/selectors
   - css/box-model
   - css/flexbox
-  - browser/dom/selectors
-  - browser/dom/events
-  - browser/dom/manipulation
-  - browser/fetch
-  - js/data-types/primitive-vs-non-primitive
-  - js/data-types/arrays
-  - js/data-types/objects
-  - js/variables
-  - js/conditionals
-  - js/loops
-  - js/functions
+  - css/grid
+  - css/media-queries
   - js/testing/unit
+  - js/testing/async
+  - js/testing/mocks
   - js/modules/es-modules
   - js/linting
   - js/semantics
-  - js/expression-vs-statement
   - scm/git/setup
   - scm/git/intro
   - scm/git/integration
   - scm/github/setup
   - scm/github/gh-pages
   - scm/github/collaboration
+  - scm/github/project-management
   - http
   - angular
   - react
+  - vue
+  - typescript
   - user-centricity/centricity
   - product-design/interactivity
   - product-design/visual-design
