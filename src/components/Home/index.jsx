@@ -7,7 +7,7 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import { setPage } from '@laboratoria/react';
 
-const version = process.env.REACT_APP_VERSION;
+const version = import.meta.env.REACT_APP_VERSION;
 const isPrerelease = /(alpha|beta)/.test(version);
 
 const Home = () => {

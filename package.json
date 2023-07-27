@@ -31,6 +31,7 @@
     "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject",
+    "dev": "vite --host",
     "link-parser": "rm -rf node_modules/@laboratoria/curriculum-parser && ln -s ../../../curriculum-parser node_modules/@laboratoria/",
     "link-react": "rm -rf node_modules/@laboratoria/react && ln -s ../../../react node_modules/@laboratoria/"
   },
@@ -44,6 +45,7 @@
     "@testing-library/jest-dom": "^6.1.2",
     "@testing-library/react": "^12.1.5",
     "@testing-library/user-event": "^13.5.0",
+    "@vitejs/plugin-react": "^4.0.3",
     "highlight.js": "^11.8.0",
     "react": "^17.0.2",
     "react-ace": "^10.1.0",
@@ -51,6 +53,7 @@
     "react-intl": "^6.4.4",
     "react-router-dom": "^6.15.0",
     "react-scripts": "^5.0.1",
+    "vite": "^4.4.7",
     "web-vitals": "^3.4.0"
   },
   "devDependencies": {

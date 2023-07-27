@@ -15,7 +15,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import PeopleIcon from '@mui/icons-material/People';
 import laboratoriaIcon from '@laboratoria/react/dist/icons/laboratoria-isotipo.svg';
 
-const version = process.env.REACT_APP_VERSION;
+const version = import.meta.env.REACT_APP_VERSION;
 const isPrerelease = /(alpha|beta)/.test(version);
 
 const DrawerMenu = ({ lang }) => {
