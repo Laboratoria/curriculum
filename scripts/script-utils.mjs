@@ -7,7 +7,7 @@ export const supportedLocales = ['es', 'pt'];
 export const getFilesWithLocales = (dir, locales) => {
   const dirents = readdirSync(dir, { withFileTypes: true });
   const filesWithExt = dirents.reduce((accumFiles, dirent) => {
-    const fullPath = path.join(dir, dirent.name);
+    const fullPath = path.resolve(dir, dirent.name);
     dirent.isDirectory() ? accumFiles.push(...getFilesWithLocales(fullPath, locales)) : accumFiles.push(fullPath); 
     return accumFiles;
   }, []);

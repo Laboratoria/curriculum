@@ -83,9 +83,7 @@ const copy = async (src, repoDir, opts) => {
   // rename / replace default files with localized content
   if (opts.locale && opts.locale !== defaultLocale) {
     const files = getFilesWithLocales(repoDir, [ opts.locale ]);
-    await Promise.all(files.map(
-      (filepath) => rename(`${repoDir}/${filepath}`, `${repoDir}/${filepath.replace(`.${opts.locale}`, '')}`))
-    );
+    await Promise.all(files.map(filepath => rename(`${filepath}`, `${filepath.replace(`.${opts.locale}`, '')}`)));
   }
 
   const files = getFilesWithLocales(repoDir, supportedLocales.filter((loc) => loc !== (opts.locale || defaultLocale)));
