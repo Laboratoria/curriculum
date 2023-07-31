@@ -2,9 +2,9 @@
   "slug": "memory-match",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/02-memory-match",
-  "version": "6.5.0",
+  "version": "6.5.1",
   "parserVersion": "5.0.0-beta.0",
-  "createdAt": "2023-07-26T20:09:18.913Z",
+  "createdAt": "2023-07-31T18:25:56.247Z",
   "prefix": 2,
   "track": "web-dev",
   "learningObjectives": [
