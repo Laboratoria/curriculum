@@ -141,9 +141,8 @@ en una terminal, y debe contemplar los casos de uso para poder:
 * Desarrollar una librería con Node.js
 * Trabajar con el sistema de archivos del computador
 * Trabajar con asincronía en JavaScript
-* Trabajar utilizando recursividad
 * Crear una suite de pruebas unitarias que permitan testear código asíncrono
-* Publicar tu librería en NPM
+* Publicar tu librería para ser instalada usando NPM
 
 ## 3. Objetivos de aprendizaje
 
@@ -163,7 +162,9 @@ en una terminal, y debe contemplar los casos de uso para poder:
 
 * La **librería** como **script ejecutable** (herramienta de línea de comando -
   CLI - terminal) debe estar implementada en JavaScript para ser ejecutados con
-  Node.js. **Está permitido usar librerías externas**.
+  Node.js. **Está permitido usar librerías externas** siempre y cuando no sean
+  librerías que resuelvan justamente los requerimientos del proyecto que estamos
+  intentando resolver.
 
 * Tu módulo **debe ser instalable** via
   `npm install <github-user>/copy-or-move`. Este módulo debe incluir el
@@ -178,10 +179,6 @@ en una terminal, y debe contemplar los casos de uso para poder:
 * Para este proyecto te sugerimos **no utilizar** ninguna función síncrona
   como `copyFileSync`, `renameSync` o `mkdirSync`, y en cambio intentar
   resolver este desafío de manera asíncrona.
-
-* Cómo excepcion a la recomendación anterior, te recomendamos utilizar
-  la versión síncrona de la función para leer directorios, `readdirSync`,
-  para disminuir la complejidad de tu algoritmo recursivo.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
@@ -231,6 +228,16 @@ profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
   sus contenidos) hacia un directorio de destino
 
   ![folder-folder-move](https://github.com/Laboratoria/bootcamp/assets/16993732/c88d01df-7f7d-4d96-ae85-d74b384831dd)
+
+  Para este reto, recomendamos trabajar utilizando
+  [recursividad](https://curriculum.laboratoria.la/es/topics/functional/flow-control/recursion)
+  ya que, de antemano, no sabemos cuántos sub-directorios con archivos puede
+  contener el directorio recibido como input, y se hace natural intentar
+  resolver este problema utilizando esta estrategia.
+
+  Cómo excepcion a una recomendación anterior, para disminuir la complejidad
+  de tu algoritmo recursivo, te recomendamos utilizar, sólo en este caso,
+  la versión síncrona de la función para leer directorios, `readdirSync`.
 
 * Puedes intentar agregarle a tu aplicación la opción de tomar un conjunto de
   archivos siguiendo un patrón utilizando un wildcard (`*`).
@@ -417,4 +424,5 @@ Si recibes una ruta de carpeta, no sabrás de ante mano si
 dentro hay más carpetas o muchos archivos.
 
 Por ello, asegurate bien de entender de qué trata la
-recursividad y ver algunos ejemplos.
+recursividad y ver algunos ejemplos antes de intentar escribir
+tu algoritmo de manera recursiva.
