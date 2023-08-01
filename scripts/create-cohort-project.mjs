@@ -167,9 +167,9 @@ const addLocalizedLearningObjectives = async (repoDir, opts, meta) => {
   const readmePath = path.join(repoDir, 'README.md');
   const contents = (await readFile(readmePath, 'utf8')).split('\n');
   const startIndex = contents.findIndex(
-    line => /^## \d\. Objetivos de aprendiza(je|gem)/i.test(line),
+    line => /^## \d+\. Objetivos de aprendiza(je|gem)/i.test(line),
   );
-
+    
   if (startIndex < 0) {
     throw new Error('README.md is missing Learning Objectives heading');
   }
