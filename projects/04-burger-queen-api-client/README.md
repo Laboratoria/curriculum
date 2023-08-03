@@ -118,17 +118,19 @@ a un _pedido_, la interfaz debe actualizar la lista del pedido y el total).
 ## 4. Consideraciones
 
 Este proyecto se debe "resolver" en duplas y para trabajar con el backend
-te sugerimos elegir un metodo entre las siguientes opciones:
+te sugerimos elegir un método entre las siguientes opciones:
 
 1. Usando una mock API. Puedes crear tu propia mock API con las herramientas
   [json-server](https://www.npmjs.com/package/json-server) y
   [json-server-auth](https://www.npmjs.com/package/json-server-auth)
   o puedes hacer fork y clonar
-  [este repo de una mock API](https://github.com/Laboratoria/burger-queen-api-mock).
+  [este repo de una mock API](https://github.com/Laboratoria/burger-queen-api-mock)
+  que hemos desarrollado. El mock API debería comportar como definimos
+  [en la documentación.](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 
 2. Consumiendo una API desplegada. Puedes usar una que desarrollarán tus
-  compañeras o puedes usar
-  [esta API que hemos desarrollado](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0).
+  compañeras con su proyecto Burger Queen API, o pueden desplegar tu mock API.
+  Aquí es [un ejemplo con Vercel.](https://medium.com/@phillipnzaujunior/unleashing-the-power-of-mock-apis-deploying-your-fake-rest-api-to-vercel-d1cbd95b4452)
 
 Puedes empezar usando una mock API y en cualquier momento del proyecto
 pasarte a la API desplegada. Esta situación suele ocurrir en Desarrollo Web
