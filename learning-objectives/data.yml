@@ -310,7 +310,7 @@ planning:
   - prioritization
   - tools
 
-# Current OAs since UXD006
+# New OAs since UXD006
 agile-planning:
   - scope #UXD-OA01
   - workplan #UXD-OA02
@@ -366,18 +366,20 @@ design-prototype:
   - highFidelity #UXD-OA32
   - advancedInteractions #UXD-OA33
 
-design-validation:
+usability-analysis:
   - moderatedTesting #UXD-OA34
   - heuristicAnalysis #UXD-OA35
   - nonModeratedTesting #UXD-OA36
 
-design-documentation:
-  - fileOrganization #UXD-OA37
-  - handoverDocumentation #UXD-OA38
-  - atomicDesign #UXD-OA39
-  - designSystem #UXD-OA40
+design-pitch:
+  - designFeedback #UXD-OA37
+  - designPresentation #UXD-OA38
 
-design-presentation:
-  - designFeedback #UXD-OA41
-  - designPitch #UXD-OA42
-  - designProcess #UXD-OA43
+design-specs:
+  - fileOrganization #UXD-OA39
+  - useCases #UXD-OA40
+  - projectDocumentation #UXD-OA41
+
+design-systems:
+  - atomicDesign #UXD-OA42
+  - designSystem #UXD-OA43

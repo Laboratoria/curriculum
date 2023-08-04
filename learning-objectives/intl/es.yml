@@ -1240,7 +1240,7 @@ planning/prioritization:
 planning/tools:
   title: Elegir las herramientas y métodos a utilizar de acuerdo a las necesidades  del proyecto
 
-# Current OAs since UXD006
+# New OAs since UXD006
 #--- skill Project framing
 agile-planning/scope:
   #id: UXD-OA01
@@ -1268,7 +1268,7 @@ business-understandig/benchmark:
   title: Analizar competidores
   description: Analizar el negocio o producto respecto a sus competidores locales y globales
 
-#--- skill Problem framing
+#--- skill User research
 research-planning/researchPlan:
   #id: UXD-OA07
   title: Definir la investigación
@@ -1321,7 +1321,7 @@ research-analysis/synthesizeResults:
   title: Sintetizar resultados
   description: Delimitar el problema o necesidad de las personas usuarias que debe resolver el proyecto
 
-#--- skill Solution framing
+#--- skill Solution design
 design-concept/defineMVP:
   #id: UXD-OA19
   title: Definir MVP
@@ -1388,46 +1388,47 @@ design-prototype/advancedInteractions:
   title: Utilizar interacciones avanzadas
   description: Incluir interacciones avanzadas en los prototipos según sea necesario
 
-design-validation/moderatedTesting:
+usability-analysis/moderatedTesting:
   #id: UXD-OA34
   title: Realizar pruebas moderadas
   description: Identificar errores de usabilidad mediante pruebas moderadas utilizando prototipos
-design-validation/heuristicAnalysis:
+usability-analysis/heuristicAnalysis:
   #id: UXD-OA35
   title: Realizar análisis heurísticos
   description: Realizar análisis heurísticos de diseños propuestos o existentes
-design-validation/nonModeratedTesting:
+usability-analysis/nonModeratedTesting:
   #id: UXD-OA36
   title: Realizar pruebas no-moderadas
   description: Utilizar herramientas para pruebas de usabilidad no-moderadas
 
-#--- skill TBD
-design-documentation/fileOrganization:
+design-pitch/designFeedback:
   #id: UXD-OA37
-  title: Organizar documentos de Figma
-  description: Organizar el documento de diseño (Figma) siguiendo buenas prácticas de nombrado y agrupado de capas o componentes
-design-documentation/handoverDocumentation:
-  #id: UXD-OA38
-  title: Documentar para diseño y software
-  description: Documentar los estados de los componentes interactivos y sus casos de uso
-design-documentation/atomicDesign:
-  #id: UXD-OA39
-  title: Implementar Atomic Design
-  description: Crear una librería de componentes (UI Kit) siguiendo los principios de Atomic Design
-design-documentation/designSystem:
-  #id: UXD-OA40
-  title: Utilizar sistemas de diseño
-  description: Utilizar un sistema de diseño existente como base para la propuesta de diseño
-
-design-presentation/designFeedback:
-  #id: UXD-OA41
   title: Recolectar feedback de diseño
   description: Recolectar feedback técnico de diseño mediante sesiones de crítica colaborativa (Design Critiques, Demos con POs, etc.)
-design-presentation/designPitch:
-  #id: UXD-OA42
-  title: Comunicar diseño al negocio
+design-pitch/designPresentation:
+  #id: UXD-OA38
+  title: Presentar ante el negocio
   description: Presentar resultados de investigación, propuestas y proceso de diseño utilizando principios de "story-telling"
-design-presentation/designProcess:
-  #id: UXD-OA43
+
+#--- skill Technical documentation
+design-specs/fileOrganization:
+  #id: UXD-OA39
+  title: Organizar documentos de Figma
+  description: Organizar el documento de diseño (Figma) siguiendo buenas prácticas de nombrado y agrupado de capas o componentes
+design-specs/useCases:
+  #id: UXD-OA40
+  title: Documentar casos de uso
+  description: Documentar los estados de los componentes interactivos y sus casos de uso
+design-specs/projectDocumentation:
+  #id: UXD-OA41
   title: Documentar el proyecto de diseño
   description: Documentar el proceso de diseño para fundamentar las decisiones tomadas durante el proyecto
+
+design-systems/atomicDesign:
+  #id: UXD-OA42
+  title: Implementar Atomic Design
+  description: Crear una librería de componentes (UI Kit) siguiendo los principios de Atomic Design
+design-systems/designSystem:
+  #id: UXD-OA43
+  title: Utilizar sistemas de diseño
+  description: Utilizar un sistema de diseño existente como base para la propuesta de diseño

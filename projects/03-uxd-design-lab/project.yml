@@ -33,26 +33,23 @@ learningObjectives:
   - interaction-design/usability
   - interaction-design/informationArchitecture
 
-  # - content-design/voiceTone
   - content-design/createContent
 
   - interface-design/visualDesign
   - interface-design/accesibility
-  # - interface-design/responsiveDesign
 
   - design-prototype/basicPrototypes
   - design-prototype/highFidelity
-  # - design-prototype/advancedInteractions
 
   - design-validation/moderatedTesting
   - design-validation/heuristicAnalysis
-  #- design-validation/nonModeratedTesting
 
-  - design-documentation/fileOrganization
-  - design-documentation/handoverDocumentation
-  - design-documentation/atomicDesign
-  - design-documentation/designSystem
+  - design-pitch/designFeedback
+  - design-pitch/designPresentation
 
-  - design-presentation/designFeedback
-  - design-presentation/designPitch
-  - design-presentation/designProcess
+  - design-specs/fileOrganization
+  - design-specs/useCases
+  - design-specs/projectDocumentation
+
+  - design-systems/atomicDesign
+  - design-systems/designSystem
