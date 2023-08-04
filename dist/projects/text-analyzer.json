@@ -2,9 +2,9 @@
   "slug": "text-analyzer",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/01-text-analyzer",
-  "version": "6.4.1",
+  "version": "6.5.1",
   "parserVersion": "5.0.0-beta.0",
-  "createdAt": "2023-07-24T16:39:48.407Z",
+  "createdAt": "2023-07-31T18:25:52.775Z",
   "prefix": 1,
   "track": "web-dev",
   "learningObjectives": [

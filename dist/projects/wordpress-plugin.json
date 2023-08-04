@@ -2,9 +2,9 @@
   "slug": "wordpress-plugin",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/05-wordpress-plugin",
-  "version": "6.4.1",
+  "version": "6.5.1",
   "parserVersion": "5.0.0-beta.0",
-  "createdAt": "2023-07-24T16:40:07.640Z",
+  "createdAt": "2023-07-31T18:26:23.155Z",
   "prefix": 5,
   "track": "web-dev",
   "learningObjectives": [
