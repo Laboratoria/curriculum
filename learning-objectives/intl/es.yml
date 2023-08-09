@@ -1,6 +1,7 @@
 # Párrafo que aparece en el README en la sección de Objetivos de aprendizaje
 # de cada proyecto.
 description: >
+
   Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en
   tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
 
@@ -14,6 +15,7 @@ html:
 html/semantics:
   title: Uso de HTML semántico
   description: ""
+
   links:
     - title: HTML semántico
       url: topics/html/02-html5/02-semantic-html
@@ -1108,7 +1110,6 @@ typescript/basic-types/strictness:
     - title: Documentación oficial de Typescript
       url: https://www.typescriptlang.org/tsconfig#Type_Checking_6248
 
-
 typescript/basic-types/primitives:
   title: Tipos primitivos
   links:
@@ -1238,3 +1239,181 @@ typescript/decorators:
   links:
     - title: Documentación oficial de Typescript
       url: https://www.typescriptlang.org/docs/handbook/decorators.html
+
+# New OAs since UXD006
+#--- skill Project framing
+agile-planning/scope:
+  title: Definir alcance general
+  description: Definir un alcance preliminar del proyecto en conjunto con los stakeholders involucrados
+
+agile-planning/workplan:
+  title: Crear plan de trabajo
+  description: Crear un plan de trabajo con actividades priorizadas según cada etapa del proyecto
+
+agile-planning/tasks:
+  title: Gestionar tareas
+  description: Gestionar tareas mediante la implementación de ceremonias y herramientas de Scrum
+
+business-understandig/business-model:
+  title: Comprender el modelo de negocio
+  description: Entender cómo genera valor el negocio y la visión de quienes lideran el proyecto
+
+business-understandig/goals-and-kpis:
+  title: Comprender objetivos e indicadores clave
+  description: Comprender los objetivos del negocio y los indicadores de éxito relacionados con el proyecto
+
+business-understandig/benchmark:
+  title: Analizar competidores
+  description: Analizar el negocio o producto respecto a sus competidores locales y globales
+
+#--- skill User research
+research/planning/research-plan:
+  title: Definir la investigación
+  description: Planificar la investigación basada en el contexto y objetivos del proyecto
+
+research/planning/desk-research:
+  title: Analizar información existente
+  description: Analizar información existente que sirva de guía para plantear la investigación con usuarios
+
+research/planning/research-sample:
+  title: Definir muestra
+  description: Definir el perfil y número de usuarios (muestra) que participan en la investigación
+
+research/planning/participants:
+  title: Gestionar participantes
+  description: Gestionar la participación de los usuarios en las actividades de investigación
+
+research/qualitative/user-interviews:
+  title: Realizar entrevistas
+  description: Crear guión de entrevista, validar las preguntas y entrevistar evitando sesgos
+
+research/qualitative/exploratory-techniques:
+  title: Explorar técnicas cualitativas
+  description: Explorar otras técnicas de investigación cualitativa según el contexto del proyecto (card sorting abierto, estudios de campo, etc.)
+
+research/quantitative/user-surveys:
+  title: Realizar encuestas
+  description: Crear encuesta, testear e iterar las preguntas, implementar la encuesta efectivamente
+
+research/quantitative/analytical-techniques:
+  title: Explorar técnicas analíticas
+  description: Explorar herramientas de monitoreo de acciones de usuarios (mapa de calor, analytics, card sorting cerrado, etc.)
+
+research/analysis/process-information:
+  title: Procesar información
+  description: Procesar a profundidad la información obtenida evitando sesgos
+
+research/analysis/experience-mapping:
+  title: Mapear la experiencia
+  description: Visualizar la información obtenida de los usuarios mediante alguna técnica de documentación UX
+
+research/analysis/identify-patterns:
+  title: Identificar patrones
+  description: Identificar patrones, observaciones o hallazgos en la información recolectada
+
+research/analysis/synthesize-results:
+  title: Sintetizar resultados
+  description: Delimitar el problema o necesidad de las personas usuarias que debe resolver el proyecto
+
+#--- skill Solution design
+design-concept/define-mvp:
+  title: Definir MVP
+  description: Definir las funcionalidades que debe incluir el Mínimo Producto Viable/Deseable (MVP)
+
+design-concept/design-references:
+  title: Buscar inspiración
+  description: Analizar distintas referencias y fuentes de inspiración para el proyecto
+
+design-concept/ideate:
+  title: Idear soluciones
+  description: Implementar métodos de ideación para proponer soluciones al problema priorizado
+
+design-concept/prioritize-ideas:
+  title: Priorizar ideas
+  description: Definir criterios de priorización de ideas, alineados con los objetivos del proyecto y necesidades de las personas usuarias
+
+interaction-design/user-flows:
+  title: Crear flujos de usuario
+  description: Crear y visualizar los flujos de interacción de la propuesta (diagramas, wireframes, bocetos)
+
+interaction-design/usability:
+  title: Utilizar principios de usabilidad
+  description: Incorporar principios básicos de usabilidad dentro de la propuesta (claro, predecible y consistente)
+
+interaction-design/information-architecture:
+  title: Crear la arquitectura de información
+  description: Implementar principios básicos de arquitectura de información (categorías, etiquetas, navegación y búsqueda)
+
+content-design/voice-tone:
+  title: Definir guía de voz y tono
+  description: Crear una guía básica de voz y tono para contenido UX
+
+content-design/create-content:
+  title: Crear contenidos
+  description: Definir el contenido (texto e imágenes) que debe incluir la propuesta de diseño
+
+interface-design/visual-design:
+  title: Crear propuesta de diseño visual
+  description: Definir las características de los elementos visuales del diseño (colores, tipografías, íconos, imágenes, espaciado)
+
+interface-design/accesibility:
+  title: Utilizar principios de accesibilidad
+  description: Asegurar que la propuesta cumpla con principios básicos de accesibilidad (perceptibilidad y operabilidad)
+
+interface-design/responsive-design:
+  title: Implementar diseño responsivo
+  description: Crear diseños que se adapten a diferentes dispositivos utilizando principios de responsive design
+
+#--- skill Proposal validation
+design-prototype/basic-prototypes:
+  title: Crear prototipos básicos
+  description: Crear prototipos navegables en baja o media fidelidad que representen los flujos funcionales
+
+design-prototype/high-fidelity:
+  title: Crear prototipos en alta fidelidad
+  description: Crear prototipos navegables en alta fidelidad que simulen la solución
+
+design-prototype/advanced-interactions:
+  title: Utilizar interacciones avanzadas
+  description: Incluir interacciones avanzadas en los prototipos según sea necesario
+
+usability-analysis/moderated-testing:
+  title: Realizar pruebas moderadas
+  description: Identificar errores de usabilidad mediante pruebas moderadas utilizando prototipos
+
+usability-analysis/heuristic-analysis:
+  title: Realizar análisis heurísticos
+  description: Realizar análisis heurísticos de diseños propuestos o existentes
+
+usability-analysis/non-moderated-testing:
+  title: Realizar pruebas no-moderadas
+  description: Utilizar herramientas para pruebas de usabilidad no-moderadas
+
+design-pitch/design-feedback:
+  title: Recolectar feedback de diseño
+  description: Recolectar feedback técnico de diseño mediante sesiones de crítica colaborativa (Design Critiques, Demos con POs, etc.)
+
+design-pitch/design-presentation:
+  title: Presentar ante el negocio
+  description: Presentar resultados de investigación, propuestas y proceso de diseño utilizando principios de "story-telling"
+
+#--- skill Technical documentation
+design-specs/file-organization:
+  title: Organizar documentos de Figma
+  description: Organizar el documento de diseño (Figma) siguiendo buenas prácticas de nombrado y agrupado de capas o componentes
+
+design-specs/use-cases:
+  title: Documentar casos de uso
+  description: Documentar los estados de los componentes interactivos y sus casos de uso
+
+design-specs/project-documentation:
+  title: Documentar el proyecto de diseño
+  description: Documentar el proceso de diseño para fundamentar las decisiones tomadas durante el proyecto
+
+design-systems/atomic-design:
+  title: Implementar Atomic Design
+  description: Crear una librería de componentes (UI Kit) siguiendo los principios de Atomic Design
+
+design-systems/design-system:
+  title: Utilizar sistemas de diseño
+  description: Utilizar un sistema de diseño existente como base para la propuesta de diseño

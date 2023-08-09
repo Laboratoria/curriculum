@@ -1,0 +1,36 @@
+track: ux
+learningObjectives:
+  - agile-planning/workplan
+  - agile-planning/tasks
+  - business-understandig/business-model
+  - business-understandig/goals-and-kpis
+  - business-understandig/benchmark
+  - research/planning/research-plan
+  - research/planning/desk-research
+  - research/planning/research-sample
+  - research/planning/participants
+  - research/qualitative/user-interviews
+  - research/analysis/process-information
+  - research/analysis/experience-mapping
+  - research/analysis/identify-patterns
+  - research/analysis/synthesize-results
+  - design-concept/define-mvp
+  - design-concept/design-references
+  - design-concept/ideate
+  - design-concept/prioritize-ideas
+  - interaction-design/user-flows
+  - interaction-design/usability
+  - interaction-design/information-architecture
+  - content-design/create-content
+  - interface-design/visual-design
+  - interface-design/accesibility
+  - design-prototype/basic-prototypes
+  - design-prototype/high-fidelity
+  - usability-analysis/moderated-testing
+  - usability-analysis/heuristic-analysis
+  - design-pitch/design-feedback
+  - design-pitch/design-presentation
+  - design-specs/file-organization
+  - design-specs/use-cases
+  - design-specs/project-documentation
+  - design-systems/atomic-design
