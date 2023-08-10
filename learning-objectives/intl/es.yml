@@ -1254,15 +1254,15 @@ agile-planning/tasks:
   title: Gestionar tareas
   description: Gestionar tareas mediante la implementación de ceremonias y herramientas de Scrum
 
-business-understandig/business-model:
+business-understanding/business-model:
   title: Comprender el modelo de negocio
   description: Entender cómo genera valor el negocio y la visión de quienes lideran el proyecto
 
-business-understandig/goals-and-kpis:
+business-understanding/goals-and-kpis:
   title: Comprender objetivos e indicadores clave
   description: Comprender los objetivos del negocio y los indicadores de éxito relacionados con el proyecto
 
-business-understandig/benchmark:
+business-understanding/benchmark:
   title: Analizar competidores
   description: Analizar el negocio o producto respecto a sus competidores locales y globales
 

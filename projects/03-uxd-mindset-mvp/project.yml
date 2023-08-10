@@ -2,9 +2,9 @@ track: ux
 learningObjectives:
   - agile-planning/workplan
   - agile-planning/tasks
-  - business-understandig/business-model
-  - business-understandig/goals-and-kpis
-  - business-understandig/benchmark
+  - business-understanding/business-model
+  - business-understanding/goals-and-kpis
+  - business-understanding/benchmark
   - research/planning/research-plan
   - research/planning/desk-research
   - research/planning/research-sample
