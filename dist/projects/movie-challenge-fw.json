@@ -2,9 +2,9 @@
   "slug": "movie-challenge-fw",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/05-movie-challenge-fw",
-  "version": "6.5.1",
+  "version": "6.6.0",
   "parserVersion": "5.0.0-beta.0",
-  "createdAt": "2023-07-31T18:26:14.325Z",
+  "createdAt": "2023-08-10T20:09:27.980Z",
   "prefix": 5,
   "track": "web-dev",
   "learningObjectives": [
