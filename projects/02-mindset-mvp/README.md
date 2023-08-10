@@ -1,17 +1,20 @@
-# Industry deep dive
+# Mindset MVP
 
 ## Índice
 
-* [1. Resumen del proyecto](#2-resumen-del-proyecto)
+* [1. Resumen del proyecto](#1-resumen-del-proyecto)
 * [2. Objetivos de aprendizaje](#2-objetivos-de-aprendizaje)
 
 ***
 
 ## 1. Resumen del proyecto
 
-Podrás elegir entre resolver un reto de uno de los sectores que más perfiles de
-UX contrata o de un sector innovador donde el rol de UX se está volviendo cada
-vez más importante.
+Trabajarás con tu squad haciendo consultoría UX a una startup. En este proyecto
+liderarán el 100% de los espacios con clientes (workshops, weeklys,
+comunicación, entregables, etc). Este proyecto es abierto y podrá incluir
+trabajo con otros perfiles como desarrolladoras, product managers, etc.
+Anteriores retos han incluido empresas como Kmimos, Guvery, Sinenvolturas,
+Magical Startups, Laboratoria, entre otras.
 
 ## 2. Objetivos de aprendizaje
 
