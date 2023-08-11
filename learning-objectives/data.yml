@@ -58,6 +58,48 @@ js:
     # - async/await
     # - streams
 
+java:
+  - data-types:
+      - primitive
+      - primitive-vs-non-primitive
+      - strings
+      - arrays
+      - void
+      - enums
+      - date
+  - access-modifiers:
+      - private
+      - protected
+      - public 
+  - object-oriented:
+      - classes-and-objects:
+        - classes
+        - objects
+        - methods
+        - attributes
+        - constructors
+        - encapsulation
+      - abstraction
+      - interface
+      - polimorphism
+      - inherit:
+        - superclass
+        - extends
+        - override
+  - variables
+  - conditionals
+  - loops
+  - lambda
+  - optional
+  - stream
+  - collections:
+    - arraylist
+    - linkedlist
+    - hashset
+    - hashmap
+  - exceptions
+  - recursion
+
 scm:
   - git:
       - setup
