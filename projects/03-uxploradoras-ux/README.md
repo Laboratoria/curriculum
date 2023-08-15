@@ -1,4 +1,4 @@
-# UXploradoras
+# UXploradoras en el laberinto UX
 
 ## Índice
 

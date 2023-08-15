@@ -91,17 +91,6 @@
       "metrics",
       "benchmark"
     ],
-    "research": [
-      "planning",
-      "support",
-      "guidelines",
-      "interview",
-      "documentation",
-      "adaptation",
-      "sources",
-      "test",
-      "cuantitative-data"
-    ],
     "synthesis": [
       "weighing",
       "patterns",
@@ -339,6 +328,97 @@
         ]
       },
       "decorators"
+    ],
+    "agile-planning": [
+      "scope",
+      "workplan",
+      "tasks"
+    ],
+    "business-understanding": [
+      "business-model",
+      "goals-and-kpis",
+      "benchmark"
+    ],
+    "research": [
+      "support",
+      "guidelines",
+      "interview",
+      "documentation",
+      "adaptation",
+      "sources",
+      "test",
+      "cuantitative-data",
+      {
+        "planning": [
+          "research-plan",
+          "desk-research",
+          "research-sample",
+          "participants"
+        ]
+      },
+      {
+        "qualitative": [
+          "user-interviews",
+          "exploratory-techniques"
+        ]
+      },
+      {
+        "quantitative": [
+          "user-surveys",
+          "analytical-techniques"
+        ]
+      },
+      {
+        "analysis": [
+          "process-information",
+          "experience-mapping",
+          "identify-patterns",
+          "synthesize-results"
+        ]
+      }
+    ],
+    "design-concept": [
+      "define-mvp",
+      "design-references",
+      "ideate",
+      "prioritize-ideas"
+    ],
+    "interaction-design": [
+      "user-flows",
+      "usability",
+      "information-architecture"
+    ],
+    "content-design": [
+      "voice-tone",
+      "create-content"
+    ],
+    "interface-design": [
+      "visual-design",
+      "accesibility",
+      "responsive-design"
+    ],
+    "design-prototype": [
+      "basic-prototypes",
+      "high-fidelity",
+      "advanced-interactions"
+    ],
+    "usability-analysis": [
+      "moderated-testing",
+      "heuristic-analysis",
+      "non-moderated-testing"
+    ],
+    "design-pitch": [
+      "design-feedback",
+      "design-presentation"
+    ],
+    "design-specs": [
+      "file-organization",
+      "use-cases",
+      "project-documentation"
+    ],
+    "design-systems": [
+      "atomic-design",
+      "design-system"
     ]
   },
   "flat": [
@@ -405,16 +485,6 @@
     "business/goals",
     "business/metrics",
     "business/benchmark",
-    "research",
-    "research/planning",
-    "research/support",
-    "research/guidelines",
-    "research/interview",
-    "research/documentation",
-    "research/adaptation",
-    "research/sources",
-    "research/test",
-    "research/cuantitative-data",
     "synthesis",
     "synthesis/weighing",
     "synthesis/patterns",
@@ -597,11 +667,78 @@
     "typescript/classes/static-members",
     "typescript/classes/this",
     "typescript/classes/abstract-classes",
-    "typescript/decorators"
+    "typescript/decorators",
+    "agile-planning",
+    "agile-planning/scope",
+    "agile-planning/workplan",
+    "agile-planning/tasks",
+    "business-understanding",
+    "business-understanding/business-model",
+    "business-understanding/goals-and-kpis",
+    "business-understanding/benchmark",
+    "research",
+    "research/support",
+    "research/guidelines",
+    "research/interview",
+    "research/documentation",
+    "research/adaptation",
+    "research/sources",
+    "research/test",
+    "research/cuantitative-data",
+    "research/planning",
+    "research/planning/research-plan",
+    "research/planning/desk-research",
+    "research/planning/research-sample",
+    "research/planning/participants",
+    "research/qualitative",
+    "research/qualitative/user-interviews",
+    "research/qualitative/exploratory-techniques",
+    "research/quantitative",
+    "research/quantitative/user-surveys",
+    "research/quantitative/analytical-techniques",
+    "research/analysis",
+    "research/analysis/process-information",
+    "research/analysis/experience-mapping",
+    "research/analysis/identify-patterns",
+    "research/analysis/synthesize-results",
+    "design-concept",
+    "design-concept/define-mvp",
+    "design-concept/design-references",
+    "design-concept/ideate",
+    "design-concept/prioritize-ideas",
+    "interaction-design",
+    "interaction-design/user-flows",
+    "interaction-design/usability",
+    "interaction-design/information-architecture",
+    "content-design",
+    "content-design/voice-tone",
+    "content-design/create-content",
+    "interface-design",
+    "interface-design/visual-design",
+    "interface-design/accesibility",
+    "interface-design/responsive-design",
+    "design-prototype",
+    "design-prototype/basic-prototypes",
+    "design-prototype/high-fidelity",
+    "design-prototype/advanced-interactions",
+    "usability-analysis",
+    "usability-analysis/moderated-testing",
+    "usability-analysis/heuristic-analysis",
+    "usability-analysis/non-moderated-testing",
+    "design-pitch",
+    "design-pitch/design-feedback",
+    "design-pitch/design-presentation",
+    "design-specs",
+    "design-specs/file-organization",
+    "design-specs/use-cases",
+    "design-specs/project-documentation",
+    "design-systems",
+    "design-systems/atomic-design",
+    "design-systems/design-system"
   ],
   "intl": {
     "es": {
-      "description": "Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.\n",
+      "description": "\nReflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.\n",
       "html": {
         "title": "HTML"
       },
@@ -2361,6 +2498,178 @@
             "url": "https://www.typescriptlang.org/docs/handbook/decorators.html"
           }
         ]
+      },
+      "agile-planning/scope": {
+        "title": "Definir alcance general",
+        "description": "Definir un alcance preliminar del proyecto en conjunto con los stakeholders involucrados"
+      },
+      "agile-planning/workplan": {
+        "title": "Crear plan de trabajo",
+        "description": "Crear un plan de trabajo con actividades priorizadas según cada etapa del proyecto"
+      },
+      "agile-planning/tasks": {
+        "title": "Gestionar tareas",
+        "description": "Gestionar tareas mediante la implementación de ceremonias y herramientas de Scrum"
+      },
+      "business-understanding/business-model": {
+        "title": "Comprender el modelo de negocio",
+        "description": "Entender cómo genera valor el negocio y la visión de quienes lideran el proyecto"
+      },
+      "business-understanding/goals-and-kpis": {
+        "title": "Comprender objetivos e indicadores clave",
+        "description": "Comprender los objetivos del negocio y los indicadores de éxito relacionados con el proyecto"
+      },
+      "business-understanding/benchmark": {
+        "title": "Analizar competidores",
+        "description": "Analizar el negocio o producto respecto a sus competidores locales y globales"
+      },
+      "research/planning/research-plan": {
+        "title": "Definir la investigación",
+        "description": "Planificar la investigación basada en el contexto y objetivos del proyecto"
+      },
+      "research/planning/desk-research": {
+        "title": "Analizar información existente",
+        "description": "Analizar información existente que sirva de guía para plantear la investigación con usuarios"
+      },
+      "research/planning/research-sample": {
+        "title": "Definir muestra",
+        "description": "Definir el perfil y número de usuarios (muestra) que participan en la investigación"
+      },
+      "research/planning/participants": {
+        "title": "Gestionar participantes",
+        "description": "Gestionar la participación de los usuarios en las actividades de investigación"
+      },
+      "research/qualitative/user-interviews": {
+        "title": "Realizar entrevistas",
+        "description": "Crear guión de entrevista, validar las preguntas y entrevistar evitando sesgos"
+      },
+      "research/qualitative/exploratory-techniques": {
+        "title": "Explorar técnicas cualitativas",
+        "description": "Explorar otras técnicas de investigación cualitativa según el contexto del proyecto (card sorting abierto, estudios de campo, etc.)"
+      },
+      "research/quantitative/user-surveys": {
+        "title": "Realizar encuestas",
+        "description": "Crear encuesta, testear e iterar las preguntas, implementar la encuesta efectivamente"
+      },
+      "research/quantitative/analytical-techniques": {
+        "title": "Explorar técnicas analíticas",
+        "description": "Explorar herramientas de monitoreo de acciones de usuarios (mapa de calor, analytics, card sorting cerrado, etc.)"
+      },
+      "research/analysis/process-information": {
+        "title": "Procesar información",
+        "description": "Procesar a profundidad la información obtenida evitando sesgos"
+      },
+      "research/analysis/experience-mapping": {
+        "title": "Mapear la experiencia",
+        "description": "Visualizar la información obtenida de los usuarios mediante alguna técnica de documentación UX"
+      },
+      "research/analysis/identify-patterns": {
+        "title": "Identificar patrones",
+        "description": "Identificar patrones, observaciones o hallazgos en la información recolectada"
+      },
+      "research/analysis/synthesize-results": {
+        "title": "Sintetizar resultados",
+        "description": "Delimitar el problema o necesidad de las personas usuarias que debe resolver el proyecto"
+      },
+      "design-concept/define-mvp": {
+        "title": "Definir MVP",
+        "description": "Definir las funcionalidades que debe incluir el Mínimo Producto Viable/Deseable (MVP)"
+      },
+      "design-concept/design-references": {
+        "title": "Buscar inspiración",
+        "description": "Analizar distintas referencias y fuentes de inspiración para el proyecto"
+      },
+      "design-concept/ideate": {
+        "title": "Idear soluciones",
+        "description": "Implementar métodos de ideación para proponer soluciones al problema priorizado"
+      },
+      "design-concept/prioritize-ideas": {
+        "title": "Priorizar ideas",
+        "description": "Definir criterios de priorización de ideas, alineados con los objetivos del proyecto y necesidades de las personas usuarias"
+      },
+      "interaction-design/user-flows": {
+        "title": "Crear flujos de usuario",
+        "description": "Crear y visualizar los flujos de interacción de la propuesta (diagramas, wireframes, bocetos)"
+      },
+      "interaction-design/usability": {
+        "title": "Utilizar principios de usabilidad",
+        "description": "Incorporar principios básicos de usabilidad dentro de la propuesta (claro, predecible y consistente)"
+      },
+      "interaction-design/information-architecture": {
+        "title": "Crear la arquitectura de información",
+        "description": "Implementar principios básicos de arquitectura de información (categorías, etiquetas, navegación y búsqueda)"
+      },
+      "content-design/voice-tone": {
+        "title": "Definir guía de voz y tono",
+        "description": "Crear una guía básica de voz y tono para contenido UX"
+      },
+      "content-design/create-content": {
+        "title": "Crear contenidos",
+        "description": "Definir el contenido (texto e imágenes) que debe incluir la propuesta de diseño"
+      },
+      "interface-design/visual-design": {
+        "title": "Crear propuesta de diseño visual",
+        "description": "Definir las características de los elementos visuales del diseño (colores, tipografías, íconos, imágenes, espaciado)"
+      },
+      "interface-design/accesibility": {
+        "title": "Utilizar principios de accesibilidad",
+        "description": "Asegurar que la propuesta cumpla con principios básicos de accesibilidad (perceptibilidad y operabilidad)"
+      },
+      "interface-design/responsive-design": {
+        "title": "Implementar diseño responsivo",
+        "description": "Crear diseños que se adapten a diferentes dispositivos utilizando principios de responsive design"
+      },
+      "design-prototype/basic-prototypes": {
+        "title": "Crear prototipos básicos",
+        "description": "Crear prototipos navegables en baja o media fidelidad que representen los flujos funcionales"
+      },
+      "design-prototype/high-fidelity": {
+        "title": "Crear prototipos en alta fidelidad",
+        "description": "Crear prototipos navegables en alta fidelidad que simulen la solución"
+      },
+      "design-prototype/advanced-interactions": {
+        "title": "Utilizar interacciones avanzadas",
+        "description": "Incluir interacciones avanzadas en los prototipos según sea necesario"
+      },
+      "usability-analysis/moderated-testing": {
+        "title": "Realizar pruebas moderadas",
+        "description": "Identificar errores de usabilidad mediante pruebas moderadas utilizando prototipos"
+      },
+      "usability-analysis/heuristic-analysis": {
+        "title": "Realizar análisis heurísticos",
+        "description": "Realizar análisis heurísticos de diseños propuestos o existentes"
+      },
+      "usability-analysis/non-moderated-testing": {
+        "title": "Realizar pruebas no-moderadas",
+        "description": "Utilizar herramientas para pruebas de usabilidad no-moderadas"
+      },
+      "design-pitch/design-feedback": {
+        "title": "Recolectar feedback de diseño",
+        "description": "Recolectar feedback técnico de diseño mediante sesiones de crítica colaborativa (Design Critiques, Demos con POs, etc.)"
+      },
+      "design-pitch/design-presentation": {
+        "title": "Presentar ante el negocio",
+        "description": "Presentar resultados de investigación, propuestas y proceso de diseño utilizando principios de \"story-telling\""
+      },
+      "design-specs/file-organization": {
+        "title": "Organizar documentos de Figma",
+        "description": "Organizar el documento de diseño (Figma) siguiendo buenas prácticas de nombrado y agrupado de capas o componentes"
+      },
+      "design-specs/use-cases": {
+        "title": "Documentar casos de uso",
+        "description": "Documentar los estados de los componentes interactivos y sus casos de uso"
+      },
+      "design-specs/project-documentation": {
+        "title": "Documentar el proyecto de diseño",
+        "description": "Documentar el proceso de diseño para fundamentar las decisiones tomadas durante el proyecto"
+      },
+      "design-systems/atomic-design": {
+        "title": "Implementar Atomic Design",
+        "description": "Crear una librería de componentes (UI Kit) siguiendo los principios de Atomic Design"
+      },
+      "design-systems/design-system": {
+        "title": "Utilizar sistemas de diseño",
+        "description": "Utilizar un sistema de diseño existente como base para la propuesta de diseño"
       }
     },
     "pt": {
@@ -4421,56 +4730,6 @@
       "pt": "Entendendo a situação do negócio em relação ao mercado local e global"
     },
     {
-      "key": "research",
-      "es": "Investigación",
-      "pt": "Pesquisa"
-    },
-    {
-      "key": "research/planning",
-      "es": "Planificar investigación basada en las necesidades del proyecto",
-      "pt": "Planejamento da pesquisa com base nas necessidades do projeto"
-    },
-    {
-      "key": "research/support",
-      "es": "Elegir y sustentar el # usuarias que participan en actividades de investigación",
-      "pt": "Escolha e apoie os # usuários que participam de atividades de pesquisa"
-    },
-    {
-      "key": "research/guidelines",
-      "es": "Crear y probar guía de actividades de investigación",
-      "pt": "Criar e testar guia de atividades de pesquisa"
-    },
-    {
-      "key": "research/interview",
-      "es": "Realizar entrevistas con usuarias empáticas y sin sesgos",
-      "pt": "Conduzindo entrevistas com usuários empáticos e imparciais"
-    },
-    {
-      "key": "research/documentation",
-      "es": "Documentar entrevistas y testeos",
-      "pt": "Documentar entrevistas e testes"
-    },
-    {
-      "key": "research/adaptation",
-      "es": "Adaptar plan de investigación de acuerdo a resultados obtenidos",
-      "pt": "Adaptar o plano de pesquisa de acordo com os resultados obtidos"
-    },
-    {
-      "key": "research/sources",
-      "es": "Identificar y revisar distintas fuentes de información e inspiración relevantes para el proyecto",
-      "pt": "Identificar e revisar diferentes fontes de informação e inspiração relevantes para o projeto"
-    },
-    {
-      "key": "research/test",
-      "es": "Planear y ejecutar testeos de usabilidad de prototipos en distintos niveles de fidelidad",
-      "pt": "Planejar e executar testes de usabilidade"
-    },
-    {
-      "key": "research/cuantitative-data",
-      "es": "Recopilar, analizar e interpretar data cuantitativa",
-      "pt": "Coletar, analisar e interpretar dados quantitativos"
-    },
-    {
       "key": "synthesis",
       "es": "Síntesis",
       "pt": "Síntese"
@@ -5346,6 +5605,270 @@
       "key": "typescript/decorators",
       "es": "Decoradores",
       "pt": "Decoradores"
+    },
+    {
+      "key": "agile-planning"
+    },
+    {
+      "key": "agile-planning/scope",
+      "es": "Definir alcance general"
+    },
+    {
+      "key": "agile-planning/workplan",
+      "es": "Crear plan de trabajo"
+    },
+    {
+      "key": "agile-planning/tasks",
+      "es": "Gestionar tareas"
+    },
+    {
+      "key": "business-understanding"
+    },
+    {
+      "key": "business-understanding/business-model",
+      "es": "Comprender el modelo de negocio"
+    },
+    {
+      "key": "business-understanding/goals-and-kpis",
+      "es": "Comprender objetivos e indicadores clave"
+    },
+    {
+      "key": "business-understanding/benchmark",
+      "es": "Analizar competidores"
+    },
+    {
+      "key": "research",
+      "es": "Investigación",
+      "pt": "Pesquisa"
+    },
+    {
+      "key": "research/support",
+      "es": "Elegir y sustentar el # usuarias que participan en actividades de investigación",
+      "pt": "Escolha e apoie os # usuários que participam de atividades de pesquisa"
+    },
+    {
+      "key": "research/guidelines",
+      "es": "Crear y probar guía de actividades de investigación",
+      "pt": "Criar e testar guia de atividades de pesquisa"
+    },
+    {
+      "key": "research/interview",
+      "es": "Realizar entrevistas con usuarias empáticas y sin sesgos",
+      "pt": "Conduzindo entrevistas com usuários empáticos e imparciais"
+    },
+    {
+      "key": "research/documentation",
+      "es": "Documentar entrevistas y testeos",
+      "pt": "Documentar entrevistas e testes"
+    },
+    {
+      "key": "research/adaptation",
+      "es": "Adaptar plan de investigación de acuerdo a resultados obtenidos",
+      "pt": "Adaptar o plano de pesquisa de acordo com os resultados obtidos"
+    },
+    {
+      "key": "research/sources",
+      "es": "Identificar y revisar distintas fuentes de información e inspiración relevantes para el proyecto",
+      "pt": "Identificar e revisar diferentes fontes de informação e inspiração relevantes para o projeto"
+    },
+    {
+      "key": "research/test",
+      "es": "Planear y ejecutar testeos de usabilidad de prototipos en distintos niveles de fidelidad",
+      "pt": "Planejar e executar testes de usabilidade"
+    },
+    {
+      "key": "research/cuantitative-data",
+      "es": "Recopilar, analizar e interpretar data cuantitativa",
+      "pt": "Coletar, analisar e interpretar dados quantitativos"
+    },
+    {
+      "key": "research/planning",
+      "es": "Planificar investigación basada en las necesidades del proyecto",
+      "pt": "Planejamento da pesquisa com base nas necessidades do projeto"
+    },
+    {
+      "key": "research/planning/research-plan",
+      "es": "Definir la investigación"
+    },
+    {
+      "key": "research/planning/desk-research",
+      "es": "Analizar información existente"
+    },
+    {
+      "key": "research/planning/research-sample",
+      "es": "Definir muestra"
+    },
+    {
+      "key": "research/planning/participants",
+      "es": "Gestionar participantes"
+    },
+    {
+      "key": "research/qualitative"
+    },
+    {
+      "key": "research/qualitative/user-interviews",
+      "es": "Realizar entrevistas"
+    },
+    {
+      "key": "research/qualitative/exploratory-techniques",
+      "es": "Explorar técnicas cualitativas"
+    },
+    {
+      "key": "research/quantitative"
+    },
+    {
+      "key": "research/quantitative/user-surveys",
+      "es": "Realizar encuestas"
+    },
+    {
+      "key": "research/quantitative/analytical-techniques",
+      "es": "Explorar técnicas analíticas"
+    },
+    {
+      "key": "research/analysis"
+    },
+    {
+      "key": "research/analysis/process-information",
+      "es": "Procesar información"
+    },
+    {
+      "key": "research/analysis/experience-mapping",
+      "es": "Mapear la experiencia"
+    },
+    {
+      "key": "research/analysis/identify-patterns",
+      "es": "Identificar patrones"
+    },
+    {
+      "key": "research/analysis/synthesize-results",
+      "es": "Sintetizar resultados"
+    },
+    {
+      "key": "design-concept"
+    },
+    {
+      "key": "design-concept/define-mvp",
+      "es": "Definir MVP"
+    },
+    {
+      "key": "design-concept/design-references",
+      "es": "Buscar inspiración"
+    },
+    {
+      "key": "design-concept/ideate",
+      "es": "Idear soluciones"
+    },
+    {
+      "key": "design-concept/prioritize-ideas",
+      "es": "Priorizar ideas"
+    },
+    {
+      "key": "interaction-design"
+    },
+    {
+      "key": "interaction-design/user-flows",
+      "es": "Crear flujos de usuario"
+    },
+    {
+      "key": "interaction-design/usability",
+      "es": "Utilizar principios de usabilidad"
+    },
+    {
+      "key": "interaction-design/information-architecture",
+      "es": "Crear la arquitectura de información"
+    },
+    {
+      "key": "content-design"
+    },
+    {
+      "key": "content-design/voice-tone",
+      "es": "Definir guía de voz y tono"
+    },
+    {
+      "key": "content-design/create-content",
+      "es": "Crear contenidos"
+    },
+    {
+      "key": "interface-design"
+    },
+    {
+      "key": "interface-design/visual-design",
+      "es": "Crear propuesta de diseño visual"
+    },
+    {
+      "key": "interface-design/accesibility",
+      "es": "Utilizar principios de accesibilidad"
+    },
+    {
+      "key": "interface-design/responsive-design",
+      "es": "Implementar diseño responsivo"
+    },
+    {
+      "key": "design-prototype"
+    },
+    {
+      "key": "design-prototype/basic-prototypes",
+      "es": "Crear prototipos básicos"
+    },
+    {
+      "key": "design-prototype/high-fidelity",
+      "es": "Crear prototipos en alta fidelidad"
+    },
+    {
+      "key": "design-prototype/advanced-interactions",
+      "es": "Utilizar interacciones avanzadas"
+    },
+    {
+      "key": "usability-analysis"
+    },
+    {
+      "key": "usability-analysis/moderated-testing",
+      "es": "Realizar pruebas moderadas"
+    },
+    {
+      "key": "usability-analysis/heuristic-analysis",
+      "es": "Realizar análisis heurísticos"
+    },
+    {
+      "key": "usability-analysis/non-moderated-testing",
+      "es": "Realizar pruebas no-moderadas"
+    },
+    {
+      "key": "design-pitch"
+    },
+    {
+      "key": "design-pitch/design-feedback",
+      "es": "Recolectar feedback de diseño"
+    },
+    {
+      "key": "design-pitch/design-presentation",
+      "es": "Presentar ante el negocio"
+    },
+    {
+      "key": "design-specs"
+    },
+    {
+      "key": "design-specs/file-organization",
+      "es": "Organizar documentos de Figma"
+    },
+    {
+      "key": "design-specs/use-cases",
+      "es": "Documentar casos de uso"
+    },
+    {
+      "key": "design-specs/project-documentation",
+      "es": "Documentar el proyecto de diseño"
+    },
+    {
+      "key": "design-systems"
+    },
+    {
+      "key": "design-systems/atomic-design",
+      "es": "Implementar Atomic Design"
+    },
+    {
+      "key": "design-systems/design-system",
+      "es": "Utilizar sistemas de diseño"
     }
   ]
 }
