@@ -7,7 +7,16 @@
     "htmlhint": "htmlhint src/*.html test/*.html",
     "eslint": "eslint --ext .js src/ test/",
     "pretest": "npm run eslint && npm run htmlhint",
-    "test": "jest --verbose --coverage",
+    "test": "jest --verbose --coverage test/data.spec.js",
+    "test:e2e": "playwright test",
+    "test:oas": "jest --verbose tests-read-only/oa/",
+    "pretest:oas-html": "npm run pretest",
+    "test:oas-html": "jest --verbose tests-read-only/oa/oa-html.spec.js",
+    "test:oas-css": "jest --verbose tests-read-only/oa/oa-css.spec.js",
+    "pretest:oas-js": "npm run pretest",
+    "test:oas-js": "jest --verbose tests-read-only/oa/oa-javascript.spec.js",
+    "pretest:oas-web-api": "npm run pretest",
+    "test:oas-web-api": "jest --verbose tests-read-only/oa/oa-web-api.spec.js",
     "open-coverage-report": "opener ./coverage/lcov-report/index.html",
     "start": "serve src/",
     "deploy": "gh-pages -d src"
@@ -15,16 +24,28 @@
   "devDependencies": {
     "@babel/core": "^7.6.2",
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
+    "@playwright/test": "^1.36.1",
     "babel-jest": "^27.0.1",
     "eslint": "^8.3.0",
     "gh-pages": "^3.1.0",
     "htmlhint": "^1.0.0",
     "jest": "^27.0.1",
     "opener": "^1.5.1",
-    "serve": "^13.0.2"
+    "serve": "^13.0.2",
+    "css": "^3.0.0",
+    "jsdom": "^22.1.0",
+    "acorn": "^8.8.2"
   },
   "engines": {
     "node": ">=16.x"
+  },
+  "bootcamp": {
+    "createdAt": "2023-07-15T18:10:25.570Z",
+    "version": "6.4.0",
+    "commit": "23398b101da847a5a056af6ccfe939a3d6d9098d"
+  },
+
+  "jest":{
+    "testEnvironment": "jsdom"
   }
 }
-
