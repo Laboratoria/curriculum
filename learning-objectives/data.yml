@@ -93,12 +93,13 @@ java:
   - optional
   - stream
   - collections:
-    - arraylist
-    - linkedlist
-    - hashset
-    - hashmap
+    - list:
+      - arraylist
+    - set:
+      - hashset
+    - map:
+      - hashmap
   - exceptions
-  - recursion
 
 scm:
   - git:
