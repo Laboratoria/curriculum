@@ -34,7 +34,13 @@ usuarias, al lado derecho.
 
 ## 2. Resumen del proyecto
 
-En este proyecto **construirás una _página web_ para visualizar un
+En este proyecto utilizarás herramientas de inteligencia artificial como
+[ChatGPT](https://openai.com/chatgpt), [ExplainDev](https://explain.dev/),
+entre otras para generar set de datos en formato JSON. También te familiarás
+con técnicas de generación de imágenes como `Stable Diffusion` para generar
+imágenes.
+
+Además **construirás una _página web_ para visualizar un
 _conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuario
 necesita.
 
@@ -51,32 +57,63 @@ será pedirle a la IA un set de datos en formato [JSON](https://www.json.org/jso
 para que lo puedas consumir en tu proyecto y mostrar la data en una página web.
 
 La temática será a tu gusto, por ejemplo, pueden ser personajes importantes en la
-historia, países, películas... etc. La estructura de este archivo JSON deberá se
+historia, países, películas... etc. La estructura de este archivo JSON deberá ser
 la siguiente:
 
-* `name:` Nombre del dato a dibujar en el front
-* `shortDescription:` Descripción corta sobre el dato
-* `numericalValue:` Un valor numérico para el cálculo agregado (por ejemplo,
-  puntuaciones, cantidades, etc)
-* `img:` url de la imagen. Esta imagen será generada a través del método Stable
+* `name:` Nombre del dato a dibujar en el front.
+* `short-description:` Descripción corta sobre el dato.
+* `img:` URL de la imagen. Esta imagen será generada a través del método Stable
   diffussion. Una vez generada la imagen, ésta será descargada y guardada en
   una carpeta del proyecto. La URL de esta imagen será agregada manualmente al
   JSON generado por la AI. Para generar esta imagen, te recomendamos esta
-  [herramienta](https://huggingface.co/spaces/nota-ai/compressed-stable-diffusion)
-* `longDescription:`
+  [herramienta](https://huggingface.co/spaces/nota-ai/compressed-stable-diffusion).
+* `number:` Un valor numérico para el cálculo agregado (por ejemplo,
+  puntuaciones, cantidades, etc).
+* `number-description:` Descripción de lo que representa el número anterior.
+* `long-description:` Descripción larga sobre el dato.
 * `extras:` Es importante que contenga un objeto interior con al menos dos
   valores, por ejemplo si tu data es sobre países puedes crear este objeto
   interno con los siguientes valores:
   - Idioma oficial
   - Población
 
-Una vez que definas tu área de interés, buscar entender quién es tu usuario
-y qué necesita saber o ver exactamente; luego podrás construir la interfaz que
-le ayude a interactuar y entender mejor esos datos.
+  Los nombres de la propiedades internas del objeto `extras` las puedes
+  elegir tu.
 
-El objetivo principal de este proyecto es que aprendas a diseñar y construir una
-interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
-usuario necesita.
+Un ejemplo de data, según los requisitos anteriores podría ser:
+
+```json
+{
+  "name": "Ada Lovelace",
+  "short-description": "Primera programadora de la historia",
+  "img": "URL_DE_LA_IMAGEN_GENERADA",
+  "number": 1843,
+  "number-description": "año de nacimiento",
+  "long-description": "Augusta Ada King, Condesa de Lovelace, fue una
+    matemática y escritora británica. Es conocida por su trabajo en la
+    máquina analítica de Charles Babbage, donde escribió el primer
+    algoritmo destinado a ser procesado por una máquina. Por esta razón,
+    es considerada la primera programadora de la historia.",
+  "extras": {
+    "country-of-birth": "Inglaterra",
+    "country of death": "Inglaterra",
+  }
+}
+```
+
+Una vez hayas delimitado tu campo de interés y generado el JSON con la
+asistencia de la IA, dedica tiempo a comprender a fondo a tu usuario y sus
+necesidades específicas. A partir de esta comprensión, podrás diseñar la
+interfaz que facilite una interacción más efectiva y una comprensión más
+completa de los datos presentados.
+
+El propósito central de este proyecto radica en brindarte la oportunidad de
+adentrarte en el empleo de herramientas impulsadas por la inteligencia
+artificial, así como en tecnicas de
+[Prompting](https://learnprompting.org/es/docs/intro). Además,
+te permitirá adquirir la habilidad de diseñar y desarrollar una interfaz web
+capaz de presentar y gestionar datos de manera que se ajusten a las necesidades
+del usuario.
 
 ## 3. Objetivos de aprendizaje
 
@@ -208,27 +245,8 @@ como toda la configuración de dependencias:
 ├── README.md
 ├── package.json
 ├── src
-|  ├── data (según con qué data trabajes)
-|  |  ├── lol
-|  |  |  ├── lol.js
-|  |  |  ├── lol.json
-|  |  |  └── README.md
-|  |  ├── pokemon
-|  |  |  ├── pokemon.js
-|  |  |  ├── pokemon.json
-|  |  |  └── README.md
-|  |  └── rickandmorty
-|  |  |  ├── rickandmorty.js
-|  |  |  ├── rickandmorty.json
-|  |  |  └── README.md
-|  |  └── athletes
-|  |  |  ├── athletes.js
-|  |  |  ├── athletes.json
-|  |  |  └── README.md
-|  |  └── ghibli
-|  |  |  ├── ghibli.js
-|  |  |  ├── ghibli.json
-|  |  |  └── README.md
+|  ├── data 
+|  |  └── tudata.json (La que hayas generado con la IA)
 |  ├── data.js
 |  ├── index.html
 |  ├── main.js
@@ -236,7 +254,6 @@ como toda la configuración de dependencias:
 └── test
    └── data.spec.js
 
-directory: 7 file: 20
 ```
 
 ### `src/index.html`
@@ -262,13 +279,13 @@ correspondiente.
 Por ejemplo, si "descomentamos" la siguiente línea:
 
 ```js
-// import data from './data/lol/lol.js';
+// import data from './data/tudata.json';
 ```
 
 La línea quedaría así:
 
 ```js
-import data from './data/lol/lol.js';
+import data from './data/tudata.json';
 ```
 
 Y ahora tendríamos la variable `data` disponible en el script `src/main.js`.
