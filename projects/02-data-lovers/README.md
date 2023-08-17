@@ -8,10 +8,10 @@
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Consideraciones técnicas](#5-consideraciones-técnicas)
 * [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
-* [7. Objetivos de aprendizaje](#7-objetivos-de-aprendizaje)
-* [8. Hacker edition](#6-hacker-edition)
-* [9. Consideraciones para pedir tu Project Feedback](#9-consideractiones-para-pedir-tu-project-feedback)
-* [10. Pistas, tips y lecturas complementarias](#10-pistas-tips-y-lecturas-complementarias)
+* [7. Hacker edition](#6-hacker-edition)
+* [8. Objetivos de aprendizaje](#8-objetivos-de-aprendizaje)
+* [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
+* [10. Consideraciones para pedir tu Project Feedback](#10-consideractiones-para-pedir-tu-project-feedback)
 
 ***
 
@@ -150,7 +150,137 @@ Estos wireframes son ejemplos de un interfaz que puede cumplir con esta funciona
   [GitHub](https://github.com/) (commit/push) y la interfaz será desplegada
   usando [GitHub Pages](https://pages.github.com/)..
 
-## 5. Criterios de aceptación mínimos del proyecto
+## 5. Consideraciones técnicas
+
+La lógica del proyecto debe estar implementada completamente en JavaScript
+(ES6), HTML y CSS. En este proyecto NO está permitido usar librerías o
+frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e),
+con la excepción de librerías para hacer gráficas (charts); ver
+[_Parte opcional_](#6-hacker-edition) más arriba.
+
+El _boilerplate_ contiene una estructura de archivos como punto de partida así
+como toda la configuración de dependencias:
+
+```text
+.
+├── EXTRA.md
+├── README.md
+├── package.json
+├── src
+|  ├── data (según con qué data trabajes)
+|  |  ├── lol
+|  |  |  ├── lol.js
+|  |  |  ├── lol.json
+|  |  |  └── README.md
+|  |  ├── pokemon
+|  |  |  ├── pokemon.js
+|  |  |  ├── pokemon.json
+|  |  |  └── README.md
+|  |  └── // otras carpetas de data
+|  ├── dataFunctions.js
+   ├── viewFunctions.js
+|  ├── index.html
+|  ├── main.js
+|  └── style.css
+└── test
+   └── data.spec.js
+└── tests-read-only
+
+```
+
+### `src/index.html`
+
+Como en el proyecto anterior, existe un archivo `index.html`. Como ya sabes,
+acá va la página que se mostrará al usuario. También nos sirve para indicar
+qué scripts se usarán y unir todo lo que hemos hecho.
+
+### `src/main.js`
+
+Recomendamos usar `src/main.js` para todo tu código que tenga que ver con
+mostrar los datos en la pantalla. Con esto nos referimos básicamente a la
+interacción con el DOM. Operaciones como creación de nodos, registro de
+manejadores de eventos (_event listeners_ o _event handlers_).
+
+Esta no es la única forma de dividir tu código, puedes usar más archivos y
+carpetas, siempre y cuando la estructura sea clara para tus compañeras.
+
+En este archivo encontrarás una serie de _imports_ _comentados_. Para _cargar_
+las diferentes fuentes de datos tendrás que _descomentar_ la línea
+correspondiente.
+
+Por ejemplo, si "descomentamos" la siguiente línea:
+
+```js
+// import data from './data/lol/lol.js';
+```
+
+La línea quedaría así:
+
+```js
+import data from './data/lol/lol.js';
+```
+
+Y ahora tendríamos la variable `data` disponible en el script `src/main.js`.
+
+### `src/dataFunctions.js`
+
+El corazón de este proyecto es la manipulación de datos a través de arreglos
+y objetos.
+
+Este archivo va a contener toda la funcionalidad que corresponda
+a obtener, procesar y manipular datos (tus funciones). Por ejemplo:
+
+* `filterData(data, filterBy, value)`: esta función recibe tres parámetros.
+  El primer parámetro, `data`, nos entrega los datos.
+  El segundo parámetro, `filterBy`, nos dice con respecto a cuál de los campos de
+  la data se quiere filtrar.
+  El tercer parámetro, `value`, indica el valor de campo que queremos filtrar.
+
+* `sortData(data, sortBy, sortOrder)`: esta función `sort` u ordenar
+  recibe tres parámetros.
+  El primer parámetro, `data`, nos entrega los datos.
+  El segundo parámetro, `sortBy`, nos dice con respecto a cuál de los campos de
+  la data se quiere ordenar.
+  El tercer parámetro, `sortOrder`, indica si se quiere ordenar de manera
+  ascendente o descendente.
+
+* `computeStats(data)`: la función `compute` o calcular, nos permitirá hacer
+  cálculos estadísticos básicos para ser mostrados de acuerdo a la data
+  proporcionada.
+
+Estas funciones deben ser [_puras_](https://medium.com/laboratoria-developers/introducci%C3%B3n-a-la-programaci%C3%B3n-funcional-en-javascript-parte-2-funciones-puras-b99e08c2895d)
+e independientes del DOM. Estas funciones serán después usadas desde el archivo
+`src/main.js`, al cargar la página, y cada vez que el usuario interactúe (click,
+filtrado, ordenado, ...).
+
+### `src/data`
+
+En esta carpeta están los datos de las diferentes fuentes. Encontrarás una
+carpeta por cada fuente, y dentro de cada carpeta dos archivos: uno con la
+extensión `.js` y otro `.json`. Ambos archivos contienen la misma data; la
+diferencia es que el `.js` lo usaremos a través de una etiqueta `<script>`,
+mientras que el `.json` está ahí para opcionalmente cargar la data de forma
+asíncrona con [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
+(ver sección de [_Parte Opcional_](#6-hacker-edition)).
+
+### `test/dataFunctions.spec.js`
+
+Tendrás también que completar las pruebas unitarias de las funciones
+implementadas en el archivo `dataFunctions.js`.
+
+### `src/viewFunctions.js`
+
+Para alcanzar mejor separación de responsabilidades en el código este
+archivo debe tener todas las funciones que utilizara para renderizar
+los elementos dinámicamente. 
+
+Al menos requerimos una función obligatoria.
+
+* `renderItems(data)`: esta función recibe el arreglo de data para renderizar
+  los elementos de cada item, y deberia volver un elemento DOM o un string de HTML.
+
+
+## 6. Criterios de aceptación mínimos del proyecto
 
 ### Criterios de código
 
@@ -329,7 +459,7 @@ Tus _pruebas unitarias_ deben dar una cobertura del 70% de _statements_
 (_ramas_) del archivo `src/data.js` que contenga tus funciones y está detallado
 en la sección de [Consideraciones técnicas](#srcdatajs).
 
-## 6. Hacker edition
+## 7. Hacker edition
 
 Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
 con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
@@ -349,137 +479,17 @@ Features/características extra sugeridas:
   o [Google Charts](https://developers.google.com/chart/).
 * 100% Coverage
 
-## 7. Consideraciones técnicas
+## 8. Objetivos de aprendizaje
 
-La lógica del proyecto debe estar implementada completamente en JavaScript
-(ES6), HTML y CSS. En este proyecto NO está permitido usar librerías o
-frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e),
-con la excepción de librerías para hacer gráficas (charts); ver
-[_Parte opcional_](#6-hacker-edition) más arriba.
+> ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
+> de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
+> al crear el repo del proyecto para un cohort en particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
+> que contempla nuestra currícula.
 
-El _boilerplate_ contiene una estructura de archivos como punto de partida así
-como toda la configuración de dependencias:
-
-```text
-.
-├── EXTRA.md
-├── README.md
-├── package.json
-├── src
-|  ├── data (según con qué data trabajes)
-|  |  ├── lol
-|  |  |  ├── lol.js
-|  |  |  ├── lol.json
-|  |  |  └── README.md
-|  |  ├── pokemon
-|  |  |  ├── pokemon.js
-|  |  |  ├── pokemon.json
-|  |  |  └── README.md
-|  |  └── // otras carpetas de data
-|  ├── dataFunctions.js
-   ├── viewFunctions.js
-|  ├── index.html
-|  ├── main.js
-|  └── style.css
-└── test
-   └── data.spec.js
-└── tests-read-only
-
-```
-
-### `src/index.html`
-
-Como en el proyecto anterior, existe un archivo `index.html`. Como ya sabes,
-acá va la página que se mostrará al usuario. También nos sirve para indicar
-qué scripts se usarán y unir todo lo que hemos hecho.
-
-### `src/main.js`
-
-Recomendamos usar `src/main.js` para todo tu código que tenga que ver con
-mostrar los datos en la pantalla. Con esto nos referimos básicamente a la
-interacción con el DOM. Operaciones como creación de nodos, registro de
-manejadores de eventos (_event listeners_ o _event handlers_).
-
-Esta no es la única forma de dividir tu código, puedes usar más archivos y
-carpetas, siempre y cuando la estructura sea clara para tus compañeras.
-
-En este archivo encontrarás una serie de _imports_ _comentados_. Para _cargar_
-las diferentes fuentes de datos tendrás que _descomentar_ la línea
-correspondiente.
-
-Por ejemplo, si "descomentamos" la siguiente línea:
-
-```js
-// import data from './data/lol/lol.js';
-```
-
-La línea quedaría así:
-
-```js
-import data from './data/lol/lol.js';
-```
-
-Y ahora tendríamos la variable `data` disponible en el script `src/main.js`.
-
-### `src/dataFunctions.js`
-
-El corazón de este proyecto es la manipulación de datos a través de arreglos
-y objetos.
-
-Este archivo va a contener toda la funcionalidad que corresponda
-a obtener, procesar y manipular datos (tus funciones). Por ejemplo:
-
-* `filterData(data, filterBy, value)`: esta función recibe tres parámetros.
-  El primer parámetro, `data`, nos entrega los datos.
-  El segundo parámetro, `filterBy`, nos dice con respecto a cuál de los campos de
-  la data se quiere filtrar.
-  El tercer parámetro, `value`, indica el valor de campo que queremos filtrar.
-
-* `sortData(data, sortBy, sortOrder)`: esta función `sort` u ordenar
-  recibe tres parámetros.
-  El primer parámetro, `data`, nos entrega los datos.
-  El segundo parámetro, `sortBy`, nos dice con respecto a cuál de los campos de
-  la data se quiere ordenar.
-  El tercer parámetro, `sortOrder`, indica si se quiere ordenar de manera
-  ascendente o descendente.
-
-* `computeStats(data)`: la función `compute` o calcular, nos permitirá hacer
-  cálculos estadísticos básicos para ser mostrados de acuerdo a la data
-  proporcionada.
-
-Estas funciones deben ser [_puras_](https://medium.com/laboratoria-developers/introducci%C3%B3n-a-la-programaci%C3%B3n-funcional-en-javascript-parte-2-funciones-puras-b99e08c2895d)
-e independientes del DOM. Estas funciones serán después usadas desde el archivo
-`src/main.js`, al cargar la página, y cada vez que el usuario interactúe (click,
-filtrado, ordenado, ...).
-
-### `src/data`
-
-En esta carpeta están los datos de las diferentes fuentes. Encontrarás una
-carpeta por cada fuente, y dentro de cada carpeta dos archivos: uno con la
-extensión `.js` y otro `.json`. Ambos archivos contienen la misma data; la
-diferencia es que el `.js` lo usaremos a través de una etiqueta `<script>`,
-mientras que el `.json` está ahí para opcionalmente cargar la data de forma
-asíncrona con [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
-(ver sección de [_Parte Opcional_](#6-hacker-edition)).
-
-### `test/dataFunctions.spec.js`
-
-Tendrás también que completar las pruebas unitarias de las funciones
-implementadas en el archivo `dataFunctions.js`.
-
-### `src/viewFunctions.js`
-
-Para alcanzar mejor separación de responsabilidades en el código este
-archivo debe tener todas las funciones que utilizara para renderizar
-los elementos dinámicamente. 
-
-Al menos requerimos una función obligatoria.
-
-* `renderItems(data)`: esta función recibe el arreglo de data para renderizar
-  los elementos de cada item, y deberia volver un elemento DOM o un string de HTML.
-
-
-## 8. Pistas, tips y lecturas complementarias
+## 9. Pistas, tips y lecturas complementarias
 
 ### Primeros pasos
 
@@ -564,7 +574,7 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 * [Cómo dividir H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
 * [Guía para Data Lovers](https://docs.google.com/presentation/d/e/2PACX-1vQhx9D36NjpH-Daea-ITPUDUzNL8ZiNAprq_7b5PSUrfutk45tEtaOLz2lmd8f54_5jX1hypDM8f8SM/pub?start=false&loop=false&delayms=60000)
 
-## 9. Consideraciones para pedir tu Project Feedback
+## 10. Consideraciones para pedir tu Project Feedback
 
 Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
 
