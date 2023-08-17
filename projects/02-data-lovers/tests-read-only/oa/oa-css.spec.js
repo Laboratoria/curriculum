@@ -3,7 +3,7 @@
 */
 import fs from 'fs';
 import css from 'css';
-import { renderView } from '../../src/viewFunctions.js';
+import { renderItems } from '../../src/viewFunctions.js';
 const html = fs.readFileSync('./src/index.html', 'utf-8');
 document.body.innerHTML = html;
 
