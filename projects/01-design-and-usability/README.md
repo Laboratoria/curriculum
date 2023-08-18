@@ -23,6 +23,8 @@ centros del salud vieron la necesidad de brindar el servicio por canales no
 tradicionales y/o digitales (telemedicina), una innovación que trajo consigo
 nuevas experiencias y necesidades para los pacientes.
 
+![desing-and-usability](https://raw.githubusercontent.com/Laboratoria/bootcamp/main/projects/01-design-and-usability/thumb.png)
+
 ## 2. Resumen del proyecto
 
 Rediseñar la experiencia de comprar la despensa/el mercado/el supermercado a
