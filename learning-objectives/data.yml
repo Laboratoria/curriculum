@@ -116,6 +116,14 @@ hibernate:
   - update
   - delete
 
+spring: 
+  - setup:
+    - initializr
+    - gradle
+  - spring-jpa
+  - spring-web
+  - spring-security
+   
 
 scm:
   - git:
