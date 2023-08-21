@@ -101,6 +101,22 @@ java:
       - hashmap
   - exceptions
 
+hibernate: 
+  - setup
+  - orm:
+    - entity
+    - table
+    - columns
+    - relationship:
+      - manytoone
+      - onetomany
+      - manytomany
+  - create
+  - read
+  - update
+  - delete
+
+
 scm:
   - git:
       - setup
