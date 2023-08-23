@@ -3,6 +3,7 @@
   "version": "6.7.0",
   "description": "Proyectos y tópicos del Bootcamp de @Laboratoria",
   "repository": "Laboratoria/bootcamp",
+  "type": "module",
   "keywords": [
     "javascript",
     "laboratoria",
@@ -38,7 +39,7 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "@laboratoria/react": "^6.4.0",
+    "@laboratoria/react": "7.0.0-beta.11",
     "@mui/icons-material": "^5.14.6",
     "@mui/material": "^5.14.6",
     "@mui/styles": "^5.14.6",
