@@ -94,21 +94,26 @@ ajuda para implementar rapidamente recursos dos projetos em que você trabalha.
 
 ### Definição do Produto
 
-O [_Product Owner_](https://www.youtube.com/watch?v=r2hU7MVIzxs&t=202s) nos apresenta este _backlog_, que é o resultado do seu trabalho com o cliente até hoje.
+O [_Product Owner_](https://www.youtube.com/watch?v=r2hU7MVIzxs&t=202s) nos
+apresenta este _backlog_, que é o resultado do seu trabalho com
+o cliente até hoje.
 
 ---
 
 #### [História do Usuário 1] Busca de Filmes
 
-Como usuária, quero poder buscar filmes por título para encontrar informações detalhadas sobre eles.
+Como usuária, quero poder buscar filmes por título para
+encontrar informações detalhadas sobre eles.
 
 ##### Critérios de Aceitação
 
 - Deve existir um campo de busca na página principal.
 - A usuária pode inserir o título de um filme no campo de busca.
-- Ao pressionar o botão de busca ou a tecla "Enter", os resultados da busca devem ser exibidos.
+- Ao pressionar o botão de busca ou a tecla "Enter", os
+resultados da busca devem ser exibidos.
 - Os resultados devem incluir pelo menos o título do filme e uma imagem da capa.
-- Receber mensagens de erro compreensíveis, dependendo do erro com as informações inseridas.
+- Receber mensagens de erro compreensíveis, dependendo do
+erro com as informações inseridas.
 
 ##### Definição de Concluído
 
@@ -125,13 +130,16 @@ O que foi acordado que deve ocorrer para dizer que a história está concluída.
 
 #### [História do Usuário 2] Detalhes do Filme
 
-Como usuária, quero poder ver detalhes completos de um filme quando clicar em um resultado de busca.
+Como usuária, quero poder ver detalhes completos de um
+filme quando clicar em um resultado de busca.
 
 ##### Critérios de Aceitação
 
-- Na lista de resultados de busca, a usuária pode clicar em um título ou imagem do filme para ver detalhes adicionais.
+- Na lista de resultados de busca, a usuária pode clicar
+em um título ou imagem do filme para ver detalhes adicionais.
 - Os detalhes devem incluir informações adicionais sobre o filme.
-- Deve haver um botão para retornar à lista de resultados de busca a partir da página de detalhes.
+- Deve haver um botão para retornar à lista de resultados de
+busca a partir da página de detalhes.
 
 ##### Definição de Concluído
 
@@ -148,13 +156,18 @@ O que foi acordado que deve ocorrer para dizer que a história está concluída.
 
 #### [História do Usuário 3] Registro de Minhas Buscas
 
-Como usuária, quero ter a capacidade de ver um registro de minhas buscas anteriores para manter um histórico dos filmes que busquei.
+Como usuária, quero ter a capacidade de ver um
+registro de minhas buscas anteriores para manter um
+histórico dos filmes que busquei.
 
 ##### Critérios de Aceitação
 
-- As usuárias podem acessar um histórico de suas buscas anteriores diretamente da página principal da aplicação.
-- As buscas anteriores são exibidas em uma lista com detalhes básicos dos filmes pesquisados.
-- As usuárias podem clicar em uma busca anterior para ver novamente os detalhes desse filme.
+- As usuárias podem acessar um histórico de suas buscas anteriores
+diretamente da página principal da aplicação.
+- As buscas anteriores são exibidas em uma lista com detalhes
+básicos dos filmes pesquisados.
+- As usuárias podem clicar em uma busca anterior para ver
+novamente os detalhes desse filme.
 
 ##### Definição de Concluído
 
@@ -173,9 +186,9 @@ O que foi acordado que deve ocorrer para dizer que a história está concluída.
 
 - Para poder usar a API do _The Movie Database API V3_ ou _OMDB_ você deverá criar
   uma chave (_key_) de acesso e adicioná-la em cada solicitação que fizer ao servidor.
-  + Para _The Movie Database API V3_ você deverá criar uma conta e depois uma
+  - Para _The Movie Database API V3_ você deverá criar uma conta e depois uma
     chave neste [link](https://www.themoviedb.org/settings/api).
-  + Para _OMDB_ a chave é gerada neste
+  - Para _OMDB_ a chave é gerada neste
   [link](http://www.omdbapi.com/apikey.aspx) preenchendo o formulário com a
   versão gratuita (_free_) selecionada e depois verificando seu _e-mail_ para
   ativá-la e poder usá-la.

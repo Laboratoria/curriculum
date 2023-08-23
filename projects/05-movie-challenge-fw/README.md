@@ -102,14 +102,17 @@ hasta hoy.
 
 #### [Historia de usuario 1] Búsqueda de Películas
 
-Como usuaria, quiero poder buscar películas por título para encontrar información detallada sobre ellas.
+Como usuaria, quiero poder buscar películas por título
+para encontrar información detallada sobre ellas.
 
 ##### Criterios de aceptación
 
 - Debe existir un campo de búsqueda en la página principal.
 - La usuaria puede ingresar el título de una película en el campo de búsqueda.
-- Al presionar el botón de búsqueda o la tecla "Enter", se deben mostrar los resultados de la búsqueda.
-- Los resultados deben incluir al menos el título de la película y una imagen de la portada.
+- Al presionar el botón de búsqueda o la tecla "Enter", se deben
+mostrar los resultados de la búsqueda.
+- Los resultados deben incluir al menos el título de la película
+y una imagen de la portada.
 - Recibir mensajes de error comprensibles,
 dependiendo de cuál es el error con la
 información ingresada.
@@ -129,13 +132,17 @@ Lo acordado que debe ocurrir para decir que la historia está terminada.
 
 #### [Historia de usuario 2] Detalles de la Película
 
-Como usuaria, quiero poder ver detalles completos de una película cuando hago clic en un resultado de búsqueda.
+Como usuaria, quiero poder ver detalles completos de
+una película cuando hago clic en un resultado de búsqueda.
 
 ##### Criterios de aceptación
 
-- En la lista de resultados de búsqueda, la usuaria puede hacer clic en un título o imagen de película para ver detalles adicionales.
+- En la lista de resultados de búsqueda, la usuaria puede
+hacer clic en un título o imagen de película para ver
+detalles adicionales.
 - Los detalles deben incluir información adicional de la película.
-- Debe haber un botón para volver a la lista de resultados de búsqueda desde la página de detalles.
+- Debe haber un botón para volver a la lista de resultados de
+búsqueda desde la página de detalles.
 
 ##### Definición de Terminado
 
@@ -152,13 +159,18 @@ Lo acordado que debe ocurrir para decir que la historia está terminada.
 
 #### [Historia de usuario 3] Registro de Mis Búsquedas
 
-Como usuaria, quiero tener la capacidad de ver un registro de mis búsquedas anteriores para tener un historial de las películas que he buscado.
+Como usuaria, quiero tener la capacidad de ver un registro
+de mis búsquedas anteriores para tener un historial de las
+películas que he buscado.
 
 ##### Criterios de aceptación
 
-- Las usuarias pueden acceder a un historial de sus búsquedas anteriores directamente desde la página principal de la aplicación.
-- Las búsquedas anteriores se mostrarán en una lista con detalles básicos de las películas buscadas.
-- Las usuarias pueden hacer clic en una búsqueda anterior para volver a ver los detalles de esa película.
+- Las usuarias pueden acceder a un historial de sus búsquedas
+anteriores directamente desde la página principal de la aplicación.
+- Las búsquedas anteriores se mostrarán en una lista con
+detalles básicos de las películas buscadas.
+- Las usuarias pueden hacer clic en una búsqueda anterior
+para volver a ver los detalles de esa película.
 
 ##### Definición de Terminado
 
@@ -166,7 +178,8 @@ Lo acordado que debe ocurrir para decir que la historia está terminada.
 
 - Las usuarias pueden ver su historial de búsquedas anteriores.
 - Las búsquedas anteriores se muestran de manera clara y organizada.
-- Las usuarias pueden hacer clic en una búsqueda anterior y ver los detalles de la película correspondiente.
+- Las usuarias pueden hacer clic en una búsqueda anterior
+y ver los detalles de la película correspondiente.
 - Haces _test_ unitarios.
 - Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
 - Desplegaste tu aplicación y has etiquetado tu versión (git tag).
