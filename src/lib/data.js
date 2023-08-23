@@ -77,7 +77,7 @@ const watch = () => {
 
 
 // If in dev env, we start watching for changes in projects and topics
-if (import.meta.env.NODE_ENV === 'development') {
+if (process.env.NODE_ENV === 'development') {
   watch();
 }
 
