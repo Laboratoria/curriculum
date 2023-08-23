@@ -186,7 +186,7 @@ O que foi acordado que deve ocorrer para dizer que a história está concluída.
 
 - Para poder usar a API do _The Movie Database API V3_ ou _OMDB_ você deverá criar
   uma chave (_key_) de acesso e adicioná-la em cada solicitação que fizer ao servidor.
-  - Para _The Movie Database API V3_ você deverá criar uma conta e depois uma
+  + Para _The Movie Database API V3_ você deverá criar uma conta e depois uma
     chave neste [link](https://www.themoviedb.org/settings/api).
   + Para _OMDB_ a chave é gerada neste
   [link](http://www.omdbapi.com/apikey.aspx) preenchendo o formulário com a

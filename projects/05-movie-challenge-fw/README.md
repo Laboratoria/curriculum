@@ -190,9 +190,9 @@ y ver los detalles de la película correspondiente.
 
 - Para poder usar la API de _The Movie Database API V3_ o _OMDB_ deberás crear
   una llave (_key_) de acceso y agregarla a cada petición que hagas al servidor.
-  - Para _The Movie Database API V3_ deberás crear una cuenta y luego una
+  + Para _The Movie Database API V3_ deberás crear una cuenta y luego una
     llave en este [link](https://www.themoviedb.org/settings/api).
-  - Para _OMDB_ la llave la generas en este
+  + Para _OMDB_ la llave la generas en este
   [link](http://www.omdbapi.com/apikey.aspx) llenando el formulario con la
   versión gratuita (_free_) seleccionada y luego revisando tu _email_ para
   activarla y poder usarla.
