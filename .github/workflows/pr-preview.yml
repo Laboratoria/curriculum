@@ -28,14 +28,11 @@ jobs:
       - uses: actions/checkout@v2
       - run: npm ci
       - run: npm run build:content
-      - run: echo ::set-output name=VERSION::$(node -e "console.log(require('./package.json').version)")
-        id: version
       - run: npm run build
         env:
-          REACT_APP_LABORATORIA_API_URL: https://api.laboratoria.la
-          REACT_APP_FIREBASE_API_KEY: AIzaSyAXbaEbpq8NOfn0r8mIrcoHvoGRkJThwdc 
-          REACT_APP_FIREBASE_PROJECT: laboratoria-la
-          REACT_APP_VERSION: ${{ steps.version.outputs.VERSION }}
+          LABORATORIA_API_URL: https://api.laboratoria.la
+          FIREBASE_API_KEY: AIzaSyAXbaEbpq8NOfn0r8mIrcoHvoGRkJThwdc 
+          FIREBASE_PROJECT: laboratoria-la
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
