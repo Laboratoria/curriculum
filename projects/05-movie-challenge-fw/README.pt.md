@@ -188,7 +188,7 @@ O que foi acordado que deve ocorrer para dizer que a história está concluída.
   uma chave (_key_) de acesso e adicioná-la em cada solicitação que fizer ao servidor.
   - Para _The Movie Database API V3_ você deverá criar uma conta e depois uma
     chave neste [link](https://www.themoviedb.org/settings/api).
-  - Para _OMDB_ a chave é gerada neste
+  + Para _OMDB_ a chave é gerada neste
   [link](http://www.omdbapi.com/apikey.aspx) preenchendo o formulário com a
   versão gratuita (_free_) selecionada e depois verificando seu _e-mail_ para
   ativá-la e poder usá-la.
