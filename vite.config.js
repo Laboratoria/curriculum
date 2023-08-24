@@ -1,5 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const {
   FIREBASE_PROJECT,
@@ -12,7 +15,6 @@ const {
 export default defineConfig(() => {
   return {
     server: {
-      open: true,
       host: 'localhost',
       port: 3000,
     },
