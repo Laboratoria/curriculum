@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Ada Lovelace",
+    "img": "URL_DE_LA_IMAGEN_ADA_LOVELACE",
+    "statistics": {
+      "value": 1815,
+      "label": "año de nacimiento"
+    },
+    "description": "Primera programadora de la historia"
+  },
+  {
+    "name": "Grace Hopper",
+    "img": "URL_DE_LA_IMAGEN_GRACE_HOPPER",
+    "statistics": {
+      "value": 1906,
+      "label": "año de nacimiento"
+    },
+    "description": "Desarrolladora del primer compilador y del lenguaje COBOL"
+  },
+  {
+    "name": "Hedy Lamarr",
+    "img": "URL_DE_LA_IMAGEN_HEDY_LAMARR",
+    "statistics": {
+      "value": 1914,
+      "label": "año de nacimiento"
+    },
+    "description": "Actriz e inventora de tecnologías de comunicación"
+  },
+  {
+    "name": "Katherine Johnson",
+    "img": "URL_DE_LA_IMAGEN_KATHERINE_JOHNSON",
+    "statistics": {
+      "value": 1918,
+      "label": "año de nacimiento"
+    },
+    "description": "Matemática de la NASA, contribuyó al programa Apollo"
+  },
+  {
+    "name": "Rear Admiral Grace M. Hopper",
+    "img": "URL_DE_LA_IMAGEN_REAR_ADMIRAL_GRACE_HOPPER",
+    "statistics": {
+      "value": 1906,
+      "label": "año de nacimiento"
+    },
+    "description": "Pionera en programación de computadoras"
+  },
+  {
+    "name": "Margaret Hamilton",
+    "img": "URL_DE_LA_IMAGEN_MARGARET_HAMILTON",
+    "statistics": {
+      "value": 1936,
+      "label": "año de nacimiento"
+    },
+    "description": "Directora de la División de Ingeniería de Software del MIT"
+  },
+  {
+    "name": "Radia Perlman",
+    "img": "URL_DE_LA_IMAGEN_RADIA_PERLMAN",
+    "statistics": {
+      "value": 1951,
+      "label": "año de nacimiento"
+    },
+    "description": "Inventora del algoritmo de árbol de expansión"
+  },
+  {
+    "name": "Shafi Goldwasser",
+    "img": "URL_DE_LA_IMAGEN_SHAFI_GOLDWASSER",
+    "statistics": {
+      "value": 1958,
+      "label": "año de nacimiento"
+    },
+    "description": "Científica de la computación y criptógrafa"
+  },
+  {
+    "name": "Megan Smith",
+    "img": "URL_DE_LA_IMAGEN_MEGAN_SMITH",
+    "statistics": {
+      "value": 1964,
+      "label": "año de nacimiento"
+    },
+    "description": "Ex CTO de los Estados Unidos, ingeniera de Google"
+  },
+  {
+    "name": "Fei-Fei Li",
+    "img": "URL_DE_LA_IMAGEN_FEI_FEI_LI",
+    "statistics": {
+      "value": 1976,
+      "label": "año de nacimiento"
+    },
+    "description": "Investigadora de IA y fundadora de AI4ALL"
+  },
+  {
+    "name": "Adele Goldberg",
+    "img": "URL_DE_LA_IMAGEN_ADELE_GOLDBERG",
+    "statistics": {
+      "value": 1945,
+      "label": "año de nacimiento"
+    },
+    "description": "Científica de la computación, co-creadora de Smalltalk"
+  },
+  {
+    "name": "Carol Shaw",
+    "img": "URL_DE_LA_IMAGEN_CAROL_SHAW",
+    "statistics": {
+      "value": 1955,
+      "label": "año de nacimiento"
+    },
+    "description": "Pionera en la industria de los videojuegos"
+  },
+  {
+    "name": "Susan Kare",
+    "img": "URL_DE_LA_IMAGEN_SUSAN_KARE",
+    "statistics": {
+      "value": 1954,
+      "label": "año de nacimiento"
+    },
+    "description": "Diseñadora de iconos de Macintosh"
+  },
+  {
+    "name": "Mary Lou Jepsen",
+    "img": "URL_DE_LA_IMAGEN_MARY_LOU_JEPSEN",
+    "statistics": {
+      "value": 1965,
+      "label": "año de nacimiento"
+    },
+    "description": "Ingeniera en óptica y electrónica"
+  },
+  {
+    "name": "Danielle Feinberg",
+    "img": "URL_DE_LA_IMAGEN_DANIELLE_FEINBERG",
+    "statistics": {
+      "value": 1970,
+      "label": "año de nacimiento"
+    },
+    "description": "Directora de iluminación en Pixar"
+  },
+  {
+    "name": "Ruchi Sanghvi",
+    "img": "URL_DE_LA_IMAGEN_RUCHI_SANGHVI",
+    "statistics": {
+      "value": 1982,
+      "label": "año de nacimiento"
+    },
+    "description": "Primera ingeniera mujer en Facebook"
+  },
+  {
+    "name": "Elaine Weyuker",
+    "img": "URL_DE_LA_IMAGEN_ELAIN_WEYUKER",
+    "statistics": {
+      "value": 1947,
+      "label": "año de nacimiento"
+    },
+    "description": "Científica de la computación, pionera en pruebas de software"
+  },
+  {
+    "name": "Sophie Wilson",
+    "img": "URL_DE_LA_IMAGEN_SOPHIE_WILSON",
+    "statistics": {
+      "value": 1957,
+      "label": "año de nacimiento"
+    },
+    "description": "Diseñadora de la arquitectura de la CPU ARM"
+  },
+  {
+    "name": "Radhika Nagpal",
+    "img": "URL_DE_LA_IMAGEN_RADHIKA_NAGPAL",
+    "statistics": {
+      "value": 1971,
+      "label": "año de nacimiento"
+    },
+    "description": "Roboticista, profesora de Harvard"
+  },
+  {
+    "name": "Helen Greiner",
+    "img": "URL_DE_LA_IMAGEN_HELEN_GREINER",
+    "statistics": {
+      "value": 1967,
+      "label": "año de nacimiento"
+    },
+    "description": "Cofundadora de iRobot, creadora de Roomba"
+  },
+  {
+    "name": "Lydia E. Kavraki",
+    "img": "URL_DE_LA_IMAGEN_LYDIA_KAVRAKI",
+    "statistics": {
+      "value": 1965,
+      "label": "año de nacimiento"
+    },
+    "description": "Experta en robótica y algoritmos de planificación"
+  },
+  {
+    "name": "Barbara Liskov",
+    "img": "URL_DE_LA_IMAGEN_BARBARA_LISKOV",
+    "statistics": {
+      "value": 1939,
+      "label": "año de nacimiento"
+    },
+    "description": "Pionera en lenguajes de programación y sistemas distribuidos"
+  },
+  {
+    "name": "Jade Raymond",
+    "img": "URL_DE_LA_IMAGEN_JADE_RAYMOND",
+    "statistics": {
+      "value": 1975,
+      "label": "año de nacimiento"
+    },
+    "description": "Creadora de videojuegos, productora ejecutiva de Assassin's Creed"
+  },
+  {
+    "name": "Evelyn Berezin",
+    "img": "URL_DE_LA_IMAGEN_EVELYN_BEREZIN",
+    "statistics": {
+      "value": 1925,
+      "label": "año de nacimiento"
+    },
+    "description": "Inventora de la primera computadora de procesamiento de texto"
+  }
+]

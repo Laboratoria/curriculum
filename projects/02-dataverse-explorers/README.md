@@ -138,11 +138,17 @@ Un ejemplo de data, según los requisitos anteriores podría ser:
 ]
 ```
 
-Una vez hayas delimitado tu campo de interés y generado el JSON con la
+Una vez que hayas delimitado tu campo de interés y generado el JSON con la
 asistencia de la AI, dedica tiempo a comprender a fondo a tu usuario y sus
 necesidades específicas. A partir de esta comprensión, podrás diseñar la
 interfaz que facilite una interacción más efectiva y una comprensión más
 completa de los datos presentados.
+
+El tiempo estimado que deberías dedicar a la generación de esta data
+es de máximo un sprint. Si ves que te va a tomar tiempo, te recomendamos
+utilizar la data de ejemplo que la vas a en contrar en esta ruta:
+
+`./src/data/data.json`.
 
 ### Diseño de la Interfaz de Usuario
 
