@@ -1,7 +1,7 @@
 [
   {
     "name": "Ada Lovelace",
-    "img": "URL_DE_LA_IMAGEN_ADA_LOVELACE",
+    "img": "./img/Ada-Lovelace.png",
     "statistics": {
       "value": 1815,
       "label": "año de nacimiento"
@@ -10,7 +10,7 @@
   },
   {
     "name": "Grace Hopper",
-    "img": "URL_DE_LA_IMAGEN_GRACE_HOPPER",
+    "img": "./img/Grace-Hopper.png",
     "statistics": {
       "value": 1906,
       "label": "año de nacimiento"
@@ -19,7 +19,7 @@
   },
   {
     "name": "Hedy Lamarr",
-    "img": "URL_DE_LA_IMAGEN_HEDY_LAMARR",
+    "img": "./img/Hedy-Lamarr.png",
     "statistics": {
       "value": 1914,
       "label": "año de nacimiento"
@@ -28,7 +28,7 @@
   },
   {
     "name": "Katherine Johnson",
-    "img": "URL_DE_LA_IMAGEN_KATHERINE_JOHNSON",
+    "img": "./img/Katherine-Johnson.png",
     "statistics": {
       "value": 1918,
       "label": "año de nacimiento"
@@ -37,7 +37,7 @@
   },
   {
     "name": "Rear Admiral Grace M. Hopper",
-    "img": "URL_DE_LA_IMAGEN_REAR_ADMIRAL_GRACE_HOPPER",
+    "img": "./img/Rear-Admiral.png",
     "statistics": {
       "value": 1906,
       "label": "año de nacimiento"
@@ -46,7 +46,7 @@
   },
   {
     "name": "Margaret Hamilton",
-    "img": "URL_DE_LA_IMAGEN_MARGARET_HAMILTON",
+    "img": "./img/Margaret-Hamilton.png",
     "statistics": {
       "value": 1936,
       "label": "año de nacimiento"
@@ -55,7 +55,7 @@
   },
   {
     "name": "Radia Perlman",
-    "img": "URL_DE_LA_IMAGEN_RADIA_PERLMAN",
+    "img": "./img/Radia-Perlman.png",
     "statistics": {
       "value": 1951,
       "label": "año de nacimiento"
@@ -64,7 +64,7 @@
   },
   {
     "name": "Shafi Goldwasser",
-    "img": "URL_DE_LA_IMAGEN_SHAFI_GOLDWASSER",
+    "img": "./img/Shafi-Goldwasser.png",
     "statistics": {
       "value": 1958,
       "label": "año de nacimiento"
@@ -73,7 +73,7 @@
   },
   {
     "name": "Megan Smith",
-    "img": "URL_DE_LA_IMAGEN_MEGAN_SMITH",
+    "img": "./img/Megan-Smith .png",
     "statistics": {
       "value": 1964,
       "label": "año de nacimiento"
@@ -82,7 +82,7 @@
   },
   {
     "name": "Fei-Fei Li",
-    "img": "URL_DE_LA_IMAGEN_FEI_FEI_LI",
+    "img": "./img/Fei-Fei-Li.png",
     "statistics": {
       "value": 1976,
       "label": "año de nacimiento"
@@ -91,7 +91,7 @@
   },
   {
     "name": "Adele Goldberg",
-    "img": "URL_DE_LA_IMAGEN_ADELE_GOLDBERG",
+    "img": "./img/Ada-Lovelace.png",
     "statistics": {
       "value": 1945,
       "label": "año de nacimiento"
@@ -100,7 +100,7 @@
   },
   {
     "name": "Carol Shaw",
-    "img": "URL_DE_LA_IMAGEN_CAROL_SHAW",
+    "img": "./img/Carol-Shaw.png",
     "statistics": {
       "value": 1955,
       "label": "año de nacimiento"
@@ -109,7 +109,7 @@
   },
   {
     "name": "Susan Kare",
-    "img": "URL_DE_LA_IMAGEN_SUSAN_KARE",
+    "img": "./img/Susan-Kare.png",
     "statistics": {
       "value": 1954,
       "label": "año de nacimiento"
@@ -118,7 +118,7 @@
   },
   {
     "name": "Mary Lou Jepsen",
-    "img": "URL_DE_LA_IMAGEN_MARY_LOU_JEPSEN",
+    "img": "./img/Mary-Lou-Jepsen.png",
     "statistics": {
       "value": 1965,
       "label": "año de nacimiento"
@@ -127,7 +127,7 @@
   },
   {
     "name": "Danielle Feinberg",
-    "img": "URL_DE_LA_IMAGEN_DANIELLE_FEINBERG",
+    "img": "./img/Danielle-Feinberg.png",
     "statistics": {
       "value": 1970,
       "label": "año de nacimiento"
@@ -136,7 +136,7 @@
   },
   {
     "name": "Ruchi Sanghvi",
-    "img": "URL_DE_LA_IMAGEN_RUCHI_SANGHVI",
+    "img": "./img/Ruchi-Sanghvi.png",
     "statistics": {
       "value": 1982,
       "label": "año de nacimiento"
@@ -145,7 +145,7 @@
   },
   {
     "name": "Elaine Weyuker",
-    "img": "URL_DE_LA_IMAGEN_ELAIN_WEYUKER",
+    "img": "./img/Elaine-Weyuker.png",
     "statistics": {
       "value": 1947,
       "label": "año de nacimiento"
@@ -154,7 +154,7 @@
   },
   {
     "name": "Sophie Wilson",
-    "img": "URL_DE_LA_IMAGEN_SOPHIE_WILSON",
+    "img": "./img/Sophie-Wilson.png",
     "statistics": {
       "value": 1957,
       "label": "año de nacimiento"
@@ -163,7 +163,7 @@
   },
   {
     "name": "Radhika Nagpal",
-    "img": "URL_DE_LA_IMAGEN_RADHIKA_NAGPAL",
+    "img": "./img/Radhika-Nagpal.png",
     "statistics": {
       "value": 1971,
       "label": "año de nacimiento"
@@ -172,7 +172,7 @@
   },
   {
     "name": "Helen Greiner",
-    "img": "URL_DE_LA_IMAGEN_HELEN_GREINER",
+    "img": "./img/Helen-Greiner.png",
     "statistics": {
       "value": 1967,
       "label": "año de nacimiento"
@@ -181,7 +181,7 @@
   },
   {
     "name": "Lydia E. Kavraki",
-    "img": "URL_DE_LA_IMAGEN_LYDIA_KAVRAKI",
+    "img": "./img/Lydia-E.-Kavraki.png",
     "statistics": {
       "value": 1965,
       "label": "año de nacimiento"
@@ -190,7 +190,7 @@
   },
   {
     "name": "Barbara Liskov",
-    "img": "URL_DE_LA_IMAGEN_BARBARA_LISKOV",
+    "img": "./img/Barbara-Liskov.png",
     "statistics": {
       "value": 1939,
       "label": "año de nacimiento"
@@ -199,7 +199,7 @@
   },
   {
     "name": "Jade Raymond",
-    "img": "URL_DE_LA_IMAGEN_JADE_RAYMOND",
+    "img": "./img/Jade-Raymond.png",
     "statistics": {
       "value": 1975,
       "label": "año de nacimiento"
@@ -208,7 +208,7 @@
   },
   {
     "name": "Evelyn Berezin",
-    "img": "URL_DE_LA_IMAGEN_EVELYN_BEREZIN",
+    "img": "./img/Evelyn-Berezin.png",
     "statistics": {
       "value": 1925,
       "label": "año de nacimiento"
