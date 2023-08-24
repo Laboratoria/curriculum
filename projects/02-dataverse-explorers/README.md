@@ -111,10 +111,11 @@ historia, países, películas... etc. El archivo JSON debe tener una cantidad de
 objetos. Y la estructura de cada objeto deberá ser la siguiente:
 
 * `name:` Nombre del dato que se va dibujar en la vista.
-* `img:` URL de la imagen. Esta imagen será generada a través de alguna herramienta basada en AI. Una vez generada la imagen, ésta será descargada y guardada en
-  una carpeta del proyecto. La URL de esta imagen será agregada manualmente al
-  JSON generado por la AI. Para generar esta imagen, te recomendamos esta
-  [herramienta](https://huggingface.co/spaces/nota-ai/compressed-stable-diffusion).
+* `img:` URL de la imagen. Esta imagen será generada a través de alguna
+  herramienta basada en AI. Una vez generada la imagen, ésta será descargada
+  y guardada en una carpeta del proyecto. La URL de esta imagen será agregada
+  manualmente al JSON generado por la AI. Para generar esta imagen, te
+  recomendamos esta [herramienta](https://huggingface.co/spaces/nota-ai/compressed-stable-diffusion).
 * `statistics:` Un objeto con las siguientes propiedades:
   - `value`: Un valor numérico para el cálculo agregado (por ejemplo,
     puntuaciones, cantidades, fechas, etc).
