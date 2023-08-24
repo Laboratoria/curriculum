@@ -56,58 +56,7 @@ Así que tu tarea en este proyecto
 será pedirle a la IA un set de datos en formato [JSON](https://www.json.org/json-es.html)
 para que lo puedas consumir en tu proyecto y mostrar la data en una página web.
 
-La temática será a tu gusto, por ejemplo, pueden ser personajes importantes en la
-historia, países, películas... etc. La estructura de este archivo JSON deberá ser
-la siguiente:
-
-* `name:` Nombre del dato a dibujar en el front.
-* `short-description:` Descripción corta sobre el dato.
-* `img:` URL de la imagen. Esta imagen será generada a través del método Stable
-  diffussion. Una vez generada la imagen, ésta será descargada y guardada en
-  una carpeta del proyecto. La URL de esta imagen será agregada manualmente al
-  JSON generado por la AI. Para generar esta imagen, te recomendamos esta
-  [herramienta](https://huggingface.co/spaces/nota-ai/compressed-stable-diffusion).
-* `number:` Un valor numérico para el cálculo agregado (por ejemplo,
-  puntuaciones, cantidades, etc).
-* `number-description:` Descripción de lo que representa el número anterior.
-* `long-description:` Descripción larga sobre el dato.
-* `extras:` Es importante que contenga un objeto interior con al menos dos
-  valores, por ejemplo si tu data es sobre países puedes crear este objeto
-  interno con los siguientes valores:
-  - Idioma oficial
-  - Población
-
-  Los nombres de la propiedades internas del objeto `extras` las puedes
-  elegir tu.
-
-Un ejemplo de data, según los requisitos anteriores podría ser:
-
-```json
-{
-  "name": "Ada Lovelace",
-  "short-description": "Primera programadora de la historia",
-  "img": "URL_DE_LA_IMAGEN_GENERADA",
-  "number": 1843,
-  "number-description": "año de nacimiento",
-  "long-description": "Augusta Ada King, Condesa de Lovelace, fue una
-    matemática y escritora británica. Es conocida por su trabajo en la
-    máquina analítica de Charles Babbage, donde escribió el primer
-    algoritmo destinado a ser procesado por una máquina. Por esta razón,
-    es considerada la primera programadora de la historia.",
-  "extras": {
-    "country-of-birth": "Inglaterra",
-    "country of death": "Inglaterra",
-  }
-}
-```
-
-Una vez hayas delimitado tu campo de interés y generado el JSON con la
-asistencia de la IA, dedica tiempo a comprender a fondo a tu usuario y sus
-necesidades específicas. A partir de esta comprensión, podrás diseñar la
-interfaz que facilite una interacción más efectiva y una comprensión más
-completa de los datos presentados.
-
-El propósito central de este proyecto radica en brindarte la oportunidad de
+El proposito de generar la data en esta manera es brindarte la oportunidad de
 adentrarte en el empleo de herramientas impulsadas por la inteligencia
 artificial, así como en tecnicas de
 [Prompting](https://learnprompting.org/es/docs/intro). Además,
@@ -154,6 +103,45 @@ Criterios de Aceptación para cada una.
 
 En la medida de lo posible, termina una historia de usuario antes de pasar
 a la siguiente (Cumple con Definición de Terminado + Criterios de Aceptación).
+
+### Generar de la data
+
+La temática será a tu gusto, por ejemplo, pueden ser personajes importantes en la
+historia, países, películas... etc. El archivo JSON debe tener una cantidad de 24
+objetos. Y la estructura de cada objeto deberá ser la siguiente:
+
+* `name:` Nombre del dato que se va dibujar en la vista.
+* `img:` URL de la imagen. Esta imagen será generada a través de alguna herramienta basada en AI. Una vez generada la imagen, ésta será descargada y guardada en
+  una carpeta del proyecto. La URL de esta imagen será agregada manualmente al
+  JSON generado por la AI. Para generar esta imagen, te recomendamos esta
+  [herramienta](https://huggingface.co/spaces/nota-ai/compressed-stable-diffusion).
+* `statistics:` Un objeto con las siguientes propiedades:
+  - `value`: Un valor numérico para el cálculo agregado (por ejemplo,
+    puntuaciones, cantidades, fechas, etc).
+  - `label`: Descripción el valor numérico
+* `description:` Descripción corta sobre el dato.
+
+Un ejemplo de data, según los requisitos anteriores podría ser:
+
+```json
+[
+  {
+    "name": "Ada Lovelace",
+    "img": "URL_DE_LA_IMAGEN_GENERADA",
+    "statistic": {
+      "value": 1843,
+      "label": "año de nacimiento",
+    },
+    "description": "Primera programadora de la historia",
+  }
+]
+```
+
+Una vez hayas delimitado tu campo de interés y generado el JSON con la
+asistencia de la AI, dedica tiempo a comprender a fondo a tu usuario y sus
+necesidades específicas. A partir de esta comprensión, podrás diseñar la
+interfaz que facilite una interacción más efectiva y una comprensión más
+completa de los datos presentados.
 
 ### Diseño de la Interfaz de Usuario
 
