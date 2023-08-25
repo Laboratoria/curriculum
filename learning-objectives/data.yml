@@ -80,6 +80,7 @@ java:
         - constructors
         - encapsulation
       - abstraction
+      - composition
       - interface
       - polimorphism
       - inherit:
