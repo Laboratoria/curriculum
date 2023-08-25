@@ -79,6 +79,8 @@ java:
         - attributes
         - constructors
         - encapsulation
+      - uml: 
+        - class-diagram
       - abstraction
       - composition
       - interface
