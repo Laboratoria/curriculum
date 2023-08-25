@@ -124,11 +124,18 @@ spring:
     - annotations
   - spring-boot:
     - servlets
-    - controllers
-    - services
+    - component:
+      -  controllers
+      -  services
   - spring-data-jpa:
     - entities
     - repository
+  - spring-web:
+    - rest-controller
+    - request-mapping:
+      - getmapping
+      - postmapping
+    - request-param
   - setup:
     - initializr
     - gradle
