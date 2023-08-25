@@ -116,13 +116,21 @@ hibernate:
   - update
   - delete
 
-spring: 
+spring:
+  - core-concepts:
+    - beans
+    - inversion-of-control
+    - annotations
+  - spring-boot:
+    - servlets
+    - controllers
+    - services
+  - spring-data-jpa:
+    - entities
+    - repository
   - setup:
     - initializr
     - gradle
-  - spring-jpa
-  - spring-web
-  - spring-security
    
 
 scm:
