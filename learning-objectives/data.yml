@@ -101,6 +101,9 @@ java:
     - map:
       - hashmap
   - exceptions
+  - testing:
+    - junit
+    - mocks
 
 hibernate: 
   - setup
@@ -136,6 +139,10 @@ spring:
       - getmapping
       - postmapping
     - request-param
+  - spring-boot-starter-test:
+    - test-configuration
+    - test
+    - mock-bean
   - setup:
     - initializr
     - gradle
