@@ -3,7 +3,7 @@ import analyzer from '../src/analyzer';
 
 
 const TEST_TEXT_NO_NUMBERS = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
-const TEST_TEXT_NUMBERS = 'If I have 8 apples and i buy 2 more, how many apples do i have in total?';
+const TEST_TEXT_NUMBERS = 'If I have 8 apples and I buy 2 more, how many apples do I have in total?';
 const TEST_TEXT_DECIMALS = 'Calculate the sum of 1.65 plus 0.15 plus 1.10.';
 const TEST_TEXT_NOT_A_NUMBER = 'This is not a number: 41u0003jot';
 
@@ -56,7 +56,7 @@ describe('analyzer', () => {
       expect(analyzer.getNumberSum(TEST_TEXT_NOT_A_NUMBER)).toBe(0);
     });
 
-    it('debería should return 2.9 for "' + TEST_TEXT_DECIMALS + '"', () => {
+    it('should return 2.9 for "' + TEST_TEXT_DECIMALS + '"', () => {
       expect(analyzer.getNumberSum(TEST_TEXT_DECIMALS)).toBe(2.9);
     });
 
