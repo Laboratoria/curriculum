@@ -50,7 +50,8 @@ explores y decidas con qué temática te interesa trabajar. Hemos elegido
 específicamente estos sets de datos porque creemos que se adecúan bien a esta
 etapa de tu aprendizaje.
 
-Una vez que definas tu área de interés, busca entender quién es tu usuaria y qué necesita saber o ver exactamente; luego podrás construir la interfaz que
+Una vez que definas tu área de interés, busca entender quién es tu usuaria y qué
+necesita saber o ver exactamente; luego podrás construir la interfaz que
 le ayude a interactuar y entender mejor esos datos.
 
 Estos son datos que te proponemos:
@@ -72,7 +73,8 @@ Estos son datos que te proponemos:
   - [Investigación con seguidores de Rick and Morty](src/data/rickandmorty/README.md)
 
 * [Juegos Olímpicos de Río de Janeiro](src/data/athletes/athletes.json).
-  Este set nos proporciona la lista de los atletas que ganaron medallas en las olimpiadas de Río de Janeiro.
+  Este set nos proporciona la lista de los atletas que ganaron medallas en
+  las olimpiadas de Río de Janeiro.
   - [Investigación con interesados en juegos olímpicos de Río de Janeiro](src/data/athletes/README.md)
 
 * [Studio Ghibli](src/data/ghibli/ghibli.json).
@@ -80,22 +82,36 @@ Estos son datos que te proponemos:
   [Studio Ghibli](https://ghiblicollection.com/).
   - [Investigación con seguidores de las animaciones del Studio Ghibli](src/data/ghibli/README.md)
 
-El objetivo principal de este proyecto es que aprendas a diseñar y construir una interfaz web donde se pueda visualizar y manipular data, entendiendo lo que tu usuaria necesita.
+El objetivo principal de este proyecto es que aprendas a diseñar y construir
+una interfaz web donde se pueda visualizar y manipular data,
+entendiendo lo que tu usuaria necesita.
 
 ## 3. Funcionalidades
 
 Como entregable final tendrás una página web que permita **visualizar la data,
-filtrarla, ordenarla y calcular alguna estadística**. 
+filtrarla, ordenarla y calcular alguna estadística**.
 
 Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
 
-- La aplicación debe permitir a la usuaria ver los items de la data en una visualización, que puede ser [tipo tarjetas](http://www.uxables.com/diseno-ux-ui/que-es-y-como-disenar-una-card/) o cualquier otra forma que tú decidas como la adecuada (pero desde aquí referimos a los items como "tarjetas"). **Cada una de las tarjetas debe estar contenida en un elemento `<li>` y estos a su vez contenido en un elemento `<ul>`.**
+* La aplicación debe permitir a la usuaria ver los items de la data en una visualización,
+  que puede ser [tipo tarjetas](http://www.uxables.com/diseno-ux-ui/que-es-y-como-disenar-una-card/)
+  o cualquier otra forma que tú decidas como la adecuada (pero desde aquí
+  referimos a los items como "tarjetas"). **Cada una de las tarjetas debe estar
+  contenida en un elemento `<li>` y estos a su vez contenido en
+  un elemento `<ul>`.**
 
-- El elemento `<ul>` deberá ser hijo de un elemento con atributo _id_ de valor "root".
+* El elemento `<ul>` deberá ser hijo de un elemento con atributo _id_
+  de valor "root".
 
-- Las tarjetas deben resaltar los valores de las propiedades de la data que le interesaría a la usuaria ver. Por ejemplo: nombre, fecha, imagen, etc. **Si vas a filtrar u ordenar por una propiedad, la tarjeta tiene que mostrar el valor de esta propiedad a la usuaria.**.
+* Las tarjetas deben resaltar los valores de las propiedades de la data que
+  le interesaría a la usuaria ver. Por ejemplo: nombre, fecha, imagen, etc.
+  **Si vas a filtrar u ordenar por una propiedad, la tarjeta tiene que mostrar
+  el valor de esta propiedad a la usuaria.**
 
-- La interfaz debe estructurar semánticamente la data usando el estándar [microdatos](https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata). Es obligatorio usar al menos los atributos [`itemscope`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope), [`itemtype`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemtype) y  el atributo [`itemprop`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop). 
+* La interfaz debe estructurar semánticamente la data usando el estándar [microdatos](https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata).
+  Es obligatorio usar al menos los atributos [`itemscope`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope),
+  [`itemtype`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemtype)
+  y el atributo [`itemprop`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop).
 
   Por ejemplo, la siguiente data correspondiente a pokemón Pikachu:
 
@@ -116,31 +132,60 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
     <dt>Rarity:</dt><dd itemprop="pokemon-rarity">normal</dd>
   </dl>
   ```
-- La aplicación debe calcular y visualizar una estadística de la data. Puede ser una propiedad computada de cada item, como una propiedad adicional (por ejemplo, el índice de masa corporal de cada pokemon) o unas estadísticas de la data completa (por ejemplo, peso promedio de todos los pokemones).
 
-- La aplicación debe permitir a la usuaria filtrar la data. Deberás usar un elemento [`<select>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select) con [un atributo de datos](https://developer.mozilla.org/es/docs/Learn/HTML/Howto/Use_data_attributes) `data-testid="select-filter"`, y un atributo `name` con el nombre de la propiedad por la que filtrará (por ejemplo, si vas a filtrar por "type" el `<select>` tendrá  `name="type"`). Los `<option>` de este `<select>` deberán tener en el atributo `value` el valor del filtro (por ejemplo, si vas a filtrar por type "fire" sería `<option value="fire">Fire</option>`). 
+* La aplicación debe calcular y visualizar una estadística de la data. Puede
+  ser una propiedad computada de cada item, como una propiedad adicional
+  (por ejemplo, el índice de masa corporal de cada pokemon) o unas estadísticas
+  de la data completa (por ejemplo, peso promedio de todos los pokemones).
 
-- La aplicación debe permitir a la usuaria ordenar la data. 
-  * Tendrá al menos un control `<select>` para ordenar.
-  * Si usas solo un control `<select>`, debe tener [un atributo de datos](https://developer.mozilla.org/es/docs/Learn/HTML/Howto/Use_data_attributes) `data-testid="select-sort"` y un atributo `name` con el nombre de la propiedad por la que ordenará. (por ejemplo, si vas a ordenar por "num" seria `name="num"`). Este `<select>` tendrá 
-    dos [`<option>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option) con `value` `asc` y `desc`, para ordenar ascendente y descendente la data respectivamente (por ejemplo, `<option value="asc">A - Z</option>`). 
-  * Una alternativa es ofrecer la usuaria un ordenamiento mas complejo. Podrías implementar ordenar por varios propiedades. En este caso sería un `<select>` con un atributo de datos `data-testid="select-sort"`, y que contiene hijos `<option>` con un `value` del nombre de la propiedad con cual vas a ordenar. (Por ejemplo, `<option value="name">Nombre</option>`).  También, necesitarás otro control (`<radio>`,`<select>`, etc.) para decir que el ordenamiento es ascendente o descendente. Este control secundaria tendrá un atributo `name="sort-order"`, y tiene values `asc` y `desc`.
+* La aplicación debe permitir a la usuaria filtrar la data. Deberás usar
+  un elemento [`<select>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
+  con [un atributo de datos](https://developer.mozilla.org/es/docs/Learn/HTML/Howto/Use_data_attributes)
+  `data-testid="select-filter"`, y un atributo `name` con el nombre
+  de la propiedad por la que filtrará (por ejemplo, si vas a filtrar por "type",
+  el `<select>` tendrá  `name="type"`). Los `<option>` de este `<select>` deberán
+  tener en el atributo `value` el valor del filtro (por ejemplo, si vas a filtrar
+  por type "fire" sería `<option value="fire">Fire</option>`).
 
-- Las funcionalidades de ordenar deben operar sobre la data filtrada. Por ejemplo, si filtro los pokemones de tipo fuego y luego los ordeno por nombre ascendentemente, la aplicación deberá mantener el filtro aplicado y ordenar los pokemones de tipo fuego.
+* La aplicación debe permitir a la usuaria ordenar la data.
+  - Tendrá al menos un control `<select>` para ordenar.
+  - Si usas solo un control `<select>`, debe tener
+    [un atributo de datos](https://developer.mozilla.org/es/docs/Learn/HTML/Howto/Use_data_attributes)
+    `data-testid="select-sort"` y un atributo `name` con el nombre de la
+    propiedad por la que ordenará. (por ejemplo, si vas a ordenar por
+    "num" seria `name="num"`). Este `<select>` tendrá dos [`<option>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option)
+    con `value` `asc` y `desc`, para ordenar ascendente y descendente la data
+    respectivamente (por ejemplo, `<option value="asc">A - Z</option>`).
+  - Una alternativa es ofrecer la usuaria un ordenamiento mas complejo.
+    Podrías implementar ordenar por varios propiedades. En este caso sería con
+    un `<select>` con un atributo de datos `data-testid="select-sort"`, y que
+    contiene hijos `<option>` con un `value` del nombre de la propiedad con
+    cual vas a ordenar. (Por ejemplo, `<option value="name">Nombre</option>`).
+    También, necesitarás otro control (`<radio>`,`<select>`, etc.) para decir
+    que el ordenamiento es ascendente o descendente. Este control secundaria
+    tendrá un atributo `name="sort-order"`, y tiene values `asc` y `desc`.
 
-- La aplicación debe permitir a la usuaria reiniciar la aplicación, limpiando filtros y ordenamiento, con un `<button>` con un atributo de datos `data-testid="button-clear"`.
+* Las funcionalidades de ordenar deben operar sobre la data filtrada.
+  Por ejemplo, si filtro los pokemones de tipo fuego y luego los ordeno por
+  nombre ascendentemente, la aplicación deberá mantener el filtro aplicado y
+  ordenar los pokemones de tipo fuego.
 
-- Las operaciones de filtrar, ordenar, limpiar, etc. no deben recargar la página, si no que deben agregar el contenido en una manera
+* La aplicación debe permitir a la usuaria reiniciar la aplicación, limpiando
+  filtros y ordenamiento, con un `<button>` con un atributo de datos
+  `data-testid="button-clear"`.
+
+* Las operaciones de filtrar, ordenar, limpiar, etc. no deben recargar
+  la página, si no que deben agregar el contenido en una manera
   dinámica via javascript.
 
-- La aplicación será _responsive_, es decir, debe visualizarse sin problemas desde distintos tamaños de pantallas: móviles, tablets y desktops.
+* La aplicación será _responsive_, es decir, debe visualizarse sin problemas
+  desde distintos tamaños de pantallas: móviles, tablets y desktops.
 
-Estos wireframes son ejemplos de un interfaz que puede cumplir con esta funcionalidad:
+Estos wireframes son ejemplos de un interfaz que puede cumplir con esta
+funcionalidad:
 
-<div style="display:flex;">
-<img src="https://github.com/Laboratoria/impl-data-lovers/assets/92090/1625aeb8-883c-4b79-86da-5fab34fa5b88" width="400">
-<img src="https://github.com/Laboratoria/impl-data-lovers/assets/92090/6cef16bc-643a-4d6d-bc1c-e0daaeb21c88" width="400" style="margin-left:20px" >
-</div>
+* [Wireframe 1](https://github-production-user-asset-6210df.s3.amazonaws.com/92090/261137084-1625aeb8-883c-4b79-86da-5fab34fa5b88.png)
+* [Wireframe 2](https://github-production-user-asset-6210df.s3.amazonaws.com/92090/261137087-6cef16bc-643a-4d6d-bc1c-e0daaeb21c88.png)
 
 ## 4. Consideraciones generales
 
@@ -148,7 +193,7 @@ Estos wireframes son ejemplos de un interfaz que puede cumplir con esta funciona
 * El rango de tiempo estimado para completar el proyecto es de 3 a 4 Sprints.
 * El proyecto será entregado subiendo tu código a
   [GitHub](https://github.com/) (commit/push) y la interfaz será desplegada
-  usando [GitHub Pages](https://pages.github.com/)..
+  usando [GitHub Pages](https://pages.github.com/).
 
 ## 5. Consideraciones técnicas
 
@@ -246,12 +291,13 @@ a obtener, procesar y manipular datos (tus funciones). Por ejemplo:
   ascendente o descendente.
 
 * `computeStats(data)`: la función `compute` o calcular, nos permitirá hacer
-  cálculos estadísticos básicos para ser mostrados de acuerdo a la data proporcionada, esta función debe usar el método reduce.
+  cálculos estadísticos básicos para ser mostrados de acuerdo a la data
+  proporcionada, esta función debe usar el método reduce.
 
 Estas funciones deben ser [_puras_](https://medium.com/laboratoria-developers/introducci%C3%B3n-a-la-programaci%C3%B3n-funcional-en-javascript-parte-2-funciones-puras-b99e08c2895d)
 e independientes del DOM. Estas funciones serán después usadas desde el archivo
-`src/main.js`, al cargar la página, y cada vez que la usuaria interactúe (click,
-filtrado, ordenado, ...).
+`src/main.js`, al cargar la página, y cada vez que la usuaria interactúe
+(click, filtrado, ordenado, ...).
 
 ### `src/data`
 
@@ -280,29 +326,32 @@ si sea necesario para tus tests.
 
 Para alcanzar mejor separación de responsabilidades en el código este
 archivo debe tener todas las funciones que utilizara para renderizar
-los elementos dinámicamente. 
+los elementos dinámicamente.
 
 Al menos requerimos una función obligatoria:
 
 * `renderItems(data)`: esta función recibe el arreglo de data para renderizar
-  los elementos de cada item, y debería volver un elemento DOM o un string de HTML.
-
+  los elementos de cada item, y debería volver un elemento DOM o
+  un string de HTML.
 
 ## 6. Criterios de aceptación mínimos del proyecto
 
 ### Criterios de código
 
-Con cada objetivo de aprendizaje, evaluamos que el código cumpla con algunos criterios.
-Lo cual no excluye que puedas usar otras opciones, por ejemplo en el caso de los selectores, proponemos el uso de
-`querySelector`, no significa que no puedes usar `querySelectorAll` o `getElementId` también.
+Con cada objetivo de aprendizaje, evaluamos que el código cumpla con algunos
+criterios. Lo cual no excluye que puedas usar otras opciones, por ejemplo
+en el caso de los selectores, proponemos el uso de `querySelector`,
+no significa que no puedes usar `querySelectorAll` o `getElementId` también.
 
-Puedes ejecutar las pruebas de cada grupo de objetivos de aprendizaje de manera individual con los siguientes comandos:
+Puedes ejecutar las pruebas de cada grupo de objetivos de aprendizaje de manera
+individual con los siguientes comandos:
+
 ``` sh
 npm run test:oas-html
 npm run test:oas-css
 npm run test:oas-web-api
 npm run test:oas-js
-npm run test:oas // Esto es para correr todos los tests de OAs.
+npm run test:oas // Esto es para correr todos los tests de OAs
 ```
 
 #### HTML
@@ -329,77 +378,78 @@ npm run test:oas // Esto es para correr todos los tests de OAs.
 
 * **Uso de selectores del DOM**
 
-  - [ ] La aplicación usa
-  [`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) para buscar los elementos del DOM
+  - [ ] La aplicación usa [`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+    para buscar los elementos del DOM
   
 * **Manejo de eventos del DOM (listeners, propagación, delegación)**
 
-  - [ ] `addEventListener` con callback que tiene parámetro de `event`, lo que permite el
-    uso del objeto [`event`](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_objects) 
+  - [ ] `addEventListener` con callback que tiene parámetro de `event`,
+    lo que permite el uso del objeto [`event`](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_objects)
     con `event.target` o `event.currentTarget`
   - [ ] La aplicación registra [Event Listeners](https://developer.mozilla.org/en/docs/Web/API/EventTarget/addEventListener)
-    para escuchar `click`, `change`, `keyup` dependiendo del evento que se quiere escuchar
+    para escuchar `click`, `change`, `keyup` dependiendo del evento que
+    se quiere escuchar
 
 * **Manipulación dinámica del DOM**
 
-  - [ ] La aplicación actualiza el atributo
-  [`innerHTML`](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML).
-  - [ ] La aplicación usa `createElement` y `appendChild`, o template strings para crear elementos
+  - [ ] La aplicación actualiza el atributo [`innerHTML`](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML).
+  - [ ] La aplicación usa `createElement` y `appendChild`, o template strings
+    para crear elementos
 
 #### JavaScript
 
-  * **Variables (declaración, asignación, ámbito)**
+* **Variables (declaración, asignación, ámbito)**
 
-    - [ ] La aplicación declara variables con
-    [`let`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
-    y
-    [`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
+  - [ ] La aplicación declara variables con [`let`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+    y [`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
     en manera adecuada
 
-  * **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
+* **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
 
-    - [ ] La aplicación usa el statement
+  - [ ] La aplicación usa el statement
     [`if..else`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
-    para evaluar condiciones.
+      para evaluar condiciones
 
-  * **Uso de bucles/ciclos (while, for, for..of)**
+* **Uso de bucles/ciclos (while, for, for..of)**
 
-    - [ ] La aplicación usa el statement
-    [`for`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) o
-    método [`forEach`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) para iterar
+  - [ ] La aplicación usa el statement [`for`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+    o método [`forEach`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+    para iterar
 
-  * **Funciones (params, args, return)**
+* **Funciones (params, args, return)**
 
-    En el archivo `dataFunctions.js` define las siguientes funciones:
-    - [ ] una función `sortBy` que tiene 3 parámetros (`data`, `sortBy`, `sortOrder`) y devuelve el arreglo ordenado
-    - [ ] una función `filterBy` que tiene 3 parámetros (`data`, `filterBy`, `value`) y devuelve el arreglo filtrado
-    - [ ] una función `computeStats` que tiene al menos un parámetro (`data`) y devuelve un valor computado.
-    Más sobre estos puntos en [la sección dataFunctions.js](#src/dataFunctions.js)
-  
-  * **Arrays (arreglos)**
+  En el archivo `dataFunctions.js` define las siguientes funciones:
+  - [ ] una función `sortBy` que tiene 3 parámetros (`data`, `sortBy`, `sortOrder`)
+    y devuelve el arreglo ordenado
+  - [ ] una función `filterBy` que tiene 3 parámetros (`data`, `filterBy`, `value`)
+    y devuelve el arreglo filtrado
+  - [ ] una función `computeStats` que tiene al menos un parámetro (`data`)
+    y devuelve un valor computado
 
-    - [ ] Uso de [Arreglos](https://curriculum.laboratoria.la/es/topics/javascript/04-arrays)
-    - [ ] Uso de [Array.prototype.sort() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) o [Array.prototype.toSorted - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted)
-    - [ ] Uso de [Array.prototype.forEach() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-    - [ ] Uso de [Array.prototype.map() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-    - [ ] Uso de [Array.prototype.filter() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-    - [ ] Uso de [Array.prototype.reduce() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+  Más sobre estos puntos en [la sección dataFunctions.js](#src/dataFunctions.js)
 
-  * **Objetos**
+* **Arrays (arreglos)**
 
-    - [ ] Uso de notación de punto para [acceder propiedades](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors)
-    - [ ] Uso de notación de brackets para [acceder propiedades](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors)
+  - [ ] Uso de [Arreglos](https://curriculum.laboratoria.la/es/topics/javascript/04-arrays)
+  - [ ] Uso de [Array.prototype.sort() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+    o [Array.prototype.toSorted - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted)
+  - [ ] Uso de [Array.prototype.forEach() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+  - [ ] Uso de [Array.prototype.map() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+  - [ ] Uso de [Array.prototype.filter() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+  - [ ] Uso de [Array.prototype.reduce() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 
+* **Objetos**
 
-  * **Módulos de ECMAScript (ES Modules)**
+  - [ ] Uso de notación de punto para [acceder propiedades](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors)
+  - [ ] Uso de notación de brackets para [acceder propiedades](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors)
 
-    - [ ] La aplicación usa
-    [`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
-    y
-    [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export)
+* **Módulos de ECMAScript (ES Modules)**
+
+  - [ ] La aplicación usa [`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
+    y [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export)
     para importar y exportar valores desde un modulo JavaScript.
 
-###  Criterios de proyecto
+### Criterios del proyecto
 
 #### Definición del producto
 
@@ -417,7 +467,8 @@ ser el resultado de tu proceso de investigación o _research_ de tus usuarios.
 Asegúrate de incluir la definición de terminado (_definition of done_) y los
 Criterios de Aceptación para cada una.
 
-Usa tus historias de usuario para planificar tus sprints dividiendo cada historia en tareas.
+Usa tus historias de usuario para planificar tus sprints dividiendo
+cada historia en tareas.
 
 En la medida de lo posible, termina una Historia de Usuario antes de pasar
 a la siguiente (Cumple con Definición de Terminado + Criterios de Aceptación).
@@ -446,12 +497,12 @@ El diseño debe representar el _ideal_ de tu solución. Digamos que es lo que
 desearías implementar si tuvieras tiempo ilimitado para trabajar. Además, tu
 diseño debe seguir los fundamentos de _visual design_.
 
-
 Recuerda pedir feedback de tu prototipo a tus compañeras y/o coaches.
 
 #### Testeos de usabilidad
 
-Durante el reto deberás hacer _tests_ de usabilidad con distintos usuarios, y con base en los resultados, deberás iterar tus diseños. Cuéntanos
+Durante el reto deberás hacer _tests_ de usabilidad con distintos usuarios,
+y con base en los resultados, deberás iterar tus diseños. Cuéntanos
 qué problemas de usabilidad detectaste a través de los _tests_ y cómo los
 mejoraste en tu propuesta final.
 
@@ -473,7 +524,8 @@ que te recomendamos consultar su documentación.
 
 Tus _pruebas unitarias_ deben dar una cobertura del 70% de _statements_
 (_sentencias_), _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
-(_ramas_) del archivo `src/dataFunctions.js` que contenga tus funciones y está detallado en la sección de [Consideraciones técnicas](#src/data.js).
+(_ramas_) del archivo `src/dataFunctions.js` que contenga tus funciones y
+está detallado en la sección de [Consideraciones técnicas](#src/data.js).
 
 ## 7. Hacker edition
 
@@ -513,7 +565,9 @@ Súmate al canal de Slack
 [#project-data-lovers](https://claseslaboratoria.slack.com/archives/C03MV35EP5M)
 para conversar y pedir ayuda del proyecto.
 
-Antes de empezar a escribir código, debes definir qué deberá hacer el producto con base en el conocimiento que puedas obtener de tu usuaria. Estas preguntas te pueden ayudar:
+Antes de empezar a escribir código, debes definir qué deberá hacer el
+producto con base en el conocimiento que puedas obtener de tu usuaria.
+Estas preguntas te pueden ayudar:
 
 * ¿Quiénes son los principales usuarios de producto?
 * ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
@@ -598,22 +652,24 @@ Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
 
 * [ ] Cumple con todos los criterios mínimos de aceptación al ejecutar `npm run test:oas`
 * [ ] Cumple con todas las pruebas _end to end_ al ejecutar `npm run test:e2e`
-* [ ] Cumple con todas las pruebas unitarias al ejecutar `npm run test` y que tienen una cobertura del 70% de _statements_
-  (_sentencias_), _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
+* [ ] Cumple con todas las pruebas unitarias al ejecutar `npm run test` y
+  que tienen una cobertura del 70% de _statements_ (_sentencias_),
+  _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
 * [ ] Esta libre de _errores_ de `eslint` al ejecutar `npm run pretest`
-* [ ] Está subido a GitHub y desplegado en GitHub Pages.
+* [ ] Está subido a GitHub y desplegado en GitHub Pages
 * Tiene un `README.md` con la siguente:
       - [ ] _Definición del producto_ clara e informativa
       - [ ] Historias de usuario
       - [ ] Un _sketch_ de la solución (prototipo de baja fidelidad) y
         _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
-      - [ ] El listado de problemas que detectaste a través de tests de usabilidad en el `README.md`
+      - [ ] El listado de problemas que detectaste a través de tests
+        de usabilidad en el `README.md`
 * Tiene un UI que cumple las funcionalidades:
   - [ ] Muestra lista con datos y/o indicadores
   - [ ] Permite ordenar data por uno o más campos (asc y desc)
   - [ ] Permite filtrar data con base en una condición
   - [ ] Permite limpiar los filtros con un botón
-  - [ ] Es _responsive_ 
+  - [ ] Es _responsive_
 
 Recuerda que debes hacer una autoevaluación de _objetivos de aprendizaje_ y
 _life skills_ desde tu dashboard de estudiante.
