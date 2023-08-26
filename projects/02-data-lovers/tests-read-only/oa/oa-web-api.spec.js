@@ -3,7 +3,7 @@ import fs from 'fs';
 
 //read analyzer.js file
 const mainCode = fs.readFileSync("src/main.js", "utf8");
-const renderCode = fs.readFileSync("src/viewFunctions.js", "utf8");
+const renderCode = fs.readFileSync("src/view.js", "utf8");
 const mainAst = acorn.parse(mainCode, { ecmaVersion: 2020, sourceType: "module" });
 const ast =  acorn.parse(renderCode, { ecmaVersion: 2020, sourceType: "module", program: mainAst});
 

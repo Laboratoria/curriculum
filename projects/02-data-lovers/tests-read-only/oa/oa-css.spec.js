@@ -4,7 +4,7 @@
 */
 import fs from 'fs';
 import css from 'css';
-import { renderItems } from '../../src/viewFunctions.js';
+import { renderItems } from '../../src/view.js';
 import { data as fakeData } from '../../test/data.js';
 
 const html = fs.readFileSync('./src/index.html', 'utf-8');
