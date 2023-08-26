@@ -7,15 +7,23 @@ const renderCode = fs.readFileSync("src/viewFunctions.js", "utf8");
 const mainAst = acorn.parse(mainCode, { ecmaVersion: 2020, sourceType: "module" });
 const ast =  acorn.parse(renderCode, { ecmaVersion: 2020, sourceType: "module", program: mainAst});
 
-
-const getASTMetrics = (node, metrics) => {
-
+           
+const getASTMetrics = (node, [ 
+  querySelectorCalls=[],
+  getElementByIdCalls=[],
+  addEventListenerCalls=[],
+  importStatements=[],
+  textContents=[],
+  innerHTMLs=[],
+  createElementCalls=[],
+  templateCalls=[] ]) => {
+  
   if (
     node.type === "CallExpression" &&
     node.callee.type === "MemberExpression" &&
     node.callee.property.name === "querySelector"
   ) {
-    metrics[0].push(node);
+    querySelectorCalls.push(node);
   }
 
   if (
@@ -23,46 +31,46 @@ const getASTMetrics = (node, metrics) => {
     node.callee.type === "MemberExpression" &&
     node.callee.property.name === "getElementById"
   ) {
-    metrics[1].push(node);
+    getElementByIdCalls.push(node);
   }
 
   if (node.type === "CallExpression" &&
     node.callee.type === "MemberExpression" &&
     node.callee.property.type === "Identifier" &&
     node.callee.property.name === "addEventListener") {
-    metrics[2].push(node);
+    addEventListenerCalls.push(node);
   }
 
   if (node.type === "ImportDeclaration") {
-    metrics[3].push(node);
+    importStatements.push(node);
   }
 
   if (node.type === "AssignmentExpression" &&
     node.left.type === "MemberExpression" &&
     node.left.property.type === "Identifier" &&
     node.left.property.name === "textContent") {
-    metrics[4].push(node);
+    textContents.push(node);
   }
 
   if (node.type === "AssignmentExpression" &&
     node.left.type === "MemberExpression" &&
     node.left.property.type === "Identifier" &&
     node.left.property.name === "innerHTML") {
-    metrics[5].push(node);
+    innerHTMLs.push(node);
   }
 
   if (node.type === "CallExpression" &&
    node.callee.type === "MemberExpression" &&
     node.callee.property.type === "Identifier" &&
     (node.callee.property.name === "createElement" || node.callee.property.name === "appendChild")) {
-    metrics[6].push(node);
+    createElementCalls.push(node);
   }
 
-  if (node.type === "VariableDeclaration" &&
-      node.declarations &&
+  if (node.type === "VariableDeclaration" && 
+      node.declarations && 
       node.declarations[0].init &&
       node.declarations[0].init['type'] === "TemplateLiteral"){
-    metrics[7].push(node);
+    templateCalls.push(node);
   }
 
   for (const key in node) {
@@ -76,8 +84,9 @@ const getASTMetrics = (node, metrics) => {
   }
 }
 
-const metrics = [[], [], [], [], [], [],[],[]];
+const metrics = [[], [], [], [], [], [], [], []];
 getASTMetrics(ast, metrics);
+
 const [
   querySelectorCalls,
   getElementByIdCalls,
@@ -95,18 +104,13 @@ describe('Uso de selectores del DOM', () => {
     expect(querySelectorCalls.length).toBeGreaterThan(0);
   });
 
-  it('Se usa el selector del DOM getElementById', () => {
-    expect(getElementByIdCalls.length).toBeGreaterThan(0);
+  it('Se prefiere el uso de querySelector sobre getElementById', () => {
+    expect(getElementByIdCalls.length < querySelectorCalls.length).toBe(true);
   });
 
 });
 
 describe('Manejo de eventos del DOM', () => {
-  it('Se registra un Event Listener para el evento "keyup"', () => {
-    expect(
-      addEventListenerCalls.some((node) => node.arguments[0].value === "keyup")
-    ).toBeTruthy();
-  });
 
   it('Se registra un Event Listener para el evento "change"', () => {
     expect(
@@ -119,20 +123,21 @@ describe('Manejo de eventos del DOM', () => {
       addEventListenerCalls.some((node) => node.arguments[0].value === "click")
     ).toBeTruthy();
   });
-//aqui falta ver conseguir el current
-  it('Se registra un Event Listener con un event.target', () => {
-    // para probar que hay algun lugar donde se use e.target, como aqui: const arrayType = filterData(data.pokemon, 'type', e.target.value);
-    expect(
-      addEventListenerCalls.some((node) => node.arguments[1].body.body[0].declarations[0].init.arguments[2].object.property.name === 'target')
-    ).toBeTruthy();
-  });
 
   it('Se registra un Event Listener con un parametro de evento', () => {
     expect(
-      addEventListenerCalls.some((node) => node.arguments[1].params[0].name === ('e') || node.arguments[1].params[0].name === ('event'))
+      addEventListenerCalls.some((node) => {
+        if (node.arguments[1].params.length === 0) return false;
+        // que existe un param tipo { target } { currentTarget }
+        const hasTargetParam = node.arguments[1].params[0].type === 'ObjectPattern' && (
+          node.arguments[1].params[0].properties[0].key.name === ('target') ||
+          node.arguments[1].params[0].properties[0].key.name === ('currentTarget'));
+        // que existe un param tipo e, event
+        const hasNamedEventParam = !!(node.arguments[1].params[0].name);
+        return hasNamedEventParam || hasTargetParam;
+      })
     ).toBeTruthy();
   });
-
 });
 
 describe('Manipulación dinámica del DOM', () => {
@@ -143,7 +148,7 @@ describe('Manipulación dinámica del DOM', () => {
 
   it('Existe manipulación dinamica mediante createElement o template strings', () => {
     expect(createElementCalls.length || templateCalls.length).toBeGreaterThan(0);
-  });
+  });  
 
 });
 

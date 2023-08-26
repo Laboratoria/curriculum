@@ -8,10 +8,10 @@
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Consideraciones técnicas](#5-consideraciones-técnicas)
 * [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
-* [7. Hacker edition](#6-hacker-edition)
+* [7. Hacker edition](#7-hacker-edition)
 * [8. Objetivos de aprendizaje](#8-objetivos-de-aprendizaje)
 * [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
-* [10. Consideraciones para pedir tu Project Feedback](#10-consideractiones-para-pedir-tu-project-feedback)
+* [10. Consideraciones para pedir tu Project Feedback](#10-consideraciones-para-pedir-tu-project-feedback)
 
 ***
 
@@ -36,7 +36,7 @@ usuarias, al lado derecho.
 ## 2. Resumen del proyecto
 
 En este proyecto **construirás una _página web_ para visualizar un
-_conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuario
+_conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuaria
 necesita.
 
 Como entregable final tendrás una página web que permita **visualizar la data,
@@ -50,8 +50,7 @@ explores y decidas con qué temática te interesa trabajar. Hemos elegido
 específicamente estos sets de datos porque creemos que se adecúan bien a esta
 etapa de tu aprendizaje.
 
-Una vez que definas tu área de interés, buscar entender quién es tu usuario
-y qué necesita saber o ver exactamente; luego podrás construir la interfaz que
+Una vez que definas tu área de interés, busca entender quién es tu usuaria y qué necesita saber o ver exactamente; luego podrás construir la interfaz que
 le ayude a interactuar y entender mejor esos datos.
 
 Estos son datos que te proponemos:
@@ -73,8 +72,7 @@ Estos son datos que te proponemos:
   - [Investigación con seguidores de Rick and Morty](src/data/rickandmorty/README.md)
 
 * [Juegos Olímpicos de Río de Janeiro](src/data/athletes/athletes.json).
-  Este set nos proporciona la lista de los atletas que ganaron medallas en las
-  olímpiadas de Río de Janeiro.
+  Este set nos proporciona la lista de los atletas que ganaron medallas en las olimpiadas de Río de Janeiro.
   - [Investigación con interesados en juegos olímpicos de Río de Janeiro](src/data/athletes/README.md)
 
 * [Studio Ghibli](src/data/ghibli/ghibli.json).
@@ -82,9 +80,7 @@ Estos son datos que te proponemos:
   [Studio Ghibli](https://ghiblicollection.com/).
   - [Investigación con seguidores de las animaciones del Studio Ghibli](src/data/ghibli/README.md)
 
-El objetivo principal de este proyecto es que aprendas a diseñar y construir una
-interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
-usuario necesita.
+El objetivo principal de este proyecto es que aprendas a diseñar y construir una interfaz web donde se pueda visualizar y manipular data, entendiendo lo que tu usuaria necesita.
 
 ## 3. Funcionalidades
 
@@ -93,12 +89,15 @@ filtrarla, ordenarla y calcular alguna estadística**.
 
 Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
 
-- La aplicación debe permitir a la usuaria ver los items de la data en una visualización, que puede ser [tipo tarjetas](http://www.uxables.com/diseno-ux-ui/que-es-y-como-disenar-una-card/) o cualquier otra forma que tú decidas como la adecuada (pero desde aquí referimos a los items como tarjetas). **Cada "tarjeta" deben estar contenida en un elemento `<li>` hijo de un elemento `<ul>`**.
-- El elemento `<ul>` deberá ser hijo de un elemento con atributo _id_ de valor "root".
-- La interfaz deben mostrar los valores de las propiedades de la data que le interesaría a la usuaria ver. Por ejemplo: nombre, fecha e imagen. **Si vas a filtrar u ordenar por una propiedad, la tarjeta debe mostrar este valor al usuario**.
-- La interfaz debe estructurar semánticamente la data usando el estándar [microdatos](https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata). Es obligatorio usar al menos los atributos [`itemscope`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope), [itemtype](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemtype) y  el atributo [`itemprop`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop). 
+- La aplicación debe permitir a la usuaria ver los items de la data en una visualización, que puede ser [tipo tarjetas](http://www.uxables.com/diseno-ux-ui/que-es-y-como-disenar-una-card/) o cualquier otra forma que tú decidas como la adecuada (pero desde aquí referimos a los items como "tarjetas"). **Cada una de las tarjetas debe estar contenida en un elemento `<li>` y estos a su vez contenido en un elemento `<ul>`.**
 
-  Por ejemplo, la siguiente data correspondiente pokemón Pikachu:
+- El elemento `<ul>` deberá ser hijo de un elemento con atributo _id_ de valor "root".
+
+- Las tarjetas deben resaltar los valores de las propiedades de la data que le interesaría a la usuaria ver. Por ejemplo: nombre, fecha, imagen, etc. **Si vas a filtrar u ordenar por una propiedad, la tarjeta tiene que mostrar el valor de esta propiedad a la usuaria.**.
+
+- La interfaz debe estructurar semánticamente la data usando el estándar [microdatos](https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata). Es obligatorio usar al menos los atributos [`itemscope`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope), [`itemtype`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemtype) y  el atributo [`itemprop`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop). 
+
+  Por ejemplo, la siguiente data correspondiente a pokemón Pikachu:
 
   ```json
     {
@@ -117,22 +116,24 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
     <dt>Rarity:</dt><dd itemprop="pokemon-rarity">normal</dd>
   </dl>
   ```
-- La aplicación debe calcular y visualizar una estadística de la data. Puede ser una propiedad computada de cada item, como
-  una propiedad adicional (por ejemplo, el índice de masa corporal de cada pokemon) o unas estadísticas de la data completa.
-  (por ejemplo, peso promedio de todos los pokemones).
-- La aplicación debe permitir a la usuaria filtrar la data. Deberás usar un elemento [`<select>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select) con un atributo _id_ de valor `select-filter` y un atributo _name_ con el nombre de la propiedad
-    por la que filtrará. (por ejemplo, si vas a filtrar por "type" seria `name="type"`). Los `<options>` de este `<select>` deberán tener _valor_ y _etiqueta_ el valor del filtro (por ejemplo, si vas a filtrar por "fire" seria `<option value="fire">fire</option>`). 
+- La aplicación debe calcular y visualizar una estadística de la data. Puede ser una propiedad computada de cada item, como una propiedad adicional (por ejemplo, el índice de masa corporal de cada pokemon) o unas estadísticas de la data completa (por ejemplo, peso promedio de todos los pokemones).
+
+- La aplicación debe permitir a la usuaria filtrar la data. Deberás usar un elemento [`<select>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select) con [un atributo de datos](https://developer.mozilla.org/es/docs/Learn/HTML/Howto/Use_data_attributes) `data-testid="select-filter"`, y un atributo `name` con el nombre de la propiedad por la que filtrará (por ejemplo, si vas a filtrar por "type" el `<select>` tendrá  `name="type"`). Los `<option>` de este `<select>` deberán tener en el atributo `value` el valor del filtro (por ejemplo, si vas a filtrar por type "fire" sería `<option value="fire">Fire</option>`). 
+
 - La aplicación debe permitir a la usuaria ordenar la data. 
   * Tendrá al menos un control `<select>` para ordenar.
-  * Si usas solo un control `<select>`, debe tener un atributo _id_ con valor `select-sort` y un    atributo _name_ con el nombre de la propiedad por la que ordenará. (por ejemplo, si vas a ordenar por "num" seria `name="num"`). Este `<select>` tendrá 
-    dos [`<option>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option) con _valor_ `asc` y `desc`, para ordenar ascendente y descendente la data respectivamente (por ejemplo, `<option value="asc">A - Z</option>`). 
-  * Una alternativa es ofrecer la usuaria un ordenamiento mas complejo. Podrías implementar ordenar por varios propiedades. En este caso sería un `<select>` con un atributo _id_ con valor `select-sort`, y que contiene hijos `<option>` con un `value` del nombre de la propiedad con cual vas a ordenar. (Por ejemplo, `<option value="name">Nombre</option>`).  También, necesitarás otro control (`<radio>`,`<select>`, etc.) para decir que el ordenamiento es ascendente o descendente. Este control secundaria tendrá un atributo _name_ con valor `sort-order`, y tiene values `asc` y `desc`.
-- Las funcionalidades de ordenar debe operar sobre la data filtrada. Por ejemplo, si filtro los pokemones de tipo fuego y luego los ordeno por nombre ascendentemente, la aplicación deberá mantener el filtro aplicado y ordenar los pokemones de tipo fuego.
-- La aplicación debe permitir a la usuaria reiniciar la aplicación, limpiando filtros y ordenamiento, con un `<button>` con _id_ `button-reset`.
+  * Si usas solo un control `<select>`, debe tener [un atributo de datos](https://developer.mozilla.org/es/docs/Learn/HTML/Howto/Use_data_attributes) `data-testid="select-sort"` y un atributo `name` con el nombre de la propiedad por la que ordenará. (por ejemplo, si vas a ordenar por "num" seria `name="num"`). Este `<select>` tendrá 
+    dos [`<option>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option) con `value` `asc` y `desc`, para ordenar ascendente y descendente la data respectivamente (por ejemplo, `<option value="asc">A - Z</option>`). 
+  * Una alternativa es ofrecer la usuaria un ordenamiento mas complejo. Podrías implementar ordenar por varios propiedades. En este caso sería un `<select>` con un atributo de datos `data-testid="select-sort"`, y que contiene hijos `<option>` con un `value` del nombre de la propiedad con cual vas a ordenar. (Por ejemplo, `<option value="name">Nombre</option>`).  También, necesitarás otro control (`<radio>`,`<select>`, etc.) para decir que el ordenamiento es ascendente o descendente. Este control secundaria tendrá un atributo `name="sort-order"`, y tiene values `asc` y `desc`.
+
+- Las funcionalidades de ordenar deben operar sobre la data filtrada. Por ejemplo, si filtro los pokemones de tipo fuego y luego los ordeno por nombre ascendentemente, la aplicación deberá mantener el filtro aplicado y ordenar los pokemones de tipo fuego.
+
+- La aplicación debe permitir a la usuaria reiniciar la aplicación, limpiando filtros y ordenamiento, con un `<button>` con un atributo de datos `data-testid="button-clear"`.
+
 - Las operaciones de filtrar, ordenar, limpiar, etc. no deben recargar la página, si no que deben agregar el contenido en una manera
   dinámica via javascript.
-- La aplicación será _responsive_, es decir, debe visualizarse sin problemas desde distintos
-  tamaños de pantallas: móviles, tablets y desktops.
+
+- La aplicación será _responsive_, es decir, debe visualizarse sin problemas desde distintos tamaños de pantallas: móviles, tablets y desktops.
 
 Estos wireframes son ejemplos de un interfaz que puede cumplir con esta funcionalidad:
 
@@ -140,7 +141,6 @@ Estos wireframes son ejemplos de un interfaz que puede cumplir con esta funciona
 <img src="https://github.com/Laboratoria/impl-data-lovers/assets/92090/1625aeb8-883c-4b79-86da-5fab34fa5b88" width="400">
 <img src="https://github.com/Laboratoria/impl-data-lovers/assets/92090/6cef16bc-643a-4d6d-bc1c-e0daaeb21c88" width="400" style="margin-left:20px" >
 </div>
-
 
 ## 4. Consideraciones generales
 
@@ -156,7 +156,7 @@ La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6), HTML y CSS. En este proyecto NO está permitido usar librerías o
 frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e),
 con la excepción de librerías para hacer gráficas (charts); ver
-[_Parte opcional_](#6-hacker-edition) más arriba.
+[_Parte opcional_](#7-hacker-edition) más arriba.
 
 El _boilerplate_ contiene una estructura de archivos como punto de partida así
 como toda la configuración de dependencias:
@@ -183,6 +183,7 @@ como toda la configuración de dependencias:
 |  ├── main.js
 |  └── style.css
 └── test
+   └── data.js
    └── data.spec.js
 └── tests-read-only
 
@@ -191,7 +192,7 @@ como toda la configuración de dependencias:
 ### `src/index.html`
 
 Como en el proyecto anterior, existe un archivo `index.html`. Como ya sabes,
-acá va la página que se mostrará al usuario. También nos sirve para indicar
+acá va la página que se mostrará a la usuaria. También nos sirve para indicar
 qué scripts se usarán y unir todo lo que hemos hecho.
 
 ### `src/main.js`
@@ -245,12 +246,11 @@ a obtener, procesar y manipular datos (tus funciones). Por ejemplo:
   ascendente o descendente.
 
 * `computeStats(data)`: la función `compute` o calcular, nos permitirá hacer
-  cálculos estadísticos básicos para ser mostrados de acuerdo a la data
-  proporcionada.
+  cálculos estadísticos básicos para ser mostrados de acuerdo a la data proporcionada, esta función debe usar el método reduce.
 
 Estas funciones deben ser [_puras_](https://medium.com/laboratoria-developers/introducci%C3%B3n-a-la-programaci%C3%B3n-funcional-en-javascript-parte-2-funciones-puras-b99e08c2895d)
 e independientes del DOM. Estas funciones serán después usadas desde el archivo
-`src/main.js`, al cargar la página, y cada vez que el usuario interactúe (click,
+`src/main.js`, al cargar la página, y cada vez que la usuaria interactúe (click,
 filtrado, ordenado, ...).
 
 ### `src/data`
@@ -261,12 +261,20 @@ extensión `.js` y otro `.json`. Ambos archivos contienen la misma data; la
 diferencia es que el `.js` lo usaremos a través de una etiqueta `<script>`,
 mientras que el `.json` está ahí para opcionalmente cargar la data de forma
 asíncrona con [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
-(ver sección de [_Parte Opcional_](#6-hacker-edition)).
+(ver sección de [_Parte Opcional_](#7-hacker-edition)).
 
 ### `test/dataFunctions.spec.js`
 
-Tendrás también que completar las pruebas unitarias de las funciones
-implementadas en el archivo `dataFunctions.js`.
+En este archivo tendrás hacer pruebas unitarias de las funciones
+implementadas en el archivo `dataFunctions.js`. (`filterBy`, `sortBy`, etc.)
+
+### `test/data.js`
+
+En esta archivo puedes construir y exportar data "mock" para usar en los tests.
+Es mas fácil probar un arreglo de 5 elementos de un arreglo de 100, por eso
+vas a crear una muestra de la data que quieres probar. Al mínimo
+debes exportar un variable se llama `data`, pero puedes definir y exportar mas
+si sea necesario para tus tests.
 
 ### `src/viewFunctions.js`
 
@@ -274,10 +282,10 @@ Para alcanzar mejor separación de responsabilidades en el código este
 archivo debe tener todas las funciones que utilizara para renderizar
 los elementos dinámicamente. 
 
-Al menos requerimos una función obligatoria.
+Al menos requerimos una función obligatoria:
 
 * `renderItems(data)`: esta función recibe el arreglo de data para renderizar
-  los elementos de cada item, y deberia volver un elemento DOM o un string de HTML.
+  los elementos de cada item, y debería volver un elemento DOM o un string de HTML.
 
 
 ## 6. Criterios de aceptación mínimos del proyecto
@@ -288,13 +296,23 @@ Con cada objetivo de aprendizaje, evaluamos que el código cumpla con algunos cr
 Lo cual no excluye que puedas usar otras opciones, por ejemplo en el caso de los selectores, proponemos el uso de
 `querySelector`, no significa que no puedes usar `querySelectorAll` o `getElementId` también.
 
+Puedes ejecutar las pruebas de cada grupo de objetivos de aprendizaje de manera individual con los siguientes comandos:
+``` sh
+npm run test:oas-html
+npm run test:oas-css
+npm run test:oas-web-api
+npm run test:oas-js
+npm run test:oas // Esto es para correr todos los tests de OAs.
+```
+
 #### HTML
 
 * **Uso de HTML semántico**
 
   - [ ] Tiene un `<header>` con `<h1>`
+  - [ ] Tiene un `<footer>`
   - [ ] Tiene un `<main>` con `<h2>`
-  - [ ] Todas las etiquetas de form tienen `<label>`
+  - [ ] Todas las etiquetas de controles (inputs, selects, radio, etc) tienen `<label>`
   - [ ] `<ul>` esta usado para dibujar la data
   - [ ] Los hijos de `<li>` usan attributos de microdata `itemscope` e `itemprop`
 
@@ -311,8 +329,8 @@ Lo cual no excluye que puedas usar otras opciones, por ejemplo en el caso de los
 
 * **Uso de selectores del DOM**
 
-  - [ ] La aplicación usa el
-  [`selector del DOM querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+  - [ ] La aplicación usa
+  [`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) para buscar los elementos del DOM
   
 * **Manejo de eventos del DOM (listeners, propagación, delegación)**
 
@@ -353,10 +371,10 @@ Lo cual no excluye que puedas usar otras opciones, por ejemplo en el caso de los
   * **Funciones (params, args, return)**
 
     En el archivo `dataFunctions.js` define las siguientes funciones:
-    - [ ] una función `sortBy` que tiene 3 parámetros (`data`, `sortBy`, `sortOrder`) y devuelva el arreglo ordenado
-    - [ ] una función `filterBy` que tiene 3 parámetros (`data`, `filterBy`, `value`) y devuelva el arreglo filtrado
-    - [ ] una función `computeStats` que tiene al menos un parámetro (`data`) y devuelva un valor computado
-    Mas sobre eso en [la seccion dataFunctions.js](#`src/dataFunctions.js`)
+    - [ ] una función `sortBy` que tiene 3 parámetros (`data`, `sortBy`, `sortOrder`) y devuelve el arreglo ordenado
+    - [ ] una función `filterBy` que tiene 3 parámetros (`data`, `filterBy`, `value`) y devuelve el arreglo filtrado
+    - [ ] una función `computeStats` que tiene al menos un parámetro (`data`) y devuelve un valor computado.
+    Más sobre estos puntos en [la sección dataFunctions.js](#src/dataFunctions.js)
   
   * **Arrays (arreglos)**
 
@@ -387,21 +405,21 @@ Lo cual no excluye que puedas usar otras opciones, por ejemplo en el caso de los
 
 Documenta brevemente tu trabajo en el archivo `README.md` de tu repositorio,
 contándonos cómo fue tu proceso de diseño y cómo crees que el producto resuelve
-el problema (o problemas) que tiene tu usuario.
+el problema (o problemas) que tiene tu usuaria.
 
 #### Historias de usuario
 
 Una vez que entiendas las necesidades de tus usuarios, escribe las [Historias
 de Usuario](https://es.wikipedia.org/wiki/Historias_de_usuario) que representen
-todo lo que el usuario necesita hacer/ver. Las **Historias de Usuario** deben
+todo lo que la usuaria necesita hacer/ver. Las **Historias de Usuario** deben
 ser el resultado de tu proceso de investigación o _research_ de tus usuarios.
 
 Asegúrate de incluir la definición de terminado (_definition of done_) y los
 Criterios de Aceptación para cada una.
 
-Usa tus historias de usuario para planificar tus sprints diviendo cada historia en tareas.
+Usa tus historias de usuario para planificar tus sprints dividiendo cada historia en tareas.
 
-En la medida de lo posible, termina una historia de usuario antes de pasar
+En la medida de lo posible, termina una Historia de Usuario antes de pasar
 a la siguiente (Cumple con Definición de Terminado + Criterios de Aceptación).
 
 #### Diseño de la Interfaz de Usuario
@@ -433,8 +451,7 @@ Recuerda pedir feedback de tu prototipo a tus compañeras y/o coaches.
 
 #### Testeos de usabilidad
 
-Durante el reto deberás hacer _tests_ de usabilidad con distintos usuarios, y
-en base a los resultados, deberás iterar tus diseños. Cuéntanos
+Durante el reto deberás hacer _tests_ de usabilidad con distintos usuarios, y con base en los resultados, deberás iterar tus diseños. Cuéntanos
 qué problemas de usabilidad detectaste a través de los _tests_ y cómo los
 mejoraste en tu propuesta final.
 
@@ -444,7 +461,7 @@ Luego de diseñar tu interfaz de usuario deberás trabajar en su implementación
 **No** es necesario que construyas la interfaz exactamente como la diseñaste.
 Tu tiempo de hacking es escaso, así que deberás priorizar.
 
-Revisa [las funcionalidades](##-3.-Funcionalidades) que el proyecto pide del interfaz.
+Revisa [las funcionalidades](#3-funcionalidades) que el proyecto pide del interfaz.
 
 #### Pruebas unitarias
 
@@ -456,8 +473,7 @@ que te recomendamos consultar su documentación.
 
 Tus _pruebas unitarias_ deben dar una cobertura del 70% de _statements_
 (_sentencias_), _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
-(_ramas_) del archivo `src/data.js` que contenga tus funciones y está detallado
-en la sección de [Consideraciones técnicas](#srcdatajs).
+(_ramas_) del archivo `src/dataFunctions.js` que contenga tus funciones y está detallado en la sección de [Consideraciones técnicas](#src/data.js).
 
 ## 7. Hacker edition
 
@@ -497,9 +513,7 @@ Súmate al canal de Slack
 [#project-data-lovers](https://claseslaboratoria.slack.com/archives/C03MV35EP5M)
 para conversar y pedir ayuda del proyecto.
 
-Antes de empezar a escribir código, debes definir qué deberá hacer el producto
-en base al conocimiento que puedas obtener de tu usuario. Estas preguntas te
-pueden ayudar:
+Antes de empezar a escribir código, debes definir qué deberá hacer el producto con base en el conocimiento que puedas obtener de tu usuaria. Estas preguntas te pueden ayudar:
 
 * ¿Quiénes son los principales usuarios de producto?
 * ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
@@ -542,14 +556,18 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
 * [Topicos en la curricula de sitio Laboratoria](https://curriculum.laboratoria.la/es/web-dev/topics)
   testing, arreglos, objetos, funciones, DOM en Browser Javascript.
+* [Buscando elementos con querySelector*](https://es.javascript.info/searching-elements-dom)
+* [Objeto del evento](https://es.javascript.info/introduction-browser-events#objeto-del-evento)
 * [Array en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array)
 * [Array.sort en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort)
+* [Array.toSorted en MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted)
 * [Array.map en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/map)
 * [Array.filter en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/filter)
 * [Array.reduce en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/reduce)
 * [Array.forEach en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach)
 * [Object.keys en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/keys)
 * [Object.entries en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/entries)
+* [Atributos de datos](https://developer.mozilla.org/es/docs/Learn/HTML/Howto/Use_data_attributes)
 * [Fetch API en MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 * [json.org](https://json.org/json-es.html)
 * [expressions-vs-statements](https://2ality.com/2012/09/expressions-vs-statements.html)
@@ -593,7 +611,7 @@ Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
 * Tiene un UI que cumple las funcionalidades:
   - [ ] Muestra lista con datos y/o indicadores
   - [ ] Permite ordenar data por uno o más campos (asc y desc)
-  - [ ] Permite filtrar data en base a una condición
+  - [ ] Permite filtrar data con base en una condición
   - [ ] Permite limpiar los filtros con un botón
   - [ ] Es _responsive_ 
 
