@@ -1,9 +1,12 @@
+/* eslint-disable indent */
 /**
  * @jest-environment jsdom
 */
 import fs from 'fs';
 import css from 'css';
 import { renderItems } from '../../src/viewFunctions.js';
+import { data as fakeData } from '../../test/data.js';
+
 const html = fs.readFileSync('./src/index.html', 'utf-8');
 document.body.innerHTML = html;
 
@@ -11,9 +14,22 @@ const stylesPath = document.querySelector('link[rel="stylesheet"]').getAttribute
 const style = fs.readFileSync('./src/' + stylesPath, 'utf-8');
 const { rules } = css.parse(style).stylesheet;
 
-const BOX_MODEL_ATTRIBUTES = ['width', 'height', 'margin', 'padding', 'border', 'box-sizing', 'background'];
+const BOX_MODEL_ATTRIBUTES = ['width', 'height', 'margin', 'padding', 'border', 'box-sizing'];
+const FLEXBOX_DECLARATION = ['display', 'flex'];
 const FLEXBOX_ATTRIBUTES = ['flex-wrap', 'flex-direction', 'justify-content', 'align-items'];
 
+const renderDOM = (data) => {
+  const items = renderItems(data);
+  // function renderItems can return html string or an node element
+  if (typeof items === 'string') {
+    document.querySelector('#root').innerHTML = items;
+  } else if (items instanceof HTMLElement) {
+    document.querySelector('#root').appendChild(items);
+  } else {
+    throw new Error('Error: renderItems should return an HTML string or an HTMLElement');
+  }
+}
+      
 const getRulesForSelector = (selector) => {
   return rules.filter(
     (rule) =>
@@ -22,70 +38,44 @@ const getRulesForSelector = (selector) => {
   );
 }
 
-const tagRulesCSS = (tag) =>{
-  const tagClasses = Array.from(tag.classList.values());
-  return tagClasses.reduce((allRules, tagClass) => {
-    const rules = getRulesForSelector(`.${tagClass}`);
-    const tagRulesAttributes = rules[0].declarations.map((declaration) => declaration.property);
-    return allRules.concat(tagRulesAttributes);
+// returns an array of css declaration objects in format
+// [{ 'display": 'block' }, { 'justify-content': 'center' }];
+const getCSSDeclarationsForRules = (rules) => {
+  return rules.reduce((total, rule) => {
+    const declarations = rule.declarations.map(({ property, value }) => ({ [property]: value }));
+    return [...total, ...declarations];
   }, []);
-
 }
-const fakeData = [
-  {
-    name: "charizard",
-    img: "https://www.serebii.net/pokemongo/pokemon/006.png",
-    num: '006',
-    type: [
-      "fire",
-      "flying"
-    ],
-  },
-  {
-    name: "charmeleon",
-    img: "https://www.serebii.net/pokemongo/pokemon/005.png",
-    num: '005',
-    type: [
-      "fire"
-    ],
-  },
-];
-document.querySelector('#root').innerHTML = renderView(fakeData);
+
+// get css for an el's classes 
+// returns in format [{ 'display': 'block' }, { 'justify-content': 'center'}];
+const getDeclarationsForElClasses = (el) => {
+  const elClasses = Array.from(el.classList.values());
+  return elClasses.reduce((allDeclarations, className) => {
+    const rules = getRulesForSelector(`.${className}`);
+    // there can be more than one rule for a class
+    const declarationsForClass = getCSSDeclarationsForRules(rules);
+    return [...allDeclarations, ...declarationsForClass];
+  }, []);
+}
 
 describe('CSS', () => {
-  const cardsLi = document.querySelectorAll('#root > ul > li');
+
   describe('Uso de selectores de CSS', () => {
-    it('li elementos tienen class', () => {
-      cardsLi.forEach((li)=>{
-        const liClasses = Array.from(li.classList.values());
-        if(liClasses.length){
-          const liRulesAttributes = tagRulesCSS(li);
-          expect(liRulesAttributes.length).toBeGreaterThan(0);
-        }
-        expect(liClasses.length).toBeGreaterThan(0);
+
+    beforeEach(() => {
+      renderDOM(fakeData);
+    });
+    
+    it('elementos <li> tienen un class con CSS', () => {
+      const elementsLi = document.querySelectorAll('#root > ul > li');
+      // all lis should have same classes since rendered dinamically
+      // so not checking for common classes here
+      elementsLi.forEach((li) => {
+        const liRulesAttributes = getDeclarationsForElClasses(li);
+        expect(liRulesAttributes.length).toBeGreaterThan(0);
       });
-    });
-
-    it('El contenedor padre de las etiquetas select usa flexbox', () => {
-      const parentContainer = document.querySelector('.flexNav');
-      const selects = parentContainer.querySelectorAll('select')
-      if(selects.length > 0){
-        const rules = getRulesForSelector(`.flexNav`);
-        const ulRulesAttributes = rules[0].declarations.map((declaration) => declaration.value);
-        expect(ulRulesAttributes).toContain('flex');
-      }
-      expect(selects.length).toBeGreaterThan(0);
-    });
-
-    it('Uso de flexbox en la clase del ul', () => {
-      const ul = document.querySelector('#root ul');
-      expect(
-        tagRulesCSS(ul).some(
-          (attribute) => FLEXBOX_ATTRIBUTES.some(
-            flexboxAttribute => attribute.startsWith(flexboxAttribute)
-          )
-        )
-      ).toBe(true);
+      expect.hasAssertions();
     });
 
     it('Se usan selectores CSS de tipo para <header>', () => {
@@ -104,19 +94,80 @@ describe('CSS', () => {
     });
   });
 
-  describe('Modelo de caja (box model)', () => {
+  describe('Uso de flexbox', () => {
+
+    beforeEach(() => {
+      renderDOM(fakeData);
+    });
+
+    it('Uso de flexbox en el elemento de <ul>', () => {
+      const ul = document.querySelector('#root > ul');
+      const cssForTag = getCSSDeclarationsForRules(getRulesForSelector(ul.tagName.toLowerCase()));
+      const cssForId = getCSSDeclarationsForRules(getRulesForSelector(`#${ul.id}`));
+      const cssForClasses = getDeclarationsForElClasses(ul);
+      const cssDeclarations = [...cssForClasses, ...cssForId, ...cssForTag];
+
+      // expect to have display: flex 
+      expect(
+        cssDeclarations.some((declaration) => {
+          const [ flexboxProperty, flexboxValue ] = FLEXBOX_DECLARATION;
+          const [ property, value ] = Object.entries(declaration)[0];
+          return property ===  flexboxProperty && value === flexboxValue;
+        })
+      ).toBe(true);
+      // and at least one other flexbox property
+      expect(
+        cssDeclarations.some((declaration) => {
+          const [ property ] = Object.entries(declaration)[0];
+          return FLEXBOX_ATTRIBUTES.includes(property);
+        })
+      ).toBe(true);
+    });
+
+    it('Los elementos <select> de filtro y sort estan en un elemento que usa flexbox', () => {
+      const selects = document.querySelectorAll('body select');
+      expect(selects.length).toBeGreaterThan(1);
+
+      // if not more than one select, don't check for common parent
+      if (selects.length > 1) {
+
+        const parents = (node) => {
+          const nodes = [];
+          while ((node = node.parentNode)) {
+            nodes.push(node)
+          }
+          return nodes
+        }
+
+        const select1Parents = parents(selects[0]);
+        const select2Parents = parents(selects[1]);
+        const commonParent = select1Parents.find((node) => select2Parents.includes(node));
+        
+        const cssForTag = getCSSDeclarationsForRules(getRulesForSelector(commonParent.tagName.toLowerCase()));
+        const cssForId = getCSSDeclarationsForRules(getRulesForSelector(`#${commonParent.id}`));
+        
+        const cssForClasses = getDeclarationsForElClasses(commonParent);
+        const allCSSDeclarations = [...cssForId, ...cssForTag, ...cssForClasses];
+        expect(allCSSDeclarations.some((declaration) => {
+          const [ displayProperty, flexboxValue ] = FLEXBOX_DECLARATION;
+          const [ property, value ] = Object.entries(declaration);
+          return property === displayProperty && value === flexboxValue;
+        }));
+      }
+    });
+  });
+
+  describe('Modelo de caja (box model)', () => {  
     it('Se usan atributos de modelo de caja en clase CSS para <li>', () => {
-      cardsLi.forEach((li) => {
+      const elementsLi = document.querySelectorAll('#root > ul > li');
+      elementsLi.forEach((li) => {
         expect(
-          tagRulesCSS(li).some(
-            (attribute) => BOX_MODEL_ATTRIBUTES.some(
-              boxModelAttribute => attribute.startsWith(boxModelAttribute)
-            )
-          )
+          getDeclarationsForElClasses(li).some((declaration) => {
+            const [ property ] = Object.entries(declaration)[0];
+            return BOX_MODEL_ATTRIBUTES.some(attr => property.startsWith(attr));
+          })        
         ).toBe(true);
       });
-
-      //expect at least one ulRulesAttributes starts with at least one element of boxModelAttributes
     });
   });
 });

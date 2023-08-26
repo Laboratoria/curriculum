@@ -3,34 +3,35 @@
 */
 import fs from 'fs';
 import { renderItems } from '../../src/viewFunctions.js';
+import { data as fakeData } from '../../test/data.js';
+
 const html = fs.readFileSync('./src/index.html', 'utf-8');
 document.body.innerHTML = html;
-const fakeData = [
-  {
-    name: "charizard",
-    img: "https://www.serebii.net/pokemongo/pokemon/006.png",
-    num: '006',
-    type: [
-      "fire",
-      "flying"
-    ],
-  },
-  {
-    name: "charmeleon",
-    img: "https://www.serebii.net/pokemongo/pokemon/005.png",
-    num: '005',
-    type: [
-      "fire"
-    ],
-  },
-];
-document.querySelector('#root').innerHTML = renderView(fakeData);
+
+const renderDOM = (data) => {
+  const items = renderItems(data);
+  // function renderItems can return html string or an node element
+  if (typeof items === 'string') {
+    document.querySelector('#root').innerHTML = items;
+  } else if (items instanceof HTMLElement) {
+    document.querySelector('#root').appendChild(items);
+  } else {
+    throw new Error('Error: renderItems should return an HTML string or an HTMLElement');
+  }
+}
 
 describe('Uso de HTML semántico', () => {
+  
+  beforeEach(() => {
+    renderDOM(fakeData);
+  });
 
   describe('<header>', () => {
-    const header = document.querySelector('header');
-    const h1 = header.querySelector('h1');
+    let header, h1;
+    beforeEach(() => {
+      header = document.querySelector('header');
+      h1 = header.querySelector('h1');
+    });
 
     it('La aplicación usa un <header>', () => {
       expect(header).not.toBeNull();
@@ -58,45 +59,63 @@ describe('Uso de HTML semántico', () => {
   });
 
   describe('<select>', () => {
-    const select = document.querySelectorAll('select');
+    let select = [];
+    beforeEach(()=>{
+      select = document.querySelectorAll('select');
+    });
 
     it('La aplicación usa un <select>', () => {
-      expect(select).not.toBeNull();
+      expect(select.length).toBeGreaterThan(0);
     });
 
     it('<select> tiene atributo "name"', () => {
       Array.from(select).forEach((element) => {
-        expect(element.getAttribute('name')).not.toBeNull();
+        expect(element.getAttribute('name').length).toBeGreaterThan(0);
       })
+      expect.hasAssertions();
     });
 
     it('<select> no tiene atributo "class"', () => {
       Array.from(select).forEach((element) => {
         expect(element.getAttribute('class')).toBeNull();
       })
+      expect.hasAssertions();
     });
 
     it('<label> existe', () => {
+      const label = document.querySelectorAll('label');
       Array.from(select).forEach((element) => {
         const previousFor = element.previousElementSibling.getAttribute('for');
         expect(previousFor).toBe(element.id);
       })
+      expect(select.length && label.length).toBeGreaterThan(0);
     })
 
   });
 
   describe('<ul>', () => {
-    const lis = document.querySelectorAll('#root > ul > li');
+    let lis = [];
+    beforeEach(()=>{
+      lis = document.querySelectorAll('#root > ul > li');
+    });
 
     it('La aplicacion usa un <ul> con <li> para los elementos de data', () => {
-      expect(lis).not.toBeNull();
+      expect(lis.length).toBeGreaterThan(0);
     });
+
+    it('<li> tiene atributo "itemtype"', () => {
+      Array.from(lis).forEach((li) => {
+        expect(li.getAttribute('itemtype')).not.toBeNull();
+        expect(li.getAttribute('itemscope')).not.toBeNull();
+      })
+      expect.hasAssertions();
+    });
+
   });
 
   describe('<footer>', () => {
-    const footer = document.querySelector('footer');
-
     it('La aplicación usa un <footer>', () => {
+      const footer = document.querySelector('footer');
       expect(footer).not.toBeNull();
     });
   });
