@@ -1,5 +1,5 @@
 import { example } from './dataFunctions.js';
-import { renderItems } from './viewFunctions.js';
+import { renderItems } from './view.js';
 
 // import data from './data/lol/lol.js';
 import data from './data/pokemon/pokemon.js';

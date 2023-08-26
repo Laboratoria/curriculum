@@ -223,7 +223,7 @@ como toda la configuración de dependencias:
 |  |  |  └── README.md
 |  |  └── // otras carpetas de data
 |  ├── dataFunctions.js
-   ├── viewFunctions.js
+   ├── view.js
 |  ├── index.html
 |  ├── main.js
 |  └── style.css
@@ -322,7 +322,7 @@ vas a crear una muestra de la data que quieres probar. Al mínimo
 debes exportar un variable se llama `data`, pero puedes definir y exportar mas
 si sea necesario para tus tests.
 
-### `src/viewFunctions.js`
+### `src/view.js`
 
 Para alcanzar mejor separación de responsabilidades en el código este
 archivo debe tener todas las funciones que utilizara para renderizar
