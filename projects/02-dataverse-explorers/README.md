@@ -34,11 +34,9 @@ usuarias, al lado derecho.
 
 ## 2. Resumen del proyecto
 
-En este proyecto utilizarás herramientas de inteligencia artificial como
+En este proyecto utilizarás herramientas de [inteligencia artificial](https://es.wikipedia.org/wiki/Inteligencia_artificial) como
 [ChatGPT](https://openai.com/chatgpt), [ExplainDev](https://explain.dev/),
-entre otras para generar set de datos en formato JSON. También te familiarás
-con técnicas de generación de imágenes como `Stable Diffusion` para generar
-imágenes.
+entre otras para generar set de datos en formato [JSON](https://es.wikipedia.org/wiki/JSON). 
 
 Además **construirás una _página web_ para visualizar un
 _conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuario
