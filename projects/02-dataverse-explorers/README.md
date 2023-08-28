@@ -38,29 +38,20 @@ En este proyecto utilizarás herramientas de [inteligencia artificial](https://e
 [ChatGPT](https://openai.com/chatgpt), [ExplainDev](https://explain.dev/),
 entre otras para generar set de datos en formato [JSON](https://es.wikipedia.org/wiki/JSON). 
 
-Además **construirás una _página web_ para visualizar un
-_conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuario
-necesita.
+El proposito de generar la data en esta manera es brindarte la oportunidad de
+adentrarte en el empleo de herramientas impulsadas por la inteligencia
+artificial, así como en tecnicas de
+[Prompting](https://learnprompting.org/es/docs/intro). 
+
+Además **construirás una _página web_ para visualizar el
+_conjunto (set) de datos_** generado anteriormente. Esta página web se
+adecuará a lo que descubras que tu usuario necesita.
 
 Como entregable final tendrás una página web que permita **visualizar la data,
 filtrarla, ordenarla y hacer algún cálculo agregado**. Con cálculo agregado
 nos referimos a distintos cálculos que puedes hacer con la data para mostrar
 información aún más relevante para los usuarios (promedio, el valor máximo
 o mínimo, etc).
-
-En este proyecto nos iremos familiarizando con el uso de herramientas de IA
-(inteligencia artificial) como chatGPT o herramientas de [Stable Diffussion](https://es.wikipedia.org/wiki/Stable_Diffusion).
-Así que tu tarea en este proyecto
-será pedirle a la IA un set de datos en formato [JSON](https://www.json.org/json-es.html)
-para que lo puedas consumir en tu proyecto y mostrar la data en una página web.
-
-El proposito de generar la data en esta manera es brindarte la oportunidad de
-adentrarte en el empleo de herramientas impulsadas por la inteligencia
-artificial, así como en tecnicas de
-[Prompting](https://learnprompting.org/es/docs/intro). Además,
-te permitirá adquirir la habilidad de diseñar y desarrollar una interfaz web
-capaz de presentar y gestionar datos de manera que se ajusten a las necesidades
-del usuario.
 
 ## 3. Objetivos de aprendizaje
 
