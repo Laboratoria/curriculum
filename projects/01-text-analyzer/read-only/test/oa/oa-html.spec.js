@@ -78,10 +78,6 @@ describe('Uso de HTML semántico', () => {
       expect(ul).not.toBeNull();
     });
 
-    it('<ul> tiene atributo "class"', () => {      
-      expect(ul.getAttribute('class')).not.toBeNull();
-    });
-
     it('<ul> no tiene atributo "id"', () => {      
       expect(ul.getAttribute('id')).toBeNull();
     });

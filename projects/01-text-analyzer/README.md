@@ -75,7 +75,7 @@ resultado en tiempo real a medida que la usuaria escribe su texto:
     - **Recuento de caracteres excluyendo espacios y signos de puntuación**:
     la aplicación debe poder contar el número de caracteres en el texto de
     entrada, excluyendo espacios y signos de puntuación, y mostrar este recuento
-    a la usuaria.  
+    a la usuaria.
     - **Recuento de números**: la aplicación debe contar cúantos números hay en
     el texto de entrada y mostrar este recuento a la usuaria.
     - **Suma total de números**: la aplicación debe sumar todos los números que
@@ -252,7 +252,7 @@ relacionados con cada objetivo de aprendizaje.
 
 ### CSS
 
-* **Uso de selectores de CSS**  
+* **Uso de selectores de CSS**
 
   - [ ] La aplicación usa
   [`selectores CSS de tipo`](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#type_selectors)
@@ -260,13 +260,13 @@ relacionados con cada objetivo de aprendizaje.
   [`<header>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
   y al
   [`<footer>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer).
-  
+
   - [ ] La aplicación usa
   [`selectores CSS de class`](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#class_selectors)
   para darle estilo a los
   [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
   descrito anteriormente.
-  
+
   - [ ] La aplicación usa
   [`selectores de atributo`](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Attribute_selectors)
   para darle estilo al
@@ -303,12 +303,12 @@ relacionados con cada objetivo de aprendizaje.
 
   - [ ] La aplicación usa el
   [`selector del DOM getElementById`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById).
-  
+
 * **Manejo de eventos del DOM (listeners, propagación, delegación)**
 
   - [ ] La aplicación registra un
   [Event Listener](https://developer.mozilla.org/en/docs/Web/API/EventTarget/addEventListener)
-  para escuchar el evento `keyup` del `<textarea>` para actualizar las métricas
+  para escuchar el evento `input` del `<textarea>` para actualizar las métricas
   cuando se haga escriba en el cuadro de texto.
 
   - [ ] La aplicación registra un
