@@ -138,7 +138,8 @@ Un ejemplo de data, según los requisitos anteriores podría ser:
 ```
 
 Una vez que hayas delimitado tu campo de interés y generado el JSON con la
-asistencia de la AI, dedica tiempo a comprender a fondo a tu usuario y sus
+asistencia de la inteligenica artificial, dedica tiempo a comprender a
+fondo a tu usuario y sus
 necesidades específicas. A partir de esta comprensión, podrás diseñar la
 interfaz que facilite una interacción más efectiva y una comprensión más
 completa de los datos presentados.
