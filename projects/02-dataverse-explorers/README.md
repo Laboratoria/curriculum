@@ -122,7 +122,8 @@ Un ejemplo de data, según los requisitos anteriores podría ser:
       "label": "año de nacimiento",
     },
     "description": "Primera programadora de la historia",
-  }
+  },
+  //... 23 objetos más
 ]
 ```
 
@@ -133,8 +134,8 @@ necesidades específicas. A partir de esta comprensión, podrás diseñar la
 interfaz que facilite una interacción más efectiva y una comprensión más
 completa de los datos presentados.
 
-El tiempo estimado que deberías dedicar a la generación de esta data
-es de máximo un sprint. Si ves que te va a tomar tiempo, te recomendamos
+**El tiempo estimado que deberías dedicar a la generación de esta data
+es de máximo un sprint.** Si ves que te va a tomar más tiempo, te recomendamos
 utilizar la data de ejemplo que la vas a en contrar en esta ruta:
 
 `./src/data/data.json`.
@@ -230,13 +231,14 @@ como toda la configuración de dependencias:
 ├── package.json
 ├── src
 |  ├── data 
-|  |  └── tudata.json (La que hayas generado con la IA)
+|  |  └── data.json (La que hayas generado con la IA)
 |  ├── data.js
 |  ├── index.html
 |  ├── main.js
 |  └── style.css
 └── test
-   └── data.spec.js
+   ├── data.spec.js
+   └── json.spec.js
 
 ```
 
