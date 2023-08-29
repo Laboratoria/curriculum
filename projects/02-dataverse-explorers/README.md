@@ -34,14 +34,16 @@ usuarias, al lado derecho.
 
 ## 2. Resumen del proyecto
 
-En este proyecto utilizarás herramientas de [inteligencia artificial](https://es.wikipedia.org/wiki/Inteligencia_artificial) como
-[ChatGPT](https://openai.com/chatgpt), [ExplainDev](https://explain.dev/),
-entre otras para generar set de datos en formato [JSON](https://es.wikipedia.org/wiki/JSON). 
+En este proyecto utilizarás herramientas de
+[inteligencia artificial](https://es.wikipedia.org/wiki/Inteligencia_artificial)
+como [ChatGPT](https://openai.com/chatgpt), [ExplainDev](https://explain.dev/),
+entre otras para generar set de datos en formato
+[JSON](https://es.wikipedia.org/wiki/JSON).
 
 El proposito de generar la data en esta manera es brindarte la oportunidad de
 adentrarte en el empleo de herramientas impulsadas por la inteligencia
 artificial, así como en tecnicas de
-[Prompting](https://learnprompting.org/es/docs/intro). 
+[Prompting](https://learnprompting.org/es/docs/intro).
 
 Además **construirás una _página web_ para visualizar el
 _conjunto (set) de datos_** generado anteriormente. Esta página web se
@@ -131,18 +133,28 @@ Un ejemplo de data, según los requisitos anteriores podría ser:
 ]
 ```
 
+La data generada deberás reemplazarla por el contenido de este archivo:
+`./src/data/data.json`.
+
+**El tiempo estimado que deberías dedicar a la generación de esta data
+es de máximo un sprint.** Si ves que te va a tomar más tiempo, te recomendamos
+utilizar la data de ejemplo que la vas a en contrar en el archivo anterior:
+`./src/data/data.json`.
+
+Las URLs de las imágenes, dentro del archivo JSON, deben hacer referencia
+a una directorio dentro del proyecto. Aquí almacenarás las imágenes que necesitarás
+para cada objeto.
+
+Una vez que tengas el archivo JSON completo, recuerda correr los test con
+`npm run test` para verificar que el archivo JSON esté cumpliendo con lo
+solicitado.
+
 Una vez que hayas delimitado tu campo de interés y generado el JSON con la
 asistencia de la inteligenica artificial, dedica tiempo a comprender a
 fondo a tu usuario y sus
 necesidades específicas. A partir de esta comprensión, podrás diseñar la
 interfaz que facilite una interacción más efectiva y una comprensión más
 completa de los datos presentados.
-
-**El tiempo estimado que deberías dedicar a la generación de esta data
-es de máximo un sprint.** Si ves que te va a tomar más tiempo, te recomendamos
-utilizar la data de ejemplo que la vas a en contrar en esta ruta:
-
-`./src/data/data.json`.
 
 ### Diseño de la Interfaz de Usuario
 
