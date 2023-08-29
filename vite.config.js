@@ -7,7 +7,7 @@ dotenv.config();
 const {
   FIREBASE_PROJECT,
   FIREBASE_API_KEY,
-  LABORATORIA_API_URL,
+  LABORATORIA_CORE_API_URL,
   SENTRY_DSN,
   npm_package_version,
 } = process.env;
@@ -22,7 +22,7 @@ export default defineConfig(() => {
       'process.env': {
         FIREBASE_PROJECT,
         FIREBASE_API_KEY,
-        LABORATORIA_API_URL,
+        LABORATORIA_CORE_API_URL,
         SENTRY_DSN,
         VERSION: npm_package_version,
       },
