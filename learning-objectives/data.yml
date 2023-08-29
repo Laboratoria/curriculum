@@ -4,7 +4,9 @@ html:
   # - block-vs-inline
   - semantics
 
-css:
+css:We’ll start by writing a very simple JUnit 5 test, but instead of using JUnit’s assertEquals methods, we use Hamcrest’s assertThat construct and the standard set of matchers, both of which we statically import:
+
+
   - selectors
   - box-model
   # - values-and-units
@@ -141,10 +143,24 @@ spring:
       - getmapping
       - postmapping
     - request-param
-  - spring-boot-starter-test:
-    - test-configuration
-    - test
-    - mock-bean
+  - testing:
+    - spring-test:
+      - test-configuration
+      - test
+      - mock-bean
+    - junit: 
+      - test
+      - displayname
+      - assertions
+    - hamcrest:
+      - assertthat
+      - equalto
+      - is
+      - anything
+    - mockito:
+      - mock
+      - when-thenreturn
+      - verify
   - setup:
     - initializr
     - gradle
