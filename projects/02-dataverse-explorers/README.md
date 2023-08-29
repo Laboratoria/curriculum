@@ -226,7 +226,6 @@ como toda la configuración de dependencias:
 
 ```text
 .
-├── EXTRA.md
 ├── README.md
 ├── package.json
 ├── src
