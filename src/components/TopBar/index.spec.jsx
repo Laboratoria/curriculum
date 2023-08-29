@@ -1,14 +1,17 @@
 import { render } from '@testing-library/react';
+import { vi } from 'vitest';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useApp, themeConfig } from '@laboratoria/react';
 import { useLocation, useParams } from 'react-router-dom';
 import TopBar from '.';
 
-jest.mock('react-router-dom', () => {
+vi.mock('@laboratoria/react');
+
+vi.mock('react-router-dom', () => {
   return {
-    useNavigate: jest.fn(),
-    useParams: jest.fn(),
-    useLocation: jest.fn(),
+    useNavigate: vi.fn(),
+    useParams: vi.fn(),
+    useLocation: vi.fn(),
     Link: ({ to, children }) => (
       <a href={to}>
         {children}
