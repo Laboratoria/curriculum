@@ -2,9 +2,9 @@
   "slug": "text-analyzer",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/01-text-analyzer",
-  "version": "6.6.0",
+  "version": "6.7.0",
   "parserVersion": "5.0.0-beta.0",
-  "createdAt": "2023-08-10T20:09:25.095Z",
+  "createdAt": "2023-08-29T16:07:30.008Z",
   "prefix": 1,
   "track": "web-dev",
   "learningObjectives": [
@@ -36,6 +36,10 @@
     "es": {
       "title": "Analizador de texto",
       "summary": "<p>En este proyecto crearás una aplicación web que servirá para que tu usuaria\npueda analizar un texto en el navegador mostrando una serie de indicadores y\nmétricas específicas sobre caracteres, letras, números, etc. Que hayan sido\nenviadas como <em>input</em> por ella. Lo harás utilizando HTML, CSS y JavaScript.</p>"
+    },
+    "pt": {
+      "title": "Analisador de Texto",
+      "summary": "<p>Neste projeto, você criará uma aplicação web que permitirá que a usuária analise\num texto no navegador, exibindo uma série de indicadores e métricas específicas\nsobre caracteres, letras, números, etc., que foram inseridos por ela como entrada.\nVocê realizará isso usando HTML, CSS e JavaScript.</p>"
     }
   },
   "cover": "https://github.com/Laboratoria/bootcamp/assets/92090/2b45f653-69a5-4282-a65c-d34125c36113",

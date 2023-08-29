@@ -2,9 +2,9 @@
   "slug": "emergency-room",
   "repo": "Laboratoria/bootcamp",
   "path": "projects/02-emergency-room",
-  "version": "6.6.0",
+  "version": "6.7.0",
   "parserVersion": "5.0.0-beta.0",
-  "createdAt": "2023-08-10T20:09:26.032Z",
+  "createdAt": "2023-08-29T16:07:29.746Z",
   "prefix": 2,
   "track": "web-dev",
   "learningObjectives": [
