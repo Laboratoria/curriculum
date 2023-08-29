@@ -67,6 +67,10 @@ o mínimo, etc).
 
 * Este proyecto se debe resolver en duplas.
 * El rango de tiempo estimado para completar el proyecto es de 3 a 4 Sprints.
+* El tiempo estimado que deberías dedicar a la generación de la data
+  es de máximo un sprint. Si ves que te va a tomar más tiempo, te
+  recomendamos utilizar la data de ejemplo que la vas a encontrar en
+  esta ruta: `./src/data/data.json`.
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
   interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
 
