@@ -43,6 +43,9 @@ entre 1 y 100.
 * El juego se desarrollará en la terminal.
 * Se utilizará un número aleatorio entre 1 y 100 como número secreto.
 * La jugadora y la computadora se turnarán para adivinar el número.
+* Después de cada turno, se mostrará información sobre la suposición realizada.
+* El juego terminará cuando se adivine el número. Se debe mostrar la lista de
+todos los intentos del la jugadora ganadora.
 
 ### Diagrama de clases
 
@@ -92,33 +95,7 @@ para gestionar el juego.
 que hereda todas las propiedades y métodos de Player, pero también
 tiene algunas características adicionales propias.
 
-```
-+------------------+
-|     GameLogic    |
-+------------------+
-|- randomNumber    |
-|------------------|
-|+startGame()      |
-|+checkGuess(int)  |
-+------------------+
-
-+--------------+
-|   Player     |
-+--------------+
-|- name        |
-|--------------|
-|+guess()      |
-|+getName()    |
-+--------------+
-      ^
-      |
-+--------------+
-|  Computer    |
-+--------------+
-|+autoGuess()  |
-+--------------+
-
-```
+[![](https://mermaid.ink/img/pako:eNp9UlFPwjAQ_itN5YHJINHHhZAYTdBEjRGfdD4c2zEma7u0VxOC8NttVwYjQV_W9fvuvrv7ehueqRx5wrMKjLkrodAgUslYc2dTi8a8LfHZijnqKQhkG88yNmRf8A0jS2U1egWZK8F0c_RavpTECHSBFLIPxEsFa9Ssbo6rs-h1i2ZLzFZNF32vV_i_-DQ26rG5UhWCDEkDJqCU_RnpUhYfn8y1YCJX3LNb_zkz1OWwbcAH7OXHPw69twLkeepWidoS6iM7HsPckIaMJpOOXvAy3Fv7QntMuuoBubjRGtaPpaHdgyQsUO_CuGiOc60weBFdentb3FvsdPoRC6odfBoUHNXI71zW7mBE6KszYfu4g06ltlAn43Tww0b8sRD_SPKYC9TuuXK3gY1MymmJzhKeuN8cF2ArSnkqfShYUrO1zHhC2mLMbZ0D4X5nebKAyjgU85KUftpvtT9iXoN8V6qN2f4CAl791g?type=png)](https://mermaid.live/edit#pako:eNp9UlFPwjAQ_itN5YHJINHHhZAYTdBEjRGfdD4c2zEma7u0VxOC8NttVwYjQV_W9fvuvrv7ehueqRx5wrMKjLkrodAgUslYc2dTi8a8LfHZijnqKQhkG88yNmRf8A0jS2U1egWZK8F0c_RavpTECHSBFLIPxEsFa9Ssbo6rs-h1i2ZLzFZNF32vV_i_-DQ26rG5UhWCDEkDJqCU_RnpUhYfn8y1YCJX3LNb_zkz1OWwbcAH7OXHPw69twLkeepWidoS6iM7HsPckIaMJpOOXvAy3Fv7QntMuuoBubjRGtaPpaHdgyQsUO_CuGiOc60weBFdentb3FvsdPoRC6odfBoUHNXI71zW7mBE6KszYfu4g06ltlAn43Tww0b8sRD_SPKYC9TuuXK3gY1MymmJzhKeuN8cF2ArSnkqfShYUrO1zHhC2mLMbZ0D4X5nebKAyjgU85KUftpvtT9iXoN8V6qN2f4CAl791g)
 
 Este diseño de clases permite separar las responsabilidades, facilitando
 el mantenimiento y  posibles extensiones del juego en el futuro.
@@ -132,10 +109,11 @@ automática de la computadora o incluso introducir niveles de dificultad.
 * Tras cada intento, se debe mostrar:
   - El nombre del jugador (persona o computadora).
   - La suposición que se hizo.
-  - Un mensaje que indique si la suposición fue demasiado alta,
-  demasiado baja o correcta.
-* El juego finalizará en cuanto la jugadora o la computadora
- acierte el número secreto.
+  - Un mensaje que indique si la suposición fue demasiado alta, demasiado baja
+  o correcta.
+* El juego finalizará en cuanto la jugadora o la computadora acierte el
+número secreto. Se debe mostrar un mensaje de fin del juego, así como una lista
+todos los intentos realizados por la jugadora ganadora.
 
 ## 5. Consideraciones técnicas
 
