@@ -20,7 +20,7 @@ learningObjectives:
   - java/object-oriented/uml/abstraction
   - java/object-oriented/uml/composition
   - java/object-oriented/uml/interface
-  - java/object-oriented/uml/polimorphism
+  - java/object-oriented/uml/polymorphism
   - java/object-oriented/inherit/superclass
   - java/object-oriented/inherit/extends
   - java/object-oriented/inherit/override
