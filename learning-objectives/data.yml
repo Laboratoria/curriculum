@@ -86,7 +86,7 @@ java:
       - abstraction
       - composition
       - interface
-      - polimorphism
+      - polymorphism
       - inherit:
         - superclass
         - extends
