@@ -73,7 +73,7 @@ java:
       - private
       - protected
       - public 
-  - object-oriented:
+  - object-oriented-programming:
       - classes-and-objects:
         - classes
         - objects
