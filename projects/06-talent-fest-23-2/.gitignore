@@ -1,0 +1,16 @@
+coverage/
+node_modules/
+.DS_Store
+*.log
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+/test-results/
+/playwright-report/*
+/playwright/.cache/
