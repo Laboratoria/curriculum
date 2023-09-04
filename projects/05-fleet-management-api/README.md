@@ -95,7 +95,52 @@ para facilitar su consulta y análisis.
 
 * Desarrollar una Interfaz de Línea de Comando (CLI) que
 cargue la información de los archivos de texto a la base
-de datos
+de datos:
+
+    En el caso de Java
+
+    ```bash
+    java UploadGPSData.java <path-to-files> 
+    --type=taxis|trajectories
+    --dbname=<dbname>
+    --host=<hostname>
+    --port=<port>
+    --username=<username>
+    ````
+
+    En el caso de NodeJs
+
+    ```bash
+    node upload-gps-data.js <path-to-files> 
+    --type=taxis|trajectories
+    --dbname=<dbname>
+    --host=<hostname>
+    --port=<port>
+    --username=<username>
+    ````
+
+    Donde los parámetros requeridos son:
+
+    `<path-to-files>`: especifica el directorio de los archivos a cargar.
+
+    `--type=taxis|trajectories`: indica el [tipo de archivos](#data)
+    a cargarse taxis o trajectories.
+
+    `--dbname=dbname`: especifica el nombre de la base de datos
+    a la que conectarse.
+
+    `--host=hostname`: especifica el nombre del host de la máquina
+    en la que se está ejecutando la base de datos.
+
+    `--port=port`: especifica el puerto TCP en el que  la base de
+    datos está escuchando conexiones.
+
+    `--username=username`: especifica el usuario para conectarse a
+    la base de datos.
+
+    _Nota: el CLI debe solicitar la
+    contraseña de conexión a la base de datos.
+    Por segurisdad esta no puede ser un parámetro._
 
 ##### Definición de terminado
 
@@ -108,18 +153,22 @@ contar con test unitarios.
 
 ***
 
-#### [Historia de usuario 2] Endpoint ubicación más reciente
+#### [Historia de usuario 2] Endpoint última ubicación
 
-Yo como cliente de la API REST requiero un _endpoint_ para
-consultar únicamente la ubicación más reciente de
-todos los taxis.
+Yo como clienta de la API REST requiero un _endpoint_ para
+consultar la última ubicación reportada por cada taxi.
 
 ##### Criterios de aceptación
 
 * El _endpoint_ responde para cada taxi la siguiente información:
 ID, placa, latitud, longitud y fecha y hora.
+* El _endpoint_ paginamos los resultados para asegurar que las
+respuestas sean más fáciles de manejar.
 * El _endpoint_ resuelve la solicitud en tiempos de respuesta
-óptimos que no afectan la experiencia de la usuaria.
+óptimos que no afectan la experiencia de la usuaria. _Nota: debido
+a la gran cantidad de información, se espera con **seguridad** tiempos
+de respuesta lentos
+si no se plantea una estrategia de optimización la base de datos._
 
 ##### Definición de terminado
 
@@ -140,16 +189,20 @@ menos una compañera.
 
 #### [Historia de usuario 3] Endpoint historial de ubicaciones
 
-Yo como cliente de la API REST requiero un _endpoint_ para
-consultar todas las ubicaciones de un taxi (placa) en una fecha
-específica.
+Yo como clienta de la API REST requiero un _endpoint_ para
+consultar todas las ubicaciones de un taxi dado el ID del taxi y una fecha.
 
 ##### Criterios de aceptación
 
-* El _endpoint_ responde para el taxi consultado la siguiente
+* El _endpoint_ responde para el ID del taxi consultado la siguiente
 información: latitud, longitud y fecha y hora.
+* El _endpoint_ paginamos los resultados para asegurar que las
+respuestas sean más fáciles de manejar.
 * El _endpoint_ resuelve la solicitud en tiempos de respuesta
-óptimos que no afectan la experiencia de la usuaria.
+óptimos que no afectan la experiencia de la usuaria. _Nota: debido
+a la gran cantidad de información, se espera con **seguridad** tiempos
+de respuesta lentos
+si no se plantea una estrategia de optimización la base de datos._
 
 ##### Definición de terminado
 
@@ -170,14 +223,19 @@ menos una compañera.
 
 #### [Historia de usuario 4] Endpoint listado de taxis
 
-Yo como cliente de la API REST requiero un _endpoint_ para
+Yo como clienta de la API REST requiero un _endpoint_ para
 listar todos los taxis.
 
 ##### Criterios de aceptación
 
 * El _endpoint_ responde para cada taxi: ID y placa.
+* El _endpoint_ paginamos los resultados para asegurar que las
+respuestas sean más fáciles de manejar.
 * El _endpoint_ resuelve la solicitud en tiempos de respuesta
-óptimos que no afectan la experiencia de la usuaria.
+óptimos que no afectan la experiencia de la usuaria. _Nota: debido
+a la gran cantidad de información, se espera con **seguridad** tiempos
+de respuesta lentos
+si no se plantea una estrategia de optimización la base de datos._
 
 ##### Definición de terminado
 
@@ -213,7 +271,10 @@ framework de pruebas e2e.
 Si eliges Java, el siguiente es el stack de tecnologías recomendado:
 
 * [Spring Boot](https://spring.io/projects/spring-boot/): para
-crear aplicaciones Java con pruebas unitarias.
+crear aplicaciones Java
+* [Spring Boot Test](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.testing.spring-boot-applications):
+para pruebas de integración.
+* [JUnit](https://junit.org/junit5/): para pruebas unitarias.
 * [Hibernate](https://docs.spring.io/spring-framework/reference/data-access/orm/hibernate.html):
 cómo [ORM](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping)
 para facilitar consultas a la base de datos.
@@ -306,8 +367,7 @@ base de datos mueran en el intento de cargar la información.
 ### Definir endpoints de API
 
 Deberás definir y documentar los endpoints de tu API.
-Puedes usar [Swagger](https://swagger.io/) o cualquier otra herramienta
-disponible para esto.
+Debes usar [Swagger](https://swagger.io/) para esto.
 
 Para una API REST debes definir para cada endpoint entre otras cosas el
 [método HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods),
@@ -356,7 +416,7 @@ la funcionalidad la siguiente historia de usuaria:
 
 ### [Historia de usuario 4] Endpoint exportación a Excel
 
-Yo como cliente de la API REST requiero un _endpoint_ para
+Yo como clienta de la API REST requiero un _endpoint_ para
 exportar en formato Excel todas las ubicaciones de un vehículo
 en una fecha específica.
 
@@ -366,7 +426,10 @@ en una fecha específica.
 la siguiente información: ID, placa, latitud, longitud y
 fecha y hora.
 * El _endpoint_ resuelve la solicitud en tiempos de respuesta
-óptimos que no afectan la experiencia de la usuaria.
+óptimos que no afectan la experiencia de la usuaria. _Nota: debido
+a la gran cantidad de información, se espera con **seguridad** tiempos
+de respuesta lentos
+si no se plantea una estrategia de optimización la base de datos._
 
 #### Definición de terminado
 
