@@ -23,7 +23,7 @@ centros del salud vieron la necesidad de brindar el servicio por canales no
 tradicionales y/o digitales (telemedicina), una innovación que trajo consigo
 nuevas experiencias y necesidades para los pacientes.
 
-![desing-and-usability](https://raw.githubusercontent.com/Laboratoria/bootcamp/main/projects/01-design-and-usability/thumb.png)
+![desing-and-usability](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/265792772-cbc3f815-3b95-46ea-ae9c-3813a079d178.png)
 
 ## 2. Resumen del proyecto
 
