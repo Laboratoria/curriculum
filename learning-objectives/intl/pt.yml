@@ -1211,7 +1211,7 @@ typescript/classes/members/fields:
 typescript/classes/members/constructors:
   title: Constructors
   links:
-    - title:Documentação oficial do Typescript
+    - title: Documentação oficial do Typescript
       url: https://www.typescriptlang.org/docs/handbook/2/classes.htmll#constructors
 
 typescript/classes/members/methods:
