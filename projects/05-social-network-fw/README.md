@@ -143,7 +143,8 @@ npm create vite@latest social-network-fw
 cd social-network-fw 
 ```
 
-### Para confirmar que todo esta bien y la aplicación arranca
+### Para confirmar que todo esta bien y la aplicación arranca,
+
 ### ejecuta el siguiente comando y verifica que la interfaz en el navegador
 
 ```bash
