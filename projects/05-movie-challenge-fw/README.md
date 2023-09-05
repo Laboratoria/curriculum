@@ -92,6 +92,100 @@ los que trabajes.
   o [Vercel](https://vercel.com/)
   o [Netlify](https://www.netlify.com/)
 
+### Definición del producto
+
+El [_Product Owner_](https://www.youtube.com/watch?v=r2hU7MVIzxs&t=202s)
+nos presenta este _backlog_ que es el resultado de su trabajo con el clientx
+hasta hoy.
+
+---
+
+#### [Historia de usuario 1] Búsqueda de Películas
+
+Como usuaria, quiero poder buscar películas por título
+para encontrar información detallada sobre ellas.
+
+##### Criterios de aceptación
+
+- Debe existir un campo de búsqueda en la página principal.
+- La usuaria puede ingresar el título de una película en el campo de búsqueda.
+- Al presionar el botón de búsqueda o la tecla "Enter", se deben
+mostrar los resultados de la búsqueda.
+- Los resultados deben incluir al menos el título de la película
+y una imagen de la portada.
+- Recibir mensajes de error comprensibles,
+dependiendo de cuál es el error con la
+información ingresada.
+
+##### Definición de Terminado
+
+Lo acordado que debe ocurrir para decir que la historia está terminada.
+
+- El campo de búsqueda funciona correctamente y muestra resultados relevantes.
+- Se han probado diferentes búsquedas para garantizar que los resultados sean precisos.
+- Se ha probado en dos dispositivos (PC, movil) y es responsive.
+- Haces _test_ unitarios.
+- Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
+- Desplegaste tu aplicación y has etiquetado tu versión (git tag).
+
+---
+
+#### [Historia de usuario 2] Detalles de la Película
+
+Como usuaria, quiero poder ver detalles completos de
+una película cuando hago clic en un resultado de búsqueda.
+
+##### Criterios de aceptación
+
+- En la lista de resultados de búsqueda, la usuaria puede
+hacer clic en un título o imagen de película para ver
+detalles adicionales.
+- Los detalles deben incluir información adicional de la película.
+- Debe haber un botón para volver a la lista de resultados de
+búsqueda desde la página de detalles.
+
+##### Definición de Terminado
+
+Lo acordado que debe ocurrir para decir que la historia está terminada.
+
+- Los detalles de la película se muestran de manera clara y organizada.
+- La información es precisa y se obtiene de la API de películas.
+- La navegación entre la lista de resultados y los detalles funciona sin problemas.
+- Haces _test_ unitarios.
+- Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
+- Desplegaste tu aplicación y has etiquetado tu versión (git tag).
+
+---
+
+#### [Historia de usuario 3] Registro de Mis Búsquedas
+
+Como usuaria, quiero tener la capacidad de ver un registro
+de mis búsquedas anteriores para tener un historial de las
+películas que he buscado.
+
+##### Criterios de aceptación
+
+- Las usuarias pueden acceder a un historial de sus búsquedas
+anteriores directamente desde la página principal de la aplicación.
+- Las búsquedas anteriores se mostrarán en una lista con
+detalles básicos de las películas buscadas.
+- Las usuarias pueden hacer clic en una búsqueda anterior
+para volver a ver los detalles de esa película.
+
+##### Definición de Terminado
+
+Lo acordado que debe ocurrir para decir que la historia está terminada.
+
+- Las usuarias pueden ver su historial de búsquedas anteriores.
+- Las búsquedas anteriores se muestran de manera clara y organizada.
+- Las usuarias pueden hacer clic en una búsqueda anterior
+y ver los detalles de la película correspondiente.
+- Haces _test_ unitarios.
+- Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
+- Desplegaste tu aplicación y has etiquetado tu versión (git tag).
+
+---
+
 ## 6. Consideraciones técnicas
 
 - Para poder usar la API de _The Movie Database API V3_ o _OMDB_ deberás crear
