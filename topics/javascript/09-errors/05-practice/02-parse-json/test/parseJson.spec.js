@@ -8,8 +8,7 @@ describe('parseJson()', () => {
 
   it('debería devolver un error en vez de arrojarlo con JSON inválido', () => {
     const result = parseJson();
-    Assert.ok(result instanceof Error);
-    Assert.ok(/Unexpected token/i.test(result.message));
+    Assert.ok(result instanceof  SyntaxError);
   });
 
   it('debería devolver JSON parseado cuando formato del string es ok', () => {
