@@ -1,10 +1,10 @@
 {
   "slug": "scm",
-  "repo": "Laboratoria/bootcamp",
+  "repo": "Laboratoria/curriculum",
   "path": "topics/scm",
-  "version": "6.7.0",
-  "parserVersion": "5.0.0-beta.0",
-  "createdAt": "2023-08-29T16:08:03.110Z",
+  "version": "7.0.0",
+  "parserVersion": "5.0.0",
+  "createdAt": "2023-09-04T20:11:55.305Z",
   "track": "web-dev",
   "intl": {
     "es": {

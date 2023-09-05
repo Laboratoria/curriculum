@@ -16,7 +16,7 @@ través de la terminal:
 
 Por ejemplo:
 
-![mdlinks-example](https://github.com/Laboratoria/bootcamp/assets/123121338/7dcc83c4-873e-4ef8-b7d0-a15adb102680)
+![mdlinks-example](https://github.com/Laboratoria/curriculum/assets/123121338/7dcc83c4-873e-4ef8-b7d0-a15adb102680)
 
 El comportamiento por defecto no debe validar si las URLs responden ok o no,
 solo debe identificar el archivo Markdown (a partir de la ruta que recibe como
@@ -34,7 +34,7 @@ URL que responde ok, entonces consideraremos el link como ok.
 
 Por ejemplo:
 
-![mdlinks-example-validate](https://github.com/Laboratoria/bootcamp/assets/123121338/502cbafc-b4ac-4734-85b3-1734f67af1d3)
+![mdlinks-example-validate](https://github.com/Laboratoria/curriculum/assets/123121338/502cbafc-b4ac-4734-85b3-1734f67af1d3)
 
 Vemos que el _output_ en este caso incluye la palabra `ok` o `fail` después de
 la URL, así como el status de la respuesta recibida a la petición HTTP a dicha
@@ -45,12 +45,12 @@ URL.
 Si pasamos la opción `--stats` el output (salida) será un texto con estadísticas
 básicas sobre los links.
 
-![mdlinks-example-stats](https://github.com/Laboratoria/bootcamp/assets/123121338/910720c6-aa3f-4d08-b076-c1add13c95f1)
+![mdlinks-example-stats](https://github.com/Laboratoria/curriculum/assets/123121338/910720c6-aa3f-4d08-b076-c1add13c95f1)
 
 También podemos combinar `--validate` y `--stats` para obtener estadísticas que
 necesiten de los resultados de la validación.
 
-![mdlinks-example-stats-validate](https://github.com/Laboratoria/bootcamp/assets/123121338/9d9971a0-866a-4c64-a890-4c62c3df3700)
+![mdlinks-example-stats-validate](https://github.com/Laboratoria/curriculum/assets/123121338/9d9971a0-866a-4c64-a890-4c62c3df3700)
 
 Para ejecutar tu script utilizando el comando `mdlinks`, debes vincular este
 comando al sistema. Sin embargo, antes de vincular el comando, puedes desarrollar

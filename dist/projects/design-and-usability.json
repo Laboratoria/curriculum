@@ -1,10 +1,10 @@
 {
   "slug": "design-and-usability",
-  "repo": "Laboratoria/bootcamp",
+  "repo": "Laboratoria/curriculum",
   "path": "projects/01-design-and-usability",
-  "version": "6.7.0",
-  "parserVersion": "5.0.0-beta.0",
-  "createdAt": "2023-08-29T16:07:26.625Z",
+  "version": "7.0.0",
+  "parserVersion": "5.0.0",
+  "createdAt": "2023-09-04T20:11:49.708Z",
   "prefix": 1,
   "track": "ux",
   "learningObjectives": [
