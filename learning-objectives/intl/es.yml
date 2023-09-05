@@ -1220,7 +1220,7 @@ typescript/classes/members/constructors:
   title: Constructors
   links:
     - title: Documentación oficial de Typescript
-      url: https://www.typescriptlang.org/docs/handbook/2/classes.htmll#constructors
+      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#constructors
 
 typescript/classes/members/methods:
   title: Métodos
