@@ -126,25 +126,30 @@ No dejes de explorar la documentación oficial de cada herramienta:
 Si usas [`vite`](https://vitejs.dev/guide/#scaffolding-your-first-vite-project):
 
 ## Creamos una nueva aplicación con `vite` en la carpeta
+
 ## `social-network-fw`
 
-``` 
-$ npm create vite@latest social-network-fw
+```bash
+npm create vite@latest social-network-fw
 ```
+
 ## Escogemos la opción de React
 
 ![Consola](https://github.com/DeysiVergara/Curriculum/blob/reemplazar-create-react-app/projects/05-social-network-fw/vite-react.jpg?raw=true)
 
 ## Ingresa a la carpeta social-network-fw
 
-``` 
+```bash
 cd social-network-fw 
 ```
 
-## Para confirmar que todo esta bien y la aplicación arranca, ejecuta el siguiente comando y verifica que la interfaz se abre en el navegador:
-``` 
-$ npm run dev 
+### Para confirmar que todo esta bien y la aplicación arranca
+### ejecuta el siguiente comando y verifica que la interfaz en el navegador
+
+```bash
+npm run dev 
 ```
+
 ### Angular
 
 * [Angular - docs oficiales](https://angular.io/)
