@@ -17,12 +17,14 @@ Utilizar la herramienta [Flowise](https://flowiseai.com/) para extender la funci
 Seguir las indicaciones para instalar globalmente [flowise](https://github.com/FlowiseAI/Flowise)
 
 ```bash
-
 	npm  install  -g  flowise
 
 	npx  flowise  start
-
 ```
+
+Una vez inicializada la herramienta podrás acceder [aquí](http://localhost:3000/)
+
+Utilizarás está herramienta para crear y configurar tu propía aplicación AI, la cual podrás utilizar por medio de la UI proporcionada y también a través de peticiones HTTP
 
 ## Recursos
 
@@ -46,11 +48,13 @@ Video: [Ejemplo de implementación](https://www.youtube.com/watch?v=kMtf9sNIcao)
 
 ## Test
 
+Necesitarás definir una variable de ambiente con el nombre `OPENAI_API_KEY` y darle el valor de api key de OpenAI que utilizarás
+
 Antes de ejecutar los test copiar en la carpeta `/test` con el nombre `'flow.json'` el archivo de exportacion del flow implementado
 
 ```bash
 
-	npm  test
+OPENAI_API_KEY=<TODO:  poner  api  key> npm  test
 
 ```
 
