@@ -118,43 +118,33 @@ No dejes de explorar la documentación oficial de cada herramienta:
 * [React - docs oficiales](https://es.reactjs.org/)
 * [React - tutorial](https://egghead.io/courses/the-beginner-s-guide-to-react)
 * [Redux - tutorial](https://egghead.io/courses/getting-started-with-redux)
-* [create-react-app](https://github.com/facebook/create-react-app)
+* [vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
 * [React js en español - tutorial básico, primeros pasos y ejemplos - frontendlabs.io](https://frontendlabs.io/3158--react-js-espanol-tutorial-basico-primeros-pasos-ejemplos)
 
-### :information_source: Nota para estudiantes que elijan React y `create-react-app`
+### :information_source: Nota para estudiantes que elijan React y vite
 
-Si tratas de usar [`create-react-app`](https://reactjs.org/docs/create-a-new-react-app.html)
-en el directorio del proyecto recibirás un error diciendo que hay archivos que
-podrían presentar un conflicto. Para evitar este problema puedes crear una nueva
-app usando `create-react-app` y de ahí _mezclarla_ con la carpeta del proyecto:
+Si usas [`vite`](https://vitejs.dev/guide/#scaffolding-your-first-vite-project):
 
 ```sh
 # Si estabas en la carpeta del proyecto, salimos a la carpeta de más arriba
 cd ..
 
-# Creamos una nueva aplicación con `create-react-app` en la carpeta
-# `social-network-tmp`
-npx create-react-app social-network-tmp
+# Creamos una nueva aplicación con `vite` en la carpeta
+# `social-network`
+``` $ npm create vite@latest .```
 
-# Copiamos el _boilerplate_ del proyecto _encima_ de la aplicación creada con
-# `create-react-app`
-cp -r <cohort-id>-social-network-fw/* social-network-tmp/
+# Escogemos la opción de React
 
-# Copiamos el contenido de la aplicación creada con `create-react-app` de vuelta
-# al repo del proyecto (teniendo en cuenta el archivo _oculto_ `.gitignore`).
-cp -r social-network-tmp/.gitignore social-network-tmp/* <cohort-id>-social-network-fw/
 
-# Ya podemos borrar la instalación _temporal_ y quedarnos solo con el repo del
-# proyecto, con el que partimos.
-rm -rf social-network-tmp
 
-# Volvemos a entrar en el directorio del proyecto y ya deberíamos estar listas
-# para comenzar.
-cd <cohort-id>-social-network-fw
+
+
+
+
 
 # Para confirmar que todo fue bien arranca la aplicación con el siguinte comando
 # y verifica que la interfaz se abre en el navegador.
-yarn start
+``` npm run dev ```
 ```
 
 ### Angular
