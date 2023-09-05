@@ -4,7 +4,7 @@ html:
   # - block-vs-inline
   - semantics
 
-css:We’ll start by writing a very simple JUnit 5 test, but instead of using JUnit’s assertEquals methods, we use Hamcrest’s assertThat construct and the standard set of matchers, both of which we statically import:
+css:
 
 
   - selectors
