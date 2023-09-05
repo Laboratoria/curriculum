@@ -1,10 +1,10 @@
 {
   "slug": "design-lab",
-  "repo": "Laboratoria/bootcamp",
+  "repo": "Laboratoria/curriculum",
   "path": "projects/03-design-lab",
-  "version": "6.6.0",
-  "parserVersion": "5.0.0-beta.0",
-  "createdAt": "2023-08-10T20:09:26.088Z",
+  "version": "7.0.0",
+  "parserVersion": "5.0.0",
+  "createdAt": "2023-09-04T20:11:50.926Z",
   "prefix": 3,
   "track": "ux",
   "learningObjectives": [
