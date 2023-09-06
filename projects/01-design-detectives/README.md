@@ -26,6 +26,8 @@ oportunidad de mejora que más satisfaga sus necesidades. Una vez que tenemos cl
 el problema, podemos crear propuestas de diseño con las funcionalidades mínimas (MVP)
 que nos permitan ir con usuarios a recoger su feedback.
 
+![design-detectives](https://raw.githubusercontent.com/Laboratoria/bootcamp/main/projects/01-design-detectives/thumb.png)
+
 ## 2. Resumen del proyecto
 
 Durante este reto profundizarás en temas de investigación de usuarios, identificación

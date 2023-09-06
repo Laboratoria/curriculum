@@ -1,8 +1,8 @@
 {
-  "name": "bootcamp",
-  "version": "6.7.0",
-  "description": "Proyectos y tópicos del Bootcamp de @Laboratoria",
-  "repository": "Laboratoria/bootcamp",
+  "name": "curriculum",
+  "version": "7.0.0",
+  "description": "Proyectos y tópicos del curriculum del Bootcamp de @Laboratoria",
+  "repository": "Laboratoria/curriculum",
   "keywords": [
     "javascript",
     "laboratoria",
@@ -14,7 +14,7 @@
   "author": "Laboratoria <sumate@laboratoria.la> (http://laboratoria.la/)",
   "license": "CC-BY-SA-4.0",
   "bugs": {
-    "url": "https://github.com/Laboratoria/bootcamp/issues"
+    "url": "https://github.com/Laboratoria/curriculum/issues"
   },
   "scripts": {
     "mdlint": "mdlint .",

@@ -283,7 +283,7 @@ typescript:
   - classes:
     - members:
       - fields
-      - constructor
+      - constructors
       - methods
       - getter-setters
     - class-heritage:

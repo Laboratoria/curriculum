@@ -6,10 +6,12 @@ import {
   StyledEngineProvider,
 } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import { AppProvider, themeConfig } from '@laboratoria/react';
+import { AppProvider, themeConfig, createAppWithProfiler } from '@laboratoria/react';
 import '@laboratoria/react/src/theme/index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
+
+const AppWithProfiler = createAppWithProfiler('curriculum.laboratoria.la', App);
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,7 +19,7 @@ ReactDOM.render(
       <ThemeProvider theme={createTheme(themeConfig)}>
         <AppProvider>
           <CssBaseline />
-          <App />
+          <AppWithProfiler />
         </AppProvider>
       </ThemeProvider>
     </StyledEngineProvider>
