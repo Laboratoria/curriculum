@@ -10,7 +10,9 @@ const Topic = ({ topic, lang }) => (
   <>
     <Typography variant="h3">{topic.intl[lang].title}</Typography>
     {topic.units.map((unit) => {
-      const partsWIthChallenges = unit.parts.filter((p) => !!p.challenges?.length);
+      const partsWIthChallenges = unit.parts.filter(
+        (p) => !!p.challenges?.length,
+      );
 
       if (!partsWIthChallenges.length) {
         return null;
@@ -49,7 +51,9 @@ const Gym = ({ lang }) => {
   const [topicsWithChallenges, setTopicsWithChallenges] = useState([]);
 
   const addTopic = (topic) => {
-    setTopicsWithChallenges((prev) => prev.filter((t) => t.slug !== topic.slug).concat(topic));
+    setTopicsWithChallenges((prev) =>
+      prev.filter((t) => t.slug !== topic.slug).concat(topic),
+    );
   };
 
   useEffect(() => {

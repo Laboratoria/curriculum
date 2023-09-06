@@ -8,9 +8,11 @@ export const getFilesWithLocales = (dir, locales) => {
   const dirents = readdirSync(dir, { withFileTypes: true });
   const filesWithExt = dirents.reduce((accumFiles, dirent) => {
     const fullPath = path.resolve(dir, dirent.name);
-    dirent.isDirectory() ? accumFiles.push(...getFilesWithLocales(fullPath, locales)) : accumFiles.push(fullPath); 
+    dirent.isDirectory()
+      ? accumFiles.push(...getFilesWithLocales(fullPath, locales))
+      : accumFiles.push(fullPath);
     return accumFiles;
   }, []);
   const regexLocaleMD = new RegExp(`\.(${locales.join('|')})\.md`);
   return filesWithExt.filter((filepath) => filepath.match(regexLocaleMD));
-}
+};

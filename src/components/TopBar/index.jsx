@@ -68,10 +68,19 @@ const TopBar = () => {
                   }}
                 >
                   <span className="hide-when-not-small">
-                    <img alt="Laboratoria logo" src={laboratoriaIcon} height={56} />
+                    <img
+                      alt="Laboratoria logo"
+                      src={laboratoriaIcon}
+                      height={56}
+                    />
                   </span>
                   <span className="hide-when-small">
-                    <img alt="Laboratoria logo" src={laboratoriaLogo} height={36} style={{ marginRight: 10 }} />
+                    <img
+                      alt="Laboratoria logo"
+                      src={laboratoriaLogo}
+                      height={36}
+                      style={{ marginRight: 10 }}
+                    />
                   </span>
                   Curriculum
                 </Typography>
@@ -91,7 +100,9 @@ const TopBar = () => {
                   displayEmpty
                   disableUnderline
                   value={lang}
-                  onChange={(e) => navigate(`/${e.target.value}/${urlWithoutLang}`)}
+                  onChange={(e) =>
+                    navigate(`/${e.target.value}/${urlWithoutLang}`)
+                  }
                 >
                   <MenuItem value="es">ES</MenuItem>
                   <MenuItem value="pt">PT</MenuItem>

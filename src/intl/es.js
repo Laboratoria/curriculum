@@ -11,7 +11,8 @@ const es = {
   reset: 'Reiniciar',
   here: 'acá',
 
-  'not-available-in-lang': 'Este contenido no está disponible actualmente en español.',
+  'not-available-in-lang':
+    'Este contenido no está disponible actualmente en español.',
 
   'top-bar/hire': 'Contrata talento',
 
@@ -291,7 +292,8 @@ const es = {
 
   browser: 'Browser JavaScript',
 
-  'content-management': 'Cómo crear y organizar el contenido de un producto digital',
+  'content-management':
+    'Cómo crear y organizar el contenido de un producto digital',
 
   css: 'CSS',
 

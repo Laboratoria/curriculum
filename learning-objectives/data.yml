@@ -74,13 +74,13 @@ user-centricity:
   - centricity
   - user-oriented
   - prioritization
-  
+
 business:
   - model
   - goals
   - metrics
   - benchmark
-  
+
 synthesis:
   - weighing
   - patterns
@@ -112,7 +112,7 @@ planning:
   - monitor
   - prioritization
   - tools
-    
+
 firebase:
   - auth
   - firestore
@@ -264,38 +264,38 @@ wordpress:
 
 typescript:
   - basic-types:
-    - static-type-checking
-    - strictness
-    - primitives
-    - arrays
-    - any
-    - functions
-    - object-types:
-      - optional-properties
-    - union-types
-    - type-aliases
-    - interfaces
-    - type-assertions
-    - literal-types
-    - null-and-undefined
-    - enums
+      - static-type-checking
+      - strictness
+      - primitives
+      - arrays
+      - any
+      - functions
+      - object-types:
+          - optional-properties
+      - union-types
+      - type-aliases
+      - interfaces
+      - type-assertions
+      - literal-types
+      - null-and-undefined
+      - enums
   - narrowing
   - classes:
-    - members:
-      - fields
-      - constructors
-      - methods
-      - getter-setters
-    - class-heritage:
-      - implements
-      - extends
-    - member-visibility:
-      - public
-      - protected
-      - private
-    - static-members
-    - this
-    - abstract-classes
+      - members:
+          - fields
+          - constructors
+          - methods
+          - getter-setters
+      - class-heritage:
+          - implements
+          - extends
+      - member-visibility:
+          - public
+          - protected
+          - private
+      - static-members
+      - this
+      - abstract-classes
   - decorators
 
 # New OAs since UXD006
@@ -319,21 +319,21 @@ research:
   - test
   - cuantitative-data
   - planning:
-    - research-plan
-    - desk-research
-    - research-sample
-    - participants
+      - research-plan
+      - desk-research
+      - research-sample
+      - participants
   - qualitative:
-    - user-interviews
-    - exploratory-techniques
+      - user-interviews
+      - exploratory-techniques
   - quantitative:
-    - user-surveys
-    - analytical-techniques
+      - user-surveys
+      - analytical-techniques
   - analysis:
-    - process-information
-    - experience-mapping
-    - identify-patterns
-    - synthesize-results
+      - process-information
+      - experience-mapping
+      - identify-patterns
+      - synthesize-results
 
 design-concept:
   - define-mvp

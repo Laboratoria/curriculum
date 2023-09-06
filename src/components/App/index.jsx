@@ -1,5 +1,10 @@
 import { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from 'react-router-dom';
 import { useApp, Loading } from '@laboratoria/react';
 import RoutesWithIntl from './RoutesWithIntl';
 import './App.css';
@@ -15,7 +20,11 @@ const App = () => {
 
     const profileLang = auth.user?.lang;
     setDefaultLang(
-      ['es', 'pt'].includes(profileLang) ? profileLang : navigator.language.split('-')[0] === 'pt' ? 'pt' : 'es',
+      ['es', 'pt'].includes(profileLang)
+        ? profileLang
+        : navigator.language.split('-')[0] === 'pt'
+        ? 'pt'
+        : 'es',
     );
   }, [auth]);
 
@@ -26,8 +35,16 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Navigate to={`/${defaultLang}/${window.location.search}`} />} />
-        <Route path="/:lang/*" element={<RoutesWithIntl defaultLang={defaultLang} />} />
+        <Route
+          path="/"
+          element={
+            <Navigate to={`/${defaultLang}/${window.location.search}`} />
+          }
+        />
+        <Route
+          path="/:lang/*"
+          element={<RoutesWithIntl defaultLang={defaultLang} />}
+        />
       </Routes>
     </Router>
   );

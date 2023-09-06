@@ -23,12 +23,27 @@ const DrawerMenu = ({ lang }) => {
 
   return (
     <>
-      <IconButton onClick={() => setDrawerIsOpen(true)} edge="start" color="inherit" aria-label="menu" size="large">
+      <IconButton
+        onClick={() => setDrawerIsOpen(true)}
+        edge="start"
+        color="inherit"
+        aria-label="menu"
+        size="large"
+      >
         <MenuIcon />
       </IconButton>
-      <Drawer anchor="left" open={drawerIsOpen} onClick={() => setDrawerIsOpen(false)} sx={{ width: '250px' }}>
+      <Drawer
+        anchor="left"
+        open={drawerIsOpen}
+        onClick={() => setDrawerIsOpen(false)}
+        sx={{ width: '250px' }}
+      >
         <List>
-          <ListItem component={Link} to={`/${lang}/`} sx={{ display: 'flex', justifyContent: 'space-between' }}>
+          <ListItem
+            component={Link}
+            to={`/${lang}/`}
+            sx={{ display: 'flex', justifyContent: 'space-between' }}
+          >
             <span className="hide-when-not-small">
               <img alt="Laboratoria logo" src={laboratoriaIcon} height={56} />
             </span>
@@ -79,7 +94,10 @@ const DrawerMenu = ({ lang }) => {
               <ListItemText secondary={`v${version}`} />
             </ListItem> */}
           </List>
-          <ListItemButton component={Link} to={`https://talento.laboratoria.la/${lang === 'pt' ? 'br/' : ''}`}>
+          <ListItemButton
+            component={Link}
+            to={`https://talento.laboratoria.la/${lang === 'pt' ? 'br/' : ''}`}
+          >
             <ListItemText primary={<FormattedMessage id="top-bar/hire" />} />
           </ListItemButton>
         </List>
@@ -87,7 +105,10 @@ const DrawerMenu = ({ lang }) => {
           <>
             <Divider />
             <List>
-              <ListItemButton component={Link} to="https://www.laboratoriaplus.la/">
+              <ListItemButton
+                component={Link}
+                to="https://www.laboratoriaplus.la/"
+              >
                 <ListItemText primary="Conoce Laboratoria+" />
               </ListItemButton>
             </List>

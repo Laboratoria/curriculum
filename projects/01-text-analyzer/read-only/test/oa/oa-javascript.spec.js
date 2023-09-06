@@ -1,80 +1,94 @@
-const acorn = require("acorn");
-const fs = require("fs");
+const acorn = require('acorn');
+const fs = require('fs');
 
 //read analyzer.js file
-const code = fs.readFileSync("src/analyzer.js", "utf8");
+const code = fs.readFileSync('src/analyzer.js', 'utf8');
 //parse the file
-const ast = acorn.parse(code, { ecmaVersion: 2020, sourceType: "module" });
+const ast = acorn.parse(code, { ecmaVersion: 2020, sourceType: 'module' });
 
-const getASTMetrics = (node, [
-  parseIntCalls,
-  parseFloatCalls,
-  NumberCalls,
-  splitCalls,
-  trimCalls,
-  letStatements,
-  constStatements,
-  ifelseStatements,
-  forStatements,
-  exportStatements,
-]) => {
-
-  if (node.type === "CallExpression" &&
-    node.callee.type === "Identifier" &&
-    node.callee.name === "parseInt") {
+const getASTMetrics = (
+  node,
+  [
+    parseIntCalls,
+    parseFloatCalls,
+    NumberCalls,
+    splitCalls,
+    trimCalls,
+    letStatements,
+    constStatements,
+    ifelseStatements,
+    forStatements,
+    exportStatements,
+  ],
+) => {
+  if (
+    node.type === 'CallExpression' &&
+    node.callee.type === 'Identifier' &&
+    node.callee.name === 'parseInt'
+  ) {
     parseIntCalls.push(node);
   }
 
-  if (node.type === "CallExpression" &&
-    node.callee.type === "Identifier" &&
-    node.callee.name === "parseFloat") {
+  if (
+    node.type === 'CallExpression' &&
+    node.callee.type === 'Identifier' &&
+    node.callee.name === 'parseFloat'
+  ) {
     parseFloatCalls.push(node);
   }
 
-  if (node.type === "CallExpression" &&
-    node.callee.type === "Identifier" &&
-    node.callee.name === "Number") {
+  if (
+    node.type === 'CallExpression' &&
+    node.callee.type === 'Identifier' &&
+    node.callee.name === 'Number'
+  ) {
     NumberCalls.push(node);
   }
 
-  if (node.type === "CallExpression" &&
-    node.callee.type === "MemberExpression" &&
-    node.callee.property.type === "Identifier" &&
-    node.callee.property.name === "split") {
+  if (
+    node.type === 'CallExpression' &&
+    node.callee.type === 'MemberExpression' &&
+    node.callee.property.type === 'Identifier' &&
+    node.callee.property.name === 'split'
+  ) {
     splitCalls.push(node);
   }
 
-  if (node.type === "CallExpression" &&
-    node.callee.type === "MemberExpression" &&
-    node.callee.property.type === "Identifier" &&
-    node.callee.property.name === "trim") {
+  if (
+    node.type === 'CallExpression' &&
+    node.callee.type === 'MemberExpression' &&
+    node.callee.property.type === 'Identifier' &&
+    node.callee.property.name === 'trim'
+  ) {
     trimCalls.push(node);
   }
 
-  if (node.type === "VariableDeclaration" && node.kind === "let") {
+  if (node.type === 'VariableDeclaration' && node.kind === 'let') {
     letStatements.push(node);
   }
 
-  if (node.type === "VariableDeclaration" && node.kind === "const") {
+  if (node.type === 'VariableDeclaration' && node.kind === 'const') {
     constStatements.push(node);
   }
 
-  if (node.type === "IfStatement") {
+  if (node.type === 'IfStatement') {
     ifelseStatements.push(node);
   }
 
-  if (node.type === "ForStatement") {
+  if (node.type === 'ForStatement') {
     forStatements.push(node);
   }
 
-  if ([
-    "ExportDeclaration",
-    "ExportAllDeclaration",
-    "ExportNamedDeclaration",
-    "ExportDefaultDeclaration",
-    "ExportSpecifier",
-    "ExportDefaultSpecifier",
-  ].includes(node.type)) {
+  if (
+    [
+      'ExportDeclaration',
+      'ExportAllDeclaration',
+      'ExportNamedDeclaration',
+      'ExportDefaultDeclaration',
+      'ExportSpecifier',
+      'ExportDefaultSpecifier',
+    ].includes(node.type)
+  ) {
     exportStatements.push(node);
   }
 
@@ -82,7 +96,7 @@ const getASTMetrics = (node, [
     /* eslint-disable-next-line no-prototype-builtins */
     if (node.hasOwnProperty(key)) {
       const child = node[key];
-      if (typeof child === "object" && child !== null) {
+      if (typeof child === 'object' && child !== null) {
         getASTMetrics(child, [
           parseIntCalls,
           parseFloatCalls,
@@ -98,7 +112,7 @@ const getASTMetrics = (node, [
       }
     }
   }
-}
+};
 
 const metrics = [[], [], [], [], [], [], [], [], [], []];
 getASTMetrics(ast, metrics);
@@ -117,7 +131,9 @@ const [
 
 describe('Tipos de datos primitivos', () => {
   it('Se convierten valores tipo "string" a tipo "number" con "parseInt" o "parseFloat" o "Number"', () => {
-    expect(parseIntCalls.length + parseFloatCalls.length + NumberCalls.length).toBeGreaterThan(0);
+    expect(
+      parseIntCalls.length + parseFloatCalls.length + NumberCalls.length,
+    ).toBeGreaterThan(0);
   });
 });
 

@@ -43,7 +43,9 @@ const Breadcrumbs = ({ topic, project }) => {
           url: `/${lang}/topics/${slug}/${unit}/${part}`,
         });
         if (exerciseid) {
-          const challenge = partObj.challenges.find(({ slug }) => slug === exerciseid);
+          const challenge = partObj.challenges.find(
+            ({ slug }) => slug === exerciseid,
+          );
           links.push({
             title: challenge.intl[lang].title,
             url: `/${lang}/topics/${slug}/${unit}/${part}/${exerciseid}`,

@@ -11,7 +11,8 @@ const pt = {
   reset: 'Resetar',
   here: 'aqui',
 
-  'not-available-in-lang': 'Este conteúdo não está disponível atualmente em português.',
+  'not-available-in-lang':
+    'Este conteúdo não está disponível atualmente em português.',
 
   'top-bar/hire': 'Contrate talento',
 

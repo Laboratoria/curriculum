@@ -1,4 +1,4 @@
-version: "3.9"
+version: '3.9'
 
 services:
   db:
@@ -6,7 +6,7 @@ services:
     volumes:
       - db_data:/var/lib/mysql
     ports:
-      - "3306:3306"
+      - '3306:3306'
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: wordpress
@@ -26,8 +26,8 @@ services:
       - ./apache2/sites-enabled:/etc/apache2/sites-enabled
       - ./logs/:/var/log/apache2
     ports:
-      - "80:80"
-      - "8080:8080"
+      - '80:80'
+      - '8080:8080'
     restart: always
     environment:
       WORDPRESS_DB_HOST: db:3306
@@ -45,9 +45,9 @@ services:
       - wordpress
     links:
       - db:mysql
-    user: "33"
+    user: '33'
     entrypoint: wp
-    command: "--info"
+    command: '--info'
     working_dir: /var/www/html
     environment:
       MYSQL_ROOT_PASSWORD: wordpress
@@ -64,15 +64,15 @@ services:
     container_name: phpmyadmin
     restart: always
     ports:
-    - 8888:80
+      - 8888:80
     environment:
-    - PMA_ARBITRARY=1
+      - PMA_ARBITRARY=1
 
   phpunit:
-    image: "chriszarate/wordpress-phpunit:6.0.6"
+    image: 'chriszarate/wordpress-phpunit:6.0.6'
     volumes:
-      - "./html/wp-content/plugins:/app"
-      - "testsuite:/tmp"
+      - './html/wp-content/plugins:/app'
+      - 'testsuite:/tmp'
 
 volumes:
   db_data: {}

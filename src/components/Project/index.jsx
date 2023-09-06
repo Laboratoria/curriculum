@@ -46,12 +46,19 @@ const LearningObjectiveCat = ({ lang, cat, project, learningObjectives }) => {
 
   return (
     <div>
-      <Typography variant="h3">{(intl[cat] || {}).title || intl[cat] || cat}</Typography>
+      <Typography variant="h3">
+        {(intl[cat] || {}).title || intl[cat] || cat}
+      </Typography>
       <ul>
         {project.learningObjectives
           .filter((i) => i.startsWith(`${cat}/`))
           .map((item) => (
-            <LearningObjective key={`${cat}-${item}`} item={item} intl={intl[item] || {}} lang={lang} />
+            <LearningObjective
+              key={`${cat}-${item}`}
+              item={item}
+              intl={intl[item] || {}}
+              lang={lang}
+            />
           ))}
       </ul>
     </div>
@@ -64,7 +71,9 @@ const Project = () => {
   const [learningObjectives, setLearningObjectives] = useState();
   const { formatMessage } = useIntl();
   const projectTitle = formatMessage({ id: slug });
-  const pageTitle = `${formatMessage({ id: slug })} - ${formatMessage({ id: 'app-title' })}`;
+  const pageTitle = `${formatMessage({ id: slug })} - ${formatMessage({
+    id: 'app-title',
+  })}`;
   // en el caso en que no exista un id = slug del proyecto en nuestros archivos
   // de internacionalización (por ej. cuando un proyecto existe en un lang, pero
   // en otro no), vamos a dejar como `title` el título general del sitio.
@@ -95,15 +104,20 @@ const Project = () => {
     );
   }
 
-  const learningObjectiveCats = (project.learningObjectives || []).reduce((memo, item) => {
-    const cat = item.split('/')[0];
-    return memo.includes(cat) ? memo : memo.concat(cat);
-  }, []);
+  const learningObjectiveCats = (project.learningObjectives || []).reduce(
+    (memo, item) => {
+      const cat = item.split('/')[0];
+      return memo.includes(cat) ? memo : memo.concat(cat);
+    },
+    [],
+  );
 
   const { repo, version, path, intl } = project;
   const { title, summary } = intl[lang];
   const repoUrl = `https://github.com/${repo}`;
-  const readmeUrl = `${repoUrl}/blob/v${version}/${path}/README${lang === 'pt' ? '.pt' : ''}.md`;
+  const readmeUrl = `${repoUrl}/blob/v${version}/${path}/README${
+    lang === 'pt' ? '.pt' : ''
+  }.md`;
   const projectUrl = `${repoUrl}/tree/v${version}/${path}`;
 
   return (
@@ -117,7 +131,8 @@ const Project = () => {
       </div>
 
       <p>
-        Ver enunciado completo (<ExternalLink url={readmeUrl} title="README.md" />) y{' '}
+        Ver enunciado completo (
+        <ExternalLink url={readmeUrl} title="README.md" />) y{' '}
         <ExternalLink url={projectUrl} title="boilerplate" /> en GitHub.
       </p>
 

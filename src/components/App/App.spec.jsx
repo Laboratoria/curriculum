@@ -39,7 +39,9 @@ describe('App', () => {
 
   it('should show portuguese home when navigator.language is pt', async () => {
     window.history.pushState({}, 'Test page', '/');
-    const spy = vi.spyOn(window.navigator, 'language', 'get').mockReturnValue('pt');
+    const spy = vi
+      .spyOn(window.navigator, 'language', 'get')
+      .mockReturnValue('pt');
     useApp.mockImplementation(() => ({
       auth: { user: null },
     }));

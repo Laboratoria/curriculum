@@ -1,8 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createTheme, ThemeProvider, StyledEngineProvider } from '@mui/material/styles';
+import {
+  createTheme,
+  ThemeProvider,
+  StyledEngineProvider,
+} from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import { AppProvider, themeConfig, createAppWithProfiler } from '@laboratoria/react';
+import {
+  AppProvider,
+  themeConfig,
+  createAppWithProfiler,
+} from '@laboratoria/react';
 import '@laboratoria/react/src/theme/index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';

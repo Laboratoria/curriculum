@@ -12,7 +12,10 @@ import { learningObjectiveToIcon } from '../../lib/learning-objectives';
 
 const Project = ({ lang, project }) => {
   const learningObjectiveCats = (project.learningObjectives || []).reduce(
-    (memo, item) => (!memo.includes(item.split('/')[0]) ? memo.concat(item.split('/')[0]) : memo),
+    (memo, item) =>
+      !memo.includes(item.split('/')[0])
+        ? memo.concat(item.split('/')[0])
+        : memo,
     [],
   );
 
@@ -20,12 +23,21 @@ const Project = ({ lang, project }) => {
 
   return (
     <Card>
-      <CardMedia component="img" height="200" image={project.thumb} alt={title} />
+      <CardMedia
+        component="img"
+        height="200"
+        image={project.thumb}
+        alt={title}
+      />
       <CardHeader
         sx={{ pb: 0 }}
         titleTypographyProps={{ sx: { fontSize: '1.6em', mt: 0, mb: 1 } }}
         action={
-          <IconButton component={Link} to={`/${lang}/projects/${project.slug}`} size="large">
+          <IconButton
+            component={Link}
+            to={`/${lang}/projects/${project.slug}`}
+            size="large"
+          >
             <ArrowForward />
           </IconButton>
         }
@@ -75,7 +87,9 @@ const ProjectGroup = ({ prefix, projects, track, lang, intl }) => {
       <div
         style={{ marginBottom: 25 }}
         dangerouslySetInnerHTML={{
-          __html: intl.formatMessage({ id: `projects.${track}.level.${prefix}` }),
+          __html: intl.formatMessage({
+            id: `projects.${track}.level.${prefix}`,
+          }),
         }}
       />
       <Grid container spacing={3}>
@@ -95,7 +109,10 @@ const Projects = ({ lang, projects, track }) => {
 
   const projectsByPrefix = projects
     .filter((p) => p.track === track && p.intl[lang])
-    .reduce((memo, p) => ({ ...memo, [p.prefix]: (memo[p.prefix] || []).concat(p) }), {});
+    .reduce(
+      (memo, p) => ({ ...memo, [p.prefix]: (memo[p.prefix] || []).concat(p) }),
+      {},
+    );
 
   return (
     <>

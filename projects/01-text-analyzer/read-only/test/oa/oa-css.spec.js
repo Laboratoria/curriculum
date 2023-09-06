@@ -7,42 +7,57 @@ const page = new JSDOM(html);
 const { window } = page;
 const { document } = window;
 
-const stylesPath = document.querySelector('link[rel="stylesheet"]').getAttribute('href');
+const stylesPath = document
+  .querySelector('link[rel="stylesheet"]')
+  .getAttribute('href');
 const style = fs.readFileSync('./src/' + stylesPath, 'utf-8');
 const { rules } = css.parse(style).stylesheet;
 
-const BOX_MODEL_ATTRIBUTES = ['width', 'height', 'margin', 'padding', 'border', 'box-sizing', 'background'];
+const BOX_MODEL_ATTRIBUTES = [
+  'width',
+  'height',
+  'margin',
+  'padding',
+  'border',
+  'box-sizing',
+  'background',
+];
 
 const getRulesForSelector = (selector) => {
   return rules.filter(
     (rule) =>
-      rule.type === 'rule' &&
-      rule.selectors.some((s) => s.trim() === selector)
+      rule.type === 'rule' && rule.selectors.some((s) => s.trim() === selector),
   );
-}
+};
 
 //get all class rules
 const classRules = [
   ...new Set( //remove duplicates
-    rules.reduce( //one array with all selectors
+    rules.reduce(
+      //one array with all selectors
       (result, rule) =>
-        rule.type === 'rule' ? //only rules
-          result.concat( //concat all selectors
-            rule.selectors.flatMap((s) => //flat array
-              s.trim().match(/\.[a-zA-Z0-9_-]+/) //extract classes from selector
-              ?? [] //if no class, empty array
+        rule.type === 'rule' //only rules
+          ? result.concat(
+              //concat all selectors
+              rule.selectors.flatMap(
+                (
+                  s, //flat array
+                ) =>
+                  s.trim().match(/\.[a-zA-Z0-9_-]+/) ?? //extract classes from selector
+                  [], //if no class, empty array
+              ),
             )
-          ) :
-          result
-      , []
-    ))];
+          : result,
+      [],
+    ),
+  ),
+];
 
 function toBeUsedMoreThanOnce(uses, className) {
   const pass = uses > 1;
   if (pass) {
     return {
-      message: () =>
-        `expected ${className} used more than once`,
+      message: () => `expected ${className} used more than once`,
       pass: true,
     };
   } else {
@@ -55,18 +70,16 @@ function toBeUsedMoreThanOnce(uses, className) {
 }
 
 expect.extend({
-  toBeUsedMoreThanOnce
+  toBeUsedMoreThanOnce,
 });
 
 describe('CSS', () => {
-
   const ul = document.querySelector('ul');
   const ulClasses = Array.from(ul.classList.values());
 
   const lis = Array.from(ul.querySelectorAll('li'));
 
   describe('Uso de selectores de CSS', () => {
-
     it('Se usan selectores CSS de tipo para <header>', () => {
       const headerRules = getRulesForSelector('header');
       expect(headerRules.length).toBeGreaterThan(0);
@@ -95,13 +108,11 @@ describe('CSS', () => {
       expect(
         lis.some((li) => {
           const liClasses = Array.from(li.classList.values());
-          return liClasses.some(
-            (liClass) => {
-              const liRules = getRulesForSelector(`.${liClass}`);
-              return liRules.length > 0;
-            }
-          );
-        })
+          return liClasses.some((liClass) => {
+            const liRules = getRulesForSelector(`.${liClass}`);
+            return liRules.length > 0;
+          });
+        }),
       ).toBe(true);
     });
 
@@ -114,25 +125,26 @@ describe('CSS', () => {
   });
 
   describe('Modelo de caja (box model)', () => {
-
     it('Se usan atributos de modelo de caja en clase CSS para <li>', () => {
       let allRulesAttributes = [];
       lis.forEach((li) => {
         const liClasses = Array.from(li.classList.values());
         liClasses.forEach((liClass) => {
           const liRules = getRulesForSelector(`.${liClass}`);
-          const ulRulesAttributes = liRules[0].declarations.map((declaration) => declaration.property);
+          const ulRulesAttributes = liRules[0].declarations.map(
+            (declaration) => declaration.property,
+          );
           allRulesAttributes = allRulesAttributes.concat(ulRulesAttributes);
         });
       });
 
       //expect at least one ulRulesAttributes starts with at least one element of boxModelAttributes
       expect(
-        allRulesAttributes.some(
-          (attribute) => BOX_MODEL_ATTRIBUTES.some(
-            boxModelAttribute => attribute.startsWith(boxModelAttribute)
-          )
-        )
+        allRulesAttributes.some((attribute) =>
+          BOX_MODEL_ATTRIBUTES.some((boxModelAttribute) =>
+            attribute.startsWith(boxModelAttribute),
+          ),
+        ),
       ).toBe(true);
     });
   });

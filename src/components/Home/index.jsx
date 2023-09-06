@@ -52,7 +52,9 @@ const Home = () => {
                 __html: formatMessage(
                   { id: 'home/alert-apply' },
                   {
-                    link: `<a href="${applyUrl}">${formatMessage({ id: 'here' })}</a>`,
+                    link: `<a href="${applyUrl}">${formatMessage({
+                      id: 'here',
+                    })}</a>`,
                   },
                 ),
               }}

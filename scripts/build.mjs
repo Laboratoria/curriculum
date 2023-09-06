@@ -21,11 +21,10 @@ const { repository, version } = JSON.parse(
 );
 
 const getConcurrency = (opts) => {
-  const concurrency = (
+  const concurrency =
     typeof opts.concurrency === 'number'
       ? opts.concurrency
-      : Math.max(os.cpus().length - 1, 1)
-  );
+      : Math.max(os.cpus().length - 1, 1);
 
   if (Number.isNaN(concurrency) || concurrency < 1) {
     throw new Error(`Invalid concurrency: ${concurrency}`);
@@ -39,11 +38,8 @@ const readContentDirs = async () => {
     ['project', 'topic'].map(async (type) => {
       const files = await readdir(path.join(__dirname, '..', `${type}s`));
       return files.reduce(
-        (memo, file) => (
-          ['.', '_'].includes(file[0])
-            ? memo
-            : memo.concat(`${type}s/${file}`)
-        ),
+        (memo, file) =>
+          ['.', '_'].includes(file[0]) ? memo : memo.concat(`${type}s/${file}`),
         [],
       );
     }),
@@ -52,78 +48,85 @@ const readContentDirs = async () => {
   return [...projects, ...topics];
 };
 
-const parse = (dir, validate) => new Promise((resolve) => {
-  console.log(`=> Parsing ${dir}...`);
+const parse = (dir, validate) =>
+  new Promise((resolve) => {
+    console.log(`=> Parsing ${dir}...`);
 
-  const [basedir, id] = dir.split('/');
-  const type = basedir.slice(0, -1);
-  const slug = type === 'topic' ? id : id.split('-').slice(1).join('-');
-  const dest = path.join(buildDir, `${type}s`, `${slug}.json`);
-  const fd = openSync(validate ? '/dev/null' : dest, 'w');
-  const args = [
-    'curriculum-parser',
-    type,
-    dir,
-    '--repo', repository,
-    '--version', version,
-  ];
+    const [basedir, id] = dir.split('/');
+    const type = basedir.slice(0, -1);
+    const slug = type === 'topic' ? id : id.split('-').slice(1).join('-');
+    const dest = path.join(buildDir, `${type}s`, `${slug}.json`);
+    const fd = openSync(validate ? '/dev/null' : dest, 'w');
+    const args = [
+      'curriculum-parser',
+      type,
+      dir,
+      '--repo',
+      repository,
+      '--version',
+      version,
+    ];
 
-  const child = spawn(
-    'npx',
-    type === 'project'
-      ? args.concat('--lo', path.join(__dirname, '../learning-objectives'))
-      : args,
-    { stdio: [null, fd, 'pipe'] },
-  );
+    const child = spawn(
+      'npx',
+      type === 'project'
+        ? args.concat('--lo', path.join(__dirname, '../learning-objectives'))
+        : args,
+      { stdio: [null, fd, 'pipe'] },
+    );
 
-  const stderrChunks = [];
-  child.stderr.on('data', chunk => stderrChunks.push(chunk));
+    const stderrChunks = [];
+    child.stderr.on('data', (chunk) => stderrChunks.push(chunk));
 
-  child.on('close', (code) => {
-    if (code > 0) {
-      const err = Object.assign(new Error(`Error parsing ${dir}`), {
-        item: { type, id },
-        stderr: stderrChunks.join(''),
-      });
-      console.error(`<= FAIL: Error parsing ${dir}`);
-      console.error(err.stderr);
-      return resolve(err);
-    }
+    child.on('close', (code) => {
+      if (code > 0) {
+        const err = Object.assign(new Error(`Error parsing ${dir}`), {
+          item: { type, id },
+          stderr: stderrChunks.join(''),
+        });
+        console.error(`<= FAIL: Error parsing ${dir}`);
+        console.error(err.stderr);
+        return resolve(err);
+      }
 
-    console.log(`<= OK parsing ${dir}`);
-    return resolve({ dir, type, id, slug, dest });
+      console.log(`<= OK parsing ${dir}`);
+      return resolve({ dir, type, id, slug, dest });
+    });
   });
-});
 
 //
 // Create projects.json and topics.json with indeces of all projects and topics.
 //
 const createIndexes = async (results) => {
-  const resultsWithJson = await Promise.all(results.map(async result => ({
-    ...result,
-    json: JSON.parse(await readFile(result.dest)),
-  })));
+  const resultsWithJson = await Promise.all(
+    results.map(async (result) => ({
+      ...result,
+      json: JSON.parse(await readFile(result.dest)),
+    })),
+  );
 
   const resultsByType = resultsWithJson.reduce(
     ({ projects, topics }, { type, json }) => {
       const { units, ...rest } = json;
-      return (
-        type === 'project'
-          ? { projects: projects.concat(json), topics }
-          : { projects, topics: topics.concat(rest) }
-      );
+      return type === 'project'
+        ? { projects: projects.concat(json), topics }
+        : { projects, topics: topics.concat(rest) };
     },
     { projects: [], topics: [] },
   );
 
-  await Promise.all(Object.keys(resultsByType).map(key => writeFile(
-    path.join(buildDir, `${key}.json`),
-    JSON.stringify(resultsByType[key], null, 2),
-  )));
+  await Promise.all(
+    Object.keys(resultsByType).map((key) =>
+      writeFile(
+        path.join(buildDir, `${key}.json`),
+        JSON.stringify(resultsByType[key], null, 2),
+      ),
+    ),
+  );
 };
 
 const addLearningObjectives = async () => {
-  const dir = path.join(__dirname, '../learning-objectives')
+  const dir = path.join(__dirname, '../learning-objectives');
   const [tree, es, pt] = await Promise.all([
     loadYaml(path.join(dir, 'data.yml')),
     loadYaml(path.join(dir, 'intl', 'es.yml')),
@@ -135,7 +138,7 @@ const addLearningObjectives = async () => {
     tree,
     flat,
     intl: { es, pt },
-    table: flat.map(key => ({
+    table: flat.map((key) => ({
       key,
       es: es[key]?.title || es[key],
       pt: pt[key]?.title || pt[key],
@@ -159,13 +162,13 @@ const main = async (args, opts) => {
   }
 
   const results = await porch(
-    dirs.map(dir => () => parse(dir, validate)),
+    dirs.map((dir) => () => parse(dir, validate)),
     concurrency,
     0,
     false,
   );
 
-  const errors = results.filter(result => result instanceof Error);
+  const errors = results.filter((result) => result instanceof Error);
   if (errors.length) {
     throw new Error(`Failed to parse ${errors.length} items.`);
   }
