@@ -24,7 +24,7 @@
     "format:fix": "prettier --write .",
     "test:topics": "mocha './topics/!(node_modules)/**/*.spec.js' --verbose",
     "test:scripts": "mocha './scripts/test/*.spec.mjs' --verbose",
-    "pretest": "npm run mdlint && npm run eslint:topics && npm run validate && npm run test:topics",
+    "pretest": "npm run format && npm run mdlint && npm run eslint:topics && npm run validate && npm run test:topics",
     "validate": "node ./scripts/build.mjs --validate",
     "build:content": "node ./scripts/build.mjs",
     "changelog": "git log $(git describe --tags --abbrev=0)..HEAD --oneline --format=\"* %h %s (%an)\"",
