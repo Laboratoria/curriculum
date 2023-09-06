@@ -35,56 +35,26 @@ usuarias, al lado derecho.
 
 ## 2. Resumen del proyecto
 
-En este proyecto **construirás una _página web_ para visualizar un
-_conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuaria
-necesita.
+En este proyecto utilizarás herramientas de
+[inteligencia artificial](https://es.wikipedia.org/wiki/Inteligencia_artificial)
+como [ChatGPT](https://openai.com/chatgpt), [ExplainDev](https://explain.dev/),
+entre otras para generar set de datos en formato
+[JSON](https://es.wikipedia.org/wiki/JSON).
+
+El proposito de generar la data en esta manera es brindarte la oportunidad de
+adentrarte en el empleo de herramientas impulsadas por la inteligencia
+artificial, así como en tecnicas de
+[Prompting](https://learnprompting.org/es/docs/intro).
+
+Además **construirás una _página web_ para visualizar el
+_conjunto (set) de datos_** generado anteriormente. Esta página web se
+adecuará a lo que descubras que tu usuario necesita.
 
 Como entregable final tendrás una página web que permita **visualizar la data,
-filtrarla, ordenarla y y calcular alguna estadística**. Con estadística
+filtrarla, ordenarla y hacer algún cálculo agregado**. Con cálculo agregado
 nos referimos a distintos cálculos que puedes hacer con la data para mostrar
 información aún más relevante para los usuarios (promedio, el valor máximo
 o mínimo, etc).
-
-Esta vez te proponemos una serie de datos de diferentes _temáticas_ para que
-explores y decidas con qué temática te interesa trabajar. Hemos elegido
-específicamente estos sets de datos porque creemos que se adecúan bien a esta
-etapa de tu aprendizaje.
-
-Una vez que definas tu área de interés, busca entender quién es tu usuaria y qué
-necesita saber o ver exactamente; luego podrás construir la interfaz que
-le ayude a interactuar y entender mejor esos datos.
-
-Estos son datos que te proponemos:
-
-* [Pokémon](src/data/pokemon/pokemon.json):
-  En este set encontrarás una lista con los 251 Pokémon de la región de Kanto
-  y Johto, junto con sus respectivas estadísticas usadas en el juego
-  [Pokémon GO](http://pokemongolive.com).
-  - [Investigación con jugadores de Pokémon Go](src/data/pokemon/README.md)
-
-* [League of Legends - Challenger leaderboard](src/data/lol/lol.json):
-  Este set de datos muestra la lista de campeones en una liga del
-  juego League of Legends (LoL).
-  - [Investigación con jugadores de LoL](src/data/lol/README.md)
-
-* [Rick and Morty](src/data/rickandmorty/rickandmorty.json).
-  Este set nos proporciona la lista de los personajes de la serie Rick and
-  Morty. [API Rick and Morty](https://rickandmortyapi.com).
-  - [Investigación con seguidores de Rick and Morty](src/data/rickandmorty/README.md)
-
-* [Juegos Olímpicos de Río de Janeiro](src/data/athletes/athletes.json).
-  Este set nos proporciona la lista de los atletas que ganaron medallas en
-  las olimpiadas de Río de Janeiro.
-  - [Investigación con interesados en juegos olímpicos de Río de Janeiro](src/data/athletes/README.md)
-
-* [Studio Ghibli](src/data/ghibli/ghibli.json).
-  En este set encontrarás una lista de las animaciones y sus personajes del
-  [Studio Ghibli](https://ghiblicollection.com/).
-  - [Investigación con seguidores de las animaciones del Studio Ghibli](src/data/ghibli/README.md)
-
-El objetivo principal de este proyecto es que aprendas a diseñar y construir
-una interfaz web donde se pueda visualizar y manipular data,
-entendiendo lo que tu usuaria necesita.
 
 ## 3. Funcionalidades
 
@@ -191,9 +161,12 @@ funcionalidad:
 
 * Este proyecto se debe resolver en duplas.
 * El rango de tiempo estimado para completar el proyecto es de 3 a 4 Sprints.
-* El proyecto será entregado subiendo tu código a
-  [GitHub](https://github.com/) (commit/push) y la interfaz será desplegada
-  usando [GitHub Pages](https://pages.github.com/).
+* El tiempo estimado que deberías dedicar a la generación de la data
+  es de máximo un sprint. Si ves que te va a tomar más tiempo, te
+  recomendamos utilizar la data de ejemplo que la vas a encontrar en
+  esta ruta: `./src/data/data.json`.
+* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
+  interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
 
 ## 5. Consideraciones técnicas
 
@@ -208,29 +181,21 @@ como toda la configuración de dependencias:
 
 ```text
 .
-├── EXTRA.md
 ├── README.md
 ├── package.json
 ├── src
-|  ├── data (según con qué data trabajes)
-|  |  ├── lol
-|  |  |  ├── lol.js
-|  |  |  ├── lol.json
-|  |  |  └── README.md
-|  |  ├── pokemon
-|  |  |  ├── pokemon.js
-|  |  |  ├── pokemon.json
-|  |  |  └── README.md
-|  |  └── // otras carpetas de data
+|  ├── data 
+|  |  └── data.json (La que hayas generado con la IA)
 |  ├── dataFunctions.js
-   ├── view.js
+|  ├── view.js
 |  ├── index.html
 |  ├── main.js
 |  └── style.css
 └── test
    └── data.js
-   └── data.spec.js
+   └── dataFunctions.spec.js
 └── tests-read-only
+   └── json.spec.js
 
 ```
 
@@ -472,6 +437,63 @@ cada historia en tareas.
 
 En la medida de lo posible, termina una Historia de Usuario antes de pasar
 a la siguiente (Cumple con Definición de Terminado + Criterios de Aceptación).
+
+#### Generar de la data
+
+La temática será a tu gusto, por ejemplo, pueden ser personajes importantes en la
+historia, países, películas... etc. El archivo JSON debe tener una cantidad de 24
+objetos. Y la estructura de cada objeto deberá ser la siguiente:
+
+* `name:` Nombre del dato que se va dibujar en la vista.
+* `img:` URL de la imagen. Esta imagen será generada a través de alguna
+  herramienta basada en inteligencia artifical. Una vez generada la imagen,
+  ésta será descargada y guardada en una carpeta del proyecto. La URL de
+  esta imagen será agregada manualmente al JSON.
+* `statistics:` Un objeto con las siguientes propiedades:
+  - `value`: Un valor numérico para el cálculo agregado (por ejemplo,
+    puntuaciones, cantidades, fechas, etc).
+  - `label`: Descripción el valor numérico
+* `description:` Descripción corta sobre el dato.
+
+Un ejemplo de data, según los requisitos anteriores podría ser:
+
+```json
+[
+  {
+    "name": "Ada Lovelace",
+    "img": "URL_DE_LA_IMAGEN_GENERADA",
+    "statistic": {
+      "value": 1843,
+      "label": "año de nacimiento",
+    },
+    "description": "Primera programadora de la historia",
+  },
+  //... 23 objetos más
+]
+```
+
+La data generada deberás reemplazarla por el contenido de este archivo:
+`./src/data/data.json`.
+
+**El tiempo estimado que deberías dedicar a la generación de esta data
+es de máximo un sprint.** Si ves que te va a tomar más tiempo, te recomendamos
+utilizar la data de ejemplo que la vas a en contrar en el archivo anterior:
+`./src/data/data.json`.
+
+Las URLs de las imágenes, dentro del archivo JSON, deben hacer referencia
+a una directorio dentro del proyecto. Aquí almacenarás las imágenes que necesitarás
+para cada objeto.
+
+Una vez que tengas el archivo JSON completo, recuerda correr los test con
+`npm run test` para verificar que el archivo JSON esté cumpliendo con lo
+solicitado.
+
+Una vez que hayas delimitado tu campo de interés y generado el JSON con la
+asistencia de la inteligenica artificial, dedica tiempo a comprender a
+fondo a tu usuario y sus
+necesidades específicas. A partir de esta comprensión, podrás diseñar la
+interfaz que facilite una interacción más efectiva y una comprensión más
+completa de los datos presentados.
 
 #### Diseño de la Interfaz de Usuario
 
