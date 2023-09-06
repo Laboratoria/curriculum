@@ -163,5 +163,5 @@ const learningObjectivesIcons = {
 };
 
 export const learningObjectiveToIcon = (key) => {
-  return learningObjectivesIcons[key] || {};
+  return learningObjectivesIcons[key] || undefined;
 };
