@@ -20,6 +20,8 @@
     "mdlint": "mdlint .",
     "eslint:topics": "eslint topics/",
     "lint": "eslint . --ext .js,.jsx",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
     "test:topics": "mocha './topics/!(node_modules)/**/*.spec.js' --verbose",
     "test:scripts": "mocha './scripts/test/*.spec.mjs' --verbose",
     "pretest": "npm run mdlint && npm run eslint:topics && npm run validate && npm run test:topics",
