@@ -6,3 +6,4 @@ topics/javascript/01-basics/06-exercises/01-coin-convert/boilerplate/coinConvert
 topics/javascript/01-basics/06-exercises/02-restaurant-bill/boilerplate/restaurantBill.js
 topics/javascript/10-debugging/03-code-challenges/02-create-array/boilerplate/createArray.js
 topics/javascript/10-debugging/03-code-challenges/04-tell-fortune/boilerplate/tellFortune.js
+*.md

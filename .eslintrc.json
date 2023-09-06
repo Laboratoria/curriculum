@@ -53,6 +53,7 @@
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
     "import/no-named-as-default-member": 0,
-    "import/named": 0
+    "import/named": 0,
+    "max-len": ["error", { "code": 80 }]
   }
 }
