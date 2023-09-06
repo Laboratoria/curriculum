@@ -1,6 +1,6 @@
 # Talent Fest 23
 
-Proyecto a relizar para la seccion de Talent Fest 2023
+Proyecto a realizar para la sección de Talent Fest 2023
 
 ## Objetivo
 
@@ -8,9 +8,9 @@ Familiarizarse con los principales conceptos al rededor de la [Inteligencia Arti
 
 ## Resumen del proyecto
 
-Utilizar la herramienta [Flowise](https://flowiseai.com/) para extender la funcionalidad de un chatbot tradicional, crearás un flow utilizando alguna de las herramientas disponibles para darle capacidades extras a tu chatbot, como acceso a información en tiempo real o la habilidad de contestar preguntas acerca de un texto en específico (lectura de archivos, busquedas en internet, etc.)
+Crearás un chatbot con la habilidad de contestar preguntas basadas en la información de un documento, por ejemplo un archivo.txt, para esto podrás utilizar la herramienta [Flowise](https://flowiseai.com/) para extender la funcionalidad de un chatbot tradicional, crearás un chatflow utilizando las herramientas disponibles para darle esta capacidades a tu chatbot.
 
-![image](https://github.com/suckak/sonidos/assets/5282075/d8e393f1-c726-468d-b1f5-6f24da8357b9)
+![image](https://github.com/Laboratoria/DEV006-md-links/assets/5282075/2ef997e5-22b8-4f92-b4a0-9d000e31c4f1)
 
 ## Instalar Flowise
 
@@ -24,7 +24,15 @@ Seguir las indicaciones para instalar globalmente [flowise](https://github.com/F
 
 Una vez inicializada la herramienta podrás acceder [aquí](http://localhost:3000/)
 
-Utilizarás está herramienta para crear y configurar tu propía aplicación AI, la cual podrás utilizar por medio de la UI proporcionada y también a través de peticiones HTTP
+Utilizarás esta herramienta para crear y configurar tu propia aplicación AI, la cual podrás utilizar por medio de la UI proporcionada y también a través de peticiones HTTP
+
+## Requisitos mínimos
+
+1. Deberás configurar tu chatflow de manera que acepté la carga de al menos 1 archivo de texto
+
+2. Utilizar el módelo gpt-3.5-turbo
+
+3. El chatbot generado debe ser capaz de contestar preguntas usando la información del archivo cargado
 
 ## Recursos
 
@@ -50,7 +58,7 @@ Video: [Ejemplo de implementación](https://www.youtube.com/watch?v=kMtf9sNIcao)
 
 Necesitarás definir una variable de ambiente con el nombre `OPENAI_API_KEY` y darle el valor de api key de OpenAI que utilizarás
 
-Antes de ejecutar los test copiar en la carpeta `/test` con el nombre `'flow.json'` el archivo de exportacion del flow implementado
+Antes de ejecutar los test copiar en la carpeta `/test` con el nombre `'flow.json'` el archivo de exportación del flow implementado
 
 ```bash
 
