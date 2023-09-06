@@ -16,11 +16,9 @@ const Unit = ({ topic, lang }) => {
     <>
       <Breadcrumbs topic={topic} />
       <Typography variant="h2">{unit.intl[lang].title}</Typography>
-      {unit.parts.map(part => (
+      {unit.parts.map((part) => (
         <div key={part.slug}>
-          <Link to={`${part.slug}`}>
-            {part.intl[lang].title}
-          </Link>
+          <Link to={`${part.slug}`}>{part.intl[lang].title}</Link>
         </div>
       ))}
     </>
@@ -41,11 +39,9 @@ const UnitsList = ({ topic, lang }) => (
             <Typography variant="h3">{unit.intl[lang].title}</Typography>
           </Link>
         )}
-        {unit.parts.map(part => (
+        {unit.parts.map((part) => (
           <div key={`${unit.slug}-${part.slug}`}>
-            <Link to={`${unit.slug}/${part.slug}`}>
-              {part.intl[lang].title}
-            </Link>
+            <Link to={`${unit.slug}/${part.slug}`}>{part.intl[lang].title}</Link>
           </div>
         ))}
       </div>
@@ -60,8 +56,10 @@ const ChallengeRoute = ({ topic, lang }) => {
   const challenge = part.challenges.find(({ slug }) => slug === params.challengeid);
   const { formatMessage } = useIntl();
   setPage({
-    title: `${challenge.intl[lang].title} - ${formatMessage({id: topic.slug})} - ${formatMessage({id: 'app-title'})}`,
-    description: ''
+    title: `${challenge.intl[lang].title} - ${formatMessage({ id: topic.slug })} - ${formatMessage({
+      id: 'app-title',
+    })}`,
+    description: '',
   });
 
   return (
@@ -77,14 +75,16 @@ const Topic = () => {
   const { lang, slug } = useParams();
   const [topic, setTopic] = useState();
   const { formatMessage } = useIntl();
-  const topicTitle = formatMessage({id: slug});
-  const pageTitle = `${formatMessage({id: slug})} - ${formatMessage({id: 'app-title'})}`;
+  const topicTitle = formatMessage({ id: slug });
+  const pageTitle = `${formatMessage({ id: slug })} - ${formatMessage({ id: 'app-title' })}`;
   // en el caso en que no exista un id = slug del tópico en nuestros archivos
   // de internacionalización (por ej. cuando un tópico existe en un lang, pero
   // en otro no), vamos a dejar como `title` el título general del sitio.
-  setPage(topicTitle !== slug ?
-    {title: pageTitle, description: ''} :
-    {title: formatMessage({id: 'app-title'}), description: ''});
+  setPage(
+    topicTitle !== slug
+      ? { title: pageTitle, description: '' }
+      : { title: formatMessage({ id: 'app-title' }), description: '' },
+  );
 
   useEffect(() => {
     const id = `topics/${slug}`;
@@ -109,22 +109,10 @@ const Topic = () => {
   return (
     <Container>
       <Routes>
-        <Route
-          path=":unit/:part/:challengeid/*"
-          element={<ChallengeRoute topic={topic} lang={lang} />}
-        />
-        <Route
-          path=":unit/:part"
-          element={<Part topic={topic} lang={lang} />}
-        />
-        <Route
-          path=":unit"
-          element={<Unit topic={topic} lang={lang} />}
-        />
-        <Route
-          path=""
-          element={<UnitsList topic={topic} lang={lang} />}
-        />
+        <Route path=":unit/:part/:challengeid/*" element={<ChallengeRoute topic={topic} lang={lang} />} />
+        <Route path=":unit/:part" element={<Part topic={topic} lang={lang} />} />
+        <Route path=":unit" element={<Unit topic={topic} lang={lang} />} />
+        <Route path="" element={<UnitsList topic={topic} lang={lang} />} />
       </Routes>
     </Container>
   );

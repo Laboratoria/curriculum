@@ -1,17 +1,15 @@
 const listeners = {};
 const data = {};
 
-
 const notify = (path) => {
   const [coll, slug] = path.split('/');
 
-  (listeners[path] || []).forEach(fn => fn(data[path]));
+  (listeners[path] || []).forEach((fn) => fn(data[path]));
 
   if (slug) {
-    (listeners[coll] || []).forEach(fn => fn(data[coll]));
+    (listeners[coll] || []).forEach((fn) => fn(data[coll]));
   }
 };
-
 
 const updateData = (path, val) => {
   const [coll, slug] = path.split('/');
@@ -19,15 +17,13 @@ const updateData = (path, val) => {
   data[path] = val;
 
   if (slug && data[coll]) {
-    data[coll] = data[coll].filter(item => item.slug !== slug).concat(val);
+    data[coll] = data[coll].filter((item) => item.slug !== slug).concat(val);
   }
 };
 
-
 export const unsubscribe = (path, callback) => {
-  listeners[path] = (listeners[path] || []).filter(fn => fn !== callback);
+  listeners[path] = (listeners[path] || []).filter((fn) => fn !== callback);
 };
-
 
 export const subscribe = (path, callback) => {
   // if we already have data we invoke callback
@@ -35,8 +31,8 @@ export const subscribe = (path, callback) => {
     setTimeout(() => callback(data[path]));
   } else {
     fetch(`/data/${path}.json`)
-      .then(resp => resp.json())
-      .catch(err => err)
+      .then((resp) => resp.json())
+      .catch((err) => err)
       .then((json) => {
         updateData(path, json);
         callback(json);
@@ -51,7 +47,6 @@ export const subscribe = (path, callback) => {
 
   return () => unsubscribe(path, callback);
 };
-
 
 const watch = () => {
   const ws = new WebSocket('ws://127.0.0.1:8080/');
@@ -74,7 +69,6 @@ const watch = () => {
   ws.addEventListener('close', onClose);
   ws.addEventListener('message', onMessage);
 };
-
 
 // If in dev env, we start watching for changes in projects and topics
 if (process.env.NODE_ENV === 'development') {

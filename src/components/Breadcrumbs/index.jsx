@@ -57,7 +57,7 @@ const Breadcrumbs = ({ topic, project }) => {
     <Box sx={{ mb: 3, fontSize: '0.9em' }}>
       {links.map(({ title, url }, idx) => (
         <span key={`${url}-${idx}`}>
-          {idx > 0 && (<Box sx={{ display: 'inline-block', px: 1 }}>»</Box>)}
+          {idx > 0 && <Box sx={{ display: 'inline-block', px: 1 }}>»</Box>}
           <Link to={url}>{title}</Link>
         </span>
       ))}

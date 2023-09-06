@@ -21,8 +21,8 @@ const Part = ({ lang, topic }) => {
 
   const { formatMessage } = useIntl();
   setPage({
-    title: `${part.intl[lang].title} - ${formatMessage({id: topic.slug})} - ${formatMessage({id: 'app-title'})}`,
-    description: ''
+    title: `${part.intl[lang].title} - ${formatMessage({ id: topic.slug })} - ${formatMessage({ id: 'app-title' })}`,
+    description: '',
   });
 
   return (
@@ -30,9 +30,7 @@ const Part = ({ lang, topic }) => {
       <Breadcrumbs topic={topic} />
       <Typography variant="h1">{part.intl[lang].title}</Typography>
       <Content html={part.intl[lang].body} />
-      {!!challenges?.length && (
-        <Challenges challenges={challenges} lang={lang} />
-      )}
+      {!!challenges?.length && <Challenges challenges={challenges} lang={lang} />}
     </>
   );
 };

@@ -20,7 +20,7 @@ describe('App', () => {
     const { container } = render(
       <ThemeProvider theme={createTheme(themeConfig)}>
         <App />
-      </ThemeProvider>
+      </ThemeProvider>,
     );
     expect(container.outerHTML).toBe('<div>Loading...</div>');
   });
@@ -32,7 +32,7 @@ describe('App', () => {
     render(
       <ThemeProvider theme={createTheme(themeConfig)}>
         <App />
-      </ThemeProvider>
+      </ThemeProvider>,
     );
     await waitFor(() => screen.getByText('Desarrollo Web'));
   });
@@ -46,7 +46,7 @@ describe('App', () => {
     render(
       <ThemeProvider theme={createTheme(themeConfig)}>
         <App />
-      </ThemeProvider>
+      </ThemeProvider>,
     );
     await waitFor(() => screen.getByText('Desenvolvimento Web'));
     spy.mockRestore();

@@ -228,17 +228,17 @@ const pt = {
     </p>
   `,
 
-  'gym': 'Exercícios',
+  gym: 'Exercícios',
 
   'quiz-results': 'Respostas corretas: {success}/{total}',
 
   'app-title': 'Laboratoria Currículum',
 
-  'trivia': 'Trivia',
+  trivia: 'Trivia',
 
   'card-validation': 'Cartão de Crédito Válido',
 
-  'cipher': 'Cifra de César',
+  cipher: 'Cifra de César',
 
   'data-lovers': 'Data Lovers',
 
@@ -262,18 +262,17 @@ const pt = {
 
   'job-application': 'Projeto Job Application',
 
-  'browser': 'Browser JavaScript',
+  browser: 'Browser JavaScript',
 
-  'css': 'CSS',
+  css: 'CSS',
 
-  'html': 'HTML',
+  html: 'HTML',
 
-  'javascript': 'JavaScript',
+  javascript: 'JavaScript',
 
-  'scm': 'Source Code Management (SCM) - Git + GitHub',
+  scm: 'Source Code Management (SCM) - Git + GitHub',
 
-  'shell': 'Unix Shell',
-
+  shell: 'Unix Shell',
 };
 
 export default pt;

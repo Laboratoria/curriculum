@@ -1,10 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {
-  createTheme,
-  ThemeProvider,
-  StyledEngineProvider,
-} from '@mui/material/styles';
+import { createTheme, ThemeProvider, StyledEngineProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { AppProvider, themeConfig, createAppWithProfiler } from '@laboratoria/react';
 import '@laboratoria/react/src/theme/index.css';
@@ -24,7 +20,7 @@ ReactDOM.render(
       </ThemeProvider>
     </StyledEngineProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -14,7 +14,7 @@ const Home = () => {
   const theme = useTheme();
   const { lang } = useParams();
   const { formatMessage } = useIntl();
-  setPage({title: formatMessage({id: 'app-title'}), description: ''});
+  setPage({ title: formatMessage({ id: 'app-title' }), description: '' });
 
   const linkStyle = {
     display: 'block',
@@ -33,11 +33,9 @@ const Home = () => {
     borderRadius: '0.625rem',
   };
 
-  const applyUrl = (
-    isPrerelease
-      ? `https://laboratoria-bootcamp-next.web.app/${lang}/`
-      : `https://bootcamp.laboratoria.la/${lang}/`
-  );
+  const applyUrl = isPrerelease
+    ? `https://laboratoria-bootcamp-next.web.app/${lang}/`
+    : `https://bootcamp.laboratoria.la/${lang}/`;
 
   return (
     <Container>
@@ -51,9 +49,12 @@ const Home = () => {
             />
             <p
               dangerouslySetInnerHTML={{
-                __html: formatMessage({ id: 'home/alert-apply' }, {
-                  link: `<a href="${applyUrl}">${formatMessage({ id: 'here' })}</a>`,
-                }),
+                __html: formatMessage(
+                  { id: 'home/alert-apply' },
+                  {
+                    link: `<a href="${applyUrl}">${formatMessage({ id: 'here' })}</a>`,
+                  },
+                ),
               }}
             />
           </Alert>
@@ -64,7 +65,8 @@ const Home = () => {
             style={{
               ...linkStyle,
               backgroundColor: theme.palette.mint.main,
-              backgroundImage: 'url(https://user-images.githubusercontent.com/110297/213300132-3da5efe6-fd3a-4cf1-8367-c88219811257.png)',
+              backgroundImage:
+                'url(https://user-images.githubusercontent.com/110297/213300132-3da5efe6-fd3a-4cf1-8367-c88219811257.png)',
             }}
           >
             <Typography
@@ -84,7 +86,8 @@ const Home = () => {
             style={{
               ...linkStyle,
               backgroundColor: theme.palette.magenta.main,
-              backgroundImage: 'url(https://user-images.githubusercontent.com/110297/213300838-1d55a270-e8e4-4a67-b75e-7e95364f5f45.png)',
+              backgroundImage:
+                'url(https://user-images.githubusercontent.com/110297/213300838-1d55a270-e8e4-4a67-b75e-7e95364f5f45.png)',
             }}
           >
             <Typography
@@ -100,7 +103,7 @@ const Home = () => {
         </Grid>
       </Grid>
     </Container>
-  )
+  );
 };
 
 export default Home;

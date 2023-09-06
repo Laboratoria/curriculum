@@ -23,32 +23,14 @@ const DrawerMenu = ({ lang }) => {
 
   return (
     <>
-      <IconButton
-        onClick={() => setDrawerIsOpen(true)}
-        edge="start"
-        color="inherit"
-        aria-label="menu"
-        size="large"
-      >
+      <IconButton onClick={() => setDrawerIsOpen(true)} edge="start" color="inherit" aria-label="menu" size="large">
         <MenuIcon />
       </IconButton>
-      <Drawer
-        anchor="left"
-        open={drawerIsOpen}
-        onClick={() => setDrawerIsOpen(false)}
-        sx={{ width: '250px' }}
-      >
+      <Drawer anchor="left" open={drawerIsOpen} onClick={() => setDrawerIsOpen(false)} sx={{ width: '250px' }}>
         <List>
-          <ListItem
-            component={Link}
-            to={`/${lang}/`}
-            sx={{ display: 'flex', justifyContent: 'space-between' }}>
+          <ListItem component={Link} to={`/${lang}/`} sx={{ display: 'flex', justifyContent: 'space-between' }}>
             <span className="hide-when-not-small">
-              <img
-                alt="Laboratoria logo"
-                src={laboratoriaIcon}
-                height={56}
-              />
+              <img alt="Laboratoria logo" src={laboratoriaIcon} height={56} />
             </span>
           </ListItem>
         </List>
@@ -58,7 +40,8 @@ const DrawerMenu = ({ lang }) => {
             width: '300px',
             fontSize: { xs: '0.75rem', sm: '1.125rem' },
             fontWeight: '600',
-          }}>
+          }}
+        >
           <ListItemButton component={Link} to="https://www.laboratoria.la/">
             <ListItemText primary="Laboratoria" />
           </ListItemButton>
@@ -77,11 +60,15 @@ const DrawerMenu = ({ lang }) => {
           </ListItemButton>
           <List>
             <ListItemButton component={Link} to={`/${lang}/web-dev`}>
-              <ListItemIcon><CodeIcon /></ListItemIcon>
+              <ListItemIcon>
+                <CodeIcon />
+              </ListItemIcon>
               <ListItemText primary={<FormattedMessage id="webDev" />} />
             </ListItemButton>
             <ListItemButton component={Link} to={`/${lang}/ux`}>
-              <ListItemIcon><PeopleIcon /></ListItemIcon>
+              <ListItemIcon>
+                <PeopleIcon />
+              </ListItemIcon>
               <ListItemText primary={<FormattedMessage id="ux" />} />
             </ListItemButton>
             {/* <ListItemButton onClick={() => window.open('https://github.com/Laboratoria/bootcamp')}>
@@ -92,10 +79,7 @@ const DrawerMenu = ({ lang }) => {
               <ListItemText secondary={`v${version}`} />
             </ListItem> */}
           </List>
-          <ListItemButton
-            component={Link}
-            to={`https://talento.laboratoria.la/${lang === 'pt' ? 'br/' : ''}`}
-          >
+          <ListItemButton component={Link} to={`https://talento.laboratoria.la/${lang === 'pt' ? 'br/' : ''}`}>
             <ListItemText primary={<FormattedMessage id="top-bar/hire" />} />
           </ListItemButton>
         </List>

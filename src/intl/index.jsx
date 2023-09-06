@@ -17,9 +17,7 @@ export const IntlProvider = ({ lang, children }) => {
 
   return (
     <BaseIntlProvider locale={lang} messages={messages[lang]} key={lang}>
-      <LangContext.Provider value={{ lang }}>
-        {children}
-      </LangContext.Provider>
+      <LangContext.Provider value={{ lang }}>{children}</LangContext.Provider>
     </BaseIntlProvider>
   );
 };

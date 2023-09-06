@@ -26,17 +26,13 @@ const LearningObjective = ({ lang, item, intl }) => {
 
   return (
     <li>
-      <Typography variant="h4">
-        {intl.title || item}
-      </Typography>
+      <Typography variant="h4">{intl.title || item}</Typography>
       {intl.links && !!intl.links.length && (
         <>
           <Typography variant="h5">Links</Typography>
           <ul>
-            {intl.links.map(link => (
-              <li key={link.url}>
-                {buildLinkUrl(link)}
-              </li>
+            {intl.links.map((link) => (
+              <li key={link.url}>{buildLinkUrl(link)}</li>
             ))}
           </ul>
         </>
@@ -50,19 +46,12 @@ const LearningObjectiveCat = ({ lang, cat, project, learningObjectives }) => {
 
   return (
     <div>
-      <Typography variant="h3">
-        {(intl[cat] || {}).title || intl[cat] || cat}
-      </Typography>
+      <Typography variant="h3">{(intl[cat] || {}).title || intl[cat] || cat}</Typography>
       <ul>
         {project.learningObjectives
-          .filter(i => i.startsWith(`${cat}/`))
-          .map(item => (
-            <LearningObjective
-              key={`${cat}-${item}`}
-              item={item}
-              intl={intl[item] || {}}
-              lang={lang}
-            />
+          .filter((i) => i.startsWith(`${cat}/`))
+          .map((item) => (
+            <LearningObjective key={`${cat}-${item}`} item={item} intl={intl[item] || {}} lang={lang} />
           ))}
       </ul>
     </div>
@@ -74,15 +63,17 @@ const Project = () => {
   const [project, setProject] = useState();
   const [learningObjectives, setLearningObjectives] = useState();
   const { formatMessage } = useIntl();
-  const projectTitle = formatMessage({id: slug});
-  const pageTitle = `${formatMessage({id: slug})} - ${formatMessage({id: 'app-title'})}`;
+  const projectTitle = formatMessage({ id: slug });
+  const pageTitle = `${formatMessage({ id: slug })} - ${formatMessage({ id: 'app-title' })}`;
   // en el caso en que no exista un id = slug del proyecto en nuestros archivos
   // de internacionalización (por ej. cuando un proyecto existe en un lang, pero
   // en otro no), vamos a dejar como `title` el título general del sitio.
-  setPage(projectTitle !== slug ?
-    {title: pageTitle, description: ''} :
-    {title: formatMessage({id: 'app-title'}), description: ''});
-  
+  setPage(
+    projectTitle !== slug
+      ? { title: pageTitle, description: '' }
+      : { title: formatMessage({ id: 'app-title' }), description: '' },
+  );
+
   useEffect(() => {
     const id = `projects/${slug}`;
     data.subscribe(id, setProject);
@@ -95,7 +86,7 @@ const Project = () => {
   if (!project || !learningObjectives) {
     return <Loading />;
   }
-  
+
   if (!project.intl[lang]) {
     return (
       <Container>
@@ -104,13 +95,10 @@ const Project = () => {
     );
   }
 
-  const learningObjectiveCats = (project.learningObjectives || []).reduce(
-    (memo, item) => {
-      const cat = item.split('/')[0];
-      return memo.includes(cat) ? memo : memo.concat(cat);
-    },
-    [],
-  );
+  const learningObjectiveCats = (project.learningObjectives || []).reduce((memo, item) => {
+    const cat = item.split('/')[0];
+    return memo.includes(cat) ? memo : memo.concat(cat);
+  }, []);
 
   const { repo, version, path, intl } = project;
   const { title, summary } = intl[lang];
@@ -129,8 +117,8 @@ const Project = () => {
       </div>
 
       <p>
-        Ver enunciado completo (<ExternalLink url={readmeUrl} title="README.md" />)
-        y <ExternalLink url={projectUrl} title="boilerplate" /> en GitHub.
+        Ver enunciado completo (<ExternalLink url={readmeUrl} title="README.md" />) y{' '}
+        <ExternalLink url={projectUrl} title="boilerplate" /> en GitHub.
       </p>
 
       {!!learningObjectiveCats.length && (
@@ -139,7 +127,7 @@ const Project = () => {
             <FormattedMessage id="learningObjectives" />
           </Typography>
 
-          {learningObjectiveCats.map(key => (
+          {learningObjectiveCats.map((key) => (
             <LearningObjectiveCat
               key={key}
               cat={key}
@@ -150,8 +138,8 @@ const Project = () => {
           ))}
         </>
       )}
-    </Container >
-  )
+    </Container>
+  );
 };
 
 export default Project;

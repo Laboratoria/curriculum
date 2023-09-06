@@ -15,11 +15,7 @@ const RoutesWithIntl = ({ defaultLang }) => {
   const { lang } = useParams();
 
   if (!['es', 'pt'].includes(lang)) {
-    return (
-      <Navigate
-        to={`/${defaultLang}${location.pathname}`}
-      />
-    );
+    return <Navigate to={`/${defaultLang}${location.pathname}`} />;
   }
 
   return (
