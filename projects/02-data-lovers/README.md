@@ -51,7 +51,7 @@ artificial, así como en tecnicas de
 [Prompting](https://learnprompting.org/es/docs/intro).
 
 Como entregable final tendrás una página web que permita **visualizar la data,
-filtrarla, ordenarla y hacer algún cálculo agregado**. Con cálculo agregado
+filtrarla, ordenarla y calcular alguna estadística**. Con estadística
 nos referimos a distintos cálculos que puedes hacer con la data para mostrar
 información aún más relevante para los usuarios (promedio, el valor máximo
 o mínimo, etc).
