@@ -35,7 +35,11 @@ usuarias, al lado derecho.
 
 ## 2. Resumen del proyecto
 
-En este proyecto utilizarás herramientas de
+**Construirás una _página web_ para visualizar el
+_conjunto (set) de datos_** generado anteriormente. Esta página web se
+adecuará a lo que descubras que tu usuario necesita.
+
+Además, en este proyecto utilizarás herramientas de
 [inteligencia artificial](https://es.wikipedia.org/wiki/Inteligencia_artificial)
 como [ChatGPT](https://openai.com/chatgpt), [ExplainDev](https://explain.dev/),
 entre otras para generar set de datos en formato
@@ -45,10 +49,6 @@ El proposito de generar la data en esta manera es brindarte la oportunidad de
 adentrarte en el empleo de herramientas impulsadas por la inteligencia
 artificial, así como en tecnicas de
 [Prompting](https://learnprompting.org/es/docs/intro).
-
-Además **construirás una _página web_ para visualizar el
-_conjunto (set) de datos_** generado anteriormente. Esta página web se
-adecuará a lo que descubras que tu usuario necesita.
 
 Como entregable final tendrás una página web que permita **visualizar la data,
 filtrarla, ordenarla y hacer algún cálculo agregado**. Con cálculo agregado
