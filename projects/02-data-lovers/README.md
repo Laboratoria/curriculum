@@ -56,7 +56,18 @@ nos referimos a distintos cálculos que puedes hacer con la data para mostrar
 información aún más relevante para los usuarios (promedio, el valor máximo
 o mínimo, etc).
 
-## 3. Funcionalidades
+## 3. Consideraciones generales
+
+* Este proyecto se debe resolver en duplas.
+* El rango de tiempo estimado para completar el proyecto es de 3 a 4 Sprints.
+* El tiempo estimado que deberías dedicar a la [generación de la data](#generar-de-la-data)
+  es de máximo un sprint. Si ves que te va a tomar más tiempo, te
+  recomendamos utilizar la data de ejemplo que la vas a encontrar en
+  esta ruta: `./src/data/data.json`.
+* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
+  interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
+
+## 4. Funcionalidades
 
 Como entregable final tendrás una página web que permita **visualizar la data,
 filtrarla, ordenarla y calcular alguna estadística**.
@@ -156,17 +167,6 @@ funcionalidad:
 
 * [Wireframe 1](https://github-production-user-asset-6210df.s3.amazonaws.com/92090/261137084-1625aeb8-883c-4b79-86da-5fab34fa5b88.png)
 * [Wireframe 2](https://github-production-user-asset-6210df.s3.amazonaws.com/92090/261137087-6cef16bc-643a-4d6d-bc1c-e0daaeb21c88.png)
-
-## 4. Consideraciones generales
-
-* Este proyecto se debe resolver en duplas.
-* El rango de tiempo estimado para completar el proyecto es de 3 a 4 Sprints.
-* El tiempo estimado que deberías dedicar a la generación de la data
-  es de máximo un sprint. Si ves que te va a tomar más tiempo, te
-  recomendamos utilizar la data de ejemplo que la vas a encontrar en
-  esta ruta: `./src/data/data.json`.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
 
 ## 5. Consideraciones técnicas
 
