@@ -10,6 +10,7 @@
 - [6. Getting started](#6-getting-started)
 - [7. Valida tu solución](#7-valida-tu-solución)
 - [8. Recursos](#8-recursos)
+
 ***
 
 ## 1. Consideraciones generales
@@ -49,37 +50,47 @@ Familiarizarse con los principales conceptos alrededor de la
 [Inteligencia Artificial Generativa](https://es.wikipedia.org/wiki/Inteligencia_artificial_generativa)
 y trabajar con [Flowise](https://docs.flowiseai.com/) para implementar
 soluciones AI expuestas atraves de una API.
+Flowise es una herramienta basada en [LangChain](https://docs.langchain.com/docs/),
+por lo que además deberás poder entender los conceptos fundamentales de esta
+herramienta.
 
 - [ ] [Flowise basics](https://www.youtube.com/watch?v=tD6fwQyUIJE&list=PL4HikwTaYE0HDOuXMm5sU6DH6_ZrHBLSJ)
+- [ ] [Langchain Components](https://docs.langchain.com/docs/category/components)
 - [ ] [Chat models](https://docs.flowiseai.com/chat-models)
 - [ ] [Chat Flows Basics](https://www.youtube.com/watch?v=fn4GCZuiwdk&list=PL4HikwTaYE0HDOuXMm5sU6DH6_ZrHBLSJ&index=3)
-- [ ] [Document loaders](https://docs.flowiseai.com/document-loaders)
-- [ ] [Text Splitters](https://www.youtube.com/watch?v=kMtf9sNIcao&list=PL4HikwTaYE0HDOuXMm5sU6DH6_ZrHBLSJ&index=3)
+
+- [ ] Document Labels
+  + [Flowise: Document loaders](https://docs.flowiseai.com/document-loaders)
+  + [Langchain Concepts: Document loaders](https://docs.langchain.com/docs/components/indexing/document-loaders)
+- [ ] Text Splitters
+  + [Text Splitters demo](https://www.youtube.com/watch?v=kMtf9sNIcao&list=PL4HikwTaYE0HDOuXMm5sU6DH6_ZrHBLSJ&index=3)
+  + [Langchain Concepts: Text Splitters](https://docs.langchain.com/docs/components/indexing/text-splitters)
 - [ ] [Embeddings](https://docs.flowiseai.com/embeddings/azure-openai-embeddings)
-- [ ] [Vector Stores](https://docs.flowiseai.com/vector-stores)
+- [ ] Vector Stores:
+  + [Flowise: Vector Stores](https://docs.flowiseai.com/vector-stores)
+  + [Langchain Concepts: Vector Stores](https://docs.langchain.com/docs/components/indexing/vectorstore)
 
 ## 5. Criterios de aceptación
 
-1. Deberás configurar tu chatflow de manera que acepté la carga de al menos 1
-   archivo de text
+1. Deberás configurar tu chatflow de manera que acepta la carga de al menos 1
+   archivo de texto, en formato `txt` o `pdf`.
 
-2. Debes utilizar al menos lo siguientes nodos:
+2. Utilizar el módelo `gpt-3.5-turbo`.
 
-- **FIXME:** colocar links
-- Conversational Retrival QA Chain
-- Text File // qiuzas proponer mas generico
-- Text Spliters
-- Vector Stores
-- Embedings
-- Memory
-- Conversational Agent
-
-1. Utilizar el módelo gpt-3.5-turbo
-
-2. El chatbot generado debe ser capaz de contestar preguntas usando la
+3. El chatbot generado debe ser capaz de contestar preguntas usando la
    información de el/los archivos cargados.
 
-3. Tus github actions deben pasar exitosamente
+4. Tus github actions deben pasar exitosamente.
+
+5. Debes utilizar al menos lo siguientes nodos:
+
+- Conversational Retrival QA Chain
+- Document Loaders
+- Text Splitters
+- Vector Stores
+- Embeddings
+- Memory
+- Conversational Agent
 
 ## 6. Getting started
 
