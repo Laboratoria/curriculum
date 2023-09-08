@@ -15,7 +15,8 @@
 
 * Este proyecto lo resolvemos de manera **individual**.
 * El rango de tiempo estimado para completar el proyecto es de 1 a 2 Sprints.
-* Concentra tu atención en adquirir conocimiento en lugar de simplemente "terminar" el proyecto.
+* Concentra tu atención en adquirir conocimiento en lugar de
+simplemente "terminar" el proyecto.
 * ¡Paciencia! No te inquietes en exceso por lo que aún no comprendas completamente.
 Tu aprendizaje se desarrollará a medida que avances.
 
@@ -139,18 +140,31 @@ la generación de números aleatorios.
 
 ## 7. Pistas y tips
 
-**Documentación de Java**: La documentación oficial de Java es una excelente fuente de información sobre las clases y métodos disponibles en Java
+**Documentación de Java**: La documentación oficial de Java es una excelente
+fuente de información sobre las clases y métodos disponibles en Java
 (recomendamos utilizar Java 20).
 
-**Diseña la estructura del juego**: Antes de empezar a escribir código, considera cómo deseas que funcione el juego. Piensa en cómo alternar los turnos entre la jugadora y la computadora, cómo generar y evaluar las suposiciones, y cómo mostrar la información al jugador.
+**Diseña la estructura del juego**: Antes de empezar a escribir código,
+considera cómo deseas que funcione el juego. Piensa en cómo alternar
+los turnos entre la jugadora  y la computadora, cómo generar y evaluar
+las suposiciones, y cómo mostrar la información al jugador.
 
-**Separación de responsabilidades**: Divide la lógica del juego en componentes o clases separadas para mantener el código organizado. La clase `GameLogic` podría ser responsable de controlar el flujo del juego, mientras que las clases `Player` y `Computer` se encargan de las suposiciones.
+**Separación de responsabilidades**: Divide la lógica del juego en componentes
+o clases separadas para mantener el código organizado.
 
-**Utiliza bucles y condicionales**: Los bucles y las sentencias condicionales serán esenciales en este proyecto para controlar los turnos, evaluar las suposiciones y determinar el ganador.
+**Utiliza bucles y condicionales**: Los bucles y las sentencias condicionales
+serán esenciales en este proyecto para controlar los turnos, evaluar las
+suposiciones y determinar el ganador.
 
-**Manejo de números aleatorios**: Utiliza la clase `Random` de Java para generar el número secreto aleatorio. Puedes encontrar información sobre cómo usarla en la documentación de Java.
+**Manejo de números aleatorios**: Utiliza la clase `Random` de Java para generar
+el número secreto aleatorio. Puedes encontrar información sobre cómo usarla
+en la documentación de Java.
 
-**Pruebas unitarias**: A medida que desarrolles el juego, considera escribir pruebas unitarias para verificar que las diferentes partes del juego funcionen como se espera. Puedes utilizar el framework JUnit para escribir tus pruebas.
+**Pruebas unitarias**: A medida que desarrolles el juego, considera escribir
+pruebas unitarias para verificar que las diferentes partes del juego funcionen
+como se espera.Puedes utilizar el framework JUnit para escribir tus pruebas.
 
 
-***Recuerda que este proyecto es una oportunidad para aprender y practicar tus habilidades en Java, asó que ¡diviértete mientras construyes tu juego de adivinar el número! 🎲🎮***
+***Recuerda que este proyecto es una oportunidad para aprender y practicar
+tus habilidades en Java, asó que ¡diviértete mientras construyes tu juego
+de adivinar el número! 🎲🎮***
