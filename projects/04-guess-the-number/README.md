@@ -97,19 +97,51 @@ todos los intentos de la jugadora ganadora.
 
 ### Diagrama de clases
 
+```mermaid
+classDiagram
+  class GuessTheNumberGame {
+    - java.util.Random random$
+    - int targetNumber$
+    - Player player1
+    - Player player2
+    - checkGuess(Player player)$ boolean
+    + main(String[] args)$
+
+  }
+  GuessTheNumberGame *-- Player
+  Player <|-- HumanPlayer
+  Player <|-- ComputerPlayer
+  <<abstract>> Player
+  class Player{
+    -String name
+    #Array~int~ guesses
+    + makeGuess()* int
+    + getName() String
+    + getGuesses() Array~int~
+  }
+  class HumanPlayer {
+    +makeGuess() int
+  }
+  class ComputerPlayer {
+    -java.util.Random random
+    +makeGuess() int
+  }
+```
+
+
 #### `GuessTheNumberGame`
 
 **Propósito:**
 Maneja la lógica principal, decide qué jugador toma el siguiente turno.
 
-**Atributos:**
+**Atributos estáticos (`static`):**
 
 * `random`: Generador de números aleatorios.
 * `targetNumber`: Número aleatorio entre 1 y 100 a adivinar en la partida actual.
 
-**Métodos:**
+**Métodos estáticos (`static`):**
 
-* `static main(String[] args)`: Inicia el juego y genera el número aleatorio.
+* `main(String[] args)`: Inicia el juego y genera el número aleatorio.
 * `checkGuess(Player player)`: Ejecuta un turno, obtiene la suposición y evalúa
   el nuevo estado de la partida.
 
@@ -144,37 +176,6 @@ Representa a la jugadora _Humana_ y _Computadora_ respectivamente.
 * Tanto la clase `HumanPlayer` como `Computer Player` son subclases de `Player`,
   lo que implica que hereda todas sus propiedades y métodos, pero también
   tiene algunas características adicionales propias.
-
-```mermaid
-classDiagram
-  class GuessTheNumberGame {
-    - java.util.Random random*
-    - int targetNumber*
-    - Player player1
-    - Player player2
-    - checkGuess(Player player)$ boolean
-    + main(String[] args)$
-
-  }
-  GuessTheNumberGame *-- Player
-  Player <|-- HumanPlayer
-  Player <|-- ComputerPlayer
-  <<abstract>> Player
-  class Player{
-    -String name
-    #Array~int~ guesses
-    + makeGuess()* int
-    + getName() String
-    + getGuesses() Array~int~
-  }
-  class HumanPlayer {
-    +makeGuess() int
-  }
-  class ComputerPlayer {
-    -java.util.Random random
-    +makeGuess() int
-  }
-```
 
 Este diseño de clases permite separar las responsabilidades, facilitando
 el mantenimiento y posibles extensiones del juego en el futuro.
