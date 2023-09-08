@@ -122,15 +122,17 @@ atualizar a lista de pedidos e o total).
 Este projeto deve ser implementado em duplas e, para trabalhar com o backend,
 sugerimos que você escolha um dos seguintes métodos:
 
-1. Usando uma mock API: Você pode criar sua própria mock API com as ferramentas
+1. Usando uma mock API. Você pode criar sua própria mock API com as ferramentas
   [json-server](https://www.npmjs.com/package/json-server) e
   [json-server-auth](https://www.npmjs.com/package/json-server-auth), ou pode
   fazer um fork e clonar
-  [este repositório de uma mock API](https://github.com/Laboratoria/burger-queen-api-mock).
+  [este repositório de uma mock API](https://github.com/Laboratoria/burger-queen-api-mock)
+  que desenvolvemos. Esta mock API deve se comportar conforme definido
+  [na documentação.](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 
-2. Consumindo uma API implantada: Você pode usar uma API que suas colegas
-  desenvolverão, ou pode usar
-  [esta API que desenvolvemos](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0).
+2. Consumindo uma API implantada. Você pode usar uma API que suas colegas
+  desenvolverão em seu projeto Burger Queen API, ou pode implantar sua mock API.
+  Aqui está [um exemplo de como implantar sua mock com o Vercel.](https://medium.com/@phillipnzaujunior/unleashing-the-power-of-mock-apis-deploying-your-fake-rest-api-to-vercel-d1cbd95b4452)
 
 Você pode começar usando uma mock API e, a qualquer momento do projeto, migrar
 para a API implantada. Isso costuma ocorrer no Desenvolvimento Web,
