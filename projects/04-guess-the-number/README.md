@@ -137,7 +137,7 @@ su legibilidad y mantenimiento.
 la generación de números aleatorios.
 * Considerar realizar **tests unitarios** haciendo uso de JUnit.
 
-## 7. Pistas, tips y lecturas complementarias
+## 7. Pistas y tips
 
 **Documentación de Java**: La documentación oficial de Java es una excelente fuente de información sobre las clases y métodos disponibles en Java
 (recomendamos utilizar Java 20).
