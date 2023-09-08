@@ -45,7 +45,7 @@ como [ChatGPT](https://openai.com/chatgpt), [ExplainDev](https://explain.dev/),
 entre otras para generar set de datos en formato
 [JSON](https://es.wikipedia.org/wiki/JSON).
 
-El proposito de generar la data en esta manera es brindarte la oportunidad de
+El propósito de generar la data en esta manera es brindarte la oportunidad de
 adentrarte en el empleo de herramientas impulsadas por la inteligencia
 artificial, así como en tecnicas de
 [Prompting](https://learnprompting.org/es/docs/intro).
