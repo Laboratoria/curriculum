@@ -84,8 +84,11 @@ aleatorio entre 1 y 100. Se deberá tener en cuenta el intento anterior si fue
 ## 5. Consideraciones generales
 
 * Duración del proyecto: Se estima que este proyecto tomará entre 1 y 2 sprints.
-* Enfoque exclusivo en Java.
-* El juego se desarrollará en la terminal.
+* Debes implementarlo en Java. Las únicas dependencias externas que puedes tener
+  son JUnit y Mockito para tus pruebas unitarias.
+* El juego se desarrollará en la terminal. Tus pruebas las puedes ejecutar en
+  la terminal o en tu IDE (te recomendamos usar
+  [IntelliJ Community Edition](https://www.jetbrains.com/idea/download/))
 * Se utilizará un número aleatorio entre 1 y 100 como número secreto.
 * La jugadora y la computadora se turnarán para adivinar el número.
 * Después de cada turno, se mostrará información sobre la suposición realizada.
