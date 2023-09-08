@@ -195,7 +195,6 @@ como toda la configuración de dependencias:
    └── data.js
    └── dataFunctions.spec.js
 └── tests-read-only
-   └── json.spec.js
 
 ```
 
