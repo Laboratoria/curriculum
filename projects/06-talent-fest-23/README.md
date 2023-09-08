@@ -113,6 +113,6 @@ peticiones HTTP.
 
 ## 8. Recursos
 
-[Intro a flowise](https://docs.flowiseai.com/)
-
-[Ejemplo de implementación](https://www.youtube.com/watch?v=kMtf9sNIcao)
+- [Intro a flowise](https://docs.flowiseai.com/)
+- [Video: Chat with documents](https://docs.flowiseai.com/document-loaders)
+- [Serie de tutoriales en youtube (inglés)](https://www.youtube.com/watch?v=tD6fwQyUIJE&list=PL4HikwTaYE0HDOuXMm5sU6DH6_ZrHBLSJ)
