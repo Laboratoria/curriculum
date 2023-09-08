@@ -4,7 +4,7 @@
       "width": 300,
       "height": 413,
       "id": "textFile_0",
-      "position": { "x": 671, "y": 64 },
+      "position": { "x": 309.07593944281484, "y": 305.57642622200336 },
       "type": "customNode",
       "data": {
         "id": "textFile_0",
@@ -58,13 +58,13 @@
       },
       "selected": false,
       "dragging": false,
-      "positionAbsolute": { "x": 671, "y": 64 }
+      "positionAbsolute": { "x": 309.07593944281484, "y": 305.57642622200336 }
     },
     {
       "width": 300,
       "height": 378,
       "id": "recursiveCharacterTextSplitter_0",
-      "position": { "x": 277.53223495702, "y": -170.9129799426934 },
+      "position": { "x": -37.64950862949996, "y": 144.26876364382656 },
       "type": "customNode",
       "data": {
         "id": "recursiveCharacterTextSplitter_0",
@@ -110,7 +110,7 @@
         "selected": false
       },
       "selected": false,
-      "positionAbsolute": { "x": 277.53223495702, "y": -170.9129799426934 },
+      "positionAbsolute": { "x": -37.64950862949996, "y": 144.26876364382656 },
       "dragging": false
     },
     {
@@ -221,7 +221,7 @@
       "width": 300,
       "height": 525,
       "id": "chatOpenAI_0",
-      "position": { "x": 1019.4187758762243, "y": -422.83788360522476 },
+      "position": { "x": 860.8842461680347, "y": 83.3402219630666 },
       "type": "customNode",
       "data": {
         "id": "chatOpenAI_0",
@@ -327,7 +327,7 @@
         "inputAnchors": [],
         "inputs": {
           "modelName": "gpt-3.5-turbo",
-          "temperature": 0.9,
+          "temperature": "0.5",
           "maxTokens": "",
           "topP": "",
           "frequencyPenalty": "",
@@ -348,13 +348,13 @@
       },
       "selected": false,
       "dragging": false,
-      "positionAbsolute": { "x": 1019.4187758762243, "y": -422.83788360522476 }
+      "positionAbsolute": { "x": 860.8842461680347, "y": 83.3402219630666 }
     },
     {
       "width": 300,
       "height": 378,
       "id": "bufferMemory_0",
-      "position": { "x": 1135.3641994648578, "y": 859.252521571435 },
+      "position": { "x": 1120.2656728259826, "y": 812.06962582495 },
       "type": "customNode",
       "data": {
         "id": "bufferMemory_0",
@@ -395,14 +395,14 @@
         "selected": false
       },
       "selected": false,
-      "positionAbsolute": { "x": 1135.3641994648578, "y": 859.252521571435 },
+      "positionAbsolute": { "x": 1120.2656728259826, "y": 812.06962582495 },
       "dragging": false
     },
     {
       "width": 300,
       "height": 407,
       "id": "memoryVectorStore_0",
-      "position": { "x": 1090.0367349337682, "y": 369.9825367799662 },
+      "position": { "x": 748.4325697292165, "y": 700.2628070053612 },
       "type": "customNode",
       "data": {
         "id": "memoryVectorStore_0",
@@ -470,14 +470,14 @@
         "selected": false
       },
       "selected": false,
-      "positionAbsolute": { "x": 1090.0367349337682, "y": 369.9825367799662 },
+      "positionAbsolute": { "x": 748.4325697292165, "y": 700.2628070053612 },
       "dragging": false
     },
     {
       "width": 300,
       "height": 330,
       "id": "openAIEmbeddings_0",
-      "position": { "x": 675.4237505464471, "y": 556.6250377903359 },
+      "position": { "x": 296.07326874470743, "y": 835.9477806095274 },
       "type": "customNode",
       "data": {
         "id": "openAIEmbeddings_0",
@@ -549,7 +549,7 @@
       },
       "selected": false,
       "dragging": false,
-      "positionAbsolute": { "x": 675.4237505464471, "y": 556.6250377903359 }
+      "positionAbsolute": { "x": 296.07326874470743, "y": 835.9477806095274 }
     }
   ],
   "edges": [
