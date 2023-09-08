@@ -36,25 +36,13 @@ const createFlow = async (name, credentialId) => {
   return data.id;
 };
 
-const testEndpoint = async (endpoint) => {
-  console.log(`${baseUrl}/prediction/${endpoint}`);
-
-  const response = await axios.post(`${baseUrl}/prediction/${endpoint}`, {
-    question: 'pozole',
-    history: [],
-    overrideConfig: {},
-  });
-  return response.status === 200;
-};
-
 const fullFlow = async (flowName) => {
   const credentialId = await createCredential(
     'credential script',
     openAIApiKey
   );
   const flowId = await createFlow(flowName, credentialId);
-  console.log(flowId);
-  return await testEndpoint(flowId);
+  return flowId;
 };
 
 fullFlow('chatFlow').then(console.log);
