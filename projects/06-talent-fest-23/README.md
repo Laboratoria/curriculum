@@ -10,7 +10,6 @@
 - [6. Getting started](#6-getting-started)
 - [7. Valida tu solución](#7-valida-tu-solución)
 - [8. Recursos](#8-recursos)
-
 ***
 
 ## 1. Consideraciones generales
@@ -51,12 +50,13 @@ Familiarizarse con los principales conceptos alrededor de la
 y trabajar con [Flowise](https://docs.flowiseai.com/) para implementar
 soluciones AI expuestas atraves de una API.
 
-- Flowise basics
-- Documento loaders
-- LLM
-- Chat models
-- Embeddings
-- Agentes
+- [ ] [Flowise basics](https://www.youtube.com/watch?v=tD6fwQyUIJE&list=PL4HikwTaYE0HDOuXMm5sU6DH6_ZrHBLSJ)
+- [ ] [Chat models](https://docs.flowiseai.com/chat-models)
+- [ ] [Chat Flows Basics](https://www.youtube.com/watch?v=fn4GCZuiwdk&list=PL4HikwTaYE0HDOuXMm5sU6DH6_ZrHBLSJ&index=3)
+- [ ] [Document loaders](https://docs.flowiseai.com/document-loaders)
+- [ ] [Text Splitters](https://www.youtube.com/watch?v=kMtf9sNIcao&list=PL4HikwTaYE0HDOuXMm5sU6DH6_ZrHBLSJ&index=3)
+- [ ] [Embeddings](https://docs.flowiseai.com/embeddings/azure-openai-embeddings)
+- [ ] [Vector Stores](https://docs.flowiseai.com/vector-stores)
 
 ## 5. Criterios de aceptación
 
@@ -113,6 +113,5 @@ peticiones HTTP.
 
 ## 8. Recursos
 
-- [Intro a flowise](https://docs.flowiseai.com/)
-- [Video: Chat with documents](https://docs.flowiseai.com/document-loaders)
 - [Serie de tutoriales en youtube (inglés)](https://www.youtube.com/watch?v=tD6fwQyUIJE&list=PL4HikwTaYE0HDOuXMm5sU6DH6_ZrHBLSJ)
+- [Webscrap QnA](https://docs.flowiseai.com/use-cases/web-scrape-qna)
