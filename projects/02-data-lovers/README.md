@@ -61,7 +61,9 @@ o mínimo, etc).
 * Este proyecto se debe resolver en duplas.
 * El rango de tiempo estimado para completar el proyecto es de 3 a 4 Sprints.
 * El tiempo estimado que deberías dedicar a la [generación de la data](#generar-de-la-data)
-  es de máximo un sprint. Si ves que te va a tomar más tiempo, te
+  es de máximo un sprint. Además, al final del proyecto deberás presentar
+  un [screenshot del prompt utilizado](#prompt-utilizado).
+* Si ves que te va a tomar más tiempo, te
   recomendamos utilizar la data de ejemplo que la vas a encontrar en
   esta ruta: `./src/data/data.json`.
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
@@ -162,8 +164,10 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
 * La aplicación será _responsive_, es decir, debe visualizarse sin problemas
   desde distintos tamaños de pantallas: móviles, tablets y desktops.
 
-Estos wireframes son ejemplos de un interfaz que puede cumplir con esta
-funcionalidad:
+Los siguientes wireframes, son ejemplos de una interfaz que puede cumplir con esta
+funcionalidad. Como podrás ver, estos diseños cumplen con la metodología
+[Mobile First](https://developer.mozilla.org/es/docs/Glossary/Mobile_First), la misma
+que te recomendamos utilizar en todos tus proyectos:
 
 Diseño Mobile:
 
@@ -444,7 +448,7 @@ cada historia en tareas.
 En la medida de lo posible, termina una Historia de Usuario antes de pasar
 a la siguiente (Cumple con Definición de Terminado + Criterios de Aceptación).
 
-#### Generar de la data
+#### Generar la data
 
 La temática será a tu gusto, por ejemplo, pueden ser personajes importantes en la
 historia, países, películas... etc. El archivo JSON debe tener una cantidad de 24
