@@ -94,58 +94,91 @@ todos los intentos de la jugadora ganadora.
 
 ### Diagrama de clases
 
-#### GameLogic
+#### `GuessTheNumberGame`
 
 **Propósito:**
 Maneja la lógica principal, decide qué jugador toma el siguiente turno.
 
 **Atributos:**
 
-* `randomNumber`: Guarda el número aleatorio entre 1 y 100.
+* `random`: Generador de números aleatorios.
+* `targetNumber`: Número aleatorio entre 1 y 100 a adivinar en la partida actual.
 
 **Métodos:**
 
-* `startGame()`: Inicia el juego y genera el número aleatorio.
-* `checkGuess(int)`: Evalúa la suposición del jugador.
+* `static main(String[] args)`: Inicia el juego y genera el número aleatorio.
+* `checkGuess(Player player)`: Ejecuta un turno, obtiene la suposición y evalúa
+  el nuevo estado de la partida.
 
-#### Player
+#### `Player`
 
 **Propósito:**
-Representa a la jugadora humana. Proporciona la funcionalidad para suposiciones.
+Representa a una jugadora genérica. Es una clase abstracta. Define los
+atributos y métodos que todas las _clases_ de jugadoras deberían compartir:
 
 **Atributos:**
 
-* `name`: El nombre del jugador.
-
+* `name`: El nombre de la jugadora
 **Métodos:**
 
-* `guess()`: Permite a la jugadora introducir su suposición.
+* `makeGuess()`: Devuelve la suposición de la jugadora. Es un método abstracto.
 * `getName()`: Devuelve el nombre de la jugadora.
+* `getGuesses()`: Devuelve el historial de suposiciones de la jugadora.
 
-#### Computer (hereda de Player)
+#### `HumanPlayer` y `ComputerPlayer` (heredan de `Player`)
 
 **Propósito:**
-Representa a la computadora como jugador.
-Hace suposiciones automáticas.
+Representa a la jugadora _Humana_ y _Computadora_ respectivamente.
 
 **Métodos:**
 
-* `autoGuess()`: La computadora realiza una suposición.
+* `makeGuess()`: Método de que cada clase que herada de `Player` debe implementar.
 
 **Relaciones:**
 
-* La clase GameLogic interactúa con las clases Player y Computer
-para gestionar el juego.
-* La clase Computer es una subclase de Player, lo que significa
-que hereda todas las propiedades y métodos de Player, pero también
-tiene algunas características adicionales propias.
+* La clase `GuessTheNumberGame` interactúa con las clases `HumanPlayer` y
+  `ComputerPlayer` para gestionar el juego.
+* Tanto la clase `HumanPlayer` como `Computer Player` son subclases de `Player`,
+  lo que implica que hereda todas sus propiedades y métodos, pero también
+  tiene algunas características adicionales propias.
 
-![Diagrama de clases](https://mermaid.ink/svg/pako:eNp9UlFPwjAQ_itN5YHJINHHhZAYTdBEjRGfdD4c2zEma7u0VxOC8NttVwYjQV_W9fvuvrv7ehueqRx5wrMKjLkrodAgUslYc2dTi8a8LfHZijnqKQhkG88yNmRf8A0jS2U1egWZK8F0c_RavpTECHSBFLIPxEsFa9Ssbo6rs-h1i2ZLzFZNF32vV_i_-DQ26rG5UhWCDEkDJqCU_RnpUhYfn8y1YCJX3LNb_zkz1OWwbcAH7OXHPw69twLkeepWidoS6iM7HsPckIaMJpOOXvAy3Fv7QntMuuoBubjRGtaPpaHdgyQsUO_CuGiOc60weBFdentb3FvsdPoRC6odfBoUHNXI71zW7mBE6KszYfu4g06ltlAn43Tww0b8sRD_SPKYC9TuuXK3gY1MymmJzhKeuN8cF2ArSnkqfShYUrO1zHhC2mLMbZ0D4X5nebKAyjgU85KUftpvtT9iXoN8V6qN2f4CAl791g)
+```mermaid
+classDiagram
+  class GuessTheNumberGame {
+    - java.util.Random random*
+    - int targetNumber*
+    - Player player1
+    - Player player2
+    - checkGuess(Player player)$ boolean
+    + main(String[] args)$
+
+  }
+  GuessTheNumberGame *-- Player
+  Player <|-- HumanPlayer
+  Player <|-- ComputerPlayer
+  <<abstract>> Player
+  class Player{
+    -String name
+    #Array~int~ guesses
+    + makeGuess()* int
+    + getName() String
+    + getGuesses() Array~int~
+  }
+  class HumanPlayer {
+    +makeGuess() int
+  }
+  class ComputerPlayer {
+    -java.util.Random random
+    +makeGuess() int
+  }
+```
 
 Este diseño de clases permite separar las responsabilidades, facilitando
-el mantenimiento y  posibles extensiones del juego en el futuro.
-Por ejemplo, podríamos añadir diferentes estrategias para la suposición
-automática de la computadora o incluso introducir niveles de dificultad.
+el mantenimiento y posibles extensiones del juego en el futuro.
+
+Por ejemplo, podríamos añadir diferentes jugadoras "máquina" con diferentes
+estrategias para la suposición automática, un nuevo tipo de jugador "remoto" o
+incluso diferentes niveles de dificultad.
 
 ### **Criterios de aceptación mínimos del proyecto**
 
