@@ -2,15 +2,24 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Consideraciones técnicas](#5-consideraciones-técnicas)
-
+* [1. Consideraciones generales](#1-consideraciones-generales)
+* [2. Preámbulo](#2-preámbulo)
+* [3. Resumen del proyecto](#3-resumen-del-proyecto)
+* [4. Objetivos de aprendizaje](#4-objetivos-de-aprendizaje)
+* [5. Consideraciones generales](#5-consideraciones-generales)
+* [6. Consideraciones técnicas](#6-consideraciones-técnicas)
+* [7. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
 ---
 
-## 1. Preámbulo
+## 1. Consideraciones generales
+
+* Este proyecto lo resolvemos de manera **individual**.
+* El rango de tiempo estimado para completar el proyecto es de 1 a 2 Sprints.
+* Concentra tu atención en adquirir conocimiento en lugar de simplemente "terminar" el proyecto.
+* ¡Paciencia! No te inquietes en exceso por lo que aún no comprendas completamente.
+Tu aprendizaje se desarrollará a medida que avances.
+
+## 2. Preámbulo
 
 En la actualidad, Java es uno de los lenguajes de programación más utilizados
 en el mundo. A pesar de la diversidad de plataformas y herramientas disponibles,
@@ -18,15 +27,17 @@ es esencial tener una base sólida en los conceptos fundamentales de Java y la
 programación orientada a objetos (OOP). El objetivo de este proyecto es
 introducirte en el mundo de Java mediante un juego sencillo y entretenido.
 
-![GUESS THE NUMBER](guess-the-number.png)
+![GUESS THE NUMBER](/assets/guess-the-number.png)
 
-## 2. Resumen del proyecto
+## 3. Resumen del proyecto
 
 Es un juego interactivo que se lleva a cabo en la terminal, en el que la
 jugadora y la computadora toman turnos para intentar adivinar un número aleatorio
-entre 1 y 100.
+entre 1 y 100. Se deberá tener en cuenta el intento anterior si fue "muy alto" o "muy bajo".
 
-## 3. Objetivos de aprendizaje
+![Guess the number demo](/assets/guess-the-number-demo.gif)
+
+## 4. Objetivos de aprendizaje
 
 > ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
@@ -36,7 +47,7 @@ entre 1 y 100.
 > Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
 > que contempla nuestra currícula.
 
-## 4. Consideraciones generales
+## 5. Consideraciones generales
 
 * Duración del proyecto: Se estima que este proyecto tomará entre 1 y 2 sprints.
 * Enfoque exclusivo en Java.
@@ -115,7 +126,7 @@ automática de la computadora o incluso introducir niveles de dificultad.
 número secreto. Se debe mostrar un mensaje de fin del juego, así como una lista
 todos los intentos realizados por la jugadora ganadora.
 
-## 5. Consideraciones técnicas
+## 6. Consideraciones técnicas
 
 * El juego se llevará a cabo en la terminal haciendo uso de Java.
 * La lógica del juego se basará en estructuras de control,
@@ -124,5 +135,22 @@ incluyendo ciclos y sentencias condicionales.
 su legibilidad y mantenimiento.
 * Es posible hacer uso de bibliotecas o paquetes adicionales para
 la generación de números aleatorios.
+* Considerar realizar **tests unitarios** haciendo uso de JUnit.
 
-***¡Diviértete con este desafío de construir el juego de adivinar el número! 🎲🎮***
+## 7. Pistas, tips y lecturas complementarias
+
+**Documentación de Java**: La documentación oficial de Java es una excelente fuente de información sobre las clases y métodos disponibles en Java
+(recomendamos utilizar Java 20).
+
+**Diseña la estructura del juego**: Antes de empezar a escribir código, considera cómo deseas que funcione el juego. Piensa en cómo alternar los turnos entre la jugadora y la computadora, cómo generar y evaluar las suposiciones, y cómo mostrar la información al jugador.
+
+**Separación de responsabilidades**: Divide la lógica del juego en componentes o clases separadas para mantener el código organizado. La clase `GameLogic` podría ser responsable de controlar el flujo del juego, mientras que las clases `Player` y `Computer` se encargan de las suposiciones.
+
+**Utiliza bucles y condicionales**: Los bucles y las sentencias condicionales serán esenciales en este proyecto para controlar los turnos, evaluar las suposiciones y determinar el ganador.
+
+**Manejo de números aleatorios**: Utiliza la clase `Random` de Java para generar el número secreto aleatorio. Puedes encontrar información sobre cómo usarla en la documentación de Java.
+
+**Pruebas unitarias**: A medida que desarrolles el juego, considera escribir pruebas unitarias para verificar que las diferentes partes del juego funcionen como se espera. Puedes utilizar el framework JUnit para escribir tus pruebas.
+
+
+***Recuerda que este proyecto es una oportunidad para aprender y practicar tus habilidades en Java, asó que ¡diviértete mientras construyes tu juego de adivinar el número! 🎲🎮***
