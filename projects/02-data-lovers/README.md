@@ -494,6 +494,12 @@ necesidades específicas. A partir de esta comprensión, podrás diseñar la
 interfaz que facilite una interacción más efectiva y una comprensión más
 completa de los datos presentados.
 
+#### Prompt utilizado
+
+Dentro del readme que armarás, debe incluir una captura de pantalla
+de tu prompt utilizado para generar la data. Si utilizaste varios prompts,
+puedes adjuntar todas las capturas que necesites.
+
 #### Diseño de la Interfaz de Usuario
 
 ##### Prototipo de baja fidelidad
