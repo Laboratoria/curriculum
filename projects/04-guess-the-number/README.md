@@ -27,7 +27,7 @@ es esencial tener una base sólida en los conceptos fundamentales de Java y la
 programación orientada a objetos (OOP). El objetivo de este proyecto es
 introducirte en el mundo de Java mediante un juego sencillo y entretenido.
 
-![GUESS THE NUMBER](/assets/guess-the-number.png)
+![GUESS THE NUMBER](assets/guess-the-number.png)
 
 ## 3. Resumen del proyecto
 
@@ -35,7 +35,7 @@ Es un juego interactivo que se lleva a cabo en la terminal, en el que la
 jugadora y la computadora toman turnos para intentar adivinar un número aleatorio
 entre 1 y 100. Se deberá tener en cuenta el intento anterior si fue "muy alto" o "muy bajo".
 
-![Guess the number demo](/assets/guess-the-number-demo.gif)
+![GUESS THE NUMER DEMO](assets/guess-the-number-demo.gif)
 
 ## 4. Objetivos de aprendizaje
 
