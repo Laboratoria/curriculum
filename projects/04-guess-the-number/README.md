@@ -28,13 +28,44 @@ entre 1 y 100.
 
 ## 3. Objetivos de aprendizaje
 
-> ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
-> de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
-> al crear el repo del proyecto para un cohort en particular usando
-> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
->
-> Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
-> que contempla nuestra currícula.
+### Java & OOP
+
+* [ ] **Tipos de datos primitivos**
+* [ ] **Tipos de datos: primitivos vs no primitivos**
+* [ ] **Strings (cadenas de caracteres)**
+* [ ] **Arrays (arreglos)**
+* [ ] **_Access Modifiers_: `private`**
+* [ ] **_Access Modifiers_: `protected`**
+* [ ] **_Access Modifiers_: `public`**
+
+* #### Programación Orientada a Objectos (OOP)
+
+  - [ ] **Clases**
+  - [ ] **Objetos**
+  - [ ] **Métodos**
+  - [ ] **Atributos**
+  - [ ] **Constructores**
+  - [ ] **Encapsulamiento**
+  - [ ] **Abstracción**
+  - [ ] **Composición**
+  - [ ] **Interfaces**
+  - [ ] **Herencia: `super`**
+  - [ ] **Herencia: `extends`**
+  - [ ] **Herencia: `overrride`**
+  - [ ] **Lenguaje Unificado de Modelado (UML): Diagramas de clases**
+
+* [ ] **Variables**
+* [ ] **Conditionales**
+* [ ] **Uso de bucles/ciclos (loops)**
+
+* #### Collecciones
+
+  - [ ] **Listas: ArrayList**
+
+* #### Testing
+
+  - [ ] **JUnit**
+  - [ ] **Mockito**
 
 ## 4. Consideraciones generales
 
@@ -125,4 +156,4 @@ su legibilidad y mantenimiento.
 * Es posible hacer uso de bibliotecas o paquetes adicionales para
 la generación de números aleatorios.
 
-***¡Diviértete con este desafío de construir el juego de adivinar el número! 🎲🎮***
+**_¡Diviértete con este desafío de construir el juego de adivinar el número! 🎲🎮_**
