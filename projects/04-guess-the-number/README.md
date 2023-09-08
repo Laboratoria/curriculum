@@ -8,7 +8,8 @@
 * [4. Objetivos de aprendizaje](#4-objetivos-de-aprendizaje)
 * [5. Consideraciones generales](#5-consideraciones-generales)
 * [6. Consideraciones técnicas](#6-consideraciones-técnicas)
-* [7. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
+* [7. Recomendaciones](#7-recomendaciones)
+
 ---
 
 ## 1. Consideraciones generales
@@ -33,8 +34,9 @@ introducirte en el mundo de Java mediante un juego sencillo y entretenido.
 ## 3. Resumen del proyecto
 
 Es un juego interactivo que se lleva a cabo en la terminal, en el que la
-jugadora y la computadora toman turnos para intentar adivinar un número aleatorio
-entre 1 y 100. Se deberá tener en cuenta el intento anterior si fue "muy alto" o "muy bajo".
+jugadora y la computadora toman turnos para intentar adivinar un número
+aleatorio entre 1 y 100. Se deberá tener en cuenta el intento anterior si fue
+"muy alto" o "muy bajo".
 
 ![GUESS THE NUMER DEMO](assets/guess-the-number-demo.gif)
 
@@ -162,8 +164,44 @@ todos los intentos realizados por la jugadora ganadora.
 
 * El juego se llevará a cabo en la terminal haciendo uso de Java.
 * La lógica del juego se basará en estructuras de control,
-incluyendo ciclos y sentencias condicionales.
-* Se recomienda emplear funciones para segmentar el código y mejorar
+incluyendo ciclos, condicionales y colecciones.
+* Debes depara para segmentar el código y mejorar
 su legibilidad y mantenimiento.
-* Es posible hacer uso de bibliotecas o paquetes adicionales para
+* Debes usar una funcionalidad de la biblioteca de utils de java para
 la generación de números aleatorios.
+* Debes realizar **tests unitarios** para tus clases y sus métodos haciendo
+uso de JUnit y mockeando la generación de números aleatorios con mockito.
+
+## 7. Recomendaciones
+
+**Documentación de Java**: La documentación oficial de Java es una excelente
+fuente de información sobre las clases y métodos disponibles en Java
+(recomendamos utilizar Java 20).
+
+**Diseña la estructura del juego**: Antes de empezar a escribir código,
+considera cómo deseas que funcione el juego. Piensa en cómo alternar
+los turnos entre la jugadora  y la computadora, cómo generar y evaluar
+las suposiciones, y cómo mostrar la información al jugador. Detente un momento
+a analizar y diseñar tu solución antes de comenzar a implementarla.
+
+**Separación de responsabilidades**: Te recomendamos seguir el diagrama de
+clases provisto, para lograr una clara separación de la lógica del juego en
+componentes o clases que permitan mantener el código organizado y legible.
+
+**Necesitas bucles y condicionales**: Los bucles y las sentencias condicionales
+serán tus aliadas en este proyecto para controlar los turnos, evaluar las
+suposiciones y determinar el ganador.
+
+**Manejo de números aleatorios**: Utiliza la clase `Random` de `java.util` para
+generar el número secreto aleatorio. Puedes encontrar información sobre cómo
+usarla en la documentación de Java.
+
+**Pruebas unitarias**: A medida que desarrolles el juego, intenta escribir
+pruebas unitarias para verificar que las diferentes partes del juego funcionen
+como se espera. Puedes utilizar el framework JUnit para escribir tus pruebas.
+
+Recuerda que este proyecto está diseñado para que puedas tomar tus
+conocimientos previos en JavaScript, para que puedas "traducirlos" a Java,
+aprendiendo en el proceso el paradigma de programanación orientado a objetos.
+
+**_¡Diviértete mientras construyes tu juego de adivinar el número! 🎲🎮_**
