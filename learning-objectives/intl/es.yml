@@ -1306,7 +1306,7 @@ ai-prompting:
 
 ai-prompting/prompt-engineering:
   title: Prompt Engineering
-  description: El proceso de refinar el prompt a lo largo del tiempo  y uso de técnicas diferentes para lograr el resultado deseado
+  description: El proceso de refinar el prompt a lo largo del tiempo y uso de técnicas diferentes para lograr el resultado deseado
   links:
     - title: Prompt Engineering
       url: https://learnprompting.org/es/docs/basics/prompt_engineering
@@ -1337,7 +1337,7 @@ ai-prompting/techniques/few-shot:
 
 ai-prompting/techniques/priming-chatbots:
   title: Priming Chatbots
-  description: Uso de primer prompt para iniciar una conversación con estructra y estilo paeticular
+  description: Uso de primer prompt para iniciar una conversación con estructra y estilo particular
   links:
     - title: Priming Chatbots
       url: https://learnprompting.org/es/docs/basics/priming_prompt
