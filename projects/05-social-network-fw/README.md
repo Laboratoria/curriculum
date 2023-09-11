@@ -119,6 +119,7 @@ No dejes de explorar la documentación oficial de cada herramienta:
 * [Redux - tutorial](https://egghead.io/courses/getting-started-with-redux)
 * [Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
 * [React js en español - tutorial básico, primeros pasos y ejemplos - frontendlabs.io](https://frontendlabs.io/3158--react-js-espanol-tutorial-basico-primeros-pasos-ejemplos)
+
 ### Angular
 
 * [Angular - docs oficiales](https://angular.io/)
