@@ -1300,6 +1300,48 @@ typescript/decorators:
     - title: Documentación oficial de Typescript
       url: https://www.typescriptlang.org/docs/handbook/decorators.html
 
+ai-prompting:
+  title: IA Prompting
+  description: El proceso de instruir a una IA para que realice una tarea 
+
+ai-prompting/prompt-engineering:
+  title: Prompt Engineering
+  description: El proceso de refinar el prompt a lo largo del tiempo  y uso de técnicas diferentes para lograr el resultado deseado
+  links:
+    - title: Prompt Engineering
+      url: https://learnprompting.org/es/docs/basics/prompt_engineering
+
+ai-prompting/techniques:
+  title: Técnicas de Prompting
+
+ai-prompting/techniques/giving-instructions:
+  title: Dando Instrucciones
+  description: Técnica simple de dar instrucciones a la IA
+  links:
+    - title: Dando Instrucciones
+      url: https://learnprompting.org/es/docs/basics/instructions
+
+ai-prompting/techniques/assigning-roles:
+  title: Roles
+  description: Técnica de asignar un rol a la IA
+  links:
+    - title: Rol Prompt
+      url: https://learnprompting.org/es/docs/basics/roles
+
+ai-prompting/techniques/few-shot:
+  title: Few shot prompting
+  description: Técnica de mostrar al modelo algunos ejemplos (shots) de lo que quieres que haga
+  links:
+    - title: Few shot prompting
+      url: https://learnprompting.org/es/docs/basics/few_shot
+
+ai-prompting/techniques/priming-chatbots:
+  title: Priming Chatbots
+  description: Uso de primer prompt para iniciar una conversación con estructra y estilo paeticular
+  links:
+    - title: Priming Chatbots
+      url: https://learnprompting.org/es/docs/basics/priming_prompt
+
 # New OAs since UXD006
 #--- skill Project framing
 agile-planning/scope:
