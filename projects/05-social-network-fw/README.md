@@ -114,43 +114,11 @@ Antes de elegir un framework, te recomendamos leer los siguientes artículos:
 No dejes de explorar la documentación oficial de cada herramienta:
 
 ### React
-
 * [React - docs oficiales](https://es.reactjs.org/)
 * [React - tutorial](https://egghead.io/courses/the-beginner-s-guide-to-react)
 * [Redux - tutorial](https://egghead.io/courses/getting-started-with-redux)
-* [vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
+* [Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
 * [React js en español - tutorial básico, primeros pasos y ejemplos - frontendlabs.io](https://frontendlabs.io/3158--react-js-espanol-tutorial-basico-primeros-pasos-ejemplos)
-
-### :information_source: Nota para estudiantes que elijan React y vite
-
-Si usas [`vite`](https://vitejs.dev/guide/#scaffolding-your-first-vite-project):
-
-## Creamos una nueva aplicación con `vite` en la carpeta
-
-## `social-network-fw`
-
-```bash
-npm create vite@latest social-network-fw
-```
-
-## Escogemos la opción de React
-
-![Consola](https://github.com/DeysiVergara/Curriculum/blob/reemplazar-create-react-app/projects/05-social-network-fw/vite-react.jpg?raw=true)
-
-## Ingresa a la carpeta social-network-fw
-
-```bash
-cd social-network-fw 
-```
-
-### Para confirmar que todo esta bien y la aplicación arranca
-
-### ejecuta el siguiente comando y verifica que la interfaz en el navegador
-
-```bash
-npm run dev 
-```
-
 ### Angular
 
 * [Angular - docs oficiales](https://angular.io/)
