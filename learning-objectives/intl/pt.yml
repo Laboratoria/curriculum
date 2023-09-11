@@ -1293,7 +1293,7 @@ typescript/decorators:
       url: https://www.typescriptlang.org/docs/handbook/decorators.html
 
 ai-prompting:
-  title: IA Prompting
+  title: AI Prompting
   description: O processo de instruir uma IA para realizar uma tarefa
 
 ai-prompting/prompt-engineering:
