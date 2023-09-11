@@ -114,6 +114,7 @@ Antes de elegir un framework, te recomendamos leer los siguientes artículos:
 No dejes de explorar la documentación oficial de cada herramienta:
 
 ### React
+
 * [React - docs oficiales](https://es.reactjs.org/)
 * [React - tutorial](https://egghead.io/courses/the-beginner-s-guide-to-react)
 * [Redux - tutorial](https://egghead.io/courses/getting-started-with-redux)
