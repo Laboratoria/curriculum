@@ -1245,28 +1245,10 @@ typescript/classes/class-heritage/extends:
       url: https://www.typescriptlang.org/docs/handbook/2/classes.html#extends-clauses
 
 typescript/classes/member-visibility:
-  title: Visibilidade dos membros da classe
+  title: Visibilidade dos membros da classe (public, private, protected)
   links:
     - title: Documentação oficial do Typescript
       url: https://www.typescriptlang.org/docs/handbook/2/classes.html#member-visibility
-
-typescript/classes/member-visibility/public:
-  title: public
-  links:
-    - title: Documentação oficial do Typescript
-      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#public
-
-typescript/classes/member-visibility/protected:
-  title: protected
-  links:
-    - title: Documentação oficial do Typescript
-      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#protected
-
-typescript/classes/member-visibility/private:
-  title: private
-  links:
-    - title: Documentação oficial do Typescript
-      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#private
 
 typescript/classes/static-members:
   title: Membros estáticos da classe

@@ -289,10 +289,7 @@ typescript:
     - class-heritage:
       - implements
       - extends
-    - member-visibility:
-      - public
-      - protected
-      - private
+    - member-visibility
     - static-members
     - this
     - abstract-classes
