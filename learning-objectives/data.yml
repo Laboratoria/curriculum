@@ -299,12 +299,9 @@ typescript:
   - decorators
 
 ai-prompting:
-  - prompt-engineering
-  - techniques:
-    - giving-instructions
-    - assigning-roles
-    - few-shot
-    - priming-chatbots
+  - giving-instructions
+  - few-shot
+  - priming-chatbots
 
 # New OAs since UXD006
 agile-planning:

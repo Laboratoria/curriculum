@@ -1295,39 +1295,25 @@ typescript/decorators:
 ai-prompting:
   title: AI Prompting
   description: O processo de instruir uma IA para realizar uma tarefa
-
-ai-prompting/prompt-engineering:
-  title: Prompt Engineering
-  description: O processo de refinar o prompt ao longo do tempo e o uso de técnicas diferentes para registrar o resultado desejado
   links:
-    - title: Prompt Engineering
-      url: https://learnprompting.org/es/docs/basics/prompt_engineering
+    - title: Learn Prompting
+      url: https://learnprompting.org/es/docs/basics/intro
 
-ai-prompting/techniques:
-  title: Técnicas de Prompting
-
-ai-prompting/techniques/giving-instructions:
+ai-prompting/giving-instructions:
   title: Dando Instruções
   description: Método simple de dar instruções à uma IA
   links:
     - title: Dando Instruções
       url: https://learnprompting.org/pt/docs/basics/instructions
 
-ai-prompting/techniques/assigning-roles:
-  title: Prompting de Atuação
-  description: Técnica é atribuir um papel à uma IA
-  links:
-    - title: Prompting de Atuação (Role Prompting)
-      url: https://learnprompting.org/pt/docs/basics/roles
-
-ai-prompting/techniques/few-shot:
+ai-prompting/few-shot:
   title: Few shot prompting
   description: Técnica de mostrar o modelo alguns exemplos (shots) do que você quer que faça
   links:
     - title: Few shot prompting
       url: https://learnprompting.org/es/docs/basics/few_shot
 
-ai-prompting/techniques/priming-chatbots:
+ai-prompting/priming-chatbots:
   title: Priming Chatbots
   description: Use o primeiro prompt para iniciar uma conversa com estrutura e estilo específico
   links:
