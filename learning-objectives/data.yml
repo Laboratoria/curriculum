@@ -300,7 +300,7 @@ typescript:
 
 ai-prompting:
   - giving-instructions
-  - few-shot
+  - few-shot-prompting
   - priming-chatbots
 
 # New OAs since UXD006

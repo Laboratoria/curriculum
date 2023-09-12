@@ -1314,7 +1314,7 @@ ai-prompting/giving-instructions:
     - title: Dando Instrucciones
       url: https://learnprompting.org/es/docs/basics/instructions
 
-ai-prompting/few-shot:
+ai-prompting/few-shot-prompting:
   title: Few shot prompting
   description: Técnica de mostrar al modelo algunos ejemplos (shots) de lo que quieres que haga
   links:
