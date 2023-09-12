@@ -1,19 +1,20 @@
 {
   "slug": "how-might-we",
-  "repo": "Laboratoria/bootcamp",
+  "repo": "Laboratoria/curriculum",
   "path": "projects/00-how-might-we",
-  "version": "6.4.0",
-  "parserVersion": "5.0.0-alpha.5",
-  "createdAt": "2023-07-11T19:31:54.707Z",
+  "version": "7.0.0",
+  "parserVersion": "5.0.0",
+  "createdAt": "2023-09-04T20:11:49.825Z",
   "prefix": 0,
   "track": "ux",
   "learningObjectives": [
-    "user-centricity/user-oriented",
-    "synthesis/ideation",
-    "product-design/user-flows",
-    "product-design/fidelity",
-    "communication/case-study",
-    "planning/prioritization"
+    "agile-planning/tasks",
+    "design-concept/ideate",
+    "design-concept/prioritize-ideas",
+    "interaction-design/user-flows",
+    "interface-design/visual-design",
+    "design-prototype/basic-prototypes",
+    "design-specs/project-documentation"
   ],
   "intl": {
     "es": {

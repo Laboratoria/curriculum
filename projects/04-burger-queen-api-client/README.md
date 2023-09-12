@@ -117,24 +117,26 @@ a un _pedido_, la interfaz debe actualizar la lista del pedido y el total).
 
 ## 4. Consideraciones
 
-Este proyecto se debe "resolver" en duplas y puedes elegir entre
-las siguientes opciones la manera en que trabajarás con el backend.
+Este proyecto se debe "resolver" en duplas y para trabajar con el backend
+te sugerimos elegir un método entre las siguientes opciones:
 
-1. Usando un mock API. Puedes crear tu propio mock API con las herramientas
-[json-server](https://www.npmjs.com/package/json-server) y
-[json-server-auth](https://www.npmjs.com/package/json-server-auth)
-que te ayudaran a realizarlo, o puedes hacer fork y
-clonar [este repo de un mock API.](https://github.com/Laboratoria/burger-queen-api-mock)
+1. Usando una mock API. Puedes crear tu propia mock API con las herramientas
+  [json-server](https://www.npmjs.com/package/json-server) y
+  [json-server-auth](https://www.npmjs.com/package/json-server-auth)
+  o puedes hacer fork y clonar
+  [este repo de una mock API](https://github.com/Laboratoria/burger-queen-api-mock)
+  que hemos desarrollado. Esta mock API debería comportarse de la manera definida
+  [en la documentación.](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 
-2. Consumiendo una API desplegada. Puedes usar una que desarrollarán
-tus compañeras o
-puedes usar [esta API que hemos desarrollado.](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
+2. Consumiendo una API desplegada. Puedes usar una que desarrollarán tus
+  compañeras en su proyecto Burger Queen API, o pueden desplegar tu mock API.
+  Aquí hay [un ejemplo como desplegar tu mock con Vercel.](https://medium.com/@phillipnzaujunior/unleashing-the-power-of-mock-apis-deploying-your-fake-rest-api-to-vercel-d1cbd95b4452)
 
-Puedes empezar usando un mock API y en cualquier
-momento del proyecto pasarte a la API desplegada.
-(Esta situación ocurre en el trabajo cuando necesita avanzar
-con el desarrollo de frontend mientras el backend o la API aún
-se están desarrollando.)
+Puedes empezar usando una mock API y en cualquier momento del proyecto
+pasarte a la API desplegada. Esta situación suele ocurrir en Desarrollo Web
+cuando se necesita avanzar con la implementación del frontend mientras las
+personas encargadas del backend aún están en proceso de diseño o desarrollo
+de la API.
 
 El rango de tiempo estimado para completar el proyecto es de 3 a 5 Sprints.
 

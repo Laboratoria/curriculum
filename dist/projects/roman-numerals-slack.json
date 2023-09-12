@@ -1,10 +1,10 @@
 {
   "slug": "roman-numerals-slack",
-  "repo": "Laboratoria/bootcamp",
+  "repo": "Laboratoria/curriculum",
   "path": "projects/05-roman-numerals-slack",
-  "version": "6.4.0",
-  "parserVersion": "5.0.0-alpha.5",
-  "createdAt": "2023-07-11T19:31:58.069Z",
+  "version": "7.0.0",
+  "parserVersion": "5.0.0",
+  "createdAt": "2023-09-04T20:11:52.865Z",
   "prefix": 5,
   "track": "web-dev",
   "learningObjectives": [

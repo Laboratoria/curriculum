@@ -1,10 +1,10 @@
 {
   "slug": "prototyping",
-  "repo": "Laboratoria/bootcamp",
+  "repo": "Laboratoria/curriculum",
   "path": "topics/prototyping",
-  "version": "6.4.0",
-  "parserVersion": "5.0.0-alpha.5",
-  "createdAt": "2023-07-11T19:32:00.642Z",
+  "version": "7.0.0",
+  "parserVersion": "5.0.0",
+  "createdAt": "2023-09-04T20:11:55.188Z",
   "track": "ux",
   "intl": {
     "es": {

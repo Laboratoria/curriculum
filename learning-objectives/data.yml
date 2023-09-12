@@ -80,17 +80,6 @@ business:
   - goals
   - metrics
   - benchmark
-
-research:
-  - planning
-  - support
-  - guidelines
-  - interview
-  - documentation
-  - adaptation
-  - sources
-  - test
-  - cuantitative-data
   
 synthesis:
   - weighing
@@ -274,14 +263,14 @@ wordpress:
       - wordpress-plugin-directory
 
 typescript:
-  - basic-types
+  - basic-types:
     - static-type-checking
     - strictness
     - primitives
     - arrays
     - any
     - functions
-    - object-types
+    - object-types:
       - optional-properties
     - union-types
     - type-aliases
@@ -291,16 +280,16 @@ typescript:
     - null-and-undefined
     - enums
   - narrowing
-  - classes
-    - members
+  - classes:
+    - members:
       - fields
-      - constructor
+      - constructors
       - methods
       - getter-setters
-    - class-heritage
+    - class-heritage:
       - implements
       - extends
-    - member-visibility
+    - member-visibility:
       - public
       - protected
       - private
@@ -308,3 +297,83 @@ typescript:
     - this
     - abstract-classes
   - decorators
+
+# New OAs since UXD006
+agile-planning:
+  - scope
+  - workplan
+  - tasks
+
+business-understanding:
+  - business-model
+  - goals-and-kpis
+  - benchmark
+
+research:
+  - support
+  - guidelines
+  - interview
+  - documentation
+  - adaptation
+  - sources
+  - test
+  - cuantitative-data
+  - planning:
+    - research-plan
+    - desk-research
+    - research-sample
+    - participants
+  - qualitative:
+    - user-interviews
+    - exploratory-techniques
+  - quantitative:
+    - user-surveys
+    - analytical-techniques
+  - analysis:
+    - process-information
+    - experience-mapping
+    - identify-patterns
+    - synthesize-results
+
+design-concept:
+  - define-mvp
+  - design-references
+  - ideate
+  - prioritize-ideas
+
+interaction-design:
+  - user-flows
+  - usability
+  - information-architecture
+
+content-design:
+  - voice-tone
+  - create-content
+
+interface-design:
+  - visual-design
+  - accesibility
+  - responsive-design
+
+design-prototype:
+  - basic-prototypes
+  - high-fidelity
+  - advanced-interactions
+
+usability-analysis:
+  - moderated-testing
+  - heuristic-analysis
+  - non-moderated-testing
+
+design-pitch:
+  - design-feedback
+  - design-presentation
+
+design-specs:
+  - file-organization
+  - use-cases
+  - project-documentation
+
+design-systems:
+  - atomic-design
+  - design-system

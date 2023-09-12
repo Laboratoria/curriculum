@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
+        node-version: [16, 18, 20]
 
     steps:
       - uses: actions/checkout@v2
@@ -28,14 +28,12 @@ jobs:
       - uses: actions/checkout@v2
       - run: npm ci
       - run: npm run build:content
-      - run: echo ::set-output name=VERSION::$(node -e "console.log(require('./package.json').version)")
-        id: version
       - run: npm run build
         env:
-          REACT_APP_LABORATORIA_API_URL: https://api.laboratoria.la
-          REACT_APP_FIREBASE_API_KEY: AIzaSyAXbaEbpq8NOfn0r8mIrcoHvoGRkJThwdc 
-          REACT_APP_FIREBASE_PROJECT: laboratoria-la
-          REACT_APP_VERSION: ${{ steps.version.outputs.VERSION }}
+          LABORATORIA_CORE_API_URL: https://us-central1-outpost-staging-344823.cloudfunctions.net/core-api
+          FIREBASE_API_KEY: AIzaSyAXbaEbpq8NOfn0r8mIrcoHvoGRkJThwdc 
+          FIREBASE_PROJECT: laboratoria-la
+          SENTRY_DSN: https://f63bf80837e74128a8f4e7701b0efe34@o342590.ingest.sentry.io/4505591507255296
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
