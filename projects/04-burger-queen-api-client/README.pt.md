@@ -147,8 +147,17 @@ Cumpra todas as histórias possíveis dentro do tempo especificado.
 A lógica do projeto deve ser totalmente implementada em JavaScript (ES6 +), HTML
 e CSS e empacotada de forma automatizada.
 
-Neste projeto você deve usar [React](https://pt-br.react.dev/) ou
-[Angular](https://angular.io/)).
+Um dos principais objetivos deste projeto é aprender a usar uma biblioteca ou
+framework popular para desenvolver uma aplicação web. Você deve escolher entre
+[React](https://pt-br.react.dev/) ou [Angular](https://angular.io/).
+
+Tenha em mente que se você escolher o Angular, é obrigatório usar [TypeScript](https://www.typescriptlang.org/).
+O _TypeScript_ é uma linguagem de programação fortemente tipada baseada
+em JavaScript.
+
+Se você optar pelo React, a decisão de usar o TypeScript é opcional (mas
+recomendamos!). Aqui você pode encontrar mais informações sobre
+como iniciar seu projeto com [Typescript e React](https://itnext.io/create-react-v18-typescript-project-with-vite-d0d602e4a60e).
 
 O aplicativo deve ser um _Single Page App_. Os pedidos serão enviados por meio
 de um _tablet_, mas **não queremos um aplicativo nativo**, mas sim um aplicativo
