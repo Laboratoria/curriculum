@@ -15,7 +15,7 @@ html/semantics:
   title: Uso de HTML semântico
   links:
     - title: HTML semântico
-      url: topics/html/02-html5/02-semantic-html
+      url: topics/html/html5/semantic-html
     - title: Semantics in HTML - MDN
       url: https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML
 
@@ -26,7 +26,7 @@ css/selectors:
   title: Uso de seletores de CSS
   links:
     - title: Intro a CSS
-      url: topics/css/01-css/01-intro-css
+      url: topics/css/css/intro-css
     - title: CSS Selectors - MDN
       url: https://developer.mozilla.org/pt_BR/docs/Web/CSS/CSS_Selectors
 
@@ -34,7 +34,7 @@ css/box-model:
   title: "Modelo de caixa (box model): borda, margem, preenchimento"
   links:
     - title: Modelo de Caixa e Display
-      url: topics/css/01-css/02-boxmodel-and-display
+      url: topics/css/css/boxmodel-and-display
     - title: The box model - MDN
       url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model
     - title: Introduction to the CSS box model - MDN
@@ -78,7 +78,7 @@ browser/dom/selectors:
   title: Uso de seletores de DOM
   links:
     - title: Modificando o DOM
-      url: topics/browser/02-dom/03-1-dom-methods-selection
+      url: topics/browser/dom/1-dom-methods-selection
     - title: Introdução ao DOM - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction
     - title: Locating DOM elements using selectors - MDN
@@ -143,7 +143,7 @@ js/data-types/strings:
   title: Strings (cadeias de caracteres)
   links:
     - title: Strings
-      url: topics/javascript/06-strings
+      url: topics/javascript/strings
     - title: String — Cadeia de caracteres - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String
 
@@ -151,7 +151,7 @@ js/data-types/arrays:
   title: Arrays (arranjos)
   links:
     - title: Arranjos
-      url: topics/javascript/04-arrays
+      url: topics/javascript/arrays
     - title: Array - MDN
       url: https://developer.mozilla.org//pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/
     - title: Array.prototype.sort() - MDN
@@ -169,7 +169,7 @@ js/data-types/objects:
   title: Objetos (key, value)
   links:
     - title: Objetos em JavaScript
-      url: topics/javascript/05-objects/01-objects
+      url: topics/javascript/objects/objects
 
 js/data-types/primitive-vs-non-primitive:
   title: Diferenciar entre tipos de dados primitivos e não primitivos
@@ -178,15 +178,15 @@ js/variables:
   title: Variáveis (declaração, atribuição, escopo)
   links:
     - title: Valores, tipos de dados e operadores
-      url: topics/javascript/01-basics/01-values-variables-and-types
+      url: topics/javascript/basics/values-variables-and-types
     - title: Variáveis
-      url: topics/javascript/01-basics/02-variables
+      url: topics/javascript/basics/variables
 
 js/conditionals:
   title: Uso de condicionais (if-else, switch, operador ternário, lógica booleana)
   links:
     - title: Estruturas condicionais e repetitivas
-      url: topics/javascript/02-flow-control/01-conditionals-and-loops
+      url: topics/javascript/flow-control/conditionals-and-loops
     - title: Tomando decisões no seu código — condicionais - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/conditionals
 
@@ -194,11 +194,11 @@ js/functions:
   title: Funções (params, args, return)
   links:
     - title: Funções (controle de fluxo)
-      url: topics/javascript/02-flow-control/03-functions
+      url: topics/javascript/flow-control/functions
     - title: Funções clássicas
-      url: topics/javascript/03-functions/01-classic
+      url: topics/javascript/functions/classic
     - title: Arrow Functions
-      url: topics/javascript/03-functions/02-arrow
+      url: topics/javascript/functions/arrow
     - title: Funções — blocos reutilizáveis de código - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Functions
 
@@ -206,7 +206,7 @@ js/loops:
   title: Uso de laços (while, for, for..of)
   links:
     - title: Laços (Loops)
-      url: topics/javascript/02-flow-control/02-loops
+      url: topics/javascript/flow-control/loops
     - title: Laços e iterações - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration
 
@@ -1175,9 +1175,9 @@ typescript/basic-types/literal-types:
 typescript/basic-types/null-and-undefined:
   title: null e undefined
   links:
-  - title: Documentação oficial do Typescript
-    url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#null-and-undefined
-  
+    - title: Documentação oficial do Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#null-and-undefined
+
 typescript/basic-types/enums:
   title: Enums
   links:
