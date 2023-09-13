@@ -462,7 +462,9 @@ deberá ser la siguiente:
   - `value`: Un valor numérico para el cálculo agregado (por ejemplo,
     puntuaciones, cantidades, fechas, etc).
   - `label`: Descripción el valor numérico
-* `description:` Descripción corta sobre el dato.
+* `description:` Descripción sobre el dato. Esta descripción deberá tener
+  como mínimo 100 palabras. Al momento de dibujar este dato en pantalla
+  puedes truncarlo para que no te ocupe mucho espacio.
 
 Un ejemplo de data, según los requisitos anteriores podría ser:
 
