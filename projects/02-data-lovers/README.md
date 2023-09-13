@@ -60,7 +60,7 @@ o mínimo, etc).
 
 * Este proyecto se debe resolver en duplas.
 * El rango de tiempo estimado para completar el proyecto es de 3 a 4 Sprints.
-* El tiempo estimado que deberías dedicar a la [generación de la data](#generar-de-la-data)
+* El tiempo estimado que deberías dedicar a la [generación de los datos](#generar-de-la-data)
   es de máximo un sprint. Además, al final del proyecto deberás presentar
   un [screenshot del prompt utilizado](#prompt-utilizado).
 * Si ves que te va a tomar más tiempo, te
@@ -485,9 +485,10 @@ Un ejemplo de data, según los requisitos anteriores podría ser:
 La data generada deberás reemplazarla por el contenido de este archivo:
 `./src/data/data.json`.
 
-**El tiempo estimado que deberías dedicar a la generación de esta data
-es de máximo un sprint.** Si ves que te va a tomar más tiempo, te recomendamos
-utilizar la data de ejemplo que la vas a en contrar en el archivo anterior:
+**El tiempo estimado que deberías dedicar a la generación de estos datos
+es de máximo un sprint.** Si transcurrido un sprint, no tienes un
+conjunto de datos generados, deberás
+utilizar los datos de ejemplo ubicados en la ruta:
 `./src/data/data.json`.
 
 Las URLs de las imágenes, dentro del archivo JSON, deben hacer referencia
