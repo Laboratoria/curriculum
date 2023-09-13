@@ -431,20 +431,20 @@ Documenta brevemente tu trabajo en el archivo `README.md` de tu repositorio,
 contándonos cómo fue tu proceso de diseño y cómo crees que el producto resuelve
 el problema (o problemas) que tiene tu usuaria.
 
-#### Historias de usuario
+#### Historias de usuaria
 
 Una vez que entiendas las necesidades de tus usuarias, escribe las [Historias
-de Usuario](https://es.wikipedia.org/wiki/Historias_de_usuario) que representen
-todo lo que la usuaria necesita hacer/ver. Las **Historias de Usuario** deben
+de Usuaria](https://es.wikipedia.org/wiki/Historias_de_usuario) que representen
+todo lo que la usuaria necesita hacer/ver. Las **Historias de Usuaria** deben
 ser el resultado de tu proceso de investigación o _research_ de tus usuarias.
 
 Asegúrate de incluir la definición de terminado (_definition of done_) y los
 Criterios de Aceptación para cada una.
 
-Usa tus historias de usuario para planificar tus sprints dividiendo
+Usa tus historias de usuaria para planificar tus sprints dividiendo
 cada historia en tareas.
 
-En la medida de lo posible, termina una Historia de Usuario antes de pasar
+En la medida de lo posible, termina una Historia de Usuaria antes de pasar
 a la siguiente (Cumple con Definición de Terminado + Criterios de Aceptación).
 
 #### Generar los datos
@@ -499,7 +499,7 @@ solicitado.
 
 Una vez que hayas delimitado tu campo de interés y generado el archivo
 javascript con la asistencia de la inteligenica artificial, dedica
-tiempo a comprender a fondo a tu usuario y sus
+tiempo a comprender a fondo a tu usuaria y sus
 necesidades específicas. A partir de esta comprensión, podrás diseñar la
 interfaz que facilite una interacción más efectiva y una comprensión más
 completa de los datos presentados.
@@ -510,7 +510,7 @@ Dentro del readme que armarás, debe incluir una captura de pantalla
 de tu prompt utilizado para generar la data. Si utilizaste varios prompts,
 puedes adjuntar todas las capturas que necesites.
 
-#### Diseño de la Interfaz de Usuario
+#### Diseño de la Interfaz de Usuaria
 
 ##### Prototipo de baja fidelidad
 
@@ -523,7 +523,7 @@ Recuerda pedir feedback de tu prototipo a tus compañeras y/o coaches.
 
 ##### Prototipo de alta fidelidad
 
-Lo siguiente es diseñar tu Interfaz de Usuario (UI por sus siglas en inglés -
+Lo siguiente es diseñar tu Interfaz de Usuaria (UI por sus siglas en inglés -
 _User Interface_). Para eso debes aprender a utilizar alguna herramienta de
 diseño visual. Nosotros te recomendamos [Figma](https://www.figma.com/) que es
 una herramienta que funciona en el navegador y, además, puedes crear una cuenta
@@ -543,9 +543,9 @@ y con base en los resultados, deberás iterar tus diseños. Cuéntanos
 qué problemas de usabilidad detectaste a través de los _tests_ y cómo los
 mejoraste en tu propuesta final.
 
-#### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
+#### Implementación de la Interfaz de Usuaria (HTML/CSS/JS)
 
-Luego de diseñar tu interfaz de usuario deberás trabajar en su implementación.
+Luego de diseñar tu interfaz de usuaria deberás trabajar en su implementación.
 **No** es necesario que construyas la interfaz exactamente como la diseñaste.
 Tu tiempo de hacking es escaso, así que deberás priorizar.
 
@@ -611,7 +611,7 @@ Estas preguntas te pueden ayudar:
 * ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
 * ¿Cuándo utilizan o utilizarían el producto?
 * Toda tu investigación previa debe tener como resultado todas las Historias
-  de Usuario de tu proyecto.
+  de Usuaria de tu proyecto.
 * No hagas los prototipos de alta fidelidad de todas tus Historias. Comienza
   solamente por los que se necesiten para tu Sprint 1 (semana 1 de trabajo). Más
   pistas en la guía de organización para el proyecto.
@@ -638,7 +638,7 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
 ### Contenido de referencia
 
-#### Diseño de experiencia de usuario (User Experience Design)
+#### Diseño de experiencia de usuaria (User Experience Design)
 
 * Investigación con usuarias / entrevistas
 * Principios de diseño visual
@@ -677,7 +677,7 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
 #### Organización del Trabajo
 
-* [Historias de Usuario](https://www.youtube.com/watch?v=ky6wFiF5vMk&t=344s).
+* [Historias de Usuaria](https://www.youtube.com/watch?v=ky6wFiF5vMk&t=344s).
   Ojo que Cris no diferencia _Definición de terminado_ de _Criterios de
   Aceptación_ y nosotros sí lo haremos. Más detalles en la guía.
 * [Cómo dividir H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
@@ -696,9 +696,9 @@ Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
 * [ ] Está subido a GitHub y desplegado en GitHub Pages
 * Tiene un `README.md` con la siguente:
       - [ ] _Definición del producto_ clara e informativa
-      - [ ] Historias de usuario
+      - [ ] Historias de usuaria
       - [ ] Un _sketch_ de la solución (prototipo de baja fidelidad) y
-        _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
+        _Diseño de la Interfaz de Usuaria_ (prototipo de alta fidelidad)
       - [ ] El listado de problemas que detectaste a través de tests
         de usabilidad en el `README.md`
 * Tiene un UI que cumple las funcionalidades:
