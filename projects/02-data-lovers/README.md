@@ -42,10 +42,9 @@ adecuará a lo que descubras que tu usuaria necesita.
 Además, en este proyecto utilizarás herramientas de
 [inteligencia artificial](https://es.wikipedia.org/wiki/Inteligencia_artificial)
 como [ChatGPT](https://openai.com/chatgpt), [ExplainDev](https://explain.dev/),
-entre otras para generar set de datos en formato
-[JSON](https://es.wikipedia.org/wiki/JSON).
+entre otras para generar un set de datos en un archivo javascript.
 
-El propósito de generar la data en esta manera es brindarte la oportunidad de
+El propósito de generar los datos en esta manera es brindarte la oportunidad de
 adentrarte en el empleo de herramientas impulsadas por la inteligencia
 artificial, así como en tecnicas de
 [Prompting](https://learnprompting.org/es/docs/intro).
@@ -64,8 +63,8 @@ o mínimo, etc).
   es de máximo un sprint. Además, al final del proyecto deberás presentar
   un [screenshot del prompt utilizado](#prompt-utilizado).
 * Si ves que te va a tomar más tiempo, te
-  recomendamos utilizar la data de ejemplo que la vas a encontrar en
-  esta ruta: `./src/data/data.json`.
+  recomendamos utilizar los datos de ejemplo que los vas a encontrar en
+  esta ruta: `./src/data/data.js`.
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
   interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
 
@@ -448,17 +447,17 @@ cada historia en tareas.
 En la medida de lo posible, termina una Historia de Usuario antes de pasar
 a la siguiente (Cumple con Definición de Terminado + Criterios de Aceptación).
 
-#### Generar la data
+#### Generar los datos
 
-La temática será a tu gusto, por ejemplo, pueden ser personajes importantes en la
-historia, países, películas... etc. El archivo JSON debe tener una cantidad de 24
-objetos. Y la estructura de cada objeto deberá ser la siguiente:
+La temática será a tu gusto, por ejemplo, pueden ser personajes importantes
+en la historia, países, películas... etc. El archivo javascript con los
+datos debe tener una cantidad de 24 objetos. Y la estructura de cada objeto
+deberá ser la siguiente:
 
 * `name:` Nombre del dato que se va dibujar en la vista.
 * `img:` URL de la imagen. Esta imagen será generada a través de alguna
   herramienta basada en inteligencia artifical. Una vez generada la imagen,
-  ésta será descargada y guardada en una carpeta del proyecto. La URL de
-  esta imagen será agregada manualmente al JSON.
+  se deberá agregar la URL en este campo.
 * `statistics:` Un objeto con las siguientes propiedades:
   - `value`: Un valor numérico para el cálculo agregado (por ejemplo,
     puntuaciones, cantidades, fechas, etc).
@@ -467,8 +466,8 @@ objetos. Y la estructura de cada objeto deberá ser la siguiente:
 
 Un ejemplo de data, según los requisitos anteriores podría ser:
 
-```json
-[
+```js
+export default [
   {
     "name": "Ada Lovelace",
     "img": "URL_DE_LA_IMAGEN_GENERADA",
@@ -483,25 +482,24 @@ Un ejemplo de data, según los requisitos anteriores podría ser:
 ```
 
 La data generada deberás reemplazarla por el contenido de este archivo:
-`./src/data/data.json`.
+`./src/data/data.js`.
 
 **El tiempo estimado que deberías dedicar a la generación de estos datos
 es de máximo un sprint.** Si transcurrido un sprint, no tienes un
 conjunto de datos generados, deberás
 utilizar los datos de ejemplo ubicados en la ruta:
-`./src/data/data.json`.
+`./src/data/data.js`.
 
-Las URLs de las imágenes, dentro del archivo JSON, deben hacer referencia
-a una directorio dentro del proyecto. Aquí almacenarás las imágenes que necesitarás
-para cada objeto.
+Las URLs de las imágenes, dentro del archivo javascript, deben hacer referencia
+a las imágenes generadas por la inteligencia artificial.
 
-Una vez que tengas el archivo JSON completo, recuerda correr los test con
-`npm run test` para verificar que el archivo JSON esté cumpliendo con lo
+Una vez que tengas el archivo javascript completo, recuerda correr los test con
+`npm run test` para verificar que el archivo esté cumpliendo con lo
 solicitado.
 
-Una vez que hayas delimitado tu campo de interés y generado el JSON con la
-asistencia de la inteligenica artificial, dedica tiempo a comprender a
-fondo a tu usuario y sus
+Una vez que hayas delimitado tu campo de interés y generado el archivo
+javascript con la asistencia de la inteligenica artificial, dedica
+tiempo a comprender a fondo a tu usuario y sus
 necesidades específicas. A partir de esta comprensión, podrás diseñar la
 interfaz que facilite una interacción más efectiva y una comprensión más
 completa de los datos presentados.
