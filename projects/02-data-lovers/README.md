@@ -445,7 +445,7 @@ Usa tus historias de usuaria para planificar tus sprints dividiendo
 cada historia en tareas.
 
 En la medida de lo posible, termina una Historia de Usuaria antes de pasar
-a la siguiente (Cumple con Definición de Terminado + Criterios de Aceptación).
+a la siguiente (cumpliendo con la Definición de Terminado y los Criterios de Aceptación).
 
 #### Generar los datos
 
