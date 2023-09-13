@@ -24,7 +24,7 @@ precedentes.
 
 No obstante, los datos por sí mismos son de poca utilidad. Para que esas
 grandes cantidades de datos se conviertan en **información** fácil de leer para
-los usuarios, necesitamos entender y procesar estos datos. Una manera simple de
+las usuarias, necesitamos entender y procesar estos datos. Una manera simple de
 hacerlo es creando _interfaces_ y _visualizaciones_.
 
 En la siguiente imagen, podrás ver cómo con la data que que se ve en la parte
@@ -53,7 +53,7 @@ artificial, así como en tecnicas de
 Como entregable final tendrás una página web que permita **visualizar la data,
 filtrarla, ordenarla y calcular alguna estadística**. Con estadística
 nos referimos a distintos cálculos que puedes hacer con la data para mostrar
-información aún más relevante para los usuarios (promedio, el valor máximo
+información aún más relevante para las usuarias (promedio, el valor máximo
 o mínimo, etc).
 
 ## 3. Consideraciones generales
@@ -434,10 +434,10 @@ el problema (o problemas) que tiene tu usuaria.
 
 #### Historias de usuario
 
-Una vez que entiendas las necesidades de tus usuarios, escribe las [Historias
+Una vez que entiendas las necesidades de tus usuarias, escribe las [Historias
 de Usuario](https://es.wikipedia.org/wiki/Historias_de_usuario) que representen
 todo lo que la usuaria necesita hacer/ver. Las **Historias de Usuario** deben
-ser el resultado de tu proceso de investigación o _research_ de tus usuarios.
+ser el resultado de tu proceso de investigación o _research_ de tus usuarias.
 
 Asegúrate de incluir la definición de terminado (_definition of done_) y los
 Criterios de Aceptación para cada una.
@@ -540,7 +540,7 @@ Recuerda pedir feedback de tu prototipo a tus compañeras y/o coaches.
 
 #### Testeos de usabilidad
 
-Durante el reto deberás hacer _tests_ de usabilidad con distintos usuarios,
+Durante el reto deberás hacer _tests_ de usabilidad con distintos usuarias,
 y con base en los resultados, deberás iterar tus diseños. Cuéntanos
 qué problemas de usabilidad detectaste a través de los _tests_ y cómo los
 mejoraste en tu propuesta final.
@@ -608,8 +608,8 @@ Antes de empezar a escribir código, debes definir qué deberá hacer el
 producto con base en el conocimiento que puedas obtener de tu usuaria.
 Estas preguntas te pueden ayudar:
 
-* ¿Quiénes son los principales usuarios de producto?
-* ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
+* ¿Quiénes son las principales usuarias del producto?
+* ¿Cuáles son los objetivos de estas usuarias en relación con el producto?
 * ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
 * ¿Cuándo utilizan o utilizarían el producto?
 * Toda tu investigación previa debe tener como resultado todas las Historias
@@ -642,7 +642,7 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
 #### Diseño de experiencia de usuario (User Experience Design)
 
-* Investigación con usuarios / entrevistas
+* Investigación con usuarias / entrevistas
 * Principios de diseño visual
 
 #### Desarrollo Front-end
