@@ -37,7 +37,7 @@ usuarias, al lado derecho.
 
 **Construirás una _página web_ para visualizar el
 _conjunto (set) de datos_** generado anteriormente. Esta página web se
-adecuará a lo que descubras que tu usuario necesita.
+adecuará a lo que descubras que tu usuaria necesita.
 
 Además, en este proyecto utilizarás herramientas de
 [inteligencia artificial](https://es.wikipedia.org/wiki/Inteligencia_artificial)
