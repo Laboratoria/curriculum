@@ -451,7 +451,7 @@ a la siguiente (cumpliendo con la Definición de Terminado y los Criterios de Ac
 
 La temática será a tu gusto, por ejemplo, pueden ser personajes importantes
 en la historia, países, películas... etc. El archivo javascript con los
-datos debe tener una cantidad de 24 objetos. Y la estructura de cada objeto
+datos, debe exportar un arreglo con 24 objetos. Y la estructura de cada objeto
 deberá ser la siguiente:
 
 * `name:` Nombre del dato que se va dibujar en la vista.
@@ -599,7 +599,7 @@ Features/características extra sugeridas:
 ### Primeros pasos
 
 Súmate al canal de Slack
-[#project-data-lovers](https://claseslaboratoria.slack.com/archives/C03MV35EP5M)
+[#project-dataverse](https://claseslaboratoria.slack.com/archives/C03MV35EP5M)
 para conversar y pedir ayuda del proyecto.
 
 Antes de empezar a escribir código, debes definir qué deberá hacer el
