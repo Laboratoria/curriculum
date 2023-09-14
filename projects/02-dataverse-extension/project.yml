@@ -5,9 +5,6 @@ learningObjectives:
   - css/box-model
   - css/flexbox
   - browser
-  - routing
-  - storage
-  - fetch
   - js/data-types/primitive-vs-non-primitive
   - js/data-types/arrays
   - js/data-types/objects
