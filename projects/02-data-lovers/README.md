@@ -509,7 +509,7 @@ completa de los datos presentados.
 #### Prompt utilizado
 
 Dentro del readme que armarás, debe incluir una captura de pantalla
-de tu prompt utilizado para generar la data. Si utilizaste varios prompts,
+de tu prompt utilizado para generar los datos. Si utilizaste varios prompts,
 puedes adjuntar todas las capturas que necesites.
 
 #### Diseño de la Interfaz de Usuaria
@@ -696,6 +696,7 @@ Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
   _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
 * [ ] Esta libre de _errores_ de `eslint` al ejecutar `npm run pretest`
 * [ ] Está subido a GitHub y desplegado en GitHub Pages
+* [ ] Captura de pantalla del prompt utilizado para generar los datos.
 * Tiene un `README.md` con la siguente:
       - [ ] _Definición del producto_ clara e informativa
       - [ ] Historias de usuaria
