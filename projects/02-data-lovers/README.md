@@ -46,7 +46,7 @@ entre otras para generar un set de datos en un archivo javascript.
 
 El propósito de generar los datos en esta manera es brindarte la oportunidad de
 adentrarte en el empleo de herramientas impulsadas por la inteligencia
-artificial, así como en tecnicas de
+artificial, así como en técnicas de
 [Prompting](https://learnprompting.org/es/docs/intro).
 
 Como entregable final tendrás una página web que permita **visualizar la data,
