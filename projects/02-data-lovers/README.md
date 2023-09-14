@@ -35,8 +35,8 @@ usuarias, al lado derecho.
 
 ## 2. Resumen del proyecto
 
-**Construirás una _página web_ para visualizar el
-_conjunto (set) de datos_** que vas a generar con prompting. Esta página web se
+En este proyecto **construirás una _página web_ para visualizar un
+_conjunto (set) de datos_** que vas a generar con [prompting](https://www.itmadrid.com/que-es-un-prompt-en-inteligencia-artificial-ia/). Esta página web se
 adecuará a lo que descubras que tu usuaria necesita.
 
 Además, en este proyecto utilizarás herramientas de
@@ -46,25 +46,25 @@ entre otras para generar un set de datos en un archivo javascript.
 
 El propósito de generar los datos en esta manera es brindarte la oportunidad de
 adentrarte en el empleo de herramientas impulsadas por la inteligencia
-artificial, así como en técnicas de
-[Prompting](https://learnprompting.org/es/docs/intro).
+artificial, así como en [técnicas de
+prompting](https://learnprompting.org/es/docs/intro).
 
 Como entregable final tendrás una página web que permita **visualizar la data,
 filtrarla, ordenarla y calcular alguna estadística**. Con estadística
-nos referimos a distintos cálculos que puedes hacer con la data para mostrar
-información aún más relevante para las usuarias (promedio, el valor máximo
+nos referimos a distintos cálculos que puedes hacer con los datos para mostrar
+información aún más relevante a las usuarias (promedio, el valor máximo
 o mínimo, etc).
 
 ## 3. Consideraciones generales
 
 * Este proyecto se debe resolver en duplas.
 * El rango de tiempo estimado para completar el proyecto es de 3 a 4 Sprints.
-* El tiempo estimado que deberías dedicar a la [generación de los datos](#generar-de-la-data)
+* El tiempo estimado que deberías dedicar a la [generación de los datos](#generar-los-datos)
   es de máximo un sprint. Además, al final del proyecto deberás presentar
   un [screenshot del prompt utilizado](#prompt-utilizado).
 * Si ves que te va a tomar más tiempo, te
   recomendamos utilizar los datos de ejemplo que los vas a encontrar en
-  esta ruta: `./src/data/data.js`.
+  esta ruta: `./src/data/dataset.js`.
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
   interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
 
@@ -97,28 +97,33 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
 
   Por ejemplo, la siguiente data correspondiente a pokemón Pikachu:
 
-  ```json
+  ```js
     {
-      "num": "025",
-      "name": "pikachu",
-      "pokemon-rarity": "normal",
-    }
+    "name": "Ada Lovelace",
+    "img": "URL_DE_LA_IMAGEN_GENERADA",
+    "statistic": {
+      "value": 1843,
+      "label": "Año de nacimiento",
+    },
+    "description": "Primera programadora de la historia...",
+  },
   ```
 
   puede ser estructurada semánticamente en HTML como:
 
   ```html
   <dl itemscope itemtype="pokemon">
-    <dt>Name:</dt><dd itemprop="name">pikachu</dd>
-    <dt>Number:</dt><dd itemprop="num">025</dd>
-    <dt>Rarity:</dt><dd itemprop="pokemon-rarity">normal</dd>
+    <img src="URL_DE_LA_IMAGEN_GENERADA" alt="Ada Lovelace" />
+    <dt>Nombre:</dt><dd itemprop="name">Ada Lovelace</dd>
+    <dt>Año de nacimiento:</dt><dd itemprop="num">1843</dd>
+    <dt>Descripción:</dt><dd itemprop="pokemon-rarity">Primera programadora de la historia...</dd>
   </dl>
   ```
 
 * La aplicación debe calcular y visualizar una estadística de la data. Puede
   ser una propiedad computada de cada item, como una propiedad adicional
   (por ejemplo, el índice de masa corporal de cada pokemon) o unas estadísticas
-  de la data completa (por ejemplo, peso promedio de todos los pokemones).
+  de la data completa (por ejemplo, promedio de personas nacidas en los años 80s).
 
 * La aplicación debe permitir a la usuaria filtrar la data. Deberás usar
   un elemento [`<select>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
@@ -204,7 +209,7 @@ como toda la configuración de dependencias:
 └── test
    └── data.js
    └── dataFunctions.spec.js
-└── tests-read-only
+   └── tests-read-only
 
 ```
 
@@ -224,23 +229,15 @@ manejadores de eventos (_event listeners_ o _event handlers_).
 Esta no es la única forma de dividir tu código, puedes usar más archivos y
 carpetas, siempre y cuando la estructura sea clara para tus compañeras.
 
-En este archivo encontrarás una serie de _imports_ _comentados_. Para _cargar_
-las diferentes fuentes de datos tendrás que _descomentar_ la línea
-correspondiente.
+En este archivo encontrarás una serie de _imports_ listos para _cargar_
+las diferentes fuentes de datos.
 
-Por ejemplo, si "descomentamos" la siguiente línea:
-
-```js
-// import data from './data/lol/lol.js';
-```
-
-La línea quedaría así:
+Por ejemplo, lost datos con los que vas a trabajar,
+los encontrarás en la siguiente línea:
 
 ```js
-import data from './data/lol/lol.js';
+import data from './data/dataset.js';
 ```
-
-Y ahora tendríamos la variable `data` disponible en el script `src/main.js`.
 
 ### `src/dataFunctions.js`
 
@@ -275,13 +272,8 @@ e independientes del DOM. Estas funciones serán después usadas desde el archiv
 
 ### `src/data`
 
-En esta carpeta están los datos de las diferentes fuentes. Encontrarás una
-carpeta por cada fuente, y dentro de cada carpeta dos archivos: uno con la
-extensión `.js` y otro `.json`. Ambos archivos contienen la misma data; la
-diferencia es que el `.js` lo usaremos a través de una etiqueta `<script>`,
-mientras que el `.json` está ahí para opcionalmente cargar la data de forma
-asíncrona con [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
-(ver sección de [_Parte Opcional_](#7-hacker-edition)).
+En esta carpeta están los datos con los que vas a trabajar (los datos de ejemplo
+o los datos que generarías con ayuda de la inteligencia artificial).
 
 ### `test/dataFunctions.spec.js`
 
@@ -291,8 +283,8 @@ implementadas en el archivo `dataFunctions.js`. (`filterBy`, `sortBy`, etc.)
 ### `test/data.js`
 
 En esta archivo puedes construir y exportar data "mock" para usar en los tests.
-Es mas fácil probar un arreglo de 5 elementos de un arreglo de 100, por eso
-vas a crear una muestra de la data que quieres probar. Al mínimo
+Es mas fácil probar un arreglo de 5 elementos de un arreglo de 24, por eso
+vas a crear una muestra de la data que quieres probar. Como mínimo
 debes exportar un variable se llama `data`, pero puedes definir y exportar mas
 si sea necesario para tus tests.
 
@@ -302,7 +294,7 @@ Para alcanzar mejor separación de responsabilidades en el código este
 archivo debe tener todas las funciones que utilizara para renderizar
 los elementos dinámicamente.
 
-Al menos requerimos una función obligatoria:
+Al menos se requeriere una función obligatoria:
 
 * `renderItems(data)`: esta función recibe el arreglo de data para renderizar
   los elementos de cada item, y debería volver un elemento DOM o
@@ -484,13 +476,13 @@ export default [
 ```
 
 La data generada deberás reemplazarla por el contenido de este archivo:
-`./src/data/data.js`.
+`./src/data/dataset.js`.
 
 **El tiempo estimado que deberías dedicar a la generación de estos datos
 es de máximo un sprint.** Si transcurrido un sprint, no tienes un
 conjunto de datos generados, deberás
 utilizar los datos de ejemplo ubicados en la ruta:
-`./src/data/data.js`.
+`./src/data/dataset.js`.
 
 Las URLs de las imágenes, dentro del archivo javascript, deben hacer referencia
 a las imágenes generadas por la inteligencia artificial.
@@ -574,12 +566,6 @@ profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
 
 Features/características extra sugeridas:
 
-* En lugar de consumir la data estática brindada en este repositorio, puedes
-  consumir la data de forma dinámica, cargando un archivo
-  [JSON](https://json.org/json-es.html) por medio de
-  [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API).
-  La carpeta `src/data` contiene una versión `.js` y una `.json` de
-  cada set datos.
 * Visualizar la estadística calculada mediante un gráfico. Para
   ello te recomendamos explorar librerías de gráficas como
   [Chart.js](https://www.chartjs.org/)
@@ -661,8 +647,6 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 * [Object.keys en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/keys)
 * [Object.entries en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/entries)
 * [Atributos de datos](https://developer.mozilla.org/es/docs/Learn/HTML/Howto/Use_data_attributes)
-* [Fetch API en MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
-* [json.org](https://json.org/json-es.html)
 * [expressions-vs-statements](https://2ality.com/2012/09/expressions-vs-statements.html)
 * [expresión vs sentencia](https://openclassrooms.com/en/courses/4309531-descubre-las-funciones-en-javascript/5108986-diferencia-entre-expresion-y-sentencia)
 * [datos atómicos vs datos estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
