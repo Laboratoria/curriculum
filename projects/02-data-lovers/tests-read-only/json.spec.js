@@ -10,7 +10,7 @@ describe('JSON', ()=>{
   })
 
   it('cada objeto debe tener las propiedades "name", "img", "statistics", y "description"', () => {
-    expect.assertions(96)
+    expect.assertions(jsonData.length*4)
     jsonData.forEach(item => {
       expect(item).toHaveProperty('name');
       expect(item).toHaveProperty('img');
@@ -21,7 +21,7 @@ describe('JSON', ()=>{
   });
 
   it('la propiedad "statistics" debe tener como valor un objeto con las propiedades "value" y "label"', () => {
-    expect.assertions(48)
+    expect.assertions(jsonData.length*4)
     jsonData.forEach(item => {
       expect(item.statistics).toHaveProperty('value');
       expect(item.statistics).toHaveProperty('label');

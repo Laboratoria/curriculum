@@ -36,7 +36,7 @@ usuarias, al lado derecho.
 ## 2. Resumen del proyecto
 
 **Construirás una _página web_ para visualizar el
-_conjunto (set) de datos_** generado anteriormente. Esta página web se
+_conjunto (set) de datos_** que vas a generar con prompting. Esta página web se
 adecuará a lo que descubras que tu usuaria necesita.
 
 Además, en este proyecto utilizarás herramientas de
@@ -477,7 +477,7 @@ export default [
       "value": 1843,
       "label": "año de nacimiento",
     },
-    "description": "Primera programadora de la historia",
+    "description": "Primera programadora de la historia...",
   },
   //... 23 objetos más
 ]
