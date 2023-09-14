@@ -219,7 +219,7 @@ para conversar y pedir ayuda del proyecto.
 
 ### Otros recursos
 
-* [vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
+* [Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
 * [npm-scripts](https://docs.npmjs.com/misc/scripts)
 * [deploy con gh-pages](https://medium.com/the-andela-way/how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes-8c5f665a2d2a)
 * [Usando Service Workers - MDN](https://developer.mozilla.org/es/docs/Web/API/Service_Worker_API/Using_Service_Workers)
