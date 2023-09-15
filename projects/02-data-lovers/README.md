@@ -200,7 +200,7 @@ como toda la configuración de dependencias:
 ├── package.json
 ├── src
 |  ├── data 
-|  |  └── dataSet.js (La que hayas generado con la IA)
+|  |  └── dataset.js (La que hayas generado con la IA)
 |  ├── dataFunctions.js
 |  ├── view.js
 |  ├── index.html
@@ -682,12 +682,12 @@ Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
 * [ ] Está subido a GitHub y desplegado en GitHub Pages
 * [ ] Captura de pantalla del prompt utilizado para generar los datos.
 * Tiene un `README.md` con la siguente:
-      - [ ] _Definición del producto_ clara e informativa
-      - [ ] Historias de usuaria
-      - [ ] Un _sketch_ de la solución (prototipo de baja fidelidad) y
-        _Diseño de la Interfaz de Usuaria_ (prototipo de alta fidelidad)
-      - [ ] El listado de problemas que detectaste a través de tests
-        de usabilidad en el `README.md`
+  - [ ] _Definición del producto_ clara e informativa
+  - [ ] Historias de usuaria
+  - [ ] Un _sketch_ de la solución (prototipo de baja fidelidad) y
+    _Diseño de la Interfaz de Usuaria_ (prototipo de alta fidelidad)
+  - [ ] El listado de problemas que detectaste a través de tests
+    de usabilidad en el `README.md`
 * Tiene un UI que cumple las funcionalidades:
   - [ ] Muestra lista con datos y/o indicadores
   - [ ] Permite ordenar data por uno o más campos (asc y desc)
