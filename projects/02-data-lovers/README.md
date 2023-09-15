@@ -62,8 +62,8 @@ o mínimo, etc).
 * El tiempo estimado que deberías dedicar a la [generación de los datos](#generar-los-datos)
   es de máximo un sprint. Además, al final del proyecto deberás presentar
   un [screenshot del prompt utilizado](#prompt-utilizado).
-* Si ves que te va a tomar más tiempo, te
-  recomendamos utilizar los datos de ejemplo que los vas a encontrar en
+* Si ves que te va a tomar más tiempo,
+  deberás utilizar los datos de ejemplo que los vas a encontrar en
   esta ruta: `./src/data/dataset.js`.
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
   interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
@@ -95,7 +95,7 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
   [`itemtype`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemtype)
   y el atributo [`itemprop`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop).
 
-  Por ejemplo, la siguiente data correspondiente a pokemón Pikachu:
+  Por ejemplo, la siguiente data correspondiente a Ada Lovelace:
 
   ```js
     {
@@ -123,7 +123,7 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
 * La aplicación debe calcular y visualizar una estadística de la data. Puede
   ser una propiedad computada de cada item, como una propiedad adicional
   (por ejemplo, el índice de masa corporal de cada pokemon) o unas estadísticas
-  de la data completa (por ejemplo, promedio de personas nacidas en los años 80s).
+  de la data completa (por ejemplo, total de personas nacidas en los años 80s).
 
 * La aplicación debe permitir a la usuaria filtrar la data. Deberás usar
   un elemento [`<select>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
@@ -200,7 +200,7 @@ como toda la configuración de dependencias:
 ├── package.json
 ├── src
 |  ├── data 
-|  |  └── data.json (La que hayas generado con la IA)
+|  |  └── dataSet.js (La que hayas generado con la IA)
 |  ├── dataFunctions.js
 |  ├── view.js
 |  ├── index.html
