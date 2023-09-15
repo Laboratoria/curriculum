@@ -1,4 +1,4 @@
-import jsonData from '../src/data/data.json'
+import jsonData from '../src/data/dataSet.js'
 
 describe('JSON', ()=>{
   it('El archivo JSON debe ser un arreglo', ()=>{
