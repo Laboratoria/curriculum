@@ -62,12 +62,14 @@ describe('Test de data set', ()=>{
   });
 
   it('La propiedad "value" del objeto statistics debe ser un número', ()=>{
+    expect.assertions(data.length)
     data.forEach(item => {
       expect(typeof item.statistics.value).toBe('number')
     })
   })
 
   it('La propiedad "label" del objeto statistics debe ser un string', ()=>{
+    expect.assertions(data.length)
     data.forEach(item => {
       expect(typeof item.statistics.label).toBe('string')
     })
