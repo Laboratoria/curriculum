@@ -442,8 +442,16 @@ a la siguiente (cumpliendo con la Definición de Terminado y los Criterios de Ac
 #### Generar los datos
 
 La temática será a tu gusto, por ejemplo, pueden ser personajes importantes
-en la historia, países, películas... etc. El archivo javascript con los
-datos, debe exportar un arreglo con 24 objetos. Y la estructura de cada objeto
+en la historia, países, películas... etc.
+
+Al final del proyecto, con la ayuda de la inteligencia artificial, deberás
+hacer que la usuaria pueda interactuar con la data generada a través de un
+chat. Por ejemplo, si la data está mostrando un país, la usuaria podría
+chatear con ese país y preguntarle en que año fue fundado,
+o cual es su capital, etc.
+
+Esta data generada la vas a guardar en un archivo javascript. Este archivo,
+debe exportar un arreglo con 24 objetos. Y la estructura de cada objeto
 deberá ser la siguiente:
 
 * `name:` Nombre del dato que se va dibujar en la vista.
