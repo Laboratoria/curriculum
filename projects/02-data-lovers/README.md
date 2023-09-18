@@ -484,11 +484,11 @@ conjunto de datos generados, deberás
 utilizar los datos de ejemplo ubicados en la ruta:
 `./src/data/dataset.js`.
 
-Las URLs de las imágenes, dentro del archivo javascript, deben hacer
-referencia a las imágenes generadas por la inteligencia artificial.
+Las URLs de las imágenes dentro del archivo javascript, deben enlazar
+a las imágenes generadas por la inteligencia artificial.
 En internet podrás encontrar varias páginas para generar imágenes con
 IA, puedes aventurarte a buscar y quedarte con la que más te guste.
-O puedes usar alguna de estas dosrecomendaciones:  [GenCraft](https://gencraft.com/generate)
+O puedes usar alguna de estas dos recomendaciones:  [GenCraft](https://gencraft.com/generate)
 o [Hugginface](https://huggingface.co/spaces/laboratoria/dataverse-image-generation)
 
 Una vez que tengas el archivo javascript completo, recuerda correr los test con
