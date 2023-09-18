@@ -423,20 +423,20 @@ Documenta brevemente tu trabajo en el archivo `README.md` de tu repositorio,
 contándonos cómo fue tu proceso de diseño y cómo crees que el producto resuelve
 el problema (o problemas) que tiene tu usuaria.
 
-#### Historias de usuaria
+#### Historias de usuario
 
 Una vez que entiendas las necesidades de tus usuarias, escribe las [Historias
 de Usuaria](https://es.wikipedia.org/wiki/Historias_de_usuario) que representen
-todo lo que la usuaria necesita hacer/ver. Las **Historias de Usuaria** deben
+todo lo que la usuaria necesita hacer/ver. Las **Historias de Usuario** deben
 ser el resultado de tu proceso de investigación o _research_ de tus usuarias.
 
 Asegúrate de incluir la definición de terminado (_definition of done_) y los
 Criterios de Aceptación para cada una.
 
-Usa tus historias de usuaria para planificar tus sprints dividiendo
+Usa tus historias de usuario para planificar tus sprints dividiendo
 cada historia en tareas.
 
-En la medida de lo posible, termina una Historia de Usuaria antes de pasar
+En la medida de lo posible, termina una Historia de Usuario antes de pasar
 a la siguiente (cumpliendo con la Definición de Terminado y los Criterios de Aceptación).
 
 #### Generar los datos
@@ -667,7 +667,7 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
 #### Organización del Trabajo
 
-* [Historias de Usuaria](https://www.youtube.com/watch?v=ky6wFiF5vMk&t=344s).
+* [Historias de Usuario](https://www.youtube.com/watch?v=ky6wFiF5vMk&t=344s).
   Ojo que Cris no diferencia _Definición de terminado_ de _Criterios de
   Aceptación_ y nosotros sí lo haremos. Más detalles en la guía.
 * [Cómo dividir H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
@@ -687,7 +687,7 @@ Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
 * [ ] Captura de pantalla del prompt utilizado para generar los datos.
 * Tiene un `README.md` con la siguente:
   - [ ] _Definición del producto_ clara e informativa
-  - [ ] Historias de usuaria
+  - [ ] Historias de usuario
   - [ ] Un _sketch_ de la solución (prototipo de baja fidelidad) y
     _Diseño de la Interfaz de Usuaria_ (prototipo de alta fidelidad)
   - [ ] El listado de problemas que detectaste a través de tests
