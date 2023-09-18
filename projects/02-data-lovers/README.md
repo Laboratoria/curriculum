@@ -100,7 +100,7 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
   ```js
     {
     "name": "Ada Lovelace",
-    "img": "URL_DE_LA_IMAGEN_GENERADA",
+    "imgSrc": "URL_DE_LA_IMAGEN_GENERADA",
     "statistic": {
       "value": 1843,
       "label": "Año de nacimiento",
@@ -455,7 +455,7 @@ debe exportar un arreglo con 24 objetos. Y la estructura de cada objeto
 deberá ser la siguiente:
 
 * `name:` Nombre del dato que se va dibujar en la vista.
-* `img:` URL de la imagen. Esta imagen será generada a través de alguna
+* `imgSrc:` URL de la imagen. Esta imagen será generada a través de alguna
   herramienta basada en inteligencia artifical. Una vez generada la imagen,
   se deberá agregar la URL en este campo.
 * `statistics:` Un objeto con las siguientes propiedades:
@@ -472,7 +472,7 @@ Un ejemplo de data, según los requisitos anteriores podría ser:
 export default [
   {
     "name": "Ada Lovelace",
-    "img": "URL_DE_LA_IMAGEN_GENERADA",
+    "imgSrc": "URL_DE_LA_IMAGEN_GENERADA",
     "statistic": {
       "value": 1843,
       "label": "año de nacimiento",
