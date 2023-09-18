@@ -21,7 +21,7 @@ describe('Test de data set', ()=>{
   });
 
   it('la propiedad "statistics" debe tener como valor un objeto con las propiedades "value" y "label"', () => {
-    expect.assertions(data.length*4)
+    expect.assertions(data.length*2)
     data.forEach(item => {
       expect(item.statistics).toHaveProperty('value');
       expect(item.statistics).toHaveProperty('label');
