@@ -25,6 +25,7 @@ describe('Test de data set', ()=>{
   //Property name
 
   it('El valor de la propiedad "name" debe ser un string', ()=>{
+    expect.assertions(data.length)
     data.forEach(item => {
       expect(typeof item.name).toBe('string')
     })
@@ -33,12 +34,14 @@ describe('Test de data set', ()=>{
   //Property imgSrc
 
   it('El valor de la propiedad "imgSrc" debe ser un string', ()=>{
+    expect.assertions(data.length)
     data.forEach(item => {
       expect(typeof item.imgSrc).toBe('string')
     })
   })
 
   it('La propiedad "imgSrc" debe contener una URL válida', () => {
+    expect.assertions(data.length)
     data.forEach((item) => {
       const urlRegex = /^(https?:\/\/)?([\da-z.-]+)\.([a-z.]{2,6})([/\w.-]*)*\/?$/;
       expect(urlRegex.test(item.imgSrc)).toBe(true);
@@ -48,6 +51,7 @@ describe('Test de data set', ()=>{
   //Property statistics
 
   it('El valor de la propiedad "statistics" debe ser un objeto', ()=>{
+    expect.assertions(data.length)
     data.forEach(item => {
       expect(typeof item.statistics).toBe('object')
     })
@@ -78,12 +82,14 @@ describe('Test de data set', ()=>{
   //descripcion
 
   it('El valor de la propiedad "description" debe ser un string', ()=>{
+    expect.assertions(data.length)
     data.forEach(item => {
       expect(typeof item.description).toBe('string')
     })
   })
 
   it('El valor de la propiedad "description" debe tener al menos 100 palabras', ()=>{
+    expect.assertions(data.length)
     data.forEach((item) => {
       const words = item.description.split(/\s+/).filter(word => word !== '');
       if (words.length < 100) {
