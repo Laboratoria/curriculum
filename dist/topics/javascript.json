@@ -1,10 +1,10 @@
 {
   "slug": "javascript",
-  "repo": "Laboratoria/bootcamp",
+  "repo": "Laboratoria/curriculum",
   "path": "topics/javascript",
-  "version": "6.4.0",
-  "parserVersion": "5.0.0-alpha.5",
-  "createdAt": "2023-07-11T19:32:01.345Z",
+  "version": "7.1.0",
+  "parserVersion": "5.0.0-beta.0",
+  "createdAt": "2023-09-13T14:13:22.516Z",
   "track": "web-dev",
   "intl": {
     "es": {
@@ -116,7 +116,7 @@
               "slug": "coin-convert",
               "prefix": "01",
               "path": "topics/javascript/01-basics/06-exercises/01-coin-convert",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.514Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -138,7 +138,7 @@
               "slug": "restaurant-bill",
               "prefix": "02",
               "path": "topics/javascript/01-basics/06-exercises/02-restaurant-bill",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.513Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -289,7 +289,7 @@
               "slug": "power-of-two",
               "prefix": "01",
               "path": "topics/javascript/02-flow-control/06-code-challenges/01-power-of-two",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.516Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -313,7 +313,7 @@
               "slug": "reverse",
               "prefix": "02",
               "path": "topics/javascript/02-flow-control/06-code-challenges/02-reverse",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.513Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -336,7 +336,7 @@
               "slug": "count-vowels",
               "prefix": "03",
               "path": "topics/javascript/02-flow-control/06-code-challenges/03-count-vowels",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.513Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -359,7 +359,7 @@
               "slug": "even-or-odd",
               "prefix": "04",
               "path": "topics/javascript/02-flow-control/06-code-challenges/04-even-or-odd",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.514Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -382,7 +382,7 @@
               "slug": "max",
               "prefix": "05",
               "path": "topics/javascript/02-flow-control/06-code-challenges/05-max",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.514Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -405,7 +405,7 @@
               "slug": "is-prime",
               "prefix": "06",
               "path": "topics/javascript/02-flow-control/06-code-challenges/06-is-prime",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.516Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -428,7 +428,7 @@
               "slug": "can-drive-and-vote",
               "prefix": "07",
               "path": "topics/javascript/02-flow-control/06-code-challenges/07-can-drive-and-vote",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.514Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -451,7 +451,7 @@
               "slug": "are-odd",
               "prefix": "08",
               "path": "topics/javascript/02-flow-control/06-code-challenges/08-are-odd",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.514Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -649,7 +649,7 @@
               "slug": "compute-average-length-of-words",
               "prefix": "01",
               "path": "topics/javascript/04-arrays/06-practice/01-compute-average-length-of-words",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.516Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -672,7 +672,7 @@
               "slug": "get-nth-element",
               "prefix": "02",
               "path": "topics/javascript/04-arrays/06-practice/02-get-nth-element",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.514Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -695,7 +695,7 @@
               "slug": "convert-double-space-to-single",
               "prefix": "03",
               "path": "topics/javascript/04-arrays/06-practice/03-convert-double-space-to-single",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.514Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -718,7 +718,7 @@
               "slug": "are-valid-credentials",
               "prefix": "04",
               "path": "topics/javascript/04-arrays/06-practice/04-are-valid-credentials",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.514Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -741,7 +741,7 @@
               "slug": "find-pair-for-sum",
               "prefix": "05",
               "path": "topics/javascript/04-arrays/06-practice/05-find-pair-for-sum",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.514Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -764,7 +764,7 @@
               "slug": "filter-odd-elements",
               "prefix": "06",
               "path": "topics/javascript/04-arrays/06-practice/06-filter-odd-elements",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.514Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -787,7 +787,7 @@
               "slug": "find-shortest-word-among-mixed-elements",
               "prefix": "07",
               "path": "topics/javascript/04-arrays/06-practice/07-find-shortest-word-among-mixed-elements",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.514Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -810,7 +810,7 @@
               "slug": "find-smallest-number-among-mixed-elements",
               "prefix": "08",
               "path": "topics/javascript/04-arrays/06-practice/08-find-smallest-number-among-mixed-elements",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.514Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -833,7 +833,7 @@
               "slug": "get-longest-word-of-mixed-elements",
               "prefix": "09",
               "path": "topics/javascript/04-arrays/06-practice/09-get-longest-word-of-mixed-elements",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.514Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -856,7 +856,7 @@
               "slug": "get-largest-number-among-mixed-elements",
               "prefix": "10",
               "path": "topics/javascript/04-arrays/06-practice/10-get-largest-number-among-mixed-elements",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.514Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -879,7 +879,7 @@
               "slug": "compute-sum-of-all-elements",
               "prefix": "11",
               "path": "topics/javascript/04-arrays/06-practice/11-compute-sum-of-all-elements",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.515Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -902,7 +902,7 @@
               "slug": "compute-sum-between",
               "prefix": "12",
               "path": "topics/javascript/04-arrays/06-practice/12-compute-sum-between",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.514Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -925,7 +925,7 @@
               "slug": "get-longest-of-three-words",
               "prefix": "13",
               "path": "topics/javascript/04-arrays/06-practice/13-get-longest-of-three-words",
-              "createdAt": "2023-07-11T19:32:01.343Z",
+              "createdAt": "2023-09-13T14:13:22.515Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -948,7 +948,7 @@
               "slug": "find-shortest-of-three-words",
               "prefix": "14",
               "path": "topics/javascript/04-arrays/06-practice/14-find-shortest-of-three-words",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.514Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -971,7 +971,7 @@
               "slug": "calculate-bill-total",
               "prefix": "15",
               "path": "topics/javascript/04-arrays/06-practice/15-calculate-bill-total",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.515Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -994,7 +994,7 @@
               "slug": "convert-score-to-grade",
               "prefix": "16",
               "path": "topics/javascript/04-arrays/06-practice/16-convert-score-to-grade",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.515Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1114,7 +1114,7 @@
               "slug": "add-array-property",
               "prefix": "00",
               "path": "topics/javascript/05-objects/06-practice/00-add-array-property",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.515Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1137,7 +1137,7 @@
               "slug": "object-properties-counter",
               "prefix": "01",
               "path": "topics/javascript/05-objects/06-practice/01-object-properties-counter",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.515Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1160,7 +1160,7 @@
               "slug": "remove-string-values-longer-than",
               "prefix": "02",
               "path": "topics/javascript/05-objects/06-practice/02-remove-string-values-longer-than",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.515Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1183,7 +1183,7 @@
               "slug": "get-element-of-array-property",
               "prefix": "03",
               "path": "topics/javascript/05-objects/06-practice/03-get-element-of-array-property",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.515Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1206,7 +1206,7 @@
               "slug": "greet-customer",
               "prefix": "04",
               "path": "topics/javascript/05-objects/06-practice/04-greet-customer",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.515Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1229,7 +1229,7 @@
               "slug": "transform-first-and-last",
               "prefix": "05",
               "path": "topics/javascript/05-objects/06-practice/05-transform-first-and-last",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.516Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1252,7 +1252,7 @@
               "slug": "get-all-keys",
               "prefix": "06",
               "path": "topics/javascript/05-objects/06-practice/06-get-all-keys",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.515Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1275,7 +1275,7 @@
               "slug": "from-list-to-object",
               "prefix": "07",
               "path": "topics/javascript/05-objects/06-practice/07-from-list-to-object",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.515Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1298,7 +1298,7 @@
               "slug": "list-all-values",
               "prefix": "08",
               "path": "topics/javascript/05-objects/06-practice/08-list-all-values",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.515Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1321,7 +1321,7 @@
               "slug": "transform-employee-data",
               "prefix": "09",
               "path": "topics/javascript/05-objects/06-practice/09-transform-employee-data",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.516Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1344,7 +1344,7 @@
               "slug": "convert-object-to-list",
               "prefix": "10",
               "path": "topics/javascript/05-objects/06-practice/10-convert-object-to-list",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.515Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1367,7 +1367,7 @@
               "slug": "get-sum-of-all-elements-at-property",
               "prefix": "11",
               "path": "topics/javascript/05-objects/06-practice/11-get-sum-of-all-elements-at-property",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.515Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1390,7 +1390,7 @@
               "slug": "get-product-of-all-elements-at-property",
               "prefix": "12",
               "path": "topics/javascript/05-objects/06-practice/12-get-product-of-all-elements-at-property",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.515Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1413,7 +1413,7 @@
               "slug": "add-object-property",
               "prefix": "13",
               "path": "topics/javascript/05-objects/06-practice/13-add-object-property",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.515Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1436,7 +1436,7 @@
               "slug": "add-full-name-property",
               "prefix": "14",
               "path": "topics/javascript/05-objects/06-practice/14-add-full-name-property",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.515Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1507,7 +1507,7 @@
               "slug": "currency-amount",
               "prefix": "01",
               "path": "topics/javascript/06-strings/02-practice/01-currency-amount",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.515Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1530,7 +1530,7 @@
               "slug": "first-and-last-to-upper",
               "prefix": "02",
               "path": "topics/javascript/06-strings/02-practice/02-first-and-last-to-upper",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.515Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1773,7 +1773,7 @@
               "slug": "validate-string",
               "prefix": "01",
               "path": "topics/javascript/09-errors/05-practice/01-validate-string",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.516Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1795,7 +1795,7 @@
               "slug": "parse-json",
               "prefix": "02",
               "path": "topics/javascript/09-errors/05-practice/02-parse-json",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.515Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1810,7 +1810,7 @@
               "files": {
                 "/boilerplate/parseJson.js": "const parseJson = () => {\n  // Tu código acá\n};\n\nmodule.exports = parseJson;\n",
                 "/solution/parseJson.js": "const parseJson = (str) => {\n  try {\n    return JSON.parse(str);\n  } catch (err) {\n    return err;\n  }\n};\n\nmodule.exports = parseJson;\n",
-                "/test/parseJson.spec.js": "const Assert = require('chai').assert;\nconst parseJson = require('../solution/parseJson');\n\ndescribe('parseJson()', () => {\n  it('debería ser una función', () => {\n    Assert.equal(typeof parseJson, 'function');\n  });\n\n  it('debería devolver un error en vez de arrojarlo con JSON inválido', () => {\n    const result = parseJson();\n    Assert.ok(result instanceof Error);\n    Assert.ok(/Unexpected token/i.test(result.message));\n  });\n\n  it('debería devolver JSON parseado cuando formato del string es ok', () => {\n    const result = parseJson('{ \"foo\": true, \"bar\": \"baz\" }');\n    Assert.deepEqual(result, { foo: true, bar: 'baz' });\n  });\n});\n"
+                "/test/parseJson.spec.js": "const Assert = require('chai').assert;\nconst parseJson = require('../solution/parseJson');\n\ndescribe('parseJson()', () => {\n  it('debería ser una función', () => {\n    Assert.equal(typeof parseJson, 'function');\n  });\n\n  it('debería devolver un error en vez de arrojarlo con JSON inválido', () => {\n    const result = parseJson();\n    Assert.ok(result instanceof  SyntaxError);\n  });\n\n  it('debería devolver JSON parseado cuando formato del string es ok', () => {\n    const result = parseJson('{ \"foo\": true, \"bar\": \"baz\" }');\n    Assert.deepEqual(result, { foo: true, bar: 'baz' });\n  });\n});\n"
               }
             }
           ]
@@ -1913,7 +1913,7 @@
               "slug": "say-hello",
               "prefix": "01",
               "path": "topics/javascript/10-debugging/03-code-challenges/01-say-hello",
-              "createdAt": "2023-07-11T19:32:01.345Z",
+              "createdAt": "2023-09-13T14:13:22.516Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1935,7 +1935,7 @@
               "slug": "create-array",
               "prefix": "02",
               "path": "topics/javascript/10-debugging/03-code-challenges/02-create-array",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.516Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1957,7 +1957,7 @@
               "slug": "calculate-tip",
               "prefix": "03",
               "path": "topics/javascript/10-debugging/03-code-challenges/03-calculate-tip",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.516Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -1979,7 +1979,7 @@
               "slug": "tell-fortune",
               "prefix": "04",
               "path": "topics/javascript/10-debugging/03-code-challenges/04-tell-fortune",
-              "createdAt": "2023-07-11T19:32:01.344Z",
+              "createdAt": "2023-09-13T14:13:22.516Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -2001,7 +2001,7 @@
               "slug": "what-to-wear",
               "prefix": "05",
               "path": "topics/javascript/10-debugging/03-code-challenges/05-what-to-wear",
-              "createdAt": "2023-07-11T19:32:01.345Z",
+              "createdAt": "2023-09-13T14:13:22.516Z",
               "env": "cjs",
               "intl": {
                 "es": {

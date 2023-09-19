@@ -90,7 +90,7 @@ Para comenzar tendrás que hacer un _fork_ y _clonar_ este repositorio.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
-Ver [03-social-network](https://github.com/Laboratoria/bootcamp/tree/main/projects/03-social-network#5-criterios-de-aceptación-mínimos-del-proyecto).
+Ver [03-social-network](https://github.com/Laboratoria/curriculum/tree/main/projects/03-social-network#5-criterios-de-aceptación-mínimos-del-proyecto).
 
 ## 6. Hacker edition
 

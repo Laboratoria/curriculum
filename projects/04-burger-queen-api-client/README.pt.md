@@ -119,17 +119,25 @@ atualizar a lista de pedidos e o total).
 
 ## 4. Considerações gerais
 
-Este projeto deve ser feito em pares e você pode escolher entre
-estas três opções como você vai trabalhar com o backend.
+Este projeto deve ser implementado em duplas e, para trabalhar com o backend,
+sugerimos que você escolha um dos seguintes métodos:
 
-1. Consumindo um API a ser desenvolvido por suas companheiras.
-2. Consumindo esta
-[API](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
-que desenvolvemos para você.
-3. Mockar a API, pode utilizar ferramentas como
-[nock](https://github.com/nock/nock),
-[json-server](https://www.npmjs.com/package/json-server)
-ou [mockoon](https://mockoon.com).
+1. Usando uma mock API. Você pode criar sua própria mock API com as ferramentas
+  [json-server](https://www.npmjs.com/package/json-server) e
+  [json-server-auth](https://www.npmjs.com/package/json-server-auth), ou pode
+  fazer um fork e clonar
+  [este repositório de uma mock API](https://github.com/Laboratoria/burger-queen-api-mock)
+  que desenvolvemos. Esta mock API deve se comportar conforme definido
+  [na documentação.](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
+
+2. Consumindo uma API implantada. Você pode usar uma API que suas colegas
+  desenvolverão em seu projeto Burger Queen API, ou pode implantar sua mock API.
+  Aqui está [um exemplo de como implantar sua mock com o Vercel.](https://medium.com/@phillipnzaujunior/unleashing-the-power-of-mock-apis-deploying-your-fake-rest-api-to-vercel-d1cbd95b4452)
+
+Você pode começar usando uma mock API e, a qualquer momento do projeto, migrar
+para a API implantada. Isso costuma ocorrer no Desenvolvimento Web,
+quando é necessário avançar com a implementação do frontend enquanto
+as pessoas responsáveis pelo backend ainda estão desenvolvendo a API.
 
 O intervalo de tempo estimado para concluir o projeto é de 3 a 5 Sprints.
 
@@ -342,8 +350,6 @@ para conversar e pedir ajuda no projeto.
 * [Babel](https://babeljs.io/)
 * [webpack](https://webpack.js.org/)
 * [json-server](https://www.npmjs.com/package/json-server)
-* [mockoon](https://mockoon.com)
-* [nock](https://github.com/nock/nock)
 
 ### PWA
 

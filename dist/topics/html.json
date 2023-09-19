@@ -1,10 +1,10 @@
 {
   "slug": "html",
-  "repo": "Laboratoria/bootcamp",
+  "repo": "Laboratoria/curriculum",
   "path": "topics/html",
-  "version": "6.4.0",
-  "parserVersion": "5.0.0-alpha.5",
-  "createdAt": "2023-07-11T19:31:59.416Z",
+  "version": "7.1.0",
+  "parserVersion": "5.0.0-beta.0",
+  "createdAt": "2023-09-13T14:13:18.563Z",
   "track": "web-dev",
   "intl": {
     "es": {

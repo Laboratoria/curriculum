@@ -1,24 +1,22 @@
 track: ux
 learningObjectives:
-  - user-centricity/user-oriented
-  - user-centricity/prioritization
-  - research/planning
-  - research/support
-  - research/guidelines
-  - research/interview
-  - research/documentation
-  - research/adaptation
-  - research/sources
-  - synthesis/patterns
-  - synthesis/mapping
-  - synthesis/ideation
-  - synthesis/feature-prioritization
-  - product-design/user-flows
-  - product-design/usability
-  - product-design/visual-design
-  - product-design/project-organization
-  - communication/case-study
-  - planning/monitor
-  - planning/prioritization
-  - planning/tools
-  
+  - agile-planning/tasks
+  - business-understanding/benchmark
+  - research/analysis/synthesize-results
+  - design-concept/define-mvp
+  - design-concept/design-references
+  - design-concept/ideate
+  - design-concept/prioritize-ideas
+  - interaction-design/user-flows
+  - interaction-design/usability
+  - interaction-design/information-architecture
+  - interface-design/visual-design
+  - interface-design/accesibility
+  - design-prototype/basic-prototypes
+  - usability-analysis/moderated-testing
+  - usability-analysis/heuristic-analysis
+  - design-pitch/design-feedback
+  - design-pitch/design-presentation
+  - design-specs/file-organization
+  - design-specs/use-cases
+  - design-specs/project-documentation

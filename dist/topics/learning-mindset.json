@@ -1,10 +1,10 @@
 {
   "slug": "learning-mindset",
-  "repo": "Laboratoria/bootcamp",
+  "repo": "Laboratoria/curriculum",
   "path": "topics/learning-mindset",
-  "version": "6.4.0",
-  "parserVersion": "5.0.0-alpha.5",
-  "createdAt": "2023-07-11T19:32:00.511Z",
+  "version": "7.1.0",
+  "parserVersion": "5.0.0-beta.0",
+  "createdAt": "2023-09-13T14:13:21.474Z",
   "track": "web-dev",
   "intl": {
     "es": {

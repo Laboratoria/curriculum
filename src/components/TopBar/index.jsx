@@ -8,8 +8,8 @@ import Select from '@mui/material/Select';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import DrawerMenu from './DrawerMenu';
-import laboratoriaLogo from '@laboratoria/react/dist/icons/laboratoria-logo.svg';
-import laboratoriaIcon from '@laboratoria/react/dist/icons/laboratoria-isotipo.svg';
+import laboratoriaLogo from '@laboratoria/react/src/icons/laboratoria-logo.svg';
+import laboratoriaIcon from '@laboratoria/react/src/icons/laboratoria-isotipo.svg';
 
 const flexCenter = {
   display: 'flex',

@@ -7,10 +7,10 @@ piezas de código que se encuentran en este repositorio y que son relevantes
 para el Bootcamp de Laboratoria.
 
 Estas comprenden por un lado
-[los README de los proyectos](https://github.com/Laboratoria/bootcamp/tree/main/projects)
+[los README de los proyectos](https://github.com/Laboratoria/curriculum/tree/main/projects)
 que realizan
 las estudiantes como
-[los scripts](https://github.com/Laboratoria/bootcamp/tree/main/scripts)
+[los scripts](https://github.com/Laboratoria/curriculum/tree/main/scripts)
 que
 utilizan las Coaches de Laboratoria para generar los enunciados
 pertinentes a cada _cohort_, entre otras cosas.
@@ -19,8 +19,8 @@ También con cada release se actualiza a una nueva versión nuestro
 [sitio de currícula](https://curriculum.laboratoria.la), que
 es una aplicación de [React](https://reactjs.org/) que consume la
 información contenida en los directorios de
-[proyectos](https://github.com/Laboratoria/bootcamp/tree/main/projects)
-y [tópicos](https://github.com/Laboratoria/bootcamp/tree/main/topics),
+[proyectos](https://github.com/Laboratoria/curriculum/tree/main/projects)
+y [tópicos](https://github.com/Laboratoria/curriculum/tree/main/topics),
 que también incluye una sección de
 [ejercicios](https://curriculum.laboratoria.la/es/js/gym)
 asociados al track de Web Development.
@@ -28,10 +28,10 @@ asociados al track de Web Development.
 La operación de hacer un release incluye las siguientes consideraciones:
 
 * En el repositorio del proyecto en Github utilizamos
-  [Milestones](https://github.com/Laboratoria/bootcamp/milestones) para
+  [Milestones](https://github.com/Laboratoria/curriculum/milestones) para
   dar seguimiento a los
-  [issues](https://github.com/Laboratoria/bootcamp/issues) y
-  [pull requests](https://github.com/Laboratoria/bootcamp/pulls) que serán
+  [issues](https://github.com/Laboratoria/curriculum/issues) y
+  [pull requests](https://github.com/Laboratoria/curriculum/pulls) que serán
   parte del release; Como _rule of thumb_ la idea es que
   se logren cerrar los issues y mergear los PRs relacionados
   al milestone actual; En caso de que no se alcancen a cerrar
@@ -41,7 +41,7 @@ La operación de hacer un release incluye las siguientes consideraciones:
 
 * Con cada release se publica además la información asociada
   a él en la sección
-  [_Releases_](https://github.com/Laboratoria/bootcamp/releases/) de Github,
+  [_Releases_](https://github.com/Laboratoria/curriculum/releases/) de Github,
   donde se exponen los cambios que éste contiene, en Portugués de Brasil y en
   Español Latinoamericano, donde su estructura incluye:
 
@@ -70,6 +70,8 @@ _draft_ de release en Github con la información pertinente al release
 (mucho cuidado con no publicar aún el release en Github hasta que se hayan
 cumplido todos los demás pasos y esté ya el _tag_ de la versión a publicar
 en Github) se deben ejecutar los siguiente pasos:
+
+Los siguientes pasos deben ser ejecutados desde la rama `next`.
 
 1. Actualización de dependencias: Se debe ejecutar el comando
   `npm outdated --depth 0` para revisar qué dependencias pueden actualizarse,
@@ -119,11 +121,17 @@ en Github) se deben ejecutar los siguiente pasos:
   directamente al repositorio de Laboratoria incluyendo el _tag_ asociado
   al release (normalmente al repo original
   del cual hacemos fork se le configura su _remote_ bajo el alias "upstream")
-  ejecutando el comando `git push upstream main --tags` (Ahora puedes
-  publicar el draft de release, eligiendo el tag correspondiente que acabas
-  de _pushear_.)
+  ejecutando el comando `git push upstream next --tags`.
 
-Una vez realizado ese último paso, se ejecutarán en Github las
+8. Para _distribuir_ la version estable, hay que pasar los cambios de la rama
+  `next` a la rama `main`. En tu local, sobre la rama `main`, ejecuta el
+  siguiente comando: `git rebase next`. Luego, para publicarlo debes ejecutar
+  el comando: `git push upstream main --tags`
+
+Una vez cumpletados estos pasos, puedes seleccionar el _tag_ que acabas de
+pushear, para asociarlo al _draft_ de release, y darle _publish_.
+
+Una vez realizado ese paso, se ejecutarán en Github las
 [actions](https://github.com/features/actions) asociadas al repositorio,
 que en este caso son 2, una para hacer un deploy a `production` y otra
 para hacer un deploy a `staging`.

@@ -8,7 +8,7 @@
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptaci%C3%B3n-m%C3%ADnimos-del-proyecto)
 * [6. Hacker (Devops) Edition con Docker](#6-hacker-%28devops%29-edition-con-docker)
-* [7. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
+* [7. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
 
 ## 1. Preámbulo
 
@@ -45,7 +45,7 @@ Esto implica que tendremos que partir por leer la implementación existente, y
 familiarizarnos con el _stack_ elegido ([Node.js](https://nodejs.org/) y
 [Express](https://expressjs.com/)) y complementarlo con un motor de bases de
 datos. Recomendamos el uso de [MongoDB](https://www.mongodb.com/) y tenemos una
-[guía para empezar con MongoDB](./guides/GETTING-STARTED-MONGO-DB.md).
+[guía para empezar con MongoDB](./guides/GETTING-STARTED-MONGODB.md).
 
 La clienta nos ha dado un [link a la documentación](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 que especifica el comportamiento esperado de la API que expondremos por
@@ -231,7 +231,7 @@ la configuración de base de datos. Ten en cuenta que como vas a tener dos
 servidores corriendo sobre una misma configuración, deberás exponer
 los servicios en diferentes puertos.
 
-Lee la [**guía para docker**] (./guides/GETTING-STARTED-DOCKER.md)
+Lee la [**guía para docker**](./guides/GETTING-STARTED-DOCKER.md)
 incluido en el proyecto para mas información.
 
 Para probar tu configuración de docker, te recomendamos usar `docker-compose`
@@ -256,7 +256,7 @@ Te recomendamos explorar las siguientes opciones:
 ### Primeros pasos
 
 > :information_source: Antes de comenzar a programar te recomendamos leer y
-> seguir con detenimiento la [**guía de _primeros pasos_**](./GETTING-STARTED-MONGODB.md)
+> seguir con detenimiento la [**guía de _primeros pasos_**](./guides/GETTING-STARTED-MONGODB.md)
 > para ayudarte con el stack recomendado y configurar tu entorno de desarrollo.
 
 ### Otros recursos

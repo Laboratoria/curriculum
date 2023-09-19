@@ -1,10 +1,10 @@
 {
   "slug": "paradigms",
-  "repo": "Laboratoria/bootcamp",
+  "repo": "Laboratoria/curriculum",
   "path": "topics/paradigms",
-  "version": "6.4.0",
-  "parserVersion": "5.0.0-alpha.5",
-  "createdAt": "2023-07-11T19:32:00.958Z",
+  "version": "7.1.0",
+  "parserVersion": "5.0.0-beta.0",
+  "createdAt": "2023-09-13T14:13:24.846Z",
   "track": "web-dev",
   "intl": {
     "es": {
@@ -88,7 +88,7 @@
               "slug": "print-primes",
               "prefix": "01",
               "path": "topics/paradigms/01-paradigms/04-imperative-exercise/01-print-primes",
-              "createdAt": "2023-07-11T19:32:00.957Z",
+              "createdAt": "2023-09-13T14:13:24.844Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -144,7 +144,7 @@
               "slug": "get-primes",
               "prefix": "01",
               "path": "topics/paradigms/01-paradigms/07-procedural-exercise/01-get-primes",
-              "createdAt": "2023-07-11T19:32:00.956Z",
+              "createdAt": "2023-09-13T14:13:24.844Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -188,7 +188,7 @@
               "slug": "notes",
               "prefix": "01",
               "path": "topics/paradigms/01-paradigms/09-oop-exercise/01-notes",
-              "createdAt": "2023-07-11T19:32:00.957Z",
+              "createdAt": "2023-09-13T14:13:24.844Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -232,7 +232,7 @@
               "slug": "notes",
               "prefix": "01",
               "path": "topics/paradigms/01-paradigms/11-fp-exercise/01-notes",
-              "createdAt": "2023-07-11T19:32:00.957Z",
+              "createdAt": "2023-09-13T14:13:24.844Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -335,7 +335,7 @@
               "slug": "simple-objects",
               "prefix": "01",
               "path": "topics/paradigms/03-proto/04-ejercicios/01-simple-objects",
-              "createdAt": "2023-07-11T19:32:00.957Z",
+              "createdAt": "2023-09-13T14:13:24.844Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -353,7 +353,7 @@
               "slug": "proto",
               "prefix": "02",
               "path": "topics/paradigms/03-proto/04-ejercicios/02-proto",
-              "createdAt": "2023-07-11T19:32:00.957Z",
+              "createdAt": "2023-09-13T14:13:24.845Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -371,7 +371,7 @@
               "slug": "dynamic-lookups",
               "prefix": "03",
               "path": "topics/paradigms/03-proto/04-ejercicios/03-dynamic-lookups",
-              "createdAt": "2023-07-11T19:32:00.957Z",
+              "createdAt": "2023-09-13T14:13:24.845Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -389,7 +389,7 @@
               "slug": "property-assignments",
               "prefix": "04",
               "path": "topics/paradigms/03-proto/04-ejercicios/04-property-assignments",
-              "createdAt": "2023-07-11T19:32:00.957Z",
+              "createdAt": "2023-09-13T14:13:24.845Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -407,7 +407,7 @@
               "slug": "arrays-and-objects",
               "prefix": "05",
               "path": "topics/paradigms/03-proto/04-ejercicios/05-arrays-and-objects",
-              "createdAt": "2023-07-11T19:32:00.957Z",
+              "createdAt": "2023-09-13T14:13:24.845Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -425,7 +425,7 @@
               "slug": "object-create",
               "prefix": "06",
               "path": "topics/paradigms/03-proto/04-ejercicios/06-object-create",
-              "createdAt": "2023-07-11T19:32:00.957Z",
+              "createdAt": "2023-09-13T14:13:24.845Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -443,7 +443,7 @@
               "slug": "dot-new",
               "prefix": "07",
               "path": "topics/paradigms/03-proto/04-ejercicios/07-dot-new",
-              "createdAt": "2023-07-11T19:32:00.957Z",
+              "createdAt": "2023-09-13T14:13:24.845Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -461,7 +461,7 @@
               "slug": "constructor-functions",
               "prefix": "08",
               "path": "topics/paradigms/03-proto/04-ejercicios/08-constructor-functions",
-              "createdAt": "2023-07-11T19:32:00.957Z",
+              "createdAt": "2023-09-13T14:13:24.845Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -479,7 +479,7 @@
               "slug": "implicit-this",
               "prefix": "09",
               "path": "topics/paradigms/03-proto/04-ejercicios/09-implicit-this",
-              "createdAt": "2023-07-11T19:32:00.957Z",
+              "createdAt": "2023-09-13T14:13:24.845Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -497,7 +497,7 @@
               "slug": "function-prototype",
               "prefix": "10",
               "path": "topics/paradigms/03-proto/04-ejercicios/10-function-prototype",
-              "createdAt": "2023-07-11T19:32:00.957Z",
+              "createdAt": "2023-09-13T14:13:24.845Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -612,7 +612,7 @@
               "slug": "hof",
               "prefix": "01",
               "path": "topics/paradigms/06-composition/05-exercises/01-hof",
-              "createdAt": "2023-07-11T19:32:00.957Z",
+              "createdAt": "2023-09-13T14:13:24.845Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -630,7 +630,7 @@
               "slug": "map",
               "prefix": "02",
               "path": "topics/paradigms/06-composition/05-exercises/02-map",
-              "createdAt": "2023-07-11T19:32:00.957Z",
+              "createdAt": "2023-09-13T14:13:24.845Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -648,7 +648,7 @@
               "slug": "filter",
               "prefix": "03",
               "path": "topics/paradigms/06-composition/05-exercises/03-filter",
-              "createdAt": "2023-07-11T19:32:00.957Z",
+              "createdAt": "2023-09-13T14:13:24.845Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -666,7 +666,7 @@
               "slug": "reduce",
               "prefix": "04",
               "path": "topics/paradigms/06-composition/05-exercises/04-reduce",
-              "createdAt": "2023-07-11T19:32:00.957Z",
+              "createdAt": "2023-09-13T14:13:24.845Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -684,7 +684,7 @@
               "slug": "arrow-functions",
               "prefix": "05",
               "path": "topics/paradigms/06-composition/05-exercises/05-arrow-functions",
-              "createdAt": "2023-07-11T19:32:00.957Z",
+              "createdAt": "2023-09-13T14:13:24.845Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -702,7 +702,7 @@
               "slug": "closures",
               "prefix": "06",
               "path": "topics/paradigms/06-composition/05-exercises/06-closures",
-              "createdAt": "2023-07-11T19:32:00.957Z",
+              "createdAt": "2023-09-13T14:13:24.845Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -720,7 +720,7 @@
               "slug": "factories",
               "prefix": "07",
               "path": "topics/paradigms/06-composition/05-exercises/07-factories",
-              "createdAt": "2023-07-11T19:32:00.957Z",
+              "createdAt": "2023-09-13T14:13:24.845Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -738,7 +738,7 @@
               "slug": "object-assign",
               "prefix": "08",
               "path": "topics/paradigms/06-composition/05-exercises/08-object-assign",
-              "createdAt": "2023-07-11T19:32:00.958Z",
+              "createdAt": "2023-09-13T14:13:24.846Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -756,7 +756,7 @@
               "slug": "composition",
               "prefix": "09",
               "path": "topics/paradigms/06-composition/05-exercises/09-composition",
-              "createdAt": "2023-07-11T19:32:00.958Z",
+              "createdAt": "2023-09-13T14:13:24.846Z",
               "env": "cjs",
               "intl": {
                 "es": {

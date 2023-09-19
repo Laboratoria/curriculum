@@ -45,7 +45,7 @@ Isso implica que teremos que começar lendo a implementação existente e nos
 familiarizar com o _stack_ escolhido ([Node.js](https://nodejs.org/) e
 [Express](https://expressjs.com/)), além de complementá-lo com um motor de
 banco de dados. Recomendamos o uso do [MongoDB](https://www.mongodb.com/)
-e temos [um guia para começar com o MongoDB.](./guides/GETTING-STARTED-MONGO-DB.pt.md)
+e temos [um guia para começar com o MongoDB.](./guides/GETTING-STARTED-MONGODB.pt.md)
 
 [MongoDB](https://www.mongodb.com/),
 [PostgreSQL](https://www.postgresql.org/) e [MySQL](https://www.mysql.com/).
@@ -256,6 +256,11 @@ aplicações em contêineres (por exemplo [Compute Engine](https://cloud.google.
 de GCP ou [Elastic Container Service](https://aws.amazon.com/ecs/) de AWS).
 
 ## 7. Pistas, tips e leituras complementares
+
+:information_source: Antes de começar a programar, recomendamos
+que você leia e siga cuidadosamente o
+[**guia de _primeiros passos_**](./guides/GETTING-STARTED-MONGODB.pt.md)
+para ajudá-lo com o stack recomendado e configurar seu ambiente de desenvolvimento.
 
 * [Express](https://expressjs.com/)
 * [MongoDB](https://www.mongodb.com/)
