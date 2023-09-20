@@ -157,7 +157,7 @@ em JavaScript.
 
 Se você optar pelo React, a decisão de usar o TypeScript é opcional (mas
 recomendamos!). Aqui você pode encontrar mais informações sobre
-como iniciar seu projeto com [Typescript e React](https://itnext.io/create-react-v18-typescript-project-with-vite-d0d602e4a60e).
+como iniciar seu projeto com [Typescript e React](https://pt.vitejs.dev/guide/#scaffolding-your-first-vite-project).
 
 O aplicativo deve ser um _Single Page App_. Os pedidos serão enviados por meio
 de um _tablet_, mas **não queremos um aplicativo nativo**, mas sim um aplicativo

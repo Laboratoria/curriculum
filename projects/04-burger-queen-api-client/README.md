@@ -156,7 +156,7 @@ javascript.
 
 Si eliges React, la decisión de usar Typescript es opcional (pero te lo
 recomendamos!). Aquí puedes encontrar más información en relación a cómo iniciar
-tu proyecto con [Typescript y React](https://itnext.io/create-react-v18-typescript-project-with-vite-d0d602e4a60e).
+tu proyecto con [Typescript y React](https://es.vitejs.dev/guide/#monta-tu-primer-proyecto-vite).
 
 La aplicación debe ser un _Single Page App_. Los pedidos los tomaremos desde una
 _tablet_, pero **no queremos una app nativa**, sino una web app que sea
