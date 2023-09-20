@@ -65,7 +65,7 @@ aleatorio entre 1 y 100. Se deberá tener en cuenta el intento anterior si fue
   - [ ] **Interfaces**
   - [ ] **Herencia: `super`**
   - [ ] **Herencia: `extends`**
-  - [ ] **Herencia: `overrride`**
+  - [ ] **Herencia: `override`**
   - [ ] **Lenguaje Unificado de Modelado (UML): Diagramas de clases**
 
 * [ ] **Variables**
@@ -97,37 +97,7 @@ todos los intentos de la jugadora ganadora.
 
 ### Diagrama de clases
 
-```mermaid
-classDiagram
-  class GuessTheNumberGame {
-    - java.util.Random random$
-    - int targetNumber$
-    - Player player1
-    - Player player2
-    - checkGuess(Player player)$ boolean
-    + main(String[] args)$
-
-  }
-  GuessTheNumberGame *-- Player
-  Player <|-- HumanPlayer
-  Player <|-- ComputerPlayer
-  <<abstract>> Player
-  class Player{
-    -String name
-    #Array~int~ guesses
-    + makeGuess()* int
-    + getName() String
-    + getGuesses() Array~int~
-  }
-  class HumanPlayer {
-    +makeGuess() int
-  }
-  class ComputerPlayer {
-    -java.util.Random random
-    +makeGuess() int
-  }
-```
-
+[![Diagrama de clases](https://mermaid.ink/img/pako:eNp9Uk1PwzAM_StW2GHdlwTHaZqEAI0LCDFulIPXmjasSaY0QZrG9ttJmqXrpMGlad6zn-3n7FimcmJTllVY1_ccC40ilQDNHRaW6vqtpGcrVqQXKAh2ngUYwxd-48QaXk1eUeZKgG6OXuS5NGBQF2RCdku8VLglDZvmuL6I3kQ0KylbN130zwKSHqyUqghliByCQC77S6O5LN4_wNWtE1fRs3v_uTDJYByr-oCj_OzHoY9WoLxM3SmxsYb0iZ3NcFUbjZmZzzt6wcBwj56F9kC66gG5utUatwdn1QEK3yHVp3nWFAZPBt7LiHs_XX4_gaDWwRdBwVEn2daA0E9nsrjJYadSLNTJOB-4Xf8f2_9Hko2YIO3WlLvn1sikzJTkrGBT91vxojQpS6UPRGvUciszNjXa0ojZTY6Gjs8zgpRzo_TT8f0q-ckLFkMfGi5E7n8BUv_4Vw?type=png)](https://mermaid.live/edit#pako:eNp9Uk1PwzAM_StW2GHdlwTHaZqEAI0LCDFulIPXmjasSaY0QZrG9ttJmqXrpMGlad6zn-3n7FimcmJTllVY1_ccC40ilQDNHRaW6vqtpGcrVqQXKAh2ngUYwxd-48QaXk1eUeZKgG6OXuS5NGBQF2RCdku8VLglDZvmuL6I3kQ0KylbN130zwKSHqyUqghliByCQC77S6O5LN4_wNWtE1fRs3v_uTDJYByr-oCj_OzHoY9WoLxM3SmxsYb0iZ3NcFUbjZmZzzt6wcBwj56F9kC66gG5utUatwdn1QEK3yHVp3nWFAZPBt7LiHs_XX4_gaDWwRdBwVEn2daA0E9nsrjJYadSLNTJOB-4Xf8f2_9Hko2YIO3WlLvn1sikzJTkrGBT91vxojQpS6UPRGvUciszNjXa0ojZTY6Gjs8zgpRzo_TT8f0q-ckLFkMfGi5E7n8BUv_4Vw)
 
 #### `GuessTheNumberGame`
 
