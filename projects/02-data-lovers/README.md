@@ -494,8 +494,11 @@ utilizar los datos de ejemplo ubicados en la ruta:
 
 Las URLs de las imágenes dentro del archivo javascript, deben enlazar
 a las imágenes generadas por la inteligencia artificial.
-Para esto te recomendamos usar el [generador de imágenes de Bing](https://www.bing.com/create). Una vez que hayas generado la imagen, puedes obtener la URL haciendo clic derecho sobre la imagen y seleccionando la opción "Copiar dirección de la imagen" o "Copy image Link". 
-
+Para esto te recomendamos usar el [generador de imágenes de Bing]
+(https://www.bing.com/create). Una vez que hayas generado la imagen,
+puedes obtener la URL haciendo clic derecho sobre la imagen y 
+seleccionando la opción "Copiar dirección de la imagen" o "Copy 
+image Link". 
 
 Una vez que tengas el archivo javascript completo, recuerda correr los test con
 `npm run test` para verificar que el archivo esté cumpliendo con lo
