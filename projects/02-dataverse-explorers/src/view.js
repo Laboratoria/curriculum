@@ -1,6 +1,5 @@
-// estas funciones son de ejemplo
-
 export const renderItems = () => {
+  //Aquí comienza tu código y puedes retornar lo que tu necesites
   return 'example';
 };
 

@@ -84,7 +84,8 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
   un elemento `<ul>`.**
 
 * El elemento `<ul>` deberá ser hijo de un elemento con atributo _id_
-  de valor "root".
+  de valor "root". **Este es un paso importante para que tu**
+  **aplicación tenga la estructura requerida**
 
 * Las tarjetas deben resaltar los valores de las propiedades de la data que
   le interesaría a la usuaria ver. Por ejemplo: nombre, fecha, imagen, etc.
