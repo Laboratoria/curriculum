@@ -1,4 +1,4 @@
-# Data Lovers
+# Dataverse
 
 ## Índice
 
@@ -641,11 +641,6 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
 ### Contenido de referencia
 
-#### Diseño de experiencia de usuaria (User Experience Design)
-
-* Investigación con usuarias / entrevistas
-* Principios de diseño visual
-
 #### Desarrollo Front-end
 
 * [Topicos en la curricula de sitio Laboratoria](https://curriculum.laboratoria.la/es/web-dev/topics)
@@ -667,12 +662,19 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 * [datos atómicos vs datos estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
 * [Modulos: Export](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/export)
 * [Modulos: Import](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/import)
+* [Diferencia entre array y objetos](https://youtu.be/mJJloQY7A8Y)
+* [¿Cómo puedo recorrer un objeto?](https://youtube.com/01RHn23Bn_0)
+* [map, filter, sort y reduce también son métodos para objetos](https://youtu.be/bUl1R2lQvKo)
+* [Diferencia entre expression y statements](https://youtu.be/wlukoWco2zk)
+* [Diferencia entre createElement e innerHTML](https://www.javascripttutorial.net/javascript-dom/javascript-innerhtml-vs-createelement/)
+* [¿Qué es el Scope?](https://youtu.be/s-7C09ymzK8)
 
 #### Herramientas
 
 * [Git](https://git-scm.com/)
 * [GitHub](https://github.com/)
 * [GitHub Pages](https://pages.github.com/)
+* [Para preguntas sobre Git recomendamos ver este playlist](https://www.youtube.com/watch?v=F1EoBbvhaqU&list=PLiAEe0-R7u8k9o3PbT3_QdyoBW_RX8rnV)
 * [Node.js](https://nodejs.org/)
 * [Jest](https://jestjs.io/)
 
@@ -682,7 +684,6 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
   Ojo que Cris no diferencia _Definición de terminado_ de _Criterios de
   Aceptación_ y nosotros sí lo haremos. Más detalles en la guía.
 * [Cómo dividir H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
-* [Guía para Data Lovers](https://docs.google.com/presentation/d/e/2PACX-1vQhx9D36NjpH-Daea-ITPUDUzNL8ZiNAprq_7b5PSUrfutk45tEtaOLz2lmd8f54_5jX1hypDM8f8SM/pub?start=false&loop=false&delayms=60000)
 
 ## 10. Consideraciones para pedir tu Project Feedback
 
