@@ -10,7 +10,9 @@ const Topic = ({ topic, lang }) => (
   <>
     <Typography variant="h3">{topic.intl[lang].title}</Typography>
     {topic.units.map((unit) => {
-      const partsWIthChallenges = unit.parts.filter(p => !!p.challenges?.length);
+      const partsWIthChallenges = unit.parts.filter(
+        (p) => !!p.challenges?.length,
+      );
 
       if (!partsWIthChallenges.length) {
         return null;
@@ -19,7 +21,7 @@ const Topic = ({ topic, lang }) => (
       return (
         <div key={`${topic.slug}/${unit.slug}`}>
           <Typography variant="h4">{unit.intl[lang].title}</Typography>
-          {partsWIthChallenges.map(part => {
+          {partsWIthChallenges.map((part) => {
             const challenges = part.challenges.map((challenge) => {
               const pathPrefix = `${topic.slug}/${unit.slug}/${part.slug}`;
               const path = `${pathPrefix}/${challenge.slug}/${topic.version}`;
@@ -49,28 +51,30 @@ const Gym = ({ lang }) => {
   const [topicsWithChallenges, setTopicsWithChallenges] = useState([]);
 
   const addTopic = (topic) => {
-    setTopicsWithChallenges(prev => prev.filter(t => t.slug !== topic.slug).concat(topic));
+    setTopicsWithChallenges((prev) =>
+      prev.filter((t) => t.slug !== topic.slug).concat(topic),
+    );
   };
 
   useEffect(() => {
-    topicIds.forEach(id => data.subscribe(`topics/${id}`, addTopic));
+    topicIds.forEach((id) => data.subscribe(`topics/${id}`, addTopic));
 
     return () => {
-      topicIds.forEach(id => data.unsubscribe(`topics/${id}`, addTopic));
+      topicIds.forEach((id) => data.unsubscribe(`topics/${id}`, addTopic));
     };
   }, []);
 
   return (
     <>
-      <Typography variant="h2"><FormattedMessage id="gym" /></Typography>
+      <Typography variant="h2">
+        <FormattedMessage id="gym" />
+      </Typography>
       {topicIds.map((slug) => {
-        const topic = topicsWithChallenges.find(t => t.slug === slug);
+        const topic = topicsWithChallenges.find((t) => t.slug === slug);
         if (!topic || !topic.intl[lang]) {
           return null;
         }
-        return (
-          <Topic key={slug} topic={topic} lang={lang} />
-        );
+        return <Topic key={slug} topic={topic} lang={lang} />;
       })}
     </>
   );

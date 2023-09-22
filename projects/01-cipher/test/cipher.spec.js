@@ -7,13 +7,11 @@
 import cipher from '../src/cipher';
 
 describe('cipher', () => {
-
   it('should be an object', () => {
     expect(typeof cipher).toBe('object');
   });
 
   describe('cipher.encode', () => {
-
     it('should be a function', () => {
       expect(typeof cipher.encode).toBe('function');
     });
@@ -26,7 +24,9 @@ describe('cipher', () => {
     });
 
     it('should return "HIJKLMNOPQRSTUVWXYZABCDEFG" for "ABCDEFGHIJKLMNOPQRSTUVWXYZ" with offset 33', () => {
-      expect(cipher.encode(33, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')).toBe('HIJKLMNOPQRSTUVWXYZABCDEFG');
+      expect(cipher.encode(33, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')).toBe(
+        'HIJKLMNOPQRSTUVWXYZABCDEFG',
+      );
     });
 
     // Hacker edition
@@ -59,7 +59,6 @@ describe('cipher', () => {
   });
 
   describe('cipher.decode', () => {
-
     it('should be a function', () => {
       expect(typeof cipher.decode).toBe('function');
     });
@@ -72,7 +71,9 @@ describe('cipher', () => {
     });
 
     it('should return "ABCDEFGHIJKLMNOPQRSTUVWXYZ" for "HIJKLMNOPQRSTUVWXYZABCDEFG" with offset 33', () => {
-      expect(cipher.decode(33, 'HIJKLMNOPQRSTUVWXYZABCDEFG')).toBe('ABCDEFGHIJKLMNOPQRSTUVWXYZ');
+      expect(cipher.decode(33, 'HIJKLMNOPQRSTUVWXYZABCDEFG')).toBe(
+        'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+      );
     });
 
     //
@@ -104,5 +105,4 @@ describe('cipher', () => {
     //   expect(cipher.decode(33, ' !@')).toBe(' !@');
     // });
   });
-
 });

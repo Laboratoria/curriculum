@@ -31,7 +31,7 @@ css/selectors:
       url: https://developer.mozilla.org/pt_BR/docs/Web/CSS/CSS_Selectors
 
 css/box-model:
-  title: "Modelo de caixa (box model): borda, margem, preenchimento"
+  title: 'Modelo de caixa (box model): borda, margem, preenchimento'
   links:
     - title: Modelo de Caixa e Display
       url: topics/css/01-css/02-boxmodel-and-display
@@ -235,7 +235,7 @@ js/modules/es-modules:
 js/modules/commonjs:
   title: Módulos de CommonJS
   links:
-    - title: "Modules: CommonJS modules - Node.js Docs"
+    - title: 'Modules: CommonJS modules - Node.js Docs'
       url: https://nodejs.org/docs/latest/api/modules.html
 
 js/testing/unit:
@@ -283,31 +283,31 @@ scm:
   title: Controle de Versões (Git e GitHub)
 
 scm/git/setup:
-  title: "Git: Instalação e configuração"
+  title: 'Git: Instalação e configuração'
 
 scm/git/intro:
-  title: "Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)"
+  title: 'Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)'
 
 scm/git/integration:
-  title: "Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)"
+  title: 'Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)'
 
 scm/github/setup:
-  title: "GitHub: Criação de contas e repositórios, configuração de chave SSH"
+  title: 'GitHub: Criação de contas e repositórios, configuração de chave SSH'
 
 scm/github/collaboration:
-  title: "GitHub: Colaboração pelo Github (branches | forks | pull requests | code review | tags)"
+  title: 'GitHub: Colaboração pelo Github (branches | forks | pull requests | code review | tags)'
 
 scm/github/gh-pages:
-  title: "GitHub: Implantação com GitHub Pages"
+  title: 'GitHub: Implantação com GitHub Pages'
   links:
     - title: Site oficial do GitHub Pages
       url: https://pages.github.com/
 
 scm/github/project-management:
-  title: "GitHub: Organização pelo Github (projects | issues | labels | milestones | releases)"
+  title: 'GitHub: Organização pelo Github (projects | issues | labels | milestones | releases)'
 
 scm/github/ci:
-  title: "GitHub: Integração contínua com GitHub actions"
+  title: 'GitHub: Integração contínua com GitHub actions'
 
 ux:
   title: UX (User eXperience)
@@ -346,7 +346,7 @@ research/planning:
   title: Planejamento da pesquisa com base nas necessidades do projeto
 
 research/support:
-  title: "Escolha e apoie os # usuários que participam de atividades de pesquisa"
+  title: 'Escolha e apoie os # usuários que participam de atividades de pesquisa'
 
 research/guidelines:
   title: Criar e testar guia de atividades de pesquisa
@@ -906,7 +906,7 @@ angular/structural-directives:
       url: https://angular.io/guide/structural-directives
 
 angular/input-output:
-  title: "@Input | @Output"
+  title: '@Input | @Output'
   links:
     - title: Component interaction - Documentação oficial (em inglês)
       url: https://angular.io/guide/component-interaction#component-interaction
@@ -920,7 +920,7 @@ angular/services:
 angular/routing:
   title: Gerenciamento de rotas
   links:
-    - title: "In-app navigation: routing to views - Documentação oficial (em inglês)"
+    - title: 'In-app navigation: routing to views - Documentação oficial (em inglês)'
       url: https://angular.io/guide/router
 
 angular/observables:
@@ -1023,9 +1023,9 @@ wordpress:
   title: WordPress
 
 wordpress/plugin-development/hooks:
-  title: "Hooks: action e filter"
+  title: 'Hooks: action e filter'
   links:
-    - title: "Hooks: action e filter"
+    - title: 'Hooks: action e filter'
       url: https://developer.wordpress.org/plugins/hooks/
 
 wordpress/plugin-development/administration-menu:
@@ -1175,9 +1175,9 @@ typescript/basic-types/literal-types:
 typescript/basic-types/null-and-undefined:
   title: null e undefined
   links:
-  - title: Documentação oficial do Typescript
-    url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#null-and-undefined
-  
+    - title: Documentação oficial do Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#null-and-undefined
+
 typescript/basic-types/enums:
   title: Enums
   links:

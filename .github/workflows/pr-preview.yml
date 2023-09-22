@@ -31,7 +31,7 @@ jobs:
       - run: npm run build
         env:
           LABORATORIA_CORE_API_URL: https://us-central1-outpost-staging-344823.cloudfunctions.net/core-api
-          FIREBASE_API_KEY: AIzaSyAXbaEbpq8NOfn0r8mIrcoHvoGRkJThwdc 
+          FIREBASE_API_KEY: AIzaSyAXbaEbpq8NOfn0r8mIrcoHvoGRkJThwdc
           FIREBASE_PROJECT: laboratoria-la
           SENTRY_DSN: https://f63bf80837e74128a8f4e7701b0efe34@o342590.ingest.sentry.io/4505591507255296
       - uses: FirebaseExtended/action-hosting-deploy@v0

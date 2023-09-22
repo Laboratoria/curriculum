@@ -1,0 +1,6 @@
+dist/
+.all-contributorsrc
+.eslintrc.json
+firebase.json
+topics/
+*.md

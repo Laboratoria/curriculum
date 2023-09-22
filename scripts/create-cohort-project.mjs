@@ -14,24 +14,29 @@ import {
   transformLearningObjectives,
   loadYaml,
 } from '@laboratoria/curriculum-parser/lib/project.js';
-import { getFilesWithLocales, defaultLocale, supportedLocales } from './script-utils.mjs';
+import {
+  getFilesWithLocales,
+  defaultLocale,
+  supportedLocales,
+} from './script-utils.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const uiUrl = 'https://curriculum.laboratoria.la';
 
 const exec = promisify(childProcess.exec);
 
-const prompt = text => new Promise((resolve) => {
-  const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-  });
+const prompt = (text) =>
+  new Promise((resolve) => {
+    const rl = readline.createInterface({
+      input: process.stdin,
+      output: process.stdout,
+    });
 
-  rl.question(text, (answer) => {
-    rl.close();
-    resolve(answer);
+    rl.question(text, (answer) => {
+      rl.close();
+      resolve(answer);
+    });
   });
-});
 
 const ensureSrc = (src) => {
   if (!src) {
@@ -66,7 +71,9 @@ const ensureRepoDir = async (repoDir, opts) => {
 
 const copy = async (src, repoDir, opts) => {
   console.log(`You are about to copy all files from ${src} to ${repoDir}`);
-  const confirmCopy = await prompt('Are you sure you want to continue? [Y/n]: ');
+  const confirmCopy = await prompt(
+    'Are you sure you want to continue? [Y/n]: ',
+  );
 
   if (['n', 'N'].includes(confirmCopy)) {
     throw new Error('Aborting');
@@ -82,15 +89,22 @@ const copy = async (src, repoDir, opts) => {
 
   // rename / replace default files with localized content
   if (opts.locale && opts.locale !== defaultLocale) {
-    const files = getFilesWithLocales(repoDir, [ opts.locale ]);
-    await Promise.all(files.map(filepath => rename(`${filepath}`, `${filepath.replace(`.${opts.locale}`, '')}`)));
+    const files = getFilesWithLocales(repoDir, [opts.locale]);
+    await Promise.all(
+      files.map((filepath) =>
+        rename(`${filepath}`, `${filepath.replace(`.${opts.locale}`, '')}`),
+      ),
+    );
   }
 
-  const files = getFilesWithLocales(repoDir, supportedLocales.filter((loc) => loc !== (opts.locale || defaultLocale)));
+  const files = getFilesWithLocales(
+    repoDir,
+    supportedLocales.filter((loc) => loc !== (opts.locale || defaultLocale)),
+  );
   // we dont need necesarily need to filter supportedLocales to remove the opts.locale since those files
   // will already be renamed by the step above and should no longer exist...
 
-  return await Promise.all(files.map(filepath => unlink(`${filepath}`)));
+  return await Promise.all(files.map((filepath) => unlink(`${filepath}`)));
 };
 
 const addBootcampInfo = async (repoDir) => {
@@ -100,7 +114,7 @@ const addBootcampInfo = async (repoDir) => {
   }
   const pkg = Object.assign(JSON.parse(await readFile(projectPkgJsonPath)), {
     bootcamp: {
-      createdAt: (new Date()).toISOString(),
+      createdAt: new Date().toISOString(),
       version: process.env.npm_package_version,
       commit: (await exec('git rev-parse HEAD')).stdout.trim(),
     },
@@ -114,20 +128,25 @@ const addExplainDevConfigFile = async ({ project, cohort, track, repoDir }) => {
     const explainDevConfig = {
       project,
       cohort,
-    }
-    await writeFile(explainDevConfigFilePath, JSON.stringify(explainDevConfig, null, 2));
+    };
+    await writeFile(
+      explainDevConfigFilePath,
+      JSON.stringify(explainDevConfig, null, 2),
+    );
   }
 };
 
-const linkToString = ({ title, url }, lang) => (
-  `[${title}](${url.startsWith('topics/') ? `${uiUrl}/${lang}/${url}` : url})`
-);
+const linkToString = ({ title, url }, lang) =>
+  `[${title}](${url.startsWith('topics/') ? `${uiUrl}/${lang}/${url}` : url})`;
 
 const addLocalizedLearningObjectives = async (repoDir, opts, meta) => {
-
-  const learningObjectives = await transformLearningObjectives(repoDir, {
-    lo: path.join(__dirname, '../learning-objectives'),
-  }, meta);
+  const learningObjectives = await transformLearningObjectives(
+    repoDir,
+    {
+      lo: path.join(__dirname, '../learning-objectives'),
+    },
+    meta,
+  );
 
   if (!learningObjectives) {
     return;
@@ -137,55 +156,51 @@ const addLocalizedLearningObjectives = async (repoDir, opts, meta) => {
   const intl = await loadYaml(
     path.join(__dirname, '../learning-objectives', 'intl', `${lang}.yml`),
   );
-  const cats = learningObjectives.reduce(
-    (memo, item) => {
-      const cat = item.split('/')[0];
-      return memo.includes(cat) ? memo : [...memo, cat];
-    },
-    [],
-  );
-  const text = cats.reduce(
-    (memo, cat) => {
-      const localizedCat = intl[cat] || {};
-      return learningObjectives
-        .filter(item => item.startsWith(`${cat}/`))
-        .reduce(
-          (prev, key) => {
-            const item = intl[key] || {};
-            const title = item.title || key.split('/').slice(1).join('/');
-            if (!item.links || !item.links.length) {
-              return `${prev}\n\n- [ ] **${title}**`;
-            }
-            // collapsible links
-            const detailsStart = '<details><summary>Links</summary><p>\n';
-            const detailsEnd = '\n</p></details>';
-            return item.links.reduce(
+  const cats = learningObjectives.reduce((memo, item) => {
+    const cat = item.split('/')[0];
+    return memo.includes(cat) ? memo : [...memo, cat];
+  }, []);
+  const text = cats.reduce((memo, cat) => {
+    const localizedCat = intl[cat] || {};
+    return learningObjectives
+      .filter((item) => item.startsWith(`${cat}/`))
+      .reduce(
+        (prev, key) => {
+          const item = intl[key] || {};
+          const title = item.title || key.split('/').slice(1).join('/');
+          if (!item.links || !item.links.length) {
+            return `${prev}\n\n- [ ] **${title}**`;
+          }
+          // collapsible links
+          const detailsStart = '<details><summary>Links</summary><p>\n';
+          const detailsEnd = '\n</p></details>';
+          return (
+            item.links.reduce(
               (p, link) => `${p}\n  * ${linkToString(link, lang)}`,
               `${prev}\n\n- [ ] **${title}**\n\n  ${detailsStart}`,
-            ) + detailsEnd;
-          },
-          `${memo}\n\n### ${localizedCat.title || intl[cat] || cat}`,
-        );
-    },
-    '',
-  );
+            ) + detailsEnd
+          );
+        },
+        `${memo}\n\n### ${localizedCat.title || intl[cat] || cat}`,
+      );
+  }, '');
 
   const readmePath = path.join(repoDir, 'README.md');
   const contents = (await readFile(readmePath, 'utf8')).split('\n');
-  const startIndex = contents.findIndex(
-    line => /^## \d+\. Objetivos de aprendiza(je|gem)/i.test(line),
+  const startIndex = contents.findIndex((line) =>
+    /^## \d+\. Objetivos de aprendiza(je|gem)/i.test(line),
   );
 
   if (startIndex < 0) {
     throw new Error('README.md is missing Learning Objectives heading');
   }
 
-  const endIndex = (
-    startIndex
-    + contents.slice(startIndex + 1).findIndex(line => /^## /.test(line))
-  );
+  const endIndex =
+    startIndex +
+    contents.slice(startIndex + 1).findIndex((line) => /^## /.test(line));
 
-  const updatedContent = contents.slice(0, startIndex + 1)
+  const updatedContent = contents
+    .slice(0, startIndex + 1)
     .concat(
       '',
       intl.description,
@@ -208,7 +223,10 @@ const initRepo = async (repoDir, opts) => {
   console.log('Initializing repo...');
   await exec('git init', { cwd: repoDir });
   await exec('git add .', { cwd: repoDir });
-  await exec('git commit -m "chore(init): Adds project files from curriculum"', { cwd: repoDir });
+  await exec(
+    'git commit -m "chore(init): Adds project files from curriculum"',
+    { cwd: repoDir },
+  );
   await exec('git branch -M main', { cwd: repoDir });
 };
 
@@ -234,16 +252,13 @@ const pushChanges = async (repoDir, repo, useHttps, opts) => {
     return;
   }
 
-  const repoUri = (
-    useHttps
-      ? `https://github.com/${repo.full_name}.git`
-      : `git@github.com:${repo.full_name}.git`
-  );
+  const repoUri = useHttps
+    ? `https://github.com/${repo.full_name}.git`
+    : `git@github.com:${repo.full_name}.git`;
 
   await exec(`git remote add upstream "${repoUri}"`, { cwd: repoDir });
   await exec('git push -u upstream main', { cwd: repoDir });
 };
-
 
 const main = async (args, opts) => {
   const [src, dest, prefix] = args;
@@ -282,7 +297,9 @@ const main = async (args, opts) => {
     throw new Error(`Error creating remote repo`);
   }
 
-  const remoteType = await prompt('Do you use ssh to clone with GitHub? [Y/n]: ');
+  const remoteType = await prompt(
+    'Do you use ssh to clone with GitHub? [Y/n]: ',
+  );
   const useHttps = ['n', 'N'].includes(remoteType);
   console.log(`Ok, will clone repo with ${useHttps ? 'https then' : 'ssh'}.`);
 
@@ -302,12 +319,10 @@ const main = async (args, opts) => {
 };
 
 const trimSlashes = (args) => {
-  return args.map(arg => (
-    arg[arg.length - 1] === '/'
-      ? arg.slice(0, -1)
-      : arg
-  ));
-}
+  return args.map((arg) =>
+    arg[arg.length - 1] === '/' ? arg.slice(0, -1) : arg,
+  );
+};
 
 const printUsage = () => {
   console.log(`create-cohort-project es un script para crear un nuevo proyecto del
@@ -340,4 +355,3 @@ main(trimSlashes(args), opts).catch((err) => {
   console.error(err);
   process.exit(1);
 });
-

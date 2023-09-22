@@ -11,7 +11,8 @@ const es = {
   reset: 'Reiniciar',
   here: 'acá',
 
-  'not-available-in-lang': 'Este contenido no está disponible actualmente en español.',
+  'not-available-in-lang':
+    'Este contenido no está disponible actualmente en español.',
 
   'top-bar/hire': 'Contrata talento',
 
@@ -225,7 +226,7 @@ const es = {
     </p>
   `,
 
-  'gym': 'Ejercicios',
+  gym: 'Ejercicios',
 
   'quiz-results': 'Respuestas correctas: {success}/{total}',
 
@@ -233,11 +234,11 @@ const es = {
 
   'hcd-intro': 'Intro al diseño centrado en el humano',
 
-  'trivia': 'Trivia',
+  trivia: 'Trivia',
 
   'card-validation': 'Tarjeta de crédito válida',
 
-  'cipher': 'Cifrado César',
+  cipher: 'Cifrado César',
 
   'design-and-usability': 'Diseño y usabilidad',
 
@@ -253,7 +254,7 @@ const es = {
 
   'small-businesses': 'Pequeñas empresas',
 
-  'uxploradora': 'UXploradoras',
+  uxploradora: 'UXploradoras',
 
   'industry-deep-dive': 'Industry deep dive',
 
@@ -267,7 +268,7 @@ const es = {
 
   'md-links': 'Markdown Links',
 
-  'notes': 'Lab Notes',
+  notes: 'Lab Notes',
 
   'chat-app': 'Chat App',
 
@@ -289,34 +290,34 @@ const es = {
 
   'job-application': 'Proyecto Job Application',
 
-  'browser': 'Browser JavaScript',
+  browser: 'Browser JavaScript',
 
-  'content-management': 'Cómo crear y organizar el contenido de un producto digital',
+  'content-management':
+    'Cómo crear y organizar el contenido de un producto digital',
 
-  'css': 'CSS',
+  css: 'CSS',
 
-  'functional': 'Functional JavaScript',
+  functional: 'Functional JavaScript',
 
-  'html': 'HTML',
+  html: 'HTML',
 
   'interaction-design': 'Interaction Design',
 
   'intro-ux': 'Intro a User Experience Design',
 
-  'javascript': 'JavaScript',
+  javascript: 'JavaScript',
 
   'learning-mindset': 'Learning Mindset',
 
-  'paradigms': 'Paradigmas de programación',
+  paradigms: 'Paradigmas de programación',
 
-  'prototyping': 'Prototipado',
+  prototyping: 'Prototipado',
 
-  'scm': 'Source Code Management (SCM) - Git + GitHub',
+  scm: 'Source Code Management (SCM) - Git + GitHub',
 
-  'shell': 'Unix Shell',
+  shell: 'Unix Shell',
 
   'ux-research': 'UX Research',
-
 };
 
 export default es;

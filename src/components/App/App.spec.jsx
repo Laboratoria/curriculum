@@ -20,7 +20,7 @@ describe('App', () => {
     const { container } = render(
       <ThemeProvider theme={createTheme(themeConfig)}>
         <App />
-      </ThemeProvider>
+      </ThemeProvider>,
     );
     expect(container.outerHTML).toBe('<div>Loading...</div>');
   });
@@ -32,21 +32,23 @@ describe('App', () => {
     render(
       <ThemeProvider theme={createTheme(themeConfig)}>
         <App />
-      </ThemeProvider>
+      </ThemeProvider>,
     );
     await waitFor(() => screen.getByText('Desarrollo Web'));
   });
 
   it('should show portuguese home when navigator.language is pt', async () => {
     window.history.pushState({}, 'Test page', '/');
-    const spy = vi.spyOn(window.navigator, 'language', 'get').mockReturnValue('pt');
+    const spy = vi
+      .spyOn(window.navigator, 'language', 'get')
+      .mockReturnValue('pt');
     useApp.mockImplementation(() => ({
       auth: { user: null },
     }));
     render(
       <ThemeProvider theme={createTheme(themeConfig)}>
         <App />
-      </ThemeProvider>
+      </ThemeProvider>,
     );
     await waitFor(() => screen.getByText('Desenvolvimento Web'));
     spy.mockRestore();

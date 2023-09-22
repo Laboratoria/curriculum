@@ -16,7 +16,7 @@ const flexCenter = {
   alignItems: 'center',
 };
 
-const sx = theme => ({
+const sx = (theme) => ({
   pt: 1,
   pb: 3,
   [theme.breakpoints.up('sm')]: {
@@ -59,11 +59,14 @@ const TopBar = () => {
             <Grid item xs={3}>
               <DrawerMenu lang={lang} />
               <Link to={`/${lang}/`}>
-                <Typography variant="body2" sx={{
-                  flexGrow: 1,
-                  display: 'flex',
-                  alignItems: 'center',
-                }}>
+                <Typography
+                  variant="body2"
+                  sx={{
+                    flexGrow: 1,
+                    display: 'flex',
+                    alignItems: 'center',
+                  }}
+                >
                   <span className="hide-when-not-small">
                     <img
                       alt="Laboratoria logo"
@@ -97,7 +100,9 @@ const TopBar = () => {
                   displayEmpty
                   disableUnderline
                   value={lang}
-                  onChange={e => navigate(`/${e.target.value}/${urlWithoutLang}`)}
+                  onChange={(e) =>
+                    navigate(`/${e.target.value}/${urlWithoutLang}`)
+                  }
                 >
                   <MenuItem value="es">ES</MenuItem>
                   <MenuItem value="pt">PT</MenuItem>

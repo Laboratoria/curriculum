@@ -15,25 +15,23 @@ const { repository, version } = JSON.parse(
 );
 
 const log = (...args) => {
-  console.log((new Date()), ...args);
+  console.log(new Date(), ...args);
 };
 
 const parse = (type, dir) => {
   log(`Parsing ${type} ${dir}...`);
   const slug = type === 'topic' ? dir : dir.split('-').slice(1).join('-');
-  const fname = path.join(
-    './dist',
-    `${type}s`,
-    `${slug}.json`,
-  );
+  const fname = path.join('./dist', `${type}s`, `${slug}.json`);
   const ee = new EventEmitter();
   const fd = openSync(fname, 'w');
   const args = [
     'curriculum-parser',
     type,
     `${type}s/${dir}`,
-    '--repo', repository,
-    '--version', version,
+    '--repo',
+    repository,
+    '--version',
+    version,
   ];
   const child = spawn(
     'npx',
@@ -98,7 +96,7 @@ const main = () => {
     sockets.push(ws);
 
     ws.on('close', () => {
-      sockets = sockets.filter(s => s !== ws);
+      sockets = sockets.filter((s) => s !== ws);
     });
   });
 

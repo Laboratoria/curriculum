@@ -14,7 +14,7 @@ html:
 
 html/semantics:
   title: Uso de HTML semántico
-  description: ""
+  description: ''
 
   links:
     - title: HTML semántico
@@ -34,7 +34,7 @@ css/selectors:
       url: https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors
 
 css/box-model:
-  title: "Modelo de caja (box model): borde, margen, padding"
+  title: 'Modelo de caja (box model): borde, margen, padding'
   links:
     - title: Box Model & Display
       url: topics/css/01-css/02-boxmodel-and-display
@@ -238,7 +238,7 @@ js/modules/es-modules:
 js/modules/commonjs:
   title: Módulos de CommonJS
   links:
-    - title: "Modules: CommonJS modules - Node.js Docs"
+    - title: 'Modules: CommonJS modules - Node.js Docs'
       url: https://nodejs.org/docs/latest/api/modules.html
 
 js/testing/unit:
@@ -286,31 +286,31 @@ scm:
   title: Control de Versiones (Git y GitHub)
 
 scm/git/setup:
-  title: "Git: Instalación y configuración"
+  title: 'Git: Instalación y configuración'
 
 scm/git/intro:
-  title: "Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)"
+  title: 'Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)'
 
 scm/git/integration:
-  title: "Git: Integración de cambios entre ramas (branch, checkout, fetch, merge, reset, rebase, tag)"
+  title: 'Git: Integración de cambios entre ramas (branch, checkout, fetch, merge, reset, rebase, tag)'
 
 scm/github/setup:
-  title: "GitHub: Creación de cuenta y repos, configuración de llaves SSH"
+  title: 'GitHub: Creación de cuenta y repos, configuración de llaves SSH'
 
 scm/github/collaboration:
-  title: "GitHub: Colaboración en Github (branches | forks | pull requests | code review | tags)"
+  title: 'GitHub: Colaboración en Github (branches | forks | pull requests | code review | tags)'
 
 scm/github/gh-pages:
-  title: "GitHub: Despliegue con GitHub Pages"
+  title: 'GitHub: Despliegue con GitHub Pages'
   links:
     - title: Sitio oficial de GitHub Pages
       url: https://pages.github.com/
 
 scm/github/project-management:
-  title: "GitHub: Organización en Github (projects | issues | labels | milestones | releases)"
+  title: 'GitHub: Organización en Github (projects | issues | labels | milestones | releases)'
 
 scm/github/ci:
-  title: "GitHub: Integración continua con GitHub actions"
+  title: 'GitHub: Integración continua con GitHub actions'
 
 ux:
   title: UX (User eXperience)
@@ -349,7 +349,7 @@ research/planning:
   title: Planificar investigación basada en las necesidades del proyecto
 
 research/support:
-  title: "Elegir y sustentar el # usuarias que participan en actividades de investigación"
+  title: 'Elegir y sustentar el # usuarias que participan en actividades de investigación'
 
 research/guidelines:
   title: Crear y probar guía de actividades de investigación
@@ -373,7 +373,7 @@ research/test:
       url: https://coda.io/@bootcamp-laboratoria/contenido-ux/test-de-usabilidad-15
     - title: Pruebas con Usuarios 1 — ¿Qué, cuándo y para qué testeamos?
       url: https://eugeniacasabona.medium.com/pruebas-con-usuarios-1-qu%C3%A9-cu%C3%A1ndo-y-para-qu%C3%A9-testeamos-7c3a89b4b5e7
-    
+
 research/cuantitative-data:
   title: Recopilar, analizar e interpretar data cuantitativa
 
@@ -447,7 +447,7 @@ communication/relationship-management:
   title: Manejar relaciones con clientes
 
 communication/case-study:
-  title: Presentar su proceso de trabajo en un caso de estudio usando herramientas de storytelling 
+  title: Presentar su proceso de trabajo en un caso de estudio usando herramientas de storytelling
 
 planning:
   title: Planificación
@@ -914,7 +914,7 @@ angular/structural-directives:
       url: https://angular.io/guide/structural-directives
 
 angular/input-output:
-  title: "@Input | @Output"
+  title: '@Input | @Output'
   links:
     - title: Component interaction - Documentación oficial (en inglés)
       url: https://angular.io/guide/component-interaction#component-interaction
@@ -928,7 +928,7 @@ angular/services:
 angular/routing:
   title: Manejo de rutas
   links:
-    - title: "In-app navigation: routing to views - Documentación oficial (en inglés)"
+    - title: 'In-app navigation: routing to views - Documentación oficial (en inglés)'
       url: https://angular.io/guide/router
 
 angular/observables:
@@ -1031,9 +1031,9 @@ wordpress:
   title: WordPress
 
 wordpress/plugin-development/hooks:
-  title: "Hooks: action y filter"
+  title: 'Hooks: action y filter'
   links:
-    - title: "Hooks: action y filter"
+    - title: 'Hooks: action y filter'
       url: https://developer.wordpress.org/plugins/hooks/
 
 wordpress/plugin-development/administration-menu:
@@ -1183,8 +1183,8 @@ typescript/basic-types/literal-types:
 typescript/basic-types/null-and-undefined:
   title: null y undefined
   links:
-  - title: Documentación oficial de Typescript
-    url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#null-and-undefined
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#null-and-undefined
 
 typescript/basic-types/enums:
   title: Enums

@@ -32,21 +32,20 @@ const Topic = ({ lang, topic }) => {
 
   return (
     <Card>
-      <CardMedia
-        component="img"
-        height="200"
-        image={topic.thumb}
-        alt={title}
-      />
+      <CardMedia component="img" height="200" image={topic.thumb} alt={title} />
       <CardHeader
         action={
-          <IconButton component={Link} to={`/${lang}/topics/${topic.slug}`} size="large">
+          <IconButton
+            component={Link}
+            to={`/${lang}/topics/${topic.slug}`}
+            size="large"
+          >
             <ArrowForward />
           </IconButton>
         }
         title={title}
       />
-      <Typography component='div' variant='body2'>
+      <Typography component="div" variant="body2">
         <CardContent>
           <div
             dangerouslySetInnerHTML={{
@@ -54,24 +53,32 @@ const Topic = ({ lang, topic }) => {
             }}
           ></div>
           {summary?.length > 250 && (
-            <CardActions style={{ marginLeft: "80%" }}>
-              <IconButton onClick={() => toggleShowEntireDescription()} size="large">
-                {showFullDescription
-                  ? <ArrowDropUpIcon />
-                  : <ArrowDropDownIcon />}
+            <CardActions style={{ marginLeft: '80%' }}>
+              <IconButton
+                onClick={() => toggleShowEntireDescription()}
+                size="large"
+              >
+                {showFullDescription ? (
+                  <ArrowDropUpIcon />
+                ) : (
+                  <ArrowDropDownIcon />
+                )}
               </IconButton>
             </CardActions>
           )}
         </CardContent>
       </Typography>
-
     </Card>
   );
 };
 
 const Topics = ({ lang, topics, track }) => {
-  const filteredTopics = topics.filter(t => t.track === track && t.intl[lang]);
-  const jsTopicIdx = filteredTopics.findIndex(({ slug }) => slug === 'javascript');
+  const filteredTopics = topics.filter(
+    (t) => t.track === track && t.intl[lang],
+  );
+  const jsTopicIdx = filteredTopics.findIndex(
+    ({ slug }) => slug === 'javascript',
+  );
   if (jsTopicIdx >= 0) {
     const jsTopic = filteredTopics[jsTopicIdx];
     filteredTopics.splice(jsTopicIdx, 1);
@@ -83,14 +90,14 @@ const Topics = ({ lang, topics, track }) => {
         <FormattedMessage id="topics" />
       </Typography>
       <Grid container spacing={3} sx={{ mt: 1 }}>
-        {filteredTopics.map(topic => (
+        {filteredTopics.map((topic) => (
           <Grid key={topic.slug} item xs={12} sm={6} md={4} lg={3}>
             <Topic topic={topic} lang={lang} />
           </Grid>
         ))}
       </Grid>
     </>
-  )
+  );
 };
 
 export default Topics;

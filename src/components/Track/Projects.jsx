@@ -12,11 +12,10 @@ import { learningObjectiveToIcon } from '../../lib/learning-objectives';
 
 const Project = ({ lang, project }) => {
   const learningObjectiveCats = (project.learningObjectives || []).reduce(
-    (memo, item) => (
+    (memo, item) =>
       !memo.includes(item.split('/')[0])
         ? memo.concat(item.split('/')[0])
-        : memo
-    ),
+        : memo,
     [],
   );
 
@@ -43,9 +42,9 @@ const Project = ({ lang, project }) => {
           </IconButton>
         }
         title={title}
-        subheader={(
+        subheader={
           <span>
-            {learningObjectiveCats.map(cat => {
+            {learningObjectiveCats.map((cat) => {
               const icon = learningObjectiveToIcon(cat);
               return (
                 <span
@@ -64,7 +63,7 @@ const Project = ({ lang, project }) => {
               );
             })}
           </span>
-        )}
+        }
       />
       <CardContent sx={{ pt: 0, pb: 0 }}>
         <div
@@ -88,11 +87,13 @@ const ProjectGroup = ({ prefix, projects, track, lang, intl }) => {
       <div
         style={{ marginBottom: 25 }}
         dangerouslySetInnerHTML={{
-          __html: intl.formatMessage({ id: `projects.${track}.level.${prefix}` }),
+          __html: intl.formatMessage({
+            id: `projects.${track}.level.${prefix}`,
+          }),
         }}
       />
       <Grid container spacing={3}>
-        {projects.map(project => (
+        {projects.map((project) => (
           <Grid key={project.slug} item xs={12} sm={6} md={4}>
             <Project project={project} lang={lang} />
           </Grid>
@@ -107,7 +108,7 @@ const Projects = ({ lang, projects, track }) => {
   const intl = useIntl();
 
   const projectsByPrefix = projects
-    .filter(p => p.track === track && p.intl[lang])
+    .filter((p) => p.track === track && p.intl[lang])
     .reduce(
       (memo, p) => ({ ...memo, [p.prefix]: (memo[p.prefix] || []).concat(p) }),
       {},
@@ -115,24 +116,30 @@ const Projects = ({ lang, projects, track }) => {
 
   return (
     <>
-      <Typography variant="h2"><FormattedMessage id="projects" /></Typography>
-      <div dangerouslySetInnerHTML={{
-        __html: intl.formatMessage({
-          id: `projects.${track}.intro`,
-        })
-      }} />
-      {Object.keys(projectsByPrefix).sort().map(prefix => (
-        <ProjectGroup
-          key={`group-${prefix}`}
-          prefix={prefix}
-          projects={projectsByPrefix[prefix]}
-          track={track}
-          lang={lang}
-          intl={intl}
-        />
-      ))}
+      <Typography variant="h2">
+        <FormattedMessage id="projects" />
+      </Typography>
+      <div
+        dangerouslySetInnerHTML={{
+          __html: intl.formatMessage({
+            id: `projects.${track}.intro`,
+          }),
+        }}
+      />
+      {Object.keys(projectsByPrefix)
+        .sort()
+        .map((prefix) => (
+          <ProjectGroup
+            key={`group-${prefix}`}
+            prefix={prefix}
+            projects={projectsByPrefix[prefix]}
+            track={track}
+            lang={lang}
+            intl={intl}
+          />
+        ))}
     </>
-  )
+  );
 };
 
 export default Projects;

@@ -12,11 +12,7 @@ vi.mock('react-router-dom', () => {
     useNavigate: vi.fn(),
     useParams: vi.fn(),
     useLocation: vi.fn(),
-    Link: ({ to, children }) => (
-      <a href={to}>
-        {children}
-      </a>
-    ),
+    Link: ({ to, children }) => <a href={to}>{children}</a>,
   };
 });
 
@@ -35,7 +31,7 @@ describe('TopBar', () => {
     const { container } = render(
       <ThemeProvider theme={createTheme(themeConfig)}>
         <TopBar lang="es" />
-      </ThemeProvider>
+      </ThemeProvider>,
     );
 
     const link = container.querySelector('header a[href="/es/"]');

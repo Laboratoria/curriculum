@@ -29,11 +29,15 @@ describe('parse', () => {
   });
 
   it('should throw when repetitions of number starting with 5', () => {
-    expect(() => parse('LL')).toThrow('Invalid repetition of number starting with 5: L (50)');
+    expect(() => parse('LL')).toThrow(
+      'Invalid repetition of number starting with 5: L (50)',
+    );
   });
 
   it('should throw when too many repetitions', () => {
-    expect(() => parse('IIII')).toThrow('Too many repetitions of roman numeral I');
+    expect(() => parse('IIII')).toThrow(
+      'Too many repetitions of roman numeral I',
+    );
   });
 
   it('should throw when invalid substraction prefix (must be 1 or multiple of 10)', () => {

@@ -1,5 +1,11 @@
 import { lazy, Suspense } from 'react';
-import { Navigate, Routes, Route, useLocation, useParams } from 'react-router-dom';
+import {
+  Navigate,
+  Routes,
+  Route,
+  useLocation,
+  useParams,
+} from 'react-router-dom';
 import { Loading, ScrollRestoration } from '@laboratoria/react';
 import { IntlProvider } from '../../intl';
 
@@ -15,11 +21,7 @@ const RoutesWithIntl = ({ defaultLang }) => {
   const { lang } = useParams();
 
   if (!['es', 'pt'].includes(lang)) {
-    return (
-      <Navigate
-        to={`/${defaultLang}${location.pathname}`}
-      />
-    );
+    return <Navigate to={`/${defaultLang}${location.pathname}`} />;
   }
 
   return (
