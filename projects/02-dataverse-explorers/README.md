@@ -4,8 +4,8 @@
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Funcionalidades](#3-funcionalidades)
-* [4. Consideraciones generales](#4-consideraciones-generales)
+* [3. Consideraciones generales](#3-consideraciones-generales)
+* [4. Funcionalidades](#4-funcionalidades)
 * [5. Consideraciones técnicas](#5-consideraciones-técnicas)
 * [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
 * [7. Hacker edition](#7-hacker-edition)
@@ -522,20 +522,13 @@ puedes adjuntar todas las capturas que necesites.
 
 #### Diseño de la Interfaz de Usuaria
 
-##### Prototipo de baja fidelidad
-
-Durante tu trabajo deberás haber hecho e iterado bocetos (_sketches_) de tu
-solución usando papel y lápiz. Te recomendamos tomar fotos de todas las
-iteraciones que hagas, que las subas a tu repositorio y las menciones en tu
-`README.md`.
-
-Recuerda pedir feedback de tu prototipo a tus compañeras y/o coaches.
-
 ##### Prototipo de alta fidelidad
 
-Lo siguiente es diseñar tu Interfaz de Usuaria (UI por sus siglas en inglés -
-_User Interface_). Para eso debes aprender a utilizar alguna herramienta de
-diseño visual. Nosotros te recomendamos [Figma](https://www.figma.com/) que es
+Usando los wireframes o bocetos (_sketches_) de tu solución de interfaz
+como base, lo siguiente es diseñar tu Interfaz de Usuaria (UI por sus
+siglas en inglés - _User Interface_). Para eso debes aprender a
+utilizar alguna herramienta de diseño visual.
+Nosotros te recomendamos [Figma](https://www.figma.com/) que es
 una herramienta que funciona en el navegador y, además, puedes crear una cuenta
 gratis. Sin embargo, eres libre de utilizar otros editores gráficos como
 Illustrator, Photoshop, etc.
@@ -700,8 +693,7 @@ Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
 * Tiene un `README.md` con la siguente:
   - [ ] _Definición del producto_ clara e informativa
   - [ ] Historias de usuario
-  - [ ] Un _sketch_ de la solución (prototipo de baja fidelidad) y
-    _Diseño de la Interfaz de Usuaria_ (prototipo de alta fidelidad)
+  - [ ] Un _Diseño de la Interfaz de Usuaria_ (prototipo de alta fidelidad)
   - [ ] El listado de problemas que detectaste a través de tests
     de usabilidad en el `README.md`
 * Tiene un UI que cumple las funcionalidades:
