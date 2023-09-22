@@ -16,6 +16,8 @@ trabajo con otros perfiles como desarrolladoras, product managers, etc.
 Anteriores retos han incluido empresas como Kmimos, Guvery, Sinenvolturas,
 Magical Startups, Laboratoria, entre otras.
 
+![mindset-MVP](https://raw.githubusercontent.com/Laboratoria/bootcamp/main/projects/02-mindset-mvp/thumb.png)
+
 ## 2. Objetivos de aprendizaje
 
 > ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir

@@ -1,10 +1,10 @@
 {
   "slug": "functional",
-  "repo": "Laboratoria/bootcamp",
+  "repo": "Laboratoria/curriculum",
   "path": "topics/functional",
-  "version": "6.7.0",
+  "version": "7.1.0",
   "parserVersion": "5.0.0-beta.0",
-  "createdAt": "2023-08-29T16:07:53.059Z",
+  "createdAt": "2023-09-13T14:13:18.776Z",
   "track": "web-dev",
   "intl": {
     "es": {
@@ -64,7 +64,7 @@
               "slug": "discount",
               "prefix": "01",
               "path": "topics/functional/01-state/02-practice/01-discount",
-              "createdAt": "2023-08-29T16:07:53.058Z",
+              "createdAt": "2023-09-13T14:13:18.772Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -82,7 +82,7 @@
               "slug": "serialize-user",
               "prefix": "02",
               "path": "topics/functional/01-state/02-practice/02-serialize-user",
-              "createdAt": "2023-08-29T16:07:53.058Z",
+              "createdAt": "2023-09-13T14:13:18.772Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -126,7 +126,7 @@
               "slug": "parse-items",
               "prefix": "01",
               "path": "topics/functional/01-state/04-practice-2/01-parse-items",
-              "createdAt": "2023-08-29T16:07:53.058Z",
+              "createdAt": "2023-09-13T14:13:18.773Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -205,7 +205,7 @@
               "slug": "repeat",
               "prefix": "01",
               "path": "topics/functional/03-hof/02-practice/01-repeat",
-              "createdAt": "2023-08-29T16:07:53.059Z",
+              "createdAt": "2023-09-13T14:13:18.772Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -249,7 +249,7 @@
               "slug": "bound-logger",
               "prefix": "01",
               "path": "topics/functional/03-hof/04-practice-2/01-bound-logger",
-              "createdAt": "2023-08-29T16:07:53.059Z",
+              "createdAt": "2023-09-13T14:13:18.773Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -267,7 +267,7 @@
               "slug": "logger",
               "prefix": "02",
               "path": "topics/functional/03-hof/04-practice-2/02-logger",
-              "createdAt": "2023-08-29T16:07:53.059Z",
+              "createdAt": "2023-09-13T14:13:18.774Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -311,7 +311,7 @@
               "slug": "curry-n",
               "prefix": "01",
               "path": "topics/functional/03-hof/06-practice-3/01-curry-n",
-              "createdAt": "2023-08-29T16:07:53.059Z",
+              "createdAt": "2023-09-13T14:13:18.773Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -390,7 +390,7 @@
               "slug": "apply-discount",
               "prefix": "01",
               "path": "topics/functional/05-flow-control/02-practice/01-apply-discount",
-              "createdAt": "2023-08-29T16:07:53.059Z",
+              "createdAt": "2023-09-13T14:13:18.774Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -408,7 +408,7 @@
               "slug": "reduce",
               "prefix": "02",
               "path": "topics/functional/05-flow-control/02-practice/02-reduce",
-              "createdAt": "2023-08-29T16:07:53.059Z",
+              "createdAt": "2023-09-13T14:13:18.773Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -426,7 +426,7 @@
               "slug": "get-dependencies",
               "prefix": "03",
               "path": "topics/functional/05-flow-control/02-practice/03-get-dependencies",
-              "createdAt": "2023-08-29T16:07:53.059Z",
+              "createdAt": "2023-09-13T14:13:18.775Z",
               "env": "cjs",
               "intl": {
                 "es": {
@@ -470,7 +470,7 @@
               "slug": "load-users",
               "prefix": "01",
               "path": "topics/functional/05-flow-control/04-practice-2/01-load-users",
-              "createdAt": "2023-08-29T16:07:53.059Z",
+              "createdAt": "2023-09-13T14:13:18.774Z",
               "env": "cjs",
               "intl": {
                 "es": {

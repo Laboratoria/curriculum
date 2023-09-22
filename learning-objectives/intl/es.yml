@@ -1180,6 +1180,12 @@ typescript/basic-types/literal-types:
     - title: Documentación oficial de Typescript
       url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types
 
+typescript/basic-types/null-and-undefined:
+  title: null y undefined
+  links:
+  - title: Documentación oficial de Typescript
+    url: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#null-and-undefined
+
 typescript/basic-types/enums:
   title: Enums
   links:
@@ -1204,17 +1210,71 @@ typescript/classes/members:
     - title: Documentación oficial de Typescript
       url: https://www.typescriptlang.org/docs/handbook/2/classes.html#class-members
 
+typescript/classes/members/fields:
+  title: Campos
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#fields
+
+typescript/classes/members/constructors:
+  title: Constructors
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#constructors
+
+typescript/classes/members/methods:
+  title: Métodos
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#methods
+
+typescript/classes/members/getter-setters:
+  title: Getters y Setters
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#getters--setters
+
 typescript/classes/class-heritage:
   title: Herencia de clases
   links:
     - title: Documentación oficial de Typescript
       url: https://www.typescriptlang.org/docs/handbook/2/classes.html#class-heritage
 
+typescript/classes/class-heritage/implements:
+  title: implements Clausas
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#implements-clauses
+
+typescript/classes/class-heritage/extends:
+  title: extends Clausas
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#extends-clauses
+
 typescript/classes/member-visibility:
   title: Visibilidad de miembros de clase
   links:
-    - title: 
+    - title: Documentación oficial de Typescript
       url: https://www.typescriptlang.org/docs/handbook/2/classes.html#member-visibility
+
+typescript/classes/member-visibility/public:
+  title: public
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#public
+
+typescript/classes/member-visibility/protected:
+  title: protected
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#protected
+
+typescript/classes/member-visibility/private:
+  title: private
+  links:
+    - title: Documentación oficial de Typescript
+      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#private
 
 typescript/classes/static-members:
   title: Miembros de clase estáticos
@@ -1239,6 +1299,31 @@ typescript/decorators:
   links:
     - title: Documentación oficial de Typescript
       url: https://www.typescriptlang.org/docs/handbook/decorators.html
+
+ai-prompting:
+  title: AI Prompting
+  description: El proceso de instruir a una IA para que realice una tarea 
+
+ai-prompting/giving-instructions:
+  title: Dando Instrucciones
+  description: Técnica simple de dar instrucciones a la IA
+  links:
+    - title: "Dando Instrucciones | Learn Prompting: Your Guide to Communicating with AI"
+      url: https://learnprompting.org/es/docs/basics/instructions
+
+ai-prompting/few-shot-prompting:
+  title: Few shot prompting
+  description: Técnica de mostrar al modelo algunos ejemplos (shots) de lo que quieres que haga
+  links:
+    - title: "Few shot prompting | Learn Prompting: Your Guide to Communicating with AI"
+      url: https://learnprompting.org/es/docs/basics/few_shot
+
+ai-prompting/priming-chatbots:
+  title: Priming Chatbots
+  description: Uso de primer prompt para iniciar una conversación con estructura y estilo particular
+  links:
+    - title: "Priming Chatbots | Learn Prompting: Your Guide to Communicating with AI"
+      url: https://learnprompting.org/es/docs/basics/priming_prompt
 
 # New OAs since UXD006
 #--- skill Project framing

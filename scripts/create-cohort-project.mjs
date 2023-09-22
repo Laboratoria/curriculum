@@ -325,7 +325,7 @@ Este es un mensaje de ayuda para que puedas usarlo.
     npm run create-cohort-project projects/04-md-links ./ DEV999
 
 Acá puedes encontrar la documentación completa:
-https://github.com/Laboratoria/bootcamp/tree/main/scripts#create-cohort-project
+https://github.com/Laboratoria/curriculum/tree/main/scripts#create-cohort-project
 `);
 };
 
