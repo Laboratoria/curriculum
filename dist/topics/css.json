@@ -1,10 +1,10 @@
 {
   "slug": "css",
-  "repo": "Laboratoria/bootcamp",
+  "repo": "Laboratoria/curriculum",
   "path": "topics/css",
-  "version": "6.7.0",
+  "version": "7.1.0",
   "parserVersion": "5.0.0-beta.0",
-  "createdAt": "2023-08-29T16:07:53.311Z",
+  "createdAt": "2023-09-13T14:13:15.426Z",
   "track": "web-dev",
   "intl": {
     "es": {

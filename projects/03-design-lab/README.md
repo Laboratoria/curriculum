@@ -13,6 +13,8 @@ Podrás elegir entre resolver un reto de uno de los sectores que más perfiles d
 UX contrata o de un sector innovador donde el rol de UX se está volviendo cada
 vez más importante.
 
+![design-lab](https://raw.githubusercontent.com/Laboratoria/bootcamp/main/projects/03-design-lab/thumb.png)
+
 ## 2. Objetivos de aprendizaje
 
 > ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir

@@ -1,7 +1,14 @@
+import { beforeEach, describe, it } from 'vitest';
 import { render, screen, waitFor } from '@testing-library/react';
+import matchers from '@testing-library/jest-dom/matchers';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useApp, themeConfig } from '@laboratoria/react';
-import App from '.';
+import App from './index.jsx';
+
+vi.mock('@laboratoria/react');
+
+// extends Vitest's expect method with methods from react-testing-library
+expect.extend(matchers);
 
 describe('App', () => {
   beforeEach(() => {
@@ -32,7 +39,7 @@ describe('App', () => {
 
   it('should show portuguese home when navigator.language is pt', async () => {
     window.history.pushState({}, 'Test page', '/');
-    const spy = jest.spyOn(window.navigator, 'language', 'get').mockReturnValue('pt');
+    const spy = vi.spyOn(window.navigator, 'language', 'get').mockReturnValue('pt');
     useApp.mockImplementation(() => ({
       auth: { user: null },
     }));
