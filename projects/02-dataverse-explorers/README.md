@@ -507,17 +507,17 @@ debe ser la siguiente:
 
 * `extraInfo`: Y por último un campo libre opcional, similar a `facts`. Si lo
   necesitas, aquí puedes poner cualquier otro tipo de información en formato
-  donde puedes poner otra info que necesites en formato `"nombre": "valor"`.
-  Por ejemplo:
+  donde puedes poner otra info que necesites en formato `"nombre": "valor"`,
+  pero sin restricciones sobre el tipo de dato del valor. Por ejemplo:
 
   ```json
   "extraInfo": {
     "imagePrompt": "Un texto bien, bien largo...",
     "writings": [
-      "Libro 1",
-      "Libro 2",
-      "Libro 3",
-      "Libro 4"
+      "Vol. 1",
+      "Vol. 2",
+      "Vol. 3",
+      "Vol. 4"
     ]
   }
   ```
