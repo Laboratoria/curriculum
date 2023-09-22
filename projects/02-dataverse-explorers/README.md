@@ -643,7 +643,7 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
 #### Desarrollo Front-end
 
-* [Topicos en la curricula de sitio Laboratoria](https://curriculum.laboratoria.la/es/web-dev/topics)
+* [Tópicos en la currícula de Laboratoria](https://curriculum.laboratoria.la/es/web-dev/topics)
   testing, arreglos, objetos, funciones, DOM en Browser Javascript.
 * [Buscando elementos con querySelector*](https://es.javascript.info/searching-elements-dom)
 * [Objeto del evento](https://es.javascript.info/introduction-browser-events#objeto-del-evento)
@@ -659,12 +659,12 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 * [Atributos de datos](https://developer.mozilla.org/es/docs/Learn/HTML/Howto/Use_data_attributes)
 * [expressions-vs-statements](https://2ality.com/2012/09/expressions-vs-statements.html)
 * [expresión vs sentencia](https://openclassrooms.com/en/courses/4309531-descubre-las-funciones-en-javascript/5108986-diferencia-entre-expresion-y-sentencia)
-* [datos atómicos vs datos estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
-* [Modulos: Export](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/export)
-* [Modulos: Import](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/import)
+* [Datos atómicos vs datos estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
+* [Módulos: Export](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/export)
+* [Módulos: Import](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/import)
 * [Diferencia entre array y objetos](https://youtu.be/mJJloQY7A8Y)
 * [¿Cómo puedo recorrer un objeto?](https://youtube.com/01RHn23Bn_0)
-* [map, filter, sort y reduce también son métodos para objetos](https://youtu.be/bUl1R2lQvKo)
+* [`map`, `filter`, `sort` y `reduce` también son métodos para objetos](https://youtu.be/bUl1R2lQvKo)
 * [Diferencia entre expression y statements](https://youtu.be/wlukoWco2zk)
 * [Diferencia entre createElement e innerHTML](https://www.javascripttutorial.net/javascript-dom/javascript-innerhtml-vs-createelement/)
 * [¿Qué es el Scope?](https://youtu.be/s-7C09ymzK8)
