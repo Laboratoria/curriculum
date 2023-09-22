@@ -1,4 +1,6 @@
-export const useApp = jest.fn();
+import { vi } from 'vitest';
+
+export const useApp = vi.fn();
 
 export const themeConfig = {
   palette: {

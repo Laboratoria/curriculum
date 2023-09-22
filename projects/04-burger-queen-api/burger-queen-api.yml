@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   description: |
     Documentación 
-    [Burger Queen API](https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api)
+    [Burger Queen API](https://github.com/Laboratoria/curriculum/tree/main/projects/04-burger-queen-api)
   version: 2.0.0
   title: Burger Queen API
   license:
@@ -820,27 +820,27 @@ components:
         - id: 1214
           name: "Sandwich de jam\u00f3n y queso"
           price: 1000
-          image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg"
+          image: "https://github.com/Laboratoria/curriculum/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg"
           type: "Desayuno"
           dateEntry: "2022-03-05 15:14:10"      
         - id: 7450
           name: "Caf\u00e9 americano"
           price: 500
-          image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg"
+          image: "https://github.com/Laboratoria/curriculum/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg"
           type: "Desayuno"
           dateEntry: "2022-03-05 15:14:10"          
     NewProduct:
       value:
         name: "Agua 500ml"
         price: 500
-        image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg"        
+        image: "https://github.com/Laboratoria/curriculum/tree/main/projects/04-burger-queen-api/resources/images/water.jpg"        
         type: "Almuerzo"
     Sandwich:
       value:
         id: 1214
         name: "Sandwich de jam\u00f3n y queso"
         price: 1000
-        image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg"
+        image: "https://github.com/Laboratoria/curriculum/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg"
         type: "Desayuno"
         dateEntry: "2022-03-05 15:14:10"      
     Coffe:
@@ -848,7 +848,7 @@ components:
         id: 7450
         name: "Caf\u00e9 americano"
         price: 500
-        image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg"
+        image: "https://github.com/Laboratoria/curriculum/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg"
         type: "Desayuno"
         dateEntry: "2022-03-05 15:14:10"
     Water:
@@ -856,7 +856,7 @@ components:
         id: 8452
         name: "Agua 500ml"
         price: 500
-        image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg"        
+        image: "https://github.com/Laboratoria/curriculum/tree/main/projects/04-burger-queen-api/resources/images/water.jpg"        
         type: "Almuerzo"
         dateEntry: "2022-03-05 15:14:10"    
     AllOrders:
@@ -870,7 +870,7 @@ components:
                 id: 1214
                 name: "Sandwich de jam\u00f3n y queso"
                 price: 1000
-                image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg"
+                image: "https://github.com/Laboratoria/curriculum/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg"
                 type: "Desayuno"
                 dateEntry: "2022-03-05 15:14:10"      
             - qty: 1
@@ -878,7 +878,7 @@ components:
                 id: 7450
                 name: "Caf\u00e9 americano"
                 price: 500
-                image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg"
+                image: "https://github.com/Laboratoria/curriculum/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg"
                 type: "Desayuno"
                 dateEntry: "2022-03-05 15:14:10"            
           status: "pending"
@@ -892,7 +892,7 @@ components:
                 id: 7450
                 name: "Caf\u00e9 americano"
                 price: 500
-                image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg"
+                image: "https://github.com/Laboratoria/curriculum/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg"
                 type: "Desayuno"
                 dateEntry: "2022-03-05 15:14:10"
             - qty: 1
@@ -900,7 +900,7 @@ components:
                 id: 8452
                 name: "Agua 500ml"
                 price: 500
-                image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg"        
+                image: "https://github.com/Laboratoria/curriculum/tree/main/projects/04-burger-queen-api/resources/images/water.jpg"        
                 type: "Almuerzo"
                 dateEntry: "2022-03-05 15:14:10"              
           status: "delivered"
@@ -916,7 +916,7 @@ components:
               id: 1214
               name: "Sandwich de jam\u00f3n y queso"
               price: 1000
-              image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg"
+              image: "https://github.com/Laboratoria/curriculum/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg"
               type: "Desayuno"
               dateEntry: "2022-03-05 15:14:10"
     Order1:
@@ -930,7 +930,7 @@ components:
               id: 1214
               name: "Sandwich de jam\u00f3n y queso"
               price: 1000
-              image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg"
+              image: "https://github.com/Laboratoria/curriculum/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg"
               type: "Desayuno"
               dateEntry: "2022-03-05 15:14:10"      
           - qty: 1
@@ -938,7 +938,7 @@ components:
               id: 7450
               name: "Caf\u00e9 americano"
               price: 500
-              image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg"
+              image: "https://github.com/Laboratoria/curriculum/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg"
               type: "Desayuno"
               dateEntry: "2022-03-05 15:14:10"            
         status: "pending"
@@ -954,7 +954,7 @@ components:
               id: 7450
               name: "Caf\u00e9 americano"
               price: 500
-              image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg"
+              image: "https://github.com/Laboratoria/curriculum/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg"
               type: "Desayuno"
               dateEntry: "2022-03-05 15:14:10"
           - qty: 1
@@ -962,7 +962,7 @@ components:
               id: 8452
               name: "Agua 500ml"
               price: 500
-              image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg"        
+              image: "https://github.com/Laboratoria/curriculum/tree/main/projects/04-burger-queen-api/resources/images/water.jpg"        
               type: "Almuerzo"
               dateEntry: "2022-03-05 15:14:10"              
         status: "delivered"
@@ -979,7 +979,7 @@ components:
               id: 1214
               name: "Sandwich de jam\u00f3n y queso"
               price: 1000
-              image: "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg"
+              image: "https://github.com/Laboratoria/curriculum/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg"
               type: "Desayuno"
               dateEntry: "2022-03-05 15:14:10"                  
         status: "pending"

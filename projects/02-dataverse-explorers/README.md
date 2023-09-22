@@ -1,11 +1,11 @@
-# Data Lovers
+# Dataverse
 
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Funcionalidades](#3-funcionalidades)
-* [4. Consideraciones generales](#4-consideraciones-generales)
+* [3. Consideraciones generales](#3-consideraciones-generales)
+* [4. Funcionalidades](#4-funcionalidades)
 * [5. Consideraciones técnicas](#5-consideraciones-técnicas)
 * [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
 * [7. Hacker edition](#7-hacker-edition)
@@ -84,7 +84,8 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
   un elemento `<ul>`.**
 
 * El elemento `<ul>` deberá ser hijo de un elemento con atributo _id_
-  de valor "root".
+  de valor "root". **Este es un paso importante para que tu**
+  **aplicación tenga la estructura requerida**
 
 * Las tarjetas deben resaltar los valores de las propiedades de la data que
   le interesaría a la usuaria ver. Por ejemplo: nombre, fecha, imagen, etc.
@@ -336,7 +337,7 @@ npm run test:oas // Esto es para correr todos los tests de OAs
 
 * **Uso de selectores de CSS**
 
-  - [ ] Uso de selector class para los items <li> (que se llama `card`)
+  - [ ] Uso de selector class para los items <li>
   - [ ] Uso de flexbox en sentido `row` y `column`
   - [ ] Uso de flexbox para el elemento que contiene los items
   - [ ] Uso de flexbox para el elemento que contiene los UI inputs
@@ -521,20 +522,13 @@ puedes adjuntar todas las capturas que necesites.
 
 #### Diseño de la Interfaz de Usuaria
 
-##### Prototipo de baja fidelidad
-
-Durante tu trabajo deberás haber hecho e iterado bocetos (_sketches_) de tu
-solución usando papel y lápiz. Te recomendamos tomar fotos de todas las
-iteraciones que hagas, que las subas a tu repositorio y las menciones en tu
-`README.md`.
-
-Recuerda pedir feedback de tu prototipo a tus compañeras y/o coaches.
-
 ##### Prototipo de alta fidelidad
 
-Lo siguiente es diseñar tu Interfaz de Usuaria (UI por sus siglas en inglés -
-_User Interface_). Para eso debes aprender a utilizar alguna herramienta de
-diseño visual. Nosotros te recomendamos [Figma](https://www.figma.com/) que es
+Usando los wireframes o bocetos (_sketches_) de tu solución de interfaz
+como base, lo siguiente es diseñar tu Interfaz de Usuaria (UI por sus
+siglas en inglés - _User Interface_). Para eso debes aprender a
+utilizar alguna herramienta de diseño visual.
+Nosotros te recomendamos [Figma](https://www.figma.com/) que es
 una herramienta que funciona en el navegador y, además, puedes crear una cuenta
 gratis. Sin embargo, eres libre de utilizar otros editores gráficos como
 Illustrator, Photoshop, etc.
@@ -641,14 +635,9 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
 ### Contenido de referencia
 
-#### Diseño de experiencia de usuaria (User Experience Design)
-
-* Investigación con usuarias / entrevistas
-* Principios de diseño visual
-
 #### Desarrollo Front-end
 
-* [Topicos en la curricula de sitio Laboratoria](https://curriculum.laboratoria.la/es/web-dev/topics)
+* [Tópicos en la currícula de Laboratoria](https://curriculum.laboratoria.la/es/web-dev/topics)
   testing, arreglos, objetos, funciones, DOM en Browser Javascript.
 * [Buscando elementos con querySelector*](https://es.javascript.info/searching-elements-dom)
 * [Objeto del evento](https://es.javascript.info/introduction-browser-events#objeto-del-evento)
@@ -664,15 +653,22 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 * [Atributos de datos](https://developer.mozilla.org/es/docs/Learn/HTML/Howto/Use_data_attributes)
 * [expressions-vs-statements](https://2ality.com/2012/09/expressions-vs-statements.html)
 * [expresión vs sentencia](https://openclassrooms.com/en/courses/4309531-descubre-las-funciones-en-javascript/5108986-diferencia-entre-expresion-y-sentencia)
-* [datos atómicos vs datos estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
-* [Modulos: Export](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/export)
-* [Modulos: Import](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/import)
+* [Datos atómicos vs datos estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
+* [Módulos: Export](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/export)
+* [Módulos: Import](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/import)
+* [Diferencia entre array y objetos](https://youtu.be/mJJloQY7A8Y)
+* [¿Cómo puedo recorrer un objeto?](https://youtube.com/01RHn23Bn_0)
+* [`map`, `filter`, `sort` y `reduce` también son métodos para objetos](https://youtu.be/bUl1R2lQvKo)
+* [Diferencia entre expression y statements](https://youtu.be/wlukoWco2zk)
+* [Diferencia entre createElement e innerHTML](https://www.javascripttutorial.net/javascript-dom/javascript-innerhtml-vs-createelement/)
+* [¿Qué es el Scope?](https://youtu.be/s-7C09ymzK8)
 
 #### Herramientas
 
 * [Git](https://git-scm.com/)
 * [GitHub](https://github.com/)
 * [GitHub Pages](https://pages.github.com/)
+* [Para preguntas sobre Git recomendamos ver este playlist](https://www.youtube.com/watch?v=F1EoBbvhaqU&list=PLiAEe0-R7u8k9o3PbT3_QdyoBW_RX8rnV)
 * [Node.js](https://nodejs.org/)
 * [Jest](https://jestjs.io/)
 
@@ -682,7 +678,6 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
   Ojo que Cris no diferencia _Definición de terminado_ de _Criterios de
   Aceptación_ y nosotros sí lo haremos. Más detalles en la guía.
 * [Cómo dividir H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
-* [Guía para Data Lovers](https://docs.google.com/presentation/d/e/2PACX-1vQhx9D36NjpH-Daea-ITPUDUzNL8ZiNAprq_7b5PSUrfutk45tEtaOLz2lmd8f54_5jX1hypDM8f8SM/pub?start=false&loop=false&delayms=60000)
 
 ## 10. Consideraciones para pedir tu Project Feedback
 
@@ -699,8 +694,7 @@ Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
 * Tiene un `README.md` con la siguente:
   - [ ] _Definición del producto_ clara e informativa
   - [ ] Historias de usuario
-  - [ ] Un _sketch_ de la solución (prototipo de baja fidelidad) y
-    _Diseño de la Interfaz de Usuaria_ (prototipo de alta fidelidad)
+  - [ ] Un _Diseño de la Interfaz de Usuaria_ (prototipo de alta fidelidad)
   - [ ] El listado de problemas que detectaste a través de tests
     de usabilidad en el `README.md`
 * Tiene un UI que cumple las funcionalidades:

@@ -18,6 +18,8 @@ en proyectos colaborativos con empresas.
 Con 3 rutas diferentes para elegir, podrás profundizar en research,
 enfocarte en temas de UI o reforzar el proceso de diseño de principio a fin.
 
+![UXploradoras-ux](https://raw.githubusercontent.com/Laboratoria/bootcamp/main/projects/03-uxploradoras-ux/thumb.png)
+
 ## 2. Resumen del proyecto
 
 Este es un proyecto flexible que puedes adecuar según el contexto de aprendizaje
