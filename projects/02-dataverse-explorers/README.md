@@ -324,6 +324,7 @@ npm run test:oas-html
 npm run test:oas-css
 npm run test:oas-web-api
 npm run test:oas-js
+npm run test:oas-prompting
 npm run test:oas // Esto es para correr todos los tests de OAs
 ```
 
