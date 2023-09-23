@@ -99,26 +99,31 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
 
   Por ejemplo, la siguiente data correspondiente a Ada Lovelace:
 
-  ```js
+  ```json
     {
-    "name": "Ada Lovelace",
-    "imgSrc": "URL_DE_LA_IMAGEN_GENERADA",
-    "statistic": {
-      "value": 1843,
-      "label": "Año de nacimiento",
-    },
-    "description": "Primera programadora de la historia...",
-  },
+      "id": "ada-lovelace",
+      "name": "Ada Lovelace",
+      "shortDescription": "Pionera de la informática, fue la primera programadora.",
+      "description": "Una visionaria del siglo XIX ...",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "yearOfBirth": 1843,
+        "placeOfBirth": "London, England",
+        "mainField": "Computer Science",
+      }
+    }
   ```
 
   puede ser estructurada semánticamente en HTML como:
 
   ```html
-  <dl itemscope itemtype="pokemon">
+  <dl itemscope itemtype="WomeInTech">
     <img src="URL_DE_LA_IMAGEN_GENERADA" alt="Ada Lovelace" />
     <dt>Nombre:</dt><dd itemprop="name">Ada Lovelace</dd>
-    <dt>Año de nacimiento:</dt><dd itemprop="num">1843</dd>
-    <dt>Descripción:</dt><dd itemprop="pokemon-rarity">Primera programadora de la historia...</dd>
+    <dt>Descripción:</dt><dd itemprop="description">Pionera de la informática, fue la primera programadora.</dd>
+    <dt>Año de nacimiento:</dt><dd itemprop="yearOfBirth">1843</dd>
+    <dt>Lugar de nacimiento:</dt><dd itemprop="placeOfBirth">London, England</dd>
+    <dt>Campo de desempeño:</dt><dd itemprop="mainField">Computer Science</dd>
   </dl>
   ```
 
@@ -446,40 +451,93 @@ a la siguiente (cumpliendo con la Definición de Terminado y los Criterios de Ac
 La temática será a tu gusto, por ejemplo, pueden ser personajes importantes
 en la historia, países, películas... etc.
 
-Al final del proyecto, con la ayuda de la inteligencia artificial, deberás
-hacer que la usuaria pueda interactuar con la data generada a través de un
-chat. Por ejemplo, si la data está mostrando un país, la usuaria podría
-chatear con ese país y preguntarle en que año fue fundado,
-o cual es su capital, etc.
+En el próximo proyecto, con la ayuda de la inteligencia artificial, deberás
+hacer que la usuaria pueda chatear con la data generada.
+Por ejemplo, si la data está mostrando un país, la usuaria podría
+preguntarle en que año fue fundado o cual es su capital, etc.
+Tenlo en cuenta a la hora de generar tu dataset.
 
-Esta data generada la vas a guardar en un archivo javascript. Este archivo,
+Esta data la vas a guardar en un archivo javascript. Este archivo,
 debe exportar un arreglo con 24 objetos. Y la estructura de cada objeto
-deberá ser la siguiente:
+debe ser la siguiente:
 
-* `name:` Nombre del dato que se va dibujar en la vista.
-* `imgSrc:` URL de la imagen. Esta imagen será generada a través de alguna
+* `id`: Identificador único (no pueden haber dos elementos con el mismo `id`).
+  Debe ser un string de no más de 64 characteres, en minúscula, compuesto solo
+  por letras, números, underscore (`_`) o guión (`-`). Por ejemplo: `"ada-lovelace"`.
+* `name`: El nombre del personaje, país, película, etc.
+* `shortDescription`: Descripción corta del elemento. Esta descripción deberá
+  tener como máximo 20 palabras.
+* `description`: Descripción extendida del elemento. Esta descripción deberá
+  tener entre 80 y 100 palabras. Al momento de mostrar este dato en pantalla
+  puedes truncarlo para que no ocupe tanto espacio.
+* `imageUrl`: URL de la imagen. Esta imagen será generada a través de alguna
   herramienta basada en inteligencia artifical. Una vez generada la imagen,
-  se deberá agregar la URL en este campo.
-* `statistics:` Un objeto con las siguientes propiedades:
-  - `value`: Un valor numérico para el cálculo agregado (por ejemplo,
-    puntuaciones, cantidades, fechas, etc).
-  - `label`: Descripción el valor numérico
-* `description:` Descripción sobre el dato. Esta descripción deberá tener
-  como mínimo 100 palabras. Al momento de dibujar este dato en pantalla
-  puedes truncarlo para que no te ocupe mucho espacio.
+  y guardada en tu repo, deberás agregar la URL en este campo.
+* `facts`: Un objeto con al menos **3** "hechos" o "info" sobre este elemento, en
+  formato `"nombre": "valor"`, por ejemplo:
+
+  ```json
+  "facts": {
+    "yearOfBirth": 1843,
+    "placeOfBirth": "London, England",
+    "mainField": "Computer Science",
+  }
+  ```
+
+  Los _nombres de las propiedades_, deben estar en formato _camelCase_.
+  Por ejemplo **ninguno** de los siguientes nombres sería válido:
+
+  ```json
+  "facts": {
+    "year_of_birth": 1843,
+    "Place of Birth": "London, England",
+    "MainField": "Computer Science",
+  }
+  ```
+
+  Los _valores de las propiedades_, sólo pueden ser de tipo `number`, `boolean`
+  o un `string` de no más de 64 caracteres (este **no** tiene restricciones sobre
+  el tipo de caracteres que puede contener).
+
+  Y por último ten en cuenta 2 cosas:
+  - Todos los elementos del dataset deben compartir las mismas propiedades en
+    `facts`, es decir, que si un elemento tiene una propiedad `yearOfBirth`,
+    el resto de elementos del array también deben tener esa propiedad.
+  - No es necesario que los nombres de las propiedades estén en inglés,
+    `"lugarDeNacimiento"` es un nombre igual de válido.
+
+* `extraInfo`: Y por último un campo libre opcional, similar a `facts`. Si lo
+  necesitas, aquí puedes poner cualquier otro tipo de información en formato
+  donde puedes poner otra info que necesites en formato `"nombre": "valor"`,
+  pero sin restricciones sobre el tipo de dato del valor. Por ejemplo:
+
+  ```json
+  "extraInfo": {
+    "imagePrompt": "Un texto bien, bien largo...",
+    "writings": [
+      "Vol. 1",
+      "Vol. 2",
+      "Vol. 3",
+      "Vol. 4"
+    ]
+  }
+  ```
 
 Un ejemplo de data, según los requisitos anteriores podría ser:
 
 ```js
 export default [
   {
+    "id": "ada-lovelace",
     "name": "Ada Lovelace",
-    "imgSrc": "URL_DE_LA_IMAGEN_GENERADA",
-    "statistic": {
-      "value": 1843,
-      "label": "año de nacimiento",
-    },
-    "description": "Primera programadora de la historia...",
+    "shortDescription": "Pionera de la informática, fue la primera programadora.",
+    "description": "Una visionaria del siglo XIX ...",
+    "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+    "facts": {
+      "yearOfBirth": 1843,
+      "placeOfBirth": "London, England",
+      "mainField": "Computer Science",
+    }
   },
   //... 23 objetos más
 ]
