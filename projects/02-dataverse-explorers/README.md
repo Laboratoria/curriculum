@@ -117,7 +117,7 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
   puede ser estructurada semánticamente en HTML como:
 
   ```html
-  <dl itemscope itemtype="WomeInTech">
+  <dl itemscope itemtype="WomenInTech">
     <img src="URL_DE_LA_IMAGEN_GENERADA" alt="Ada Lovelace" />
     <dt>Nombre:</dt><dd itemprop="name">Ada Lovelace</dd>
     <dt>Descripción:</dt><dd itemprop="description">Pionera de la informática, fue la primera programadora.</dd>
@@ -462,7 +462,7 @@ debe exportar un arreglo con 24 objetos. Y la estructura de cada objeto
 debe ser la siguiente:
 
 * `id`: Identificador único (no pueden haber dos elementos con el mismo `id`).
-  Debe ser un string de no más de 64 characteres, en minúscula, compuesto solo
+  Debe ser un string de no más de 32 characteres, en minúscula, compuesto solo
   por letras, números, underscore (`_`) o guión (`-`). Por ejemplo: `"ada-lovelace"`.
 * `name`: El nombre del personaje, país, película, etc.
 * `shortDescription`: Descripción corta del elemento. Esta descripción deberá
