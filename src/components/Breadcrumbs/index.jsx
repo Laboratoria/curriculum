@@ -1,9 +1,12 @@
 import { useParams, Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
 import Box from '@mui/material/Box';
+import { removePrefixIfNumber } from '../Part';
 
 const Breadcrumbs = ({ topic, project }) => {
-  const { lang, slug, unit, part, exerciseid } = useParams();
+  const { lang, slug, exerciseid } = useParams();
+  const unit = removePrefixIfNumber(useParams().unit);
+  const part = removePrefixIfNumber(useParams().part);
   const track = topic ? topic.track : project.track;
 
   const links = [
@@ -43,7 +46,9 @@ const Breadcrumbs = ({ topic, project }) => {
           url: `/${lang}/topics/${slug}/${unit}/${part}`,
         });
         if (exerciseid) {
-          const challenge = partObj.challenges.find(({ slug }) => slug === exerciseid);
+          const challenge = partObj.challenges.find(
+            ({ slug }) => slug === exerciseid,
+          );
           links.push({
             title: challenge.intl[lang].title,
             url: `/${lang}/topics/${slug}/${unit}/${part}/${exerciseid}`,
@@ -57,7 +62,7 @@ const Breadcrumbs = ({ topic, project }) => {
     <Box sx={{ mb: 3, fontSize: '0.9em' }}>
       {links.map(({ title, url }, idx) => (
         <span key={`${url}-${idx}`}>
-          {idx > 0 && (<Box sx={{ display: 'inline-block', px: 1 }}>»</Box>)}
+          {idx > 0 && <Box sx={{ display: 'inline-block', px: 1 }}>»</Box>}
           <Link to={url}>{title}</Link>
         </span>
       ))}
