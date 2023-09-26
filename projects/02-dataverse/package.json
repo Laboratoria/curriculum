@@ -7,7 +7,7 @@
     "htmlhint": "htmlhint src/*.html test/*.html",
     "eslint": "eslint --ext .js src/ test/",
     "pretest": "npm run eslint && npm run htmlhint",
-    "test": "jest --verbose --coverage test/*.spec.js",
+    "test": "jest --verbose --coverage test/",
     "test:e2e": "playwright test",
     "test:oas": "jest --verbose tests-read-only/oa/",
     "pretest:oas-html": "npm run pretest",
