@@ -298,6 +298,11 @@ typescript:
     - abstract-classes
   - decorators
 
+ai-prompting:
+  - giving-instructions
+  - few-shot-prompting
+  - priming-chatbots
+
 # New OAs since UXD006
 agile-planning:
   - scope
