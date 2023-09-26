@@ -9,6 +9,7 @@
 * [5. Criterios de aceptación del proyecto](#5-criterios-de-aceptación-del-proyecto)
 * [6. Despliegue](#6-despliegue)
 * [7. Pistas / tips](#7-pistas--tips)
+* [8. Funcionalidades opcionales](#8-funcionalidades-opcionales)
 
 ***
 
@@ -284,50 +285,6 @@ rápidamente a lxs clientxs que las hicieron.
 * Los datos se deben mantener íntegros, incluso después de que un pedido ha
   terminado. Todo esto para poder tener estadísticas en el futuro.
 
-***
-
-#### [Historia de usuario 5] Administrador(a) de tienda debe administrar a sus trabajadorxs
-
-Yo como administrador(a) de tienda quiero gestionar a los usuarios de
-la plataforma para mantener actualizado la informacion de mis trabajadorxs.
-
-##### Criterios de aceptación
-
-* Ver listado de trabajadorxs.
-* Agregar trabajadorxs.
-* Eliminar trabajadoxs.
-* Actualizar datos de trabajadorxs.
-
-##### Definición de terminado
-
-* Debes haber recibido _code review_ de al menos una compañera.
-* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
-* Desplegaste tu aplicación y has etiquetado tu versión (git tag).
-
-***
-
-#### [Historia de usuario 6] Administrador(a) de tienda debe administrar a sus productos
-
-Yo como administrador(a) de tienda quiero gestionar los productos
-para mantener actualizado el menú.
-
-##### Criterios de aceptación
-
-* Ver listado de productos.
-* Agregar productos.
-* Eliminar productos.
-* Actualizar datos de productos.
-
-##### Definición de terminado
-
-* Debes haber recibido _code review_ de al menos una compañera.
-* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
-* Desplegaste tu aplicación y has etiquetado tu versión (git tag).
-
-***
-
 ## 6. Despliegue
 
 Puedes elegir el proveedor (o proveedores) que prefieras junto
@@ -367,3 +324,50 @@ para conversar y pedir ayuda del proyecto.
 * [Tu primera Progressive Web App - Google developers](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/?hl=es)
 * [Progressive Web Apps - codigofacilito.com](https://codigofacilito.com/articulos/progressive-apps)
 * [Usando Service Workers - MDN](https://developer.mozilla.org/es/docs/Web/API/Service_Worker_API/Using_Service_Workers)
+
+## 8. Funcionalidades opcionales
+
+Si completaste todas las funcionalidades del proyecto te invitamos
+a trabajar en las siguientes historias de usuaria:
+
+***
+
+### [Historia de usuario 5] Administrador(a) de tienda debe administrar a sus trabajadorxs
+
+Yo como administrador(a) de tienda quiero gestionar a los usuarios de
+la plataforma para mantener actualizado la informacion de mis trabajadorxs.
+
+#### Criterios de aceptación
+
+* Ver listado de trabajadorxs.
+* Agregar trabajadorxs.
+* Eliminar trabajadoxs.
+* Actualizar datos de trabajadorxs.
+
+#### Definición de terminado
+
+* Debes haber recibido _code review_ de al menos una compañera.
+* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
+* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
+* Desplegaste tu aplicación y has etiquetado tu versión (git tag).
+
+***
+
+### [Historia de usuario 6] Administrador(a) de tienda debe administrar a sus productos
+
+Yo como administrador(a) de tienda quiero gestionar los productos
+para mantener actualizado el menú.
+
+#### Criterios de aceptación
+
+* Ver listado de productos.
+* Agregar productos.
+* Eliminar productos.
+* Actualizar datos de productos.
+
+#### Definición de terminado
+
+* Debes haber recibido _code review_ de al menos una compañera.
+* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
+* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
+* Desplegaste tu aplicación y has etiquetado tu versión (git tag).
