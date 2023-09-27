@@ -14,8 +14,22 @@ describe('Test de data set', () => {
       const idsSet = new Set(ids);
       expect(ids.length).toBe(idsSet.size);
     });
-    it.skip('Los elementos comparten en sus "facts" al menos 3 propiedades', () => {
-      // FIXME
+    it('Los elementos comparten en sus "facts" al menos 3 propiedades', () => {
+      // Iteramos todos los elementos, obtenemos los keys de la propiedad `facts`
+      // y vamos acumulando en un objeto la cantidad de veces que aparece cada key
+      const factsKeysCount = data.reduce((acc, item) => {
+        Object.keys(item.facts).forEach((key) => {
+          acc[key] = acc[key] ? acc[key] + 1 : 1;
+        });
+        return acc;
+      }, {});
+
+      // validamos que al menos 3 de las propiedades de `facts` aparezcan
+      // en todos los elementos
+      const minCount = 3;
+      const validKeysCount = Object.values(factsKeysCount)
+        .filter((count) => count === data.length).length;
+      expect(validKeysCount).toBeGreaterThanOrEqual(minCount);
     });
   });
   
