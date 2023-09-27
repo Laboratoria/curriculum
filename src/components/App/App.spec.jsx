@@ -7,9 +7,6 @@ import App from './index.jsx';
 
 vi.mock('@laboratoria/react');
 
-// extends Vitest's expect method with methods from react-testing-library
-expect.extend(matchers);
-
 describe('App', () => {
   beforeEach(() => {
     useApp.mockRestore();
