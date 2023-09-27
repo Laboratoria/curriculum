@@ -5,6 +5,9 @@ import { removePrefixIfNumber } from '../Part';
 
 const Breadcrumbs = ({ topic, project }) => {
   const { lang, slug, exerciseid } = useParams();
+  // Luego de un cambio de versión, los slugs de las unidades y partes
+  // dejaron de utilizar un prefijo numérico, para que no arroje error
+  // se las removemos. Ejemplo: 01-intro-a-js -> intro-a-js
   const unit = removePrefixIfNumber(useParams().unit);
   const part = removePrefixIfNumber(useParams().part);
   const track = topic ? topic.track : project.track;
@@ -46,9 +49,7 @@ const Breadcrumbs = ({ topic, project }) => {
           url: `/${lang}/topics/${slug}/${unit}/${part}`,
         });
         if (exerciseid) {
-          const challenge = partObj.challenges.find(
-            ({ slug }) => slug === exerciseid,
-          );
+          const challenge = partObj.challenges.find(({ slug }) => slug === exerciseid);
           links.push({
             title: challenge.intl[lang].title,
             url: `/${lang}/topics/${slug}/${unit}/${part}/${exerciseid}`,

@@ -9,6 +9,9 @@ import {
 } from '@laboratoria/react';
 import Breadcrumbs from '../Breadcrumbs';
 
+// Luego de un cambio de versión, los slugs de las unidades y partes
+// dejaron de utilizar un prefijo numérico, para que no arroje error
+// se las removemos. Ejemplo: 01-intro-a-js -> intro-a-js
 export const removePrefixIfNumber = (str) => {
   if (!str) return str;
   const strArr = str.split('-');
@@ -21,8 +24,8 @@ export const removePrefixIfNumber = (str) => {
 
 const Part = ({ lang, topic }) => {
   const params = useParams();
-  let paramsUnit = removePrefixIfNumber(params.unit);
-  let paramsPart = removePrefixIfNumber(params.part);
+  const paramsUnit = removePrefixIfNumber(params.unit);
+  const paramsPart = removePrefixIfNumber(params.part);
   const unit = topic.units.find(({ slug }) => slug === paramsUnit);
   const part = unit.parts.find(({ slug }) => slug === paramsPart);
   const challenges = part.challenges?.map((challenge) => {
