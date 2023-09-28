@@ -16,7 +16,7 @@
 ## 1. Preámbulo
 En nuestro día a día, las aplicaciones web son como amigas inseparables. Desde las redes sociales hasta las herramientas de trabajo, las usamos todo el tiempo. Pero lo que hace que este momento sea realmente especial es que estas aplicaciones nos pueden abrir una puerta a algo asombroso: la interacción con inteligencia artificial.
 
-¿Qué tal si pudieramos conversar con alguien que vivió hace más de cien años o incluso con los personajes de nuestras series y películas favoritas? La inteligencia artificial nos puede ayudar a entender el pasado y a conectarnos con figuras históricas, así como a sumergirnos en mundos ficticios.
+¿Qué tal si pudiéramos conversar con alguien que vivió hace más de cien años o incluso con los personajes de nuestras series y películas favoritas o con entidades que normalmente no pueden hablar como por ejemplo planetas o animales? La inteligencia artificial nos puede ayudar a entender el pasado y a conectarnos con figuras históricas, así como a sumergirnos en mundos ficticios.
 
 ![pokemon-data-to-ui](https://user-images.githubusercontent.com/12631491/218505816-c6d11758-9de4-428f-affb-2a56ea4d68c4.png)
 
@@ -25,7 +25,7 @@ Este proyecto tiene como objetivo principal tomar lo que hiciste en Dataverse pa
 
 La aplicación ofrecerá detalles individualizados de cada personaje y la posibilidad de interactuar con ellos a través de un sistema de chat impulsado por la [API de OpenAI](https://openai.com/product). Además, se implementará una "Opinion Room" que permitirá a las usuarias realizar consultas simultáneas a todos los personajes.
 
-El proyecto proporciona una valiosa oportunidad de aprendizaje en Desarrollo Web Dinámico, Integración de API's y el entendimiento del asíncronismo en JavaScript. Esto a través de la transformación de un aplicación web estática en una [Single Page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application). Además, de poder comprender cómo integrar la [API de OpenAI](https://openai.com/product) para habilitar funciones avanzadas, como el chat impulsado por inteligencia artificial. Este proceso implica la comprensión de cómo enviar solicitudes asíncronas a la API, procesar las respuestas y mostrarlas en tiempo real en la aplicación web.
+El proyecto proporciona una valiosa oportunidad de aprendizaje en Desarrollo Web Dinámico, Integración de API's y el entendimiento del asincronismo en JavaScript. Esto a través de la transformación de un aplicación web estática en una [Single Page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application). Además, de poder comprender cómo integrar la [API de OpenAI](https://openai.com/product) para habilitar funciones avanzadas, como el chat impulsado por inteligencia artificial. Este proceso implica la comprensión de cómo enviar solicitudes asíncronas a la API, procesar las respuestas y mostrarlas en tiempo real en la aplicación web.
 
 ## 3. Consideraciones generales
 * Este proyecto se debe resolver en duplas.
@@ -85,9 +85,11 @@ Los siguientes wireframes, son ejemplos de una interfaz que puede cumplir con es
 funcionalidad. Como podrás ver, estos diseños cumplen con la metodología
 [Mobile First](https://developer.mozilla.org/es/docs/Glossary/Mobile_First), la misma
 que te recomendamos utilizar en todos tus proyectos:
+
 Diseño Mobile:
 * [Wireframe mobile 1](https://github.com/Laboratoria/curriculum/assets/123121338/54711bb7-cb05-448e-b677-3cbd9bf13c14)
 * [Wireframe mobile 2](https://github.com/Laboratoria/curriculum/assets/123121338/bf96d3ce-150f-47a2-a605-2efac2e0497b)
+
 Diseño Desktop:
 * [Wireframe desktop 1](https://github-production-user-asset-6210df.s3.amazonaws.com/92090/261137084-1625aeb8-883c-4b79-86da-5fab34fa5b88.png)
 * [Wireframe desktop 2](https://github-production-user-asset-6210df.s3.amazonaws.com/92090/261137087-6cef16bc-643a-4d6d-bc1c-e0daaeb21c88.png)
@@ -98,7 +100,7 @@ La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6), HTML y CSS. En este proyecto NO está permitido usar librerías o
 frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e),
 con la excepción de librerías para hacer gráficas (charts); ver
-[_Parte opcional_](#7-hacker-edition) más arriba.
+[_Parte opcional_](#7-hacker-edition) más abajo.
 
 El _boilerplate_ contiene una estructura de archivos como punto de partida así
 como toda la configuración de dependencias:
