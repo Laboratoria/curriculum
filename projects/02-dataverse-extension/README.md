@@ -33,7 +33,7 @@ El proyecto proporciona una valiosa oportunidad de aprendizaje en Desarrollo Web
 * El rango de tiempo estimado para completar el proyecto es de 3 a 4 Sprints.
 
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
+  interfaz será desplegada usando cualquiera de estas opciones: [Vercel](https://vercel.com/) o [Netlify](https://www.netlify.com/).
 
 ## 4. Funcionalidades
 Como entregable final tendrás una Single Page Application (SPA) que permita, además de **visualizar la data,
