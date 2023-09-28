@@ -75,9 +75,15 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
   ```
   Este ejemplo muestra cómo las usuarias pueden entablar una conversación interactiva con Ada Lovelace a través del sistema de chat, obteniendo información sobre sus logros, desafíos y contribuciones a la informática. La inteligencia artificial de OpenAI permite que las respuestas sean informativas y personalizadas según las preguntas de los usuarios.
 
-* Se agregará una página llamada "Opinion Room" (TBD) que permitirá a las usuarias realizar una misma consulta a todos los personajes de manera simultánea. Esto se logrará mediante técnicas de asincronía y gestión eficiente de las solicitudes para brindar una experiencia fluida y eficaz.
+* Se agregará una página llamada "Dataverse Chat" que permitirá a las usuarias
+  realizar una misma consulta a todos los personajes de manera simultánea.
+  Esto se logrará mediante técnicas de asincronía y gestión eficiente de las
+  solicitudes para brindar una experiencia fluida y eficaz.
 
-  Supongamos que una usuaria está interesada en obtener opiniones de todos los personajes sobre un tema en particular. En lugar de tener que visitar las páginas de detalle de cada personaje de forma individual, puede acceder a la "Opinion Room" y realizar su consulta en un solo lugar.
+  Supongamos que una usuaria está interesada en obtener opiniones de todos los
+  personajes sobre un tema en particular. En lugar de tener que visitar las
+  páginas de detalle de cada personaje de forma individual, puede acceder a la
+  "Opinion Room" y realizar su consulta en un solo lugar.
 
   **Ejemplo de Uso:**
   1. La usuaria ingresa a la "Opinion Room."
