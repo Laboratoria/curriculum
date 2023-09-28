@@ -369,72 +369,8 @@ Usa tus historias de usuaria para planificar tus sprints dividiendo
 cada historia en tareas.
 
 En la medida de lo posible, termina una Historia de Usuaria antes de pasar
-a la siguiente (cumpliendo con la Definición de Terminado y los Criterios de Aceptación).
-
-#### Generar los datos
-
-La temática será a tu gusto, por ejemplo, pueden ser personajes importantes
-en la historia, países, películas... etc. El archivo javascript con los
-datos, debe exportar un arreglo con 24 objetos. Y la estructura de cada objeto
-deberá ser la siguiente:
-
-* `name:` Nombre del dato que se va dibujar en la vista.
-* `img:` URL de la imagen. Esta imagen será generada a través de alguna
-  herramienta basada en inteligencia artifical. Una vez generada la imagen,
-  se deberá agregar la URL en este campo.
-* `statistics:` Un objeto con las siguientes propiedades:
-  - `value`: Un valor numérico para el cálculo agregado (por ejemplo,
-    puntuaciones, cantidades, fechas, etc).
-  - `label`: Descripción el valor numérico
-* `description:` Descripción sobre el dato. Esta descripción deberá tener
-  como mínimo 100 palabras. Al momento de dibujar este dato en pantalla
-  puedes truncarlo para que no te ocupe mucho espacio.
-
-Un ejemplo de data, según los requisitos anteriores podría ser:
-
-```js
-export default [
-  {
-    "name": "Ada Lovelace",
-    "img": "URL_DE_LA_IMAGEN_GENERADA",
-    "statistic": {
-      "value": 1843,
-      "label": "año de nacimiento",
-    },
-    "description": "Primera programadora de la historia...",
-  },
-  //... 23 objetos más
-]
-```
-
-La data generada deberás reemplazarla por el contenido de este archivo:
-`./src/data/dataset.js`.
-
-**El tiempo estimado que deberías dedicar a la generación de estos datos
-es de máximo un sprint.** Si transcurrido un sprint, no tienes un
-conjunto de datos generados, deberás
-utilizar los datos de ejemplo ubicados en la ruta:
-`./src/data/dataset.js`.
-
-Las URLs de las imágenes, dentro del archivo javascript, deben hacer referencia
-a las imágenes generadas por la inteligencia artificial.
-
-Una vez que tengas el archivo javascript completo, recuerda correr los test con
-`npm run test` para verificar que el archivo esté cumpliendo con lo
-solicitado.
-
-Una vez que hayas delimitado tu campo de interés y generado el archivo
-javascript con la asistencia de la inteligenica artificial, dedica
-tiempo a comprender a fondo a tu usuaria y sus
-necesidades específicas. A partir de esta comprensión, podrás diseñar la
-interfaz que facilite una interacción más efectiva y una comprensión más
-completa de los datos presentados.
-
-#### Prompt utilizado
-
-Dentro del readme que armarás, debe incluir una captura de pantalla
-de tu prompt utilizado para generar los datos. Si utilizaste varios prompts,
-puedes adjuntar todas las capturas que necesites.
+a la siguiente (cumpliendo con la Definición de Terminado y los Criterios
+de Aceptación).
 
 #### Diseño de la Interfaz de Usuaria
 
