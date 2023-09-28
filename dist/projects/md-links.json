@@ -2,9 +2,9 @@
   "slug": "md-links",
   "repo": "Laboratoria/curriculum",
   "path": "projects/04-md-links",
-  "version": "7.1.0",
-  "parserVersion": "5.0.0-beta.0",
-  "createdAt": "2023-09-13T14:13:06.225Z",
+  "version": "7.2.0",
+  "parserVersion": "5.1.0",
+  "createdAt": "2023-09-28T20:34:08.792Z",
   "prefix": 4,
   "track": "web-dev",
   "learningObjectives": [
