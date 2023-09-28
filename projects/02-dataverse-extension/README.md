@@ -18,7 +18,7 @@ En nuestro día a día, las aplicaciones web son como amigas inseparables. Desde
 
 ¿Qué tal si pudiéramos conversar con alguien que vivió hace más de cien años o incluso con los personajes de nuestras series y películas favoritas o con entidades que normalmente no pueden hablar como por ejemplo planetas o animales? La inteligencia artificial nos puede ayudar a entender el pasado y a conectarnos con figuras históricas, así como a sumergirnos en mundos ficticios.
 
-![pokemon-data-to-ui](https://user-images.githubusercontent.com/12631491/218505816-c6d11758-9de4-428f-affb-2a56ea4d68c4.png)
+![Preview app](https://github.com/Laboratoria/curriculum/assets/123121338/2bd1477b-15ef-49d4-9fcb-226b3263c46a)
 
 ## 2. Resumen del proyecto
 Este proyecto tiene como objetivo principal tomar lo que hiciste en Dataverse para llevarlo al siguiente nivel permitiendo a las usuarias obtener opiniones de un conjunto de datos generado con técnicas de inteligencia artificial.
