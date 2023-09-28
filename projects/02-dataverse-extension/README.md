@@ -23,7 +23,11 @@ En nuestro día a día, las aplicaciones web son como amigas inseparables. Desde
 ## 2. Resumen del proyecto
 Este proyecto tiene como objetivo principal tomar lo que hiciste en Dataverse para llevarlo al siguiente nivel permitiendo a las usuarias obtener opiniones de un conjunto de datos generado con técnicas de inteligencia artificial.
 
-La aplicación ofrecerá detalles individualizados de cada personaje y la posibilidad de interactuar con ellos a través de un sistema de chat impulsado por la [API de OpenAI](https://openai.com/product). Además, se implementará una "Opinion Room" que permitirá a las usuarias realizar consultas simultáneas a todos los personajes.
+La aplicación ofrecerá detalles individualizados de cada personaje o entidad
+y la posibilidad de interactuar con ellos a través de un sistema de chat
+impulsado por la [API de OpenAI](https://openai.com/product). Además, se
+implementará una "Opinion Room" que permitirá a las usuarias realizar
+consultas simultáneas a todos los personajes.
 
 El proyecto proporciona una valiosa oportunidad de aprendizaje en Desarrollo Web Dinámico, Integración de API's y el entendimiento del asincronismo en JavaScript. Esto a través de la transformación de un aplicación web estática en una [Single Page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application). Además, de poder comprender cómo integrar la [API de OpenAI](https://openai.com/product) para habilitar funciones avanzadas, como el chat impulsado por inteligencia artificial. Este proceso implica la comprensión de cómo enviar solicitudes asíncronas a la API, procesar las respuestas y mostrarlas en tiempo real en la aplicación web.
 
