@@ -40,13 +40,24 @@ Como entregable final tendrás una Single Page Application (SPA) que permita, ad
 filtrarla, ordenarla y calcular alguna estadística** tal como se hizo en Dataverse, poder tener interacción con los personajes del set de data que utilizaste anteriormente.
 Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
 
-* Hacer una refactorización de tu proyecto pasado para mejorar la experiencia de la usuaria y hacer que la página web sea más dinámica y funcional. El objetivo principal de esta refactorización es reemplazar el contenido estático HTML por contenido dinámico, lo cual se logrará mediante la implementación de Web APIs.
+* Transforma tu proyecto en una Single Page Application (SPA) más interactiva,
+  reemplazando el contenido estático HTML por contenido dinámico mediante la
+  implementación de Web APIs. Al hacer clic en una tarjeta de personaje, las
+  usuarias serán redirigidas a una página exclusiva que muestra detalles
+  completos sobre ese personaje en particular. Esto mejorará la experiencia
+  de la usuaria y hará que la página web sea más dinámica y funcional.
 
-* Transformar tu proyecto en una Single Page Application (SPA) más interactiva. Ahora, al hacer clic en una tarjeta de personaje, las usuarias serán redirigidas a una página exclusiva que muestra detalles completos sobre ese personaje en particular.
+* Además de mostrar los detalles completos de cada personaje en sus páginas
+  dedicadas, las usuarias podrán interactuar con esos personajes a través de
+  un sistema de chat incorporado. Esto se logrará mediante la integración de
+  la API de OpenAI, esto para gestionar la comunicación y la aplicación de
+  inteligencia artificial (AI) para generar respuestas inteligentes y
+  personalizadas.
 
-* Además de mostrar los detalles completos de cada personaje en sus páginas dedicadas, las usuarias podrán interactuar con esos personajes a través de un sistema de chat incorporado. Esto se logrará mediante la integración de la API de OpenAI, esto para gestionar la comunicación y la aplicación de inteligencia artificial (AI) para generar respuestas inteligentes y personalizadas.
-
-  Supongamos que las usuarias han accedido a la página de detalle de [Ada Lovelace](https://es.wikipedia.org/wiki/Ada_Lovelace), donde pueden conocer más sobre su vida y logros. En esa página, también encontrarán un cuadro de chat que les permite interactuar con Ada.
+  Supongamos que las usuarias han accedido a la página de detalle de
+  [Ada Lovelace](https://es.wikipedia.org/wiki/Ada_Lovelace), donde pueden
+  conocer más sobre su vida y logros. En esa página, también encontrarán un
+  cuadro de chat que les permite interactuar con Ada.
   
   ```plaintext
   Usuaria: "Hola, Ada. Cuéntame más sobre tus contribuciones a la informática."
