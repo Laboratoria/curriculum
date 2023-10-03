@@ -150,12 +150,18 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
   la "Opinion Room," lo que permite a la usuaria obtener una variedad de
   perspectivas en un solo lugar
 
+* Para que los chats anteriores funcionen, es necesario que la aplicación se
+  pueda integrar con la IA a través la API de OpenAI. Para ello, la usuaria
+  se debe crear una cuenta en la plataforma de [OpenAI](https://openai.com/) y
+  obtener una API Key. La usuaria deberá poder ingresar su API Key en
+  la aplicación que tu construirás.
+
 * La aplicación será _responsive_, es decir, debe visualizarse sin problemas
   desde distintos tamaños de pantallas: móviles, tablets y desktops.
-Los siguientes wireframes, son ejemplos de una interfaz que puede cumplir con esta
-funcionalidad. Como podrás ver, estos diseños cumplen con la metodología
-[Mobile First](https://developer.mozilla.org/es/docs/Glossary/Mobile_First), la misma
-que te recomendamos utilizar en todos tus proyectos:
+  Los siguientes wireframes, son ejemplos de una interfaz que puede cumplir con esta
+  funcionalidad. Como podrás ver, estos diseños cumplen con la metodología
+  [Mobile First](https://developer.mozilla.org/es/docs/Glossary/Mobile_First), la misma
+  que te recomendamos utilizar en todos tus proyectos:
 
 Diseño Mobile:
 
