@@ -1,6 +1,7 @@
 # Data Lovers
 
 ## Índice
+
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Funcionalidades](#3-funcionalidades)
@@ -11,17 +12,33 @@
 * [8. Objetivos de aprendizaje](#8-objetivos-de-aprendizaje)
 * [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
 * [10. Consideraciones para pedir tu Project Feedback](#10-consideraciones-para-pedir-tu-project-feedback)
+
 ***
 
 ## 1. Preámbulo
-En nuestro día a día, las aplicaciones web son como amigas inseparables. Desde las redes sociales hasta las herramientas de trabajo, las usamos todo el tiempo. Pero lo que hace que este momento sea realmente especial es que estas aplicaciones nos pueden abrir una puerta a algo asombroso: la interacción con inteligencia artificial.
 
-¿Qué tal si pudiéramos conversar con alguien que vivió hace más de cien años o incluso con los personajes de nuestras series y películas favoritas o con entidades que normalmente no pueden hablar como por ejemplo planetas o animales? La inteligencia artificial nos puede ayudar a entender el pasado y a conectarnos con figuras históricas, así como a sumergirnos en mundos ficticios.
+En nuestro día a día, las aplicaciones web son como amigas
+inseparables. Desde las redes sociales hasta las herramientas de
+trabajo, las usamos todo el tiempo. Pero lo que hace que este
+momento sea realmente especial es que estas aplicaciones nos pueden
+abrir una puerta a algo asombroso: la interacción con inteligencia
+artificial.
+
+¿Qué tal si pudiéramos conversar con alguien que vivió hace más de
+cien años o incluso con los personajes de nuestras series y
+películas favoritas o con entidades que normalmente no pueden hablar
+como por ejemplo planetas o animales? La inteligencia artificial nos
+puede ayudar a entender el pasado y a conectarnos con figuras
+históricas, así como a sumergirnos en mundos ficticios.
 
 ![Preview app](https://github.com/Laboratoria/curriculum/assets/123121338/2bd1477b-15ef-49d4-9fcb-226b3263c46a)
 
 ## 2. Resumen del proyecto
-Este proyecto tiene como objetivo principal tomar lo que hiciste en Dataverse para llevarlo al siguiente nivel permitiendo a las usuarias obtener opiniones de un conjunto de datos generado con técnicas de inteligencia artificial.
+
+Este proyecto tiene como objetivo principal tomar lo que hiciste
+en Dataverse para llevarlo al siguiente nivel permitiendo a las
+usuarias obtener opiniones de un conjunto de datos generado con
+técnicas de inteligencia artificial.
 
 La aplicación ofrecerá detalles individualizados de cada personaje o entidad
 y la posibilidad de interactuar con ellos a través de un sistema de chat
@@ -29,9 +46,18 @@ impulsado por la [API de OpenAI](https://openai.com/product). Además, se
 implementará una "Opinion Room" que permitirá a las usuarias realizar
 consultas simultáneas a todos los personajes.
 
-El proyecto proporciona una valiosa oportunidad de aprendizaje en Desarrollo Web Dinámico, Integración de API's y el entendimiento del asincronismo en JavaScript. Esto a través de la transformación de un aplicación web estática en una [Single Page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application). Además, de poder comprender cómo integrar la [API de OpenAI](https://openai.com/product) para habilitar funciones avanzadas, como el chat impulsado por inteligencia artificial. Este proceso implica la comprensión de cómo enviar solicitudes asíncronas a la API, procesar las respuestas y mostrarlas en tiempo real en la aplicación web.
+El proyecto proporciona una valiosa oportunidad de aprendizaje en Desarrollo
+Web Dinámico, Integración de API's y el entendimiento del asincronismo en
+JavaScript. Esto a través de la transformación de un aplicación web estática
+en una [Single Page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application).
+Además, de poder comprender cómo integrar la
+[API de OpenAI](https://openai.com/product) para habilitar funciones avanzadas,
+como el chat impulsado por inteligencia artificial. Este proceso implica la
+comprensión de cómo enviar solicitudes asíncronas a la API, procesar las respuestas
+y mostrarlas en tiempo real en la aplicación web.
 
 ## 3. Consideraciones generales
+
 * Este proyecto se debe resolver en duplas.
 
 * El rango de tiempo estimado para completar el proyecto es de 3 a 4 Sprints.
@@ -40,11 +66,15 @@ El proyecto proporciona una valiosa oportunidad de aprendizaje en Desarrollo Web
   de la aplicación.
 
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando cualquiera de estas opciones: [Vercel](https://vercel.com/) o [Netlify](https://www.netlify.com/).
+  interfaz será desplegada usando cualquiera de estas opciones:
+  [Vercel](https://vercel.com/) o [Netlify](https://www.netlify.com/).
 
 ## 4. Funcionalidades
-Como entregable final tendrás una Single Page Application (SPA) que permita, además de **visualizar la data,
-filtrarla, ordenarla y calcular alguna estadística** tal como se hizo en Dataverse, poder tener interacción con los personajes del set de data que utilizaste anteriormente.
+
+Como entregable final tendrás una Single Page Application (SPA) que permita,
+además de **visualizar la data, filtrarla, ordenarla y calcular alguna
+estadística** tal como se hizo en Dataverse, poder tener interacción con
+los personajes del set de data que utilizaste anteriormente.
 Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
 
 * Transforma tu proyecto en una Single Page Application (SPA) más interactiva,
@@ -69,14 +99,32 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
   ```plaintext
   Usuaria: "Hola, Ada. Cuéntame más sobre tus contribuciones a la informática."
 
-  Ada Lovelace (AI de OpenAI): "¡Hola! Claro, estaré encantada de hablar sobre eso. Mis contribuciones más destacadas se relacionan con el trabajo junto a Charles Babbage en el diseño de la Máquina Analítica. Este diseño se considera como el precursor de la computadora moderna y yo propuse la idea de usar tarjetas perforadas para programarla. Además, desarrollé el primer algoritmo destinado a ser procesado por una máquina, lo que me convierte en la primera programadora de la historia.
+  Ada Lovelace (AI de OpenAI): "¡Hola! Claro, estaré encantada de hablar sobre
+  eso. Mis contribuciones más destacadas se relacionan con el trabajo junto a
+  Charles Babbage en el diseño de la Máquina Analítica. Este diseño se
+  considera como el precursor de la computadora moderna y yo propuse la idea
+  de usar tarjetas perforadas para programarla. Además, desarrollé el primer
+  algoritmo destinado a ser procesado por una máquina, lo que me convierte en
+  la primera programadora de la historia.
   ¿Hay algo más en particular que te gustaría saber?"
 
   Usuaria: "¡Eso es fascinante! ¿Qué desafíos enfrentaste en ese tiempo?"
 
-  Ada Lovelace (AI de OpenAI): "En ese tiempo, enfrenté varios desafíos, uno de los principales fue la limitación de recursos y la falta de reconocimiento del potencial de la Máquina Analítica. También tuve que superar las restricciones sociales de la época, ya que las mujeres tenían un acceso limitado a la educación en matemáticas y ciencias. Sin embargo, mi pasión por la matemática y la visión de lo que estas máquinas podrían lograr me impulsaron a seguir adelante."
+  Ada Lovelace (AI de OpenAI): "En ese tiempo, enfrenté varios desafíos, uno
+  de los principales fue la limitación de recursos y la falta de
+  reconocimiento del potencial de la Máquina Analítica. También tuve que
+  superar las restricciones sociales de la época, ya que las mujeres tenían
+  un acceso limitado a la educación en matemáticas y ciencias. Sin embargo,
+  mi pasión por la matemática y la visión de lo que estas máquinas podrían
+  lograr me impulsaron a seguir adelante."
+
   ```
-  Este ejemplo muestra cómo las usuarias pueden entablar una conversación interactiva con Ada Lovelace a través del sistema de chat, obteniendo información sobre sus logros, desafíos y contribuciones a la informática. La inteligencia artificial de OpenAI permite que las respuestas sean informativas y personalizadas según las preguntas de los usuarios.
+  
+  Este ejemplo muestra cómo las usuarias pueden entablar una conversación
+  interactiva con Ada Lovelace a través del sistema de chat, obteniendo
+  información sobre sus logros, desafíos y contribuciones a la informática.
+  La inteligencia artificial de OpenAI permite que las respuestas sean
+  informativas y personalizadas según las preguntas de los usuarios.
 
 * Se agregará una página llamada "Dataverse Chat" que permitirá a las usuarias
   realizar una misma consulta a todos los personajes de manera simultánea.
@@ -93,15 +141,20 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
 
   2. Encuentra un cuadro de texto donde puede ingresar su pregunta o tema de interés.
 
-  3. La usuaria escribe su consulta, por ejemplo: "¿Qué opinan sobre la tecnología del siglo XIX?"
+  3. La usuaria escribe su consulta, por ejemplo: "¿Qué opinan sobre la
+  tecnología del siglo XIX?"
 
   4. A continuación, presiona el botón de "Enviar."
 
-  5. El sistema utiliza técnicas de asincronía para enviar la misma consulta a todos los personajes de manera simultánea.
+  5. El sistema utiliza técnicas de asincronía para enviar la misma
+  consulta a todos los personajes de manera simultánea.
 
-  6. Cada personaje recibe la consulta y genera su propia respuesta basada en su personalidad y conocimiento.
+  6. Cada personaje recibe la consulta y genera su propia respuesta
+  basada en su personalidad y conocimiento.
 
-  7. Las respuestas de todos los personajes se muestran de manera ordenada en la "Opinion Room," lo que permite a la usuaria obtener una variedad de perspectivas en un solo lugar
+  7. Las respuestas de todos los personajes se muestran de manera ordenada en
+  la "Opinion Room," lo que permite a la usuaria obtener una variedad de
+  perspectivas en un solo lugar
 
 * La aplicación será _responsive_, es decir, debe visualizarse sin problemas
   desde distintos tamaños de pantallas: móviles, tablets y desktops.
@@ -111,11 +164,15 @@ funcionalidad. Como podrás ver, estos diseños cumplen con la metodología
 que te recomendamos utilizar en todos tus proyectos:
 
 Diseño Mobile:
+
 * [Wireframe mobile 1](https://github.com/Laboratoria/curriculum/assets/123121338/54711bb7-cb05-448e-b677-3cbd9bf13c14)
+
 * [Wireframe mobile 2](https://github.com/Laboratoria/curriculum/assets/123121338/bf96d3ce-150f-47a2-a605-2efac2e0497b)
 
 Diseño Desktop:
+
 * [Wireframe desktop 1](https://github-production-user-asset-6210df.s3.amazonaws.com/92090/261137084-1625aeb8-883c-4b79-86da-5fab34fa5b88.png)
+
 * [Wireframe desktop 2](https://github-production-user-asset-6210df.s3.amazonaws.com/92090/261137087-6cef16bc-643a-4d6d-bc1c-e0daaeb21c88.png)
 
 ## 5. Consideraciones técnicas
