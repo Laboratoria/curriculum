@@ -86,7 +86,11 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
 
 * Además de mostrar los detalles completos de cada personaje en sus páginas
   dedicadas, las usuarias podrán interactuar con esos personajes a través de
-  un sistema de chat incorporado. Esto se logrará mediante la integración de
+  un sistema de chat incorporado. Como lo muestra la siguiente imagen:
+  
+  ![Chat Ada Lovelace](https://github.com/Laboratoria/curriculum/assets/123121338/40fdc476-2a24-4aa5-a19d-3d83143b104c)
+  
+  Esto se logrará mediante la integración de
   la API de OpenAI, esto para gestionar la comunicación y la aplicación de
   inteligencia artificial (AI) para generar respuestas inteligentes y
   personalizadas.
@@ -99,24 +103,12 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
   ```plaintext
   Usuaria: "Hola, Ada. Cuéntame más sobre tus contribuciones a la informática."
 
-  Ada Lovelace (AI de OpenAI): "¡Hola! Claro, estaré encantada de hablar sobre
-  eso. Mis contribuciones más destacadas se relacionan con el trabajo junto a
-  Charles Babbage en el diseño de la Máquina Analítica. Este diseño se
-  considera como el precursor de la computadora moderna y yo propuse la idea
-  de usar tarjetas perforadas para programarla. Además, desarrollé el primer
-  algoritmo destinado a ser procesado por una máquina, lo que me convierte en
-  la primera programadora de la historia.
+  Ada Lovelace (AI de OpenAI): "¡Hola! Claro, estaré encantada de hablar sobre eso. Mis contribuciones más destacadas se relacionan con el trabajo junto a Charles Babbage en el diseño de la Máquina Analítica. Este diseño se considera como el precursor de la computadora moderna y yo propuse la idea de usar tarjetas perforadas para programarla. Además, desarrollé el primer algoritmo destinado a ser procesado por una máquina, lo que me convierte en la primera programadora de la historia. 
   ¿Hay algo más en particular que te gustaría saber?"
 
   Usuaria: "¡Eso es fascinante! ¿Qué desafíos enfrentaste en ese tiempo?"
 
-  Ada Lovelace (AI de OpenAI): "En ese tiempo, enfrenté varios desafíos, uno
-  de los principales fue la limitación de recursos y la falta de
-  reconocimiento del potencial de la Máquina Analítica. También tuve que
-  superar las restricciones sociales de la época, ya que las mujeres tenían
-  un acceso limitado a la educación en matemáticas y ciencias. Sin embargo,
-  mi pasión por la matemática y la visión de lo que estas máquinas podrían
-  lograr me impulsaron a seguir adelante."
+  Ada Lovelace (AI de OpenAI): "En ese tiempo, enfrenté varios desafíos, uno de los principales fue la limitación de recursos y la falta de reconocimiento del potencial de la Máquina Analítica. También tuve que superar las restricciones sociales de la época, ya que las mujeres tenían un acceso limitado a la educación en matemáticas y ciencias. Sin embargo, mi pasión por la matemática y la visión de lo que estas máquinas podrían lograr me impulsaron a seguir adelante."
 
   ```
   
@@ -130,6 +122,8 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
   realizar una misma consulta a todos los personajes de manera simultánea.
   Esto se logrará mediante técnicas de asincronía y gestión eficiente de las
   solicitudes para brindar una experiencia fluida y eficaz.
+
+  ![Chat grupal](https://github.com/Laboratoria/curriculum/assets/123121338/52bd7e39-caba-4d15-adb2-2e94de619244)
 
   Supongamos que una usuaria está interesada en obtener opiniones de todos los
   personajes sobre un tema en particular. En lugar de tener que visitar las
