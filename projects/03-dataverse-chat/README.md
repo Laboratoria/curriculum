@@ -51,16 +51,18 @@ Web Dinámico, Integración de API's y el entendimiento de la asincronía en
 JavaScript. Esto a través de la transformación de un aplicación web estática
 en una [Single Page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application).
 Además, de poder comprender cómo integrar la
-[API de OpenAI](https://openai.com/product) para habilitar funciones avanzadas,
-como el chat impulsado por inteligencia artificial. Este proceso implica la
-comprensión de cómo enviar solicitudes asíncronas a la API, procesar las respuestas
-y mostrarlas en tiempo real en la aplicación web.
+[API de OpenAI](https://openai.com/product) para enriquecer tus
+aplicaciones con AI.
+Este proceso implica la comprensión de cómo enviar solicitudes asíncronas
+a la API, procesar y guardar las respuestas para darle contexto a
+futuras interacciones, y finalmente mostrar el resultado final de la
+interacción a la usuaria en la aplicación web.
 
 ## 3. Consideraciones generales
 
 * Este proyecto se debe resolver en duplas.
 
-* El rango de tiempo estimado para completar el proyecto es de 3 a 4 Sprints.
+* El rango de tiempo estimado para completar el proyecto es de 4 a 6 Sprints.
 
 * Implementar un router para la navegación entre las diferentes vistas
   de la aplicación.
@@ -73,8 +75,9 @@ y mostrarlas en tiempo real en la aplicación web.
 
 Como entregable final tendrás una Single Page Application (SPA) que permita,
 además de **visualizar la data, filtrarla, ordenarla y calcular alguna
-estadística** tal como se hizo en Dataverse, poder tener interacción con
-los personajes del set de data que utilizaste anteriormente.
+estadística** tal como se hizo en Dataverse, acceder a una página de detalle
+de cada personaje y poder _interactuar_ con
+los personajes o entidades del set de data que utilizaste anteriormente.
 Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
 
 * Transforma tu proyecto en una Single Page Application (SPA) más interactiva,
@@ -121,17 +124,19 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
 * Se agregará una página llamada "Dataverse Chat" que permitirá a las usuarias
   realizar una misma consulta a todos los personajes de manera simultánea.
   Esto se logrará mediante técnicas de asincronía y gestión eficiente de las
-  solicitudes para brindar una experiencia fluida y eficaz.
+  solicitudes para brindar una experiencia fluida y eficaz. LA ruta para esta
+  nueva página deberá ser `/panel`. En la siguiente
+  imagen se muestra un ejemplo de cómo se vería esta funcionalidad:
 
   ![Chat grupal](https://github.com/Laboratoria/curriculum/assets/123121338/52bd7e39-caba-4d15-adb2-2e94de619244)
 
   Supongamos que una usuaria está interesada en obtener opiniones de todos los
   personajes sobre un tema en particular. En lugar de tener que visitar las
-  páginas de detalle de cada personaje de forma individual, puede acceder a la
-  "Opinion Room" y realizar su consulta en un solo lugar.
+  páginas de detalle de cada personaje de forma individual, puede acceder al
+  "Panel" y realizar su consulta en un solo lugar.
 
   **Ejemplo de Uso:**
-  1. La usuaria ingresa a la "Opinion Room."
+  1. La usuaria ingresa al "Panel."
 
   2. Encuentra un cuadro de texto donde puede ingresar su pregunta o tema de interés.
 
@@ -140,41 +145,31 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
 
   4. A continuación, presiona el botón de "Enviar."
 
-  5. El sistema utiliza técnicas de asincronía para enviar la misma
-  consulta a todos los personajes de manera simultánea.
+  5. El sistema envía la misma solicitud a todos los personajes o
+  entidades de manera simultánea.
 
   6. Cada personaje recibe la consulta y genera su propia respuesta
-  basada en su personalidad y conocimiento.
+  basada en su personalidad y conocimiento. Para esto, es necesario ajustar
+  el prompt para que los personajes tengan contexto y se comporten de manera
+  diferenciada. Por ejemplo en el caso de personajes de la historia, sabiendo
+  el lugar de naciemiento y el año, podemos dar contexto relevante o
+  condicionar su comportamiento, por ejemplo diciendole que no conoce ningún
+  descubrimiento de la ciencia posterior al año de su muerte.
 
   7. Las respuestas de todos los personajes se muestran de manera ordenada en
-  la "Opinion Room," lo que permite a la usuaria obtener una variedad de
-  perspectivas en un solo lugar
+  el "Panel", lo que permite a la usuaria obtener una variedad de
+  perspectivas en un solo lugar. Ten en cuenta que las respuestas se ordenarán
+  de según el orden de respuesta y no necesariamente por el orden de
+  solicitud.
 
-* Para que los chats anteriores funcionen, es necesario que la aplicación se
-  pueda integrar con la IA a través la API de OpenAI. Para ello, la usuaria
-  se debe crear una cuenta en la plataforma de [OpenAI](https://openai.com/) y
-  obtener una API Key. La usuaria deberá poder ingresar su API Key en
-  la aplicación que tu construirás.
+* Para que los chats anteriores puedan funcionar, es esencial que la
+  aplicación se integre con la IA a través de la API de OpenAI. Para ello,
+  el equipo de Laboratoria te proporcionará una API Key que la usuaria
+  deberá poder ingresar en la aplicación que tu construirás.
 
 * La aplicación será _responsive_, es decir, debe visualizarse sin problemas
   desde distintos tamaños de pantallas: móviles, tablets y desktops.
-  Los siguientes wireframes, son ejemplos de una interfaz que puede cumplir con esta
-  funcionalidad. Como podrás ver, estos diseños cumplen con la metodología
-  [Mobile First](https://developer.mozilla.org/es/docs/Glossary/Mobile_First), la misma
-  que te recomendamos utilizar en todos tus proyectos:
-
-Diseño Mobile:
-
-* [Wireframe mobile 1](https://github.com/Laboratoria/curriculum/assets/123121338/54711bb7-cb05-448e-b677-3cbd9bf13c14)
-
-* [Wireframe mobile 2](https://github.com/Laboratoria/curriculum/assets/123121338/bf96d3ce-150f-47a2-a605-2efac2e0497b)
-
-Diseño Desktop:
-
-* [Wireframe desktop 1](https://github-production-user-asset-6210df.s3.amazonaws.com/92090/261137084-1625aeb8-883c-4b79-86da-5fab34fa5b88.png)
-
-* [Wireframe desktop 2](https://github-production-user-asset-6210df.s3.amazonaws.com/92090/261137087-6cef16bc-643a-4d6d-bc1c-e0daaeb21c88.png)
-
+  
 ## 5. Consideraciones técnicas
 
 La lógica del proyecto debe estar implementada completamente en JavaScript
@@ -616,7 +611,7 @@ Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
       - [ ] El listado de problemas que detectaste a través de tests
         de usabilidad en el `README.md`
 * Tiene un UI que cumple las funcionalidades:
-  - [ ] Permite hacer clic sobre la tarjeta que representa la data, para 
+  - [ ] Permite hacer clic sobre la tarjeta que representa la data, para
     mostrar el chat.
   - [ ] Permite conversar con el personaje o entidad de la data a través
     de un chat.
