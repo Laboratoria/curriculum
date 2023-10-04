@@ -37,17 +37,17 @@ históricas, así como a sumergirnos en mundos ficticios.
 
 Este proyecto tiene como objetivo principal tomar lo que hiciste
 en Dataverse para llevarlo al siguiente nivel permitiendo a las
-usuarias obtener opiniones de un conjunto de datos generado con
-técnicas de inteligencia artificial.
+usuarias _conversar_ con un conjunto de datos generado con
+técnicas y herramientas de inteligencia artificial.
 
 La aplicación ofrecerá detalles individualizados de cada personaje o entidad
 y la posibilidad de interactuar con ellos a través de un sistema de chat
 impulsado por la [API de OpenAI](https://openai.com/product). Además, se
-implementará una "Opinion Room" que permitirá a las usuarias realizar
+implementará un "Panel" que permitirá a las usuarias realizar
 consultas simultáneas a todos los personajes.
 
 El proyecto proporciona una valiosa oportunidad de aprendizaje en Desarrollo
-Web Dinámico, Integración de API's y el entendimiento del asincronismo en
+Web Dinámico, Integración de API's y el entendimiento de la asincronía en
 JavaScript. Esto a través de la transformación de un aplicación web estática
 en una [Single Page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application).
 Además, de poder comprender cómo integrar la
@@ -607,8 +607,7 @@ Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
   que tienen una cobertura del 70% de _statements_ (_sentencias_),
   _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
 * [ ] Esta libre de _errores_ de `eslint` al ejecutar `npm run pretest`
-* [ ] Está subido a GitHub y desplegado en GitHub Pages
-* [ ] Captura de pantalla del prompt utilizado para generar los datos.
+* [ ] Está subido a GitHub y desplegado en Netlify o Vercel.
 * Tiene un `README.md` con la siguente:
       - [ ] _Definición del producto_ clara e informativa
       - [ ] Historias de usuaria
@@ -617,10 +616,11 @@ Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
       - [ ] El listado de problemas que detectaste a través de tests
         de usabilidad en el `README.md`
 * Tiene un UI que cumple las funcionalidades:
-  - [ ] Muestra lista con datos y/o indicadores
-  - [ ] Permite ordenar data por uno o más campos (asc y desc)
-  - [ ] Permite filtrar data con base en una condición
-  - [ ] Permite limpiar los filtros con un botón
+  - [ ] Permite hacer clic sobre la tarjeta que representa la data, para 
+    mostrar el chat.
+  - [ ] Permite conversar con el personaje o entidad de la data a través
+    de un chat.
+  - [ ] Permite chatear de forma grupal con todas las entidades de la data.
   - [ ] Es _responsive_
 
 Recuerda que debes hacer una autoevaluación de _objetivos de aprendizaje_ y
