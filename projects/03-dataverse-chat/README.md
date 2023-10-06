@@ -91,8 +91,14 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
   un sistema de chat incorporado. Como lo muestra la siguiente imagen:
   
   ![Chat Ada Lovelace](https://github.com/Laboratoria/curriculum/assets/123121338/40fdc476-2a24-4aa5-a19d-3d83143b104c)
+
+  También puede revisar esta [implementación](https://laboratoria-dataverse-talks.netlify.app/)
+  de ejemplo, cuyo principal objetivo es mostrarte cómo se vería la
+  funcionalidad de chat en tu aplicación, más no tomes el diseño como
+  referencia para tu proyecto, siente libre de hacer volar tu imaginación
+  diseñando tu propia interfaz.
   
-  Esto se logrará mediante la integración de
+  Lo anterior, lo lograrás mediante la integración de
   la API de OpenAI, esto para gestionar la comunicación y la aplicación de
   inteligencia artificial (AI) para generar respuestas inteligentes y
   personalizadas.
@@ -120,7 +126,7 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
   La inteligencia artificial de OpenAI permite que las respuestas sean
   informativas y personalizadas según las preguntas de los usuarios.
 
-* Se agregará una página llamada "Dataverse Chat" que permitirá a las usuarias
+* Se agregará una página llamada "Panel" que permitirá a las usuarias
   realizar una misma consulta a todos los personajes de manera simultánea.
   Esto se logrará mediante técnicas de asincronía y gestión eficiente de las
   solicitudes para brindar una experiencia fluida y eficaz. LA ruta para esta
@@ -161,9 +167,22 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
   de según el orden de respuesta y no necesariamente por el orden de
   solicitud.
 
+  8. Implementar una funcionalidad que muestre un indicador visual cuando
+  uno o varios personajes están escribiendo en tiempo real. Esto proporcionará
+  una experiencia más interactiva y en tiempo real a los usuarias, lo que les
+  permitirá saber cuándo otros están redactando un mensaje en la conversación.
+
+  9. Implementar un manejo efectivo de errores que puedan surgir al interactuar
+  con la API. Esto incluye situaciones como alcanzar la cuota de tokens por
+  minuto o cualquier otro error relacionado con la API. Debería proporcionarse
+  retroalimentación a la usuaria en caso de un error, junto con una descripción
+  clara de la causa del problema y posibles soluciones.
+
 * Para que los chats anteriores puedan funcionar, es esencial que la
   aplicación se integre con la IA a través de la API de OpenAI. Para ello,
-  el equipo de Laboratoria te proporcionará una API Key que la usuaria
+  deberá existir una página con un formulario que permita a la usuaria
+  proveer la API Key a usar. El equipo de Laboratoria te proporcionará
+  una API Key que la usuaria
   deberá poder ingresar en la aplicación que tu construirás.
 
 * La aplicación será _responsive_, es decir, debe visualizarse sin problemas
@@ -180,48 +199,50 @@ como toda la configuración de dependencias:
 
 ```text
 .
-├── README.md
-├── package.json
 ├── src
-|  ├── data 
+|  ├── components 
+|  ├── data
 |  |  └── data.json (La que hayas generado con la IA)
+|  ├── lib
+|  ├── views
 |  ├── dataFunctions.js
-|  ├── view.js
 |  ├── index.html
 |  ├── main.js
+|  ├── views.js
 |  └── style.css
-└── test
-   └── data.js
-   └── dataFunctions.spec.js
-   └── tests-read-only
+├── test
+|  └── data.js
+|  └── dataFunctions.spec.js
+|  └── tests-read-only
+├── README.md
+└── package.json
 
 ```
 
-### `src/index.html`
+### `src/components`
 
-Como en el proyecto anterior, existe un archivo `index.html`. Como ya sabes,
-acá va la página que se mostrará a la usuaria. También nos sirve para indicar
-qué scripts se usarán y unir todo lo que hemos hecho.
+Esta carpeta contendrá archivos JavaScript y/o archivos de plantillas HTML
+que representan componentes reutilizables de tu aplicación. Estos componentes
+pueden ser elementos de la interfaz de usuario que se utilizan en varias partes
+de tu aplicación. Organizar tus componentes de esta manera ayuda a mantener un
+código más modular y reutilizable.
 
-### `src/main.js`
+### `src/data`
 
-Recomendamos usar `src/main.js` para todo tu código que tenga que ver con
-mostrar los datos en la pantalla. Con esto nos referimos básicamente a la
-interacción con el DOM. Operaciones como creación de nodos, registro de
-manejadores de eventos (_event listeners_ o _event handlers_).
+En esta carpeta están los datos con los que vas a trabajar (los datos de ejemplo
+o los datos que generarías con ayuda de la inteligencia artificial).
 
-Esta no es la única forma de dividir tu código, puedes usar más archivos y
-carpetas, siempre y cuando la estructura sea clara para tus compañeras.
+### `src/lib`
 
-En este archivo encontrarás una serie de _imports_ listos para _cargar_
-las diferentes fuentes de datos.
+En esta carpeta almacerás los módulos que te permitan conterte con la inteligencia
+artificial.
 
-Por ejemplo, lost datos con los que vas a trabajar,
-los encontrarás en la siguiente línea:
+### `src/views`
 
-```js
-import data from './data/dataset.js';
-```
+Esta carpeta generalmente contiene archivos que representan las diferentes
+vistas o páginas de tu aplicación. Cada vista puede tener su propio archivo
+JavaScript, HTML y CSS. Organizar tus vistas de esta manera facilita la
+navegación y la gestión de la lógica de la interfaz de usuario.
 
 ### `src/dataFunctions.js`
 
@@ -254,15 +275,31 @@ e independientes del DOM. Estas funciones serán después usadas desde el archiv
 `src/main.js`, al cargar la página, y cada vez que la usuaria interactúe
 (click, filtrado, ordenado, ...).
 
-### `src/data`
+### `src/index.html`
 
-En esta carpeta están los datos con los que vas a trabajar (los datos de ejemplo
-o los datos que generarías con ayuda de la inteligencia artificial).
+Como en el proyecto anterior, existe un archivo `index.html`. Como ya sabes,
+acá va la página que se mostrará a la usuaria. También nos sirve para indicar
+qué scripts se usarán y unir todo lo que hemos hecho.
 
-### `test/dataFunctions.spec.js`
+### `src/main.js`
 
-En este archivo tendrás hacer pruebas unitarias de las funciones
-implementadas en el archivo `dataFunctions.js`. (`filterBy`, `sortBy`, etc.)
+Recomendamos usar `src/main.js` para todo tu código que tenga que ver con
+mostrar los datos en la pantalla. Con esto nos referimos básicamente a la
+interacción con el DOM. Operaciones como creación de nodos, registro de
+manejadores de eventos (_event listeners_ o _event handlers_).
+
+Esta no es la única forma de dividir tu código, puedes usar más archivos y
+carpetas, siempre y cuando la estructura sea clara para tus compañeras.
+
+En este archivo encontrarás una serie de _imports_ listos para _cargar_
+las diferentes fuentes de datos.
+
+Por ejemplo, lost datos con los que vas a trabajar,
+los encontrarás en la siguiente línea:
+
+```js
+import data from './data/dataset.js';
+```
 
 ### `test/data.js`
 
@@ -271,6 +308,11 @@ Es mas fácil probar un arreglo de 5 elementos de un arreglo de 24, por eso
 vas a crear una muestra de la data que quieres probar. Como mínimo
 debes exportar un variable se llama `data`, pero puedes definir y exportar mas
 si sea necesario para tus tests.
+
+### `test/dataFunctions.spec.js`
+
+En este archivo tendrás hacer pruebas unitarias de las funciones
+implementadas en el archivo `dataFunctions.js`. (`filterBy`, `sortBy`, etc.)
 
 ### `src/view.js`
 
@@ -285,119 +327,6 @@ Al menos se requeriere una función obligatoria:
   un string de HTML.
 
 ## 6. Criterios de aceptación mínimos del proyecto
-
-### Criterios de código
-
-Con cada objetivo de aprendizaje, evaluamos que el código cumpla con algunos
-criterios. Lo cual no excluye que puedas usar otras opciones, por ejemplo
-en el caso de los selectores, proponemos el uso de `querySelector`,
-no significa que no puedes usar `querySelectorAll` o `getElementId` también.
-
-Puedes ejecutar las pruebas de cada grupo de objetivos de aprendizaje de manera
-individual con los siguientes comandos:
-
-``` sh
-npm run test:oas-html
-npm run test:oas-css
-npm run test:oas-web-api
-npm run test:oas-js
-npm run test:oas // Esto es para correr todos los tests de OAs
-```
-
-#### HTML
-
-* **Uso de HTML semántico**
-
-  - [ ] Tiene un `<header>` con `<h1>`
-  - [ ] Tiene un `<footer>`
-  - [ ] Tiene un `<main>` con `<h2>`
-  - [ ] Todas las etiquetas de controles (inputs, selects, radio, etc) tienen `<label>`
-  - [ ] `<ul>` esta usado para dibujar la data
-  - [ ] Los hijos de `<li>` usan attributos de microdata `itemscope` e `itemprop`
-
-#### CSS
-
-* **Uso de selectores de CSS**
-
-  - [ ] Uso de selector class para los items <li> (que se llama `card`)
-  - [ ] Uso de flexbox en sentido `row` y `column`
-  - [ ] Uso de flexbox para el elemento que contiene los items
-  - [ ] Uso de flexbox para el elemento que contiene los UI inputs
-
-#### Web APIs
-
-* **Uso de selectores del DOM**
-
-  - [ ] La aplicación usa [`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
-    para buscar los elementos del DOM
-  
-* **Manejo de eventos del DOM (listeners, propagación, delegación)**
-
-  - [ ] `addEventListener` con callback que tiene parámetro de `event`,
-    lo que permite el uso del objeto [`event`](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_objects)
-    con `event.target` o `event.currentTarget`
-  - [ ] La aplicación registra [Event Listeners](https://developer.mozilla.org/en/docs/Web/API/EventTarget/addEventListener)
-    para escuchar `click`, `change`, `keyup` dependiendo del evento que
-    se quiere escuchar
-
-* **Manipulación dinámica del DOM**
-
-  - [ ] La aplicación actualiza el atributo [`innerHTML`](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML).
-  - [ ] La aplicación usa `createElement` y `appendChild`, o template strings
-    para crear elementos
-
-#### JavaScript
-
-* **Variables (declaración, asignación, ámbito)**
-
-  - [ ] La aplicación declara variables con [`let`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
-    y [`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
-    en manera adecuada
-
-* **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
-
-  - [ ] La aplicación usa el statement
-    [`if..else`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
-      para evaluar condiciones
-
-* **Uso de bucles/ciclos (while, for, for..of)**
-
-  - [ ] La aplicación usa el statement [`for`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
-    o método [`forEach`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-    para iterar
-
-* **Funciones (params, args, return)**
-
-  En el archivo `dataFunctions.js` define las siguientes funciones:
-  - [ ] una función `sortBy` que tiene 3 parámetros (`data`, `sortBy`, `sortOrder`)
-    y devuelve el arreglo ordenado
-  - [ ] una función `filterBy` que tiene 3 parámetros (`data`, `filterBy`, `value`)
-    y devuelve el arreglo filtrado
-  - [ ] una función `computeStats` que tiene al menos un parámetro (`data`)
-    y devuelve un valor computado
-
-  Más sobre estos puntos en [la sección dataFunctions.js](#src/dataFunctions.js)
-
-* **Arrays (arreglos)**
-
-  - [ ] Uso de [Arreglos](https://curriculum.laboratoria.la/es/topics/javascript/04-arrays)
-  - [ ] Uso de [Array.prototype.sort() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
-    o [Array.prototype.toSorted - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted)
-  - [ ] Uso de [Array.prototype.forEach() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-  - [ ] Uso de [Array.prototype.map() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-  - [ ] Uso de [Array.prototype.filter() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-  - [ ] Uso de [Array.prototype.reduce() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
-
-* **Objetos**
-
-  - [ ] Uso de notación de punto para [acceder propiedades](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors)
-  - [ ] Uso de notación de brackets para [acceder propiedades](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors)
-
-* **Módulos de ECMAScript (ES Modules)**
-
-  - [ ] La aplicación usa [`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
-    y [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export)
-    para importar y exportar valores desde un modulo JavaScript.
 
 ### Criterios del proyecto
 
@@ -496,20 +425,6 @@ Súmate al canal de Slack
 [#project-dataverse](https://claseslaboratoria.slack.com/archives/C03MV35EP5M)
 para conversar y pedir ayuda del proyecto.
 
-Antes de empezar a escribir código, debes definir qué deberá hacer el
-producto con base en el conocimiento que puedas obtener de tu usuaria.
-Estas preguntas te pueden ayudar:
-
-* ¿Quiénes son las principales usuarias del producto?
-* ¿Cuáles son los objetivos de estas usuarias en relación con el producto?
-* ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
-* ¿Cuándo utilizan o utilizarían el producto?
-* Toda tu investigación previa debe tener como resultado todas las Historias
-  de Usuaria de tu proyecto.
-* No hagas los prototipos de alta fidelidad de todas tus Historias. Comienza
-  solamente por los que se necesiten para tu Sprint 1 (semana 1 de trabajo). Más
-  pistas en la guía de organización para el proyecto.
-
 Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
 1. Una de las integrantes del equipo debe realizar un :fork_and_knife:
@@ -532,48 +447,28 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
 ### Contenido de referencia
 
-#### Diseño de experiencia de usuaria (User Experience Design)
-
-* Investigación con usuarias / entrevistas
-* Principios de diseño visual
-
 #### Desarrollo Front-end
 
 * [Topicos en la curricula de sitio Laboratoria](https://curriculum.laboratoria.la/es/web-dev/topics)
   testing, arreglos, objetos, funciones, DOM en Browser Javascript.
-* [Buscando elementos con querySelector*](https://es.javascript.info/searching-elements-dom)
-* [Objeto del evento](https://es.javascript.info/introduction-browser-events#objeto-del-evento)
-* [Array en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array)
-* [Array.sort en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort)
-* [Array.toSorted en MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted)
-* [Array.map en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/map)
-* [Array.filter en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/filter)
-* [Array.reduce en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/reduce)
-* [Array.forEach en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach)
-* [Object.keys en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/keys)
-* [Object.entries en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/entries)
-* [Atributos de datos](https://developer.mozilla.org/es/docs/Learn/HTML/Howto/Use_data_attributes)
-* [expressions-vs-statements](https://2ality.com/2012/09/expressions-vs-statements.html)
-* [expresión vs sentencia](https://openclassrooms.com/en/courses/4309531-descubre-las-funciones-en-javascript/5108986-diferencia-entre-expresion-y-sentencia)
-* [datos atómicos vs datos estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
-* [Modulos: Export](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/export)
-* [Modulos: Import](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/import)
+* [Promesas](https://es.javascript.info/promise-basics)
+* [Haciendo peticiones con Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Utilizando_Fetch)
+* [Almacenamiento con LocalStorage](https://es.javascript.info/localstorage)
+* [Creando un router SPA con vanilla Javascript](https://www.youtube.com/watch?v=vFh18oo2Cu4)
+
+#### Inteligencia Artificial y Prompting
+
+* [Learn Prompting](https://learnprompting.org/es/docs/category/-basic-applications)
+* [Prompt Engineering Roadmap](https://roadmap.sh/prompt-engineering)
+* [OpenAI Playground](https://beta.openai.com/playground)
+* [Making requests](https://platform.openai.com/docs/api-reference/making-requests)
+* [Chat with AI](https://platform.openai.com/docs/api-reference/chat/object)
 
 #### Herramientas
 
-* [Git](https://git-scm.com/)
-* [GitHub](https://github.com/)
-* [GitHub Pages](https://pages.github.com/)
-* [Node.js](https://nodejs.org/)
 * [Jest](https://jestjs.io/)
-
-#### Organización del Trabajo
-
-* [Historias de Usuaria](https://www.youtube.com/watch?v=ky6wFiF5vMk&t=344s).
-  Ojo que Cris no diferencia _Definición de terminado_ de _Criterios de
-  Aceptación_ y nosotros sí lo haremos. Más detalles en la guía.
-* [Cómo dividir H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
-* [Guía para Data Lovers](https://docs.google.com/presentation/d/e/2PACX-1vQhx9D36NjpH-Daea-ITPUDUzNL8ZiNAprq_7b5PSUrfutk45tEtaOLz2lmd8f54_5jX1hypDM8f8SM/pub?start=false&loop=false&delayms=60000)
+* [Vercel](https://vercel.com/)
+* [Netlify](https://www.netlify.com/)
 
 ## 9. Consideraciones para pedir tu Project Feedback
 
@@ -594,8 +489,11 @@ Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
       - [ ] El listado de problemas que detectaste a través de tests
         de usabilidad en el `README.md`
 * Tiene un UI que cumple las funcionalidades:
-  - [ ] Permite hacer clic sobre la tarjeta que representa la data, para
-    mostrar el chat.
+  - [ ] Permite ver toda la data en la pantalla principal con opciones para
+    filtrar y ordenar.
+  - [ ] Permite ingresar un API Key a través de un formulario.
+  - [ ] Permite ver una página con más detalles de cada entidad. En esta página
+    se puede iniciar el chat.
   - [ ] Permite conversar con el personaje o entidad de la data a través
     de un chat.
   - [ ] Permite chatear de forma grupal con todas las entidades de la data.
