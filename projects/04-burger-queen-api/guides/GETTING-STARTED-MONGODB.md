@@ -177,7 +177,7 @@ Puedes confirmar si tu código funciona revisando la base de datos y con un test
 
 ### TODO 3: Implementar autenticación de usuario
 
-En `routes/auth.js` está la ruta '/auth' definida, con un
+En `routes/auth.js` está la ruta '/login' definida, con un
 
 ```js
  // TODO: Authenticate the user

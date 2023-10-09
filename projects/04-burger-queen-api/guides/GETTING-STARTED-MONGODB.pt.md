@@ -173,7 +173,7 @@ dados e realizando um teste unitário.
 
 ### TODO 3: Implementar autenticación de usuario
 
-En routes/auth.js, a rota '/auth' está definida com um
+En routes/auth.js, a rota '/login' está definida com um
 
 ```js
  // TODO: Authenticate the user

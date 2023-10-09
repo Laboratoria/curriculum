@@ -6,9 +6,9 @@ const { secret } = config;
 /** @module auth */
 module.exports = (app, nextMain) => {
   /**
-   * @name /auth
+   * @name /login
    * @description Creates an authentication token.
-   * @path {POST} /auth
+   * @path {POST} /login
    * @body {String} email Email
    * @body {String} password Password
    * @response {Object} resp
