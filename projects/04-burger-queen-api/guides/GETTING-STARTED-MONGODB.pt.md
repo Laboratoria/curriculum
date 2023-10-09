@@ -130,7 +130,7 @@ No arquivo `connect.js`, é necessário conectar ao banco de dados..
 const { dbUrl } = config;
 
 async function connect() {
-  // TODO: Conexão com o Banco de Dados
+  // TODO: Database Connection
 }
 ```
 
@@ -162,7 +162,7 @@ const initAdminUser = (app, next) => {
     roles: { admin: true },
   };
 
-  // TODO: crear usuaria admin
+  // TODO: Create admin user
   next();
 };
 
@@ -176,7 +176,7 @@ dados e realizando um teste unitário.
 En routes/auth.js, a rota '/auth' está definida com um
 
 ```js
- // TODO: autenticar a la usuarix
+ // TODO: Authenticate the user
  ```
 
 Aqui é onde você deve verificar se o email e a senha correspondem aos dados de
