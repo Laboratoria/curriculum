@@ -4,27 +4,33 @@ learningObjectives:
   - css/selectors
   - css/box-model
   - css/flexbox
+  - css/grid
   - browser
+  - js/async
+  - js/semantics
+  - js/variables
+  - js/functions
+  - js/conditionals
   - js/data-types/primitive-vs-non-primitive
   - js/data-types/arrays
   - js/data-types/objects
-  - js/variables
-  - js/conditionals
-  - js/loops
-  - js/functions
-  - js/testing/unit
-  - js/modules/es-modules
-  - js/linting
-  - js/semantics
   - js/expression-vs-statement
-  - scm/git/setup
-  - scm/git/intro
-  - scm/git/integration
+  - js/loops
+  - js/modules/es-modules
+  - js/testing/unit
+  - js/testing/async
+  - js/testing/mocks
+  - http/headers
+  - http/request-response
+  - http/status-codes
+  - scm/git
   - scm/github/setup
-  - scm/github/gh-pages
+  - scm/github/gh-pages # desplegue
   - scm/github/collaboration
   - user-centricity/centricity
   - product-design/interactivity
   - product-design/visual-design
   - research/test
-  - ai-prompting/priming-chatbots
+  
+
+  
