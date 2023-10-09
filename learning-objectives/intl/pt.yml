@@ -1316,3 +1316,10 @@ ai-prompting/priming-chatbots:
   links:
     - title: "Priming Chatbots | Learn Prompting: Your Guide to Communicating with AI"
       url: https://learnprompting.org/pt/docs/basics/priming_prompt
+
+ai-prompting/open-ai-api:
+  title: OpenAI API
+  description: Usando a API OpenAI em um aplicativo
+  links:
+    - title: "Introduction - OpenAI API"
+      url: https://platform.openai.com/docs/introduction
