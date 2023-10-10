@@ -23,6 +23,8 @@ learningObjectives:
   - http/headers
   - http/request-response
   - http/status-codes
+  - ai-prompting/priming-chatbots
+  - ai-prompting/open-ai
   - scm/git
   - scm/github/setup
   - scm/github/gh-pages # desplegue
