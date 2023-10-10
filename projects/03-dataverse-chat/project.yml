@@ -24,7 +24,7 @@ learningObjectives:
   - http/request-response
   - http/status-codes
   - ai-prompting/priming-chatbots
-  - ai-prompting/open-ai
+  - ai-prompting/open-ai-api
   - scm/git
   - scm/github/setup
   - scm/github/gh-pages # desplegue
