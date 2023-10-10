@@ -1,0 +1,41 @@
+{
+    "name": "dataverse-chat",
+    "version": "1.0.0",
+    "main": "src/index.html",
+    "license": "MIT",
+    "scripts": {
+      "htmlhint": "htmlhint src/*.html test/*.html",
+      "eslint": "eslint --ext .js src/ test/",
+      "pretest": "npm run eslint && npm run htmlhint",
+      "test": "jest --verbose --coverage test/",
+      "open-coverage-report": "opener ./coverage/lcov-report/index.html",
+      "start": "serve src/ -s",
+      "predeploy": "node scripts/minify.js --src src --dest dist",
+      "deploy": "netlify deploy --prod dist"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.6.2",
+      "@babel/plugin-transform-modules-commonjs": "^7.6.0",
+      "acorn": "^8.8.2",
+      "babel-jest": "^27.0.1",
+      "css": "^3.0.0",
+      "eslint": "^8.3.0",
+      "gh-pages": "^3.1.0",
+      "htmlhint": "^1.0.0",
+      "jest": "^27.0.1",
+      "jsdom": "^22.1.0",
+      "opener": "^1.5.1",
+      "serve": "^14.2.1"
+    },
+    "engines": {
+      "node": ">=16.x"
+    },
+    "bootcamp": {
+      "createdAt": "2023-07-15T18:10:25.570Z",
+      "version": "6.4.0",
+      "commit": "23398b101da847a5a056af6ccfe939a3d6d9098d"
+    },
+    "jest": {
+      "testEnvironment": "jsdom"
+    }
+}
