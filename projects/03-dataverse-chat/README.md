@@ -34,28 +34,32 @@ históricas, así como a sumergirnos en mundos ficticios.
 
 ## 2. Resumen del proyecto
 
-Este proyecto tiene como objetivo principal tomar lo que hiciste
-en Dataverse para llevarlo al siguiente nivel permitiendo a las
-usuarias _conversar_ con un conjunto de datos generado con
+En este proyecto, te embarcarás en la creación de una aplicación web
+en formato [Single Page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application), basada en el trabajo previo realizado en Dataverse.
+Esta aplicación compartirá las funciones esenciales de Dataverse, como
+la visualización de datos de entidades y la capacidad de filtrar, ordenar
+y la realización de un cálculo agregado. Además, permitirá a las usuarias
+explorar en detalle cada entidad o personaje de la data, lo que les brindará
+la oportunidad de interactuar con un conjunto de datos generado mediante
 técnicas y herramientas de inteligencia artificial.
 
-La aplicación ofrecerá detalles individualizados de cada personaje o entidad
-y la posibilidad de interactuar con ellos a través de un sistema de chat
-impulsado por la [API de OpenAI](https://openai.com/product). Además, se
-implementará un "Panel" que permitirá a las usuarias realizar
-consultas simultáneas a todos los personajes.
+Para lograr esta SPA, se utilizarán Web APIs y se construirá lo que se conoce
+como un "router". La aplicación ofrecerá información detallada de cada personaje
+o entidad, así como la posibilidad de _conversar_ con ellos a través de un
+sistema de chat impulsado por la API de [API de OpenAI](https://openai.com/product).
+Además, se implementará un "Panel" que permitirá a los usuarios realizar
+consultas simultáneas a todos los personajes de manera eficiente.
 
-El proyecto proporciona una valiosa oportunidad de aprendizaje en Desarrollo
-Web Dinámico, Integración de API's y el entendimiento de la asincronía en
-JavaScript. Esto a través de la transformación de un aplicación web estática
-en una [Single Page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application).
-Además, de poder comprender cómo integrar la
-[API de OpenAI](https://openai.com/product) para enriquecer tus
-aplicaciones con AI.
-Este proceso implica la comprensión de cómo enviar solicitudes asíncronas
-a la API, procesar y guardar las respuestas para darle contexto a
-futuras interacciones, y finalmente mostrar el resultado final de la
-interacción a la usuaria en la aplicación web.
+Este proyecto representa una valiosa oportunidad de aprendizaje en el
+ámbito del Desarrollo Web Dinámico, la Integración de APIs y la comprensión
+de la asincronía en JavaScript. A través de esta experiencia, transformarás
+una aplicación web estática en una Single Page Application (SPA), lo que
+te brindará un conocimiento sólido sobre cómo integrar la API de OpenAI para
+enriquecer tus aplicaciones con inteligencia artificial. Este proceso implica
+entender cómo enviar solicitudes asincrónicas a la API, procesar y almacenar
+las respuestas para contextualizar futuras interacciones y, finalmente,
+presentar el resultado de la interacción a los usuarios en la aplicación
+web de manera efectiva.
 
 ## 3. Consideraciones generales
 
