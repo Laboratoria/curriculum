@@ -9,9 +9,7 @@
       "pretest": "npm run eslint && npm run htmlhint",
       "test": "jest --verbose --coverage test/",
       "open-coverage-report": "opener ./coverage/lcov-report/index.html",
-      "start": "serve src/ -s",
-      "predeploy": "node scripts/minify.js --src src --dest dist",
-      "deploy": "netlify deploy --prod dist"
+      "start": "serve src/ -s"
     },
     "devDependencies": {
       "@babel/core": "^7.6.2",
@@ -29,11 +27,6 @@
     },
     "engines": {
       "node": ">=16.x"
-    },
-    "bootcamp": {
-      "createdAt": "2023-07-15T18:10:25.570Z",
-      "version": "6.4.0",
-      "commit": "23398b101da847a5a056af6ccfe939a3d6d9098d"
     },
     "jest": {
       "testEnvironment": "jsdom"

@@ -2,7 +2,5 @@
 *.swp
 coverage/
 node_modules/
-/test-results/
 .vscode/
-dist
 .env
