@@ -508,12 +508,12 @@ const renderView = (pathname, props={}) => {
   // add the view element to the DOM root element
 } 
 
-export navigateTo = (pathname, props={}) => {
+export const navigateTo = (pathname, props={}) => {
   // update window history with pushState
   // render the view with the pathname and props
 }
 
-export onURLChange = (location) => {
+export const onURLChange = (location) => {
   // parse the location for the pathname and search params
   // convert the search params to an object
   // render the view with the pathname and object
