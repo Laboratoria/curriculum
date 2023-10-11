@@ -83,116 +83,68 @@ además de **visualizar la data, filtrarla, ordenarla y calcular alguna
 estadística** tal como se hizo en Dataverse, acceder a una página de detalle
 de cada personaje y poder _interactuar_ con
 los personajes o entidades del set de data que utilizaste anteriormente.
+
 Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
-
-* Transforma tu proyecto en una Single Page Application (SPA) más interactiva,
-  reemplazando el contenido estático HTML por contenido dinámico mediante la
-  implementación de Web APIs. Al hacer clic en una tarjeta de personaje, las
-  usuarias serán redirigidas a una página exclusiva que muestra detalles
-  completos sobre ese personaje en particular. Esto mejorará la experiencia
-  de la usuaria y hará que la página web sea más dinámica y funcional.
-
-* Además de mostrar los detalles completos de cada personaje en sus páginas
-  dedicadas, las usuarias podrán interactuar con esos personajes a través de
-  un sistema de chat incorporado. Como lo muestra la siguiente imagen:
-  
-  ![Chat Ada Lovelace](https://github.com/Laboratoria/curriculum/assets/123121338/40fdc476-2a24-4aa5-a19d-3d83143b104c)
-
-  También puede revisar esta [implementación](https://laboratoria-dataverse-talks.netlify.app/)
-  de ejemplo, cuyo principal objetivo es mostrarte cómo se vería la
-  funcionalidad de chat en tu aplicación, más no tomes el diseño como
-  referencia para tu proyecto, siente libre de hacer volar tu imaginación
-  diseñando tu propia interfaz.
-  
-  Lo anterior, lo lograrás mediante la integración de
-  la API de OpenAI, esto para gestionar la comunicación y la aplicación de
-  inteligencia artificial (AI) para generar respuestas inteligentes y
-  personalizadas.
-
-  Supongamos que las usuarias han accedido a la página de detalle de
-  [Ada Lovelace](https://es.wikipedia.org/wiki/Ada_Lovelace), donde pueden
-  conocer más sobre su vida y logros. En esa página, también encontrarán un
-  cuadro de chat que les permite interactuar con Ada.
-  
-  ```plaintext
-  Usuaria: "Hola, Ada. Cuéntame más sobre tus contribuciones a la informática."
-
-  Ada Lovelace (AI de OpenAI): "¡Hola! Claro, estaré encantada de hablar sobre eso. Mis contribuciones más destacadas se relacionan con el trabajo junto a Charles Babbage en el diseño de la Máquina Analítica. Este diseño se considera como el precursor de la computadora moderna y yo propuse la idea de usar tarjetas perforadas para programarla. Además, desarrollé el primer algoritmo destinado a ser procesado por una máquina, lo que me convierte en la primera programadora de la historia. 
-  ¿Hay algo más en particular que te gustaría saber?"
-
-  Usuaria: "¡Eso es fascinante! ¿Qué desafíos enfrentaste en ese tiempo?"
-
-  Ada Lovelace (AI de OpenAI): "En ese tiempo, enfrenté varios desafíos, uno de los principales fue la limitación de recursos y la falta de reconocimiento del potencial de la Máquina Analítica. También tuve que superar las restricciones sociales de la época, ya que las mujeres tenían un acceso limitado a la educación en matemáticas y ciencias. Sin embargo, mi pasión por la matemática y la visión de lo que estas máquinas podrían lograr me impulsaron a seguir adelante."
-
-  ```
-  
-  Este ejemplo muestra cómo las usuarias pueden entablar una conversación
-  interactiva con Ada Lovelace a través del sistema de chat, obteniendo
+* La aplicación debe ser _responsive_
+* La aplicación debe ser una SPA con múltiples vistas:
+    * Implementar un sistema de enrutamiento que permita la navegación
+      dentro de la aplicación.
+    * Cada vista de la aplicación debe ser cargada dinámicamente
+      mediante JavaScript.
+    * Asegurarse de que la URL se actualice de manera acorde a la vista
+      cargada al igual que el `title` del documento (la pestaña del navegador).
+    * La aplicación debe ser capaz de cargar la vista correspondiente a
+      la URL actual al iniciar la aplicación.
+* La aplicación debe mantener las funcionalidades de Dataverse: visualizar,
+  filtrar, ordenar y calcular estadística de la data
+* Al hacer clic en una tarjeta de personaje/entidad, la aplicación debe
+  redirigirse a una vista **con su propia URL** que muestre la información
+  detallada sobre ese personaje/entidad en particular
+* La aplicación debe permitir a la usuaria configurar la API Key para
+  interactuar con la API de Open AI
+* Usando la API de Open AI, la aplicación debe permitir al usuario
+  interactuar con un personaje/entidad a través de un chat.
+  Por ejemplo, si usamos la data de ejemplo de Dataverse, correspondiente
+  a las mujeres con mayores contribuciones a la programación en la historia,
+  una usuaria puede establecer una conversación
+  interactiva con
+  [Ada Lovelace](https://es.wikipedia.org/wiki/Ada_Lovelace)
+  a través del sistema de chat, obteniendo
   información sobre sus logros, desafíos y contribuciones a la informática.
   La inteligencia artificial de OpenAI permite que las respuestas sean
   informativas y personalizadas según las preguntas de los usuarios.
 
-* Se agregará una página llamada "Panel" que permitirá a las usuarias
-  realizar una misma consulta a todos los personajes de manera simultánea.
-  Esto se logrará mediante técnicas de asincronía y gestión eficiente de las
-  solicitudes para brindar una experiencia fluida y eficaz. LA ruta para esta
-  nueva página deberá ser `/panel`. En la siguiente
-  imagen se muestra un ejemplo de cómo se vería esta funcionalidad:
+> Usuaria: "Hola, Ada. Cuéntame más sobre tus contribuciones a la informática."
+> 
+> Ada Lovelace (AI de OpenAI): "¡Hola! Claro, estaré encantada de hablar sobre eso. Mis contribuciones más destacadas se relacionan con el trabajo junto a Charles Babbage en el diseño de la Máquina Analítica. Este diseño se considera como el precursor de la computadora moderna y yo propuse la idea de usar tarjetas perforadas para programarla. Además, desarrollé el primer algoritmo destinado a ser procesado por una máquina, lo que me convierte en la primera programadora de la historia. 
+> ¿Hay algo más en particular que te gustaría saber?"
+> 
+> Usuaria: "¡Eso es fascinante! ¿Qué desafíos enfrentaste en ese tiempo?"
+> Ada Lovelace (AI de OpenAI): "En ese tiempo, enfrenté varios desafíos, uno de los principales fue la limitación de recursos y la falta de reconocimiento del potencial de la Máquina Analítica. También tuve que superar las restricciones sociales de la época, ya que las mujeres tenían un acceso limitado a la educación en matemáticas y ciencias. Sin embargo, mi pasión por la matemática y la visión de lo que estas máquinas podrían lograr me impulsaron a seguir adelante."
 
-  ![Chat grupal](https://github.com/Laboratoria/curriculum/assets/123121338/52bd7e39-caba-4d15-adb2-2e94de619244)
+* La aplicación debe  permitir al usuario interactuar de manera simultánea
+  con **todos** los personajes/entidades a través de un chat:
+    * Esta funcionalidad debe cargarse en la URL _/panel_
+    * La usuaria puede ingresar su pregunta o mensaje para todos los
+      personajes/entidades en un cuadro de texto y enviarlo con un botón
+    * El mensaje de la usuaria debe ser ajustado para cada personaje/entidad,
+      con el objetivo que este genere una respuesta basada en su personalidad
+      y conocimiento
+    * Las respuestas de todos los personajes se muestran de acuerdo al orden
+      respuesta.
+    * Indicar visualmente cuando uno o varios personajes/entidades esten
+      generando una respuesta al mensaje enviado
+* La aplicacion debe informar a la usuaria los errores que puedan surgir al
+  interactuar con la API, como por ejemplo alcanzar la cuota de tokens por
+  minuto o cualquier otro error relacionado con la API. Debería
+  proporcionarse una descripción clara de la causa del problema y posibles
+  soluciones.
 
-  Supongamos que una usuaria está interesada en obtener opiniones de todos los
-  personajes sobre un tema en particular. En lugar de tener que visitar las
-  páginas de detalle de cada personaje de forma individual, puede acceder al
-  "Panel" y realizar su consulta en un solo lugar.
-
-  **Ejemplo de Uso:**
-  1. La usuaria ingresa al "Panel."
-
-  2. Encuentra un cuadro de texto donde puede ingresar su pregunta o tema de interés.
-
-  3. La usuaria escribe su consulta, por ejemplo: "¿Qué opinan sobre la
-  tecnología del siglo XIX?"
-
-  4. A continuación, presiona el botón de "Enviar."
-
-  5. El sistema envía la misma solicitud a todos los personajes o
-  entidades de manera simultánea.
-
-  6. Cada personaje recibe la consulta y genera su propia respuesta
-  basada en su personalidad y conocimiento. Para esto, es necesario ajustar
-  el prompt para que los personajes tengan contexto y se comporten de manera
-  diferenciada. Por ejemplo en el caso de personajes de la historia, sabiendo
-  el lugar de naciemiento y el año, podemos dar contexto relevante o
-  condicionar su comportamiento, por ejemplo diciendole que no conoce ningún
-  descubrimiento de la ciencia posterior al año de su muerte.
-
-  7. Las respuestas de todos los personajes se muestran de manera ordenada en
-  el "Panel", lo que permite a la usuaria obtener una variedad de
-  perspectivas en un solo lugar. Ten en cuenta que las respuestas se ordenarán
-  de según el orden de respuesta y no necesariamente por el orden de
-  solicitud.
-
-  8. Implementar una funcionalidad que muestre un indicador visual cuando
-  uno o varios personajes están escribiendo en tiempo real. Esto proporcionará
-  una experiencia más interactiva y en tiempo real a los usuarias, lo que les
-  permitirá saber cuándo otros están redactando un mensaje en la conversación.
-
-  9. Implementar un manejo efectivo de errores que puedan surgir al interactuar
-  con la API. Esto incluye situaciones como alcanzar la cuota de tokens por
-  minuto o cualquier otro error relacionado con la API. Debería proporcionarse
-  retroalimentación a la usuaria en caso de un error, junto con una descripción
-  clara de la causa del problema y posibles soluciones.
-
-* Para que los chats anteriores puedan funcionar, es esencial que la
-  aplicación se integre con la IA a través de la API de OpenAI. Para ello,
-  deberá existir una página con un formulario que permita a la usuaria
-  proveer la API Key a usar. El equipo de Laboratoria te proporcionará
-  una API Key que la usuaria
-  deberá poder ingresar en la aplicación que tu construirás.
-
-* La aplicación será _responsive_, es decir, debe visualizarse sin problemas
-  desde distintos tamaños de pantallas: móviles, tablets y desktops.
+_Nota: puedes revisar esta [implementación](https://laboratoria-dataverse-talks.netlify.app/)
+de ejemplo, cuyo principal objetivo es mostrarte cómo se vería la
+funcionalidad de chat en tu aplicación, más no tomes el diseño como
+referencia para tu proyecto, siente libre de hacer volar tu imaginación
+diseñando tu propia interfaz._
   
 ## 5. Consideraciones técnicas
 
@@ -423,7 +375,7 @@ está detallado en la sección de [Consideraciones técnicas](#src/data.js).
 ### Primeros pasos
 
 Súmate al canal de Slack
-[#project-dataverse](https://claseslaboratoria.slack.com/archives/C03MV35EP5M)
+[#project-dataverse-chat](https://claseslaboratoria.slack.com/archives/C03MV35EP5M)
 para conversar y pedir ayuda del proyecto.
 
 Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
@@ -464,7 +416,7 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 * [Prompt Engineering Roadmap](https://roadmap.sh/prompt-engineering)
 * [OpenAI Playground](https://beta.openai.com/playground)
 * [Making requests](https://platform.openai.com/docs/api-reference/making-requests)
-* [Chat with AI](https://platform.openai.com/docs/api-reference/chat/object)
+* [Chat with AI](https://platform.openai.com/docs/api-reference/chat)
 * [Priming Chatbots](https://learnprompting.org/es/docs/basics/priming_prompt)
 * [Build your aplication with AI](https://platform.openai.com/docs/quickstart/build-your-application)
 
