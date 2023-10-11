@@ -65,10 +65,12 @@ web de manera efectiva.
 
 * Este proyecto se debe resolver en duplas.
 
-* El rango de tiempo estimado para completar el proyecto es de 4 a 6 Sprints.
+* El rango de tiempo estimado para completar el proyecto es de 4 a 5 Sprints.
 
-* Implementar un router para la navegación entre las diferentes vistas
-  de la aplicación.
+* Reutilizar cierta parte del código del proyecto Dataverse, sobre todo el dataset.
+  Además debes refactorizar el código para que sea más modular y reutilizable 
+  implementando nuevas funciones para lograr las funcionalidades requeridas
+  en este proyecto.
 
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
   interfaz será desplegada usando cualquiera de estas opciones:
