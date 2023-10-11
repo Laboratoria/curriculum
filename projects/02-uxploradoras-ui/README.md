@@ -1,4 +1,4 @@
-# UXploradoras en el multiverso UI
+# UXploradoras UI
 
 ## Índice
 
