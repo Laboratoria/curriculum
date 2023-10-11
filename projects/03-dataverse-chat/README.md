@@ -456,6 +456,7 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 * [Haciendo peticiones con Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Utilizando_Fetch)
 * [Almacenamiento con LocalStorage](https://es.javascript.info/localstorage)
 * [Creando un router SPA con vanilla Javascript](https://www.youtube.com/watch?v=vFh18oo2Cu4)
+* [Delegación de eventos](https://es.javascript.info/event-delegation)
 
 #### Inteligencia Artificial y Prompting
 
@@ -464,6 +465,8 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 * [OpenAI Playground](https://beta.openai.com/playground)
 * [Making requests](https://platform.openai.com/docs/api-reference/making-requests)
 * [Chat with AI](https://platform.openai.com/docs/api-reference/chat/object)
+* [Priming Chatbots](https://learnprompting.org/es/docs/basics/priming_prompt)
+* [Build your aplication with AI](https://platform.openai.com/docs/quickstart/build-your-application)
 
 #### Herramientas
 
