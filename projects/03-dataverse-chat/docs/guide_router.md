@@ -1,4 +1,15 @@
 # Cómo codificar un router
+
+## Índice
+
+- [Qué es un Single Page Application (SPA)](#qué-es-un-single-page-application-spa)
+- [Qué es un router](#qué-es-un-router)
+- [Sobre window.location](#sobre-window.location)
+- [Presentamos la History API](#presentamos-la-history-api)
+- [Funcionalidades del router](#funcionalidades-del-router)
+- [API de router básico](#api-de-router-básico)
+- [Codificación de un SPA y un router](#codificación-de-un-spa-y-un-router)
+
 Antes de comenzar a codificar un router, debemos cubrir un par de conceptos,
 como la razón por la que existen los routeres: la aplicación de página única (SPA).
 
@@ -48,9 +59,9 @@ O si cargamos la página web en `/about`, el router
 sepa por `routes["/about"]` cómo llamar a la función `About`. Hay algunos pasos intermedios, pero
 Esa es más o menos la idea.
 
-## ventana.ubicación
+## Sobre window.location
 
-Ya que mencionamos "nombre de ruta", revisemos brevemente "ubicación.ventana".
+Ya que mencionamos `pathname`, revisemos brevemente `window.location`.
 Con el objeto `window.location`, podemos acceder a partes de la URL actual mediante programación.
 
 Ubicación de ventana de ejemplo:
@@ -67,7 +78,7 @@ Ubicación de ventana de ejemplo:
 Si no está familiarizado con `window.location` y sus propiedades `origin`, `pathname`, `search`,
 ahora sería un buen momento para leer [los documentos de ubicación]https://developer.mozilla.org/es/docs/Web/API/Location.
 
-## Presentamos la Histoy API
+## Presentamos la History API
 
 A medida que navega por páginas web y carga una página tras otra, agrega contenido al historial de su navegador. La parte de atrás
 y los botones de flecha hacia adelante en cada navegador le permiten avanzar y retroceder en su historial.
