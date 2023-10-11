@@ -412,7 +412,7 @@ que acabamos de cubrir.
   y los `props` dados para mostrar la vista correspondiente.
 
 - `onURLChange(location)`: esta función está destinada a manejar cambios de URL
-  con `popstate`. Cuando la URL cambia, analiza el `nombre de ruta` y la `búsqueda`
+  con `popstate`. Cuando la URL cambia, analiza el `pathname` y la `search`
   desde la `location` (`window.location`) y luego llama a `renderView`.
   Tendrás que usar `queryStringToObject` para obtener los parámetros de la
   cadena de `search` en formato de objeto para pasar a `renderView`.
