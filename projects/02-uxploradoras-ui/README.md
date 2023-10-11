@@ -58,8 +58,8 @@ de Atomic Design
 ## 3. Consideraciones generales
 
 - Este proyecto debe ser elegido en conjunto con el equipo de Laboratoria.
-- Trabajarás en triadas (3 personas), sin embargo, en algunos casos el equipo de 
-Laboratoria recomendará trabajar en duplas (2 personas) o de forma individual.
+- Trabajarás en triadas (3 personas), en algunos casos el equipo de Laboratoria recomendará
+trabajar en duplas (2 personas).
 - Considera tomar este proyecto si quieres reforzar tus habilidades de UI o si te está 
 costando el manejo de Figma y diseño visual.
 
