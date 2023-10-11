@@ -178,10 +178,10 @@ llame a la nueva función de vista correcta para renderizarla,
 y luego coloque el nuevo html en la página.
 
 ```js
-const renderView = (pathname, params) => {
+const renderView = (pathname, props) => {
   // clear the current html
   // find the correct view to render
-  // call the view function (with the params) and get the new html element
+  // call the view function (with the props) and get the new html element
   // put new html in the page
 }
 ```
@@ -197,7 +197,7 @@ Para lograr esta funcionalidad en el código, `router.js` debe tener:
 - `rootEl` - Elemento DOM: Una variable para almacenar el elemento raíz donde
   el contenido cambiará/aparecerá.
 - `setRootEl(el)`: Una función para establecer el elemento raíz del router.
-- `renderView(pathname, params)`: una función que representa una vista en el
+- `renderView(pathname, props)`: una función que representa una vista en el
   elemento `root` especificado. Borra el contenido existente, encuentra la
   función de visualización para el nombre de ruta dado y luego
   llama a esa función de vista (también pasa el objeto params como argumento
@@ -231,9 +231,9 @@ estado histórico y representa la nueva vista.
 Un ejemplo con algún pseudocódigo:
 
 ```js
-export const navigateTo = (pathname, params) => {
+export const navigateTo = (pathname, props) => {
   // push new history state with window.history.pushState
-  // render view passing it params
+  // render view passing it props
 }
 ```
 
@@ -358,10 +358,10 @@ encontrar la vista para una ruta, si no existe ninguno, puede utilizar `/error`
 como alternativa.
 
 ```js
-const renderView = (pathname, params) => {
+const renderView = (pathname, props) => {
   // clear the current html
   find the correct view to render --or if there is none, use the error view--
-  // call the view function (with the params) and get the new html element
+  // call the view function (with the props) and get the new html element
   // put new html in the page
 }
 ```
@@ -449,7 +449,7 @@ un elemento DOM para el router usar. Por ejemplo:
 ```js
 // src/views/Home.js
 
-function Home(accesorios) {
+function Home(props) {
      const viewEl = document.createElement('div');
      viewEl.textContent = 'Welcome to the home page!';
      return viewEl;
