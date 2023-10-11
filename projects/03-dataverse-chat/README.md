@@ -315,11 +315,6 @@ vas a crear una muestra de la data que quieres probar. Como mínimo
 debes exportar un variable se llama `data`, pero puedes definir y exportar mas
 si sea necesario para tus tests.
 
-### `test/dataFunctions.spec.js`
-
-En este archivo tendrás hacer pruebas unitarias de las funciones
-implementadas en el archivo `dataFunctions.js`. (`filterBy`, `sortBy`, etc.)
-
 ### `src/view.js`
 
 Para alcanzar mejor separación de responsabilidades en el código este
