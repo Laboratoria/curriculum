@@ -1329,8 +1329,14 @@ ai-prompting/open-ai-api:
   title: OpenAI API
   description: Uso del API OpenAI en una applicación
   links:
-    - title: "Introduction - OpenAI API"
+    - title: "Introduction - API Reference - OpenAI API"
       url: https://platform.openai.com/docs/introduction
+    - title: "Authentication - API Reference - OpenAI API"
+      url: https://platform.openai.com/docs/api-reference/authentication
+    - title: "Making requests - API Reference - OpenAI API"
+      url: https://platform.openai.com/docs/api-reference/making-requests
+    - title: "The chat completion object - API Reference - OpenAI API"
+      url: https://platform.openai.com/docs/api-reference/chat/object
 
 # New OAs since UXD006
 #--- skill Project framing
