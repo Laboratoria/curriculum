@@ -128,8 +128,8 @@ Las rutas deben definirse en un módulo fuera del router pero luego pasarse al r
 El router debe tener su propia variable "privada" para almacenar las rutas y una función que pueda llamarse desde
 otro módulo para asignar o configurar las rutas. En código, eso significa que el router debe tener:
 
-* RUTAS - objeto {}: Esta variable almacena información sobre las rutas en tu SPA.
-* setRoutes(rutas): Esta función asigna el valor del argumento rutas al objeto RUTAS.
+* ROUTES - objeto {}: Esta variable almacena información sobre las rutas en tu SPA.
+* setRoutes(rroutes): Esta función asigna el valor del argumento rutas al objeto ROUTES.
 
 ### 2. Para una ruta determinada en la URL, genere la vista adecuada
 El router debe tener una función que, cuando se le da un nombre de ruta, muestre la vista.
@@ -177,7 +177,6 @@ una nueva ruta dentro de SPA.
 
 Un ejemplo con algún pseudocódigo.
 
-
 ```js
 export const navigateTo = (pathname, params) => {
   // push new history state with window.history.pushState
@@ -195,12 +194,10 @@ llamado en un detector de eventos.
 linkEl.addEventListener('click', () => navegateTo("/about", { nombre: "Xochitl" }))
 ```
 
-
 #### Pasar argumentos a las vistas
 
 Hablemos de esto "y pasemos los argumentos apropiados si hay parámetros"
-y por qué podría ser útil. Hay ocasiones en las que queremos pasar datos a una vista, para que la misma vista pueda renderizarse.
-información más específica dependiendo de qué datos pasemos.
+y por qué podría ser útil. Hay ocasiones en las que queremos pasar datos a una vista, para que la misma vista pueda renderizarse con información más específica dependiendo de qué datos pasemos.
 
 Por ejemplo, es posible que tengas una ruta para mostrar información del usuario.
 
@@ -256,7 +253,7 @@ Cuando se carga su SPA, antes de llamar a `renderView`, el router debe analizar 
 extraiga el nombre de la ruta y los parámetros para pasar a la vista. Lo mismo ocurre cuando el usuario
 utiliza los botones de avance y retroceso `popstate`.
 
-### 4. Responda a la navegación con los botones de avance y retroceso en el navegador
+### 4. Responda a la navegación con los botones de `forward` y `back` en el navegador
 Cuando un usuario utiliza los botones de avance o retroceso en el navegador dentro de su SPA
 el router necesita saber cuándo sucede esto, analice `window.location` para los parámetros `pathname` y `search`
 luego llame a la vista apropiada para el nombre de ruta pasando cualquier parámetro como argumento.
@@ -333,7 +330,7 @@ Aquí hay una API completa de un router básico que tiene la funcionalidad que a
 
 Armemos el router junto con algunas vistas sencillas para hacer un SPA:
 
-1. Configure su estructura HTML
+### 1. Configure su estructura HTML
 Crea un archivo HTML con la estructura básica de tu SPA.
 Defina un elemento raíz (por ejemplo, un `<div>` con una identificación) donde se representarán sus vistas.
 
@@ -350,7 +347,7 @@ Defina un elemento raíz (por ejemplo, un `<div>` con una identificación) donde
 </html>
 ```
 
-2. Crear las vistas "views"
+### 2. Crear las vistas "views"
 
 Defina los views. Los views son componentes que representa una pagina entero.
 Son funciones que crean el contenido de la vista para cada ruta y debe devolver un elemento DOM para el router
@@ -377,7 +374,7 @@ function About(props) {
 // Definir funciones/componentes similares para otras rutas
 ```
 
-3. Codifique el router
+### 3. Codifique el router
 
 En su propio archivo `router.js`, implemente las partes del router siguiendo [la API descrita anteriormente] (##API básica del router).
 La API define dos variables (`ROUTES` y `rootEl`) y seis funciones.
@@ -428,7 +425,7 @@ export onURLChange = (location) => {
 }
 ```
 
-4. Configura el Router
+### 4. Configura el Router
 En su código JavaScript (por ejemplo, `index.js`), inicialice su router
 definiendo sus rutas y configurando el elemento raíz:
 
@@ -453,7 +450,7 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 ```
 
-5. Manejar la carga de la primera página
+### 5. Manejar la carga de la primera página
 
 Asegúrese de manejar la carga de la página inicial llamando a `onURLChange` con `window.location`.
 
@@ -467,7 +464,7 @@ window.addEventListener("DOMContentLoaded", () => {
 Pruebe para ver si no importa con qué URL válida de su SPA comience,
 se carga la vista correcta.
 
-6. Implementar la Navegación en la SPA
+### 6. Implementar la Navegación en la SPA
 
 En sus vistas, puede utilizar enlaces de anclaje `<a>` o `<button>`
 con `navigateTo` para navegar a diferentes rutas.
@@ -485,7 +482,7 @@ const Home = (props) => {
 ```
 
 
-7. Manejar hacia `forward` y `back`
+### 7. Manejar hacia `forward` y `back`
 Asegúrese de estar escuchando `popstate` en `index.js` y llame a la función `onURLChange`
 cuando hay un `popstate`. Cuando un usuario hace clic en un enlace o navega usando los botones atrás/adelante del navegador,
 Se llamará a esta función para actualizar la vista mostrada.
@@ -499,7 +496,7 @@ window.addEventListener('popstate', ({objetivo}) => {
 
 Pruébelo usando los botones de avance y retroceso.
 
-8. Probar la funcionalidad del parámetro de consulta
+### 8. Probar la funcionalidad del parámetro de consulta
 
 En una de sus vistas, experimente leyendo los parámetros de búsqueda de la URL y utilizándolos en el
 vista. Las funciones de vista deben tener un parámetro, llamémoslo "props", que es un objeto.
@@ -519,14 +516,14 @@ Recuerde que también puede pasar `props` con `navigateTo` con el segundo argume
 ```js
 navigateTo("/", { nombre: "Xóchitl", id: "100"});
 ```
-9. Manejo de errores de enrutamiento
+### 9. Manejo de errores de enrutamiento
 
 Un caso de uso común es que su router presente una página de error cuando no puede encontrar
 recurso definido para la URL. Para lograr esto, agregue una ruta para error o no encontrada
   a su objeto de rutas (ejemplo `{ "/error": ErrorView }`) y en `renderView` usándolo como alternativa si
 `routes [nombre de ruta]` no produce nada.
 
-10. ¡Listo!
+### 10. ¡Listo!
 
 Pruebe el comportamiento de su SPA manualmente haciendo clic e ingresando las URL.
 Escriba pruebas para la funcionalidad `router.js` si aún no lo ha hecho.
