@@ -34,32 +34,25 @@ históricas, así como a sumergirnos en mundos ficticios.
 
 ## 2. Resumen del proyecto
 
-En este proyecto, te embarcarás en la creación de una aplicación web
-en formato [Single Page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application), basada en el trabajo previo realizado en Dataverse.
-Esta aplicación compartirá las funciones esenciales de Dataverse, como
-la visualización de datos de entidades y la capacidad de filtrar, ordenar
-y la realización de un cálculo agregado. Además, permitirá a las usuarias
-explorar en detalle cada entidad o personaje de la data, lo que les brindará
-la oportunidad de interactuar con un conjunto de datos generado mediante
-técnicas y herramientas de inteligencia artificial.
+En este proyecto convertirás la aplicación desarrollada
+en Dataverse en una
+[Single-page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application),
+manteniendo las funcionalidades de visualizar, filtrar, ordenar y
+calcular alguna estadística, adicionando una nueva vista para
+consultar información detallada de cada personaje/entidad y agregando
+la posibilidad de interactuar con un personaje/entidad o todos ellos
+a través de un sistema de chat impulsado por la
+[API de OpenAI](https://openai.com/product).
 
-Para lograr esta SPA, se utilizarán Web APIs y se construirá lo que se conoce
-como un "router". La aplicación ofrecerá información detallada de cada personaje
-o entidad, así como la posibilidad de _conversar_ con ellos a través de un
-sistema de chat impulsado por la API de [API de OpenAI](https://openai.com/product).
-Además, se implementará un "Panel" que permitirá a los usuarios realizar
-consultas simultáneas a todos los personajes de manera eficiente.
+### Los objetivos generales de este proyecto son los siguientes
 
-Este proyecto representa una valiosa oportunidad de aprendizaje en el
-ámbito del Desarrollo Web Dinámico, la Integración de APIs y la comprensión
-de la asincronía en JavaScript. A través de esta experiencia, transformarás
-una aplicación web estática en una Single Page Application (SPA), lo que
-te brindará un conocimiento sólido sobre cómo integrar la API de OpenAI para
-enriquecer tus aplicaciones con inteligencia artificial. Este proceso implica
-entender cómo enviar solicitudes asincrónicas a la API, procesar y almacenar
-las respuestas para contextualizar futuras interacciones y, finalmente,
-presentar el resultado de la interacción a los usuarios en la aplicación
-web de manera efectiva.
+* Desarrollar una [SPA](https://es.wikipedia.org/wiki/Single-page_application)
+* Aplicar los conceptos de responsividad en el desarrollo de las vistas
+* Implementar un router para la navegación entre las diferentes
+vistas de la aplicación
+* Integrar una API externa
+* Entender la asincronía en JavaScript
+* Crear una suite de pruebas unitarias que permitan testear código asíncrono
 
 ## 3. Consideraciones generales
 
@@ -72,7 +65,7 @@ web de manera efectiva.
   _frameworks_ o librerías de CSS y JS.
 
 * Reutilizar cierta parte del código del proyecto Dataverse, sobre todo el dataset.
-  Además debes refactorizar el código para que sea más modular y reutilizable 
+  Además debes refactorizar el código para que sea más modular y reutilizable
   implementando nuevas funciones para lograr las funcionalidades requeridas
   en este proyecto.
 
@@ -91,10 +84,6 @@ web de manera efectiva.
   - ¿Se te está haciendo difícil y te cuesta un poco más avanzar? No te quedes
     con las partes "fáciles" del proyecto, conversa, negocia, exige tu oportunidad
     para practicar y aprender lo que se te hace más difícil.
-* Solamente pueden trabajar en una única historia por vez, no pueden avanzar a
-  la siguiente sin haber completado la anterior. La historia se completa cuando
-  se cumplen **todos** sus Criterios de Aceptación + **toda** su Definición
-  de Terminado.
   Para comenzar tendrás que hacer un _fork_ y _clonar_ este repositorio.
 
 ## 4. Funcionalidades
@@ -106,18 +95,19 @@ de cada personaje y poder _interactuar_ con
 los personajes o entidades del set de data que utilizaste anteriormente.
 
 Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
+
 * La aplicación debe ser _responsive_
 * La aplicación debe ser una SPA con múltiples vistas:
-    * Implementar un sistema de enrutamiento que permita la navegación
-      dentro de la aplicación.
-    * Cada vista de la aplicación debe ser cargada dinámicamente
-      mediante JavaScript.
-    * Asegurarse de que la URL se actualice de manera acorde a la vista
-      cargada al igual que el `title` del documento (la pestaña del navegador).
-    * La aplicación debe ser capaz de cargar la vista correspondiente a
-      la URL actual al iniciar la aplicación.
+  - Implementar un sistema de enrutamiento que permita la navegación
+    dentro de la aplicación.
+  - Cada vista de la aplicación debe ser cargada dinámicamente
+    mediante JavaScript.
+  - Asegurarse de que la URL se actualice de manera acorde a la vista
+    cargada al igual que el `title` del documento (la pestaña del navegador).
+  - La aplicación debe ser capaz de cargar la vista correspondiente a
+    la URL actual al iniciar la aplicación.
 * La aplicación debe mantener las funcionalidades de Dataverse: visualizar,
-  filtrar, ordenar y calcular estadística de la data
+  filtrar, ordenar y calcular estadística de la data.
 * Al hacer clic en una tarjeta de personaje/entidad, la aplicación debe
   redirigirse a una vista **con su propia URL** que muestre la información
   detallada sobre ese personaje/entidad en particular
@@ -135,26 +125,30 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
   La inteligencia artificial de OpenAI permite que las respuestas sean
   informativas y personalizadas según las preguntas de los usuarios.
 
+```text
 > Usuaria: "Hola, Ada. Cuéntame más sobre tus contribuciones a la informática."
-> 
+
 > Ada Lovelace (AI de OpenAI): "¡Hola! Claro, estaré encantada de hablar sobre eso. Mis contribuciones más destacadas se relacionan con el trabajo junto a Charles Babbage en el diseño de la Máquina Analítica. Este diseño se considera como el precursor de la computadora moderna y yo propuse la idea de usar tarjetas perforadas para programarla. Además, desarrollé el primer algoritmo destinado a ser procesado por una máquina, lo que me convierte en la primera programadora de la historia. 
+
 > ¿Hay algo más en particular que te gustaría saber?"
-> 
+ 
 > Usuaria: "¡Eso es fascinante! ¿Qué desafíos enfrentaste en ese tiempo?"
+
 > Ada Lovelace (AI de OpenAI): "En ese tiempo, enfrenté varios desafíos, uno de los principales fue la limitación de recursos y la falta de reconocimiento del potencial de la Máquina Analítica. También tuve que superar las restricciones sociales de la época, ya que las mujeres tenían un acceso limitado a la educación en matemáticas y ciencias. Sin embargo, mi pasión por la matemática y la visión de lo que estas máquinas podrían lograr me impulsaron a seguir adelante."
+```
 
 * La aplicación debe  permitir al usuario interactuar de manera simultánea
   con **todos** los personajes/entidades a través de un chat:
-    * Esta funcionalidad debe cargarse en la URL _/panel_
-    * La usuaria puede ingresar su pregunta o mensaje para todos los
-      personajes/entidades en un cuadro de texto y enviarlo con un botón
-    * El mensaje de la usuaria debe ser ajustado para cada personaje/entidad,
-      con el objetivo que este genere una respuesta basada en su personalidad
-      y conocimiento
-    * Las respuestas de todos los personajes se muestran de acuerdo al orden
-      respuesta.
-    * Indicar visualmente cuando uno o varios personajes/entidades esten
-      generando una respuesta al mensaje enviado
+  - Esta funcionalidad debe cargarse en la URL _/panel_
+  - La usuaria puede ingresar su pregunta o mensaje para todos los
+    personajes/entidades en un cuadro de texto y enviarlo con un botón
+  - El mensaje de la usuaria debe ser ajustado para cada personaje/entidad,
+    con el objetivo que este genere una respuesta basada en su personalidad
+    y conocimiento
+  - Las respuestas de todos los personajes se muestran de acuerdo al orden
+    respuesta.
+  - Indicar visualmente cuando uno o varios personajes/entidades esten
+    generando una respuesta al mensaje enviado
 * La aplicacion debe informar a la usuaria los errores que puedan surgir al
   interactuar con la API, como por ejemplo alcanzar la cuota de tokens por
   minuto o cualquier otro error relacionado con la API. Debería
