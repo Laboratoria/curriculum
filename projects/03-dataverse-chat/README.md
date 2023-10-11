@@ -167,26 +167,26 @@ La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6), HTML y CSS. En este proyecto NO está permitido usar librerías o
 frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
 
-El _boilerplate_ contiene una estructura de archivos como punto de partida así
-como toda la configuración de dependencias:
+El _boilerplate_ que viene con el proyecto es una estructura inicial. Ustedes
+deben ir agregando más archivos conforme vayan avanzando en su proyecto.
+La siguiente es una estructura de archivos que recomendamos:
 
 ```text
 .
 ├── src
 |  ├── components 
 |  ├── data
-|  |  └── data.json (La que hayas generado con la IA)
+|  |  └── dataset.js (La que hayas generado con la IA)
 |  ├── lib
+|  |  └── dataFunctions.js
 |  ├── views
-|  ├── dataFunctions.js
 |  ├── index.html
-|  ├── main.js
-|  ├── views.js
+|  ├── index.js
+|  ├── router.js
 |  └── style.css
 ├── test
-|  └── data.js
 |  └── dataFunctions.spec.js
-|  └── tests-read-only
+|  └── ejemplo.spec.js (Los tests de tus funciones y componentes)
 ├── README.md
 └── package.json
 
@@ -194,8 +194,9 @@ como toda la configuración de dependencias:
 
 ### `src/components`
 
-Esta carpeta contendrá archivos JavaScript y/o archivos de plantillas HTML
-que representan componentes reutilizables de tu aplicación. Estos componentes
+Esta carpeta contendrá archivos JavaScript
+que representan [componentes](https://lenguajejs.com/vuejs/componentes/que-es-un-componente/)
+reutilizables de tu aplicación. Estos componentes
 pueden ser elementos de la interfaz de usuario que se utilizan en varias partes
 de tu aplicación. Organizar tus componentes de esta manera ayuda a mantener un
 código más modular y reutilizable.
@@ -207,104 +208,61 @@ o los datos que generarías con ayuda de la inteligencia artificial).
 
 ### `src/lib`
 
-En esta carpeta almacerás los módulos que te permitan conterte con la inteligencia
-artificial.
+En esta carpeta, crearás módulos que contengan funcionalidades no relacionadas
+al DOM, es decir, funciones puras. Aquí también podrás incluir el archivo
+`dataFunctions.js` que contiene las funciones que te permiten filtrar,
+ordenar y hacer cálculos agregados. También podrás crear  archivos con
+las funciones que
+interactúen con la API de inteligencia artificial o utilidades destinadas
+a almacenar datos en el local storage.
 
 ### `src/views`
 
 Esta carpeta generalmente contiene archivos que representan las diferentes
 vistas o páginas de tu aplicación. Cada vista puede tener su propio archivo
-JavaScript, HTML y CSS. Organizar tus vistas de esta manera facilita la
-navegación y la gestión de la lógica de la interfaz de usuario.
-
-### `src/dataFunctions.js`
-
-El corazón de este proyecto es la manipulación de datos a través de arreglos
-y objetos.
-
-Este archivo va a contener toda la funcionalidad que corresponda
-a obtener, procesar y manipular datos (tus funciones). Por ejemplo:
-
-* `filterData(data, filterBy, value)`: esta función recibe tres parámetros.
-  El primer parámetro, `data`, nos entrega los datos.
-  El segundo parámetro, `filterBy`, nos dice con respecto a cuál de los campos de
-  la data se quiere filtrar.
-  El tercer parámetro, `value`, indica el valor de campo que queremos filtrar.
-
-* `sortData(data, sortBy, sortOrder)`: esta función `sort` u ordenar
-  recibe tres parámetros.
-  El primer parámetro, `data`, nos entrega los datos.
-  El segundo parámetro, `sortBy`, nos dice con respecto a cuál de los campos de
-  la data se quiere ordenar.
-  El tercer parámetro, `sortOrder`, indica si se quiere ordenar de manera
-  ascendente o descendente.
-
-* `computeStats(data)`: la función `compute` o calcular, nos permitirá hacer
-  cálculos estadísticos básicos para ser mostrados de acuerdo a la data
-  proporcionada, esta función debe usar el método reduce.
-
-Estas funciones deben ser [_puras_](https://medium.com/laboratoria-developers/introducci%C3%B3n-a-la-programaci%C3%B3n-funcional-en-javascript-parte-2-funciones-puras-b99e08c2895d)
-e independientes del DOM. Estas funciones serán después usadas desde el archivo
-`src/main.js`, al cargar la página, y cada vez que la usuaria interactúe
-(click, filtrado, ordenado, ...).
+JavaScript, que exporta una función que es responsable de generar
+los elementos del DOM.
 
 ### `src/index.html`
 
-Como en el proyecto anterior, existe un archivo `index.html`. Como ya sabes,
-acá va la página que se mostrará a la usuaria. También nos sirve para indicar
-qué scripts se usarán y unir todo lo que hemos hecho.
+Como en el proyecto anterior, existe un archivo `index.html`. En este archivo
+HTML encontrarás un elemento DOM `<div id='root'></div>` donde vas a
+renderizar las diferentes vistas de tu aplicación.
 
-### `src/main.js`
+### `src/index.js`
 
-Recomendamos usar `src/main.js` para todo tu código que tenga que ver con
-mostrar los datos en la pantalla. Con esto nos referimos básicamente a la
-interacción con el DOM. Operaciones como creación de nodos, registro de
-manejadores de eventos (_event listeners_ o _event handlers_).
+El punto de partida para tu SPA sera el archivo `src/index.js`. Acá encontrarás
+algunas instrucciones y comentrarios para guiarte en el inicio del desarrollo
+de tu aplicación.
 
-Esta no es la única forma de dividir tu código, puedes usar más archivos y
-carpetas, siempre y cuando la estructura sea clara para tus compañeras.
+### `src/router.js`
 
-En este archivo encontrarás una serie de _imports_ listos para _cargar_
-las diferentes fuentes de datos.
+En este archivo vas a manejar el enrutamiento de tu aplicación. Es un archivo
+que debes crearlo por tu cuenta.
 
-Por ejemplo, lost datos con los que vas a trabajar,
-los encontrarás en la siguiente línea:
+### `src/style.css`
 
-```js
-import data from './data/dataset.js';
-```
+Es un archivo que debes crearlo por tu cuenta para agregar los estilos que
+necesites para tu aplicación.
 
-### `test/data.js`
+### `src/test`
 
-En esta archivo puedes construir y exportar data "mock" para usar en los tests.
-Es mas fácil probar un arreglo de 5 elementos de un arreglo de 24, por eso
-vas a crear una muestra de la data que quieres probar. Como mínimo
-debes exportar un variable se llama `data`, pero puedes definir y exportar mas
-si sea necesario para tus tests.
-
-### `src/view.js`
-
-Para alcanzar mejor separación de responsabilidades en el código este
-archivo debe tener todas las funciones que utilizara para renderizar
-los elementos dinámicamente.
-
-Al menos se requeriere una función obligatoria:
-
-* `renderItems(data)`: esta función recibe el arreglo de data para renderizar
-  los elementos de cada item, y debería volver un elemento DOM o
-  un string de HTML.
+Esta carpeta contiene los tests de tus funciones y componentes. Por ejemplo
+los tests de dataFunctions deben estar aquí.
 
 ## 6. Criterios de aceptación mínimos del proyecto
 
-### Criterios del proyecto
+Además de las funcionalidades que definimos en la sección de
+[Funcionalidades](#3-funcionalidades), tu proyecto debe cumplir con los
+siguientes requisitos:
 
-#### Definición del producto
+### Definición del producto
 
 Documenta brevemente tu trabajo en el archivo `README.md` de tu repositorio,
 contándonos cómo fue tu proceso de diseño y cómo crees que el producto resuelve
 el problema (o problemas) que tiene tu usuaria.
 
-#### Historias de usuaria
+### Historias de usuaria
 
 Una vez que entiendas las necesidades de tus usuarias, escribe las [Historias
 de Usuaria](https://es.wikipedia.org/wiki/Historias_de_usuario) que representen
@@ -321,9 +279,9 @@ En la medida de lo posible, termina una Historia de Usuaria antes de pasar
 a la siguiente (cumpliendo con la Definición de Terminado y los Criterios
 de Aceptación).
 
-#### Diseño de la Interfaz de Usuaria
+### Diseño de la Interfaz de Usuaria
 
-##### Prototipo de baja fidelidad
+#### Prototipo de baja fidelidad
 
 Durante tu trabajo deberás haber hecho e iterado bocetos (_sketches_) de tu
 solución usando papel y lápiz. Te recomendamos tomar fotos de todas las
@@ -332,7 +290,7 @@ iteraciones que hagas, que las subas a tu repositorio y las menciones en tu
 
 Recuerda pedir feedback de tu prototipo a tus compañeras y/o coaches.
 
-##### Prototipo de alta fidelidad
+#### Prototipo de alta fidelidad
 
 Lo siguiente es diseñar tu Interfaz de Usuaria (UI por sus siglas en inglés -
 _User Interface_). Para eso debes aprender a utilizar alguna herramienta de
@@ -347,14 +305,14 @@ diseño debe seguir los fundamentos de _visual design_.
 
 Recuerda pedir feedback de tu prototipo a tus compañeras y/o coaches.
 
-#### Testeos de usabilidad
+### Testeos de usabilidad
 
 Durante el reto deberás hacer _tests_ de usabilidad con distintos usuarias,
 y con base en los resultados, deberás iterar tus diseños. Cuéntanos
 qué problemas de usabilidad detectaste a través de los _tests_ y cómo los
 mejoraste en tu propuesta final.
 
-#### Implementación de la Interfaz de Usuaria (HTML/CSS/JS)
+### Implementación de la Interfaz de Usuaria (HTML/CSS/JS)
 
 Luego de diseñar tu interfaz de usuaria deberás trabajar en su implementación.
 **No** es necesario que construyas la interfaz exactamente como la diseñaste.
@@ -362,7 +320,7 @@ Tu tiempo de hacking es escaso, así que deberás priorizar.
 
 Revisa [las funcionalidades](#3-funcionalidades) que el proyecto pide del interfaz.
 
-#### Pruebas unitarias
+### Pruebas unitarias
 
 El _boilerplate_ de este proyecto no incluye Pruebas Unitarias (_tests_), así es
 que  tendrás que escribirlas tú para las funciones encargadas de  _procesar_,
@@ -392,6 +350,37 @@ está detallado en la sección de [Consideraciones técnicas](#src/data.js).
 Súmate al canal de Slack
 [#project-dataverse-chat](https://claseslaboratoria.slack.com/archives/C03MV35EP5M)
 para conversar y pedir ayuda del proyecto.
+
+Te sugerimos algunas tareas para dar inicio al proyecto. No es necesario
+abordarlas de manera secuencial, y puedes llevarlas a cabo en paralelo
+mientras avanzas con la planificación de las Historias de Usuario:
+
+1. Diseño de Wireframes y Prototipo de Baja Fidelidad:
+Comienza por diseñar wireframes o prototipos de baja fidelidad para capturar
+los requisitos funcionales de tu proyecto. Es recomendable comenzar con un
+enfoque "mobile first" para garantizar la usabilidad en dispositivos móviles,
+y luego extender la atención a pantallas más grandes, como las de escritorio.
+
+2. Comprende los Conceptos de SPA (Single Page Application) y Enrutamiento:
+Antes de comenzar a codificar, asegúrate de comprender los conceptos de una
+Aplicación de Página Única (SPA) y el enrutamiento de páginas. Esto te
+permitirá crear una experiencia de usuario fluida y dinámica. Investiga
+las mejores prácticas y las herramientas disponibles para implementar un
+SPA en tu proyecto.
+
+3. Preparación de la Estructura del Proyecto:
+Organiza tu proyecto creando la estructura de directorios necesaria y
+configurando un sistema de enrutamiento básico para cambiar dinámicamente
+entre dos vistas. Asegúrate de que tu proyecto tenga una arquitectura
+limpia y escalable.
+
+4. Integración de Dataverse:
+Si tienes la intención de utilizar código de Dataverse en tu proyecto,
+asegúrate de importar los archivos relevantes, como `dataset.js`,
+`dataFunctions.js`, `main.js`, y `view.js`, junto con sus respectivas
+pruebas. Ten en cuenta que `main.js` y `view.js` requerirán una
+refactorización para adaptarse a las vistas y componentes específicos
+de tu proyecto.
 
 Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
@@ -445,8 +434,6 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
 Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
 
-* [ ] Cumple con todos los criterios mínimos de aceptación al ejecutar `npm run test:oas`
-* [ ] Cumple con todas las pruebas _end to end_ al ejecutar `npm run test:e2e`
 * [ ] Cumple con todas las pruebas unitarias al ejecutar `npm run test` y
   que tienen una cobertura del 70% de _statements_ (_sentencias_),
   _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
@@ -468,7 +455,7 @@ Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
   - [ ] Permite conversar con el personaje o entidad de la data a través
     de un chat.
   - [ ] Permite chatear de forma grupal con todas las entidades de la data.
-  - [ ] Es _responsive_
+  - [ ] Es _responsive_ y fue realizado usando la metodología mobile first.
 
 Recuerda que debes hacer una autoevaluación de _objetivos de aprendizaje_ y
 _life skills_ desde tu dashboard de estudiante.
