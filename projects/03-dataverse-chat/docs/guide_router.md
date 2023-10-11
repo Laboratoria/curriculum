@@ -520,7 +520,7 @@ export const onURLChange = (location) => {
 }
 ```
 
-### 4. Configura el Router
+### 4. Configura el router
 
 En su código JavaScript (por ejemplo, `index.js`), inicialice su router
 definiendo sus rutas y configurando el elemento raíz:
