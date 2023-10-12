@@ -4,7 +4,7 @@
 
 - [Qué es un Single Page Application (SPA)](#qué-es-un-single-page-application-spa)
 - [Qué es un router](#qué-es-un-router)
-- [Sobre window.location](#sobre-window.location)
+- [Sobre window.location](#sobre-windowlocation)
 - [Presentamos la History API](#presentamos-la-history-api)
 - [Funcionalidades del router](#funcionalidades-del-router)
 - [API de router básico](#api-de-router-básico)
@@ -583,7 +583,9 @@ window.addEventListener("DOMContentLoaded", () => {
 ### 5. Manejar la carga de la primera página
 
 Asegúrese de manejar la carga de la página inicial llamando a `onURLChange`
-con `window.location`.
+con `window.location`. 
+
+En `index.js`
 
 ```js
 // Handle initial URL load
@@ -596,7 +598,7 @@ window.addEventListener("DOMContentLoaded", () => {
 Pruebe para ver si no importa con qué URL válida de su SPA comience,
 se carga la vista correcta.
 
-### 6. Implementar la Navegación en la SPA
+### 6. Implementar la navegación en la SPA
 
 En sus vistas, puede utilizar enlaces de anclaje `<a>` o `<button>`
 con `navigateTo` para navegar a diferentes rutas.
