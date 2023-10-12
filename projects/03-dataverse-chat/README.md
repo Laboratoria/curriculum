@@ -465,13 +465,13 @@ Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
   _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
 * [ ] Esta libre de _errores_ de `eslint` al ejecutar `npm run pretest`
 * [ ] Está subido a GitHub y desplegado en Netlify o Vercel.
-* Tiene un `README.md` con la siguente:
-      - [ ] _Definición del producto_ clara e informativa
-      - [ ] Historias de usuaria
-      - [ ] Un _sketch_ de la solución (prototipo de baja fidelidad) y
-        _Diseño de la Interfaz de Usuaria_ (prototipo de alta fidelidad)
-      - [ ] El listado de problemas que detectaste a través de tests
-        de usabilidad en el `README.md`
+* Tiene un `README.md` con la siguiente:
+  - [ ] _Definición del producto_ clara e informativa
+  - [ ] Historias de usuaria
+  - [ ] Un _sketch_ de la solución (prototipo de baja fidelidad) y
+    _Diseño de la Interfaz de Usuaria_ (prototipo de alta fidelidad)
+  - [ ] El listado de problemas que detectaste a través de tests
+    de usabilidad en el `README.md`
 * Tiene un UI que cumple las funcionalidades:
   - [ ] Permite ver toda la data en la pantalla principal con opciones para
     filtrar y ordenar.
