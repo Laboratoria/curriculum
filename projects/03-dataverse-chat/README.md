@@ -4,13 +4,13 @@
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Funcionalidades](#3-funcionalidades)
-* [4. Consideraciones generales](#4-consideraciones-generales)
+* [3. Consideraciones generales](#3-consideraciones-generales)
+* [4. Funcionalidades](#4-funcionalidades)
 * [5. Consideraciones técnicas](#5-consideraciones-técnicas)
 * [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
-* [7. Objetivos de aprendizaje](#8-objetivos-de-aprendizaje)
-* [8. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
-* [9. Consideraciones para pedir tu Project Feedback](#10-consideraciones-para-pedir-tu-project-feedback)
+* [7. Objetivos de aprendizaje](#7-objetivos-de-aprendizaje)
+* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+* [9. Consideraciones para pedir tu Project Feedback](#9-consideraciones-para-pedir-tu-project-feedback)
 
 ***
 
@@ -253,7 +253,7 @@ los tests de dataFunctions deben estar aquí.
 ## 6. Criterios de aceptación mínimos del proyecto
 
 Además de las funcionalidades que definimos en la sección de
-[Funcionalidades](#3-funcionalidades), tu proyecto debe cumplir con los
+[Funcionalidades](#4-funcionalidades), tu proyecto debe cumplir con los
 siguientes requisitos:
 
 ### Definición del producto
@@ -324,14 +324,15 @@ Revisa [las funcionalidades](#3-funcionalidades) que el proyecto pide del interf
 
 El _boilerplate_ de este proyecto no incluye Pruebas Unitarias (_tests_), así es
 que  tendrás que escribirlas tú para las funciones encargadas de  _procesar_,
-_filtrar_ y _ordenar_ la data, así como _calcular_ estadísticas. Este proyecto usa
-el framework [Jest](https://jestjs.io/) para ejecutar las pruebas unitarias por lo
-que te recomendamos consultar su documentación.
+_filtrar_ y _ordenar_ la data, así como _calcular_ estadísticas.
+Te recomendamos usar
+el framework [Jest](https://jestjs.io/) para ejecutar las pruebas unitarias.
+Consultar su documentación.
 
 Tus _pruebas unitarias_ deben dar una cobertura del 70% de _statements_
 (_sentencias_), _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
 (_ramas_) del archivo `src/dataFunctions.js` que contenga tus funciones y
-está detallado en la sección de [Consideraciones técnicas](#src/data.js).
+está detallado en la sección de [Consideraciones técnicas](#5-consideraciones-técnicas).
 
 ## 7. Objetivos de aprendizaje
 
@@ -381,6 +382,12 @@ asegúrate de importar los archivos relevantes, como `dataset.js`,
 pruebas. Ten en cuenta que `main.js` y `view.js` requerirán una
 refactorización para adaptarse a las vistas y componentes específicos
 de tu proyecto.
+
+5. Identifica las funcionalides de Open AI
+Consulta la documentación de la
+[API de Open AI](https://platform.openai.com/docs/guides/gpt?lang=node.js).
+Identifica y prueba las funciones que usarás para construir el chat
+de tu aplicación
 
 Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
