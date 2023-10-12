@@ -30,7 +30,7 @@ como por ejemplo planetas o animales? La inteligencia artificial nos
 puede ayudar a entender el pasado y a conectarnos con figuras
 históricas, así como a sumergirnos en mundos ficticios.
 
-![Preview app](https://github.com/Laboratoria/curriculum/assets/123121338/2bd1477b-15ef-49d4-9fcb-226b3263c46a)
+![Preview app](https://github-production-user-asset-6210df.s3.amazonaws.com/123121338/271433237-2bd1477b-15ef-49d4-9fcb-226b3263c46a.png)
 
 ## 2. Resumen del proyecto
 
