@@ -36,7 +36,7 @@ históricas, así como a sumergirnos en mundos ficticios.
 
 En este proyecto convertirás la aplicación desarrollada
 en Dataverse en una
-[Single-page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application),
+[Single Page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application),
 manteniendo las funcionalidades de visualizar, filtrar, ordenar y
 calcular alguna estadística, adicionando una nueva vista para
 consultar información detallada de cada personaje/entidad y agregando
@@ -46,7 +46,7 @@ a través de un sistema de chat impulsado por la
 
 ### Los objetivos generales de este proyecto son los siguientes
 
-* Desarrollar una [SPA](https://es.wikipedia.org/wiki/Single-page_application)
+* Desarrollar una [Single Page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application)
 * Aplicar los conceptos de responsividad en el desarrollo de las vistas
 * Implementar un router para la navegación entre las diferentes
 vistas de la aplicación
@@ -130,10 +130,8 @@ Usuaria: "Hola, Ada. Cuéntame más sobre tus contribuciones a la informática."
 
 Ada Lovelace (AI de OpenAI): "¡Hola! Claro, estaré encantada de hablar sobre eso.
 Mis contribuciones más destacadas se relacionan con el trabajo junto a Charles Babbage
-en el diseño de la Máquina Analítica. Este diseño se considera como el precursor de la
-computadora moderna y yo propuse la idea de usar tarjetas perforadas para programarla.
-Además, desarrollé el primer algoritmo destinado a ser procesado por una máquina,
-lo que me convierte en la primera programadora de la historia. 
+en el diseño de la Máquina Analítica. Además, desarrollé el primer algoritmo destinado
+a ser procesado por una máquina, lo que me convierte en la primera programadora de la historia.
 ¿Hay algo más en particular que te gustaría saber?"
  
 Usuaria: "¡Eso es fascinante! ¿Qué desafíos enfrentaste en ese tiempo?"
@@ -148,7 +146,7 @@ de lo que estas máquinas podrían lograr me impulsaron a seguir adelante."
 
 * La aplicación debe  permitir al usuario interactuar de manera simultánea
   con **todos** los personajes/entidades a través de un chat:
-  - Esta funcionalidad debe cargarse en la URL _/panel_
+  - Esta funcionalidad debe cargarse en la URL `/panel`
   - La usuaria puede ingresar su pregunta o mensaje para todos los
     personajes/entidades en un cuadro de texto y enviarlo con un botón
   - El mensaje de la usuaria debe ser ajustado para cada personaje/entidad,
@@ -169,11 +167,11 @@ se integre con la IA a través de la API de OpenAI. Para ello, el equipo de
 Laboratoria te proporcionará una API Key que la usuaria deberá poder ingresar
 en la aplicación que tu construirás.
 
-_Nota: puedes revisar esta [implementación](https://laboratoria-dataverse-talks.netlify.app/)
+_Nota_: puedes revisar esta [implementación](https://laboratoria-dataverse-talks.netlify.app/)
 de ejemplo, cuyo principal objetivo es mostrarte cómo se vería la
 funcionalidad de chat en tu aplicación, más no tomes el diseño como
 referencia para tu proyecto, siente libre de hacer volar tu imaginación
-diseñando tu propia interfaz._
+diseñando tu propia interfaz.
   
 ## 5. Consideraciones técnicas
 
@@ -232,8 +230,9 @@ a almacenar datos en el local storage.
 
 ### `src/views`
 
-Esta carpeta generalmente contiene archivos que representan las diferentes
-vistas o páginas de tu aplicación. Cada vista puede tener su propio archivo
+Esta carpeta generalmente contiene archivos de los componentes que
+representan las diferentes páginas o vistas de tu aplicación. 
+Cada vista (view) puede tener su propio archivo
 JavaScript, que exporta una función que es responsable de generar
 los elementos del DOM.
 
@@ -246,7 +245,7 @@ renderizar las diferentes vistas de tu aplicación.
 ### `src/index.js`
 
 El punto de partida para tu SPA sera el archivo `src/index.js`. Acá encontrarás
-algunas instrucciones y comentrarios para guiarte en el inicio del desarrollo
+algunas instrucciones y comentarios para guiarte en el inicio del desarrollo
 de tu aplicación.
 
 ### `src/router.js`
@@ -332,7 +331,7 @@ Luego de diseñar tu interfaz de usuaria deberás trabajar en su implementación
 **No** es necesario que construyas la interfaz exactamente como la diseñaste.
 Tu tiempo de hacking es escaso, así que deberás priorizar.
 
-Revisa [las funcionalidades](#3-funcionalidades) que el proyecto pide del interfaz.
+Revisa [las funcionalidades](#4-funcionalidades) que el proyecto pide del interfaz.
 
 ### Pruebas unitarias
 
@@ -370,27 +369,27 @@ Te sugerimos algunas tareas para dar inicio al proyecto. No es necesario
 abordarlas de manera secuencial, y puedes llevarlas a cabo en paralelo
 mientras avanzas con la planificación de las Historias de Usuario:
 
-1. Diseño de Wireframes y Prototipo de Baja Fidelidad:
+#### Diseño de Wireframes o Prototipo de Baja Fidelidad
 Comienza por diseñar wireframes o prototipos de baja fidelidad para capturar
 los requisitos funcionales de tu proyecto. Es recomendable comenzar con un
 enfoque ["mobile first"](https://mediaclick.es/blog/diseno-web-responsive-design-y-la-importancia-del-mobile-first/)
 para garantizar la usabilidad en dispositivos móviles,
 y luego extender la atención a pantallas más grandes, como las de escritorio.
 
-2. Comprende los Conceptos de SPA (Single Page Application) y Enrutamiento:
+#### Comprende los Conceptos de SPA (Single Page Application) y Enrutamiento
 Antes de comenzar a codificar, asegúrate de comprender los conceptos de una
 Aplicación de Página Única (SPA) y el enrutamiento de páginas. Esto te
 permitirá crear una experiencia de usuario fluida y dinámica. Investiga
 las mejores prácticas y las herramientas disponibles para implementar un
 SPA en tu proyecto.
 
-3. Preparación de la Estructura del Proyecto:
+#### Preparación de la Estructura del Proyecto
 Organiza tu proyecto creando la estructura de directorios necesaria y
 configurando un sistema de enrutamiento básico para cambiar dinámicamente
 entre dos vistas. Asegúrate de que tu proyecto tenga una arquitectura
 limpia y escalable.
 
-4. Integración de Dataverse:
+#### Integración de Dataverse
 Si tienes la intención de utilizar código de Dataverse en tu proyecto,
 asegúrate de importar los archivos relevantes, como `dataset.js`,
 `dataFunctions.js`, `main.js`, y `view.js`, junto con sus respectivas
@@ -398,7 +397,7 @@ pruebas. Ten en cuenta que `main.js` y `view.js` requerirán una
 refactorización para adaptarse a las vistas y componentes específicos
 de tu proyecto.
 
-5. Identifica las funcionalides de Open AI
+#### Identifica las funcionalides de Open AI
 Consulta la documentación de la
 [API de Open AI](https://platform.openai.com/docs/guides/gpt?lang=node.js).
 Identifica y prueba las funciones que usarás para construir el chat
@@ -433,7 +432,7 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 * [Promesas](https://es.javascript.info/promise-basics)
 * [Haciendo peticiones con Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Utilizando_Fetch)
 * [Almacenamiento con LocalStorage](https://es.javascript.info/localstorage)
-* [Creando un router SPA con vanilla Javascript](https://www.youtube.com/watch?v=vFh18oo2Cu4)
+* [Creando un router SPA con vanilla Javascript](https://github.com/Laboratoria/guide-router/blob/guide-v1/README.md)
 * [Delegación de eventos](https://es.javascript.info/event-delegation)
 
 #### Inteligencia Artificial y Prompting
@@ -477,7 +476,7 @@ Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
   - [ ] Permite conversar con el personaje o entidad de la data a través
     de un chat.
   - [ ] Permite chatear de forma grupal con todas las entidades de la data.
-  - [ ] Es _responsive_ y fue realizado usando la metodología mobile first.
+  - [ ] Es responsive y fue realizado usando la metodología mobile first.
 
 Recuerda que debes hacer una autoevaluación de _objetivos de aprendizaje_ y
 _life skills_ desde tu dashboard de estudiante.
