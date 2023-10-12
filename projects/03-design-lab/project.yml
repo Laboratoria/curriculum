@@ -25,13 +25,17 @@ learningObjectives:
   - interaction-design/user-flows
   - interaction-design/usability
   - interaction-design/information-architecture
+  - content-design/voice-tone
   - content-design/create-content
   - interface-design/visual-design
   - interface-design/accesibility
+  - interface-design/responsive-design
   - design-prototype/basic-prototypes
   - design-prototype/high-fidelity
+  - design-prototype/advanced-interactions
   - usability-analysis/moderated-testing
   - usability-analysis/heuristic-analysis
+  - usability-analysis/non-moderated-testing
   - design-pitch/design-feedback
   - design-pitch/design-presentation
   - design-specs/file-organization
