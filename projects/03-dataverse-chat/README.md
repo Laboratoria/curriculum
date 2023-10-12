@@ -126,15 +126,24 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
   informativas y personalizadas según las preguntas de los usuarios.
 
 ```text
-> Usuaria: "Hola, Ada. Cuéntame más sobre tus contribuciones a la informática."
+Usuaria: "Hola, Ada. Cuéntame más sobre tus contribuciones a la informática."
 
-> Ada Lovelace (AI de OpenAI): "¡Hola! Claro, estaré encantada de hablar sobre eso. Mis contribuciones más destacadas se relacionan con el trabajo junto a Charles Babbage en el diseño de la Máquina Analítica. Este diseño se considera como el precursor de la computadora moderna y yo propuse la idea de usar tarjetas perforadas para programarla. Además, desarrollé el primer algoritmo destinado a ser procesado por una máquina, lo que me convierte en la primera programadora de la historia. 
-
-> ¿Hay algo más en particular que te gustaría saber?"
+Ada Lovelace (AI de OpenAI): "¡Hola! Claro, estaré encantada de hablar sobre eso.
+Mis contribuciones más destacadas se relacionan con el trabajo junto a Charles Babbage
+en el diseño de la Máquina Analítica. Este diseño se considera como el precursor de la
+computadora moderna y yo propuse la idea de usar tarjetas perforadas para programarla.
+Además, desarrollé el primer algoritmo destinado a ser procesado por una máquina,
+lo que me convierte en la primera programadora de la historia. 
+¿Hay algo más en particular que te gustaría saber?"
  
-> Usuaria: "¡Eso es fascinante! ¿Qué desafíos enfrentaste en ese tiempo?"
+Usuaria: "¡Eso es fascinante! ¿Qué desafíos enfrentaste en ese tiempo?"
 
-> Ada Lovelace (AI de OpenAI): "En ese tiempo, enfrenté varios desafíos, uno de los principales fue la limitación de recursos y la falta de reconocimiento del potencial de la Máquina Analítica. También tuve que superar las restricciones sociales de la época, ya que las mujeres tenían un acceso limitado a la educación en matemáticas y ciencias. Sin embargo, mi pasión por la matemática y la visión de lo que estas máquinas podrían lograr me impulsaron a seguir adelante."
+Ada Lovelace (AI de OpenAI): "En ese tiempo, enfrenté varios desafíos, uno de los
+principales fue la limitación de recursos y la falta de reconocimiento del potencial
+de la Máquina Analítica. También tuve que superar las restricciones sociales de 
+la época, ya que las mujeres tenían un acceso limitado a la educación en
+matemáticas y ciencias. Sin embargo, mi pasión por la matemática y la visión
+de lo que estas máquinas podrían lograr me impulsaron a seguir adelante."
 ```
 
 * La aplicación debe  permitir al usuario interactuar de manera simultánea
@@ -154,6 +163,11 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
   minuto o cualquier otro error relacionado con la API. Debería
   proporcionarse una descripción clara de la causa del problema y posibles
   soluciones.
+
+Para que los chats anteriores puedan funcionar, es esencial que la aplicación
+se integre con la IA a través de la API de OpenAI. Para ello, el equipo de
+Laboratoria te proporcionará una API Key que la usuaria deberá poder ingresar
+en la aplicación que tu construirás.
 
 _Nota: puedes revisar esta [implementación](https://laboratoria-dataverse-talks.netlify.app/)
 de ejemplo, cuyo principal objetivo es mostrarte cómo se vería la
@@ -176,7 +190,7 @@ La siguiente es una estructura de archivos que recomendamos:
 ├── src
 |  ├── components 
 |  ├── data
-|  |  └── dataset.js (La que hayas generado con la IA)
+|  |  └── dataset.js
 |  ├── lib
 |  |  └── dataFunctions.js
 |  ├── views
@@ -186,7 +200,7 @@ La siguiente es una estructura de archivos que recomendamos:
 |  └── style.css
 ├── test
 |  └── dataFunctions.spec.js
-|  └── ejemplo.spec.js (Los tests de tus funciones y componentes)
+|  └── ejemplo.spec.js
 ├── README.md
 └── package.json
 
@@ -359,7 +373,8 @@ mientras avanzas con la planificación de las Historias de Usuario:
 1. Diseño de Wireframes y Prototipo de Baja Fidelidad:
 Comienza por diseñar wireframes o prototipos de baja fidelidad para capturar
 los requisitos funcionales de tu proyecto. Es recomendable comenzar con un
-enfoque "mobile first" para garantizar la usabilidad en dispositivos móviles,
+enfoque ["mobile first"](https://mediaclick.es/blog/diseno-web-responsive-design-y-la-importancia-del-mobile-first/)
+para garantizar la usabilidad en dispositivos móviles,
 y luego extender la atención a pantallas más grandes, como las de escritorio.
 
 2. Comprende los Conceptos de SPA (Single Page Application) y Enrutamiento:
