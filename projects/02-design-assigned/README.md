@@ -1,4 +1,4 @@
-# Design Lab
+# Proyecto asignado
 
 ## Índice
 
@@ -9,13 +9,16 @@
 
 ## 1. Resumen del proyecto
 
-Podrás elegir entre resolver un reto de uno de los sectores que más perfiles de
-UX contrata o de un sector innovador donde el rol de UX se está volviendo cada
-vez más importante.
+En algunas ocasiones, y únicamente bajo el criterio del equipo de Laboratoria,
+será necesario que realices un proyecto asignado, el cual será acorde al contexto
+y las necesidades de aprendizaje de la(s) estudiante(s).
 
-![design-lab](https://raw.githubusercontent.com/Laboratoria/bootcamp/main/projects/03-design-lab/thumb.png)
+![design-assigned](https://raw.githubusercontent.com/Laboratoria/bootcamp/main/projects/02-design-assigned/thumb.png)
 
 ## 2. Objetivos de aprendizaje
+
+Los Objetivos de Aprendizaje de este proyecto son variables, por lo que debes
+basarte en el enunciado que te proporcionará el equipo de Laboratoria.
 
 > ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
