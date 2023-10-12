@@ -2,9 +2,9 @@
   "slug": "social-network",
   "repo": "Laboratoria/curriculum",
   "path": "projects/03-social-network",
-  "version": "7.1.0",
-  "parserVersion": "5.0.0-beta.0",
-  "createdAt": "2023-09-13T14:13:00.984Z",
+  "version": "7.2.0",
+  "parserVersion": "5.1.0",
+  "createdAt": "2023-09-28T20:34:06.077Z",
   "prefix": 3,
   "track": "web-dev",
   "learningObjectives": [

@@ -2,9 +2,9 @@
   "slug": "uxploradoras-ui",
   "repo": "Laboratoria/curriculum",
   "path": "projects/02-uxploradoras-ui",
-  "version": "7.1.0",
-  "parserVersion": "5.0.0-beta.0",
-  "createdAt": "2023-09-13T14:13:00.996Z",
+  "version": "7.2.0",
+  "parserVersion": "5.1.0",
+  "createdAt": "2023-09-28T20:34:02.045Z",
   "prefix": 2,
   "track": "ux",
   "learningObjectives": [

@@ -2,9 +2,9 @@
   "slug": "card-validation",
   "repo": "Laboratoria/curriculum",
   "path": "projects/01-card-validation",
-  "version": "7.1.0",
-  "parserVersion": "5.0.0-beta.0",
-  "createdAt": "2023-09-13T14:12:50.879Z",
+  "version": "7.2.0",
+  "parserVersion": "5.1.0",
+  "createdAt": "2023-09-28T20:33:42.491Z",
   "prefix": 1,
   "track": "web-dev",
   "learningObjectives": [
