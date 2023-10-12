@@ -198,7 +198,7 @@ La siguiente es una estructura de archivos que recomendamos:
 |  └── style.css
 ├── test
 |  └── dataFunctions.spec.js
-|  └── ejemplo.spec.js
+|  └── example.spec.js
 ├── README.md
 └── package.json
 
@@ -231,7 +231,7 @@ a almacenar datos en el local storage.
 ### `src/views`
 
 Esta carpeta generalmente contiene archivos de los componentes que
-representan las diferentes páginas o vistas de tu aplicación. 
+representan las diferentes páginas o vistas de tu aplicación.
 Cada vista (view) puede tener su propio archivo
 JavaScript, que exporta una función que es responsable de generar
 los elementos del DOM.
@@ -370,6 +370,7 @@ abordarlas de manera secuencial, y puedes llevarlas a cabo en paralelo
 mientras avanzas con la planificación de las Historias de Usuario:
 
 #### Diseño de Wireframes o Prototipo de Baja Fidelidad
+
 Comienza por diseñar wireframes o prototipos de baja fidelidad para capturar
 los requisitos funcionales de tu proyecto. Es recomendable comenzar con un
 enfoque ["mobile first"](https://mediaclick.es/blog/diseno-web-responsive-design-y-la-importancia-del-mobile-first/)
@@ -377,6 +378,7 @@ para garantizar la usabilidad en dispositivos móviles,
 y luego extender la atención a pantallas más grandes, como las de escritorio.
 
 #### Comprende los Conceptos de SPA (Single Page Application) y Enrutamiento
+
 Antes de comenzar a codificar, asegúrate de comprender los conceptos de una
 Aplicación de Página Única (SPA) y el enrutamiento de páginas. Esto te
 permitirá crear una experiencia de usuario fluida y dinámica. Investiga
@@ -384,12 +386,14 @@ las mejores prácticas y las herramientas disponibles para implementar un
 SPA en tu proyecto.
 
 #### Preparación de la Estructura del Proyecto
+
 Organiza tu proyecto creando la estructura de directorios necesaria y
 configurando un sistema de enrutamiento básico para cambiar dinámicamente
 entre dos vistas. Asegúrate de que tu proyecto tenga una arquitectura
 limpia y escalable.
 
 #### Integración de Dataverse
+
 Si tienes la intención de utilizar código de Dataverse en tu proyecto,
 asegúrate de importar los archivos relevantes, como `dataset.js`,
 `dataFunctions.js`, `main.js`, y `view.js`, junto con sus respectivas
@@ -398,12 +402,13 @@ refactorización para adaptarse a las vistas y componentes específicos
 de tu proyecto.
 
 #### Identifica las funcionalides de Open AI
+
 Consulta la documentación de la
 [API de Open AI](https://platform.openai.com/docs/guides/gpt?lang=node.js).
 Identifica y prueba las funciones que usarás para construir el chat
 de tu aplicación
 
-Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
+#### Cuando ya estés lista para codear, te sugerimos empezar de esta manera
 
 1. Una de las integrantes del equipo debe realizar un :fork_and_knife:
    [fork](https://help.github.com/articles/fork-a-repo/) del repo de tu cohort,
