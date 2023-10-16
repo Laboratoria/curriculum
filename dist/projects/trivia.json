@@ -2,9 +2,9 @@
   "slug": "trivia",
   "repo": "Laboratoria/curriculum",
   "path": "projects/00-trivia",
-  "version": "7.2.0",
+  "version": "7.3.0",
   "parserVersion": "5.1.0",
-  "createdAt": "2023-09-28T20:33:42.499Z",
+  "createdAt": "2023-10-16T17:43:19.823Z",
   "prefix": 0,
   "track": "web-dev",
   "learningObjectives": [

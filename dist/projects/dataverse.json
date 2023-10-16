@@ -2,9 +2,9 @@
   "slug": "dataverse",
   "repo": "Laboratoria/curriculum",
   "path": "projects/02-dataverse",
-  "version": "7.2.0",
+  "version": "7.3.0",
   "parserVersion": "5.1.0",
-  "createdAt": "2023-09-28T20:33:51.855Z",
+  "createdAt": "2023-10-16T17:43:26.053Z",
   "prefix": 2,
   "track": "web-dev",
   "learningObjectives": [
