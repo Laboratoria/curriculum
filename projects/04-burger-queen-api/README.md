@@ -47,7 +47,7 @@ familiarizarnos con el _stack_ elegido ([Node.js](https://nodejs.org/) y
 datos. Recomendamos el uso de [MongoDB](https://www.mongodb.com/) y tenemos una
 [guía para empezar con MongoDB](./guides/GETTING-STARTED-MONGODB.md).
 
-La clienta nos ha dado un [link a la documentación](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
+La clienta nos ha dado un [link a la documentación](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/3.0.0)
 que especifica el comportamiento esperado de la API que expondremos por
 HTTP. Ahí puedes encontrar todos los detalles de qué _endpoints_ debe
 implementar la aplicación, qué parámetros esperan, qué deben responder, etc.
@@ -119,41 +119,9 @@ usarlas como guía de implementación y checklist de completitud.
 
 ### 5.1 API
 
-Según lo establecido por la
-[documentación](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
-entregada por nuestra clienta, la API debe exponer los siguientes endpoints:
-
-#### 5.1.1 `/`
-
-* `GET /`
-
-#### 5.1.2 `/auth`
-
-* `POST /auth`
-
-#### 5.1.3 `/users`
-
-* `GET /users`
-* `GET /users/:uid`
-* `POST /users`
-* `PATCH /users/:uid`
-* `DELETE /users/:uid`
-
-#### 5.1.4 `/products`
-
-* `GET /products`
-* `GET /products/:productid`
-* `POST /products`
-* `PATCH /products/:productid`
-* `DELETE /products/:productid`
-
-#### 5.1.5 `/orders`
-
-* `GET /orders`
-* `GET /orders/:orderId`
-* `POST /orders`
-* `PATCH /orders/:orderId`
-* `DELETE /orders/:orderId`
+La API debe exponer los servicios de la
+[documentación](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/3.0.0)
+entregada por nuestra clienta.
 
 ### 5.2 CLI
 
