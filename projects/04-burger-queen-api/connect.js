@@ -4,7 +4,7 @@ const config = require('./config');
 const { dbUrl } = config;
 
 async function connect() {
-  // TODO: Conexión a la Base de Datos
+  // TODO: Database Connection
 }
 
 module.exports = { connect };
