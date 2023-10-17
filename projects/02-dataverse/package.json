@@ -1,0 +1,52 @@
+{
+  "name": "data-lovers",
+  "version": "1.0.0",
+  "main": "src/index.html",
+  "license": "MIT",
+  "scripts": {
+    "htmlhint": "htmlhint src/*.html test/*.html",
+    "eslint": "eslint --ext .js src/ test/",
+    "pretest": "npm run eslint && npm run htmlhint",
+    "test": "jest --verbose --coverage test/",
+    "test:e2e": "playwright test",
+    "test:oas": "jest --verbose tests-read-only/oa/",
+    "pretest:oas-html": "npm run pretest",
+    "test:oas-html": "jest --verbose tests-read-only/oa/oa-html.spec.js",
+    "test:oas-css": "jest --verbose tests-read-only/oa/oa-css.spec.js",
+    "pretest:oas-js": "npm run pretest",
+    "test:oas-js": "jest --verbose tests-read-only/oa/oa-javascript.spec.js",
+    "pretest:oas-web-api": "npm run pretest",
+    "test:oas-web-api": "jest --verbose tests-read-only/oa/oa-web-api.spec.js",
+    "pretest:oas-prompting": "npm run pretest",
+    "test:oas-prompting": "jest --verbose tests-read-only/oa/oa-prompting.spec.js",
+    "open-coverage-report": "opener ./coverage/lcov-report/index.html",
+    "start": "serve src/",
+    "deploy": "gh-pages -d src"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.6.0",
+    "@playwright/test": "^1.36.1",
+    "acorn": "^8.8.2",
+    "babel-jest": "^27.0.1",
+    "css": "^3.0.0",
+    "eslint": "^8.3.0",
+    "gh-pages": "^3.1.0",
+    "htmlhint": "^1.0.0",
+    "jest": "^27.0.1",
+    "jsdom": "^22.1.0",
+    "opener": "^1.5.1",
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=16.x"
+  },
+  "bootcamp": {
+    "createdAt": "2023-07-15T18:10:25.570Z",
+    "version": "6.4.0",
+    "commit": "23398b101da847a5a056af6ccfe939a3d6d9098d"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}

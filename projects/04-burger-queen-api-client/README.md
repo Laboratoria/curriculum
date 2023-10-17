@@ -9,6 +9,7 @@
 * [5. Criterios de aceptación del proyecto](#5-criterios-de-aceptación-del-proyecto)
 * [6. Despliegue](#6-despliegue)
 * [7. Pistas / tips](#7-pistas--tips)
+* [8. Funcionalidades opcionales](#8-funcionalidades-opcionales)
 
 ***
 
@@ -118,17 +119,19 @@ a un _pedido_, la interfaz debe actualizar la lista del pedido y el total).
 ## 4. Consideraciones
 
 Este proyecto se debe "resolver" en duplas y para trabajar con el backend
-te sugerimos elegir un metodo entre las siguientes opciones:
+te sugerimos elegir un método entre las siguientes opciones:
 
 1. Usando una mock API. Puedes crear tu propia mock API con las herramientas
   [json-server](https://www.npmjs.com/package/json-server) y
   [json-server-auth](https://www.npmjs.com/package/json-server-auth)
   o puedes hacer fork y clonar
-  [este repo de una mock API](https://github.com/Laboratoria/burger-queen-api-mock).
+  [este repo de una mock API](https://github.com/Laboratoria/burger-queen-api-mock)
+  que hemos desarrollado. Esta mock API debería comportarse de la manera definida
+  [en la documentación.](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
 
 2. Consumiendo una API desplegada. Puedes usar una que desarrollarán tus
-  compañeras o puedes usar
-  [esta API que hemos desarrollado](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0).
+  compañeras en su proyecto Burger Queen API, o pueden desplegar tu mock API.
+  Aquí hay [un ejemplo como desplegar tu mock con Vercel.](https://medium.com/@phillipnzaujunior/unleashing-the-power-of-mock-apis-deploying-your-fake-rest-api-to-vercel-d1cbd95b4452)
 
 Puedes empezar usando una mock API y en cualquier momento del proyecto
 pasarte a la API desplegada. Esta situación suele ocurrir en Desarrollo Web
@@ -154,7 +157,7 @@ javascript.
 
 Si eliges React, la decisión de usar Typescript es opcional (pero te lo
 recomendamos!). Aquí puedes encontrar más información en relación a cómo iniciar
-tu proyecto con [Typescript y React](https://itnext.io/create-react-v18-typescript-project-with-vite-d0d602e4a60e).
+tu proyecto con [Typescript y React](https://es.vitejs.dev/guide/#monta-tu-primer-proyecto-vite).
 
 La aplicación debe ser un _Single Page App_. Los pedidos los tomaremos desde una
 _tablet_, pero **no queremos una app nativa**, sino una web app que sea
@@ -282,50 +285,6 @@ rápidamente a lxs clientxs que las hicieron.
 * Los datos se deben mantener íntegros, incluso después de que un pedido ha
   terminado. Todo esto para poder tener estadísticas en el futuro.
 
-***
-
-#### [Historia de usuario 5] Administrador(a) de tienda debe administrar a sus trabajadorxs
-
-Yo como administrador(a) de tienda quiero gestionar a los usuarios de
-la plataforma para mantener actualizado la informacion de mis trabajadorxs.
-
-##### Criterios de aceptación
-
-* Ver listado de trabajadorxs.
-* Agregar trabajadorxs.
-* Eliminar trabajadoxs.
-* Actualizar datos de trabajadorxs.
-
-##### Definición de terminado
-
-* Debes haber recibido _code review_ de al menos una compañera.
-* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
-* Desplegaste tu aplicación y has etiquetado tu versión (git tag).
-
-***
-
-#### [Historia de usuario 6] Administrador(a) de tienda debe administrar a sus productos
-
-Yo como administrador(a) de tienda quiero gestionar los productos
-para mantener actualizado el menú.
-
-##### Criterios de aceptación
-
-* Ver listado de productos.
-* Agregar productos.
-* Eliminar productos.
-* Actualizar datos de productos.
-
-##### Definición de terminado
-
-* Debes haber recibido _code review_ de al menos una compañera.
-* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
-* Desplegaste tu aplicación y has etiquetado tu versión (git tag).
-
-***
-
 ## 6. Despliegue
 
 Puedes elegir el proveedor (o proveedores) que prefieras junto
@@ -365,3 +324,50 @@ para conversar y pedir ayuda del proyecto.
 * [Tu primera Progressive Web App - Google developers](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/?hl=es)
 * [Progressive Web Apps - codigofacilito.com](https://codigofacilito.com/articulos/progressive-apps)
 * [Usando Service Workers - MDN](https://developer.mozilla.org/es/docs/Web/API/Service_Worker_API/Using_Service_Workers)
+
+## 8. Funcionalidades opcionales
+
+Si completaste todas las funcionalidades del proyecto te invitamos
+a trabajar en las siguientes historias de usuaria:
+
+***
+
+### [Historia de usuario 5] Administrador(a) de tienda debe administrar a sus trabajadorxs
+
+Yo como administrador(a) de tienda quiero gestionar a los usuarios de
+la plataforma para mantener actualizado la informacion de mis trabajadorxs.
+
+#### Criterios de aceptación
+
+* Ver listado de trabajadorxs.
+* Agregar trabajadorxs.
+* Eliminar trabajadoxs.
+* Actualizar datos de trabajadorxs.
+
+#### Definición de terminado
+
+* Debes haber recibido _code review_ de al menos una compañera.
+* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
+* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
+* Desplegaste tu aplicación y has etiquetado tu versión (git tag).
+
+***
+
+### [Historia de usuario 6] Administrador(a) de tienda debe administrar a sus productos
+
+Yo como administrador(a) de tienda quiero gestionar los productos
+para mantener actualizado el menú.
+
+#### Criterios de aceptación
+
+* Ver listado de productos.
+* Agregar productos.
+* Eliminar productos.
+* Actualizar datos de productos.
+
+#### Definición de terminado
+
+* Debes haber recibido _code review_ de al menos una compañera.
+* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
+* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
+* Desplegaste tu aplicación y has etiquetado tu versión (git tag).

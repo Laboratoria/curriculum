@@ -7,117 +7,112 @@ const {
 module.exports = (app, nextMain) => {
   /**
    * @name GET /products
-   * @description Lista productos
+   * @description List products
    * @path {GET} /products
-   * @query {String} [page=1] Página del listado a consultar
-   * @query {String} [limit=10] Cantitad de elementos por página
-   * @header {Object} link Parámetros de paginación
-   * @header {String} link.first Link a la primera página
-   * @header {String} link.prev Link a la página anterior
-   * @header {String} link.next Link a la página siguiente
-   * @header {String} link.last Link a la última página
-   * @auth Requiere `token` de autenticación
+   * @query {String} [_page=1] Page of the list to consult
+   * @query {String} [_limit=10] Number of elements per page
+   * @auth Requires authentication `token`
    * @response {Array} products
-   * @response {String} products[]._id Id
-   * @response {String} products[].name Nombre
-   * @response {Number} products[].price Precio
-   * @response {URL} products[].image URL a la imagen
-   * @response {String} products[].type Tipo/Categoría
-   * @response {Date} products[].dateEntry Fecha de creación
-   * @code {200} si la autenticación es correcta
-   * @code {401} si no hay cabecera de autenticación
+   * @response {String} products[].id Id
+   * @response {String} products[].name Name
+   * @response {Number} products[].price Price
+   * @response {URL} products[].image URL to the image
+   * @response {String} products[].type Type/Category
+   * @response {Date} products[].dateEntry Creation date
+   * @code {200} if authentication is successful
+   * @code {401} if there is no authentication header
    */
   app.get('/products', requireAuth, (req, resp, next) => {
   });
 
   /**
    * @name GET /products/:productId
-   * @description Obtiene los datos de un producto especifico
+   * @description Get the data of a specific product
    * @path {GET} /products/:productId
-   * @params {String} :productId `id` del producto
-   * @auth Requiere `token` de autenticación
+   * @params {String} :productId `id` of the product
+   * @auth Requires authentication `token`
    * @response {Object} product
-   * @response {String} product._id Id
-   * @response {String} product.name Nombre
-   * @response {Number} product.price Precio
-   * @response {URL} product.image URL a la imagen
-   * @response {String} product.type Tipo/Categoría
-   * @response {Date} product.dateEntry Fecha de creación
-   * @code {200} si la autenticación es correcta
-   * @code {401} si no hay cabecera de autenticación
-   * @code {404} si el producto con `productId` indicado no existe
+   * @response {String} product.id Id
+   * @response {String} product.name Name
+   * @response {Number} product.price Price
+   * @response {URL} product.image URL to the image
+   * @response {String} product.type Type/Category
+   * @response {Date} product.dateEntry Creation date
+   * @code {200} if authentication is successful
+   * @code {401} if there is no authentication header
+   * @code {404} if the product with the specified `productId` does not exist
    */
   app.get('/products/:productId', requireAuth, (req, resp, next) => {
   });
 
   /**
    * @name POST /products
-   * @description Crea un nuevo producto
+   * @description Create a new product
    * @path {POST} /products
-   * @auth Requiere `token` de autenticación y que la usuaria sea **admin**
-   * @body {String} name Nombre
-   * @body {Number} price Precio
-   * @body {String} [imagen]  URL a la imagen
-   * @body {String} [type] Tipo/Categoría
+   * @auth Requires authentication `token` and the user to be an **admin**
+   * @body {String} name Name
+   * @body {Number} price Price
+   * @body {String} [image] URL to the image
+   * @body {String} [type] Type/Category
    * @response {Object} product
-   * @response {String} products._id Id
-   * @response {String} product.name Nombre
-   * @response {Number} product.price Precio
-   * @response {URL} product.image URL a la imagen
-   * @response {String} product.type Tipo/Categoría
-   * @response {Date} product.dateEntry Fecha de creación
-   * @code {200} si la autenticación es correcta
-   * @code {400} si no se indican `name` o `price`
-   * @code {401} si no hay cabecera de autenticación
-   * @code {403} si no es admin
-   * @code {404} si el producto con `productId` indicado no existe
+   * @response {String} product.id Id
+   * @response {String} product.name Name
+   * @response {Number} product.price Price
+   * @response {URL} product.image URL to the image
+   * @response {String} product.type Type/Category
+   * @response {Date} product.dateEntry Creation date
+   * @code {200} if authentication is correct
+   * @code {400} if `name` or `price` are not provided
+   * @code {401} if there is no authentication header
+   * @code {403} if the user is not an admin
+   * @code {404} if the product with the specified `productId` does not exist
    */
   app.post('/products', requireAdmin, (req, resp, next) => {
   });
 
   /**
-   * @name PUT /products
-   * @description Modifica un producto
-   * @path {PUT} /products
-   * @params {String} :productId `id` del producto
-   * @auth Requiere `token` de autenticación y que el usuario sea **admin**
-   * @body {String} [name] Nombre
-   * @body {Number} [price] Precio
-   * @body {String} [imagen]  URL a la imagen
-   * @body {String} [type] Tipo/Categoría
+   * @name PUT /products/:productId
+   * @description Modify a product
+   * @path {PUT} /products/:productId
+   * @params {String} :productId `id` of the product
+   * @auth Requires authentication `token` and the user to be an **admin**
+   * @body {String} [name] Name
+   * @body {Number} [price] Price
+   * @body {String} [image] URL to the image
+   * @body {String} [type] Type/Category
    * @response {Object} product
-   * @response {String} product._id Id
-   * @response {String} product.name Nombre
-   * @response {Number} product.price Precio
-   * @response {URL} product.image URL a la imagen
-   * @response {String} product.type Tipo/Categoría
-   * @response {Date} product.dateEntry Fecha de creación
-   * @code {200} si la autenticación es correcta
-   * @code {400} si no se indican ninguna propiedad a modificar
-   * @code {401} si no hay cabecera de autenticación
-   * @code {403} si no es admin
-   * @code {404} si el producto con `productId` indicado no existe
+   * @response {String} product.id Id
+   * @response {String} product.name Name
+   * @response {Number} product.price Price
+   * @response {URL} product.image URL to the image
+   * @response {String} product.type Type/Category
+   * @response {Date} product.dateEntry Creation date
+   * @code {200} if authentication is correct
+   * @code {400} if no properties to modify are indicated
+   * @code {401} if there is no authentication header
+   * @code {403} if the user is not an admin
+   * @code {404} if the product with the specified `productId` does not exist
    */
   app.put('/products/:productId', requireAdmin, (req, resp, next) => {
   });
 
   /**
-   * @name DELETE /products
-   * @description Elimina un producto
-   * @path {DELETE} /products
-   * @params {String} :productId `id` del producto
-   * @auth Requiere `token` de autenticación y que el usuario sea **admin**
+   * @name DELETE /products/:productId
+   * @description Delete a product
+   * @path {DELETE} /products/:productId
+   * @params {String} :productId `id` of the product
+   * @auth Requires authentication `token` and the user to be an **admin**
    * @response {Object} product
-   * @response {String} product._id Id
-   * @response {String} product.name Nombre
-   * @response {Number} product.price Precio
-   * @response {URL} product.image URL a la imagen
-   * @response {String} product.type Tipo/Categoría
-   * @response {Date} product.dateEntry Fecha de creación
-   * @code {200} si la autenticación es correcta
-   * @code {401} si no hay cabecera de autenticación
-   * @code {403} si no es ni admin
-   * @code {404} si el producto con `productId` indicado no existe
+   * @response {String} product.id Id
+   * @response {String} product.name Name
+   * @response {Number} product.price Price
+   * @response {URL} product.image URL to the image
+   * @response {String} product.type Type/Category
+   * @response {Date} product.dateEntry Creation date
+   * @code {200} if authentication is correct
+   * @code {401} if there is no authentication header
+   * @code {403} if the user is not an admin
+   * @code {404} if the product with the specified `productId` does not exist
    */
   app.delete('/products/:productId', requireAdmin, (req, resp, next) => {
   });

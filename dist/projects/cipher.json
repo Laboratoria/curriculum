@@ -1,10 +1,10 @@
 {
   "slug": "cipher",
-  "repo": "Laboratoria/bootcamp",
+  "repo": "Laboratoria/curriculum",
   "path": "projects/01-cipher",
-  "version": "6.6.0",
-  "parserVersion": "5.0.0-beta.0",
-  "createdAt": "2023-08-10T20:09:25.046Z",
+  "version": "7.3.0",
+  "parserVersion": "5.1.0",
+  "createdAt": "2023-10-16T17:43:22.495Z",
   "prefix": 1,
   "track": "web-dev",
   "learningObjectives": [

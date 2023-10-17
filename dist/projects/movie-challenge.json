@@ -1,10 +1,10 @@
 {
   "slug": "movie-challenge",
-  "repo": "Laboratoria/bootcamp",
+  "repo": "Laboratoria/curriculum",
   "path": "projects/02-movie-challenge",
-  "version": "6.6.0",
-  "parserVersion": "5.0.0-beta.0",
-  "createdAt": "2023-08-10T20:09:25.998Z",
+  "version": "7.3.0",
+  "parserVersion": "5.1.0",
+  "createdAt": "2023-10-16T17:43:32.137Z",
   "prefix": 2,
   "track": "web-dev",
   "learningObjectives": [

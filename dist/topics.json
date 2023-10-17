@@ -1,11 +1,11 @@
 [
   {
     "slug": "browser",
-    "repo": "Laboratoria/bootcamp",
+    "repo": "Laboratoria/curriculum",
     "path": "topics/browser",
-    "version": "6.6.0",
-    "parserVersion": "5.0.0-beta.0",
-    "createdAt": "2023-08-10T20:09:29.456Z",
+    "version": "7.3.0",
+    "parserVersion": "5.1.0",
+    "createdAt": "2023-10-16T17:44:00.688Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -22,11 +22,11 @@
   },
   {
     "slug": "content-management",
-    "repo": "Laboratoria/bootcamp",
+    "repo": "Laboratoria/curriculum",
     "path": "topics/content-management",
-    "version": "6.6.0",
-    "parserVersion": "5.0.0-beta.0",
-    "createdAt": "2023-08-10T20:09:29.011Z",
+    "version": "7.3.0",
+    "parserVersion": "5.1.0",
+    "createdAt": "2023-10-16T17:43:58.840Z",
     "track": "ux",
     "intl": {
       "es": {
@@ -39,11 +39,11 @@
   },
   {
     "slug": "css",
-    "repo": "Laboratoria/bootcamp",
+    "repo": "Laboratoria/curriculum",
     "path": "topics/css",
-    "version": "6.6.0",
-    "parserVersion": "5.0.0-beta.0",
-    "createdAt": "2023-08-10T20:09:29.364Z",
+    "version": "7.3.0",
+    "parserVersion": "5.1.0",
+    "createdAt": "2023-10-16T17:44:00.360Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -60,11 +60,11 @@
   },
   {
     "slug": "functional",
-    "repo": "Laboratoria/bootcamp",
+    "repo": "Laboratoria/curriculum",
     "path": "topics/functional",
-    "version": "6.6.0",
-    "parserVersion": "5.0.0-beta.0",
-    "createdAt": "2023-08-10T20:09:29.284Z",
+    "version": "7.3.0",
+    "parserVersion": "5.1.0",
+    "createdAt": "2023-10-16T17:44:06.878Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -77,11 +77,11 @@
   },
   {
     "slug": "html",
-    "repo": "Laboratoria/bootcamp",
+    "repo": "Laboratoria/curriculum",
     "path": "topics/html",
-    "version": "6.6.0",
-    "parserVersion": "5.0.0-beta.0",
-    "createdAt": "2023-08-10T20:09:29.154Z",
+    "version": "7.3.0",
+    "parserVersion": "5.1.0",
+    "createdAt": "2023-10-16T17:44:06.267Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -98,11 +98,11 @@
   },
   {
     "slug": "interaction-design",
-    "repo": "Laboratoria/bootcamp",
+    "repo": "Laboratoria/curriculum",
     "path": "topics/interaction-design",
-    "version": "6.6.0",
-    "parserVersion": "5.0.0-beta.0",
-    "createdAt": "2023-08-10T20:09:29.128Z",
+    "version": "7.3.0",
+    "parserVersion": "5.1.0",
+    "createdAt": "2023-10-16T17:44:06.413Z",
     "track": "ux",
     "intl": {
       "es": {
@@ -115,11 +115,11 @@
   },
   {
     "slug": "intro-ux",
-    "repo": "Laboratoria/bootcamp",
+    "repo": "Laboratoria/curriculum",
     "path": "topics/intro-ux",
-    "version": "6.6.0",
-    "parserVersion": "5.0.0-beta.0",
-    "createdAt": "2023-08-10T20:09:30.370Z",
+    "version": "7.3.0",
+    "parserVersion": "5.1.0",
+    "createdAt": "2023-10-16T17:44:14.493Z",
     "track": "ux",
     "intl": {
       "es": {
@@ -132,11 +132,11 @@
   },
   {
     "slug": "javascript",
-    "repo": "Laboratoria/bootcamp",
+    "repo": "Laboratoria/curriculum",
     "path": "topics/javascript",
-    "version": "6.6.0",
-    "parserVersion": "5.0.0-beta.0",
-    "createdAt": "2023-08-10T20:09:30.968Z",
+    "version": "7.3.0",
+    "parserVersion": "5.1.0",
+    "createdAt": "2023-10-16T17:44:18.630Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -153,11 +153,11 @@
   },
   {
     "slug": "learning-mindset",
-    "repo": "Laboratoria/bootcamp",
+    "repo": "Laboratoria/curriculum",
     "path": "topics/learning-mindset",
-    "version": "6.6.0",
-    "parserVersion": "5.0.0-beta.0",
-    "createdAt": "2023-08-10T20:09:30.333Z",
+    "version": "7.3.0",
+    "parserVersion": "5.1.0",
+    "createdAt": "2023-10-16T17:44:14.079Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -170,11 +170,11 @@
   },
   {
     "slug": "paradigms",
-    "repo": "Laboratoria/bootcamp",
+    "repo": "Laboratoria/curriculum",
     "path": "topics/paradigms",
-    "version": "6.6.0",
-    "parserVersion": "5.0.0-beta.0",
-    "createdAt": "2023-08-10T20:09:30.621Z",
+    "version": "7.3.0",
+    "parserVersion": "5.1.0",
+    "createdAt": "2023-10-16T17:44:26.265Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -187,11 +187,11 @@
   },
   {
     "slug": "prototyping",
-    "repo": "Laboratoria/bootcamp",
+    "repo": "Laboratoria/curriculum",
     "path": "topics/prototyping",
-    "version": "6.6.0",
-    "parserVersion": "5.0.0-beta.0",
-    "createdAt": "2023-08-10T20:09:30.418Z",
+    "version": "7.3.0",
+    "parserVersion": "5.1.0",
+    "createdAt": "2023-10-16T17:44:25.260Z",
     "track": "ux",
     "intl": {
       "es": {
@@ -204,11 +204,11 @@
   },
   {
     "slug": "scm",
-    "repo": "Laboratoria/bootcamp",
+    "repo": "Laboratoria/curriculum",
     "path": "topics/scm",
-    "version": "6.6.0",
-    "parserVersion": "5.0.0-beta.0",
-    "createdAt": "2023-08-10T20:09:30.473Z",
+    "version": "7.3.0",
+    "parserVersion": "5.1.0",
+    "createdAt": "2023-10-16T17:44:25.612Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -225,11 +225,11 @@
   },
   {
     "slug": "shell",
-    "repo": "Laboratoria/bootcamp",
+    "repo": "Laboratoria/curriculum",
     "path": "topics/shell",
-    "version": "6.6.0",
-    "parserVersion": "5.0.0-beta.0",
-    "createdAt": "2023-08-10T20:09:30.413Z",
+    "version": "7.3.0",
+    "parserVersion": "5.1.0",
+    "createdAt": "2023-10-16T17:44:28.865Z",
     "track": "web-dev",
     "intl": {
       "es": {
@@ -246,11 +246,11 @@
   },
   {
     "slug": "ux-research",
-    "repo": "Laboratoria/bootcamp",
+    "repo": "Laboratoria/curriculum",
     "path": "topics/ux-research",
-    "version": "6.6.0",
-    "parserVersion": "5.0.0-beta.0",
-    "createdAt": "2023-08-10T20:09:31.525Z",
+    "version": "7.3.0",
+    "parserVersion": "5.1.0",
+    "createdAt": "2023-10-16T17:44:29.271Z",
     "track": "ux",
     "intl": {
       "es": {

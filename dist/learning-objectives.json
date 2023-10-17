@@ -304,7 +304,7 @@
           {
             "members": [
               "fields",
-              "constructor",
+              "constructors",
               "methods",
               "getter-setters"
             ]
@@ -328,6 +328,12 @@
         ]
       },
       "decorators"
+    ],
+    "ai-prompting": [
+      "giving-instructions",
+      "few-shot-prompting",
+      "priming-chatbots",
+      "open-ai-api"
     ],
     "agile-planning": [
       "scope",
@@ -654,7 +660,7 @@
     "typescript/classes",
     "typescript/classes/members",
     "typescript/classes/members/fields",
-    "typescript/classes/members/constructor",
+    "typescript/classes/members/constructors",
     "typescript/classes/members/methods",
     "typescript/classes/members/getter-setters",
     "typescript/classes/class-heritage",
@@ -668,6 +674,11 @@
     "typescript/classes/this",
     "typescript/classes/abstract-classes",
     "typescript/decorators",
+    "ai-prompting",
+    "ai-prompting/giving-instructions",
+    "ai-prompting/few-shot-prompting",
+    "ai-prompting/priming-chatbots",
+    "ai-prompting/open-ai-api",
     "agile-planning",
     "agile-planning/scope",
     "agile-planning/workplan",
@@ -748,7 +759,7 @@
         "links": [
           {
             "title": "HTML semántico",
-            "url": "topics/html/02-html5/02-semantic-html"
+            "url": "topics/html/html5/semantic-html"
           },
           {
             "title": "Semantics - MDN Web Docs Glossary",
@@ -764,7 +775,7 @@
         "links": [
           {
             "title": "Intro a CSS",
-            "url": "topics/css/01-css/01-intro-css"
+            "url": "topics/css/css/intro-css"
           },
           {
             "title": "CSS Selectors - MDN",
@@ -777,7 +788,7 @@
         "links": [
           {
             "title": "Box Model & Display",
-            "url": "topics/css/01-css/02-boxmodel-and-display"
+            "url": "topics/css/css/boxmodel-and-display"
           },
           {
             "title": "The box model - MDN",
@@ -847,7 +858,7 @@
         "links": [
           {
             "title": "Manipulación del DOM",
-            "url": "topics/browser/02-dom/03-1-dom-methods-selection"
+            "url": "topics/browser/dom/1-dom-methods-selection"
           },
           {
             "title": "Introducción al DOM - MDN",
@@ -953,7 +964,7 @@
         "links": [
           {
             "title": "Strings",
-            "url": "topics/javascript/06-strings"
+            "url": "topics/javascript/strings"
           },
           {
             "title": "String — Cadena de caracteres - MDN",
@@ -966,7 +977,7 @@
         "links": [
           {
             "title": "Arreglos",
-            "url": "topics/javascript/04-arrays"
+            "url": "topics/javascript/arrays"
           },
           {
             "title": "Array - MDN",
@@ -999,7 +1010,7 @@
         "links": [
           {
             "title": "Objetos en JavaScript",
-            "url": "topics/javascript/05-objects/01-objects"
+            "url": "topics/javascript/objects/objects"
           }
         ]
       },
@@ -1011,11 +1022,11 @@
         "links": [
           {
             "title": "Valores, tipos de datos y operadores",
-            "url": "topics/javascript/01-basics/01-values-variables-and-types"
+            "url": "topics/javascript/basics/values-variables-and-types"
           },
           {
             "title": "Variables",
-            "url": "topics/javascript/01-basics/02-variables"
+            "url": "topics/javascript/basics/variables"
           }
         ]
       },
@@ -1024,7 +1035,7 @@
         "links": [
           {
             "title": "Estructuras condicionales y repetitivas",
-            "url": "topics/javascript/02-flow-control/01-conditionals-and-loops"
+            "url": "topics/javascript/flow-control/conditionals-and-loops"
           },
           {
             "title": "Tomando decisiones en tu código — condicionales - MDN",
@@ -1037,15 +1048,15 @@
         "links": [
           {
             "title": "Funciones (control de flujo)",
-            "url": "topics/javascript/02-flow-control/03-functions"
+            "url": "topics/javascript/flow-control/functions"
           },
           {
             "title": "Funciones clásicas",
-            "url": "topics/javascript/03-functions/01-classic"
+            "url": "topics/javascript/functions/classic"
           },
           {
             "title": "Arrow Functions",
-            "url": "topics/javascript/03-functions/02-arrow"
+            "url": "topics/javascript/functions/arrow"
           },
           {
             "title": "Funciones — bloques de código reutilizables - MDN",
@@ -1058,7 +1069,7 @@
         "links": [
           {
             "title": "Bucles (Loops)",
-            "url": "topics/javascript/02-flow-control/02-loops"
+            "url": "topics/javascript/flow-control/loops"
           },
           {
             "title": "Bucles e iteración - MDN",
@@ -2409,6 +2420,15 @@
           }
         ]
       },
+      "typescript/basic-types/null-and-undefined": {
+        "title": "null y undefined",
+        "links": [
+          {
+            "title": "Documentación oficial de Typescript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#null-and-undefined"
+          }
+        ]
+      },
       "typescript/basic-types/enums": {
         "title": "Enums",
         "links": [
@@ -2445,6 +2465,42 @@
           }
         ]
       },
+      "typescript/classes/members/fields": {
+        "title": "Campos",
+        "links": [
+          {
+            "title": "Documentación oficial de Typescript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#fields"
+          }
+        ]
+      },
+      "typescript/classes/members/constructors": {
+        "title": "Constructors",
+        "links": [
+          {
+            "title": "Documentación oficial de Typescript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#constructors"
+          }
+        ]
+      },
+      "typescript/classes/members/methods": {
+        "title": "Métodos",
+        "links": [
+          {
+            "title": "Documentación oficial de Typescript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#methods"
+          }
+        ]
+      },
+      "typescript/classes/members/getter-setters": {
+        "title": "Getters y Setters",
+        "links": [
+          {
+            "title": "Documentación oficial de Typescript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#getters--setters"
+          }
+        ]
+      },
       "typescript/classes/class-heritage": {
         "title": "Herencia de clases",
         "links": [
@@ -2454,12 +2510,57 @@
           }
         ]
       },
+      "typescript/classes/class-heritage/implements": {
+        "title": "implements Clausas",
+        "links": [
+          {
+            "title": "Documentación oficial de Typescript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#implements-clauses"
+          }
+        ]
+      },
+      "typescript/classes/class-heritage/extends": {
+        "title": "extends Clausas",
+        "links": [
+          {
+            "title": "Documentación oficial de Typescript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#extends-clauses"
+          }
+        ]
+      },
       "typescript/classes/member-visibility": {
         "title": "Visibilidad de miembros de clase",
         "links": [
           {
-            "title": null,
+            "title": "Documentación oficial de Typescript",
             "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#member-visibility"
+          }
+        ]
+      },
+      "typescript/classes/member-visibility/public": {
+        "title": "public",
+        "links": [
+          {
+            "title": "Documentación oficial de Typescript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#public"
+          }
+        ]
+      },
+      "typescript/classes/member-visibility/protected": {
+        "title": "protected",
+        "links": [
+          {
+            "title": "Documentación oficial de Typescript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#protected"
+          }
+        ]
+      },
+      "typescript/classes/member-visibility/private": {
+        "title": "private",
+        "links": [
+          {
+            "title": "Documentación oficial de Typescript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#private"
           }
         ]
       },
@@ -2496,6 +2597,62 @@
           {
             "title": "Documentación oficial de Typescript",
             "url": "https://www.typescriptlang.org/docs/handbook/decorators.html"
+          }
+        ]
+      },
+      "ai-prompting": {
+        "title": "AI Prompting",
+        "description": "El proceso de instruir a una IA para que realice una tarea"
+      },
+      "ai-prompting/giving-instructions": {
+        "title": "Dando Instrucciones",
+        "description": "Técnica simple de dar instrucciones a la IA",
+        "links": [
+          {
+            "title": "Dando Instrucciones | Learn Prompting: Your Guide to Communicating with AI",
+            "url": "https://learnprompting.org/es/docs/basics/instructions"
+          }
+        ]
+      },
+      "ai-prompting/few-shot-prompting": {
+        "title": "Few shot prompting",
+        "description": "Técnica de mostrar al modelo algunos ejemplos (shots) de lo que quieres que haga",
+        "links": [
+          {
+            "title": "Few shot prompting | Learn Prompting: Your Guide to Communicating with AI",
+            "url": "https://learnprompting.org/es/docs/basics/few_shot"
+          }
+        ]
+      },
+      "ai-prompting/priming-chatbots": {
+        "title": "Priming Chatbots",
+        "description": "Uso de primer prompt para iniciar una conversación con estructura y estilo particular",
+        "links": [
+          {
+            "title": "Priming Chatbots | Learn Prompting: Your Guide to Communicating with AI",
+            "url": "https://learnprompting.org/es/docs/basics/priming_prompt"
+          }
+        ]
+      },
+      "ai-prompting/open-ai-api": {
+        "title": "OpenAI API",
+        "description": "Uso del API OpenAI en una applicación",
+        "links": [
+          {
+            "title": "Introduction - API Reference - OpenAI API",
+            "url": "https://platform.openai.com/docs/introduction"
+          },
+          {
+            "title": "Authentication - API Reference - OpenAI API",
+            "url": "https://platform.openai.com/docs/api-reference/authentication"
+          },
+          {
+            "title": "Making requests - API Reference - OpenAI API",
+            "url": "https://platform.openai.com/docs/api-reference/making-requests"
+          },
+          {
+            "title": "The chat completion object - API Reference - OpenAI API",
+            "url": "https://platform.openai.com/docs/api-reference/chat/object"
           }
         ]
       },
@@ -2682,7 +2839,7 @@
         "links": [
           {
             "title": "HTML semântico",
-            "url": "topics/html/02-html5/02-semantic-html"
+            "url": "topics/html/html5/semantic-html"
           },
           {
             "title": "Semantics in HTML - MDN",
@@ -2698,7 +2855,7 @@
         "links": [
           {
             "title": "Intro a CSS",
-            "url": "topics/css/01-css/01-intro-css"
+            "url": "topics/css/css/intro-css"
           },
           {
             "title": "CSS Selectors - MDN",
@@ -2711,7 +2868,7 @@
         "links": [
           {
             "title": "Modelo de Caixa e Display",
-            "url": "topics/css/01-css/02-boxmodel-and-display"
+            "url": "topics/css/css/boxmodel-and-display"
           },
           {
             "title": "The box model - MDN",
@@ -2781,7 +2938,7 @@
         "links": [
           {
             "title": "Modificando o DOM",
-            "url": "topics/browser/02-dom/03-1-dom-methods-selection"
+            "url": "topics/browser/dom/1-dom-methods-selection"
           },
           {
             "title": "Introdução ao DOM - MDN",
@@ -2887,7 +3044,7 @@
         "links": [
           {
             "title": "Strings",
-            "url": "topics/javascript/06-strings"
+            "url": "topics/javascript/strings"
           },
           {
             "title": "String — Cadeia de caracteres - MDN",
@@ -2900,7 +3057,7 @@
         "links": [
           {
             "title": "Arranjos",
-            "url": "topics/javascript/04-arrays"
+            "url": "topics/javascript/arrays"
           },
           {
             "title": "Array - MDN",
@@ -2933,7 +3090,7 @@
         "links": [
           {
             "title": "Objetos em JavaScript",
-            "url": "topics/javascript/05-objects/01-objects"
+            "url": "topics/javascript/objects/objects"
           }
         ]
       },
@@ -2945,11 +3102,11 @@
         "links": [
           {
             "title": "Valores, tipos de dados e operadores",
-            "url": "topics/javascript/01-basics/01-values-variables-and-types"
+            "url": "topics/javascript/basics/values-variables-and-types"
           },
           {
             "title": "Variáveis",
-            "url": "topics/javascript/01-basics/02-variables"
+            "url": "topics/javascript/basics/variables"
           }
         ]
       },
@@ -2958,7 +3115,7 @@
         "links": [
           {
             "title": "Estruturas condicionais e repetitivas",
-            "url": "topics/javascript/02-flow-control/01-conditionals-and-loops"
+            "url": "topics/javascript/flow-control/conditionals-and-loops"
           },
           {
             "title": "Tomando decisões no seu código — condicionais - MDN",
@@ -2971,15 +3128,15 @@
         "links": [
           {
             "title": "Funções (controle de fluxo)",
-            "url": "topics/javascript/02-flow-control/03-functions"
+            "url": "topics/javascript/flow-control/functions"
           },
           {
             "title": "Funções clássicas",
-            "url": "topics/javascript/03-functions/01-classic"
+            "url": "topics/javascript/functions/classic"
           },
           {
             "title": "Arrow Functions",
-            "url": "topics/javascript/03-functions/02-arrow"
+            "url": "topics/javascript/functions/arrow"
           },
           {
             "title": "Funções — blocos reutilizáveis de código - MDN",
@@ -2992,7 +3149,7 @@
         "links": [
           {
             "title": "Laços (Loops)",
-            "url": "topics/javascript/02-flow-control/02-loops"
+            "url": "topics/javascript/flow-control/loops"
           },
           {
             "title": "Laços e iterações - MDN",
@@ -4333,6 +4490,15 @@
           }
         ]
       },
+      "typescript/basic-types/null-and-undefined": {
+        "title": "null e undefined",
+        "links": [
+          {
+            "title": "Documentação oficial do Typescript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#null-and-undefined"
+          }
+        ]
+      },
       "typescript/basic-types/enums": {
         "title": "Enums",
         "links": [
@@ -4369,6 +4535,42 @@
           }
         ]
       },
+      "typescript/classes/members/fields": {
+        "title": "Campos",
+        "links": [
+          {
+            "title": "Documentação oficial do Typescript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#fields"
+          }
+        ]
+      },
+      "typescript/classes/members/constructors": {
+        "title": "Constructors",
+        "links": [
+          {
+            "title": "Documentação oficial do Typescript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.htmll#constructors"
+          }
+        ]
+      },
+      "typescript/classes/members/methods": {
+        "title": "Métodos",
+        "links": [
+          {
+            "title": "Documentação oficial do Typescript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#methods"
+          }
+        ]
+      },
+      "typescript/classes/members/getter-setters": {
+        "title": "Getters e Setters",
+        "links": [
+          {
+            "title": "Documentação oficial do Typescript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#getters--setters"
+          }
+        ]
+      },
       "typescript/classes/class-heritage": {
         "title": "Herança de classe",
         "links": [
@@ -4378,12 +4580,57 @@
           }
         ]
       },
+      "typescript/classes/class-heritage/implements": {
+        "title": "implements Cláusulas",
+        "links": [
+          {
+            "title": "Documentação oficial do Typescript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#implements-clauses"
+          }
+        ]
+      },
+      "typescript/classes/class-heritage/extends": {
+        "title": "extends Cláusulas",
+        "links": [
+          {
+            "title": "Documentação oficial do Typescript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#extends-clauses"
+          }
+        ]
+      },
       "typescript/classes/member-visibility": {
         "title": "Visibilidade dos membros da classe",
         "links": [
           {
-            "title": null,
+            "title": "Documentação oficial do Typescript",
             "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#member-visibility"
+          }
+        ]
+      },
+      "typescript/classes/member-visibility/public": {
+        "title": "public",
+        "links": [
+          {
+            "title": "Documentação oficial do Typescript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#public"
+          }
+        ]
+      },
+      "typescript/classes/member-visibility/protected": {
+        "title": "protected",
+        "links": [
+          {
+            "title": "Documentação oficial do Typescript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#protected"
+          }
+        ]
+      },
+      "typescript/classes/member-visibility/private": {
+        "title": "private",
+        "links": [
+          {
+            "title": "Documentação oficial do Typescript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#private"
           }
         ]
       },
@@ -4420,6 +4667,62 @@
           {
             "title": "Documentação oficial do Typescript",
             "url": "https://www.typescriptlang.org/docs/handbook/decorators.html"
+          }
+        ]
+      },
+      "ai-prompting": {
+        "title": "AI Prompting",
+        "description": "O processo de instruir uma IA para realizar uma tarefa"
+      },
+      "ai-prompting/giving-instructions": {
+        "title": "Dando Instruções",
+        "description": "Método simple de dar instruções à uma IA",
+        "links": [
+          {
+            "title": "Dando Instruções | Learn Prompting: Your Guide to Communicating with AI",
+            "url": "https://learnprompting.org/pt/docs/basics/instructions"
+          }
+        ]
+      },
+      "ai-prompting/few-shot-prompting": {
+        "title": "Few shot prompting",
+        "description": "Técnica de mostrar o modelo alguns exemplos (shots) do que você quer que faça",
+        "links": [
+          {
+            "title": "Few shot prompting | Learn Prompting: Your Guide to Communicating with AI",
+            "url": "https://learnprompting.org/es/docs/basics/few_shot"
+          }
+        ]
+      },
+      "ai-prompting/priming-chatbots": {
+        "title": "Priming Chatbots",
+        "description": "Use o primeiro prompt para iniciar uma conversa com estrutura e estilo específico",
+        "links": [
+          {
+            "title": "Priming Chatbots | Learn Prompting: Your Guide to Communicating with AI",
+            "url": "https://learnprompting.org/pt/docs/basics/priming_prompt"
+          }
+        ]
+      },
+      "ai-prompting/open-ai-api": {
+        "title": "OpenAI API",
+        "description": "Usando a API OpenAI em um aplicativo",
+        "links": [
+          {
+            "title": "Introduction - OpenAI API",
+            "url": "https://platform.openai.com/docs/introduction"
+          },
+          {
+            "title": "Authentication - API Reference - OpenAI API",
+            "url": "https://platform.openai.com/docs/api-reference/authentication"
+          },
+          {
+            "title": "Making requests - API Reference - OpenAI API",
+            "url": "https://platform.openai.com/docs/api-reference/making-requests"
+          },
+          {
+            "title": "The chat completion object - API Reference - OpenAI API",
+            "url": "https://platform.openai.com/docs/api-reference/chat/object"
           }
         ]
       }
@@ -5527,7 +5830,9 @@
       "pt": "Tipos literais"
     },
     {
-      "key": "typescript/basic-types/null-and-undefined"
+      "key": "typescript/basic-types/null-and-undefined",
+      "es": "null y undefined",
+      "pt": "null e undefined"
     },
     {
       "key": "typescript/basic-types/enums",
@@ -5550,16 +5855,24 @@
       "pt": "Membros da classe"
     },
     {
-      "key": "typescript/classes/members/fields"
+      "key": "typescript/classes/members/fields",
+      "es": "Campos",
+      "pt": "Campos"
     },
     {
-      "key": "typescript/classes/members/constructor"
+      "key": "typescript/classes/members/constructors",
+      "es": "Constructors",
+      "pt": "Constructors"
     },
     {
-      "key": "typescript/classes/members/methods"
+      "key": "typescript/classes/members/methods",
+      "es": "Métodos",
+      "pt": "Métodos"
     },
     {
-      "key": "typescript/classes/members/getter-setters"
+      "key": "typescript/classes/members/getter-setters",
+      "es": "Getters y Setters",
+      "pt": "Getters e Setters"
     },
     {
       "key": "typescript/classes/class-heritage",
@@ -5567,10 +5880,14 @@
       "pt": "Herança de classe"
     },
     {
-      "key": "typescript/classes/class-heritage/implements"
+      "key": "typescript/classes/class-heritage/implements",
+      "es": "implements Clausas",
+      "pt": "implements Cláusulas"
     },
     {
-      "key": "typescript/classes/class-heritage/extends"
+      "key": "typescript/classes/class-heritage/extends",
+      "es": "extends Clausas",
+      "pt": "extends Cláusulas"
     },
     {
       "key": "typescript/classes/member-visibility",
@@ -5578,13 +5895,19 @@
       "pt": "Visibilidade dos membros da classe"
     },
     {
-      "key": "typescript/classes/member-visibility/public"
+      "key": "typescript/classes/member-visibility/public",
+      "es": "public",
+      "pt": "public"
     },
     {
-      "key": "typescript/classes/member-visibility/protected"
+      "key": "typescript/classes/member-visibility/protected",
+      "es": "protected",
+      "pt": "protected"
     },
     {
-      "key": "typescript/classes/member-visibility/private"
+      "key": "typescript/classes/member-visibility/private",
+      "es": "private",
+      "pt": "private"
     },
     {
       "key": "typescript/classes/static-members",
@@ -5605,6 +5928,31 @@
       "key": "typescript/decorators",
       "es": "Decoradores",
       "pt": "Decoradores"
+    },
+    {
+      "key": "ai-prompting",
+      "es": "AI Prompting",
+      "pt": "AI Prompting"
+    },
+    {
+      "key": "ai-prompting/giving-instructions",
+      "es": "Dando Instrucciones",
+      "pt": "Dando Instruções"
+    },
+    {
+      "key": "ai-prompting/few-shot-prompting",
+      "es": "Few shot prompting",
+      "pt": "Few shot prompting"
+    },
+    {
+      "key": "ai-prompting/priming-chatbots",
+      "es": "Priming Chatbots",
+      "pt": "Priming Chatbots"
+    },
+    {
+      "key": "ai-prompting/open-ai-api",
+      "es": "OpenAI API",
+      "pt": "OpenAI API"
     },
     {
       "key": "agile-planning"

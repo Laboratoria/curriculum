@@ -23,6 +23,8 @@ por resolver. Deberás elegir solamente uno y aplicar el proceso de diseño de
 principio a fin, para definir una solución que resuelva las necesidades de sus
 potenciales usuarias.
 
+![how-might-we](https://raw.githubusercontent.com/Laboratoria/bootcamp/main/projects/00-how-might-we/thumb.png)
+
 ## 2. Resumen del proyecto
 
 La reciente pandemia del COVID-19 ha impactado todas las áreas de la humanidad,

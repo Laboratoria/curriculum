@@ -1,10 +1,10 @@
 {
   "slug": "interaction-design",
-  "repo": "Laboratoria/bootcamp",
+  "repo": "Laboratoria/curriculum",
   "path": "topics/interaction-design",
-  "version": "6.6.0",
-  "parserVersion": "5.0.0-beta.0",
-  "createdAt": "2023-08-10T20:09:29.128Z",
+  "version": "7.3.0",
+  "parserVersion": "5.1.0",
+  "createdAt": "2023-10-16T17:44:06.413Z",
   "track": "ux",
   "intl": {
     "es": {
