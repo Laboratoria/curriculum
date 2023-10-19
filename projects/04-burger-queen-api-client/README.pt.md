@@ -9,6 +9,7 @@
 * [5. Critérios de aceitação mínimos do projeto](#5-critérios-de-aceitação-mínimos-do-projeto)
 * [6. Implantação](#6-implantação)
 * [7. Pistas, tips e leituras complementares](#7-pistas-tips-e-leituras-complementares)
+* [8. Funcionalidades opcionais](#8-funcionalidades-opcionais)
 
 ***
 
@@ -147,8 +148,17 @@ Cumpra todas as histórias possíveis dentro do tempo especificado.
 A lógica do projeto deve ser totalmente implementada em JavaScript (ES6 +), HTML
 e CSS e empacotada de forma automatizada.
 
-Neste projeto você deve usar [React](https://pt-br.react.dev/) ou
-[Angular](https://angular.io/)).
+Um dos principais objetivos deste projeto é aprender a usar uma biblioteca ou
+framework popular para desenvolver uma aplicação web. Você deve escolher entre
+[React](https://pt-br.react.dev/) ou [Angular](https://angular.io/).
+
+Tenha em mente que se você escolher o Angular, é obrigatório usar [TypeScript](https://www.typescriptlang.org/).
+O _TypeScript_ é uma linguagem de programação fortemente tipada baseada
+em JavaScript.
+
+Se você optar pelo React, a decisão de usar o TypeScript é opcional (mas
+recomendamos!). Aqui você pode encontrar mais informações sobre
+como iniciar seu projeto com [Typescript e React](https://pt.vitejs.dev/guide/#scaffolding-your-first-vite-project).
 
 O aplicativo deve ser um _Single Page App_. Os pedidos serão enviados por meio
 de um _tablet_, mas **não queremos um aplicativo nativo**, mas sim um aplicativo
@@ -274,50 +284,6 @@ rapidamente aos clientes.
 * Os dados devem ser mantidos intactos, mesmo depois que um pedido for
   finalizado. Tudo isso para poder ter estatísticas no futuro.
 
-***
-
-#### [Historia de usuário 5] Administrador(a) de loja deve administrar seus funcionários
-
-Eu como administrador(a) de loja quero gerenciar os usuários da
-plataforma para manter atualizado as informações de meus funcionários.
-
-##### Critérios de aceitação
-
-* Ver lista de funcionários.
-* Adicionar funcionários.
-* Excluir funcionários.
-* Atualizar dados dos funcionários.
-
-##### Definição de pronto
-
-* Você deve ter recebido _code review_ de pelo menos uma parceira.
-* Fez _testes_ unitários e, além disso, testou seu produto manualmente.
-* Você fez _testes_ de usabilidade e incorporou o _feedback_ do usuário.
-* Você deu deploy de seu aplicativo e marcou sua versão (tag git).
-
-***
-
-#### [História de usuário 6] Administrador(a) de loja deve administrar os produtos
-
-Eu como administrador(a) de loja quero gerenciar os produtos
-para manter atualizado o menu.
-
-##### Critérios de aceitação
-
-* Ver lista de produtos.
-* Adicionar produtos.
-* Excluir produtos.
-* Atualizar dados de produtos.
-
-##### Definição de pronto
-
-* Você deve ter recebido _code review_ de pelo menos uma parceira.
-* Fez _testes_ unitários e, além disso, testou seu produto manualmente.
-* Você fez _testes_ de usabilidade e incorporou o _feedback_ do usuário.
-* Você deu deploy de seu aplicativo e marcou sua versão (tag git).
-
-***
-
 ## 6. Implantação
 
 Você pode escolher o provedor (ou provedores) que preferir junto
@@ -356,3 +322,50 @@ para conversar e pedir ajuda no projeto.
 * [Seu primeiro Progressive Web App - Google developers](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/?hl=es)
 * [Progressive Web Apps - codigofacilito.com](https://codigofacilito.com/articulos/progressive-apps)
 * [Usando Service Workers - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Service_Worker_API/Using_Service_Workers)
+
+## 8. Funcionalidades opcionais
+
+Se você tiver concluído todas as funcionalidades do projeto,
+nós o convidamos a trabalhar nas seguintes histórias de usuário:
+
+***
+
+### [Historia de usuário 5] Administrador(a) de loja deve administrar seus funcionários
+
+Eu como administrador(a) de loja quero gerenciar os usuários da
+plataforma para manter atualizado as informações de meus funcionários.
+
+#### Critérios de aceitação
+
+* Ver lista de funcionários.
+* Adicionar funcionários.
+* Excluir funcionários.
+* Atualizar dados dos funcionários.
+
+#### Definição de pronto
+
+* Você deve ter recebido _code review_ de pelo menos uma parceira.
+* Fez _testes_ unitários e, além disso, testou seu produto manualmente.
+* Você fez _testes_ de usabilidade e incorporou o _feedback_ do usuário.
+* Você deu deploy de seu aplicativo e marcou sua versão (tag git).
+
+***
+
+### [História de usuário 6] Administrador(a) de loja deve administrar os produtos
+
+Eu como administrador(a) de loja quero gerenciar os produtos
+para manter atualizado o menu.
+
+#### Critérios de aceitação
+
+* Ver lista de produtos.
+* Adicionar produtos.
+* Excluir produtos.
+* Atualizar dados de produtos.
+
+#### Definição de pronto
+
+* Você deve ter recebido _code review_ de pelo menos uma parceira.
+* Fez _testes_ unitários e, além disso, testou seu produto manualmente.
+* Você fez _testes_ de usabilidade e incorporou o _feedback_ do usuário.
+* Você deu deploy de seu aplicativo e marcou sua versão (tag git).

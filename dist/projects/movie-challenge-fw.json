@@ -2,9 +2,9 @@
   "slug": "movie-challenge-fw",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-movie-challenge-fw",
-  "version": "7.0.0",
-  "parserVersion": "5.0.0",
-  "createdAt": "2023-09-04T20:11:52.881Z",
+  "version": "7.3.0",
+  "parserVersion": "5.1.0",
+  "createdAt": "2023-10-16T17:43:45.159Z",
   "prefix": 5,
   "track": "web-dev",
   "learningObjectives": [
@@ -77,7 +77,7 @@
     "typescript/basic-types/enums",
     "typescript/narrowing",
     "typescript/classes/members/fields",
-    "typescript/classes/members/constructor",
+    "typescript/classes/members/constructors",
     "typescript/classes/members/methods",
     "typescript/classes/members/getter-setters",
     "typescript/classes/class-heritage/implements",
@@ -89,19 +89,17 @@
     "typescript/classes/this",
     "typescript/classes/abstract-classes",
     "typescript/decorators",
-    "user-centricity/centricity",
     "product-design/interactivity",
-    "product-design/visual-design",
-    "research/test"
+    "product-design/visual-design"
   ],
   "intl": {
     "es": {
       "title": "Movie Challenge con Framework",
-      "summary": "<p>La idea de este proyecto es que, usando una API con información de películas,\npuedas idear, planear, organizar y desarrollar una aplicación web que aproveche\nestos datos y tenga una propuesta de valor atractiva para lxs usuarixs.</p>"
+      "summary": "<p>En este proyecto, crearás una página web destinada a visualizar, filtrar y\nordenar el catálogo de películas de\n<a href=\"https://developer.themoviedb.org/docs\"><em>The Movie Database API V3</em></a>.\nEsta página puede servir como un catálogo de\npelículas general, pero también, si te animas,\npuedes considerar la posibilidad de diseñarla\npara un público y usuarias específicas\ncon preferencias como \"películas western\"\no \"películas de las 80's\" por ejemplo.</p>"
     },
     "pt": {
-      "title": "Desafio de Filmes com Framework",
-      "summary": "<p>A ideia deste projeto é que, usando uma API com informações de filmes, você\npossa planejar, organizar e desenvolver uma aplicação web que utilize esses\ndados e tenha uma proposta de valor atraente para lxs usuárixs.</p>"
+      "title": "Movie Challenge con Framework",
+      "summary": "<p>Neste projeto, você criará uma página da web destinada a visualizar, filtrar e\nordenar o catálogo de filmes da\n<a href=\"https://developer.themoviedb.org/docs\"><em>The Movie Database API V3</em></a>.\nEsta página pode servir como um catálogo de filmes geral, mas também, se você\nquiser, pode considerar a possibilidade de projetá-la para um público específico\ncom preferências como \"filmes western\" ou \"filmes dos anos 80\", por exemplo.</p>"
     }
   },
   "cover": "https://live.staticflickr.com/117/257368762_38bf6fcf9f_h.jpg",

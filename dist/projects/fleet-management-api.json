@@ -1,10 +1,10 @@
 {
-  "slug": "fleet-management",
+  "slug": "fleet-management-api",
   "repo": "Laboratoria/curriculum",
-  "path": "projects/05-fleet-management",
-  "version": "7.0.0",
-  "parserVersion": "5.0.0",
-  "createdAt": "2023-09-04T20:11:52.896Z",
+  "path": "projects/05-fleet-management-api",
+  "version": "7.3.0",
+  "parserVersion": "5.1.0",
+  "createdAt": "2023-10-16T17:43:44.897Z",
   "prefix": 5,
   "track": "web-dev",
   "learningObjectives": [
@@ -53,8 +53,8 @@
   ],
   "intl": {
     "es": {
-      "title": "Fleet Management Software",
-      "summary": "<p>En este proyecto construirás el frontend y backend de un\n<a href=\"https://en.wikipedia.org/wiki/Fleet_management\">Fleet Management Software</a>\npara visualizar en un mapa las ubicaciones de los vehículos de una empresa\nde taxis en Beijing, China.</p>"
+      "title": "Fleet Management Software API",
+      "summary": "<p>En este proyecto construirás la API REST de un\n<a href=\"https://en.wikipedia.org/wiki/Fleet_management\">Fleet Management Software</a>\npara consultar las ubicaciones de los vehículos de una empresa\nde taxis en Beijing, China.</p>"
     }
   },
   "cover": "https://user-images.githubusercontent.com/110297/136462570-852fcc55-e363-4262-a8f3-6bb65702e75a.jpg",
