@@ -274,8 +274,9 @@ nombrar y manejar los argumentos de la función.
 * [Function.prototype.bind()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
 * [Function.length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/length)
 * [Frequently Asked Questions for comp.lang.functional](http://www.cs.nott.ac.uk/~pszgmh/faq.html#currying)
-* [Currying - Part 6 of Functional Programming in JavaScript](https://www.youtube.com/watch?v=iZLP4qOwY8I)
-  por Mattias P Johansson
+* [Currying - Part 6 of Functional Programming in JavaScript por Mattias P Johansson](https://www.youtube.com/watch?v=iZLP4qOwY8I
+  "Currying - Part 6 of Functional Programming in JavaScript por Mattias P
+  Johansson /no-iframe/")
 
 [Ramda]: http://ramdajs.com/
 [currying]: https://www.sitepoint.com/currying-in-functional-javascript/

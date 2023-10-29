@@ -153,7 +153,8 @@ prototipos. Hoy en día `Object.create()` ya es parte del lenguaje en sí.
 
 Videos:
 
-* [Prototype basics - Object Creation in JavaScript P3 - FunFunFunction #46](https://www.youtube.com/watch?v=YkoelSTUy7A),
+* [Prototype basics - Object Creation in JavaScript P3 - FunFunFunction #46](https://www.youtube.com/watch?v=YkoelSTUy7A
+ "Prototype basics - Object Creation in JavaScript P3 - FunFunFunction #46 /no-iframe/"),
   `19:19`, [funfunfunction](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q),
   22 ago. 2016
 

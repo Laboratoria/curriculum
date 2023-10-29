@@ -41,8 +41,13 @@ y conocer mucho mejor CSS!
 
 Aquí te dejamos unos vídeos introductorios a algunos frameworks:
 
-- [Bootstrap](https://youtu.be/_2TLe8DyhEY)
-- [Materialize](https://youtu.be/Plk9vbu7a3c?t=18s)
+### Bootstrap
+
+[Video Bootstrap](https://youtu.be/_2TLe8DyhEY)
+
+### Materialize
+
+[VideoMaterialize](https://youtu.be/Plk9vbu7a3c?t=18s)
 
 Algunas de las herramientas que podemos encontrar en los frameworks de CSS son:
 

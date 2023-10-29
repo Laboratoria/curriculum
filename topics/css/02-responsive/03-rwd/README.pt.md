@@ -49,4 +49,4 @@ Você pode conhecer um pouco mais sobre Web Design Responsivo nos links a seguir
   CSS](https://tableless.com.br/imagens-responsivas-de-alta-performance/)
 - [Entendendo a diferença entre *mobile-first*, design responsivo e
   adaptativo](https://medium.com/@fnandaleite/entendendo-as-diferen%C3%A7as-entre-design-responsivo-adaptativo-e-mobile-first-ea3c61fc9181)
-- [Introdução RWD](https://www.youtube.com/watch?v=HZfESVi3Ebk)
+- [Introdução RWD](https://www.youtube.com/watch?v=HZfESVi3Ebk  "Introdução RWD /no-iframe/")
