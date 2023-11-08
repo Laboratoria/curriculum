@@ -1,5 +1,7 @@
 ---
 track: ux
+tracks:
+  - ux
 ---
 
 # UX Research

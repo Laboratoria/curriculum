@@ -1,5 +1,7 @@
 ---
 track: web-dev
+tracks:
+  - web-dev
 ---
 
 # Browser JavaScript

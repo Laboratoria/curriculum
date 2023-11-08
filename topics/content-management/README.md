@@ -1,5 +1,7 @@
 ---
 track: ux
+tracks:
+  - ux
 ---
 
 # Cómo crear y organizar el contenido de un producto digital

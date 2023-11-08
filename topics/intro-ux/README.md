@@ -1,5 +1,7 @@
 ---
 track: ux
+tracks:
+  - ux
 ---
 
 # Intro a User Experience Design

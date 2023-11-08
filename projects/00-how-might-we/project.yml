@@ -1,4 +1,6 @@
 track: ux
+tracks:
+  - ux
 learningObjectives:
   - agile-planning/tasks
   - design-concept/ideate

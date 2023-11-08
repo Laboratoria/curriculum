@@ -1,4 +1,6 @@
 track: ux
+tracks:
+  - ux
 learningObjectives:
   - agile-planning/workplan
   - agile-planning/tasks

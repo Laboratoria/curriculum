@@ -1,4 +1,6 @@
 track: web-dev
+tracks:
+  - web-dev
 learningObjectives:
   - node/npm-install
   - node/package.json

@@ -1,4 +1,6 @@
 track: ux
+tracks:
+  - ux
 learningObjectives:
   - user-centricity/user-oriented
   - research/support
