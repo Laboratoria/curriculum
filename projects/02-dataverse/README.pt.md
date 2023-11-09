@@ -10,7 +10,7 @@
 * [6. Critérios de aceitação mínimos do projeto](#6-critérios-de-aceitação-mínimos-do-projeto)
 * [7. Edição Hacker](#7-edição-hacker)
 * [8. Objetivos de aprendizagem](#8-objetivos-de-aprendizagem)
-* [9. Dicas, guias e leituras complementares](#9-dicas-dicas-e-leituras-complementares)
+* [9. Dicas, guias e leituras complementares](#9-dicas-guias-e-leituras-complementares)
 * [10. Considerações para pedir seu Feedback do Projeto](#10-considerações-para-pedir-seu-feedback-do-projeto)
 
 ***
@@ -292,7 +292,7 @@ Pelo menos uma função é obrigatória:
 Com cada objetivo de aprendizagem, avaliamos se o código atende a alguns
 critérios. Isso não exclui que você possa usar outras opções, por exemplo,
 no caso dos seletores, sugerimos o uso de `querySelector`,
-mas isso não impede o uso de `querySelectorAll` ou `getElementId` também.
+mas isso não impede o uso de `querySelectorAll` ou `getElementById` também.
 
 Você pode executar os testes de cada grupo de objetivos de aprendizagem individualmente com os seguintes comandos:
 
@@ -466,7 +466,7 @@ Estes dados serão salvos em um arquivo JavaScript. Este arquivo deve exportar u
 
   ```json
   "extraInfo": {
-    "imagePrompt": "Un texto bien, bien largo...",
+    "imagePrompt": "Um texto muito, muito longo...",
     "writings": [
       "Vol. 1",
       "Vol. 2",
@@ -476,16 +476,16 @@ Estes dados serão salvos em um arquivo JavaScript. Este arquivo deve exportar u
   }
   ```
 
-Un ejemplo de data, según los requisitos anteriores podría ser:
+Um exemplo de data, de acordo com os requisitos anteriores, poderia ser:
 
 ```js
 export default [
   {
     "id": "ada-lovelace",
     "name": "Ada Lovelace",
-    "shortDescription": "Pionera de la informática, fue la primera programadora.",
-    "description": "Una visionaria del siglo XIX ...",
-    "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+    "shortDescription": "Pioneira da informática, foi a primeira programadora.",
+    "description": "Uma visionária do século XIX...",
+    "imageUrl": "URL_DA_IMAGEM_GERADA",
     "facts": {
       "yearOfBirth": 1843,
       "placeOfBirth": "London, England",
@@ -499,7 +499,7 @@ export default [
 A data gerada deve ser substituída pelo conteúdo deste arquivo:
 `./src/data/dataset.js`.
 
-**O tempo estimado que você deveria dedicar à geração desses dados é de no máximo um sprint.** Se após um sprint você não tiver um conjunto de dados gerados, deverá usar os dados de exemplo localizados em:
+**O tempo estimado que você deveria dedicar à geração desses dados é de no máximo uma sprint.** Se após uma sprint você não tiver um conjunto de dados gerados, deverá usar os dados de exemplo localizados em:
 `./src/data/dataset.js`.
 
 As URLs das imagens dentro do arquivo JavaScript devem vincular-se às imagens para cada elemento da matriz. Essas imagens podem ser geradas por inteligência artificial ou imagens que você pode encontrar na web.
@@ -536,7 +536,7 @@ O design deve representar o _ideal_ da sua solução. Digamos que é o que
 você desejaria implementar se tivesse tempo ilimitado para trabalhar. Além disso, seu
 design deve seguir os fundamentos de _visual design_.
 
-Lembre-se de solicitar feedback do seu protótipo aos seus colegas e/ou coaches.
+Lembre-se de solicitar feedback do seu protótipo às suas colegas e/ou coaches.
 
 #### Testes de usabilidade
 
@@ -589,7 +589,7 @@ Recursos/características adicionais sugeridos:
 > Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
 > que contempla nuestra currícula.
 
-## 9. Dicas, dicas e leituras complementares
+## 9. Dicas, guias e leituras complementares
 
 ### Primeiros Passos
 

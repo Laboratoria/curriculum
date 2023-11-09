@@ -314,7 +314,7 @@ Al menos se requeriere una función obligatoria:
 Con cada objetivo de aprendizaje, evaluamos que el código cumpla con algunos
 criterios. Lo cual no excluye que puedas usar otras opciones, por ejemplo
 en el caso de los selectores, proponemos el uso de `querySelector`,
-no significa que no puedes usar `querySelectorAll` o `getElementId` también.
+no significa que no puedes usar `querySelectorAll` o `getElementById` también.
 
 Puedes ejecutar las pruebas de cada grupo de objetivos de aprendizaje de manera
 individual con los siguientes comandos:
@@ -325,7 +325,7 @@ npm run test:oas-css
 npm run test:oas-web-api
 npm run test:oas-js
 npm run test:oas-prompting
-npm run test:oas // Esto es para correr todos los tests de OAs
+npm run test:oas // Isso é para executar todos os testes de OAs
 ```
 
 #### HTML
