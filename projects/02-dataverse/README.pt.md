@@ -10,7 +10,7 @@
 * [6. Critérios de aceitação mínimos do projeto](#6-critérios-de-aceitação-mínimos-do-projeto)
 * [7. Edição Hacker](#7-edição-hacker)
 * [8. Objetivos de aprendizagem](#8-objetivos-de-aprendizagem)
-* [9. Dicas, dicas e leituras complementares](#9-dicas-dicas-e-leituras-complementares)
+* [9. Dicas, guias e leituras complementares](#9-dicas-dicas-e-leituras-complementares)
 * [10. Considerações para pedir seu Feedback do Projeto](#10-considerações-para-pedir-seu-feedback-do-projeto)
 
 ***
@@ -39,7 +39,7 @@ como [ChatGPT](https://openai.com/chatgpt), [ExplainDev](https://explain.dev/),
 entre outras, para gerar um conjunto de dados em um arquivo javascript.
 
 O propósito de gerar os dados dessa maneira é oferecer a oportunidade de se envolver com o uso de ferramentas impulsionadas pela inteligência artificial, assim como com [técnicas de
-prompting](https://learnprompting.org/es/docs/intro).
+prompting](https://learnprompting.org/pt/docs/intro).
 
 Como entrega final, você terá um site que permitirá **visualizar os dados,
 filtrá-los, ordená-los e calcular estatísticas**. Por estatísticas,
@@ -51,7 +51,7 @@ ou mínimo, etc).
 * Este projeto deve ser realizado em duplas.
 * O tempo estimado para concluir o projeto é de 3 a 4 Sprints.
 * O tempo estimado que você deve dedicar à [geração de dados](#gerar-los-datos)
-  é de no máximo um sprint. Além disso, no final do projeto, você deve apresentar
+  é de no máximo uma sprint. Além disso, no final do projeto, você deve apresentar
   um [screenshot do prompt utilizado](#prompt-utilizado).
 * Se perceber que vai demorar mais tempo,
   deverá usar os dados de exemplo que encontrará neste caminho: `./src/data/dataset.js`.
@@ -66,7 +66,7 @@ filtrá-los, ordená-los e calcular estatísticas**.
 Aqui estão definidas com mais detalhes as funcionalidades mínimas que devem ser implementadas:
 
 * A aplicação deve permitir que a usuária veja os itens dos dados em uma visualização,
-  que pode ser [tipo cartões](http://www.uxables.com/diseno-ux-ui/que-es-y-como-disenar-una-card/)
+  que pode ser [tipo cartões](https://brasil.uxdesign.cc/https-brasil-uxdesign-cc-cards-boas-praticas-6ae813acf8cf)
   ou qualquer outra forma que você decida como a mais apropriada (mas a partir daqui
   chamamos os itens de "cartões"). **Cada um dos cartões deve estar
   contido em um elemento `<li>` e estes, por sua vez, contidos em
@@ -121,8 +121,8 @@ Aqui estão definidas com mais detalhes as funcionalidades mínimas que devem se
   dos dados completos (por exemplo, total de pessoas nascidas nos anos 80).
 
 * A aplicação deve permitir à usuária filtrar os dados. Você usará
-  um elemento [`<select>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
-  com [um atributo de dados](https://developer.mozilla.org/es/docs/Learn/HTML/Howto/Use_data_attributes)
+  um elemento [`<select>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/select)
+  com [um atributo de dados](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Howto/Use_data_attributes)
   `data-testid="selecionar-filtro"`, e um atributo `name` com o nome
   da propriedade pela qual irá filtrar (por exemplo, se for filtrar por "tipo",
   o `<select>` terá `name="tipo"`). Os `<option>` deste `<select>` deverão
@@ -132,7 +132,7 @@ Aqui estão definidas com mais detalhes as funcionalidades mínimas que devem se
 * A aplicação deve permitir à usuária ordenar os dados.
   - Terá pelo menos um controle `<select>` para ordenar.
   - Se usar apenas um controle `<select>`, deve ter
-    [um atributo de dados](https://developer.mozilla.org/es/docs/Learn/HTML/Howto/Use_data_attributes)
+    [um atributo de dados](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Howto/Use_data_attributes)
     `data-testid="selecionar-ordenar"` e um atributo `name` com o nome da
     propriedade pela qual irá ordenar (por exemplo, se for ordenar por
     "num" seria `name="num"`). Este `<select>` terá dois [`<option>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option)
@@ -165,7 +165,7 @@ Aqui estão definidas com mais detalhes as funcionalidades mínimas que devem se
 
 Os seguintes wireframes são exemplos de uma interface que pode atender a essa
 funcionalidade. Como poderá ver, esses designs seguem a metodologia
-[Mobile First](https://developer.mozilla.org/es/docs/Glossary/Mobile_First), a mesma
+[Mobile First](https://developer.mozilla.org/en-US/docs/Glossary/Mobile_First), a mesma
 que recomendamos utilizar em todos os seus projetos:
 
 Design Mobile:
@@ -343,7 +343,7 @@ npm run test:oas // Esto es para correr todos los tests de OAs
 
 * **Manipulação dinâmica do DOM**
 
-  - [ ] O aplicativo atualiza o atributo [`innerHTML`](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML).
+  - [ ] O aplicativo atualiza o atributo [`innerHTML`](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/innerHTML).
   - [ ] O aplicativo usa `createElement` e `appendChild`, ou strings de modelo
     para criar elementos
 
@@ -381,13 +381,13 @@ npm run test:oas // Esto es para correr todos los tests de OAs
 
 * **Arrays (arrays)**
 
-  - [ ] Uso de [Arrays](https://curriculum.laboratoria.la/es/topics/javascript/04-arrays)
-  - [ ] Uso de [Array.prototype.sort() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
-    ou [Array.prototype.toSorted - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted)
-  - [ ] Uso de [Array.prototype.forEach() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-  - [ ] Uso de [Array.prototype.map() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-  - [ ] Uso de [Array.prototype.filter() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-  - [ ] Uso de [Array.prototype.reduce() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+  - [ ] Uso de [Arrays](https://curriculum.laboratoria.la/pt/topics/javascript/04-arrays)
+  - [ ] Uso de [Array.prototype.sort() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+    ou [Array.prototype.toSorted - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted)
+  - [ ] Uso de [Array.prototype.forEach() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+  - [ ] Uso de [Array.prototype.map() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+  - [ ] Uso de [Array.prototype.filter() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+  - [ ] Uso de [Array.prototype.reduce() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 
 * **Objetos**
 
@@ -410,7 +410,7 @@ Documente brevemente o seu trabalho no arquivo `README.md` do seu repositório, 
 
 Depois de entender as necessidades das suas usuárias, escreva as [Histórias de Usuário](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_de_usu%C3%A1rio) que representam tudo o que a usuária precisa fazer/ver. As **Histórias de Usuário** devem ser o resultado do seu processo de pesquisa ou _research_ das suas usuárias.
 
-Certifique-se de incluir a definição de pronto (_definition of done_) e os Critérios de Aceitação para cada uma.
+Certifique-se de incluir a Definição de Pronto (_definition of done_) e os Critérios de Aceitação para cada uma.
 
 Use suas histórias de usuário para planejar seus sprints, dividindo cada história em tarefas.
 
@@ -502,7 +502,7 @@ A data gerada deve ser substituída pelo conteúdo deste arquivo:
 **O tempo estimado que você deveria dedicar à geração desses dados é de no máximo um sprint.** Se após um sprint você não tiver um conjunto de dados gerados, deverá usar os dados de exemplo localizados em:
 `./src/data/dataset.js`.
 
-Os URLs das imagens dentro do arquivo JavaScript devem vincular-se às imagens para cada elemento da matriz. Essas imagens podem ser geradas por inteligência artificial ou imagens que você pode encontrar na web.
+As URLs das imagens dentro do arquivo JavaScript devem vincular-se às imagens para cada elemento da matriz. Essas imagens podem ser geradas por inteligência artificial ou imagens que você pode encontrar na web.
 Para a geração de imagens, recomendamos usar o [gerador de imagens do Bing](https://www.bing.com/create).
 Assim que tiver a imagem, faça o download dela ou obtenha a URL, para adicioná-la ao conjunto de dados.
 
@@ -635,25 +635,25 @@ Quando estiver pronta para codificar, sugerimos que comece assim:
 
 #### Desenvolvimento Front-end
 
-* [Tópicos no currículo da Laboratória](https://curriculum.laboratoria.la/es/web-dev/topics)
+* [Tópicos no currículo da Laboratória](https://curriculum.laboratoria.la/pt/web-dev/topics)
   testes, arrays, objetos, funções, DOM no JavaScript do navegador.
-* [Procurando elementos com querySelector*](https://es.javascript.info/searching-elements-dom)
-* [Objeto de evento](https://es.javascript.info/introduction-browser-events#objeto-del-evento)
-* [Array no MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array)
-* [Array.sort no MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort)
+* [Procurando elementos com querySelector*](https://javascript.info/searching-elements-dom)
+* [Objeto de evento](https://javascript.info/introduction-browser-events#objeto-del-evento)
+* [Array no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
+* [Array.sort no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 * [Array.toSorted no MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted)
-* [Array.map no MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/map)
-* [Array.filter no MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/filter)
-* [Array.reduce no MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/reduce)
-* [Array.forEach no MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach)
-* [Object.keys no MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/keys)
-* [Object.entries no MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/entries)
-* [Atributos de dados](https://developer.mozilla.org/es/docs/Learn/HTML/Howto/Use_data_attributes)
+* [Array.map no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+* [Array.filter no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+* [Array.reduce no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+* [Array.forEach no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+* [Object.keys no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
+* [Object.entries no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
+* [Atributos de dados](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Howto/Use_data_attributes)
 * [expressions-vs-statements](https://2ality.com/2012/09/expressions-vs-statements.html)
 * [expressão vs sentença](https://openclassrooms.com/en/courses/4309531-descubre-las-funciones-en-javascript/5108986-diferencia-entre-expresion-y-sentencia)
 * [Dados atômicos vs dados estruturados](https://www.todojs.com/tipos-datos-javascript-es6/)
-* [Módulos: Export](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/export)
-* [Módulos: Import](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/import)
+* [Módulos: Export](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export)
+* [Módulos: Import](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import)
 * [Diferença entre array e objetos](https://youtu.be/mJJloQY7A8Y)
 * [Como percorrer um objeto?](https://youtube.com/01RHn23Bn_0)
 * [`map`, `filter`, `sort` e `reduce` também são métodos para objetos](https://youtu.be/bUl1R2lQvKo)
