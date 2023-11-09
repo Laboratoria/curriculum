@@ -183,6 +183,67 @@ auth:
   - jwt
   - password-access-and-storage
 
+java:
+  - data-types:
+    - primitive
+    - primitive-vs-non-primitive
+    - strings
+    - arrays
+  - access-modifiers (public, private, protected)
+  - variables
+  - conditionals
+  - loops
+  - collections:
+    - array-list
+    - hash-map
+    - hash-set
+  - testing:
+    - junit
+    - mockito
+  - spring-framework:
+    - initializr
+    - beans
+    - inversion-of-control
+    - annotations
+    - spring-boot
+    - servlets
+    - controllers
+    - services
+    - spring-data-jpa
+    - entity
+    - repository
+    - spring-web:
+      - rest-controller
+      - request-mapping
+      - request-param
+    - testing:
+      - spring-test
+      - hamcrest
+    - hibernate-orm:
+      - setup
+      - schema
+      - entity
+      - table
+      - column
+      - identifiers
+      - associations
+      - collections
+      - persistance
+      - querying
+
+object-oriented-programming:
+  - classes
+  - objects
+  - methods
+  - attributes
+  - constructors
+  - encapsulation
+  - abstraction
+  - composition
+  - interfaces
+  - inheritance (super extends override)
+  - unified-model-language (class diagrams)
+
 webops:
   - env-vars
   - docker-containers
