@@ -219,17 +219,17 @@ java:
     - testing:
       - spring-test
       - hamcrest
-    - hibernate-orm:
-      - setup
-      - schema
-      - entity
-      - table
-      - column
-      - identifiers
-      - associations
-      - collections
-      - persistance
-      - querying
+  - hibernate-orm:
+    - setup
+    - schema
+    - entity
+    - table
+    - column
+    - identifiers
+    - associations
+    - collections
+    - persistance
+    - querying
 
 object-oriented-programming:
   - classes
