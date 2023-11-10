@@ -1,0 +1,22 @@
+track: web-dev
+learningObjectives:
+  - java/data-types/primitive-vs-non-primitive
+  - java/data-types/strings
+  - java/data-types/arrays
+  - java/access-modifiers (public, private, protected)
+  - java/conditionals
+  - java/loops
+  - java/collections/array-list
+  - object-oriented-programming/classes
+  - object-oriented-programming/objects
+  - object-oriented-programming/methods
+  - object-oriented-programming/attributes
+  - object-oriented-programming/constructors
+  - object-oriented-programming/encapsulation
+  - object-oriented-programming/abstraction
+  - object-oriented-programming/composition
+  - object-oriented-programming/interfaces
+  - object-oriented-programming/inheritance (super extends override)
+  - object-oriented-programming/unified-model-language (class diagrams)
+  - java/testing/junit
+  - java/testing/mockito
