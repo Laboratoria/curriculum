@@ -650,7 +650,6 @@ Quando estiver pronta para codificar, sugerimos que comece assim:
 * [Object.entries no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
 * [Atributos de dados](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Howto/Use_data_attributes)
 * [expressions-vs-statements](https://2ality.com/2012/09/expressions-vs-statements.html)
-* [expressão vs sentença](https://openclassrooms.com/en/courses/4309531-descubre-las-funciones-en-javascript/5108986-diferencia-entre-expresion-y-sentencia)
 * [Dados atômicos vs dados estruturados](https://www.todojs.com/tipos-datos-javascript-es6/)
 * [Módulos: Export](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export)
 * [Módulos: Import](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import)
