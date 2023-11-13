@@ -48,3 +48,11 @@ learningObjectives:
   - java/hibernate-orm/collections
   - java/hibernate-orm/persistance
   - java/hibernate-orm/querying
+  - sql/tables
+  - sql/crud
+  - sql/drop
+  - db/modeling
+  - db/connection
+  - db/indexes-constraints
+  - postgres/data-types
+  - postgres/indexes
