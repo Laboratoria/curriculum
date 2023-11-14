@@ -2,20 +2,40 @@
   "slug": "uxploradoras-ux",
   "repo": "Laboratoria/curriculum",
   "path": "projects/03-uxploradoras-ux",
-  "version": "7.2.0",
+  "version": "7.3.0",
   "parserVersion": "5.1.0",
-  "createdAt": "2023-09-28T20:34:05.693Z",
+  "createdAt": "2023-10-16T17:43:38.230Z",
   "prefix": 3,
   "track": "ux",
   "learningObjectives": [
     "agile-planning/scope",
     "agile-planning/workplan",
-    "agile-planning/tasks"
+    "agile-planning/tasks",
+    "research/planning/research-plan",
+    "research/planning/research-sample",
+    "research/planning/participants",
+    "research/quantitative/user-surveys",
+    "research/quantitative/analytical-techniques",
+    "research/analysis/process-information",
+    "research/analysis/experience-mapping",
+    "research/analysis/identify-patterns",
+    "research/analysis/synthesize-results",
+    "interaction-design/user-flows",
+    "interaction-design/usability",
+    "interaction-design/information-architecture",
+    "content-design/voice-tone",
+    "content-design/create-content",
+    "design-prototype/basic-prototypes",
+    "usability-analysis/non-moderated-testing",
+    "design-pitch/design-feedback",
+    "design-pitch/design-presentation",
+    "design-specs/file-organization",
+    "design-specs/project-documentation"
   ],
   "intl": {
     "es": {
-      "title": "UXploradoras en el laberinto UX",
-      "summary": "<p>Este es un proyecto flexible que puedes adecuar según el contexto de aprendizaje\nen el que te encuentres. En conjunto con el equipo de Laboratoria, vas a elegir\nUNA de las 3 opciones disponibles, para poner en práctica técnicas y\nherramientas específicas según una etapa de diseño específica.</p>"
+      "title": "UXploradoras UX",
+      "summary": "<p>En las plataformas de e-commerce, es crucial que las personas usuarias puedan\nnavegar rápidamente entre el mar de productos que ofrecen. Una buena\narquitectura de información permite encontrar lo que buscas y realizar tus\ncompras de forma satisfactoria.</p>"
     }
   },
   "cover": "https://raw.githubusercontent.com/Laboratoria/bootcamp/main/projects/03-uxploradoras-ux/thumb.png",
