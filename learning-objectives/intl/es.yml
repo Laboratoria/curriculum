@@ -606,6 +606,186 @@ auth/jwt:
 auth/password-access-and-storage:
   title: Almacenamiento y acceso de contraseñas
 
+java:
+  title: Java
+  links:
+    - title: Example title
+      url: https://example.com
+
+java/access-modifiers:
+  title: Modificadores de acesso (public, private, protected)
+  
+java/variables:
+  title: Variables
+
+java/conditionals:
+  title: Uso de condicionales
+  
+java/loops:
+  title: Uso de bucles (Loops)
+
+java/data-types:
+  title: Tipos de data
+
+java/data-types/primitive:
+  title: Primitivos
+
+java/data-types/primitive-vs-non-primitive:
+  title: Datos primitivos vs no primitivos
+    
+java/data-stypes/strings:
+  title: Cadenas
+
+java/data-types/arrays:
+  title: Arreglos
+  
+java/collections:
+  title: Colecciones
+
+java/collections/array-list:
+  title: ArrayList
+  
+java/collections/hash-map:
+  title: HashMap
+
+java/collections/hash-set:
+  title: HashSet
+
+java/testing:
+  title: Testing
+
+java/testing/junit:
+  title: JUnit
+
+java/testing/mockito:
+  title: Mockito
+
+java/spring-framework:
+  title: Spring Framework
+
+java/spring-framework/initializr:
+  title: Initializr
+
+java/spring-framework/beans:
+  title: Beans
+
+java/spring-framework/inversion-of-control:
+  title: Inversión de Control
+
+java/spring-framework/annotations:
+  title: Anotaciones
+
+java/spring-framework/spring-boot:
+  title: Spring Boot
+
+java/spring-framework/servlets:
+  title: Servlets
+
+java/spring-framework/controllers:
+  title: Controladores
+
+java/spring-framework/services:
+  title: Servicios
+
+java/spring-framework/spring-data-jpa:
+  title: Spring Data JPA
+
+java/spring-framework/entity:
+  title: Entidad
+
+java/spring-framework/repository:
+  title: Repositorio
+
+java/spring-framework/spring-web:
+  title: Spring Web
+
+java/spring-framework/spring-web/rest-controller:
+  title: RestController
+
+java/spring-framework/spring-web/request-mapping:
+  title: RequestMapping
+
+java/spring-framework/spring-web/spring-web/request-param:
+  title: RequestParam
+
+java/spring-framework/testing:
+  title: Testing
+
+java/spring-framework/testing/spring-test:
+  title: Spring Test
+
+java/spring-framework/testing/hamcrest:
+  title: Hamcrest
+
+java/hibernate-orm:
+  title: Hibernate ORM
+
+java/hibernate-orm/setup:
+  title: Configuración
+
+java/hibernate-orm/schema:
+  title: Esquema
+
+java/hibernate-orm/entity:
+  title: Entidad
+
+java/hibernate-orm/table:
+  title: Tabla
+
+java/hibernate-orm/column:
+  title: Columna
+
+java/hibernate-orm/identifiers:
+  title: Identificadores
+
+java/hibernate-orm/associations:
+  title: Asociaciones
+
+java/hibernate-orm/collections:
+  title: Colecciones
+
+java/hibernate-orm/persistance:
+  title: Persistencia
+
+java/hibernate-orm/querying:
+  title: Consultas
+
+object-oriented-programming:
+  title: Programación Orientada a Objetos (OOP)
+
+object-oriented-programming/classes:
+  title: Clases
+
+object-oriented-programming/objects:
+  title: Objetos
+
+object-oriented-programming/methods:
+  title: Métodos
+
+object-oriented-programming/attributes:
+  title: Atributos
+
+object-oriented-programming/constructors:
+  title: Constructores
+
+object-oriented-programming/encapsulation:
+  title: Encapsulamiento
+
+object-oriented-programming/abstraction:
+  title: Abstracción
+
+object-oriented-programming/composition:
+  title: Composición
+
+object-oriented-programming/interfaces:
+  title: Interfaces
+
+object-oriented-programming/inheritance:
+  title: Herencia (super, extends, override)
+
+object-oriented-programming/unified-model-language:
+  title: Lenguaje de Modelado Unificado (UML, class diagrams)
+
 webops:
   title: WebOps
 

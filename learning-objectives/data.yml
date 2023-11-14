@@ -184,15 +184,15 @@ auth:
   - password-access-and-storage
 
 java:
+  - access-modifiers (public, private, protected)
+  - variables
+  - conditionals
+  - loops
   - data-types:
     - primitive
     - primitive-vs-non-primitive
     - strings
     - arrays
-  - access-modifiers (public, private, protected)
-  - variables
-  - conditionals
-  - loops
   - collections:
     - array-list
     - hash-map
