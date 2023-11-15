@@ -685,9 +685,6 @@ java/spring-framework/spring-boot:
     - title: Spring Boot Reference Documentation
       url: https://docs.spring.io/spring-boot/docs/current/reference/html/
 
-java/spring-framework/servlets:
-  title: Servlets
-
 java/spring-framework/controllers:
   title: Controladores
 

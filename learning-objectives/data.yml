@@ -207,7 +207,6 @@ java:
         - annotations
     - initializr
     - spring-boot
-    - servlets
     - controllers
     - services
     - spring-data-jpa
