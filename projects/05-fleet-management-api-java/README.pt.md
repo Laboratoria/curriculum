@@ -31,7 +31,9 @@ eventualidades (atrasos, danos, roubos, etc).
 
 A IoT também apresenta desafios como o armazenamento, análise e visualização da
 grande quantidade de informações que ela gera. Estima-se que até 2025, os
-dispositivos IoT gerem [79,4 zettabytes](https://www.statista.com/statistics/1017863/worldwide-iot-connected-devices-data-size/) (1 zettabyte equivale a 1 trilhão
+dispositivos IoT gerem
+[79,4 zettabytes](https://www.statista.com/statistics/1017863/worldwide-iot-connected-devices-data-size/)
+(1 zettabyte equivale a 1 trilhão
 de gigabytes). Como desenvolvedoras, devemos estar cientes desses desafios e
 contribuir para sua resolução com nossa experiência, conhecimento e vontade de
 aprender.
@@ -81,6 +83,7 @@ nos apresenta este _backlog_ que é o resultado do seu trabalho com
 as pessoas que representam os nossos clientes.
 
 ***
+
 #### [Historia de usuario 1] Carregar a informação na base de dados
 
 Eu como _desenvolvedora_ quero carregar a informação, armazenada
@@ -89,14 +92,14 @@ para facilitar sua consulta e análise.
 
 ##### Critérios de aceitação
 
-* Desenvolver um script SQL que
+- Desenvolver um script SQL que
 carregue as informações dos arquivos de texto na base
 de dados.
 
 ##### Definição de pronto
 
-* Os scripts SQL precisam criar as tabelas no banco de dados.
-* Os scripts devem carregar os dados disponibilizados pela
+- Os scripts SQL precisam criar as tabelas no banco de dados.
+- Os scripts devem carregar os dados disponibilizados pela
 empresa de taxis.
 
 #### [Historia de usuario 2] Endpoint última localização
@@ -106,11 +109,11 @@ consultar a última localização reportada por cada taxi.
 
 ##### Critérios de aceitação
 
-* O _endpoint_ responde para cada taxi a siguiente informação:
+- O _endpoint_ responde para cada taxi a siguiente informação:
 ID, placa, latitude, longitude e data e hora.
-* O _endpoint_ faz paginação dos resultados para garantir que as
+- O _endpoint_ faz paginação dos resultados para garantir que as
 respostas sejam mais fáceis de manejar.
-* O _endpoint_ responde as solicitações em pouco tempo para
+- O _endpoint_ responde as solicitações em pouco tempo para
 não afetar a experiência da usuária. _Nota: devido
 à grande quantidade de informação, se espera com **segurança** tempos de
 resposta mais lentos se uma estratégia de otimização de banco de dados
@@ -118,7 +121,7 @@ não for implementada._
 
 ##### Definição de pronto
 
-* Deve existir uma documentação para o _endpoint_ desenvolvido
+- Deve existir uma documentação para o _endpoint_ desenvolvido
 especificando
 [método HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods),
 url, parâmetros,
@@ -126,10 +129,10 @@ url, parâmetros,
 [HTTP response code](https://shorturl.at/bdegB)
 e
 [corpo](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages).
-* O código do _endpoint_ deve receber _code review_ de pelo
+- O código do _endpoint_ deve receber _code review_ de pelo
 menos uma colega.
-* O código _endpoint_ deve estar disponível em um repositorio do Github.
-* O código _endpoint_ deve contar com testes unitarios e e2e.
+- O código _endpoint_ deve estar disponível em um repositorio do Github.
+- O código _endpoint_ deve contar com testes unitarios e e2e.
 
 ***
 
@@ -140,11 +143,11 @@ consultar todas as localizações de un taxi dado um ID de um taxi e uma data.
 
 ##### Critérios de aceitação
 
-* O _endpoint_ responde para o ID do taxi consultado a seguinte
+- O _endpoint_ responde para o ID do taxi consultado a seguinte
 informação: latitude, longitude e data e hora.
-* O _endpoint_ faz paginação dos resultados para garantir que as
+- O _endpoint_ faz paginação dos resultados para garantir que as
 respostas sejam mais fáceis de manejar.
-* O _endpoint_ responde as solicitações em pouco tempo para
+- O _endpoint_ responde as solicitações em pouco tempo para
 não afetar a experiência da usuária. _Nota: devido
 à grande quantidade de informação, se espera com **segurança** tempos de
 resposta mais lentos se uma estratégia de otimização de banco de dados
@@ -152,18 +155,17 @@ não for implementada._
 
 ##### Definição de pronto
 
-* Deve existir uma documentação para o _endpoint_ desenvolvido
+- Deve existir uma documentação para o _endpoint_ desenvolvido
 especificando
 [método HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods),
 url, parâmetros,
 [Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers),
-[HTTP response code](https://shorturl.at/bdegB)
-e
+[HTTP response code](https://shorturl.at/bdegB) e
 [corpo](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages).
-* O código do _endpoint_ deve receber _code review_ de pelo
+- O código do _endpoint_ deve receber _code review_ de pelo
 menos uma colega.
-* O código _endpoint_ deve estar disponível em um repositorio do Github.
-* O código _endpoint_ deve contar com testes unitarios e e2e.
+- O código _endpoint_ deve estar disponível em um repositorio do Github.
+- O código _endpoint_ deve contar com testes unitarios e e2e.
 
 ***
 
@@ -174,10 +176,10 @@ listar todos os taxis.
 
 ##### Critérios de aceitação
 
-* O _endpoint_ responde para cada taxi: ID e placa.
-* O _endpoint_ faz paginação dos resultados para garantir que as
+- O _endpoint_ responde para cada taxi: ID e placa.
+- O _endpoint_ faz paginação dos resultados para garantir que as
 respostas sejam mais fáceis de manejar.
-* O _endpoint_ responde as solicitações em pouco tempo para
+- O _endpoint_ responde as solicitações em pouco tempo para
 não afetar a experiência da usuária. _Nota: devido
 à grande quantidade de informação, se espera com **segurança** tempos de
 resposta mais lentos se uma estratégia de otimização de banco de dados
@@ -185,7 +187,7 @@ não for implementada._
 
 ##### Definição de pronto
 
-* Deve existir uma documentação para o _endpoint_ desenvolvido
+- Deve existir uma documentação para o _endpoint_ desenvolvido
 especificando
 [método HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods),
 url, parâmetros,
@@ -193,10 +195,10 @@ url, parâmetros,
 [HTTP response code](https://shorturl.at/bdegB)
 e
 [corpo](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages).
-* O código do _endpoint_ deve receber _code review_ de pelo
+- O código do _endpoint_ deve receber _code review_ de pelo
 menos uma colega.
-* O código _endpoint_ deve estar disponível em um repositorio do Github.
-* O código _endpoint_ deve contar com testes unitarios e e2e.
+- O código _endpoint_ deve estar disponível em um repositorio do Github.
+- O código _endpoint_ deve contar com testes unitarios e e2e.
 
 #### [Historia de usuario 5] Carregar a informação na base de dados usando uma CLI
 
@@ -206,7 +208,7 @@ para facilitar sua consulta e análise.
 
 ##### Critérios de aceitação
 
-* Desenvolver uma interface de Linha de Comando (CLI) que
+- Desenvolver uma interface de Linha de Comando (CLI) que
 carregue a informação dos arquivos de texto na base
 de dados:
 
@@ -245,26 +247,26 @@ de dados:
 
 ##### Definição de pronto
 
-* O código da Interface de Linha de Comando (CLI) deve
+- O código da Interface de Linha de Comando (CLI) deve
 receber _code review_ de pelo menos uma colega.
-* O código da Interface de Linha de Comando (CLI) deve
+- O código da Interface de Linha de Comando (CLI) deve
 estar disponível em um repositorio de Github.
-* O código da Interface de Linha de Comando (CLI) deve
+- O código da Interface de Linha de Comando (CLI) deve
 contar com testes unitários.
 
 ***
 
 ## 5. Stack de tecnologías
 
-* [Spring Boot](https://spring.io/projects/spring-boot/): para
+- [Spring Boot](https://spring.io/projects/spring-boot/): para
 criar aplicações Java
-* [Spring Boot Test](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.testing.spring-boot-applications):
+- [Spring Boot Test](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.testing.spring-boot-applications):
 para testes de integração.
-* [JUnit](https://junit.org/junit5/): para testes unitários.
-* [Hibernate](https://docs.spring.io/spring-framework/reference/data-access/orm/hibernate.html):
+- [JUnit](https://junit.org/junit5/): para testes unitários.
+- [Hibernate](https://docs.spring.io/spring-framework/reference/data-access/orm/hibernate.html):
 como [ORM](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping)
 para facilitar consultas ao banco de dados.
-* [Postgresql](https://www.postgresql.org/): como base de dados.
+- [Postgresql](https://www.postgresql.org/): como base de dados.
 
 ## 6. Boilerplate
 
@@ -287,8 +289,8 @@ da sua aplicação.
 
 Aqui pode baixar os arquivos com os dados _crus_:
 
-* [fleet-management-software-data-part-1.zip](https://storage.googleapis.com/bootcamp-assets/projects/05-fleet-management/fleet-management-software-data-part-1.zip)
-* [fleet-management-software-data-part-2.zip](https://storage.googleapis.com/bootcamp-assets/projects/05-fleet-management/fleet-management-software-data-part-2.zip)
+- [fleet-management-software-data-part-1.zip](https://storage.googleapis.com/bootcamp-assets/projects/05-fleet-management/fleet-management-software-data-part-1.zip)
+- [fleet-management-software-data-part-2.zip](https://storage.googleapis.com/bootcamp-assets/projects/05-fleet-management/fleet-management-software-data-part-2.zip)
 
 Os arquivos `fleet-management-software-data-part-1.zip`
 e `fleet-management-software-data-part-2.zip`
@@ -350,7 +352,6 @@ arquivos e você terá um banco de dados com conexões limitadas. Discutir com
 um coach quais estratégias você pode implementar para que nem o computador nem o
 banco de dados morra tentando carregar as informações.
 
-
 ### Definir endpoints de API
 
 Deverá definir e documentar os endpoints de sua API.
@@ -382,13 +383,11 @@ resposta e melhorar a experiência do usuário?
 
 Algunas estrategias que poderia tentar são:
 
-* Criar
-[índices](https://shorturl.at/owR09)
-sobre a tabela de localizações.
-* Implementar um esquema de
+- Criar [índices](https://shorturl.at/owR09) sobre a tabela de localizações.
+- Implementar um esquema de
 [particionamiento](https://www.postgresql.org/docs/9.1/ddl-partitioning.html)
 sobre a tabela de localizações.
-* [Consultar y visualizar progresivamente](https://shorturl.at/ivyBS)
+- [Consultar y visualizar progresivamente](https://shorturl.at/ivyBS)
 a informação em lotes.
 
 Discuta com uma coach cada uma destas estrategias e encontre outras que
@@ -409,10 +408,10 @@ em uma dara específica.
 
 #### Critérios de aceitação
 
-* O _endpoint_ proporciona um arquivo em formato excel com
+- O _endpoint_ proporciona um arquivo em formato excel com
 a seguinte informação: ID, placa, latitude, longitude e
 data e hora.
-* O _endpoint_ resolve a solicitação em tempos de resposta
+- O _endpoint_ resolve a solicitação em tempos de resposta
 ótimos que não afetam a experiencia da usuaria. _Nota: devido
 a grande quantidade de informação, se espera con **segurança** tempos
 de resposta lentos
@@ -420,7 +419,7 @@ se não se implementar uma estrategia de otimização da base de dados._
 
 #### Definição de pronto
 
-* Deve existir uma documentação para o _endpoint_ desenvolvido
+- Deve existir uma documentação para o _endpoint_ desenvolvido
 especificando
 [método HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods),
 url, parâmetros,
@@ -428,10 +427,10 @@ url, parâmetros,
 [HTTP response code](https://shorturl.at/bdegB)
 e
 [corpo](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages).
-* O código do _endpoint_ deve receber _code review_ de pelo
+- O código do _endpoint_ deve receber _code review_ de pelo
 menos uma colega.
-* O código _endpoint_ deve estar disponível em um repositorio do Github.
-* O código _endpoint_ deve contar com testes unitarios e e2e.
+- O código _endpoint_ deve estar disponível em um repositorio do Github.
+- O código _endpoint_ deve contar com testes unitarios e e2e.
 
 ***
 
