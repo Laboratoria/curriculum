@@ -184,7 +184,7 @@ auth:
   - password-access-and-storage
 
 java:
-  - access-modifiers (public, private, protected)
+  - access-modifiers
   - variables
   - conditionals
   - loops
@@ -241,8 +241,8 @@ object-oriented-programming:
   - abstraction
   - composition
   - interfaces
-  - inheritance (super extends override)
-  - unified-model-language (class diagrams)
+  - inheritance
+  - unified-model-language
 
 webops:
   - env-vars
