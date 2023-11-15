@@ -735,10 +735,7 @@ java/hibernate-orm:
       url: https://docs.jboss.org/hibernate/orm/6.3/userguide/html_single/Hibernate_User_Guide.html
 
 java/hibernate-orm/setup:
-  title: Configuração do Entidades
-  links:
-    - title: Mapping The Entity - Hibernate User Guide
-      url: https://docs.jboss.org/hibernate/orm/6.3/userguide/html_single/Hibernate_User_Guide.html#entity-pojo-mapping
+  title: Configuração
 
 java/hibernate-orm/schema:
   title: Esquema
