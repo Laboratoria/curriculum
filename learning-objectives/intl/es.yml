@@ -666,16 +666,22 @@ java/spring-framework:
 java/spring-framework/initializr:
   title: Initializr
   links:
+    - title: Spring Initializr
+      url: https://start.spring.io/
+
+java/spring-framework/core-concepts:
+  title: Conceptos Core
+  links:
     - title: Core Technologies
       url: https://docs.spring.io/spring-framework/reference/core.html
 
-java/spring-framework/beans:
+java/spring-framework/core-concepts/beans:
   title: Beans
 
-java/spring-framework/inversion-of-control:
+java/spring-framework/core-concepts/inversion-of-control:
   title: Inversión de Control
 
-java/spring-framework/annotations:
+java/spring-framework/core-concepts/annotations:
   title: Anotaciones
 
 java/spring-framework/spring-boot:
@@ -699,7 +705,6 @@ java/spring-framework/spring-data-jpa:
   links:
     - title: Spring Data JPA - Reference Documentation
       url: https://docs.spring.io/spring-data/jpa/docs/current/reference/html/
-
 
 java/spring-framework/entity:
   title: Entidad
@@ -740,7 +745,6 @@ java/hibernate-orm:
       url: https://docs.jboss.org/hibernate/orm/6.3/quickstart/html_single/
     - title: Hibernate ORM User Guide
       url: https://docs.jboss.org/hibernate/orm/6.3/userguide/html_single/Hibernate_User_Guide.html
-
 
 java/hibernate-orm/setup:
   title: Configuración

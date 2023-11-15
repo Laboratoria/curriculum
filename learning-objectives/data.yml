@@ -201,10 +201,11 @@ java:
     - junit
     - mockito
   - spring-framework:
+    - core-concepts:
+        - beans
+        - inversion-of-control
+        - annotations
     - initializr
-    - beans
-    - inversion-of-control
-    - annotations
     - spring-boot
     - servlets
     - controllers

@@ -661,16 +661,22 @@ java/spring-framework:
 java/spring-framework/initializr:
   title: Initializr
   links:
+    - title: Spring Initializr
+      url: https://start.spring.io/
+   
+java/spring-framework/core-concepts:
+  title: Conceitos Principais
+  links:
     - title: Core Technologies
       url: https://docs.spring.io/spring-framework/reference/core.html
 
-java/spring-framework/beans:
+java/spring-framework/core-concepts/beans:
   title: Beans
 
-java/spring-framework/inversion-of-control:
+java/spring-framework/core-concepts/inversion-of-control:
   title: Inversão de Controle
 
-java/spring-framework/annotations:
+java/spring-framework/core-concepts/annotations:
   title: Anotações
 
 java/spring-framework/spring-boot:
