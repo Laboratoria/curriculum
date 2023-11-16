@@ -74,7 +74,7 @@ objetivos de aprendizagem declarados em
 **Propósito:**
 Lida com a lógica principal, decide qual jogador assume o próximo turno.
 
-**Atributos estáticos (`static`):**
+**Atributos estáticos: **
 
 - `random`: Gerador de números aleatórios.
 - `targetNumber`: Número aleatório entre 1 e 100 a ser adivinhado na partida atual.
