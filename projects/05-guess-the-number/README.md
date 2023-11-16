@@ -257,6 +257,11 @@ Puedes mostrar la cantidad de intentos y cuáles fueron los intentos de la jugad
 En este hito, configura las bibliotecas JUnit5 y Mockito en tu IDE para que
 puedas crear pruebas unitarias.
 
+Le recomendamos que utilice las bibliotecas presentes en el repositorio de Maven:
+- org.junit.jupiter:junit-jupiter
+- org.mockito:mockito-core
+
+
 #### Contenidos que pueden ayudarte a agregar dependencias de pruebas
 
 - [Agregar JUnit5 en IntelliJ](https://www.jetbrains.com/help/idea/junit.html#intellij)
