@@ -6,10 +6,10 @@
 - [2. Resumo do projeto](#2-resumo-do-projeto)
 - [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
 - [4. Critérios de aceitação do projeto](#4-critérios-de-aceitação-do-projeto)
-- [5. Stack de tecnologia](#5-stack-de-tecnologia)
-- [6. Modelo Base](#6-modelo-base)
-- [7. Dicas, guias e leituras complementares](#7-dicas-dicas-e-leituras-complementares)
-- [8. Edição Hacker](#8-edição-hacker)
+- [5. Stack de tecnologias](#5-stack-de-tecnologias)
+- [6. Boilerplate](#6-boilerplate)
+- [7. Guias, dicas e leituras complementares](#7-guias-dicas-e-leituras-complementares)
+- [8. Hacker edition](#8-hacker-edition)
 
 ***
 
@@ -27,7 +27,7 @@ a localização e as condições da carga e dos veículos o tempo todo, por meio
 sensores sem fio conectados à internet que enviam alertas em caso de
 eventualidades (atrasos, danos, roubos, etc).
 
-![zach-vessels-utMdPdGDc8M-unsplash](./assets/thumb.jpg)
+![zach-vessels-utMdPdGDc8M-unsplash](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/fleet-management-api-java%2Fthumb.jpg?alt=media)
 
 A IoT também apresenta desafios como o armazenamento, análise e visualização da
 grande quantidade de informações que ela gera. Estima-se que até 2025, os
@@ -61,7 +61,7 @@ o repositório do projeto para uma turma específica, usando
 [lista de todos os objetivos de aprendizado](../../learning-objectives/data.yml)
 contemplados em nosso currículo.
 
-## 4. Criterios de aceitação do projeto
+## 4. Critérios de aceitação do projeto
 
  A empresa que nos contratou, instalou dispositivos GPS em seus taxis.
  Estes dispositivos utilizam sinais de satelitales para determinar
@@ -90,27 +90,32 @@ Eu como _desenvolvedora_ quero carregar a informação, armazenada
 até agora em arquivos de texto, em uma base de datos Postgresql,
 para facilitar sua consulta e análise.
 
+- Consultas para carregar [táxis e trajectórias](https://drive.google.com/file/d/1T5m6Vzl9hbD75E9fGnjbOiG2UYINSmLx/view?usp=drive_link)
+
 ##### Critérios de aceitação
 
-- Desenvolver um script SQL que
-carregue as informações dos arquivos de texto na base
-de dados.
+- A base de dados tem a tabela de táxis criada.
+- A tabela de táxis tem os dados de táxis carregados.
+- A base de dados tem a tabela de trajectos criada.
+- A tabela de táxis está carregada com os dados das trajectórias
 
-##### Definição de pronto
+##### Considerações
 
-- Os scripts SQL precisam criar as tabelas no banco de dados.
-- Os scripts devem carregar os dados disponibilizados pela
-empresa de taxis.
+- O diagrama seguinte deve ser tido em conta para a implementação das relações
+entre tabelas relações entre as tabelas
 
-#### [Historia de usuario 2] Endpoint última localização
+![mer](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/fleet-management-api-java%2Ftable-diagram.png?alt=media)
+
+***
+
+#### [Historia de usuario 2] Endpoint lista de taxis
 
 Eu como cliente da API REST preciso de um _endpoint_ para
-consultar a última localização reportada por cada taxi.
+listar todos os taxis.
 
 ##### Critérios de aceitação
 
-- O _endpoint_ responde para cada taxi a siguiente informação:
-ID, placa, latitude, longitude e data e hora.
+- O _endpoint_ responde para cada taxi: ID e placa.
 - O _endpoint_ faz paginação dos resultados para garantir que as
 respostas sejam mais fáceis de manejar.
 - O _endpoint_ responde as solicitações em pouco tempo para
@@ -169,14 +174,15 @@ menos uma colega.
 
 ***
 
-#### [Historia de usuario 4] Endpoint lista de taxis
+#### [Historia de usuario 4] Endpoint última localização
 
 Eu como cliente da API REST preciso de um _endpoint_ para
-listar todos os taxis.
+consultar a última localização reportada por cada taxi.
 
 ##### Critérios de aceitação
 
-- O _endpoint_ responde para cada taxi: ID e placa.
+- O _endpoint_ responde para cada taxi a siguiente informação:
+ID, placa, latitude, longitude e data e hora.
 - O _endpoint_ faz paginação dos resultados para garantir que as
 respostas sejam mais fáceis de manejar.
 - O _endpoint_ responde as solicitações em pouco tempo para
@@ -200,6 +206,8 @@ menos uma colega.
 - O código _endpoint_ deve estar disponível em um repositorio do Github.
 - O código _endpoint_ deve contar com testes unitarios e e2e.
 
+***
+
 #### [Historia de usuario 5] Carregar a informação na base de dados usando uma CLI
 
 Eu como _desenvolvedora_ quero carregar a informação, armazenada
@@ -212,38 +220,37 @@ para facilitar sua consulta e análise.
 carregue a informação dos arquivos de texto na base
 de dados:
 
-    No caso de Java
+  ```bash
+  java UploadGPSData.java <path-to-files>
+  --type=taxis|trajectories
+  --dbname=<dbname>
+  --host=<hostname>
+  --port=<port>
+  --username=<username>
+  ```
 
-    ```bash
-    java UploadGPSData.java <path-to-files>
-    --type=taxis|trajectories
-    --dbname=<dbname>
-    --host=<hostname>
-    --port=<port>
-    --username=<username>
-    ```
+Onde os parâmetros esperados são:
 
-    Onde os parâmetros esperados são:
+`<path-to-files>`: especifica o diretorio dos arquivos a carregar.
 
-    `<path-to-files>`: especifica o diretorio dos arquivos a carregar.
+`--type=taxis|trajectories`: indica o [tipo de arquivo](#data)
+a carregar taxis ou trajetorias.
 
-    `--type=taxis|trajectories`: indica o [tipo de arquivo](#data)
-    a carregar taxis ou trajetorias.
+`--dbname=dbname`: especifica o nome da base de dados para se conectar.
 
-    `--dbname=dbname`: especifica o nome da base de dados para se conectar.
+`--host=hostname`: especifica o nome do host da máquina
+em que se está executando a base de dados.
 
-    `--host=hostname`: especifica o nome do host da máquina
-    em que se está executando a base de dados.
+`--port=port`: especifica a porta TCP onde a base de
+dados está escutando conexões.
 
-    `--port=port`: especifica a porta TCP onde a base de
-    dados está escutando conexões.
+`--username=username`: especifica o usuario para se conectar na
+base de dados.
 
-    `--username=username`: especifica o usuario para se conectar na
-    base de dados.
-
-    _Nota: a CLI deve solicitar a
-    senha de conexão com a base de dados.
-    Por segurança, esta não pode ser um parâmetro._
+> Nota: a CLI deve solicitar a senha de conexão com a base de dados.
+Por segurança, esta não pode ser um parâmetro.
+> De [aqui](https://drive.google.com/file/d/1UIwfWbhZWKWWBZAKMjfze8NswMOQ09du/view?usp=drive_link)
+pode descarregar o driver postgresql
 
 ##### Definição de pronto
 
@@ -254,9 +261,7 @@ estar disponível em um repositorio de Github.
 - O código da Interface de Linha de Comando (CLI) deve
 contar com testes unitários.
 
-***
-
-## 5. Stack de tecnologías
+## 5. Stack de tecnologias
 
 - [Spring Boot](https://spring.io/projects/spring-boot/): para
 criar aplicações Java
@@ -301,7 +306,7 @@ Em `taxis` você encontrará o arquivo `taxis.txt`. En cada linha
 do arquivo, encontrará o identificador (ID) e a placa de um taxi. As
 informações estão separada entre sí por vírgulas.
 
-![Archivo taxis.txt](./assets/first-10-lines-taxis-txt.png "Archivo taxis.txt")
+![Archivo taxis.txt](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/fleet-management-api-java%2Ffirst-10-lines-taxis-txt.png?alt=media)
 
 Na pasta `trajectories` encontrará 10.357 arquivos com extensão
 txt. Cada archivo contém as localizações de um taxi. O nome do arquivo
@@ -311,7 +316,7 @@ arquivos, encontrará o identificador do taxi (ID), a data e hora,
 latitude e longitude de uma localicação. Em cada linha, as informações estão
 separada entre sí por virgulas.
 
-![Archivo 9557.txt](./assets/first-10-lines-9557-txt.png "Archivo 9557.txt")
+![Archivo 9557.txt](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/fleet-management-api-java%2Ffirst-10-lines-9557-txt.png?alt=media)
 
 A informação de taxis e localizações foi extraída do projeto
 [T-Drive: Driving Directions based on Taxi Traces](https://shorturl.at/enBJW)

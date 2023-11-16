@@ -17,7 +17,7 @@
     "url": "https://github.com/Laboratoria/curriculum/issues"
   },
   "scripts": {
-    "mdlint": "mdlint ./projects/05-fleet-management-api-java/README.pt.md",
+    "mdlint": "mdlint .",
     "eslint": "eslint topics/",
     "test:topics": "mocha './topics/!(node_modules)/**/*.spec.js' --verbose",
     "test:scripts": "mocha './scripts/test/*.spec.mjs' --verbose",

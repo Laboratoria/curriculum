@@ -29,7 +29,7 @@ todo momento de la ubicación y las condiciones de la carga y los activos
 mediante sensores inalámbricos conectados a internet que envían alertas en
 caso de eventualidades (demoras, daños, robos, etc).
 
-![zach-vessels-utMdPdGDc8M-unsplash](./assets/thumb.jpg)
+![zach-vessels-utMdPdGDc8M-unsplash](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/fleet-management-api-java%2Fthumb.jpg?alt=media)
 
 La IoT también plantea retos como el almacenamiento, análisis y
 visualización de la gran cantidad de información que genera.
@@ -87,70 +87,38 @@ hasta hoy.
 
 #### [Historia de usuario 1] Cargar información a base de datos
 
-Yo como _desarrolladora_ requiero cargar la información, almacenada
-hasta ahora en archivos de texto, en una base de datos Postgresql
-para facilitar su consulta y análisis.
+Yo, como desarrolladora, quiero cargar la información almacenada hasta ahora en
+archivos sql en una base de datos PostgreSQL, para facilitar su consulta y análisis.
+
+* Queries para cargar [taxis y trajectorias](https://drive.google.com/file/d/1T5m6Vzl9hbD75E9fGnjbOiG2UYINSmLx/view?usp=drive_link)
 
 ##### Criterios de aceptación
 
-* Desarrollar una Interfaz de Línea de Comando (CLI) que
-cargue la información de los archivos de texto a la base
-de datos:
+* La base de datos tiene creada la tabla de taxis
+* La tabla de taxis tiene cargada la data de taxis
+* La base de datos tiene creada la tabla de trajectorias
+* La tabla de taxis tiene cargada la data de trajectorias
 
-    En el caso de Java
+#### Consideraciones
 
-    ```bash
-    java UploadGPSData.java <path-to-files>
-    --type=taxis|trajectories
-    --dbname=<dbname>
-    --host=<hostname>
-    --port=<port>
-    --username=<username>
-    ```
+* Se debe tener en cuenta el siguiente diagrama para la implemetación de las
+relaciones entre las tablas
 
-    Donde los parámetros requeridos son:
+![mer](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/fleet-management-api-java%2Ftable-diagram.png?alt=media)
 
-    `<path-to-files>`: especifica el directorio de los archivos a cargar.
-
-    `--type=taxis|trajectories`: indica el [tipo de archivos](#data)
-    a cargarse taxis o trajectories.
-
-    `--dbname=dbname`: especifica el nombre de la base de datos
-    a la que conectarse.
-
-    `--host=hostname`: especifica el nombre del host de la máquina
-    en la que se está ejecutando la base de datos.
-
-    `--port=port`: especifica el puerto TCP en el que  la base de
-    datos está escuchando conexiones.
-
-    `--username=username`: especifica el usuario para conectarse a
-    la base de datos.
-
-    _Nota: el CLI debe solicitar la
-    contraseña de conexión a la base de datos.
-    Por segurisdad esta no puede ser un parámetro._
-
-##### Definición de terminado
-
-* El código de la Interfaz de Línea de Comando (CLI) debe
-recibir _code review_ de al menos una compañera.
-* El código de la Interfaz de Línea de Comando (CLI) debe
-estar cargado en un repositorio de Github.
-* El código de la Interfaz de Línea de Comando (CLI) debe
-contar con test unitarios.
+* La tabla de trajectorias se debe crear con el id "autoincrementable" (SERIAL)
+para poder insertar los valores sin necesidad de especificar un identificador
 
 ***
 
-#### [Historia de usuario 2] Endpoint última ubicación
+#### [Historia de usuario 2] Endpoint listado de taxis
 
 Yo como clienta de la API REST requiero un _endpoint_ para
-consultar la última ubicación reportada por cada taxi.
+listar todos los taxis.
 
 ##### Criterios de aceptación
 
-* El _endpoint_ responde para cada taxi la siguiente información:
-ID, placa, latitud, longitud y fecha y hora.
+* El _endpoint_ responde para cada taxi: ID y placa.
 * El _endpoint_ paginamos los resultados para asegurar que las
 respuestas sean más fáciles de manejar.
 * El _endpoint_ resuelve la solicitud en tiempos de respuesta
@@ -210,14 +178,15 @@ menos una compañera.
 
 ***
 
-#### [Historia de usuario 4] Endpoint listado de taxis
+#### [Historia de usuario 4] Endpoint última ubicación
 
 Yo como clienta de la API REST requiero un _endpoint_ para
-listar todos los taxis.
+consultar la última ubicación reportada por cada taxi.
 
 ##### Criterios de aceptación
 
-* El _endpoint_ responde para cada taxi: ID y placa.
+* El _endpoint_ responde para cada taxi la siguiente información:
+ID, placa, latitud, longitud y fecha y hora.
 * El _endpoint_ paginamos los resultados para asegurar que las
 respuestas sean más fáciles de manejar.
 * El _endpoint_ resuelve la solicitud en tiempos de respuesta
@@ -240,6 +209,62 @@ y
 menos una compañera.
 * El código _endpoint_ debe estar cargado en un repositorio de Github.
 * El código _endpoint_ debe contar con test unitarios y e2e.
+
+***
+
+#### [Historia de usuario 5] Cargar masiva de información a base de datos
+
+Yo como _desarrolladora_ requiero cargar la información, almacenada
+hasta ahora en archivos de texto, en una base de datos Postgresql
+para facilitar su consulta y análisis.
+
+##### Criterios de aceptación
+
+* Desarrollar una Interfaz de Línea de Comando (CLI) que
+cargue la información de los archivos de texto a la base
+de datos:
+
+  ```bash
+    java -cp ./path/to/drive.jar UploadGPSData.java <path-to-files>
+    --type=taxis|trajectories
+    --dbname=<dbname>
+    --host=<hostname>
+    --port=<port>
+    --username=<username>
+  ```
+
+  Donde los parámetros requeridos son:
+
+  `<path-to-files>`: especifica el directorio de los archivos a cargar.
+
+  `--type=taxis|trajectories`: indica el [tipo de archivos](#data)
+  a cargarse taxis o trajectories.
+
+  `--dbname=dbname`: especifica el nombre de la base de datos
+  a la que conectarse.
+
+  `--host=hostname`: especifica el nombre del host de la máquina
+  en la que se está ejecutando la base de datos.
+
+  `--port=port`: especifica el puerto TCP en el que  la base de
+  datos está escuchando conexiones.
+
+  `--username=username`: especifica el usuario para conectarse a
+  la base de datos.
+
+> Nota: la CLI debe solicitar la contraseña para conectarse a la base de datos.
+Por razones de seguridad, esto no puede ser un parámetro.
+> De [aqui](https://drive.google.com/file/d/1UIwfWbhZWKWWBZAKMjfze8NswMOQ09du/view?usp=drive_link)
+puedes descargar el driver de postgresql
+
+##### Definición de terminado
+
+* El código de la interfaz de línea de comandos (CLI) debe
+recibir la _revisión del código_ de al menos un colega.
+* El código de la interfaz de línea de comandos (CLI) debe
+estar disponible en un repositorio de Github.
+* El código de la interfaz de línea de comandos (CLI) debe
+tener pruebas unitarias.
 
 ## 5. Stack de tecnologías
 
@@ -286,7 +311,7 @@ En la carpeta `taxis` encontrarás el archivo `taxis.txt`. En cada línea
 del archivo, encontrarás el identificador (ID) y placa de un taxi. La
 información esta separada entre sí por comas.
 
-![Archivo taxis.txt](./assets/first-10-lines-taxis-txt.png "Archivo taxis.txt")
+![Archivo taxis.txt](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/fleet-management-api-java%2Ffirst-10-lines-taxis-txt.png?alt=media)
 
 En la carpeta `trajectories` encontrarás 10.357 archivos con extensión
 txt. Cada archivo contiene las ubicaciones de un taxi. El nombre del archivo
@@ -296,7 +321,7 @@ estos archivos, encontrarás el identificador del taxi (ID), la fecha y hora,
 latitud y longitud de la ubicación. En una línea, la información está
 separada entre sí por comas.
 
-![Archivo 9557.txt](./assets/first-10-lines-9557-txt.png "Archivo 9557.txt")
+![Archivo 9557.txt](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/fleet-management-api-java%2Ffirst-10-lines-9557-txt.png?alt=media)
 
 La información de taxis y ubicaciones ha sido extraída del proyecto
 [T-Drive: Driving Directions based on Taxi Traces](https://shorturl.at/enBJW)
@@ -353,7 +378,7 @@ la url es _/taxis_. Recibe un parámetro _query_, retorna la información con
 _código HTTP_ 200 en formato json gracias al _header_
 `Content-type` con valor `application/json`.
 
-![Ejemplo Endpoint API Rest](./assets/example-endpoint-api-rest.png "Ejemplo Endpoint API Rest")
+![Ejemplo Endpoint API Rest](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/fleet-management-api-java%2Fexample-endpoint-api-rest.png?alt=media)
 
 ### Mejorar tiempos de respuesta y experiencia de usuaria
 

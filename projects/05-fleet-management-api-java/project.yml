@@ -3,7 +3,7 @@ learningObjectives:
   - java/data-types/primitive-vs-non-primitive
   - java/data-types/strings
   - java/data-types/arrays
-  - java/access-modifiers (public, private, protected)
+  - java/access-modifiers
   - java/conditionals
   - java/loops
   - java/collections/array-list
@@ -18,8 +18,8 @@ learningObjectives:
   - object-oriented-programming/abstraction
   - object-oriented-programming/composition
   - object-oriented-programming/interfaces
-  - object-oriented-programming/inheritance (super extends override)
-  - object-oriented-programming/unified-model-language (class diagrams)
+  - object-oriented-programming/inheritance
+  - object-oriented-programming/unified-model-language
   - java/testing/junit
   - java/testing/mockito
   - java/spring-framework/initializr
