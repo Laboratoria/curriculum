@@ -171,7 +171,7 @@ A continuación, te dejamos algunos hitos como sugerencia para que construyas tu
 Debes configurar tu entorno de trabajo, es decir:
 
 - Descargar la versión elegida de Java e instalarla en tu computadora.
-  Hoy, en octubre y noviembre de 2023, recomendamos la versión 17,
+  Hoy, en octubre y noviembre de 2023, recomendamos la versión 21,
   ya que es la versión más compatible con la IDE IntelliJ.
 - Instalar tu IDE (recomendamos usar
   [IntelliJ Community Edition](https://www.jetbrains.com/idea/download/),
