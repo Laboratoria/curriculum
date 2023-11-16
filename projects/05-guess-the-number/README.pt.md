@@ -297,7 +297,7 @@ em relação ao número alvo e assim o jogo pode se tornar mais emocionante.
 
 **Documentação do Java**: A documentação oficial do Java é uma excelente
 fonte de informações sobre as classes e métodos disponíveis em Java
-(recomendamos usar o Java 20).
+(recomendamos usar o Java 21).
 
 **Projete a Estrutura do Jogo**: Antes de começar a escrever código,
 considere como deseja que o jogo funcione. Pense em como alternar
