@@ -37,7 +37,7 @@ Es un juego interactivo que se desarrolla en el terminal, donde la jugadora y el
 ordenador se turnan para intentar adivinar un número aleatorio entre 1 y 100.
 Deben tener en cuenta la tentativa anterior, si fue "muy alta" o "muy baja".
 
-![GUESS THE NUMER DEMO](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/guess-the-number-demo.gif?alt=media)
+![GUESS THE NUMBER DEMO](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/guess-the-number-demo.gif?alt=media)
 
 ## 4. Objetivos de Aprendizaje
 
