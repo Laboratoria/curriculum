@@ -20,7 +20,7 @@
 - Concentre-se em adquirir conhecimento ao invés de simplesmente "terminar" o projeto.
 - Tenha paciência! Não se preocupe muito com o que você ainda não entende
   completamente.
-- Seu aprendizado se desenvolverá à medida que você progrid.
+- Seu aprendizado se desenvolverá à medida que você progredir.
 
 ## 2. Prefácio
 
