@@ -173,7 +173,7 @@ A seguir deixamos alguns marcos como sugestão para que você construa o seu pro
 Você deve configurar o seu ambiente de trabalho, ou seja:
 
 - Baixar a versão escolhida do Java e instalá-la em seu computador.
-Hoje, em out e nov/2023, recomendamos a versão 17 pois é versão mais
+Hoje, em out e nov/2023, recomendamos a versão 21 pois é versão mais
 compatível com a IDE IntelliJ.
 - Instalar a sua IDE (recomendamos usar
 [IntelliJ Community Edition](https://www.jetbrains.com/idea/download/),
