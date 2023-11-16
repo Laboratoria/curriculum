@@ -183,6 +183,67 @@ auth:
   - jwt
   - password-access-and-storage
 
+java:
+  - access-modifiers
+  - variables
+  - conditionals
+  - loops
+  - data-types:
+    - primitive
+    - primitive-vs-non-primitive
+    - strings
+    - arrays
+  - collections:
+    - array-list
+    - hash-map
+    - hash-set
+  - testing:
+    - junit
+    - mockito
+  - spring-framework:
+    - core-concepts:
+        - beans
+        - inversion-of-control
+        - annotations
+    - initializr
+    - spring-boot
+    - controllers
+    - services
+    - spring-data-jpa
+    - entity
+    - repository
+    - spring-web:
+      - rest-controller
+      - request-mapping
+      - request-param
+    - testing:
+      - spring-test
+      - hamcrest
+  - hibernate-orm:
+    - setup
+    - schema
+    - entity
+    - table
+    - column
+    - identifiers
+    - associations
+    - collections
+    - persistance
+    - querying
+
+object-oriented-programming:
+  - classes
+  - objects
+  - methods
+  - attributes
+  - constructors
+  - encapsulation
+  - abstraction
+  - composition
+  - interfaces
+  - inheritance
+  - unified-model-language
+
 webops:
   - env-vars
   - docker-containers
@@ -289,10 +350,7 @@ typescript:
     - class-heritage:
       - implements
       - extends
-    - member-visibility:
-      - public
-      - protected
-      - private
+    - member-visibility
     - static-members
     - this
     - abstract-classes
