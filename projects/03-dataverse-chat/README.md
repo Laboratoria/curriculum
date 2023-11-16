@@ -9,7 +9,7 @@
 * [5. Considerações técnicas](#5-considerações-técnicas)
 * [6. Critérios de aceitação mínimos do projeto](#6-critérios-de-aceitação-mínimos-do-projeto)
 * [7. Objetivos de aprendizagem](#7-objetivos-de-aprendizagem)
-* [8. Dicas, dicas e leituras complementares](#8-dicas-dicas-e-leituras-complementares)
+* [8. Dicas, guias e leituras complementares](#8-dicas-guias-e-leituras-complementares)
 * [9. Considerações para pedir seu Project Feedback](#9-considerações-para-pedir-seu-project-feedback)
 
 ***
@@ -24,15 +24,15 @@ E se pudéssemos conversar com alguém que viveu há mais de cem anos ou até me
 
 ## 2. Resumo do projeto
 
-Neste projeto, você irá transformar a aplicação desenvolvida no Dataverse em uma [Single Page Application (SPA)](https://pt.wikipedia.org/wiki/Aplicação_de_página_única), mantendo as funcionalidades de visualização, filtragem, ordenação e cálculo de alguma estatística, adicionando uma nova visualização para consultar informações detalhadas de cada personagem/entidade e adicionando a possibilidade de interagir com um personagem/entidade ou todos eles através de um sistema de chat impulsionado pela [API da OpenAI](https://openai.com/product).
+Neste projeto, você irá transformar a aplicação desenvolvida no Dataverse em uma [Single Page Application (SPA)](https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica), mantendo as funcionalidades de visualização, filtragem, ordenação e cálculo de alguma estatística. Vamos adicionar uma nova visualização (tela) para consultar informações detalhadas de cada personagem/entidade e acrescentar a possibilidade de interagir com um personagem/entidade ou todos eles através de um sistema de chat impulsionado pela [API da OpenAI](https://openai.com/product).
 
 ### Os objetivos gerais deste projeto são os seguintes
 
-* Desenvolver uma [Single Page Application (SPA)](https://pt.wikipedia.org/wiki/Aplicação_de_página_única)
-* Aplicar os conceitos de responsividade no desenvolvimento das visualizações
-* Implementar um roteador para a navegação entre as diferentes visualizações da aplicação
+* Desenvolver uma [Single Page Application (SPA)](https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica)
+* Aplicar os conceitos de responsividade no desenvolvimento das telas
+* Implementar um router para a navegação entre as diferentes visualizações/telas da aplicação
 * Integrar uma API externa
-* Compreender a assincronicidade em JavaScript
+* Compreender a assincronia em JavaScript
 * Criar um conjunto de testes unitários que permitam testar código assíncrono
 
 ## 3. Considerações gerais
@@ -47,13 +47,13 @@ Neste projeto, você irá transformar a aplicação desenvolvida no Dataverse em
 
 * O projeto será entregue fazendo o _commit/push_ do seu código para o GitHub e a interface será implantada usando qualquer uma destas opções: [Vercel](https://vercel.com/) ou [Netlify](https://www.netlify.com/).
 
-* A divisão e organização do trabalho deve permitir, sem exceções, que **cada membro** da equipe pratique o aprendizado de tudo envolvido em **cada história**. _Não dividam o trabalho como em uma fábrica._
+* A divisão e organização do trabalho deve permitir, sem exceções, que **cada membro** da equipe pratique todo o aprendizado envolvido em **cada história**. _Não dividam o trabalho como em uma fábrica._
   - Você progrediu em seus projetos com certa fluidez e sem grandes problemas até agora? Seja generosa com suas colegas, permita que elas aprendam e pratiquem sem restrições, mesmo que leve um pouco mais de tempo. Aproveite para orientá-las, fazer _pair programming_, uma das melhores maneiras de aprender é explicar verbalmente.
   - Está achando difícil e está tendo um pouco mais de dificuldade? Não fique apenas com as partes "fáceis" do projeto, converse, negocie, exija sua oportunidade para praticar e aprender o que achar mais difícil. Para começar, você terá que fazer um _fork_ e _clonar_ este repositório.
 
 ## 4. Funcionalidades
 
-Como entrega final, você terá uma Single Page Application (SPA) que permitirá, além de **visualizar os dados, filtrá-los, ordená-los e calcular alguma estatística** como foi feito no Dataverse, acessar uma página de detalhes de cada personagem e poder _interagir_ com os personagens ou entidades do conjunto de dados que você utilizou anteriormente.
+Como entrega final, você terá uma Single Page Application (SPA) que permitirá **visualizar os dados, filtrá-los, ordená-los e calcular alguma estatística** como foi feito no Dataverse, mas também acessar uma página de detalhes de cada personagem e poder _interagir_ com os personagens ou entidades do conjunto de dados que você utilizou anteriormente.
 
 Aqui estão definidas de forma mais detalhada as funcionalidades mínimas que a aplicação deve ter:
 
@@ -70,11 +70,11 @@ Aqui estão definidas de forma mais detalhada as funcionalidades mínimas que a 
   Por exemplo, se utilizarmos os dados de exemplo do Dataverse, correspondentes às mulheres com as maiores contribuições para a programação na história, um usuário pode estabelecer uma conversa interativa com [Ada Lovelace](https://pt.wikipedia.org/wiki/Ada_Lovelace) através do sistema de chat, obtendo informações sobre suas realizações, desafios e contribuições para a informática. A inteligência artificial da OpenAI permite que as respostas sejam informativas e personalizadas de acordo com as perguntas dos usuários.
 
 ```text
-Usuária: "Olá, Ada. Conta-me mais sobre as tuas contribuições para a informática."
+Usuária: "Olá, Ada. Conta-me mais sobre as suas contribuições para a informática."
 
 Ada Lovelace (AI da OpenAI): "Olá! Claro, ficarei encantada em falar sobre isso. As minhas contribuições mais destacadas estão relacionadas ao trabalho com Charles Babbage no design da Máquina Analítica. Além disso, desenvolvi o primeiro algoritmo destinado a ser processado por uma máquina, o que me torna a primeira programadora da história. Há algo mais em particular que gostarias de saber?"
 
-Usuária: "Isso é fascinante! Que desafios enfrentaste naquela época?"
+Usuária: "Isso é fascinante! Que desafios você enfrentou naquela época?"
 
 Ada Lovelace (AI da OpenAI): "Naquela época, enfrentei vários desafios, um dos principais foi a limitação de recursos e a falta de reconhecimento do potencial da Máquina Analítica. Também tive que superar as restrições sociais da época, já que as mulheres tinham acesso limitado à educação em matemática e ciências. No entanto, minha paixão pela matemática e a visão do que essas máquinas poderiam realizar me impulsionaram a seguir em frente."
 
@@ -130,7 +130,7 @@ Nesta pasta estão os dados com os quais você vai trabalhar (dados de exemplo o
 
 ### `src/lib`
 
-Nesta pasta, você criará módulos que contêm funcionalidades não relacionadas ao DOM. Aqui, você poderá incluir o arquivo `dataFunctions.js`, que contém as funções que permitem filtrar, ordenar e fazer cálculos agregados. Você também poderá criar arquivos com as funções que interajam com a API de inteligência artificial ou utilidades destinadas a armazenar dados no armazenamento local.
+Nesta pasta, você criará módulos que contêm funcionalidades não relacionadas ao DOM. Aqui, você poderá incluir o arquivo `dataFunctions.js`, que contém as funções que permitem filtrar, ordenar e fazer cálculos agregados. Você também poderá criar arquivos com as funções que interajam com a API de inteligência artificial ou utilidades destinadas a armazenar dados no local storage.
 
 ### `src/views`
 
@@ -166,11 +166,11 @@ Documente brevemente o seu trabalho no arquivo `README.md` do seu repositório, 
 
 ### Histórias de usuária
 
-Depois de entender as necessidades das suas usuárias, escreva as [Histórias de Usuária](https://es.wikipedia.org/wiki/Historias_de_usuario) que representam tudo o que a usuária precisa fazer/ver. As **Histórias de Usuária** devem ser o resultado do seu processo de pesquisa ou _research_ das suas usuárias.
+Depois de entender as necessidades das suas usuárias, escreva as [Histórias de Usuária](https://pt.wikipedia.org/wiki/História_de_usuário) que representam tudo o que a usuária precisa fazer/ver. As **Histórias de Usuária** devem ser o resultado do seu processo de pesquisa ou _research_ das suas usuárias.
 
 Certifique-se de incluir a definição de pronto (_definition of done_) e os Critérios de Aceitação para cada uma.
 
-Use as suas histórias de usuária para planejar os seus sprints dividindo cada história em tarefas.
+Use as suas histórias de usuária para planejar as suas sprints dividindo cada história em tarefas.
 
 Na medida do possível, termine uma História de Usuária antes de passar para a próxima (cumprindo a Definição de Pronto e os Critérios de Aceitação).
 
@@ -180,7 +180,7 @@ Na medida do possível, termine uma História de Usuária antes de passar para a
 
 Durante o seu trabalho, você deverá ter feito e iterado esboços (_sketches_) da sua solução usando papel e lápis. Recomendamos que tire fotos de todas as iterações que fizer, as suba para o seu repositório e as mencione no seu `README.md`.
 
-Lembre-se de pedir feedback do seu protótipo para as suas colegas e/ou orientadores.
+Lembre-se de pedir feedback do seu protótipo para as suas colegas e/ou coaches.
 
 #### Protótipo de alta fidelidade
 
@@ -188,11 +188,11 @@ O próximo passo é projetar a sua Interface de Usuária (UI - _User Interface_)
 
 O design deve representar o _ideal_ da sua solução. Digamos que é o que você gostaria de implementar se tivesse tempo ilimitado para trabalhar. Além disso, o seu design deve seguir os fundamentos de _visual design_.
 
-Lembre-se de pedir feedback do seu protótipo para as suas colegas e/ou orientadores.
+Lembre-se de pedir feedback do seu protótipo para as suas colegas e/ou coaches.
 
 ### Testes de usabilidade
 
-Durante o desafio, você deverá fazer testes de usabilidade com diferentes usuárias e, com base nos resultados, deverá iterar os seus desenhos. Conte-nos quais problemas de usabilidade você identificou por meio dos testes e como os melhorou na sua proposta final.
+Durante o desafio, você deverá fazer _testes_ de usabilidade com diferentes usuárias e, com base nos resultados, deverá iterar os seus desenhos. Conte-nos quais problemas de usabilidade você identificou por meio dos _testes_ e como os melhorou na sua proposta final.
 
 ### Implementação da Interface de Usuária (HTML/CSS/JS)
 
@@ -253,16 +253,16 @@ Consulte a documentação da [API da Open AI](https://platform.openai.com/docs/g
 
 #### Desenvolvimento Front-end
 
-* [Tópicos no currículo do site da Laboratoria](https://curriculum.laboratoria.la/es/web-dev/topics) testes, arrays, objetos, funções, DOM no Browser Javascript.
-* [Promises](https://es.javascript.info/promise-basics)
-* [Fazendo requisições com Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Utilizando_Fetch)
-* [Armazenamento com LocalStorage](https://es.javascript.info/localstorage)
+* [Tópicos no currículo do site da Laboratoria](https://curriculum.laboratoria.la/pt/web-dev/topics) testes, arrays, objetos, funções, DOM no Browser Javascript.
+* [Promises](https://javascript.info/promise-basics)
+* [Fazendo requisições com Fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)
+* [Armazenamento com LocalStorage](https://javascript.info/localstorage)
 * [Criando um roteador SPA com Javascript puro](https://github.com/Laboratoria/guide-router/blob/guide-v1/README.md)
-* [Delegação de eventos](https://es.javascript.info/event-delegation)
+* [Delegação de eventos](https://javascript.info/event-delegation)
 
 #### Inteligência Artificial e Prompting
 
-* [Aprenda sobre Prompting](https://learnprompting.org/es/docs/category/-basic-applications)
+* [Aprenda sobre Prompting](https://learnprompting.org/pt/docs/category/-basic-applications)
 * [Roadmap de Engenharia de Prompting](https://roadmap.sh/prompt-engineering)
 * [OpenAI Playground](https://beta.openai.com/playground)
 * [Fazendo requisições](https://platform.openai.com/docs/api-reference/making-requests)
