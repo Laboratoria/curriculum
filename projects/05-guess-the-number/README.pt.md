@@ -8,7 +8,8 @@
 - [4. Objetivos de Aprendizagem](#4-objetivos-de-aprendizado)
 - [5. Considerações Gerais](#5-considerações-gerais)
 - [6. Considerações Técnicas](#6-considerações-técnicas)
-- [7. Recomendações](#7-recomendações)
+- [7. Marcos do projeto](#7-marcos-do-projeto)
+- [8. Recomendações](#8-recomendações)
 
 ---
 
