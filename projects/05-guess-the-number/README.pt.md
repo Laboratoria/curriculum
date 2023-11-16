@@ -17,7 +17,7 @@
 
 - Este projeto deve ser desenvolvido de manera **individual**.
 - A estimativa de tempo para completar o projeto é de 1 a 2 Sprints.
-- Concentre-se em adquirir conhecimento ao invés de simplemente "terminar" o projeto.
+- Concentre-se em adquirir conhecimento ao invés de simplesmente "terminar" o projeto.
 - Tenha paciência! Não se preocupe muito com o que você ainda não entende
   completamente.
 - Seu aprendizado se desenvolverá à medida que você progrid.
