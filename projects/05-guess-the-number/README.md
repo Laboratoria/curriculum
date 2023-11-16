@@ -72,7 +72,7 @@ Deben tener en cuenta la tentativa anterior, si fue "muy alta" o "muy baja".
 **Propósito:**
 Maneja la lógica principal, decide qué jugador asume el próximo turno.
 
-**Atributos estáticos (`static`):**
+**Atributos:**
 
 - `random`: Generador de números aleatorios.
 - `targetNumber`: Número aleatorio entre 1 y 100 a adivinar en la partida actual.
