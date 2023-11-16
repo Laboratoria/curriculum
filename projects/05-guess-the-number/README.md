@@ -288,7 +288,7 @@ haciendo que el juego sea más emocionante.
 
 **Documentación de Java**: La documentación oficial de Java es una excelente
 fuente de información sobre las clases y métodos disponibles en
-Java (recomendamos usar Java 20).
+Java (recomendamos usar Java 21).
 
 **Diseño de la Estructura del Juego**: Antes de empezar a escribir código,
 considera cómo quieres que funcione el juego. Piensa en cómo alternar los
