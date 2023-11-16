@@ -283,4 +283,26 @@ Antes de agendar seu Feedback do Projeto com um coach, certifique-se de que seu 
 * [ ] Cumpre todas as testes unitários ao executar `npm run test` e possui uma cobertura de 70% de _statements_ (_declarações_), _functions_ (_funções_), _lines_ (_linhas_) e _branches_ (_ramificações_).
 * [ ] Está livre de _erros_ do `eslint` ao executar `npm run pretest`.
 * [ ] Está enviado para o GitHub e implantado no Netlify ou Vercel.
-* Possui um `README.md` com
+* Tem um `README.md` com o seguinte:
+  - [ ] _Definição do produto_ clara e informativa
+  - [ ] Histórias de usuário
+  - [ ] Um _sketch_ da solução (protótipo de baixa fidelidade) e
+    _Design de Interface do Usuário_ (protótipo de alta fidelidade)
+  - [ ] Lista de problemas detectados por testes de usabilidade no `README.md`
+* Tem uma UI que atende às funcionalidades:
+  - [ ] Permite visualizar todos os dados na tela principal com opções para
+    filtrar e ordenar.
+  - [ ] Permite inserir uma chave de API por meio de um formulário.
+  - [ ] Permite visualizar uma página com mais detalhes de cada entidade. Nesta página,
+    é possível iniciar o chat.
+  - [ ] Permite conversar com o personagem ou entidade dos dados por meio
+    de um chat.
+  - [ ] Permite conversar de forma grupal com todas as entidades dos dados.
+  - [ ] É responsivo e foi realizado usando a metodologia mobile first.
+
+Lembre-se de fazer uma autoavaliação de _objetivos de aprendizado_ e
+_habilidades pessoais_ a partir do seu painel de estudante.
+
+Se você não concluiu tudo o que foi mencionado acima, não consideramos que você está pronta para
+sua sessão de Project Feedback.
+
