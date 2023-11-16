@@ -625,7 +625,7 @@ java/data-types/primitive:
 java/data-types/primitive-vs-non-primitive:
   title: Dados primitivos vs não primitivos
 
-java/data-stypes/strings:
+java/data-types/strings:
   title: Cadeias de caracteres
 
 java/data-types/arrays:
