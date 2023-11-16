@@ -29,7 +29,7 @@ ter uma base sólida nos conceitos fundamentais de Java e na programação
 orientada a objetos (OOP). O objetivo deste projeto é te introduzir ao mundo do
 Java por meio de um jogo simples e divertido.
 
-![GUESS THE NUMBER](assets/guess-the-number.png)
+![GUESS THE NUMBER](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/guess-the-number.png?alt=media)
 
 ## 3. Resumo do Projeto
 
@@ -38,7 +38,7 @@ jogadora e o computador se alternam para tentar adivinhar um número
 aleatório entre 1 e 100. Deve-se levar em consideração a tentativa anterior, se
 foi "muito alta" ou "muito baixa".
 
-![GUESS THE NUMER DEMO](assets/guess-the-number-demo.gif)
+![GUESS THE NUMER DEMO](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/guess-the-number-demo.gif?alt=media)
 
 ## 4. Objetivos de Aprendizado
 
@@ -66,7 +66,7 @@ objetivos de aprendizagem declarados em
 
 ### Diagrama de Classes
 
-![Diagrama de Classes](assets/class-diagram.png)
+![Diagrama de Clases](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/class-diagram.png?alt=media)
 
 #### `GuessTheNumberGame`
 
@@ -157,7 +157,7 @@ mas sem uma finalização que possa ser usada por uma usuária não desenvolvedo
 
 A metáfora a seguir pode ajudá-la a entender melhor a ideia.
 
-![MARCOS](assets/marcos.png)
+![MARCOS](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/marcos.png?alt=media)
 
 Essas etapas, do skate ao carro, são o que chamaremos de "marcos".
 

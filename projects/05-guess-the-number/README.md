@@ -29,7 +29,7 @@ fundamental tener una base sólida en los conceptos fundamentales de Java y en l
 programación orientada a objetos (OOP). El objetivo de este proyecto es
 introducirte al mundo de Java a través de un juego simple y divertido.
 
-![GUESS THE NUMBER](assets/guess-the-number.png)
+![GUESS THE NUMBER](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/guess-the-number.png?alt=media)
 
 ## 3. Resumen del Proyecto
 
@@ -37,7 +37,7 @@ Es un juego interactivo que se desarrolla en el terminal, donde la jugadora y el
 ordenador se turnan para intentar adivinar un número aleatorio entre 1 y 100.
 Deben tener en cuenta la tentativa anterior, si fue "muy alta" o "muy baja".
 
-![GUESS THE NUMER DEMO](assets/guess-the-number-demo.gif)
+![GUESS THE NUMER DEMO](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/guess-the-number-demo.gif?alt=media)
 
 ## 4. Objetivos de Aprendizaje
 
@@ -65,7 +65,7 @@ Deben tener en cuenta la tentativa anterior, si fue "muy alta" o "muy baja".
 
 ### Diagrama de Clases
 
-![Diagrama de Clases](assets/class-diagram.png)
+![Diagrama de Clases](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/class-diagram.png?alt=media)
 
 #### `GuessTheNumberGame`
 
@@ -156,7 +156,7 @@ ser utilizada por una usuaria no desarrolladora.
 
 La metáfora a continuación puede ayudarte a entender mejor la idea.
 
-![MARCOS](assets/marcos.png)
+![MARCOS](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/marcos.png?alt=media)
 
 Estas etapas, desde el monopatín hasta el automóvil, son lo que llamaremos "Hitos".
 
