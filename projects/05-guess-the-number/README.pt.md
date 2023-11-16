@@ -74,7 +74,7 @@ objetivos de aprendizagem declarados em
 **Propósito:**
 Lida com a lógica principal, decide qual jogador assume o próximo turno.
 
-**Atributos estáticos: **
+**Atributos:**
 
 - `random`: Gerador de números aleatórios.
 - `targetNumber`: Número aleatório entre 1 e 100 a ser adivinhado na partida atual.
@@ -262,10 +262,10 @@ Você pode exibir a quantidade de tentativas e quais foram as tentativas da joga
 Neste marco você pode configurar as bibliotecas JUnit5 e Mockito na sua IDE,
 assim você poderá criar os testes unitários.
 
-Recomendamos que você utilize as bibliotecas presentes no repositório Maven: 
+Recomendamos que você utilize as bibliotecas presentes no repositório Maven:
+
 - org.junit.jupiter:junit-jupiter
 - org.mockito:mockito-core
-
 
 #### Conteúdos que podem te apoiar para adicionar dependências de testes
 
