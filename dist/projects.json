@@ -3,9 +3,9 @@
     "slug": "how-might-we",
     "repo": "Laboratoria/curriculum",
     "path": "projects/00-how-might-we",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:06:42.430Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:54:51.674Z",
     "prefix": 0,
     "track": "ux",
     "learningObjectives": [
@@ -87,9 +87,9 @@
     "slug": "trivia",
     "repo": "Laboratoria/curriculum",
     "path": "projects/00-trivia",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:06:42.641Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:54:51.907Z",
     "prefix": 0,
     "track": "web-dev",
     "learningObjectives": [
@@ -333,9 +333,9 @@
     "slug": "card-validation",
     "repo": "Laboratoria/curriculum",
     "path": "projects/01-card-validation",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:06:42.618Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:54:51.945Z",
     "prefix": 1,
     "track": "web-dev",
     "learningObjectives": [
@@ -749,9 +749,9 @@
     "slug": "cipher",
     "repo": "Laboratoria/curriculum",
     "path": "projects/01-cipher",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:06:45.707Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:54:54.963Z",
     "prefix": 1,
     "track": "web-dev",
     "learningObjectives": [
@@ -1165,9 +1165,9 @@
     "slug": "design-and-usability",
     "repo": "Laboratoria/curriculum",
     "path": "projects/01-design-and-usability",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:06:45.490Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:54:54.770Z",
     "prefix": 1,
     "track": "ux",
     "learningObjectives": [
@@ -1303,9 +1303,9 @@
     "slug": "design-detectives",
     "repo": "Laboratoria/curriculum",
     "path": "projects/01-design-detectives",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:06:45.557Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:54:54.812Z",
     "prefix": 1,
     "track": "ux",
     "learningObjectives": [
@@ -1504,9 +1504,9 @@
     "slug": "text-analyzer",
     "repo": "Laboratoria/curriculum",
     "path": "projects/01-text-analyzer",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:06:49.318Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:54:58.261Z",
     "prefix": 1,
     "track": "web-dev",
     "learningObjectives": [
@@ -1920,9 +1920,9 @@
     "slug": "data-lovers",
     "repo": "Laboratoria/curriculum",
     "path": "projects/02-data-lovers",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:06:49.385Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:54:58.094Z",
     "prefix": 2,
     "track": "web-dev",
     "learningObjectives": [
@@ -2438,9 +2438,9 @@
     "slug": "dataverse",
     "repo": "Laboratoria/curriculum",
     "path": "projects/02-dataverse",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:06:49.072Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:54:58.332Z",
     "prefix": 2,
     "track": "web-dev",
     "learningObjectives": [
@@ -2480,10 +2480,262 @@
       "es": {
         "title": "Dataverse",
         "summary": "<p>En este proyecto <strong>construirás una <em>página web</em> para visualizar un\n<em>conjunto (set) de datos</em></strong> que vas a generar con <a href=\"https://www.itmadrid.com/que-es-un-prompt-en-inteligencia-artificial-ia/\">prompting</a>.\nEsta página web se adecuará a lo que descubras que tu usuaria\nnecesita.</p>"
+      },
+      "pt": {
+        "title": "Dataverse",
+        "summary": "<p>Neste projeto, você <strong>construirá um <em>site</em> para visualizar um\n<em>conjunto de dados</em></strong> que você irá gerar através do <a href=\"https://www.itmadrid.com/que-es-un-prompt-en-inteligencia-artificial-ia/\">prompting</a>.\nEste site será adaptado para atender às necessidades que você\ndescobrir que suas usuárias têm.</p>"
       }
     },
     "cover": "https://user-images.githubusercontent.com/12631491/218505816-c6d11758-9de4-428f-affb-2a56ea4d68c4.png",
     "learningObjectivesTable": [
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "html/semantics"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "css/selectors"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "css/box-model"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "css/flexbox"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "browser/dom/selectors"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "browser/dom/events"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "browser/dom/manipulation"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/data-types/primitive-vs-non-primitive"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/data-types/arrays"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/data-types/objects"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/variables"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/conditionals"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/loops"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/functions"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/testing/unit"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/modules/es-modules"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/linting"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/semantics"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/expression-vs-statement"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "scm/git/setup"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "scm/git/intro"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "scm/git/integration"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "scm/github/setup"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "scm/github/gh-pages"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "scm/github/collaboration"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "user-centricity/centricity"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "product-design/interactivity"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "product-design/visual-design"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "research/test"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "ai-prompting/giving-instructions"
+      },
+      {
+        "title": "Dataverse",
+        "slug": "dataverse",
+        "path": "projects/02-dataverse",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "ai-prompting/few-shot-prompting"
+      },
       {
         "title": "Dataverse",
         "slug": "dataverse",
@@ -2738,9 +2990,9 @@
     "slug": "design-assigned",
     "repo": "Laboratoria/curriculum",
     "path": "projects/02-design-assigned",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:06:52.170Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:00.945Z",
     "prefix": 2,
     "track": "ux",
     "learningObjectives": [
@@ -3146,9 +3398,9 @@
     "slug": "emergency-room",
     "repo": "Laboratoria/curriculum",
     "path": "projects/02-emergency-room",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:06:52.302Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:01.096Z",
     "prefix": 2,
     "track": "web-dev",
     "learningObjectives": [
@@ -3664,9 +3916,9 @@
     "slug": "memory-match",
     "repo": "Laboratoria/curriculum",
     "path": "projects/02-memory-match",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:06:52.443Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:01.297Z",
     "prefix": 2,
     "track": "web-dev",
     "learningObjectives": [
@@ -4182,9 +4434,9 @@
     "slug": "mindset-mvp",
     "repo": "Laboratoria/curriculum",
     "path": "projects/02-mindset-mvp",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:06:55.025Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:03.483Z",
     "prefix": 2,
     "track": "ux",
     "learningObjectives": [
@@ -4509,9 +4761,9 @@
     "slug": "movie-challenge",
     "repo": "Laboratoria/curriculum",
     "path": "projects/02-movie-challenge",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:06:55.257Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:03.566Z",
     "prefix": 2,
     "track": "web-dev",
     "learningObjectives": [
@@ -5027,9 +5279,9 @@
     "slug": "uxploradoras-ui",
     "repo": "Laboratoria/curriculum",
     "path": "projects/02-uxploradoras-ui",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:06:55.138Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:03.704Z",
     "prefix": 2,
     "track": "ux",
     "learningObjectives": [
@@ -5210,9 +5462,9 @@
     "slug": "dataverse-chat",
     "repo": "Laboratoria/curriculum",
     "path": "projects/03-dataverse-chat",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:06:58.247Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:06.059Z",
     "prefix": 3,
     "track": "web-dev",
     "learningObjectives": [
@@ -5600,9 +5852,9 @@
     "slug": "design-lab",
     "repo": "Laboratoria/curriculum",
     "path": "projects/03-design-lab",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:06:57.950Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:05.915Z",
     "prefix": 3,
     "track": "ux",
     "learningObjectives": [
@@ -6008,9 +6260,9 @@
     "slug": "social-network",
     "repo": "Laboratoria/curriculum",
     "path": "projects/03-social-network",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:06:58.261Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:06.297Z",
     "prefix": 3,
     "track": "web-dev",
     "learningObjectives": [
@@ -6679,9 +6931,9 @@
     "slug": "uxploradoras-ux",
     "repo": "Laboratoria/curriculum",
     "path": "projects/03-uxploradoras-ux",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:07:00.881Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:08.258Z",
     "prefix": 3,
     "track": "ux",
     "learningObjectives": [
@@ -6907,9 +7159,9 @@
     "slug": "burger-queen-api",
     "repo": "Laboratoria/curriculum",
     "path": "projects/04-burger-queen-api",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:07:01.228Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:08.485Z",
     "prefix": 4,
     "track": "web-dev",
     "learningObjectives": [
@@ -7731,9 +7983,9 @@
     "slug": "burger-queen-api-client",
     "repo": "Laboratoria/curriculum",
     "path": "projects/04-burger-queen-api-client",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:07:01.324Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:08.495Z",
     "prefix": 4,
     "track": "web-dev",
     "learningObjectives": [
@@ -9167,9 +9419,9 @@
     "slug": "md-links",
     "repo": "Laboratoria/curriculum",
     "path": "projects/04-md-links",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:07:04.578Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:11.044Z",
     "prefix": 4,
     "track": "web-dev",
     "learningObjectives": [
@@ -9685,9 +9937,9 @@
     "slug": "notes",
     "repo": "Laboratoria/curriculum",
     "path": "projects/04-notes",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:07:04.092Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:10.852Z",
     "prefix": 4,
     "track": "web-dev",
     "learningObjectives": [
@@ -10192,9 +10444,9 @@
     "slug": "chat-app",
     "repo": "Laboratoria/curriculum",
     "path": "projects/05-chat-app",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:07:04.287Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:10.905Z",
     "prefix": 5,
     "track": "web-dev",
     "learningObjectives": [
@@ -10690,9 +10942,9 @@
     "slug": "fleet-management-api",
     "repo": "Laboratoria/curriculum",
     "path": "projects/05-fleet-management-api",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:07:08.099Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:13.534Z",
     "prefix": 5,
     "track": "web-dev",
     "learningObjectives": [
@@ -11089,9 +11341,9 @@
     "slug": "fleet-management-fullstack",
     "repo": "Laboratoria/curriculum",
     "path": "projects/05-fleet-management-fullstack",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:07:07.935Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:13.377Z",
     "prefix": 5,
     "track": "web-dev",
     "learningObjectives": [
@@ -11485,12 +11737,377 @@
     ]
   },
   {
+    "slug": "guess-the-number",
+    "repo": "Laboratoria/curriculum",
+    "path": "projects/05-guess-the-number",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:13.559Z",
+    "prefix": 5,
+    "track": "web-dev",
+    "learningObjectives": [
+      "java/data-types/primitive-vs-non-primitive",
+      "java/data-types/strings",
+      "java/data-types/arrays",
+      "java/access-modifiers",
+      "java/conditionals",
+      "java/loops",
+      "java/collections/array-list",
+      "object-oriented-programming/classes",
+      "object-oriented-programming/objects",
+      "object-oriented-programming/methods",
+      "object-oriented-programming/attributes",
+      "object-oriented-programming/constructors",
+      "object-oriented-programming/encapsulation",
+      "object-oriented-programming/abstraction",
+      "object-oriented-programming/composition",
+      "object-oriented-programming/interfaces",
+      "object-oriented-programming/inheritance",
+      "object-oriented-programming/unified-model-language",
+      "java/testing/junit",
+      "java/testing/mockito"
+    ],
+    "intl": {
+      "es": {
+        "title": "Adivina el Número - Guess the Number",
+        "summary": "<p>Es un juego interactivo que se desarrolla en el terminal, donde la jugadora y el\nordenador se turnan para intentar adivinar un número aleatorio entre 1 y 100.\nDeben tener en cuenta la tentativa anterior, si fue \"muy alta\" o \"muy baja\".</p>"
+      },
+      "pt": {
+        "title": "Adivinhe o Número - Guess the Number",
+        "summary": "<p>É um jogo interativo que se realiza no terminal, no qual a\njogadora e o computador se alternam para tentar adivinhar um número\naleatório entre 1 e 100. Deve-se levar em consideração a tentativa anterior, se\nfoi \"muito alta\" ou \"muito baixa\".</p>"
+      }
+    },
+    "cover": "https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/guess-the-number.png?alt=media",
+    "learningObjectivesTable": [
+      {
+        "title": "Adivinhe o Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/data-types/primitive-vs-non-primitive"
+      },
+      {
+        "title": "Adivinhe o Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/data-types/strings"
+      },
+      {
+        "title": "Adivinhe o Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/data-types/arrays"
+      },
+      {
+        "title": "Adivinhe o Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/access-modifiers"
+      },
+      {
+        "title": "Adivinhe o Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/conditionals"
+      },
+      {
+        "title": "Adivinhe o Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/loops"
+      },
+      {
+        "title": "Adivinhe o Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/collections/array-list"
+      },
+      {
+        "title": "Adivinhe o Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/classes"
+      },
+      {
+        "title": "Adivinhe o Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/objects"
+      },
+      {
+        "title": "Adivinhe o Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/methods"
+      },
+      {
+        "title": "Adivinhe o Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/attributes"
+      },
+      {
+        "title": "Adivinhe o Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/constructors"
+      },
+      {
+        "title": "Adivinhe o Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/encapsulation"
+      },
+      {
+        "title": "Adivinhe o Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/abstraction"
+      },
+      {
+        "title": "Adivinhe o Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/composition"
+      },
+      {
+        "title": "Adivinhe o Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/interfaces"
+      },
+      {
+        "title": "Adivinhe o Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/inheritance"
+      },
+      {
+        "title": "Adivinhe o Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/unified-model-language"
+      },
+      {
+        "title": "Adivinhe o Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/testing/junit"
+      },
+      {
+        "title": "Adivinhe o Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/testing/mockito"
+      },
+      {
+        "title": "Adivina el Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/data-types/primitive-vs-non-primitive"
+      },
+      {
+        "title": "Adivina el Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/data-types/strings"
+      },
+      {
+        "title": "Adivina el Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/data-types/arrays"
+      },
+      {
+        "title": "Adivina el Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/access-modifiers"
+      },
+      {
+        "title": "Adivina el Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/conditionals"
+      },
+      {
+        "title": "Adivina el Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/loops"
+      },
+      {
+        "title": "Adivina el Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/collections/array-list"
+      },
+      {
+        "title": "Adivina el Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/classes"
+      },
+      {
+        "title": "Adivina el Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/objects"
+      },
+      {
+        "title": "Adivina el Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/methods"
+      },
+      {
+        "title": "Adivina el Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/attributes"
+      },
+      {
+        "title": "Adivina el Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/constructors"
+      },
+      {
+        "title": "Adivina el Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/encapsulation"
+      },
+      {
+        "title": "Adivina el Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/abstraction"
+      },
+      {
+        "title": "Adivina el Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/composition"
+      },
+      {
+        "title": "Adivina el Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/interfaces"
+      },
+      {
+        "title": "Adivina el Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/inheritance"
+      },
+      {
+        "title": "Adivina el Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/unified-model-language"
+      },
+      {
+        "title": "Adivina el Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/testing/junit"
+      },
+      {
+        "title": "Adivina el Número - Guess the Number",
+        "slug": "guess-the-number",
+        "path": "projects/05-guess-the-number",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/testing/mockito"
+      }
+    ]
+  },
+  {
     "slug": "movie-challenge-fw",
     "repo": "Laboratoria/curriculum",
     "path": "projects/05-movie-challenge-fw",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:07:08.127Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:16.030Z",
     "prefix": 5,
     "track": "web-dev",
     "learningObjectives": [
@@ -12890,9 +13507,9 @@
     "slug": "open-project",
     "repo": "Laboratoria/curriculum",
     "path": "projects/05-open-project",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:07:10.731Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:15.898Z",
     "prefix": 5,
     "track": "web-dev",
     "intl": {
@@ -12908,9 +13525,9 @@
     "slug": "roman-numerals",
     "repo": "Laboratoria/curriculum",
     "path": "projects/05-roman-numerals",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:07:10.756Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:15.997Z",
     "prefix": 5,
     "track": "web-dev",
     "learningObjectives": [
@@ -13136,9 +13753,9 @@
     "slug": "roman-numerals-slack",
     "repo": "Laboratoria/curriculum",
     "path": "projects/05-roman-numerals-slack",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:07:10.788Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:18.288Z",
     "prefix": 5,
     "track": "web-dev",
     "learningObjectives": [
@@ -13373,9 +13990,9 @@
     "slug": "social-network-fw",
     "repo": "Laboratoria/curriculum",
     "path": "projects/05-social-network-fw",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:07:13.582Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:18.400Z",
     "prefix": 5,
     "track": "web-dev",
     "learningObjectives": [
@@ -13952,9 +14569,9 @@
     "slug": "wordpress-plugin",
     "repo": "Laboratoria/curriculum",
     "path": "projects/05-wordpress-plugin",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:07:13.687Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:18.321Z",
     "prefix": 5,
     "track": "web-dev",
     "learningObjectives": [
@@ -14189,9 +14806,9 @@
     "slug": "job-application",
     "repo": "Laboratoria/curriculum",
     "path": "projects/06-job-application",
-    "version": "7.3.0",
-    "parserVersion": "5.1.0",
-    "createdAt": "2023-11-13T19:07:13.655Z",
+    "version": "7.4.0",
+    "parserVersion": "5.2.0",
+    "createdAt": "2023-11-17T13:55:20.657Z",
     "prefix": 6,
     "track": "web-dev",
     "intl": {

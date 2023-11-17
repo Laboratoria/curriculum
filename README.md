@@ -1,3 +1,21 @@
+🚨 😱 🔴
+# Que es este branch?
+
+Un "fix" temporal para distribuir los `jsons` de objetivos de aprendizaje y projectos
+a Diego en un formato nuevo que el necesita para los spreadsheets.
+
+Si necesitas hacer eso (espero que no):
+
+1. Actualiza esta rama con next o main para tener los OAs mas actual
+2. Construir el dist directorios. Puedes hacerlo utilizando
+  el comando `rm -rf dist`, y luego para generar los `json` se
+  ejecuta el script [`build.js`](./scripts/build.js) utilizando el comando
+  `npm run build:content`; Con esto se reconstruye todo el directorio.
+3. De ahi copia los archivos `json` en la raiz de `dist`
+  (no de los carpetas projects o topics)
+  y poner los en la carpeta `docs` para distribuir 
+  estes jsons en gh pages (eso es lo que necesita los spreadsheets)
+
 # Bootcamp @Laboratoria
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->

@@ -2100,6 +2100,254 @@
     "slug": "dataverse",
     "path": "projects/02-dataverse",
     "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "html/semantics"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "css/selectors"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "css/box-model"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "css/flexbox"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "browser/dom/selectors"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "browser/dom/events"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "browser/dom/manipulation"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "js/data-types/primitive-vs-non-primitive"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "js/data-types/arrays"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "js/data-types/objects"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "js/variables"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "js/conditionals"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "js/loops"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "js/functions"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "js/testing/unit"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "js/modules/es-modules"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "js/linting"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "js/semantics"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "js/expression-vs-statement"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "scm/git/setup"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "scm/git/intro"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "scm/git/integration"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "scm/github/setup"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "scm/github/gh-pages"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "scm/github/collaboration"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "user-centricity/centricity"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "product-design/interactivity"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "product-design/visual-design"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "research/test"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "ai-prompting/giving-instructions"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "ai-prompting/few-shot-prompting"
+  },
+  {
+    "title": "Dataverse",
+    "slug": "dataverse",
+    "path": "projects/02-dataverse",
+    "track": "web-dev",
     "intl": "es",
     "learningObjective": "html/semantics"
   },
@@ -10030,6 +10278,326 @@
     "track": "web-dev",
     "intl": "es",
     "learningObjective": "angular/styles"
+  },
+  {
+    "title": "Adivinhe o Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "java/data-types/primitive-vs-non-primitive"
+  },
+  {
+    "title": "Adivinhe o Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "java/data-types/strings"
+  },
+  {
+    "title": "Adivinhe o Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "java/data-types/arrays"
+  },
+  {
+    "title": "Adivinhe o Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "java/access-modifiers"
+  },
+  {
+    "title": "Adivinhe o Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "java/conditionals"
+  },
+  {
+    "title": "Adivinhe o Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "java/loops"
+  },
+  {
+    "title": "Adivinhe o Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "java/collections/array-list"
+  },
+  {
+    "title": "Adivinhe o Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "object-oriented-programming/classes"
+  },
+  {
+    "title": "Adivinhe o Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "object-oriented-programming/objects"
+  },
+  {
+    "title": "Adivinhe o Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "object-oriented-programming/methods"
+  },
+  {
+    "title": "Adivinhe o Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "object-oriented-programming/attributes"
+  },
+  {
+    "title": "Adivinhe o Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "object-oriented-programming/constructors"
+  },
+  {
+    "title": "Adivinhe o Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "object-oriented-programming/encapsulation"
+  },
+  {
+    "title": "Adivinhe o Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "object-oriented-programming/abstraction"
+  },
+  {
+    "title": "Adivinhe o Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "object-oriented-programming/composition"
+  },
+  {
+    "title": "Adivinhe o Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "object-oriented-programming/interfaces"
+  },
+  {
+    "title": "Adivinhe o Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "object-oriented-programming/inheritance"
+  },
+  {
+    "title": "Adivinhe o Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "object-oriented-programming/unified-model-language"
+  },
+  {
+    "title": "Adivinhe o Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "java/testing/junit"
+  },
+  {
+    "title": "Adivinhe o Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "pt",
+    "learningObjective": "java/testing/mockito"
+  },
+  {
+    "title": "Adivina el Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "es",
+    "learningObjective": "java/data-types/primitive-vs-non-primitive"
+  },
+  {
+    "title": "Adivina el Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "es",
+    "learningObjective": "java/data-types/strings"
+  },
+  {
+    "title": "Adivina el Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "es",
+    "learningObjective": "java/data-types/arrays"
+  },
+  {
+    "title": "Adivina el Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "es",
+    "learningObjective": "java/access-modifiers"
+  },
+  {
+    "title": "Adivina el Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "es",
+    "learningObjective": "java/conditionals"
+  },
+  {
+    "title": "Adivina el Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "es",
+    "learningObjective": "java/loops"
+  },
+  {
+    "title": "Adivina el Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "es",
+    "learningObjective": "java/collections/array-list"
+  },
+  {
+    "title": "Adivina el Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "es",
+    "learningObjective": "object-oriented-programming/classes"
+  },
+  {
+    "title": "Adivina el Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "es",
+    "learningObjective": "object-oriented-programming/objects"
+  },
+  {
+    "title": "Adivina el Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "es",
+    "learningObjective": "object-oriented-programming/methods"
+  },
+  {
+    "title": "Adivina el Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "es",
+    "learningObjective": "object-oriented-programming/attributes"
+  },
+  {
+    "title": "Adivina el Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "es",
+    "learningObjective": "object-oriented-programming/constructors"
+  },
+  {
+    "title": "Adivina el Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "es",
+    "learningObjective": "object-oriented-programming/encapsulation"
+  },
+  {
+    "title": "Adivina el Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "es",
+    "learningObjective": "object-oriented-programming/abstraction"
+  },
+  {
+    "title": "Adivina el Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "es",
+    "learningObjective": "object-oriented-programming/composition"
+  },
+  {
+    "title": "Adivina el Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "es",
+    "learningObjective": "object-oriented-programming/interfaces"
+  },
+  {
+    "title": "Adivina el Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "es",
+    "learningObjective": "object-oriented-programming/inheritance"
+  },
+  {
+    "title": "Adivina el Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "es",
+    "learningObjective": "object-oriented-programming/unified-model-language"
+  },
+  {
+    "title": "Adivina el Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "es",
+    "learningObjective": "java/testing/junit"
+  },
+  {
+    "title": "Adivina el Número - Guess the Number",
+    "slug": "guess-the-number",
+    "path": "projects/05-guess-the-number",
+    "track": "web-dev",
+    "intl": "es",
+    "learningObjective": "java/testing/mockito"
   },
   {
     "title": "Movie Challenge con Framework",

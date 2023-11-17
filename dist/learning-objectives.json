@@ -750,6 +750,301 @@
     "pt": "Armazenamento e acesso de senhas"
   },
   {
+    "key": "java",
+    "es": "Java",
+    "pt": "Java"
+  },
+  {
+    "key": "java/access-modifiers",
+    "es": "Modificadores de acesso (public, private, protected)",
+    "pt": "Modificadores de acesso (public, private, protected)"
+  },
+  {
+    "key": "java/variables",
+    "es": "Variables",
+    "pt": "Variáveis"
+  },
+  {
+    "key": "java/conditionals",
+    "es": "Uso de condicionales",
+    "pt": "Uso de condicionais"
+  },
+  {
+    "key": "java/loops",
+    "es": "Uso de bucles (Loops)",
+    "pt": "Uso de loops (Laços)"
+  },
+  {
+    "key": "java/data-types",
+    "es": "Tipos de data",
+    "pt": "Tipos de dados"
+  },
+  {
+    "key": "java/data-types/primitive",
+    "es": "Primitivos",
+    "pt": "Primitivos"
+  },
+  {
+    "key": "java/data-types/primitive-vs-non-primitive",
+    "es": "Datos primitivos vs no primitivos",
+    "pt": "Dados primitivos vs não primitivos"
+  },
+  {
+    "key": "java/data-types/strings",
+    "es": "Cadenas",
+    "pt": "Cadeias de caracteres"
+  },
+  {
+    "key": "java/data-types/arrays",
+    "es": "Arreglos",
+    "pt": "Arrays"
+  },
+  {
+    "key": "java/collections",
+    "es": "Colecciones",
+    "pt": "Coleções"
+  },
+  {
+    "key": "java/collections/array-list",
+    "es": "ArrayList",
+    "pt": "ArrayList"
+  },
+  {
+    "key": "java/collections/hash-map",
+    "es": "HashMap",
+    "pt": "HashMap"
+  },
+  {
+    "key": "java/collections/hash-set",
+    "es": "HashSet",
+    "pt": "HashSet"
+  },
+  {
+    "key": "java/testing",
+    "es": "Testing",
+    "pt": "Testes"
+  },
+  {
+    "key": "java/testing/junit",
+    "es": "JUnit",
+    "pt": "JUnit"
+  },
+  {
+    "key": "java/testing/mockito",
+    "es": "Mockito",
+    "pt": "Mockito"
+  },
+  {
+    "key": "java/spring-framework",
+    "es": "Spring Framework",
+    "pt": "Spring Framework"
+  },
+  {
+    "key": "java/spring-framework/core-concepts",
+    "es": "Conceptos Core",
+    "pt": "Conceitos Principais"
+  },
+  {
+    "key": "java/spring-framework/core-concepts/beans",
+    "es": "Beans",
+    "pt": "Beans"
+  },
+  {
+    "key": "java/spring-framework/core-concepts/inversion-of-control",
+    "es": "Inversión de Control",
+    "pt": "Inversão de Controle"
+  },
+  {
+    "key": "java/spring-framework/core-concepts/annotations",
+    "es": "Anotaciones",
+    "pt": "Anotações"
+  },
+  {
+    "key": "java/spring-framework/initializr",
+    "es": "Initializr",
+    "pt": "Initializr"
+  },
+  {
+    "key": "java/spring-framework/spring-boot",
+    "es": "Spring Boot",
+    "pt": "Spring Boot"
+  },
+  {
+    "key": "java/spring-framework/controllers",
+    "es": "Controladores",
+    "pt": "Controladores"
+  },
+  {
+    "key": "java/spring-framework/services",
+    "es": "Servicios",
+    "pt": "Serviços"
+  },
+  {
+    "key": "java/spring-framework/spring-data-jpa",
+    "es": "Spring Data JPA",
+    "pt": "Spring Data JPA"
+  },
+  {
+    "key": "java/spring-framework/entity",
+    "es": "Entidad",
+    "pt": "Entidade"
+  },
+  {
+    "key": "java/spring-framework/repository",
+    "es": "Repositorio",
+    "pt": "Repositório"
+  },
+  {
+    "key": "java/spring-framework/spring-web",
+    "es": "Spring Web",
+    "pt": "Spring Web"
+  },
+  {
+    "key": "java/spring-framework/spring-web/rest-controller",
+    "es": "RestController",
+    "pt": "RestController"
+  },
+  {
+    "key": "java/spring-framework/spring-web/request-mapping",
+    "es": "RequestMapping",
+    "pt": "RequestMapping"
+  },
+  {
+    "key": "java/spring-framework/spring-web/request-param",
+    "es": "",
+    "pt": "RequestParam"
+  },
+  {
+    "key": "java/spring-framework/testing",
+    "es": "Testing",
+    "pt": "Testes"
+  },
+  {
+    "key": "java/spring-framework/testing/spring-test",
+    "es": "Spring Test",
+    "pt": "Spring Test"
+  },
+  {
+    "key": "java/spring-framework/testing/hamcrest",
+    "es": "Hamcrest",
+    "pt": "Hamcrest"
+  },
+  {
+    "key": "java/hibernate-orm",
+    "es": "Hibernate ORM",
+    "pt": "Hibernate ORM"
+  },
+  {
+    "key": "java/hibernate-orm/setup",
+    "es": "Configuración",
+    "pt": "Configuração"
+  },
+  {
+    "key": "java/hibernate-orm/schema",
+    "es": "Esquema",
+    "pt": "Esquema"
+  },
+  {
+    "key": "java/hibernate-orm/entity",
+    "es": "Entidad",
+    "pt": "Entidade"
+  },
+  {
+    "key": "java/hibernate-orm/table",
+    "es": "Tabla",
+    "pt": "Tabela"
+  },
+  {
+    "key": "java/hibernate-orm/column",
+    "es": "Columna",
+    "pt": "Coluna"
+  },
+  {
+    "key": "java/hibernate-orm/identifiers",
+    "es": "Identificadores",
+    "pt": "Identificadores"
+  },
+  {
+    "key": "java/hibernate-orm/associations",
+    "es": "Asociaciones",
+    "pt": "Associações"
+  },
+  {
+    "key": "java/hibernate-orm/collections",
+    "es": "Colecciones",
+    "pt": "Coleções"
+  },
+  {
+    "key": "java/hibernate-orm/persistance",
+    "es": "Persistencia",
+    "pt": "Persistência"
+  },
+  {
+    "key": "java/hibernate-orm/querying",
+    "es": "Consultas",
+    "pt": "Consultas"
+  },
+  {
+    "key": "object-oriented-programming",
+    "es": "Programación Orientada a Objetos (OOP)",
+    "pt": "Programação Orientada a Objetos (POO)"
+  },
+  {
+    "key": "object-oriented-programming/classes",
+    "es": "Clases",
+    "pt": "Classes"
+  },
+  {
+    "key": "object-oriented-programming/objects",
+    "es": "Objetos",
+    "pt": "Objetos"
+  },
+  {
+    "key": "object-oriented-programming/methods",
+    "es": "Métodos",
+    "pt": "Métodos"
+  },
+  {
+    "key": "object-oriented-programming/attributes",
+    "es": "Atributos",
+    "pt": "Atributos"
+  },
+  {
+    "key": "object-oriented-programming/constructors",
+    "es": "Constructores",
+    "pt": "Construtores"
+  },
+  {
+    "key": "object-oriented-programming/encapsulation",
+    "es": "Encapsulamiento",
+    "pt": "Encapsulamento"
+  },
+  {
+    "key": "object-oriented-programming/abstraction",
+    "es": "Abstracción",
+    "pt": "Abstração"
+  },
+  {
+    "key": "object-oriented-programming/composition",
+    "es": "Composición",
+    "pt": "Composição"
+  },
+  {
+    "key": "object-oriented-programming/interfaces",
+    "es": "Interfaces",
+    "pt": "Interfaces"
+  },
+  {
+    "key": "object-oriented-programming/inheritance",
+    "es": "Herencia (super, extends, override)",
+    "pt": "Herança (super, extends, override)"
+  },
+  {
+    "key": "object-oriented-programming/unified-model-language",
+    "es": "Lenguaje de Modelado Unificado (UML, class diagrams)",
+    "pt": "Linguagem de Modelagem Unificada (UML, diagramas de classe)"
+  },
+  {
     "key": "webops",
     "es": "WebOps",
     "pt": "WebOps"

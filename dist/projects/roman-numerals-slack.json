@@ -2,9 +2,9 @@
   "slug": "roman-numerals-slack",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-roman-numerals-slack",
-  "version": "7.3.0",
-  "parserVersion": "5.1.0",
-  "createdAt": "2023-11-13T19:07:10.788Z",
+  "version": "7.4.0",
+  "parserVersion": "5.2.0",
+  "createdAt": "2023-11-17T13:55:18.288Z",
   "prefix": 5,
   "track": "web-dev",
   "learningObjectives": [

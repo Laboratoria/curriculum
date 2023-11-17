@@ -161,7 +161,7 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
 
 * Las funcionalidades de ordenar deben operar sobre la data filtrada.
   Por ejemplo, si filtro los pokemones de tipo fuego y luego los ordeno por
-  nombre ascendentemente, la aplicación deberá mantener el filtro aplicado y
+  nombre ascendente, la aplicación deberá mantener el filtro aplicado y
   ordenar los pokemones de tipo fuego.
 
 * La aplicación debe permitir a la usuaria reiniciar la aplicación, limpiando
@@ -301,7 +301,7 @@ Para alcanzar mejor separación de responsabilidades en el código este
 archivo debe tener todas las funciones que utilizara para renderizar
 los elementos dinámicamente.
 
-Al menos se requeriere una función obligatoria:
+Al menos se requiere una función obligatoria:
 
 * `renderItems(data)`: esta función recibe el arreglo de data para renderizar
   los elementos de cada item, y debería volver un elemento DOM o
@@ -314,7 +314,7 @@ Al menos se requeriere una función obligatoria:
 Con cada objetivo de aprendizaje, evaluamos que el código cumpla con algunos
 criterios. Lo cual no excluye que puedas usar otras opciones, por ejemplo
 en el caso de los selectores, proponemos el uso de `querySelector`,
-no significa que no puedes usar `querySelectorAll` o `getElementId` también.
+no significa que no puedes usar `querySelectorAll` o `getElementById` también.
 
 Puedes ejecutar las pruebas de cada grupo de objetivos de aprendizaje de manera
 individual con los siguientes comandos:
@@ -343,7 +343,7 @@ npm run test:oas // Esto es para correr todos los tests de OAs
 
 * **Uso de selectores de CSS**
 
-  - [ ] Uso de selector class para los items <li>
+  - [ ] Uso de selector class para los items `<li>`
   - [ ] Uso de flexbox en sentido `row` y `column`
   - [ ] Uso de flexbox para el elemento que contiene los items
   - [ ] Uso de flexbox para el elemento que contiene los UI inputs
@@ -463,7 +463,7 @@ debe exportar un arreglo con 24 objetos. Y la estructura de cada objeto
 debe ser la siguiente:
 
 * `id`: Identificador único (no pueden haber dos elementos con el mismo `id`).
-  Debe ser un string de no más de 32 characteres, en minúscula, compuesto solo
+  Debe ser un string de no más de 32 caracteres, en minúscula, compuesto solo
   por letras, números, underscore (`_`) o guión (`-`). Por ejemplo: `"ada-lovelace"`.
 * `name`: El nombre del personaje, país, película, etc.
 * `shortDescription`: Descripción corta del elemento. Esta descripción deberá
@@ -472,7 +472,7 @@ debe ser la siguiente:
   tener entre 80 y 100 palabras. Al momento de mostrar este dato en pantalla
   puedes truncarlo para que no ocupe tanto espacio.
 * `imageUrl`: URL de la imagen. Esta imagen será generada a través de alguna
-  herramienta basada en inteligencia artifical. Una vez generada la imagen,
+  herramienta basada en inteligencia artificial. Una vez generada la imagen,
   y guardada en tu repo, deberás agregar la URL en este campo.
 * `facts`: Un objeto con al menos **3** "hechos" o "info" sobre este elemento, en
   formato `"nombre": "valor"`, por ejemplo:
@@ -567,7 +567,7 @@ Una vez que tengas el archivo javascript completo, recuerda correr los test con
 solicitado.
 
 Una vez que hayas delimitado tu campo de interés y generado el archivo
-javascript con la asistencia de la inteligenica artificial, dedica
+javascript con la asistencia de la inteligencia artificial, dedica
 tiempo a comprender a fondo a tu usuaria y sus
 necesidades específicas. A partir de esta comprensión, podrás diseñar la
 interfaz que facilite una interacción más efectiva y una comprensión más
