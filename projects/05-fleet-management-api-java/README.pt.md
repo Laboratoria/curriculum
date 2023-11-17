@@ -94,7 +94,7 @@ para facilitar sua consulta e análise.
 
 ##### Critérios de aceitação
 
-- A base de dados tem a tabela de táxis criada.
+- A base de dados deve conter a tabela de taxis criada.
 - A tabela de táxis tem os dados de táxis carregados.
 - A base de dados tem a tabela de trajectos criada.
 - A tabela de táxis está carregada com os dados das trajectórias
