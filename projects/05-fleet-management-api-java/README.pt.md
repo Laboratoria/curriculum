@@ -96,7 +96,7 @@ para facilitar sua consulta e análise.
 
 - A base de dados deve conter a tabela de taxis criada.
 - A tabela de taxis deve conter os dados de taxis carregados.
-- A base de dados tem a tabela de trajectos criada.
+- A base de dados deve conter a tabela de trajetorias criada.
 - A tabela de táxis está carregada com os dados das trajectórias
 
 ##### Considerações
