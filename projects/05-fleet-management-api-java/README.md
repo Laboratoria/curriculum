@@ -409,7 +409,7 @@ la funcionalidad la siguiente historia de usuaria:
 
 ***
 
-### [Historia de usuario 4] Endpoint exportación a Excel
+### [Historia de usuario 6] Endpoint exportación a Excel
 
 Yo como clienta de la API REST requiero un _endpoint_ para
 exportar en formato Excel todas las ubicaciones de un vehículo
