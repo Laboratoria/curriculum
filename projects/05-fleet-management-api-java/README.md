@@ -224,14 +224,21 @@ para facilitar su consulta y análisis.
 cargue la información de los archivos de texto a la base
 de datos:
 
-  ```bash
-    java -cp ./path/to/drive.jar UploadGPSData.java <path-to-files>
+ No olvides compilar la clase UploadGPSData.java antes de ejecutarla con el seguiente comando.
+    ```bash
+    javac -cp ./path/to/driver.jar UploadGPSData.java   
+    ````
+  
+    Puedes ejecutarlo con el comando
+    ```bash
+    java -cp ./path/to/driver.jar UploadGPSData.java <path-to-files> 
     --type=taxis|trajectories
     --dbname=<dbname>
     --host=<hostname>
     --port=<port>
     --username=<username>
-  ```
+    ````
+
 
   Donde los parámetros requeridos son:
 
