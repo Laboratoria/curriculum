@@ -90,14 +90,14 @@ Eu como _desenvolvedora_ quero carregar a informação, armazenada
 até agora em arquivos de texto, em uma base de datos Postgresql,
 para facilitar sua consulta e análise.
 
-- Consultas para carregar [táxis e trajectórias](https://drive.google.com/file/d/1T5m6Vzl9hbD75E9fGnjbOiG2UYINSmLx/view?usp=drive_link)
+- Scripts SQL para carregar [táxis e trajetórias](https://drive.google.com/file/d/1T5m6Vzl9hbD75E9fGnjbOiG2UYINSmLx/view?usp=drive_link)
 
 ##### Critérios de aceitação
 
-- A base de dados tem a tabela de táxis criada.
-- A tabela de táxis tem os dados de táxis carregados.
-- A base de dados tem a tabela de trajectos criada.
-- A tabela de táxis está carregada com os dados das trajectórias
+- A base de dados deve conter a tabela de taxis criada.
+- A tabela de taxis deve conter os dados de taxis carregados.
+- A base de dados deve conter a tabela de trajetorias criada.
+- A tabela de taxis deve ser carregada com os dados das trajetórias
 
 ##### Considerações
 
