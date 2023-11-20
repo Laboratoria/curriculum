@@ -224,14 +224,21 @@ para facilitar su consulta y análisis.
 cargue la información de los archivos de texto a la base
 de datos:
 
-  ```bash
-    java -cp ./path/to/drive.jar UploadGPSData.java <path-to-files>
+ No olvides compilar la clase UploadGPSData.java antes de ejecutarla con el seguiente comando.
+    ```bash
+    javac -cp ./path/to/driver.jar UploadGPSData.java   
+    ````
+  
+    Puedes ejecutarlo con el comando
+    ```bash
+    java -cp ./path/to/driver.jar UploadGPSData.java <path-to-files> 
     --type=taxis|trajectories
     --dbname=<dbname>
     --host=<hostname>
     --port=<port>
     --username=<username>
-  ```
+    ````
+
 
   Donde los parámetros requeridos son:
 
@@ -409,7 +416,7 @@ la funcionalidad la siguiente historia de usuaria:
 
 ***
 
-### [Historia de usuario 4] Endpoint exportación a Excel
+### [Historia de usuario 6] Endpoint exportación a Excel
 
 Yo como clienta de la API REST requiero un _endpoint_ para
 exportar en formato Excel todas las ubicaciones de un vehículo
