@@ -1,4 +1,4 @@
-# Fleet Management Software API Java
+# Fleet Management Software API
 
 ## Índice
 
@@ -220,30 +220,20 @@ para facilitar sua consulta e análise.
 carregue a informação dos arquivos de texto na base
 de dados:
 
-```suggestion
-Não se esqueça de compilar a classe UploadGPSData.java antes de executá-la com o seguinte comando:
-    ```bash
-    javac -cp ./path/to/driver.jar UploadGPSData.java   
-    ````
-  
-    Você pode executar agora com o comando:
-    ```bash
-    java -cp ./path/to/driver.jar UploadGPSData.java <path-to-files> 
-    --type=taxis|trajectories
-    --dbname=<dbname>
-    --host=<hostname>
-    --port=<port>
-    --username=<username>
-    ````
+Os detalhes da implementação dependem do idioma em que você pode escolher
+entre as seguintes opções as seguintes opções:
 
-    ```bash
-    java UploadGPSData.java <path-to-files>
-    --type=taxis|trajectories
-    --dbname=<dbname>
-    --host=<hostname>
-    --port=<port>
-    --username=<username>
-    ```
+- [Java](./docs/README-java.pt.md#carregar-a-informação-na-base-de-dados-usando-uma-cli)
+- [NodeJs](./docs/README-node.pt.md#carregar-a-informação-na-base-de-dados-usando-uma-cli)
+
+```bash
+xxxxx UploadGPSData.xx <path-to-files>
+--type=taxis|trajectories
+--dbname=<dbname>
+--host=<hostname>
+--port=<port>
+--username=<username>
+ ```
 
 Onde os parâmetros esperados são:
 
@@ -279,15 +269,11 @@ contar com testes unitários.
 
 ## 5. Stack de tecnologias
 
-- [Spring Boot](https://spring.io/projects/spring-boot/): para
-criar aplicações Java
-- [Spring Boot Test](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.testing.spring-boot-applications):
-para testes de integração.
-- [JUnit](https://junit.org/junit5/): para testes unitários.
-- [Hibernate](https://docs.spring.io/spring-framework/reference/data-access/orm/hibernate.html):
-como [ORM](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping)
-para facilitar consultas ao banco de dados.
-- [Postgresql](https://www.postgresql.org/): como base de dados.
+O conjunto de tecnologias a ser usado para a implementação do projeto
+varia de acordo com o idioma:
+
+- [Java](./docs/README-java.pt.md#stack-de-tecnologías)
+- [NodeJs](./docs/README-node.pt.md#stack-de-tecnologías)
 
 ## 6. Boilerplate
 
@@ -359,9 +345,6 @@ de cada tabela de acordo com a informação entregue.
 
 Pode criar uma tabela no PostgreSQL usando
 [SQL](https://www.postgresqltutorial.com/postgresql-create-table/)
-ou
-[Prisma Client](https:/shorturl.at/stxIL)
-se estiver usando Prisma.
 
 ### Persistencia de dados
 
@@ -392,7 +375,7 @@ a url é _/taxis_. Recebe um parâmetro _query_, retorna a informação com
 _código HTTP_ 200 em formato json graças ao _header_
 `Content-type` com valor `application/json`.
 
-![Ejemplo Endpoint API Rest](./assets/example-endpoint-api-rest.png "Ejemplo Endpoint API Rest")
+!![Ejemplo Endpoint API Rest](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/fleet-management-api-java%2Fexample-endpoint-api-rest.png?alt=media)
 
 ### Melhorar tempos de resposta e experiencia de usuaria
 

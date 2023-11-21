@@ -1,4 +1,4 @@
-# Fleet Management Software API Java
+# Fleet Management Software API
 
 ## Índice
 
@@ -27,7 +27,7 @@ sanitaria y en el transporte, entre otros campos.
 En logística y manejo de flota, por ejemplo, se puede hacer seguimiento en
 todo momento de la ubicación y las condiciones de la carga y los activos
 mediante sensores inalámbricos conectados a internet que envían alertas en
-caso de eventualidades (demoras, daños, robos, etc).
+caso de eventualidades (demoras, daños, robos, etc.).
 
 ![zach-vessels-utMdPdGDc8M-unsplash](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/fleet-management-api-java%2Fthumb.jpg?alt=media)
 
@@ -90,24 +90,25 @@ hasta hoy.
 Yo, como desarrolladora, quiero cargar la información almacenada hasta ahora en
 archivos sql en una base de datos PostgreSQL, para facilitar su consulta y análisis.
 
-* Queries para cargar [taxis y trajectorias](https://drive.google.com/file/d/1T5m6Vzl9hbD75E9fGnjbOiG2UYINSmLx/view?usp=drive_link)
+* Queries para cargar [taxis y trajectories](https://drive.google.com/file/d/1T5m6Vzl9hbD75E9fGnjbOiG2UYINSmLx/view?usp=drive_link)
 
 ##### Criterios de aceptación
 
 * La base de datos tiene creada la tabla de taxis
 * La tabla de taxis tiene cargada la data de taxis
-* La base de datos tiene creada la tabla de trajectorias
-* La tabla de taxis tiene cargada la data de trajectorias
+* La base de datos tiene creada la tabla de trayectorias
+* La tabla de taxis tiene cargada la data de trayectorias
 
 #### Consideraciones
 
-* Se debe tener en cuenta el siguiente diagrama para la implemetación de las
+* Se debe tener en cuenta el siguiente diagrama para la implementación de las
 relaciones entre las tablas
 
 ![mer](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/fleet-management-api-java%2Ftable-diagram.png?alt=media)
 
-* La tabla de trajectorias se debe crear con el id "autoincrementable" (SERIAL)
-para poder insertar los valores sin necesidad de especificar un identificador
+* La tabla de trajectories se debe crear con el "id" que se incremente
+automáticamente (SERIAL) para poder insertar los valores sin necesidad
+de especificar un identificador
 
 ***
 
@@ -212,7 +213,7 @@ menos una compañera.
 
 ***
 
-#### [Historia de usuario 5] Cargar masiva de información a base de datos
+#### [Historia de usuario 5] Cargar masiva de información a base de datos mediante una CLI
 
 Yo como _desarrolladora_ requiero cargar la información, almacenada
 hasta ahora en archivos de texto, en una base de datos Postgresql
@@ -224,44 +225,43 @@ para facilitar su consulta y análisis.
 cargue la información de los archivos de texto a la base
 de datos:
 
- No olvides compilar la clase UploadGPSData.java antes de ejecutarla con el seguiente comando.
-    ```bash
-    javac -cp ./path/to/driver.jar UploadGPSData.java   
-    ````
-  
-    Puedes ejecutarlo con el comando
-    ```bash
-    java -cp ./path/to/driver.jar UploadGPSData.java <path-to-files> 
-    --type=taxis|trajectories
-    --dbname=<dbname>
-    --host=<hostname>
-    --port=<port>
-    --username=<username>
-    ````
+Los detalles de implementación dependen del lenguaje donde se puede
+elegir entre las siguientes opciones:
 
+* [Java](./docs/README-java.md#carga-masiva-de-información-a-base-de-datos-mediante-una-cli)
+* [NodeJs](./docs/README-node.md#carga-masiva-de-información-a-base-de-datos-mediante-una-cli)
 
-  Donde los parámetros requeridos son:
+```bash
+xxxxx UploadGPSData.xx <path-to-files>
+--type=taxis|trajectories
+--dbname=<dbname>
+--host=<hostname>
+--port=<port>
+--username=<username>
+ ```
 
-  `<path-to-files>`: especifica el directorio de los archivos a cargar.
+Donde los parámetros requeridos son:
 
-  `--type=taxis|trajectories`: indica el [tipo de archivos](#data)
-  a cargarse taxis o trajectories.
+`<path-to-files>`: especifica el directorio de los archivos a cargar.
 
-  `--dbname=dbname`: especifica el nombre de la base de datos
-  a la que conectarse.
+`--type=taxis|trajectories`: indica el [tipo de archivos](#data)
+a cargarse taxis o trajectories.
 
-  `--host=hostname`: especifica el nombre del host de la máquina
-  en la que se está ejecutando la base de datos.
+`--dbname=dbname`: especifica el nombre de la base de datos
+a la que conectarse.
 
-  `--port=port`: especifica el puerto TCP en el que  la base de
-  datos está escuchando conexiones.
+`--host=hostname`: especifica el nombre del host de la máquina
+en la que se está ejecutando la base de datos.
 
-  `--username=username`: especifica el usuario para conectarse a
-  la base de datos.
+`--port=port`: especifica el puerto TCP en el que  la base de
+datos está escuchando conexiones.
+
+`--username=username`: especifica el usuario para conectarse a
+la base de datos.
 
 > Nota: la CLI debe solicitar la contraseña para conectarse a la base de datos.
 Por razones de seguridad, esto no puede ser un parámetro.
-> De [aqui](https://drive.google.com/file/d/1UIwfWbhZWKWWBZAKMjfze8NswMOQ09du/view?usp=drive_link)
+> De [aquí](https://drive.google.com/file/d/1UIwfWbhZWKWWBZAKMjfze8NswMOQ09du/view?usp=drive_link)
 puedes descargar el driver de postgresql
 
 ##### Definición de terminado
@@ -275,15 +275,11 @@ tener pruebas unitarias.
 
 ## 5. Stack de tecnologías
 
-* [Spring Boot](https://spring.io/projects/spring-boot/): para
-crear aplicaciones Java
-* [Spring Boot Test](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.testing.spring-boot-applications):
-para pruebas de integración.
-* [JUnit](https://junit.org/junit5/): para pruebas unitarias.
-* [Hibernate](https://docs.spring.io/spring-framework/reference/data-access/orm/hibernate.html):
-cómo [ORM](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping)
-para facilitar consultas a la base de datos.
-* [Postgresql](https://www.postgresql.org/): como base de datos.
+El conjunto de tecnologías que se deben usar para la implementación del proyecto
+varía dependiendo el lenguaje:
+
+* [Java](./docs/README-java.md#stack-de-tecnologías)
+* [NodeJs](./docs/README-node.md#stack-de-tecnologías)
 
 ## 6. Boilerplate
 
