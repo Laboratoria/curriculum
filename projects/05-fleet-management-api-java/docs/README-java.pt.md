@@ -10,6 +10,7 @@ javac -cp ./path/to/driver.jar UploadGPSData.java
 ```
 
 Você pode executá-lo com o comando
+
 ```bash
 java UploadGPSData <path-to-files>
 --type=taxis|trajectories
