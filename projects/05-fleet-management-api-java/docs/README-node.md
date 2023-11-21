@@ -2,15 +2,14 @@
 
 ## Carga masiva de información a base de datos mediante una CLI
 
-  ```bash
-  node upload-gps-data.js <path-to-files>
-  --type=taxis|trajectories
-  --dbname=<dbname>
-  --host=<hostname>
-  --port=<port>
-  --username=<username>
-  ```
-
+```bash
+node upload-gps-data.js <path-to-files>
+--type=taxis|trajectories
+--dbname=<dbname>
+--host=<hostname>
+--port=<port>
+--username=<username>
+```
 
 ## Stack de tecnologías
 

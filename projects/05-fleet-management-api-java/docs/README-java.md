@@ -2,12 +2,15 @@
 
 ## Carga masiva de información a base de datos mediante una CLI
 
-No olvides compilar la clase UploadGPSData.java antes de ejecutarla con el seguiente comando.
+No olvides compilar la clase UploadGPSData.java antes de ejecutarla con el
+siguiente comando.
+
 ```bash
 javac -cp ./path/to/driver.jar UploadGPSData.java
 ```
 
 Puedes ejecutarlo con el comando
+
 ```bash
 java UploadGPSData <path-to-files>
 --type=taxis|trajectories
@@ -16,7 +19,6 @@ java UploadGPSData <path-to-files>
 --port=<port>
 --username=<username>
 ```
-
 
 ## Stack de tecnologías
 

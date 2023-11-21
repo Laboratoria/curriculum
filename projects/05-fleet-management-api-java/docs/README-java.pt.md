@@ -2,7 +2,8 @@
 
 ## Carregar a informação na base de dados usando uma CLI
 
-Não se esqueça de compilar a classe UploadGPSData.java antes de executá-la com o seguinte comando.
+Não se esqueça de compilar a classe UploadGPSData.java antes de executá-la com
+o seguinte comando.
 
 ```bash
 javac -cp ./path/to/driver.jar UploadGPSData.java
