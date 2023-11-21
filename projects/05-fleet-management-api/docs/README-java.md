@@ -1,25 +1,5 @@
 # Fleet Management Software API Java
 
-## Carga masiva de información a base de datos mediante una CLI
-
-No olvides compilar la clase UploadGPSData.java antes de ejecutarla con el
-siguiente comando.
-
-```bash
-javac -cp ./path/to/driver.jar UploadGPSData.java
-```
-
-Puedes ejecutarlo con el comando
-
-```bash
-java UploadGPSData <path-to-files>
---type=taxis|trajectories
---dbname=<dbname>
---host=<hostname>
---port=<port>
---username=<username>
-```
-
 ## Stack de tecnologías
 
 * [Spring Boot](https://spring.io/projects/spring-boot/): para

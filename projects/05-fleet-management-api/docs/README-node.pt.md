@@ -1,15 +1,4 @@
-# Fleet Management Software API NodeJs
-
-## Carregar a informação na base de dados usando uma CLI
-
-```bash
-node upload-gps-data.js <path-to-files>
---type=taxis|trajectories
---dbname=<dbname>
---host=<hostname>
---port=<port>
---username=<username>
-```
+# Fleet Management Software API NodeJS
 
 ## Stack de tecnologías
 
