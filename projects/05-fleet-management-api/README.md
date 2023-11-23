@@ -46,7 +46,7 @@ de taxis en Beijing, China.
 
 Te entregaremos las ubicaciones de casi 10 mil
 taxis. Esperamos que como desarrolladora explores nuevas alternativas y
-técnicas para almacenar y consultar esta 
+técnicas para almacenar y consultar esta
 información y puedas garantizar la mejor experiencia de usuaria en tu
 API REST.
 
@@ -92,7 +92,7 @@ en una base de datos PostgreSQL, para facilitar su consulta y análisis.
 * Se debe tener en cuenta el siguiente diagrama para la implementación de las
 relaciones entre las tablas
 
-![mer](https://drive.google.com/file/d/1T5m6Vzl9hbD75E9fGnjbOiG2UYINSmLx/view?usp=drive_link)
+![mer](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/fleet-management-api-java%2Fsql-diagram.png?alt=media)
 
 * La tabla de _trajectories_ se debe crear con el "id" que se incremente
 automáticamente (SERIAL) para poder insertar los valores sin necesidad

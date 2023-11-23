@@ -90,7 +90,7 @@ em um banco de dados PostgreSQL, para facilitar sua consulta e análise.
 * Deve-se considerar o seguinte diagrama para a implementação das
 relações entre as tabelas
 
-![mer](https://drive.google.com/file/d/1T5m6Vzl9hbD75E9fGnjbOiG2UYINSmLx/view?usp=drive_link)
+![mer](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/fleet-management-api-java%2Fsql-diagram.png?alt=media)
 
 * A tabela de _trajectories_ deve ser criada com o "id" que aumenta
 automaticamente (SERIAL) para poder inserir os valores sem a necessidade de especificar um identificador.
@@ -118,7 +118,7 @@ sejam mais fáceis de manejar.
 ##### Definição de pronto
 
 * Há documentação no [Swagger](https://swagger.io/) para o _endpoint_
-desenvolvido, especificando 
+desenvolvido, especificando
 [método HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods),
 url, parâmetros,
 [cabeçalhos](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers),
@@ -146,7 +146,7 @@ mais fáceis de manejar.
 ##### Definição de pronto
 
 * Há documentação no [Swagger](https://swagger.io/) para o _endpoint_
-desenvolvido, especificando 
+desenvolvido, especificando
 [método HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods),
 url, parâmetros,
 [cabeçalhos](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers),
@@ -172,7 +172,7 @@ mais fáceis de manejar.
 ##### Definição de pronto
 
 * Há documentação no [Swagger](https://swagger.io/) para o _endpoint_
-desenvolvido, especificando 
+desenvolvido, especificando
 [método HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods),
 url, parâmetros,
 [cabeçalhos](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers),
