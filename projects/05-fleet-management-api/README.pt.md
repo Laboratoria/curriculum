@@ -12,7 +12,7 @@
 
 ***
 
-## 1. Preambulo
+## 1. Preâmbulo
 
 De acordo com [Wikipedia](https://es.wikipedia.org/wiki/Internet_de_las_cosas),
 a Internet das Coisas (IoT) é um conceito que se refere à interconexão
@@ -111,7 +111,7 @@ todos os táxis.
 
 ##### Critérios de aceitação
 
-* O _endpoint_ responde para cada táxi: ID e placa.
+* O _endpoint_ responde para cada táxi: id e placa.
 * O _endpoint_ paginamos os resultados para garantir que as respostas
 sejam mais fáceis de manejar.
 
@@ -132,13 +132,13 @@ url, parâmetros,
 #### [História do usuário 3] Endpoint de histórico de localizações
 
 Eu, como cliente da API REST, necessito de um _endpoint_ para consultar
-todas as localizações de um táxi dado o ID do táxi e uma data.
+todas as localizações de um táxi dado o id do táxi e uma data.
 
 #####
 
  Critérios de aceitação
 
-* O _endpoint_ responde para o ID do táxi consultado as seguintes informações:
+* O _endpoint_ responde para o id do táxi consultado as seguintes informações:
 latitude, longitude e data e hora.
 * O _endpoint_ paginamos os resultados para garantir que as respostas sejam
 mais fáceis de manejar.
@@ -164,7 +164,7 @@ Eu, como cliente da API REST, necessito de um _endpoint_ para consultar a
 
 ##### Critérios de aceitação
 
-* O _endpoint_ responde para cada táxi as seguintes informações: ID, placa,
+* O _endpoint_ responde para cada táxi as seguintes informações: id, placa,
 latitude, longitude e data e hora.
 * O _endpoint_ paginamos os resultados para garantir que as respostas sejam
 mais fáceis de manejar.
@@ -187,8 +187,8 @@ url, parâmetros,
 
 Você pode implementar este projeto em JavaScript ou Java.
 
-* [Java](./docs/README-java.md#stack-de-tecnologias)
-* [NodeJs](./docs/README-node.md#stack-de-tecnologias)
+* [Java](./docs/README-java.pt.md#stack-de-tecnologías)
+* [NodeJs](./docs/README-node.pt.md#stack-de-tecnologías)
 
 ## 6. Dicas, sugestões e leituras complementares
 
