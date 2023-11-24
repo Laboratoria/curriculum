@@ -598,6 +598,211 @@ auth/jwt:
 auth/password-access-and-storage:
   title: Armazenamento e acesso de senhas
 
+java:
+  title: Java
+  links:
+    - title: Título de exemplo
+      url: https://example.com
+
+java/access-modifiers:
+  title: Modificadores de acesso (public, private, protected)
+
+java/variables:
+  title: Variáveis
+
+java/conditionals:
+  title: Uso de condicionais
+
+java/loops:
+  title: Uso de loops (Laços)
+
+java/data-types:
+  title: Tipos de dados
+
+java/data-types/primitive:
+  title: Primitivos
+
+java/data-types/primitive-vs-non-primitive:
+  title: Dados primitivos vs não primitivos
+
+java/data-types/strings:
+  title: Cadeias de caracteres
+
+java/data-types/arrays:
+  title: Arrays
+
+java/collections:
+  title: Coleções
+
+java/collections/array-list:
+  title: ArrayList
+
+java/collections/hash-map:
+  title: HashMap
+
+java/collections/hash-set:
+  title: HashSet
+
+java/testing:
+  title: Testes
+
+java/testing/junit:
+  title: JUnit
+
+java/testing/mockito:
+  title: Mockito
+
+java/spring-framework:
+  title: Spring Framework
+  links:
+    - title: Spring Framework Documentation
+      url: https://docs.spring.io/spring-framework/reference/
+
+java/spring-framework/initializr:
+  title: Initializr
+  links:
+    - title: Spring Initializr
+      url: https://start.spring.io/
+   
+java/spring-framework/core-concepts:
+  title: Conceitos Principais
+  links:
+    - title: Core Technologies
+      url: https://docs.spring.io/spring-framework/reference/core.html
+
+java/spring-framework/core-concepts/beans:
+  title: Beans
+
+java/spring-framework/core-concepts/inversion-of-control:
+  title: Inversão de Controle
+
+java/spring-framework/core-concepts/annotations:
+  title: Anotações
+
+java/spring-framework/spring-boot:
+  title: Spring Boot
+  links:
+    - title: Spring Boot Reference Documentation
+      url: https://docs.spring.io/spring-boot/docs/current/reference/html/
+
+java/spring-framework/controllers:
+  title: Controladores
+
+java/spring-framework/services:
+  title: Serviços
+
+java/spring-framework/spring-data-jpa:
+  title: Spring Data JPA
+  links:
+    - title: Spring Data JPA - Reference Documentation
+      url: https://docs.spring.io/spring-data/jpa/docs/current/reference/html/
+
+java/spring-framework/entity:
+  title: Entidade
+
+java/spring-framework/repository:
+  title: Repositório
+
+java/spring-framework/spring-web:
+  title: Spring Web
+  links:
+    - title: Building a RESTful Web Service
+      url: https://spring.io/guides/gs/rest-service/
+
+java/spring-framework/spring-web/rest-controller:
+  title: RestController
+
+java/spring-framework/spring-web/request-mapping:
+  title: RequestMapping
+
+java/spring-framework/spring-web/request-param:
+  title: RequestParam
+
+java/spring-framework/testing:
+  title: Testes
+
+java/spring-framework/testing/spring-test:
+  title: Spring Test
+
+java/spring-framework/testing/hamcrest:
+  title: Hamcrest
+
+java/hibernate-orm:
+  title: Hibernate ORM
+  links:
+    - title: What is an ORM?
+      url: https://hibernate.org/orm/what-is-an-orm/
+    - title: Getting Started with Hibernate ORM
+      url: https://docs.jboss.org/hibernate/orm/6.3/quickstart/html_single/
+    - title: Hibernate ORM User Guide
+      url: https://docs.jboss.org/hibernate/orm/6.3/userguide/html_single/Hibernate_User_Guide.html
+
+java/hibernate-orm/setup:
+  title: Configuração
+
+java/hibernate-orm/schema:
+  title: Esquema
+
+java/hibernate-orm/entity:
+  title: Entidade
+
+java/hibernate-orm/table:
+  title: Tabela
+
+java/hibernate-orm/column:
+  title: Coluna
+
+java/hibernate-orm/identifiers:
+  title: Identificadores
+
+java/hibernate-orm/associations:
+  title: Associações
+
+java/hibernate-orm/collections:
+  title: Coleções
+
+java/hibernate-orm/persistance:
+  title: Persistência
+
+java/hibernate-orm/querying:
+  title: Consultas
+
+object-oriented-programming:
+  title: Programação Orientada a Objetos (POO)
+
+object-oriented-programming/classes:
+  title: Classes
+
+object-oriented-programming/objects:
+  title: Objetos
+
+object-oriented-programming/methods:
+  title: Métodos
+
+object-oriented-programming/attributes:
+  title: Atributos
+
+object-oriented-programming/constructors:
+  title: Construtores
+
+object-oriented-programming/encapsulation:
+  title: Encapsulamento
+
+object-oriented-programming/abstraction:
+  title: Abstração
+
+object-oriented-programming/composition:
+  title: Composição
+
+object-oriented-programming/interfaces:
+  title: Interfaces
+
+object-oriented-programming/inheritance:
+  title: Herança (super, extends, override)
+
+object-oriented-programming/unified-model-language:
+  title: Linguagem de Modelagem Unificada (UML, diagramas de classe)
+
 webops:
   title: WebOps
 
