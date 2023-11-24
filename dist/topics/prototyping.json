@@ -3,9 +3,12 @@
   "repo": "Laboratoria/curriculum",
   "path": "topics/prototyping",
   "version": "7.4.0",
-  "parserVersion": "5.2.0",
-  "createdAt": "2023-11-17T00:04:57.724Z",
+  "parserVersion": "5.3.0",
+  "createdAt": "2023-11-24T14:47:12.385Z",
   "track": "ux",
+  "tracks": [
+    "ux"
+  ],
   "intl": {
     "es": {
       "title": "Prototipado",
