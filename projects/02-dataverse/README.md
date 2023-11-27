@@ -458,7 +458,7 @@ en la historia, personajes inventados, países, películas... etc.
 En el próximo proyecto, con la ayuda de la inteligencia artificial, deberás
 hacer que la usuaria pueda chatear con la data generada.
 Por ejemplo, si la data está mostrando un país, la usuaria podría
-preguntarle en que año fue fundado o cual es su capital, etc.
+preguntarle en que año fue fundado o cuál es su capital, etc.
 Tenlo en cuenta a la hora de generar tu dataset.
 
 Esta data la vas a guardar en un archivo javascript. Este archivo,
@@ -575,6 +575,11 @@ tiempo a comprender a fondo a tu usuaria y sus
 necesidades específicas. A partir de esta comprensión, podrás diseñar la
 interfaz que facilite una interacción más efectiva y una comprensión más
 completa de los datos presentados.
+
+Nota: aunque observes que no estás empleando toda la información generada en
+tu interfaz, es necesario generarla por completo. En el próximo proyecto, 
+necesitarás utilizarla para permitir que la usuaria pueda interactuar
+mediante el chat con la data generada.
 
 #### Prompt utilizado
 
