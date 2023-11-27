@@ -239,7 +239,7 @@ carpetas, siempre y cuando la estructura sea clara para tus compañeras.
 En este archivo encontrarás una serie de _imports_ listos para _cargar_
 las diferentes fuentes de datos.
 
-Por ejemplo, lost datos con los que vas a trabajar,
+Por ejemplo, los datos con los que vas a trabajar,
 los encontrarás en la siguiente línea:
 
 ```js
@@ -297,8 +297,8 @@ si sea necesario para tus tests.
 
 ### `src/view.js`
 
-Para alcanzar mejor separación de responsabilidades en el código este
-archivo debe tener todas las funciones que utilizara para renderizar
+Para alcanzar una mejor separación de responsabilidades en el código, éste
+archivo debe tener todas las funciones que se utilizarán para renderizar
 los elementos dinámicamente.
 
 Al menos se requiere una función obligatoria:
@@ -306,6 +306,9 @@ Al menos se requiere una función obligatoria:
 * `renderItems(data)`: esta función recibe el arreglo de data para renderizar
   los elementos de cada item, y debería volver un elemento DOM o
   un string de HTML.
+
+Recuerda que todas las funciones que se encuentren en este archivo deberán ser	
+exportadas para poder ser utilizadas en otros archivos.
 
 ## 6. Criterios de aceptación mínimos del proyecto
 
