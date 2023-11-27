@@ -562,7 +562,7 @@ Estas imágenes pueden ser generadas por la inteligencia artificial o imágenes
 que puedas encontrar en la web.
 Para la generación de imágenes te recomendamos usar el
 [generador de imágenes de Bing](https://www.bing.com/create).
-Una vez que tengas la imagen, descárgala u obtiene su URL, para agregársela
+Una vez que tengas la imagen, descárgala u obtén su URL, para agregársela
 al dataset.
 
 Una vez que tengas el archivo javascript completo, recuerda correr los test con
