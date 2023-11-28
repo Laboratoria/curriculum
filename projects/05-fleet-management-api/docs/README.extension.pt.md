@@ -18,7 +18,7 @@ configurar um banco de dados com as tabelas criadas até o momento.
 
 * O PostgreSQL deve estar instalado localmente em seu computador.
 * Deve ter sido criado um banco de dados local com as tabelas _trajectories_ e _taxis_.
-* O código do seu projeto foi modificado para se conectar ao banco
+* O código do seu projeto deve ter sido modificado para se conectar ao banco
 de dados local.
 
 ## [História do usuário 6] Carregar informações no banco de dados
