@@ -16,7 +16,7 @@ configurar um banco de dados com as tabelas criadas até o momento.
 
 ### Definição de pronto
 
-* O PostgreSQL está instalado localmente em seu computador.
+* O PostgreSQL deve estar instalado localmente em seu computador.
 * Foi criado um banco de dados local com as tabelas _trajectories_ e _taxis_.
 * O código do seu projeto foi modificado para se conectar ao banco
 de dados local.
