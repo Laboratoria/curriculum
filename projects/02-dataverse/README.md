@@ -117,16 +117,13 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
   puede ser estructurada semánticamente en HTML como:
 
   ```html
-  <dl>
-    <div itemscope itemtype="WomenInTech">
-      <img src="URL_DE_LA_IMAGEN_GENERADA" alt="Ada Lovelace" />
-      <dt>Nombre:</dt><dd itemprop="name">Ada Lovelace</dd>
-      <dt>Descripción:</dt><dd itemprop="description">Pionera de la informática, fue la primera programadora.</dd>
-      <dt>Año de nacimiento:</dt><dd itemprop="yearOfBirth">1843</dd>
-      <dt>Lugar de nacimiento:</dt><dd itemprop="placeOfBirth">London, England</dd>
-      <dt>Campo de desempeño:</dt><dd itemprop="mainField">Computer Science</dd>
-    </div>
-    <!-- resto de personajes -->
+   <dl itemscope itemtype="WomenInTech">
+    <img src="URL_DE_LA_IMAGEN_GENERADA" alt="Ada Lovelace" />
+    <dt>Nombre:</dt><dd itemprop="name">Ada Lovelace</dd>
+    <dt>Descripción:</dt><dd itemprop="description">Pionera de la informática, fue la primera programadora.</dd>
+    <dt>Año de nacimiento:</dt><dd itemprop="yearOfBirth">1843</dd>
+    <dt>Lugar de nacimiento:</dt><dd itemprop="placeOfBirth">London, England</dd>
+    <dt>Campo de desempeño:</dt><dd itemprop="mainField">Computer Science</dd>
   </dl>
   ```
 
@@ -344,6 +341,10 @@ npm run test:oas // Esto es para correr todos los tests de OAs
   - [ ] Todas las etiquetas de controles (inputs, selects, radio, etc) tienen `<label>`
   - [ ] `<ul>` esta usado para dibujar la data
   - [ ] Los hijos de `<li>` usan attributos de microdata `itemscope` e `itemprop`
+
+Nota: ten en cuenta que para poder tener etiquetas `<ul>` y `<li>` en tu proyecto,
+es necesario que ya tengas una data creada, ya que a partir de la data se
+crearán las listas.
 
 #### CSS
 
