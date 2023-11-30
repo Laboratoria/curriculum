@@ -354,7 +354,7 @@ npm run test:oas // Esto es para correr todos los tests de OAs
   - [ ] Tiene un `<main>` con `<h2>`
   - [ ] Todas las etiquetas de controles (inputs, selects, radio, etc) tienen `<label>`
   - [ ] `<ul>` esta usado para dibujar la data
-  - [ ] Los hijos de `<li>` usan attributos de microdata `itemscope` e `itemprop`
+  - [ ] Los hijos de `<li>` usan attributos de [microdata](https://recursivos.com/html/microdatos/) `itemscope` e `itemprop`
 
 Nota: ten en cuenta que para poder tener etiquetas `<ul>` y `<li>` en tu proyecto,
 es necesario que ya tengas una data creada, ya que a partir de la data se
