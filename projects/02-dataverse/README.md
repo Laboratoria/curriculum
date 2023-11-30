@@ -233,9 +233,6 @@ mostrar los datos en la pantalla. Con esto nos referimos básicamente a la
 interacción con el DOM. Operaciones como creación de nodos, registro de
 manejadores de eventos (_event listeners_ o _event handlers_).
 
-Esta no es la única forma de dividir tu código, puedes usar más archivos y
-carpetas, siempre y cuando la estructura sea clara para tus compañeras.
-
 En este archivo encontrarás una serie de _imports_ listos para _cargar_
 las diferentes fuentes de datos.
 
@@ -309,6 +306,23 @@ Al menos se requiere una función obligatoria:
 
 Recuerda que todas las funciones que se encuentren en este archivo deberán ser	
 exportadas para poder ser utilizadas en otros archivos.
+
+Recomendamos la estructura anterior por las siguientes razones:
+
+* **Claridad y Organización**: La estructura propuesta busca proporcionar
+  un marco claro y organizado para el proyecto, facilitando la navegación
+  y comprensión del código.
+* **Separación de Responsabilidades**: Cada archivo y carpeta tiene una
+  función específica, lo que facilita la identificación y resolución de
+  problemas.
+* **Escalabilidad**: La estructura es escalable, permitiendo la adición de
+  más funcionalidades y componentes de manera ordenada.
+* **Facilita las Pruebas**: La carpeta test está separada para contener
+  pruebas unitarias y de integración, lo que facilita la implementación
+  de pruebas y garantiza la calidad del código.
+
+Esta no es la única forma de dividir tu código, puedes usar más archivos y
+carpetas, siempre y cuando la estructura sea clara para tus compañeras.
 
 ## 6. Criterios de aceptación mínimos del proyecto
 
