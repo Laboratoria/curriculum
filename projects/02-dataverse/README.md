@@ -345,6 +345,12 @@ npm run test:oas-prompting
 npm run test:oas // Esto es para correr todos los tests de OAs
 ```
 
+Nota: para el correcto funcionamiento de los tests, es necesario que tengas
+instalado `Node.js (LTS)` con la versión 14.0.0 o superior. Para verificar
+la versión de node ejecuta `node -v` en la terminal. Si el comando no te
+devuelve ninguna versión, necesitas instalarlo, para esto, puedes descargarlo
+desde su [sitio oficial](https://nodejs.org/).
+
 #### HTML
 
 * **Uso de HTML semántico**
