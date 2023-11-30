@@ -92,7 +92,7 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
   **Si vas a filtrar u ordenar por una propiedad, la tarjeta tiene que mostrar
   el valor de esta propiedad a la usuaria.**
 
-* La interfaz debe estructurar semánticamente la data usando el estándar [microdatos](https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata).
+* La interfaz debe estructurar semánticamente la data usando el estándar [microdatos](https://developer.mozilla.org/es/docs/Web/HTML/Microdata).
   Es obligatorio usar al menos los atributos [`itemscope`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope),
   [`itemtype`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemtype)
   y el atributo [`itemprop`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop).
