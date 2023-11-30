@@ -595,9 +595,9 @@ interfaz que facilite una interacción más efectiva y una comprensión más
 completa de los datos presentados.
 
 Nota: aunque observes que no estás empleando toda la información generada en
-tu interfaz, es necesario generarla por completo. En el próximo proyecto, 
-necesitarás utilizarla para permitir que la usuaria pueda interactuar
-mediante el chat con la data generada.
+tu interfaz, es necesario generarla por completo. En el próximo proyecto 
+utilizarás el dataset completa sobre todo al momento de permitir que la usuaria
+pueda interactuar mediante el chat con la data generada.
 
 #### Prompt utilizado
 
