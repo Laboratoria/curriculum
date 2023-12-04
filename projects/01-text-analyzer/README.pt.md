@@ -11,7 +11,7 @@
 - [7. Testes](#7-testes)
 - [8. Dicas, sugestões e leituras complementares](#8-dicas-sugestões-e-leituras-complementares)
 - [9. Considerações para solicitar seu Feedback de Projeto](#9-considerações-para-solicitar-seu-feedback-de-projeto)
-- [10. Objetivos de aprendizado](#10-objetivos-de-aprendizado)
+- [10. Objetivos de aprendizagem](#10-objetivos-de-aprendizagem)
 - [11. Funcionalidades opcionais](#11-funcionalidades-opcionais)
 
 ---
@@ -34,7 +34,7 @@ _em [Unsplash](https://unsplash.com/es/fotos/72NpWZJOskU?utm_source=unsplash&utm
 
 Um analisador de texto é uma aplicação para extrair informações úteis de um
 texto utilizando diversas técnicas, como o processamento de linguagem natural
-(PLN),aprendizado de máquina (ML) e análise estatística. Essas aplicações podem
+(PLN), aprendizado de máquina (ML) e análise estatística. Essas aplicações podem
 fornecer uma variedade de métricas que oferecem informações básicas sobre
 o comprimento e a estrutura do texto, como contagem de palavras, contagem de
 caracteres, contagem de sentenças e contagem de parágrafos. Outras métricas
@@ -64,21 +64,21 @@ A lista de funcionalidades é a seguinte:
 2. A aplicação deve calcular as seguintes métricas e atualizar o
     resultado em tempo real conforme a usuária escreve o texto:
 
-        - **Contagem de palavras**: a aplicação deve ser capaz de contar o número de
-        palavras no texto de entrada e mostrar essa contagem para a usuária.
-        - **Contagem de caracteres**: a aplicação deve ser capaz de contar o número de
-        caracteres no texto de entrada, incluindo espaços e sinais de
-        pontuação, e mostrar essa contagem para a usuária.
-        - **Contagem de caracteres excluindo espaços e sinais de pontuação**:
-        a aplicação deve ser capaz de contar o número de caracteres no texto de
-        entrada, excluindo espaços e sinais de pontuação, e mostrar essa contagem
-        para a usuária.
-        - **Contagem de números**: a aplicação deve contar quantos números há no
-        texto de entrada e mostrar essa contagem para a usuária.
-        - **Soma total dos números**: a aplicação deve somar todos os números que
-        estão no texto de entrada e mostrar o resultado para a usuária.
-        - **Comprimento médio das palavras**: a aplicação deve calcular o
-        comprimento médio das palavras no texto de entrada e mostrar esse valor para a usuária.
+  - **Contagem de palavras**: a aplicação deve ser capaz de contar o número de
+  palavras no texto de entrada e mostrar essa contagem para a usuária.
+  - **Contagem de caracteres**: a aplicação deve ser capaz de contar o número de
+  caracteres no texto de entrada, incluindo espaços e sinais de
+  pontuação, e mostrar essa contagem para a usuária.
+  - **Contagem de caracteres excluindo espaços e sinais de pontuação**:
+  a aplicação deve ser capaz de contar o número de caracteres no texto de
+  entrada, excluindo espaços e sinais de pontuação, e mostrar essa contagem
+  para a usuária.
+  - **Contagem de números**: a aplicação deve contar quantos números há no
+  texto de entrada e mostrar essa contagem para a usuária.
+  - **Soma total dos números**: a aplicação deve somar todos os números que
+  estão no texto de entrada e mostrar o resultado para a usuária.
+  - **Comprimento médio das palavras**: a aplicação deve calcular o
+  comprimento médio das palavras no texto de entrada e mostrar esse valor para a usuária.
 
 3. A aplicação deve permitir limpar o conteúdo da caixa de texto ao clicar
     em um botão.
@@ -92,7 +92,7 @@ projeto, NÃO é permitido usar bibliotecas ou frameworks, apenas JavaScript
 puro, também conhecido como Vanilla JavaScript.
 
 Para começar este projeto, você precisará fazer um _fork_ e _clonar_ este
-repositório que contém um _boilerplate_ com testes (pruebas). Um _boilerplate_
+repositório que contém um _boilerplate_ com testes. Um _boilerplate_
 é a estrutura básica de um projeto que serve como um ponto de partida com
 arquivos e configuração inicial de dependências e testes.
 
@@ -154,12 +154,12 @@ Este objeto (`analyzer`) deve conter seis métodos:
 
   _Nota: para simplificar as funcionalidades, definiremos palavras como grupos
   de caracteres separados por espaços. Por exemplo, as palavras no texto de
-  entrada `Sim, você pode fazer isso!` são quatro:_
+  entrada `Sim, você consegue fazer!` são quatro:_
 
   + _`Sim,`_
   + _`você`_
-  + _`pode`_
-  + _`fazer isso!`_
+  + _`consegue`_
+  + _`fazer!`_
 
 - [`src/index.js`](./src/index.js): aqui você deve ouvir eventos do DOM,
 invocar os métodos do objeto `analyzer` conforme necessário e atualizar
@@ -566,7 +566,7 @@ _objetivos de aprendizado_ e _habilidades para a vida_ em seu painel do aluno.
 Se você não concluiu tudo o que foi mencionado acima, consideramos que você
 não está pronta para sua sessão de Feedback de Projeto.
 
-## 10. Objetivos de aprendizado
+## 10. Objetivos de aprendizagem
 
 > ℹ️ Esta seção será gerada automaticamente no idioma apropriado, a partir dos
 objetivos de aprendizado declarados em [`project.yml`](./project.yml),
