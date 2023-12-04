@@ -122,7 +122,6 @@ O _boilerplate_ que fornecemos contém a seguinte estrutura:
 - `.github/workflows`: esta pasta contém a configuração para
 a execução do Github Actions.
   Você não deve modificar esta pasta nem seu conteúdo.
-- `docs/images`: contém as imagens deste README.
 - `read-only/`: esta pasta contém os testes dos critérios mínimos de aceitação
 e end-to-end. Você não deve modificar esta pasta nem seu conteúdo.
 - [`src/index.html`](./src/index.html): este é o ponto de entrada da sua aplicação.

@@ -127,7 +127,6 @@ El boilerplate que les damos contiene esta estructura:
   de diseño que tomaron.
 * `.github/workflows`: esta carpeta contine la configuracion para la ejecution
   de Github Actions. No debes modificar esta carpeta ni su contenido.
-* `docs/images`: contiene las imagenes de este README.
 * `read-only/`: esta carpeta contiene las pruebas de criterios mínimos de
   aceptación y end-to-end. No debes modificar esta carpeta ni su contenido.
 * [`src/index.html`](./src/index.html): este es el punto de entrada a tu
