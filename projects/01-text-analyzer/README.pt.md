@@ -546,7 +546,7 @@ execute o seguinte. Se você estiver no Windows, pode usar o Git Bash:
 
 ### Recursos e tópicos relacionados
 
-Junte-se ao canal do Slack [#project-text-analyzer](https://claseslaboratoria.slack.com/archives/C058GP6K9NY)
+Junte-se ao canal do Slack [#project-text-analyzer-pt](https://claseslaboratoria.slack.com/archives/C067QN2GFCM)
 
 ## 9. Considerações para solicitar seu Feedback de Projeto
 
