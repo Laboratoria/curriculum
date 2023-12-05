@@ -4,9 +4,12 @@
     "repo": "Laboratoria/curriculum",
     "path": "topics/browser",
     "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T00:04:44.315Z",
+    "parserVersion": "5.3.0",
+    "createdAt": "2023-11-24T14:47:10.035Z",
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "intl": {
       "es": {
         "title": "Browser JavaScript",
@@ -25,9 +28,12 @@
     "repo": "Laboratoria/curriculum",
     "path": "topics/content-management",
     "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T00:04:43.611Z",
+    "parserVersion": "5.3.0",
+    "createdAt": "2023-11-24T14:47:10.902Z",
     "track": "ux",
+    "tracks": [
+      "ux"
+    ],
     "intl": {
       "es": {
         "title": "Cómo crear y organizar el contenido de un producto digital",
@@ -42,9 +48,12 @@
     "repo": "Laboratoria/curriculum",
     "path": "topics/css",
     "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T00:04:48.607Z",
+    "parserVersion": "5.3.0",
+    "createdAt": "2023-11-24T14:47:11.296Z",
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "intl": {
       "es": {
         "title": "CSS",
@@ -63,9 +72,12 @@
     "repo": "Laboratoria/curriculum",
     "path": "topics/functional",
     "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T00:04:48.424Z",
+    "parserVersion": "5.3.0",
+    "createdAt": "2023-11-24T14:47:11.190Z",
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "intl": {
       "es": {
         "title": "Functional JavaScript",
@@ -80,9 +92,12 @@
     "repo": "Laboratoria/curriculum",
     "path": "topics/html",
     "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T00:04:48.116Z",
+    "parserVersion": "5.3.0",
+    "createdAt": "2023-11-24T14:47:11.050Z",
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "intl": {
       "es": {
         "title": "HTML",
@@ -101,9 +116,12 @@
     "repo": "Laboratoria/curriculum",
     "path": "topics/interaction-design",
     "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T00:04:51.686Z",
+    "parserVersion": "5.3.0",
+    "createdAt": "2023-11-24T14:47:11.036Z",
     "track": "ux",
+    "tracks": [
+      "ux"
+    ],
     "intl": {
       "es": {
         "title": "Interaction Design",
@@ -118,9 +136,12 @@
     "repo": "Laboratoria/curriculum",
     "path": "topics/intro-ux",
     "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T00:04:51.431Z",
+    "parserVersion": "5.3.0",
+    "createdAt": "2023-11-24T14:47:10.945Z",
     "track": "ux",
+    "tracks": [
+      "ux"
+    ],
     "intl": {
       "es": {
         "title": "Intro a User Experience Design",
@@ -135,9 +156,12 @@
     "repo": "Laboratoria/curriculum",
     "path": "topics/javascript",
     "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T00:04:54.461Z",
+    "parserVersion": "5.3.0",
+    "createdAt": "2023-11-24T14:47:11.644Z",
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "intl": {
       "es": {
         "title": "JavaScript",
@@ -156,9 +180,13 @@
     "repo": "Laboratoria/curriculum",
     "path": "topics/learning-mindset",
     "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T00:04:56.833Z",
+    "parserVersion": "5.3.0",
+    "createdAt": "2023-11-24T14:47:12.371Z",
     "track": "web-dev",
+    "tracks": [
+      "web-dev",
+      "ux"
+    ],
     "intl": {
       "es": {
         "title": "Learning Mindset",
@@ -173,9 +201,12 @@
     "repo": "Laboratoria/curriculum",
     "path": "topics/paradigms",
     "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T00:04:58.021Z",
+    "parserVersion": "5.3.0",
+    "createdAt": "2023-11-24T14:47:12.628Z",
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "intl": {
       "es": {
         "title": "Paradigmas de programación",
@@ -190,9 +221,12 @@
     "repo": "Laboratoria/curriculum",
     "path": "topics/prototyping",
     "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T00:04:57.724Z",
+    "parserVersion": "5.3.0",
+    "createdAt": "2023-11-24T14:47:12.385Z",
     "track": "ux",
+    "tracks": [
+      "ux"
+    ],
     "intl": {
       "es": {
         "title": "Prototipado",
@@ -207,9 +241,12 @@
     "repo": "Laboratoria/curriculum",
     "path": "topics/scm",
     "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T00:05:00.733Z",
+    "parserVersion": "5.3.0",
+    "createdAt": "2023-11-24T14:47:12.484Z",
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "intl": {
       "es": {
         "title": "Source Code Management (SCM) - Git + GitHub",
@@ -228,9 +265,12 @@
     "repo": "Laboratoria/curriculum",
     "path": "topics/shell",
     "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T00:05:00.670Z",
+    "parserVersion": "5.3.0",
+    "createdAt": "2023-11-24T14:47:12.449Z",
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "intl": {
       "es": {
         "title": "Unix Shell",
@@ -249,9 +289,12 @@
     "repo": "Laboratoria/curriculum",
     "path": "topics/ux-research",
     "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T00:05:01.051Z",
+    "parserVersion": "5.3.0",
+    "createdAt": "2023-11-24T14:47:12.538Z",
     "track": "ux",
+    "tracks": [
+      "ux"
+    ],
     "intl": {
       "es": {
         "title": "UX Research",

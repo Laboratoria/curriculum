@@ -3,9 +3,12 @@
   "repo": "Laboratoria/curriculum",
   "path": "topics/browser",
   "version": "7.4.0",
-  "parserVersion": "5.2.0",
-  "createdAt": "2023-11-17T00:04:44.315Z",
+  "parserVersion": "5.3.0",
+  "createdAt": "2023-11-24T14:47:10.035Z",
   "track": "web-dev",
+  "tracks": [
+    "web-dev"
+  ],
   "intl": {
     "es": {
       "title": "Browser JavaScript",

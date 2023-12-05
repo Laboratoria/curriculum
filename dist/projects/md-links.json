@@ -3,10 +3,13 @@
   "repo": "Laboratoria/curriculum",
   "path": "projects/04-md-links",
   "version": "7.4.0",
-  "parserVersion": "5.2.0",
-  "createdAt": "2023-11-17T00:04:32.995Z",
+  "parserVersion": "5.3.0",
+  "createdAt": "2023-11-24T14:47:08.865Z",
   "prefix": 4,
   "track": "web-dev",
+  "tracks": [
+    "web-dev"
+  ],
   "learningObjectives": [
     "js/data-types/primitive-vs-non-primitive",
     "js/data-types/arrays",
