@@ -529,8 +529,9 @@ Depois, no [GitHub](https://github.com/):
 1. Crie uma conta. Saiba mais sobre o GitHub neste [link](https://curriculum.laboratoria.la/pt/topics/scm/github/github)
 2. Faça um _fork_ deste projeto
 3. Configure sua chave SSH no GitHub. Você pode conferir este
-[vídeo](https://www.youtube.com/watch?v=g0ZV-neSM7E) ou este
+[vídeo](https://www.youtube.com/watch?v=7YVQLZp1jb0), este
 [artigo](https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+ou [esse](https://www.freecodecamp.org/portuguese/news/como-obter-e-configurar-suas-chaves-ssh-do-git-e-do-github/)
 
 Depois, em um [shell](https://curriculum.laboratoria.la/pt/topics/shell),
 execute o seguinte. Se você estiver no Windows, pode usar o Git Bash:
