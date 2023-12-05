@@ -93,7 +93,8 @@ relações entre as tabelas
 ![mer](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/fleet-management-api-java%2Fsql-diagram.png?alt=media)
 
 * A tabela de _trajectories_ deve ser criada com o "id" que aumenta
-automaticamente (SERIAL) para poder inserir os valores sem a necessidade de especificar um identificador.
+automaticamente (SERIAL) para poder inserir os valores sem a necessidade de
+especificar um identificador.
 
 ##### Definição de pronto
 
@@ -134,9 +135,7 @@ url, parâmetros,
 Eu, como cliente da API REST, necessito de um _endpoint_ para consultar
 todas as localizações de um táxi dado o id do táxi e uma data.
 
-#####
-
- Critérios de aceitação
+##### Critérios de aceitação
 
 * O _endpoint_ responde para o id do táxi consultado as seguintes informações:
 latitude, longitude e data e hora.

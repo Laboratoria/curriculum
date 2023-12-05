@@ -10,7 +10,8 @@
 * [Mockito](https://site.mockito.org/): mockear métodos, clases, etc.
 * [MockMvc](https://spring.io/guides/gs/testing-web/),
 [WebTestClient](https://docs.spring.io/spring-framework/reference/testing/webtestclient.html),
-[TestRestTemplate](https://www.baeldung.com/spring-boot-testresttemplate): para pruebas de la capa web.
+[TestRestTemplate](https://www.baeldung.com/spring-boot-testresttemplate): para
+pruebas de la capa web.
 * [Hibernate](https://docs.spring.io/spring-framework/reference/data-access/orm/hibernate.html):
   cómo [ORM](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping)
   para facilitar consultas a la base de datos.
