@@ -5,10 +5,11 @@
 * [1. Preambulo](#1-preâmbulo)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Objetivos de aprendizado](#3-objetivos-de-aprendizado)
-* [4. Critérios de aceitação do projeto](#4-critérios-de-aceitação-do-projeto)
-* [5. Tecnologias Utilizadas](#5-tecnologias-utilizadas)
-* [6. Dicas, sugestões e leituras complementares](#6-dicas-sugestões-e-leituras-complementares)
-* [7. Funcionalidades opcionais](#7-funcionalidades-opcionais)
+* [4. Considerações de carácter geral](#4-considerações-de-carácter-geral)
+* [5. Critérios de aceitação do projeto](#5-critérios-de-aceitação-do-projeto)
+* [6. Tecnologias Utilizadas](#6-tecnologias-utilizadas)
+* [7. Dicas, sugestões e leituras complementares](#7-dicas-sugestões-e-leituras-complementares)
+* [8. Funcionalidades opcionais](#8-funcionalidades-opcionais)
 
 ***
 
@@ -57,7 +58,12 @@ o repositório do projeto para uma turma específica usando
 [lista de todos os objetivos de aprendizado](../../learning-objectives/data.yml)
 contemplados em nossa grade curricular.
 
-## 4. Critérios de aceitação do projeto
+## 4. Considerações de carácter geral
+
+* Este projeto deve ser "resolvido" em pares.
+* O intervalo de tempo estimado para concluir o projeto é de 4 a 6 Sprints.
+
+## 5. Critérios de aceitação do projeto
 
 Nossa cliente instalou dispositivos GPS em seus táxis. Esses dispositivos
 usam sinais de satélite para determinar com precisão as coordenadas
@@ -182,14 +188,14 @@ url, parâmetros,
 
 ***
 
-## 5. Tecnologias Utilizadas
+## 6. Tecnologias Utilizadas
 
 Você pode implementar este projeto em JavaScript ou Java.
 
 * [Java](./docs/README-java.pt.md#stack-de-tecnologías)
 * [NodeJs](./docs/README-node.pt.md#stack-de-tecnologías)
 
-## 6. Dicas, sugestões e leituras complementares
+## 7. Dicas, sugestões e leituras complementares
 
 ### Modelagem de dados
 
@@ -224,7 +230,7 @@ valor `application/json`.
 
 ![Exemplo de Endpoint API Rest](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/fleet-management-api-java%2Fexample-endpoint-api-rest.png?alt=media)
 
-## 7. Funcionalidades Opcionais
+## 8. Funcionalidades Opcionais
 
 Se você completou todas as funcionalidades do projeto, convidamos você a
 trabalhar nas [funcionalidades opcionais](./docs/README.extension.pt.md)

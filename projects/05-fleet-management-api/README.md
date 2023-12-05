@@ -5,10 +5,11 @@
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Criterios de aceptación del proyecto](#4-criterios-de-aceptación-del-proyecto)
-* [5. Stack de tecnologías](#5-stack-de-tecnologías)
-* [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
-* [7. Funcionalidades opcionales](#7-funcionalidades-opcionales)
+* [4. Consideraciones generales](#4-consideraciones-generales)
+* [5. Criterios de aceptación del proyecto](#5-criterios-de-aceptación-del-proyecto)
+* [6. Stack de tecnologías](#6-stack-de-tecnologías)
+* [7. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
+* [8. Funcionalidades opcionales](#8-funcionalidades-opcionales)
 
 ***
 
@@ -60,7 +61,12 @@ API REST.
 > Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
 > que contempla nuestra currícula.
 
-## 4. Criterios de aceptación del proyecto
+## 4. Consideraciones generales
+
+* Este proyecto se debe "resolver" en duplas.
+* El rango de tiempo estimado para completar el proyecto es de 4 a 6 Sprints.
+
+## 5. Criterios de aceptación del proyecto
 
 Nuestra cliente ha instalado dispositivos GPS en sus taxis.
 Estos dispositivos utilizan señales satelitales para determinar
@@ -193,14 +199,14 @@ menos una compañera.
 
 ***
 
-## 5. Stack de tecnologías
+## 6. Stack de tecnologías
 
 Puedes implementar este proyecto en JavaScript o Java.
 
 * [Java](./docs/README-java.md#stack-de-tecnologías)
 * [NodeJs](./docs/README-node.md#stack-de-tecnologías)
 
-## 6. Pistas, tips y lecturas complementarias
+## 7. Pistas, tips y lecturas complementarias
 
 ### Modelamiento de datos
 
@@ -238,7 +244,7 @@ _código HTTP_ 200 en formato json gracias al _header_
 
 ![Ejemplo Endpoint API Rest](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/fleet-management-api-java%2Fexample-endpoint-api-rest.png?alt=media)
 
-## 7. Funcionalidades opcionales
+## 8. Funcionalidades opcionales
 
 Si completaste todas las funcionalidades del proyecto te invitamos a trabajar en
 las [funcionalides opcionales](./docs/README.extension.md)
