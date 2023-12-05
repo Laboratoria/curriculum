@@ -3,10 +3,13 @@
   "repo": "Laboratoria/curriculum",
   "path": "projects/02-design-assigned",
   "version": "7.4.0",
-  "parserVersion": "5.2.0",
-  "createdAt": "2023-11-17T00:04:22.175Z",
+  "parserVersion": "5.3.0",
+  "createdAt": "2023-11-24T14:47:06.819Z",
   "prefix": 2,
   "track": "ux",
+  "tracks": [
+    "ux"
+  ],
   "learningObjectives": [
     "agile-planning/scope",
     "agile-planning/workplan",
