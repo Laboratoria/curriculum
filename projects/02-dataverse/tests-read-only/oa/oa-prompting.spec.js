@@ -111,7 +111,7 @@ describe('Test de data set', () => {
         it('Los nombres de todas las propiedades deben tener formato camelCase', () => {
           expect.hasAssertions();
           Object.keys(item.facts).forEach((k) => {
-            expect(/^([a-z]+)(([A-Z]([a-z]+))+)$/.test(k)).toBe(true);
+            expect(/^[a-z]+([A-Z][a-z]*)*$/.test(k)).toBe(true);
           });
         });
       
