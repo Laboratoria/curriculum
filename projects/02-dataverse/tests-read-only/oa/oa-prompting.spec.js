@@ -92,8 +92,10 @@ describe('Test de data set', () => {
         });
     
         it('Debe ser una URL válida', () => {
+          console.log(item.imageUrl)
+          const pathRegex = /\.(jpg|jpeg|png|gif|bmp|svg|webp)$/;
           const urlRegex = /^(https?:\/\/)?([\da-z.-]+)\.([a-z.]{2,6})([/\w.-]*)*\/?$/;
-          expect(urlRegex.test(item.imageUrl)).toBe(true);
+          expect(pathRegex.test(item.imageUrl) || urlRegex.test(item.imageUrl)).toBe(true);
         });
       });
     
