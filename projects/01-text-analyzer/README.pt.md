@@ -518,7 +518,7 @@ como mostrado na seguinte imagem:
 
 Antes de começar, instale o seguinte:
 
-1. [Node.js](https://nodejs.org/pt-br/)
+1. [Node.js](https://nodejs.org/)
 2. [git](https://git-scm.com/download/) Se você estiver no Linux, é provável
 que já esteja instalado 👀.
 Para aprender mais sobre o git, visite este [link](https://curriculum.laboratoria.la/pt/topics/scm/git)
