@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite';
+import { sentryVitePlugin } from '@sentry/vite-plugin';
 import react from '@vitejs/plugin-react';
 import dotenv from 'dotenv';
 
@@ -29,8 +30,16 @@ export default defineConfig(() => {
     },
     build: {
       outDir: 'build',
+      sourcemap: true,
     },
-    plugins: [react()],
+    plugins: [
+      react(),
+      sentryVitePlugin({
+        org: 'laboratoria',
+        project: 'curriculum',
+        authToken: process.env.SENTRY_AUTH_TOKEN,
+      }),
+    ],
     test: {
       globals: true,
       environment: 'jsdom',

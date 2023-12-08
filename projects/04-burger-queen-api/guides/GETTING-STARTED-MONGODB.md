@@ -134,7 +134,7 @@ En el archivo `connect.js` hay que hacer la conexión con la base de datos.
 const { dbUrl } = config;
 
 async function connect() {
-  // TODO: Conexión a la Base de Datos
+  // TODO: Database Connection
 }
 ```
 
@@ -167,7 +167,7 @@ const initAdminUser = (app, next) => {
     roles: { admin: true },
   };
 
-  // TODO: crear usuaria admin
+  // TODO: Create admin user
   next();
 };
 
@@ -177,10 +177,10 @@ Puedes confirmar si tu código funciona revisando la base de datos y con un test
 
 ### TODO 3: Implementar autenticación de usuario
 
-En `routes/auth.js` está la ruta '/auth' definida, con un
+En `routes/auth.js` está la ruta '/login' definida, con un
 
 ```js
- // TODO: autenticar a la usuarix
+ // TODO: Authenticate the user
  ```
 
 Aquí es donde debes verificar que el correo y password coinciden con

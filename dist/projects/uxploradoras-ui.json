@@ -2,20 +2,38 @@
   "slug": "uxploradoras-ui",
   "repo": "Laboratoria/curriculum",
   "path": "projects/02-uxploradoras-ui",
-  "version": "7.2.0",
-  "parserVersion": "5.1.0",
-  "createdAt": "2023-09-28T20:34:02.045Z",
+  "version": "7.5.0",
+  "parserVersion": "5.3.0",
+  "createdAt": "2023-12-05T18:21:20.293Z",
   "prefix": 2,
   "track": "ux",
+  "tracks": [
+    "ux"
+  ],
   "learningObjectives": [
     "agile-planning/scope",
     "agile-planning/workplan",
-    "agile-planning/tasks"
+    "agile-planning/tasks",
+    "research/planning/research-plan",
+    "research/planning/research-sample",
+    "research/planning/participants",
+    "content-design/voice-tone",
+    "content-design/create-content",
+    "interface-design/visual-design",
+    "interface-design/accesibility",
+    "design-prototype/basic-prototypes",
+    "usability-analysis/non-moderated-testing",
+    "design-pitch/design-feedback",
+    "design-pitch/design-presentation",
+    "design-specs/file-organization",
+    "design-specs/use-cases",
+    "design-specs/project-documentation",
+    "design-systems/atomic-design"
   ],
   "intl": {
     "es": {
-      "title": "UXploradoras en el multiverso UI",
-      "summary": "<p>Este es un proyecto flexible que puedes adecuar según el contexto de aprendizaje\nen el que te encuentres. En conjunto con el equipo de Laboratoria, vas a elegir\nUNA de las 3 opciones disponibles, para poner en práctica técnicas y\nherramientas específicas según una etapa de diseño específica.</p>"
+      "title": "UXploradoras UI",
+      "summary": "<p>Las plataformas de entretenimiento digital tienen un gran componente estético,\nya que deben atraer al público y diferenciarse de su competencia, proyectando una\nimagen de innovación constantemente. Un buen diseño de interfaz genera ventajas\ncompetitivas y potencia la facilidad de uso de la plataforma, además es una excelente\noportunidad para poner en práctica los principios de accesibilidad.</p>"
     }
   },
   "cover": "https://raw.githubusercontent.com/Laboratoria/bootcamp/main/projects/02-uxploradoras-ui/thumb.png",
