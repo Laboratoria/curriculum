@@ -460,11 +460,11 @@ de tu aplicación
 
 Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
 
-* [ ] Cumple con todas las pruebas unitarias al ejecutar `npm run test` y
+* Cumple con la mayoría de las pruebas unitarias al ejecutar `npm run test` y
   que tienen una cobertura del 70% de _statements_ (_sentencias_),
   _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
-* [ ] Esta libre de _errores_ de `eslint` al ejecutar `npm run pretest`
-* [ ] Está subido a GitHub y desplegado en Netlify o Vercel.
+* Esta libre de _errores_ de `eslint` al ejecutar `npm run pretest`
+* Está subido a GitHub y desplegado en Netlify o Vercel.
 * Tiene un `README.md` con la siguiente:
   - [ ] _Definición del producto_ clara e informativa
   - [ ] Historias de usuaria

@@ -381,7 +381,7 @@ relacionados con cada objetivo de aprendizaje.
 
 * **Pruebas unitarias (unit tests)**
 
-  - [ ] Se pasan todas las pruebas unitarias.
+  - [ ] Pasan la mayoría de las pruebas unitarias.
 
 * **Módulos de ECMAScript (ES Modules)**
 
@@ -440,7 +440,10 @@ usuarias en el centro**
 ## 7. Pruebas
 
 Este proyecto cuenta con 3 conjuntos de pruebas que te ayudarán a conocer si
-cumples los criterios mínimos de aceptación.
+cumples los criterios mínimos de aceptación. No es necesario que cumplas con
+el 100% de las pruebas, pero si que las entiendas y puedas resolverlas en caso
+de que no estén pasando. Te recomendamos analizar con tu coach qué pruebas son
+las más importantes para tu proyecto.
 
 ### Pruebas unitarias
 
@@ -563,13 +566,13 @@ Súmate al canal de Slack [#project-text-analyzer](https://claseslaboratoria.sla
 
 Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
 
-* [ ] Cumple con todos los criterios mínimos de aceptación al ejecutar `npm run test:oas`
-* [ ] Cumple con todas las pruebas unitarias al ejecutar `npm run test`
-* [ ] Cumple con todas las pruebas _end to end_ al ejecutar `npm run test:e2e`
-* [ ] Esta libre de _errores_ de `eslint` al ejecutar `npm run test`
-* [ ] Está subido a GitHub.
-* [ ] Esta desplegado en GitHub Pages.
-* [ ] Tiene un README con la definición del producto.
+* Cumple con la mayoría de los criterios mínimos de aceptación al ejecutar `npm run test:oas`
+* Cumple con la mayoría de las pruebas unitarias al ejecutar `npm run test`
+* Cumple con la mayoría de las pruebas _end to end_ al ejecutar `npm run test:e2e`
+* Esta libre de _errores_ de `eslint` al ejecutar `npm run test`
+* Está subido a GitHub.
+* Esta desplegado en GitHub Pages.
+* Tiene un README con la definición del producto.
 
 Recuerda que debes hacer una autoevaluación de _objetivos de aprendizaje_ y
 _life skills_ desde tu dashboard de estudiante.
