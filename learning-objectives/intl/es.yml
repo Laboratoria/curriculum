@@ -633,7 +633,7 @@ java/data-types/primitive:
 java/data-types/primitive-vs-non-primitive:
   title: Datos primitivos vs no primitivos
     
-java/data-stypes/strings:
+java/data-types/strings:
   title: Cadenas
 
 java/data-types/arrays:

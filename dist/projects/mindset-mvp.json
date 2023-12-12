@@ -2,11 +2,14 @@
   "slug": "mindset-mvp",
   "repo": "Laboratoria/curriculum",
   "path": "projects/02-mindset-mvp",
-  "version": "7.3.0",
-  "parserVersion": "5.1.0",
-  "createdAt": "2023-10-16T17:43:31.849Z",
+  "version": "7.5.0",
+  "parserVersion": "5.3.0",
+  "createdAt": "2023-12-05T18:21:19.181Z",
   "prefix": 2,
   "track": "ux",
+  "tracks": [
+    "ux"
+  ],
   "learningObjectives": [
     "agile-planning/workplan",
     "agile-planning/tasks",
