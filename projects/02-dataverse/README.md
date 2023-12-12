@@ -336,6 +336,7 @@ npm run test:oas // Esto es para correr todos los tests de OAs
   - [ ] Tiene un `<footer>`
   - [ ] Tiene un `<main>` con `<h2>`
   - [ ] Todas las etiquetas de controles (inputs, selects, radio, etc) tienen `<label>`
+  - [ ] Todas las etiquetas `<label>` usan el atributo `for` y el valor de este coincide con el `id` de la etiqueta de control (inputs, selects, radio, etc)
   - [ ] `<ul>` esta usado para dibujar la data
   - [ ] Los hijos de `<li>` usan attributos de microdata `itemscope` e `itemprop`
 
