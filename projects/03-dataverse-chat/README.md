@@ -460,7 +460,7 @@ de tu aplicación
 
 Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
 
-* Cumple con la mayoría de las pruebas unitarias al ejecutar `npm run test` y
+* Cumple con las pruebas unitarias al ejecutar `npm run test` y
   que tienen una cobertura del 70% de _statements_ (_sentencias_),
   _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
 * Esta libre de _errores_ de `eslint` al ejecutar `npm run pretest`
