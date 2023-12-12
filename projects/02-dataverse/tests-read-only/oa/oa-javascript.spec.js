@@ -8,8 +8,6 @@ const mainAst = acorn.parse(mainCode, { ecmaVersion: 2020, sourceType: "module" 
 const ast =  acorn.parse(renderCode, { ecmaVersion: 2020, sourceType: "module", program: mainAst});
 
 const getASTMetrics = (node, [
-  parseIntCalls,
-  parseFloatCalls,
   NumberCalls,
   sortCalls,
   filterCalls,
@@ -21,18 +19,6 @@ const getASTMetrics = (node, [
   ifelseStatements,
   exportStatements,
 ]) => {
-
-  if (node.type === "CallExpression" &&
-    node.callee.type === "Identifier" &&
-    node.callee.name === "parseInt") {
-    parseIntCalls.push(node);
-  }
-
-  if (node.type === "CallExpression" &&
-    node.callee.type === "Identifier" &&
-    node.callee.name === "parseFloat") {
-    parseFloatCalls.push(node);
-  }
 
   if (node.type === "CallExpression" &&
     node.callee.type === "Identifier" &&
@@ -104,8 +90,6 @@ const getASTMetrics = (node, [
       const child = node[key];
       if (typeof child === "object" && child !== null) {
         getASTMetrics(child, [
-          parseIntCalls,
-          parseFloatCalls,
           NumberCalls,
           sortCalls,
           filterCalls,
@@ -125,8 +109,6 @@ const getASTMetrics = (node, [
 const metrics = [[], [], [], [], [], [], [], [], [], [], [], []];
 getASTMetrics(ast, metrics);
 const [
-  parseIntCalls,
-  parseFloatCalls,
   NumberCalls,
   sortCalls,
   filterCalls,
@@ -140,8 +122,8 @@ const [
 ] = metrics;
 
 describe('Tipos de datos primitivos', () => {
-  it('Se convierten valores tipo "string" a tipo "number" con "parseInt" o "parseFloat" o "Number"', () => {
-    expect(parseIntCalls.length + parseFloatCalls.length + NumberCalls.length).toBeGreaterThan(0);
+  it('Se convierten valores tipo "string" a tipo "number" con "Number"', () => {
+    expect(NumberCalls.length).toBeGreaterThan(0);
   });
 });
 
