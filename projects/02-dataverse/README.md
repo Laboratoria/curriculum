@@ -307,19 +307,13 @@ Al menos se requiere una función obligatoria:
 Recuerda que todas las funciones que se encuentren en este archivo deberán ser	
 exportadas para poder ser utilizadas en otros archivos.
 
-Recomendamos la estructura anterior por las siguientes razones:
-
-* **Claridad y Organización**: La estructura propuesta busca proporcionar
-  un marco claro y organizado para el proyecto, facilitando la navegación
-  y comprensión del código.
-* **Separación de Responsabilidades**: Cada archivo y carpeta tiene una
-  función específica, lo que facilita la identificación y resolución de
-  problemas.
-* **Escalabilidad**: La estructura es escalable, permitiendo la adición de
-  más funcionalidades y componentes de manera ordenada.
-* **Facilita las Pruebas**: La carpeta test está separada para contener
-  pruebas unitarias y de integración, lo que facilita la implementación
-  de pruebas y garantiza la calidad del código.
+Recomendamos esta estructura para no solo proporcionar un marco claro y
+organizado para el proyecto, facilitando la navegación comprensión, y
+escalabilidad del código, sino también para seguir un principio de diseño
+[Separación de Responsabilidades](https://dev.to/tamerlang/separation-of-concerns-the-simple-way-4jp2)
+en codigo, donde cada archivo y carpeta
+tiene una responsabilidad específica. La responsabilidad de los funciones en
+`view.js` es para crear partes del DOM con la data. 
 
 Esta no es la única forma de dividir tu código, puedes usar más archivos y
 carpetas, siempre y cuando la estructura sea clara para tus compañeras.
