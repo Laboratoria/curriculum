@@ -170,14 +170,10 @@ A seguir deixamos alguns marcos como sugestão para que você construa o seu pro
 
 ### 7.1 Marco 1 - Configurações do ambiente de trabalho
 
-Você deve configurar o seu ambiente de trabalho, ou seja:
-
-- Baixar a versão escolhida do Java e instalá-la em seu computador.
-Hoje, em out e nov/2023, recomendamos a versão 21 pois é versão mais
-compatível com a IDE IntelliJ.
-- Instalar a sua IDE (recomendamos usar
-[IntelliJ Community Edition](https://www.jetbrains.com/idea/download/),
-em casos extremos de recurso computacional pode ser utilizado o VSCode)
+Para começar a trabalhar com Java, é necessário configurar nosso ambiente
+de trabalho para fazer download e configurar os requisitos mínimos.
+Para isso, preparamos um guia que o ajudará a ter tudo pronto para começar
+a trabalhar nesse projeto você pode encontrá-lo [aquí](https://github.com/Laboratoria/java-setup/blob/main/README.pt.md).
 
 #### Conteúdos que podem te apoiar na configuração do ambiente
 

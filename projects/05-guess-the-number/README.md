@@ -168,26 +168,15 @@ A continuación, te dejamos algunos hitos como sugerencia para que construyas tu
 
 ### 7.1 Hito 1 - Configuración del entorno de trabajo
 
-Debes configurar tu entorno de trabajo, es decir:
-
-- Descargar la versión elegida de Java e instalarla en tu computadora.
-  Hoy, en octubre y noviembre de 2023, recomendamos la versión 21,
-  ya que es la versión más compatible con la IDE IntelliJ.
-- Instalar tu IDE (recomendamos usar
-  [IntelliJ Community Edition](https://www.jetbrains.com/idea/download/),
-  en casos extremos de recursos computacionales se puede utilizar el VSCode).
-
-#### Contenidos que pueden ayudarte en la configuración del entorno
-
-- [Tutoriales para la preparación del entorno Java](https://github.com/Laboratoria/java-setup)
-- [¿Cómo instalo Java?](https://www.java.com/pt-BR/download/help/download_options_pt-br.html)
-- [Install IntelliJ IDEA](https://www.jetbrains.com/help/idea/installation-guide.html)
-- [Guía paso a paso para instalar Intellij Idea en Mac](https://www.geeksforgeeks.org/step-by-step-guide-to-install-intellij-idea)
+Para comenzar a trabajar con Java es necesario configurar nuestro entorno de
+trabajo para descargar y configurar los requisitos mínimos. Para esto hemos
+preparado una guía que te ayudara a tener todo listo para que comiences a trabajar
+en este proyecto puedes encontrarlar [aquí](https://github.com/laboratoria/java-setup).
 
 ### 7.2 Hito 2 - Primeros pasos con el lenguaje
 
 Crea la primera clase del proyecto que contenga el método main. Puedes agregar
-un comando que muestre "¡Hola mundo!" en la consola.
+un comando que muestre "¡Hola mundo!", en la consola.
 Así podrás verificar si tus configuraciones son correctas.
 Además, puedes estudiar conceptos del lenguaje como:
 
