@@ -19,7 +19,7 @@
 ## 1. Consideraciones generales
 
 * Este proyecto lo resolvemos de manera **individual**.
-* El rango de tiempo estimado para completar el proyecto es de 1 a 3 Sprints.
+* El rango de tiempo estimado para completar el proyecto es de 2 a 4 Sprints.
 * Enfócate en aprender y no solamente en "completar" el proyecto.
 * Te sugerimos que no intentes saberlo todo antes de empezar a codear.
   No te preocupes demasiado ahora por lo que _todavía_ no entiendas.
