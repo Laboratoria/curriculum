@@ -63,7 +63,8 @@ valor máximo ou mínimo, etc).
   é de no máximo uma sprint. Além disso, no final do projeto, você deve
   apresenta um [screenshot do prompt utilizado](#prompt-utilizado).
 * Se perceber que vai demorar mais tempo,
-  deverá usar os dados de exemplo que encontrará neste caminho: `./src/data/dataset.js`.
+  deverá usar os dados de exemplo que encontrará 
+  neste caminho: `./src/data/dataset.js`.
 * O projeto será entregue ao enviar seu código para o GitHub (commit/push) e a
   interface será implantada usando o [GitHub Pages](https://pages.github.com/).
 
@@ -91,11 +92,13 @@ implementadas:
   **Se você filtrar ou ordenar por uma propriedade, o cartão deve mostrar
   o valor dessa propriedade para a usuária.**
 
-* A interface deve estruturar semanticamente os dados usando o
-  padrão [microdados](https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata).
-  É obrigatório usar pelo menos os atributos [`itemscope`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope),
+* A interface deve estruturar semanticamente os dados usando o padrão 
+  [microdados](https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata).
+  É obrigatório usar pelo menos os atributos 
+  [`itemscope`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope),
   [`itemtype`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemtype)
-  e o atributo [`itemprop`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop).
+  e o atributo 
+  [`itemprop`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop).
 
   Por exemplo, os seguintes dados correspondentes a Ada Lovelace:
 
@@ -233,9 +236,6 @@ Recomendamos usar `src/main.js` para todo o seu código relacionado
 interação com o DOM. Operações como criação de nós, registro de
 manipuladores de eventos (_event listeners_ ou _event handlers_).
 
-Esta não é a única maneira de dividir seu código, você pode usar mais arquivos
-e pastas, desde que a estrutura seja clara para suas colegas.
-
 Neste arquivo, você encontrará uma série de _imports_ prontos para _carregar_
 as diferentes fontes de dados.
 
@@ -248,20 +248,23 @@ import data from './data/dataset.js';
 
 ### `src/dataFunctions.js`
 
-O cerne deste projeto é a manipulação de dados por meio de arrays e objetos.
+O cerne deste projeto é a manipulação de dados por meio de arrays
+e objetos.
 
 Este arquivo conterá toda a funcionalidade relacionada a obter,
 processar e manipular dados (suas funções). Por exemplo:
 
 * `filterData(data, filterBy, value)`: esta função recebe três parâmetros.
   O primeiro parâmetro, `data`, fornece os dados.
-  O segundo parâmetro, `filterBy`, indica qual campo dos dados se deseja filtrar.
+  O segundo parâmetro, `filterBy`, indica qual campo dos dados se
+  deseja filtrar.
   O terceiro parâmetro, `value`, indica o valor do campo que se deseja filtrar.
 
 * `sortData(data, sortBy, sortOrder)`: esta função de classificação recebe
   três parâmetros.
   O primeiro parâmetro, `data`, fornece os dados.
-  O segundo parâmetro, `sortBy`, indica qual campo dos dados se deseja ordenar.
+  O segundo parâmetro, `sortBy`, indica qual campo dos
+  dados se deseja ordenar.
   O terceiro parâmetro, `sortOrder`, indica se a ordenação deve ser ascendente
     ou descendente.
 
@@ -304,6 +307,20 @@ Pelo menos uma função é obrigatória:
   os elementos de cada item e deve retornar um elemento DOM ou
   uma string de HTML.
 
+Lembre-se que todas as funções encontradas neste arquivo devem ser
+exportado para ser usado em outros arquivos.
+
+Recomendamos esta estrutura não apenas para fornecer uma estrutura clara e
+organizado para o projeto, facilitando o entendimento da navegação, e
+escalabilidade do código, mas também seguir um princípio de design
+[Separação de responsabilidades](https://dev.to/tamerlang/separation-of-concerns-the-simple-way-4jp2)
+no código, onde cada arquivo e pasta
+tem uma responsabilidade específica. A responsabilidade das funções em
+`view.js` serve para criar partes do DOM com os dados.
+
+Esta não é a única maneira de dividir seu código, você pode usar mais arquivos e
+pastas, desde que a estrutura seja clara para seus colegas.
+
 ## 6. Critérios mínimos de aceitação do projeto
 
 ### Critérios de código
@@ -325,6 +342,12 @@ npm run test:oas-prompting
 npm run test:oas // Esto es para correr todos los tests de OAs
 ```
 
+Nota: para que os testes funcionem corretamente, você precisa ter
+instalou `Node.js (LTS)` com versão 14.0.0 ou superior. Para verificar
+a versão do nó executa `node -v` no terminal. Se o comando não
+não retorna nenhuma versão, você precisa instalá-la, para isso você pode baixá-la
+de seu [site oficial](https://nodejs.org/).
+
 #### HTML
 
 * **Uso de HTML semântico**
@@ -334,7 +357,11 @@ npm run test:oas // Esto es para correr todos los tests de OAs
   - [ ] Possui um `<main>` com um `<h2>`
   - [ ] Todos os elementos de controle (inputs, selects, radio, etc) possuem `<label>`
   - [ ] Usa `<ul>` para renderizar os dados
-  - [ ] Os filhos de `<li>` usam os atributos de microdados `itemscope` e `itemprop`
+  - [ ] Os filhos de `<li>` usam os atributos de [microdados](https://recursivos.com/html/microdatos/) `itemscope` e `itemprop`
+
+Nota: Tenha em mente que para ter tags `<ul>` e `<li>` em seu projeto,
+É necessário que você já tenha dados criados, pois a partir dos dados você pode
+Eles criarão as listas.
 
 #### CSS
 
@@ -430,8 +457,8 @@ resolve o problema (ou problemas) que sua usuária enfrenta.
 
 #### Histórias de usuário
 
-Depois de entender as necessidades das suas usuárias, escreva
-as [Histórias de Usuário](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_de_usu%C3%A1rio)
+Depois de entender as necessidades das suas usuárias, escreva as
+[Histórias de Usuário](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_de_usu%C3%A1rio)
 que representam tudo o que a usuária precisa fazer/ver.
 As **Histórias de Usuário** devem ser o resultado do seu processo de
 pesquisa ou _research_ das suas usuárias.
@@ -552,9 +579,11 @@ localizados em:
 `./src/data/dataset.js`.
 
 As URLs das imagens dentro do arquivo JavaScript devem vincular-se às imagens
-para cada elemento da matriz. Essas imagens podem ser geradas por inteligência
+para cada elemento da matriz. 
+Essas imagens podem ser geradas por inteligência
 artificial ou imagens que você pode encontrar na web.
-Para a geração de imagens, recomendamos usar o [gerador de imagens do Bing](https://www.bing.com/create).
+Para a geração de imagens, recomendamos usar o 
+[gerador de imagens do Bing](https://www.bing.com/create).
 Assim que tiver a imagem, faça o download dela ou obtenha a URL,
 para adicioná-la ao conjunto de dados.
 
@@ -568,6 +597,11 @@ tempo para compreender profundamente sua usuária e suas
 necessidades específicas. A partir desse entendimento, você poderá projetar a
 interface que facilite uma interação mais eficaz e uma compreensão mais
 completa dos dados apresentados.
+
+Nota: embora você perceba que não está utilizando todas as informações geradas em
+sua interface, é necessário gerá-la completamente. No próximo projeto
+você usará o conjunto de dados completo, especialmente ao permitir ao usuário
+pode interagir através de chat com os dados gerados.
 
 #### Prompt usado
 
@@ -709,6 +743,7 @@ Quando estiver pronta para codificar, sugerimos que comece assim:
 * [Object.entries no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
 * [Atributos de dados](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Howto/Use_data_attributes)
 * [expressions-vs-statements](https://2ality.com/2012/09/expressions-vs-statements.html)
+* [expressão vs frase](https://openclassrooms.com/en/courses/4309531-descubre-las-funciones-en-javascript/5108986-diferencia-entre-expresion-y-sentencia)
 * [Dados atômicos vs dados estruturados](https://www.todojs.com/tipos-datos-javascript-es6/)
 * [Módulos: Export](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export)
 * [Módulos: Import](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import)
