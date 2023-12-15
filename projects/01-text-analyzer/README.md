@@ -483,7 +483,11 @@ en la siguiente imagen:
 
 ![npm run test e2e](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650622-a4da630e-8d39-4dd8-9fde-1a38c31a53e2.gif "npm run test e2e")
 
-Algunos de los aspectos que se evalúan en estas pruebas son:
+Para que los tests end-to-end (e2e) puedan evaluar el flujo, es necesario
+contar con acceso a determinados elementos en la página. Este acceso se
+logra agregando un atributo
+[`data-testid`](https://playwright.dev/docs/locators#locate-by-test-id).
+Por este motivo, es necesario agregar lo sigiente:
 
  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
   para mostrar el _recuento de palabras_ debe tener un atributo
