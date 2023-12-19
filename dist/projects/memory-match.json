@@ -2,11 +2,14 @@
   "slug": "memory-match",
   "repo": "Laboratoria/curriculum",
   "path": "projects/02-memory-match",
-  "version": "7.2.0",
-  "parserVersion": "5.1.0",
-  "createdAt": "2023-09-28T20:33:56.896Z",
+  "version": "7.5.0",
+  "parserVersion": "5.3.0",
+  "createdAt": "2023-12-05T18:21:19.313Z",
   "prefix": 2,
   "track": "web-dev",
+  "tracks": [
+    "web-dev"
+  ],
   "learningObjectives": [
     "html/semantics",
     "css/selectors",

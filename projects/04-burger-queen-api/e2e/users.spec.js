@@ -237,7 +237,7 @@ describe('PUT /users/:uid', () => {
       body: { password: 'garmadon' },
     })
       .then((resp) => expect(resp.status).toBe(200))
-      .then(() => fetch('/auth', {
+      .then(() => fetch('/login', {
         method: 'POST',
         body: { email: 'test@test.test', password: 'garmadon' },
       }))
@@ -254,7 +254,7 @@ describe('PUT /users/:uid', () => {
       body: { password: 'ohmygod' },
     })
       .then((resp) => expect(resp.status).toBe(200))
-      .then(() => fetch('/auth', {
+      .then(() => fetch('/login', {
         method: 'POST',
         body: { email: 'test@test.test', password: 'ohmygod' },
       }))
@@ -286,7 +286,7 @@ describe('DELETE /users/:uid', () => {
     const credentials = { email: `foo-${Date.now()}@bar.baz`, password: '1234' };
     return fetchAsAdmin('/users', { method: 'POST', body: credentials })
       .then((resp) => expect(resp.status).toBe(200))
-      .then(() => fetch('/auth', { method: 'POST', body: credentials }))
+      .then(() => fetch('/login', { method: 'POST', body: credentials }))
       .then((resp) => {
         expect(resp.status).toBe(200);
         return resp.json();

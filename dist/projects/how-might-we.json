@@ -2,11 +2,14 @@
   "slug": "how-might-we",
   "repo": "Laboratoria/curriculum",
   "path": "projects/00-how-might-we",
-  "version": "7.2.0",
-  "parserVersion": "5.1.0",
-  "createdAt": "2023-09-28T20:33:42.277Z",
+  "version": "7.5.0",
+  "parserVersion": "5.3.0",
+  "createdAt": "2023-12-05T18:21:18.145Z",
   "prefix": 0,
   "track": "ux",
+  "tracks": [
+    "ux"
+  ],
   "learningObjectives": [
     "agile-planning/tasks",
     "design-concept/ideate",

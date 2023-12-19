@@ -1,0 +1,38 @@
+track: web-dev
+learningObjectives:
+  - html/semantics
+  - css/selectors
+  - css/box-model
+  - css/flexbox
+  - css/grid
+  - browser
+  - js/async
+  - js/semantics
+  - js/variables
+  - js/functions
+  - js/conditionals
+  - js/data-types/primitive-vs-non-primitive
+  - js/data-types/arrays
+  - js/data-types/objects
+  - js/expression-vs-statement
+  - js/loops
+  - js/modules/es-modules
+  - js/testing/unit
+  - js/testing/async
+  - js/testing/mocks
+  - http/headers
+  - http/request-response
+  - http/status-codes
+  - ai-prompting/priming-chatbots
+  - ai-prompting/open-ai-api
+  - scm/git
+  - scm/github/setup
+  - scm/github/gh-pages # desplegue
+  - scm/github/collaboration
+  - user-centricity/centricity
+  - product-design/interactivity
+  - product-design/visual-design
+  - research/test
+  
+
+  
