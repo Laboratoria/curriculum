@@ -2,10 +2,13 @@
   "slug": "html",
   "repo": "Laboratoria/curriculum",
   "path": "topics/html",
-  "version": "7.2.0",
-  "parserVersion": "5.1.0",
-  "createdAt": "2023-09-28T20:34:28.310Z",
+  "version": "7.5.0",
+  "parserVersion": "5.3.0",
+  "createdAt": "2023-12-05T18:21:23.733Z",
   "track": "web-dev",
+  "tracks": [
+    "web-dev"
+  ],
   "intl": {
     "es": {
       "title": "HTML",

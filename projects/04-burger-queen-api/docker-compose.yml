@@ -1,7 +1,7 @@
 version: "3"
 services:
   db:
-    # TODO: configura tu imagen de base de datos, te recomendamos una de estas:
+    # TODO: Set up your database image, we recommend one of these:
     # https://hub.docker.com/_/mongo
     # https://hub.docker.com/_/postgres
     # https://hub.docker.com/_/mysql
@@ -19,14 +19,14 @@ services:
       ADMIN_EMAIL: admin@localhost
       ADMIN_PASSWORD: changeme
     volumes:
-      - ./:/home/node/app # montamos el codigo en el HOME del usuario _node_
+      - ./:/home/node/app # Mount the code in the home directory of the user '_node_'
     expose:
-      - 8080 # nuestra app corre en el puerto 8080
+      - 8080 # Our app runs on port 8080
     ports:
-      # mapeamos el puerto 8080 de nuestro contenedor al puerto 80 de nuestra
-      # máquina
+      # Map port 8080 of our container to port 80 of our
+      # machine
       - 80:8080
-    # reinstalamos las dependencias y levantamos el servidor
+    # Reinstall dependencies and start the server
     command: bash -c 'rm -rf node_modules && npm install && npm start'
     depends_on:
       - db
