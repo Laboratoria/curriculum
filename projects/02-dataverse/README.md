@@ -359,9 +359,9 @@ desde su [sitio oficial](https://nodejs.org/).
   - [ ] `<ul>` esta usado para dibujar la data
   - [ ] Los hijos de `<li>` usan attributos de [microdata](https://recursivos.com/html/microdatos/) `itemscope` e `itemprop`
 
-Nota: ten en cuenta que para poder tener etiquetas `<ul>` y `<li>` en tu proyecto,
+Nota: ten en cuenta que para poder testear el HTML de `<ul>` y `<li>` en tu proyecto,
 es necesario que ya tengas una data creada, ya que a partir de la data se
-crearán las listas.
+crearán estos elementos.
 
 #### CSS
 
@@ -598,10 +598,9 @@ necesidades específicas. A partir de esta comprensión, podrás diseñar la
 interfaz que facilite una interacción más efectiva y una comprensión más
 completa de los datos presentados.
 
-Nota: aunque observes que no estás empleando toda la información generada en
-tu interfaz, es necesario generarla por completo. En el próximo proyecto 
-utilizarás el dataset completa sobre todo al momento de permitir que la usuaria
-pueda interactuar mediante el chat con la data generada.
+Nota: no te preocupes si no estás empleando toda la información generada
+en el dataset en tu interfaz, pero es necesario generarla por completo.
+Utilizarás el mismo dataset en el proyecto Dataverse Chat.
 
 #### Prompt utilizado
 

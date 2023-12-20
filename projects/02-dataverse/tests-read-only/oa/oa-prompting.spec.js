@@ -92,7 +92,7 @@ describe('Test de data set', () => {
         });
     
         it('Debe ser una URL válida', () => {
-          const urlRegex = /^((https?|file):\/\/|\.?\.?\/).*(\.(jpg|jpeg|png|gif|bmp|svg))?$/;
+          const urlRegex = /^(https?):\/\/.*\.(jpg|jpeg|png|gif|bmp|svg).*$/;
           expect(urlRegex.test(item.imageUrl)).toBe(true);
         });
       });
