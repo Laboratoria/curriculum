@@ -73,7 +73,7 @@ o mínimo, etc).
 Como entregable final tendrás una página web que permita **visualizar la data,
 filtrarla, ordenarla y calcular alguna estadística**.
 
-Aquí definimos en más detalle las funcionalidades mínimas que debe 
+Aquí definimos en más detalle las funcionalidades mínimas que debe
 tener:
 
 * La aplicación debe permitir a la usuaria ver los items de la data en una visualización,
@@ -92,12 +92,12 @@ tener:
   **Si vas a filtrar u ordenar por una propiedad, la tarjeta tiene que mostrar
   el valor de esta propiedad a la usuaria.**
 
-* La interfaz debe estructurar semánticamente la data usando el estándar 
+* La interfaz debe estructurar semánticamente la data usando el estándar
   [microdatos](https://developer.mozilla.org/es/docs/Web/HTML/Microdata).
-  Es obligatorio usar al menos los atributos 
+  Es obligatorio usar al menos los atributos
   [`itemscope`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope),
   [`itemtype`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemtype)
-  y el atributo 
+  y el atributo
   [`itemprop`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop).
 
   Por ejemplo, la siguiente data correspondiente a Ada Lovelace:
@@ -307,8 +307,9 @@ Al menos se requiere una función obligatoria:
   los elementos de cada item, y debería volver un elemento DOM o
   un string de HTML.
 
-Recuerda que todas las funciones que se encuentren en este archivo deberán ser	
-exportadas para poder ser utilizadas en otros archivos.
+Recuerda que todas las funciones que se encuentren en este
+archivo deberán ser	exportadas para poder ser utilizadas en
+otros archivos.
 
 Recomendamos esta estructura para no solo proporcionar un marco claro y
 organizado para el proyecto, facilitando la navegación comprensión, y
@@ -316,7 +317,7 @@ escalabilidad del código, sino también para seguir un principio de diseño
 [Separación de Responsabilidades](https://dev.to/tamerlang/separation-of-concerns-the-simple-way-4jp2)
 en codigo, donde cada archivo y carpeta
 tiene una responsabilidad específica. La responsabilidad de los funciones en
-`view.js` es para crear partes del DOM con la data. 
+`view.js` es para crear partes del DOM con la data.
 
 Esta no es la única forma de dividir tu código, puedes usar más archivos y
 carpetas, siempre y cuando la estructura sea clara para tus compañeras.
@@ -357,7 +358,8 @@ desde su [sitio oficial](https://nodejs.org/).
   - [ ] Tiene un `<main>` con `<h2>`
   - [ ] Todas las etiquetas de controles (inputs, selects, radio, etc) tienen `<label>`
   - [ ] `<ul>` esta usado para dibujar la data
-  - [ ] Los hijos de `<li>` usan attributos de [microdata](https://recursivos.com/html/microdatos/) `itemscope` e `itemprop`
+  - [ ] Los hijos de `<li>` usan attributos de [microdata](https://recursivos.com/html/microdatos/)
+  `itemscope` e `itemprop`
 
 Nota: ten en cuenta que para poder testear el HTML de `<ul>` y `<li>` en tu proyecto,
 es necesario que ya tengas una data creada, ya que a partir de la data se

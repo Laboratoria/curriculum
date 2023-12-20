@@ -63,7 +63,7 @@ valor máximo ou mínimo, etc).
   é de no máximo uma sprint. Além disso, no final do projeto, você deve
   apresenta um [screenshot do prompt utilizado](#prompt-utilizado).
 * Se perceber que vai demorar mais tempo,
-  deverá usar os dados de exemplo que encontrará 
+  deverá usar os dados de exemplo que encontrará
   neste caminho: `./src/data/dataset.js`.
 * O projeto será entregue ao enviar seu código para o GitHub (commit/push) e a
   interface será implantada usando o [GitHub Pages](https://pages.github.com/).
@@ -92,12 +92,12 @@ implementadas:
   **Se você filtrar ou ordenar por uma propriedade, o cartão deve mostrar
   o valor dessa propriedade para a usuária.**
 
-* A interface deve estruturar semanticamente os dados usando o padrão 
+* A interface deve estruturar semanticamente os dados usando o padrão
   [microdados](https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata).
-  É obrigatório usar pelo menos os atributos 
+  É obrigatório usar pelo menos os atributos
   [`itemscope`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope),
   [`itemtype`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemtype)
-  e o atributo 
+  e o atributo
   [`itemprop`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop).
 
   Por exemplo, os seguintes dados correspondentes a Ada Lovelace:
@@ -357,7 +357,8 @@ de seu [site oficial](https://nodejs.org/).
   - [ ] Possui um `<main>` com um `<h2>`
   - [ ] Todos os elementos de controle (inputs, selects, radio, etc) possuem `<label>`
   - [ ] Usa `<ul>` para renderizar os dados
-  - [ ] Os filhos de `<li>` usam os atributos de [microdados](https://recursivos.com/html/microdatos/) `itemscope` e `itemprop`
+  - [ ] Os filhos de `<li>` usam os atributos de [microdados](https://recursivos.com/html/microdatos/)
+  `itemscope` e `itemprop`
 
 Nota: Tenha em mente que para testar o HTML de `<ul>` e `<li>`
 em seu projeto, É necessário que você já tenha dados criados,
@@ -579,10 +580,10 @@ localizados em:
 `./src/data/dataset.js`.
 
 As URLs das imagens dentro do arquivo JavaScript devem vincular-se às imagens
-para cada elemento da matriz. 
+para cada elemento da matriz.
 Essas imagens podem ser geradas por inteligência
 artificial ou imagens que você pode encontrar na web.
-Para a geração de imagens, recomendamos usar o 
+Para a geração de imagens, recomendamos usar o
 [gerador de imagens do Bing](https://www.bing.com/create).
 Assim que tiver a imagem, faça o download dela ou obtenha a URL,
 para adicioná-la ao conjunto de dados.
