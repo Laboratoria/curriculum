@@ -78,7 +78,7 @@ vistas de la aplicación
   en **cada historia**. _No se dividan el trabajo como en una fábrica._
   - ¿Hasta acá has avanzado en tus proyectos con cierta fluidez y sin mayores
     problemas? Sé generosa con tus compañeras, permíteles aprender y practicar
-    sin restricciones, aunque tome un poco más de tiempo. Aproveha de
+    sin restricciones, aunque tome un poco más de tiempo. Aprovecha de
     _coachearlas_, de hacer _pair programming_, una de las mejores maneras de
     aprender es explicando verbalmente.
   - ¿Se te está haciendo difícil y te cuesta un poco más avanzar? No te quedes
@@ -156,7 +156,7 @@ de lo que estas máquinas podrían lograr me impulsaron a seguir adelante."
     respuesta.
   - Indicar visualmente cuando uno o varios personajes/entidades esten
     generando una respuesta al mensaje enviado
-* La aplicacion debe informar a la usuaria los errores que puedan surgir al
+* La aplicación debe informar a la usuaria los errores que puedan surgir al
   interactuar con la API, como por ejemplo alcanzar la cuota de tokens por
   minuto o cualquier otro error relacionado con la API. Debería
   proporcionarse una descripción clara de la causa del problema y posibles
