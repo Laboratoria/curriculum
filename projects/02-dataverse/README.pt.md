@@ -359,9 +359,9 @@ de seu [site oficial](https://nodejs.org/).
   - [ ] Usa `<ul>` para renderizar os dados
   - [ ] Os filhos de `<li>` usam os atributos de [microdados](https://recursivos.com/html/microdatos/) `itemscope` e `itemprop`
 
-Nota: Tenha em mente que para ter tags `<ul>` e `<li>` em seu projeto,
-É necessário que você já tenha dados criados, pois é a partir dos dados que você
-irá criar as listas.
+Nota: Tenha em mente que para testar o HTML de `<ul>` e `<li>`
+em seu projeto, É necessário que você já tenha dados criados,
+pois a partir dos dados você pode criará esses elementos.
 
 #### CSS
 
@@ -598,10 +598,10 @@ necessidades específicas. A partir desse entendimento, você poderá projetar a
 interface que facilite uma interação mais eficaz e uma compreensão mais
 completa dos dados apresentados.
 
-Nota: embora você perceba que não está utilizando todas as informações geradas em
-sua interface, é necessário gerá-la completamente. No próximo projeto
-você usará o conjunto de dados completo, especialmente ao permitir ao usuário
-pode interagir através de chat com os dados gerados.
+Nota: não se preocupe se não estiver utilizando todas as
+informações geradas no conjunto de dados da sua interface,
+mas é necessário gerá-lo completamente. Você usará o
+mesmo conjunto de dados no projeto Dataverse Chat.
 
 #### Prompt usado
 
