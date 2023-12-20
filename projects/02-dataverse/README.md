@@ -308,7 +308,7 @@ Al menos se requiere una función obligatoria:
   un string de HTML.
 
 Recuerda que todas las funciones que se encuentren en este
-archivo deberán ser	exportadas para poder ser utilizadas en
+archivo deberán ser exportadas para poder ser utilizadas en
 otros archivos.
 
 Recomendamos esta estructura para no solo proporcionar un marco claro y
