@@ -308,11 +308,11 @@ Pelo menos uma função é obrigatória:
   uma string de HTML.
 
 Lembre-se que todas as funções encontradas neste arquivo devem ser
-exportado para ser usado em outros arquivos.
+exportadas para serem usadas em outros arquivos.
 
-Recomendamos esta estrutura não apenas para fornecer uma estrutura clara e
-organizado para o projeto, facilitando o entendimento da navegação, e
-escalabilidade do código, mas também seguir um princípio de design
+Recomendamos esta estrutura que é clara e
+organizada para o projeto, pois facilita o entendimento da navegação e
+escalabilidade do código. Além disso também segue o princípio de design de
 [Separação de responsabilidades](https://dev.to/tamerlang/separation-of-concerns-the-simple-way-4jp2)
 no código, onde cada arquivo e pasta
 tem uma responsabilidade específica. A responsabilidade das funções em
@@ -343,8 +343,8 @@ npm run test:oas // Esto es para correr todos los tests de OAs
 ```
 
 Nota: para que os testes funcionem corretamente, você precisa ter
-instalou `Node.js (LTS)` com versão 14.0.0 ou superior. Para verificar
-a versão do nó executa `node -v` no terminal. Se o comando não
+instalado o `Node.js (LTS)` com versão 14.0.0 ou superior. Para verificar
+a versão do node, execute `node -v` no terminal. Se o comando não
 não retorna nenhuma versão, você precisa instalá-la, para isso você pode baixá-la
 de seu [site oficial](https://nodejs.org/).
 
@@ -360,8 +360,8 @@ de seu [site oficial](https://nodejs.org/).
   - [ ] Os filhos de `<li>` usam os atributos de [microdados](https://recursivos.com/html/microdatos/) `itemscope` e `itemprop`
 
 Nota: Tenha em mente que para ter tags `<ul>` e `<li>` em seu projeto,
-É necessário que você já tenha dados criados, pois a partir dos dados você pode
-Eles criarão as listas.
+É necessário que você já tenha dados criados, pois é a partir dos dados que você
+irá criar as listas.
 
 #### CSS
 
@@ -743,7 +743,7 @@ Quando estiver pronta para codificar, sugerimos que comece assim:
 * [Object.entries no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
 * [Atributos de dados](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Howto/Use_data_attributes)
 * [expressions-vs-statements](https://2ality.com/2012/09/expressions-vs-statements.html)
-* [expressão vs frase](https://openclassrooms.com/en/courses/4309531-descubre-las-funciones-en-javascript/5108986-diferencia-entre-expresion-y-sentencia)
+* [expressão vs declaração](https://openclassrooms.com/en/courses/4309531-descubre-las-funciones-en-javascript/5108986-diferencia-entre-expresion-y-sentencia)
 * [Dados atômicos vs dados estruturados](https://www.todojs.com/tipos-datos-javascript-es6/)
 * [Módulos: Export](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export)
 * [Módulos: Import](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import)
