@@ -2,10 +2,13 @@
   "slug": "scm",
   "repo": "Laboratoria/curriculum",
   "path": "topics/scm",
-  "version": "7.4.0",
-  "parserVersion": "5.2.0",
-  "createdAt": "2023-11-17T00:05:00.733Z",
+  "version": "7.5.0",
+  "parserVersion": "5.3.0",
+  "createdAt": "2023-12-05T18:21:25.147Z",
   "track": "web-dev",
+  "tracks": [
+    "web-dev"
+  ],
   "intl": {
     "es": {
       "title": "Source Code Management (SCM) - Git + GitHub",

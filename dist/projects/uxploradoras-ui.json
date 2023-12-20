@@ -2,11 +2,14 @@
   "slug": "uxploradoras-ui",
   "repo": "Laboratoria/curriculum",
   "path": "projects/02-uxploradoras-ui",
-  "version": "7.4.0",
-  "parserVersion": "5.2.0",
-  "createdAt": "2023-11-17T00:04:24.818Z",
+  "version": "7.5.0",
+  "parserVersion": "5.3.0",
+  "createdAt": "2023-12-05T18:21:20.293Z",
   "prefix": 2,
   "track": "ux",
+  "tracks": [
+    "ux"
+  ],
   "learningObjectives": [
     "agile-planning/scope",
     "agile-planning/workplan",

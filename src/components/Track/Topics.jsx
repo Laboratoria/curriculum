@@ -70,7 +70,7 @@ const Topic = ({ lang, topic }) => {
 };
 
 const Topics = ({ lang, topics, track }) => {
-  const filteredTopics = topics.filter(t => t.track === track && t.intl[lang]);
+  const filteredTopics = topics.filter(t => t.tracks.includes(track) && t.intl[lang]);
   const jsTopicIdx = filteredTopics.findIndex(({ slug }) => slug === 'javascript');
   if (jsTopicIdx >= 0) {
     const jsTopic = filteredTopics[jsTopicIdx];
