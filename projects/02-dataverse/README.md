@@ -58,7 +58,7 @@ o mínimo, etc).
 ## 3. Consideraciones generales
 
 * Este proyecto se debe resolver en duplas.
-* El rango de tiempo estimado para completar el proyecto es de 3 a 4 Sprints.
+* El rango de tiempo estimado para completar el proyecto es de 4 a 5 Sprints.
 * El tiempo estimado que deberías dedicar a la [generación de los datos](#generar-los-datos)
   es de máximo un sprint. Además, al final del proyecto deberás presentar
   un [screenshot del prompt utilizado](#prompt-utilizado).
