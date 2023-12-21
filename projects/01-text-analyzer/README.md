@@ -580,7 +580,7 @@ Antes de agendar tu Project Feedback con tu coach, asegúrate de que tu proyecto
 
 Es el objetivo, pero no es necesario que todas las pruebas
 pasen con 100% para poder tener tu Project Feedback. 
-No es el punto de los tests a bloquearte. Pero es importante que comprendas
+El objetivo de los tests no es bloquearte. Pero es importante que comprendas
 qué objetivos tienes pendientes y discutas con tu coach si alguno
 de ellos es crucial para lograrlo antes de tu Project Feedback.
 
