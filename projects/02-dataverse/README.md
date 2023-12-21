@@ -343,6 +343,13 @@ npm run test:oas-prompting
 npm run test:oas // Esto es para correr todos los tests de OAs
 ```
 
+Ejecute las pruebas mientras desarrolla para confirmar que
+tu proyecto está logrando los objetivos. Si algunas pruebas no pasan,
+no permita que esto le impida avanzar o finalizar el proyecto.
+Utiliza esta información para ver qué necesitas investigar y
+cambiar en tu código, y consulta con tu coach cualquier
+objetivo que tengas pendiente.
+
 Nota: para el correcto funcionamiento de los tests, es necesario que tengas
 instalado `Node.js (LTS)` con la versión 14.0.0 o superior. Para verificar
 la versión de node ejecuta `node -v` en la terminal. Si el comando no te
@@ -773,17 +780,26 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
 ## 10. Consideraciones para pedir tu Project Feedback
 
-Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
+Antes de agendar tu Project Feedback con un coach, 
 
-* [ ] Cumple con todos los criterios mínimos de aceptación al ejecutar `npm run test:oas`
-* [ ] Cumple con todas las pruebas _end to end_ al ejecutar `npm run test:e2e`
-* [ ] Cumple con todas las pruebas unitarias al ejecutar `npm run test` y
+* [ ] Cumple con los criterios mínimos de aceptación al ejecutar `npm run test:oas`
+* [ ] Cumple con las pruebas unitarias al ejecutar `npm run test` y
   que tienen una cobertura del 70% de _statements_ (_sentencias_),
   _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
+* [ ] Cumple con las pruebas _end to end_ al ejecutar `npm run test:e2e`
+
+Es el objetivo, pero no es necesario que todas las pruebas
+pasen con 100% para poder tener tu Project Feedback. 
+No es el punto de los tests a bloquearte. Pero es importante que comprendas
+qué objetivos tienes pendientes y discutas con tu coach si alguno
+de ellos es crucial para lograrlo antes de tu Project Feedback.
+
+A continuación, asegúrate que tu proyecto:
+
 * [ ] Esta libre de _errores_ de `eslint` al ejecutar `npm run pretest`
 * [ ] Está subido a GitHub y desplegado en GitHub Pages
 * [ ] Captura de pantalla del prompt utilizado para generar los datos.
-* Tiene un `README.md` con la siguente:
+* Tiene un `README.md` con la siguiente:
   - [ ] _Definición del producto_ clara e informativa
   - [ ] Historias de usuario
   - [ ] Un _Diseño de la Interfaz de Usuaria_ (prototipo de alta fidelidad)
@@ -798,6 +814,3 @@ Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
 
 Recuerda que debes hacer una autoevaluación de _objetivos de aprendizaje_ y
 _life skills_ desde tu dashboard de estudiante.
-
-Si no has completado todo lo anterior, no consideramos que estás lista para
-tu sesión de Project Feedback.

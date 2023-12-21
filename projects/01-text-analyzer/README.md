@@ -441,8 +441,9 @@ usuarias en el centro**
 
 Este proyecto cuenta con 3 conjuntos de pruebas que te ayudarán a conocer si
 cumples los criterios mínimos de aceptación.
+
 Ejecute las pruebas mientras desarrolla para confirmar que
-está logrando los objetivos. Si algunas pruebas no pasan,
+tu proyecto está logrando los objetivos. Si algunas pruebas no pasan,
 no permita que esto le impida avanzar o finalizar el proyecto.
 Utiliza esta información para ver qué necesitas investigar y
 cambiar en tu código, y consulta con tu coach cualquier
@@ -579,15 +580,12 @@ Antes de agendar tu Project Feedback con tu coach, asegúrate de que tu proyecto
 
 Es el objetivo, pero no es necesario que todas las pruebas
 pasen con 100% para poder tener tu Project Feedback. 
-No es el punto bloquearte. Pero es importante que comprendas
+No es el punto de los tests a bloquearte. Pero es importante que comprendas
 qué objetivos tienes pendientes y discutas con tu coach si alguno
 de ellos es crucial para lograrlo antes de tu Project Feedback.
 
 Recuerda que debes hacer una autoevaluación de _objetivos de aprendizaje_ y
 _life skills_ desde tu dashboard de estudiante.
-
-Si no has completado todo lo anterior, no consideramos que estás lista para
-tu sesión de Project Feedback.
 
 ## 10. Objetivos de aprendizaje
 
