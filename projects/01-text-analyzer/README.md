@@ -567,7 +567,7 @@ Súmate al canal de Slack [#project-text-analyzer](https://claseslaboratoria.sla
 
 ## 9. Consideraciones para pedir tu Project Feedback
 
-Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
+Antes de agendar tu Project Feedback con tu coach, asegúrate de que tu proyecto:
 
 * Cumple los criterios mínimos de aceptación al ejecutar `npm run test:oas`
 * Cumple las pruebas unitarias al ejecutar `npm run test`
