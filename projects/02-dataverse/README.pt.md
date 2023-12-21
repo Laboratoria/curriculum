@@ -58,7 +58,7 @@ valor máximo ou mínimo, etc).
 ## 3. Considerações gerais
 
 * Este projeto deve ser realizado em duplas.
-* O tempo estimado para concluir o projeto é de 3 a 4 Sprints.
+* O tempo estimado para concluir o projeto é de 4 a 5 Sprints.
 * O tempo estimado que você deve dedicar à [geração de dados](#gerar-los-datos)
   é de no máximo uma sprint. Além disso, no final do projeto, você deve
   apresenta um [screenshot do prompt utilizado](#prompt-utilizado).
