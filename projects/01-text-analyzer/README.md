@@ -381,7 +381,7 @@ relacionados con cada objetivo de aprendizaje.
 
 * **Pruebas unitarias (unit tests)**
 
-  - [ ] Pasan la mayoría de las pruebas unitarias.
+  - [ ] Pasan las pruebas unitarias.
 
 * **Módulos de ECMAScript (ES Modules)**
 
@@ -440,10 +440,13 @@ usuarias en el centro**
 ## 7. Pruebas
 
 Este proyecto cuenta con 3 conjuntos de pruebas que te ayudarán a conocer si
-cumples los criterios mínimos de aceptación. No es necesario que cumplas con
-el 100% de las pruebas, pero si que las entiendas y puedas resolverlas en caso
-de que no estén pasando. Te recomendamos analizar con tu coach qué pruebas son
-las más importantes para tu proyecto.
+cumples los criterios mínimos de aceptación.
+Ejecute las pruebas mientras desarrolla para confirmar que
+está logrando los objetivos. Si algunas pruebas no pasan,
+no permita que esto le impida avanzar o finalizar el proyecto.
+Utiliza esta información para ver qué necesitas investigar y
+cambiar en tu código, y consulta con tu coach cualquier
+objetivo que tengas pendiente.
 
 ### Pruebas unitarias
 
@@ -566,13 +569,19 @@ Súmate al canal de Slack [#project-text-analyzer](https://claseslaboratoria.sla
 
 Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
 
-* Cumple con la mayoría de los criterios mínimos de aceptación al ejecutar `npm run test:oas`
-* Cumple con la mayoría de las pruebas unitarias al ejecutar `npm run test`
-* Cumple con la mayoría de las pruebas _end to end_ al ejecutar `npm run test:e2e`
+* Cumple los criterios mínimos de aceptación al ejecutar `npm run test:oas`
+* Cumple las pruebas unitarias al ejecutar `npm run test`
+* Cumple las pruebas _end to end_ al ejecutar `npm run test:e2e`
 * Esta libre de _errores_ de `eslint` al ejecutar `npm run test`
 * Está subido a GitHub.
 * Esta desplegado en GitHub Pages.
 * Tiene un README con la definición del producto.
+
+Es el objetivo, pero no es necesario que todas las pruebas
+pasen con 100% para poder tener tu Project Feedback. 
+No es el punto bloquearte. Pero es importante que comprendas
+qué objetivos tienes pendientes y discutas con tu coach si alguno
+de ellos es crucial para lograrlo antes de tu Project Feedback.
 
 Recuerda que debes hacer una autoevaluación de _objetivos de aprendizaje_ y
 _life skills_ desde tu dashboard de estudiante.
