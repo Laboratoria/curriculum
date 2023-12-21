@@ -47,16 +47,15 @@ desenvolvedora, você explore novas alternativas e técnicas para armazenar
 e consultar essas informações, garantindo a melhor experiência do usuário
 em sua API REST.
 
-## 3. Objetivos de aprendizado
+## 3. Objetivos de aprendizagem
 
 > ℹ️ Esta seção será automaticamente gerada no idioma pertinente, a partir dos
-objetivos de aprendizado declarados em [`project.yml`](./project.yml), ao criar
-o repositório do projeto para uma turma específica usando
-[`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+> objetivos de aprendizagem declarados em [`project.yml`](./project.yml), ao
+> criar o repositório do projeto para uma coorte em particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
 >
-> Aqui você pode ver uma
-[lista de todos os objetivos de aprendizado](../../learning-objectives/data.yml)
-contemplados em nossa grade curricular.
+> Aqui você pode ver uma [lista de todos os objetivos de aprendizagem](../../learning-objectives/data.yml)
+> cobertos em nosso currículo.
 
 ## 4. Considerações de carácter geral
 
@@ -192,8 +191,8 @@ url, parâmetros,
 
 Você pode implementar este projeto em JavaScript ou Java.
 
-* [Java](./docs/README-java.pt.md#stack-de-tecnologías)
-* [NodeJs](./docs/README-node.pt.md#stack-de-tecnologías)
+* [Java](./docs/README-java.md#stack-de-tecnologías)
+* [NodeJs](./docs/README-node.md#stack-de-tecnologías)
 
 ## 7. Dicas, sugestões e leituras complementares
 
@@ -233,4 +232,4 @@ valor `application/json`.
 ## 8. Funcionalidades Opcionais
 
 Se você completou todas as funcionalidades do projeto, convidamos você a
-trabalhar nas [funcionalidades opcionais](./docs/README.extension.pt.md)
+trabalhar nas [funcionalidades opcionais](./docs/README.extension.md)
