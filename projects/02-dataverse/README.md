@@ -349,6 +349,7 @@ npm run test:oas // Esto es para correr todos los tests de OAs
   - [ ] Uso de flexbox para el elemento que contiene los items
   - [ ] Uso de flexbox para el elemento que contiene los UI inputs
   - [ ] Uso de atributos de modelo de caja para los items <li>
+  - [ ] Uso de atributos de modelo de caja para <header> o <footer> 
   
 #### Web APIs
 
