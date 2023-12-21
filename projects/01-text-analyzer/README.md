@@ -211,32 +211,6 @@ relacionados con cada objetivo de aprendizaje.
   uno para mostrar cada métrica.  Para que puedas practicar más, estos
   elementos no pueden tener atributos `id` ni `name` ni hijos.
 
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-  para mostrar el _recuento de palabras_ debe tener un atributo
-  `data-testid` con valor `word-count`.
-
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-  para mostrar el _recuento de caracteres_ debe tener un atributo
-  `data-testid` con valor `character-count`.
-
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-  para mostrar el
-  _recuento de caracteres excluyendo espacios y signos de puntuación_
-  debe tener un atributo
-  `data-testid` con valor `character-no-spaces-count`.
-
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-  para mostrar el _recuento de números_ debe tener un atributo
-  `data-testid` con valor `number-count`.
-
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-  para mostrar la _suma total de números_ debe tener un atributo
-  `data-testid` con valor `number-sum`.
-
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-  para mostrar la _longitud media de palabras_ debe tener un atributo
-  `data-testid` con valor `word-length-average`.
-
   - [ ] La aplicación tiene un pie de página conformado por un
   [`<footer>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
   que es padre de un
@@ -508,6 +482,38 @@ Puedes ejecutar estas pruebas con el comando `npm run test:e2e` como se muestra
 en la siguiente imagen:
 
 ![npm run test e2e](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650622-a4da630e-8d39-4dd8-9fde-1a38c31a53e2.gif "npm run test e2e")
+
+Para que los tests end-to-end (e2e) puedan evaluar el flujo, es necesario
+contar con acceso a determinados elementos en la página. Este acceso se
+logra agregando un atributo
+[`data-testid`](https://playwright.dev/docs/locators#locate-by-test-id).
+Por este motivo, es necesario agregar lo siguiente:
+
+* [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+para mostrar el _recuento de palabras_ debe tener un atributo
+`data-testid` con valor `word-count`.
+
+* [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+para mostrar el _recuento de caracteres_ debe tener un atributo
+`data-testid` con valor `character-count`.
+
+* [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+para mostrar el
+_recuento de caracteres excluyendo espacios y signos de puntuación_
+debe tener un atributo
+`data-testid` con valor `character-no-spaces-count`.
+
+* [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+para mostrar el _recuento de números_ debe tener un atributo
+`data-testid` con valor `number-count`.
+
+* [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+para mostrar la _suma total de números_ debe tener un atributo
+`data-testid` con valor `number-sum`.
+
+* [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+para mostrar la _longitud media de palabras_ debe tener un atributo
+`data-testid` con valor `word-length-average`.
 
 ### Github actions
 
