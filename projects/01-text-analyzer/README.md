@@ -487,33 +487,33 @@ Para que los tests end-to-end (e2e) puedan evaluar el flujo, es necesario
 contar con acceso a determinados elementos en la página. Este acceso se
 logra agregando un atributo
 [`data-testid`](https://playwright.dev/docs/locators#locate-by-test-id).
-Por este motivo, es necesario agregar lo sigiente:
+Por este motivo, es necesario agregar lo siguiente:
 
- - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-  para mostrar el _recuento de palabras_ debe tener un atributo
-  `data-testid` con valor `word-count`.
+* [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+para mostrar el _recuento de palabras_ debe tener un atributo
+`data-testid` con valor `word-count`.
 
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-  para mostrar el _recuento de caracteres_ debe tener un atributo
-  `data-testid` con valor `character-count`.
+* [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+para mostrar el _recuento de caracteres_ debe tener un atributo
+`data-testid` con valor `character-count`.
 
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-  para mostrar el
-  _recuento de caracteres excluyendo espacios y signos de puntuación_
-  debe tener un atributo
-  `data-testid` con valor `character-no-spaces-count`.
+* [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+para mostrar el
+_recuento de caracteres excluyendo espacios y signos de puntuación_
+debe tener un atributo
+`data-testid` con valor `character-no-spaces-count`.
 
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-  para mostrar el _recuento de números_ debe tener un atributo
-  `data-testid` con valor `number-count`.
+* [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+para mostrar el _recuento de números_ debe tener un atributo
+`data-testid` con valor `number-count`.
 
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-  para mostrar la _suma total de números_ debe tener un atributo
-  `data-testid` con valor `number-sum`.
+* [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+para mostrar la _suma total de números_ debe tener un atributo
+`data-testid` con valor `number-sum`.
 
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-  para mostrar la _longitud media de palabras_ debe tener un atributo
-  `data-testid` con valor `word-length-average`.
+* [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+para mostrar la _longitud media de palabras_ debe tener un atributo
+`data-testid` con valor `word-length-average`.
 
 ### Github actions
 
