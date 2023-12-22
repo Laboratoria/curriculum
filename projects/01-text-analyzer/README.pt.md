@@ -64,20 +64,20 @@ A lista de funcionalidades é a seguinte:
 2. A aplicação deve calcular as seguintes métricas e atualizar o
     resultado em tempo real conforme a usuária escreve o texto:
 
-    - **Contagem de palavras**: a aplicação deve ser capaz de contar o número de
+    + **Contagem de palavras**: a aplicação deve ser capaz de contar o número de
       palavras no texto de entrada e mostrar essa contagem para a usuária.
-    - **Contagem de caracteres**: a aplicação deve ser capaz de contar o número de
+    + **Contagem de caracteres**: a aplicação deve ser capaz de contar o número de
       caracteres no texto de entrada, incluindo espaços e sinais de
       pontuação, e mostrar essa contagem para a usuária.
-    - **Contagem de caracteres excluindo espaços e sinais de pontuação**:
+    + **Contagem de caracteres excluindo espaços e sinais de pontuação**:
       a aplicação deve ser capaz de contar o número de caracteres no texto de
       entrada, excluindo espaços e sinais de pontuação, e mostrar essa contagem
       para a usuária.
-    - **Contagem de números**: a aplicação deve contar quantos números há no
+    + **Contagem de números**: a aplicação deve contar quantos números há no
       texto de entrada e mostrar essa contagem para a usuária.
-    - **Soma total dos números**: a aplicação deve somar todos os números que
+    + **Soma total dos números**: a aplicação deve somar todos os números que
       estão no texto de entrada e mostrar o resultado para a usuária.
-    - **Comprimento médio das palavras**: a aplicação deve calcular o
+    + **Comprimento médio das palavras**: a aplicação deve calcular o
       comprimento médio das palavras no texto de entrada e mostrar esse valor
       para a usuária.
 
