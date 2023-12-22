@@ -780,37 +780,38 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
 ## 10. Consideraciones para pedir tu Project Feedback
 
-Antes de agendar tu Project Feedback con un coach, 
+Antes de agendar tu Project Feedback con un coach:
 
-* [ ] Cumple con los criterios mínimos de aceptación al ejecutar `npm run test:oas`
-* [ ] Cumple con las pruebas unitarias al ejecutar `npm run test` y
+* Cumple con los criterios mínimos de aceptación al ejecutar `npm run test:oas`
+* Cumple con las pruebas unitarias al ejecutar `npm run test` y
   que tienen una cobertura del 70% de _statements_ (_sentencias_),
   _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
-* [ ] Cumple con las pruebas _end to end_ al ejecutar `npm run test:e2e`
+* Cumple con las pruebas _end to end_ al ejecutar `npm run test:e2e`
 
 Es el objetivo, pero no es necesario que todas las pruebas
-pasen con 100% para poder tener tu Project Feedback. 
+pasen con 100% para poder tener tu Project Feedback.
 No es el punto de los tests a bloquearte. Pero es importante que comprendas
 qué objetivos tienes pendientes y discutas con tu coach si alguno
 de ellos es crucial para lograrlo antes de tu Project Feedback.
 
-A continuación, asegúrate que tu proyecto:
+A continuación, antes de tu Project Feedback con un coach asegúrate que
+tu proyecto:
 
-* [ ] Esta libre de _errores_ de `eslint` al ejecutar `npm run pretest`
-* [ ] Está subido a GitHub y desplegado en GitHub Pages
-* [ ] Captura de pantalla del prompt utilizado para generar los datos.
+* Esta libre de _errores_ de `eslint` al ejecutar `npm run pretest`
+* Está subido a GitHub y desplegado en GitHub Pages
+* Captura de pantalla del prompt utilizado para generar los datos.
 * Tiene un `README.md` con la siguiente:
-  - [ ] _Definición del producto_ clara e informativa
-  - [ ] Historias de usuario
-  - [ ] Un _Diseño de la Interfaz de Usuaria_ (prototipo de alta fidelidad)
-  - [ ] El listado de problemas que detectaste a través de tests
+  - _Definición del producto_ clara e informativa
+  - Historias de usuario
+  - Un _Diseño de la Interfaz de Usuaria_ (prototipo de alta fidelidad)
+  - El listado de problemas que detectaste a través de tests
     de usabilidad en el `README.md`
 * Tiene un UI que cumple las funcionalidades:
-  - [ ] Muestra lista con datos y/o indicadores
-  - [ ] Permite ordenar data por uno o más campos (asc y desc)
-  - [ ] Permite filtrar data con base en una condición
-  - [ ] Permite limpiar los filtros con un botón
-  - [ ] Es _responsive_
+  - Muestra lista con datos y/o indicadores
+  - Permite ordenar data por uno o más campos (asc y desc)
+  - Permite filtrar data con base en una condición
+  - Permite limpiar los filtros con un botón
+  - Es _responsive_
 
 Recuerda que debes hacer una autoevaluación de _objetivos de aprendizaje_ y
 _life skills_ desde tu dashboard de estudiante.
