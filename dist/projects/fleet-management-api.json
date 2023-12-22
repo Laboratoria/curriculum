@@ -2,11 +2,14 @@
   "slug": "fleet-management-api",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-fleet-management-api",
-  "version": "7.4.0",
-  "parserVersion": "5.2.0",
-  "createdAt": "2023-11-17T00:04:35.709Z",
+  "version": "7.5.0",
+  "parserVersion": "5.3.0",
+  "createdAt": "2023-12-05T18:21:21.294Z",
   "prefix": 5,
   "track": "web-dev",
+  "tracks": [
+    "web-dev"
+  ],
   "learningObjectives": [
     "node/npm-install",
     "node/package.json",
