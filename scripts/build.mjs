@@ -96,7 +96,7 @@ const parse = (dir, validate) => new Promise((resolve) => {
 });
 
 //
-// Create projects.json and topics.json with indeces of all projects and topics.
+// Create projects.json and topics.json with indices of all projects and topics.
 //
 const createIndexes = async (results) => {
   const resultsWithJson = await Promise.all(results.map(async result => ({
@@ -122,30 +122,55 @@ const createIndexes = async (results) => {
   )));
 };
 
-const addLearningObjectives = async () => {
-  const dir = path.join(__dirname, '../learning-objectives')
-  const [tree, es, pt] = await Promise.all([
-    loadYaml(path.join(dir, 'data.yml')),
-    loadYaml(path.join(dir, 'intl', 'es.yml')),
-    loadYaml(path.join(dir, 'intl', 'pt.yml')),
-  ]);
+const addLearningObjectives = async (validate) => {
+  
+  const parseObjectives = (validate) => new Promise((resolve) => {
+    const dir = path.join(__dirname, '../learning-objectives');
+    const dest = path.join(buildDir, 'learning-objectives.json')
+    const fd = openSync(validate ? '/dev/null' : dest, 'w');
 
-  const flat = flattenLearningObjectives(tree);
-  const json = {
-    tree,
-    flat,
-    intl: { es, pt },
-    table: flat.map(key => ({
-      key,
-      es: es[key]?.title || es[key],
-      pt: pt[key]?.title || pt[key],
-    })),
-  };
+    const args = [
+      'curriculum-parser',
+      'objectives',
+      dir,
+      '--repo', repository,
+      '--version', version,
+      '--strict', !!validate,
+    ];
 
-  await writeFile(
-    path.join(buildDir, 'learning-objectives.json'),
-    JSON.stringify(json, null, 2),
-  );
+    const child = spawn(
+      'npx',
+      args,
+      { stdio: [null, fd, 'pipe'] },
+    );
+  
+    const stderrChunks = [];
+    child.stderr.on('data', chunk => stderrChunks.push(chunk));
+  
+    child.on('close', (code) => {
+      if (code > 0) {
+        const err = Object.assign(new Error(`Error parsing learning objectives`), {
+          stderr: stderrChunks.join(''),
+        });
+        console.error(err.stderr);
+        return resolve(err);
+      }
+  
+      console.log(`<= OK parsing objectives`);
+      return resolve({ dest });
+    });  
+  });
+  
+  const { dest } = await parseObjectives(validate);
+  
+  if (!validate) {
+    const json = await JSON.parse(await readFile(dest));
+    await writeFile(
+      path.join(buildDir, 'learning-objectives.json'),
+      JSON.stringify(json, null, 2),
+    );
+  }
+ 
 };
 
 const main = async (args, opts) => {
@@ -172,8 +197,9 @@ const main = async (args, opts) => {
 
   if (!validate) {
     await createIndexes(results);
-    await addLearningObjectives();
   }
+
+  await addLearningObjectives(validate);
 };
 
 const { _: args, ...opts } = minimist(process.argv.slice(2));
