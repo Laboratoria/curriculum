@@ -2,11 +2,14 @@
   "slug": "dataverse",
   "repo": "Laboratoria/curriculum",
   "path": "projects/02-dataverse",
-  "version": "7.3.0",
-  "parserVersion": "5.1.0",
-  "createdAt": "2023-10-16T17:43:26.053Z",
+  "version": "7.6.0",
+  "parserVersion": "5.3.0",
+  "createdAt": "2023-12-22T17:29:59.342Z",
   "prefix": 2,
   "track": "web-dev",
+  "tracks": [
+    "web-dev"
+  ],
   "learningObjectives": [
     "html/semantics",
     "css/selectors",
@@ -44,6 +47,10 @@
     "es": {
       "title": "Dataverse",
       "summary": "<p>En este proyecto <strong>construirás una <em>página web</em> para visualizar un\n<em>conjunto (set) de datos</em></strong> que vas a generar con <a href=\"https://www.itmadrid.com/que-es-un-prompt-en-inteligencia-artificial-ia/\">prompting</a>.\nEsta página web se adecuará a lo que descubras que tu usuaria\nnecesita.</p>"
+    },
+    "pt": {
+      "title": "Dataverse",
+      "summary": "<p>Neste projeto, você <strong>construirá um <em>site</em> para visualizar um\n<em>conjunto de dados</em></strong> que você irá gerar através do <a href=\"https://www.itmadrid.com/que-es-un-prompt-en-inteligencia-artificial-ia/\">prompting</a>.\nEste site será adaptado para atender às necessidades que você\ndescobrir que suas usuárias têm.</p>"
     }
   },
   "cover": "https://user-images.githubusercontent.com/12631491/218505816-c6d11758-9de4-428f-affb-2a56ea4d68c4.png",

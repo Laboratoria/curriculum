@@ -2,11 +2,14 @@
   "slug": "design-lab",
   "repo": "Laboratoria/curriculum",
   "path": "projects/03-design-lab",
-  "version": "7.3.0",
-  "parserVersion": "5.1.0",
-  "createdAt": "2023-10-16T17:43:35.126Z",
+  "version": "7.6.0",
+  "parserVersion": "5.3.0",
+  "createdAt": "2023-12-22T17:30:08.242Z",
   "prefix": 3,
   "track": "ux",
+  "tracks": [
+    "ux"
+  ],
   "learningObjectives": [
     "agile-planning/scope",
     "agile-planning/workplan",

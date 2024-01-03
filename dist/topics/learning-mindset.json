@@ -2,10 +2,14 @@
   "slug": "learning-mindset",
   "repo": "Laboratoria/curriculum",
   "path": "topics/learning-mindset",
-  "version": "7.3.0",
-  "parserVersion": "5.1.0",
-  "createdAt": "2023-10-16T17:44:14.079Z",
+  "version": "7.6.0",
+  "parserVersion": "5.3.0",
+  "createdAt": "2023-12-22T17:30:53.961Z",
   "track": "web-dev",
+  "tracks": [
+    "web-dev",
+    "ux"
+  ],
   "intl": {
     "es": {
       "title": "Learning Mindset",

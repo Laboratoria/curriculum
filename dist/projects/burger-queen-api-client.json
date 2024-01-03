@@ -2,11 +2,14 @@
   "slug": "burger-queen-api-client",
   "repo": "Laboratoria/curriculum",
   "path": "projects/04-burger-queen-api-client",
-  "version": "7.3.0",
-  "parserVersion": "5.1.0",
-  "createdAt": "2023-10-16T17:43:38.380Z",
+  "version": "7.6.0",
+  "parserVersion": "5.3.0",
+  "createdAt": "2023-12-22T17:30:10.790Z",
   "prefix": 4,
   "track": "web-dev",
+  "tracks": [
+    "web-dev"
+  ],
   "learningObjectives": [
     "html/semantics",
     "css/selectors",
@@ -82,9 +85,7 @@
     "typescript/classes/members/getter-setters",
     "typescript/classes/class-heritage/implements",
     "typescript/classes/class-heritage/extends",
-    "typescript/classes/member-visibility/public",
-    "typescript/classes/member-visibility/protected",
-    "typescript/classes/member-visibility/private",
+    "typescript/classes/member-visibility",
     "typescript/classes/static-members",
     "typescript/classes/this",
     "typescript/classes/abstract-classes",

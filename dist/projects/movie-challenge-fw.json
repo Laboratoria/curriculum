@@ -2,11 +2,14 @@
   "slug": "movie-challenge-fw",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-movie-challenge-fw",
-  "version": "7.3.0",
-  "parserVersion": "5.1.0",
-  "createdAt": "2023-10-16T17:43:45.159Z",
+  "version": "7.6.0",
+  "parserVersion": "5.3.0",
+  "createdAt": "2023-12-22T17:30:18.661Z",
   "prefix": 5,
   "track": "web-dev",
+  "tracks": [
+    "web-dev"
+  ],
   "learningObjectives": [
     "html/semantics",
     "css/selectors",
@@ -82,9 +85,7 @@
     "typescript/classes/members/getter-setters",
     "typescript/classes/class-heritage/implements",
     "typescript/classes/class-heritage/extends",
-    "typescript/classes/member-visibility/public",
-    "typescript/classes/member-visibility/protected",
-    "typescript/classes/member-visibility/private",
+    "typescript/classes/member-visibility",
     "typescript/classes/static-members",
     "typescript/classes/this",
     "typescript/classes/abstract-classes",

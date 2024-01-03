@@ -2,11 +2,14 @@
   "slug": "design-and-usability",
   "repo": "Laboratoria/curriculum",
   "path": "projects/01-design-and-usability",
-  "version": "7.3.0",
-  "parserVersion": "5.1.0",
-  "createdAt": "2023-10-16T17:43:22.224Z",
+  "version": "7.6.0",
+  "parserVersion": "5.3.0",
+  "createdAt": "2023-12-22T17:29:56.233Z",
   "prefix": 1,
   "track": "ux",
+  "tracks": [
+    "ux"
+  ],
   "learningObjectives": [
     "user-centricity/user-oriented",
     "research/support",
