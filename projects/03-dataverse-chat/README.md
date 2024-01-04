@@ -7,10 +7,11 @@
 * [3. Consideraciones generales](#3-consideraciones-generales)
 * [4. Funcionalidades](#4-funcionalidades)
 * [5. Consideraciones técnicas](#5-consideraciones-técnicas)
-* [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
-* [7. Objetivos de aprendizaje](#7-objetivos-de-aprendizaje)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Consideraciones para pedir tu Project Feedback](#9-consideraciones-para-pedir-tu-project-feedback)
+* [6. Hitos](#6-hitos)
+* [7. Criterios de aceptación mínimos del proyecto](#7-criterios-de-aceptación-mínimos-del-proyecto)
+* [8. Objetivos de aprendizaje](#8-objetivos-de-aprendizaje)
+* [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
+* [10. Consideraciones para pedir tu Project Feedback](#10-consideraciones-para-pedir-tu-project-feedback)
 
 ***
 
@@ -133,12 +134,12 @@ Mis contribuciones más destacadas se relacionan con el trabajo junto a Charles 
 en el diseño de la Máquina Analítica. Además, desarrollé el primer algoritmo destinado
 a ser procesado por una máquina, lo que me convierte en la primera programadora de la historia.
 ¿Hay algo más en particular que te gustaría saber?"
- 
+
 Usuaria: "¡Eso es fascinante! ¿Qué desafíos enfrentaste en ese tiempo?"
 
 Ada Lovelace (AI de OpenAI): "En ese tiempo, enfrenté varios desafíos, uno de los
 principales fue la limitación de recursos y la falta de reconocimiento del potencial
-de la Máquina Analítica. También tuve que superar las restricciones sociales de 
+de la Máquina Analítica. También tuve que superar las restricciones sociales de
 la época, ya que las mujeres tenían un acceso limitado a la educación en
 matemáticas y ciencias. Sin embargo, mi pasión por la matemática y la visión
 de lo que estas máquinas podrían lograr me impulsaron a seguir adelante."
@@ -172,7 +173,7 @@ de ejemplo, cuyo principal objetivo es mostrarte cómo se vería la
 funcionalidad de chat en tu aplicación, más no tomes el diseño como
 referencia para tu proyecto, siente libre de hacer volar tu imaginación
 diseñando tu propia interfaz.
-  
+
 ## 5. Consideraciones técnicas
 
 La lógica del proyecto debe estar implementada completamente en JavaScript
@@ -186,7 +187,7 @@ La siguiente es una estructura de archivos que recomendamos:
 ```text
 .
 ├── src
-|  ├── components 
+|  ├── components
 |  ├── data
 |  |  └── dataset.js
 |  ├── lib
@@ -263,7 +264,24 @@ necesites para tu aplicación.
 Esta carpeta contiene los tests de tus funciones y componentes. Por ejemplo
 los tests de dataFunctions deben estar aquí.
 
-## 6. Criterios de aceptación mínimos del proyecto
+## 6. Hitos
+
+Para resolver un problema,
+es importante comprenderlo en profundidad.
+Una forma de hacerlo es descomponerlo en problemas más pequeños.
+Esto nos ayudará a identificar las causas del problema y a desarrollar soluciones más efectivas.
+
+En este proyecto, te sugerimos que trabajes por hitos.
+Esto te permitirá enfocarte en un problema a la vez y hacer un seguimiento de tu progreso.
+A continuación, te presentamos un cronograma de hitos que te puede ayudar a organizar tu trabajo.
+
+* [Hito 1](./docs/01-milestone.md)
+* [Hito 2](./docs/02-milestone.md)
+* [Hito 3](./docs/03-milestone.md)
+* [Hito 4](./docs/04-milestone.md)
+* [Hito 5](./docs/05-milestone.md)
+
+## 7. Criterios de aceptación mínimos del proyecto
 
 Además de las funcionalidades que definimos en la sección de
 [Funcionalidades](#4-funcionalidades), tu proyecto debe cumplir con los
@@ -347,7 +365,7 @@ Tus _pruebas unitarias_ deben dar una cobertura del 70% de _statements_
 (_ramas_) del archivo `src/dataFunctions.js` que contenga tus funciones y
 está detallado en la sección de [Consideraciones técnicas](#5-consideraciones-técnicas).
 
-## 7. Objetivos de aprendizaje
+## 8. Objetivos de aprendizaje
 
 > ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
@@ -357,7 +375,7 @@ está detallado en la sección de [Consideraciones técnicas](#5-consideraciones
 > Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
 > que contempla nuestra currícula.
 
-## 8. Pistas, tips y lecturas complementarias
+## 9. Pistas, tips y lecturas complementarias
 
 ### Primeros pasos
 
@@ -456,7 +474,7 @@ de tu aplicación
 * [Vercel](https://vercel.com/)
 * [Netlify](https://www.netlify.com/)
 
-## 9. Consideraciones para pedir tu Project Feedback
+## 10. Consideraciones para pedir tu Project Feedback
 
 Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
 
