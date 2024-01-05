@@ -45,10 +45,14 @@ export const getLearningObjectiveHeadings = (categoryTree, intl) => Object.keys(
         const title = localized?.title || intl[subcatKey] || subcatKey;
 
         const headingLevel = subcatKey.split('/').length + 2;
-        const headingStyle = (headingLevel <= 4) ? 'font-size:1rem' : 'font-size:1rem;font-weight:normal';
-        const indentation = (headingLevel > 4) ? '\t' : '';
-        const subheading = `${indentation}<h${headingLevel} style='${headingStyle}'>${title}</h${headingLevel}>\n`
-        
+        const [ rootCategory, ...parts ] = subcatKey.split('/');
+        let subcatSuffix = '';
+        if (parts.length > 1) {
+          // Note: this suffic is to help understand the hierarchy in the readme
+          const nearestParent = [rootCategory, ...parts.slice(0, -1)].join('/');
+          subcatSuffix = ` _(${(intl[nearestParent]?.title || intl[nearestParent] || nearestParent)})_`;
+        }
+        const subheading = `${'#'.repeat(headingLevel)} ${title}${subcatSuffix}\n`
         return ({...acc, [subcatKey]: [subheading]})
       } , {})}
     },
