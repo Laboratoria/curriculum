@@ -124,10 +124,6 @@ const addExplainDevConfigFile = async ({ project, cohort, track, repoDir }) => {
   }
 };
 
-const linkToString = ({ title, url }, lang) => (
-  `[${title}](${url.startsWith('topics/') ? `${uiUrl}/${lang}/${url}` : url})`
-);
-
 const addLocalizedLearningObjectives = async (repoDir, opts, meta) => {
 
   const learningObjectives = await transformLearningObjectives(repoDir, {
@@ -147,8 +143,8 @@ const addLocalizedLearningObjectives = async (repoDir, opts, meta) => {
   );
 
   const categoryTree = getLearningObjectiveHierarchy(learningObjectives);
-  const sectionTree = getLearningObjectiveHeadings(categoryTree);
-  const text = createLearningObjectivesMarkdown(learningObjectives, sectionTree);
+  const sectionTree = getLearningObjectiveHeadings(categoryTree, intl);
+  const text = createLearningObjectivesMarkdown(learningObjectives, sectionTree, intl, lang);
   const readmePath = path.join(repoDir, 'README.md');
   const contents = (await readFile(readmePath, 'utf8')).split('\n');
   const startIndex = contents.findIndex(

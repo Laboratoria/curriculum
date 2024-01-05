@@ -32,7 +32,7 @@ export const getLearningObjectiveHierarchy = (learningObjectives) => learningObj
   {},
 );
 
-export const getLearningObjectiveHeadings = (categoryTree) => Object.keys(categoryTree).reduce(
+export const getLearningObjectiveHeadings = (categoryTree, intl) => Object.keys(categoryTree).reduce(
   (memo, rootCategoryKey) => {
     const localizedCat = intl[rootCategoryKey] || {};
     const subcats = categoryTree[rootCategoryKey];
@@ -55,7 +55,12 @@ export const getLearningObjectiveHeadings = (categoryTree) => Object.keys(catego
   {},
 );
 
-export const createLearningObjectivesMarkdown = (learningObjectives, sectionTree) => {
+const linkToString = ({ title, url }, lang) => {
+  const uiUrl = 'https://curriculum.laboratoria.la';
+  return `[${title}](${url.startsWith('topics/') ? `${uiUrl}/${lang}/${url}` : url})`
+};
+
+export const createLearningObjectivesMarkdown = (learningObjectives, sectionTree, intl, lang) => {
   learningObjectives.forEach((objectiveKey) => {
     const item = intl[objectiveKey] || {};
     const title = item.title || objectiveKey.split('/').slice(1).join('/');
