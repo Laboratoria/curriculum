@@ -344,12 +344,16 @@ npm run test:oas // Esto es para correr todos los tests de OAs
 
 * **Uso de selectores de CSS**
 
-  - [ ] Uso de selector class para los items <li>
+  - [ ] Uso de selector class para los items `<li>`
   - [ ] Uso de flexbox en sentido `row` y `column`
   - [ ] Uso de flexbox para el elemento que contiene los items
   - [ ] Uso de flexbox para el elemento que contiene los UI inputs
-  - [ ] Uso de atributos de modelo de caja para los items <li>
-  - [ ] Uso de atributos de modelo de caja para <header> o <footer> 
+
+  * **Uso de selectores de CSS**
+
+    - [ ] Uso de atributos de modelo de caja para los items `<li>`
+    - [ ] Uso de atributos de modelo de caja para `<header>` o `<footer>`
+
   
 #### Web APIs
 
