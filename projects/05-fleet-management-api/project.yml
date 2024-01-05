@@ -1,16 +1,9 @@
 track: web-dev
 learningObjectives:
+  - java
+  - object-oriented-programming
   - node
-  - db/modeling
-  - db/connection
-  - db/indexes-constraints
-  - sql/tables
-  - sql/crud
-  - sql/drop
-  - postgres/psql
+  - sql
+  - db
   - postgres/data-types
-  - postgres/dump-restore
   - postgres/indexes
-  - react
-  - vue
-  - angular
