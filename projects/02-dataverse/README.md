@@ -375,11 +375,10 @@ crearán estos elementos.
   - [ ] Uso de flexbox para el elemento que contiene los items
   - [ ] Uso de flexbox para el elemento que contiene los UI inputs
 
-  * **Uso de selectores de CSS**
+* **Modelo de caja (box model): borde, margen, padding**
 
-    - [ ] Uso de atributos de modelo de caja para los items `<li>`
-    - [ ] Uso de atributos de modelo de caja para `<header>` o `<footer>`
-
+  - [ ] Uso de atributos de modelo de caja para los items `<li>`
+  - [ ] Uso de atributos de modelo de caja para `<header>` o `<footer>`
   
 #### Web APIs
 
