@@ -2,11 +2,14 @@
   "slug": "notes",
   "repo": "Laboratoria/curriculum",
   "path": "projects/04-notes",
-  "version": "7.2.0",
-  "parserVersion": "5.1.0",
-  "createdAt": "2023-09-28T20:34:08.567Z",
+  "version": "7.6.0",
+  "parserVersion": "5.3.0",
+  "createdAt": "2023-12-22T17:30:12.958Z",
   "prefix": 4,
   "track": "web-dev",
+  "tracks": [
+    "web-dev"
+  ],
   "learningObjectives": [
     "html/semantics",
     "css/selectors",

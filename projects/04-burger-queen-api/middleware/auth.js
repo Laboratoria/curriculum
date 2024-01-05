@@ -18,17 +18,17 @@ module.exports = (secret) => (req, resp, next) => {
       return next(403);
     }
 
-    // TODO: Verificar identidad del usuario usando `decodeToken.uid`
+    // TODO: Verify user identity using `decodeToken.uid`
   });
 };
 
 module.exports.isAuthenticated = (req) => (
-  // TODO: decidir por la informacion del request si la usuaria esta autenticada
+  // TODO: Decide based on the request information whether the user is authenticated
   false
 );
 
 module.exports.isAdmin = (req) => (
-  // TODO: decidir por la informacion del request si la usuaria es admin
+  // TODO: Decide based on the request information whether the user is an admin
   false
 );
 

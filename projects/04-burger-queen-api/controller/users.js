@@ -1,5 +1,5 @@
 module.exports = {
   getUsers: (req, resp, next) => {
-    // TODO: Implementa la función necesaria para traer la colección `users`
+    // TODO: Implement the necessary function to fetch the `users` collection or table
   },
 };

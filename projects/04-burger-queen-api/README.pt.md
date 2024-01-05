@@ -51,7 +51,7 @@ e temos [um guia para começar com o MongoDB.](./guides/GETTING-STARTED-MONGODB.
 [PostgreSQL](https://www.postgresql.org/) e [MySQL](https://www.mysql.com/).
 
 O cliente nos deu um
-[link](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
+[link](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/3.0.0)
 para a documentação que especifica o comportamento esperado da API que
 iremos expor por HTTP.
 Lá podemos encontrar todos os detalhes que os _endpoints_ deve
@@ -123,41 +123,9 @@ usá-los como um guia de implementação e lista de verificação de integridade
 
 ### 5.1 API
 
-Conforme estabelecido pela
-[documentação](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/2.0.0)
-entregue pelo nosso cliente, a API deve expor os seguintes endpoints:
-
-#### 5.1,1 `/`
-
-* `GET /`
-
-#### 5.1.2 `/auth`
-
-* `POST /auth`
-
-#### 5.1.3 `/users`
-
-* `GET /users`
-* `GET /users/:uid`
-* `POST /users`
-* `PATCH /users/:uid`
-* `DELETE /users/:uid`
-
-#### 5.1.4 `/products`
-
-* `GET /products`
-* `GET /products/:productid`
-* `POST /products`
-* `PATCH /products/:productid`
-* `DELETE /products/:productid`
-
-#### 5.1.5 `/orders`
-
-* `GET /orders`
-* `GET /orders/:orderId`
-* `POST /orders`
-* `PATCH /orders/:orderId`
-* `DELETE /orders/:orderId`
+A API deve expor os serviços da
+[documentação](https://app.swaggerhub.com/apis-docs/ssinuco/BurgerQueenAPI/3.0.0)
+fornecida pela nossa cliente.
 
 ### 5.2 CLI
 
