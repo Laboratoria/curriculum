@@ -1,4 +1,8 @@
-import { getFilesWithLocales } from '../script-utils.mjs';
+import { getFilesWithLocales, 
+  getLearningObjectiveHeadings,
+  getLearningObjectiveHierarchy,
+  createLearningObjectivesMarkdown
+} from '../script-utils.mjs';
 import { existsSync } from 'fs';
 import { assert } from 'chai';
 
@@ -21,5 +25,26 @@ describe('script utils', () => {
       assert.equal(filesPtJp.length, 3);
       assert.equal(filesPtJp.filter(f => !(f.endsWith('.pt.md') || f.endsWith('.jp.md'))).length, 0);
     });
+  });
+
+  describe('getLearningObjectivesHierarchy', () => {
+    it('should return an object with top level categories as keys, ex. java, js', () => {
+
+    });
+    it('should return an object with values that are arrays subcategories of its keys, ex { js: js/data-types, js/functions }', () => {
+      
+    });
+    it('should return an object with value of empty array for a key with no subcategories, ex { html: [] }', () => {
+      
+    });
+  });
+
+  describe('getLearningObjectivesHeadings', () => {
+    it('', () => {});
+  });
+
+  describe('createLearningObjectivesMarkdown', () => {
+    it('', () => {});
   })
+
 });

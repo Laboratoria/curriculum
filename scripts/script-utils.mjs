@@ -14,3 +14,72 @@ export const getFilesWithLocales = (dir, locales) => {
   const regexLocaleMD = new RegExp(`\.(${locales.join('|')})\.md`);
   return filesWithExt.filter((filepath) => filepath.match(regexLocaleMD));
 }
+
+export const getLearningObjectiveHierarchy = (learningObjectives) => learningObjectives.reduce(
+  (memo, item) => {
+    const [ root, ...parts] = item.split('/');
+    const result = { ...memo };
+    if (!result[root]) {
+      Object.assign(result, { [root]: [] })
+    } 
+    const subcats = parts.slice(0, -1).reduce((acc, part, i, arr) =>
+      [...acc, `${root}/${arr.slice(0, i + 1).join('/')}`], []);
+      /* js/testing/async => js/testing */
+      /* java/spring-framework/core-concepts/beans => java/spring-framework, java/spring-framework/core-concepts */
+    subcats.forEach(subcat => !result[root].includes(subcat) && result[root].push(subcat));
+    return result;
+  },
+  {},
+);
+
+export const getLearningObjectiveHeadings = (categoryTree) => Object.keys(categoryTree).reduce(
+  (memo, rootCategoryKey) => {
+    const localizedCat = intl[rootCategoryKey] || {};
+    const subcats = categoryTree[rootCategoryKey];
+
+    return {
+      ...memo,
+      [rootCategoryKey]: [`### ${localizedCat.title || intl[catKey] || catKey}\n`],
+      ...subcats.reduce((acc, subcatKey, i) => {
+        const localized = intl[subcatKey];
+        const title = localized?.title || intl[subcatKey] || subcatKey;
+
+        const headingLevel = subcatKey.split('/').length + 2;
+        const headingStyle = (headingLevel <= 4) ? 'font-size:1rem' : 'font-size:1rem;font-weight:normal';
+        const indentation = (headingLevel > 4) ? '\t' : '';
+        const subheading = `${indentation}<h${headingLevel} style='${headingStyle}'>${title}</h${headingLevel}>\n`
+        
+        return ({...acc, [subcatKey]: [subheading]})
+      } , {})}
+    },
+  {},
+);
+
+export const createLearningObjectivesMarkdown = (learningObjectives, sectionTree) => {
+  learningObjectives.forEach((objectiveKey) => {
+    const item = intl[objectiveKey] || {};
+    const title = item.title || objectiveKey.split('/').slice(1).join('/');
+    let markup;
+    if (!item.links || !item.links.length) {
+      markup = `\n- [ ] **${title}**\n`;
+    } else {
+       // collapsible links
+      const detailsStart = '<details><summary>Links</summary><p>\n';
+      const detailsEnd = '\n</p></details>\n';
+      markup = (item.links.reduce((prev, link) => `${prev}\n  * ${linkToString(link, lang)}`, 
+        `\n- [ ] **${title}**\n\n  ${detailsStart}`) 
+      ) + detailsEnd;
+    }
+   
+    // find out where to put the markup
+    const [ rootCategory, ...parts ] = objectiveKey.split('/');
+    if (parts.length === 1) { // we are just one level under the root cat
+      sectionTree[rootCategory].push(markup);
+    } else {
+      const nearestParent = [rootCategory, ...parts.slice(0, -1)].join('/');
+      sectionTree[nearestParent].push(markup);
+    }
+  });
+
+  return Object.values(sectionTree).map(text => text.join('')).join('\n');
+}

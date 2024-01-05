@@ -16,7 +16,8 @@ learningObjectives:
   - js/data-types/objects
   - js/expression-vs-statement
   - js/loops
-  - js/modules/es-modules
+  - js/modules
+  - java/spring-framework/core-concepts/beans
   - js/testing/unit
   - js/testing/async
   - js/testing/mocks

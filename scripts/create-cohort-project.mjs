@@ -14,7 +14,12 @@ import {
   transformLearningObjectives,
   loadYaml,
 } from '@laboratoria/curriculum-parser/lib/project.js';
-import { getFilesWithLocales, defaultLocale, supportedLocales } from './script-utils.mjs';
+import { getFilesWithLocales,
+  defaultLocale,
+  supportedLocales,
+  getLearningObjectiveHeadings,
+  getLearningObjectiveHierarchy,
+  createLearningObjectivesMarkdown } from './script-utils.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const uiUrl = 'https://curriculum.laboratoria.la';
@@ -129,6 +134,9 @@ const addLocalizedLearningObjectives = async (repoDir, opts, meta) => {
     lo: path.join(__dirname, '../learning-objectives'),
   }, meta);
 
+  // Note: learningObjectives returns list of specific oa's 
+  // example: so for js/modules -> js/modules/esm, js/modules/common
+
   if (!learningObjectives) {
     return;
   }
@@ -137,39 +145,10 @@ const addLocalizedLearningObjectives = async (repoDir, opts, meta) => {
   const intl = await loadYaml(
     path.join(__dirname, '../learning-objectives', 'intl', `${lang}.yml`),
   );
-  const cats = learningObjectives.reduce(
-    (memo, item) => {
-      const cat = item.split('/')[0];
-      return memo.includes(cat) ? memo : [...memo, cat];
-    },
-    [],
-  );
-  const text = cats.reduce(
-    (memo, cat) => {
-      const localizedCat = intl[cat] || {};
-      return learningObjectives
-        .filter(item => item.startsWith(`${cat}/`))
-        .reduce(
-          (prev, key) => {
-            const item = intl[key] || {};
-            const title = item.title || key.split('/').slice(1).join('/');
-            if (!item.links || !item.links.length) {
-              return `${prev}\n\n- [ ] **${title}**`;
-            }
-            // collapsible links
-            const detailsStart = '<details><summary>Links</summary><p>\n';
-            const detailsEnd = '\n</p></details>';
-            return item.links.reduce(
-              (p, link) => `${p}\n  * ${linkToString(link, lang)}`,
-              `${prev}\n\n- [ ] **${title}**\n\n  ${detailsStart}`,
-            ) + detailsEnd;
-          },
-          `${memo}\n\n### ${localizedCat.title || intl[cat] || cat}`,
-        );
-    },
-    '',
-  );
 
+  const categoryTree = getLearningObjectiveHierarchy(learningObjectives);
+  const sectionTree = getLearningObjectiveHeadings(categoryTree);
+  const text = createLearningObjectivesMarkdown(learningObjectives, sectionTree);
   const readmePath = path.join(repoDir, 'README.md');
   const contents = (await readFile(readmePath, 'utf8')).split('\n');
   const startIndex = contents.findIndex(
