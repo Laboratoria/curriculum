@@ -41,7 +41,7 @@ const getNearestSubcategoryParent = (objectiveKey) => objectiveKey.split('/').sl
  * 
  * @param {object} categoryTree an object rep of hierarchy of categories and subcats, as returned in getLearningObjecttivesHierarchy
  * @param {object} intl localized objectives content
- * @returns {object} key is category/subcat is a key, value is heading with intl string and heading level { 'js/testing': '#### Testing' }
+ * @returns {object} key is category/subcat, value is heading with intl string and heading level ex. { 'js/testing': '#### Testing' }
  */
 export const getLearningObjectivesHeadings = (categoryTree, intl) => Object.keys(categoryTree).reduce(
   (memo, rootCategoryKey) => {
