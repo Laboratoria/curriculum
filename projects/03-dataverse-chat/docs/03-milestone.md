@@ -45,4 +45,29 @@ export const saveApiKey = (key) => {
 
 Estas funciones facilitarán el manejo seguro de la API KEY dentro de tu aplicación, asegurando que la información esté disponible y protegida en todo momento.
 
+* Test
+
+Dentro de la carpeta ```test```, crea un archivo ```apiKey.spec.js```. En este archivo, escribe los test correspondientes para verificar el funcionamiento de las funciones creadas.
+
+``` js
+// test/apiKey.spec.js
+
+import { getApiKey, saveApiKey } from '../src/utils/apiKey.js';
+
+describe('getApiKey', () => {
+
+  it('returns `getApiKey`', () => {
+    expect(getApiKey()).toBe('example');
+  });
+});
+
+describe('saveApiKey', () => {
+
+  it('returns `saveApiKey`', () => {
+    expect(saveApiKey(key)).toBe('example');
+  });
+});
+
+```
+
 [👈Todos los hitos](../README.md#6-hitos)
