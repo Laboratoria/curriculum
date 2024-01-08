@@ -17,8 +17,8 @@ import {
 import { getFilesWithLocales,
   defaultLocale,
   supportedLocales,
-  getLearningObjectiveHeadings,
-  getLearningObjectiveHierarchy,
+  getLearningObjectivesHeadings,
+  getLearningObjectivesHierarchy,
   createLearningObjectivesMarkdown } from './script-utils.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
