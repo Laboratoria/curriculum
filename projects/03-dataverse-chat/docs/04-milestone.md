@@ -39,4 +39,25 @@ export const openAIApi = (messages) => {
 
 ```
 
+* Test
+
+Para verificar el funcionamiento de las funciones creadas, crea un archivo ```openAIApi.spec.js``` en la carpeta ```test```.
+
+💡Tip: [Test de código asíncrono](https://jestjs.io/es-ES/docs/asynchronous)
+
+``` js
+// test/openAIApi.spec.js
+
+import { openAIApi } from '../src/utils/openAIApi.js';
+
+describe('openAIApi', () => {
+  test('openAIApi', () => {
+  return openAIApi().then(data => {
+    expect(data).toBe('example');
+  });
+});
+});
+
+```
+
 [👈Todos los hitos](../README.md#6-hitos)
