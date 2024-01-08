@@ -357,7 +357,7 @@ desde su [sitio oficial](https://nodejs.org/).
   - [ ] Tiene un `<footer>`
   - [ ] Tiene un `<main>` con `<h2>`
   - [ ] Todas las etiquetas de controles (inputs, selects, radio, etc) tienen `<label>`
-  - [ ] Todas las etiquetas `<label>` usan el atributo `for` y el valor de este coincide con el `id` de la etiqueta de control (inputs, selects, radio, etc)
+  - [ ] Todas las etiquetas `<label>` usan el atributo `for`
   - [ ] `<ul>` esta usado para dibujar la data
   - [ ] Los hijos de `<li>` usan attributos de [microdata](https://recursivos.com/html/microdatos/)
   `itemscope` e `itemprop`
