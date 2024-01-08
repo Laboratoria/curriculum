@@ -356,6 +356,7 @@ de seu [site oficial](https://nodejs.org/).
   - [ ] Possui um `<footer>`
   - [ ] Possui um `<main>` com um `<h2>`
   - [ ] Todos os elementos de controle (inputs, selects, radio, etc) possuem `<label>`
+  - [ ] Todas as tags `<label>` usam o atributo `for`
   - [ ] Usa `<ul>` para renderizar os dados
   - [ ] Os filhos de `<li>` usam os atributos de [microdados](https://recursivos.com/html/microdatos/)
   `itemscope` e `itemprop`
@@ -372,6 +373,11 @@ pois a partir dos dados você pode criará esses elementos.
   - [ ] Uso de flexbox em sentido `row` e `column`
   - [ ] Uso de flexbox para o elemento que contém os itens
   - [ ] Uso de flexbox para o elemento que contém os inputs UI
+
+* **Modelo de caixa (box model): borda, margem, preenchimento**
+
+  - [ ] Uso de atributos de modelo de caixa para itens `<li>`
+  - [ ] Uso de atributos de modelo de caixa para `<header>` ou `<footer>`
 
 #### Web APIs
 
