@@ -787,9 +787,9 @@ Antes de agendar tu Project Feedback con un coach:
   _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
 * Cumple con las pruebas _end to end_ al ejecutar `npm run test:e2e`
 
-Es el objetivo, pero no es necesario que todas las pruebas
+No es necesario que todas las pruebas
 pasen con 100% para poder tener tu Project Feedback.
-No es el punto de los tests a bloquearte. Pero es importante que comprendas
+El objetivo de los tests no es bloquearte, pero es importante que comprendas
 qué objetivos tienes pendientes y discutas con tu coach si alguno
 de ellos es crucial para lograrlo antes de tu Project Feedback.
 
