@@ -415,9 +415,9 @@ usuarias en el centro**
 Este proyecto cuenta con 3 conjuntos de pruebas que te ayudarán a conocer si
 cumples los criterios mínimos de aceptación.
 
-Ejecute las pruebas mientras desarrolla para confirmar que
+Ejecuta las pruebas mientras desarrolla para confirmar que
 tu proyecto está logrando los objetivos. Si algunas pruebas no pasan,
-no permita que esto le impida avanzar o finalizar el proyecto.
+no permitas que esto te impida avanzar o finalizar el proyecto.
 Utiliza esta información para ver qué necesitas investigar y
 cambiar en tu código, y consulta con tu coach cualquier
 objetivo que tengas pendiente.
