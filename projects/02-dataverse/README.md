@@ -364,8 +364,7 @@ desde su [sitio oficial](https://nodejs.org/).
   - [ ] Los hijos de `<li>` usan attributos de [microdata](https://recursivos.com/html/microdatos/)
   `itemscope` e `itemprop`
 
-Nota: ten en cuenta que para poder testear el HTML de `<ul>` y `<li>` en tu proyecto,
-es necesario que ya tengas una data creada, ya que a partir de la data se
+Nota: Ten en cuenta que para poder testear el HTML de `<ul>` y `<li>` en tu proyecto es necesario que ya tengas una data creada, ya que a partir de la data se
 crearán estos elementos.
 
 #### CSS
@@ -374,7 +373,7 @@ crearán estos elementos.
 
   - [ ] Uso de selector class para los items `<li>`
   - [ ] Uso de flexbox en sentido `row` y `column`
-  - [ ] Uso de flexbox para el elemento que contiene los items
+  - [ ] Uso de flexbox para el elemento que contiene los items `<li>`
   - [ ] Uso de flexbox para el elemento que contiene los UI inputs
 
 * **Modelo de caja (box model): borde, margen, padding**
@@ -386,23 +385,23 @@ crearán estos elementos.
 
 * **Uso de selectores del DOM**
 
-  - [ ] La aplicación usa [`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
-    para buscar los elementos del DOM
+  - [ ] Uso de [`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+    para seleccionar elementos del DOM.
   
 * **Manejo de eventos del DOM (listeners, propagación, delegación)**
 
-  - [ ] `addEventListener` con callback que tiene parámetro de `event`,
+  - [ ] Uso de `addEventListener` con callback que tiene parámetro de `event`,
     lo que permite el uso del objeto [`event`](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_objects)
-    con `event.target` o `event.currentTarget`
+    con `event.target` o `event.currentTarget`.
   - [ ] La aplicación registra [Event Listeners](https://developer.mozilla.org/en/docs/Web/API/EventTarget/addEventListener)
     para escuchar `click`, `change`, `keyup` dependiendo del evento que
-    se quiere escuchar
+    se quiere escuchar.
 
 * **Manipulación dinámica del DOM**
 
   - [ ] La aplicación actualiza el atributo [`innerHTML`](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML).
-  - [ ] La aplicación usa `createElement` y `appendChild`, o template strings
-    para crear elementos
+  - [ ] Uso de `createElement` y `appendChild`, o template strings
+    para crear elementos.
 
 #### JavaScript
 
