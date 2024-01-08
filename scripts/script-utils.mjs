@@ -15,43 +15,51 @@ export const getFilesWithLocales = (dir, locales) => {
   return filesWithExt.filter((filepath) => filepath.match(regexLocaleMD));
 }
 
-export const getLearningObjectiveHierarchy = (learningObjectives) => learningObjectives.reduce(
+/**
+ * 
+ * @param {array} learningObjectives 
+ * @returns {object} an object with keys of top level categories and values of subcategory arrays ex. { 'js': ['js/testing', ...]}
+ */
+export const getLearningObjectivesHierarchy = (learningObjectives) => learningObjectives.reduce(
   (memo, item) => {
     const [ root, ...parts] = item.split('/');
     const result = { ...memo };
     if (!result[root]) {
       Object.assign(result, { [root]: [] })
     } 
-    const subcats = parts.slice(0, -1).reduce((acc, part, i, arr) =>
+    const subcatKeys = parts.slice(0, -1).reduce((acc, part, i, arr) =>
       [...acc, `${root}/${arr.slice(0, i + 1).join('/')}`], []);
-      /* js/testing/async => js/testing */
-      /* java/spring-framework/core-concepts/beans => java/spring-framework, java/spring-framework/core-concepts */
-    subcats.forEach(subcat => !result[root].includes(subcat) && result[root].push(subcat));
+    subcatKeys.forEach(subcat => !result[root].includes(subcat) && result[root].push(subcat));
     return result;
   },
   {},
 );
 
-export const getLearningObjectiveHeadings = (categoryTree, intl) => Object.keys(categoryTree).reduce(
+const getNearestSubcategoryParent = (objectiveKey) => objectiveKey.split('/').slice(0, -1).join('/');
+
+/**
+ * 
+ * @param {object} categoryTree an object rep of hierarchy of categories and subcats, as returned in getLearningObjecttivesHierarchy
+ * @param {object} intl localized objectives content
+ * @returns {object} key is category/subcat is a key, value is heading with intl string and heading level { 'js/testing': '#### Testing' }
+ */
+export const getLearningObjectivesHeadings = (categoryTree, intl) => Object.keys(categoryTree).reduce(
   (memo, rootCategoryKey) => {
     const localizedCat = intl[rootCategoryKey] || {};
     const subcats = categoryTree[rootCategoryKey];
 
     return {
       ...memo,
-      [rootCategoryKey]: [`### ${localizedCat.title || intl[catKey] || catKey}\n`],
+      [rootCategoryKey]: [`### ${localizedCat.title || intl[rootCategoryKey] || rootCategoryKey }\n`],
       ...subcats.reduce((acc, subcatKey, i) => {
         const localized = intl[subcatKey];
         const title = localized?.title || intl[subcatKey] || subcatKey;
 
-        const headingLevel = subcatKey.split('/').length + 2;
-        const [ rootCategory, ...parts ] = subcatKey.split('/');
-        let subcatSuffix = '';
-        if (parts.length > 1) {
-          // Note: this suffic is to help understand the hierarchy in the readme
-          const nearestParent = [rootCategory, ...parts.slice(0, -1)].join('/');
-          subcatSuffix = ` _(${(intl[nearestParent]?.title || intl[nearestParent] || nearestParent)})_`;
-        }
+        const depth = subcatKey.split('/').length;
+        const headingLevel = depth + 2; // the objectives start at level 3
+        const nearestParent = getNearestSubcategoryParent(subcatKey);
+        // Note: this suffix is to help understand the hierarchy of the deeper objectives in the readme
+        const subcatSuffix = (depth.length > 2) ? ` _(${(intl[nearestParent]?.title || intl[nearestParent] || nearestParent)})_` : '';
         const subheading = `${'#'.repeat(headingLevel)} ${title}${subcatSuffix}\n`
         return ({...acc, [subcatKey]: [subheading]})
       } , {})}
@@ -85,7 +93,7 @@ export const createLearningObjectivesMarkdown = (learningObjectives, sectionTree
     if (parts.length === 1) { // we are just one level under the root cat
       sectionTree[rootCategory].push(markup);
     } else {
-      const nearestParent = [rootCategory, ...parts.slice(0, -1)].join('/');
+      const nearestParent = getNearestSubcategoryParent(objectiveKey);
       sectionTree[nearestParent].push(markup);
     }
   });

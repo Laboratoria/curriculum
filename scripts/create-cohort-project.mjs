@@ -142,8 +142,8 @@ const addLocalizedLearningObjectives = async (repoDir, opts, meta) => {
     path.join(__dirname, '../learning-objectives', 'intl', `${lang}.yml`),
   );
 
-  const categoryTree = getLearningObjectiveHierarchy(learningObjectives);
-  const sectionTree = getLearningObjectiveHeadings(categoryTree, intl);
+  const categoryTree = getLearningObjectivesHierarchy(learningObjectives);
+  const sectionTree = getLearningObjectivesHeadings(categoryTree, intl);
   const text = createLearningObjectivesMarkdown(learningObjectives, sectionTree, intl, lang);
   const readmePath = path.join(repoDir, 'README.md');
   const contents = (await readFile(readmePath, 'utf8')).split('\n');
