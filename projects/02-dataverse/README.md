@@ -362,7 +362,9 @@ desde su [sitio oficial](https://nodejs.org/).
   - [ ] Los hijos de `<li>` usan attributos de [microdata](https://recursivos.com/html/microdatos/)
   `itemscope` e `itemprop`
 
-Nota: Ten en cuenta que para poder testear el HTML de `<ul>` y `<li>` en tu proyecto es necesario que ya tengas una data creada, ya que a partir de la data se
+Nota: Ten en cuenta que para poder testear el HTML de `<ul>`
+y `<li>` en tu proyecto es necesario que ya tengas una data
+creada, ya que a partir de la data se
 crearán estos elementos.
 
 #### CSS
