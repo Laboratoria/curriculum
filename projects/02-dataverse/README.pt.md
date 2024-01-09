@@ -342,12 +342,12 @@ npm run test:oas-prompting
 npm run test:oas // Esto es para correr todos los tests de OAs
 ```
 
-Ejecuta las pruebas mientras desarrollas para confirmar que
-tu proyecto está logrando los objetivos. Si algunas pruebas no pasan,
-no permitas que esto te impida avanzar o finalizar el proyecto.
-Utiliza esta información para ver qué necesitas investigar y
-cambiar en tu código, y consulta con tu coach cualquier
-objetivo que tengas pendiente.
+Executa os testes enquanto desenvolves para confirmar que
+teu projeto está alcançando os objetivos. Se alguns testes não
+passarem, não permitas que isso te impeça de avançar ou finalizar
+o projeto. Utiliza essa informação para identificar o que precisas
+investigar e modificar no teu código, e consulta teu coach
+sobre quaisquer objetivos pendentes.
 
 Nota: para que os testes funcionem corretamente, você precisa ter
 instalado o `Node.js (LTS)` com versão 14.0.0 ou superior. Para verificar
