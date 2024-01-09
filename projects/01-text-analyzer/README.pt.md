@@ -352,7 +352,7 @@ relacionados a cada objetivo de aprendizado.
 
 - **Testes unitários (unit tests)**
 
-  + [ ] Todos os testes unitários passam.
+  + [ ] Os testes unitários passam.
 
 - **Módulos do ECMAScript (ES Modules)**
 
@@ -410,6 +410,12 @@ relacionados a cada objetivo de aprendizado.
 
 Este projeto conta com 3 conjuntos de testes que ajudarão a verificar se
 os critérios mínimos de aceitação são cumpridos.
+
+Executa os testes enquanto desenvolves para confirmar que teu projeto
+está alcançando os objetivos. Se alguns testes não passarem, não permitas
+que isso te impeça de avançar ou finalizar o projeto. Utiliza essa
+informação para identificar o que precisas investigar e modificar no teu
+código, e consulta teu orientador sobre quaisquer objetivos pendentes.
 
 ### Testes Unitários
 
@@ -557,21 +563,25 @@ Junte-se ao canal do Slack [#project-text-analyzer-pt](https://claseslaboratoria
 
 ## 9. Considerações para solicitar seu Feedback de Projeto
 
-Antes de agendar seu Feedback de Projeto com um coach, certifique-se de que seu projeto:
+Antes de marcar tua Sessão de Feedback de Projeto com teu coach,
+certifica-te de que teu projeto:
 
-- [ ] Atende a todos os critérios mínimos de aceitação ao executar `npm run test:oas`
-- [ ] Atende a todos os testes unitários ao executar `npm run test`
-- [ ] Atende a todos os testes _end to end_ ao executar `npm run test:e2e`
-- [ ] Está livre de _erros_ do `eslint` ao executar `npm run test`
-- [ ] Está hospedado no GitHub.
-- [ ] Está implantado no GitHub Pages.
-- [ ] Possui um README com a definição do produto.
+- Atende aos critérios mínimos de aceitação ao executar `npm run test:oas`
+- Passa nos testes unitários ao executar `npm run test`
+- Passa nos testes _end to end_ ao executar `npm run test:e2e`
+- Está livre de _erros_ do `eslint` ao executar `npm run test`
+- Está hospedado no GitHub.
+- Está implantado no GitHub Pages.
+- Possui um README com a definição do produto.
+
+Não é necessário que todos os testes passem com 100% para poder ter tua
+Sessão de Feedback de Projeto. O objetivo dos testes não é te bloquear,
+mas é importante que compreendas quais objetivos ainda estão pendentes
+e discutas com teu orientador se algum deles é crucial para ser
+alcançado antes da tua Sessão de Feedback de Projeto.
 
 Lembre-se de que você deve fazer uma autoavaliação dos
 _objetivos de aprendizado_ e _habilidades para a vida_ em seu painel do aluno.
-
-Se você não concluiu tudo o que foi mencionado acima, consideramos que você
-não está pronta para sua sessão de Feedback de Projeto.
 
 ## 10. Objetivos de aprendizagem
 
