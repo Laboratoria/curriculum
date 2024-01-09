@@ -331,8 +331,6 @@ criterios. Lo cual no excluye que puedas usar otras opciones, por ejemplo
 en el caso de los selectores, proponemos el uso de `querySelector`,
 no significa que no puedes usar `querySelectorAll` o `getElementById` también.
 
-Considera que si no pasan todas las pruebas de una tecnología en específico no significa que tengas que posponer tu agendamiento para tener Project Feedback. Por ejemplo, si trabajaste únicamente con algunos métodos de Arrays como `.forEach`, `.filter` o `.sort`, el resto de pruebas no pasarán lógicamente, pero no hay por qué tomarse más tiempo del necesario o agregar funcionalidades inecesarias con la finalidad de que todas las pruebas pasen. Puedes preguntarle a coaches de tu cohort si tienes dudas.
-
 Puedes ejecutar las pruebas de cada grupo de objetivos de aprendizaje de manera
 individual con los siguientes comandos:
 
