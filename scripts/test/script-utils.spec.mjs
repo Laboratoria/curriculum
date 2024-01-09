@@ -61,7 +61,7 @@ describe('script utils', () => {
     });
   });
 
-  describe.only('createLearningObjectivesMarkdown', () => {
+  describe('createLearningObjectivesMarkdown', () => {
     it('should return a string that contains the headings', () => {
       const objectives = ['js/testing/unit', 'js/testing/async', 'css/selectors', 'browser/dom/events'];
       const categoryTree = getLearningObjectivesHierarchy(objectives);
