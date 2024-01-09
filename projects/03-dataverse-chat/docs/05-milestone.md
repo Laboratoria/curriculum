@@ -3,6 +3,8 @@
 El objetivo de este hito es permitir a las usuarias interactuar con
 todos los personajes a través de un chat grupal.
 
+![Preview Chat Grupal](./assets/previewGrupalChat.gif)
+
 ## Tareas de este hito
 
 * Creación de una vista para interactuar con todos los elementos del conjunto de datos
