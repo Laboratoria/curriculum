@@ -18,6 +18,7 @@ Para facilitar la interacción con un elemento específico de nuestro conjunto d
 
 ![Preview Detail](./assets/previewDetail.gif)
 
+[!IMPORTANT]
 Recuerda utilizar las funciones que creamos anteriormente en ```apiKey.js``` para manejar de manera segura la API KEY.
 
 * Integración con Open AI
@@ -52,10 +53,10 @@ import { openAIApi } from '../src/utils/openAIApi.js';
 
 describe('openAIApi', () => {
   test('openAIApi', () => {
-  return openAIApi().then(data => {
-    expect(data).toBe('example');
+    return openAIApi().then(data => {
+      expect(data).toBe('example');
+    });
   });
-});
 });
 
 ```
