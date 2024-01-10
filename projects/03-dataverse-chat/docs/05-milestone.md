@@ -3,8 +3,6 @@
 El objetivo de este hito es permitir a las usuarias interactuar con
 todos los personajes a través de un chat grupal.
 
-![Preview Chat Grupal](./assets/previewGrupalChat.gif)
-
 ## Tareas de este hito
 
 * Creación de una vista para interactuar con todos los elementos del conjunto de datos
@@ -31,7 +29,6 @@ Para lograr este objetivo, toma como guia los siguientes pasos:
    * Guardar la respuesta de la función openAIApi.
    * Mostrar la respuesta de la función openAIApi.
 
-<!-- FALTA GIF DE CHAT GRUPAL -->
-![Preview chat group](./assets/previewchatgroup.png)
+![Preview Chat Grupal](./assets/previewGrupalChat.gif)
 
 [👈Todos los hitos](../README.md#6-hitos)

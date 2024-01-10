@@ -1,12 +1,13 @@
 # **HITO 1:** SPA
 
-Comienza con tu prototipo y creando una SPA sencilla en base a esta [guía](https://github.com/Laboratoria/guide-router/tree/guide-v1).
+Bienvenida al primer hito de tu aprendizaje en JavaScript a través de proyectos. En este hito, comenzarás construyendo una SPA (Single Page Application) siguiendo esta [guía](https://github.com/Laboratoria/guide-router/tree/guide-v1).
 
 ## Tareas de este hito
 
-* Prototipo
+* Prototipo de Dataverse:
 
-A partir del prototipo de Dataverse, agrega la vista de chat. Puedes usar el diseño existente o modificarlo.
+  1. Utiliza el prototipo existente de Dataverse como punto de partida.
+  2. Agrega la vista de chat al prototipo, permitiéndote la flexibilidad de utilizar el diseño actual o hacer modificaciones según sea necesario.
 
 * SPA
 
