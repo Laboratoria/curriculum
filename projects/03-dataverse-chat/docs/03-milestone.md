@@ -2,8 +2,8 @@
 
 Almacenar de forma segura tu clave de API es el core de este hito.
 <!-- Este es un tip de Github Pages, https://github.com/orgs/community/discussions/16925 -->
-[!IMPORTANT]
-Para ello, asegúrate de solicitar tu APIKEY a las coaches.
+> [!IMPORTANT]
+> Para ello, asegúrate de solicitar tu APIKEY a las coaches.
 
 ## Tareas de este hito
 

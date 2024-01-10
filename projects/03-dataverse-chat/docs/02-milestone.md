@@ -89,8 +89,8 @@ describe('filterByName', () => {
 ```
 
 <!-- Este es un tip de Github Pages, https://github.com/orgs/community/discussions/16925 -->
-[!TIP]
-En la carpeta test, considera tener un archivo de prueba (suite) por cada archivo javascript que desees probar.
+> [!TIP]
+> En la carpeta test, considera tener un archivo de prueba (suite) por cada archivo javascript que desees probar.
 
 * Visualizar el set de Datos
 
