@@ -294,6 +294,9 @@ js/async/promises:
 scm:
   title: Controle de Versões (Git e GitHub)
 
+scm/git:
+  title: Git
+
 scm/git/setup:
   title: "Git: Instalação e configuração"
 
@@ -302,6 +305,9 @@ scm/git/intro:
 
 scm/git/integration:
   title: "Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)"
+
+scm/github:
+  title: GitHub
 
 scm/github/setup:
   title: "GitHub: Criação de contas e repositórios, configuração de chave SSH"
@@ -1220,6 +1226,9 @@ php/functions:
       url: https://www.php.net/manual/pt_BR/language.functions.php
     - title: Variável e Extensões Relacionadas aos Tipos
       url: https://www.php.net/manual/pt_BR/refs.basic.vartype.php
+
+php/testing:
+  title: Testes em PHP
 
 php/testing/phpunit:
   title: PHPUnit

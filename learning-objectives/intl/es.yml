@@ -738,7 +738,7 @@ java/spring-framework/spring-web/rest-controller:
 java/spring-framework/spring-web/request-mapping:
   title: RequestMapping
 
-java/spring-framework/spring-web/spring-web/request-param:
+java/spring-framework/spring-web/request-param:
   title: RequestParam
 
 java/spring-framework/testing:
@@ -1231,6 +1231,9 @@ php/functions:
       url: https://www.php.net/manual/es/language.functions.php
     - title: Extensiones PHP relacionadas con variable y tipo
       url: https://www.php.net/manual/es/refs.basic.vartype.php
+
+php/testing:
+  title: Testing en PHP
 
 php/testing/phpunit:
   title: PHPUnit
