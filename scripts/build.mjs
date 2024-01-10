@@ -131,13 +131,17 @@ const addLearningObjectives = async (validate) => {
 
     const args = [
       'curriculum-parser',
-      'objectives',
+      'learning-objectives',
       dir,
-      '--repo', repository,
-      '--version', version,
-      '--strict', !!validate,
+      // '--repo', repository,
+      // '--version', version,
     ];
 
+    if (validate) {
+      args.push('--validate'); // TODO: put strict here?
+    }
+
+    console.log(args);
     const child = spawn(
       'npx',
       args,
@@ -146,7 +150,7 @@ const addLearningObjectives = async (validate) => {
   
     const stderrChunks = [];
     child.stderr.on('data', chunk => stderrChunks.push(chunk));
-  
+
     child.on('close', (code) => {
       if (code > 0) {
         const err = Object.assign(new Error(`Error parsing learning objectives`), {
@@ -162,7 +166,7 @@ const addLearningObjectives = async (validate) => {
   });
   
   const { dest } = await parseObjectives(validate);
-  
+  console.log(buildDir, dest);
   if (!validate) {
     const json = await JSON.parse(await readFile(dest));
     await writeFile(
