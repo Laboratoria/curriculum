@@ -342,6 +342,13 @@ npm run test:oas-prompting
 npm run test:oas // Esto es para correr todos los tests de OAs
 ```
 
+Executa os testes enquanto desenvolves para confirmar que
+teu projeto está alcançando os objetivos. Se alguns testes não
+passarem, não permitas que isso te impeça de avançar ou finalizar
+o projeto. Utiliza essa informação para identificar o que precisas
+investigar e modificar no teu código, e consulta teu coach
+sobre quaisquer objetivos pendentes.
+
 Nota: para que os testes funcionem corretamente, você precisa ter
 instalado o `Node.js (LTS)` com versão 14.0.0 ou superior. Para verificar
 a versão do node, execute `node -v` no terminal. Se o comando não
@@ -356,6 +363,7 @@ de seu [site oficial](https://nodejs.org/).
   - [ ] Possui um `<footer>`
   - [ ] Possui um `<main>` com um `<h2>`
   - [ ] Todos os elementos de controle (inputs, selects, radio, etc) possuem `<label>`
+  - [ ] Todas as tags `<label>` usam o atributo `for`
   - [ ] Usa `<ul>` para renderizar os dados
   - [ ] Os filhos de `<li>` usam os atributos de [microdados](https://recursivos.com/html/microdatos/)
   `itemscope` e `itemprop`
@@ -372,6 +380,11 @@ pois a partir dos dados você pode criará esses elementos.
   - [ ] Uso de flexbox em sentido `row` e `column`
   - [ ] Uso de flexbox para o elemento que contém os itens
   - [ ] Uso de flexbox para o elemento que contém os inputs UI
+
+* **Modelo de caixa (box model): borda, margem, preenchimento**
+
+  - [ ] Uso de atributos de modelo de caixa para itens `<li>`
+  - [ ] Uso de atributos de modelo de caixa para `<header>` ou `<footer>`
 
 #### Web APIs
 
@@ -773,31 +786,36 @@ Quando estiver pronta para codificar, sugerimos que comece assim:
 
 ## 10. Considerações para pedir seu Feedback do Projeto
 
-Antes de agendar seu Feedback do Projeto com um coach, assegure-se de que seu projeto:
+Antes de agendar seu Feedback do Projeto com um coach:
 
-* [ ] Cumpre todos os critérios mínimos de aceitação ao executar `npm run test:oas`
-* [ ] Cumpre todos os testes _end to end_ ao executar `npm run test:e2e`
-* [ ] Cumpre todos os testes unitários ao executar `npm run test` e
-  que têm uma cobertura de 70% de _statements_ (_sentenças_),
-  _functions_ (_funções_), _lines_ (_linhas_), e _branches_
-* [ ] Está livre de _erros_ de `eslint` ao executar `npm run pretest`
-* [ ] Está enviado no GitHub e publicado no GitHub Pages
-* [ ] Captura de tela do prompt utilizado para gerar os dados.
+* Atende aos critérios mínimos de aceitação ao executar `npm run test:oas`
+* Passa nos testes unitários ao executar `npm run test` e tem uma cobertura
+  de 70% para _statements_ (afirmações), _functions_ (funções),
+  _lines_ (linhas) e _branches_.
+* Passa nos testes _end to end_ ao executar `npm run test:e2e`
+
+Não é necessário que todos os testes passem com 100% para poder ter tua
+Sessão de Feedback de Projeto. O objetivo dos testes não é te bloquear,
+mas é importante que compreendas quais objetivos ainda estão pendentes
+e discutas com teu orientador se algum deles é crucial para ser alcançado
+antes da tua Sessão de Feedback de Projeto.
+
+Além disso, antes da tua Sessão de Feedback, certifica-te de que:
+
+* Está livre de _erros_ do `eslint` ao executar `npm run pretest`
+* Está hospedado no GitHub e foi implantado no GitHub Pages
+* Possui uma captura de tela do prompt utilizado para gerar os dados.
 * Tem um `README.md` com o seguinte:
-  - [ ] _Definição do produto_ clara e informativa
-  - [ ] Histórias de usuário
-  - [ ] Um _Design da Interface de Usuário_ (protótipo de alta fidelidade)
-  - [ ] A lista de problemas que você detectou por meio de testes
-    de usabilidade no `README.md`
-* Tem uma UI que cumpre as funcionalidades:
-  - [ ] Mostra lista com dados e/ou indicadores
-  - [ ] Permite ordenar dados por um ou mais campos (ascendente e descendente)
-  - [ ] Permite filtrar dados com base em uma condição
-  - [ ] Permite limpar os filtros com um botão
-  - [ ] É _responsiva_
+  - Definição clara e informativa do produto
+  - Histórias de usuário
+  - Design da Interface do Usuário (protótipo de alta fidelidade)
+  - Lista dos problemas identificados por meio de testes de usabilidade no `README.md`
+* Possui uma interface do usuário que atende às seguintes funcionalidades:
+  - Mostra uma lista com dados e/ou indicadores
+  - Permite ordenar dados por um ou mais campos (ascendente e descendente)
+  - Permite filtrar dados com base em uma condição
+  - Permite limpar os filtros com um botão
+  - É responsivo
 
 Lembre-se de fazer uma autoavaliação de _objetivos de aprendizado_ e
 _life skills_ a partir do seu painel do estudante.
-
-Se você não completou todos os itens acima, não consideramos que está pronta para
-sua sessão de Feedback do Projeto.
