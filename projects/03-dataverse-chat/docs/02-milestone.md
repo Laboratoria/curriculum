@@ -72,7 +72,8 @@ y [funciones](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Fun
 
 * Configuración de pruebas de funciones migradas.
 
-Para continuar con las migraciones, es necesario crear una carpeta ```test``` en la
+Para continuar con las migraciones, es necesario crear una
+carpeta ```test``` en la
 raíz del proyecto. Dentro de la carpeta ```test```, crea un archivo
 ```dataFunctions.spec.js```. En este archivo, copia tus tests de Dataverse
 y ajusta las importaciones para que funcionen correctamente.
@@ -100,16 +101,23 @@ javascript que desees probar.
 
 * Visualizar el set de Datos
 
-Una vez que las funciones se encuentran en dataFunctions.js junto con sus respectivas pruebas,
-podemos avanzar con la visualización del conjunto de datos. El objetivo es lograr que podamos ver
+Una vez que las funciones se encuentran en dataFunctions.js
+junto con sus respectivas pruebas,
+podemos avanzar con la visualización del conjunto de datos.
+El objetivo es lograr que podamos ver
 el conjunto de datos de manera similar a Dataverse, pero dentro de la SPA.
 
 Para lograr esto, te recomendamos que realices modificaciones en el archivo ```Home.js```
-ubicado en la carpeta ```views```. Este archivo debe contener el código necesario para
-visualizar el conjunto de datos. Ten en cuenta que, en este caso, cada vista deberá retornar
-un elemento para que pueda ser renderizado por el router. Es probable que necesites adaptar el
-código de tu vista anterior para que modifique un nuevo elemento dentro de esta vista ```Home.js```.
-Si tienes dudas, puedes revisar nuevamente la guía del router y consultar a los coaches para obtener
+ubicado en la carpeta ```views```. Este archivo debe
+contener el código necesario para
+visualizar el conjunto de datos. Ten en cuenta que,
+en este caso, cada vista deberá retornar
+un elemento para que pueda ser renderizado por el router.
+Es probable que necesites adaptar el
+código de tu vista anterior para que modifique un nuevo elemento
+dentro de esta vista ```Home.js```.
+Si tienes dudas, puedes revisar nuevamente la guía del router y consultar a
+los coaches para obtener
 más claridad en este proceso.
 
 ``` js
