@@ -9,7 +9,7 @@ ordenar y calcular.
 
 ## Tareas de este hito
 
-* Data
+* Migración del Set de Datos de Dataverse
 
 Para utilizar tu set de datos de Dataverse
 en este proyecto, crea una carpeta ```data```
@@ -40,7 +40,7 @@ export default [
 ]
 ```
 
-* Funciones
+* Reutilización de Funciones de Dataverse
 
 Para reutilizar las funciones de filtrar,
 ordenar y calcular de tu proyecto anterior
@@ -68,7 +68,7 @@ export const calculateAge = () => {
 
 Consulta estos enlaces para obtener más información sobre cómo importar [módulos](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Modules) y [funciones](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions)
 
-* Test funciones
+* Configuración de pruebas de funciones migradas.
 
 Para continuar con las migraciones, es necesario crear una carpeta ```test``` en la raíz del proyecto. Dentro de la carpeta ```test```, crea un archivo ```dataFunctions.spec.js```. En este archivo, copia tus tests de Dataverse y ajusta las importaciones para que funcionen correctamente.
 
@@ -88,7 +88,9 @@ describe('filterByName', () => {
 });
 ```
 
-NOTA: En la carpeta test, considera tener un archivo de prueba (suite) por cada archivo javascript que desees probar.
+<!-- Este es un tip de Github Pages, https://github.com/orgs/community/discussions/16925 -->
+> [!TIP]
+> En la carpeta test, considera tener un archivo de prueba (suite) por cada archivo javascript que desees probar.
 
 * Visualizar el set de Datos
 

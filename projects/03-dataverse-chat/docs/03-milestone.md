@@ -1,7 +1,9 @@
 # **HITO 3:** Manejo de la API KEY
 
 Almacenar de forma segura tu clave de API es el core de este hito.
-Para ello, asegúrate de solicitar tu APIKEY a las coaches.
+<!-- Este es un tip de Github Pages, https://github.com/orgs/community/discussions/16925 -->
+> [!IMPORTANT]
+> Para ello, asegúrate de solicitar tu APIKEY a las coaches.
 
 ## Tareas de este hito
 
@@ -45,7 +47,7 @@ export const saveApiKey = (key) => {
 
 Estas funciones facilitarán el manejo seguro de la API KEY dentro de tu aplicación, asegurando que la información esté disponible y protegida en todo momento.
 
-* Test
+* Pruebas para funciones de API Key
 
 Dentro de la carpeta ```test```, crea un archivo ```apiKey.spec.js```. En este archivo, escribe los test correspondientes para verificar el funcionamiento de las funciones creadas.
 
