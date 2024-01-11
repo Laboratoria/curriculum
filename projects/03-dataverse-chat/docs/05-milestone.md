@@ -5,19 +5,26 @@ todos los personajes a través de un chat grupal.
 
 ## Tareas de este hito
 
-* Creación de una vista para interactuar con todos los elementos del conjunto de datos
+* Creación de una vista para interactuar con todos los elementos
+del conjunto de datos
 
 1. Navega hacia la carpeta ```views``` en tu proyecto.
 
-2. Dentro de esta carpeta, crea un componente ```chatGroup.js``` que muestre un chat grupal con todos los personajes. El componente debe permitir a los usuarios enviar mensajes a todos los personajes o elementos del dataset y recibir respuestas.
+2. Dentro de esta carpeta, crea un componente ```chatGroup.js```
+que muestre un chat grupal con todos los personajes. El componente
+debe permitir a los usuarios enviar mensajes a todos los personajes
+o elementos del dataset y recibir respuestas.
 
-3. La vista debe poder obtener los datos necesarios (id) para mostrar los elementos del conjunto de datos.
-Esto se puede hacer pasando los datos como parámetros o utilizando funciones que obtienen los datos.
+3. La vista debe poder obtener los datos necesarios (id) para
+mostrar los elementos del conjunto de datos.
+Esto se puede hacer pasando los datos como parámetros o utilizando
+funciones que obtienen los datos.
 
 * Consumo de la función openAIApi
 
 Obtenen las respuestas de todos los elementos en la data, utilizando la función ```openAIApi```.
-Esto permitirá a los usuarios interactuar con todos los personajes a través de un chat grupal.
+Esto permitirá a los usuarios interactuar con todos los personajes a través
+de un chat grupal.
 
 Para lograr este objetivo, toma como guia los siguientes pasos:
 
@@ -25,9 +32,9 @@ Para lograr este objetivo, toma como guia los siguientes pasos:
 
 2. Para cada elemento en la lista:
 
-   * Enviar un mensaje a la función openAIApi.
-   * Guardar la respuesta de la función openAIApi.
-   * Mostrar la respuesta de la función openAIApi.
+   - Enviar un mensaje a la función openAIApi.
+   - Guardar la respuesta de la función openAIApi.
+   - Mostrar la respuesta de la función openAIApi.
 
 ![Preview Chat Grupal](./assets/previewGrupalChat.gif)
 

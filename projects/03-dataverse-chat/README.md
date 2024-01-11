@@ -269,11 +269,14 @@ los tests de dataFunctions deben estar aquí.
 Para resolver un problema,
 es importante comprenderlo en profundidad.
 Una forma de hacerlo es descomponerlo en problemas más pequeños.
-Esto nos ayudará a identificar las causas del problema y a desarrollar soluciones más efectivas.
+Esto nos ayudará a identificar las causas del problema y
+a desarrollar soluciones más efectivas.
 
 En este proyecto, te sugerimos que trabajes por hitos.
-Esto te permitirá enfocarte en un problema a la vez y hacer un seguimiento de tu progreso.
-A continuación, te presentamos un cronograma de hitos que te puede ayudar a organizar tu trabajo.
+Esto te permitirá enfocarte en un problema a la vez y
+hacer un seguimiento de tu progreso.
+A continuación, te presentamos un cronograma de hitos que
+te puede ayudar a organizar tu trabajo.
 
 * [Hito 1](./docs/01-milestone.md)
 * [Hito 2](./docs/02-milestone.md)

@@ -45,11 +45,15 @@ export const saveApiKey = (key) => {
 };
 ```
 
-Estas funciones facilitarán el manejo seguro de la API KEY dentro de tu aplicación, asegurando que la información esté disponible y protegida en todo momento.
+Estas funciones facilitarán el manejo seguro de la API KEY
+dentro de tu aplicación, asegurando que la información esté disponible
+y protegida en todo momento.
 
 * Pruebas para funciones de API Key
 
-Dentro de la carpeta ```test```, crea un archivo ```apiKey.spec.js```. En este archivo, escribe los test correspondientes para verificar el funcionamiento de las funciones creadas.
+Dentro de la carpeta ```test```, crea un archivo ```apiKey.spec.js```.
+En este archivo, escribe los test correspondientes para verificar el funcionamiento
+de las funciones creadas.
 
 ``` js
 // test/apiKey.spec.js
