@@ -11,7 +11,7 @@ A partir del prototipo de Dataverse, agrega la vista de chat. Puedes usar el dis
 * SPA
 
 Usando esta
-[guía](https://github.com/Laboratoria/guide-router/tree/guide-v1)`,
+[guía](https://github.com/Laboratoria/guide-router/tree/guide-v1),
 dentro de la carpeta ```views```
 crea las vistas ```Home.js``` y ```About.js```
 con un elemento o texto por vista.
