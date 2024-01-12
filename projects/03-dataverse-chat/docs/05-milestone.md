@@ -27,6 +27,12 @@ Obtenen las respuestas de todos los elementos en la data, utilizando la función
 Esto permitirá a los usuarios interactuar con todos los personajes a través
 de un chat grupal.
 
+> [!TIP]
+> Revisa el tema de
+[Promesas](https://curriculum.laboratoria.la/es/topics/javascript/async/promises)
+y el método
+[Promise.all()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
+
 Para lograr este objetivo, toma como guia los siguientes pasos:
 
 1. Obtener la lista de elementos en la data.
