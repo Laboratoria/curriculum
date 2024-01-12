@@ -41,7 +41,10 @@ export const setApiKey = (key) => {
 
 * Pruebas para funciones de API Key
 
-Dentro de la carpeta ```test```, crea un archivo llamado ```apiKey.spec.js```. En este archivo, desarrolla los tests correspondientes. Puedes utilizar el siguiente esquema como punto de partida:
+Dentro de la carpeta ```test```, crea un archivo llamado
+```apiKey.spec.js```. En este archivo, desarrolla los
+tests correspondientes. Puedes utilizar el siguiente
+esquema como punto de partida:
 
 ``` js
 // test/apiKey.spec.js
