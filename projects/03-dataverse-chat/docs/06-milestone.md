@@ -4,11 +4,12 @@ El objetivo de este **hito opcional** es mejorar la estructura
 y la organización de la aplicación mediante la refactorización
 y la modularización.
 
-La refactorización y la modularización son dos técnicas importantes
-para mejorar la estructura y la organización de una aplicación.
-La refactorización nos permite mejorar el código existente sin
-cambiar su comportamiento. La modularización nos permite dividir
-una aplicación en componentes más pequeños, lo que facilita su comprensión y mantenimiento.
+La refactorización y modularización son esenciales para
+mejorar la estructura de una aplicación. La primera
+optimiza el código sin cambiar su comportamiento, mientras
+que la segunda divide la aplicación en componentes más
+manejables. Es crucial correr y corregir los tests
+simultáneamente para garantizar la integridad del código.
 
  Al dividir una aplicación en componentes más pequeños,
  podemos lograr los siguientes beneficios:

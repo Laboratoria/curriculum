@@ -8,14 +8,15 @@ todos los personajes a través de un chat grupal.
 * Creación de una vista para interactuar con todos los elementos
 del conjunto de datos
 
-1. Navega hacia la carpeta ```views``` en tu proyecto.
+1. Navega hacia la carpeta ```views``` en tu proyecto y dentro de
+esta carpeta, crea un componente para la vista del chat grupal,
+por ejemplo, ```ChatGroup.js``` o ```Panel.js```,
+que mostrará un chat grupal con todos los personajes.
+Este componente debe permitir a los usuarios enviar
+mensajes a todos los personajes o elementos del dataset
+y recibir respuestas.
 
-2. Dentro de esta carpeta, crea un componente ```chatGroup.js```
-que muestre un chat grupal con todos los personajes. El componente
-debe permitir a los usuarios enviar mensajes a todos los personajes
-o elementos del dataset y recibir respuestas.
-
-3. La vista debe poder obtener los datos necesarios (id) para
+2. La vista debe poder obtener los datos necesarios (id) para
 mostrar los elementos del conjunto de datos.
 Esto se puede hacer pasando los datos como parámetros o utilizando
 funciones que obtienen los datos.

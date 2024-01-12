@@ -10,22 +10,23 @@ conecte de manera efectiva a la API de OpenAI
 Para facilitar la interacción con un elemento específico de nuestro
 conjunto de datos, crearemos una nueva vista. Sigue estos pasos:
 
-1. Navega hacia la carpeta ```views``` en tu proyecto.
+1. Navega a la carpeta ```views``` en tu proyecto y
+crea un nuevo archivo, dándole un nombre relevante
+al conjunto de datos que estás manejando, como por ejemplo
+```Planet.js``` si estás trabajando con datos de
+planetas.
 
-2. Dentro de esta carpeta, crea un nuevo archivo. Puedes nombrarlo
-de acuerdo con el conjunto de datos que estás manejando. Por ejemplo,
-podrías llamarlo ```personajes.js``` si estás trabajando con datos de
-personajes.
-
-3. Dentro de este nuevo archivo, desarrolla la vista que te permitirá interactuar
+2. Dentro de este nuevo archivo, desarrolla la vista que te permitirá interactuar
 con los elementos del conjunto de datos. Puedes incluir componentes como botones,
 formularios o cualquier otro elemento necesario para lograr el objetivo específico
 de tu aplicación.
 
-4. Asegúrate de que esta vista sea capaz de recibir un identificador (id)
+3. Asegúrate de que esta vista sea capaz de recibir un identificador (id)
 u otros datos necesarios para mostrar el elemento específico del conjunto
-de datos. Esto puede realizarse a través de parámetros o métodos de obtención
-de datos.
+de datos. Puedes lograr esto mediante la utilización de parámetros, como por
+ejemplo a través de los
+[search params](https://developer.mozilla.org/es/docs/Web/API/URLSearchParams)
+de URL que el router puede comunicar.
 
 ![Preview Detail](./assets/previewDetail.gif)
 
@@ -59,7 +60,7 @@ proporcionada por OpenAI.
 import { getApiKey } from './apiKey.js';
 
 
-export const openAIApi = (messages) => {
+export const communicateWithOpenAI = (messages) => {
    //Aquí es donde debes implementar la petición con fetch o axios
 };
 
@@ -76,11 +77,11 @@ Para verificar el funcionamiento de las funciones creadas, crea un archivo
 ``` js
 // test/openAIApi.spec.js
 
-import { openAIApi } from '../src/utils/openAIApi.js';
+import { communicateWithOpenAI } from '../src/utils/openAIApi.js';
 
-describe('openAIApi', () => {
-  test('openAIApi', () => {
-    return openAIApi().then(data => {
+describe('communicateWithOpenAI', () => {
+  test('communicateWithOpenAI', () => {
+    return communicateWithOpenAI().then(data => {
       expect(data).toBe('example');
     });
   });

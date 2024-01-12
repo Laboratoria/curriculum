@@ -11,11 +11,9 @@ ordenar y calcular.
 
 * Migración del Set de Datos de Dataverse
 
-Para utilizar tu set de datos de Dataverse
-en este proyecto, crea una carpeta ```data```
-dentro de la carpeta ```src```. Dentro de la
-carpeta ```data``` , crea un archivo ```dataset.js.```
-En este archivo, copia tu set de datos de Dataverse.
+Crea una carpeta llamada ```data``` dentro de ```src```.
+En dicha carpeta, crea un archivo ```dataset.js``` y
+copia tu set de datos de en ese archivo.
 
 ``` js
 // src/data/dataset.js
@@ -47,21 +45,22 @@ ordenar y calcular de tu proyecto anterior
 en este nuevo proyecto, crea una carpeta ```utils```
 dentro de la carpeta ```src```. Dentro de la carpeta
 ```utils```, crea un archivo ```dataFunctions.js.``` En
-este archivo, importa las funciones de filtrar,
+este archivo, copia las funciones de filtrar,
 ordenar y calcular de tu proyecto anterior.
+Ejemplo:
 
 ```js
 // src/utils/dataFunctions.js
 
-export const filterByName = () => {
+export const filterData = (data, filterBy, value) => {
   return 'example';
 };
 
-export const orderByAZ = () => {
+export const sortData = (data, sortBy, sortOrder) => {
   return [];
 };
 
-export const calculateAge = () => {
+export const computeStats = (data) => {
   return [];
 };
 ```
@@ -82,14 +81,14 @@ y ajusta las importaciones para que funcionen correctamente.
 // test/dataFunctions.spec.js
 
 import { data } from '../src/data/dataset.js';
-import { filterByName } from '../src/utils/dataFunctions.js';
+import { filterData } from '../src/utils/dataFunctions.js';
 
 console.log(data);
 
-describe('filterByName', () => {
+describe('filterData', () => {
 
-  it('returns `filterByName`', () => {
-    expect(filterByName()).toBe('example');
+  it('returns `filterData`', () => {
+    expect(filterData()).toBe('example');
   });
 });
 ```
@@ -124,7 +123,7 @@ más claridad en este proceso.
 // src/views/Home.js
 
 import { data } from '../data/dataset.js';
-import { filterByName } from '../utils/dataFunctions.js';
+import { filterData } from '../utils/dataFunctions.js';
 
 export function Home(props) {
   const viewEl = document.createElement('div');

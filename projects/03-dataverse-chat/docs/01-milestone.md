@@ -16,12 +16,20 @@ través de proyectos. En este hito, comenzarás construyendo una
 
 * Creación de Vistas de la SPA:
 
-  1. Siguiendo esta [guía](https://github.com/Laboratoria/guide-router/tree/guide-v1),
-  dirígete a la carpeta ```views```.
+  1. Dirígete a la carpeta ```views```.
   2. Crea dos archivos: ```Home.js``` y ```About.js```,
   cada uno de estos archivos representará una vista.
   3. Dentro de cada archivo, agrega al menos un elemento o
   texto representativo de la vista correspondiente.
+  4. Implementa el enrutador siguiendo las indicaciones
+  detalladas en la
+  [guía](https://github.com/Laboratoria/guide-router/tree/guide-v1).
+  Asegúrate de seguir con precisión cada paso proporcionado
+  en la guía para garantizar el correcto funcionamiento del
+  enrutador.
+  5. Implementa pruebas unitarias para los componentes
+  con el objetivo de garantizar que respondan de
+  manera adecuada a diversas rutas.
 
 ![Preview spa](./assets/previewSPA.gif)
 

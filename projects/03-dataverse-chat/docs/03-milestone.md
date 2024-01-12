@@ -11,17 +11,11 @@ Almacenar de forma segura tu clave de API es el core de este hito.
 
 El manejo de las API KEYs es crucial para mantener la seguridad.
 Con el fin de no incluir la clave directamente en el código de la aplicación,
-necesitarás crear una nueva vista que permita ingresar o pegar la API KEY.
+crea un input que permita ingresar o pegar la API KEY.
+Este input puede estar ubicado en una vista,
+dialog o modal.
 
-Para hacer esto, dentro de la carpeta ```views```,
-crea un nuevo archivo llamado ```apikey.js```.
-Dentro de este archivo, desarrolla una función que
-sirva como vista. Esta función debe incluir un
-campo de entrada (input) y un botón. Será a través
-de esta vista que posteriormente almacenarás la
-API KEY en el navegador de forma segura.
-
-![Preview API KEY view](./assets/previewAPIKEYview.png)
+![Preview apiKey](./assets/previewApiKey.png)
 
 * Almacenamiento Seguro de la API KEY con Local Storage
 
@@ -29,7 +23,7 @@ Para garantizar la seguridad y persistencia de la
 API KEY, se sugiere utilizar [Local Storage](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage).
 Te recomendamos seguir estos pasos:
 
-1. En la carpeta ```utils```, crea un nuevo archivo llamado apiKey.js.
+1. En la carpeta ```utils```, crea un nuevo archivo llamado ```apiKey.js```.
 
 2. Dentro de ```apiKey.js```, implementa dos funciones esenciales:
 
@@ -40,37 +34,31 @@ export const getApiKey = () => {
    // Implementa el código para obtener la API KEY desde Local Storage
 };
 
-export const saveApiKey = (key) => {
+export const setApiKey = (key) => {
   // Implementa el código para guardar la API KEY en Local Storage
 };
 ```
 
-Estas funciones facilitarán el manejo seguro de la API KEY
-dentro de tu aplicación, asegurando que la información esté disponible
-y protegida en todo momento.
-
 * Pruebas para funciones de API Key
 
-Dentro de la carpeta ```test```, crea un archivo ```apiKey.spec.js```.
-En este archivo, escribe los test correspondientes para verificar el funcionamiento
-de las funciones creadas.
+Dentro de la carpeta ```test```, crea un archivo llamado ```apiKey.spec.js```. En este archivo, desarrolla los tests correspondientes. Puedes utilizar el siguiente esquema como punto de partida:
 
 ``` js
 // test/apiKey.spec.js
 
-import { getApiKey, saveApiKey } from '../src/utils/apiKey.js';
+import { getApiKey, setApiKey } from '../src/utils/apiKey.js';
 
 describe('getApiKey', () => {
 
-  it('returns `getApiKey`', () => {
-    expect(getApiKey()).toBe('example');
+  it('debería devolver el valor de la API Key', () => {
+    // Desarrolla el test correspondiente aquí
   });
 });
 
-describe('saveApiKey', () => {
+describe('setApiKey', () => {
 
-  it('returns `saveApiKey`', () => {
-    expect(saveApiKey(key)).toBe('example');
+  it('debería establecer correctamente la API Key', () => {
+   // Desarrolla el test correspondiente aquí
   });
 });
 
