@@ -1,48 +1,71 @@
-# **HITO 5:** Conectar a API OpenAI (chat grupal)
+# **HITO 5:** Refactorización y modularización
 
-El objetivo de este hito es permitir a las usuarias interactuar con
-todos los personajes a través de un chat grupal.
+El objetivo de este **hito opcional** es mejorar la estructura
+y la organización de la aplicación mediante la refactorización
+y la modularización.
+
+La refactorización y modularización son esenciales para
+mejorar la estructura de una aplicación. La primera
+optimiza el código sin cambiar su comportamiento, mientras
+que la segunda divide la aplicación en componentes más
+manejables. Es crucial correr y corregir los tests
+simultáneamente para garantizar la integridad del código.
+
+ Al dividir una aplicación en componentes más pequeños,
+ podemos lograr los siguientes beneficios:
+
+* Mejora la legibilidad y la comprensión del código.
+* Facilita el mantenimiento y la actualización del código.
+* Reduce la complejidad de la aplicación.
+* Mejora el rendimiento de la aplicación.
 
 ## Tareas de este hito
 
-* Creación de una vista para interactuar con todos los elementos
-del conjunto de datos
+* Identificar las partes de la aplicación que
+pueden dividirse en componentes más pequeños.
 
-1. Navega hacia la carpeta ```views``` en tu proyecto y dentro de
-esta carpeta, crea un componente para la vista del chat grupal,
-por ejemplo, ```ChatGroup.js``` o ```Panel.js```,
-que mostrará un chat grupal con todos los personajes.
-Este componente debe permitir a los usuarios enviar
-mensajes a todos los personajes o elementos del dataset
-y recibir respuestas.
+Para esta tarea, deberás examinar la aplicación y buscar áreas
+que puedan dividirse en componentes más pequeños.
+Algunas cosas a tener en cuenta son:
 
-2. La vista debe poder obtener los datos necesarios (id) para
-mostrar los elementos del conjunto de datos.
-Esto se puede hacer pasando los datos como parámetros o utilizando
-funciones que obtienen los datos.
+1. Funciones que realizan tareas independientes.
+2. Datos que se utilizan de forma independiente.
+3. Interfaz de usuario que se puede dividir en partes más pequeñas.
 
-* Consumo de la función openAIApi
+* Implementar la división de los componentes más pequeños.
 
-Obtenen las respuestas de todos los elementos en la data, utilizando la función ```openAIApi```.
-Esto permitirá a los usuarios interactuar con todos los personajes a través
-de un chat grupal.
+Una vez que hayas identificado las partes que pueden dividirse,
+deberás implementar la división en componentes más pequeños.
+Esto puede hacerse de varias maneras, como:
 
-> [!TIP]
-> Revisa el tema de
-[Promesas](https://curriculum.laboratoria.la/es/topics/javascript/async/promises)
-y el método
-[Promise.all()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
+1. Crear nuevos componentes a partir de código existente.
+2. Mover código existente a componentes existentes.
+3. Reestructurar el código existente para que sea más modular.
 
-Para lograr este objetivo, toma como guia los siguientes pasos:
+* Probar la aplicación para asegurarse de que funciona correctamente
+después de la refactorización.
 
-1. Obtener la lista de elementos en la data.
+Es importante probar la aplicación después de la refactorización para
+asegurarse de que funciona correctamente. Esto puede hacerse probando
+la aplicación manualmente o utilizando un marco de pruebas automatizado.
 
-2. Para cada elemento en la lista:
+### Ejemplo
 
-   - Enviar un mensaje a la función openAIApi.
-   - Guardar la respuesta de la función openAIApi.
-   - Mostrar la respuesta de la función openAIApi.
+Imaginemos que tenemos una aplicación que muestra una lista de personajes.
+La aplicación tiene una vista que muestra la lista de personajes,
+y una función que obtiene los datos de los personajes.
 
-![Preview Chat Grupal](./assets/previewGrupalChat.gif)
+Para mejorar la estructura y la organización de la aplicación,
+podemos dividir la función ```getCharacters()``` en dos componentes
+más pequeños:
+
+1. Un componente ```CharacterRepository``` que se encarga de obtener
+los datos de los personajes.
+
+2. Un componente ```CharacterList``` que se encarga de mostrar la lista de personajes.
+
+Esta división nos permite separar la lógica de obtención de datos
+de la lógica de visualización. Esto hace que la aplicación sea más
+fácil de entender y mantener.
 
 [👈Todos los hitos](../README.md#6-hitos)

@@ -3,33 +3,32 @@
 Bienvenida al primer hito de tu aprendizaje en JavaScript a
 través de proyectos. En este hito, comenzarás construyendo una
 [SPA](https://es.wikipedia.org/wiki/Single-page_application)
-(Single Page Application) .
+(Single Page Application).
 
 ## Tareas de este hito
 
 * Prototipo de Dataverse:
 
-  1. Utiliza el prototipo existente de Dataverse como punto de partida.
-  2. Agrega la vista de chat al prototipo, permitiéndote la
-  flexibilidad de utilizar el diseño actual o hacer modificaciones
-  según sea necesario.
+Diseña las vistas de la Página Principal
+(donde se ven los elementos de tu set de Datos),
+Chat Individual y Chat Grupal.
+El diseño que propongas debe encapsular
+la esencia de tu solución ideal.
+Asimismo, es crucial que tu propuesta visual
+se adhiera rigurosamente a los principios
+fundamentales del
+[diseño visual](https://coda.io/d/Bootcamp-UX-Contenido_dqkqk2rV9Z2/Diseno-de-interfaces_suOT7#_luWsQ).
+  >[!TIP]
+  >Puedes utilizar la identidad visual o el prototipo de tu proyecto anterior.
 
 * Creación de Vistas de la SPA:
 
-  1. Dirígete a la carpeta ```views```.
+  1. Siguiendo esta [guía](https://github.com/Laboratoria/guide-router/tree/guide-v1),
+  dirígete a la carpeta ```views```.
   2. Crea dos archivos: ```Home.js``` y ```About.js```,
   cada uno de estos archivos representará una vista.
   3. Dentro de cada archivo, agrega al menos un elemento o
   texto representativo de la vista correspondiente.
-  4. Implementa el enrutador siguiendo las indicaciones
-  detalladas en la
-  [guía](https://github.com/Laboratoria/guide-router/tree/guide-v1).
-  Asegúrate de seguir con precisión cada paso proporcionado
-  en la guía para garantizar el correcto funcionamiento del
-  enrutador.
-  5. Implementa pruebas unitarias para los componentes
-  con el objetivo de garantizar que respondan de
-  manera adecuada a diversas rutas.
 
 ![Preview spa](./assets/previewSPA.gif)
 
