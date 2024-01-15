@@ -432,7 +432,7 @@ sua aplicação.
 * [Promises](https://javascript.info/promise-basics)
 * [Fazendo requisições com Fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)
 * [Armazenamento com LocalStorage](https://javascript.info/localstorage)
-* [Criando um roteador SPA com Javascript puro](https://github.com/Laboratoria/guide-router/blob/guide-v1/README.md)
+* [Criando um roteador SPA com Javascript puro](https://github.com/Laboratoria/curriculum/blob/guides/router/README.pt.md)
 * [Delegação de eventos](https://javascript.info/event-delegation)
 
 #### Inteligência Artificial e Prompting
