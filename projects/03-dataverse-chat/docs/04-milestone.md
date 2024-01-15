@@ -1,70 +1,49 @@
-# **HITO 4:** Conectar a API OpenAI (chat individual)
+# **HITO 4:** Conectar a API OpenAI (chat grupal)
 
-En este hito, el objetivo es lograr que nuestra aplicación se
-conecte de manera efectiva a la API de OpenAI
+El objetivo de este hito es permitir a las usuarias interactuar con
+todos los personajes a través de un chat grupal.
 
 ## Tareas de este hito
 
-* Creación de una vista para interactuar con cada elementos del conjunto de datos
+* Creación de una vista para interactuar con todos los elementos
+del conjunto de datos
 
-Para facilitar la interacción con un elemento específico de nuestro
-conjunto de datos, crearemos una nueva vista. Sigue estos pasos:
+1. Navega hacia la carpeta ```views``` en tu proyecto y dentro de
+esta carpeta, crea un componente para la vista del chat grupal,
+por ejemplo, ```ChatGroup.js``` o ```Panel.js```,
+que mostrará un chat grupal con todos los personajes.
+Este componente debe permitir a los usuarios enviar
+mensajes a todos los personajes o elementos del dataset
+y recibir respuestas.
 
-1. Navega a la carpeta ```views``` en tu proyecto y
-crea un nuevo archivo, dándole un nombre relevante
-al conjunto de datos que estás manejando, como por ejemplo
-```Planet.js``` si estás trabajando con datos de
-planetas.
+2. La vista debe poder obtener los datos necesarios (id) para
+mostrar los elementos del conjunto de datos.
+Esto se puede hacer pasando los datos como parámetros o utilizando
+funciones que obtienen los datos.
 
-2. Dentro de este nuevo archivo, desarrolla la vista que te permitirá interactuar
-con los elementos del conjunto de datos. Puedes incluir componentes como botones,
-formularios o cualquier otro elemento necesario para lograr el objetivo específico
-de tu aplicación.
+* Consumo de la función communicateWithOpenAI
 
-3. Asegúrate de que esta vista sea capaz de recibir un identificador (id)
-u otros datos necesarios para mostrar el elemento específico del conjunto
-de datos. Puedes lograr esto mediante la utilización de parámetros, como por
-ejemplo a través de los
-[search params](https://developer.mozilla.org/es/docs/Web/API/URLSearchParams)
-de URL que el router puede comunicar.
+Obtenen las respuestas de todos los elementos en la data, utilizando la función ```communicateWithOpenAI```.
+Esto permitirá a los usuarios interactuar con todos los personajes a través
+de un chat grupal.
 
-![Preview Detail](./assets/previewDetail.gif)
+> [!TIP]
+> Revisa el tema de
+[Promesas](https://curriculum.laboratoria.la/es/topics/javascript/async/promises)
+y el método
+[Promise.all()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
 
-> [!IMPORTANT]
-> Recuerda utilizar las funciones que creamos anteriormente en ```apiKey.js```
-para manejar de manera segura la API KEY.
+Para lograr este objetivo, toma como guia los siguientes pasos:
 
-* Integración con Open AI
+1. Obtener la lista de elementos en la data.
 
-Para obtener respuestas de cada elementos o personaje y poder interactuar
-con él o ella, es esencial realizar una solicitud HTTP a OpenAI.
-En este proceso, es recomendable familiarizarse con los conceptos de
-[promesas](https://curriculum.laboratoria.la/es/topics/javascript/async/promises)
-y considerar la utilización de
-[fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch)
-o [axios](https://axios-http.com/docs/intro)
-para llevar a cabo la petición.
+2. Para cada elemento en la lista:
 
-Te sugerimos organizar el código asociado a esta tarea dentro de la carpeta ```utils```.
-En esta carpeta, puedes crear un archivo llamado ```openAIApi.js```,
-que contendrá una función específica. Esta función debe recibir un parámetro
-que almacena los mensajes; ten presente que dichos mensajes deben seguir una
-estructura específica, la cual puedes comprender mejor consultando la
-[documentación](https://platform.openai.com/docs/api-reference/chat/create)
-proporcionada por OpenAI.
+   - Enviar un mensaje a la función communicateWithOpenAI.
+   - Guardar la respuesta de la función communicateWithOpenAI.
+   - Mostrar la respuesta de la función communicateWithOpenAI.
 
-```js
-// src/utils/openAIApi.js
-
-// Importa la función para obtener la API KEY desde apiKey.js
-import { getApiKey } from './apiKey.js';
-
-
-export const communicateWithOpenAI = (messages) => {
-   //Aquí es donde debes implementar la petición con fetch o axios
-};
-
-```
+![Preview Chat Grupal](./assets/previewGrupalChat.gif)
 
 * Test
 

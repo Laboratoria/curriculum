@@ -12,6 +12,12 @@ través de proyectos. En este hito, comenzarás construyendo una
 Diseña las vistas de la Página Principal
 (donde se ven los elementos de tu set de Datos),
 Chat Individual y Chat Grupal.
+El diseño que propongas debe encapsular
+la esencia de tu solución ideal.
+Asimismo, es crucial que tu propuesta visual
+se adhiera rigurosamente a los principios
+fundamentales del
+[diseño visual](https://coda.io/d/Bootcamp-UX-Contenido_dqkqk2rV9Z2/Diseno-de-interfaces_suOT7#_luWsQ).
   >[!TIP]
   >Puedes utilizar la identidad visual o el prototipo de tu proyecto anterior.
 
