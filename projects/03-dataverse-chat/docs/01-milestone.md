@@ -16,7 +16,10 @@ reutilizar el diseño del prototipo del proyecto anterior,
 incorporando exclusivamente la vista de chat individual y/o
 chat grupal, evitando la necesidad de reinventarlo.
 
-Es fundamental que tu propuesta visual no solo refleje la esencia de tu solución ideal, sino que también se apegue estrictamente a los principios fundamentales del [diseño visual](https://coda.io/d/Bootcamp-UX-Contenido_dqkqk2rV9Z2/Diseno-de-interfaces_suOT7#_luWsQ).
+Es fundamental que tu propuesta visual no solo refleje la
+esencia de tu solución ideal, sino que también se apegue
+estrictamente a los principios fundamentales del
+[diseño visual](https://coda.io/d/Bootcamp-UX-Contenido_dqkqk2rV9Z2/Diseno-de-interfaces_suOT7#_luWsQ).
 
   >[!TIP]
   >Usa la identidad visual o el prototipo de tu proyecto anterior.
