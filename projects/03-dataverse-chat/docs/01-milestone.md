@@ -43,11 +43,11 @@ estrictamente a los principios fundamentales del
 Si en algún momento te encuentras con dudas o preguntas durante el desarrollo
 de este proyecto, ¡no dudes en buscar ayuda! recuerda que puedes apoyarte con:
 
-* **Documentación del Proyecto:** Asegúrate de revisar cuidadosamente la
+- **Documentación del Proyecto:** Asegúrate de revisar cuidadosamente la
 documentación proporcionada en el [README](../README.md); especialmente las
 pistas, tips y lecturas complementarias.
 
-* **Coaches:** Los coaches están aquí para ayudarte.
+- **Coaches:** Los coaches están aquí para ayudarte.
 Si enfrentas obstáculos que la documentación no resuelve o si necesitas
 una explicación más detallada, no dudes en solicitar una OH o escribenos por Slack.
 
