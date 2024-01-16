@@ -7,7 +7,10 @@ través de proyectos. En este hito, comenzarás construyendo una
 
 ## Tareas de este hito
 
-* Prototipo de Dataverse:
+- Prototipo de Dataverse
+- Creación de Vistas de la SPA
+
+### Prototipo de Dataverse
 
 Diseña las vistas de la página principal, donde se presentan
 los elementos de tu conjunto de datos, así como las vistas de
@@ -24,7 +27,7 @@ estrictamente a los principios fundamentales del
   >[!TIP]
   >Usa la identidad visual o el prototipo de tu proyecto anterior.
 
-* Creación de Vistas de la SPA:
+### Creación de Vistas de la SPA
 
   1. Siguiendo esta [guía](https://github.com/Laboratoria/guide-router/tree/guide-v1),
   dirígete a la carpeta `views`.
