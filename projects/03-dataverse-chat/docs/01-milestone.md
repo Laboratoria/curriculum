@@ -39,8 +39,7 @@ estrictamente a los principios fundamentales del
   3. Dentro de cada archivo, agrega al menos un elemento o
   texto representativo de la vista correspondiente.
 
-<!-- ![Preview spa](./assets/previewSPA.gif) -->
-[![Preview SPA](./assets/thumbnailSPA.jpg)](./assets/previewSPA.mp4)
+![Preview spa](./assets/previewSPA.gif)
 
 ## ¿Necesitas Ayuda?
 
