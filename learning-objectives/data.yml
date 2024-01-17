@@ -352,10 +352,7 @@ business-understanding:
 
 research: # used in projects design-and-usability
   - support
-  - guidelines
-  - interview
   - documentation
-  - adaptation
   - sources
   - test # used in datalovers
 

@@ -345,23 +345,11 @@ user-centricity/user-oriented: # only used in project: design-and-usability
 research: # used in projects design-and-usability
   title: Investigación
 
-research/planning: 
-  title: Planificar investigación basada en las necesidades del proyecto
-
 research/support: # used in projects design-and-usability
   title: "Elegir y sustentar el # usuarias que participan en actividades de investigación"
 
-research/guidelines:
-  title: Crear y probar guía de actividades de investigación
-
-research/interview:
-  title: Realizar entrevistas con usuarias empáticas y sin sesgos
-
 research/documentation: # used in projects design-and-usability
   title: Documentar entrevistas y testeos
-
-research/adaptation:
-  title: Adaptar plan de investigación de acuerdo a resultados obtenidos
 
 research/sources: # used in projects design-and-usability
   title: Identificar y revisar distintas fuentes de información e inspiración relevantes para el proyecto
