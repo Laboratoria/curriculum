@@ -5,12 +5,16 @@ todos los personajes a través de un chat grupal.
 
 ## Tareas de este hito
 
-* Creación de una vista para interactuar con todos los elementos
+- [Creación de una vista para interactuar con todos los elementos](#creación-de-una-vista-para-interactuar-con-todos-los-elementos)
+- [Consumo de la función communicateWithOpenAI](#consumo-de-la-función-communicatewithopenai)
+- [Implementación de tests](#implementación-de-tests)
+
+### Creación de una vista para interactuar con todos los elementos
 del conjunto de datos
 
-1. Navega hacia la carpeta ```views``` en tu proyecto y dentro de
+1. Navega hacia la carpeta `views` en tu proyecto y dentro de
 esta carpeta, crea un componente para la vista del chat grupal,
-por ejemplo, ```ChatGroup.js``` o ```Panel.js```,
+por ejemplo, `ChatGroup.js` o `Panel.js`,
 que mostrará un chat grupal con todos los personajes.
 Este componente debe permitir a los usuarios enviar
 mensajes a todos los personajes o elementos del dataset
@@ -21,9 +25,9 @@ mostrar los elementos del conjunto de datos.
 Esto se puede hacer pasando los datos como parámetros o utilizando
 funciones que obtienen los datos.
 
-* Consumo de la función communicateWithOpenAI
+### Consumo de la función communicateWithOpenAI
 
-Obtenen las respuestas de todos los elementos en la data, utilizando la función ```communicateWithOpenAI```.
+Obtenen las respuestas de todos los elementos en la data, utilizando la función `communicateWithOpenAI`.
 Esto permitirá a los usuarios interactuar con todos los personajes a través
 de un chat grupal.
 
@@ -45,10 +49,10 @@ Para lograr este objetivo, toma como guia los siguientes pasos:
 
 ![Preview Chat Grupal](./assets/previewGrupalChat.gif)
 
-* Test
+### Implementación de tests
 
 Para verificar el funcionamiento de las funciones creadas, crea un archivo
-```openAIApi.spec.js``` en la carpeta ```test```.
+`openAIApi.spec.js` en la carpeta `test`.
 
 > [!TIP]
 > Puedes revisar esta documentación de un [Test de código asíncrono.](https://jestjs.io/es-ES/docs/asynchronous)
