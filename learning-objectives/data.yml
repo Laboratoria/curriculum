@@ -73,49 +73,26 @@ scm:
 user-centricity:
   - centricity
   - user-oriented
-  - prioritization
-  
-business:
-  - model
-  - goals
-  - metrics
-  - benchmark
   
 synthesis:
-  - weighing
   - patterns
-  - insights
-  - mapping
   - features
-  - ideation
   - feature-prioritization
 
 product-design:
-  - user-flows
   - content
   - fidelity
   - interactivity
   - usability
-  - accessibility
   - visual-design
-  - component-organization
-  - project-organization
-  - documentation
-
-communication:
-  - presentation
-  - negotiation
-  - relationship-management
-  - case-study
-
-planning:
-  - monitor
-  - prioritization
-  - tools
     
 firebase:
   - auth
   - firestore
+
+planning:
+  - monitor
+  - prioritization
 
 # front-end-web-dev:
   # - components
@@ -373,15 +350,14 @@ business-understanding:
   - goals-and-kpis
   - benchmark
 
-research:
+research: # used in projects design-and-usability
   - support
   - guidelines
   - interview
   - documentation
   - adaptation
   - sources
-  - test
-  - cuantitative-data
+  - test # used in datalovers
 
 research-planning:
   - research-plan
