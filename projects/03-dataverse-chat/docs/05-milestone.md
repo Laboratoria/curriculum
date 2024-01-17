@@ -21,9 +21,9 @@ simultáneamente para garantizar la integridad del código.
 
 ## Tareas de este hito
 
-  - [Identificar partes para dividir](#identificar-partes-para-dividir)
-  - [Implementar la división de los componentes más pequeños](#implementar-la-división-de-los-componentes-más-pequeños)
-  - [Asegurar funcionamiento post refactorización](#asegurar-funcionamiento-post-refactorización)
+* [Identificar partes para dividir](#identificar-partes-para-dividir)
+* [Implementar la división de los componentes más pequeños](#implementar-la-división-de-los-componentes-más-pequeños)
+* [Asegurar funcionamiento post refactorización](#asegurar-funcionamiento-post-refactorización)
 
 ### Identificar partes para dividir
 
