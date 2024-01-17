@@ -7,8 +7,11 @@ través de proyectos. En este hito, comenzarás construyendo una
 
 ## Tareas de este hito
 
-- Prototipo de Dataverse
-- Creación de Vistas de la SPA
+- [**HITO 1:** SPA](#hito-1-spa)
+  - [Tareas de este hito](#tareas-de-este-hito)
+    - [Prototipo de Dataverse](#prototipo-de-dataverse)
+    - [Creación de Vistas de la SPA](#creación-de-vistas-de-la-spa)
+  - [¿Necesitas Ayuda?](#necesitas-ayuda)
 
 ### Prototipo de Dataverse
 

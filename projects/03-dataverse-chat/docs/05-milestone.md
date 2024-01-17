@@ -21,8 +21,11 @@ simultáneamente para garantizar la integridad del código.
 
 ## Tareas de este hito
 
-* Identificar las partes de la aplicación que
-pueden dividirse en componentes más pequeños.
+- [Identificar partes para dividir](#identificar-partes-para-dividir)
+- [Implementar la división de los componentes más pequeños](#implementar-la-división-de-los-componentes-más-pequeños)
+- [Asegurar funcionamiento post refactorización](#asegurar-funcionamiento-post-refactorización)
+
+### Identificar partes para dividir
 
 Para esta tarea, deberás examinar la aplicación y buscar áreas
 que puedan dividirse en componentes más pequeños.
@@ -32,7 +35,7 @@ Algunas cosas a tener en cuenta son:
 2. Datos que se utilizan de forma independiente.
 3. Interfaz de usuario que se puede dividir en partes más pequeñas.
 
-* Implementar la división de los componentes más pequeños.
+### Implementar la división de los componentes más pequeños
 
 Una vez que hayas identificado las partes que pueden dividirse,
 deberás implementar la división en componentes más pequeños.
@@ -42,27 +45,26 @@ Esto puede hacerse de varias maneras, como:
 2. Mover código existente a componentes existentes.
 3. Reestructurar el código existente para que sea más modular.
 
-* Probar la aplicación para asegurarse de que funciona correctamente
-después de la refactorización.
+### Asegurar funcionamiento post refactorización
 
 Es importante probar la aplicación después de la refactorización para
 asegurarse de que funciona correctamente. Esto puede hacerse probando
 la aplicación manualmente o utilizando un marco de pruebas automatizado.
 
-### Ejemplo
+#### Ejemplo
 
 Imaginemos que tenemos una aplicación que muestra una lista de personajes.
 La aplicación tiene una vista que muestra la lista de personajes,
 y una función que obtiene los datos de los personajes.
 
 Para mejorar la estructura y la organización de la aplicación,
-podemos dividir la función ```getCharacters()``` en dos componentes
+podemos dividir la función `getCharacters()` en dos componentes
 más pequeños:
 
-1. Un componente ```CharacterRepository``` que se encarga de obtener
+1. Un componente `CharacterRepository` que se encarga de obtener
 los datos de los personajes.
 
-2. Un componente ```CharacterList``` que se encarga de mostrar la lista de personajes.
+2. Un componente `CharacterList` que se encarga de mostrar la lista de personajes.
 
 Esta división nos permite separar la lógica de obtención de datos
 de la lógica de visualización. Esto hace que la aplicación sea más
