@@ -79,8 +79,8 @@ describe('setApiKey', () => {
 Para facilitar la interacción con un elemento específico de nuestro
 conjunto de datos, crearemos una nueva vista. Sigue estos pasos:
 
-1. Ingresa a la carpeta `views` de tu proyecto. 
-Si encuentras un archivo llamado `About.js`, 
+1. Ingresa a la carpeta `views` de tu proyecto.
+Si encuentras un archivo llamado `About.js`,
 cámbiale el nombre según el conjunto de datos
 que estás manejando, como por ejemplo `Planet.js`
 si trabajas con datos de planetas.

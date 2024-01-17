@@ -9,12 +9,10 @@ ordenar y calcular.
 
 ## Tareas de este hito
 
-- [**HITO 2:** Visualización de datos](#hito-2-visualización-de-datos)
-  - [Tareas de este hito](#tareas-de-este-hito)
-    - [Migración del set de datos de Dataverse](#migración-del-set-de-datos-de-dataverse)
-    - [Reutilización de Funciones de Dataverse](#reutilización-de-funciones-de-dataverse)
-    - [Configuración de pruebas de funciones migradas](#configuración-de-pruebas-de-funciones-migradas)
-    - [Visualizar el set de Datos](#visualizar-el-set-de-datos)
+  - [Migración del set de datos de Dataverse](#migración-del-set-de-datos-de-dataverse)
+  - [Reutilización de Funciones de Dataverse](#reutilización-de-funciones-de-dataverse)
+  - [Configuración de pruebas de funciones migradas](#configuración-de-pruebas-de-funciones-migradas)
+  - [Visualizar el set de Datos](#visualizar-el-set-de-datos)
 
 ### Migración del set de datos de Dataverse
 

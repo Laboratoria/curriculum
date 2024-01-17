@@ -5,12 +5,11 @@ todos los personajes a través de un chat grupal.
 
 ## Tareas de este hito
 
-- [Creación de una vista para interactuar con todos los elementos](#creación-de-una-vista-para-interactuar-con-todos-los-elementos)
+- [Creación de una vista para interactuar con todos los elementos del conjunto de datos](#creación-de-una-vista-para-interactuar-con-todos-los-elementos-del-conjunto-de-datos)
 - [Consumo de la función communicateWithOpenAI](#consumo-de-la-función-communicatewithopenai)
 - [Implementación de tests](#implementación-de-tests)
 
-### Creación de una vista para interactuar con todos los elementos
-del conjunto de datos
+### Creación de una vista para interactuar con todos los elementos del conjunto de datos
 
 1. Navega hacia la carpeta `views` en tu proyecto y dentro de
 esta carpeta, crea un componente para la vista del chat grupal,
@@ -43,9 +42,9 @@ Para lograr este objetivo, toma como guia los siguientes pasos:
 
 2. Para cada elemento en la lista:
 
-   - Enviar un mensaje a la función communicateWithOpenAI.
-   - Guardar la respuesta de la función communicateWithOpenAI.
-   - Mostrar la respuesta de la función communicateWithOpenAI.
+   + Enviar un mensaje a la función communicateWithOpenAI.
+   + Guardar la respuesta de la función communicateWithOpenAI.
+   + Mostrar la respuesta de la función communicateWithOpenAI.
 
 ![Preview Chat Grupal](./assets/previewGrupalChat.gif)
 
