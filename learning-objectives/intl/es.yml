@@ -339,7 +339,7 @@ user-centricity:
 user-centricity/centricity:
   title: Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro
 
-user-centricity/user-oriented:
+user-centricity/user-oriented: # only used in project: design-and-usability
   title: Involucrar usuarias y tomar en cuenta sus necesidades a lo largo de todo el proceso de diseño
 
 user-centricity/prioritization:
@@ -1558,8 +1558,9 @@ ai-prompting/open-ai-api:
     - title: "The chat completion object - API Reference - OpenAI API"
       url: https://platform.openai.com/docs/api-reference/chat/object
 
-# New OAs since UXD006
+# New UX OAs since UXD006
 #--- skill Project framing
+
 agile-planning/scope:
   title: Definir alcance general
   description: Definir un alcance preliminar del proyecto en conjunto con los stakeholders involucrados
@@ -1585,51 +1586,61 @@ business-understanding/benchmark:
   description: Analizar el negocio o producto respecto a sus competidores locales y globales
 
 #--- skill User research
-research/planning/research-plan:
+
+research-planning:
+  title: tbd
+
+research-planning/research-plan:
   title: Definir la investigación
   description: Planificar la investigación basada en el contexto y objetivos del proyecto
 
-research/planning/desk-research:
+research-planning/desk-research:
   title: Analizar información existente
   description: Analizar información existente que sirva de guía para plantear la investigación con usuarios
 
-research/planning/research-sample:
+research-planning/research-sample:
   title: Definir muestra
   description: Definir el perfil y número de usuarios (muestra) que participan en la investigación
 
-research/planning/participants:
+research-planning/participants:
   title: Gestionar participantes
   description: Gestionar la participación de los usuarios en las actividades de investigación
 
-research/qualitative/user-interviews:
+research-qualitative:
+  title: tbd
+
+research-qualitative/user-interviews:
   title: Realizar entrevistas
   description: Crear guión de entrevista, validar las preguntas y entrevistar evitando sesgos
 
-research/qualitative/exploratory-techniques:
+research-qualitative/exploratory-techniques:
   title: Explorar técnicas cualitativas
   description: Explorar otras técnicas de investigación cualitativa según el contexto del proyecto (card sorting abierto, estudios de campo, etc.)
 
-research/quantitative/user-surveys:
+research-quantitative/user-surveys:
   title: Realizar encuestas
   description: Crear encuesta, testear e iterar las preguntas, implementar la encuesta efectivamente
 
-research/quantitative/analytical-techniques:
+research-quantitative/analytical-techniques:
   title: Explorar técnicas analíticas
   description: Explorar herramientas de monitoreo de acciones de usuarios (mapa de calor, analytics, card sorting cerrado, etc.)
 
-research/analysis/process-information:
+research-analysis:
+  title: tbd
+
+research-analysis/process-information:
   title: Procesar información
   description: Procesar a profundidad la información obtenida evitando sesgos
 
-research/analysis/experience-mapping:
+research-analysis/experience-mapping:
   title: Mapear la experiencia
   description: Visualizar la información obtenida de los usuarios mediante alguna técnica de documentación UX
 
-research/analysis/identify-patterns:
+research-analysis/identify-patterns:
   title: Identificar patrones
   description: Identificar patrones, observaciones o hallazgos en la información recolectada
 
-research/analysis/synthesize-results:
+research-analysis/synthesize-results:
   title: Sintetizar resultados
   description: Delimitar el problema o necesidad de las personas usuarias que debe resolver el proyecto
 
