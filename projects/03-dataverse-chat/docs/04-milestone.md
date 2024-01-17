@@ -47,7 +47,11 @@ Para lograr este objetivo, toma como guia los siguientes pasos:
    - Guardar la respuesta de la función communicateWithOpenAI.
    - Mostrar la respuesta de la función communicateWithOpenAI.
 
-![Preview Chat Grupal](./assets/previewGrupalChat.gif)
+<!-- ![Preview Chat Grupal](./assets/previewGrupalChat.mp4) -->
+<video width="640" height="480" controls>
+  <source src="./assets/previewGrupalChat.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
+</video>
 
 ### Implementación de tests
 
