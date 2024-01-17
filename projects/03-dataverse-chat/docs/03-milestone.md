@@ -137,4 +137,8 @@ export const communicateWithOpenAI = (messages) => {
 
 ```
 
+> [!NOTE]
+> `communicateWithOpenAI` es una sugerencia para el nombre
+de tu función. Puedes elegir el nombre que prefieras.
+
 [👈Todos los hitos](../README.md#6-hitos)

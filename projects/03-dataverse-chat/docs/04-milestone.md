@@ -6,7 +6,7 @@ todos los personajes a través de un chat grupal.
 ## Tareas de este hito
 
 - [Creación de una vista para interactuar con todos los elementos del conjunto de datos](#creación-de-una-vista-para-interactuar-con-todos-los-elementos-del-conjunto-de-datos)
-- [Consumo de la función communicateWithOpenAI](#consumo-de-la-función-communicatewithopenai)
+- [Consumo de la integración con Open AI](#consumo-de-la-integración-con-open-ai)
 - [Implementación de tests](#implementación-de-tests)
 
 ### Creación de una vista para interactuar con todos los elementos del conjunto de datos
@@ -24,17 +24,20 @@ mostrar los elementos del conjunto de datos.
 Esto se puede hacer pasando los datos como parámetros o utilizando
 funciones que obtienen los datos.
 
-### Consumo de la función communicateWithOpenAI
+### Consumo de la integración con Open AI
 
-Obtenen las respuestas de todos los elementos en la data, utilizando la función `communicateWithOpenAI`.
-Esto permitirá a los usuarios interactuar con todos los personajes a través
+Obten las respuestas de todos los elementos en la data utilizando
+la función designada para consumir la API de OpenAI,
+en el caso de este ejemplo, `communicateWithOpenAI`.
+Esto permitirá a los usuarios interactuar con todos los
+personajes a través
 de un chat grupal.
 
 > [!TIP]
 > Revisa el tema de
-[Promesas](https://curriculum.laboratoria.la/es/topics/javascript/async/promises)
-y el método
-[Promise.all()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
+>[Promesas](https://curriculum.laboratoria.la/es/topics/javascript/async/promises)
+>y el método
+>[Promise.all()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
 
 Para lograr este objetivo, toma como guia los siguientes pasos:
 
@@ -70,5 +73,9 @@ describe('communicateWithOpenAI', () => {
 });
 
 ```
+
+> [!NOTE]
+> `communicateWithOpenAI` es una sugerencia para el nombre
+de tu función. Puedes elegir el nombre que prefieras.
 
 [👈Todos los hitos](../README.md#6-hitos)
