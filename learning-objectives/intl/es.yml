@@ -330,31 +330,16 @@ scm/github/project-management:
 scm/github/ci:
   title: "GitHub: Integración continua con GitHub actions"
 
-ux:
-  title: UX (User eXperience)
-
 user-centricity:
   title: Centrado en el usuario
 
-user-centricity/centricity: # used in web dev
+user-centricity/centricity: # only used in web dev
   title: Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro
 
-user-centricity/user-oriented: # only used in project: design-and-usability
-  title: Involucrar usuarias y tomar en cuenta sus necesidades a lo largo de todo el proceso de diseño
-
-research: # used in projects design-and-usability
+research:
   title: Investigación
 
-research/support: # used in projects design-and-usability
-  title: "Elegir y sustentar el # usuarias que participan en actividades de investigación"
-
-research/documentation: # used in projects design-and-usability
-  title: Documentar entrevistas y testeos
-
-research/sources: # used in projects design-and-usability
-  title: Identificar y revisar distintas fuentes de información e inspiración relevantes para el proyecto
-
-research/test: # used in data lvoers and various web dev projects
+research/test: # only used in data lovers and various web dev projects
   title: Planear y ejecutar testeos de usabilidad de prototipos en distintos niveles de fidelidad
   links:
     - title: Intro a testeos usabilidad
@@ -362,23 +347,8 @@ research/test: # used in data lvoers and various web dev projects
     - title: Pruebas con Usuarios 1 — ¿Qué, cuándo y para qué testeamos?
       url: https://eugeniacasabona.medium.com/pruebas-con-usuarios-1-qu%C3%A9-cu%C3%A1ndo-y-para-qu%C3%A9-testeamos-7c3a89b4b5e7
 
-synthesis:
-  title: Síntesis
-
-synthesis/patterns: # used in design and usability
-  title: Encontrar patrones en los resultados de la investigación
-
-synthesis/features: # used in design and usability
-  title: Definir funcionalidades del producto
-
-synthesis/feature-prioritization: # used in design and usability
-  title: Priorizar las posibles soluciones que aporten más valor al proyecto, basándose en los objetivos del proyecto y las necesidades de los usuarios
-
 product-design:
   title: Diseño de producto
-
-product-design/content: # used in design and usability
-  title: Identificar y priorizar contenidos relevantes y necesarios para el producto
 
 product-design/fidelity: # used in web dev
   title: Diseñar en distintos niveles de fidelidad
@@ -386,20 +356,8 @@ product-design/fidelity: # used in web dev
 product-design/interactivity: # used in web dev
   title: Crear prototipos de alta fidelidad que incluyan interacciones
 
-product-design/usability: # used in design and usability
-  title: Diseñar producto o servicio siguiendo mejores prácticas de usabilidad
-
-product-design/visual-design: # used in web dev # used in design and usability
+product-design/visual-design: # used in web dev
   title: Seguir los principios básicos de diseño visual
-
-planning:
-  title: Planificación
-
-planning/monitor: # used in design and usability
-  title: Organizar y dar seguimiento a actividades a desarrollarse durante el proyecto
-
-planning/prioritization: # used in design and usability
-  title: Priorizar actividades a desarrollarse durante el proyecto
 
 firebase:
   title: Firebase

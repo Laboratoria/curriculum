@@ -72,27 +72,15 @@ scm:
 
 user-centricity:
   - centricity
-  - user-oriented
-  
-synthesis:
-  - patterns
-  - features
-  - feature-prioritization
 
 product-design:
-  - content
   - fidelity
   - interactivity
-  - usability
   - visual-design
     
 firebase:
   - auth
   - firestore
-
-planning:
-  - monitor
-  - prioritization
 
 # front-end-web-dev:
   # - components
@@ -350,11 +338,8 @@ business-understanding:
   - goals-and-kpis
   - benchmark
 
-research: # used in projects design-and-usability
-  - support
-  - documentation
-  - sources
-  - test # used in datalovers
+research: 
+  - test # TODO: change because only used in web-dev and only test
 
 research-planning:
   - research-plan
