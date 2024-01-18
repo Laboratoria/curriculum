@@ -1670,6 +1670,10 @@ content-design/create-content:
   title: Crear contenidos
   description: Definir el contenido (texto e imágenes) que debe incluir la propuesta de diseño
 
+content-design/ai-content:
+  title: Crear textos e imágenes usando IA
+  description: Explorar múltiples propuestas de texto e imágenes generadas con herramientas de inteligencia artificial (IA)
+
 interface-design/visual-design:
   title: Crear propuesta de diseño visual
   description: Definir las características de los elementos visuales del diseño (colores, tipografías, íconos, imágenes, espaciado)
@@ -1681,6 +1685,10 @@ interface-design/accesibility:
 interface-design/responsive-design:
   title: Implementar diseño responsivo
   description: Crear diseños que se adapten a diferentes dispositivos utilizando principios de responsive design
+
+interface-design/ai-proposals:
+  title: Generar propuestas visuales mediante IA
+  description: Experimentar con herramientas de inteligencia artificial (IA) para generar múltiples propuestas que sirvan como inspiración para el diseño
 
 #--- skill Proposal validation
 design-prototype/basic-prototypes:
@@ -1694,6 +1702,10 @@ design-prototype/high-fidelity:
 design-prototype/advanced-interactions:
   title: Utilizar interacciones avanzadas
   description: Incluir interacciones avanzadas en los prototipos según sea necesario
+
+design-prototype/ai-plugins:
+  title: Utilizar plug-ins de IA para prototipar
+  description: Integrar plug-ins de inteligencia artificial (IA) en Figma que faciliten la creación del prototipo
 
 usability-analysis/moderated-testing:
   title: Realizar pruebas moderadas
@@ -1714,6 +1726,10 @@ design-pitch/design-feedback:
 design-pitch/design-presentation:
   title: Presentar ante el negocio
   description: Presentar resultados de investigación, propuestas y proceso de diseño utilizando principios de "story-telling"
+
+design-pitch/ai-presentations:
+  title: Apoyarse en herramientas de IA para presentar propuestas
+  description: Utilizar herramientas de inteligencia artificial (IA) para crear el story-telling y/o presentación ante stakeholders
 
 #--- skill Technical documentation
 design-specs/file-organization:
