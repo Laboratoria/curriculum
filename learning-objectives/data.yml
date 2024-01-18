@@ -375,16 +375,19 @@ interaction-design:
 content-design:
   - voice-tone
   - create-content
+  - ai-content
 
 interface-design:
   - visual-design
   - accesibility
   - responsive-design
+  - ai-proposals
 
 design-prototype:
   - basic-prototypes
   - high-fidelity
   - advanced-interactions
+  - ai-plugins
 
 usability-analysis:
   - moderated-testing
@@ -394,6 +397,7 @@ usability-analysis:
 design-pitch:
   - design-feedback
   - design-presentation
+  - ai-presentations
 
 design-specs:
   - file-organization
