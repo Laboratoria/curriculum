@@ -343,6 +343,13 @@ npm run test:oas-prompting
 npm run test:oas // Esto es para correr todos los tests de OAs
 ```
 
+Ejecuta las pruebas mientras desarrollas para confirmar que
+tu proyecto está logrando los objetivos. Si algunas pruebas no pasan,
+no permitas que esto te impida avanzar o finalizar el proyecto.
+Utiliza esta información para ver qué necesitas investigar y
+cambiar en tu código, y consulta con tu coach cualquier
+objetivo que tengas pendiente.
+
 Nota: para el correcto funcionamiento de los tests, es necesario que tengas
 instalado `Node.js (LTS)` con la versión 14.0.0 o superior. Para verificar
 la versión de node ejecuta `node -v` en la terminal. Si el comando no te
@@ -357,12 +364,14 @@ desde su [sitio oficial](https://nodejs.org/).
   - [ ] Tiene un `<footer>`
   - [ ] Tiene un `<main>` con `<h2>`
   - [ ] Todas las etiquetas de controles (inputs, selects, radio, etc) tienen `<label>`
+  - [ ] Todas las etiquetas `<label>` usan el atributo `for`
   - [ ] `<ul>` esta usado para dibujar la data
   - [ ] Los hijos de `<li>` usan attributos de [microdata](https://recursivos.com/html/microdatos/)
   `itemscope` e `itemprop`
 
-Nota: ten en cuenta que para poder testear el HTML de `<ul>` y `<li>` en tu proyecto,
-es necesario que ya tengas una data creada, ya que a partir de la data se
+Nota: Ten en cuenta que para poder testear el HTML de `<ul>`
+y `<li>` en tu proyecto es necesario que ya tengas una data
+creada, ya que a partir de la data se
 crearán estos elementos.
 
 #### CSS
@@ -371,30 +380,35 @@ crearán estos elementos.
 
   - [ ] Uso de selector class para los items `<li>`
   - [ ] Uso de flexbox en sentido `row` y `column`
-  - [ ] Uso de flexbox para el elemento que contiene los items
+  - [ ] Uso de flexbox para el elemento que contiene los items `<li>`
   - [ ] Uso de flexbox para el elemento que contiene los UI inputs
 
+* **Modelo de caja (box model): borde, margen, padding**
+
+  - [ ] Uso de atributos de modelo de caja para los items `<li>`
+  - [ ] Uso de atributos de modelo de caja para `<header>` o `<footer>`
+  
 #### Web APIs
 
 * **Uso de selectores del DOM**
 
-  - [ ] La aplicación usa [`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
-    para buscar los elementos del DOM
+  - [ ] Uso de [`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+    para seleccionar elementos del DOM.
   
 * **Manejo de eventos del DOM (listeners, propagación, delegación)**
 
-  - [ ] `addEventListener` con callback que tiene parámetro de `event`,
+  - [ ] Uso de `addEventListener` con callback que tiene parámetro de `event`,
     lo que permite el uso del objeto [`event`](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_objects)
-    con `event.target` o `event.currentTarget`
+    con `event.target` o `event.currentTarget`.
   - [ ] La aplicación registra [Event Listeners](https://developer.mozilla.org/en/docs/Web/API/EventTarget/addEventListener)
     para escuchar `click`, `change`, `keyup` dependiendo del evento que
-    se quiere escuchar
+    se quiere escuchar.
 
 * **Manipulación dinámica del DOM**
 
   - [ ] La aplicación actualiza el atributo [`innerHTML`](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML).
-  - [ ] La aplicación usa `createElement` y `appendChild`, o template strings
-    para crear elementos
+  - [ ] Uso de `createElement` y `appendChild`, o template strings
+    para crear elementos.
 
 #### JavaScript
 
@@ -773,31 +787,38 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
 ## 10. Consideraciones para pedir tu Project Feedback
 
-Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
+Antes de agendar tu Project Feedback con un coach:
 
-* [ ] Cumple con todos los criterios mínimos de aceptación al ejecutar `npm run test:oas`
-* [ ] Cumple con todas las pruebas _end to end_ al ejecutar `npm run test:e2e`
-* [ ] Cumple con todas las pruebas unitarias al ejecutar `npm run test` y
+* Cumple con los criterios mínimos de aceptación al ejecutar `npm run test:oas`
+* Cumple con las pruebas unitarias al ejecutar `npm run test` y
   que tienen una cobertura del 70% de _statements_ (_sentencias_),
   _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
-* [ ] Esta libre de _errores_ de `eslint` al ejecutar `npm run pretest`
-* [ ] Está subido a GitHub y desplegado en GitHub Pages
-* [ ] Captura de pantalla del prompt utilizado para generar los datos.
-* Tiene un `README.md` con la siguente:
-  - [ ] _Definición del producto_ clara e informativa
-  - [ ] Historias de usuario
-  - [ ] Un _Diseño de la Interfaz de Usuaria_ (prototipo de alta fidelidad)
-  - [ ] El listado de problemas que detectaste a través de tests
+* Cumple con las pruebas _end to end_ al ejecutar `npm run test:e2e`
+
+No es necesario que todas las pruebas
+pasen con 100% para poder tener tu Project Feedback.
+El objetivo de los tests no es bloquearte, pero es importante que comprendas
+qué objetivos tienes pendientes y discutas con tu coach si alguno
+de ellos es crucial para lograrlo antes de tu Project Feedback.
+
+A continuación, antes de tu Project Feedback con un coach asegúrate que
+tu proyecto:
+
+* Esta libre de _errores_ de `eslint` al ejecutar `npm run pretest`
+* Está subido a GitHub y desplegado en GitHub Pages
+* Captura de pantalla del prompt utilizado para generar los datos.
+* Tiene un `README.md` con la siguiente:
+  - _Definición del producto_ clara e informativa
+  - Historias de usuario
+  - Un _Diseño de la Interfaz de Usuaria_ (prototipo de alta fidelidad)
+  - El listado de problemas que detectaste a través de tests
     de usabilidad en el `README.md`
 * Tiene un UI que cumple las funcionalidades:
-  - [ ] Muestra lista con datos y/o indicadores
-  - [ ] Permite ordenar data por uno o más campos (asc y desc)
-  - [ ] Permite filtrar data con base en una condición
-  - [ ] Permite limpiar los filtros con un botón
-  - [ ] Es _responsive_
+  - Muestra lista con datos y/o indicadores
+  - Permite ordenar data por uno o más campos (asc y desc)
+  - Permite filtrar data con base en una condición
+  - Permite limpiar los filtros con un botón
+  - Es _responsive_
 
 Recuerda que debes hacer una autoevaluación de _objetivos de aprendizaje_ y
 _life skills_ desde tu dashboard de estudiante.
-
-Si no has completado todo lo anterior, no consideramos que estás lista para
-tu sesión de Project Feedback.

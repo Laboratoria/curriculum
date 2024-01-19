@@ -133,6 +133,9 @@ browser/fetch:
 js:
   title: JavaScript
 
+js/data-types:
+  title: Tipos de dados
+
 js/data-types/primitive:
   title: Tipos de dados primitivos
   links:
@@ -224,6 +227,9 @@ js/semantics:
 js/expression-vs-statement:
   title: Diferença entre expressões (expressions) e declarações (statements)
 
+js/modules:
+  title: Módulos
+
 js/modules/es-modules:
   title: Módulos de ECMAScript (ES modules)
   links:
@@ -237,6 +243,9 @@ js/modules/commonjs:
   links:
     - title: "Modules: CommonJS modules - Node.js Docs"
       url: https://nodejs.org/docs/latest/api/modules.html
+
+js/testing:
+  title: Testing em Javascript
 
 js/testing/unit:
   title: Testes unitários (unit tests)
@@ -265,6 +274,9 @@ js/testing/compatibility:
 js/linting:
   title: Uso de linter (ESLINT)
 
+js/async:
+  title: Assincronicidade
+
 js/async/callbacks:
   title: Callbacks
   links:
@@ -282,6 +294,9 @@ js/async/promises:
 scm:
   title: Controle de Versões (Git e GitHub)
 
+scm/git:
+  title: Git
+
 scm/git/setup:
   title: "Git: Instalação e configuração"
 
@@ -290,6 +305,9 @@ scm/git/intro:
 
 scm/git/integration:
   title: "Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)"
+
+scm/github:
+  title: GitHub
 
 scm/github/setup:
   title: "GitHub: Criação de contas e repositórios, configuração de chave SSH"
@@ -1158,6 +1176,9 @@ slack/slash-commands:
 php:
   title: PHP
 
+php/data-types:
+  title: Tipos de dados
+
 php/data-types/primitive:
   title: Tipos de dados primitivos em PHP
   links:
@@ -1206,6 +1227,9 @@ php/functions:
     - title: Variável e Extensões Relacionadas aos Tipos
       url: https://www.php.net/manual/pt_BR/refs.basic.vartype.php
 
+php/testing:
+  title: Testes em PHP
+
 php/testing/phpunit:
   title: PHPUnit
   links:
@@ -1218,6 +1242,9 @@ php/testing/xdebug:
     - title: XDebug
       url: https://xdebug.org/
 
+php/package-management:
+  title: Gerenciamento de pacotes
+
 php/package-management/composer:
   title: Composer
   links:
@@ -1226,6 +1253,9 @@ php/package-management/composer:
 
 wordpress:
   title: WordPress
+
+wordpress/plugin-development:
+  title: Desenvolvimento de plugins
 
 wordpress/plugin-development/hooks:
   title: "Hooks: action e filter"
@@ -1292,6 +1322,12 @@ wordpress/plugin-development/wordpress-plugin-directory:
   links:
     - title: WordPress Plugin Directory
       url: https://developer.wordpress.org/plugins/wordpress-org/planning-your-plugin/
+
+typescript:
+  title: Typescript
+
+typescript/basic-types:
+  title: Tipos básicos
 
 typescript/basic-types/static-type-checking:
   title: Verificação estática de tipos
