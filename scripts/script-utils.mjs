@@ -59,7 +59,7 @@ export const getLearningObjectivesHeadings = (categoryTree, intl) => Object.keys
         const headingLevel = depth + 2; // the objectives start at level 3
         const nearestParent = getNearestSubcategoryParent(subcatKey);
         // Note: this suffix is to help understand the hierarchy of the deeper objectives in the readme
-        const subcatSuffix = (depth.length > 2) ? ` _(${(intl[nearestParent]?.title || intl[nearestParent] || nearestParent)})_` : '';
+        const subcatSuffix = (depth > 2) ? ` _(${(intl[nearestParent]?.title || intl[nearestParent] || nearestParent)})_` : '';
         const subheading = `${'#'.repeat(headingLevel)} ${title}${subcatSuffix}\n`
         return ({...acc, [subcatKey]: [subheading]})
       } , {})}
