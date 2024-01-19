@@ -1442,7 +1442,7 @@ ai-prompting/open-ai-api:
 #--- skill Project framing
 
 agile-planning:
-  title: tbd
+  title: Planificación ágil
 
 agile-planning/scope:
   title: Definir alcance general
@@ -1457,7 +1457,7 @@ agile-planning/tasks:
   description: Gestionar tareas mediante la implementación de ceremonias y herramientas de Scrum
 
 business-understanding:
-  title: tbd
+  title: Entendimiento del negocio
 
 business-understanding/business-model:
   title: Comprender el modelo de negocio
@@ -1474,7 +1474,7 @@ business-understanding/benchmark:
 #--- skill User research
 
 research-planning:
-  title: tbd
+  title: Planteamiento de la investigación
 
 research-planning/research-plan:
   title: Definir la investigación
@@ -1493,7 +1493,7 @@ research-planning/participants:
   description: Gestionar la participación de los usuarios en las actividades de investigación
 
 research-qualitative:
-  title: tbd
+  title: Técnicas cualitativas
 
 research-qualitative/user-interviews:
   title: Realizar entrevistas
@@ -1504,7 +1504,7 @@ research-qualitative/exploratory-techniques:
   description: Explorar otras técnicas de investigación cualitativa según el contexto del proyecto (card sorting abierto, estudios de campo, etc.)
 
 research-quantitative:
-  title: tbd
+  title: Técnicas cuantitativas
 
 research-quantitative/user-surveys:
   title: Realizar encuestas
@@ -1515,7 +1515,7 @@ research-quantitative/analytical-techniques:
   description: Explorar herramientas de monitoreo de acciones de usuarios (mapa de calor, analytics, card sorting cerrado, etc.)
 
 research-analysis:
-  title: tbd
+  title: Análisis de la investigación
 
 research-analysis/process-information:
   title: Procesar información
@@ -1535,7 +1535,7 @@ research-analysis/synthesize-results:
 
 #--- skill Solution design
 design-concept:
-  title: tdb
+  title: Concepto de diseño
 
 design-concept/define-mvp:
   title: Definir MVP
@@ -1554,7 +1554,7 @@ design-concept/prioritize-ideas:
   description: Definir criterios de priorización de ideas, alineados con los objetivos del proyecto y necesidades de las personas usuarias
 
 interaction-design:
-  title: tbd
+  title: Diseño de interacción
 
 interaction-design/user-flows:
   title: Crear flujos de usuario
@@ -1569,7 +1569,7 @@ interaction-design/information-architecture:
   description: Implementar principios básicos de arquitectura de información (categorías, etiquetas, navegación y búsqueda)
 
 content-design:
-  title: tbd
+  title: Diseño de contenido
 
 content-design/voice-tone:
   title: Definir guía de voz y tono
@@ -1580,7 +1580,7 @@ content-design/create-content:
   description: Definir el contenido (texto e imágenes) que debe incluir la propuesta de diseño
 
 interface-design:
-  title: tbd
+  title: Diseño de interfaces
 
 interface-design/visual-design:
   title: Crear propuesta de diseño visual
@@ -1596,7 +1596,7 @@ interface-design/responsive-design:
 
 #--- skill Proposal validation
 design-prototype:
-  title: tbd
+  title: Prototipado
 
 design-prototype/basic-prototypes:
   title: Crear prototipos básicos
@@ -1611,7 +1611,7 @@ design-prototype/advanced-interactions:
   description: Incluir interacciones avanzadas en los prototipos según sea necesario
 
 usability-analysis:
-  title: tbd
+  title: Análisis de usabilidad
 
 usability-analysis/moderated-testing:
   title: Realizar pruebas moderadas
@@ -1626,7 +1626,7 @@ usability-analysis/non-moderated-testing:
   description: Utilizar herramientas para pruebas de usabilidad no-moderadas
 
 design-pitch:
-  title: tbd
+  title: Pitch de diseño
 
 design-pitch/design-feedback:
   title: Recolectar feedback de diseño
@@ -1638,7 +1638,7 @@ design-pitch/design-presentation:
 
 #--- skill Technical documentation
 design-specs:
-  title: tbd
+  title: Especificaciones de diseño
 
 design-specs/file-organization:
   title: Organizar documentos de Figma
@@ -1653,7 +1653,7 @@ design-specs/project-documentation:
   description: Documentar el proceso de diseño para fundamentar las decisiones tomadas durante el proyecto
 
 design-systems:
-  title: tbd
+  title: Sistemas y librerías de diseño
 
 design-systems/atomic-design:
   title: Implementar Atomic Design
