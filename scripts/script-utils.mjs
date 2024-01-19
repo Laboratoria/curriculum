@@ -23,14 +23,13 @@ export const getFilesWithLocales = (dir, locales) => {
 export const getLearningObjectivesHierarchy = (learningObjectives) => learningObjectives.reduce(
   (memo, item) => {
     const [ root, ...parts] = item.split('/');
-    const result = { ...memo };
-    if (!result[root]) {
-      Object.assign(result, { [root]: [] })
+        if (!memo[root]) {
+      Object.assign(memo, { [root]: [] })
     } 
     const subcatKeys = parts.slice(0, -1).reduce((acc, part, i, arr) =>
       [...acc, `${root}/${arr.slice(0, i + 1).join('/')}`], []);
-    subcatKeys.forEach(subcat => !result[root].includes(subcat) && result[root].push(subcat));
-    return result;
+    subcatKeys.forEach(subcat => !memo[root].includes(subcat) && memo[root].push(subcat));
+    return memo;
   },
   {},
 );
