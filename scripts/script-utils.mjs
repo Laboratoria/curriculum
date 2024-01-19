@@ -23,7 +23,7 @@ export const getFilesWithLocales = (dir, locales) => {
 export const getLearningObjectivesHierarchy = (learningObjectives) => learningObjectives.reduce(
   (memo, item) => {
     const [ root, ...parts] = item.split('/');
-        if (!memo[root]) {
+    if (!memo[root]) {
       Object.assign(memo, { [root]: [] })
     } 
     const subcatKeys = parts.slice(0, -1).reduce((acc, part, i, arr) =>
