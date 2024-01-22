@@ -127,10 +127,6 @@
       "auth",
       "firestore"
     ],
-    "front-end-web-dev": [
-      "components",
-      "state"
-    ],
     "angular": [
       "components-and-templates",
       "structural-directives",
@@ -601,9 +597,6 @@
     "firebase",
     "firebase/auth",
     "firebase/firestore",
-    "front-end-web-dev",
-    "front-end-web-dev/components",
-    "front-end-web-dev/state",
     "angular",
     "angular/components-and-templates",
     "angular/structural-directives",
@@ -1085,6 +1078,9 @@
       "js": {
         "title": "JavaScript"
       },
+      "js/data-types": {
+        "title": "Tipos de datos"
+      },
       "js/data-types/primitive": {
         "title": "Tipos de datos primitivos",
         "links": [
@@ -1231,6 +1227,9 @@
       "js/expression-vs-statement": {
         "title": "Diferenciar entre expresiones (expressions) y sentencias (statements)"
       },
+      "js/modules": {
+        "title": "Módulos"
+      },
       "js/modules/es-modules": {
         "title": "Módulos de ECMAScript (ES Modules)",
         "links": [
@@ -1252,6 +1251,9 @@
             "url": "https://nodejs.org/docs/latest/api/modules.html"
           }
         ]
+      },
+      "js/testing": {
+        "title": "Testing en Javascript"
       },
       "js/testing/unit": {
         "title": "Pruebas unitarias (unit tests)",
@@ -1289,6 +1291,9 @@
       "js/linting": {
         "title": "Uso de linter (ESLINT)"
       },
+      "js/async": {
+        "title": "Asincronía"
+      },
       "js/async/callbacks": {
         "title": "Callbacks",
         "links": [
@@ -1314,6 +1319,9 @@
       "scm": {
         "title": "Control de Versiones (Git y GitHub)"
       },
+      "scm/git": {
+        "title": "Git"
+      },
       "scm/git/setup": {
         "title": "Git: Instalación y configuración"
       },
@@ -1322,6 +1330,9 @@
       },
       "scm/git/integration": {
         "title": "Git: Integración de cambios entre ramas (branch, checkout, fetch, merge, reset, rebase, tag)"
+      },
+      "scm/github": {
+        "title": "GitHub"
       },
       "scm/github/setup": {
         "title": "GitHub: Creación de cuenta y repos, configuración de llaves SSH"
@@ -1842,7 +1853,7 @@
       "java/spring-framework/spring-web/request-mapping": {
         "title": "RequestMapping"
       },
-      "java/spring-framework/spring-web/spring-web/request-param": {
+      "java/spring-framework/spring-web/request-param": {
         "title": "RequestParam"
       },
       "java/spring-framework/testing": {
@@ -2446,6 +2457,9 @@
       "php": {
         "title": "PHP"
       },
+      "php/data-types": {
+        "title": "Tipos de datos"
+      },
       "php/data-types/primitive": {
         "title": "Tipos de datos primitivos en PHP",
         "links": [
@@ -2524,6 +2538,9 @@
           }
         ]
       },
+      "php/testing": {
+        "title": "Testing en PHP"
+      },
       "php/testing/phpunit": {
         "title": "PHPUnit",
         "links": [
@@ -2542,6 +2559,9 @@
           }
         ]
       },
+      "php/package-management": {
+        "title": "Gestión de paquetes"
+      },
       "php/package-management/composer": {
         "title": "Composer",
         "links": [
@@ -2553,6 +2573,9 @@
       },
       "wordpress": {
         "title": "WordPress"
+      },
+      "wordpress/plugin-development": {
+        "title": "Desarrollo de plugins"
       },
       "wordpress/plugin-development/hooks": {
         "title": "Hooks: action y filter",
@@ -2652,6 +2675,12 @@
             "url": "https://developer.wordpress.org/plugins/wordpress-org/planning-your-plugin/"
           }
         ]
+      },
+      "typescript": {
+        "title": "Typescript"
+      },
+      "typescript/basic-types": {
+        "title": "Tipos básicos"
       },
       "typescript/basic-types/static-type-checking": {
         "title": "Chequeo estático de tipos",
@@ -3365,6 +3394,9 @@
       "js": {
         "title": "JavaScript"
       },
+      "js/data-types": {
+        "title": "Tipos de dados"
+      },
       "js/data-types/primitive": {
         "title": "Tipos de dados primitivos",
         "links": [
@@ -3511,6 +3543,9 @@
       "js/expression-vs-statement": {
         "title": "Diferença entre expressões (expressions) e declarações (statements)"
       },
+      "js/modules": {
+        "title": "Módulos"
+      },
       "js/modules/es-modules": {
         "title": "Módulos de ECMAScript (ES modules)",
         "links": [
@@ -3532,6 +3567,9 @@
             "url": "https://nodejs.org/docs/latest/api/modules.html"
           }
         ]
+      },
+      "js/testing": {
+        "title": "Testing em Javascript"
       },
       "js/testing/unit": {
         "title": "Testes unitários (unit tests)",
@@ -3569,6 +3607,9 @@
       "js/linting": {
         "title": "Uso de linter (ESLINT)"
       },
+      "js/async": {
+        "title": "Assincronicidade"
+      },
       "js/async/callbacks": {
         "title": "Callbacks",
         "links": [
@@ -3594,6 +3635,9 @@
       "scm": {
         "title": "Controle de Versões (Git e GitHub)"
       },
+      "scm/git": {
+        "title": "Git"
+      },
       "scm/git/setup": {
         "title": "Git: Instalação e configuração"
       },
@@ -3602,6 +3646,9 @@
       },
       "scm/git/integration": {
         "title": "Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)"
+      },
+      "scm/github": {
+        "title": "GitHub"
       },
       "scm/github/setup": {
         "title": "GitHub: Criação de contas e repositórios, configuração de chave SSH"
@@ -4722,6 +4769,9 @@
       "php": {
         "title": "PHP"
       },
+      "php/data-types": {
+        "title": "Tipos de dados"
+      },
       "php/data-types/primitive": {
         "title": "Tipos de dados primitivos em PHP",
         "links": [
@@ -4800,6 +4850,9 @@
           }
         ]
       },
+      "php/testing": {
+        "title": "Testes em PHP"
+      },
       "php/testing/phpunit": {
         "title": "PHPUnit",
         "links": [
@@ -4818,6 +4871,9 @@
           }
         ]
       },
+      "php/package-management": {
+        "title": "Gerenciamento de pacotes"
+      },
       "php/package-management/composer": {
         "title": "Composer",
         "links": [
@@ -4829,6 +4885,9 @@
       },
       "wordpress": {
         "title": "WordPress"
+      },
+      "wordpress/plugin-development": {
+        "title": "Desenvolvimento de plugins"
       },
       "wordpress/plugin-development/hooks": {
         "title": "Hooks: action e filter",
@@ -4928,6 +4987,12 @@
             "url": "https://developer.wordpress.org/plugins/wordpress-org/planning-your-plugin/"
           }
         ]
+      },
+      "typescript": {
+        "title": "Typescript"
+      },
+      "typescript/basic-types": {
+        "title": "Tipos básicos"
       },
       "typescript/basic-types/static-type-checking": {
         "title": "Verificação estática de tipos",
@@ -5356,7 +5421,9 @@
       "pt": "JavaScript"
     },
     {
-      "key": "js/data-types"
+      "key": "js/data-types",
+      "es": "Tipos de datos",
+      "pt": "Tipos de dados"
     },
     {
       "key": "js/data-types/primitive",
@@ -5409,7 +5476,9 @@
       "pt": "Recursão"
     },
     {
-      "key": "js/testing"
+      "key": "js/testing",
+      "es": "Testing en Javascript",
+      "pt": "Testing em Javascript"
     },
     {
       "key": "js/testing/unit",
@@ -5437,7 +5506,9 @@
       "pt": "Teste de compatibilidade em vários ambientes de execução"
     },
     {
-      "key": "js/modules"
+      "key": "js/modules",
+      "es": "Módulos",
+      "pt": "Módulos"
     },
     {
       "key": "js/modules/es-modules",
@@ -5465,7 +5536,9 @@
       "pt": "Diferença entre expressões (expressions) e declarações (statements)"
     },
     {
-      "key": "js/async"
+      "key": "js/async",
+      "es": "Asincronía",
+      "pt": "Assincronicidade"
     },
     {
       "key": "js/async/callbacks",
@@ -5483,7 +5556,9 @@
       "pt": "Controle de Versões (Git e GitHub)"
     },
     {
-      "key": "scm/git"
+      "key": "scm/git",
+      "es": "Git",
+      "pt": "Git"
     },
     {
       "key": "scm/git/setup",
@@ -5501,7 +5576,9 @@
       "pt": "Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)"
     },
     {
-      "key": "scm/github"
+      "key": "scm/github",
+      "es": "GitHub",
+      "pt": "GitHub"
     },
     {
       "key": "scm/github/setup",
@@ -5727,15 +5804,6 @@
       "key": "firebase/firestore",
       "es": "Firestore",
       "pt": "Firestore"
-    },
-    {
-      "key": "front-end-web-dev"
-    },
-    {
-      "key": "front-end-web-dev/components"
-    },
-    {
-      "key": "front-end-web-dev/state"
     },
     {
       "key": "angular",
@@ -6164,6 +6232,7 @@
     },
     {
       "key": "java/spring-framework/spring-web/request-param",
+      "es": "RequestParam",
       "pt": "RequestParam"
     },
     {
@@ -6477,7 +6546,9 @@
       "pt": "PHP"
     },
     {
-      "key": "php/data-types"
+      "key": "php/data-types",
+      "es": "Tipos de datos",
+      "pt": "Tipos de dados"
     },
     {
       "key": "php/data-types/primitive",
@@ -6510,7 +6581,9 @@
       "pt": "Funções em PHP (params, args, return)"
     },
     {
-      "key": "php/testing"
+      "key": "php/testing",
+      "es": "Testing en PHP",
+      "pt": "Testes em PHP"
     },
     {
       "key": "php/testing/phpunit",
@@ -6523,7 +6596,9 @@
       "pt": "XDebug"
     },
     {
-      "key": "php/package-management"
+      "key": "php/package-management",
+      "es": "Gestión de paquetes",
+      "pt": "Gerenciamento de pacotes"
     },
     {
       "key": "php/package-management/composer",
@@ -6536,7 +6611,9 @@
       "pt": "WordPress"
     },
     {
-      "key": "wordpress/plugin-development"
+      "key": "wordpress/plugin-development",
+      "es": "Desarrollo de plugins",
+      "pt": "Desenvolvimento de plugins"
     },
     {
       "key": "wordpress/plugin-development/hooks",
@@ -6594,10 +6671,14 @@
       "pt": "Publicar em WordPress Plugin Directory"
     },
     {
-      "key": "typescript"
+      "key": "typescript",
+      "es": "Typescript",
+      "pt": "Typescript"
     },
     {
-      "key": "typescript/basic-types"
+      "key": "typescript/basic-types",
+      "es": "Tipos básicos",
+      "pt": "Tipos básicos"
     },
     {
       "key": "typescript/basic-types/static-type-checking",

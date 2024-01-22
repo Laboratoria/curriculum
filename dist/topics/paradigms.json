@@ -2,9 +2,9 @@
   "slug": "paradigms",
   "repo": "Laboratoria/curriculum",
   "path": "topics/paradigms",
-  "version": "7.6.0",
+  "version": "7.7.0",
   "parserVersion": "5.3.0",
-  "createdAt": "2023-12-22T17:30:54.411Z",
+  "createdAt": "2024-01-16T18:05:54.934Z",
   "track": "web-dev",
   "tracks": [
     "web-dev"
@@ -91,7 +91,7 @@
               "slug": "print-primes",
               "prefix": "01",
               "path": "topics/paradigms/01-paradigms/04-imperative-exercise/01-print-primes",
-              "createdAt": "2023-12-22T17:30:54.409Z",
+              "createdAt": "2024-01-16T18:05:54.932Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -151,7 +151,7 @@
               "slug": "get-primes",
               "prefix": "01",
               "path": "topics/paradigms/01-paradigms/07-procedural-exercise/01-get-primes",
-              "createdAt": "2023-12-22T17:30:54.408Z",
+              "createdAt": "2024-01-16T18:05:54.932Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -199,7 +199,7 @@
               "slug": "notes",
               "prefix": "01",
               "path": "topics/paradigms/01-paradigms/09-oop-exercise/01-notes",
-              "createdAt": "2023-12-22T17:30:54.409Z",
+              "createdAt": "2024-01-16T18:05:54.933Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -247,7 +247,7 @@
               "slug": "notes",
               "prefix": "01",
               "path": "topics/paradigms/01-paradigms/11-fp-exercise/01-notes",
-              "createdAt": "2023-12-22T17:30:54.409Z",
+              "createdAt": "2024-01-16T18:05:54.933Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -354,7 +354,7 @@
               "slug": "simple-objects",
               "prefix": "01",
               "path": "topics/paradigms/03-proto/04-ejercicios/01-simple-objects",
-              "createdAt": "2023-12-22T17:30:54.409Z",
+              "createdAt": "2024-01-16T18:05:54.933Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -376,7 +376,7 @@
               "slug": "proto",
               "prefix": "02",
               "path": "topics/paradigms/03-proto/04-ejercicios/02-proto",
-              "createdAt": "2023-12-22T17:30:54.409Z",
+              "createdAt": "2024-01-16T18:05:54.933Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -398,7 +398,7 @@
               "slug": "dynamic-lookups",
               "prefix": "03",
               "path": "topics/paradigms/03-proto/04-ejercicios/03-dynamic-lookups",
-              "createdAt": "2023-12-22T17:30:54.409Z",
+              "createdAt": "2024-01-16T18:05:54.933Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -420,7 +420,7 @@
               "slug": "property-assignments",
               "prefix": "04",
               "path": "topics/paradigms/03-proto/04-ejercicios/04-property-assignments",
-              "createdAt": "2023-12-22T17:30:54.409Z",
+              "createdAt": "2024-01-16T18:05:54.933Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -442,7 +442,7 @@
               "slug": "arrays-and-objects",
               "prefix": "05",
               "path": "topics/paradigms/03-proto/04-ejercicios/05-arrays-and-objects",
-              "createdAt": "2023-12-22T17:30:54.409Z",
+              "createdAt": "2024-01-16T18:05:54.933Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -464,7 +464,7 @@
               "slug": "object-create",
               "prefix": "06",
               "path": "topics/paradigms/03-proto/04-ejercicios/06-object-create",
-              "createdAt": "2023-12-22T17:30:54.410Z",
+              "createdAt": "2024-01-16T18:05:54.933Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -486,7 +486,7 @@
               "slug": "dot-new",
               "prefix": "07",
               "path": "topics/paradigms/03-proto/04-ejercicios/07-dot-new",
-              "createdAt": "2023-12-22T17:30:54.410Z",
+              "createdAt": "2024-01-16T18:05:54.933Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -508,7 +508,7 @@
               "slug": "constructor-functions",
               "prefix": "08",
               "path": "topics/paradigms/03-proto/04-ejercicios/08-constructor-functions",
-              "createdAt": "2023-12-22T17:30:54.410Z",
+              "createdAt": "2024-01-16T18:05:54.933Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -530,7 +530,7 @@
               "slug": "implicit-this",
               "prefix": "09",
               "path": "topics/paradigms/03-proto/04-ejercicios/09-implicit-this",
-              "createdAt": "2023-12-22T17:30:54.410Z",
+              "createdAt": "2024-01-16T18:05:54.933Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -552,7 +552,7 @@
               "slug": "function-prototype",
               "prefix": "10",
               "path": "topics/paradigms/03-proto/04-ejercicios/10-function-prototype",
-              "createdAt": "2023-12-22T17:30:54.410Z",
+              "createdAt": "2024-01-16T18:05:54.933Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -671,7 +671,7 @@
               "slug": "hof",
               "prefix": "01",
               "path": "topics/paradigms/06-composition/05-exercises/01-hof",
-              "createdAt": "2023-12-22T17:30:54.410Z",
+              "createdAt": "2024-01-16T18:05:54.934Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -693,7 +693,7 @@
               "slug": "map",
               "prefix": "02",
               "path": "topics/paradigms/06-composition/05-exercises/02-map",
-              "createdAt": "2023-12-22T17:30:54.410Z",
+              "createdAt": "2024-01-16T18:05:54.933Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -715,7 +715,7 @@
               "slug": "filter",
               "prefix": "03",
               "path": "topics/paradigms/06-composition/05-exercises/03-filter",
-              "createdAt": "2023-12-22T17:30:54.410Z",
+              "createdAt": "2024-01-16T18:05:54.934Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -737,7 +737,7 @@
               "slug": "reduce",
               "prefix": "04",
               "path": "topics/paradigms/06-composition/05-exercises/04-reduce",
-              "createdAt": "2023-12-22T17:30:54.410Z",
+              "createdAt": "2024-01-16T18:05:54.934Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -759,7 +759,7 @@
               "slug": "arrow-functions",
               "prefix": "05",
               "path": "topics/paradigms/06-composition/05-exercises/05-arrow-functions",
-              "createdAt": "2023-12-22T17:30:54.410Z",
+              "createdAt": "2024-01-16T18:05:54.934Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -781,7 +781,7 @@
               "slug": "closures",
               "prefix": "06",
               "path": "topics/paradigms/06-composition/05-exercises/06-closures",
-              "createdAt": "2023-12-22T17:30:54.410Z",
+              "createdAt": "2024-01-16T18:05:54.934Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -803,7 +803,7 @@
               "slug": "factories",
               "prefix": "07",
               "path": "topics/paradigms/06-composition/05-exercises/07-factories",
-              "createdAt": "2023-12-22T17:30:54.410Z",
+              "createdAt": "2024-01-16T18:05:54.934Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -825,7 +825,7 @@
               "slug": "object-assign",
               "prefix": "08",
               "path": "topics/paradigms/06-composition/05-exercises/08-object-assign",
-              "createdAt": "2023-12-22T17:30:54.410Z",
+              "createdAt": "2024-01-16T18:05:54.934Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -847,7 +847,7 @@
               "slug": "composition",
               "prefix": "09",
               "path": "topics/paradigms/06-composition/05-exercises/09-composition",
-              "createdAt": "2023-12-22T17:30:54.410Z",
+              "createdAt": "2024-01-16T18:05:54.934Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"

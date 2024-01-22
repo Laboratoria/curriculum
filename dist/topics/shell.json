@@ -2,9 +2,9 @@
   "slug": "shell",
   "repo": "Laboratoria/curriculum",
   "path": "topics/shell",
-  "version": "7.6.0",
+  "version": "7.7.0",
   "parserVersion": "5.3.0",
-  "createdAt": "2023-12-22T17:30:56.833Z",
+  "createdAt": "2024-01-16T18:06:01.431Z",
   "track": "web-dev",
   "tracks": [
     "web-dev"
