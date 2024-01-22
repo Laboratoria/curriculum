@@ -80,10 +80,7 @@ qual seja possível **ler e escrever dados**.
   as partes "fáceis" do projeto. Converse, negocie, busque sua oportunidade de
   praticar e aprender o que é mais difícil para você.
 
-* Vocês apenas poderão trabalhar em uma história por vez. Não avancem para a
-  próxima sem completar a anterior. As histórias apenas são concluídas quando se
-  completam **todos** os critérios de aceitação + **toda** sua definição de
-  pronto.
+* Seria preferível trabalhar em uma única história por vez, a fim de garantir que cada uma seja concluída de maneira adequada. É importante garantir o cumprimento de todos os Critérios de Aceitação e a Definição de Concluído antes de avançar para a próxima história. Dessa forma, podemos garantir um trabalho eficiente e de qualidade.
 
 Para começar, você precisará criar um _fork_ e _clone_ deste repositório.
 
