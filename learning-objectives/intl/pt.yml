@@ -384,9 +384,6 @@ research/sources:
 research/test:
   title: Planejar e executar testes de usabilidade
 
-research/cuantitative-data:
-  title: Coletar, analisar e interpretar dados quantitativos
-
 synthesis:
   title: Síntese
 
@@ -414,23 +411,11 @@ synthesis/feature-prioritization:
 product-design:
   title: Design de produto
 
-product-design/user-flows:
-  title: Priorizar e propor fluxos de usuários que os ajudem a atingir seus objetivos com o produto
-
-product-design/content:
-  title: Identificar e priorizar conteúdos relevantes e necessários para o produto
-
 product-design/fidelity:
   title: Design em diferentes níveis de fidelidade
 
 product-design/interactivity:
   title: Criar protótipos para obter feedback e iterar
-
-product-design/usability:
-  title: Projetar produto ou serviço seguindo as melhores práticas de usabilidade
-
-product-design/accessibility:
-  title: Projetar produto ou serviço seguindo as melhores práticas de acessibilidade
 
 product-design/visual-design:
   title: Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
