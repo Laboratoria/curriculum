@@ -47,7 +47,7 @@ const Project = ({ lang, project }) => {
           <span>
             {learningObjectiveCats.map(cat => {
               const icon = learningObjectiveToIcon(cat);
-              return (
+              return icon && (
                 <span
                   key={`icon-${cat}`}
                   title={cat}
