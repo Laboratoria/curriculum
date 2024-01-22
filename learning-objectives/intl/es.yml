@@ -333,7 +333,8 @@ scm/github/ci:
 user-centricity:
   title: Centrado en el usuario
 
-user-centricity/centricity: # only used in web dev
+# only used in web dev ----
+user-centricity/centricity: 
   title: Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro
 
 research:
@@ -346,6 +347,7 @@ research/test: # only used in data lovers and various web dev projects
       url: https://coda.io/@bootcamp-laboratoria/contenido-ux/test-de-usabilidad-15
     - title: Pruebas con Usuarios 1 — ¿Qué, cuándo y para qué testeamos?
       url: https://eugeniacasabona.medium.com/pruebas-con-usuarios-1-qu%C3%A9-cu%C3%A1ndo-y-para-qu%C3%A9-testeamos-7c3a89b4b5e7
+# ----
 
 product-design:
   title: Diseño de producto
@@ -1533,6 +1535,10 @@ research-analysis/synthesize-results:
   title: Sintetizar resultados
   description: Delimitar el problema o necesidad de las personas usuarias que debe resolver el proyecto
 
+research-analysis/ai-analysis:
+  title: Facilitar el análisis utilizando IA
+  description: Utilizar herramientas de inteligencia artificial (IA) para transcribir, organizar y sintetizar la información obtenida
+
 #--- skill Solution design
 design-concept:
   title: Concepto de diseño
@@ -1579,6 +1585,10 @@ content-design/create-content:
   title: Crear contenidos
   description: Definir el contenido (texto e imágenes) que debe incluir la propuesta de diseño
 
+content-design/ai-content:
+  title: Crear textos e imágenes usando IA
+  description: Explorar múltiples propuestas de texto e imágenes generadas con herramientas de inteligencia artificial (IA)
+
 interface-design:
   title: Diseño de interfaces
 
@@ -1593,6 +1603,10 @@ interface-design/accesibility:
 interface-design/responsive-design:
   title: Implementar diseño responsivo
   description: Crear diseños que se adapten a diferentes dispositivos utilizando principios de responsive design
+
+interface-design/ai-proposals:
+  title: Generar propuestas visuales mediante IA
+  description: Experimentar con herramientas de inteligencia artificial (IA) para generar múltiples propuestas que sirvan como inspiración para el diseño
 
 #--- skill Proposal validation
 design-prototype:
@@ -1609,6 +1623,10 @@ design-prototype/high-fidelity:
 design-prototype/advanced-interactions:
   title: Utilizar interacciones avanzadas
   description: Incluir interacciones avanzadas en los prototipos según sea necesario
+
+design-prototype/ai-plugins:
+  title: Utilizar plug-ins de IA para prototipar
+  description: Integrar plug-ins de inteligencia artificial (IA) en Figma que faciliten la creación del prototipo
 
 usability-analysis:
   title: Análisis de usabilidad
@@ -1635,6 +1653,10 @@ design-pitch/design-feedback:
 design-pitch/design-presentation:
   title: Presentar ante el negocio
   description: Presentar resultados de investigación, propuestas y proceso de diseño utilizando principios de "story-telling"
+
+design-pitch/ai-presentations:
+  title: Apoyarse en herramientas de IA para presentar propuestas
+  description: Utilizar herramientas de inteligencia artificial (IA) para crear el story-telling y/o presentación ante stakeholders
 
 #--- skill Technical documentation
 design-specs:
