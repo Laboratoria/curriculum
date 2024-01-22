@@ -333,7 +333,8 @@ scm/github/ci:
 user-centricity:
   title: Centrado en el usuario
 
-user-centricity/centricity: # only used in web dev
+# only used in web dev ----
+user-centricity/centricity: 
   title: Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro
 
 research:
@@ -346,6 +347,7 @@ research/test: # only used in data lovers and various web dev projects
       url: https://coda.io/@bootcamp-laboratoria/contenido-ux/test-de-usabilidad-15
     - title: Pruebas con Usuarios 1 — ¿Qué, cuándo y para qué testeamos?
       url: https://eugeniacasabona.medium.com/pruebas-con-usuarios-1-qu%C3%A9-cu%C3%A1ndo-y-para-qu%C3%A9-testeamos-7c3a89b4b5e7
+# ----
 
 product-design:
   title: Diseño de producto
@@ -1532,6 +1534,10 @@ research-analysis/identify-patterns:
 research-analysis/synthesize-results:
   title: Sintetizar resultados
   description: Delimitar el problema o necesidad de las personas usuarias que debe resolver el proyecto
+
+research-analysis/ai-analysis:
+  title: Facilitar el análisis utilizando IA
+  description: Utilizar herramientas de inteligencia artificial (IA) para transcribir, organizar y sintetizar la información obtenida
 
 #--- skill Solution design
 design-concept:
