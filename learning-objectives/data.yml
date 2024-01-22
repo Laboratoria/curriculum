@@ -72,46 +72,11 @@ scm:
 
 user-centricity:
   - centricity
-  - user-oriented
-  - prioritization
-  
-business:
-  - model
-  - goals
-  - metrics
-  - benchmark
-  
-synthesis:
-  - weighing
-  - patterns
-  - insights
-  - mapping
-  - features
-  - ideation
-  - feature-prioritization
 
 product-design:
-  - user-flows
-  - content
   - fidelity
   - interactivity
-  - usability
-  - accessibility
   - visual-design
-  - component-organization
-  - project-organization
-  - documentation
-
-communication:
-  - presentation
-  - negotiation
-  - relationship-management
-  - case-study
-
-planning:
-  - monitor
-  - prioritization
-  - tools
     
 firebase:
   - auth
@@ -373,31 +338,28 @@ business-understanding:
   - goals-and-kpis
   - benchmark
 
-research:
-  - support
-  - guidelines
-  - interview
-  - documentation
-  - adaptation
-  - sources
-  - test
-  - cuantitative-data
-  - planning:
-    - research-plan
-    - desk-research
-    - research-sample
-    - participants
-  - qualitative:
-    - user-interviews
-    - exploratory-techniques
-  - quantitative:
-    - user-surveys
-    - analytical-techniques
-  - analysis:
-    - process-information
-    - experience-mapping
-    - identify-patterns
-    - synthesize-results
+research: 
+  - test # TODO: change because only used in web-dev and only test
+
+research-planning:
+  - research-plan
+  - desk-research
+  - research-sample
+  - participants
+
+research-qualitative:
+  - user-interviews
+  - exploratory-techniques
+
+research-quantitative:
+  - user-surveys
+  - analytical-techniques
+
+research-analysis:
+  - process-information
+  - experience-mapping
+  - identify-patterns
+  - synthesize-results
 
 design-concept:
   - define-mvp
