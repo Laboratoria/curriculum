@@ -2,26 +2,18 @@
 
 ## Índice
 
-- [1. Consideraciones Generales](#1-consideraciones-generales)
-- [2. Preámbulo](#2-preámbulo)
-- [3. Resumen del Proyecto](#3-resumen-del-proyecto)
-- [4. Objetivos de Aprendizaje](#4-objetivos-de-aprendizaje)
-- [5. Consideraciones Generales](#5-consideraciones-generales)
-- [6. Consideraciones Técnicas](#6-consideraciones-técnicas)
-- [7. Hitos del proyecto](#7-hitos-del-proyecto)
-- [8. Recomendaciones](#8-recomendaciones)
+- [1. Preámbulo](#1-preámbulo)
+- [2. Resumen del Proyecto](#2-resumen-del-proyecto)
+- [3. Objetivos de Aprendizaje](#3-objetivos-de-aprendizaje)
+- [4. Consideraciones Generales](#4-consideraciones-generales)
+- [5. Consideraciones Técnicas](#5-consideraciones-técnicas)
+- [6. Hitos del proyecto](#6-hitos-del-proyecto)
+- [7. Recomendaciones](#7-recomendaciones)
+- [8. Pistas / Tips](#8-pistas--tips)
 
 ---
 
-## 1. Consideraciones Generales
-
-- Este proyecto debe desarrollarse de manera **individual**.
-- La estimación de tiempo para completar el proyecto es de 1 a 2 Sprints.
-- Concéntrate en adquirir conocimientos en lugar de simplemente "terminar" el proyecto.
-- Ten paciencia. No te preocupes demasiado por lo que aún no entiendes completamente.
-- Tu aprendizaje se desarrollará a medida que progreses.
-
-## 2. Preámbulo
+## 1. Preámbulo
 
 En la actualidad, Java es uno de los lenguajes de programación más utilizados en
 el mundo. A pesar de la diversidad de plataformas y herramientas disponibles, es
@@ -31,7 +23,7 @@ introducirte al mundo de Java a través de un juego simple y divertido.
 
 ![GUESS THE NUMBER](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/guess-the-number.png?alt=media)
 
-## 3. Resumen del Proyecto
+## 2. Resumen del Proyecto
 
 Es un juego interactivo que se desarrolla en el terminal, donde la jugadora y el
 ordenador se turnan para intentar adivinar un número aleatorio entre 1 y 100.
@@ -39,7 +31,7 @@ Deben tener en cuenta la tentativa anterior, si fue "muy alta" o "muy baja".
 
 ![GUESS THE NUMBER DEMO](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/guess-the-number-demo.gif?alt=media)
 
-## 4. Objetivos de Aprendizaje
+## 3. Objetivos de Aprendizaje
 
 > ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
@@ -49,9 +41,13 @@ Deben tener en cuenta la tentativa anterior, si fue "muy alta" o "muy baja".
 > Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
 > que contempla nuestra currícula.
 
-## 5. Consideraciones Generales
+## 4. Consideraciones Generales
 
+- Este proyecto debe desarrollarse de manera **individual**.
 - Duración del proyecto: Se estima que este proyecto tomará de 1 a 2 sprints.
+- Concéntrate en adquirir conocimientos en lugar de simplemente "terminar" el proyecto.
+- Ten paciencia. No te preocupes demasiado por lo que aún no entiendes completamente.
+- Tu aprendizaje se desarrollará a medida que progreses.
 - Debe implementarse en Java. Las únicas dependencias externas que se pueden utilizar
   son JUnit y Mockito para pruebas unitarias.
 - El juego se llevará a cabo en el terminal. Las pruebas se pueden ejecutar
@@ -135,7 +131,7 @@ jugadora "remota" o incluso diferentes niveles de dificultad.
   número secreto. Debe mostrarse un mensaje de fin de juego,
   así como una lista de todas las tentativas realizadas por la jugadora ganadora.
 
-## 6. Consideraciones Técnicas
+## 5. Consideraciones Técnicas
 
 - El juego se llevará a cabo en el terminal usando Java.
 - La lógica del juego se basará en estructuras de control, incluyendo bucles,
@@ -146,7 +142,7 @@ jugadora "remota" o incluso diferentes niveles de dificultad.
 - Se deben realizar **pruebas unitarias** para sus clases y métodos
   utilizando JUnit y simulación de generación de números aleatorios con Mockito.
 
-## 7. Hitos del proyecto
+## 6. Hitos del proyecto
 
 No trabajes como si fueras una fábrica haciendo una clase toda y luego otra.
 El riesgo de trabajar así es que obtendrás muchas partes sin ninguna o con media
@@ -166,14 +162,14 @@ usuaria al finalizar cada hito.
 
 A continuación, te dejamos algunos hitos como sugerencia para que construyas tu proyecto.
 
-### 7.1 Hito 1 - Configuración del entorno de trabajo
+### 6.1 Hito 1 - Configuración del entorno de trabajo
 
 Para comenzar a trabajar con Java es necesario configurar nuestro entorno de
 trabajo para descargar y configurar los requisitos mínimos. Para esto hemos
 preparado una guía que te ayudara a tener todo listo para que comiences a trabajar
 en este proyecto puedes encontrarlar [aquí](https://github.com/laboratoria/java-setup).
 
-### 7.2 Hito 2 - Primeros pasos con el lenguaje
+### 6.2 Hito 2 - Primeros pasos con el lenguaje
 
 Crea la primera clase del proyecto que contenga el método main. Puedes agregar
 un comando que muestre "¡Hola mundo!", en la consola.
@@ -204,7 +200,7 @@ Recuerda también utilizar contenidos prácticos para comprender estos conceptos
 - [Java Classes and Objects](https://www.w3schools.com/java/java_classes.asp)
 - [Java Methods](https://www.w3schools.com/java/java_methods.asp)
 
-### 7.3 Hito 3 - Comprensión del Diagrama de Clases
+### 6.3 Hito 3 - Comprensión del Diagrama de Clases
 
 Dejamos un [Diagrama de Clases](#diagrama-de-clases) para que te sirva de base
 para construir tu proyecto. Pero es necesario comprender lo que significa antes
@@ -215,7 +211,7 @@ En este hito, puedes comprender lo que este diagrama está representando.
 
 - [¿Qué son los Diagramas de Clase?](https://diagramasuml.com/diagrama-de-clases/)
 
-### 7.4 Hito 4 - Iniciando el juego
+### 6.4 Hito 4 - Iniciando el juego
 
 En este hito, puedes crear el juego para un solo jugador.
 
@@ -232,7 +228,7 @@ mayor que el valor objetivo. Muestra en la terminal si es un valor alto o bajo.
 - [Java User Input](https://www.w3schools.com/java/java_user_input.asp)
 - [Número Aleatorio](https://www.baeldung.com/java-17-random-number-generators)
 
-### 7.5 Hito 5 - Agregando más jugadoras
+### 6.5 Hito 5 - Agregando más jugadoras
 
 En este hito, puedes agregar otra jugadora al juego.
 
@@ -241,7 +237,7 @@ ser la computadora. Desarrolla la lógica para alternar entre las jugadoras.
 Finalmente, agrega información adicional cuando alguna jugadora gane el juego.
 Puedes mostrar la cantidad de intentos y cuáles fueron los intentos de la jugadora.
 
-### 7.6 Hito 6 - Configuración para la construcción de pruebas unitarias
+### 6.6 Hito 6 - Configuración para la construcción de pruebas unitarias
 
 En este hito, configura las bibliotecas JUnit5 y Mockito en tu IDE para que
 puedas crear pruebas unitarias.
@@ -256,7 +252,7 @@ Le recomendamos que utilice las bibliotecas presentes en el repositorio de Maven
 - [Agregar JUnit5 en IntelliJ](https://www.jetbrains.com/help/idea/junit.html#intellij)
 - [Testing Java with VSCode](https://code.visualstudio.com/docs/java/java-testing)
 
-### 7.7 Hito 7 - Creación de pruebas unitarias
+### 6.7 Hito 7 - Creación de pruebas unitarias
 
 Crea las pruebas unitarias para tu proyecto. Asegúrate de cubrir con pruebas
 la lógica de tu juego basándote en comportamientos. Por ejemplo, crea pruebas que:
@@ -270,7 +266,7 @@ la lógica de tu juego basándote en comportamientos. Por ejemplo, crea pruebas 
 - [Calidad y JUnit: Introducción a la automatización de pruebas unitarias en tu software Java en el día a día](https://www.tutorialspoint.com/junit/index.htm)
 - [Tutorial de Mockito](https://www.digitalocean.com/community/tutorials/mockito-tutorial)
 
-### 7.8 Hito 8 (Edición Hacker) - Creación de una "inteligencia" para jugar contra la computadora
+### 6.8 Hito 8 (Edición Hacker) - Creación de una "inteligencia" para jugar contra la computadora
 
 En este hito, que consideramos como Edición Hacker, puedes crear una lógica
 para que los número de la segunda jugadora, cuando estás jugando contra la computadora,
@@ -278,7 +274,7 @@ sean más inteligentes. Estos número pueden considerar la información
 sobre si el número es alto o bajo en relación con el número objetivo,
 haciendo que el juego sea más emocionante.
 
-## 8. Recomendaciones
+## 7. Recomendaciones
 
 **Documentación de Java**: La documentación oficial de Java es una excelente
 fuente de información sobre las clases y métodos disponibles en
@@ -309,5 +305,11 @@ como se espera. Puedes usar el framework JUnit para escribir tus pruebas.
 Recuerda que este proyecto está diseñado para que apliques tu conocimiento
 previo en JavaScript, "traduciéndolo" a Java, y aprendas el paradigma de
 programación orientada a objetos en el proceso.
+
+## 8. Pistas / Tips
+
+Consulta los [FAQ](./docs/FAQ.md) y súmate al canal de Slack
+[#project-guess-the-number](https://claseslaboratoria.slack.com/archives/C067E8ZT9CY)
+para conversar y pedir ayuda del proyecto.
 
 **_¡Diviértete construyendo tu juego de adivinanza de números! 🎲🎮_**

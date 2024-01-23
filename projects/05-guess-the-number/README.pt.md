@@ -2,27 +2,18 @@
 
 ## Índice
 
-- [1. Considerações Gerais](#1-considerações-gerais)
-- [2. Prefácio](#2-prefácio)
-- [3. Resumo do Projeto](#3-resumo-do-projeto)
-- [4. Objetivos de Aprendizagem](#4-objetivos-de-aprendizado)
-- [5. Considerações Gerais](#5-considerações-gerais)
-- [6. Considerações Técnicas](#6-considerações-técnicas)
-- [7. Marcos do projeto](#7-marcos-do-projeto)
-- [8. Recomendações](#8-recomendações)
+- [1. Prefácio](#1-prefácio)
+- [2. Resumo do Projeto](#2-resumo-do-projeto)
+- [3. Objetivos de Aprendizagem](#3-objetivos-de-aprendizado)
+- [4. Considerações Gerais](#4-considerações-gerais)
+- [5. Considerações Técnicas](#5-considerações-técnicas)
+- [6. Marcos do projeto](#6-marcos-do-projeto)
+- [6. Recomendações](#7-recomendações)
+- [8. Dicas / Sugestões](#8-dicas--sugestões)
 
 ---
 
-## 1. Considerações Gerais
-
-- Este projeto deve ser desenvolvido de manera **individual**.
-- A estimativa de tempo para completar o projeto é de 1 a 2 Sprints.
-- Concentre-se em adquirir conhecimento ao invés de simplesmente "terminar" o projeto.
-- Tenha paciência! Não se preocupe muito com o que você ainda não entende
-  completamente.
-- Seu aprendizado se desenvolverá à medida que você progredir.
-
-## 2. Prefácio
+## 1. Prefácio
 
 Atualmente, Java é uma das linguagens de programação mais utilizadas no mundo.
 Apesar da diversidade de plataformas e ferramentas disponíveis, é fundamental
@@ -32,7 +23,7 @@ Java por meio de um jogo simples e divertido.
 
 ![GUESS THE NUMBER](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/guess-the-number.png?alt=media)
 
-## 3. Resumo do Projeto
+## 2. Resumo do Projeto
 
 É um jogo interativo que se realiza no terminal, no qual a
 jogadora e o computador se alternam para tentar adivinhar um número
@@ -41,7 +32,7 @@ foi "muito alta" ou "muito baixa".
 
 ![GUESS THE NUMER DEMO](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/guess-the-number-demo.gif?alt=media)
 
-## 4. Objetivos de Aprendizado
+## 3. Objetivos de Aprendizado
 
 > ℹ️ Esta seção será gerada automaticamente no idioma relevante, com base nos
 objetivos de aprendizagem declarados em
@@ -51,9 +42,13 @@ objetivos de aprendizagem declarados em
 > Aqui você pode ver uma [lista de todos os objetivos de aprendizagem](../../learning-objectives/data.yml)
 > que estão incluídos em nosso currículo.
 
-## 5. Considerações Gerais
+## 4. Considerações Gerais
 
+- Este projeto deve ser desenvolvido de manera **individual**.
 - Duração do projeto: Estima-se que este projeto levará de 1 a 2 sprints.
+- Concentre-se em adquirir conhecimento ao invés de simplesmente "terminar" o projeto.
+- Tenha paciência! Não se preocupe muito com o que você ainda não entende completamente.
+- Seu aprendizado se desenvolverá à medida que você progredir.
 - Deve ser implementado em Java. As únicas dependências externas que podem ser
   usadas são JUnit e Mockito para testes unitários.
 - O jogo será realizado no terminal. Os testes podem ser executados no
@@ -137,7 +132,7 @@ até mesmo diferentes níveis de dificuldade.
   número secreto. Deve ser exibida uma mensagem de fim de jogo, bem como uma lista
   de todas as tentativas feitas pela jogadora vencedora.
 
-## 6. Considerações Técnicas
+## 5. Considerações Técnicas
 
 - O jogo será realizado no terminal usando Java.
 - A lógica do jogo será baseada em estruturas de controle,
@@ -149,7 +144,7 @@ até mesmo diferentes níveis de dificuldade.
 - Devem ser realizados **testes unitários** para suas classes e métodos usando
   JUnit e simulação de geração de números aleatórios com Mockito.
 
-## 7. Marcos do projeto
+## 6. Marcos do projeto
 
 Não trabalhe como se fosse uma fábrica fazendo uma classe toda e depois outra.
 O risco de trabalhar assim é que você obtenha muitas partes sem nenhuma ou meia funcionalidade
@@ -168,7 +163,7 @@ um pouco de cada coisa, agregando valor para seu usuário ao término de cada ma
 
 A seguir deixamos alguns marcos como sugestão para que você construa o seu projeto.
 
-### 7.1 Marco 1 - Configurações do ambiente de trabalho
+### 6.1 Marco 1 - Configurações do ambiente de trabalho
 
 Para começar a trabalhar com Java, é necessário configurar nosso ambiente
 de trabalho para fazer download e configurar os requisitos mínimos.
@@ -183,7 +178,7 @@ a trabalhar nesse projeto você pode encontrá-lo [aquí](https://github.com/Lab
 - [Step by Step guide to install Intellij Idea
 on Mac](https://www.geeksforgeeks.org/step-by-step-guide-to-install-intellij-idea)
 
-### 7.2 Marco 2 - Primeiros passos com a linguagem
+### 6.2 Marco 2 - Primeiros passos com a linguagem
 
 Crie a primeira classe do projeto que contenha o método main.
 Você pode adicionar um comando que exiba "Olá mundo!" no console. Assim vc
@@ -214,7 +209,7 @@ Crie códigos! Tente, erre, tente de novo, etc.
 - [Java Classes and Objects](https://www.w3schools.com/java/java_classes.asp)
 - [Java Methods](https://www.w3schools.com/java/java_methods.asp)
 
-### 7.3 Marco 3 - Compreendendo o Diagrama de Classes
+### 6.3 Marco 3 - Compreendendo o Diagrama de Classes
 
 Deixamos um [Diagrama de Classes](#diagrama-de-classes) para que você possa se
 basear para construir o seu projeto. Mas é preciso compreender o que ele significa
@@ -226,7 +221,7 @@ Neste marco você pode compreender o que esse diagrama está representando.
 - [O que é um diagrama de classe UML?](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
 - [O que são os Diagramas de Classe](https://www.devmedia.com.br/orientacoes-basicas-na-elaboracao-de-um-diagrama-de-classes/37224)
 
-### 7.4 Marco 4 - Começando o jogo
+### 6.4 Marco 4 - Começando o jogo
 
 Neste marco você pode criar o jogo para somente um jogador.
 
@@ -244,7 +239,7 @@ Exiba no terminal informando se é um valor alto ou baixo!
 - [Java User Input](https://www.w3schools.com/java/java_user_input.asp)
 - [Random Number](https://www.baeldung.com/java-17-random-number-generators)
 
-### 7.5 Marco 5 - Adicionando mais jogadores
+### 6.5 Marco 5 - Adicionando mais jogadores
 
 Neste marco você pode adicionar mais uma jogadora ao jogo!
 
@@ -253,7 +248,7 @@ ser o computador. Crie a lógica para alternar entre as jogadoras.
 Por fim, coloque informações adicionais quando alguma jogadora ganhar o jogo!
 Você pode exibir a quantidade de tentativas e quais foram as tentativas da jogadora.
 
-### 7.6 Marco 6 - Configurações para construção dos testes unitários
+### 6.6 Marco 6 - Configurações para construção dos testes unitários
 
 Neste marco você pode configurar as bibliotecas JUnit5 e Mockito na sua IDE,
 assim você poderá criar os testes unitários.
@@ -268,7 +263,7 @@ Recomendamos que você utilize as bibliotecas presentes no repositório Maven:
 - [Adicionar JUnit5 no IntelliJ](https://www.jetbrains.com/help/idea/junit.html#intellij)
 - [Testing Java with VSCode](https://code.visualstudio.com/docs/java/java-testing)
 
-### 7.7 Marco 7 - Criação dos testes unitários
+### 6.7 Marco 7 - Criação dos testes unitários
 
 Crie os testes unitários do seu projeto. Preocupe-se em cobrir com testes os a
 lógica do seu jogo baseando-se em comportamentos. Por exemplo, crie testes que:
@@ -281,7 +276,7 @@ lógica do seu jogo baseando-se em comportamentos. Por exemplo, crie testes que:
 - [Qualidade e JUnit: introduzindo automatização de testes unitários do seu software Java no dia-a-dia](https://mari-azevedo.medium.com/qualidade-e-junit-introduzindo-automatiza%C3%A7%C3%A3o-de-testes-unit%C3%A1rios-do-seu-software-java-no-dia-a-dia-849611de5574)
 - [Mockito Tutorial](https://www.digitalocean.com/community/tutorials/mockito-tutorial)
 
-### 7.8 Marco 8 (Hacker Edition) - Criação de uma "inteligência" para jogar contra o computador
+### 6.8 Marco 8 (Hacker Edition) - Criação de uma "inteligência" para jogar contra o computador
 
 Neste marco, que entendemos como Hacker Edition, você poderá criar uma lógica para
 que os palpites da segunda jogadora, quando estivermos jogando contra o computador,
@@ -289,7 +284,7 @@ sejam palpites mais inteligentes.
 Esse palpites podem considerar a informação se o palpite é alto ou baixo
 em relação ao número alvo e assim o jogo pode se tornar mais emocionante.
 
-## 8. Recomendações
+## 7. Recomendações
 
 **Documentação do Java**: A documentação oficial do Java é uma excelente
 fonte de informações sobre as classes e métodos disponíveis em Java
@@ -320,5 +315,11 @@ como o esperado. Você pode usar o framework JUnit para escrever seus testes.
 Lembre-se de que este projeto foi projetado para que você possa aplicar seu
 conhecimento prévio em JavaScript, "traduzindo-o" para Java,
 aprendendo o paradigma de programação orientada a objetos no processo.
+
+## 8. Dicas / Sugestões
+
+Confira o [FAQ](./docs/FAQ.pt.md) e participe do canal do Slack
+[#project-guess-the-number] (https://claseslaboratoria.slack.com/archives/C067E8ZT9CY)
+para conversar e pedir ajuda sobre o projeto.
 
 **_Divirta-se construindo seu jogo de adivinhação de números! 🎲🎮_**
