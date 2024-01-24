@@ -5,22 +5,11 @@ learningObjectives:
   - business-understanding/business-model
   - business-understanding/goals-and-kpis
   - business-understanding/benchmark
-  - research/planning/research-plan
-  - research/planning/desk-research
-  - research/planning/research-sample
-  - research/planning/participants
-  - research/qualitative/user-interviews
-  - research/analysis/process-information
-  - research/analysis/experience-mapping
-  - research/analysis/identify-patterns
-  - research/analysis/synthesize-results
-  - design-concept/define-mvp
-  - design-concept/design-references
-  - design-concept/ideate
-  - design-concept/prioritize-ideas
-  - interaction-design/user-flows
-  - interaction-design/usability
-  - interaction-design/information-architecture
+  - research-planning
+  - research-qualitative/user-interviews
+  - research-analysis
+  - design-concept
+  - interaction-design
   - content-design/create-content
   - interface-design/visual-design
   - interface-design/accesibility

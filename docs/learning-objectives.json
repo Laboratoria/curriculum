@@ -86,8 +86,8 @@
   },
   {
     "key": "js/data-types",
-    "es": "",
-    "pt": ""
+    "es": "Tipos de datos",
+    "pt": "Tipos de dados"
   },
   {
     "key": "js/data-types/primitive",
@@ -141,8 +141,8 @@
   },
   {
     "key": "js/testing",
-    "es": "",
-    "pt": ""
+    "es": "Testing en Javascript",
+    "pt": "Testing em Javascript"
   },
   {
     "key": "js/testing/unit",
@@ -171,8 +171,8 @@
   },
   {
     "key": "js/modules",
-    "es": "",
-    "pt": ""
+    "es": "Módulos",
+    "pt": "Módulos"
   },
   {
     "key": "js/modules/es-modules",
@@ -201,8 +201,8 @@
   },
   {
     "key": "js/async",
-    "es": "",
-    "pt": ""
+    "es": "Asincronía",
+    "pt": "Assincronicidade"
   },
   {
     "key": "js/async/callbacks",
@@ -221,8 +221,8 @@
   },
   {
     "key": "scm/git",
-    "es": "",
-    "pt": ""
+    "es": "Git",
+    "pt": "Git"
   },
   {
     "key": "scm/git/setup",
@@ -241,8 +241,8 @@
   },
   {
     "key": "scm/github",
-    "es": "",
-    "pt": ""
+    "es": "GitHub",
+    "pt": "GitHub"
   },
   {
     "key": "scm/github/setup",
@@ -280,94 +280,9 @@
     "pt": "Desenhar e desenvolver um produto ou serviço colocando as usuárias no centro"
   },
   {
-    "key": "user-centricity/user-oriented",
-    "es": "Involucrar usuarias y tomar en cuenta sus necesidades a lo largo de todo el proceso de diseño",
-    "pt": "Envolva os usuários e leve em consideração suas necessidades durante todo o processo de design"
-  },
-  {
-    "key": "user-centricity/prioritization",
-    "es": "Identificar y priorizar usuarias relevantes para el proyecto",
-    "pt": "Identificar e priorizar usuários relevantes para o projeto"
-  },
-  {
-    "key": "business",
-    "es": "Negocio",
-    "pt": "Negócios"
-  },
-  {
-    "key": "business/model",
-    "es": "Entender el modelo de negocio",
-    "pt": "Entendendo o modelo de negócio"
-  },
-  {
-    "key": "business/goals",
-    "es": "Entender y considerar los objetivos del negocio durante el desarrollo del proyecto",
-    "pt": "Entenda e considere os objetivos do negócio durante o desenvolvimento do projeto"
-  },
-  {
-    "key": "business/metrics",
-    "es": "Definir métricas relevantes para validar el cumplimiento de los objetivos del negocio",
-    "pt": "Definir métricas relevantes para validar a conformidade com os objetivos de negócios"
-  },
-  {
-    "key": "business/benchmark",
-    "es": "Entender estado del negocio en relación con el mercado local y global",
-    "pt": "Entendendo a situação do negócio em relação ao mercado local e global"
-  },
-  {
-    "key": "synthesis",
-    "es": "Síntesis",
-    "pt": "Síntese"
-  },
-  {
-    "key": "synthesis/weighing",
-    "es": "Distinguir observaciones, data y/o respuestas que aportan valor al proyecto",
-    "pt": "Distinguir observações, dados e/ou respostas que agregam valor ao projeto"
-  },
-  {
-    "key": "synthesis/patterns",
-    "es": "Encontrar patrones en los resultados de la investigación",
-    "pt": "Encontrando padrões nos resultados da pesquisa"
-  },
-  {
-    "key": "synthesis/insights",
-    "es": "Diferenciar entre observaciones, hallazagos e insights",
-    "pt": "Diferenciar entre observações, descobertas e insights"
-  },
-  {
-    "key": "synthesis/mapping",
-    "es": "Usar herramientas de síntesis para mapear las experiencias de los usuarios",
-    "pt": "Usando ferramentas de síntese para mapear as experiências do usuário"
-  },
-  {
-    "key": "synthesis/features",
-    "es": "Definir funcionalidades del producto",
-    "pt": "Definir características do produto"
-  },
-  {
-    "key": "synthesis/ideation",
-    "es": "Generar múltiples ideas de solución al reto del proyecto",
-    "pt": "Gerar várias ideias de soluções para o desafio do projeto"
-  },
-  {
-    "key": "synthesis/feature-prioritization",
-    "es": "Priorizar las posibles soluciones que aporten más valor al proyecto, basándose en los objetivos del proyecto y las necesidades de los usuarios",
-    "pt": "Priorizar as possíveis soluções que agregam mais valor ao projeto, com base nos objetivos do projeto e nas necessidades dos usuários"
-  },
-  {
     "key": "product-design",
     "es": "Diseño de producto",
     "pt": "Design de produto"
-  },
-  {
-    "key": "product-design/user-flows",
-    "es": "Priorizar y proponer flujos de usuaria que les ayuden a conseguir sus objetivos con el producto",
-    "pt": "Priorizar e propor fluxos de usuários que os ajudem a atingir seus objetivos com o produto"
-  },
-  {
-    "key": "product-design/content",
-    "es": "Identificar y priorizar contenidos relevantes y necesarios para el producto",
-    "pt": "Identificar e priorizar conteúdos relevantes e necessários para o produto"
   },
   {
     "key": "product-design/fidelity",
@@ -380,79 +295,9 @@
     "pt": "Criar protótipos para obter feedback e iterar"
   },
   {
-    "key": "product-design/usability",
-    "es": "Diseñar producto o servicio siguiendo mejores prácticas de usabilidad",
-    "pt": "Projetar produto ou serviço seguindo as melhores práticas de usabilidade"
-  },
-  {
-    "key": "product-design/accessibility",
-    "es": "Diseñar producto o servicio siguiendo mejores prácticas de accesibilidad",
-    "pt": "Projetar produto ou serviço seguindo as melhores práticas de acessibilidade"
-  },
-  {
     "key": "product-design/visual-design",
     "es": "Seguir los principios básicos de diseño visual",
     "pt": "Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)"
-  },
-  {
-    "key": "product-design/component-organization",
-    "es": "Crear y utilizar componentes reutilizables",
-    "pt": "Criar e usar componentes reutilizáveis"
-  },
-  {
-    "key": "product-design/project-organization",
-    "es": "Nombrar, organizar, agrupar las capas (layers) del diseño siguiendo buenas prácticas",
-    "pt": "Nomear, organizar, agrupar as camadas (layers) do design seguindo boas práticas"
-  },
-  {
-    "key": "product-design/documentation",
-    "es": "Documentar los distintos componentes de UI y sus casos de uso",
-    "pt": "Documentar os vários componentes da interface do usuário e seus casos de uso"
-  },
-  {
-    "key": "communication",
-    "es": "Comunicación",
-    "pt": "Comunicação"
-  },
-  {
-    "key": "communication/presentation",
-    "es": "Presentar y sustentar propuestas a clientes",
-    "pt": "Apresentar e apoiar propostas aos clientes"
-  },
-  {
-    "key": "communication/negotiation",
-    "es": "Negociar efectivamente con clientes",
-    "pt": "Negociando de forma eficaz com os clientes"
-  },
-  {
-    "key": "communication/relationship-management",
-    "es": "Manejar relaciones con clientes",
-    "pt": "Gerenciando o Relacionamento com o Cliente"
-  },
-  {
-    "key": "communication/case-study",
-    "es": "Presentar su proceso de trabajo en un caso de estudio usando herramientas de storytelling",
-    "pt": "Apresente seu processo de trabalho em um estudo de caso usando ferramentas de storytelling"
-  },
-  {
-    "key": "planning",
-    "es": "Planificación",
-    "pt": "Planejamento"
-  },
-  {
-    "key": "planning/monitor",
-    "es": "Organizar y dar seguimiento a actividades a desarrollarse durante el proyecto",
-    "pt": "Organizar e monitorar as atividades a serem desenvolvidas durante o projeto"
-  },
-  {
-    "key": "planning/prioritization",
-    "es": "Priorizar actividades a desarrollarse durante el proyecto",
-    "pt": "Priorizar as atividades a serem desenvolvidas durante o projeto"
-  },
-  {
-    "key": "planning/tools",
-    "es": "Elegir las herramientas y métodos a utilizar de acuerdo a las necesidades  del proyecto",
-    "pt": "Escolha as ferramentas e métodos a utilizar de acordo com as necessidades do projeto"
   },
   {
     "key": "firebase",
@@ -468,21 +313,6 @@
     "key": "firebase/firestore",
     "es": "Firestore",
     "pt": "Firestore"
-  },
-  {
-    "key": "front-end-web-dev",
-    "es": "",
-    "pt": ""
-  },
-  {
-    "key": "front-end-web-dev/components",
-    "es": "",
-    "pt": ""
-  },
-  {
-    "key": "front-end-web-dev/state",
-    "es": "",
-    "pt": ""
   },
   {
     "key": "angular",
@@ -911,7 +741,7 @@
   },
   {
     "key": "java/spring-framework/spring-web/request-param",
-    "es": "",
+    "es": "RequestParam",
     "pt": "RequestParam"
   },
   {
@@ -1226,8 +1056,8 @@
   },
   {
     "key": "php/data-types",
-    "es": "",
-    "pt": ""
+    "es": "Tipos de datos",
+    "pt": "Tipos de dados"
   },
   {
     "key": "php/data-types/primitive",
@@ -1261,8 +1091,8 @@
   },
   {
     "key": "php/testing",
-    "es": "",
-    "pt": ""
+    "es": "Testing en PHP",
+    "pt": "Testes em PHP"
   },
   {
     "key": "php/testing/phpunit",
@@ -1276,8 +1106,8 @@
   },
   {
     "key": "php/package-management",
-    "es": "",
-    "pt": ""
+    "es": "Gestión de paquetes",
+    "pt": "Gerenciamento de pacotes"
   },
   {
     "key": "php/package-management/composer",
@@ -1291,8 +1121,8 @@
   },
   {
     "key": "wordpress/plugin-development",
-    "es": "",
-    "pt": ""
+    "es": "Desarrollo de plugins",
+    "pt": "Desenvolvimento de plugins"
   },
   {
     "key": "wordpress/plugin-development/hooks",
@@ -1351,13 +1181,13 @@
   },
   {
     "key": "typescript",
-    "es": "",
-    "pt": ""
+    "es": "Typescript",
+    "pt": "Typescript"
   },
   {
     "key": "typescript/basic-types",
-    "es": "",
-    "pt": ""
+    "es": "Tipos básicos",
+    "pt": "Tipos básicos"
   },
   {
     "key": "typescript/basic-types/static-type-checking",
@@ -1536,7 +1366,7 @@
   },
   {
     "key": "agile-planning",
-    "es": "",
+    "es": "Planificación ágil",
     "pt": ""
   },
   {
@@ -1556,7 +1386,7 @@
   },
   {
     "key": "business-understanding",
-    "es": "",
+    "es": "Entendimiento del negocio",
     "pt": ""
   },
   {
@@ -1580,128 +1410,98 @@
     "pt": "Pesquisa"
   },
   {
-    "key": "research/support",
-    "es": "Elegir y sustentar el # usuarias que participan en actividades de investigación",
-    "pt": "Escolha e apoie os # usuários que participam de atividades de pesquisa"
-  },
-  {
-    "key": "research/guidelines",
-    "es": "Crear y probar guía de actividades de investigación",
-    "pt": "Criar e testar guia de atividades de pesquisa"
-  },
-  {
-    "key": "research/interview",
-    "es": "Realizar entrevistas con usuarias empáticas y sin sesgos",
-    "pt": "Conduzindo entrevistas com usuários empáticos e imparciais"
-  },
-  {
-    "key": "research/documentation",
-    "es": "Documentar entrevistas y testeos",
-    "pt": "Documentar entrevistas e testes"
-  },
-  {
-    "key": "research/adaptation",
-    "es": "Adaptar plan de investigación de acuerdo a resultados obtenidos",
-    "pt": "Adaptar o plano de pesquisa de acordo com os resultados obtidos"
-  },
-  {
-    "key": "research/sources",
-    "es": "Identificar y revisar distintas fuentes de información e inspiración relevantes para el proyecto",
-    "pt": "Identificar e revisar diferentes fontes de informação e inspiração relevantes para o projeto"
-  },
-  {
     "key": "research/test",
     "es": "Planear y ejecutar testeos de usabilidad de prototipos en distintos niveles de fidelidad",
     "pt": "Planejar e executar testes de usabilidade"
   },
   {
-    "key": "research/cuantitative-data",
-    "es": "Recopilar, analizar e interpretar data cuantitativa",
-    "pt": "Coletar, analisar e interpretar dados quantitativos"
+    "key": "research-planning",
+    "es": "Planteamiento de la investigación",
+    "pt": ""
   },
   {
-    "key": "research/planning",
-    "es": "Planificar investigación basada en las necesidades del proyecto",
-    "pt": "Planejamento da pesquisa com base nas necessidades do projeto"
-  },
-  {
-    "key": "research/planning/research-plan",
+    "key": "research-planning/research-plan",
     "es": "Definir la investigación",
     "pt": ""
   },
   {
-    "key": "research/planning/desk-research",
+    "key": "research-planning/desk-research",
     "es": "Analizar información existente",
     "pt": ""
   },
   {
-    "key": "research/planning/research-sample",
+    "key": "research-planning/research-sample",
     "es": "Definir muestra",
     "pt": ""
   },
   {
-    "key": "research/planning/participants",
+    "key": "research-planning/participants",
     "es": "Gestionar participantes",
     "pt": ""
   },
   {
-    "key": "research/qualitative",
-    "es": "",
+    "key": "research-qualitative",
+    "es": "Técnicas cualitativas",
     "pt": ""
   },
   {
-    "key": "research/qualitative/user-interviews",
+    "key": "research-qualitative/user-interviews",
     "es": "Realizar entrevistas",
     "pt": ""
   },
   {
-    "key": "research/qualitative/exploratory-techniques",
+    "key": "research-qualitative/exploratory-techniques",
     "es": "Explorar técnicas cualitativas",
     "pt": ""
   },
   {
-    "key": "research/quantitative",
-    "es": "",
+    "key": "research-quantitative",
+    "es": "Técnicas cuantitativas",
     "pt": ""
   },
   {
-    "key": "research/quantitative/user-surveys",
+    "key": "research-quantitative/user-surveys",
     "es": "Realizar encuestas",
     "pt": ""
   },
   {
-    "key": "research/quantitative/analytical-techniques",
+    "key": "research-quantitative/analytical-techniques",
     "es": "Explorar técnicas analíticas",
     "pt": ""
   },
   {
-    "key": "research/analysis",
-    "es": "",
+    "key": "research-analysis",
+    "es": "Análisis de la investigación",
     "pt": ""
   },
   {
-    "key": "research/analysis/process-information",
+    "key": "research-analysis/process-information",
     "es": "Procesar información",
     "pt": ""
   },
   {
-    "key": "research/analysis/experience-mapping",
+    "key": "research-analysis/experience-mapping",
     "es": "Mapear la experiencia",
     "pt": ""
   },
   {
-    "key": "research/analysis/identify-patterns",
+    "key": "research-analysis/identify-patterns",
     "es": "Identificar patrones",
     "pt": ""
   },
   {
-    "key": "research/analysis/synthesize-results",
+    "key": "research-analysis/synthesize-results",
     "es": "Sintetizar resultados",
     "pt": ""
   },
   {
+    "key": "research-analysis/ai-analysis",
+    "es": "Facilitar el análisis utilizando IA",
+    "pt": ""
+  },
+  {
     "key": "design-concept",
-    "es": "",
+    "es": "Concepto de diseño",
     "pt": ""
   },
   {
@@ -1726,7 +1526,7 @@
   },
   {
     "key": "interaction-design",
-    "es": "",
+    "es": "Diseño de interacción",
     "pt": ""
   },
   {
@@ -1746,7 +1546,7 @@
   },
   {
     "key": "content-design",
-    "es": "",
+    "es": "Diseño de contenido",
     "pt": ""
   },
   {
@@ -1760,8 +1560,13 @@
     "pt": ""
   },
   {
+    "key": "content-design/ai-content",
+    "es": "Crear textos e imágenes usando IA",
+    "pt": ""
+  },
+  {
     "key": "interface-design",
-    "es": "",
+    "es": "Diseño de interfaces",
     "pt": ""
   },
   {
@@ -1780,8 +1585,13 @@
     "pt": ""
   },
   {
+    "key": "interface-design/ai-proposals",
+    "es": "Generar propuestas visuales mediante IA",
+    "pt": ""
+  },
+  {
     "key": "design-prototype",
-    "es": "",
+    "es": "Prototipado",
     "pt": ""
   },
   {
@@ -1800,8 +1610,13 @@
     "pt": ""
   },
   {
+    "key": "design-prototype/ai-plugins",
+    "es": "Utilizar plug-ins de IA para prototipar",
+    "pt": ""
+  },
+  {
     "key": "usability-analysis",
-    "es": "",
+    "es": "Análisis de usabilidad",
     "pt": ""
   },
   {
@@ -1821,7 +1636,7 @@
   },
   {
     "key": "design-pitch",
-    "es": "",
+    "es": "Pitch de diseño",
     "pt": ""
   },
   {
@@ -1835,8 +1650,13 @@
     "pt": ""
   },
   {
+    "key": "design-pitch/ai-presentations",
+    "es": "Apoyarse en herramientas de IA para presentar propuestas",
+    "pt": ""
+  },
+  {
     "key": "design-specs",
-    "es": "",
+    "es": "Especificaciones de diseño",
     "pt": ""
   },
   {
@@ -1856,7 +1676,7 @@
   },
   {
     "key": "design-systems",
-    "es": "",
+    "es": "Sistemas y librerías de diseño",
     "pt": ""
   },
   {

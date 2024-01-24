@@ -2,11 +2,14 @@
   "slug": "movie-challenge-fw",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-movie-challenge-fw",
-  "version": "7.4.0",
-  "parserVersion": "5.2.0",
-  "createdAt": "2023-11-17T13:55:16.030Z",
+  "version": "8.0.0",
+  "parserVersion": "5.3.0",
+  "createdAt": "2024-01-24T15:26:51.442Z",
   "prefix": 5,
   "track": "web-dev",
+  "tracks": [
+    "web-dev"
+  ],
   "learningObjectives": [
     "html/semantics",
     "css/selectors",

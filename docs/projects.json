@@ -3,11 +3,14 @@
     "slug": "how-might-we",
     "repo": "Laboratoria/curriculum",
     "path": "projects/00-how-might-we",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:54:51.674Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:03.529Z",
     "prefix": 0,
     "track": "ux",
+    "tracks": [
+      "ux"
+    ],
     "learningObjectives": [
       "agile-planning/tasks",
       "design-concept/ideate",
@@ -87,11 +90,14 @@
     "slug": "trivia",
     "repo": "Laboratoria/curriculum",
     "path": "projects/00-trivia",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:54:51.907Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:03.547Z",
     "prefix": 0,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "html/semantics",
       "css/selectors",
@@ -333,11 +339,14 @@
     "slug": "card-validation",
     "repo": "Laboratoria/curriculum",
     "path": "projects/01-card-validation",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:54:51.945Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:03.676Z",
     "prefix": 1,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "html/semantics",
       "css/selectors",
@@ -749,11 +758,14 @@
     "slug": "cipher",
     "repo": "Laboratoria/curriculum",
     "path": "projects/01-cipher",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:54:54.963Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:06.488Z",
     "prefix": 1,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "html/semantics",
       "css/selectors",
@@ -1162,172 +1174,43 @@
     ]
   },
   {
-    "slug": "design-and-usability",
-    "repo": "Laboratoria/curriculum",
-    "path": "projects/01-design-and-usability",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:54:54.770Z",
-    "prefix": 1,
-    "track": "ux",
-    "learningObjectives": [
-      "user-centricity/user-oriented",
-      "research/support",
-      "research/documentation",
-      "research/sources",
-      "research/test",
-      "synthesis/patterns",
-      "synthesis/features",
-      "synthesis/feature-prioritization",
-      "product-design/content",
-      "product-design/usability",
-      "product-design/visual-design",
-      "planning/monitor",
-      "planning/prioritization"
-    ],
-    "intl": {
-      "es": {
-        "title": "Diseño y usabilidad",
-        "summary": "<p>Rediseñar la experiencia de comprar la despensa/el mercado/el supermercado a\ntravés de un app o servicio web. Deberás identificar cuáles son los principales\nproblemas de los usuarios al interactuar con tu producto, el estado actual del\nmercado y de la competencia de tu producto, así como también identificar las\noportunidades de mejora de tu producto en este nuevo contexto de pandemia. Para\nello puedes realizar muchas actividades, sin embargo el tiempo y los recursos\nque tienes son limitados. Junto a tu equipo debes elegir cuáles actividades\nrealizarás durante el proyecto, planificar cómo distribuyes el tiempo y esfuerzo\ndel equipo en estas actividades. Asegurándote de validar esta propuesta con\nusuarios y proponer un diseño visual acorde a las necesidades de usuarios y\nnegocio para el sitio web que elegiste.</p>"
-      }
-    },
-    "cover": "https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/265792772-cbc3f815-3b95-46ea-ae9c-3813a079d178.png",
-    "learningObjectivesTable": [
-      {
-        "title": "Diseño y usabilidad",
-        "slug": "design-and-usability",
-        "path": "projects/01-design-and-usability",
-        "track": "ux",
-        "intl": "es",
-        "learningObjective": "user-centricity/user-oriented"
-      },
-      {
-        "title": "Diseño y usabilidad",
-        "slug": "design-and-usability",
-        "path": "projects/01-design-and-usability",
-        "track": "ux",
-        "intl": "es",
-        "learningObjective": "research/support"
-      },
-      {
-        "title": "Diseño y usabilidad",
-        "slug": "design-and-usability",
-        "path": "projects/01-design-and-usability",
-        "track": "ux",
-        "intl": "es",
-        "learningObjective": "research/documentation"
-      },
-      {
-        "title": "Diseño y usabilidad",
-        "slug": "design-and-usability",
-        "path": "projects/01-design-and-usability",
-        "track": "ux",
-        "intl": "es",
-        "learningObjective": "research/sources"
-      },
-      {
-        "title": "Diseño y usabilidad",
-        "slug": "design-and-usability",
-        "path": "projects/01-design-and-usability",
-        "track": "ux",
-        "intl": "es",
-        "learningObjective": "research/test"
-      },
-      {
-        "title": "Diseño y usabilidad",
-        "slug": "design-and-usability",
-        "path": "projects/01-design-and-usability",
-        "track": "ux",
-        "intl": "es",
-        "learningObjective": "synthesis/patterns"
-      },
-      {
-        "title": "Diseño y usabilidad",
-        "slug": "design-and-usability",
-        "path": "projects/01-design-and-usability",
-        "track": "ux",
-        "intl": "es",
-        "learningObjective": "synthesis/features"
-      },
-      {
-        "title": "Diseño y usabilidad",
-        "slug": "design-and-usability",
-        "path": "projects/01-design-and-usability",
-        "track": "ux",
-        "intl": "es",
-        "learningObjective": "synthesis/feature-prioritization"
-      },
-      {
-        "title": "Diseño y usabilidad",
-        "slug": "design-and-usability",
-        "path": "projects/01-design-and-usability",
-        "track": "ux",
-        "intl": "es",
-        "learningObjective": "product-design/content"
-      },
-      {
-        "title": "Diseño y usabilidad",
-        "slug": "design-and-usability",
-        "path": "projects/01-design-and-usability",
-        "track": "ux",
-        "intl": "es",
-        "learningObjective": "product-design/usability"
-      },
-      {
-        "title": "Diseño y usabilidad",
-        "slug": "design-and-usability",
-        "path": "projects/01-design-and-usability",
-        "track": "ux",
-        "intl": "es",
-        "learningObjective": "product-design/visual-design"
-      },
-      {
-        "title": "Diseño y usabilidad",
-        "slug": "design-and-usability",
-        "path": "projects/01-design-and-usability",
-        "track": "ux",
-        "intl": "es",
-        "learningObjective": "planning/monitor"
-      },
-      {
-        "title": "Diseño y usabilidad",
-        "slug": "design-and-usability",
-        "path": "projects/01-design-and-usability",
-        "track": "ux",
-        "intl": "es",
-        "learningObjective": "planning/prioritization"
-      }
-    ]
-  },
-  {
     "slug": "design-detectives",
     "repo": "Laboratoria/curriculum",
     "path": "projects/01-design-detectives",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:54:54.812Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:06.261Z",
     "prefix": 1,
     "track": "ux",
+    "tracks": [
+      "ux"
+    ],
     "learningObjectives": [
       "agile-planning/tasks",
+      "agile-planning/workplan",
       "business-understanding/benchmark",
-      "research/analysis/synthesize-results",
-      "design-concept/define-mvp",
+      "research-planning/research-plan",
+      "research-planning/desk-research",
+      "research-planning/research-sample",
+      "research-planning/participants",
+      "research-quantitative/user-surveys",
+      "research-analysis/identify-patterns",
+      "research-analysis/process-information",
+      "research-analysis/synthesize-results",
       "design-concept/design-references",
       "design-concept/ideate",
       "design-concept/prioritize-ideas",
       "interaction-design/user-flows",
       "interaction-design/usability",
-      "interaction-design/information-architecture",
       "interface-design/visual-design",
-      "interface-design/accesibility",
       "design-prototype/basic-prototypes",
+      "design-prototype/high-fidelity",
       "usability-analysis/moderated-testing",
       "usability-analysis/heuristic-analysis",
       "design-pitch/design-feedback",
       "design-pitch/design-presentation",
+      "design-pitch/ai-presentations",
       "design-specs/file-organization",
-      "design-specs/use-cases",
       "design-specs/project-documentation"
     ],
     "intl": {
@@ -1352,6 +1235,14 @@
         "path": "projects/01-design-detectives",
         "track": "ux",
         "intl": "es",
+        "learningObjective": "agile-planning/workplan"
+      },
+      {
+        "title": "Design Detectives",
+        "slug": "design-detectives",
+        "path": "projects/01-design-detectives",
+        "track": "ux",
+        "intl": "es",
         "learningObjective": "business-understanding/benchmark"
       },
       {
@@ -1360,7 +1251,7 @@
         "path": "projects/01-design-detectives",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/analysis/synthesize-results"
+        "learningObjective": "research-planning/research-plan"
       },
       {
         "title": "Design Detectives",
@@ -1368,7 +1259,55 @@
         "path": "projects/01-design-detectives",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "design-concept/define-mvp"
+        "learningObjective": "research-planning/desk-research"
+      },
+      {
+        "title": "Design Detectives",
+        "slug": "design-detectives",
+        "path": "projects/01-design-detectives",
+        "track": "ux",
+        "intl": "es",
+        "learningObjective": "research-planning/research-sample"
+      },
+      {
+        "title": "Design Detectives",
+        "slug": "design-detectives",
+        "path": "projects/01-design-detectives",
+        "track": "ux",
+        "intl": "es",
+        "learningObjective": "research-planning/participants"
+      },
+      {
+        "title": "Design Detectives",
+        "slug": "design-detectives",
+        "path": "projects/01-design-detectives",
+        "track": "ux",
+        "intl": "es",
+        "learningObjective": "research-quantitative/user-surveys"
+      },
+      {
+        "title": "Design Detectives",
+        "slug": "design-detectives",
+        "path": "projects/01-design-detectives",
+        "track": "ux",
+        "intl": "es",
+        "learningObjective": "research-analysis/identify-patterns"
+      },
+      {
+        "title": "Design Detectives",
+        "slug": "design-detectives",
+        "path": "projects/01-design-detectives",
+        "track": "ux",
+        "intl": "es",
+        "learningObjective": "research-analysis/process-information"
+      },
+      {
+        "title": "Design Detectives",
+        "slug": "design-detectives",
+        "path": "projects/01-design-detectives",
+        "track": "ux",
+        "intl": "es",
+        "learningObjective": "research-analysis/synthesize-results"
       },
       {
         "title": "Design Detectives",
@@ -1416,14 +1355,6 @@
         "path": "projects/01-design-detectives",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "interaction-design/information-architecture"
-      },
-      {
-        "title": "Design Detectives",
-        "slug": "design-detectives",
-        "path": "projects/01-design-detectives",
-        "track": "ux",
-        "intl": "es",
         "learningObjective": "interface-design/visual-design"
       },
       {
@@ -1432,7 +1363,7 @@
         "path": "projects/01-design-detectives",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "interface-design/accesibility"
+        "learningObjective": "design-prototype/basic-prototypes"
       },
       {
         "title": "Design Detectives",
@@ -1440,7 +1371,7 @@
         "path": "projects/01-design-detectives",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "design-prototype/basic-prototypes"
+        "learningObjective": "design-prototype/high-fidelity"
       },
       {
         "title": "Design Detectives",
@@ -1480,7 +1411,7 @@
         "path": "projects/01-design-detectives",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "design-specs/file-organization"
+        "learningObjective": "design-pitch/ai-presentations"
       },
       {
         "title": "Design Detectives",
@@ -1488,7 +1419,7 @@
         "path": "projects/01-design-detectives",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "design-specs/use-cases"
+        "learningObjective": "design-specs/file-organization"
       },
       {
         "title": "Design Detectives",
@@ -1504,11 +1435,14 @@
     "slug": "text-analyzer",
     "repo": "Laboratoria/curriculum",
     "path": "projects/01-text-analyzer",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:54:58.261Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:06.695Z",
     "prefix": 1,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "html/semantics",
       "css/selectors",
@@ -1920,11 +1854,14 @@
     "slug": "data-lovers",
     "repo": "Laboratoria/curriculum",
     "path": "projects/02-data-lovers",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:54:58.094Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:09.667Z",
     "prefix": 2,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "html/semantics",
       "css/selectors",
@@ -2438,11 +2375,14 @@
     "slug": "dataverse",
     "repo": "Laboratoria/curriculum",
     "path": "projects/02-dataverse",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:54:58.332Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:09.871Z",
     "prefix": 2,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "html/semantics",
       "css/selectors",
@@ -2990,11 +2930,14 @@
     "slug": "design-assigned",
     "repo": "Laboratoria/curriculum",
     "path": "projects/02-design-assigned",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:00.945Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:09.266Z",
     "prefix": 2,
     "track": "ux",
+    "tracks": [
+      "ux"
+    ],
     "learningObjectives": [
       "agile-planning/scope",
       "agile-planning/workplan",
@@ -3002,18 +2945,19 @@
       "business-understanding/business-model",
       "business-understanding/goals-and-kpis",
       "business-understanding/benchmark",
-      "research/planning/research-plan",
-      "research/planning/desk-research",
-      "research/planning/research-sample",
-      "research/planning/participants",
-      "research/qualitative/user-interviews",
-      "research/qualitative/exploratory-techniques",
-      "research/quantitative/user-surveys",
-      "research/quantitative/analytical-techniques",
-      "research/analysis/process-information",
-      "research/analysis/experience-mapping",
-      "research/analysis/identify-patterns",
-      "research/analysis/synthesize-results",
+      "research-planning/research-plan",
+      "research-planning/desk-research",
+      "research-planning/research-sample",
+      "research-planning/participants",
+      "research-qualitative/user-interviews",
+      "research-qualitative/exploratory-techniques",
+      "research-quantitative/user-surveys",
+      "research-quantitative/analytical-techniques",
+      "research-analysis/process-information",
+      "research-analysis/experience-mapping",
+      "research-analysis/identify-patterns",
+      "research-analysis/synthesize-results",
+      "research-analysis/ai-analysis",
       "design-concept/define-mvp",
       "design-concept/design-references",
       "design-concept/ideate",
@@ -3102,7 +3046,7 @@
         "path": "projects/02-design-assigned",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/planning/research-plan"
+        "learningObjective": "research-planning/research-plan"
       },
       {
         "title": "Proyecto asignado",
@@ -3110,7 +3054,7 @@
         "path": "projects/02-design-assigned",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/planning/desk-research"
+        "learningObjective": "research-planning/desk-research"
       },
       {
         "title": "Proyecto asignado",
@@ -3118,7 +3062,7 @@
         "path": "projects/02-design-assigned",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/planning/research-sample"
+        "learningObjective": "research-planning/research-sample"
       },
       {
         "title": "Proyecto asignado",
@@ -3126,7 +3070,7 @@
         "path": "projects/02-design-assigned",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/planning/participants"
+        "learningObjective": "research-planning/participants"
       },
       {
         "title": "Proyecto asignado",
@@ -3134,7 +3078,7 @@
         "path": "projects/02-design-assigned",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/qualitative/user-interviews"
+        "learningObjective": "research-qualitative/user-interviews"
       },
       {
         "title": "Proyecto asignado",
@@ -3142,7 +3086,7 @@
         "path": "projects/02-design-assigned",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/qualitative/exploratory-techniques"
+        "learningObjective": "research-qualitative/exploratory-techniques"
       },
       {
         "title": "Proyecto asignado",
@@ -3150,7 +3094,7 @@
         "path": "projects/02-design-assigned",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/quantitative/user-surveys"
+        "learningObjective": "research-quantitative/user-surveys"
       },
       {
         "title": "Proyecto asignado",
@@ -3158,7 +3102,7 @@
         "path": "projects/02-design-assigned",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/quantitative/analytical-techniques"
+        "learningObjective": "research-quantitative/analytical-techniques"
       },
       {
         "title": "Proyecto asignado",
@@ -3166,7 +3110,7 @@
         "path": "projects/02-design-assigned",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/analysis/process-information"
+        "learningObjective": "research-analysis/process-information"
       },
       {
         "title": "Proyecto asignado",
@@ -3174,7 +3118,7 @@
         "path": "projects/02-design-assigned",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/analysis/experience-mapping"
+        "learningObjective": "research-analysis/experience-mapping"
       },
       {
         "title": "Proyecto asignado",
@@ -3182,7 +3126,7 @@
         "path": "projects/02-design-assigned",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/analysis/identify-patterns"
+        "learningObjective": "research-analysis/identify-patterns"
       },
       {
         "title": "Proyecto asignado",
@@ -3190,7 +3134,15 @@
         "path": "projects/02-design-assigned",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/analysis/synthesize-results"
+        "learningObjective": "research-analysis/synthesize-results"
+      },
+      {
+        "title": "Proyecto asignado",
+        "slug": "design-assigned",
+        "path": "projects/02-design-assigned",
+        "track": "ux",
+        "intl": "es",
+        "learningObjective": "research-analysis/ai-analysis"
       },
       {
         "title": "Proyecto asignado",
@@ -3398,11 +3350,14 @@
     "slug": "emergency-room",
     "repo": "Laboratoria/curriculum",
     "path": "projects/02-emergency-room",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:01.096Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:12.639Z",
     "prefix": 2,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "html/semantics",
       "css/selectors",
@@ -3916,11 +3871,14 @@
     "slug": "memory-match",
     "repo": "Laboratoria/curriculum",
     "path": "projects/02-memory-match",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:01.297Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:12.857Z",
     "prefix": 2,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "html/semantics",
       "css/selectors",
@@ -4434,26 +4392,30 @@
     "slug": "mindset-mvp",
     "repo": "Laboratoria/curriculum",
     "path": "projects/02-mindset-mvp",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:03.483Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:12.651Z",
     "prefix": 2,
     "track": "ux",
+    "tracks": [
+      "ux"
+    ],
     "learningObjectives": [
       "agile-planning/workplan",
       "agile-planning/tasks",
       "business-understanding/business-model",
       "business-understanding/goals-and-kpis",
       "business-understanding/benchmark",
-      "research/planning/research-plan",
-      "research/planning/desk-research",
-      "research/planning/research-sample",
-      "research/planning/participants",
-      "research/qualitative/user-interviews",
-      "research/analysis/process-information",
-      "research/analysis/experience-mapping",
-      "research/analysis/identify-patterns",
-      "research/analysis/synthesize-results",
+      "research-planning/research-plan",
+      "research-planning/desk-research",
+      "research-planning/research-sample",
+      "research-planning/participants",
+      "research-qualitative/user-interviews",
+      "research-analysis/process-information",
+      "research-analysis/experience-mapping",
+      "research-analysis/identify-patterns",
+      "research-analysis/synthesize-results",
+      "research-analysis/ai-analysis",
       "design-concept/define-mvp",
       "design-concept/design-references",
       "design-concept/ideate",
@@ -4529,7 +4491,7 @@
         "path": "projects/02-mindset-mvp",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/planning/research-plan"
+        "learningObjective": "research-planning/research-plan"
       },
       {
         "title": "Mindset MVP",
@@ -4537,7 +4499,7 @@
         "path": "projects/02-mindset-mvp",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/planning/desk-research"
+        "learningObjective": "research-planning/desk-research"
       },
       {
         "title": "Mindset MVP",
@@ -4545,7 +4507,7 @@
         "path": "projects/02-mindset-mvp",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/planning/research-sample"
+        "learningObjective": "research-planning/research-sample"
       },
       {
         "title": "Mindset MVP",
@@ -4553,7 +4515,7 @@
         "path": "projects/02-mindset-mvp",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/planning/participants"
+        "learningObjective": "research-planning/participants"
       },
       {
         "title": "Mindset MVP",
@@ -4561,7 +4523,7 @@
         "path": "projects/02-mindset-mvp",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/qualitative/user-interviews"
+        "learningObjective": "research-qualitative/user-interviews"
       },
       {
         "title": "Mindset MVP",
@@ -4569,7 +4531,7 @@
         "path": "projects/02-mindset-mvp",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/analysis/process-information"
+        "learningObjective": "research-analysis/process-information"
       },
       {
         "title": "Mindset MVP",
@@ -4577,7 +4539,7 @@
         "path": "projects/02-mindset-mvp",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/analysis/experience-mapping"
+        "learningObjective": "research-analysis/experience-mapping"
       },
       {
         "title": "Mindset MVP",
@@ -4585,7 +4547,7 @@
         "path": "projects/02-mindset-mvp",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/analysis/identify-patterns"
+        "learningObjective": "research-analysis/identify-patterns"
       },
       {
         "title": "Mindset MVP",
@@ -4593,7 +4555,15 @@
         "path": "projects/02-mindset-mvp",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/analysis/synthesize-results"
+        "learningObjective": "research-analysis/synthesize-results"
+      },
+      {
+        "title": "Mindset MVP",
+        "slug": "mindset-mvp",
+        "path": "projects/02-mindset-mvp",
+        "track": "ux",
+        "intl": "es",
+        "learningObjective": "research-analysis/ai-analysis"
       },
       {
         "title": "Mindset MVP",
@@ -4761,11 +4731,14 @@
     "slug": "movie-challenge",
     "repo": "Laboratoria/curriculum",
     "path": "projects/02-movie-challenge",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:03.566Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:15.628Z",
     "prefix": 2,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "html/semantics",
       "css/selectors",
@@ -5279,18 +5252,21 @@
     "slug": "uxploradoras-ui",
     "repo": "Laboratoria/curriculum",
     "path": "projects/02-uxploradoras-ui",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:03.704Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:15.773Z",
     "prefix": 2,
     "track": "ux",
+    "tracks": [
+      "ux"
+    ],
     "learningObjectives": [
       "agile-planning/scope",
       "agile-planning/workplan",
       "agile-planning/tasks",
-      "research/planning/research-plan",
-      "research/planning/research-sample",
-      "research/planning/participants",
+      "research-planning/research-plan",
+      "research-planning/research-sample",
+      "research-planning/participants",
       "content-design/voice-tone",
       "content-design/create-content",
       "interface-design/visual-design",
@@ -5342,7 +5318,7 @@
         "path": "projects/02-uxploradoras-ui",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/planning/research-plan"
+        "learningObjective": "research-planning/research-plan"
       },
       {
         "title": "UXploradoras UI",
@@ -5350,7 +5326,7 @@
         "path": "projects/02-uxploradoras-ui",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/planning/research-sample"
+        "learningObjective": "research-planning/research-sample"
       },
       {
         "title": "UXploradoras UI",
@@ -5358,7 +5334,7 @@
         "path": "projects/02-uxploradoras-ui",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/planning/participants"
+        "learningObjective": "research-planning/participants"
       },
       {
         "title": "UXploradoras UI",
@@ -5462,11 +5438,14 @@
     "slug": "dataverse-chat",
     "repo": "Laboratoria/curriculum",
     "path": "projects/03-dataverse-chat",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:06.059Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:15.968Z",
     "prefix": 3,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "html/semantics",
       "css/selectors",
@@ -5514,10 +5493,342 @@
       "es": {
         "title": "Dataverse Chat",
         "summary": "<p>En este proyecto convertirás la aplicación desarrollada\nen Dataverse en una\n<a href=\"https://es.wikipedia.org/wiki/Single-page_application\">Single Page Application (SPA)</a>,\nmanteniendo las funcionalidades de visualizar, filtrar, ordenar y\ncalcular alguna estadística, adicionando una nueva vista para\nconsultar información detallada de cada personaje/entidad y agregando\nla posibilidad de interactuar con un personaje/entidad o todos ellos\na través de un sistema de chat impulsado por la\n<a href=\"https://openai.com/product\">API de OpenAI</a>.</p>"
+      },
+      "pt": {
+        "title": "Dataverse Chat",
+        "summary": "<p>Neste projeto, você irá transformar a aplicação desenvolvida no Dataverse\r\nem uma <a href=\"https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica\">Single Page Application (SPA)</a>,\r\nmantendo as funcionalidades de visualização, filtragem, ordenação e\r\ncálculo de alguma estatística. Vamos adicionar uma nova visualização (tela)\r\npara consultar informações detalhadas de cada personagem/entidade e acrescentar\r\na possibilidade de interagir com um personagem/entidade ou todos eles através\r\nde um sistema de chat impulsionado pela <a href=\"https://openai.com/product\">API da OpenAI</a>.</p>"
       }
     },
     "cover": "https://github-production-user-asset-6210df.s3.amazonaws.com/123121338/271433237-2bd1477b-15ef-49d4-9fcb-226b3263c46a.png",
     "learningObjectivesTable": [
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "html/semantics"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "css/selectors"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "css/box-model"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "css/flexbox"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "css/grid"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "browser/dom/selectors"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "browser/dom/events"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "browser/dom/manipulation"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "browser/routing"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "browser/storage"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "browser/fetch"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/async/callbacks"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/async/promises"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/semantics"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/variables"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/functions"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/conditionals"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/data-types/primitive-vs-non-primitive"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/data-types/arrays"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/data-types/objects"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/expression-vs-statement"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/loops"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/modules/es-modules"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/testing/unit"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/testing/async"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "js/testing/mocks"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "http/headers"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "http/request-response"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "http/status-codes"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "ai-prompting/priming-chatbots"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "ai-prompting/open-ai-api"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "scm/git/setup"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "scm/git/intro"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "scm/git/integration"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "scm/github/setup"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "scm/github/gh-pages"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "scm/github/collaboration"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "user-centricity/centricity"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "product-design/interactivity"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "product-design/visual-design"
+      },
+      {
+        "title": "Dataverse Chat",
+        "slug": "dataverse-chat",
+        "path": "projects/03-dataverse-chat",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "research/test"
+      },
       {
         "title": "Dataverse Chat",
         "slug": "dataverse-chat",
@@ -5852,11 +6163,14 @@
     "slug": "design-lab",
     "repo": "Laboratoria/curriculum",
     "path": "projects/03-design-lab",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:05.915Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:18.721Z",
     "prefix": 3,
     "track": "ux",
+    "tracks": [
+      "ux"
+    ],
     "learningObjectives": [
       "agile-planning/scope",
       "agile-planning/workplan",
@@ -5864,18 +6178,19 @@
       "business-understanding/business-model",
       "business-understanding/goals-and-kpis",
       "business-understanding/benchmark",
-      "research/planning/research-plan",
-      "research/planning/desk-research",
-      "research/planning/research-sample",
-      "research/planning/participants",
-      "research/qualitative/user-interviews",
-      "research/qualitative/exploratory-techniques",
-      "research/quantitative/user-surveys",
-      "research/quantitative/analytical-techniques",
-      "research/analysis/process-information",
-      "research/analysis/experience-mapping",
-      "research/analysis/identify-patterns",
-      "research/analysis/synthesize-results",
+      "research-planning/research-plan",
+      "research-planning/desk-research",
+      "research-planning/research-sample",
+      "research-planning/participants",
+      "research-qualitative/user-interviews",
+      "research-qualitative/exploratory-techniques",
+      "research-quantitative/user-surveys",
+      "research-quantitative/analytical-techniques",
+      "research-analysis/process-information",
+      "research-analysis/experience-mapping",
+      "research-analysis/identify-patterns",
+      "research-analysis/synthesize-results",
+      "research-analysis/ai-analysis",
       "design-concept/define-mvp",
       "design-concept/design-references",
       "design-concept/ideate",
@@ -5964,7 +6279,7 @@
         "path": "projects/03-design-lab",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/planning/research-plan"
+        "learningObjective": "research-planning/research-plan"
       },
       {
         "title": "Design Lab",
@@ -5972,7 +6287,7 @@
         "path": "projects/03-design-lab",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/planning/desk-research"
+        "learningObjective": "research-planning/desk-research"
       },
       {
         "title": "Design Lab",
@@ -5980,7 +6295,7 @@
         "path": "projects/03-design-lab",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/planning/research-sample"
+        "learningObjective": "research-planning/research-sample"
       },
       {
         "title": "Design Lab",
@@ -5988,7 +6303,7 @@
         "path": "projects/03-design-lab",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/planning/participants"
+        "learningObjective": "research-planning/participants"
       },
       {
         "title": "Design Lab",
@@ -5996,7 +6311,7 @@
         "path": "projects/03-design-lab",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/qualitative/user-interviews"
+        "learningObjective": "research-qualitative/user-interviews"
       },
       {
         "title": "Design Lab",
@@ -6004,7 +6319,7 @@
         "path": "projects/03-design-lab",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/qualitative/exploratory-techniques"
+        "learningObjective": "research-qualitative/exploratory-techniques"
       },
       {
         "title": "Design Lab",
@@ -6012,7 +6327,7 @@
         "path": "projects/03-design-lab",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/quantitative/user-surveys"
+        "learningObjective": "research-quantitative/user-surveys"
       },
       {
         "title": "Design Lab",
@@ -6020,7 +6335,7 @@
         "path": "projects/03-design-lab",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/quantitative/analytical-techniques"
+        "learningObjective": "research-quantitative/analytical-techniques"
       },
       {
         "title": "Design Lab",
@@ -6028,7 +6343,7 @@
         "path": "projects/03-design-lab",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/analysis/process-information"
+        "learningObjective": "research-analysis/process-information"
       },
       {
         "title": "Design Lab",
@@ -6036,7 +6351,7 @@
         "path": "projects/03-design-lab",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/analysis/experience-mapping"
+        "learningObjective": "research-analysis/experience-mapping"
       },
       {
         "title": "Design Lab",
@@ -6044,7 +6359,7 @@
         "path": "projects/03-design-lab",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/analysis/identify-patterns"
+        "learningObjective": "research-analysis/identify-patterns"
       },
       {
         "title": "Design Lab",
@@ -6052,7 +6367,15 @@
         "path": "projects/03-design-lab",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/analysis/synthesize-results"
+        "learningObjective": "research-analysis/synthesize-results"
+      },
+      {
+        "title": "Design Lab",
+        "slug": "design-lab",
+        "path": "projects/03-design-lab",
+        "track": "ux",
+        "intl": "es",
+        "learningObjective": "research-analysis/ai-analysis"
       },
       {
         "title": "Design Lab",
@@ -6260,11 +6583,14 @@
     "slug": "social-network",
     "repo": "Laboratoria/curriculum",
     "path": "projects/03-social-network",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:06.297Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:18.979Z",
     "prefix": 3,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "html/semantics",
       "css/selectors",
@@ -6931,24 +7257,29 @@
     "slug": "uxploradoras-ux",
     "repo": "Laboratoria/curriculum",
     "path": "projects/03-uxploradoras-ux",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:08.258Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:18.772Z",
     "prefix": 3,
     "track": "ux",
+    "tracks": [
+      "ux"
+    ],
     "learningObjectives": [
       "agile-planning/scope",
       "agile-planning/workplan",
       "agile-planning/tasks",
-      "research/planning/research-plan",
-      "research/planning/research-sample",
-      "research/planning/participants",
-      "research/quantitative/user-surveys",
-      "research/quantitative/analytical-techniques",
-      "research/analysis/process-information",
-      "research/analysis/experience-mapping",
-      "research/analysis/identify-patterns",
-      "research/analysis/synthesize-results",
+      "research-planning/research-plan",
+      "research-planning/desk-research",
+      "research-planning/research-sample",
+      "research-planning/participants",
+      "research-quantitative/user-surveys",
+      "research-quantitative/analytical-techniques",
+      "research-analysis/process-information",
+      "research-analysis/experience-mapping",
+      "research-analysis/identify-patterns",
+      "research-analysis/synthesize-results",
+      "research-analysis/ai-analysis",
       "interaction-design/user-flows",
       "interaction-design/usability",
       "interaction-design/information-architecture",
@@ -6999,7 +7330,7 @@
         "path": "projects/03-uxploradoras-ux",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/planning/research-plan"
+        "learningObjective": "research-planning/research-plan"
       },
       {
         "title": "UXploradoras UX",
@@ -7007,7 +7338,7 @@
         "path": "projects/03-uxploradoras-ux",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/planning/research-sample"
+        "learningObjective": "research-planning/desk-research"
       },
       {
         "title": "UXploradoras UX",
@@ -7015,7 +7346,7 @@
         "path": "projects/03-uxploradoras-ux",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/planning/participants"
+        "learningObjective": "research-planning/research-sample"
       },
       {
         "title": "UXploradoras UX",
@@ -7023,7 +7354,7 @@
         "path": "projects/03-uxploradoras-ux",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/quantitative/user-surveys"
+        "learningObjective": "research-planning/participants"
       },
       {
         "title": "UXploradoras UX",
@@ -7031,7 +7362,7 @@
         "path": "projects/03-uxploradoras-ux",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/quantitative/analytical-techniques"
+        "learningObjective": "research-quantitative/user-surveys"
       },
       {
         "title": "UXploradoras UX",
@@ -7039,7 +7370,7 @@
         "path": "projects/03-uxploradoras-ux",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/analysis/process-information"
+        "learningObjective": "research-quantitative/analytical-techniques"
       },
       {
         "title": "UXploradoras UX",
@@ -7047,7 +7378,7 @@
         "path": "projects/03-uxploradoras-ux",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/analysis/experience-mapping"
+        "learningObjective": "research-analysis/process-information"
       },
       {
         "title": "UXploradoras UX",
@@ -7055,7 +7386,7 @@
         "path": "projects/03-uxploradoras-ux",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/analysis/identify-patterns"
+        "learningObjective": "research-analysis/experience-mapping"
       },
       {
         "title": "UXploradoras UX",
@@ -7063,7 +7394,23 @@
         "path": "projects/03-uxploradoras-ux",
         "track": "ux",
         "intl": "es",
-        "learningObjective": "research/analysis/synthesize-results"
+        "learningObjective": "research-analysis/identify-patterns"
+      },
+      {
+        "title": "UXploradoras UX",
+        "slug": "uxploradoras-ux",
+        "path": "projects/03-uxploradoras-ux",
+        "track": "ux",
+        "intl": "es",
+        "learningObjective": "research-analysis/synthesize-results"
+      },
+      {
+        "title": "UXploradoras UX",
+        "slug": "uxploradoras-ux",
+        "path": "projects/03-uxploradoras-ux",
+        "track": "ux",
+        "intl": "es",
+        "learningObjective": "research-analysis/ai-analysis"
       },
       {
         "title": "UXploradoras UX",
@@ -7159,11 +7506,14 @@
     "slug": "burger-queen-api",
     "repo": "Laboratoria/curriculum",
     "path": "projects/04-burger-queen-api",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:08.485Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:22.069Z",
     "prefix": 4,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "node/npm-install",
       "node/package.json",
@@ -7983,11 +8333,14 @@
     "slug": "burger-queen-api-client",
     "repo": "Laboratoria/curriculum",
     "path": "projects/04-burger-queen-api-client",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:08.495Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:22.150Z",
     "prefix": 4,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "html/semantics",
       "css/selectors",
@@ -9419,11 +9772,14 @@
     "slug": "md-links",
     "repo": "Laboratoria/curriculum",
     "path": "projects/04-md-links",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:11.044Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:22.193Z",
     "prefix": 4,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "js/data-types/primitive-vs-non-primitive",
       "js/data-types/arrays",
@@ -9937,11 +10293,14 @@
     "slug": "notes",
     "repo": "Laboratoria/curriculum",
     "path": "projects/04-notes",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:10.852Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:25.127Z",
     "prefix": 4,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "html/semantics",
       "css/selectors",
@@ -10444,11 +10803,14 @@
     "slug": "chat-app",
     "repo": "Laboratoria/curriculum",
     "path": "projects/05-chat-app",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:10.905Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:25.191Z",
     "prefix": 5,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "js/async/callbacks",
       "js/async/promises",
@@ -10942,63 +11304,978 @@
     "slug": "fleet-management-api",
     "repo": "Laboratoria/curriculum",
     "path": "projects/05-fleet-management-api",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:13.534Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:25.265Z",
     "prefix": 5,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
+      "java/access-modifiers",
+      "java/variables",
+      "java/conditionals",
+      "java/loops",
+      "java/data-types/primitive",
+      "java/data-types/primitive-vs-non-primitive",
+      "java/data-types/strings",
+      "java/data-types/arrays",
+      "java/collections/array-list",
+      "java/collections/hash-map",
+      "java/collections/hash-set",
+      "java/testing/junit",
+      "java/testing/mockito",
+      "java/spring-framework/core-concepts/beans",
+      "java/spring-framework/core-concepts/inversion-of-control",
+      "java/spring-framework/core-concepts/annotations",
+      "java/spring-framework/initializr",
+      "java/spring-framework/spring-boot",
+      "java/spring-framework/controllers",
+      "java/spring-framework/services",
+      "java/spring-framework/spring-data-jpa",
+      "java/spring-framework/entity",
+      "java/spring-framework/repository",
+      "java/spring-framework/spring-web/rest-controller",
+      "java/spring-framework/spring-web/request-mapping",
+      "java/spring-framework/spring-web/request-param",
+      "java/spring-framework/testing/spring-test",
+      "java/spring-framework/testing/hamcrest",
+      "java/hibernate-orm/setup",
+      "java/hibernate-orm/schema",
+      "java/hibernate-orm/entity",
+      "java/hibernate-orm/table",
+      "java/hibernate-orm/column",
+      "java/hibernate-orm/identifiers",
+      "java/hibernate-orm/associations",
+      "java/hibernate-orm/collections",
+      "java/hibernate-orm/persistance",
+      "java/hibernate-orm/querying",
+      "object-oriented-programming/classes",
+      "object-oriented-programming/objects",
+      "object-oriented-programming/methods",
+      "object-oriented-programming/attributes",
+      "object-oriented-programming/constructors",
+      "object-oriented-programming/encapsulation",
+      "object-oriented-programming/abstraction",
+      "object-oriented-programming/composition",
+      "object-oriented-programming/interfaces",
+      "object-oriented-programming/inheritance",
+      "object-oriented-programming/unified-model-language",
       "node/npm-install",
       "node/package.json",
       "node/npm-scripts",
       "node/process",
       "node/filesystem",
-      "db/modeling",
-      "db/connection",
-      "db/indexes-constraints",
       "sql/tables",
       "sql/crud",
       "sql/drop",
-      "postgres/psql",
+      "db/modeling",
+      "db/connection",
+      "db/indexes-constraints",
       "postgres/data-types",
-      "postgres/dump-restore",
-      "postgres/indexes",
-      "react/jsx",
-      "react/components",
-      "react/events",
-      "react/lists-and-keys",
-      "react/conditional-rendering",
-      "react/lifting-up-state",
-      "react/hooks",
-      "react/css-modules",
-      "react/routing",
-      "vue/instance",
-      "vue/data-and-methods",
-      "vue/components",
-      "vue/props",
-      "vue/directives",
-      "vue/iteration",
-      "vue/events",
-      "vue/computed-props-and-observers",
-      "vue/routing",
-      "vue/classes-and-styles",
-      "angular/components-and-templates",
-      "angular/structural-directives",
-      "angular/input-output",
-      "angular/services",
-      "angular/routing",
-      "angular/observables",
-      "angular/http-client",
-      "angular/styles"
+      "postgres/indexes"
     ],
     "intl": {
       "es": {
         "title": "Fleet Management Software API",
         "summary": "<p>En este proyecto construirás la API REST de un\n<a href=\"https://en.wikipedia.org/wiki/Fleet_management\">Fleet Management Software</a>\npara consultar las ubicaciones de los vehículos de una empresa\nde taxis en Beijing, China.</p>"
+      },
+      "pt": {
+        "title": "Software de Gestão de Frota API",
+        "summary": "<p>Neste projeto, você construirá a API REST de um\n<a href=\"https://en.wikipedia.org/wiki/Fleet_management\">Software de Gestão de Frota</a>\npara consultar as localizações dos veículos de uma empresa de táxis\nem Pequim, China.</p>"
       }
     },
-    "cover": "https://user-images.githubusercontent.com/110297/136462570-852fcc55-e363-4262-a8f3-6bb65702e75a.jpg",
+    "cover": "https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/fleet-management-api-java%2Fthumb.jpg?alt=media",
     "learningObjectivesTable": [
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/access-modifiers"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/variables"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/conditionals"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/loops"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/data-types/primitive"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/data-types/primitive-vs-non-primitive"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/data-types/strings"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/data-types/arrays"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/collections/array-list"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/collections/hash-map"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/collections/hash-set"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/testing/junit"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/testing/mockito"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/spring-framework/core-concepts/beans"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/spring-framework/core-concepts/inversion-of-control"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/spring-framework/core-concepts/annotations"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/spring-framework/initializr"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/spring-framework/spring-boot"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/spring-framework/controllers"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/spring-framework/services"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/spring-framework/spring-data-jpa"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/spring-framework/entity"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/spring-framework/repository"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/spring-framework/spring-web/rest-controller"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/spring-framework/spring-web/request-mapping"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/spring-framework/spring-web/request-param"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/spring-framework/testing/spring-test"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/spring-framework/testing/hamcrest"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/hibernate-orm/setup"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/hibernate-orm/schema"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/hibernate-orm/entity"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/hibernate-orm/table"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/hibernate-orm/column"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/hibernate-orm/identifiers"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/hibernate-orm/associations"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/hibernate-orm/collections"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/hibernate-orm/persistance"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "java/hibernate-orm/querying"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/classes"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/objects"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/methods"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/attributes"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/constructors"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/encapsulation"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/abstraction"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/composition"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/interfaces"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/inheritance"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "object-oriented-programming/unified-model-language"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "node/npm-install"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "node/package.json"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "node/npm-scripts"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "node/process"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "node/filesystem"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "sql/tables"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "sql/crud"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "sql/drop"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "db/modeling"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "db/connection"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "db/indexes-constraints"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "postgres/data-types"
+      },
+      {
+        "title": "Software de Gestão de Frota API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "pt",
+        "learningObjective": "postgres/indexes"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/access-modifiers"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/variables"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/conditionals"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/loops"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/data-types/primitive"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/data-types/primitive-vs-non-primitive"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/data-types/strings"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/data-types/arrays"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/collections/array-list"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/collections/hash-map"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/collections/hash-set"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/testing/junit"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/testing/mockito"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/spring-framework/core-concepts/beans"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/spring-framework/core-concepts/inversion-of-control"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/spring-framework/core-concepts/annotations"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/spring-framework/initializr"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/spring-framework/spring-boot"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/spring-framework/controllers"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/spring-framework/services"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/spring-framework/spring-data-jpa"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/spring-framework/entity"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/spring-framework/repository"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/spring-framework/spring-web/rest-controller"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/spring-framework/spring-web/request-mapping"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/spring-framework/spring-web/request-param"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/spring-framework/testing/spring-test"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/spring-framework/testing/hamcrest"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/hibernate-orm/setup"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/hibernate-orm/schema"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/hibernate-orm/entity"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/hibernate-orm/table"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/hibernate-orm/column"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/hibernate-orm/identifiers"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/hibernate-orm/associations"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/hibernate-orm/collections"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/hibernate-orm/persistance"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "java/hibernate-orm/querying"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/classes"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/objects"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/methods"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/attributes"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/constructors"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/encapsulation"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/abstraction"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/composition"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/interfaces"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/inheritance"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "object-oriented-programming/unified-model-language"
+      },
       {
         "title": "Fleet Management Software API",
         "slug": "fleet-management-api",
@@ -11045,30 +12322,6 @@
         "path": "projects/05-fleet-management-api",
         "track": "web-dev",
         "intl": "es",
-        "learningObjective": "db/modeling"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "db/connection"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "db/indexes-constraints"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
         "learningObjective": "sql/tables"
       },
       {
@@ -11093,7 +12346,23 @@
         "path": "projects/05-fleet-management-api",
         "track": "web-dev",
         "intl": "es",
-        "learningObjective": "postgres/psql"
+        "learningObjective": "db/modeling"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "db/connection"
+      },
+      {
+        "title": "Fleet Management Software API",
+        "slug": "fleet-management-api",
+        "path": "projects/05-fleet-management-api",
+        "track": "web-dev",
+        "intl": "es",
+        "learningObjective": "db/indexes-constraints"
       },
       {
         "title": "Fleet Management Software API",
@@ -11109,231 +12378,7 @@
         "path": "projects/05-fleet-management-api",
         "track": "web-dev",
         "intl": "es",
-        "learningObjective": "postgres/dump-restore"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
         "learningObjective": "postgres/indexes"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "react/jsx"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "react/components"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "react/events"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "react/lists-and-keys"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "react/conditional-rendering"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "react/lifting-up-state"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "react/hooks"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "react/css-modules"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "react/routing"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "vue/instance"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "vue/data-and-methods"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "vue/components"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "vue/props"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "vue/directives"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "vue/iteration"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "vue/events"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "vue/computed-props-and-observers"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "vue/routing"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "vue/classes-and-styles"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "angular/components-and-templates"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "angular/structural-directives"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "angular/input-output"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "angular/services"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "angular/routing"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "angular/observables"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "angular/http-client"
-      },
-      {
-        "title": "Fleet Management Software API",
-        "slug": "fleet-management-api",
-        "path": "projects/05-fleet-management-api",
-        "track": "web-dev",
-        "intl": "es",
-        "learningObjective": "angular/styles"
       }
     ]
   },
@@ -11341,11 +12386,14 @@
     "slug": "fleet-management-fullstack",
     "repo": "Laboratoria/curriculum",
     "path": "projects/05-fleet-management-fullstack",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:13.377Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:27.854Z",
     "prefix": 5,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "node/npm-install",
       "node/package.json",
@@ -11740,11 +12788,14 @@
     "slug": "guess-the-number",
     "repo": "Laboratoria/curriculum",
     "path": "projects/05-guess-the-number",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:13.559Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:28.058Z",
     "prefix": 5,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "java/data-types/primitive-vs-non-primitive",
       "java/data-types/strings",
@@ -12105,11 +13156,14 @@
     "slug": "movie-challenge-fw",
     "repo": "Laboratoria/curriculum",
     "path": "projects/05-movie-challenge-fw",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:16.030Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:28.142Z",
     "prefix": 5,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "html/semantics",
       "css/selectors",
@@ -13507,11 +14561,14 @@
     "slug": "open-project",
     "repo": "Laboratoria/curriculum",
     "path": "projects/05-open-project",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:15.898Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:31.130Z",
     "prefix": 5,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "intl": {
       "es": {
         "title": "Proyecto Abierto",
@@ -13525,11 +14582,14 @@
     "slug": "roman-numerals",
     "repo": "Laboratoria/curriculum",
     "path": "projects/05-roman-numerals",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:15.997Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:31.189Z",
     "prefix": 5,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "node/npm-install",
       "node/package.json",
@@ -13753,11 +14813,14 @@
     "slug": "roman-numerals-slack",
     "repo": "Laboratoria/curriculum",
     "path": "projects/05-roman-numerals-slack",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:18.288Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:31.072Z",
     "prefix": 5,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "node/npm-install",
       "node/package.json",
@@ -13990,11 +15053,14 @@
     "slug": "social-network-fw",
     "repo": "Laboratoria/curriculum",
     "path": "projects/05-social-network-fw",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:18.400Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:34.003Z",
     "prefix": 5,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "html/semantics",
       "css/selectors",
@@ -14569,11 +15635,14 @@
     "slug": "wordpress-plugin",
     "repo": "Laboratoria/curriculum",
     "path": "projects/05-wordpress-plugin",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:18.321Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:33.828Z",
     "prefix": 5,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "learningObjectives": [
       "php/data-types/primitive",
       "php/data-types/arrays",
@@ -14806,11 +15875,14 @@
     "slug": "job-application",
     "repo": "Laboratoria/curriculum",
     "path": "projects/06-job-application",
-    "version": "7.4.0",
-    "parserVersion": "5.2.0",
-    "createdAt": "2023-11-17T13:55:20.657Z",
+    "version": "8.0.0",
+    "parserVersion": "5.3.0",
+    "createdAt": "2024-01-24T15:23:33.761Z",
     "prefix": 6,
     "track": "web-dev",
+    "tracks": [
+      "web-dev"
+    ],
     "intl": {
       "es": {
         "title": "Proyecto Job Application",

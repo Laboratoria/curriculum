@@ -82,7 +82,7 @@ describe('Uso de HTML semántico', () => {
       expect.hasAssertions();
     });
 
-    it('<label> existe', () => {
+    it('<label> existe y usan el atributo "for" y el valor de "for" coincide con el "id" de control', () => {
       const label = document.querySelectorAll('label');
       Array.from(select).forEach((element) => {
         const previousFor = element.previousElementSibling.getAttribute('for');

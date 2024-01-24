@@ -2,10 +2,13 @@
   "slug": "content-management",
   "repo": "Laboratoria/curriculum",
   "path": "topics/content-management",
-  "version": "7.4.0",
-  "parserVersion": "5.2.0",
-  "createdAt": "2023-11-17T13:55:21.116Z",
+  "version": "8.0.0",
+  "parserVersion": "5.3.0",
+  "createdAt": "2024-01-24T15:26:57.748Z",
   "track": "ux",
+  "tracks": [
+    "ux"
+  ],
   "intl": {
     "es": {
       "title": "Cómo crear y organizar el contenido de un producto digital",
