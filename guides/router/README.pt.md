@@ -377,26 +377,26 @@ com os parâmetros fornecidos, e com isso podemos iterar para formar um objeto.
 ou [`fromEntries`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries)
 podem ajudar)
 
-Quando seu SPA carrega, antes de chamar `renderView` de frente, o router
-você deve analisar a URL e extrair os parâmetros `pathname` e `search`
-para aparecer. O mesmo deve acontecer quando houver um evento `popstate`.
+Quando seu SPA carrega, antes de chamar `renderView`, o router
+deve analisar a URL e extrair os parâmetros `pathname` e `search`
+para passar na função de visualização. O mesmo deve acontecer quando houver um evento `popstate`.
 
 ### 4. Responda à navegação `avançar` e `voltar` no navegador
 
 Quando um usuário usa os botões avançar ou voltar no
 navegador dentro do seu SPA o router precisa saber quando isso acontece,
 analisar `window.location` para os parâmetros `pathname` e `search`
-em seguida, chame a visualização apropriada para o nome da rota passando
+para em seguida, chamar a visualização apropriada para o nome da rota, passando
 qualquer parâmetro como argumento.
 
 Em `router.js`, adicionaríamos:
 
 `onURLChange(location)`: Uma função para lidar com alterações de URL com `popstate`.
-Quando o URL mudar, analise `pathname` e `search` do
+Quando a URL mudar, analise `pathname` e `search` do
 `location` (`window.location`) e depois chame `renderView`.
 
 Precisamos conectar esta função para que ela seja ativada quando o usuário avançar
-ou volte. Para conseguir isso, podemos ouvir o evento `popstate`
+ou voltar. Para conseguir isso, podemos ouvir o evento `popstate`
 da `window`. Quando `popstate` é acionado, significa que o URL mudou
 devido à navegação ou interação do usuário.
 
@@ -405,13 +405,13 @@ devido à navegação ou interação do usuário.
 ### 5. Carregando uma página de erro
 
 Quando o usuário carrega uma URL que não existe na aplicação, a aplicação
-deve mostrar uma visualização que informe ao usuário que há um erro em algum lugar
-tipo, ou que não foi encontrado.
+deve mostrar uma visualização que informe ao usuário que há algum
+erro ou que não foi encontrado.
 
 Para suportar esse comportamento, as rotas de uma aplicação devem ter
 uma rota com uma visualização definida para `/error` ou `/not-found`.
-No momento o router vai renderizar a visualização e procura
-encontre a visualização de uma rota, se não existir, você pode usar `/error`
+No momento em que o router renderiza a visualização e procura
+a visualização de uma rota, se não existir, você pode usar `/error`
 como uma alternativa.
 
 ```js
@@ -423,7 +423,7 @@ const renderView = (pathname, props) => {
 }
 ```
 
-## API básica do router
+## API de router básico
 
 Para atingir sua funcionalidade, o router possui duas variáveis globais e privadas
 (não exportado).
@@ -434,21 +434,21 @@ correspondente. Se um usuário navegar para uma rota específica, o router
 mostrará a visualização correspondente.
 
 - `rootEl` - Elemento DOM: Esta variável armazena o elemento onde o
-O conteúdo do SPA mudará/aparecerá.
+conteúdo da SPA mudará/aparecerá.
 
 Essas variáveis podem ser lidas e alteradas através de métodos API.
 Aqui está uma API completa de um router básico que possui a funcionalidade
 que acabamos de abordar.
 
 - `setRootEl(el)`: Esta função possui um parâmetro (elemento).
-Define o elemento raiz onde as visualizações serão renderizadas,
-permitindo que você especifique onde em seu documento HTML
-O conteúdo do SPA aparecerá.
+   Define o elemento raiz onde as visualizações serão renderizadas,
+   permitindo que você especifique onde em seu documento HTML
+  o conteúdo do SPA aparecerá.
 
 - `setRoutes(routes)`: Esta função define o valor do argumento `routes`
 para o objeto `ROUTES`. `routes` deve ser um objeto (considere verificar se
-ser um objeto e gerar um erro se não for). Utilize esta função para
-defina as rotas do seu SPA.
+é um objeto e gere um erro se não for). Utilize esta função para
+definir as rotas do seu SPA.
 
 - `queryStringToObject(queryString)`: uma função utilitária para converter
 uma string `search` ou `query string` (exemplo
@@ -457,26 +457,26 @@ aos parâmetros de consulta. Converte o valor de `queryString`
 e retorna um objeto de pares `chave/valor` criados a partir de `queryString`
 (por exemplo, `{ name: "Noemi", color: "azul" }`). Você pode fazer isso usando
 `URLSearchParams` para converter a string em um tipo de dados iterável.
-Você pode então usar `for...of` ou `Object.fromEntries` para criar o objeto para
+Você pode então usar `for...of` ou `Object.fromEntries` para criar o objeto a partir
 do iterável.
   
 - `renderView(pathname, props)`: esta função renderiza uma view no
-elemento raiz especificado. Exclua o conteúdo existente, pesquise a função
-view para obter o nome do caminho e, em seguida, procure a visualização. funciona
+elemento raiz especificado. Exclue o conteúdo existente, busca a função
+de visualização para obter o nome do caminho e, em seguida, busca a visualização. Funciona
 em `routes` e chame a função view passando o valor `props` como argumento para
 a vista. Adiciona o elemento DOM retornado pela função de visualização ao
 Elemento `root`.
 
-- `navigateTo(pathname, props)`: Esta função é usada para navegar por
+- `navigateTo(pathname, props)`: Esta função é usada para navegar conforme a
 programação para uma nova rota dentro do SPA (por exemplo, clicando
-botões ou links dentro do aplicativo). Atualize o URL usando
+botões ou links dentro do aplicativo). Atualize a URL usando
 `window.history.pushState` e então chame `renderView` com o `pathname`
 e os `props` fornecidos para exibir a visualização correspondente.
 
 - `onURLChange(location)`: esta função destina-se a lidar com alterações de URL
 com `popstate` e também quando o aplicativo carrega pela primeira vez.
-Quando o URL mudar, analise `pathname` e `search`
-do `location` (`window.location`) e então chama `renderView`.
+Quando a URL mudar, analise `pathname` e `search`
+do `location` (`window.location`) e então chame `renderView`.
 Você deve usar `queryStringToObject` para obter os parâmetros do
 String `search` no formato de objeto para passar para `renderView`.
 
@@ -488,7 +488,7 @@ Vamos montar o router com algumas visualizações simples para fazer um SPA!
 
 Crie um arquivo HTML com a estrutura básica do seu SPA.
 Defina um elemento raiz (por exemplo, um `<div id="root">`)
-onde suas opiniões serão representadas.
+onde suas visualizações serão inseridas.
 
 ```html
 <!DOCTYPE html>
@@ -503,14 +503,13 @@ onde suas opiniões serão representadas.
 </html>
 ```
 
-### 2. Crie as visualizações
+### 2. Crie as visualizações "views"
 
-Defina visualizações. Uma visualização é um componente de função que representa uma página inteira.
+Defina views. Uma visualização/view é um componente de função que representa uma página inteira.
 É uma função que cria o conteúdo da view e deve retornar
 um elemento DOM para o router usar.
 
 Por exemplo:
-
 
 ```js
 // src/views/Home.js
@@ -529,20 +528,20 @@ export function About(props) {
   return viewEl;
 }
 
-// Definir funciones/componentes similares para otras rutas
+// Definir funções/componentes similares para outras rotas
 ```
 
 ### 3. Codifique o router
 
 Em seu próprio arquivo `router.js`, implemente as partes do router a seguir
-[a API descrita acima](#basic-router-api).
+[a API descrita acima](#api-de-router-básico).
 A API que testamos define duas variáveis (`ROUTES` e `rootEl`)
 e seis funções.
 
 Considere escrever testes paralelos para cada função para entender
 melhor sua intenção.
 
-Funções de exportação que serão utilizadas por outros módulos
+Exporte as funções que serão utilizadas por outros módulos:
 `setRoutes`, `onURLChange`, `setRootEl`, `navigateTo`.
 
 Aqui está um resumo de `router.js` apresentado com pseudocódigo:
@@ -621,16 +620,14 @@ com `window.location`.
 Em `index.js`
 
 ```js
-// import navigateTo
-
-export const Home = (props) => {
-  // ...
-  linkEl.addEventListener('click', () => navigateTo("/about", { name: "Xochitl" }));
-  // return el
-}
+// Handle initial URL load
+window.addEventListener("DOMContentLoaded", () => {
+  // set root element
+  // invoke onURLChange 
+});
 ```
 
-Teste para ver se, independentemente de qual URL válido seu SPA é iniciado,
+Teste para ver se, independentemente da URL ser válida,
 a visualização correta é carregada.
 
 ### 6. Implementar navegação no SPA
@@ -640,18 +637,18 @@ com `navigateTo` para navegar para diferentes rotas.
 Lembre-se de que `navigateTo` deve levar argumentos para `pathname` e `props`.
 
 ```js
-//importa navegarTo
+//import navegarTo
 
-exportar const Home = (adereços) => {
+export const Home = (props) => {
 //...
 linkEl.addEventListener('click', () => navigationTo("/about", { nome: "Xochitl" }));
-// devolver o
+// return el
 }
 ```
 
-### 7. Dirija em direção a `frente` e `trás`
+### 7. Tratamento dos botões de `forward` e `back` do navegador
 
-Certifique-se de estar ouvindo `popstate` em `index.js` e chame a função
+Certifique-se de estar ouvindo `popstate` em `index.js` e chamar a função
 `onURLChange` quando há um `popstate`.
 
 Quando um usuário clica em um link ou navega usando botões
@@ -669,10 +666,10 @@ Experimente usando os botões avançar e voltar.
 
 ### 8. Teste a funcionalidade dos parâmetros `search`
 
-Em uma de suas visualizações, experimente ler os parâmetros `search` do
-URL e usá-los na visualização. As funções de visualização devem ter um
+Em uma de suas visualizações, experimente ler os parâmetros `search` da
+URL, as utilizando na visualização. As funções de visualização devem ter um
 parâmetro, vamos chamar `props`, que é um objeto com o qual podemos passar informações
-às vistas.
+às visualizações/views.
 
 ```js
 export const Home = (props) => {
@@ -705,5 +702,5 @@ em `renderView` usando-o como alternativa se
 
 ### 10. Pronto
 
-Teste o comportamento do seu SPA manualmente clicando e inserindo as URLs.
+Teste o comportamento da sua SPA manualmente clicando e inserindo as URLs.
 Escreva testes para a funcionalidade `router.js`, caso ainda não o tenha feito.
