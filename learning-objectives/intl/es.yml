@@ -136,6 +136,9 @@ browser/fetch:
 js:
   title: JavaScript
 
+js/data-types:
+  title: Tipos de datos
+
 js/data-types/primitive:
   title: Tipos de datos primitivos
   links:
@@ -227,6 +230,9 @@ js/semantics:
 js/expression-vs-statement:
   title: Diferenciar entre expresiones (expressions) y sentencias (statements)
 
+js/modules:
+  title: Módulos
+
 js/modules/es-modules:
   title: Módulos de ECMAScript (ES Modules)
   links:
@@ -240,6 +246,9 @@ js/modules/commonjs:
   links:
     - title: "Modules: CommonJS modules - Node.js Docs"
       url: https://nodejs.org/docs/latest/api/modules.html
+
+js/testing:
+  title: Testing en Javascript
 
 js/testing/unit:
   title: Pruebas unitarias (unit tests)
@@ -268,6 +277,9 @@ js/testing/compatibility:
 js/linting:
   title: Uso de linter (ESLINT)
 
+js/async:
+  title: Asincronía
+
 js/async/callbacks:
   title: Callbacks
   links:
@@ -285,6 +297,9 @@ js/async/promises:
 scm:
   title: Control de Versiones (Git y GitHub)
 
+scm/git:
+  title: Git
+
 scm/git/setup:
   title: "Git: Instalación y configuración"
 
@@ -293,6 +308,9 @@ scm/git/intro:
 
 scm/git/integration:
   title: "Git: Integración de cambios entre ramas (branch, checkout, fetch, merge, reset, rebase, tag)"
+
+scm/github:
+  title: GitHub
 
 scm/github/setup:
   title: "GitHub: Creación de cuenta y repos, configuración de llaves SSH"
@@ -312,154 +330,36 @@ scm/github/project-management:
 scm/github/ci:
   title: "GitHub: Integración continua con GitHub actions"
 
-ux:
-  title: UX (User eXperience)
-
 user-centricity:
   title: Centrado en el usuario
 
-user-centricity/centricity:
+# only used in web dev ----
+user-centricity/centricity: 
   title: Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro
-
-user-centricity/user-oriented:
-  title: Involucrar usuarias y tomar en cuenta sus necesidades a lo largo de todo el proceso de diseño
-
-user-centricity/prioritization:
-  title: Identificar y priorizar usuarias relevantes para el proyecto
-
-business:
-  title: Negocio
-
-business/model:
-  title: Entender el modelo de negocio
-
-business/goals:
-  title: Entender y considerar los objetivos del negocio durante el desarrollo del proyecto
-
-business/metrics:
-  title: Definir métricas relevantes para validar el cumplimiento de los objetivos del negocio
-
-business/benchmark:
-  title: Entender estado del negocio en relación con el mercado local y global
 
 research:
   title: Investigación
 
-research/planning:
-  title: Planificar investigación basada en las necesidades del proyecto
-
-research/support:
-  title: "Elegir y sustentar el # usuarias que participan en actividades de investigación"
-
-research/guidelines:
-  title: Crear y probar guía de actividades de investigación
-
-research/interview:
-  title: Realizar entrevistas con usuarias empáticas y sin sesgos
-
-research/documentation:
-  title: Documentar entrevistas y testeos
-
-research/adaptation:
-  title: Adaptar plan de investigación de acuerdo a resultados obtenidos
-
-research/sources:
-  title: Identificar y revisar distintas fuentes de información e inspiración relevantes para el proyecto
-
-research/test:
+research/test: # only used in data lovers and various web dev projects
   title: Planear y ejecutar testeos de usabilidad de prototipos en distintos niveles de fidelidad
   links:
     - title: Intro a testeos usabilidad
       url: https://coda.io/@bootcamp-laboratoria/contenido-ux/test-de-usabilidad-15
     - title: Pruebas con Usuarios 1 — ¿Qué, cuándo y para qué testeamos?
       url: https://eugeniacasabona.medium.com/pruebas-con-usuarios-1-qu%C3%A9-cu%C3%A1ndo-y-para-qu%C3%A9-testeamos-7c3a89b4b5e7
-
-research/cuantitative-data:
-  title: Recopilar, analizar e interpretar data cuantitativa
-
-synthesis:
-  title: Síntesis
-
-synthesis/weighing:
-  title: Distinguir observaciones, data y/o respuestas que aportan valor al proyecto
-
-synthesis/patterns:
-  title: Encontrar patrones en los resultados de la investigación
-
-synthesis/insights:
-  title: Diferenciar entre observaciones, hallazagos e insights
-
-synthesis/mapping:
-  title: Usar herramientas de síntesis para mapear las experiencias de los usuarios
-
-synthesis/features:
-  title: Definir funcionalidades del producto
-
-synthesis/ideation:
-  title: Generar múltiples ideas de solución al reto del proyecto
-
-synthesis/feature-prioritization:
-  title: Priorizar las posibles soluciones que aporten más valor al proyecto, basándose en los objetivos del proyecto y las necesidades de los usuarios
+# ----
 
 product-design:
   title: Diseño de producto
 
-product-design/user-flows:
-  title: Priorizar y proponer flujos de usuaria que les ayuden a conseguir sus objetivos con el producto
-
-product-design/content:
-  title: Identificar y priorizar contenidos relevantes y necesarios para el producto
-
-product-design/fidelity:
+product-design/fidelity: # used in web dev
   title: Diseñar en distintos niveles de fidelidad
 
-product-design/interactivity:
+product-design/interactivity: # used in web dev
   title: Crear prototipos de alta fidelidad que incluyan interacciones
 
-product-design/usability:
-  title: Diseñar producto o servicio siguiendo mejores prácticas de usabilidad
-
-product-design/accessibility:
-  title: Diseñar producto o servicio siguiendo mejores prácticas de accesibilidad
-
-product-design/visual-design:
+product-design/visual-design: # used in web dev
   title: Seguir los principios básicos de diseño visual
-
-product-design/component-organization:
-  title: Crear y utilizar componentes reutilizables
-
-product-design/project-organization:
-  title: Nombrar, organizar, agrupar las capas (layers) del diseño siguiendo buenas prácticas
-
-product-design/documentation:
-  title: Documentar los distintos componentes de UI y sus casos de uso
-
-communication:
-  title: Comunicación
-
-communication/presentation:
-  title: Presentar y sustentar propuestas a clientes
-
-communication/negotiation:
-  title: Negociar efectivamente con clientes
-
-communication/relationship-management:
-  title: Manejar relaciones con clientes
-
-communication/case-study:
-  title: Presentar su proceso de trabajo en un caso de estudio usando herramientas de storytelling
-
-planning:
-  title: Planificación
-
-planning/monitor:
-  title: Organizar y dar seguimiento a actividades a desarrollarse durante el proyecto
-
-planning/prioritization:
-  title: Priorizar actividades a desarrollarse durante el proyecto
-
-planning/tools:
-  title: Elegir las herramientas y métodos a utilizar de acuerdo a las necesidades  del proyecto
 
 firebase:
   title: Firebase
@@ -720,7 +620,7 @@ java/spring-framework/spring-web/rest-controller:
 java/spring-framework/spring-web/request-mapping:
   title: RequestMapping
 
-java/spring-framework/spring-web/spring-web/request-param:
+java/spring-framework/spring-web/request-param:
   title: RequestParam
 
 java/spring-framework/testing:
@@ -1163,6 +1063,9 @@ slack/slash-commands:
 php:
   title: PHP
 
+php/data-types:
+  title: Tipos de datos
+
 php/data-types/primitive:
   title: Tipos de datos primitivos en PHP
   links:
@@ -1211,6 +1114,9 @@ php/functions:
     - title: Extensiones PHP relacionadas con variable y tipo
       url: https://www.php.net/manual/es/refs.basic.vartype.php
 
+php/testing:
+  title: Testing en PHP
+
 php/testing/phpunit:
   title: PHPUnit
   links:
@@ -1223,6 +1129,9 @@ php/testing/xdebug:
     - title: XDebug
       url: https://xdebug.org/
 
+php/package-management:
+  title: Gestión de paquetes
+
 php/package-management/composer:
   title: Composer
   links:
@@ -1231,6 +1140,9 @@ php/package-management/composer:
 
 wordpress:
   title: WordPress
+
+wordpress/plugin-development:
+  title: Desarrollo de plugins
 
 wordpress/plugin-development/hooks:
   title: "Hooks: action y filter"
@@ -1297,6 +1209,12 @@ wordpress/plugin-development/wordpress-plugin-directory:
   links:
     - title: WordPress Plugin Directory
       url: https://developer.wordpress.org/plugins/wordpress-org/planning-your-plugin/
+
+typescript:
+  title: Typescript
+
+typescript/basic-types:
+  title: Tipos básicos
 
 typescript/basic-types/static-type-checking:
   title: Chequeo estático de tipos
@@ -1522,8 +1440,12 @@ ai-prompting/open-ai-api:
     - title: "The chat completion object - API Reference - OpenAI API"
       url: https://platform.openai.com/docs/api-reference/chat/object
 
-# New OAs since UXD006
+# New UX OAs since UXD006
 #--- skill Project framing
+
+agile-planning:
+  title: Planificación ágil
+
 agile-planning/scope:
   title: Definir alcance general
   description: Definir un alcance preliminar del proyecto en conjunto con los stakeholders involucrados
@@ -1535,6 +1457,9 @@ agile-planning/workplan:
 agile-planning/tasks:
   title: Gestionar tareas
   description: Gestionar tareas mediante la implementación de ceremonias y herramientas de Scrum
+
+business-understanding:
+  title: Entendimiento del negocio
 
 business-understanding/business-model:
   title: Comprender el modelo de negocio
@@ -1549,55 +1474,75 @@ business-understanding/benchmark:
   description: Analizar el negocio o producto respecto a sus competidores locales y globales
 
 #--- skill User research
-research/planning/research-plan:
+
+research-planning:
+  title: Planteamiento de la investigación
+
+research-planning/research-plan:
   title: Definir la investigación
   description: Planificar la investigación basada en el contexto y objetivos del proyecto
 
-research/planning/desk-research:
+research-planning/desk-research:
   title: Analizar información existente
   description: Analizar información existente que sirva de guía para plantear la investigación con usuarios
 
-research/planning/research-sample:
+research-planning/research-sample:
   title: Definir muestra
   description: Definir el perfil y número de usuarios (muestra) que participan en la investigación
 
-research/planning/participants:
+research-planning/participants:
   title: Gestionar participantes
   description: Gestionar la participación de los usuarios en las actividades de investigación
 
-research/qualitative/user-interviews:
+research-qualitative:
+  title: Técnicas cualitativas
+
+research-qualitative/user-interviews:
   title: Realizar entrevistas
   description: Crear guión de entrevista, validar las preguntas y entrevistar evitando sesgos
 
-research/qualitative/exploratory-techniques:
+research-qualitative/exploratory-techniques:
   title: Explorar técnicas cualitativas
   description: Explorar otras técnicas de investigación cualitativa según el contexto del proyecto (card sorting abierto, estudios de campo, etc.)
 
-research/quantitative/user-surveys:
+research-quantitative:
+  title: Técnicas cuantitativas
+
+research-quantitative/user-surveys:
   title: Realizar encuestas
   description: Crear encuesta, testear e iterar las preguntas, implementar la encuesta efectivamente
 
-research/quantitative/analytical-techniques:
+research-quantitative/analytical-techniques:
   title: Explorar técnicas analíticas
   description: Explorar herramientas de monitoreo de acciones de usuarios (mapa de calor, analytics, card sorting cerrado, etc.)
 
-research/analysis/process-information:
+research-analysis:
+  title: Análisis de la investigación
+
+research-analysis/process-information:
   title: Procesar información
   description: Procesar a profundidad la información obtenida evitando sesgos
 
-research/analysis/experience-mapping:
+research-analysis/experience-mapping:
   title: Mapear la experiencia
   description: Visualizar la información obtenida de los usuarios mediante alguna técnica de documentación UX
 
-research/analysis/identify-patterns:
+research-analysis/identify-patterns:
   title: Identificar patrones
   description: Identificar patrones, observaciones o hallazgos en la información recolectada
 
-research/analysis/synthesize-results:
+research-analysis/synthesize-results:
   title: Sintetizar resultados
   description: Delimitar el problema o necesidad de las personas usuarias que debe resolver el proyecto
 
+research-analysis/ai-analysis:
+  title: Facilitar el análisis utilizando IA
+  description: Utilizar herramientas de inteligencia artificial (IA) para transcribir, organizar y sintetizar la información obtenida
+
 #--- skill Solution design
+design-concept:
+  title: Concepto de diseño
+
 design-concept/define-mvp:
   title: Definir MVP
   description: Definir las funcionalidades que debe incluir el Mínimo Producto Viable/Deseable (MVP)
@@ -1614,6 +1559,9 @@ design-concept/prioritize-ideas:
   title: Priorizar ideas
   description: Definir criterios de priorización de ideas, alineados con los objetivos del proyecto y necesidades de las personas usuarias
 
+interaction-design:
+  title: Diseño de interacción
+
 interaction-design/user-flows:
   title: Crear flujos de usuario
   description: Crear y visualizar los flujos de interacción de la propuesta (diagramas, wireframes, bocetos)
@@ -1626,6 +1574,9 @@ interaction-design/information-architecture:
   title: Crear la arquitectura de información
   description: Implementar principios básicos de arquitectura de información (categorías, etiquetas, navegación y búsqueda)
 
+content-design:
+  title: Diseño de contenido
+
 content-design/voice-tone:
   title: Definir guía de voz y tono
   description: Crear una guía básica de voz y tono para contenido UX
@@ -1633,6 +1584,13 @@ content-design/voice-tone:
 content-design/create-content:
   title: Crear contenidos
   description: Definir el contenido (texto e imágenes) que debe incluir la propuesta de diseño
+
+content-design/ai-content:
+  title: Crear textos e imágenes usando IA
+  description: Explorar múltiples propuestas de texto e imágenes generadas con herramientas de inteligencia artificial (IA)
+
+interface-design:
+  title: Diseño de interfaces
 
 interface-design/visual-design:
   title: Crear propuesta de diseño visual
@@ -1646,7 +1604,14 @@ interface-design/responsive-design:
   title: Implementar diseño responsivo
   description: Crear diseños que se adapten a diferentes dispositivos utilizando principios de responsive design
 
+interface-design/ai-proposals:
+  title: Generar propuestas visuales mediante IA
+  description: Experimentar con herramientas de inteligencia artificial (IA) para generar múltiples propuestas que sirvan como inspiración para el diseño
+
 #--- skill Proposal validation
+design-prototype:
+  title: Prototipado
+
 design-prototype/basic-prototypes:
   title: Crear prototipos básicos
   description: Crear prototipos navegables en baja o media fidelidad que representen los flujos funcionales
@@ -1658,6 +1623,13 @@ design-prototype/high-fidelity:
 design-prototype/advanced-interactions:
   title: Utilizar interacciones avanzadas
   description: Incluir interacciones avanzadas en los prototipos según sea necesario
+
+design-prototype/ai-plugins:
+  title: Utilizar plug-ins de IA para prototipar
+  description: Integrar plug-ins de inteligencia artificial (IA) en Figma que faciliten la creación del prototipo
+
+usability-analysis:
+  title: Análisis de usabilidad
 
 usability-analysis/moderated-testing:
   title: Realizar pruebas moderadas
@@ -1671,6 +1643,9 @@ usability-analysis/non-moderated-testing:
   title: Realizar pruebas no-moderadas
   description: Utilizar herramientas para pruebas de usabilidad no-moderadas
 
+design-pitch:
+  title: Pitch de diseño
+
 design-pitch/design-feedback:
   title: Recolectar feedback de diseño
   description: Recolectar feedback técnico de diseño mediante sesiones de crítica colaborativa (Design Critiques, Demos con POs, etc.)
@@ -1679,7 +1654,14 @@ design-pitch/design-presentation:
   title: Presentar ante el negocio
   description: Presentar resultados de investigación, propuestas y proceso de diseño utilizando principios de "story-telling"
 
+design-pitch/ai-presentations:
+  title: Apoyarse en herramientas de IA para presentar propuestas
+  description: Utilizar herramientas de inteligencia artificial (IA) para crear el story-telling y/o presentación ante stakeholders
+
 #--- skill Technical documentation
+design-specs:
+  title: Especificaciones de diseño
+
 design-specs/file-organization:
   title: Organizar documentos de Figma
   description: Organizar el documento de diseño (Figma) siguiendo buenas prácticas de nombrado y agrupado de capas o componentes
@@ -1691,6 +1673,9 @@ design-specs/use-cases:
 design-specs/project-documentation:
   title: Documentar el proyecto de diseño
   description: Documentar el proceso de diseño para fundamentar las decisiones tomadas durante el proyecto
+
+design-systems:
+  title: Sistemas y librerías de diseño
 
 design-systems/atomic-design:
   title: Implementar Atomic Design
