@@ -10,7 +10,7 @@
 * [6. Critérios de aceitação mínimos do projeto](#6-critérios-de-aceitação-mínimos-do-projeto)
 * [7. Objetivos de aprendizagem](#7-objetivos-de-aprendizagem)
 * [8. Dicas, guias e leituras complementares](#8-dicas-guias-e-leituras-complementares)
-* [9. Considerações para pedir seu Project Feedback](#9-considerações-para-pedir-seu-project-feedback)
+* [9. Considerações para solicitar seu Feedback do Projeto](#9-considerações-para-solicitar-seu-feedback-do-projeto)
 
 ***
 
@@ -353,7 +353,7 @@ _functions_ (_funções_), _lines_ (_linhas_) e _branches_ (_ramos_) do arquivo
 > Aqui você pode conferir uma [lista de todos os objetivos de aprendizagem](../../learning-objectives/data.yml)
 > que contempla nossa grade curricular.
 
-## 8. Dicas, dicas e leituras complementares
+## 8. Dicas, guias e leituras complementares
 
 ### Primeiros passos
 

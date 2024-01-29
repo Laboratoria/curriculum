@@ -174,13 +174,13 @@ Un router básico debería:
   search parámetros).
 - Responder a la navegación dentro de la aplicación
   (enlaces, clics en botones, etc.)
-  - agregando un nuevo estado al historial del navegador para actualizar la URL
-  - luego renderizando la vista apropiada según la ruta
+  + agregando un nuevo estado al historial del navegador para actualizar la URL
+  + luego renderizando la vista apropiada según la ruta
     (y pasar el argumentos apropiados si hay parámetros)
 - Responder a la navegación con los botones de avance y retroceso en el
   navegador
-  - analizando la nueva URL para la ruta y los parámetros
-  - luego renderizando la vista apropiada según la ruta
+  + analizando la nueva URL para la ruta y los parámetros
+  + luego renderizando la vista apropiada según la ruta
     (y pasar los argumentos apropiados si hay parámetros)
 - Cargando una página de error cuando la ruta no está definido en las rutas.
 

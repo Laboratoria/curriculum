@@ -19,8 +19,8 @@ como a razão pela qual existem routers: As Single Page Application
 ## O que é um aplicativo de página única (SPA)?
 
 Um aplicativo de página única (SPA)
-é uma aplicação web que carrega todo o seu conteúdo a partir de um único arquivo HTML
-(comumente chamado de `index.html`) e atualiza dinamicamente o conteúdo
+é uma aplicação web que carrega todo o seu conteúdo a partir de um único arquivo
+HTML (comumente chamado de `index.html`) e atualiza dinamicamente o conteúdo
 enquanto o usuário interage com a aplicação.
 
 Em vez de carregar páginas HTML completas e separadas cada vez que
@@ -174,13 +174,13 @@ apropriada (e passar os argumentos apropriados para a visualização se houver
 parâmetros de pesquisa).
 - Responder à navegação dentro da aplicação
 (links, cliques em botões, etc.)
-  - adicionando novo status ao histórico do navegador para atualizar o URL
-  - então renderizar a visualização apropriada com base no caminho
+  + adicionando novo status ao histórico do navegador para atualizar o URL
+  + então renderizar a visualização apropriada com base no caminho
     (e passar os argumentos apropriados se houver parâmetros)
 - Responder à navegação com os botões avançar e voltar no
 navegador
-  - analisando o novo URL para rota e parâmetros
-  - então renderizar a visualização apropriada com base no caminho
+  + analisando o novo URL para rota e parâmetros
+  + então renderizar a visualização apropriada com base no caminho
     (e passe os argumentos apropriados se houver parâmetros)
 - Carregar uma página de erro quando a rota não está definida nas rotas.
 
@@ -244,7 +244,8 @@ passar pra visualização. A função `renderView` exclui o conteúdo existente,
 encontra a função de visualização para o `pathname` fornecido e
 chama essa função de visualização passando `props` como argumento
 ( [mais sobre isso em um momento](####Passar-argumentos-para-visualizações) ).
-Em seguida, adicione o elemento retornado pela função de visualização ao elemento `root`.
+Em seguida, adicione o elemento retornado pela função de visualização ao elemento
+`root`.
 
 ### 3. Responder à navegação da aplicação
 
@@ -263,8 +264,8 @@ estado na pilha de histórico do navegador. Isso é feito usando
 `window.history.pushState`.
 
 Lembre-se, é importante impulsionar um novo estado e não apenas renderizar a visualização,
-já que queremos oferecer suporte ao movimento para frente e para trás no navegador e que nossa
-SPA se comporte como qualquer outra página da web.
+já que queremos oferecer suporte ao movimento para frente e para trás no
+navegador e que nossa SPA se comporte como qualquer outra página da web.
 
 Então, para conseguir isso no código, `router.js` deve ter uma função
 para navegar programaticamente para uma nova rota no SPA.
@@ -293,8 +294,8 @@ linkEl.addEventListener('click', () => navigationTo("/about", { nome: "Xochitl" 
 
 #### Passar argumentos para visualizações
 
-Vamos conversar sobre isso - "e passar os argumentos apropriados às visões, se houver" -
-e por que pode ser útil.
+Vamos conversar sobre isso - "e passar os argumentos apropriados às visões,
+se houver" - e por que pode ser útil.
 
 Há momentos em que queremos passar dados para uma visualização, para que ela
 possa ser renderizada com informações mais específicas dependendo dos
@@ -379,7 +380,8 @@ podem ajudar)
 
 Quando seu SPA carrega, antes de chamar `renderView`, o router
 deve analisar a URL e extrair os parâmetros `pathname` e `search`
-para passar na função de visualização. O mesmo deve acontecer quando houver um evento `popstate`.
+para passar na função de visualização. O mesmo deve acontecer quando houver
+um evento `popstate`.
 
 ### 4. Responda à navegação `avançar` e `voltar` no navegador
 
@@ -462,10 +464,10 @@ do iterável.
   
 - `renderView(pathname, props)`: esta função renderiza uma view no
 elemento raiz especificado. Exclue o conteúdo existente, busca a função
-de visualização para obter o nome do caminho e, em seguida, busca a visualização. Funciona
-em `routes` e chame a função view passando o valor `props` como argumento para
-a vista. Adiciona o elemento DOM retornado pela função de visualização ao
-Elemento `root`.
+de visualização para obter o nome do caminho e, em seguida, busca a visualização.
+Funciona em `routes` e chame a função view passando o valor `props` como
+argumento para a vista. Adiciona o elemento DOM retornado pela função de
+visualização ao elemento `root`.
 
 - `navigateTo(pathname, props)`: Esta função é usada para navegar conforme a
 programação para uma nova rota dentro do SPA (por exemplo, clicando
@@ -505,7 +507,8 @@ onde suas visualizações serão inseridas.
 
 ### 2. Crie as visualizações "views"
 
-Defina views. Uma visualização/view é um componente de função que representa uma página inteira.
+Defina views. Uma visualização/view é um componente de função que representa
+uma página inteira.
 É uma função que cria o conteúdo da view e deve retornar
 um elemento DOM para o router usar.
 
