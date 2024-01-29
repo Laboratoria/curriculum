@@ -2,9 +2,9 @@
   "slug": "browser",
   "repo": "Laboratoria/curriculum",
   "path": "topics/browser",
-  "version": "7.6.0",
+  "version": "8.0.0",
   "parserVersion": "5.3.0",
-  "createdAt": "2023-12-22T17:30:35.817Z",
+  "createdAt": "2024-01-22T19:08:32.008Z",
   "track": "web-dev",
   "tracks": [
     "web-dev"
