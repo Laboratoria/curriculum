@@ -125,7 +125,7 @@ Es probable que necesites adaptar el
 código de tu vista anterior para que modifique un nuevo elemento
 dentro de esta vista `Home.js`.
 Si tienes dudas, puedes revisar nuevamente la
-[guía del router](https://github.com/Laboratoria/guide-router/tree/guide-v1)
+[guía del router](https://github.com/Laboratoria/curriculum/blob/main/guides/router-spa/README.md)
 y consultar a los coaches para obtener
 más claridad en este proceso.
 
