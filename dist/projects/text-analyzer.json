@@ -2,9 +2,9 @@
   "slug": "text-analyzer",
   "repo": "Laboratoria/curriculum",
   "path": "projects/01-text-analyzer",
-  "version": "8.0.0",
+  "version": "8.1.0",
   "parserVersion": "5.3.0",
-  "createdAt": "2024-01-22T19:07:47.532Z",
+  "createdAt": "2024-01-30T15:42:01.809Z",
   "prefix": 1,
   "track": "web-dev",
   "tracks": [
