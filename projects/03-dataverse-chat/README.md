@@ -458,7 +458,7 @@ de tu aplicación
 * [Promesas](https://es.javascript.info/promise-basics)
 * [Haciendo peticiones con Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Utilizando_Fetch)
 * [Almacenamiento con LocalStorage](https://es.javascript.info/localstorage)
-* [Creando un router SPA con vanilla Javascript](https://github.com/Laboratoria/guide-router/blob/guide-v1/README.md)
+* [Creando un router SPA con vanilla Javascript](https://github.com/Laboratoria/curriculum/blob/main/guides/router-spa/README.md)
 * [Delegación de eventos](https://es.javascript.info/event-delegation)
 
 #### Inteligencia Artificial y Prompting
