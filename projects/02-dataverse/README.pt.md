@@ -138,7 +138,7 @@ implementadas:
 * A aplicação deve permitir à usuária filtrar os dados. Você usará
   um elemento [`<select>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/select)
   com [um atributo de dados](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Howto/Use_data_attributes)
-  `data-testid="selecionar-filtro"`, e um atributo `name` com o nome
+  `data-testid="select-filter"`, e um atributo `name` com o nome
   da propriedade pela qual irá filtrar (por exemplo, se for filtrar por "tipo",
   o `<select>` terá `name="tipo"`). Os `<option>` deste `<select>` deverão
   ter no atributo `value` o valor do filtro (por exemplo, se for filtrar
@@ -148,19 +148,19 @@ implementadas:
   - Terá pelo menos um controle `<select>` para ordenar.
   - Se usar apenas um controle `<select>`, deve ter
     [um atributo de dados](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Howto/Use_data_attributes)
-    `data-testid="selecionar-ordenar"` e um atributo `name` com o nome da
+    `data-testid="select-sort"` e um atributo `name` com o nome da
     propriedade pela qual irá ordenar (por exemplo, se for ordenar por
     "num" seria `name="num"`). Este `<select>` terá dois [`<option>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option)
     com `value` `asc` e `desc`, para ordenar de forma ascendente e descendente
     respectivamente (por exemplo, `<option value="asc">A - Z</option>`).
   - Uma alternativa é oferecer à usuária uma ordenação mais complexa.
     Pode implementar a ordenação por várias propriedades. Neste caso, seria com
-    um `<select>` com um atributo de dados `data-testid="selecionar-ordenar"`,
+    um `<select>` com um atributo de dados `data-testid="select-sort"`,
     e que contenha filhos `<option>` com um `value` com o nome da propriedade
     pela qual irá ordenar. (Por exemplo, `<option value="nome">Nome</option>`).
     Além disso, você precisará de outro controle (`<radio>`,`<select>`, etc.)
     para indicar se a ordenação é ascendente ou descendente. Esse controle
-    secundário terá um atributo `name="ordem-ordenacao"`, e terá valores
+    secundário terá um atributo `name="sort-order"`, e terá valores
     `asc` e `desc`.
 
 * As funcionalidades de ordenação devem operar sobre os dados filtrados.
@@ -170,7 +170,7 @@ implementadas:
 
 * A aplicação deve permitir à usuária reiniciar a aplicação, limpando
   filtros e ordenamentos, com um `<button>` com um atributo de dados
-  `data-testid="botao-limpar"`.
+  `data-testid="button-clear"`.
 
 * As operações de filtrar, ordenar, limpar, etc. não devem recarregar
   a página, mas sim adicionar conteúdo de maneira
