@@ -196,6 +196,52 @@ java:
     - persistance
     - querying
 
+python:
+  - data-types:
+    - primitive
+    - primitive-vs-non-primitive
+    - strings
+    - lists
+    - tuples
+    - dictionaries
+    - sets
+  - variables
+  - conditionals
+  - loops
+  - functions
+  - testing:
+    - unittest
+    - pytest
+  - classes:
+    - attributes
+    - methods
+    - inheritance
+    - polymorphism
+    - encapsulation
+  - modules:
+    - import
+    - pip
+    - virtualenv
+  - web-apis:
+    - flask:
+      - setup
+      - request-response
+      - routes
+      - templates
+      - sessions
+      - cookies
+      - testing
+      - blueprints
+    - django:
+      - setup
+      - models
+      - views
+      - templates
+      - forms
+      - sessions
+      - cookies
+      - testing
+
 object-oriented-programming:
   - classes
   - objects

@@ -806,6 +806,18 @@ object-oriented-programming/inheritance:
 object-oriented-programming/unified-model-language:
   title: Linguagem de Modelagem Unificada (UML, diagramas de classe)
 
+python:
+  title: Python
+
+python/data-types:
+  title: Tipos de dados
+
+python/data-types/tuples:
+  title: Tuples
+  links:
+    - title: Tuples - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences
+
 webops:
   title: WebOps
 
