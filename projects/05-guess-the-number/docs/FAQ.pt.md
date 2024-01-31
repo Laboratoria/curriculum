@@ -1,5 +1,9 @@
 # FAQ (Perguntas Frequentes)
 
+Lembrete: os vídeos estão em espanhol, mas a equipe do
+Laboratoria os traduziu para o português. Tudo o que você
+precisa fazer é ativar as legendas do YouTube.
+
 - Como posso instalar o necessário para começar?
 
   Você pode consultar o seguinte
