@@ -308,7 +308,8 @@ programación orientada a objetos en el proceso.
 
 ## 8. Pistas / Tips
 
-Consulta los [FAQ](./docs/FAQ.md) y súmate al canal de Slack
+Consulta los [FAQ](./docs/FAQ.md)
+Súmate al canal de Slack
 [#project-guess-the-number](https://claseslaboratoria.slack.com/archives/C067E8ZT9CY)
 para conversar y pedir ayuda del proyecto.
 
