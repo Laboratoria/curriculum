@@ -29,11 +29,14 @@ El objetivo es crear un conjunto de datos que cumpla con las
 por ejemplo, personajes históricos, y tener en cuenta que la información sea variada
 y interesante para la interacción futura.
 
-2. **Estructurar datos**: Crear un archivo `src/data/dataset.js`
-que exporte un arreglo con 24 objetos, cada uno siguiendo la estructura
-especificada en el prompt. Asegurarse de que cada objeto tenga un identificador
-único (id), nombre, descripciones corta y extendida, URL para la imagen,
-hechos (facts), y, opcionalmente, información adicional (extraInfo).
+2. **Estructurar datos**: En el archivo `src/data/dataset.js,` al generar tus datos,
+reemplaza el contenido con la información generada. Asegúrate de que el archivo
+exporte un arreglo con 24 objetos, cada uno siguiendo la estructura detallada
+en el prompt. Verifica que cada objeto contenga un **id** (identificador único),
+**name** (nombre), **shortDescription** (descripción corta) y
+**description** (descripción extendida), **imageUrl** (para la imagen),
+**facts** (hechos), y,
+opcionalmente, **extraInfo** (información adicional).
 
 3. **Añadir imágenes**: Utilizar herramientas basadas en inteligencia artificial,
 como el generador de imágenes de Bing, para crear imágenes correspondientes a cada
@@ -49,6 +52,8 @@ para la generación de datos en el archivo readme, cumpliendo con el requisito d
 
 Asegúrate de verificar con los tests ejecutando `npm run test:oas-prompting` para
 garantizar que el archivo de datos generado cumple con los requisitos especificados.
+
+![Preview oas prompting](./assets/preview-oa-prompting.png)
 
 ## ¿Necesitas Ayuda?
 
