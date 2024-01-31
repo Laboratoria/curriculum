@@ -1,8 +1,9 @@
 # **HITO 2:** Visualización de datos
 
 A partir de este momento, es fundamental que
-trabajes en cada hito utilizando una rama individual
-para facilitar la claridad, coherencia y colaboración.
+trabajes en cada hito utilizando una
+[rama](https://www.atlassian.com/es/git/tutorials/comparing-workflows/feature-branch-workflow)
+individual para facilitar la claridad, coherencia y colaboración.
 El objetivo de este hito es lograr la visualización de
 los elementos de tu conjunto de datos con todos los estilos.
 
