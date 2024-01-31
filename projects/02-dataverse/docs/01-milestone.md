@@ -1,9 +1,8 @@
-# **HITO 1:** Data
+# **HITO 1:** SPA
 
-Bienvenida al primer hito de tu aprendizaje en JavaScript a
-través de proyectos. En este hito, comenzarás construyendo una
-[SPA](https://es.wikipedia.org/wiki/Single-page_application)
-(Single Page Application).
+Bienvenida al primer hito de tu aprendizaje en JavaScript mediante proyectos.
+En esta fase, comenzarás construyendo una aplicación centrada en la
+generación de datos mediante inteligencia artificial.
 
 ## Tareas de este hito
 
