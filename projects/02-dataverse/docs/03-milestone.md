@@ -1,3 +1,3 @@
-# **HITO 3:** Conectar a API OpenAI (chat individual)
+# **HITO 3:** Filtrar y ordenar datos
 
 [👈Todos los hitos](../README.md#6-hitos)

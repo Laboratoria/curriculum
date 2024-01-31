@@ -1,4 +1,4 @@
-# **HITO 1:** SPA
+# **HITO 1:** Data
 
 Bienvenida al primer hito de tu aprendizaje en JavaScript a
 través de proyectos. En este hito, comenzarás construyendo una
