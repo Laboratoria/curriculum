@@ -2,9 +2,9 @@
   "slug": "dataverse-chat",
   "repo": "Laboratoria/curriculum",
   "path": "projects/03-dataverse-chat",
-  "version": "7.5.0",
+  "version": "8.1.0",
   "parserVersion": "5.3.0",
-  "createdAt": "2023-12-05T18:21:20.359Z",
+  "createdAt": "2024-01-30T15:42:11.722Z",
   "prefix": 3,
   "track": "web-dev",
   "tracks": [
@@ -57,6 +57,10 @@
     "es": {
       "title": "Dataverse Chat",
       "summary": "<p>En este proyecto convertirás la aplicación desarrollada\nen Dataverse en una\n<a href=\"https://es.wikipedia.org/wiki/Single-page_application\">Single Page Application (SPA)</a>,\nmanteniendo las funcionalidades de visualizar, filtrar, ordenar y\ncalcular alguna estadística, adicionando una nueva vista para\nconsultar información detallada de cada personaje/entidad y agregando\nla posibilidad de interactuar con un personaje/entidad o todos ellos\na través de un sistema de chat impulsado por la\n<a href=\"https://openai.com/product\">API de OpenAI</a>.</p>"
+    },
+    "pt": {
+      "title": "Dataverse Chat",
+      "summary": "<p>Neste projeto, você irá transformar a aplicação desenvolvida no Dataverse\r\nem uma <a href=\"https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica\">Single Page Application (SPA)</a>,\r\nmantendo as funcionalidades de visualização, filtragem, ordenação e\r\ncálculo de alguma estatística. Vamos adicionar uma nova visualização (tela)\r\npara consultar informações detalhadas de cada personagem/entidade e acrescentar\r\na possibilidade de interagir com um personagem/entidade ou todos eles através\r\nde um sistema de chat impulsionado pela <a href=\"https://openai.com/product\">API da OpenAI</a>.</p>"
     }
   },
   "cover": "https://github-production-user-asset-6210df.s3.amazonaws.com/123121338/271433237-2bd1477b-15ef-49d4-9fcb-226b3263c46a.png",
