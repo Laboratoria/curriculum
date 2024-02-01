@@ -242,14 +242,30 @@ python:
     # - blueprints
     # - views
   - django:
-    - setup
-    - models
+    - setup:
+      - migrations
+      - apps
+      - requirements
+      - psycopg2
+    - models:
+      - fields
+      - foreignKey
+      - primaryKey
     - views
-    - templates
-    - forms
-    - sessions
-    - cookies
     - testing
+    - routes:
+      - path
+      - urlpatterns
+    - rest-framework:
+      - serializers
+      - queryset
+      - filter
+      - order_by
+      - pagination
+      - query_params
+      - viewsets
+      - APIView
+
 
 object-oriented-programming:
   - classes
