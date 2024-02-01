@@ -97,7 +97,6 @@ npm run test:oas-html
 npm run test:oas-css
 npm run test:oas-web-api
 npm run test:oas-js
-npm run test:oas-prompting
 ```
 
 [👈Todos los hitos](../README.md#6-hitos)
