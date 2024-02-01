@@ -334,7 +334,7 @@ user-centricity:
   title: Centrado en el usuario
 
 # only used in web dev ----
-user-centricity/centricity: 
+user-centricity/centricity:
   title: Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro
 
 research:
@@ -514,13 +514,13 @@ java:
 
 java/access-modifiers:
   title: Modificadores de acesso (public, private, protected)
-  
+
 java/variables:
   title: Variables
 
 java/conditionals:
   title: Uso de condicionales
-  
+
 java/loops:
   title: Uso de bucles (Loops)
 
@@ -532,19 +532,19 @@ java/data-types/primitive:
 
 java/data-types/primitive-vs-non-primitive:
   title: Datos primitivos vs no primitivos
-    
+
 java/data-types/strings:
   title: Cadenas
 
 java/data-types/arrays:
   title: Arreglos
-  
+
 java/collections:
   title: Colecciones
 
 java/collections/array-list:
   title: ArrayList
-  
+
 java/collections/hash-map:
   title: HashMap
 
@@ -714,12 +714,170 @@ python:
 python/data-types:
   title: Tipos de datos
 
+python/data-types/primitives:
+  title: Tipos de datos primitivos
+
+python/data-types/strings:
+  title: Cadenas (strings)
+
+python/data-types/lists:
+  title: Listas (arrays)
+
 python/data-types/tuples:
   title: Tuples
   links:
     - title: Tuples - Python Docs (en inglés)
       url: https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences
-      
+
+python/data-types/dictionaries:
+  title: Dicts
+
+python/data-types/sets:
+  title: Sets
+
+python/variables:
+  title: Variables (declaración, asignación, ámbito)
+
+python/conditionals:
+  title: Uso de condicionales # ternary elif
+
+python/loops:
+  title: Uso de bucles/ciclos (while, for..in)
+
+python/list-comprehension:
+  title: Comprensión de listas
+
+python/functions:
+  title: Funciones (params, args, kwargs, return)
+
+python/docstrings:
+  title: Docstrings
+
+python/linting:
+  title: Linting (pylint)
+
+python/testing:
+  title: Testing en Python
+
+  python/testing/unit-tests:
+    title: Pruebas unitarias (unit tests, unittest, pytest)
+    links:
+      - title: unittest - Python Docs (en inglés)
+        url: https://docs.python.org/3/library/unittest.html
+      - title: pytest - Documentación oficial
+        url: https://docs.pytest.org/en/6.2.x/
+
+  python/testing/mocks:
+    title: Uso de mocks (y patch)
+    links:
+      - title: unittest.mock - Python Docs (en inglés)
+        url: https://docs.python.org/3/library/unittest.mock.html
+
+  python/testing/fixtures:
+    title: Uso de fixtures
+    links:
+      - title: pytest fixtures - Documentación oficial
+        url: https://docs.pytest.org/en/6.2.x/fixture.html
+
+  python/modules:
+    title: Módulos
+    links:
+      - title: Módulos - Python Docs (en inglés)
+        url: https://docs.python.org/3/tutorial/modules.html
+
+  python/pip:
+    title: pip (instalación y uso de paquetes)
+    links:
+      - title: pip - Python Docs (en inglés)
+        url: https://docs.python.org/3/installing/index.html
+
+  python/virtualenv:
+    title: virtualenv (ambientes virtuales)
+    links:
+      - title: virtualenv - Documentación oficial
+        url: https://virtualenv.pypa.io/en/latest/
+
+  python/requirements:
+    title: requirements.txt
+    links:
+      - title: requirements.txt - Documentación oficial
+        url: https://pip.pypa.io/en/stable/user_guide/#requirements-files
+
+  python/flask:
+    title: Flask
+
+  python/flask/routes:
+    title: Rutas
+
+  python/flask/routes/route-decorator:
+    title: Decorador de ruta
+    links:
+      - title: Routing - Flask Docs (en inglés)
+        url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#routing
+
+  python/flask/routes/view-function:
+    title: Función de vista
+    links:
+      - title: View Functions - Flask Docs (en inglés)
+        url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#view-functions
+
+  python/flask/routes/variable-rules:
+    title: Reglas de variables
+    links:
+      - title: Variable Rules - Flask Docs (en inglés)
+        url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#variable-rules
+
+  python/flask/request:
+    title: Request Object
+
+  python/flask/request/args:
+    title: Argumentos
+    links:
+      - title: Request - Flask Docs (en inglés)
+        url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#accessing-request-data
+
+  python/flask/request/headers:
+    title: Cabeceras
+    links:
+      - title: Request - Flask Docs (en inglés)
+        url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#accessing-request-data
+      # - there are more that can be added here
+      # - form
+      # - json
+
+  python/flask/response: # should response be part of routing, its what is returned in the vie function
+    title: Response Object
+
+  python/flask/jsonify:
+    title: jsonify
+    links:
+      - title: jsonify - Flask Docs (en inglés)
+        url: https://flask.palletsprojects.com/en/2.0.x/api/#flask.json.jsonify
+
+  python/flask/session:
+    title: Sesiones
+
+  python/flask/session/cookies:
+    title: Cookies
+    links:
+      - title: Sessions - Flask Docs (en inglés)
+        url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#sessions
+
+  python/flask/testing:
+    title: Testing en Flask
+
+  python/flask/testing/fixture-setup:
+    title: Configuración de fixtures
+    links:
+      - title: Testing - Flask Docs (en inglés)
+        url: https://flask.palletsprojects.com/en/2.0.x/testing/
+
+  python/flask/testing/test_client:
+    title: Test Client
+    links:
+      - title: Testing - Flask Docs (en inglés)
+        url: https://flask.palletsprojects.com/en/2.0.x/testing/
+
 webops:
   title: WebOps
 
@@ -1416,7 +1574,7 @@ typescript/decorators:
 
 ai-prompting:
   title: AI Prompting
-  description: El proceso de instruir a una IA para que realice una tarea 
+  description: El proceso de instruir a una IA para que realice una tarea
 
 ai-prompting/giving-instructions:
   title: Dando Instrucciones

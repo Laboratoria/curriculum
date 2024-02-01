@@ -77,7 +77,7 @@ product-design:
   - fidelity
   - interactivity
   - visual-design
-    
+
 firebase:
   - auth
   - firestore
@@ -199,48 +199,57 @@ java:
 python:
   - data-types:
     - primitive
-    - primitive-vs-non-primitive
     - strings
     - lists
     - tuples
     - dictionaries
     - sets
   - variables
-  - conditionals
+  - conditionals # ternary elif
   - loops
+  - list-comprehension
   - functions
+  - docstring
+  - linting
   - testing:
-    - unittest
-    - pytest
-  - classes:
-    - attributes
-    - methods
-    - inheritance
-    - polymorphism
-    - encapsulation
-  - modules:
-    - import
-    - pip
-    - virtualenv
-  - web-apis:
-    - flask:
-      - setup
-      - request-response
-      - routes
-      - templates
-      - sessions
+    - unit-tests
+    - mocks
+    - fixtures
+  - import-modules
+  - pip-install
+  - virtualenv
+  - requirements
+  - flask:
+    - routes:
+      - route-decorator
+      - view-function
+      - dynamic-parameters
+    - request:
+      - args
+      - headers
+      # - there are more that can be added here
+      # - form
+      # - json
+    - response
+    - jsonify
+    - sessions:
       - cookies
-      - testing
-      - blueprints
-    - django:
-      - setup
-      - models
-      - views
-      - templates
-      - forms
-      - sessions
-      - cookies
-      - testing
+    - testing:
+      - fixture-setup
+      - test_client
+      # - test_request_context
+    # - templates
+    # - blueprints
+    # - views
+  - django:
+    - setup
+    - models
+    - views
+    - templates
+    - forms
+    - sessions
+    - cookies
+    - testing
 
 object-oriented-programming:
   - classes
@@ -384,7 +393,7 @@ business-understanding:
   - goals-and-kpis
   - benchmark
 
-research: 
+research:
   - test # TODO: change because only used in web-dev and only test
 
 research-planning:
