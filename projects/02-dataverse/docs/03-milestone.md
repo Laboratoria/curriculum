@@ -8,13 +8,13 @@ por hito o por característica.
 
 ## Tareas de este hito
 
-- [Filtro](#filtro)
-- [Test filtro](#test-filtro)
-- [Ordenar](#ordenar)
-- [Test ordenar](#test-ordenar)
+- [Filtrar datos del dataset](#filtrar-datos-del-dataset)
+- [Test de la funcion del filtro](#test-de-la-funcion-del-filtro)
+- [Ordenar datos del dataset](#ordenar-datos-del-dataset)
+- [Test de la funcion ordenar](#test-de-la-funcion-ordenar)
 - [Test OAS](#test-oas)
 
-### Filtro
+### Filtrar datos del dataset
 
 Como primer paso, vuelve las secciónes
 [4. Funcionalidades](../README.md/#4-funcionalidades),
@@ -46,14 +46,14 @@ arreglo filtrado.
 > [!TIP]
 > [filter](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
-### Test filtro
+### Test de la funcion del filtro
 
 No dejes los tests para después; ahora que tienes la función de
 filtrado funcional, realiza los tests. Puedes apoyarte en esta
 [guía](./test.md)
 como referencia.
 
-### Ordenar
+### Ordenar datos del dataset
 
 La función de ordenar `sortData` debe recibir datos, un campo de
 referencia y la dirección del orden. Luego aplica el ordenamiento
@@ -81,7 +81,7 @@ arreglo ordenado.
 > [!TIP]
 > [sort](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
-### Test ordenar
+### Test de la funcion ordenar
 
 Realiza los test; ahora que tienes la función de
 ordenar funcionando, escribe los tests. Puedes usar esta
