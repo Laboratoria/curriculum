@@ -878,6 +878,103 @@ python/testing:
       - title: Testing - Flask Docs (en inglés)
         url: https://flask.palletsprojects.com/en/2.0.x/testing/
 
+  python/django:
+    title: Django
+
+  python/django/setup:
+    title: Configuración
+
+  python/django/setup/migrations:
+    title: Migraciones
+    links:
+      - title: Migraciones
+        url: https://docs.djangoproject.com/es/5.0/topics/migrations/#module-django.db.migrations
+
+  python/django/setup/apps:
+    title: APPS
+    links:
+      - title: INSTALLED_APPS
+        url: https://docs.djangoproject.com/es/5.0/ref/settings/#std-setting-INSTALLED_APPS
+
+  python/django/setup/requirements:
+    title: Install Requirements
+    links:
+      - title: Install Requirements
+        url: https://pypi.org/project/requirements-dev.txt/0.0.7/
+
+  python/django/setup/psycopg2:
+    title: PostgreSQL notes
+    links:
+      - title: PostgreSQL connection
+        url: https://docs.djangoproject.com/en/5.0/ref/databases/#postgresql-notes
+
+  python/django/models:
+    title: Modelos
+
+  python/django/models/fields:
+    title: Fields
+    links:
+      - title: Field types
+        url: https://docs.djangoproject.com/en/5.0/topics/db/models/#Fields
+
+  python/django/models/fields:
+    title: Foreign Key
+    links:
+      - title: Model field reference
+        url: https://docs.djangoproject.com/en/5.0/ref/models/fields/
+
+  python/django/views:
+    title: views
+  
+  python/django/views/view:
+    title: Views
+    links:
+      - title: Base views
+        url: https://docs.djangoproject.com/en/5.0/ref/class-based-views/base/
+
+  python/django/testing:
+    title: Testing
+
+  python/django/views/testing:
+    title: testing
+    links:
+      - title: Testing in Django
+        url: https://docs.djangoproject.com/en/5.0/topics/testing/
+      - title: Testing rest framework
+        url: https://www.django-rest-framework.org/api-guide/testing/#testing
+
+  python/django/routes:
+    title: Routes
+
+  python/django/views/routes:
+    title: Path
+    links:
+      - title: URL dispatcher
+        url: https://docs.djangoproject.com/en/5.0/topics/http/urls/
+
+  python/django/rest-framework:
+    title: Rest Framework
+
+  python/django/views/rest-framework:
+    title: Rest Framework
+    links:
+      - title: Serializers
+        url: https://www.django-rest-framework.org/community/third-party-packages/#serializers
+      - title: The queryset argument
+        url: https://www.django-rest-framework.org/api-guide/relations/#the-queryset-argument
+      - title: Filtering
+        url: https://www.django-rest-framework.org/api-guide/filtering/
+      - title: OrderingFilter
+        url: https://www.django-rest-framework.org/api-guide/filtering/#orderingfilter
+      - title: Pagination
+        url: https://www.django-rest-framework.org/api-guide/pagination/#pagination
+      - title: query_params
+        url: https://www.django-rest-framework.org/api-guide/requests/#query_params
+      - title: ViewSets
+        url: https://www.django-rest-framework.org/api-guide/viewsets/#viewset
+      - title: GenericAPIView
+        url: https://www.django-rest-framework.org/api-guide/generic-views/#genericapiview
+
 webops:
   title: WebOps
 
