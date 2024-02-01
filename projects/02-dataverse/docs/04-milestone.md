@@ -21,25 +21,25 @@ cálculos según los criterios que estás estableciendo.
 1. Selecciona el activador para la función,
 ya sea un botón `button` o un menú desplegable `select`,
 según la experiencia que desees proporcionar a tu usuaria.
-1. En el archivo principal `src/main.js`, utiliza un
+2. En el archivo principal `src/main.js`, utiliza un
 selector del DOM y un manejador de eventos para
 seleccionar y vincular un evento al elemento `<button>` o `<select>`.
-1. En `src/dataFunctions.js`, crea la función `computeStats(data)`
+3. En `src/dataFunctions.js`, crea la función `computeStats(data)`
 encargada de realizar los cálculos según el criterio.
-1. En `src/main.js`, invoca la función `computeStats`
+4. En `src/main.js`, invoca la función `computeStats`
 y proporciona la `data` como argumento para realizar los
 cálculos necesarios.
-1. Regresa a `src/dataFunctions.js` y verifica que la
+5. Regresa a `src/dataFunctions.js` y verifica que la
 función esté recibiendo los valores;
 puedes hacerlo mediante un `console.log`.
-1. Una vez confirmados los valores, realiza los cálculos necesarios,
+6. Una vez confirmados los valores, realiza los cálculos necesarios,
 por ejemplo la longitud promedio de los nombres, usando el metodo
 [reduce](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 y devuelve el resultado.
-1. Una vez obtenido el valor de retorno en `src/main.js`,
+7. Una vez obtenido el valor de retorno en `src/main.js`,
 llama a la función encargada de mostrar los resultados `renderItems`,
 pasando como argumento el nuevo arreglo con los resultados de los cálculos.
-1. [Aplica estilos al elemento creado](./03-milestone.md/#estilos)
+8. [Aplica estilos al elemento creado](./03-milestone.md/#estilos)
 
 > [!TIP]
 > [reduce](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)

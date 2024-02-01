@@ -41,20 +41,20 @@ Ahora en el archivo `src/view.js`, existe la función `renderItems`,
 la cual tiene la responsabilidad de:
 
 1. Recibir el parámetro data, que representa todo el conjunto de datos.
-1. Crear un elemento `<ul>` utilizando el método
+2. Crear un elemento `<ul>` utilizando el método
 [createElement](https://developer.mozilla.org/es/docs/Web/API/Document/createElement).
-1. Recorrer la data mediante un
+3. Recorrer la data mediante un
 [bucle](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Loops_and_iteration)
 o algún método de array como
 [forEach](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 o
 [map](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-1. Por cada elemento de la data, crear un elemento `<li>`.
-1. Agregar cada `<li>` al `<ul>` utilizando
+4. Por cada elemento de la data, crear un elemento `<li>`.
+5. Agregar cada `<li>` al `<ul>` utilizando
 [innerHTML](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML) ,
 [appendChild](https://developer.mozilla.org/es/docs/Web/API/Node/appendChild)
 u otro método apropiado.
-1. Finalmente, retornar el elemento `<ul>`.
+6. Finalmente, retornar el elemento `<ul>`.
 
 Hasta este punto, aún no se visualiza la data, pero puedes utilizar
 `console.log` en todo momento. Por ejemplo, dentro del bucle o método que
@@ -68,8 +68,10 @@ renderItems, recurriendo nuevamente a
 [appendChild](https://developer.mozilla.org/es/docs/Web/API/Node/appendChild)
 
 > [!NOTE]
-> **appendChild()**: Este método agrega un elemento hijo al final de un elemento padre.
-> **innerHTML**: Esta propiedad asigna el contenido de un elemento HTML a otro elemento.
+> **appendChild()**: Este método agrega un elemento hijo al final
+> de un elemento padre.
+> **innerHTML**: Esta propiedad asigna el contenido de un elemento
+> HTML a otro elemento.
 
 ### Estilos
 

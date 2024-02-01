@@ -20,28 +20,32 @@ Como primer paso, vuelve las secciónes
 [4. Funcionalidades](../README.md/#4-funcionalidades),
 [5. Consideraciones técnicas](../README.md/#5-consideraciones-técnicas) y
 [src/dataFunctions.js](../README.md/#srcdatafunctionsjs)
-para obtener detalles sobre los elementos que debes utilizar y el nombre que debe tener la función para el filtro.
+para obtener detalles sobre los elementos que debes utilizar y
+el nombre que debe tener la función para el filtro.
 
 1. En el archivo HTML, crea un elemento `<select>`
 que incluya los valores a ser utilizados para el filtrado.
-1. En el archivo principal `src/main.js`, emplea algún selector
-del DOM y manejador de eventos para seleccionar y vincular un evento al elemento `<select>`. Esto permitirá capturar el valor
+2. En el archivo principal `src/main.js`, emplea algún selector
+del DOM y manejador de eventos para seleccionar y vincular un
+evento al elemento `<select>`. Esto permitirá capturar el valor
 seleccionado en el `<select>` de manera adecuada.
-1. En `src/dataFunctions.js`, elimina el contenido de ejemplo
+3. En `src/dataFunctions.js`, elimina el contenido de ejemplo
 y crea la función `filterData(data, filterBy, value)` que se
 encargará de realizar el filtrado de datos.
-1. En `src/main.js`, invoca la función filterData y proporciona
+4. En `src/main.js`, invoca la función filterData y proporciona
 como argumentos la `data`, el campo por el cual deseas realizar el
 filtrado `filterBy`, y el valor específico `value` que deseas
 filtrar.
-1. Regresa a `src/dataFunctions.js` y verifica que tu función esté
+5. Regresa a `src/dataFunctions.js` y verifica que tu función esté
 recibiendo los valores; puedes hacerlo mediante un `console.log`.
-1. Una vez que hayas confirmado los valores, realiza una copia del
+6. Una vez que hayas confirmado los valores, realiza una copia del
 parámetro `data`. Es una buena práctica no modificarla
 directamente. Luego, ejecuta el método `filter` y retorna el nuevo
 arreglo filtrado.
-1. Una vez obtenido el valor de retorno en `src/main.js`, llama a la función encargada de mostrar la data `renderItems`, pasando como argumento el nuevo arreglo ya filtrado.
-1. [Aplica estilos al `select` recién creado](#estilos)
+7. Una vez obtenido el valor de retorno en `src/main.js`,
+llama a la función encargada de mostrar la data `renderItems`,
+pasando como argumento el nuevo arreglo ya filtrado.
+8. [Aplica estilos al `select` recién creado](#estilos)
 
 > [!TIP]
 > [filter](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
@@ -60,23 +64,29 @@ referencia y la dirección del orden. Luego aplica el ordenamiento
 con `sort` y devuelve el nuevo arreglo. Esto permite ordenar
 dinámicamente la data según criterios específicos.
 
-1. EEn el archivo HTML, crea un elemento `<select>` que tenga dos `<option>` con valores `"asc"` y `"desc"` para ordenar la data de forma ascendente y descendente, respectivamente.
-1. En el archivo principal `src/main.js`, utiliza un selector del
+1. EEn el archivo HTML, crea un elemento `<select>`
+que tenga dos `<option>` con valores `"asc"` y `"desc"`
+para ordenar la data de forma ascendente y descendente, respectivamente.
+2. En el archivo principal `src/main.js`, utiliza un selector del
 DOM y un manejador de eventos para elegir y vincular un evento al
-elemento `<select>`. Esto permitirá capturar eficientemente el valor seleccionado en el `<select>`.
-1. En `src/dataFunctions.js`, crea la función `sortData(data, sortBy, sortOrder)`,
+elemento `<select>`. Esto permitirá capturar eficientemente el valor
+eleccionado en el `<select>`.
+3. En `src/dataFunctions.js`, crea la función `sortData(data, sortBy, sortOrder)`,
 encargada de realizar el ordenamiento de datos.
-1. En `src/main.js`, invoca la función `sortData` y proporciona
+4. En `src/main.js`, invoca la función `sortData` y proporciona
 como argumentos la `data`, el campo por el cual deseas realizar el
 ordenamiento `sortBy`, y la dirección del orden `sortOrder`
 (ascendente o descendente).
-1. Regresa a `src/dataFunctions.js` y verifica que la función esté recibiendo los valores; puedes hacerlo mediante un `console.log`.
-1. Una vez confirmados los valores, realiza una copia del
+5. Regresa a `src/dataFunctions.js` y verifica que la función esté
+recibiendo los valores; puedes hacerlo mediante un `console.log`.
+6. Una vez confirmados los valores, realiza una copia del
 parámetro `data`. Es una buena práctica no modificarla
 directamente. Luego, ejecuta el método `sort` y retorna el nuevo
 arreglo ordenado.
-1. Una vez obtenido el valor de retorno en `src/main.js`, llama a la función encargada de mostrar la data `renderItems`, pasando como argumento el nuevo arreglo ya ordenado.
-1. [Aplica estilos al `select` recién creado](#estilos)
+7. Una vez obtenido el valor de retorno en `src/main.js`, llama a la función
+encargada de mostrar la data `renderItems`, pasando como argumento el
+nuevo arreglo ya ordenado.
+8. [Aplica estilos al `select` recién creado](#estilos)
 
 > [!TIP]
 > [sort](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)

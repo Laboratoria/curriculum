@@ -46,7 +46,8 @@ elemento del conjunto de datos o sencillamente googlearlas y obtener sus URLs.
 utilizar los datos de ejemplo proporcionados en la ruta `./src/data/dataset.js`.
 
 5. **Capturas de pantalla**: Incluir capturas de pantalla del prompt utilizado
-para la generación de datos en el archivo readme, cumpliendo con el requisito del proyecto.
+para la generación de datos en el archivo readme, cumpliendo con el
+requisito del proyecto.
 
 ### Test de prompting
 
