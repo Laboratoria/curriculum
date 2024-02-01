@@ -7,10 +7,11 @@
 * [3. Considerações gerais](#3-considerações-gerais)
 * [4. Funcionalidades](#4-funcionalidades)
 * [5. Considerações técnicas](#5-considerações-técnicas)
-* [6. Critérios de aceitação mínimos do projeto](#6-critérios-de-aceitação-mínimos-do-projeto)
-* [7. Objetivos de aprendizagem](#7-objetivos-de-aprendizagem)
-* [8. Dicas, guias e leituras complementares](#8-dicas-guias-e-leituras-complementares)
-* [9. Considerações para solicitar seu Feedback do Projeto](#9-considerações-para-solicitar-seu-feedback-do-projeto)
+* [6. Marcos](#6-Marcos)
+* [7. Critérios de aceitação mínimos do projeto](#7-critérios-de-aceitação-mínimos-do-projeto)
+* [8. Objetivos de aprendizagem](#8-objetivos-de-aprendizagem)
+* [9. Dicas, guias e leituras complementares](#9-dicas-guias-e-leituras-complementares)
+* [10. Considerações para solicitar seu Feedback do Projeto](#10-considerações-para-solicitar-seu-feedback-do-projeto)
 
 ***
 
@@ -259,7 +260,27 @@ os estilos necessários para a sua aplicação.
 Esta pasta contém os testes das suas funções e componentes. Por exemplo, os
 testes das `dataFunctions` devem estar aqui.
 
-## 6. Critérios de aceitação mínimos do projeto
+## 6. Marcos
+
+Para resolver um problema,
+é importante compreendê-lo em profundidade.
+Uma forma de fazer isso é desmembrá-lo em problemas menores.
+Isso nos ajudará a identificar as causas do problema e
+a desenvolver soluções mais eficazes.
+
+Neste projeto, sugerimos que trabalhe por marcos.
+Isso permitirá que você se concentre em um problema de cada vez e
+acompanhe seu progresso.
+A seguir, apresentamos um cronograma de marcos que
+pode ajudá-lo a organizar seu trabalho.
+
+* [Marco 1](./docs/01-milestone.pt.md)
+* [Marco 2](./docs/02-milestone.pt.md)
+* [Marco 3](./docs/03-milestone.pt.md)
+* [Marco 4](./docs/04-milestone.pt.md)
+* [Marco 5](./docs/05-milestone.pt.md)
+
+## 7. Critérios de aceitação mínimos do projeto
 
 Além das funcionalidades que definimos na seção de [Funcionalidades](#4-funcionalidades),
 o seu projeto deve atender aos seguintes requisitos:
@@ -344,7 +365,7 @@ _functions_ (_funções_), _lines_ (_linhas_) e _branches_ (_ramos_) do arquivo
 `src/dataFunctions.js`, que contém as suas funções e é detalhado na seção de
 [Considerações técnicas](#5-considerações-técnicas).
 
-## 7. Objetivos de aprendizagem
+## 8. Objetivos de aprendizagem
 
 > ℹ️ Esta seção será automaticamente gerada no idioma apropriado, com base nos
 > objetivos de aprendizagem declarados em [`project.yml`](./project.yml),
@@ -353,11 +374,11 @@ _functions_ (_funções_), _lines_ (_linhas_) e _branches_ (_ramos_) do arquivo
 > Aqui você pode conferir uma [lista de todos os objetivos de aprendizagem](../../learning-objectives/data.yml)
 > que contempla nossa grade curricular.
 
-## 8. Dicas, guias e leituras complementares
+## 9. Dicas, guias e leituras complementares
 
 ### Primeiros passos
 
-Junte-se ao canal Slack [#project-dataverse-chat](https://claseslaboratoria.slack.com/archives/C03MV35EP5M)
+Junte-se ao canal Slack [#project-dataverse-chat-pt](https://claseslaboratoria.slack.com/archives/C06GE35H7B7)
 para conversar e pedir ajuda sobre o projeto.
 
 Sugerimos algumas tarefas para iniciar o projeto. Não é
@@ -451,7 +472,7 @@ sua aplicação.
 * [Vercel](https://vercel.com/)
 * [Netlify](https://www.netlify.com/)
 
-## 9. Considerações para solicitar seu Feedback do Projeto
+## 10. Considerações para solicitar seu Feedback do Projeto
 
 Antes de agendar seu Feedback do Projeto com um coach, certifique-se de que
 seu projeto:
