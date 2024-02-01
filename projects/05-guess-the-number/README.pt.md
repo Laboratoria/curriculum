@@ -319,7 +319,7 @@ aprendendo o paradigma de programação orientada a objetos no processo.
 ## 8. Dicas / Sugestões
 
 Confira o [FAQ](./docs/FAQ.pt.md) e participe do canal do Slack
-[#project-guess-the-number] (https://claseslaboratoria.slack.com/archives/C067E8ZT9CY)
+[#project-guess-the-number](https://claseslaboratoria.slack.com/archives/C067E8ZT9CY)
 para conversar e pedir ajuda sobre o projeto.
 
 **_Divirta-se construindo seu jogo de adivinhação de números! 🎲🎮_**
