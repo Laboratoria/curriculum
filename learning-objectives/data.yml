@@ -246,21 +246,20 @@ python:
       - migrations
       - apps
       - requirements
-      - psycopg2
     - models:
       - fields
       - foreignKey
       - primaryKey
     - views
     - testing
+    - queryset
+    - filter
+    - order-by
     - routes:
       - path
       - urlpatterns
     - rest-framework:
       - serializers
-      - queryset
-      - filter
-      - order_by
       - pagination
       - query_params
       - viewsets

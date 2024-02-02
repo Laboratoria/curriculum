@@ -891,9 +891,9 @@ python/testing:
         url: https://docs.djangoproject.com/es/5.0/topics/migrations/#module-django.db.migrations
 
   python/django/setup/apps:
-    title: APPS
+    title: App
     links:
-      - title: INSTALLED_APPS
+      - title: Installed apps
         url: https://docs.djangoproject.com/es/5.0/ref/settings/#std-setting-INSTALLED_APPS
 
   python/django/setup/requirements:
@@ -901,12 +901,6 @@ python/testing:
     links:
       - title: Install Requirements
         url: https://pypi.org/project/requirements-dev.txt/0.0.7/
-
-  python/django/setup/psycopg2:
-    title: PostgreSQL notes
-    links:
-      - title: PostgreSQL connection
-        url: https://docs.djangoproject.com/en/5.0/ref/databases/#postgresql-notes
 
   python/django/models:
     title: Modelos
@@ -926,7 +920,7 @@ python/testing:
   python/django/views:
     title: views
   
-  python/django/views/view:
+  python/django/views:
     title: Views
     links:
       - title: Base views
@@ -935,7 +929,7 @@ python/testing:
   python/django/testing:
     title: Testing
 
-  python/django/views/testing:
+  python/django/testing:
     title: testing
     links:
       - title: Testing in Django
@@ -955,7 +949,7 @@ python/testing:
   python/django/rest-framework:
     title: Rest Framework
 
-  python/django/views/rest-framework:
+  python/django/rest-framework:
     title: Rest Framework
     links:
       - title: Serializers
