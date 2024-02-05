@@ -12,33 +12,33 @@ Descubre el poder de TypeScript en el desarrollo web.
 
 - [Introduccion a TypeScript](#introduccion-a-typescript)
 
-  - [Definicion y proposito de TypeScript](#definicion-y-proposito-de-typescript)
-  - [Tipado de datos](#tipado-de-datos)
-  - [Diferencias clave con JavaScript](#diferencias-clave-con-javascript)
+  + [Definicion y proposito de TypeScript](#definicion-y-proposito-de-typescript)
+  + [Tipado de datos](#tipado-de-datos)
+  + [Diferencias clave con JavaScript](#diferencias-clave-con-javascript)
 
 - [Instalacion de TypeScript](#instalacion-de-typescript)
 
-  - [Como instalar TypeScript globalmente usando npm](#como-instalar-typescript-globalmente-usando-npm)
+  + [Como instalar TypeScript globalmente usando npm](#como-instalar-typescript-globalmente-usando-npm)
 
 - [Configuración del Proyecto](#configuracion-del-proyecto)
 
-  - [Archivo de configuracion **tsconfig.json**](#archivo-de-configuracion-tsconfigjson)
-  - [Configuracion de opciones esenciales](#configuracion-de-opciones-esenciales)
+  + [Archivo de configuracion **tsconfig.json**](#archivo-de-configuracion-tsconfigjson)
+  + [Configuracion de opciones esenciales](#configuracion-de-opciones-esenciales)
 
 - [Variables y tipos de datos](#variables-y-tipos-de-datos)
 
-  - [Declaración de variables con let y const](#declaración-de-variables-con-let-y-const)
-  - [Tipos basicos: **number**, **string**, **boolean**, **array**](#tipos-basicos-number-string-boolean-array)
+  + [Declaración de variables con let y const](#declaración-de-variables-con-let-y-const)
+  + [Tipos basicos: **number**, **string**, **boolean**, **array**](#tipos-basicos-number-string-boolean-array)
 
 - [Funciones](#funciones)
 
-  - [Tipado de parametros y retorno de funciones](#tipado-de-parametros-y-retorno-de-funciones)
-  - [Declaracion y llamada de funciones](#declaracion-y-llamada-de-funciones)
+  + [Tipado de parametros y retorno de funciones](#tipado-de-parametros-y-retorno-de-funciones)
+  + [Declaracion y llamada de funciones](#declaracion-y-llamada-de-funciones)
 
 - [Interfaces](#interfaces)
 
-  - [Definicion de interfaces para estructurar objetos](#definicion-de-interfaces-para-estructurar-objetos)
-  - [Uso de interfaces en funciones](#uso-de-interfaces-en-funciones)
+  + [Definicion de interfaces para estructurar objetos](#definicion-de-interfaces-para-estructurar-objetos)
+  + [Uso de interfaces en funciones](#uso-de-interfaces-en-funciones)
 
 - [Tipos](#tipos)
 
@@ -123,13 +123,13 @@ A continuación, se destacan estas diferencias:
 
 7. **_Extensión de Archivos_**: Una diferencia importante
    es la extensión de los archivos.
-   - **JavaScript**: Los archivos JavaScript típicamente tienen la extensión .js.
-   - **TypeScript**: Los archivos TypeScript utilizan la extensión .ts.
+   + **JavaScript**: Los archivos JavaScript típicamente tienen la extensión .js.
+   + **TypeScript**: Los archivos TypeScript utilizan la extensión .ts.
 8. **_Detección temprana de errores_**: Una diferencia
    importante que puedes detectar errores en tiempo de desarrollo
    (es decir cuando estas programando), permitiendo codificar más rápido.
-   - **JavaScript**: Detectas los errores cuando ejecutas la aplicación.
-   - **TypeScript**: Detectas cuando estas programando.
+   + **JavaScript**: Detectas los errores cuando ejecutas la aplicación.
+   + **TypeScript**: Detectas cuando estas programando.
 
 ## Instalacion de TypeScript
 
@@ -188,7 +188,7 @@ estático opcional.
 
 - Declaración con `let`:
 
-  - Se utiliza para declarar variables que pueden ser reasignadas.
+  + Se utiliza para declarar variables que pueden ser reasignadas.
 
 ```ts
 let nombre: string = "Ejemplo";
@@ -196,7 +196,7 @@ let nombre: string = "Ejemplo";
 
 - Declaración con `const`:
 
-  - Se utiliza para declarar variables con
+  + Se utiliza para declarar variables con
     un valor constante que no puede ser reasignado.
 
 ```ts
@@ -217,7 +217,7 @@ utilizan los tipos básicos:
 
 - **number**
 
-  - Representa valores numéricos, ya sean enteros o decimales.
+  + Representa valores numéricos, ya sean enteros o decimales.
 
 ```ts
 let edad: number = 32;
@@ -225,7 +225,7 @@ let edad: number = 32;
 
 - **string**
 
-  - Representa valores de texto.
+  + Representa valores de texto.
 
 ```ts
 let nombre: string = "Ada Lovelace";
@@ -233,7 +233,7 @@ let nombre: string = "Ada Lovelace";
 
 - **boolean**
 
-  - Representa valores lógicos, es decir, **true** o **false**.
+  + Representa valores lógicos, es decir, **true** o **false**.
 
 ```ts
 let activo: boolean = false;
@@ -241,7 +241,7 @@ let activo: boolean = false;
 
 - **array**
 
-  - Representa un arreglo de elementos del mismo tipo.
+  + Representa un arreglo de elementos del mismo tipo.
     Puedes especificar el tipo de elementos dentro del arreglo.
 
 ```ts
@@ -316,7 +316,7 @@ ejemplos de cómo realizar la declaración y llamada de funciones en TypeScript:
 
 - Declaración de función
 
-  - Puedes especificar el tipo de los parámetros y el tipo de retorno.
+  + Puedes especificar el tipo de los parámetros y el tipo de retorno.
 
 ```ts
 function saludar(nombre: string): string {
@@ -326,7 +326,7 @@ function saludar(nombre: string): string {
 
 - Llamada de función
 
-  - Al llamar la función, proporciona argumentos
+  + Al llamar la función, proporciona argumentos
     del tipo esperado y maneja el valor de retorno.
 
 ```ts
@@ -508,7 +508,7 @@ Aunque comparten similitudes, hay algunas diferencias clave entre ambas.
 
 - **Extensibilidad**
 
-  - **Interfaces**: Las interfaces en TypeScript son abiertas
+  + **Interfaces**: Las interfaces en TypeScript son abiertas
     y pueden ser extendidas posteriormente. Puedes declarar
     una interfaz con un nombre específico y luego extenderla
     para agregar más propiedades o ajustar las existentes.
@@ -524,7 +524,7 @@ Aunque comparten similitudes, hay algunas diferencias clave entre ambas.
   }
   ```
 
-  - **Tipos**: Los tipos (type) también permiten crear
+  + **Tipos**: Los tipos (type) también permiten crear
     estructuras de datos, pero no son extensibles
     directamente. No puedes declarar un tipo y luego
     agregar más propiedades en una declaración separada.
@@ -541,7 +541,7 @@ Aunque comparten similitudes, hay algunas diferencias clave entre ambas.
 
 - **Compatibilidad con uniones e intersecciones**
 
-  - **Interfaces**: Son útiles para crear uniones
+  + **Interfaces**: Son útiles para crear uniones
     y extensiones de interfaces mediante el uso de **extends**
 
   ```ts
@@ -557,7 +557,7 @@ Aunque comparten similitudes, hay algunas diferencias clave entre ambas.
   type Interseccion = A & B; // Debe ser tanto A como B
   ```
 
-  - **Tipos**: También pueden realizar uniones
+  + **Tipos**: También pueden realizar uniones
     y extensiones de tipos, pero la sintaxis es
     ligeramente diferente.
 
@@ -576,7 +576,7 @@ Aunque comparten similitudes, hay algunas diferencias clave entre ambas.
 
 - **Herencia**
 
-  - **Interfaces**: Pueden ser extendidas mediante
+  + **Interfaces**: Pueden ser extendidas mediante
     **extends** para crear nuevas interfaces que heredan
     propiedades de otras.
 
@@ -590,7 +590,8 @@ Aunque comparten similitudes, hay algunas diferencias clave entre ambas.
   }
   ```
 
-  - **Tipos**: Pueden ser utilizados para crear uniones y extensiones, pero no se declaran con **extends**.
+  + **Tipos**: Pueden ser utilizados para crear uniones y extensiones,
+    pero no se declaran con **extends**.
 
   ```ts
   type Animal = {
@@ -613,47 +614,47 @@ específicas pueden influir en la elección entre ambos según el caso de uso.
    variables, parámetros de funciones y el retorno de
    funciones para mejorar la claridad y la detección de errores.
 
-```ts
-// Buena práctica
-function sumar(a: number, b: number): number {
-  return a + b;
-}
-```
+    ```ts
+    // Buena práctica
+    function sumar(a: number, b: number): number {
+      return a + b;
+    }
+    ```
 
 2. **_Evitar el uso de `any`_**: Evita el uso de any en favor de
    tipos más específicos. Esto ayuda a aprovechar al máximo el
    sistema de tipado estático de TypeScript.
 
-```ts
-// Evitar
-let variable: any = "ejemplo";
+    ```ts
+    // Evitar
+    let variable: any = "ejemplo";
 
-// Buena práctica
-let variable: string = "ejemplo";
-```
+    // Buena práctica
+    let variable: string = "ejemplo";
+    ```
 
 3. **_Interfaces para estructurar datos_**: Utiliza interfaces
    para estructurar objetos y definir contratos claros.
    Facilita el mantenimiento y la comprensión del código.
 
-```ts
-// Buena práctica
-interface Usuario {
-  nombre: string;
-  edad: number;
-}
-```
+    ```ts
+    // Buena práctica
+    interface Usuario {
+      nombre: string;
+      edad: number;
+    }
+    ```
 
 4. **_Desestructuración y parámetros con objetos_**: Utiliza
    desestructuración y parámetros con objetos para mejorar
    la legibilidad y evitar problemas en el orden de los argumentos.
 
-```ts
-// Buena práctica
-function imprimirInfo({ nombre, edad }: Usuario): void {
-  console.log(`Nombre: ${nombre}, Edad: ${edad}`);
-}
-```
+    ```ts
+    // Buena práctica
+    function imprimirInfo({ nombre, edad }: Usuario): void {
+      console.log(`Nombre: ${nombre}, Edad: ${edad}`);
+    }
+    ```
 
 5. **_Modularización y organización de código_**: Organiza tu
    código en módulos y sigue prácticas de organización para
