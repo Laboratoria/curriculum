@@ -25,14 +25,14 @@ los principios fundamentales del
 El objetivo es crear un conjunto de datos que cumpla con las
 [especificaciones proporcionadas](../README.md/#generar-los-datos).
 
-1. **Definir temática**: En equpo seleccionen una temática para el conjunto de datos,
+1. **Definir temática**: En equipo seleccionen una temática para el conjunto de datos,
 por ejemplo, personajes históricos, y tener en cuenta que la información sea variada
-y interesante para la interacción futura.
+e interesante para la interacción futura.
 
 2. **Estructurar datos**: En el archivo `src/data/dataset.js,` al generar tus datos,
 reemplaza el contenido con la información generada. Asegúrate de que el archivo
 exporte un arreglo con 24 objetos, cada uno siguiendo la estructura detallada
-en el prompt. Verifica que cada objeto contenga un **id** (identificador único),
+en el [prompt](https://espresso-matutino.notion.site/6-Pasos-Para-El-Prompt-Perfecto-280cac492ab54a258771ec56de27807d). Verifica que cada objeto contenga un **id** (identificador único),
 **name** (nombre), **shortDescription** (descripción corta) y
 **description** (descripción extendida), **imageUrl** (para la imagen),
 **facts** (hechos), y,
@@ -42,8 +42,11 @@ opcionalmente, **extraInfo** (información adicional).
 como el generador de imágenes de Bing, para crear imágenes correspondientes a cada
 elemento del conjunto de datos o sencillamente googlearlas y obtener sus URLs.
 
-4. **Datos de ejemplo**: En caso de no lograr generar los datos en un sprint,
-utilizar los datos de ejemplo proporcionados en la ruta `./src/data/dataset.js`.
+4. **Datos de ejemplo**: En caso de no lograr generar los datos en un
+periodo breve, como máximo tres días, puedes recurrir a los datos de
+ejemplo disponibles en la ruta `./src/data/dataset.js`
+**Es crucial no dedicar un sprint completo exclusivamente
+a esta tarea**.
 
 5. **Capturas de pantalla**: Incluir capturas de pantalla del prompt utilizado
 para la generación de datos en el archivo readme, cumpliendo con el
