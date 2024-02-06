@@ -205,15 +205,15 @@ python:
     - dictionaries
     - sets
   - variables
+  - conditionals
+  - operators
+  - docstrings
   - functions:
     - basic-concepts
     - args-kwargs
     - closures
     - lambda-functions
     - decorators
-  - conditionals
-  - operators
-  - docstrings
   - iteration:
     - loops
     - list-comprehension
