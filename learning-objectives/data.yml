@@ -216,7 +216,7 @@ python:
     - mocks
     - fixtures
   - import-modules
-  - pip-install
+  - pip
   - virtualenv
   - requirements
   - flask:
