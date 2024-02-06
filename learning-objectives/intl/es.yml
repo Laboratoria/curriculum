@@ -739,7 +739,16 @@ python/variables:
   title: Variables (declaración, asignación, ámbito)
 
 python/conditionals:
-  title: Uso de condicionales (elif, ternario)
+  title: Uso de condicionales (if, elif, ternario)
+  links:
+    - title: Python if...else Statement - w3schools (en inglés)
+      url: https://www.w3schools.com/python/python_conditions.asp
+
+python/operators:
+  title: Operadores (identidad, aritméticos, comparación etc)
+  links:
+    - title: Python Operators - GeeksforGeeks (en inglés)
+      url: https://www.geeksforgeeks.org/python-operators/
 
 python/functions:
   title: Funciones

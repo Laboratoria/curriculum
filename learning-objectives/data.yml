@@ -211,7 +211,8 @@ python:
     - closures
     - lambda-functions
     - decorators
-  - conditionals # ternary elif
+  - conditionals
+  - operators
   - docstrings
   - iteration:
     - loops
