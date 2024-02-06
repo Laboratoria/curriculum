@@ -32,7 +32,9 @@ e interesante para la interacción futura.
 2. **Estructurar datos**: En el archivo `src/data/dataset.js,` al generar tus datos,
 reemplaza el contenido con la información generada. Asegúrate de que el archivo
 exporte un arreglo con 24 objetos, cada uno siguiendo la estructura detallada
-en el [prompt](https://espresso-matutino.notion.site/6-Pasos-Para-El-Prompt-Perfecto-280cac492ab54a258771ec56de27807d). Verifica que cada objeto contenga un **id** (identificador único),
+en el
+[prompt](https://espresso-matutino.notion.site/6-Pasos-Para-El-Prompt-Perfecto-280cac492ab54a258771ec56de27807d).
+Verifica que cada objeto contenga un **id** (identificador único),
 **name** (nombre), **shortDescription** (descripción corta) y
 **description** (descripción extendida), **imageUrl** (para la imagen),
 **facts** (hechos), y,
