@@ -241,29 +241,27 @@ python:
     # - templates
     # - blueprints
     # - views
+
   - django:
     - setup:
       - migrations
-      - apps
+      - app
       - requirements
     - models:
       - fields
-      - foreignKey
-      - primaryKey
+      - foreign-Key
     - views
     - testing
     - queryset
     - filter
     - order-by
-    - routes:
-      - path
-      - urlpatterns
+    - url-configuration
     - rest-framework:
       - serializers
       - pagination
-      - query_params
-      - viewsets
-      - APIView
+      - query-params
+      - viewset
+      - apiview
 
 
 object-oriented-programming:
