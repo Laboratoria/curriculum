@@ -1,7 +1,8 @@
-# **HITO 4:** Calculo
+# **HITO 4:** Cálculo
 
-El propósito de este hito es lograr la realización de cálculos
-en la data. Recuerda la importancia de seguir la práctica de
+El propósito de este hito es realizar cálculos con
+la información. Recuerda la importancia de seguir
+la práctica de
 emplear al menos una
 [rama](https://www.atlassian.com/es/git/tutorials/comparing-workflows/feature-branch-workflow)
 por hito o característica.
@@ -18,9 +19,11 @@ por hito o característica.
 La función `computeStats` debe recibir la `data` y realizar
 cálculos según los criterios que estás estableciendo.
 
-1. Selecciona el activador para la función,
-ya sea un botón `button` o un menú desplegable `select`,
-según la experiencia que desees proporcionar a tu usuaria.
+1. Selecciona el tipo de cálculo que deseas realizar y
+evalúa la necesidad de un activador, como un botón o
+un menú desplegable, para llevar a cabo la operación.
+Asegúrate de considerar la experiencia de usuaria
+y el contexto de la aplicación al tomar esta decisión.
 2. En el archivo principal `src/main.js`, utiliza un
 selector del DOM y un manejador de eventos para
 seleccionar y vincular un evento al elemento `<button>` o `<select>`.
