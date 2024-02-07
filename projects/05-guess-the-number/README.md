@@ -5,7 +5,6 @@
 - [1. Resumen del Proyecto](#1-resumen-del-proyecto)
 - [2. Consideraciones Generales](#2-consideraciones-generales)
 - [3. Objetivos de Aprendizaje](#3-objetivos-de-aprendizaje)
-- [4. Estrategia de Implementación](#4-estrategia-de-implementación)
 
 ---
 
