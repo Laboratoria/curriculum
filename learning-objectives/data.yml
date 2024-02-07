@@ -247,7 +247,7 @@ python:
       - jsonify
     - testing:
       - fixture-setup
-      - test_client
+      - test-client
       # - test_request_context
     # - templates
     # - blueprints
@@ -258,7 +258,6 @@ python:
     - setup:
       - migrations
       - app
-      - requirements
     - models:
       - fields
       - foreign-Key
