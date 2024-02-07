@@ -927,6 +927,8 @@ python/flask:
   links:
     - title: Flask - Documentación oficial
       url: https://flask.palletsprojects.com/en/3.0.x/
+    - title: Flask - Tutorial oficial
+      url: https://flask.palletsprojects.com/en/3.0.x/tutorial/
 
 python/flask/routes:
   title: Rutas
