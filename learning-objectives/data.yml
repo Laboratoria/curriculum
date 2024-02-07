@@ -255,14 +255,26 @@ python:
     # - sessions:
     #   - cookies
   - django:
-    - setup
-    - models
+    - setup:
+      - migrations
+      - app
+      - requirements
+    - models:
+      - fields
+      - foreign-Key
     - views
-    - templates
-    - forms
-    - sessions
-    - cookies
     - testing
+    - queryset
+    - filter
+    - order-by
+    - url-configuration
+    - rest-framework:
+      - serializers
+      - pagination
+      - query-params
+      - viewset
+      - apiview
+
 
 object-oriented-programming:
   - classes
