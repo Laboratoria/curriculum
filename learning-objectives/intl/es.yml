@@ -715,7 +715,7 @@ python/data-types:
   title: Tipos de datos
 
 python/data-types/primitives:
-  title: Tipos de datos primitivos
+  title: Tipos de datos primitivos (int, float, str, bool)
 
 python/data-types/strings:
   title: Cadenas (strings)
@@ -739,19 +739,49 @@ python/variables:
   title: Variables (declaración, asignación, ámbito)
 
 python/conditionals:
-  title: Uso de condicionales # ternary elif
+  title: Uso de condicionales (if, elif, ternario)
+  links:
+    - title: Python if...else Statement - w3schools (en inglés)
+      url: https://www.w3schools.com/python/python_conditions.asp
 
-python/loops:
-  title: Uso de bucles/ciclos (while, for..in)
-
-python/list-comprehension:
-  title: Comprensión de listas
+python/operators:
+  title: Operadores (identidad, aritméticos, comparación etc)
+  links:
+    - title: Python Operators - GeeksforGeeks (en inglés)
+      url: https://www.geeksforgeeks.org/python-operators/
 
 python/functions:
-  title: Funciones (params, args, kwargs, return)
+  title: Funciones
+
+python/functions/basic-concepts:
+  titles: Conceptos basicos (params, args, default values, return)
+
+python/functions/args-kwargs:
+  title: "*args y **kwargs"
+
+python/functions/lamda-functions:
+  title: Funciones lambda
+
+python/functions/closures:
+  title: Cierres (closures)
+
+python/functions/decorators:
+  title: Decoradores
+
+python/iteration:
+  title: Iteración
+
+python/iteration/loops:
+  title: Uso de bucles/ciclos (while, for..in)
+
+python/iteration/list-comprehension:
+  title: Comprensión de listas
+
+python/iteration/functional-techniques:
+  title: Técnicas funcionales (map, filter, reduce)
 
 python/docstrings:
-  title: Docstrings
+  title: Docstrings (y su diferencia de comentarios)
 
 python/linting:
   title: Linting (pylint)
@@ -779,29 +809,44 @@ python/testing:
       - title: pytest fixtures - Documentación oficial
         url: https://docs.pytest.org/en/6.2.x/fixture.html
 
-  python/modules:
+  python/modularization:
+    title: Modularización
+
+  python/modularization/modules:
     title: Módulos
     links:
       - title: Módulos - Python Docs (en inglés)
         url: https://docs.python.org/3/tutorial/modules.html
 
-  python/pip:
+  python/modularization/packages:
+    title: Paquetes
+    links:
+      - title: Paquetes - Python Docs (en inglés)
+        url: https://docs.python.org/3/tutorial/modules.html#packages
+
+  python/dependency-management:
+    title: Manejo de dependencias
+
+  python/dependency-management/pip:
     title: pip (instalación y uso de paquetes)
     links:
       - title: pip - Python Docs (en inglés)
         url: https://docs.python.org/3/installing/index.html
 
-  python/virtualenv:
-    title: virtualenv (ambientes virtuales)
+  python/dependency-management/virtual-environment:
+    title: Virtual Environment (ambientes virtuales, virtualenv)
     links:
       - title: virtualenv - Documentación oficial
         url: https://virtualenv.pypa.io/en/latest/
 
-  python/requirements:
+  python/requirements-file:
     title: requirements.txt
     links:
       - title: requirements.txt - Documentación oficial
         url: https://pip.pypa.io/en/stable/user_guide/#requirements-files
+
+  python/serialization:
+    title: Serialización (y deserialización)
 
   python/flask:
     title: Flask
@@ -822,7 +867,7 @@ python/testing:
         url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#view-functions
 
   python/flask/routes/variable-rules:
-    title: Reglas de variables
+    title: Reglas de variables (urls dinamica)
     links:
       - title: Variable Rules - Flask Docs (en inglés)
         url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#variable-rules
@@ -848,20 +893,17 @@ python/testing:
   python/flask/response: # should response be part of routing, its what is returned in the vie function
     title: Response Object
 
-  python/flask/jsonify:
+  python/flask/response/response-parts:
+    title: Partes de la respuesta (status, body, headers)
+    links:
+      - title: Response - Flask Docs (en inglés)
+        url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#about-responses
+
+  python/flask/response/jsonify:
     title: jsonify
     links:
       - title: jsonify - Flask Docs (en inglés)
         url: https://flask.palletsprojects.com/en/2.0.x/api/#flask.json.jsonify
-
-  python/flask/session:
-    title: Sesiones
-
-  python/flask/session/cookies:
-    title: Cookies
-    links:
-      - title: Sessions - Flask Docs (en inglés)
-        url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#sessions
 
   python/flask/testing:
     title: Testing en Flask

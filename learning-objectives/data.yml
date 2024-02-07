@@ -205,35 +205,46 @@ python:
     - dictionaries
     - sets
   - variables
-  - conditionals # ternary elif
-  - loops
-  - list-comprehension
-  - functions
-  - docstring
+  - conditionals
+  - operators
+  - docstrings
+  - functions:
+    - basic-concepts
+    - args-kwargs
+    - closures
+    - lambda-functions
+    - decorators
+  - iteration:
+    - loops
+    - list-comprehension
+    - functional-techniques
   - linting
   - testing:
     - unit-tests
     - mocks
     - fixtures
-  - import-modules
-  - pip-install
-  - virtualenv
-  - requirements
+  - modularization:
+    - modules
+    - packages
+  - dependency-management:
+    - pip
+    - virtual-environment
+    - requirements-file
+  - serialization
   - flask:
     - routes:
       - route-decorator
       - view-function
-      - dynamic-parameters
+      - variable-rules
     - request:
       - args
       - headers
       # - there are more that can be added here
       # - form
       # - json
-    - response
-    - jsonify
-    - sessions:
-      - cookies
+    - response:
+      - response-parts
+      - jsonify
     - testing:
       - fixture-setup
       - test_client
@@ -241,7 +252,8 @@ python:
     # - templates
     # - blueprints
     # - views
-
+    # - sessions:
+    #   - cookies
   - django:
     - setup:
       - migrations
