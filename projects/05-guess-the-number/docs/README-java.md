@@ -96,6 +96,22 @@ jugadora "remota" o incluso diferentes niveles de dificultad.
 
 ## 4. Hitos del proyecto
 
+No trabajes como si fueras una fábrica haciendo una clase toda y luego otra.
+El riesgo de trabajar así es que obtendrás muchas partes sin ninguna o con media
+funcionalidad y aprenderás poco; no hagas lo contrario tampoco,
+muchas funcionalidades en la consola, pero sin una finalización que pueda
+ser utilizada por una usuaria no desarrolladora.
+
+La metáfora a continuación puede ayudarte a entender mejor la idea.
+
+![MARCOS](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/marcos.png?alt=media)
+
+Estas etapas, desde el monopatín hasta el automóvil, son lo que llamaremos "Hitos".
+
+Estos hitos son pequeñas tareas a implementar, así que evita trabajar como una
+fábrica y podrás aprender un poco de cada cosa, agregando valor para tu
+usuaria al finalizar cada hito.
+
 A continuación, te dejamos algunos hitos como sugerencia para que construyas tu proyecto.
 
 ### 4.1 Hito 1 - Configuración del entorno de trabajo
