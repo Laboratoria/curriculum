@@ -18,8 +18,7 @@ donde la jugadora y el ordenador se turnan para intentar adivinar un número
 aleatorio entre 1 y 100. Deben tener en cuenta la tentativa anterior, si fue
 "muy alta" o "muy baja".
 
-![GUESS THE NUMBER
-DEMO](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/guess-the-number-demo.gif?alt=media)
+![Demostración animada de sesión de juego](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/guess-the-number-demo.gif?alt=media)
 
 ## 2. Consideraciones Generales
 
@@ -30,18 +29,6 @@ DEMO](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/
 - Ten paciencia. No te preocupes demasiado por lo que aún no entiendes
   completamente.
 - Tu aprendizaje se desarrollará a medida que progreses.
-
-## 3. Objetivos de Aprendizaje
-
-> ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a
-> partir de los objetivos de aprendizaje declarados en
-> [`project.yml`](./project.yml), al crear el repo del proyecto para un cohort
-> en particular usando
-> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
->
-> Acá puedes ver una [lista de todos los objetivos de
-> aprendizaje](../../learning-objectives/data.yml) que contempla nuestra
-> currícula.
 
 ### **Criterios de Aceptación Mínimos del Proyecto**
 
@@ -60,3 +47,15 @@ DEMO](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/
 > [Versión en Python](./docs/README-python.md)
 >
 > [Versión en Java](./docs/README-java.md)
+
+## 3. Objetivos de Aprendizaje
+
+> ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a
+> partir de los objetivos de aprendizaje declarados en
+> [`project.yml`](./project.yml), al crear el repo del proyecto para un cohort
+> en particular usando
+> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+>
+> Acá puedes ver una [lista de todos los objetivos de
+> aprendizaje](../../learning-objectives/data.yml) que contempla nuestra
+> currícula.
