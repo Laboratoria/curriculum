@@ -1,186 +1,193 @@
 # Python 🐍
-# Adivinhe o Número
 
-## Índice# Python 🐍
-# Adivinhe o Número
+## 1. Prelúdio
 
-## Índice
+Python é uma das linguagens de programação mais populares e versáteis
+atualmente. Seu sucesso reside em sua simplicidade e legibilidade, tornando-o
+uma opção ideal para aqueles que estão começando a programar. Apesar da
+diversidade de plataformas e ferramentas disponíveis, é essencial ter um sólido
+entendimento dos conceitos fundamentais do Python. Além disso, Python é uma
+linguagem de programação multiparadigma, o que significa que você pode usar
+diferentes estilos de programação para resolver problemas, o que aumenta sua
+flexibilidade e poder. O objetivo deste projeto é apresentar-lhe o mundo do
+Python através de um jogo simples e divertido.
 
-- [1. Resumo do Projeto](#1-resumo-do-projeto)
-- [2. Considerações Gerais](#2-considerações-gerais)
-- [3. Objetivos de Aprendizagem](#3-objetivos-de-aprendizagem)
-- [4. Considerações Técnicas](#4-considerações-técnicas)
-  - [4.1 Configurar o ambiente de desenvolvimento](#41-configurar-o-ambiente-de-desenvolvimento)
-  - [4.2 Criar um script Python](#42-criar-um-script-python)
-  - [4.3 Implementar o jogo](#43-implementar-o-jogo)
-  - [4.4 Melhorar o jogo](#44-melhorar-o-jogo)
-  - [4.5 Criar uma "inteligência" para jogar contra o computador (Edição Hacker)](#45-criar-uma-inteligência-para-jogar-contra-o-computador-edicao-hacker)
-  - [4.6 Extensão: Versão Orientada a Objetos (OOP)](#46-extensão-versão-orientada-a-objetos-oop)
+## 2. Considerações Gerais
 
-## 4. Considerações Técnicas
+- Duração do projeto: Estima-se que este projeto levará de 1 a 2 sprints.
+- Deve ser implementado em Python. As únicas dependências externas que podem
+  ser utilizadas são pytest para testes unitários.
+- O jogo será realizado no terminal. Os testes podem ser executados no terminal
+  ou em seu IDE (VSCode é mais do que adequado).
+- Será utilizado um número aleatório entre 1 e 100 como número secreto.
+- O jogador e o computador se revezarão para adivinhar o número.
+- Após cada turno, serão mostradas informações sobre a suposição feita.
+- O jogo terminará quando o número for adivinhado. Será mostrada uma lista de
+  todas as tentativas do jogador vencedor.
 
-### 4.1 Configurar o ambiente de desenvolvimento
+## 3. Considerações Técnicas
 
-1. Instale Python 3.
-2. Configura o teu editor ou IDE para usar Python 3.
+O jogo será realizado no terminal usando Python. A lógica do jogo será baseada
+em estruturas de controle, incluindo loops, condicionais e coleções. É
+necessário dividir o código e melhorar sua legibilidade e manutenção. Deve-se
+utilizar uma funcionalidade da biblioteca de utilidades do Python para a
+geração de números aleatórios. Deve-se realizar testes unitários para suas
+classes e métodos utilizando PyTest e simulação de geração de números
+aleatórios com unittest.mock.
 
-#### Algumas referências sobre o tema
+## 4. Marcos
 
-- [Visual Studio Code para Python](https://code.visualstudio.com/docs/languages/python)
+A seguir, deixamos alguns marcos como sugestão para você construir seu projeto.
 
-### 4.2 Criar um script Python
+### 4.1 Criar o ambiente de desenvolvimento
 
-A seguir, vais criar um script Python simples para te certificares de que a tua configuração funciona corretamente.
+O primeiro passo é configurar seu ambiente de desenvolvimento. Para este
+projeto, você precisará do Python 3 e de um editor de texto ou um ambiente de
+desenvolvimento integrado (IDE).
 
-1. Cria um novo arquivo chamado `main.py`.
-2. Executa `main.py`.
+1. Instale o Python 3 se ainda não o tiver. Você pode baixá-lo do [site oficial
+do Python](https://www.python.org/downloads/).
 
-#### Referências
+2. Escolha um editor de texto ou um IDE. Algumas opções populares são
+[PyCharm](https://www.jetbrains.com/pycharm/), [Visual Studio
+Code](https://code.visualstudio.com/), ou [Sublime
+Text](https://www.sublimetext.com/).
 
-- [Como escrever e executar um script Python](https://entrenamiento-python-basico.readthedocs.io/es/3.7/leccion1/holamundo.html#ejecucion)
+3. Configure seu editor ou IDE para usar Python 3.
 
-### 4.3 Implementar o jogo
+#### Algumas referências sobre o assunto
 
-Agora que tens um ambiente de desenvolvimento Python a funcionar, podes começar a implementar o jogo.
-
-1. Gera um número aleatório entre 1 e 100. Podes usar a função `randint` no módulo `random` para fazer isso.
-2. Implementa um loop que peça ao jogador para adivinhar o número. Usa a função `input` para obter a entrada do jogador.
-3. Compara a entrada do jogador com o número secreto. Se o jogador adivinhar corretamente, termina o jogo. Se o jogador adivinhar incorretamente, fornece uma dica sobre se o número secreto é maior ou menor do que a entrada do jogador.
-4. Implementa a lógica para a vez do computador. O computador pode fazer um palpite aleatório, ou podes implementar alguma estratégia para que os seus palpites sejam mais inteligentes.
-5. Continua o jogo até que o jogador ou o computador adivinhe corretamente o número.
-6. Adiciona testes unitários para o teu código. Python tem um módulo incorporado chamado `unittest` que podes usar para isso.
-
-#### Referências
-
-- [Geração de números aleatórios em Python](https://docs.python.org/3/library/random.html)
-- [Loops em Python](https://docs.python.org/3/tutorial/controlflow.html#for-statements)
-- [A função input em Python](https://docs.python.org/3/library/functions.html#input)
-- [Comparisons in Python](https://docs.python.org/3/library/stdtypes.html#comparisons)
-- [Testes unitários em Python com unittest](https://docs.python.org/4/library/unittest.html)
-
-### 4.4 Melhorar o jogo
-
-Uma vez que tenhas uma versão básica do jogo a funcionar, podes fazer melhorias.
-
-1. Mantém um registo dos palpites do jogador e do computador. Quando o jogo terminar, mostra todos os palpites que o jogador vencedor fez.
-2. Adiciona uma opção para jogar novamente. Quando o jogo terminar, pergunta ao jogador se quer jogar novamente.
-3. Adiciona comentários ao teu código para explicar o que cada parte faz. Isto tornará o teu código mais fácil de entender e manter.
-
-#### Referências
-
-- [Manuseio de listas em Python](https://docs.python.org/3/tutorial/introduction.html#lists)
-- [Como escrever comentários em Python](https://www.w3schools.com/python/python_comments.asp)
-
-### 4.5 Criar uma "inteligência" para jogar contra o computador (Edição Hacker)
-
-Uma vez que tenhas implementado o jogo básico e feito algumas melhorias, podes levar as coisas ao próximo nível criando uma "inteligência" para jogar contra o computador. Esta "inteligência" poderia ser simplesmente outra implementação do jogo que utiliza uma estratégia diferente, ou poderia ser um algoritmo de aprendizagem automática que melhora com cada jogo que joga.
-
-1. Implementa uma nova versão do jogo que utiliza uma estratégia diferente. Por exemplo, em vez de adivinhar aleatoriamente, esta versão poderia tentar adivinhar o número mais provável com base nos palpites anteriores.
-2. Testa a tua nova "inteligência" jogando contra o computador. Consegues vencer o computador com a tua nova estratégia?
-3. Se te sentires ambicioso, poderias tentar implementar um algoritmo de aprendizagem automática. Este algoritmo poderia aprender de cada jogo que joga, melhorando os seus palpites com cada jogo. Poderias usar uma biblioteca de aprendizagem automática como scikit-learn para fazer isso.
-4. Certifica-te de adicionar testes unitários para a tua nova "inteligência". Também poderias querer adicionar algumas métricas para rastrear como o teu algoritmo melhora com cada jogo que joga.
-
-#### Referências
-
-- [Introdução ao scikit-learn](https://scikit-learn.org/stable/getting_started.html)
-- [Como implementar um algoritmo de aprendizagem automática](https://machinelearningmastery.com/start-here/#algorithms)
-
-### 4.6 Extensão: Versão Orientada a Objetos (OOP)
-
-Uma vez que tenhas implementado e melhorado a versão básica do jogo, podes reescrever o jogo utilizando o paradigma da Programação Orientada a Objetos (OOP). Isto permitirá estruturar o teu código de uma maneira mais modular e reutilizável. Além disso, algumas ferramentas como ORMs que vais encontrar no mundo do Python, estão desenhadas para trabalhar com OOP.
-
-1. Cria uma classe `Game` que represente uma instância do jogo. Esta classe pode ter métodos como `start`, `play_turn`, `check_guess`, e `end_game`.
-2. Cria uma classe `Player` que represente um jogador. Esta classe pode ter atributos como `name` e `guesses`, e métodos como `make_guess`.
-3. Cria uma subclasse `ComputerPlayer` que herde da classe `Player`. Esta classe pode sobrescrever o método `make_guess` para implementar a lógica de adivinhação do computador.
-4. Na classe `Game`, usa instâncias das classes `Player` e `ComputerPlayer` para representar o jogador e o computador.
-5. Adiciona testes unitários para as tuas classes
-
-
-- [1. Resumo do Projeto](#1-resumo-do-projeto)
-- [2. Considerações Gerais](#2-considerações-gerais)
-- [3. Objetivos de Aprendizagem](#3-objetivos-de-aprendizagem)
-- [4. Considerações Técnicas](#4-considerações-técnicas)
-  - [4.1 Configurar o ambiente de desenvolvimento](#41-configurar-o-ambiente-de-desenvolvimento)
-  - [4.2 Criar um script Python](#42-criar-um-script-python)
-  - [4.3 Implementar o jogo](#43-implementar-o-jogo)
-  - [4.4 Melhorar o jogo](#44-melhorar-o-jogo)
-  - [4.5 Criar uma "inteligência" para jogar contra o computador (Edição Hacker)](#45-criar-uma-inteligência-para-jogar-contra-o-computador-edicao-hacker)
-  - [4.6 Extensão: Versão Orientada a Objetos (OOP)](#46-extensão-versão-orientada-a-objetos-oop)
-
-## 4. Considerações Técnicas
-
-### 4.1 Configurar o ambiente de desenvolvimento
-
-1. Instale Python 3.
-2. Configura o teu editor ou IDE para usar Python 3.
-
-#### Algumas referências sobre o tema
-
-- [Visual Studio Code para Python](https://code.visualstudio.com/docs/languages/python)
+- [Visual Studio Code para
+  Python](https://code.visualstudio.com/docs/languages/python)
 
 ### 4.2 Criar um script Python
 
-A seguir, vais criar um script Python simples para te certificares de que a tua configuração funciona corretamente.
+A seguir, você criará um script Python simples para garantir que sua
+configuração funcione corretamente.
 
-1. Cria um novo arquivo chamado `main.py`.
-2. Executa `main.py`.
+1. Crie um novo arquivo chamado `main.py`. <br>
+2. Execute `main.py`.
 
 #### Referências
 
-- [Como escrever e executar um script Python](https://entrenamiento-python-basico.readthedocs.io/es/3.7/leccion1/holamundo.html#ejecucion)
+- [Como escrever e executar um script
+  Python](https://entrenamiento-python-basico.readthedocs.io/es/3.7/leccion1/holamundo.html#ejecucion)
 
 ### 4.3 Implementar o jogo
 
-Agora que tens um ambiente de desenvolvimento Python a funcionar, podes começar a implementar o jogo.
+Agora que você tem um ambiente de desenvolvimento Python funcionando, você pode
+começar a implementar o jogo.
 
-1. Gera um número aleatório entre 1 e 100. Podes usar a função `randint` no módulo `random` para fazer isso.
-2. Implementa um loop que peça ao jogador para adivinhar o número. Usa a função `input` para obter a entrada do jogador.
-3. Compara a entrada do jogador com o número secreto. Se o jogador adivinhar corretamente, termina o jogo. Se o jogador adivinhar incorretamente, fornece uma dica sobre se o número secreto é maior ou menor do que a entrada do jogador.
-4. Implementa a lógica para a vez do computador. O computador pode fazer um palpite aleatório, ou podes implementar alguma estratégia para que os seus palpites sejam mais inteligentes.
-5. Continua o jogo até que o jogador ou o computador adivinhe corretamente o número.
-6. Adiciona testes unitários para o teu código. Python tem um módulo incorporado chamado `unittest` que podes usar para isso.
+1. Gere um número aleatório entre 1 e 100. Você pode usar a função `randint` no
+módulo `random` para fazer isso.
+
+2. Implemente um loop que solicite ao jogador que adivinhe o número. Use a
+função `input` para obter a entrada do jogador.
+
+3. Compare a entrada do jogador com o número secreto. Se o jogador adivinhar
+corretamente, termine o jogo. Se o jogador adivinhar incorretamente, forneça
+uma dica se o número secreto é maior ou menor que a entrada do jogador.
+
+4. Implemente a lógica para a vez do computador. O computador pode fazer um
+palpite aleatório, ou você pode implementar alguma estratégia para que suas
+suposições sejam mais inteligentes.
+
+5. Continue o jogo até que o jogador ou o computador adivinhem corretamente o
+número.
+
+6. Adicione testes unitários para o seu código. Python tem um módulo
+incorporado chamado `unittest` que você pode usar para isso.
 
 #### Referências
 
-- [Geração de números aleatórios em Python](https://docs.python.org/3/library/random.html)
-- [Loops em Python](https://docs.python.org/3/tutorial/controlflow.html#for-statements)
-- [A função input em Python](https://docs.python.org/3/library/functions.html#input)
-- [Comparisons in Python](https://docs.python.org/3/library/stdtypes.html#comparisons)
-- [Testes unitários em Python com unittest](https://docs.python.org/4/library/unittest.html)
+- [Geração de números aleatórios em
+  Python](https://docs.python.org/3/library/random.html)
+- [Loops em
+  Python](https://docs.python.org/3/tutorial/controlflow.html#for-statements)
+- [A função input em
+  Python](https://docs.python.org/3/library/functions.html#input)
+- [Comparações em
+  Python](https://docs.python.org/3/library/stdtypes.html#comparisons)
+- [Testes unitários em Python com
+  unittest](https://docs.python.org/4/library/unittest.html)
 
 ### 4.4 Melhorar o jogo
 
-Uma vez que tenhas uma versão básica do jogo a funcionar, podes fazer melhorias.
+Uma vez que você tenha uma versão básica do jogo funcionando, você pode fazer
+melhorias.
 
-1. Mantém um registo dos palpites do jogador e do computador. Quando o jogo terminar, mostra todos os palpites que o jogador vencedor fez.
-2. Adiciona uma opção para jogar novamente. Quando o jogo terminar, pergunta ao jogador se quer jogar novamente.
-3. Adiciona comentários ao teu código para explicar o que cada parte faz. Isto tornará o teu código mais fácil de entender e manter.
+1. Mantenha um registro das suposições do jogador e do computador. Quando o
+jogo terminar, mostre todas as suposições que o jogador vencedor fez.
+
+2. Adicione uma opção para jogar novamente. Quando o jogo terminar, pergunte ao
+jogador se ele quer jogar novamente.
+
+3. Adicione comentários ao seu código para explicar o que cada parte faz. Isso
+tornará seu código mais fácil de entender e manter.
 
 #### Referências
 
-- [Manuseio de listas em Python](https://docs.python.org/3/tutorial/introduction.html#lists)
-- [Como escrever comentários em Python](https://www.w3schools.com/python/python_comments.asp)
+- [Manipulação de listas em
+  Python](https://docs.python.org/3/tutorial/introduction.html#lists)
+- [Como escrever comentários em
+  Python](https://www.w3schools.com/python/python_comments.asp)
 
 ### 4.5 Criar uma "inteligência" para jogar contra o computador (Edição Hacker)
 
-Uma vez que tenhas implementado o jogo básico e feito algumas melhorias, podes levar as coisas ao próximo nível criando uma "inteligência" para jogar contra o computador. Esta "inteligência" poderia ser simplesmente outra implementação do jogo que utiliza uma estratégia diferente, ou poderia ser um algoritmo de aprendizagem automática que melhora com cada jogo que joga.
+Depois de ter implementado o jogo básico e feito algumas melhorias, você pode
+levar as coisas para o próximo nível criando uma "inteligência" para jogar
+contra o computador. Esta "inteligência" poderia ser simplesmente outra
+implementação do jogo que usa uma estratégia diferente, ou poderia ser um
+algoritmo de aprendizado de máquina que melhora a cada jogo que joga.
 
-1. Implementa uma nova versão do jogo que utiliza uma estratégia diferente. Por exemplo, em vez de adivinhar aleatoriamente, esta versão poderia tentar adivinhar o número mais provável com base nos palpites anteriores.
-2. Testa a tua nova "inteligência" jogando contra o computador. Consegues vencer o computador com a tua nova estratégia?
-3. Se te sentires ambicioso, poderias tentar implementar um algoritmo de aprendizagem automática. Este algoritmo poderia aprender de cada jogo que joga, melhorando os seus palpites com cada jogo. Poderias usar uma biblioteca de aprendizagem automática como scikit-learn para fazer isso.
-4. Certifica-te de adicionar testes unitários para a tua nova "inteligência". Também poderias querer adicionar algumas métricas para rastrear como o teu algoritmo melhora com cada jogo que joga.
+1. Implemente uma nova versão do jogo que usa uma estratégia diferente. Por
+exemplo, em vez de adivinhar aleatoriamente, esta versão poderia tentar
+adivinhar o número mais provável com base nas suposições anteriores.
+
+2. Teste sua nova "inteligência" jogando contra o computador. Você pode vencer
+o computador com sua nova estratégia?
+
+3. Se você se sentir ambicioso, você pode tentar implementar um algoritmo de
+aprendizado de máquina. Este algoritmo poderia aprender de cada jogo que joga,
+melhorando suas suposições a cada jogo. Você poderia usar uma biblioteca de
+aprendizado de máquina como scikit-learn para fazer isso.
+
+4. Certifique-se de adicionar testes unitários para sua nova "inteligência".
+Você também pode querer adicionar algumas métricas para rastrear como seu
+algoritmo melhora a cada jogo que joga.
 
 #### Referências
 
-- [Introdução ao scikit-learn](https://scikit-learn.org/stable/getting_started.html)
-- [Como implementar um algoritmo de aprendizagem automática](https://machinelearningmastery.com/start-here/#algorithms)
+- [Introdução ao
+  scikit-learn](https://scikit-learn.org/stable/getting_started.html)
+- [Como implementar um algoritmo de aprendizado de
+  máquina](https://machinelearningmastery.com/start-here/#algorithms)
 
 ### 4.6 Extensão: Versão Orientada a Objetos (OOP)
 
-Uma vez que tenhas implementado e melhorado a versão básica do jogo, podes reescrever o jogo utilizando o paradigma da Programação Orientada a Objetos (OOP). Isto permitirá estruturar o teu código de uma maneira mais modular e reutilizável. Além disso, algumas ferramentas como ORMs que vais encontrar no mundo do Python, estão desenhadas para trabalhar com OOP.
+Depois de ter implementado e melhorado a versão básica do jogo, você pode
+reescrever o jogo usando o paradigma da Programação Orientada a Objetos (OOP).
+Isso permitirá que você estruture seu código de uma maneira mais modular e
+reutilizável. Além disso, algumas ferramentas como ORMs que você encontrará no
+mundo do Python, são projetadas para trabalhar com OOP.
 
-1. Cria uma classe `Game` que represente uma instância do jogo. Esta classe pode ter métodos como `start`, `play_turn`, `check_guess`, e `end_game`.
-2. Cria uma classe `Player` que represente um jogador. Esta classe pode ter atributos como `name` e `guesses`, e métodos como `make_guess`.
-3. Cria uma subclasse `ComputerPlayer` que herde da classe `Player`. Esta classe pode sobrescrever o método `make_guess` para implementar a lógica de adivinhação do computador.
-4. Na classe `Game`, usa instâncias das classes `Player` e `ComputerPlayer` para representar o jogador e o computador.
-5. Adiciona testes unitários para as tuas classes
+1. Crie uma classe `Game` que represente uma instância do jogo. Esta classe
+pode ter métodos como `start`, `play_turn`, `check_guess`, e `end_game`.
+
+2. Crie uma classe `Player` que represente um jogador. Esta classe pode ter
+atributos como `name` e `guesses`, e métodos como `make_guess`.
+
+3. Crie uma subclasse `ComputerPlayer` que herde da classe `Player`. Esta
+classe pode sobrescrever o método `make_guess` para implementar a lógica de
+adivinhação do computador.
+
+4. Na classe `Game`, use instâncias das classes `Player` e `ComputerPlayer`
+para representar o jogador e o computador.
+
+5. Adicione testes unitários para suas classes e métodos. Python tem um módulo
+incorporado chamado `unittest` que você pode usar para isso.
+
+#### Referências
+
+- [Programação Orientada a Objetos em
+  Python](https://docs.python.org/3/tutorial/classes.html)
