@@ -46,6 +46,10 @@ A continuación, crearás un script de Python simple para asegurarte de que tu c
 
 1. Crea un nuevo archivo llamado `main.py`.
 
+```python
+  print("Hello, World!")
+```
+
 2. Ejecuta `main.py`.
 
 #### Referencias
@@ -67,12 +71,15 @@ Ahora que tienes un entorno de desarrollo de Python funcionando, puedes empezar 
 
 5. Continúa el juego hasta que la jugadora o el ordenador adivinen correctamente el número.
 
+6. Añade pruebas unitarias para tu código. Python tiene un módulo incorporado llamado `unittest` que puedes usar para esto.
+
 #### Referencias
 
 - [Generación de números aleatorios en Python](https://docs.python.org/3/library/random.html)
 - [Bucles en Python](https://docs.python.org/3/tutorial/controlflow.html#for-statements)
 - [La función input en Python](https://docs.python.org/3/library/functions.html#input)
 - [Comparaciones en Python](https://docs.python.org/3/library/stdtypes.html#comparisons)
+- [Pruebas unitarias en Python con unittest](https://docs.python.org/4/library/unittest.html)
 
 
 ### 4.4 Mejorar el juego
@@ -85,12 +92,45 @@ Una vez que tengas una versión básica del juego funcionando, puedes hacer mejo
 
 3. Mejora la estrategia del ordenador. En lugar de hacer suposiciones aleatorias, el ordenador podría usar la información de las suposiciones anteriores para hacer suposiciones más inteligentes.
 
-4. Añade pruebas unitarias para tu código. Python tiene un módulo incorporado llamado `unittest` que puedes usar para esto.
+4. Añade comentarios a tu código para explicar qué hace cada parte. Esto hará que tu código sea más fácil de entender y mantener.
 
-5. Añade comentarios a tu código para explicar qué hace cada parte. Esto hará que tu código sea más fácil de entender y mantener.
+### 4.5 Versión Orientada a Objetos (OOP)
+
+Una vez que hayas implementado y mejorado la versión básica del juego, puedes reescribir el juego utilizando el paradigma de la Programación Orientada a Objetos (OOP). Esto te permitirá estructurar tu código de una manera más modular y reutilizable.
+
+1. Crea una clase `Game` que represente una instancia del juego. Esta clase puede tener métodos como `start`, `play_turn`, `check_guess`, y `end_game`.
+
+2. Crea una clase `Player` que represente a una jugadora. Esta clase puede tener atributos como `name` y `guesses`, y métodos como `make_guess`.
+
+3. Crea una subclase `ComputerPlayer` que herede de la clase `Player`. Esta clase puede sobrescribir el método `make_guess` para implementar la lógica de adivinación del ordenador.
+
+4. En la clase `Game`, usa instancias de las clases `Player` y `ComputerPlayer` para representar a la jugadora y al ordenador.
+
+5. Añade pruebas unitarias para tus clases y métodos. Python tiene un módulo incorporado llamado `unittest` que puedes usar para esto.
+
+#### Referencias
+
+- [Programación Orientada a Objetos en Python](https://docs.python.org/3/tutorial/classes.html)
+
+### 4.6 Crear una "inteligencia" para jugar contra la computadora (Edición Hacker)
+
+Una vez que hayas implementado el juego básico y hecho algunas mejoras, puedes llevar las cosas al siguiente nivel creando una "inteligencia" para jugar contra la computadora. Esta "inteligencia" podría ser simplemente otra implementación del juego que utiliza una estrategia diferente, o podría ser un algoritmo de aprendizaje automático que mejora con cada juego que juega.
+
+1. Implementa una nueva versión del juego que utiliza una estrategia diferente. Por ejemplo, en lugar de adivinar al azar, esta versión podría intentar adivinar el número más probable basándose en las suposiciones anteriores.
+
+2. Prueba tu nueva "inteligencia" jugando contra la computadora. ¿Puedes ganarle a la computadora con tu nueva estrategia?
+
+3. Si te sientes ambicioso, podrías intentar implementar un algoritmo de aprendizaje automático. Este algoritmo podría aprender de cada juego que juega, mejorando sus suposiciones con cada juego. Podrías usar una biblioteca de aprendizaje automático como scikit-learn para hacer esto.
+
+4. Asegúrate de añadir pruebas unitarias para tu nueva "inteligencia". También podrías querer añadir algunas métricas para rastrear cómo mejora tu algoritmo con cada juego que juega.
+
+#### Referencias
+
+- [Introducción a scikit-learn](https://scikit-learn.org/stable/getting_started.html)
+- [Cómo implementar un algoritmo de aprendizaje automático](https://machinelearningmastery.com/start-here/#algorithms)
+
 
 #### Referencias
 
 - [Manejo de listas en Python](https://docs.python.org/3/tutorial/introduction.html#lists)
-- [Pruebas unitarias en Python con unittest](https://docs.python.org/3/library/unittest.html)
 - [Cómo escribir comentarios en Python](https://www.w3schools.com/python/python_comments.asp)
