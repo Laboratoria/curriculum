@@ -226,6 +226,7 @@ de las pruebas unitarias:
 </i>
 </details>
 <!-- markdownlint-enable MD033 -->
+
 ### Crea ejemplos relevantes para tu situación especifica
 
 Sí, por ejemplo, si estás inmersa en el proyecto Dataverse y te encuentras con
@@ -378,6 +379,7 @@ seguir para dividir el trabajo de filtrar datos a partir de un JSON:
 </i>
 </details>
 <!-- markdownlint-enable MD033 -->
+
 ### Solicitar una Revisión de Código a través de IA
 
 Al avanzar en tus proyectos, es posible que estés reflexionando sobre
