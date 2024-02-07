@@ -125,42 +125,17 @@ el juego termine, muestra todas las suposiciones que hizo la jugadora ganadora.
 2. Añade una opción para jugar de nuevo. Cuando el juego termine, pregunta a la
 jugadora si quiere jugar de nuevo.
 
-3. Mejora la estrategia del ordenador. En lugar de hacer suposiciones
-aleatorias, el ordenador podría usar la información de las suposiciones
-anteriores para hacer suposiciones más inteligentes.
-
-4. Añade comentarios a tu código para explicar qué hace cada parte. Esto hará
+3. Añade comentarios a tu código para explicar qué hace cada parte. Esto hará
 que tu código sea más fácil de entender y mantener.
-
-### 4.5 Versión Orientada a Objetos (OOP)
-
-Una vez que hayas implementado y mejorado la versión básica del juego, puedes
-reescribir el juego utilizando el paradigma de la Programación Orientada a
-Objetos (OOP). Esto te permitirá estructurar tu código de una manera más
-modular y reutilizable.
-
-1. Crea una clase `Game` que represente una instancia del juego. Esta clase
-puede tener métodos como `start`, `play_turn`, `check_guess`, y `end_game`.
-
-2. Crea una clase `Player` que represente a una jugadora. Esta clase puede
-tener atributos como `name` y `guesses`, y métodos como `make_guess`.
-
-3. Crea una subclase `ComputerPlayer` que herede de la clase `Player`. Esta
-clase puede sobrescribir el método `make_guess` para implementar la lógica de
-adivinación del ordenador.
-
-4. En la clase `Game`, usa instancias de las clases `Player` y `ComputerPlayer`
-para representar a la jugadora y al ordenador.
-
-5. Añade pruebas unitarias para tus clases y métodos. Python tiene un módulo
-incorporado llamado `unittest` que puedes usar para esto.
 
 #### Referencias
 
-- [Programación Orientada a Objetos en
-  Python](https://docs.python.org/3/tutorial/classes.html)
+- [Manejo de listas en
+  Python](https://docs.python.org/3/tutorial/introduction.html#lists)
+- [Cómo escribir comentarios en
+  Python](https://www.w3schools.com/python/python_comments.asp)
 
-### 4.6 Crear una "inteligencia" para jugar contra la computadora (Edición Hacker)
+### 4.5 Crear una "inteligencia" para jugar contra la computadora (Edición Hacker)
 
 Una vez que hayas implementado el juego básico y hecho algunas mejoras, puedes
 llevar las cosas al siguiente nivel creando una "inteligencia" para jugar
@@ -191,9 +166,31 @@ con cada juego que juega.
 - [Cómo implementar un algoritmo de aprendizaje
   automático](https://machinelearningmastery.com/start-here/#algorithms)
 
+### 4.6 Extensión: Versión Orientada a Objetos (OOP)
+
+Una vez que hayas implementado y mejorado la versión básica del juego, puedes
+reescribir el juego utilizando el paradigma de la Programación Orientada a
+Objetos (OOP). Esto te permitirá estructurar tu código de una manera más
+modular y reutilizable. Además, algunas herramientas tales como ORMs que
+encontrarás en el mundo de Python, están diseñadas para trabajar con OOP.
+
+1. Crea una clase `Game` que represente una instancia del juego. Esta clase
+puede tener métodos como `start`, `play_turn`, `check_guess`, y `end_game`.
+
+2. Crea una clase `Player` que represente a una jugadora. Esta clase puede
+tener atributos como `name` y `guesses`, y métodos como `make_guess`.
+
+3. Crea una subclase `ComputerPlayer` que herede de la clase `Player`. Esta
+clase puede sobrescribir el método `make_guess` para implementar la lógica de
+adivinación del ordenador.
+
+4. En la clase `Game`, usa instancias de las clases `Player` y `ComputerPlayer`
+para representar a la jugadora y al ordenador.
+
+5. Añade pruebas unitarias para tus clases y métodos. Python tiene un módulo
+incorporado llamado `unittest` que puedes usar para esto.
+
 #### Referencias
 
-- [Manejo de listas en
-  Python](https://docs.python.org/3/tutorial/introduction.html#lists)
-- [Cómo escribir comentarios en
-  Python](https://www.w3schools.com/python/python_comments.asp)
+- [Programación Orientada a Objetos en
+  Python](https://docs.python.org/3/tutorial/classes.html)
