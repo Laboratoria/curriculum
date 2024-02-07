@@ -199,7 +199,6 @@ java:
 python:
   - data-types:
     - primitive
-    - strings
     - lists
     - tuples
     - dictionaries

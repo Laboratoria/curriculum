@@ -814,33 +814,58 @@ python/data-types:
 
 python/data-types/primitive:
   title: Tipos de dados primitivos (int, float, str, bool)
-
-python/data-types/strings:
-  title: Cadeias de caracteres (strings)
+  links:
+    - title: Data Types - Python Docs (en inglés)
+      url: https://docs.python.org/3/library/datatypes.html
+    - title: Data types in Python (en inglés)
+      url: https://www.educative.io/answers/data-types-in-python
 
 python/data-types/lists:
   title: Listas (arrays)
+  links:
+    - title: Lists - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
+    - title: Lists and Tuples in Python - Real Python (en inglés)
+      url: https://realpython.com/python-lists-tuples/
 
 python/data-types/tuples:
   title: Tuples
   links:
     - title: Tuples - Python Docs (en inglés)
       url: https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences
+    - title: Lists and Tuples in Python - Real Python (en inglés)
+      url: https://realpython.com/python-lists-tuples/
 
 python/data-types/dictionaries:
-  title: Dicts
+  title: Dictionaries (Dicts)
+  links:
+    - title: Dictionaries - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/datastructures.html#dictionaries
+    - title: Dictionaries in Python - Real Python (en inglés)
+      url: https://realpython.com/python-dicts/
 
 python/data-types/sets:
   title: Sets
+  links:
+    - title: Sets - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/datastructures.html#sets
+    - title: Sets in Python - Real Python (en inglés)
+      url: https://realpython.com/python-sets/
 
 python/variables:
   title: Variáveis (declaração, atribuição, escopo)
+  links:
+    - title: Variables - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator
+    - title: Variables in Python - GeeksforGeeks (en inglés)
+      url: https://www.geeksforgeeks.org/python-variables/
 
 python/conditionals:
   title: Uso de condicionais (if, elif, ternário)
   links:
-    - title: Python if...else Statement - w3schools (en inglés)
-      url: https://www.w3schools.com/python/python_conditions.asp
+    - title: Conditional Statements in Python – Real Python (en inglés)
+      url: https://realpython.com/python-conditional-statements/
+
 
 python/operators:
   title: Operadores (identidade, aritméticos, comparação etc)
@@ -853,36 +878,83 @@ python/functions:
 
 python/functions/basic-concepts:
   title: Conceitos básicos (parâmetros, argumentos, valores padrão, retorno)
+  links:
+    - title: Defining Functions - Python Docs (em inglês)
+      url: https://docs.python.org/3/tutorial/controlflow.html#defining-functions
+    - title: Python Functions - GeeksforGeeks (em inglês)
+      url : https://www.geeksforgeeks.org/python-functions/
 
 python/functions/args-kwargs:
   title: "*args e **kwargs"
+  links:
+    - title: '*args and **kwargs in Python - GeeksforGeeks (em inglês)'
+      url: https://www.geeksforgeeks.org/args-kwargs-python/
 
 python/functions/lambda-functions:
   title: Funções lambda
+  links:
+    - title: Lambda Functions - Python Docs (em inglês)
+      url: https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions
+    - title: How to Use Python Lambda Functions – Real Python (em inglês)
+      url: https://realpython.com/python-lambda/
 
 python/functions/closures:
   title: Encerramentos (closures)
+  links:
+    - title: Closures - Python Docs (em inglês)
+      url: https://docs.python.org/3/reference/datamodel.html#emulating-closures-and-nested-scope
+
 
 python/functions/decorators:
   title: Decoradores
+  links:
+    - title: Decorators - Python Docs (em inglês)
+      url: https://docs.python.org/3/glossary.html#term-decorator
+    - title: Decorators in Python - Geeks for Geeks (em inglês)
+      url: https://www.geeksforgeeks.org/decorators-in-python/
 
 python/iteration:
   title: Iteração
 
 python/iteration/loops:
   title: Uso de loops (while, for..in)
+  links:
+    - title: Loops in Python - For, While and Nested Loops - GeeksforGeeks
+      url: https://www.geeksforgeeks.org/loops-in-python/
+    - title: Loops - Learn Python - Free Interactive Python Tutorial
+      url: https://www.learnpython.org/en/Loops
 
 python/iteration/list-comprehension:
   title: Compreensão de listas
+  links:
+    - title: List Comprehension - Python Docs (em inglês)
+      url: https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions
+    - title: List Comprehension in Python - GeeksforGeeks (em inglês)
+      url: https://www.geeksforgeeks.org/list-comprehensions-in-python/
+    - title: When to Use a List Comprehension in Python – Real Python
+      url: https://realpython.com/list-comprehension-python/
 
 python/iteration/functional-techniques:
   title: Técnicas funcionais (map, filter, reduce)
+  links:
+    - title: Our Guide to Map, Filter, and Reduce Functions in Python - Udacity (en inglés)
+      url: https://www.udacity.com/blog/2020/12/our-guide-to-map-filter-and-reduce-functions-in-python.html
+    - title: Map, Filter, Reduce - Learn Python - Free Interactive Python Tutorial (en inglés)
+      url: https://www.learnpython.org/en/Map%2C_Filter%2C_Reduce
 
 python/docstrings:
   title: Docstrings (e sua diferença de comentários)
+  links:
+    - title: Docstrings - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/controlflow.html#documentation-strings
 
 python/linting:
   title: Linting (pylint)
+  links:
+    - title: Pylint - Documentação oficial
+      url: https://pylint.pycqa.org/en/latest/
+    - title: Linting Python in Visual Studio Code - Visual Studio Code Docs (em inglês)
+      url: https://code.visualstudio.com/docs/python/linting
 
 python/testing:
   title: Testes em Python
@@ -898,6 +970,8 @@ python/testing/unit-tests:
 python/testing/mocks:
   title: Uso de mocks (e patch)
   links:
+    - title: unittest.mock - Python Docs (em inglês)
+      url: https://docs.python.org/3/library/unittest.mock.html
     - title: unittest.mock - Python Docs (em inglês)
       url: https://docs.python.org/3/library/unittest.mock.html
 
@@ -945,9 +1019,15 @@ python/dependency-management/requirements-file:
 
 python/serialization:
   title: Serialização (e deserialização)
+  links:
+    - title: Serialize Your Data With Python – Real Python (em inglês)
+      url: https://realpython.com/python-serialize-data/
 
 python/flask:
   title: Flask
+  links:
+    - title: Flask - Documentação oficial
+      url: https://flask.palletsprojects.com/en/3.0.x/
 
 python/flask/routes:
   title: Rotas
@@ -956,19 +1036,19 @@ python/flask/routes/route-decorator:
   title: Decorador de rota
   links:
     - title: Routing - Flask Docs (em inglês)
-      url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#routing
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#routing
 
 python/flask/routes/view-function:
   title: Função de visualização
   links:
     - title: Funções de visualização - Flask Docs (em inglês)
-      url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#view-functions
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#view-functions
 
 python/flask/routes/variable-rules:
   title: Regras de variáveis (urls dinâmicas)
   links:
     - title: Regras de Variáveis - Flask Docs (em inglês)
-      url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#variable-rules
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#variable-rules
 
 python/flask/request:
   title: Objeto de Requisição
@@ -977,13 +1057,13 @@ python/flask/request/args:
   title: Argumentos
   links:
     - title: Requisição - Flask Docs (em inglês)
-      url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#accessing-request-data
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#accessing-request-data
 
 python/flask/request/headers:
   title: Cabeçalhos
   links:
     - title: Requisição - Flask Docs (em inglês)
-      url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#accessing-request-data
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#accessing-request-data
     # - more can be added here
     # - form
     # - json
@@ -995,13 +1075,13 @@ python/flask/response/response-parts:
   title: Partes da resposta (status, corpo, cabeçalhos)
   links:
     - title: Resposta - Flask Docs (em inglês)
-      url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#about-responses
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#about-responses
 
 python/flask/response/jsonify:
   title: jsonify
   links:
     - title: jsonify - Flask Docs (em inglês)
-      url: https://flask.palletsprojects.com/en/2.0.x/api/#flask.json.jsonify
+      url: https://flask.palletsprojects.com/en/3.0.x/api/#flask.json.jsonify
 
 python/flask/testing:
   title: Testando no Flask
@@ -1010,13 +1090,13 @@ python/flask/testing/fixture-setup:
   title: Configuração de fixtures
   links:
     - title: Testando - Flask Docs (em inglês)
-      url: https://flask.palletsprojects.com/en/2.0.x/testing/
+      url: https://flask.palletsprojects.com/en/3.0.x/testing/
 
 python/flask/testing/test-client:
   title: Cliente de teste
   links:
     - title: Testando - Flask Docs (em inglês)
-      url: https://flask.palletsprojects.com/en/2.0.x/testing/
+      url: https://flask.palletsprojects.com/en/3.0.x/testing/
 
 python/django:
   title: Django
