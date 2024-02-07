@@ -1,0 +1,25 @@
+{
+  "default": true,
+  "line-length": {
+    "code_blocks": false,
+    "headings": false,
+    "tables": false
+  },
+  "ul-style": {
+    "style": "sublist"
+  },
+  "ol-prefix": {
+    "style": "ordered"
+  },
+  "no-duplicate-header": false,
+  "no-trailing-punctuation": {
+    "punctuation": ".,;:!"
+  },
+  "no-inline-html": {
+    "allowed_elements": [
+      "details",
+      "summary",
+      "i"
+    ]
+  }
+}
