@@ -10,33 +10,23 @@ Descubre el poder de TypeScript en el desarrollo web.
 
 ## Contenido
 
-- [Introduccion a TypeScript](#introduccion-a-typescript)
-
-  + [Definicion y proposito de TypeScript](#definicion-y-proposito-de-typescript)
-  + [Tipado de datos](#tipado-de-datos)
+- [Definicion y proposito de TypeScript](#definicion-y-proposito-de-typescript)
   + [Diferencias clave con JavaScript](#diferencias-clave-con-javascript)
 
 - [Instalacion de TypeScript](#instalacion-de-typescript)
-
   + [Como instalar TypeScript globalmente usando npm](#como-instalar-typescript-globalmente-usando-npm)
 
 - [Configuración del Proyecto](#configuracion-del-proyecto)
 
-  + [Archivo de configuracion **tsconfig.json**](#archivo-de-configuracion-tsconfigjson)
-  + [Configuracion de opciones esenciales](#configuracion-de-opciones-esenciales)
-
 - [Variables y tipos de datos](#variables-y-tipos-de-datos)
-
   + [Declaración de variables con let y const](#declaración-de-variables-con-let-y-const)
   + [Tipos basicos: **number**, **string**, **boolean**, **array**](#tipos-basicos-number-string-boolean-array)
 
 - [Funciones](#funciones)
-
   + [Tipado de parametros y retorno de funciones](#tipado-de-parametros-y-retorno-de-funciones)
   + [Declaracion y llamada de funciones](#declaracion-y-llamada-de-funciones)
 
 - [Interfaces](#interfaces)
-
   + [Definicion de interfaces para estructurar objetos](#definicion-de-interfaces-para-estructurar-objetos)
   + [Uso de interfaces en funciones](#uso-de-interfaces-en-funciones)
 
@@ -50,22 +40,23 @@ Descubre el poder de TypeScript en el desarrollo web.
 
 - [Conclusion](#conclusion)
 
-## Introduccion a TypeScript
+## Definicion y proposito de TypeScript
 
-### Definicion y proposito de TypeScript
-
-TypeScript, desarrollado por Microsoft,
-potencia el desarrollo de software al agregar
-un sistema de tipado estático opcional a JavaScript.
-Este sistema, que puedes ver como JavaScript con
-"superpoderes", permite trabajar con tipos de datos
-de manera más explícita, detectando errores en etapas
-tempranas y mejorando la calidad del código.
-Manteniendo compatibilidad total con JavaScript,
-TypeScript brinda claridad estructural, previene
-errores y se destaca como herramienta esencial
-para proyectos web, equilibrando flexibilidad y
-confiabilidad en el desarrollo de software.
+TypeScript, desarrollado por Microsoft, mejora el
+desarrollo de software al añadir un sistema de tipado
+estático opcional a JavaScript. Este sistema, denominado
+"JavaScript con superpoderes", permite trabajar de
+manera más explícita con tipos de datos, detectando errores
+en etapas tempranas y mejorando la calidad del código.
+Manteniendo total compatibilidad con JavaScript,
+TypeScript aporta claridad estructural, previene errores y
+se destaca como una herramienta esencial para proyectos web,
+equilibrando flexibilidad y confiabilidad. El tipado de datos,
+esencial para prevenir errores, implica asignar tipos específicos
+a variables o parámetros, asegurando coherencia en las operaciones.
+En un panorama de lenguajes de programación, TypeScript destaca por
+su capacidad para fortalecer la robustez del código desde las
+primeras etapas del desarrollo.
 
 > [!NOTE]
 > En matemáticas, un superset es un conjunto que
@@ -75,23 +66,6 @@ confiabilidad en el desarrollo de software.
 > hacer en JavaScript, también puedes hacerlo en
 > TypeScript.
 
-### Tipado de datos
-
-El tipado de datos se refiere a la práctica de
-asignar un tipo específico a una variable,
-parámetro o cualquier entidad en un programa
-informático. Los tipos de datos indican el
-tipo de valor que puede almacenarse en una
-variable, como números, cadenas de texto,
-booleanos, entre otros. Los lenguajes de
-programación pueden ser de tipado estático,
-donde los tipos se definen en tiempo de
-compilación, o de tipado dinámico, donde los
-tipos se asignan en tiempo de ejecución. El
-tipado de datos ayuda a prevenir errores al
-asegurar que las operaciones en las variables
-sean coherentes con los tipos de datos asignados.
-
 ### Diferencias clave con JavaScript
 
 Las diferencias clave entre TypeScript y JavaScript
@@ -100,36 +74,39 @@ algunas características adicionales que TypeScript introduce.
 A continuación, se destacan estas diferencias:
 
 1. **_Tipado estático opcional_**: Tipado
-   estático opcional para detectar errores en etapas
-   tempranas durante el desarrollo.
+estático opcional para detectar errores en etapas
+tempranas durante el desarrollo.
 
 2. **_Compatibilidad con JavaScript_**:TypeScript es un
-   superset de JavaScript, permitiendo la integración
-   gradual en proyectos existentes.
+superset de JavaScript, permitiendo la integración
+gradual en proyectos existentes.
 
 3. **_Uso de clases e interfaces_**: Permite la declaración de
-   clases e interfaces para una programación más orientada
-   a objetos.
+clases e interfaces para una programación más orientada
+a objetos.
 
 4. **_Compilación a JavaScript_**: Requiere compilación a JavaScript
-   mediante el compilador de TypeScript (tsc) antes de la ejecución.
+mediante el compilador de TypeScript (tsc) antes de la ejecución.
 
 5. **_Adición de tipos de datos_**: Introduce nuevos
-   tipos de datos, como enumeraciones y tipos condicionales.
+tipos de datos, como enumeraciones y tipos condicionales.
 
 6. **_Desarrollo más seguro_**: Proporciona un desarrollo
-   más seguro con tipado estático y características que mejoran
-   la calidad del código.
+más seguro con tipado estático y características que mejoran
+la calidad del código.
 
-7. **_Extensión de Archivos_**: Una diferencia importante
-   es la extensión de los archivos.
-   + **JavaScript**: Los archivos JavaScript típicamente tienen la extensión .js.
-   + **TypeScript**: Los archivos TypeScript utilizan la extensión .ts.
+7. **_Extensión de Archivos_**: Una diferencia
+importante es la extensión de los archivos.
+   + **JavaScript**: Los archivos JavaScript
+   típicamente tienen la extensión .js.
+   + **TypeScript**: Los archivos TypeScript
+   utilizan la extensión .ts.
 8. **_Detección temprana de errores_**: Una diferencia
-   importante que puedes detectar errores en tiempo de desarrollo
-   (es decir cuando estas programando), permitiendo codificar más rápido.
-   + **JavaScript**: Detectas los errores cuando ejecutas la aplicación.
-   + **TypeScript**: Detectas cuando estas programando.
+importante que puedes detectar errores en tiempo de desarrollo
+(es decir cuando estas programando), permitiendo codificar más rápido.
+    + **JavaScript**: Detectas los errores
+    cuando ejecutas la aplicación.
+    + **TypeScript**: Detectas cuando estas programando.
 
 ## Instalacion de TypeScript
 
@@ -154,6 +131,7 @@ function greet(person: string, date: Date) {
 }
 
 greet("Maddison", new Date());
+
 ```
 
 Posteriormente, en la misma ubicación donde guardaste
@@ -165,16 +143,25 @@ tsc -w Hello.ts
 
 Como resultado se debió haber creado un nuevo archivo llamado
 **Hello.js** y el código que contiene es muy similar (pero
-no igual) al archivo **Hello.ts** la diferencia es
-que el archivo **Hello.js** lo puedes usar para ser ejecutado.
+no igual) al archivo  **Hello.ts** la diferencia es que
+el archivo **Hello.js** lo puedes usar para ser ejecutado.
 
 ## Configuracion del proyecto
 
-<!-- En contruccion 🚧👷‍♀️ -->
+El archivo `tsconfig.json` se utiliza para
+especificar la configuración del
+[compilador](https://es.wikipedia.org/wiki/Compilador)
+TypeScript (TSC). Algunas de las configuraciones
+comunes en este archivo incluyen la versión de
+[ECMAScript](https://developer.mozilla.org/es/docs/Glossary/ECMAScript)
+de destino, la ubicación de los archivos fuente y de salida,
+opciones de compilación, y otras configuraciones relacionadas con el proyecto TypeScript.
 
-### Archivo de configuracion **tsconfig.json**
-
-### Configuracion de opciones esenciales
+> [!TIP]
+> [Ejemplo básico de un archivo](https://www.youtube.com/watch?v=DL2IBLWwfaU)
+>
+> [Documentación oficial](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+>
 
 ## Variables y tipos de datos
 
@@ -196,8 +183,7 @@ let nombre: string = "Ejemplo";
 
 - Declaración con `const`:
 
-  + Se utiliza para declarar variables con
-    un valor constante que no puede ser reasignado.
+  + Se utiliza para declarar variables con un valor constante que no puede ser reasignado.
 
 ```ts
 const edad: number = 25;
@@ -242,7 +228,7 @@ let activo: boolean = false;
 - **array**
 
   + Representa un arreglo de elementos del mismo tipo.
-    Puedes especificar el tipo de elementos dentro del arreglo.
+  Puedes especificar el tipo de elementos dentro del arreglo.
 
 ```ts
 let numeros: number[] = [1, 2, 3, 4, 5];
@@ -255,17 +241,16 @@ tipos de datos en TypeScript, contribuyendo a
 la robustez y claridad del código.
 
 > [!IMPORTANT]
-> Documentación sobre
-> [tipos de datos](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
+> Documentación sobre [tipos de datos](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
 
-| Type      | Predicate                        |
-| --------- | -------------------------------- |
-| string    | typeof s === "string"            |
-| number    | typeof n === "number"            |
-| boolean   | typeof b === "boolean"           |
+| Type | Predicate |
+|---|---|
+|string| typeof s === "string"|
+| number | typeof n === "number" |
+| boolean | typeof b === "boolean" |
 | undefined | typeof undefined === "undefined" |
-| function  | typeof f === "function"          |
-| array     | Array.isArray(a)                 |
+| function | typeof f === "function" |
+| array | Array.isArray(a) |
 
 ## Funciones
 
@@ -280,13 +265,13 @@ retorno de funciones:
 ```ts
 // Declaración de una función con tipado en parámetros y tipo de retorno
 function sumar(a: number, b: number): number {
-  return a + b;
+    return a + b;
 }
 
 // Llamada a la función con argumentos del tipo correcto
 let resultado: number = sumar(3, 5);
 
-console.log(resultado); // Salida: 8
+console.log(resultado);  // Salida: 8
 ```
 
 En este ejemplo:
@@ -305,14 +290,14 @@ espera y devuelve.
 
 > [!TIP]
 > Si tienes dudas sobre **funciones**, **parametros** o **agumentos**
-> revisa [esta informacion](https://curriculum.laboratoria.la/es/topics/javascript/functions/classic)
+>revisa [esta informacion](https://curriculum.laboratoria.la/es/topics/javascript/functions/classic)
 
 ### Declaracion y llamada de funciones
 
 En TypeScript, la declaración y llamada de funciones
 sigue un formato similar al de JavaScript, pero con
 la adición de tipado estático opcional. Aquí unos
-ejemplos de cómo realizar la declaración y llamada de funciones en TypeScript:
+ejemplos de  cómo realizar la declaración y llamada de funciones en TypeScript:
 
 - Declaración de función
 
@@ -320,14 +305,14 @@ ejemplos de cómo realizar la declaración y llamada de funciones en TypeScript:
 
 ```ts
 function saludar(nombre: string): string {
-  return `Hola, ${nombre}!`;
+    return `Hola, ${nombre}!`;
 }
 ```
 
 - Llamada de función
 
   + Al llamar la función, proporciona argumentos
-    del tipo esperado y maneja el valor de retorno.
+  del tipo esperado y maneja el valor de retorno.
 
 ```ts
 let mensaje: string = saludar("Grace Murray Hopper");
@@ -346,26 +331,26 @@ define una interfaz para estructurar objetos:
 ```ts
 // Definición de una interfaz para estructurar objetos
 interface Persona {
-  nombre: string;
-  edad: number;
-  email?: string; // Propiedad opcional
+    nombre: string;
+    edad: number;
+    email?: string; // Propiedad opcional
 }
 
 // Uso de la interfaz para crear objetos que sigan su estructura
 let usuaria: Persona = {
-  nombre: "Hedy Lamarr",
-  edad: 32,
-  email: "hedy@example.com",
+    nombre: "Hedy Lamarr",
+    edad: 32,
+    email: "hedy@example.com"
 };
 ```
 
 En este ejemplo:
 
 - La interfaz **Persona** define la estructura de un objeto que debe
-  tener propiedades como **nombre** y **edad**, y opcionalmente puede
-  tener la propiedad **email**.
+tener propiedades como **nombre** y **edad**, y opcionalmente puede
+tener la propiedad **email**.
 - Se utiliza la interfaz **Persona** para definir la forma
-  del objeto **usuaria**.
+del objeto **usuaria**.
 
 El uso de interfaces facilita la creación de código más legible,
 mantenible y seguro al definir claramente la estructura de los
@@ -381,22 +366,22 @@ Observa el siguiente ejemplo:
 ```ts
 // Definición de una interfaz para estructurar objetos
 interface Punto {
-  x: number;
-  y: number;
+    x: number;
+    y: number;
 }
 
 // Definición de una interfaz para la función
 interface CalculadoraDistancia {
-  calcularDistancia(p1: Punto, p2: Punto): number;
+    calcularDistancia(p1: Punto, p2: Punto): number;
 }
 
 // Implementación de la interfaz en una función
 const calculadora: CalculadoraDistancia = {
-  calcularDistancia(p1: Punto, p2: Punto): number {
-    const distanciaX = p2.x - p1.x;
-    const distanciaY = p2.y - p1.y;
-    return Math.sqrt(distanciaX ** 2 + distanciaY ** 2);
-  },
+    calcularDistancia(p1: Punto, p2: Punto): number {
+        const distanciaX = p2.x - p1.x;
+        const distanciaY = p2.y - p1.y;
+        return Math.sqrt(distanciaX ** 2 + distanciaY ** 2);
+    }
 };
 
 // Uso de la función
@@ -410,16 +395,15 @@ console.log(`La distancia entre los puntos es: ${distancia}`);
 En este ejemplo:
 
 - Se define una interfaz **Punto** para estructurar objetos que
-  representan coordenadas x e y.
+representan coordenadas x e y.
 - Se define la interfaz **CalculadoraDistancia** que especifica
-  una función llamada **calcularDistancia** que toma dos puntos
-  (**Punto**) como parámetros y devuelve un número.
+una función llamada **calcularDistancia** que toma dos puntos
+(**Punto**) como parámetros y devuelve un número.
 - Se implementa la interfaz en un objeto **calculadora**,
-  que tiene una función **calcularDistancia**.
-- Se utilizan objetos que cumplen con la interfaz **Punto**
-  para representar puntos.
-- Se llama a la función **calcularDistancia**
-  utilizando el objeto **calculadora** para obtener la distancia entre dos puntos.
+que tiene una función **calcularDistancia**.
+- Se utilizan objetos que cumplen con la interfaz **Punto** para representar puntos.
+- Se llama a la función **calcularDistancia** utilizando el objeto
+**calculadora** para obtener la distancia entre dos puntos.
 
 Este enfoque facilita el mantenimiento del código al proporcionar
 una estructura clara y permitir la verificación de tipos en
@@ -439,8 +423,8 @@ La forma básica de definir un tipo con **type** es la siguiente:
 
 ```ts
 type MiTipo = {
-  propiedad1: string;
-  propiedad2: number;
+    propiedad1: string;
+    propiedad2: number;
 };
 ```
 
@@ -507,27 +491,26 @@ se utilizan para definir estructuras de datos en el código.
 Aunque comparten similitudes, hay algunas diferencias clave entre ambas.
 
 - **Extensibilidad**
-
   + **Interfaces**: Las interfaces en TypeScript son abiertas
-    y pueden ser extendidas posteriormente. Puedes declarar
-    una interfaz con un nombre específico y luego extenderla
-    para agregar más propiedades o ajustar las existentes.
+  y pueden ser extendidas posteriormente. Puedes declarar
+  una interfaz con un nombre específico y luego extenderla
+  para agregar más propiedades o ajustar las existentes.
 
   ```ts
   interface Persona {
-    nombre: string;
-    edad: number;
+      nombre: string;
+      edad: number;
   }
 
   interface Empleado extends Persona {
-    rol: string;
+      rol: string;
   }
   ```
 
   + **Tipos**: Los tipos (type) también permiten crear
-    estructuras de datos, pero no son extensibles
-    directamente. No puedes declarar un tipo y luego
-    agregar más propiedades en una declaración separada.
+  estructuras de datos, pero no son extensibles
+  directamente. No puedes declarar un tipo y luego
+  agregar más propiedades en una declaración separada.
 
   ```ts
   type Persona = {
@@ -540,9 +523,8 @@ Aunque comparten similitudes, hay algunas diferencias clave entre ambas.
   ```
 
 - **Compatibilidad con uniones e intersecciones**
-
   + **Interfaces**: Son útiles para crear uniones
-    y extensiones de interfaces mediante el uso de **extends**
+  y extensiones de interfaces mediante el uso de **extends**
 
   ```ts
   interface A {
@@ -558,8 +540,8 @@ Aunque comparten similitudes, hay algunas diferencias clave entre ambas.
   ```
 
   + **Tipos**: También pueden realizar uniones
-    y extensiones de tipos, pero la sintaxis es
-    ligeramente diferente.
+  y extensiones de tipos, pero la sintaxis es
+  ligeramente diferente.
 
   ```ts
   type A = {
@@ -575,10 +557,9 @@ Aunque comparten similitudes, hay algunas diferencias clave entre ambas.
   ```
 
 - **Herencia**
-
   + **Interfaces**: Pueden ser extendidas mediante
-    **extends** para crear nuevas interfaces que heredan
-    propiedades de otras.
+  **extends** para crear nuevas interfaces que heredan
+  propiedades de otras.
 
   ```ts
   interface Animal {
@@ -591,7 +572,7 @@ Aunque comparten similitudes, hay algunas diferencias clave entre ambas.
   ```
 
   + **Tipos**: Pueden ser utilizados para crear uniones y extensiones,
-    pero no se declaran con **extends**.
+  pero no se declaran con **extends**.
 
   ```ts
   type Animal = {
@@ -676,13 +657,14 @@ Visita los siguientes enlaces:
 - [React con TS](https://es.react.dev/learn/typescript)
 - [Learn TypeScript](https://www.tutorialsteacher.com/typescript)
 - [Getting Started a vite project (you can use typescript)](https://vitejs.dev/guide/)
+- [Codecademy Learn TypeScript](https://www.codecademy.com/learn/learn-typescript)
 
 ## Conclusion
 
 TypeScript ha evolucionado mucho, hoy en dia es muy popular
 y su capacidad para añadir tipos estáticos a JavaScript no
-solo brinda una capa adicional de seguridad y detección de
-errores, sino que también impulsa la productividad y la
+solo brinda una capa adicional de seguridad y detección
+de errores, sino que también impulsa la productividad y la
 escalabilidad de los proyectos. Al aprender TypeScript,
 te sumerges en un ecosistema que fomenta la creación de código
 más limpio, legible y mantenible, si tienes alguna duda
