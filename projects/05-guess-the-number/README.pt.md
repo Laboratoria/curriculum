@@ -46,9 +46,8 @@ jogo](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/
 
 **_Divirta-se construindo seu jogo de adivinhação de números! 🎲🎮_**
 
-> [Versão em Python](./docs/README-python.pt.md)
->
-> [Versão em Java](./docs/README-java.pt.md)
+- [Versão em Python](./docs/README-python.md)
+- [Versão em Java](./docs/README-java.md)
 
 ## 3. Objetivos de Aprendizagem
 

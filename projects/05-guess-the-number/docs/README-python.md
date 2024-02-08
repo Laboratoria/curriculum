@@ -166,13 +166,18 @@ con cada juego que juega.
 - [Cómo implementar un algoritmo de aprendizaje
   automático](https://machinelearningmastery.com/start-here/#algorithms)
 
-### 4.6 Extensión: Versión Orientada a Objetos (OOP)
+## 5. Extensión: Versión Orientada a Objetos (OOP)
 
-Una vez que hayas implementado y mejorado la versión básica del juego, puedes
-reescribir el juego utilizando el paradigma de la Programación Orientada a
-Objetos (OOP). Esto te permitirá estructurar tu código de una manera más
-modular y reutilizable. Además, algunas herramientas tales como ORMs que
-encontrarás en el mundo de Python, están diseñadas para trabajar con OOP.
+Una vez que hayas implementado y perfeccionado la versión base del juego,
+es posible que desees considerar la posibilidad de reescribirlo utilizando
+el paradigma de la Programación Orientada a Objetos (OOP). Esta sería una
+ampliación (no un requisito) que te permitiría familiarizarte con los
+objetivos de aprendizaje de la programación orientada a objetos. Quizás te
+resulte útil si tus futuros proyectos en Python involucran el uso de
+frameworks que se basan en este paradigma. Por ejemplo, algunas
+herramientas como los ORM (mapeadores objeto-relacional) que se
+encuentran en el mundo de Python
+están diseñadas para funcionar con la programación orientada a objetos.
 
 1. Crea una clase `Game` que represente una instancia del juego. Esta clase
 puede tener métodos como `start`, `play_turn`, `check_guess`, y `end_game`.
