@@ -757,8 +757,8 @@ python/data-types/sets:
 python/variables:
   title: Variables (declaración, asignación, ámbito)
   links:
-    - title: Variables - Python Docs (en inglés)
-      url: https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator
+    - title: Variables in Python – Real Python (en inglés)
+      url: https://realpython.com/python-variables/
     - title: Variables in Python - GeeksforGeeks (en inglés)
       url: https://www.geeksforgeeks.org/python-variables/
 
@@ -907,8 +907,11 @@ python/dependency-management/pip:
 python/dependency-management/virtual-environment:
   title: Virtual Environment (ambientes virtuales, virtualenv)
   links:
-    - title: virtualenv - Documentación oficial
-      url: https://virtualenv.pypa.io/en/latest/
+    - title: 'venv — Creation of virtual environments — Python 3.12.2 documentation (en inglés)'
+      url: https://docs.python.org/3/library/venv.html
+    - title: 'Python Virtual Environments: A Primer – Real Python (en inglés)'
+      url: https://realpython.com/python-virtual-environments-a-primer/
+
 
 python/dependency-management/requirements-file:
   title: requirements.txt

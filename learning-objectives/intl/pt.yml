@@ -815,62 +815,62 @@ python/data-types:
 python/data-types/primitive:
   title: Tipos de dados primitivos (int, float, str, bool)
   links:
-    - title: Data Types - Python Docs (en inglés)
+    - title: Data Types - Python Docs (em inglês)
       url: https://docs.python.org/3/library/datatypes.html
-    - title: Data types in Python (en inglés)
+    - title: Data types in Python (em inglês)
       url: https://www.educative.io/answers/data-types-in-python
 
 python/data-types/lists:
   title: Listas (arrays)
   links:
-    - title: Lists - Python Docs (en inglés)
+    - title: Lists - Python Docs (em inglês)
       url: https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
-    - title: Lists and Tuples in Python - Real Python (en inglés)
+    - title: Lists and Tuples in Python - Real Python (em inglês)
       url: https://realpython.com/python-lists-tuples/
 
 python/data-types/tuples:
   title: Tuples
   links:
-    - title: Tuples - Python Docs (en inglés)
+    - title: Tuples - Python Docs (em inglês)
       url: https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences
-    - title: Lists and Tuples in Python - Real Python (en inglés)
+    - title: Lists and Tuples in Python - Real Python (em inglês)
       url: https://realpython.com/python-lists-tuples/
 
 python/data-types/dictionaries:
   title: Dictionaries (Dicts)
   links:
-    - title: Dictionaries - Python Docs (en inglés)
+    - title: Dictionaries - Python Docs (em inglês)
       url: https://docs.python.org/3/tutorial/datastructures.html#dictionaries
-    - title: Dictionaries in Python - Real Python (en inglés)
+    - title: Dictionaries in Python - Real Python (em inglês)
       url: https://realpython.com/python-dicts/
 
 python/data-types/sets:
   title: Sets
   links:
-    - title: Sets - Python Docs (en inglés)
+    - title: Sets - Python Docs (em inglês)
       url: https://docs.python.org/3/tutorial/datastructures.html#sets
-    - title: Sets in Python - Real Python (en inglés)
+    - title: Sets in Python - Real Python (em inglês)
       url: https://realpython.com/python-sets/
 
 python/variables:
   title: Variáveis (declaração, atribuição, escopo)
   links:
-    - title: Variables - Python Docs (en inglés)
-      url: https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator
-    - title: Variables in Python - GeeksforGeeks (en inglés)
+    - title: Variables in Python – Real Python (em inglês)
+      url: https://realpython.com/python-variables/
+    - title: Variables in Python - GeeksforGeeks (em inglês)
       url: https://www.geeksforgeeks.org/python-variables/
 
 python/conditionals:
   title: Uso de condicionais (if, elif, ternário)
   links:
-    - title: Conditional Statements in Python – Real Python (en inglés)
+    - title: Conditional Statements in Python – Real Python (em inglês)
       url: https://realpython.com/python-conditional-statements/
 
 
 python/operators:
   title: Operadores (identidade, aritméticos, comparação etc)
   links:
-    - title: Python Operators - GeeksforGeeks (en inglés)
+    - title: Python Operators - GeeksforGeeks (em inglês)
       url: https://www.geeksforgeeks.org/python-operators/
 
 python/functions:
@@ -937,15 +937,15 @@ python/iteration/list-comprehension:
 python/iteration/functional-techniques:
   title: Técnicas funcionais (map, filter, reduce)
   links:
-    - title: Our Guide to Map, Filter, and Reduce Functions in Python - Udacity (en inglés)
+    - title: Our Guide to Map, Filter, and Reduce Functions in Python - Udacity (em inglês)
       url: https://www.udacity.com/blog/2020/12/our-guide-to-map-filter-and-reduce-functions-in-python.html
-    - title: Map, Filter, Reduce - Learn Python - Free Interactive Python Tutorial (en inglés)
+    - title: Map, Filter, Reduce - Learn Python - Free Interactive Python Tutorial (em inglês)
       url: https://www.learnpython.org/en/Map%2C_Filter%2C_Reduce
 
 python/docstrings:
   title: Docstrings (e sua diferença de comentários)
   links:
-    - title: Docstrings - Python Docs (en inglés)
+    - title: Docstrings - Python Docs (em inglês)
       url: https://docs.python.org/3/tutorial/controlflow.html#documentation-strings
 
 python/linting:
@@ -1008,8 +1008,10 @@ python/dependency-management/pip:
 python/dependency-management/virtual-environment:
   title: Ambiente Virtual (ambientes virtuais, virtualenv)
   links:
-    - title: virtualenv - Documentação oficial
-      url: https://virtualenv.pypa.io/en/latest/
+    - title: 'venv — Creation of virtual environments — Python 3.12.2 documentation (em inglês)'
+      url: https://docs.python.org/3/library/venv.html
+    - title: 'Python Virtual Environments: A Primer – Real Python (em inglês)'
+      url: https://realpython.com/python-virtual-environments-a-primer/
 
 python/dependency-management/requirements-file:
   title: requirements.txt
