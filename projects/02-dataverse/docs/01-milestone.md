@@ -1,4 +1,4 @@
-# **HITO 1:** SPA
+# **HITO 1:** Data y diseño
 
 Bienvenida al primer hito de tu aprendizaje en JavaScript mediante proyectos.
 En esta fase, comenzarás construyendo una aplicación centrada en la
@@ -59,7 +59,7 @@ requisito del proyecto.
 Asegúrate de verificar con los tests ejecutando `npm run test:oas-prompting` para
 garantizar que el archivo de datos generado cumple con los requisitos especificados.
 
-![Preview oas prompting](./assets/preview-oa-prompting.png)
+![Preview oas prompting](https://github.com/Laboratoria/curriculum/assets/39414582/58f383ec-0b61-45de-b848-b3380b7a8d1e)
 
 ## ¿Necesitas Ayuda?
 

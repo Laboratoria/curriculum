@@ -10,7 +10,7 @@ por hito o característica.
 ## Tareas de este hito
 
 - [Cálculos estadísticos del dataset](#cálculos-estadísticos-del-dataset)
-- [Test de la funcion del calcular](#test-de-la-funcion-del-calcular)
+- [Test de la función del calcular](#test-de-la-función-del-calcular)
 - [Test OAS](#test-oas)
 - [Hacker edition](#hacker-edition)
 
@@ -47,7 +47,7 @@ pasando como argumento el nuevo arreglo con los resultados de los cálculos.
 > [!TIP]
 > [reduce](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 
-### Test de la funcion del calcular
+### Test de la función del calcular
 
 Realiza las pruebas; ahora que has implementado
 la función de cálculo, procede a escribir los tests.

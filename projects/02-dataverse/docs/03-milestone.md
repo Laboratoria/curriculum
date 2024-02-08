@@ -9,9 +9,9 @@ por hito o por característica.
 ## Tareas de este hito
 
 - [Filtrar datos del dataset](#filtrar-datos-del-dataset)
-- [Test de la funcion del filtro](#test-de-la-funcion-del-filtro)
+- [Test de la función del filtro](#test-de-la-función-del-filtro)
 - [Ordenar datos del dataset](#ordenar-datos-del-dataset)
-- [Test de la funcion ordenar](#test-de-la-funcion-ordenar)
+- [Test de la función ordenar](#test-de-la-función-ordenar)
 - [Test OAS](#test-oas)
 
 ### Filtrar datos del dataset
@@ -23,6 +23,9 @@ Como primer paso, vuelve las secciónes
 para obtener detalles sobre los elementos que debes utilizar y
 el nombre que debe tener la función para el filtro.
 
+> [!TIP]
+> [filter](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+
 1. En el archivo HTML, crea un elemento `<select>`
 que incluya los valores a ser utilizados para el filtrado.
 2. En el archivo principal `src/main.js`, emplea algún selector
@@ -32,25 +35,29 @@ seleccionado en el `<select>` de manera adecuada.
 3. En `src/dataFunctions.js`, elimina el contenido de ejemplo
 y crea la función `filterData(data, filterBy, value)` que se
 encargará de realizar el filtrado de datos.
-4. En `src/main.js`, invoca la función filterData y proporciona
+4. En `src/main.js`, invoca la función `filterData` y proporciona
 como argumentos la `data`, el campo por el cual deseas realizar el
 filtrado `filterBy`, y el valor específico `value` que deseas
 filtrar.
 5. Regresa a `src/dataFunctions.js` y verifica que tu función esté
 recibiendo los valores; puedes hacerlo mediante un `console.log`.
-6. Una vez que hayas confirmado los valores, realiza una copia del
-parámetro `data`. Es una buena práctica no modificarla
-directamente. Luego, ejecuta el método `filter` y retorna el nuevo
-arreglo filtrado.
+6. Una vez que hayas confirmado los valores ejecuta el método
+`filter` y retorna el nuevo arreglo filtrado.
 7. Una vez obtenido el valor de retorno en `src/main.js`,
 llama a la función encargada de mostrar la data `renderItems`,
 pasando como argumento el nuevo arreglo ya filtrado.
 8. [Aplica estilos al `select` recién creado](#estilos)
 
-> [!TIP]
-> [filter](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+> [!IMPORTANT]
+> **No te limites a este ejemplo**. Puedes crear
+> una interfaz que te permita filtrar por diferentes
+> propiedades o con diferentes elementos. Explora
+> tu creatividad y descubre nuevas formas
+> de organizar tus datos.
+> ¡El poder está en tus manos!
+>
 
-### Test de la funcion del filtro
+### Test de la función del filtro
 
 No dejes los tests para después; ahora que tienes la función de
 filtrado funcional, realiza los tests. Puedes apoyarte en esta
@@ -59,39 +66,40 @@ como referencia.
 
 ### Ordenar datos del dataset
 
+> [!IMPORTANT]
+> Aquí proporcionamos instrucciones para ordenar
+> datos basándonos en una propiedad específica,
+> pero es importante destacar que tienes la
+> libertad de agregar una interfaz de usuaria que
+> permita el ordenamiento por diversas propiedades.
+> **Este es solo un ejemplo, no la única técnica posible.**
+>
+
 La función de ordenar `sortData` debe recibir datos, un campo de
 referencia y la dirección del orden. Luego aplica el ordenamiento
 con `sort` y devuelve el nuevo arreglo. Esto permite ordenar
 dinámicamente la data según criterios específicos.
 
-1. EEn el archivo HTML, crea un elemento `<select>`
-que tenga dos `<option>` con valores `"asc"` y `"desc"`
-para ordenar la data de forma ascendente y descendente, respectivamente.
-2. En el archivo principal `src/main.js`, utiliza un selector del
-DOM y un manejador de eventos para elegir y vincular un evento al
-elemento `<select>`. Esto permitirá capturar eficientemente el valor
-eleccionado en el `<select>`.
-3. En `src/dataFunctions.js`, crea la función `sortData(data, sortBy, sortOrder)`,
-encargada de realizar el ordenamiento de datos.
-4. En `src/main.js`, invoca la función `sortData` y proporciona
-como argumentos la `data`, el campo por el cual deseas realizar el
-ordenamiento `sortBy`, y la dirección del orden `sortOrder`
-(ascendente o descendente).
-5. Regresa a `src/dataFunctions.js` y verifica que la función esté
-recibiendo los valores; puedes hacerlo mediante un `console.log`.
-6. Una vez confirmados los valores, realiza una copia del
-parámetro `data`. Es una buena práctica no modificarla
-directamente. Luego, ejecuta el método `sort` y retorna el nuevo
-arreglo ordenado.
-7. Una vez obtenido el valor de retorno en `src/main.js`, llama a la función
-encargada de mostrar la data `renderItems`, pasando como argumento el
-nuevo arreglo ya ordenado.
+1. En el archivo `HTML`, crea un elemento `<select>` con opciones
+`<option>` para ordenar datos ascendente ("asc") y descendente ("desc").
+2. En `src/main.js`, utiliza un selector del DOM y un manejador
+de eventos para vincular el `<select>` y capturar eficientemente
+el valor seleccionado.
+3. En `src/dataFunctions.js`, `crea sortData(data, sortBy, sortOrder)`
+para ordenar datos según los parámetros especificados.
+4. En `src/main.js`, llama a `sortData` con la `data`, el campo para ordenar `sortBy`, y la dirección del orden `sortOrder` (ascendente o descendente).
+5. En `src/dataFunctions.js`, verifica la función
+con `console.log` para confirmar los valores.
+6. Realiza una copia de data, ejecuta el método `sort`
+y retorna el nuevo arreglo ordenado.
+7. En `src/main.js`, usa el resultado en
+`renderItems` para mostrar la data ordenada.
 8. [Aplica estilos al `select` recién creado](#estilos)
 
 > [!TIP]
 > [sort](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
-### Test de la funcion ordenar
+### Test de la función ordenar
 
 Realiza los test; ahora que tienes la función de
 ordenar funcionando, escribe los tests. Puedes usar esta

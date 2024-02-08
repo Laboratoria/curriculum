@@ -9,11 +9,11 @@ los elementos de tu conjunto de datos con todos los estilos.
 
 ## Tareas de este hito
 
-- [Visualizar](#visuazlizar)
+- [Visualizar](#visualizar)
 - [Estilos](#estilos)
 - [Test](#test)
 
-### Visuazlizar
+### Visualizar
 
 > [!IMPORTANT]
 > Para visualizar los datos, es crucial que repases
