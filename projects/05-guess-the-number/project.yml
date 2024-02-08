@@ -7,16 +7,18 @@ learningObjectives:
   - java/conditionals
   - java/loops
   - java/collections/array-list
-  - object-oriented-programming/classes
-  - object-oriented-programming/objects
-  - object-oriented-programming/methods
-  - object-oriented-programming/attributes
-  - object-oriented-programming/constructors
-  - object-oriented-programming/encapsulation
-  - object-oriented-programming/abstraction
-  - object-oriented-programming/composition
-  - object-oriented-programming/interfaces
-  - object-oriented-programming/inheritance
-  - object-oriented-programming/unified-model-language
   - java/testing/junit
   - java/testing/mockito
+  - object-oriented-programming
+  - python/data-types
+  - python/variables
+  - python/conditionals
+  - python/operators
+  - python/docstrings
+  - python/functions/basic-concepts
+  - python/iteration/loops
+  - python/linting
+  - python/testing
+  - python/modularization/modules
+  - python/dependency-management
+
