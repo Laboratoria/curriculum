@@ -168,11 +168,13 @@ algoritmo melhora a cada jogo que joga.
 Uma vez que tenhas implementado e aprimorado a versão base do jogo,
 pode ser interessante considerar a possibilidade de reescrevê-lo
 utilizando o paradigma da Programação Orientada a Objetos (OOP).
-Essa seria uma extensão (e não um requisito) que te permitiria familiarizar-se com os objetivos de aprendizado da programação
+Essa seria uma extensão (e não um requisito) que te permitiria
+familiarizar-se com os objetivos de aprendizado da programação
 orientada a objetos. Talvez seja útil se os teus próximos projetos
 em Python envolverem codificação com frameworks que utilizam esse
-paradigma. Por exemplo, algumas ferramentas como os ORM (Mapeadores Objeto-Relacional) encontrados no mundo do Python são projetados
-para funcionar com programação orientada a objetos.
+paradigma. Por exemplo, algumas ferramentas como os
+ORM (Mapeadores Objeto-Relacional) encontrados no mundo do Python
+são projetados para funcionar com programação orientada a objetos.
 
 1. Crie uma classe `Game` que represente uma instância do jogo. Esta classe
 pode ter métodos como `start`, `play_turn`, `check_guess`, e `end_game`.
@@ -190,7 +192,7 @@ para representar o jogador e o computador.
 5. Adicione testes unitários para suas classes e métodos. Python tem um módulo
 incorporado chamado `unittest` que você pode usar para isso.
 
-#### Referências
+### Referências
 
 - [Programação Orientada a Objetos em
   Python](https://docs.python.org/3/tutorial/classes.html)

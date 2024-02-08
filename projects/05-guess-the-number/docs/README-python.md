@@ -195,7 +195,7 @@ para representar a la jugadora y al ordenador.
 5. Añade pruebas unitarias para tus clases y métodos. Python tiene un módulo
 incorporado llamado `unittest` que puedes usar para esto.
 
-#### Referencias
+### Referencias
 
 - [Programación Orientada a Objetos en
   Python](https://docs.python.org/3/tutorial/classes.html)
