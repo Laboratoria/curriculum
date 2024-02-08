@@ -87,7 +87,9 @@ de eventos para vincular el `<select>` y capturar eficientemente
 el valor seleccionado.
 3. En `src/dataFunctions.js`, `crea sortData(data, sortBy, sortOrder)`
 para ordenar datos según los parámetros especificados.
-4. En `src/main.js`, llama a `sortData` con la `data`, el campo para ordenar `sortBy`, y la dirección del orden `sortOrder` (ascendente o descendente).
+4. En `src/main.js`, llama a `sortData` con la `data`,
+el campo para ordenar `sortBy`, y la dirección del orden
+`sortOrder` (ascendente o descendente).
 5. En `src/dataFunctions.js`, verifica la función
 con `console.log` para confirmar los valores.
 6. Realiza una copia de data, ejecuta el método `sort`
