@@ -92,7 +92,7 @@ com os elementos do conjunto de dados. Você pode incluir componentes como botõ
 formulários ou qualquer outro elemento necessário para alcançar o objetivo específico
 da sua aplicação.
 
-3. Certifique-se de que esta visualização seja capaz de receber um identificador (id)
+3. Certifique-se de que esta visualização possa receber um identificador (id)
 ou outros dados necessários para mostrar o elemento específico do conjunto
 de dados. Você pode conseguir isso usando parâmetros, como por
 exemplo através dos

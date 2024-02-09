@@ -44,11 +44,11 @@ export default [
 
 ### Reutilização de Funções do Dataverse
 
-Vamos reutilizar as funções de filtragem, ordenação e 
+Vamos reutilizar as funções de filtragem, ordenação e
 cálculo do seu projeto anterior neste novo projeto.
 Para isso, crie um novo arquivo no seguinte caminho:
 `src/lib/dataFunctions.js` e copie as funções mencionadas
-para esse arquivo. Se ainda não existir, você precisará criar uma pasta 
+para esse arquivo. Se ainda não existir, você precisará criar uma pasta
 chamada `lib` dentro da pasta `src` (src/lib).
 
 >[!DICA]

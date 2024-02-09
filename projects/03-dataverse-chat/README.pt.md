@@ -280,7 +280,6 @@ pode ajudá-lo a organizar seu trabalho.
 * [Marco 4](./docs/04-milestone.md)
 * [Marco 5](./docs/05-milestone.md)
 
-
 ## 7. Critérios de aceitação mínimos do projeto
 
 Além das funcionalidades que definimos na seção de [Funcionalidades](#4-funcionalidades),
