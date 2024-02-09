@@ -274,11 +274,12 @@ acompanhe seu progresso.
 A seguir, apresentamos um cronograma de marcos que
 pode ajudá-lo a organizar seu trabalho.
 
-* [Marco 1](./docs/01-milestone.pt.md)
-* [Marco 2](./docs/02-milestone.pt.md)
-* [Marco 3](./docs/03-milestone.pt.md)
-* [Marco 4](./docs/04-milestone.pt.md)
-* [Marco 5](./docs/05-milestone.pt.md)
+* [Marco 1](./docs/01-milestone.md)
+* [Marco 2](./docs/02-milestone.md)
+* [Marco 3](./docs/03-milestone.md)
+* [Marco 4](./docs/04-milestone.md)
+* [Marco 5](./docs/05-milestone.md)
+
 
 ## 7. Critérios de aceitação mínimos do projeto
 
