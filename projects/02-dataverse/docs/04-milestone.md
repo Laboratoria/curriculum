@@ -52,7 +52,7 @@ pasando como argumento el nuevo arreglo con los resultados de los cálculos.
 Realiza las pruebas; ahora que has implementado
 la función de cálculo, procede a escribir los tests.
 Puedes utilizar esta
-[guía](./test.md)
+[lista de reproducción en YouTube](https://www.youtube.com/watch?v=gsTfbwfVvDE&list=PLiAEe0-R7u8kqvibxkK9tqqoJXnhgtefg)
 como punto de referencia.
 
 ### Test OAS

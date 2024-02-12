@@ -59,10 +59,11 @@ pasando como argumento el nuevo arreglo ya filtrado.
 
 ### Test de la función del filtro
 
-No dejes los tests para después; ahora que tienes la función de
-filtrado funcional, realiza los tests. Puedes apoyarte en esta
-[guía](./test.md)
-como referencia.
+¡No dejes las pruebas para el final! Ahora que tu función
+de filtrado está en funcionamiento, es el momento ideal
+para realizar pruebas. Puedes consultar la siguiente
+[lista de reproducción en YouTube](https://www.youtube.com/watch?v=gsTfbwfVvDE&list=PLiAEe0-R7u8kqvibxkK9tqqoJXnhgtefg)
+para aprender sobre pruebas y ver ejemplos con Jest.
 
 ### Ordenar datos del dataset
 
@@ -105,7 +106,7 @@ y retorna el nuevo arreglo ordenado.
 
 Realiza los test; ahora que tienes la función de
 ordenar funcionando, escribe los tests. Puedes usar esta
-[guía](./test.md)
+[lista de reproducción en YouTube](https://www.youtube.com/watch?v=gsTfbwfVvDE&list=PLiAEe0-R7u8kqvibxkK9tqqoJXnhgtefg)
 como referencia.
 
 ### Estilos
