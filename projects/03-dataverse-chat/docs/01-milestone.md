@@ -126,7 +126,8 @@ conocer todos sus detalles, te invitamos a visitar esta
 
 4. Configura el router
 
-    En su archivo `src/index.js`, inicialice su router definiendo sus rutas y configurando el elemento raíz:
+    En su archivo `src/index.js`, inicialice su router definiendo
+    sus rutas y configurando el elemento raíz:
 
     ```js
       import Home from './views/Home';
