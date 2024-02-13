@@ -103,12 +103,13 @@ a esta vista o recibiendo los datos como
 Por lo tanto, es importante mejorar las capacidades de tu
 enrutador para gestionar ambas situaciones.
 
-    - En el archivo `src/router.js` añade las funciones
+    + En el archivo `src/router.js` añade las funciones
     `navigateTo` y `queryStringToObject`.
     `navigateTo` se utiliza para navegar a una nueva ruta mientras que
     `queryStringToObject` convierte una cadena de búsqueda en un
     objeto clave/valor usando
-    [URLSearchParams](https://developer.mozilla.org/es/docs/Web/API/URLSearchParams) y
+  [URLSearchParams](https://developer.mozilla.org/es/docs/Web/API/URLSearchParams)
+    y
     [Object.fromEntries](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object/entries).
 
       ```js
