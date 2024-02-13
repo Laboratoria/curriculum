@@ -42,24 +42,16 @@ conocer todos sus detalles, te invitamos a visitar esta
 
 1. Establece la estructura HTML.
 
-    En tu documento HTML, que debe incluir la estructura
-    esencial de tu SPA, será necesario incorporar un
-    elemento principal para la presentación o inserción
-    del contenido. Puedes utilizar algo como
-    `<main id="root"></main>`para este propósito.
-
-    ```html
-      <!DOCTYPE html>
-      <html lang="en">
-        <head>
-          <!-- Agrega tus estilos CSS y otros elementos del encabezado (head) aquí -->
-        </head>
-        <body>
-          <main id="root"></main> <!-- Este es tu elemento root -->
-          <script type="module" src="index.js"></script>
-        </body>
-      </html>
-    ```
+    En tu documento HTML, es esencial incluir la estructura
+    básica para tu SPA (Single Page Application). Debes
+    agregar un elemento principal destinado a la
+    presentación o inserción del contenido. Puedes
+    utilizar algo como `<div id="root"></div>`
+    con el propósito de crear un lienzo donde
+    se mostrará tu contenido. Para aprovechar
+    eficientemente este elemento, es necesario
+    establecer una referencia. Puedes encontrar
+    más información [aquí](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#1-configura-su-estructura-html).
 
 2. Crear la vista **Home.js**
 
@@ -67,17 +59,9 @@ conocer todos sus detalles, te invitamos a visitar esta
    en su interior, crea una función encargada de
    generar el contenido de la vista. Esta función
    debe devolver un elemento DOM para que pueda ser
-   utilizado por el enrutador.
-
-   ```js
-    // src/views/Home.js
-
-    export function Home(props) {
-      const viewEl = document.createElement('section');
-      viewEl.textContent = 'Welcome to the home page!';
-      return viewEl;
-    }
-   ```
+   utilizado por el enrutador. [Aquí](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#1-configura-su-estructura-html)
+   puedes consultar el ejemplo de dos funciones,
+   cada una representando una vista.
 
     > [!NOTE]
     > Es común que debas repetir este proceso para
@@ -90,34 +74,12 @@ conocer todos sus detalles, te invitamos a visitar esta
     aplicación, necesitaremos definir algunas
     funciones en un nuevo archivo `src/router.js`.
     Estas funciones ayudarán a manejar la
-    navegación entre páginas.
-
-    ```js
-      let ROUTES = {};
-      let rootEl;
-
-      export const setRootEl = (el) => {
-        // Asigna rootEl
-      }
-
-      export const setRoutes = (routes) => {
-        // Opcional: Lanza errores si 'routes' no es un objeto
-        // Opcional: Lanza errores si 'routes' no define una ruta /error
-        // Asigna ROUTES
-      }
-
-      const renderView = (pathname, props={}) => {
-        // Limpiar el elemento raíz
-        // Encontrar la vista correcta en las RUTAS para la ruta especificada
-        // En caso de no encontrarla, renderizar la vista de error
-        // Renderizar la vista correcta pasando los valores de las propiedades
-        // Agregar el elemento de la vista al elemento raíz del DOM
-      }
-
-      export const onURLChange = (location) => {
-        // Renderizar la vista con la ruta y el objeto de parámetros
-      }
-    ```
+    navegación entre páginas. Vista la sección
+    [Codifique el router](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#3-codifique-el-router)
+    de la guía, encontrarás seis funciones. Para el
+    propósito de este hito, recomendamos utilizar
+    cuatro de ellas: `setRootEl`, `setRoutes`,
+    `renderView` y `onURLChange`.
 
     > [!IMPORTANT]
     > Para más información sobre el funcionamiento
@@ -128,43 +90,17 @@ conocer todos sus detalles, te invitamos a visitar esta
 4. Configura el router
 
     En su archivo `src/index.js`, inicialice su router definiendo
-    sus rutas y configurando el elemento raíz:
-
-    ```js
-      import Home from './views/Home';
-      import { setRootEl, setRoutes, onURLChange } from './router.js';
-
-      // Define tu ruta y la vista asociada.
-      const routes = {
-        '/': Home,
-      };
-
-      // Asigna el objeto routes
-      setRoutes(routes);
-
-      // Establece el elemento raíz donde se renderizarán la vista.
-      window.addEventListener("DOMContentLoaded", () => {
-        setRootEl(/* Elemento root */);
-      });
-    ```
+    sus rutas y configurando el elemento raíz como se muestra
+    en la [guía](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#4-configura-el-router).
 
 5. Gestionar la carga de la página inicial
 
-    Asegúrate de gestionar la carga de la página
+    Asegúrate de [gestionar la carga](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#5-manejar-la-carga-de-la-primera-p%C3%A1gina)
+    de la página
     inicial llamando a `onURLChange` con
     `window.location` en el archivo `src/index.js`.
-
-    ```js
-      // Manejar la carga inicial de la URL.
-      window.addEventListener("DOMContentLoaded", () => {
-        // Establecer el elemento raíz
-        // Llamar a onURLChange
-      });
-    ```
-
-    Pruebe para ver si, independientemente de qué
-    URL válida se inicie su SPA, se carga la vista
-    correcta.
+    Prueba para asegurarte de que, sin importar qué URL
+    válida se utilice para iniciar tu SPA, **la vista correcta** se cargue adecuadamente.
 
 ## ¿Necesitas Ayuda?
 

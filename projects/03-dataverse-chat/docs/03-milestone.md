@@ -105,27 +105,6 @@ enrutador para gestionar ambas situaciones.
 
     + En el archivo `src/router.js` añade las funciones
     `navigateTo` y `queryStringToObject`.
-    `navigateTo` se utiliza para navegar a una nueva ruta mientras que
-    `queryStringToObject` convierte una cadena de búsqueda en un
-    objeto clave/valor usando
-  [URLSearchParams](https://developer.mozilla.org/es/docs/Web/API/URLSearchParams)
-    y
-    [Object.fromEntries](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object/entries).
-
-      ```js
-        // ... (mantén las funciones anteriores)
-
-        export const navigateTo = (pathname, props={}) => {
-          // actualiza el historial de la ventana con pushState
-          // renderiza la vista con la ruta y las propiedades
-        }
-
-        const queryStringToObject = (queryString) => {
-          // convierte la cadena de consulta a URLSearchParams
-          // convierte URLSearchParams a un objeto
-          // devuelve el objeto
-        }
-      ```
 
     > [!IMPORTANT]
     > Para obtener detalles de las funciones, revisa
