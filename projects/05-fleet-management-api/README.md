@@ -203,8 +203,9 @@ menos una compañera.
 
 Puedes implementar este proyecto en JavaScript o Java.
 
-* [Java](./docs/README-java.md#stack-de-tecnologías)
-* [NodeJs](./docs/README-node.md#stack-de-tecnologías)
+* [Java](./docs/README-java.md)
+* [NodeJs](./docs/README-node.md)
+* [Python](./docs/README-python.md)
 
 ## 7. Pistas, tips y lecturas complementarias
 
