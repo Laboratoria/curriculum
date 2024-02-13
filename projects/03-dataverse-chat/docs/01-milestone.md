@@ -85,6 +85,7 @@ conocer todos sus detalles, te invitamos a visitar esta
     > desarrollo.
 
 3. Codifique el router
+
     Para enlazar las rutas y vistas en una
     aplicación, necesitaremos definir algunas
     funciones en un nuevo archivo `src/router.js`.
@@ -164,8 +165,6 @@ conocer todos sus detalles, te invitamos a visitar esta
     Pruebe para ver si, independientemente de qué
     URL válida se inicie su SPA, se carga la vista
     correcta.
-
-![Preview spa](./assets/previewSPA.gif)
 
 ## ¿Necesitas Ayuda?
 
