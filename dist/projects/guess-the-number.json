@@ -2,9 +2,9 @@
   "slug": "guess-the-number",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-guess-the-number",
-  "version": "7.5.0",
+  "version": "8.2.0",
   "parserVersion": "5.3.0",
-  "createdAt": "2023-12-05T18:21:21.365Z",
+  "createdAt": "2024-02-08T16:56:11.631Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [
@@ -18,6 +18,8 @@
     "java/conditionals",
     "java/loops",
     "java/collections/array-list",
+    "java/testing/junit",
+    "java/testing/mockito",
     "object-oriented-programming/classes",
     "object-oriented-programming/objects",
     "object-oriented-programming/methods",
@@ -29,17 +31,34 @@
     "object-oriented-programming/interfaces",
     "object-oriented-programming/inheritance",
     "object-oriented-programming/unified-model-language",
-    "java/testing/junit",
-    "java/testing/mockito"
+    "python/data-types/primitive",
+    "python/data-types/lists",
+    "python/data-types/tuples",
+    "python/data-types/dictionaries",
+    "python/data-types/sets",
+    "python/variables",
+    "python/conditionals",
+    "python/operators",
+    "python/docstrings",
+    "python/functions/basic-concepts",
+    "python/iteration/loops",
+    "python/linting",
+    "python/testing/unit-tests",
+    "python/testing/mocks",
+    "python/testing/fixtures",
+    "python/modularization/modules",
+    "python/dependency-management/pip",
+    "python/dependency-management/virtual-environment",
+    "python/dependency-management/requirements-file"
   ],
   "intl": {
     "es": {
       "title": "Adivina el Número - Guess the Number",
-      "summary": "<p>Es un juego interactivo que se desarrolla en el terminal, donde la jugadora y el\nordenador se turnan para intentar adivinar un número aleatorio entre 1 y 100.\nDeben tener en cuenta la tentativa anterior, si fue \"muy alta\" o \"muy baja\".</p>"
+      "summary": "<p><em>Guess The Number</em> es un juego interactivo que se desarrolla en el terminal,\ndonde la jugadora y el ordenador se turnan para intentar adivinar un número\naleatorio entre 1 y 100. Deben tener en cuenta la tentativa anterior, si fue\n\"muy alta\" o \"muy baja\".</p>"
     },
     "pt": {
       "title": "Adivinhe o Número - Guess the Number",
-      "summary": "<p>É um jogo interativo que se realiza no terminal, no qual a\njogadora e o computador se alternam para tentar adivinhar um número\naleatório entre 1 e 100. Deve-se levar em consideração a tentativa anterior, se\nfoi \"muito alta\" ou \"muito baixa\".</p>"
+      "summary": "<p><em>Adivinhe o Número</em> é um jogo interativo que ocorre no terminal, onde o jogador\ne o computador se revezam tentando adivinhar um número aleatório entre 1 e 100.\nEles devem levar em consideração a tentativa anterior, se foi \"muito alta\" ou\n\"muito baixa\".</p>"
     }
   },
   "cover": "https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/guess-the-number.png?alt=media",

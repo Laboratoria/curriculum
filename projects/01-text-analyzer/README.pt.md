@@ -11,7 +11,7 @@
 - [7. Testes](#7-testes)
 - [8. Dicas, sugestões e leituras complementares](#8-dicas-sugestões-e-leituras-complementares)
 - [9. Considerações para solicitar seu Feedback de Projeto](#9-considerações-para-solicitar-seu-feedback-de-projeto)
-- [10. Objetivos de aprendizado](#10-objetivos-de-aprendizado)
+- [10. Objetivos de aprendizagem](#10-objetivos-de-aprendizagem)
 - [11. Funcionalidades opcionais](#11-funcionalidades-opcionais)
 
 ---
@@ -34,7 +34,7 @@ _em [Unsplash](https://unsplash.com/es/fotos/72NpWZJOskU?utm_source=unsplash&utm
 
 Um analisador de texto é uma aplicação para extrair informações úteis de um
 texto utilizando diversas técnicas, como o processamento de linguagem natural
-(PLN),aprendizado de máquina (ML) e análise estatística. Essas aplicações podem
+(PLN), aprendizado de máquina (ML) e análise estatística. Essas aplicações podem
 fornecer uma variedade de métricas que oferecem informações básicas sobre
 o comprimento e a estrutura do texto, como contagem de palavras, contagem de
 caracteres, contagem de sentenças e contagem de parágrafos. Outras métricas
@@ -64,21 +64,22 @@ A lista de funcionalidades é a seguinte:
 2. A aplicação deve calcular as seguintes métricas e atualizar o
     resultado em tempo real conforme a usuária escreve o texto:
 
-        - **Contagem de palavras**: a aplicação deve ser capaz de contar o número de
-        palavras no texto de entrada e mostrar essa contagem para a usuária.
-        - **Contagem de caracteres**: a aplicação deve ser capaz de contar o número de
-        caracteres no texto de entrada, incluindo espaços e sinais de
-        pontuação, e mostrar essa contagem para a usuária.
-        - **Contagem de caracteres excluindo espaços e sinais de pontuação**:
-        a aplicação deve ser capaz de contar o número de caracteres no texto de
-        entrada, excluindo espaços e sinais de pontuação, e mostrar essa contagem
-        para a usuária.
-        - **Contagem de números**: a aplicação deve contar quantos números há no
-        texto de entrada e mostrar essa contagem para a usuária.
-        - **Soma total dos números**: a aplicação deve somar todos os números que
-        estão no texto de entrada e mostrar o resultado para a usuária.
-        - **Comprimento médio das palavras**: a aplicação deve calcular o
-        comprimento médio das palavras no texto de entrada e mostrar esse valor para a usuária.
+    + **Contagem de palavras**: a aplicação deve ser capaz de contar o número de
+      palavras no texto de entrada e mostrar essa contagem para a usuária.
+    + **Contagem de caracteres**: a aplicação deve ser capaz de contar o número de
+      caracteres no texto de entrada, incluindo espaços e sinais de
+      pontuação, e mostrar essa contagem para a usuária.
+    + **Contagem de caracteres excluindo espaços e sinais de pontuação**:
+      a aplicação deve ser capaz de contar o número de caracteres no texto de
+      entrada, excluindo espaços e sinais de pontuação, e mostrar essa contagem
+      para a usuária.
+    + **Contagem de números**: a aplicação deve contar quantos números há no
+      texto de entrada e mostrar essa contagem para a usuária.
+    + **Soma total dos números**: a aplicação deve somar todos os números que
+      estão no texto de entrada e mostrar o resultado para a usuária.
+    + **Comprimento médio das palavras**: a aplicação deve calcular o
+      comprimento médio das palavras no texto de entrada e mostrar esse valor
+      para a usuária.
 
 3. A aplicação deve permitir limpar o conteúdo da caixa de texto ao clicar
     em um botão.
@@ -92,7 +93,7 @@ projeto, NÃO é permitido usar bibliotecas ou frameworks, apenas JavaScript
 puro, também conhecido como Vanilla JavaScript.
 
 Para começar este projeto, você precisará fazer um _fork_ e _clonar_ este
-repositório que contém um _boilerplate_ com testes (pruebas). Um _boilerplate_
+repositório que contém um _boilerplate_ com testes. Um _boilerplate_
 é a estrutura básica de um projeto que serve como um ponto de partida com
 arquivos e configuração inicial de dependências e testes.
 
@@ -122,7 +123,6 @@ O _boilerplate_ que fornecemos contém a seguinte estrutura:
 - `.github/workflows`: esta pasta contém a configuração para
 a execução do Github Actions.
   Você não deve modificar esta pasta nem seu conteúdo.
-- `docs/images`: contém as imagens deste README.
 - `read-only/`: esta pasta contém os testes dos critérios mínimos de aceitação
 e end-to-end. Você não deve modificar esta pasta nem seu conteúdo.
 - [`src/index.html`](./src/index.html): este é o ponto de entrada da sua aplicação.
@@ -154,12 +154,12 @@ Este objeto (`analyzer`) deve conter seis métodos:
 
   _Nota: para simplificar as funcionalidades, definiremos palavras como grupos
   de caracteres separados por espaços. Por exemplo, as palavras no texto de
-  entrada `Sim, você pode fazer isso!` são quatro:_
+  entrada `Sim, você consegue fazer!` são quatro:_
 
   + _`Sim,`_
   + _`você`_
-  + _`pode`_
-  + _`fazer isso!`_
+  + _`consegue`_
+  + _`fazer!`_
 
 - [`src/index.js`](./src/index.js): aqui você deve ouvir eventos do DOM,
 invocar os métodos do objeto `analyzer` conforme necessário e atualizar
@@ -206,30 +206,6 @@ relacionados a cada objetivo de aprendizado.
         com 6 filhos [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li),
         um para exibir cada métrica. Para que você possa praticar mais, esses
         elementos não podem ter atributos `id`, `name` ou filhos.
-
-  + [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
-        para exibir a _contagem de palavras_ deve ter um atributo
-        `data-testid` com o valor `word-count`.
-
-  + [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
-        para exibir a _contagem de caracteres_ deve ter um atributo
-        `data-testid` com o valor `character-count`.
-
-  + [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
-        para exibir a _contagem de caracteres excluindo espaços e sinais de pontuação_
-        deve ter um atributo `data-testid` com o valor `character-no-spaces-count`.
-
-  + [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
-        para exibir a _contagem de números_ deve ter um atributo
-        `data-testid` com o valor `number-count`.
-
-  + [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
-        para exibir a _soma total de números_ deve ter um atributo
-        `data-testid` com o valor `number-sum`.
-
-  + [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
-        para exibir o _comprimento médio das palavras_ deve ter um atributo
-        `data-testid` com o valor `word-length-average`.
 
   + [ ] A aplicação possui um rodapé composto por um
         [`<footer>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/footer)
@@ -376,7 +352,7 @@ relacionados a cada objetivo de aprendizado.
 
 - **Testes unitários (unit tests)**
 
-  + [ ] Todos os testes unitários passam.
+  + [ ] Os testes unitários passam.
 
 - **Módulos do ECMAScript (ES Modules)**
 
@@ -434,6 +410,12 @@ relacionados a cada objetivo de aprendizado.
 
 Este projeto conta com 3 conjuntos de testes que ajudarão a verificar se
 os critérios mínimos de aceitação são cumpridos.
+
+Executa os testes enquanto desenvolves para confirmar que teu projeto
+está alcançando os objetivos. Se alguns testes não passarem, não permitas
+que isso te impeça de avançar ou finalizar o projeto. Utiliza essa
+informação para identificar o que precisas investigar e modificar no teu
+código, e consulta teu orientador sobre quaisquer objetivos pendentes.
 
 ### Testes Unitários
 
@@ -500,6 +482,36 @@ na imagem a seguir:
 
 ![npm run test e2e](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650622-a4da630e-8d39-4dd8-9fde-1a38c31a53e2.gif "npm run test e2e")
 
+Para testes end-to-end (e2e) avaliem o fluxo, é necessário
+ter acesso a determinados elementos da página. Este acesso é
+alcançado adicionando um atributo
+[`data-testid`](https://playwright.dev/docs/locators#locate-by-test-id).
+Por este motivo, é necessário acrescentar o seguinte:
+
+- [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
+        para exibir a _contagem de palavras_ deve ter um atributo
+        `data-testid` com o valor `word-count`.
+
+- [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
+        para exibir a _contagem de caracteres_ deve ter um atributo
+        `data-testid` com o valor `character-count`.
+
+- [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
+        para exibir a _contagem de caracteres excluindo espaços e sinais de pontuação_
+        deve ter um atributo `data-testid` com o valor `character-no-spaces-count`.
+
+- [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
+        para exibir a _contagem de números_ deve ter um atributo
+        `data-testid` com o valor `number-count`.
+
+- [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
+        para exibir a _soma total de números_ deve ter um atributo
+        `data-testid` com o valor `number-sum`.
+
+- [ ] O [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
+        para exibir o _comprimento médio das palavras_ deve ter um atributo
+        `data-testid` com o valor `word-length-average`.
+
 ### GitHub Actions
 
 Este repositório usa o GitHub Actions para executar automaticamente
@@ -519,7 +531,7 @@ como mostrado na seguinte imagem:
 
 Antes de começar, instale o seguinte:
 
-1. [Node.js](https://nodejs.org/pt-br/)
+1. [Node.js](https://nodejs.org/)
 2. [git](https://git-scm.com/download/) Se você estiver no Linux, é provável
 que já esteja instalado 👀.
 Para aprender mais sobre o git, visite este [link](https://curriculum.laboratoria.la/pt/topics/scm/git)
@@ -530,8 +542,9 @@ Depois, no [GitHub](https://github.com/):
 1. Crie uma conta. Saiba mais sobre o GitHub neste [link](https://curriculum.laboratoria.la/pt/topics/scm/github/github)
 2. Faça um _fork_ deste projeto
 3. Configure sua chave SSH no GitHub. Você pode conferir este
-[vídeo](https://www.youtube.com/watch?v=g0ZV-neSM7E) ou este
+[vídeo](https://www.youtube.com/watch?v=7YVQLZp1jb0), este
 [artigo](https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+ou [esse](https://www.freecodecamp.org/portuguese/news/como-obter-e-configurar-suas-chaves-ssh-do-git-e-do-github/)
 
 Depois, em um [shell](https://curriculum.laboratoria.la/pt/topics/shell),
 execute o seguinte. Se você estiver no Windows, pode usar o Git Bash:
@@ -546,27 +559,31 @@ execute o seguinte. Se você estiver no Windows, pode usar o Git Bash:
 
 ### Recursos e tópicos relacionados
 
-Junte-se ao canal do Slack [#project-text-analyzer](https://claseslaboratoria.slack.com/archives/C058GP6K9NY)
+Junte-se ao canal do Slack [#project-text-analyzer-pt](https://claseslaboratoria.slack.com/archives/C067QN2GFCM)
 
 ## 9. Considerações para solicitar seu Feedback de Projeto
 
-Antes de agendar seu Feedback de Projeto com um coach, certifique-se de que seu projeto:
+Antes de marcar tua Sessão de Feedback de Projeto com teu coach,
+certifica-te de que teu projeto:
 
-- [ ] Atende a todos os critérios mínimos de aceitação ao executar `npm run test:oas`
-- [ ] Atende a todos os testes unitários ao executar `npm run test`
-- [ ] Atende a todos os testes _end to end_ ao executar `npm run test:e2e`
-- [ ] Está livre de _erros_ do `eslint` ao executar `npm run test`
-- [ ] Está hospedado no GitHub.
-- [ ] Está implantado no GitHub Pages.
-- [ ] Possui um README com a definição do produto.
+- Atende aos critérios mínimos de aceitação ao executar `npm run test:oas`
+- Passa nos testes unitários ao executar `npm run test`
+- Passa nos testes _end to end_ ao executar `npm run test:e2e`
+- Está livre de _erros_ do `eslint` ao executar `npm run test`
+- Está hospedado no GitHub.
+- Está implantado no GitHub Pages.
+- Possui um README com a definição do produto.
+
+Não é necessário que todos os testes passem com 100% para poder ter tua
+Sessão de Feedback de Projeto. O objetivo dos testes não é te bloquear,
+mas é importante que compreendas quais objetivos ainda estão pendentes
+e discutas com teu orientador se algum deles é crucial para ser
+alcançado antes da tua Sessão de Feedback de Projeto.
 
 Lembre-se de que você deve fazer uma autoavaliação dos
 _objetivos de aprendizado_ e _habilidades para a vida_ em seu painel do aluno.
 
-Se você não concluiu tudo o que foi mencionado acima, consideramos que você
-não está pronta para sua sessão de Feedback de Projeto.
-
-## 10. Objetivos de aprendizado
+## 10. Objetivos de aprendizagem
 
 > ℹ️ Esta seção será gerada automaticamente no idioma apropriado, a partir dos
 objetivos de aprendizado declarados em [`project.yml`](./project.yml),

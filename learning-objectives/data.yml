@@ -72,54 +72,19 @@ scm:
 
 user-centricity:
   - centricity
-  - user-oriented
-  - prioritization
-  
-business:
-  - model
-  - goals
-  - metrics
-  - benchmark
-  
-synthesis:
-  - weighing
-  - patterns
-  - insights
-  - mapping
-  - features
-  - ideation
-  - feature-prioritization
 
 product-design:
-  - user-flows
-  - content
   - fidelity
   - interactivity
-  - usability
-  - accessibility
   - visual-design
-  - component-organization
-  - project-organization
-  - documentation
 
-communication:
-  - presentation
-  - negotiation
-  - relationship-management
-  - case-study
-
-planning:
-  - monitor
-  - prioritization
-  - tools
-    
 firebase:
   - auth
   - firestore
 
-front-end-web-dev:
-  - components
-  - state
+# front-end-web-dev:
+  # - components
+  # - state
   # - routing
 
 angular:
@@ -230,6 +195,84 @@ java:
     - collections
     - persistance
     - querying
+
+python:
+  - data-types:
+    - primitive
+    - lists
+    - tuples
+    - dictionaries
+    - sets
+  - variables
+  - conditionals
+  - operators
+  - docstrings
+  - functions:
+    - basic-concepts
+    - args-kwargs
+    - closures
+    - lambda-functions
+    - decorators
+  - iteration:
+    - loops
+    - list-comprehension
+    - functional-techniques
+  - linting
+  - testing:
+    - unit-tests
+    - mocks
+    - fixtures
+  - modularization:
+    - modules
+    - packages
+  - dependency-management:
+    - pip
+    - virtual-environment
+    - requirements-file
+  - serialization
+  - flask:
+    - routes:
+      - route-decorator
+      - view-function
+      - variable-rules
+    - request:
+      - args
+      - headers
+      # - there are more that can be added here
+      # - form
+      # - json
+    - response:
+      - response-parts
+      - jsonify
+    - testing:
+      - fixture-setup
+      - test-client
+      # - test_request_context
+    # - templates
+    # - blueprints
+    # - views
+    # - sessions:
+    #   - cookies
+  - django:
+    - setup:
+      - migrations
+      - app
+    - models:
+      - fields
+      - foreign-Key
+    - views
+    - testing
+    - queryset
+    - filter
+    - order-by
+    - url-configuration
+    - rest-framework:
+      - serializers
+      - pagination
+      - query-params
+      - viewset
+      - apiview
+
 
 object-oriented-programming:
   - classes
@@ -374,30 +417,28 @@ business-understanding:
   - benchmark
 
 research:
-  - support
-  - guidelines
-  - interview
-  - documentation
-  - adaptation
-  - sources
-  - test
-  - cuantitative-data
-  - planning:
-    - research-plan
-    - desk-research
-    - research-sample
-    - participants
-  - qualitative:
-    - user-interviews
-    - exploratory-techniques
-  - quantitative:
-    - user-surveys
-    - analytical-techniques
-  - analysis:
-    - process-information
-    - experience-mapping
-    - identify-patterns
-    - synthesize-results
+  - test # TODO: change because only used in web-dev and only test
+
+research-planning:
+  - research-plan
+  - desk-research
+  - research-sample
+  - participants
+
+research-qualitative:
+  - user-interviews
+  - exploratory-techniques
+
+research-quantitative:
+  - user-surveys
+  - analytical-techniques
+
+research-analysis:
+  - process-information
+  - experience-mapping
+  - identify-patterns
+  - synthesize-results
+  - ai-analysis
 
 design-concept:
   - define-mvp
@@ -413,16 +454,19 @@ interaction-design:
 content-design:
   - voice-tone
   - create-content
+  - ai-content
 
 interface-design:
   - visual-design
   - accesibility
   - responsive-design
+  - ai-proposals
 
 design-prototype:
   - basic-prototypes
   - high-fidelity
   - advanced-interactions
+  - ai-plugins
 
 usability-analysis:
   - moderated-testing
@@ -432,6 +476,7 @@ usability-analysis:
 design-pitch:
   - design-feedback
   - design-presentation
+  - ai-presentations
 
 design-specs:
   - file-organization

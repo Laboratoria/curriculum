@@ -127,7 +127,6 @@ El boilerplate que les damos contiene esta estructura:
   de diseño que tomaron.
 * `.github/workflows`: esta carpeta contine la configuracion para la ejecution
   de Github Actions. No debes modificar esta carpeta ni su contenido.
-* `docs/images`: contiene las imagenes de este README.
 * `read-only/`: esta carpeta contiene las pruebas de criterios mínimos de
   aceptación y end-to-end. No debes modificar esta carpeta ni su contenido.
 * [`src/index.html`](./src/index.html): este es el punto de entrada a tu
@@ -210,32 +209,6 @@ relacionados con cada objetivo de aprendizaje.
   con 6 hijos [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li),
   uno para mostrar cada métrica.  Para que puedas practicar más, estos
   elementos no pueden tener atributos `id` ni `name` ni hijos.
-
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-  para mostrar el _recuento de palabras_ debe tener un atributo
-  `data-testid` con valor `word-count`.
-
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-  para mostrar el _recuento de caracteres_ debe tener un atributo
-  `data-testid` con valor `character-count`.
-
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-  para mostrar el
-  _recuento de caracteres excluyendo espacios y signos de puntuación_
-  debe tener un atributo
-  `data-testid` con valor `character-no-spaces-count`.
-
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-  para mostrar el _recuento de números_ debe tener un atributo
-  `data-testid` con valor `number-count`.
-
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-  para mostrar la _suma total de números_ debe tener un atributo
-  `data-testid` con valor `number-sum`.
-
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-  para mostrar la _longitud media de palabras_ debe tener un atributo
-  `data-testid` con valor `word-length-average`.
 
   - [ ] La aplicación tiene un pie de página conformado por un
   [`<footer>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
@@ -381,7 +354,7 @@ relacionados con cada objetivo de aprendizaje.
 
 * **Pruebas unitarias (unit tests)**
 
-  - [ ] Se pasan todas las pruebas unitarias.
+  - [ ] Pasan las pruebas unitarias.
 
 * **Módulos de ECMAScript (ES Modules)**
 
@@ -441,6 +414,13 @@ usuarias en el centro**
 
 Este proyecto cuenta con 3 conjuntos de pruebas que te ayudarán a conocer si
 cumples los criterios mínimos de aceptación.
+
+Ejecuta las pruebas mientras desarrolla para confirmar que
+tu proyecto está logrando los objetivos. Si algunas pruebas no pasan,
+no permitas que esto te impida avanzar o finalizar el proyecto.
+Utiliza esta información para ver qué necesitas investigar y
+cambiar en tu código, y consulta con tu coach cualquier
+objetivo que tengas pendiente.
 
 ### Pruebas unitarias
 
@@ -509,6 +489,38 @@ en la siguiente imagen:
 
 ![npm run test e2e](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650622-a4da630e-8d39-4dd8-9fde-1a38c31a53e2.gif "npm run test e2e")
 
+Para que los tests end-to-end (e2e) puedan evaluar el flujo, es necesario
+contar con acceso a determinados elementos en la página. Este acceso se
+logra agregando un atributo
+[`data-testid`](https://playwright.dev/docs/locators#locate-by-test-id).
+Por este motivo, es necesario agregar lo siguiente:
+
+* [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+para mostrar el _recuento de palabras_ debe tener un atributo
+`data-testid` con valor `word-count`.
+
+* [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+para mostrar el _recuento de caracteres_ debe tener un atributo
+`data-testid` con valor `character-count`.
+
+* [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+para mostrar el
+_recuento de caracteres excluyendo espacios y signos de puntuación_
+debe tener un atributo
+`data-testid` con valor `character-no-spaces-count`.
+
+* [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+para mostrar el _recuento de números_ debe tener un atributo
+`data-testid` con valor `number-count`.
+
+* [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+para mostrar la _suma total de números_ debe tener un atributo
+`data-testid` con valor `number-sum`.
+
+* [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+para mostrar la _longitud media de palabras_ debe tener un atributo
+`data-testid` con valor `word-length-average`.
+
 ### Github actions
 
 Este repositorio usa una GitHub Action para ejecutar automáticamente
@@ -561,21 +573,24 @@ Súmate al canal de Slack [#project-text-analyzer](https://claseslaboratoria.sla
 
 ## 9. Consideraciones para pedir tu Project Feedback
 
-Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
+Antes de agendar tu Project Feedback con tu coach, asegúrate de que tu proyecto:
 
-* [ ] Cumple con todos los criterios mínimos de aceptación al ejecutar `npm run test:oas`
-* [ ] Cumple con todas las pruebas unitarias al ejecutar `npm run test`
-* [ ] Cumple con todas las pruebas _end to end_ al ejecutar `npm run test:e2e`
-* [ ] Esta libre de _errores_ de `eslint` al ejecutar `npm run test`
-* [ ] Está subido a GitHub.
-* [ ] Esta desplegado en GitHub Pages.
-* [ ] Tiene un README con la definición del producto.
+* Cumple los criterios mínimos de aceptación al ejecutar `npm run test:oas`
+* Cumple las pruebas unitarias al ejecutar `npm run test`
+* Cumple las pruebas _end to end_ al ejecutar `npm run test:e2e`
+* Está libre de _errores_ de `eslint` al ejecutar `npm run test`
+* Está subido a GitHub.
+* Está desplegado en GitHub Pages.
+* Tiene un README con la definición del producto.
+
+No es necesario que todas las pruebas
+pasen con 100% para poder tener tu Project Feedback.
+El objetivo de los tests no es bloquearte, pero es importante que comprendas
+qué objetivos tienes pendientes y discutas con tu coach si alguno
+de ellos es crucial para lograrlo antes de tu Project Feedback.
 
 Recuerda que debes hacer una autoevaluación de _objetivos de aprendizaje_ y
 _life skills_ desde tu dashboard de estudiante.
-
-Si no has completado todo lo anterior, no consideramos que estás lista para
-tu sesión de Project Feedback.
 
 ## 10. Objetivos de aprendizaje
 

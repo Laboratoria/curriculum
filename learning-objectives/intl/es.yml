@@ -136,6 +136,9 @@ browser/fetch:
 js:
   title: JavaScript
 
+js/data-types:
+  title: Tipos de datos
+
 js/data-types/primitive:
   title: Tipos de datos primitivos
   links:
@@ -227,6 +230,9 @@ js/semantics:
 js/expression-vs-statement:
   title: Diferenciar entre expresiones (expressions) y sentencias (statements)
 
+js/modules:
+  title: Módulos
+
 js/modules/es-modules:
   title: Módulos de ECMAScript (ES Modules)
   links:
@@ -240,6 +246,9 @@ js/modules/commonjs:
   links:
     - title: "Modules: CommonJS modules - Node.js Docs"
       url: https://nodejs.org/docs/latest/api/modules.html
+
+js/testing:
+  title: Testing en Javascript
 
 js/testing/unit:
   title: Pruebas unitarias (unit tests)
@@ -268,6 +277,9 @@ js/testing/compatibility:
 js/linting:
   title: Uso de linter (ESLINT)
 
+js/async:
+  title: Asincronía
+
 js/async/callbacks:
   title: Callbacks
   links:
@@ -285,6 +297,9 @@ js/async/promises:
 scm:
   title: Control de Versiones (Git y GitHub)
 
+scm/git:
+  title: Git
+
 scm/git/setup:
   title: "Git: Instalación y configuración"
 
@@ -293,6 +308,9 @@ scm/git/intro:
 
 scm/git/integration:
   title: "Git: Integración de cambios entre ramas (branch, checkout, fetch, merge, reset, rebase, tag)"
+
+scm/github:
+  title: GitHub
 
 scm/github/setup:
   title: "GitHub: Creación de cuenta y repos, configuración de llaves SSH"
@@ -312,154 +330,36 @@ scm/github/project-management:
 scm/github/ci:
   title: "GitHub: Integración continua con GitHub actions"
 
-ux:
-  title: UX (User eXperience)
-
 user-centricity:
   title: Centrado en el usuario
 
+# only used in web dev ----
 user-centricity/centricity:
   title: Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro
-
-user-centricity/user-oriented:
-  title: Involucrar usuarias y tomar en cuenta sus necesidades a lo largo de todo el proceso de diseño
-
-user-centricity/prioritization:
-  title: Identificar y priorizar usuarias relevantes para el proyecto
-
-business:
-  title: Negocio
-
-business/model:
-  title: Entender el modelo de negocio
-
-business/goals:
-  title: Entender y considerar los objetivos del negocio durante el desarrollo del proyecto
-
-business/metrics:
-  title: Definir métricas relevantes para validar el cumplimiento de los objetivos del negocio
-
-business/benchmark:
-  title: Entender estado del negocio en relación con el mercado local y global
 
 research:
   title: Investigación
 
-research/planning:
-  title: Planificar investigación basada en las necesidades del proyecto
-
-research/support:
-  title: "Elegir y sustentar el # usuarias que participan en actividades de investigación"
-
-research/guidelines:
-  title: Crear y probar guía de actividades de investigación
-
-research/interview:
-  title: Realizar entrevistas con usuarias empáticas y sin sesgos
-
-research/documentation:
-  title: Documentar entrevistas y testeos
-
-research/adaptation:
-  title: Adaptar plan de investigación de acuerdo a resultados obtenidos
-
-research/sources:
-  title: Identificar y revisar distintas fuentes de información e inspiración relevantes para el proyecto
-
-research/test:
+research/test: # only used in data lovers and various web dev projects
   title: Planear y ejecutar testeos de usabilidad de prototipos en distintos niveles de fidelidad
   links:
     - title: Intro a testeos usabilidad
       url: https://coda.io/@bootcamp-laboratoria/contenido-ux/test-de-usabilidad-15
     - title: Pruebas con Usuarios 1 — ¿Qué, cuándo y para qué testeamos?
       url: https://eugeniacasabona.medium.com/pruebas-con-usuarios-1-qu%C3%A9-cu%C3%A1ndo-y-para-qu%C3%A9-testeamos-7c3a89b4b5e7
-
-research/cuantitative-data:
-  title: Recopilar, analizar e interpretar data cuantitativa
-
-synthesis:
-  title: Síntesis
-
-synthesis/weighing:
-  title: Distinguir observaciones, data y/o respuestas que aportan valor al proyecto
-
-synthesis/patterns:
-  title: Encontrar patrones en los resultados de la investigación
-
-synthesis/insights:
-  title: Diferenciar entre observaciones, hallazagos e insights
-
-synthesis/mapping:
-  title: Usar herramientas de síntesis para mapear las experiencias de los usuarios
-
-synthesis/features:
-  title: Definir funcionalidades del producto
-
-synthesis/ideation:
-  title: Generar múltiples ideas de solución al reto del proyecto
-
-synthesis/feature-prioritization:
-  title: Priorizar las posibles soluciones que aporten más valor al proyecto, basándose en los objetivos del proyecto y las necesidades de los usuarios
+# ----
 
 product-design:
   title: Diseño de producto
 
-product-design/user-flows:
-  title: Priorizar y proponer flujos de usuaria que les ayuden a conseguir sus objetivos con el producto
-
-product-design/content:
-  title: Identificar y priorizar contenidos relevantes y necesarios para el producto
-
-product-design/fidelity:
+product-design/fidelity: # used in web dev
   title: Diseñar en distintos niveles de fidelidad
 
-product-design/interactivity:
+product-design/interactivity: # used in web dev
   title: Crear prototipos de alta fidelidad que incluyan interacciones
 
-product-design/usability:
-  title: Diseñar producto o servicio siguiendo mejores prácticas de usabilidad
-
-product-design/accessibility:
-  title: Diseñar producto o servicio siguiendo mejores prácticas de accesibilidad
-
-product-design/visual-design:
+product-design/visual-design: # used in web dev
   title: Seguir los principios básicos de diseño visual
-
-product-design/component-organization:
-  title: Crear y utilizar componentes reutilizables
-
-product-design/project-organization:
-  title: Nombrar, organizar, agrupar las capas (layers) del diseño siguiendo buenas prácticas
-
-product-design/documentation:
-  title: Documentar los distintos componentes de UI y sus casos de uso
-
-communication:
-  title: Comunicación
-
-communication/presentation:
-  title: Presentar y sustentar propuestas a clientes
-
-communication/negotiation:
-  title: Negociar efectivamente con clientes
-
-communication/relationship-management:
-  title: Manejar relaciones con clientes
-
-communication/case-study:
-  title: Presentar su proceso de trabajo en un caso de estudio usando herramientas de storytelling
-
-planning:
-  title: Planificación
-
-planning/monitor:
-  title: Organizar y dar seguimiento a actividades a desarrollarse durante el proyecto
-
-planning/prioritization:
-  title: Priorizar actividades a desarrollarse durante el proyecto
-
-planning/tools:
-  title: Elegir las herramientas y métodos a utilizar de acuerdo a las necesidades  del proyecto
 
 firebase:
   title: Firebase
@@ -614,13 +514,13 @@ java:
 
 java/access-modifiers:
   title: Modificadores de acesso (public, private, protected)
-  
+
 java/variables:
   title: Variables
 
 java/conditionals:
   title: Uso de condicionales
-  
+
 java/loops:
   title: Uso de bucles (Loops)
 
@@ -632,19 +532,19 @@ java/data-types/primitive:
 
 java/data-types/primitive-vs-non-primitive:
   title: Datos primitivos vs no primitivos
-    
+
 java/data-types/strings:
   title: Cadenas
 
 java/data-types/arrays:
   title: Arreglos
-  
+
 java/collections:
   title: Colecciones
 
 java/collections/array-list:
   title: ArrayList
-  
+
 java/collections/hash-map:
   title: HashMap
 
@@ -720,7 +620,7 @@ java/spring-framework/spring-web/rest-controller:
 java/spring-framework/spring-web/request-mapping:
   title: RequestMapping
 
-java/spring-framework/spring-web/spring-web/request-param:
+java/spring-framework/spring-web/request-param:
   title: RequestParam
 
 java/spring-framework/testing:
@@ -807,6 +707,406 @@ object-oriented-programming/inheritance:
 
 object-oriented-programming/unified-model-language:
   title: Lenguaje de Modelado Unificado (UML, class diagrams)
+
+python:
+  title: Python
+
+python/data-types:
+  title: Tipos de datos
+
+python/data-types/primitive:
+  title: Tipos de datos primitivos (int, float, str, bool)
+  links:
+    - title: Data Types - Python Docs (en inglés)
+      url: https://docs.python.org/3/library/datatypes.html
+    - title: Data types in Python (en inglés)
+      url: https://www.educative.io/answers/data-types-in-python
+
+python/data-types/lists:
+  title: Listas (arrays)
+  links:
+    - title: Lists - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
+    - title: Lists and Tuples in Python - Real Python (en inglés)
+      url: https://realpython.com/python-lists-tuples/
+
+python/data-types/tuples:
+  title: Tuples
+  links:
+    - title: Tuples - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences
+    - title: Lists and Tuples in Python - Real Python (en inglés)
+      url: https://realpython.com/python-lists-tuples/
+
+python/data-types/dictionaries:
+  title: Dictionaries (Dicts)
+  links:
+    - title: Dictionaries - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/datastructures.html#dictionaries
+    - title: Dictionaries in Python - Real Python (en inglés)
+      url: https://realpython.com/python-dicts/
+
+python/data-types/sets:
+  title: Sets
+  links:
+    - title: Sets - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/datastructures.html#sets
+    - title: Sets in Python - Real Python (en inglés)
+      url: https://realpython.com/python-sets/
+
+python/variables:
+  title: Variables (declaración, asignación, ámbito)
+  links:
+    - title: Variables in Python – Real Python (en inglés)
+      url: https://realpython.com/python-variables/
+    - title: Variables in Python - GeeksforGeeks (en inglés)
+      url: https://www.geeksforgeeks.org/python-variables/
+
+python/conditionals:
+  title: Uso de condicionales (if, elif, ternario)
+  links:
+    - title: Conditional Statements in Python – Real Python (en inglés)
+      url: https://realpython.com/python-conditional-statements/
+
+python/operators:
+  title: Operadores (identidad, aritméticos, comparación etc)
+  links:
+    - title: Python Operators - GeeksforGeeks (en inglés)
+      url: https://www.geeksforgeeks.org/python-operators/
+
+python/functions:
+  title: Funciones
+
+python/functions/basic-concepts:
+  title: Conceptos basicos (params, args, default values, return)
+  links:
+    - title: Python Functions - GeeksforGeeks (en ingles)
+      url : https://www.geeksforgeeks.org/python-functions/
+
+python/functions/args-kwargs:
+  title: "*args y **kwargs"
+  links:
+    - title: '*args and **kwargs in Python - GeeksforGeeks (en inglés)'
+      url: https://www.geeksforgeeks.org/args-kwargs-python/
+
+python/functions/lambda-functions:
+  title: Funciones lambda
+  links:
+    - title: Lambda Functions - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions
+    - title: How to Use Python Lambda Functions – Real Python (en inglés)
+      url: https://realpython.com/python-lambda/
+
+python/functions/closures:
+  title: Cierres (closures)
+  links:
+    - title: Closures - Python Docs (en inglés)
+      url: https://docs.python.org/3/reference/datamodel.html#emulating-closures-and-nested-scope
+
+python/functions/decorators:
+  title: Decoradores
+  links:
+    - title: Decorators - Python Docs (en inglés)
+      url: https://docs.python.org/3/glossary.html#term-decorator
+    - title: Decorators in Python - Geeks for Geeks (en inglés)
+      url: https://www.geeksforgeeks.org/decorators-in-python/
+
+python/iteration:
+  title: Iteración
+
+python/iteration/loops:
+  title: Uso de bucles/ciclos (while, for..in)
+  links:
+    - title: Loops in Python - For, While and Nested Loops - GeeksforGeeks
+      url: https://www.geeksforgeeks.org/loops-in-python/
+    - title: Loops - Learn Python - Free Interactive Python Tutorial
+      url: https://www.learnpython.org/en/Loops
+
+
+python/iteration/list-comprehension:
+  title: Comprensión de listas
+  links:
+    - title: List Comprehension - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions
+    - title: List Comprehension in Python - GeeksforGeeks (en inglés)
+      url: https://www.geeksforgeeks.org/list-comprehensions-in-python/
+    - title: When to Use a List Comprehension in Python – Real Python (en inglés)
+      url: https://realpython.com/list-comprehension-python/
+
+python/iteration/functional-techniques:
+  title: Técnicas funcionales (map, filter, reduce)
+  links:
+    - title: Our Guide to Map, Filter, and Reduce Functions in Python - Udacity (en inglés)
+      url: https://www.udacity.com/blog/2020/12/our-guide-to-map-filter-and-reduce-functions-in-python.html
+    - title: Map, Filter, Reduce - Learn Python - Free Interactive Python Tutorial (en inglés)
+      url: https://www.learnpython.org/en/Map%2C_Filter%2C_Reduce
+
+python/docstrings:
+  title: Docstrings (y su diferencia de comentarios)
+  links:
+    - title: Docstrings - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/controlflow.html#documentation-strings
+
+python/linting:
+  title: Linting (pylint)
+  links:
+    - title: Pylint - Documentación oficial
+      url: https://pylint.pycqa.org/en/latest/
+    - title: Linting Python in Visual Studio Code - Visual Studio Code Docs (en inglés)
+      url: https://code.visualstudio.com/docs/python/linting
+
+python/testing:
+  title: Testing en Python
+
+python/testing/unit-tests:
+  title: Pruebas unitarias (unit tests, unittest, pytest)
+  links:
+    - title: unittest - Python Docs (en inglés)
+      url: https://docs.python.org/3/library/unittest.html
+    - title: pytest - Documentación oficial
+      url: https://docs.pytest.org/en/6.2.x/
+
+python/testing/mocks:
+  title: Uso de mocks (y patch)
+  links:
+    - title: unittest.mock - Python Docs (en inglés)
+      url: https://docs.python.org/3/library/unittest.mock.html
+    - title: Python Mock Library - Real Python (en inglés)
+      url: https://realpython.com/python-mock-library/
+
+python/testing/fixtures:
+  title: Uso de fixtures
+  links:
+    - title: pytest fixtures - Documentación oficial
+      url: https://docs.pytest.org/en/6.2.x/fixture.html
+
+python/modularization:
+  title: Modularización
+
+python/modularization/modules:
+  title: Módulos
+  links:
+    - title: Módulos - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/modules.html
+
+python/modularization/packages:
+  title: Paquetes
+  links:
+    - title: Paquetes - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/modules.html#packages
+
+python/dependency-management:
+  title: Manejo de dependencias
+
+python/dependency-management/pip:
+  title: pip (instalación y uso de paquetes)
+  links:
+    - title: pip - Python Docs (en inglés)
+      url: https://docs.python.org/3/installing/index.html
+
+python/dependency-management/virtual-environment:
+  title: Virtual Environment (ambientes virtuales, virtualenv)
+  links:
+    - title: 'venv — Creation of virtual environments — Python 3.12.2 documentation (en inglés)'
+      url: https://docs.python.org/3/library/venv.html
+    - title: 'Python Virtual Environments: A Primer – Real Python (en inglés)'
+      url: https://realpython.com/python-virtual-environments-a-primer/
+
+
+python/dependency-management/requirements-file:
+  title: requirements.txt
+  links:
+    - title: requirements.txt - Documentación oficial
+      url: https://pip.pypa.io/en/stable/user_guide/#requirements-files
+
+python/serialization:
+  title: Serialización (y deserialización)
+  links:
+    - title: Serialize Your Data With Python – Real Python (en inglés)
+      url: https://realpython.com/python-serialize-data/
+
+python/flask:
+  title: Flask
+  links:
+    - title: Flask - Documentación oficial
+      url: https://flask.palletsprojects.com/en/3.0.x/
+    - title: Flask - Tutorial oficial
+      url: https://flask.palletsprojects.com/en/3.0.x/tutorial/
+
+python/flask/routes:
+  title: Rutas
+
+python/flask/routes/route-decorator:
+  title: Decorador de ruta
+  links:
+    - title: Routing - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#routing
+
+python/flask/routes/view-function:
+  title: Función de vista
+  links:
+    - title: View Functions - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#view-functions
+
+python/flask/routes/variable-rules:
+  title: Reglas de variables (urls dinamica)
+  links:
+    - title: Variable Rules - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#variable-rules
+
+python/flask/request:
+  title: Request Object
+
+python/flask/request/args:
+  title: Argumentos
+  links:
+    - title: Request - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#accessing-request-data
+
+python/flask/request/headers:
+  title: Cabeceras
+  links:
+    - title: Request - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#accessing-request-data
+    # - there are more that can be added here
+    # - form
+    # - json
+
+python/flask/response: # should response be part of routing, its what is returned in the vie function
+  title: Response Object
+
+python/flask/response/response-parts:
+  title: Partes de la respuesta (status, body, headers)
+  links:
+    - title: Response - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#about-responses
+
+python/flask/response/jsonify:
+  title: jsonify
+  links:
+    - title: jsonify - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/2.0.x/api/#flask.json.jsonify
+
+python/flask/testing:
+  title: Testing en Flask
+
+python/flask/testing/fixture-setup:
+  title: Configuración de fixtures
+  links:
+    - title: Testing - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/2.0.x/testing/
+
+python/flask/testing/test-client:
+  title: Test Client
+  links:
+    - title: Testing - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/2.0.x/testing/
+
+python/django:
+  title: Django
+
+python/django/setup:
+  title: Configuración
+
+python/django/setup/migrations:
+  title: Migraciones
+  links:
+    - title: Migraciones
+      url: https://docs.djangoproject.com/es/5.0/topics/migrations/#module-django.db.migrations
+
+python/django/setup/app:
+  title: Setup app
+  links:
+    - title: Installed apps
+      url: https://docs.djangoproject.com/es/5.0/ref/settings/#std-setting-INSTALLED_APPS
+
+python/django/models:
+  title: Modelos
+
+python/django/models/fields:
+  title: Fields
+  links:
+    - title: Field types
+      url: https://docs.djangoproject.com/en/5.0/topics/db/models/#Fields
+
+python/django/models/foreign-Key:
+  title: Foreign Key
+  links:
+    - title: Model field reference
+      url: https://docs.djangoproject.com/en/5.0/ref/models/fields/
+
+python/django/views:
+  title: Views
+  links:
+    - title: Base views
+      url: https://docs.djangoproject.com/en/5.0/ref/class-based-views/base/
+
+python/django/testing:
+  title: Testing
+  links:
+    - title: Testing in Django
+      url: https://docs.djangoproject.com/en/5.0/topics/testing/
+    - title: Testing rest framework
+      url: https://www.django-rest-framework.org/api-guide/testing/#testing
+
+python/django/queryset:
+  title: queryset
+  links:
+    - title: The queryset argument
+      url: https://www.django-rest-framework.org/api-guide/relations/#the-queryset-argument
+
+python/django/filter:
+  title: Filter
+  links:
+    - title: Filtering
+      url: https://www.django-rest-framework.org/api-guide/filtering/
+
+python/django/order-by:
+  title: Order By
+  links:
+    - title: OrderingFilter
+      url: https://www.django-rest-framework.org/api-guide/filtering/#orderingfilter
+
+python/django/url-configuration:
+  title: URLs (Path, URLconf, urlpatterns)
+  links:
+    - title: Django URLs
+      url: https://tutorial.djangogirls.org/en/django_urls/
+    - title: URL dispatcher
+      url: https://docs.djangoproject.com/en/5.0/topics/http/urls/
+
+python/django/rest-framework:
+  title: Rest Framework
+
+python/django/rest-framework/serializers:
+  title: Serializers
+  links:
+    - title: Serializers
+      url: https://www.django-rest-framework.org/community/third-party-packages/#serializers
+
+python/django/rest-framework/pagination:
+  title: Pagination
+  links:
+    - title: Pagination
+      url: https://www.django-rest-framework.org/api-guide/pagination/#pagination
+
+python/django/rest-framework/query-params:
+  title: Query params
+  links:
+    - title: query_params
+      url: https://www.django-rest-framework.org/api-guide/requests/#query_params
+
+python/django/rest-framework/viewset:
+  title: ViewSet
+  links:
+    - title: ViewSet
+      url: https://www.django-rest-framework.org/api-guide/viewsets/#viewset
+
+python/django/rest-framework/apiview:
+  title: Apiview
+  links:
+    - title: GenericAPIView
+      url: https://www.django-rest-framework.org/api-guide/generic-views/#genericapiview
 
 webops:
   title: WebOps
@@ -1163,6 +1463,9 @@ slack/slash-commands:
 php:
   title: PHP
 
+php/data-types:
+  title: Tipos de datos
+
 php/data-types/primitive:
   title: Tipos de datos primitivos en PHP
   links:
@@ -1211,6 +1514,9 @@ php/functions:
     - title: Extensiones PHP relacionadas con variable y tipo
       url: https://www.php.net/manual/es/refs.basic.vartype.php
 
+php/testing:
+  title: Testing en PHP
+
 php/testing/phpunit:
   title: PHPUnit
   links:
@@ -1223,6 +1529,9 @@ php/testing/xdebug:
     - title: XDebug
       url: https://xdebug.org/
 
+php/package-management:
+  title: Gestión de paquetes
+
 php/package-management/composer:
   title: Composer
   links:
@@ -1231,6 +1540,9 @@ php/package-management/composer:
 
 wordpress:
   title: WordPress
+
+wordpress/plugin-development:
+  title: Desarrollo de plugins
 
 wordpress/plugin-development/hooks:
   title: "Hooks: action y filter"
@@ -1297,6 +1609,12 @@ wordpress/plugin-development/wordpress-plugin-directory:
   links:
     - title: WordPress Plugin Directory
       url: https://developer.wordpress.org/plugins/wordpress-org/planning-your-plugin/
+
+typescript:
+  title: Typescript
+
+typescript/basic-types:
+  title: Tipos básicos
 
 typescript/basic-types/static-type-checking:
   title: Chequeo estático de tipos
@@ -1486,7 +1804,7 @@ typescript/decorators:
 
 ai-prompting:
   title: AI Prompting
-  description: El proceso de instruir a una IA para que realice una tarea 
+  description: El proceso de instruir a una IA para que realice una tarea
 
 ai-prompting/giving-instructions:
   title: Dando Instrucciones
@@ -1522,8 +1840,12 @@ ai-prompting/open-ai-api:
     - title: "The chat completion object - API Reference - OpenAI API"
       url: https://platform.openai.com/docs/api-reference/chat/object
 
-# New OAs since UXD006
+# New UX OAs since UXD006
 #--- skill Project framing
+
+agile-planning:
+  title: Planificación ágil
+
 agile-planning/scope:
   title: Definir alcance general
   description: Definir un alcance preliminar del proyecto en conjunto con los stakeholders involucrados
@@ -1535,6 +1857,9 @@ agile-planning/workplan:
 agile-planning/tasks:
   title: Gestionar tareas
   description: Gestionar tareas mediante la implementación de ceremonias y herramientas de Scrum
+
+business-understanding:
+  title: Entendimiento del negocio
 
 business-understanding/business-model:
   title: Comprender el modelo de negocio
@@ -1549,55 +1874,75 @@ business-understanding/benchmark:
   description: Analizar el negocio o producto respecto a sus competidores locales y globales
 
 #--- skill User research
-research/planning/research-plan:
+
+research-planning:
+  title: Planteamiento de la investigación
+
+research-planning/research-plan:
   title: Definir la investigación
   description: Planificar la investigación basada en el contexto y objetivos del proyecto
 
-research/planning/desk-research:
+research-planning/desk-research:
   title: Analizar información existente
   description: Analizar información existente que sirva de guía para plantear la investigación con usuarios
 
-research/planning/research-sample:
+research-planning/research-sample:
   title: Definir muestra
   description: Definir el perfil y número de usuarios (muestra) que participan en la investigación
 
-research/planning/participants:
+research-planning/participants:
   title: Gestionar participantes
   description: Gestionar la participación de los usuarios en las actividades de investigación
 
-research/qualitative/user-interviews:
+research-qualitative:
+  title: Técnicas cualitativas
+
+research-qualitative/user-interviews:
   title: Realizar entrevistas
   description: Crear guión de entrevista, validar las preguntas y entrevistar evitando sesgos
 
-research/qualitative/exploratory-techniques:
+research-qualitative/exploratory-techniques:
   title: Explorar técnicas cualitativas
   description: Explorar otras técnicas de investigación cualitativa según el contexto del proyecto (card sorting abierto, estudios de campo, etc.)
 
-research/quantitative/user-surveys:
+research-quantitative:
+  title: Técnicas cuantitativas
+
+research-quantitative/user-surveys:
   title: Realizar encuestas
   description: Crear encuesta, testear e iterar las preguntas, implementar la encuesta efectivamente
 
-research/quantitative/analytical-techniques:
+research-quantitative/analytical-techniques:
   title: Explorar técnicas analíticas
   description: Explorar herramientas de monitoreo de acciones de usuarios (mapa de calor, analytics, card sorting cerrado, etc.)
 
-research/analysis/process-information:
+research-analysis:
+  title: Análisis de la investigación
+
+research-analysis/process-information:
   title: Procesar información
   description: Procesar a profundidad la información obtenida evitando sesgos
 
-research/analysis/experience-mapping:
+research-analysis/experience-mapping:
   title: Mapear la experiencia
   description: Visualizar la información obtenida de los usuarios mediante alguna técnica de documentación UX
 
-research/analysis/identify-patterns:
+research-analysis/identify-patterns:
   title: Identificar patrones
   description: Identificar patrones, observaciones o hallazgos en la información recolectada
 
-research/analysis/synthesize-results:
+research-analysis/synthesize-results:
   title: Sintetizar resultados
   description: Delimitar el problema o necesidad de las personas usuarias que debe resolver el proyecto
 
+research-analysis/ai-analysis:
+  title: Facilitar el análisis utilizando IA
+  description: Utilizar herramientas de inteligencia artificial (IA) para transcribir, organizar y sintetizar la información obtenida
+
 #--- skill Solution design
+design-concept:
+  title: Concepto de diseño
+
 design-concept/define-mvp:
   title: Definir MVP
   description: Definir las funcionalidades que debe incluir el Mínimo Producto Viable/Deseable (MVP)
@@ -1614,6 +1959,9 @@ design-concept/prioritize-ideas:
   title: Priorizar ideas
   description: Definir criterios de priorización de ideas, alineados con los objetivos del proyecto y necesidades de las personas usuarias
 
+interaction-design:
+  title: Diseño de interacción
+
 interaction-design/user-flows:
   title: Crear flujos de usuario
   description: Crear y visualizar los flujos de interacción de la propuesta (diagramas, wireframes, bocetos)
@@ -1626,6 +1974,9 @@ interaction-design/information-architecture:
   title: Crear la arquitectura de información
   description: Implementar principios básicos de arquitectura de información (categorías, etiquetas, navegación y búsqueda)
 
+content-design:
+  title: Diseño de contenido
+
 content-design/voice-tone:
   title: Definir guía de voz y tono
   description: Crear una guía básica de voz y tono para contenido UX
@@ -1633,6 +1984,13 @@ content-design/voice-tone:
 content-design/create-content:
   title: Crear contenidos
   description: Definir el contenido (texto e imágenes) que debe incluir la propuesta de diseño
+
+content-design/ai-content:
+  title: Crear textos e imágenes usando IA
+  description: Explorar múltiples propuestas de texto e imágenes generadas con herramientas de inteligencia artificial (IA)
+
+interface-design:
+  title: Diseño de interfaces
 
 interface-design/visual-design:
   title: Crear propuesta de diseño visual
@@ -1646,7 +2004,14 @@ interface-design/responsive-design:
   title: Implementar diseño responsivo
   description: Crear diseños que se adapten a diferentes dispositivos utilizando principios de responsive design
 
+interface-design/ai-proposals:
+  title: Generar propuestas visuales mediante IA
+  description: Experimentar con herramientas de inteligencia artificial (IA) para generar múltiples propuestas que sirvan como inspiración para el diseño
+
 #--- skill Proposal validation
+design-prototype:
+  title: Prototipado
+
 design-prototype/basic-prototypes:
   title: Crear prototipos básicos
   description: Crear prototipos navegables en baja o media fidelidad que representen los flujos funcionales
@@ -1658,6 +2023,13 @@ design-prototype/high-fidelity:
 design-prototype/advanced-interactions:
   title: Utilizar interacciones avanzadas
   description: Incluir interacciones avanzadas en los prototipos según sea necesario
+
+design-prototype/ai-plugins:
+  title: Utilizar plug-ins de IA para prototipar
+  description: Integrar plug-ins de inteligencia artificial (IA) en Figma que faciliten la creación del prototipo
+
+usability-analysis:
+  title: Análisis de usabilidad
 
 usability-analysis/moderated-testing:
   title: Realizar pruebas moderadas
@@ -1671,6 +2043,9 @@ usability-analysis/non-moderated-testing:
   title: Realizar pruebas no-moderadas
   description: Utilizar herramientas para pruebas de usabilidad no-moderadas
 
+design-pitch:
+  title: Pitch de diseño
+
 design-pitch/design-feedback:
   title: Recolectar feedback de diseño
   description: Recolectar feedback técnico de diseño mediante sesiones de crítica colaborativa (Design Critiques, Demos con POs, etc.)
@@ -1679,7 +2054,14 @@ design-pitch/design-presentation:
   title: Presentar ante el negocio
   description: Presentar resultados de investigación, propuestas y proceso de diseño utilizando principios de "story-telling"
 
+design-pitch/ai-presentations:
+  title: Apoyarse en herramientas de IA para presentar propuestas
+  description: Utilizar herramientas de inteligencia artificial (IA) para crear el story-telling y/o presentación ante stakeholders
+
 #--- skill Technical documentation
+design-specs:
+  title: Especificaciones de diseño
+
 design-specs/file-organization:
   title: Organizar documentos de Figma
   description: Organizar el documento de diseño (Figma) siguiendo buenas prácticas de nombrado y agrupado de capas o componentes
@@ -1691,6 +2073,9 @@ design-specs/use-cases:
 design-specs/project-documentation:
   title: Documentar el proyecto de diseño
   description: Documentar el proceso de diseño para fundamentar las decisiones tomadas durante el proyecto
+
+design-systems:
+  title: Sistemas y librerías de diseño
 
 design-systems/atomic-design:
   title: Implementar Atomic Design

@@ -58,12 +58,13 @@ valor máximo ou mínimo, etc).
 ## 3. Considerações gerais
 
 * Este projeto deve ser realizado em duplas.
-* O tempo estimado para concluir o projeto é de 3 a 4 Sprints.
+* O tempo estimado para concluir o projeto é de 4 a 5 Sprints.
 * O tempo estimado que você deve dedicar à [geração de dados](#gerar-los-datos)
   é de no máximo uma sprint. Além disso, no final do projeto, você deve
   apresenta um [screenshot do prompt utilizado](#prompt-utilizado).
 * Se perceber que vai demorar mais tempo,
-  deverá usar os dados de exemplo que encontrará neste caminho: `./src/data/dataset.js`.
+  deverá usar os dados de exemplo que encontrará
+  neste caminho: `./src/data/dataset.js`.
 * O projeto será entregue ao enviar seu código para o GitHub (commit/push) e a
   interface será implantada usando o [GitHub Pages](https://pages.github.com/).
 
@@ -91,11 +92,13 @@ implementadas:
   **Se você filtrar ou ordenar por uma propriedade, o cartão deve mostrar
   o valor dessa propriedade para a usuária.**
 
-* A interface deve estruturar semanticamente os dados usando o
-  padrão [microdados](https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata).
-  É obrigatório usar pelo menos os atributos [`itemscope`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope),
+* A interface deve estruturar semanticamente os dados usando o padrão
+  [microdados](https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata).
+  É obrigatório usar pelo menos os atributos
+  [`itemscope`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope),
   [`itemtype`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemtype)
-  e o atributo [`itemprop`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop).
+  e o atributo
+  [`itemprop`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop).
 
   Por exemplo, os seguintes dados correspondentes a Ada Lovelace:
 
@@ -135,7 +138,7 @@ implementadas:
 * A aplicação deve permitir à usuária filtrar os dados. Você usará
   um elemento [`<select>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/select)
   com [um atributo de dados](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Howto/Use_data_attributes)
-  `data-testid="selecionar-filtro"`, e um atributo `name` com o nome
+  `data-testid="select-filter"`, e um atributo `name` com o nome
   da propriedade pela qual irá filtrar (por exemplo, se for filtrar por "tipo",
   o `<select>` terá `name="tipo"`). Os `<option>` deste `<select>` deverão
   ter no atributo `value` o valor do filtro (por exemplo, se for filtrar
@@ -145,19 +148,19 @@ implementadas:
   - Terá pelo menos um controle `<select>` para ordenar.
   - Se usar apenas um controle `<select>`, deve ter
     [um atributo de dados](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Howto/Use_data_attributes)
-    `data-testid="selecionar-ordenar"` e um atributo `name` com o nome da
+    `data-testid="select-sort"` e um atributo `name` com o nome da
     propriedade pela qual irá ordenar (por exemplo, se for ordenar por
     "num" seria `name="num"`). Este `<select>` terá dois [`<option>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option)
     com `value` `asc` e `desc`, para ordenar de forma ascendente e descendente
     respectivamente (por exemplo, `<option value="asc">A - Z</option>`).
   - Uma alternativa é oferecer à usuária uma ordenação mais complexa.
     Pode implementar a ordenação por várias propriedades. Neste caso, seria com
-    um `<select>` com um atributo de dados `data-testid="selecionar-ordenar"`,
+    um `<select>` com um atributo de dados `data-testid="select-sort"`,
     e que contenha filhos `<option>` com um `value` com o nome da propriedade
     pela qual irá ordenar. (Por exemplo, `<option value="nome">Nome</option>`).
     Além disso, você precisará de outro controle (`<radio>`,`<select>`, etc.)
     para indicar se a ordenação é ascendente ou descendente. Esse controle
-    secundário terá um atributo `name="ordem-ordenacao"`, e terá valores
+    secundário terá um atributo `name="sort-order"`, e terá valores
     `asc` e `desc`.
 
 * As funcionalidades de ordenação devem operar sobre os dados filtrados.
@@ -167,7 +170,7 @@ implementadas:
 
 * A aplicação deve permitir à usuária reiniciar a aplicação, limpando
   filtros e ordenamentos, com um `<button>` com um atributo de dados
-  `data-testid="botao-limpar"`.
+  `data-testid="button-clear"`.
 
 * As operações de filtrar, ordenar, limpar, etc. não devem recarregar
   a página, mas sim adicionar conteúdo de maneira
@@ -233,9 +236,6 @@ Recomendamos usar `src/main.js` para todo o seu código relacionado
 interação com o DOM. Operações como criação de nós, registro de
 manipuladores de eventos (_event listeners_ ou _event handlers_).
 
-Esta não é a única maneira de dividir seu código, você pode usar mais arquivos
-e pastas, desde que a estrutura seja clara para suas colegas.
-
 Neste arquivo, você encontrará uma série de _imports_ prontos para _carregar_
 as diferentes fontes de dados.
 
@@ -248,20 +248,23 @@ import data from './data/dataset.js';
 
 ### `src/dataFunctions.js`
 
-O cerne deste projeto é a manipulação de dados por meio de arrays e objetos.
+O cerne deste projeto é a manipulação de dados por meio de arrays
+e objetos.
 
 Este arquivo conterá toda a funcionalidade relacionada a obter,
 processar e manipular dados (suas funções). Por exemplo:
 
 * `filterData(data, filterBy, value)`: esta função recebe três parâmetros.
   O primeiro parâmetro, `data`, fornece os dados.
-  O segundo parâmetro, `filterBy`, indica qual campo dos dados se deseja filtrar.
+  O segundo parâmetro, `filterBy`, indica qual campo dos dados se
+  deseja filtrar.
   O terceiro parâmetro, `value`, indica o valor do campo que se deseja filtrar.
 
 * `sortData(data, sortBy, sortOrder)`: esta função de classificação recebe
   três parâmetros.
   O primeiro parâmetro, `data`, fornece os dados.
-  O segundo parâmetro, `sortBy`, indica qual campo dos dados se deseja ordenar.
+  O segundo parâmetro, `sortBy`, indica qual campo dos
+  dados se deseja ordenar.
   O terceiro parâmetro, `sortOrder`, indica se a ordenação deve ser ascendente
     ou descendente.
 
@@ -304,6 +307,20 @@ Pelo menos uma função é obrigatória:
   os elementos de cada item e deve retornar um elemento DOM ou
   uma string de HTML.
 
+Lembre-se que todas as funções encontradas neste arquivo devem ser
+exportadas para serem usadas em outros arquivos.
+
+Recomendamos esta estrutura que é clara e
+organizada para o projeto, pois facilita o entendimento da navegação e
+escalabilidade do código. Além disso também segue o princípio de design de
+[Separação de responsabilidades](https://dev.to/tamerlang/separation-of-concerns-the-simple-way-4jp2)
+no código, onde cada arquivo e pasta
+tem uma responsabilidade específica. A responsabilidade das funções em
+`view.js` serve para criar partes do DOM com os dados.
+
+Esta não é a única maneira de dividir seu código, você pode usar mais arquivos e
+pastas, desde que a estrutura seja clara para seus colegas.
+
 ## 6. Critérios mínimos de aceitação do projeto
 
 ### Critérios de código
@@ -325,6 +342,19 @@ npm run test:oas-prompting
 npm run test:oas // Esto es para correr todos los tests de OAs
 ```
 
+Executa os testes enquanto desenvolves para confirmar que
+teu projeto está alcançando os objetivos. Se alguns testes não
+passarem, não permitas que isso te impeça de avançar ou finalizar
+o projeto. Utiliza essa informação para identificar o que precisas
+investigar e modificar no teu código, e consulta teu coach
+sobre quaisquer objetivos pendentes.
+
+Nota: para que os testes funcionem corretamente, você precisa ter
+instalado o `Node.js (LTS)` com versão 14.0.0 ou superior. Para verificar
+a versão do node, execute `node -v` no terminal. Se o comando não
+não retorna nenhuma versão, você precisa instalá-la, para isso você pode baixá-la
+de seu [site oficial](https://nodejs.org/).
+
 #### HTML
 
 * **Uso de HTML semântico**
@@ -333,8 +363,14 @@ npm run test:oas // Esto es para correr todos los tests de OAs
   - [ ] Possui um `<footer>`
   - [ ] Possui um `<main>` com um `<h2>`
   - [ ] Todos os elementos de controle (inputs, selects, radio, etc) possuem `<label>`
+  - [ ] Todas as tags `<label>` usam o atributo `for`
   - [ ] Usa `<ul>` para renderizar os dados
-  - [ ] Os filhos de `<li>` usam os atributos de microdados `itemscope` e `itemprop`
+  - [ ] Os filhos de `<li>` usam os atributos de [microdados](https://recursivos.com/html/microdatos/)
+  `itemscope` e `itemprop`
+
+Nota: Tenha em mente que para testar o HTML de `<ul>` e `<li>`
+em seu projeto, É necessário que você já tenha dados criados,
+pois a partir dos dados você pode criará esses elementos.
 
 #### CSS
 
@@ -344,6 +380,11 @@ npm run test:oas // Esto es para correr todos los tests de OAs
   - [ ] Uso de flexbox em sentido `row` e `column`
   - [ ] Uso de flexbox para o elemento que contém os itens
   - [ ] Uso de flexbox para o elemento que contém os inputs UI
+
+* **Modelo de caixa (box model): borda, margem, preenchimento**
+
+  - [ ] Uso de atributos de modelo de caixa para itens `<li>`
+  - [ ] Uso de atributos de modelo de caixa para `<header>` ou `<footer>`
 
 #### Web APIs
 
@@ -430,8 +471,8 @@ resolve o problema (ou problemas) que sua usuária enfrenta.
 
 #### Histórias de usuário
 
-Depois de entender as necessidades das suas usuárias, escreva
-as [Histórias de Usuário](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_de_usu%C3%A1rio)
+Depois de entender as necessidades das suas usuárias, escreva as
+[Histórias de Usuário](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_de_usu%C3%A1rio)
 que representam tudo o que a usuária precisa fazer/ver.
 As **Histórias de Usuário** devem ser o resultado do seu processo de
 pesquisa ou _research_ das suas usuárias.
@@ -552,9 +593,11 @@ localizados em:
 `./src/data/dataset.js`.
 
 As URLs das imagens dentro do arquivo JavaScript devem vincular-se às imagens
-para cada elemento da matriz. Essas imagens podem ser geradas por inteligência
+para cada elemento da matriz.
+Essas imagens podem ser geradas por inteligência
 artificial ou imagens que você pode encontrar na web.
-Para a geração de imagens, recomendamos usar o [gerador de imagens do Bing](https://www.bing.com/create).
+Para a geração de imagens, recomendamos usar o
+[gerador de imagens do Bing](https://www.bing.com/create).
 Assim que tiver a imagem, faça o download dela ou obtenha a URL,
 para adicioná-la ao conjunto de dados.
 
@@ -568,6 +611,11 @@ tempo para compreender profundamente sua usuária e suas
 necessidades específicas. A partir desse entendimento, você poderá projetar a
 interface que facilite uma interação mais eficaz e uma compreensão mais
 completa dos dados apresentados.
+
+Nota: não se preocupe se não estiver utilizando todas as
+informações geradas no conjunto de dados da sua interface,
+mas é necessário gerá-lo completamente. Você usará o
+mesmo conjunto de dados no projeto Dataverse Chat.
 
 #### Prompt usado
 
@@ -709,6 +757,7 @@ Quando estiver pronta para codificar, sugerimos que comece assim:
 * [Object.entries no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
 * [Atributos de dados](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Howto/Use_data_attributes)
 * [expressions-vs-statements](https://2ality.com/2012/09/expressions-vs-statements.html)
+* [expressão vs declaração](https://openclassrooms.com/en/courses/4309531-descubre-las-funciones-en-javascript/5108986-diferencia-entre-expresion-y-sentencia)
 * [Dados atômicos vs dados estruturados](https://www.todojs.com/tipos-datos-javascript-es6/)
 * [Módulos: Export](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export)
 * [Módulos: Import](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import)
@@ -737,31 +786,36 @@ Quando estiver pronta para codificar, sugerimos que comece assim:
 
 ## 10. Considerações para pedir seu Feedback do Projeto
 
-Antes de agendar seu Feedback do Projeto com um coach, assegure-se de que seu projeto:
+Antes de agendar seu Feedback do Projeto com um coach:
 
-* [ ] Cumpre todos os critérios mínimos de aceitação ao executar `npm run test:oas`
-* [ ] Cumpre todos os testes _end to end_ ao executar `npm run test:e2e`
-* [ ] Cumpre todos os testes unitários ao executar `npm run test` e
-  que têm uma cobertura de 70% de _statements_ (_sentenças_),
-  _functions_ (_funções_), _lines_ (_linhas_), e _branches_
-* [ ] Está livre de _erros_ de `eslint` ao executar `npm run pretest`
-* [ ] Está enviado no GitHub e publicado no GitHub Pages
-* [ ] Captura de tela do prompt utilizado para gerar os dados.
+* Atende aos critérios mínimos de aceitação ao executar `npm run test:oas`
+* Passa nos testes unitários ao executar `npm run test` e tem uma cobertura
+  de 70% para _statements_ (afirmações), _functions_ (funções),
+  _lines_ (linhas) e _branches_.
+* Passa nos testes _end to end_ ao executar `npm run test:e2e`
+
+Não é necessário que todos os testes passem com 100% para poder ter tua
+Sessão de Feedback de Projeto. O objetivo dos testes não é te bloquear,
+mas é importante que compreendas quais objetivos ainda estão pendentes
+e discutas com teu orientador se algum deles é crucial para ser alcançado
+antes da tua Sessão de Feedback de Projeto.
+
+Além disso, antes da tua Sessão de Feedback, certifica-te de que:
+
+* Está livre de _erros_ do `eslint` ao executar `npm run pretest`
+* Está hospedado no GitHub e foi implantado no GitHub Pages
+* Possui uma captura de tela do prompt utilizado para gerar os dados.
 * Tem um `README.md` com o seguinte:
-  - [ ] _Definição do produto_ clara e informativa
-  - [ ] Histórias de usuário
-  - [ ] Um _Design da Interface de Usuário_ (protótipo de alta fidelidade)
-  - [ ] A lista de problemas que você detectou por meio de testes
-    de usabilidade no `README.md`
-* Tem uma UI que cumpre as funcionalidades:
-  - [ ] Mostra lista com dados e/ou indicadores
-  - [ ] Permite ordenar dados por um ou mais campos (ascendente e descendente)
-  - [ ] Permite filtrar dados com base em uma condição
-  - [ ] Permite limpar os filtros com um botão
-  - [ ] É _responsiva_
+  - Definição clara e informativa do produto
+  - Histórias de usuário
+  - Design da Interface do Usuário (protótipo de alta fidelidade)
+  - Lista dos problemas identificados por meio de testes de usabilidade no `README.md`
+* Possui uma interface do usuário que atende às seguintes funcionalidades:
+  - Mostra uma lista com dados e/ou indicadores
+  - Permite ordenar dados por um ou mais campos (ascendente e descendente)
+  - Permite filtrar dados com base em uma condição
+  - Permite limpar os filtros com um botão
+  - É responsivo
 
 Lembre-se de fazer uma autoavaliação de _objetivos de aprendizado_ e
 _life skills_ a partir do seu painel do estudante.
-
-Se você não completou todos os itens acima, não consideramos que está pronta para
-sua sessão de Feedback do Projeto.
