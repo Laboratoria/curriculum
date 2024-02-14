@@ -225,6 +225,119 @@
         ]
       }
     ],
+    "python": [
+      {
+        "data-types": [
+          "primitive",
+          "lists",
+          "tuples",
+          "dictionaries",
+          "sets"
+        ]
+      },
+      "variables",
+      "conditionals",
+      "operators",
+      "docstrings",
+      {
+        "functions": [
+          "basic-concepts",
+          "args-kwargs",
+          "closures",
+          "lambda-functions",
+          "decorators"
+        ]
+      },
+      {
+        "iteration": [
+          "loops",
+          "list-comprehension",
+          "functional-techniques"
+        ]
+      },
+      "linting",
+      {
+        "testing": [
+          "unit-tests",
+          "mocks",
+          "fixtures"
+        ]
+      },
+      {
+        "modularization": [
+          "modules",
+          "packages"
+        ]
+      },
+      {
+        "dependency-management": [
+          "pip",
+          "virtual-environment",
+          "requirements-file"
+        ]
+      },
+      "serialization",
+      {
+        "flask": [
+          {
+            "routes": [
+              "route-decorator",
+              "view-function",
+              "variable-rules"
+            ]
+          },
+          {
+            "request": [
+              "args",
+              "headers"
+            ]
+          },
+          {
+            "response": [
+              "response-parts",
+              "jsonify"
+            ]
+          },
+          {
+            "testing": [
+              "fixture-setup",
+              "test-client"
+            ]
+          }
+        ]
+      },
+      {
+        "django": [
+          {
+            "setup": [
+              "migrations",
+              "app"
+            ]
+          },
+          {
+            "models": [
+              "fields",
+              "foreign-Key"
+            ]
+          },
+          "views",
+          "testing",
+          "queryset",
+          "filter",
+          "order-by",
+          "url-configuration",
+          {
+            "rest-framework": [
+              "serializers",
+              "pagination",
+              "query-params",
+              "viewset",
+              "apiview"
+            ]
+          }
+        ]
+      }
+    ],
     "object-oriented-programming": [
       "classes",
       "objects",
@@ -621,6 +734,73 @@
     "java/hibernate-orm/collections",
     "java/hibernate-orm/persistance",
     "java/hibernate-orm/querying",
+    "python",
+    "python/data-types",
+    "python/data-types/primitive",
+    "python/data-types/lists",
+    "python/data-types/tuples",
+    "python/data-types/dictionaries",
+    "python/data-types/sets",
+    "python/variables",
+    "python/conditionals",
+    "python/operators",
+    "python/docstrings",
+    "python/functions",
+    "python/functions/basic-concepts",
+    "python/functions/args-kwargs",
+    "python/functions/closures",
+    "python/functions/lambda-functions",
+    "python/functions/decorators",
+    "python/iteration",
+    "python/iteration/loops",
+    "python/iteration/list-comprehension",
+    "python/iteration/functional-techniques",
+    "python/linting",
+    "python/testing",
+    "python/testing/unit-tests",
+    "python/testing/mocks",
+    "python/testing/fixtures",
+    "python/modularization",
+    "python/modularization/modules",
+    "python/modularization/packages",
+    "python/dependency-management",
+    "python/dependency-management/pip",
+    "python/dependency-management/virtual-environment",
+    "python/dependency-management/requirements-file",
+    "python/serialization",
+    "python/flask",
+    "python/flask/routes",
+    "python/flask/routes/route-decorator",
+    "python/flask/routes/view-function",
+    "python/flask/routes/variable-rules",
+    "python/flask/request",
+    "python/flask/request/args",
+    "python/flask/request/headers",
+    "python/flask/response",
+    "python/flask/response/response-parts",
+    "python/flask/response/jsonify",
+    "python/flask/testing",
+    "python/flask/testing/fixture-setup",
+    "python/flask/testing/test-client",
+    "python/django",
+    "python/django/setup",
+    "python/django/setup/migrations",
+    "python/django/setup/app",
+    "python/django/models",
+    "python/django/models/fields",
+    "python/django/models/foreign-Key",
+    "python/django/views",
+    "python/django/testing",
+    "python/django/queryset",
+    "python/django/filter",
+    "python/django/order-by",
+    "python/django/url-configuration",
+    "python/django/rest-framework",
+    "python/django/rest-framework/serializers",
+    "python/django/rest-framework/pagination",
+    "python/django/rest-framework/query-params",
+    "python/django/rest-framework/viewset",
+    "python/django/rest-framework/apiview",
     "object-oriented-programming",
     "object-oriented-programming/classes",
     "object-oriented-programming/objects",
@@ -1749,6 +1929,595 @@
       },
       "object-oriented-programming/unified-model-language": {
         "title": "Lenguaje de Modelado Unificado (UML, class diagrams)"
+      },
+      "python": {
+        "title": "Python"
+      },
+      "python/data-types": {
+        "title": "Tipos de datos"
+      },
+      "python/data-types/primitive": {
+        "title": "Tipos de datos primitivos (int, float, str, bool)",
+        "links": [
+          {
+            "title": "Data Types - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/library/datatypes.html"
+          },
+          {
+            "title": "Data types in Python (en inglés)",
+            "url": "https://www.educative.io/answers/data-types-in-python"
+          }
+        ]
+      },
+      "python/data-types/lists": {
+        "title": "Listas (arrays)",
+        "links": [
+          {
+            "title": "Lists - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/tutorial/datastructures.html#more-on-lists"
+          },
+          {
+            "title": "Lists and Tuples in Python - Real Python (en inglés)",
+            "url": "https://realpython.com/python-lists-tuples/"
+          }
+        ]
+      },
+      "python/data-types/tuples": {
+        "title": "Tuples",
+        "links": [
+          {
+            "title": "Tuples - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences"
+          },
+          {
+            "title": "Lists and Tuples in Python - Real Python (en inglés)",
+            "url": "https://realpython.com/python-lists-tuples/"
+          }
+        ]
+      },
+      "python/data-types/dictionaries": {
+        "title": "Dictionaries (Dicts)",
+        "links": [
+          {
+            "title": "Dictionaries - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+          },
+          {
+            "title": "Dictionaries in Python - Real Python (en inglés)",
+            "url": "https://realpython.com/python-dicts/"
+          }
+        ]
+      },
+      "python/data-types/sets": {
+        "title": "Sets",
+        "links": [
+          {
+            "title": "Sets - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/tutorial/datastructures.html#sets"
+          },
+          {
+            "title": "Sets in Python - Real Python (en inglés)",
+            "url": "https://realpython.com/python-sets/"
+          }
+        ]
+      },
+      "python/variables": {
+        "title": "Variables (declaración, asignación, ámbito)",
+        "links": [
+          {
+            "title": "Variables in Python – Real Python (en inglés)",
+            "url": "https://realpython.com/python-variables/"
+          },
+          {
+            "title": "Variables in Python - GeeksforGeeks (en inglés)",
+            "url": "https://www.geeksforgeeks.org/python-variables/"
+          }
+        ]
+      },
+      "python/conditionals": {
+        "title": "Uso de condicionales (if, elif, ternario)",
+        "links": [
+          {
+            "title": "Conditional Statements in Python – Real Python (en inglés)",
+            "url": "https://realpython.com/python-conditional-statements/"
+          }
+        ]
+      },
+      "python/operators": {
+        "title": "Operadores (identidad, aritméticos, comparación etc)",
+        "links": [
+          {
+            "title": "Python Operators - GeeksforGeeks (en inglés)",
+            "url": "https://www.geeksforgeeks.org/python-operators/"
+          }
+        ]
+      },
+      "python/functions": {
+        "title": "Funciones"
+      },
+      "python/functions/basic-concepts": {
+        "title": "Conceptos basicos (params, args, default values, return)",
+        "links": [
+          {
+            "title": "Python Functions - GeeksforGeeks (en ingles)",
+            "url": "https://www.geeksforgeeks.org/python-functions/"
+          }
+        ]
+      },
+      "python/functions/args-kwargs": {
+        "title": "*args y **kwargs",
+        "links": [
+          {
+            "title": "*args and **kwargs in Python - GeeksforGeeks (en inglés)",
+            "url": "https://www.geeksforgeeks.org/args-kwargs-python/"
+          }
+        ]
+      },
+      "python/functions/lambda-functions": {
+        "title": "Funciones lambda",
+        "links": [
+          {
+            "title": "Lambda Functions - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions"
+          },
+          {
+            "title": "How to Use Python Lambda Functions – Real Python (en inglés)",
+            "url": "https://realpython.com/python-lambda/"
+          }
+        ]
+      },
+      "python/functions/closures": {
+        "title": "Cierres (closures)",
+        "links": [
+          {
+            "title": "Closures - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/reference/datamodel.html#emulating-closures-and-nested-scope"
+          }
+        ]
+      },
+      "python/functions/decorators": {
+        "title": "Decoradores",
+        "links": [
+          {
+            "title": "Decorators - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/glossary.html#term-decorator"
+          },
+          {
+            "title": "Decorators in Python - Geeks for Geeks (en inglés)",
+            "url": "https://www.geeksforgeeks.org/decorators-in-python/"
+          }
+        ]
+      },
+      "python/iteration": {
+        "title": "Iteración"
+      },
+      "python/iteration/loops": {
+        "title": "Uso de bucles/ciclos (while, for..in)",
+        "links": [
+          {
+            "title": "Loops in Python - For, While and Nested Loops - GeeksforGeeks",
+            "url": "https://www.geeksforgeeks.org/loops-in-python/"
+          },
+          {
+            "title": "Loops - Learn Python - Free Interactive Python Tutorial",
+            "url": "https://www.learnpython.org/en/Loops"
+          }
+        ]
+      },
+      "python/iteration/list-comprehension": {
+        "title": "Comprensión de listas",
+        "links": [
+          {
+            "title": "List Comprehension - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions"
+          },
+          {
+            "title": "List Comprehension in Python - GeeksforGeeks (en inglés)",
+            "url": "https://www.geeksforgeeks.org/list-comprehensions-in-python/"
+          },
+          {
+            "title": "When to Use a List Comprehension in Python – Real Python (en inglés)",
+            "url": "https://realpython.com/list-comprehension-python/"
+          }
+        ]
+      },
+      "python/iteration/functional-techniques": {
+        "title": "Técnicas funcionales (map, filter, reduce)",
+        "links": [
+          {
+            "title": "Our Guide to Map, Filter, and Reduce Functions in Python - Udacity (en inglés)",
+            "url": "https://www.udacity.com/blog/2020/12/our-guide-to-map-filter-and-reduce-functions-in-python.html"
+          },
+          {
+            "title": "Map, Filter, Reduce - Learn Python - Free Interactive Python Tutorial (en inglés)",
+            "url": "https://www.learnpython.org/en/Map%2C_Filter%2C_Reduce"
+          }
+        ]
+      },
+      "python/docstrings": {
+        "title": "Docstrings (y su diferencia de comentarios)",
+        "links": [
+          {
+            "title": "Docstrings - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/tutorial/controlflow.html#documentation-strings"
+          }
+        ]
+      },
+      "python/linting": {
+        "title": "Linting (pylint)",
+        "links": [
+          {
+            "title": "Pylint - Documentación oficial",
+            "url": "https://pylint.pycqa.org/en/latest/"
+          },
+          {
+            "title": "Linting Python in Visual Studio Code - Visual Studio Code Docs (en inglés)",
+            "url": "https://code.visualstudio.com/docs/python/linting"
+          }
+        ]
+      },
+      "python/testing": {
+        "title": "Testing en Python"
+      },
+      "python/testing/unit-tests": {
+        "title": "Pruebas unitarias (unit tests, unittest, pytest)",
+        "links": [
+          {
+            "title": "unittest - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/library/unittest.html"
+          },
+          {
+            "title": "pytest - Documentación oficial",
+            "url": "https://docs.pytest.org/en/6.2.x/"
+          }
+        ]
+      },
+      "python/testing/mocks": {
+        "title": "Uso de mocks (y patch)",
+        "links": [
+          {
+            "title": "unittest.mock - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/library/unittest.mock.html"
+          },
+          {
+            "title": "Python Mock Library - Real Python (en inglés)",
+            "url": "https://realpython.com/python-mock-library/"
+          }
+        ]
+      },
+      "python/testing/fixtures": {
+        "title": "Uso de fixtures",
+        "links": [
+          {
+            "title": "pytest fixtures - Documentación oficial",
+            "url": "https://docs.pytest.org/en/6.2.x/fixture.html"
+          }
+        ]
+      },
+      "python/modularization": {
+        "title": "Modularización"
+      },
+      "python/modularization/modules": {
+        "title": "Módulos",
+        "links": [
+          {
+            "title": "Módulos - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/tutorial/modules.html"
+          }
+        ]
+      },
+      "python/modularization/packages": {
+        "title": "Paquetes",
+        "links": [
+          {
+            "title": "Paquetes - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/tutorial/modules.html#packages"
+          }
+        ]
+      },
+      "python/dependency-management": {
+        "title": "Manejo de dependencias"
+      },
+      "python/dependency-management/pip": {
+        "title": "pip (instalación y uso de paquetes)",
+        "links": [
+          {
+            "title": "pip - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/installing/index.html"
+          }
+        ]
+      },
+      "python/dependency-management/virtual-environment": {
+        "title": "Virtual Environment (ambientes virtuales, virtualenv)",
+        "links": [
+          {
+            "title": "venv — Creation of virtual environments — Python 3.12.2 documentation (en inglés)",
+            "url": "https://docs.python.org/3/library/venv.html"
+          },
+          {
+            "title": "Python Virtual Environments: A Primer – Real Python (en inglés)",
+            "url": "https://realpython.com/python-virtual-environments-a-primer/"
+          }
+        ]
+      },
+      "python/dependency-management/requirements-file": {
+        "title": "requirements.txt",
+        "links": [
+          {
+            "title": "requirements.txt - Documentación oficial",
+            "url": "https://pip.pypa.io/en/stable/user_guide/#requirements-files"
+          }
+        ]
+      },
+      "python/serialization": {
+        "title": "Serialización (y deserialización)",
+        "links": [
+          {
+            "title": "Serialize Your Data With Python – Real Python (en inglés)",
+            "url": "https://realpython.com/python-serialize-data/"
+          }
+        ]
+      },
+      "python/flask": {
+        "title": "Flask",
+        "links": [
+          {
+            "title": "Flask - Documentación oficial",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/"
+          },
+          {
+            "title": "Flask - Tutorial oficial",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/tutorial/"
+          }
+        ]
+      },
+      "python/flask/routes": {
+        "title": "Rutas"
+      },
+      "python/flask/routes/route-decorator": {
+        "title": "Decorador de ruta",
+        "links": [
+          {
+            "title": "Routing - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#routing"
+          }
+        ]
+      },
+      "python/flask/routes/view-function": {
+        "title": "Función de vista",
+        "links": [
+          {
+            "title": "View Functions - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#view-functions"
+          }
+        ]
+      },
+      "python/flask/routes/variable-rules": {
+        "title": "Reglas de variables (urls dinamica)",
+        "links": [
+          {
+            "title": "Variable Rules - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#variable-rules"
+          }
+        ]
+      },
+      "python/flask/request": {
+        "title": "Request Object"
+      },
+      "python/flask/request/args": {
+        "title": "Argumentos",
+        "links": [
+          {
+            "title": "Request - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/2.0.x/quickstart/#accessing-request-data"
+          }
+        ]
+      },
+      "python/flask/request/headers": {
+        "title": "Cabeceras",
+        "links": [
+          {
+            "title": "Request - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/2.0.x/quickstart/#accessing-request-data"
+          }
+        ]
+      },
+      "python/flask/response": {
+        "title": "Response Object"
+      },
+      "python/flask/response/response-parts": {
+        "title": "Partes de la respuesta (status, body, headers)",
+        "links": [
+          {
+            "title": "Response - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/2.0.x/quickstart/#about-responses"
+          }
+        ]
+      },
+      "python/flask/response/jsonify": {
+        "title": "jsonify",
+        "links": [
+          {
+            "title": "jsonify - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/2.0.x/api/#flask.json.jsonify"
+          }
+        ]
+      },
+      "python/flask/testing": {
+        "title": "Testing en Flask"
+      },
+      "python/flask/testing/fixture-setup": {
+        "title": "Configuración de fixtures",
+        "links": [
+          {
+            "title": "Testing - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/2.0.x/testing/"
+          }
+        ]
+      },
+      "python/flask/testing/test-client": {
+        "title": "Test Client",
+        "links": [
+          {
+            "title": "Testing - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/2.0.x/testing/"
+          }
+        ]
+      },
+      "python/django": {
+        "title": "Django"
+      },
+      "python/django/setup": {
+        "title": "Configuración"
+      },
+      "python/django/setup/migrations": {
+        "title": "Migraciones",
+        "links": [
+          {
+            "title": "Migraciones",
+            "url": "https://docs.djangoproject.com/es/5.0/topics/migrations/#module-django.db.migrations"
+          }
+        ]
+      },
+      "python/django/setup/app": {
+        "title": "Setup app",
+        "links": [
+          {
+            "title": "Installed apps",
+            "url": "https://docs.djangoproject.com/es/5.0/ref/settings/#std-setting-INSTALLED_APPS"
+          }
+        ]
+      },
+      "python/django/models": {
+        "title": "Modelos"
+      },
+      "python/django/models/fields": {
+        "title": "Fields",
+        "links": [
+          {
+            "title": "Field types",
+            "url": "https://docs.djangoproject.com/en/5.0/topics/db/models/#Fields"
+          }
+        ]
+      },
+      "python/django/models/foreign-Key": {
+        "title": "Foreign Key",
+        "links": [
+          {
+            "title": "Model field reference",
+            "url": "https://docs.djangoproject.com/en/5.0/ref/models/fields/"
+          }
+        ]
+      },
+      "python/django/views": {
+        "title": "Views",
+        "links": [
+          {
+            "title": "Base views",
+            "url": "https://docs.djangoproject.com/en/5.0/ref/class-based-views/base/"
+          }
+        ]
+      },
+      "python/django/testing": {
+        "title": "Testing",
+        "links": [
+          {
+            "title": "Testing in Django",
+            "url": "https://docs.djangoproject.com/en/5.0/topics/testing/"
+          },
+          {
+            "title": "Testing rest framework",
+            "url": "https://www.django-rest-framework.org/api-guide/testing/#testing"
+          }
+        ]
+      },
+      "python/django/queryset": {
+        "title": "queryset",
+        "links": [
+          {
+            "title": "The queryset argument",
+            "url": "https://www.django-rest-framework.org/api-guide/relations/#the-queryset-argument"
+          }
+        ]
+      },
+      "python/django/filter": {
+        "title": "Filter",
+        "links": [
+          {
+            "title": "Filtering",
+            "url": "https://www.django-rest-framework.org/api-guide/filtering/"
+          }
+        ]
+      },
+      "python/django/order-by": {
+        "title": "Order By",
+        "links": [
+          {
+            "title": "OrderingFilter",
+            "url": "https://www.django-rest-framework.org/api-guide/filtering/#orderingfilter"
+          }
+        ]
+      },
+      "python/django/url-configuration": {
+        "title": "URLs (Path, URLconf, urlpatterns)",
+        "links": [
+          {
+            "title": "Django URLs",
+            "url": "https://tutorial.djangogirls.org/en/django_urls/"
+          },
+          {
+            "title": "URL dispatcher",
+            "url": "https://docs.djangoproject.com/en/5.0/topics/http/urls/"
+          }
+        ]
+      },
+      "python/django/rest-framework": {
+        "title": "Rest Framework"
+      },
+      "python/django/rest-framework/serializers": {
+        "title": "Serializers",
+        "links": [
+          {
+            "title": "Serializers",
+            "url": "https://www.django-rest-framework.org/community/third-party-packages/#serializers"
+          }
+        ]
+      },
+      "python/django/rest-framework/pagination": {
+        "title": "Pagination",
+        "links": [
+          {
+            "title": "Pagination",
+            "url": "https://www.django-rest-framework.org/api-guide/pagination/#pagination"
+          }
+        ]
+      },
+      "python/django/rest-framework/query-params": {
+        "title": "Query params",
+        "links": [
+          {
+            "title": "query_params",
+            "url": "https://www.django-rest-framework.org/api-guide/requests/#query_params"
+          }
+        ]
+      },
+      "python/django/rest-framework/viewset": {
+        "title": "ViewSet",
+        "links": [
+          {
+            "title": "ViewSet",
+            "url": "https://www.django-rest-framework.org/api-guide/viewsets/#viewset"
+          }
+        ]
+      },
+      "python/django/rest-framework/apiview": {
+        "title": "Apiview",
+        "links": [
+          {
+            "title": "GenericAPIView",
+            "url": "https://www.django-rest-framework.org/api-guide/generic-views/#genericapiview"
+          }
+        ]
       },
       "webops": {
         "title": "WebOps"
@@ -4112,6 +4881,599 @@
       "object-oriented-programming/unified-model-language": {
         "title": "Linguagem de Modelagem Unificada (UML, diagramas de classe)"
       },
+      "python": {
+        "title": "Python"
+      },
+      "python/data-types": {
+        "title": "Tipos de dados"
+      },
+      "python/data-types/primitive": {
+        "title": "Tipos de dados primitivos (int, float, str, bool)",
+        "links": [
+          {
+            "title": "Data Types - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/library/datatypes.html"
+          },
+          {
+            "title": "Data types in Python (em inglês)",
+            "url": "https://www.educative.io/answers/data-types-in-python"
+          }
+        ]
+      },
+      "python/data-types/lists": {
+        "title": "Listas (arrays)",
+        "links": [
+          {
+            "title": "Lists - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/tutorial/datastructures.html#more-on-lists"
+          },
+          {
+            "title": "Lists and Tuples in Python - Real Python (em inglês)",
+            "url": "https://realpython.com/python-lists-tuples/"
+          }
+        ]
+      },
+      "python/data-types/tuples": {
+        "title": "Tuples",
+        "links": [
+          {
+            "title": "Tuples - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences"
+          },
+          {
+            "title": "Lists and Tuples in Python - Real Python (em inglês)",
+            "url": "https://realpython.com/python-lists-tuples/"
+          }
+        ]
+      },
+      "python/data-types/dictionaries": {
+        "title": "Dictionaries (Dicts)",
+        "links": [
+          {
+            "title": "Dictionaries - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+          },
+          {
+            "title": "Dictionaries in Python - Real Python (em inglês)",
+            "url": "https://realpython.com/python-dicts/"
+          }
+        ]
+      },
+      "python/data-types/sets": {
+        "title": "Sets",
+        "links": [
+          {
+            "title": "Sets - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/tutorial/datastructures.html#sets"
+          },
+          {
+            "title": "Sets in Python - Real Python (em inglês)",
+            "url": "https://realpython.com/python-sets/"
+          }
+        ]
+      },
+      "python/variables": {
+        "title": "Variáveis (declaração, atribuição, escopo)",
+        "links": [
+          {
+            "title": "Variables in Python – Real Python (em inglês)",
+            "url": "https://realpython.com/python-variables/"
+          },
+          {
+            "title": "Variables in Python - GeeksforGeeks (em inglês)",
+            "url": "https://www.geeksforgeeks.org/python-variables/"
+          }
+        ]
+      },
+      "python/conditionals": {
+        "title": "Uso de condicionais (if, elif, ternário)",
+        "links": [
+          {
+            "title": "Conditional Statements in Python – Real Python (em inglês)",
+            "url": "https://realpython.com/python-conditional-statements/"
+          }
+        ]
+      },
+      "python/operators": {
+        "title": "Operadores (identidade, aritméticos, comparação etc)",
+        "links": [
+          {
+            "title": "Python Operators - GeeksforGeeks (em inglês)",
+            "url": "https://www.geeksforgeeks.org/python-operators/"
+          }
+        ]
+      },
+      "python/functions": {
+        "title": "Funções"
+      },
+      "python/functions/basic-concepts": {
+        "title": "Conceitos básicos (parâmetros, argumentos, valores padrão, retorno)",
+        "links": [
+          {
+            "title": "Defining Functions - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/tutorial/controlflow.html#defining-functions"
+          },
+          {
+            "title": "Python Functions - GeeksforGeeks (em inglês)",
+            "url": "https://www.geeksforgeeks.org/python-functions/"
+          }
+        ]
+      },
+      "python/functions/args-kwargs": {
+        "title": "*args e **kwargs",
+        "links": [
+          {
+            "title": "*args and **kwargs in Python - GeeksforGeeks (em inglês)",
+            "url": "https://www.geeksforgeeks.org/args-kwargs-python/"
+          }
+        ]
+      },
+      "python/functions/lambda-functions": {
+        "title": "Funções lambda",
+        "links": [
+          {
+            "title": "Lambda Functions - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions"
+          },
+          {
+            "title": "How to Use Python Lambda Functions – Real Python (em inglês)",
+            "url": "https://realpython.com/python-lambda/"
+          }
+        ]
+      },
+      "python/functions/closures": {
+        "title": "Encerramentos (closures)",
+        "links": [
+          {
+            "title": "Closures - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/reference/datamodel.html#emulating-closures-and-nested-scope"
+          }
+        ]
+      },
+      "python/functions/decorators": {
+        "title": "Decoradores",
+        "links": [
+          {
+            "title": "Decorators - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/glossary.html#term-decorator"
+          },
+          {
+            "title": "Decorators in Python - Geeks for Geeks (em inglês)",
+            "url": "https://www.geeksforgeeks.org/decorators-in-python/"
+          }
+        ]
+      },
+      "python/iteration": {
+        "title": "Iteração"
+      },
+      "python/iteration/loops": {
+        "title": "Uso de loops (while, for..in)",
+        "links": [
+          {
+            "title": "Loops in Python - For, While and Nested Loops - GeeksforGeeks",
+            "url": "https://www.geeksforgeeks.org/loops-in-python/"
+          },
+          {
+            "title": "Loops - Learn Python - Free Interactive Python Tutorial",
+            "url": "https://www.learnpython.org/en/Loops"
+          }
+        ]
+      },
+      "python/iteration/list-comprehension": {
+        "title": "Compreensão de listas",
+        "links": [
+          {
+            "title": "List Comprehension - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions"
+          },
+          {
+            "title": "List Comprehension in Python - GeeksforGeeks (em inglês)",
+            "url": "https://www.geeksforgeeks.org/list-comprehensions-in-python/"
+          },
+          {
+            "title": "When to Use a List Comprehension in Python – Real Python",
+            "url": "https://realpython.com/list-comprehension-python/"
+          }
+        ]
+      },
+      "python/iteration/functional-techniques": {
+        "title": "Técnicas funcionais (map, filter, reduce)",
+        "links": [
+          {
+            "title": "Our Guide to Map, Filter, and Reduce Functions in Python - Udacity (em inglês)",
+            "url": "https://www.udacity.com/blog/2020/12/our-guide-to-map-filter-and-reduce-functions-in-python.html"
+          },
+          {
+            "title": "Map, Filter, Reduce - Learn Python - Free Interactive Python Tutorial (em inglês)",
+            "url": "https://www.learnpython.org/en/Map%2C_Filter%2C_Reduce"
+          }
+        ]
+      },
+      "python/docstrings": {
+        "title": "Docstrings (e sua diferença de comentários)",
+        "links": [
+          {
+            "title": "Docstrings - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/tutorial/controlflow.html#documentation-strings"
+          }
+        ]
+      },
+      "python/linting": {
+        "title": "Linting (pylint)",
+        "links": [
+          {
+            "title": "Pylint - Documentação oficial",
+            "url": "https://pylint.pycqa.org/en/latest/"
+          },
+          {
+            "title": "Linting Python in Visual Studio Code - Visual Studio Code Docs (em inglês)",
+            "url": "https://code.visualstudio.com/docs/python/linting"
+          }
+        ]
+      },
+      "python/testing": {
+        "title": "Testes em Python"
+      },
+      "python/testing/unit-tests": {
+        "title": "Testes unitários (unit tests, unittest, pytest)",
+        "links": [
+          {
+            "title": "unittest - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/library/unittest.html"
+          },
+          {
+            "title": "pytest - Documentação oficial",
+            "url": "https://docs.pytest.org/en/6.2.x/"
+          }
+        ]
+      },
+      "python/testing/mocks": {
+        "title": "Uso de mocks (e patch)",
+        "links": [
+          {
+            "title": "unittest.mock - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/library/unittest.mock.html"
+          },
+          {
+            "title": "unittest.mock - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/library/unittest.mock.html"
+          }
+        ]
+      },
+      "python/testing/fixtures": {
+        "title": "Uso de fixtures",
+        "links": [
+          {
+            "title": "Fixtures do pytest - Documentação oficial",
+            "url": "https://docs.pytest.org/en/6.2.x/fixture.html"
+          }
+        ]
+      },
+      "python/modularization": {
+        "title": "Modularização"
+      },
+      "python/modularization/modules": {
+        "title": "Módulos",
+        "links": [
+          {
+            "title": "Módulos - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/tutorial/modules.html"
+          }
+        ]
+      },
+      "python/modularization/packages": {
+        "title": "Pacotes",
+        "links": [
+          {
+            "title": "Pacotes - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/tutorial/modules.html#packages"
+          }
+        ]
+      },
+      "python/dependency-management": {
+        "title": "Gerenciamento de dependências"
+      },
+      "python/dependency-management/pip": {
+        "title": "pip (instalação e uso de pacotes)",
+        "links": [
+          {
+            "title": "pip - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/installing/index.html"
+          }
+        ]
+      },
+      "python/dependency-management/virtual-environment": {
+        "title": "Ambiente Virtual (ambientes virtuais, virtualenv)",
+        "links": [
+          {
+            "title": "venv — Creation of virtual environments — Python 3.12.2 documentation (em inglês)",
+            "url": "https://docs.python.org/3/library/venv.html"
+          },
+          {
+            "title": "Python Virtual Environments: A Primer – Real Python (em inglês)",
+            "url": "https://realpython.com/python-virtual-environments-a-primer/"
+          }
+        ]
+      },
+      "python/dependency-management/requirements-file": {
+        "title": "requirements.txt",
+        "links": [
+          {
+            "title": "requirements.txt - Documentação oficial",
+            "url": "https://pip.pypa.io/en/stable/user_guide/#requirements-files"
+          }
+        ]
+      },
+      "python/serialization": {
+        "title": "Serialização (e deserialização)",
+        "links": [
+          {
+            "title": "Serialize Your Data With Python – Real Python (em inglês)",
+            "url": "https://realpython.com/python-serialize-data/"
+          }
+        ]
+      },
+      "python/flask": {
+        "title": "Flask",
+        "links": [
+          {
+            "title": "Flask - Documentação oficial",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/"
+          },
+          {
+            "title": "Flask - Tutorial oficial",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/tutorial/"
+          }
+        ]
+      },
+      "python/flask/routes": {
+        "title": "Rotas"
+      },
+      "python/flask/routes/route-decorator": {
+        "title": "Decorador de rota",
+        "links": [
+          {
+            "title": "Routing - Flask Docs (em inglês)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#routing"
+          }
+        ]
+      },
+      "python/flask/routes/view-function": {
+        "title": "Função de visualização",
+        "links": [
+          {
+            "title": "Funções de visualização - Flask Docs (em inglês)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#view-functions"
+          }
+        ]
+      },
+      "python/flask/routes/variable-rules": {
+        "title": "Regras de variáveis (urls dinâmicas)",
+        "links": [
+          {
+            "title": "Regras de Variáveis - Flask Docs (em inglês)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#variable-rules"
+          }
+        ]
+      },
+      "python/flask/request": {
+        "title": "Objeto de Requisição"
+      },
+      "python/flask/request/args": {
+        "title": "Argumentos",
+        "links": [
+          {
+            "title": "Requisição - Flask Docs (em inglês)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#accessing-request-data"
+          }
+        ]
+      },
+      "python/flask/request/headers": {
+        "title": "Cabeçalhos",
+        "links": [
+          {
+            "title": "Requisição - Flask Docs (em inglês)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#accessing-request-data"
+          }
+        ]
+      },
+      "python/flask/response": {
+        "title": "Objeto de Resposta"
+      },
+      "python/flask/response/response-parts": {
+        "title": "Partes da resposta (status, corpo, cabeçalhos)",
+        "links": [
+          {
+            "title": "Resposta - Flask Docs (em inglês)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#about-responses"
+          }
+        ]
+      },
+      "python/flask/response/jsonify": {
+        "title": "jsonify",
+        "links": [
+          {
+            "title": "jsonify - Flask Docs (em inglês)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/api/#flask.json.jsonify"
+          }
+        ]
+      },
+      "python/flask/testing": {
+        "title": "Testando no Flask"
+      },
+      "python/flask/testing/fixture-setup": {
+        "title": "Configuração de fixtures",
+        "links": [
+          {
+            "title": "Testando - Flask Docs (em inglês)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/testing/"
+          }
+        ]
+      },
+      "python/flask/testing/test-client": {
+        "title": "Cliente de teste",
+        "links": [
+          {
+            "title": "Testando - Flask Docs (em inglês)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/testing/"
+          }
+        ]
+      },
+      "python/django": {
+        "title": "Django"
+      },
+      "python/django/setup": {
+        "title": "Configuração"
+      },
+      "python/django/setup/migrations": {
+        "title": "Migrações",
+        "links": [
+          {
+            "title": "Migrações",
+            "url": "https://docs.djangoproject.com/es/5.0/topics/migrations/#module-django.db.migrations"
+          }
+        ]
+      },
+      "python/django/setup/app": {
+        "title": "Configuração do aplicativo",
+        "links": [
+          {
+            "title": "Aplicativos instalados",
+            "url": "https://docs.djangoproject.com/es/5.0/ref/settings/#std-setting-INSTALLED_APPS"
+          }
+        ]
+      },
+      "python/django/models": {
+        "title": "Modelos"
+      },
+      "python/django/models/fields": {
+        "title": "Campos",
+        "links": [
+          {
+            "title": "Tipos de campos",
+            "url": "https://docs.djangoproject.com/en/5.0/topics/db/models/#Fields"
+          }
+        ]
+      },
+      "python/django/models/foreign-Key": {
+        "title": "Chave Estrangeira",
+        "links": [
+          {
+            "title": "Referência do campo do modelo",
+            "url": "https://docs.djangoproject.com/en/5.0/ref/models/fields/"
+          }
+        ]
+      },
+      "python/django/views": {
+        "title": "Visualizações",
+        "links": [
+          {
+            "title": "Visualizações base",
+            "url": "https://docs.djangoproject.com/en/5.0/ref/class-based-views/base/"
+          }
+        ]
+      },
+      "python/django/testing": {
+        "title": "Testando",
+        "links": [
+          {
+            "title": "Testando no Django",
+            "url": "https://docs.djangoproject.com/en/5.0/topics/testing/"
+          },
+          {
+            "title": "Testando o framework rest",
+            "url": "https://www.django-rest-framework.org/api-guide/testing/#testing"
+          }
+        ]
+      },
+      "python/django/queryset": {
+        "title": "queryset",
+        "links": [
+          {
+            "title": "O argumento queryset",
+            "url": "https://www.django-rest-framework.org/api-guide/relations/#the-queryset-argument"
+          }
+        ]
+      },
+      "python/django/filter": {
+        "title": "Filtro",
+        "links": [
+          {
+            "title": "Filtragem",
+            "url": "https://www.django-rest-framework.org/api-guide/filtering/"
+          }
+        ]
+      },
+      "python/django/order-by": {
+        "title": "Ordenar Por",
+        "links": [
+          {
+            "title": "OrderingFilter",
+            "url": "https://www.django-rest-framework.org/api-guide/filtering/#orderingfilter"
+          }
+        ]
+      },
+      "python/django/url-configuration": {
+        "title": "URLs (Path, URLconf, urlpatterns)",
+        "links": [
+          {
+            "title": "URLs do Django",
+            "url": "https://tutorial.djangogirls.org/en/django_urls/"
+          },
+          {
+            "title": "Despachador de URL",
+            "url": "https://docs.djangoproject.com/en/5.0/topics/http/urls/"
+          }
+        ]
+      },
+      "python/django/rest-framework": {
+        "title": "Rest Framework"
+      },
+      "python/django/rest-framework/serializers": {
+        "title": "Serializadores",
+        "links": [
+          {
+            "title": "Serializadores",
+            "url": "https://www.django-rest-framework.org/community/third-party-packages/#serializers"
+          }
+        ]
+      },
+      "python/django/rest-framework/pagination": {
+        "title": "Paginação",
+        "links": [
+          {
+            "title": "Paginação",
+            "url": "https://www.django-rest-framework.org/api-guide/pagination/#pagination"
+          }
+        ]
+      },
+      "python/django/rest-framework/query-params": {
+        "title": "Parâmetros da consulta",
+        "links": [
+          {
+            "title": "query_params",
+            "url": "https://www.django-rest-framework.org/api-guide/requests/#query_params"
+          }
+        ]
+      },
+      "python/django/rest-framework/viewset": {
+        "title": "ViewSet",
+        "links": [
+          {
+            "title": "ViewSet",
+            "url": "https://www.django-rest-framework.org/api-guide/viewsets/#viewset"
+          }
+        ]
+      },
+      "python/django/rest-framework/apiview": {
+        "title": "Apiview",
+        "links": [
+          {
+            "title": "GenericAPIView",
+            "url": "https://www.django-rest-framework.org/api-guide/generic-views/#genericapiview"
+          }
+        ]
+      },
       "webops": {
         "title": "WebOps"
       },
@@ -6001,6 +7363,341 @@
       "key": "java/hibernate-orm/querying",
       "es": "Consultas",
       "pt": "Consultas"
+    },
+    {
+      "key": "python",
+      "es": "Python",
+      "pt": "Python"
+    },
+    {
+      "key": "python/data-types",
+      "es": "Tipos de datos",
+      "pt": "Tipos de dados"
+    },
+    {
+      "key": "python/data-types/primitive",
+      "es": "Tipos de datos primitivos (int, float, str, bool)",
+      "pt": "Tipos de dados primitivos (int, float, str, bool)"
+    },
+    {
+      "key": "python/data-types/lists",
+      "es": "Listas (arrays)",
+      "pt": "Listas (arrays)"
+    },
+    {
+      "key": "python/data-types/tuples",
+      "es": "Tuples",
+      "pt": "Tuples"
+    },
+    {
+      "key": "python/data-types/dictionaries",
+      "es": "Dictionaries (Dicts)",
+      "pt": "Dictionaries (Dicts)"
+    },
+    {
+      "key": "python/data-types/sets",
+      "es": "Sets",
+      "pt": "Sets"
+    },
+    {
+      "key": "python/variables",
+      "es": "Variables (declaración, asignación, ámbito)",
+      "pt": "Variáveis (declaração, atribuição, escopo)"
+    },
+    {
+      "key": "python/conditionals",
+      "es": "Uso de condicionales (if, elif, ternario)",
+      "pt": "Uso de condicionais (if, elif, ternário)"
+    },
+    {
+      "key": "python/operators",
+      "es": "Operadores (identidad, aritméticos, comparación etc)",
+      "pt": "Operadores (identidade, aritméticos, comparação etc)"
+    },
+    {
+      "key": "python/docstrings",
+      "es": "Docstrings (y su diferencia de comentarios)",
+      "pt": "Docstrings (e sua diferença de comentários)"
+    },
+    {
+      "key": "python/functions",
+      "es": "Funciones",
+      "pt": "Funções"
+    },
+    {
+      "key": "python/functions/basic-concepts",
+      "es": "Conceptos basicos (params, args, default values, return)",
+      "pt": "Conceitos básicos (parâmetros, argumentos, valores padrão, retorno)"
+    },
+    {
+      "key": "python/functions/args-kwargs",
+      "es": "*args y **kwargs",
+      "pt": "*args e **kwargs"
+    },
+    {
+      "key": "python/functions/closures",
+      "es": "Cierres (closures)",
+      "pt": "Encerramentos (closures)"
+    },
+    {
+      "key": "python/functions/lambda-functions",
+      "es": "Funciones lambda",
+      "pt": "Funções lambda"
+    },
+    {
+      "key": "python/functions/decorators",
+      "es": "Decoradores",
+      "pt": "Decoradores"
+    },
+    {
+      "key": "python/iteration",
+      "es": "Iteración",
+      "pt": "Iteração"
+    },
+    {
+      "key": "python/iteration/loops",
+      "es": "Uso de bucles/ciclos (while, for..in)",
+      "pt": "Uso de loops (while, for..in)"
+    },
+    {
+      "key": "python/iteration/list-comprehension",
+      "es": "Comprensión de listas",
+      "pt": "Compreensão de listas"
+    },
+    {
+      "key": "python/iteration/functional-techniques",
+      "es": "Técnicas funcionales (map, filter, reduce)",
+      "pt": "Técnicas funcionais (map, filter, reduce)"
+    },
+    {
+      "key": "python/linting",
+      "es": "Linting (pylint)",
+      "pt": "Linting (pylint)"
+    },
+    {
+      "key": "python/testing",
+      "es": "Testing en Python",
+      "pt": "Testes em Python"
+    },
+    {
+      "key": "python/testing/unit-tests",
+      "es": "Pruebas unitarias (unit tests, unittest, pytest)",
+      "pt": "Testes unitários (unit tests, unittest, pytest)"
+    },
+    {
+      "key": "python/testing/mocks",
+      "es": "Uso de mocks (y patch)",
+      "pt": "Uso de mocks (e patch)"
+    },
+    {
+      "key": "python/testing/fixtures",
+      "es": "Uso de fixtures",
+      "pt": "Uso de fixtures"
+    },
+    {
+      "key": "python/modularization",
+      "es": "Modularización",
+      "pt": "Modularização"
+    },
+    {
+      "key": "python/modularization/modules",
+      "es": "Módulos",
+      "pt": "Módulos"
+    },
+    {
+      "key": "python/modularization/packages",
+      "es": "Paquetes",
+      "pt": "Pacotes"
+    },
+    {
+      "key": "python/dependency-management",
+      "es": "Manejo de dependencias",
+      "pt": "Gerenciamento de dependências"
+    },
+    {
+      "key": "python/dependency-management/pip",
+      "es": "pip (instalación y uso de paquetes)",
+      "pt": "pip (instalação e uso de pacotes)"
+    },
+    {
+      "key": "python/dependency-management/virtual-environment",
+      "es": "Virtual Environment (ambientes virtuales, virtualenv)",
+      "pt": "Ambiente Virtual (ambientes virtuais, virtualenv)"
+    },
+    {
+      "key": "python/dependency-management/requirements-file",
+      "es": "requirements.txt",
+      "pt": "requirements.txt"
+    },
+    {
+      "key": "python/serialization",
+      "es": "Serialización (y deserialización)",
+      "pt": "Serialização (e deserialização)"
+    },
+    {
+      "key": "python/flask",
+      "es": "Flask",
+      "pt": "Flask"
+    },
+    {
+      "key": "python/flask/routes",
+      "es": "Rutas",
+      "pt": "Rotas"
+    },
+    {
+      "key": "python/flask/routes/route-decorator",
+      "es": "Decorador de ruta",
+      "pt": "Decorador de rota"
+    },
+    {
+      "key": "python/flask/routes/view-function",
+      "es": "Función de vista",
+      "pt": "Função de visualização"
+    },
+    {
+      "key": "python/flask/routes/variable-rules",
+      "es": "Reglas de variables (urls dinamica)",
+      "pt": "Regras de variáveis (urls dinâmicas)"
+    },
+    {
+      "key": "python/flask/request",
+      "es": "Request Object",
+      "pt": "Objeto de Requisição"
+    },
+    {
+      "key": "python/flask/request/args",
+      "es": "Argumentos",
+      "pt": "Argumentos"
+    },
+    {
+      "key": "python/flask/request/headers",
+      "es": "Cabeceras",
+      "pt": "Cabeçalhos"
+    },
+    {
+      "key": "python/flask/response",
+      "es": "Response Object",
+      "pt": "Objeto de Resposta"
+    },
+    {
+      "key": "python/flask/response/response-parts",
+      "es": "Partes de la respuesta (status, body, headers)",
+      "pt": "Partes da resposta (status, corpo, cabeçalhos)"
+    },
+    {
+      "key": "python/flask/response/jsonify",
+      "es": "jsonify",
+      "pt": "jsonify"
+    },
+    {
+      "key": "python/flask/testing",
+      "es": "Testing en Flask",
+      "pt": "Testando no Flask"
+    },
+    {
+      "key": "python/flask/testing/fixture-setup",
+      "es": "Configuración de fixtures",
+      "pt": "Configuração de fixtures"
+    },
+    {
+      "key": "python/flask/testing/test-client",
+      "es": "Test Client",
+      "pt": "Cliente de teste"
+    },
+    {
+      "key": "python/django",
+      "es": "Django",
+      "pt": "Django"
+    },
+    {
+      "key": "python/django/setup",
+      "es": "Configuración",
+      "pt": "Configuração"
+    },
+    {
+      "key": "python/django/setup/migrations",
+      "es": "Migraciones",
+      "pt": "Migrações"
+    },
+    {
+      "key": "python/django/setup/app",
+      "es": "Setup app",
+      "pt": "Configuração do aplicativo"
+    },
+    {
+      "key": "python/django/models",
+      "es": "Modelos",
+      "pt": "Modelos"
+    },
+    {
+      "key": "python/django/models/fields",
+      "es": "Fields",
+      "pt": "Campos"
+    },
+    {
+      "key": "python/django/models/foreign-Key",
+      "es": "Foreign Key",
+      "pt": "Chave Estrangeira"
+    },
+    {
+      "key": "python/django/views",
+      "es": "Views",
+      "pt": "Visualizações"
+    },
+    {
+      "key": "python/django/testing",
+      "es": "Testing",
+      "pt": "Testando"
+    },
+    {
+      "key": "python/django/queryset",
+      "es": "queryset",
+      "pt": "queryset"
+    },
+    {
+      "key": "python/django/filter",
+      "es": "Filter",
+      "pt": "Filtro"
+    },
+    {
+      "key": "python/django/order-by",
+      "es": "Order By",
+      "pt": "Ordenar Por"
+    },
+    {
+      "key": "python/django/url-configuration",
+      "es": "URLs (Path, URLconf, urlpatterns)",
+      "pt": "URLs (Path, URLconf, urlpatterns)"
+    },
+    {
+      "key": "python/django/rest-framework",
+      "es": "Rest Framework",
+      "pt": "Rest Framework"
+    },
+    {
+      "key": "python/django/rest-framework/serializers",
+      "es": "Serializers",
+      "pt": "Serializadores"
+    },
+    {
+      "key": "python/django/rest-framework/pagination",
+      "es": "Pagination",
+      "pt": "Paginação"
+    },
+    {
+      "key": "python/django/rest-framework/query-params",
+      "es": "Query params",
+      "pt": "Parâmetros da consulta"
+    },
+    {
+      "key": "python/django/rest-framework/viewset",
+      "es": "ViewSet",
+      "pt": "ViewSet"
+    },
+    {
+      "key": "python/django/rest-framework/apiview",
+      "es": "Apiview",
+      "pt": "Apiview"
     },
     {
       "key": "object-oriented-programming",
