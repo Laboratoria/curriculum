@@ -51,7 +51,7 @@ Para isso, crie um novo arquivo no seguinte caminho:
 para esse arquivo. Se ainda não existir, você precisará criar uma pasta
 chamada `lib` dentro da pasta `src` (src/lib).
 
->[!DICA]
+>[!TIP]
 > Volte ao README principal tantas vezes quanto necessário.
 > [5. Considerações técnicas](../README.md#5-considerações-técnicas)
 
@@ -73,7 +73,7 @@ export const computeStats = (data) => {
 };
 ```
 
->[!DICA]
+>[!TIP]
 > Consulte estes links para obter mais informações sobre como importar
 > [módulos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Modules)
 > e [funções](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions)
@@ -102,7 +102,7 @@ describe('filterData', () => {
 });
 ```
 
->[!DICA]
+>[!TIP]
 > Na pasta de testes, considere ter um arquivo de teste
 (suite) para cada arquivo JavaScript que deseja testar.
 

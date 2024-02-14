@@ -3,7 +3,7 @@
 Armazenar de forma segura sua chave de API e garantir que nosso aplicativo se
 conecte de forma eficaz à API OpenAI são o cerne deste marco.
 <!-- Este é um dica do Github Pages, https://github.com/orgs/community/discussions/16925 -->
-> [!IMPORTANTE]
+> [!IMPORTANT]
 > Para isso, certifique-se de solicitar sua APIKEY aos coaches.
 
 ## Tarefas deste marco
@@ -101,7 +101,7 @@ da URL que o router pode comunicar.
 
 ![Preview Detail](./assets/previewDetail.gif)
 
-> [!IMPORTANTE]
+> [!IMPORTANT]
 > Lembre-se de utilizar as funções que criamos anteriormente em `apiKey.js`
 para gerenciar de forma segura a API KEY.
 
@@ -137,7 +137,7 @@ export const communicateWithOpenAI = (messages) => {
 
 ```
 
-> [!NOTA]
+> [!NOTE]
 > `communicateWithOpenAI` é uma sugestão para o nome
 da sua função. Você pode escolher o nome que preferir.
 

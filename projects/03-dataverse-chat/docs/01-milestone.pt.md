@@ -24,7 +24,7 @@ essência da sua solução ideal, mas também siga
 estritamente os princípios fundamentais do
 [design visual](https://coda.io/d/Bootcamp-UX-Contenido_dqkqk2rV9Z2/Diseno-de-interfaces_suOT7#_luWsQ).
 
-> [!DICA]
+> [!TIP]
 > Use a identidade visual ou o protótipo do seu projeto anterior.
 
 ### Criação de Visualizações da SPA

@@ -33,7 +33,7 @@ Isso permitirá que os usuários interajam com todos os
 personagens através
 de um chat grupal.
 
-> [!DICA]
+> [!TIP]
 > Revise o tópico de
 >[Promessas](https://curriculum.laboratoria.la/pt/topics/javascript/async/promises)
 >e o método
@@ -56,7 +56,7 @@ Para alcançar este objetivo, siga estes passos:
 Para verificar o funcionamento das funções criadas, crie um arquivo
 `openAIApi.spec.js` na pasta `test`.
 
-> [!DICA]
+> [!TIP]
 > Você pode revisar esta documentação sobre [Testes de código assíncrono](https://jestjs.io/pt-BR/docs/asynchronous).
 
 ``` js
@@ -74,7 +74,7 @@ describe('communicateWithOpenAI', () => {
 
 ```
 
-> [!NOTA]
+> [!NOTE]
 > `communicateWithOpenAI` é uma sugestão para o nome
 da sua função. Você pode escolher o nome que preferir.
 
