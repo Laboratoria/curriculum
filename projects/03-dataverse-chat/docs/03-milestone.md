@@ -106,10 +106,9 @@ enrutador para gestionar ambas situaciones.
     + En el archivo `src/router.js` añade las funciones
     `navigateTo` y `queryStringToObject`.
 
-    > [!IMPORTANT]
-    > Para obtener detalles de las funciones, revisa
-    > [esta sección de la guía](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#api-de-router-b%C3%A1sico).
-    >
+    **Nota 📝:
+    Para obtener detalles de las funciones, revisa
+    [esta sección de la guía](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#api-de-router-b%C3%A1sico).**
 
 ![Preview Detail](./assets/previewDetail.gif)
 
