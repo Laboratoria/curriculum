@@ -961,13 +961,13 @@ python/flask/request/args:
   title: Argumentos
   links:
     - title: Request - Flask Docs (en inglés)
-      url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#accessing-request-data
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#accessing-request-data
 
 python/flask/request/headers:
   title: Cabeceras
   links:
     - title: Request - Flask Docs (en inglés)
-      url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#accessing-request-data
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#accessing-request-data
     # - there are more that can be added here
     # - form
     # - json
@@ -979,28 +979,31 @@ python/flask/response/response-parts:
   title: Partes de la respuesta (status, body, headers)
   links:
     - title: Response - Flask Docs (en inglés)
-      url: https://flask.palletsprojects.com/en/2.0.x/quickstart/#about-responses
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#about-responses
 
 python/flask/response/jsonify:
   title: jsonify
   links:
     - title: jsonify - Flask Docs (en inglés)
-      url: https://flask.palletsprojects.com/en/2.0.x/api/#flask.json.jsonify
+      url: https://flask.palletsprojects.com/en/3.0.x/api/#flask.json.jsonify
 
 python/flask/testing:
   title: Testing en Flask
+  links:
+    - title: Testing - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/3.0.x/testing/
 
 python/flask/testing/fixture-setup:
   title: Configuración de fixtures
   links:
     - title: Testing - Flask Docs (en inglés)
-      url: https://flask.palletsprojects.com/en/2.0.x/testing/
+      url: https://flask.palletsprojects.com/en/3.0.x/testing/#fixtures
 
 python/flask/testing/test-client:
   title: Test Client
   links:
     - title: Testing - Flask Docs (en inglés)
-      url: https://flask.palletsprojects.com/en/2.0.x/testing/
+      url: https://flask.palletsprojects.com/en/3.0.x/testing/#sending-requests-with-the-test-client
 
 python/django:
   title: Django
