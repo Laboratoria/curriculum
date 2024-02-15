@@ -63,10 +63,9 @@ conocer todos sus detalles, te invitamos a visitar esta
    puedes consultar el ejemplo de dos funciones,
    cada una representando una vista.
 
-   > [!NOTE]
-   > Es común que debas repetir este proceso para
-   > cada una de las vistas que requieras durante el
-   > desarrollo.
+   **Nota 📝: Es común que debas repetir este proceso para
+   cada una de las vistas que requieras durante el
+   desarrollo**
 
 3. Codifique el router
 
@@ -81,11 +80,10 @@ conocer todos sus detalles, te invitamos a visitar esta
     cuatro de ellas: `setRootEl`, `setRoutes`,
     `renderView` y `onURLChange`.
 
-    > [!IMPORTANT]
-    > Para más información sobre el funcionamiento
-    > y uso de cada una de las funciones, consulta
-    > [esta sección de la guía](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#api-de-router-b%C3%A1sico).
-    >
+    **Nota 📝:
+    Para más información sobre el funcionamiento
+    y uso de cada una de las funciones, consulta
+    [esta sección de la guía](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#api-de-router-b%C3%A1sico).**
 
 4. Configura el router
 
