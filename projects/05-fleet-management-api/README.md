@@ -248,4 +248,4 @@ _código HTTP_ 200 en formato json gracias al _header_
 ## 8. Funcionalidades opcionales
 
 Si completaste todas las funcionalidades del proyecto te invitamos a trabajar en
-las [funcionalides opcionales](./docs/README.extension.md)
+las [funcionalides opcionales](./docs/extension.md)

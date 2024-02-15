@@ -233,4 +233,4 @@ valor `application/json`.
 ## 8. Funcionalidades Opcionais
 
 Se você completou todas as funcionalidades do projeto, convidamos você a
-trabalhar nas [funcionalidades opcionais](./docs/README.extension.md)
+trabalhar nas [funcionalidades opcionais](./docs/extension.md)

@@ -2,8 +2,9 @@
 
 ## Carga masiva de información a base de datos mediante una CLI
 
-La especificación del CLI depende de la tecnología elegida para el proyecto,
-pero [los parámetros para el CLI](##-parámetros-para-el-CLI) son los mismos.
+A especificação da CLI depende da tecnologia escolhida para o projeto,
+mas os [parâmetros para a CLI](#cli-parâmetros) são os mesmos
+para qualquer stack.
 
 ### Node JS
 
@@ -15,6 +16,8 @@ node upload-gps-data.js <path-to-files>
 --port=<port>
 --username=<username>
 ```
+
+Leia a explicação de [parâmetros para a CLI](#cli-parâmetros) abaixo.
 
 ### Java
 
@@ -39,8 +42,9 @@ java UploadGPSData <path-to-files>
 _De [aqui](https://drive.google.com/file/d/1UIwfWbhZWKWWBZAKMjfze8NswMOQ09du/view?usp=drive_link)
 pode descarregar o driver postgresql_
 
-### Python
+Leia a explicação de [parâmetros para a CLI](#cli-parâmetros) abaixo.
 
+### Python
 
 ```bash
 python upload-gps-data.py <path-to-files>
@@ -51,7 +55,9 @@ python upload-gps-data.py <path-to-files>
 --username=<username>
 ```
 
-## Parâmetros para el CLI
+Leia a explicação de [parâmetros para a CLI](#cli-parâmetros) abaixo.
+
+## CLI Parâmetros
 
 Onde os parâmetros esperados são:
 
