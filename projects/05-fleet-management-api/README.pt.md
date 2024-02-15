@@ -142,8 +142,8 @@ todas as localizações de um táxi dado o id do táxi e uma data.
 
 ##### Critérios de aceitação
 
-* O _endpoint_ responde para o id do táxi consultado as seguintes informações:
-latitude, longitude e data e hora.
+* O _endpoint_ responde para o id do táxi e uma data consultado as
+  seguintes informações: latitude, longitude e timestamp (data e hora).
 * O _endpoint_ paginamos os resultados para garantir que as respostas sejam
 mais fáceis de manejar.
 
@@ -169,7 +169,7 @@ Eu, como cliente da API REST, necessito de um _endpoint_ para consultar a
 ##### Critérios de aceitação
 
 * O _endpoint_ responde para cada táxi as seguintes informações: id, placa,
-latitude, longitude e data e hora.
+latitude, longitude e timestamp (data e hora).
 * O _endpoint_ paginamos os resultados para garantir que as respostas sejam
 mais fáceis de manejar.
 

@@ -148,10 +148,10 @@ consultar todas las ubicaciones de un taxi dado el id y una fecha.
 
 ##### Criterios de aceptación
 
-* El _endpoint_ responde para el id del taxi consultado la siguiente
-información: latitud, longitud y fecha y hora.
+* El _endpoint_ responde para el id del taxi y una fecha consultado
+  la siguiente información: latitud, longitud y timestamp (fecha y hora).
 * El _endpoint_ paginamos los resultados para asegurar que las
-respuestas sean más fáciles de manejar.
+  respuestas sean más fáciles de manejar.
 
 ##### Definición de terminado
 
@@ -178,7 +178,7 @@ consultar la última ubicación reportada por cada taxi.
 ##### Criterios de aceptación
 
 * El _endpoint_ responde para cada taxi la siguiente información:
-id, placa, latitud, longitud y fecha y hora.
+id, placa, latitud, longitud y timestamp (fecha y hora).
 * El _endpoint_ paginamos los resultados para asegurar que las
 respuestas sean más fáciles de manejar.
 
