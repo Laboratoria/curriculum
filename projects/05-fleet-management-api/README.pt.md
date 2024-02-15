@@ -189,11 +189,11 @@ url, parâmetros,
 
 ## 6. Tecnologias Utilizadas
 
-Você pode implementar este projeto em JavaScript ou Java.
+Você pode implementar este projeto em JavaScript, Python, ou Java.
 
-* [Java](./docs/stack-java.md)
 * [NodeJs](./docs/stack-node.md)
 * [Python](./docs/stack-python.md)
+* [Java](./docs/stack-java.md)
 
 ## 7. Dicas, sugestões e leituras complementares
 

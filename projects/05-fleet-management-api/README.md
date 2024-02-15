@@ -201,10 +201,10 @@ menos una compañera.
 
 ## 6. Stack de tecnologías
 
-Puedes implementar este proyecto en JavaScript o Java.
+Puedes implementar este proyecto en JavaScript, Python o Java.
 
-* [Java](./docs/stack-java.md)
 * [NodeJs](./docs/stack-node.md)
+* [Java](./docs/stack-java.md)
 * [Python](./docs/stack-python.md)
 
 ## 7. Pistas, tips y lecturas complementarias
