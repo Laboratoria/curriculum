@@ -63,10 +63,10 @@ conocer todos sus detalles, te invitamos a visitar esta
    puedes consultar el ejemplo de dos funciones,
    cada una representando una vista.
 
-    > [!NOTE]
-    > Es común que debas repetir este proceso para
-    > cada una de las vistas que requieras durante el
-    > desarrollo.
+    >[!NOTE]
+    >Es común que debas repetir este proceso para
+    >cada una de las vistas que requieras durante el
+    >desarrollo.
 
 3. Codifique el router
 
