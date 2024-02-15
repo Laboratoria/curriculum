@@ -203,9 +203,9 @@ menos una compañera.
 
 Puedes implementar este proyecto en JavaScript o Java.
 
-* [Java](./docs/README-java.md)
-* [NodeJs](./docs/README-node.md)
-* [Python](./docs/README-python.md)
+* [Java](./docs/stack-java.md)
+* [NodeJs](./docs/stack-node.md)
+* [Python](./docs/stack-python.md)
 
 ## 7. Pistas, tips y lecturas complementarias
 

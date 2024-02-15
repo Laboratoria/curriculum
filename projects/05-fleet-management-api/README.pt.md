@@ -191,8 +191,9 @@ url, parâmetros,
 
 Você pode implementar este projeto em JavaScript ou Java.
 
-* [Java](./docs/README-java.md#stack-de-tecnologías)
-* [NodeJs](./docs/README-node.md#stack-de-tecnologías)
+* [Java](./docs/stack-java.md)
+* [NodeJs](./docs/stack-node.md)
+* [Python](./docs/stack-python.md)
 
 ## 7. Dicas, sugestões e leituras complementares
 
