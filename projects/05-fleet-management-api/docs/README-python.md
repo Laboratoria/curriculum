@@ -17,8 +17,7 @@ programación: funcional y orientado a objetos (basado en clases).
 
 * [Flask documentación Oficial](https://flask.palletsprojects.com/en/3.0.x/)
 * [Flask Quickstart](https://flask.palletsprojects.com/en/3.0.x/quickstart/)
-* [Postgresql](https://www.postgresql.org/): como base de datos.
-* Algo mas?
+* [Postgresql](https://www.postgresql.org/): como base de datos
 
 ### Django
 
