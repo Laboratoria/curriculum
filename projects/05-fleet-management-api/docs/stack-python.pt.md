@@ -25,7 +25,8 @@ Django é um framework web que incentiva o desenvolvimento rápido e limpo de
 aplicativos web, projetado para promover a escalabilidade no
 desenvolvimento.
 
-Entre as características mais importantes está o fato de que o Django trabalha com um
+Entre as características mais importantes está o
+fato de que o Django trabalha com um
 [ORM (Mapeador Relacional de Objetos)](https://es.wikipedia.org/wiki/Mapeo_relacional_de_objetos)
 para facilitar a interação com o banco de dados.
 
