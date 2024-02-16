@@ -2,8 +2,8 @@
 
 ## Stack de tecnologías
 
-La ecosistema de Python ofrece muchas opciones de frameworks para hacer un API.
-Recomendamos que eliges entre estos dos stacks para construir tu app.
+El ecosistema de Python ofrece muchas opciones de frameworks para hacer un API.
+Recomendamos que elijas entre estos dos stacks para construir tu app.
 
 ### Flask
 
@@ -11,7 +11,7 @@ Flask es un microframework para desarrollo web en Python, proporcionando
 las herramientas básicas para crear una aplicación web sin incluir muchas
 de las funcionalidades preinstaladas que tienen otros frameworks más grandes.
 Esto permite una mayor flexibilidad y control, pero también significa que
-puede que necesites instalar extensiones adicionales para funcionalidades
+puede que necesites instalar paquetes adicionales para funcionalidades
 más avanzadas. Flask es un framework que permite ambos estilos de
 programación: funcional y orientado a objetos (basado en clases).
 
@@ -25,7 +25,7 @@ Django es un framework web que fomenta el desarrollo rápido y limpio de
 aplicaciones web, el cual es pensado para fomentar la escalabilidad en
 el desarrollo.
 
-Entre las características más importantes es que Django trabaja con un
+Entre las características más importantes es que Django trabaja con su propio
 [ORM (Object Relational Mapper)](https://es.wikipedia.org/wiki/Mapeo_relacional_de_objetos)
 para facilitar la interacción con la base de datos.
 

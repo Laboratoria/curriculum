@@ -16,7 +16,7 @@ node upload-gps-data.js <path-to-files>
 --username=<username>
 ```
 
-Lee la explanación de [los parámetros para el CLI](#cli-parámetros) abajo.
+Lee la explicación de [los parámetros para el CLI](#cli-parámetros) más abajo.
 
 ### Java
 
@@ -41,7 +41,7 @@ java UploadGPSData <path-to-files>
 _De [aquí](https://drive.google.com/file/d/1UIwfWbhZWKWWBZAKMjfze8NswMOQ09du/view?usp=drive_link)
 puedes descargar el driver de postgresql_
 
-Lee la explanación de [los parámetros para el CLI](#cli-parámetros) abajo.
+Lee la explicación de [los parámetros para el CLI](#cli-parámetros) abajo.
 
 ### Python
 
@@ -54,7 +54,7 @@ python upload-gps-data.py <path-to-files>
 --username=<username>
 ```
 
-Lee la explanación de [los parámetros para el CLI](#cli-parámetros) abajo.
+Lee la explicación de [los parámetros para el CLI](#cli-parámetros) abajo.
 
 ## CLI Parámetros
 

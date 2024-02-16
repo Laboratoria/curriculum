@@ -148,7 +148,7 @@ consultar todas las ubicaciones de un taxi dado el id y una fecha.
 
 ##### Criterios de aceptación
 
-* El _endpoint_ responde para el id del taxi y una fecha consultado
+* El _endpoint_ responde con el id del taxi y una fecha mostrando
   la siguiente información: latitud, longitud y timestamp (fecha y hora).
 * El _endpoint_ paginamos los resultados para asegurar que las
   respuestas sean más fáciles de manejar.

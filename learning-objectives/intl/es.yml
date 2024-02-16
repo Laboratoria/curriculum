@@ -964,7 +964,7 @@ python/flask/request/args:
       url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#accessing-request-data
 
 python/flask/request/headers:
-  title: Cabeceras
+  title: Headers (cabeceras)
   links:
     - title: Request - Flask Docs (en inglés)
       url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#accessing-request-data
