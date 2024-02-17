@@ -72,10 +72,11 @@ archivos y tendras una base de datos con conexiones limitadas. Discute con
 una coach que estrategias puedes implementar para que ni computadora ni la
 base de datos mueran en el intento de cargar la información.
 
-La especificación del CLI depende de la tecnología elegida para el proyecto:
+La especificación del CLI depende de la tecnología elegida para el proyecto.
 
-* [Java](./README.extension-java.md#carga-masiva-de-información-a-base-de-datos-mediante-una-cli)
-* [NodeJs](./README.extension-node.md#carga-masiva-de-información-a-base-de-datos-mediante-una-cli)
+* [Java](./extension-cli.md#java)
+* [NodeJs](./extension-cli.md#node-js)
+* [Python](./extension-cli.md#python)
 
 ### Definición de terminado
 
