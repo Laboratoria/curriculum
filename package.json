@@ -32,7 +32,10 @@
     "preview": "vite preview",
     "test": "vitest run ./src/components/**/*.spec.jsx",
     "link-parser": "rm -rf node_modules/@laboratoria/curriculum-parser && ln -s ../../../curriculum-parser node_modules/@laboratoria/",
-    "link-react": "rm -rf node_modules/@laboratoria/react && ln -s ../../../react node_modules/@laboratoria/"
+    "link-react": "rm -rf node_modules/@laboratoria/react && ln -s ../../../react node_modules/@laboratoria/",
+    "preversion": "npm test",
+    "version": "rm -rf dist && npm run build:content && git add -A dist",
+    "postversion": "echo 'post versioning should do git push and git push --tags'"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
