@@ -1,0 +1,50 @@
+name: Release curriculum
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build_dist:
+    name: Build dist files
+    if: ${{ github.head_ref == 'next' || github.head_ref == 'release_workflow_test'}}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - run: npm ci
+  version_tag_release:
+    - name: Version and tag release
+      id: version_tag_release # npm version will tag release automatically git-tag-release
+      steps:
+        - name: Parse changelog
+          id: get_changelog
+          run: npm run changelog
+          outputs:
+            changelog: ${{ steps.get_changelog.outputs }}
+          env:
+            isMajor: ${{ steps.get_changelog.outputs.contains('!:')}}
+            isMinor: ${{ steps.get_changelog.outputs.contains('feat') && !env.isMajor }}
+        - name: Increment version
+          id: bump_version
+          run: npm version ${{ (env.isMajor && 'major') || (env.isMinor && 'minor') || 'patch' }} -m 'chore(release): Bumps version to v%s and updates dist files'
+          outputs:
+            new_tag: ${{ steps.bump_version.outputs }}
+  create_release:
+    - name: Create release
+      id: create_release
+      steps:
+        - name: Make notes
+          id: make_notes
+          uses: mikepenz/release-changelog-builder-action@{latest-release}
+        - name: Make release draft
+          id: release_draft
+          run: |
+              gh release create ${{jobs.version_tag_release.outputs.new_tag}} \
+                  --repo="$GITHUB_REPOSITORY" \
+                  --title="${GITHUB_REPOSITORY#*/} ${{jobs.version_tag_release.outputs.new_tag}}" \
+                  --notes ${{steps.make_notes.outputs.changelog}} \
+                  --draft
