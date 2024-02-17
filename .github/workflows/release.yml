@@ -42,9 +42,10 @@ jobs:
           uses: mikepenz/release-changelog-builder-action@{latest-release}
         - name: Make release draft
           id: release_draft
-          run: |
-              gh release create ${{jobs.version_tag_release.outputs.new_tag}} \
-                  --repo="$GITHUB_REPOSITORY" \
-                  --title="${GITHUB_REPOSITORY#*/} ${{jobs.version_tag_release.outputs.new_tag}}" \
-                  --notes ${{steps.make_notes.outputs.changelog}} \
-                  --draft
+          run: echo "Creating release draft"
+          # run: |
+          #     gh release create ${{jobs.version_tag_release.outputs.new_tag}} \
+          #         --repo="$GITHUB_REPOSITORY" \
+          #         --title="${GITHUB_REPOSITORY#*/} ${{jobs.version_tag_release.outputs.new_tag}}" \
+          #         --notes ${{steps.make_notes.outputs.changelog}} \
+          #         --draft
