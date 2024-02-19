@@ -62,8 +62,9 @@ dados morram ao tentar carregar as informações.
 
 A especificação da CLI depende da tecnologia escolhida para o projeto:
 
-* [Java](./README.extension-java.md#carga-masiva-de-información-a-base-de-datos-mediante-una-cli)
-* [NodeJs](./README.extension-node.md#carga-masiva-de-información-a-base-de-datos-mediante-una-cli)
+* [Java](./extension-cli.md#java)
+* [NodeJs](./extension-cli.md#node-js)
+* [Python](./extension-cli.md#python)
 
 ### Definição de pronto
 
