@@ -2309,16 +2309,16 @@
         "links": [
           {
             "title": "Request - Flask Docs (en inglés)",
-            "url": "https://flask.palletsprojects.com/en/2.0.x/quickstart/#accessing-request-data"
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#accessing-request-data"
           }
         ]
       },
       "python/flask/request/headers": {
-        "title": "Cabeceras",
+        "title": "Headers (cabeceras)",
         "links": [
           {
             "title": "Request - Flask Docs (en inglés)",
-            "url": "https://flask.palletsprojects.com/en/2.0.x/quickstart/#accessing-request-data"
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#accessing-request-data"
           }
         ]
       },
@@ -2330,7 +2330,7 @@
         "links": [
           {
             "title": "Response - Flask Docs (en inglés)",
-            "url": "https://flask.palletsprojects.com/en/2.0.x/quickstart/#about-responses"
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#about-responses"
           }
         ]
       },
@@ -2339,19 +2339,25 @@
         "links": [
           {
             "title": "jsonify - Flask Docs (en inglés)",
-            "url": "https://flask.palletsprojects.com/en/2.0.x/api/#flask.json.jsonify"
+            "url": "https://flask.palletsprojects.com/en/3.0.x/api/#flask.json.jsonify"
           }
         ]
       },
       "python/flask/testing": {
-        "title": "Testing en Flask"
+        "title": "Testing en Flask",
+        "links": [
+          {
+            "title": "Testing - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/testing/"
+          }
+        ]
       },
       "python/flask/testing/fixture-setup": {
         "title": "Configuración de fixtures",
         "links": [
           {
             "title": "Testing - Flask Docs (en inglés)",
-            "url": "https://flask.palletsprojects.com/en/2.0.x/testing/"
+            "url": "https://flask.palletsprojects.com/en/3.0.x/testing/#fixtures"
           }
         ]
       },
@@ -2360,7 +2366,7 @@
         "links": [
           {
             "title": "Testing - Flask Docs (en inglés)",
-            "url": "https://flask.palletsprojects.com/en/2.0.x/testing/"
+            "url": "https://flask.palletsprojects.com/en/3.0.x/testing/#sending-requests-with-the-test-client"
           }
         ]
       },
@@ -5299,14 +5305,20 @@
         ]
       },
       "python/flask/testing": {
-        "title": "Testando no Flask"
+        "title": "Testando no Flask",
+        "links": [
+          {
+            "title": "Testing - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/testing/"
+          }
+        ]
       },
       "python/flask/testing/fixture-setup": {
         "title": "Configuração de fixtures",
         "links": [
           {
             "title": "Testando - Flask Docs (em inglês)",
-            "url": "https://flask.palletsprojects.com/en/3.0.x/testing/"
+            "url": "https://flask.palletsprojects.com/en/3.0.x/testing/#fixtures"
           }
         ]
       },
@@ -5315,7 +5327,7 @@
         "links": [
           {
             "title": "Testando - Flask Docs (em inglês)",
-            "url": "https://flask.palletsprojects.com/en/3.0.x/testing/"
+            "url": "https://flask.palletsprojects.com/en/3.0.x/testing/#sending-requests-with-the-test-client"
           }
         ]
       },
@@ -7571,7 +7583,7 @@
     },
     {
       "key": "python/flask/request/headers",
-      "es": "Cabeceras",
+      "es": "Headers (cabeceras)",
       "pt": "Cabeçalhos"
     },
     {
