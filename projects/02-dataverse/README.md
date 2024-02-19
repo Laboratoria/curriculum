@@ -209,7 +209,7 @@ como toda la configuración de dependencias:
 ├── README.md
 ├── package.json
 ├── src
-|  ├── data 
+|  ├── data
 |  |  └── dataset.js (La que hayas generado con la IA)
 |  ├── dataFunctions.js
 |  ├── view.js
@@ -387,14 +387,14 @@ crearán estos elementos.
 
   - [ ] Uso de atributos de modelo de caja para los items `<li>`
   - [ ] Uso de atributos de modelo de caja para `<header>` o `<footer>`
-  
+
 #### Web APIs
 
 * **Uso de selectores del DOM**
 
   - [ ] Uso de [`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
     para seleccionar elementos del DOM.
-  
+
 * **Manejo de eventos del DOM (listeners, propagación, delegación)**
 
   - [ ] Uso de `addEventListener` con callback que tiene parámetro de `event`,

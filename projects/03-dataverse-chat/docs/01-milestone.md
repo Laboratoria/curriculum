@@ -8,7 +8,7 @@ través de proyectos. En este hito, comenzarás construyendo una
 ## Tareas de este hito
 
 - [Prototipo de Dataverse](#prototipo-de-dataverse)
-- [Creación de Vistas de la SPA](#creación-de-vistas-de-la-spa)
+- [SPA parte 1](#spa-parte-1)
 
 ### Prototipo de Dataverse
 
@@ -27,16 +27,78 @@ estrictamente a los principios fundamentales del
   >[!TIP]
   >Usa la identidad visual o el prototipo de tu proyecto anterior.
 
-### Creación de Vistas de la SPA
+### SPA parte 1
 
-  1. Siguiendo esta [guía](https://github.com/Laboratoria/guide-router/tree/guide-v1),
-  dirígete a la carpeta `views`.
-  2. Crea dos archivos: `Home.js` y `About.js`,
-  cada uno de estos archivos representará una vista.
-  3. Dentro de cada archivo, agrega al menos un elemento o
-  texto representativo de la vista correspondiente.
+El propósito principal de este hito es que puedas desarrollar
+una **SPA (Single Page Application)**. En pocas palabras, la idea
+es que, mediante JavaScript, puedas modificar el contenido de
+tu navegador de manera similar a cambiar entre diferentes
+vistas. Cada una de estas vistas estaría asociada a una URL,
+lo que significa que no solo se cambiaría el contenido,
+sino también la dirección en la barra de direcciones de
+tu navegador.Para obtener información sobre qué es un SPA y
+conocer todos sus detalles, te invitamos a visitar esta
+[guía](https://github.com/Laboratoria/guide-router/tree/guide-v1).
 
-![Preview spa](./assets/previewSPA.gif)
+1. Establece la estructura HTML.
+
+    En tu documento HTML, es esencial incluir la estructura
+    básica para tu SPA (Single Page Application). Debes
+    agregar un elemento principal destinado a la
+    presentación o inserción del contenido. Puedes
+    utilizar algo como `<div id="root"></div>`
+    con el propósito de crear un lienzo donde
+    se mostrará tu contenido. Para aprovechar
+    eficientemente este elemento, es necesario
+    establecer una referencia. Puedes encontrar
+    más información [aquí](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#1-configura-su-estructura-html).
+
+2. Crear la vista **Home.js**
+
+   Define `Home.js` en la carpeta `src/views` y,
+   en su interior, crea una función encargada de
+   generar el contenido de la vista. Esta función
+   debe devolver un elemento DOM para que pueda ser
+   utilizado por el enrutador. [Aquí](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#1-configura-su-estructura-html)
+   puedes consultar el ejemplo de dos funciones,
+   cada una representando una vista.
+
+   **Nota 📝: Es común que debas repetir este proceso para
+   cada una de las vistas que requieras durante el
+   desarrollo**
+
+3. Codifique el router
+
+    Para enlazar las rutas y vistas en una
+    aplicación, necesitaremos definir algunas
+    funciones en un nuevo archivo `src/router.js`.
+    Estas funciones ayudarán a manejar la
+    navegación entre páginas. Vista la sección
+    [Codifique el router](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#3-codifique-el-router)
+    de la guía, encontrarás seis funciones. Para el
+    propósito de este hito, recomendamos utilizar
+    cuatro de ellas: `setRootEl`, `setRoutes`,
+    `renderView` y `onURLChange`.
+
+    **Nota 📝:
+    Para más información sobre el funcionamiento
+    y uso de cada una de las funciones, consulta
+    [esta sección de la guía](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#api-de-router-b%C3%A1sico).**
+
+4. Configura el router
+
+    En su archivo `src/index.js`, inicialice su router definiendo
+    sus rutas y configurando el elemento raíz como se muestra
+    en la [guía](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#4-configura-el-router).
+
+5. Gestionar la carga de la página inicial
+
+    Asegúrate de [gestionar la carga](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#5-manejar-la-carga-de-la-primera-p%C3%A1gina)
+    de la página
+    inicial llamando a `onURLChange` con
+    `window.location` en el archivo `src/index.js`.
+    Prueba para asegurarte de que, sin importar qué URL
+    válida se utilice para iniciar tu SPA, **la vista correcta** se cargue adecuadamente.
 
 ## ¿Necesitas Ayuda?
 

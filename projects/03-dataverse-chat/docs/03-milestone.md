@@ -11,7 +11,7 @@ conecte de manera efectiva a la API de OpenAI son el core de este hito.
 - [Manejo de la API KEY en la Aplicación](#manejo-de-la-api-key-en-la-aplicación)
 - [Almacenamiento Seguro de la API KEY con Local Storage](#almacenamiento-seguro-de-la-api-key-con-local-storage)
 - [Pruebas para funciones de API Key](#pruebas-para-funciones-de-api-key)
-- [Creación de una vista para interactuar con cada elementos del conjunto de datos](#creación-de-una-vista-para-interactuar-con-cada-elementos-del-conjunto-de-datos)
+- [Creación de una vista para interactuar con cada elemento del conjunto de datos](#creación-de-una-vista-para-interactuar-con-cada-elemento-del-conjunto-de-datos)
 - [Integración con Open AI](#integración-con-open-ai)
 
 ### Manejo de la API KEY en la Aplicación
@@ -74,7 +74,7 @@ describe('setApiKey', () => {
 
 ```
 
-### Creación de una vista para interactuar con cada elementos del conjunto de datos
+### Creación de una vista para interactuar con cada elemento del conjunto de datos
 
 Para facilitar la interacción con un elemento específico de nuestro
 conjunto de datos, crearemos una nueva vista. Sigue estos pasos:
@@ -92,12 +92,23 @@ con los elementos del conjunto de datos. Puedes incluir componentes como botones
 formularios o cualquier otro elemento necesario para lograr el objetivo específico
 de tu aplicación.
 
-3. Asegúrate de que esta vista sea capaz de recibir un identificador (id)
+3. En esta pantalla, es necesario obtener un identificador (id)
 u otros datos necesarios para mostrar el elemento específico del conjunto
-de datos. Puedes lograr esto mediante la utilización de parámetros, como por
-ejemplo a través de los
-[search params](https://developer.mozilla.org/es/docs/Web/API/URLSearchParams)
-de URL que el router puede comunicar.
+de datos. Esto es fundamental para que puedas
+identificar con quién deseas chatear en la aplicación.
+Puedes obtener este identificador (id) de dos maneras:
+incluyéndolo como argumento (props) en la función que te llevará
+a esta vista o recibiendo los datos como
+[search params](https://developer.mozilla.org/es/docs/Web/API/URLSearchParams).
+Por lo tanto, es importante mejorar las capacidades de tu
+enrutador para gestionar ambas situaciones.
+
+    + En el archivo `src/router.js` añade las funciones
+    `navigateTo` y `queryStringToObject`.
+
+    **Nota 📝:
+    Para obtener detalles de las funciones, revisa
+    [esta sección de la guía](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#api-de-router-b%C3%A1sico).**
 
 ![Preview Detail](./assets/previewDetail.gif)
 
