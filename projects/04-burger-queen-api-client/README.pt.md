@@ -301,7 +301,7 @@ no servidor (Node.js).
 
 ## 7. Dicas e leituras complementares
 
-Consulte o [FAQ](./docs/FAQ.pt.md)
+Consulte o [FAQ](./docs/FAQ.md)
 ou participe do canal do Slack
 [#project-bq-api-client](https://claseslaboratoria.slack.com/archives/C04A0GS1WJX)
 para conversar e pedir ajuda no projeto.
