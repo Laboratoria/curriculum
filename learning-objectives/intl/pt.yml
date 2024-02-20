@@ -1089,18 +1089,21 @@ python/flask/response/jsonify:
 
 python/flask/testing:
   title: Testando no Flask
+  links:
+    - title: Testing - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/3.0.x/testing/
 
 python/flask/testing/fixture-setup:
   title: Configuração de fixtures
   links:
     - title: Testando - Flask Docs (em inglês)
-      url: https://flask.palletsprojects.com/en/3.0.x/testing/
+      url: https://flask.palletsprojects.com/en/3.0.x/testing/#fixtures
 
 python/flask/testing/test-client:
   title: Cliente de teste
   links:
     - title: Testando - Flask Docs (em inglês)
-      url: https://flask.palletsprojects.com/en/3.0.x/testing/
+      url: https://flask.palletsprojects.com/en/3.0.x/testing/#sending-requests-with-the-test-client
 
 python/django:
   title: Django
