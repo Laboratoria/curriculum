@@ -55,7 +55,7 @@ Estas herramientas te permiten hacer preguntas y sostener conversaciones para
 obtener ayuda:
 
 - [ChatGPT](https://chat.openai.com/)
-- [Bard](https://bard.google.com/)
+- [Google Gemini](https://gemini.google.com/)
 - [Bing](https://www.bing.com/?cc=es)
 - [Perplexity](https://www.perplexity.ai/)
 
@@ -137,7 +137,7 @@ perspectiva que se alinee mejor con tu manera de pensar, ejemplo:
 > para poder entenderlo mejor?
 <!-- markdownlint-disable MD033 -->
 <details>
-<summary>Haz clic para visualizar la respuesta de Bard</summary>
+<summary>Haz clic para visualizar la respuesta de Gemini</summary>
 <i>
 Claro que sí. Imagina que estás construyendo una casa.
 Antes de empezar a construirla, vas a necesitar diseñar los planos.
@@ -211,7 +211,7 @@ para consolidar y reforzar tu aprendizaje.
 > lo que son las pruebas unitarias?
 <!-- markdownlint-disable MD033 -->
 <details>
-<summary>Haz clic para visualizar la respuesta de Bard</summary>
+<summary>Haz clic para visualizar la respuesta de Gemini</summary>
 <i>
 
 Claro que sí, aquí tienes 5 preguntas para ayudarte a validar tu comprensión
@@ -323,7 +323,7 @@ Y si el ejemplo te sirve y lo entiendes puedes llevarte accionables para seguir 
 > estrategia para dividir el trabajo y así ambas podamos aprender y practicar?
 <!-- markdownlint-disable MD033 -->
 <details>
-<summary>Haz clic para visualizar la respuesta de Bard</summary>
+<summary>Haz clic para visualizar la respuesta de Gemini</summary>
 <i>
 Trabajar en equipo en un proyecto es una excelente manera de
 aprender y aplicar tus conocimientos. Aquí te doy una estrategia que podrías
@@ -490,7 +490,7 @@ Ejemplo:
 > on the requested resource.
 <!-- markdownlint-disable MD033 -->
 <details>
-<summary>Haz clic para visualizar la respuesta de Bard</summary>
+<summary>Haz clic para visualizar la respuesta de Gemini</summary>
 <i>
 # Error de CORS
 
