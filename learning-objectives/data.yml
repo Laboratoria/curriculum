@@ -297,7 +297,7 @@ csharp:
       - throw
   - linq
   - async-await
-  - .net-framework
+  - .net-core
   - nuget-packages
   - testing:
       - xunit
