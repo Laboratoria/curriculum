@@ -10,7 +10,7 @@ Aunque contamos con recursos como Google y StackOverflow,
 ¿cómo podemos impulsar aún más nuestro aprendizaje y
 trabajar de manera más eficiente y productiva?
 
-**La respuesta está en aprovechar un asistente con inteligencia artificial!.**
+**La respuesta está en aprovechar un asistente con inteligencia artificial.**
 
 ## Beneficios de los asistentes con IA en la programación
 
@@ -18,33 +18,33 @@ Un asistente de inteligencia artificial es una herramienta que,
 a través de la inteligencia artificial y la información que le proporcionamos,
 nos ayuda a aumentar nuestra productividad. Aquí se destacan algunos beneficios:
 
-1. **Comprensión de Código Facilitada:**
+- **Comprensión de código facilitada:**
 Te puede asistir en la comprensión de código
 y conceptos, con explicaciones detalladas
 y simplificando ideas complejas,
 lo que contribuye a un aprendizaje más profundo y efectivo.
 
-2. **Generación de Código Descriptiva:**
+- **Generación de código descriptiva:**
 Transforma descripciones a partir de lenguaje natural
 en código funcional, ayudando a traducir
 ideas en implementaciones y fortaleciendo la comprensión.
 
-3. **Refactorización para Claridad:**
+- **Refactorización para claridad:**
 Te puede ayudar a mejorar la estructura del código para
 hacerlo más comprensible y fácil de mantener,
 fomentando una codificación ordenada y clara.
 
-4. **Resolución de Errores Guiada:**
+- **Resolución de errores guiada:**
 Es muy útil al momento de identificar y resolver
 errores, ofreciendo orientación para corregir
 problemas y promoviendo tus habilidades de depuración.
 
-5. **Autocompletado Inteligente:**
+- **Autocompletado inteligente:**
 Completa el código de manera inteligente,
 anticipando y sugiriendo fragmentos necesarios
 para tareas específicas, agilizando la escritura.
 
-## Recursos y Asistentes con IA para Programadoras
+## Recursos y asistentes con IA para programadoras
 
 Aquí te presentamos algunos recursos útiles que pueden facilitar tu experiencia
 de programación:
@@ -79,7 +79,7 @@ código o agregar funcionalidades:
 
 ## Cómo puedo comenzar a usar estas herramientas
 
-### Utilízalas para Reducir la Sobrecarga de Información
+### Utilízalas para reducir la sobrecarga de información
 
 Al iniciar nuevos proyectos o trabajar con tecnologías desconocidas, es normal
 enfrentarse a mucha información e incluso sentirse abrumada. Para superar este desafío,
@@ -333,7 +333,7 @@ seguir para dividir el trabajo de filtrar datos a partir de un JSON:
    + Ambas deben revisar el formato del JSON y entender la estructura de los datos.
    Asegúrense de conocer las claves y los valores que contienen los objetos.
 
-2. **Definir el Criterio de Filtrado:**
+2. **Definir el criterio de filtrado:**
    + Decidan juntas cómo quieren filtrar los datos. Por ejemplo, ¿se trata de
    filtrar por un valor específico en una propiedad, por un rango numérico,
    o por cualquier otro criterio?
@@ -343,31 +343,31 @@ seguir para dividir el trabajo de filtrar datos a partir de un JSON:
    en partes iguales para que cada una trabaje con una sección del JSON.
    Esto facilitará la carga de trabajo.
 
-4. **Desarrollar Funciones de Filtrado:**
+4. **Desarrollar funciones de filtrado:**
    + Cada una puede escribir una función de filtrado que tome un array de
    objetos y aplique el criterio definido. Esto implica utilizar el método
    `filter` de JavaScript.
 
-5. **Pruebas Unitarias:**
+5. **Pruebas unitarias:**
    + Antes de combinar sus funciones, prueben individualmente cada función
    para asegurarse de que están filtrando los datos correctamente.
 
-6. **Integrar las Funciones:**
+6. **Integrar las funciones:**
    + Una vez que ambas hayan completado sus funciones y estén seguras
    de que funcionan correctamente, pueden integrarlas en una función
    principal que filtre los datos utilizando ambas estrategias.
 
-7. **Manejar Errores y Casos Especiales:**
+7. **Manejar errores y casos especiales:**
    + Asegúrense de manejar casos especiales y posibles errores en
    su código. Por ejemplo, ¿qué sucede si el JSON no tiene el formato esperado?
 
-8. **Optimización y Mejoras:**
+8. **Optimización y mejoras:**
    + Traten de optimizar su código y discutan posibles mejoras.
    Esto podría incluir la posibilidad de hacer el código más eficiente,
    manejar más casos de uso, o incluso considerar el uso de funciones
    de orden superior.
 
-9. **Revisión de Código:**
+9. **Revisión de código:**
    + Una vez que hayan integrado todo, pueden revisar el código una
    de la otra para aprender de diferentes enfoques y proporcionar comentarios constructivos.
 
@@ -380,7 +380,7 @@ seguir para dividir el trabajo de filtrar datos a partir de un JSON:
 </details>
 <!-- markdownlint-enable MD033 -->
 
-### Solicitar una Revisión de Código a través de IA
+### Solicitar una revisión de código a través de IA
 
 Al avanzar en tus proyectos, es posible que estés reflexionando sobre
 cómo mejorar tu código o explorando diferentes formas de lograr el mismo resultado.
@@ -466,7 +466,7 @@ Si tienes alguna pregunta, no dudes en buscar ayuda en el canal
 [#explaindev-help](https://claseslaboratoria.slack.com/archives/C05FW7UEX5Y)
 en Slack.
 
-### Optimizando la Depuración: Estrategias para Entender Errores en tu Código
+### Optimizando la depuración: estrategias para entender errores en tu código
 
 Comprender y corregir errores en el código es crucial para las programadoras.
 Una estrategia efectiva es abordar la raíz de estos problemas. En este caso,
@@ -552,11 +552,11 @@ puedes pedirle al asistente que lo explique de forma más simple.
 
 ## Buenas prácticas al momento de usar asistentes con IA
 
-- **Inicia con Independencia:**
+- **Inicia con independencia:**
 Antes de depender por completo del asistente con IA,
 comienza generando el código por ti mismo.
 Esto fomentará tu autonomía y comprensión.
-- **Comprende y Mejora:**
+- **Comprende y mejora:**
 Dedica tiempo a entender el código generado por el asistente con IA.
 Estudia su funcionamiento y busca formas de mejorarlo.
 En futuras ocasiones, intenta crear código similar de forma independiente.
@@ -565,15 +565,15 @@ No te limites a copiar el código del asistente, analízalo y
 experimenta con él. Realiza modificaciones para observar
 cómo afectan al resultado.
 Este enfoque fortalecerá tu comprensión práctica.
-- **Evita lo Incomprensible:**
+- **Evita lo incomprensible:**
 Si el código generado por el asistente resulta incomprensible,
 es preferible evitar su uso.
 Prioriza la claridad y comprensión en tu aprendizaje.
-- **Corrige Eficientemente:**
+- **Corrige eficientemente:**
 Aprovecha el asistente con IA para identificar y corregir errores.
 La IA puede realizar esta tarea de manera rápida,
 ahorrándote valioso tiempo de trabajo.
-- **Herramienta Activa de Aprendizaje:**
+- **Herramienta activa de aprendizaje:**
 Considera al asistente con IA como una herramienta de aprendizaje activa.
 Úsalo para entender la estructura y resolución de problemas,
 más allá de ser solo un generador automático de código.
