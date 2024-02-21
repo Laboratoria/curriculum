@@ -2,9 +2,9 @@
   "slug": "css",
   "repo": "Laboratoria/curriculum",
   "path": "topics/css",
-  "version": "8.2.0",
+  "version": "8.3.0",
   "parserVersion": "5.3.0",
-  "createdAt": "2024-02-08T16:56:24.005Z",
+  "createdAt": "2024-02-19T15:11:28.203Z",
   "track": "web-dev",
   "tracks": [
     "web-dev"
