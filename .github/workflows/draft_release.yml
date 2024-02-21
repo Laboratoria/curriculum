@@ -3,7 +3,7 @@ name: Draft release
 on:
   pull_request:
     branches:
-      - next
+      - test_next
 
 jobs:
   build_dist:
@@ -58,7 +58,7 @@ jobs:
       - name: Make release draft
         id: release_draft
         run: |
-          echo ${{ jobs.version_tag_release_draft.outputs.new_tag }}
+          echo ${{ job.version_tag_release_draft.outputs.new_tag }}
         #   echo ${{ steps.build_changelog.outputs.changelog }}
         # run: |
         #     gh release create ${{ jobs.version_tag_release_draft.outputs.new_tag }} \
