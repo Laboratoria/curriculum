@@ -1,0 +1,60 @@
+name: Draft release
+
+on:
+  push:
+    branches:
+      - next
+
+jobs:
+  create_release:
+    name: Create release
+    if: startsWith(github.head_ref , 'release/')
+    # we could check for tags but
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Get the version tag
+        id: version_tag
+        run: |
+          echo tag_name=${GITHUB_REF#refs/tags/} >> $GITHUB_OUTPUT
+      - name: Get latest release tag
+        id: latest_release
+        run: |
+          LATEST_RELEASE_TAG=$(curl --silent "https://api.github.com/repos/${GITHUB_REPOSITORY}/releases/latest" \
+            | jq -r .tag_name)
+          echo "Latest release tag is $LATEST_RELEASE_TAG"
+          echo "::set-output name=tag::$LATEST_RELEASE_TAG"
+        shell: bash
+      - name: Get release branch name
+        id: release_branch_name
+        run: |
+          echo RELEASE_BRANCH_NAME="${RELEASE_NAME=${GITHUB_HEAD_REF#release/}}" >> $GITHUB_OUTPUT
+      - name: Replace underscores and capitalize
+        id: release_title
+        run: |
+          TITLE=${{steps.release_branch_name.outputs.RELEASE_BRANCH_NAME}}
+          TITLE=${TITLE//_/ }  # Replace underscores with spaces
+          TITLE=${TITLE//-/ }  # Replace dash with spaces
+          TITLE=${TITLE^^}  # Capitalize the first letter
+          echo title=$TITLE >> $GITHUB_OUTPUT
+      - name: Create release
+        id: create_release
+        run: |
+          gh release edit ${{steps.version_tag.outputs.tag_name}}
+          --title="${{steps.version_tag.outputs.tag_name}} ${{steps.release_title.outputs.title}}" \
+          --draft=false
+  rebase_main:
+    name: Rebase main
+    needs: create_release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebase main
+        run: |
+          git checkout next
+          git pull
+          git checkout main
+          git rebase next
+          git push --tags
+
+
