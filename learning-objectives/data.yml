@@ -1,11 +1,18 @@
 html:
+  # - tags
+  # - attributes
+  # - block-vs-inline
   - semantics
+
 css:
   - selectors
   - box-model
+  # - values-and-units
+  # - relative-vs-absolute
   - flexbox
   - grid
   - media-queries
+
 browser:
   - dom:
       - selectors
@@ -14,10 +21,14 @@ browser:
   - routing
   - storage
   - fetch
+
 js:
   - data-types:
       - primitive
       - primitive-vs-non-primitive
+      # - values-and-refs
+      # - typeof
+      # - instanceof
       - strings
       - arrays
       - objects
@@ -28,8 +39,11 @@ js:
   - recursion
   - testing:
       - unit
+      # - cases
+      # - assertions
       - mocks
       - async
+      # - coverage
       - e2e
       - compatibility
   - modules:
@@ -41,6 +55,9 @@ js:
   - async:
       - callbacks
       - promises
+    # - async/await
+    # - streams
+
 scm:
   - git:
       - setup
@@ -52,15 +69,24 @@ scm:
       - collaboration
       - project-management
       - ci
+
 user-centricity:
   - centricity
+
 product-design:
   - fidelity
   - interactivity
   - visual-design
+
 firebase:
   - auth
   - firestore
+
+# front-end-web-dev:
+  # - components
+  # - state
+  # - routing
+
 angular:
   - components-and-templates
   - structural-directives
@@ -70,6 +96,7 @@ angular:
   - observables
   - http-client
   - styles
+
 react:
   - jsx
   - components
@@ -80,6 +107,7 @@ react:
   - hooks
   - css-modules
   - routing
+
 vue:
   - instance
   - data-and-methods
@@ -91,6 +119,7 @@ vue:
   - computed-props-and-observers
   - routing
   - classes-and-styles
+
 http:
   - request-response
   - headers
@@ -99,170 +128,152 @@ http:
   - status-codes
   - json
   - cors
+
 node:
   - npm-install
   - package.json
   - npm-scripts
   - process
   - filesystem
+
 express:
   - routing
   - middleware
+
 socket-io:
   - client
   - server
+
 auth:
   - jwt
   - password-access-and-storage
+
 java:
   - access-modifiers
   - variables
   - conditionals
   - loops
   - data-types:
-      - primitive
-      - primitive-vs-non-primitive
-      - strings
-      - arrays
+    - primitive
+    - primitive-vs-non-primitive
+    - strings
+    - arrays
   - collections:
-      - array-list
-      - hash-map
-      - hash-set
+    - array-list
+    - hash-map
+    - hash-set
   - testing:
-      - junit
-      - mockito
+    - junit
+    - mockito
   - spring-framework:
-      - core-concepts:
-          - beans
-          - inversion-of-control
-          - annotations
-      - initializr
-      - spring-boot
-      - controllers
-      - services
-      - spring-data-jpa
-      - entity
-      - repository
-      - spring-web:
-          - rest-controller
-          - request-mapping
-          - request-param
-      - testing:
-          - spring-test
-          - hamcrest
+    - core-concepts:
+        - beans
+        - inversion-of-control
+        - annotations
+    - initializr
+    - spring-boot
+    - controllers
+    - services
+    - spring-data-jpa
+    - entity
+    - repository
+    - spring-web:
+      - rest-controller
+      - request-mapping
+      - request-param
+    - testing:
+      - spring-test
+      - hamcrest
   - hibernate-orm:
-      - setup
-      - schema
-      - entity
-      - table
-      - column
-      - identifiers
-      - associations
-      - collections
-      - persistance
-      - querying
+    - setup
+    - schema
+    - entity
+    - table
+    - column
+    - identifiers
+    - associations
+    - collections
+    - persistance
+    - querying
+
 python:
   - data-types:
-      - primitive
-      - lists
-      - tuples
-      - dictionaries
-      - sets
+    - primitive
+    - lists
+    - tuples
+    - dictionaries
+    - sets
   - variables
   - conditionals
   - operators
   - docstrings
   - functions:
-      - basic-concepts
-      - args-kwargs
-      - closures
-      - lambda-functions
-      - decorators
+    - basic-concepts
+    - args-kwargs
+    - closures
+    - lambda-functions
+    - decorators
   - iteration:
-      - loops
-      - list-comprehension
-      - functional-techniques
+    - loops
+    - list-comprehension
+    - functional-techniques
   - linting
   - testing:
-      - unit-tests
-      - mocks
-      - fixtures
+    - unit-tests
+    - mocks
+    - fixtures
   - modularization:
-      - modules
-      - packages
+    - modules
+    - packages
   - dependency-management:
-      - pip
-      - virtual-environment
-      - requirements-file
+    - pip
+    - virtual-environment
+    - requirements-file
   - serialization
   - flask:
-      - routes:
-          - route-decorator
-          - view-function
-          - variable-rules
-      - request:
-          - args
-          - headers
-      - response:
-          - response-parts
-          - jsonify
-      - testing:
-          - fixture-setup
-          - test-client
+    - routes:
+      - route-decorator
+      - view-function
+      - variable-rules
+    - request:
+      - args
+      - headers
+      # - there are more that can be added here
+      # - form
+      # - json
+    - response:
+      - response-parts
+      - jsonify
+    - testing:
+      - fixture-setup
+      - test-client
+      # - test_request_context
+    # - templates
+    # - blueprints
+    # - views
+    # - sessions:
+    #   - cookies
   - django:
-      - setup:
-          - migrations
-          - app
-      - models:
-          - fields
-          - foreign-Key
-      - views
-      - testing
-      - queryset
-      - filter
-      - order-by
-      - url-configuration
-      - rest-framework:
-          - serializers
-          - pagination
-          - query-params
-          - viewset
-          - apiview
-csharp:
-  - data-types:
-      - primitives
-      - non-primitives
-  - collections:
-      - lists
-      - arrays
-      - sets
-  - variables
-  - conditionals
-  - operators
-  - generics
-  - access-modifiers
-  - classes
-  - objects
-  - namespaces
-  - functions:
-      - lambda-functions
-      - decorators
-  - error-handling:
-      - try-catch
-      - throw
-  - LINQ
-  - async-await
-  - .net-framework
-  - nuget-packages
-  - testing:
-      - XUnit
-      - MSTest
-  - entity-framework:
-      - code-first
-      - models
-      - controllers
+    - setup:
       - migrations
-  - swagger
+      - app
+    - models:
+      - fields
+      - foreign-Key
+    - views
+    - testing
+    - queryset
+    - filter
+    - order-by
+    - url-configuration
+    - rest-framework:
+      - serializers
+      - pagination
+      - query-params
+      - viewset
+      - apiview
+
+
 object-oriented-programming:
   - classes
   - objects
@@ -275,41 +286,58 @@ object-oriented-programming:
   - interfaces
   - inheritance
   - unified-model-language
+
 webops:
   - env-vars
   - docker-containers
   - docker-compose
   - cloud-functions
+
 cicd:
   - build-pipelines
   - service-deployment
   - tbd
   - test-coverage
   - integration-tests
+
 db:
   - modeling
   - connection
   - indexes-constraints
+  # - diagramming
+  # - cap-theorem
+  # - sql-vs-nosql
+
 sql:
   - tables
   - crud
   - drop
+
 postgres:
   - psql
   - data-types
   - indexes
   - dump-restore
+
 mysql:
   - mysql
   - data-types
   - indexes
   - dump-restore
+
 mongodb:
   - crud
   - schemas
   - dump-restore
+  # - aggregation
+  # - transactions
+  # - inedexes
+  # - change-streams
+  # - replication
+
 slack:
   - slash-commands
+
 php:
   - data-types:
       - primitive
@@ -323,6 +351,7 @@ php:
       - xdebug
   - package-management:
       - composer
+
 wordpress:
   - plugin-development:
       - hooks
@@ -336,105 +365,124 @@ wordpress:
       - wordpress-rest-api
       - wordpress-apis
       - wordpress-plugin-directory
+
 typescript:
   - basic-types:
-      - static-type-checking
-      - strictness
-      - primitives
-      - arrays
-      - any
-      - functions
-      - object-types:
-          - optional-properties
-      - union-types
-      - type-aliases
-      - interfaces
-      - type-assertions
-      - literal-types
-      - null-and-undefined
-      - enums
+    - static-type-checking
+    - strictness
+    - primitives
+    - arrays
+    - any
+    - functions
+    - object-types:
+      - optional-properties
+    - union-types
+    - type-aliases
+    - interfaces
+    - type-assertions
+    - literal-types
+    - null-and-undefined
+    - enums
   - narrowing
   - classes:
-      - members:
-          - fields
-          - constructors
-          - methods
-          - getter-setters
-      - class-heritage:
-          - implements
-          - extends
-      - member-visibility
-      - static-members
-      - this
-      - abstract-classes
+    - members:
+      - fields
+      - constructors
+      - methods
+      - getter-setters
+    - class-heritage:
+      - implements
+      - extends
+    - member-visibility
+    - static-members
+    - this
+    - abstract-classes
   - decorators
+
 ai-prompting:
   - giving-instructions
   - few-shot-prompting
   - priming-chatbots
   - open-ai-api
+
+# New OAs since UXD006
 agile-planning:
   - scope
   - workplan
   - tasks
+
 business-understanding:
   - business-model
   - goals-and-kpis
   - benchmark
+
 research:
-  - test
+  - test # TODO: change because only used in web-dev and only test
+
 research-planning:
   - research-plan
   - desk-research
   - research-sample
   - participants
+
 research-qualitative:
   - user-interviews
   - exploratory-techniques
+
 research-quantitative:
   - user-surveys
   - analytical-techniques
+
 research-analysis:
   - process-information
   - experience-mapping
   - identify-patterns
   - synthesize-results
   - ai-analysis
+
 design-concept:
   - define-mvp
   - design-references
   - ideate
   - prioritize-ideas
+
 interaction-design:
   - user-flows
   - usability
   - information-architecture
+
 content-design:
   - voice-tone
   - create-content
   - ai-content
+
 interface-design:
   - visual-design
   - accesibility
   - responsive-design
   - ai-proposals
+
 design-prototype:
   - basic-prototypes
   - high-fidelity
   - advanced-interactions
   - ai-plugins
+
 usability-analysis:
   - moderated-testing
   - heuristic-analysis
   - non-moderated-testing
+
 design-pitch:
   - design-feedback
   - design-presentation
   - ai-presentations
+
 design-specs:
   - file-organization
   - use-cases
   - project-documentation
+
 design-systems:
   - atomic-design
   - design-system
