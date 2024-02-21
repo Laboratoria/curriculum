@@ -38,7 +38,7 @@ lo que significa que no solo se cambiaría el contenido,
 sino también la dirección en la barra de direcciones de
 tu navegador.Para obtener información sobre qué es un SPA y
 conocer todos sus detalles, te invitamos a visitar esta
-[guía](https://github.com/Laboratoria/guide-router/tree/guide-v1).
+[guía](https://github.com/Laboratoria/curriculum/blob/main/guides/router-spa/README.md).
 
 1. Establece la estructura HTML.
 
@@ -51,7 +51,7 @@ conocer todos sus detalles, te invitamos a visitar esta
     se mostrará tu contenido. Para aprovechar
     eficientemente este elemento, es necesario
     establecer una referencia. Puedes encontrar
-    más información [aquí](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#1-configura-su-estructura-html).
+    [más información sobre el HTML aquí](https://github.com/Laboratoria/curriculum/blob/main/guides/router-spa/README.md?tab=readme-ov-file#1-configura-su-estructura-html).
 
 2. Crear la vista **Home.js**
 
@@ -59,8 +59,7 @@ conocer todos sus detalles, te invitamos a visitar esta
    en su interior, crea una función encargada de
    generar el contenido de la vista. Esta función
    debe devolver un elemento DOM para que pueda ser
-   utilizado por el enrutador. [Aquí](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#1-configura-su-estructura-html)
-   puedes consultar el ejemplo de dos funciones,
+   utilizado por el enrutador. [Aquí puedes consultar el ejemplo de dos funciones](https://github.com/Laboratoria/curriculum/blob/main/guides/router-spa/README.md?tab=readme-ov-file#1-configura-su-estructura-html),
    cada una representando una vista.
 
    **Nota 📝: Es común que debas repetir este proceso para
@@ -73,8 +72,7 @@ conocer todos sus detalles, te invitamos a visitar esta
     aplicación, necesitaremos definir algunas
     funciones en un nuevo archivo `src/router.js`.
     Estas funciones ayudarán a manejar la
-    navegación entre páginas. Vista la sección
-    [Codifique el router](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#3-codifique-el-router)
+    navegación entre páginas. Vista [la sección Codifique el router](https://github.com/Laboratoria/curriculum/blob/main/guides/router-spa/README.md?tab=readme-ov-file#3-codifique-el-router)
     de la guía, encontrarás seis funciones. Para el
     propósito de este hito, recomendamos utilizar
     cuatro de ellas: `setRootEl`, `setRoutes`,
@@ -83,17 +81,17 @@ conocer todos sus detalles, te invitamos a visitar esta
     **Nota 📝:
     Para más información sobre el funcionamiento
     y uso de cada una de las funciones, consulta
-    [esta sección de la guía](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#api-de-router-b%C3%A1sico).**
+    [esta sección de la guía](https://github.com/Laboratoria/curriculum/blob/main/guides/router-spa/README.md?tab=readme-ov-file#api-de-router-b%C3%A1sico).**
 
 4. Configura el router
 
     En su archivo `src/index.js`, inicialice su router definiendo
     sus rutas y configurando el elemento raíz como se muestra
-    en la [guía](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#4-configura-el-router).
+    en la [guía sobre configura el router](https://github.com/Laboratoria/curriculum/blob/main/guides/router-spa/README.md?tab=readme-ov-file#4-configura-el-router).
 
 5. Gestionar la carga de la página inicial
 
-    Asegúrate de [gestionar la carga](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#5-manejar-la-carga-de-la-primera-p%C3%A1gina)
+    Asegúrate de [gestionar la carga](https://github.com/Laboratoria/curriculum/blob/main/guides/router-spa/README.md?tab=readme-ov-file#5-manejar-la-carga-de-la-primera-p%C3%A1gina)
     de la página
     inicial llamando a `onURLChange` con
     `window.location` en el archivo `src/index.js`.
