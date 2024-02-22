@@ -334,7 +334,7 @@ user-centricity:
   title: Centrado en el usuario
 
 # only used in web dev ----
-user-centricity/centricity: 
+user-centricity/centricity:
   title: Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro
 
 research:
@@ -514,13 +514,13 @@ java:
 
 java/access-modifiers:
   title: Modificadores de acesso (public, private, protected)
-  
+
 java/variables:
   title: Variables
 
 java/conditionals:
   title: Uso de condicionales
-  
+
 java/loops:
   title: Uso de bucles (Loops)
 
@@ -532,19 +532,19 @@ java/data-types/primitive:
 
 java/data-types/primitive-vs-non-primitive:
   title: Datos primitivos vs no primitivos
-    
+
 java/data-types/strings:
   title: Cadenas
 
 java/data-types/arrays:
   title: Arreglos
-  
+
 java/collections:
   title: Colecciones
 
 java/collections/array-list:
   title: ArrayList
-  
+
 java/collections/hash-map:
   title: HashMap
 
@@ -707,6 +707,409 @@ object-oriented-programming/inheritance:
 
 object-oriented-programming/unified-model-language:
   title: Lenguaje de Modelado Unificado (UML, class diagrams)
+
+python:
+  title: Python
+
+python/data-types:
+  title: Tipos de datos
+
+python/data-types/primitive:
+  title: Tipos de datos primitivos (int, float, str, bool)
+  links:
+    - title: Data Types - Python Docs (en inglés)
+      url: https://docs.python.org/3/library/datatypes.html
+    - title: Data types in Python (en inglés)
+      url: https://www.educative.io/answers/data-types-in-python
+
+python/data-types/lists:
+  title: Listas (arrays)
+  links:
+    - title: Lists - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
+    - title: Lists and Tuples in Python - Real Python (en inglés)
+      url: https://realpython.com/python-lists-tuples/
+
+python/data-types/tuples:
+  title: Tuples
+  links:
+    - title: Tuples - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences
+    - title: Lists and Tuples in Python - Real Python (en inglés)
+      url: https://realpython.com/python-lists-tuples/
+
+python/data-types/dictionaries:
+  title: Dictionaries (Dicts)
+  links:
+    - title: Dictionaries - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/datastructures.html#dictionaries
+    - title: Dictionaries in Python - Real Python (en inglés)
+      url: https://realpython.com/python-dicts/
+
+python/data-types/sets:
+  title: Sets
+  links:
+    - title: Sets - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/datastructures.html#sets
+    - title: Sets in Python - Real Python (en inglés)
+      url: https://realpython.com/python-sets/
+
+python/variables:
+  title: Variables (declaración, asignación, ámbito)
+  links:
+    - title: Variables in Python – Real Python (en inglés)
+      url: https://realpython.com/python-variables/
+    - title: Variables in Python - GeeksforGeeks (en inglés)
+      url: https://www.geeksforgeeks.org/python-variables/
+
+python/conditionals:
+  title: Uso de condicionales (if, elif, ternario)
+  links:
+    - title: Conditional Statements in Python – Real Python (en inglés)
+      url: https://realpython.com/python-conditional-statements/
+
+python/operators:
+  title: Operadores (identidad, aritméticos, comparación etc)
+  links:
+    - title: Python Operators - GeeksforGeeks (en inglés)
+      url: https://www.geeksforgeeks.org/python-operators/
+
+python/functions:
+  title: Funciones
+
+python/functions/basic-concepts:
+  title: Conceptos basicos (params, args, default values, return)
+  links:
+    - title: Python Functions - GeeksforGeeks (en ingles)
+      url : https://www.geeksforgeeks.org/python-functions/
+
+python/functions/args-kwargs:
+  title: "*args y **kwargs"
+  links:
+    - title: '*args and **kwargs in Python - GeeksforGeeks (en inglés)'
+      url: https://www.geeksforgeeks.org/args-kwargs-python/
+
+python/functions/lambda-functions:
+  title: Funciones lambda
+  links:
+    - title: Lambda Functions - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions
+    - title: How to Use Python Lambda Functions – Real Python (en inglés)
+      url: https://realpython.com/python-lambda/
+
+python/functions/closures:
+  title: Cierres (closures)
+  links:
+    - title: Closures - Python Docs (en inglés)
+      url: https://docs.python.org/3/reference/datamodel.html#emulating-closures-and-nested-scope
+
+python/functions/decorators:
+  title: Decoradores
+  links:
+    - title: Decorators - Python Docs (en inglés)
+      url: https://docs.python.org/3/glossary.html#term-decorator
+    - title: Decorators in Python - Geeks for Geeks (en inglés)
+      url: https://www.geeksforgeeks.org/decorators-in-python/
+
+python/iteration:
+  title: Iteración
+
+python/iteration/loops:
+  title: Uso de bucles/ciclos (while, for..in)
+  links:
+    - title: Loops in Python - For, While and Nested Loops - GeeksforGeeks
+      url: https://www.geeksforgeeks.org/loops-in-python/
+    - title: Loops - Learn Python - Free Interactive Python Tutorial
+      url: https://www.learnpython.org/en/Loops
+
+
+python/iteration/list-comprehension:
+  title: Comprensión de listas
+  links:
+    - title: List Comprehension - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions
+    - title: List Comprehension in Python - GeeksforGeeks (en inglés)
+      url: https://www.geeksforgeeks.org/list-comprehensions-in-python/
+    - title: When to Use a List Comprehension in Python – Real Python (en inglés)
+      url: https://realpython.com/list-comprehension-python/
+
+python/iteration/functional-techniques:
+  title: Técnicas funcionales (map, filter, reduce)
+  links:
+    - title: Our Guide to Map, Filter, and Reduce Functions in Python - Udacity (en inglés)
+      url: https://www.udacity.com/blog/2020/12/our-guide-to-map-filter-and-reduce-functions-in-python.html
+    - title: Map, Filter, Reduce - Learn Python - Free Interactive Python Tutorial (en inglés)
+      url: https://www.learnpython.org/en/Map%2C_Filter%2C_Reduce
+
+python/docstrings:
+  title: Docstrings (y su diferencia de comentarios)
+  links:
+    - title: Docstrings - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/controlflow.html#documentation-strings
+
+python/linting:
+  title: Linting (pylint)
+  links:
+    - title: Pylint - Documentación oficial
+      url: https://pylint.pycqa.org/en/latest/
+    - title: Linting Python in Visual Studio Code - Visual Studio Code Docs (en inglés)
+      url: https://code.visualstudio.com/docs/python/linting
+
+python/testing:
+  title: Testing en Python
+
+python/testing/unit-tests:
+  title: Pruebas unitarias (unit tests, unittest, pytest)
+  links:
+    - title: unittest - Python Docs (en inglés)
+      url: https://docs.python.org/3/library/unittest.html
+    - title: pytest - Documentación oficial
+      url: https://docs.pytest.org/en/6.2.x/
+
+python/testing/mocks:
+  title: Uso de mocks (y patch)
+  links:
+    - title: unittest.mock - Python Docs (en inglés)
+      url: https://docs.python.org/3/library/unittest.mock.html
+    - title: Python Mock Library - Real Python (en inglés)
+      url: https://realpython.com/python-mock-library/
+
+python/testing/fixtures:
+  title: Uso de fixtures
+  links:
+    - title: pytest fixtures - Documentación oficial
+      url: https://docs.pytest.org/en/6.2.x/fixture.html
+
+python/modularization:
+  title: Modularización
+
+python/modularization/modules:
+  title: Módulos
+  links:
+    - title: Módulos - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/modules.html
+
+python/modularization/packages:
+  title: Paquetes
+  links:
+    - title: Paquetes - Python Docs (en inglés)
+      url: https://docs.python.org/3/tutorial/modules.html#packages
+
+python/dependency-management:
+  title: Manejo de dependencias
+
+python/dependency-management/pip:
+  title: pip (instalación y uso de paquetes)
+  links:
+    - title: pip - Python Docs (en inglés)
+      url: https://docs.python.org/3/installing/index.html
+
+python/dependency-management/virtual-environment:
+  title: Virtual Environment (ambientes virtuales, virtualenv)
+  links:
+    - title: 'venv — Creation of virtual environments — Python 3.12.2 documentation (en inglés)'
+      url: https://docs.python.org/3/library/venv.html
+    - title: 'Python Virtual Environments: A Primer – Real Python (en inglés)'
+      url: https://realpython.com/python-virtual-environments-a-primer/
+
+
+python/dependency-management/requirements-file:
+  title: requirements.txt
+  links:
+    - title: requirements.txt - Documentación oficial
+      url: https://pip.pypa.io/en/stable/user_guide/#requirements-files
+
+python/serialization:
+  title: Serialización (y deserialización)
+  links:
+    - title: Serialize Your Data With Python – Real Python (en inglés)
+      url: https://realpython.com/python-serialize-data/
+
+python/flask:
+  title: Flask
+  links:
+    - title: Flask - Documentación oficial
+      url: https://flask.palletsprojects.com/en/3.0.x/
+    - title: Flask - Tutorial oficial
+      url: https://flask.palletsprojects.com/en/3.0.x/tutorial/
+
+python/flask/routes:
+  title: Rutas
+
+python/flask/routes/route-decorator:
+  title: Decorador de ruta
+  links:
+    - title: Routing - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#routing
+
+python/flask/routes/view-function:
+  title: Función de vista
+  links:
+    - title: View Functions - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#view-functions
+
+python/flask/routes/variable-rules:
+  title: Reglas de variables (urls dinamica)
+  links:
+    - title: Variable Rules - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#variable-rules
+
+python/flask/request:
+  title: Request Object
+
+python/flask/request/args:
+  title: Argumentos
+  links:
+    - title: Request - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#accessing-request-data
+
+python/flask/request/headers:
+  title: Headers (cabeceras)
+  links:
+    - title: Request - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#accessing-request-data
+    # - there are more that can be added here
+    # - form
+    # - json
+
+python/flask/response: # should response be part of routing, its what is returned in the vie function
+  title: Response Object
+
+python/flask/response/response-parts:
+  title: Partes de la respuesta (status, body, headers)
+  links:
+    - title: Response - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#about-responses
+
+python/flask/response/jsonify:
+  title: jsonify
+  links:
+    - title: jsonify - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/3.0.x/api/#flask.json.jsonify
+
+python/flask/testing:
+  title: Testing en Flask
+  links:
+    - title: Testing - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/3.0.x/testing/
+
+python/flask/testing/fixture-setup:
+  title: Configuración de fixtures
+  links:
+    - title: Testing - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/3.0.x/testing/#fixtures
+
+python/flask/testing/test-client:
+  title: Test Client
+  links:
+    - title: Testing - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/3.0.x/testing/#sending-requests-with-the-test-client
+
+python/django:
+  title: Django
+
+python/django/setup:
+  title: Configuración
+
+python/django/setup/migrations:
+  title: Migraciones
+  links:
+    - title: Migraciones
+      url: https://docs.djangoproject.com/es/5.0/topics/migrations/#module-django.db.migrations
+
+python/django/setup/app:
+  title: Setup app
+  links:
+    - title: Installed apps
+      url: https://docs.djangoproject.com/es/5.0/ref/settings/#std-setting-INSTALLED_APPS
+
+python/django/models:
+  title: Modelos
+
+python/django/models/fields:
+  title: Fields
+  links:
+    - title: Field types
+      url: https://docs.djangoproject.com/en/5.0/topics/db/models/#Fields
+
+python/django/models/foreign-Key:
+  title: Foreign Key
+  links:
+    - title: Model field reference
+      url: https://docs.djangoproject.com/en/5.0/ref/models/fields/
+
+python/django/views:
+  title: Views
+  links:
+    - title: Base views
+      url: https://docs.djangoproject.com/en/5.0/ref/class-based-views/base/
+
+python/django/testing:
+  title: Testing
+  links:
+    - title: Testing in Django
+      url: https://docs.djangoproject.com/en/5.0/topics/testing/
+    - title: Testing rest framework
+      url: https://www.django-rest-framework.org/api-guide/testing/#testing
+
+python/django/queryset:
+  title: queryset
+  links:
+    - title: The queryset argument
+      url: https://www.django-rest-framework.org/api-guide/relations/#the-queryset-argument
+
+python/django/filter:
+  title: Filter
+  links:
+    - title: Filtering
+      url: https://www.django-rest-framework.org/api-guide/filtering/
+
+python/django/order-by:
+  title: Order By
+  links:
+    - title: OrderingFilter
+      url: https://www.django-rest-framework.org/api-guide/filtering/#orderingfilter
+
+python/django/url-configuration:
+  title: URLs (Path, URLconf, urlpatterns)
+  links:
+    - title: Django URLs
+      url: https://tutorial.djangogirls.org/en/django_urls/
+    - title: URL dispatcher
+      url: https://docs.djangoproject.com/en/5.0/topics/http/urls/
+
+python/django/rest-framework:
+  title: Rest Framework
+
+python/django/rest-framework/serializers:
+  title: Serializers
+  links:
+    - title: Serializers
+      url: https://www.django-rest-framework.org/community/third-party-packages/#serializers
+
+python/django/rest-framework/pagination:
+  title: Pagination
+  links:
+    - title: Pagination
+      url: https://www.django-rest-framework.org/api-guide/pagination/#pagination
+
+python/django/rest-framework/query-params:
+  title: Query params
+  links:
+    - title: query_params
+      url: https://www.django-rest-framework.org/api-guide/requests/#query_params
+
+python/django/rest-framework/viewset:
+  title: ViewSet
+  links:
+    - title: ViewSet
+      url: https://www.django-rest-framework.org/api-guide/viewsets/#viewset
+
+python/django/rest-framework/apiview:
+  title: Apiview
+  links:
+    - title: GenericAPIView
+      url: https://www.django-rest-framework.org/api-guide/generic-views/#genericapiview
 
 webops:
   title: WebOps
@@ -1404,7 +1807,7 @@ typescript/decorators:
 
 ai-prompting:
   title: AI Prompting
-  description: El proceso de instruir a una IA para que realice una tarea 
+  description: El proceso de instruir a una IA para que realice una tarea
 
 ai-prompting/giving-instructions:
   title: Dando Instrucciones
