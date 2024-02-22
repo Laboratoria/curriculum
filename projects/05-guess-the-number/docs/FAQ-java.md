@@ -18,9 +18,9 @@
 - Primeros pasos para crear el primer test
 
   Puedes consultar el siguiente video en
-  [IntelliJ](https://www.youtube.com/watch?v=8Jgw4Ne4Qqg) o [vscode](https://www.youtube.com/watch?v=8Jgw4Ne4Qqg)
+  [del primer test en IntelliJ](https://www.youtube.com/watch?v=8Jgw4Ne4Qqg) o [del primer test en vscode](https://www.youtube.com/watch?v=8Jgw4Ne4Qqg)
 
 - Primeros pasos para crear el primer mock
 
   Puedes consultar el siguiente video en
-  [IntelliJ](https://www.youtube.com/watch?v=xiMOETNNk3w) o [vscode](https://www.youtube.com/watch?v=YNJGfM_ztCo)
+  [del primer mock en IntelliJ](https://www.youtube.com/watch?v=xiMOETNNk3w) o [del primer mock en vscode](https://www.youtube.com/watch?v=YNJGfM_ztCo)
