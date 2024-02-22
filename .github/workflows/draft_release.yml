@@ -34,10 +34,10 @@ jobs:
           echo ${{ steps.get_changelog.outputs.changelog }}
           echo "isMajor=${{ contains(steps.get_changelog.outputs.changelog, '!:') }}" >> "$GITHUB_OUTPUT"
           echo "isMinor=${{ contains(steps.get_changelog.outputs.changelog, 'feat') && !steps.determine_bump.isMajor }}" >> "$GITHUB_OUTPUT"
-      - name: Increment version
+      - name: Increment versionß
         id: bump_version
         run: |
-          npm version ${{ (steps.determine_bump.outputs.isMajor=='true' && 'major') || (steps.determine_bump.outputs.isMinor=='true' && 'minor') || 'patch' }} -m "chore(release): Bumps version to v%s and updates dist files"
+          npm version ${{ (steps.determine_bump.outputs.isMajor=='true' && 'major') || (steps.determine_bump.outputs.isMinor=='true' && 'minor') || 'patch' }} --force -m "chore(release): Bumps version to v%s and updates dist files"
           echo updatedVersion=$(node -p "require('./package.json').version") >> "$GITHUB_OUTPUT"
       - name: Build notes
         id: build_notes
