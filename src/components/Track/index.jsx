@@ -14,7 +14,7 @@ import Container from '@mui/material/Container';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
-import { Loading, setPage } from '@laboratoria/react';
+import { Loading, setPage } from '@laboratoria/sdk-react';
 import data from '../../lib/data';
 import Gym from './Gym';
 import Projects from './Projects';
