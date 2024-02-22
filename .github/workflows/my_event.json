@@ -1,0 +1,10 @@
+{
+  "pull_request": {
+    "head": {
+      "ref": "release/test_run"
+    },
+    "base": {
+      "ref": "next"
+    }
+  }
+}
