@@ -1,4 +1,4 @@
-# FAQ (preguntas frecuentes)
+# FAQ - Java (preguntas frecuentes)
 
 - ¿Cómo puedo instalar lo necesario para comensar?
 
@@ -13,14 +13,14 @@
 - ¿Cómo puedo crear una aplicación en Java?
 
   Puedes consultar el siguiente video en
-  [IntelliJ](XXXXXXXXXXXXXXXXXXX) o [vscode](XXXXXXXXXXXXXXXXXXX)
+  [IntelliJ](https://www.youtube.com/watch?v=VcvJBeYxVto) o [vscode](https://www.youtube.com/watch?v=cnQ9O9zX4ls)
 
 - Primeros pasos para crear el primer test
 
   Puedes consultar el siguiente video en
-  [IntelliJ](XXXXXXXXXXXXXXXXXXX) o [vscode](XXXXXXXXXXXXXXXXXXX)
+  [IntelliJ](https://www.youtube.com/watch?v=8Jgw4Ne4Qqg) o [vscode](https://www.youtube.com/watch?v=8Jgw4Ne4Qqg)
 
 - Primeros pasos para crear el primer mock
 
   Puedes consultar el siguiente video en
-  [IntelliJ](XXXXXXXXXXXXXXXXXXX) o [vscode](XXXXXXXXXXXXXXXXXXX)
+  [IntelliJ](https://www.youtube.com/watch?v=xiMOETNNk3w) o [vscode](https://www.youtube.com/watch?v=YNJGfM_ztCo)
