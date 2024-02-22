@@ -277,17 +277,25 @@ csharp:
   - data-types:
       - primitives
       - non-primitives
+      - anonymous-types
+      - dynamic-types
   - collections:
       - lists
       - arrays
       - sets
   - variables
-  - conditionals
+  - control-structures:
+      - conditionals:
+          - if
+          - switch
+      - loops:
+          - for
+          - while
+          - do-while
+          - foreach
   - operators
   - generics
   - access-modifiers
-  - classes
-  - objects
   - namespaces
   - functions:
       - lambda-functions
@@ -297,7 +305,7 @@ csharp:
       - throw
   - linq
   - async-await
-  - .net-framework
+  - .net-core
   - nuget-packages
   - testing:
       - xunit
@@ -305,6 +313,7 @@ csharp:
   - entity-framework:
       - code-first
       - models
+      - fluent-api
       - controllers
       - migrations
 
