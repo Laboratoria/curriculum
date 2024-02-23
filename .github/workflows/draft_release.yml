@@ -71,8 +71,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           owner: Laboratoria
-          fromTag: ${{ steps.get_previous_tag.outputs.previous_tag }}
-          toTag: main
+          fromTag: main
+          toTag: next
       - name: Make release draft
         id: release_draft
         run: |
