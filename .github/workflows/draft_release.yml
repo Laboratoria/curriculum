@@ -22,13 +22,13 @@ jobs:
       # - name: Fetch history and git
       #   run: |
       #     git fetch --prune --unshallow --tags
-      # - name: Install
-      #   run: npm ci
-      # - name: Build and add dist files
-      #   run: |
-      #     rm -rf dist/
-      #     npm run build:content
-      #     git add package* dist/
+      - name: Install
+        run: npm ci
+      - name: Build and add dist files
+        run: |
+          rm -rf dist/
+          npm run build:content
+          git add package* dist/
       - name: Parse changelog
         id: get_changelog
         # using npm changelog below put escaped characters in the output, so opted for raw git log command
@@ -50,6 +50,8 @@ jobs:
       - name: Config git user
         run: |
           echo "ACTING" "${{ github.actor}}"
+          git config user.name "${{ github.actor}}"
+          git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
         # run: |
         #   git config user.name "${{ github.actor}}"
         #   git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
