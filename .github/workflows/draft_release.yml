@@ -62,8 +62,8 @@ jobs:
       - name: Increment version
         id: bump_version
         run: |
-            npm version ${{ (steps.determine_bump.outputs.isBreakingChange=='true' && 'major') || (steps.determine_bump.outputs.isMinor=='true' && 'minor') || 'patch' }} --force -m "chore(release): Bumps version to v%s and updates dist files"
-            echo updated_version=$(node -p "require('./package.json').version") >> "$GITHUB_OUTPUT"
+          npm version ${{ (steps.determine_bump.outputs.isBreakingChange=='true' && 'major') || (steps.determine_bump.outputs.isMinor=='true' && 'minor') || 'patch' }} --force -m "chore(release): Bumps version to v%s and updates dist files"
+          echo updated_version=$(node -p "require('./package.json').version") >> "$GITHUB_OUTPUT"
       - name: Build notes
         id: build_notes
         uses: mikepenz/release-changelog-builder-action@v4.0.0
@@ -72,7 +72,7 @@ jobs:
         with:
           owner: Laboratoria
           fromTag: ${{ steps.get_previous_tag.outputs.previous_tag }}
-          toTag: ${{ steps.bump_version.outputs.updated_version }}
+          toTag: '.git/refs/heads/next'
       - name: Make release draft
         id: release_draft
         run: |
