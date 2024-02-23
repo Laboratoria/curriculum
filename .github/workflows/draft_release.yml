@@ -19,9 +19,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-      # - name: Fetch history and git
-      #   run: |
-      #     git fetch --prune --unshallow --tags
+      - name: Fetch history and git
+        run: |
+          git fetch --prune --unshallow --tags
       - name: Install
         run: npm ci
       - name: Build and add dist files
