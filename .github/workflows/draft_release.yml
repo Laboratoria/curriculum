@@ -39,6 +39,10 @@ jobs:
               echo EOF
             } >> "$GITHUB_OUTPUT"
       # https://stackoverflow.com/questions/59191913/how-do-i-get-the-output-of-a-specific-step-in-github-actions
+      - name: Get previous tag
+        id: get_previous_tag
+        run: |
+          echo previous_tag=$(git describe --tags --abbrev=0) >> "$GITHUB_OUTPUT"
       # TODO way to force version with title of branch
       - name: Determine version bump
         id: determine_bump
@@ -67,16 +71,15 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           owner: Laboratoria
-          # fromTag: v...
-          # toTag: v...
+          fromTag: ${{ steps.get_previous_tag.outputs.previous_tag }}
+          toTag: ${{ steps.bump_version.outputs.updated_version }}
       - name: Make release draft
         id: release_draft
         run: |
           echo ${{ steps.bump_version.outputs.updated_version }}
           echo ${{ steps.build_notes.outputs.changelog }}
-        # run: |
-        #     gh release create ${{ steps.version_tag_release_draft.outputs.new_tag }} \
-        #         --repo="$GITHUB_REPOSITORY" \
-        #         --title="${GITHUB_REPOSITORY#*/} ${{ steps.version_tag_release_draft.outputs.new_tag }}" \
-        #         --notes ${{steps.build_notes.outputs.changelog}} \
-        #         --draft
+        # gh release create ${{ steps.bump_version.outputs.updated_version }} \
+        #     --repo="$GITHUB_REPOSITORY" \
+        #     --title="${GITHUB_REPOSITORY#*/} ${{ steps.bump_version.outputs.updated_version }}" \
+        #     --notes ${{steps.build_notes.outputs.changelog}} \
+        #     --draft
