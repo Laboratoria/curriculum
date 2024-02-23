@@ -19,31 +19,45 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-      - name: Fetch history and git
-        run: |
-          git fetch --prune --unshallow --tags
-      - name: Install
-        run: npm ci
-      - name: Build and add dist files
-        run: |
-          rm -rf dist/
-          npm run build:content
-          git add package* dist/
+      # - name: Fetch history and git
+      #   run: |
+      #     git fetch --prune --unshallow --tags
+      # - name: Install
+      #   run: npm ci
+      # - name: Build and add dist files
+      #   run: |
+      #     rm -rf dist/
+      #     npm run build:content
+      #     git add package* dist/
       - name: Parse changelog
         id: get_changelog
-        run: echo "changelog=$(npm run changelog)" >> "$GITHUB_OUTPUT"
+        # using npm changelog below put escaped characters in the output, so opted for raw git log command
+        run: |
+            {
+              echo 'changelog_text<<EOF'
+              git log $(git describe --tags --abbrev=0)..HEAD --oneline --format="* %h %s (%an)"
+              echo EOF
+            } >> "$GITHUB_OUTPUT"
       # https://stackoverflow.com/questions/59191913/how-do-i-get-the-output-of-a-specific-step-in-github-actions
+      # TODO way to force version with title of branch
       - name: Determine version bump
         id: determine_bump
+        # https://unix.stackexchange.com/questions/736318/make-grep-exit-1-if-found-and-exit-0-if-not-found
         run: |
-          echo ${{ steps.get_changelog.outputs.changelog }}
-          echo "isMajor=${{ contains(steps.get_changelog.outputs.changelog, '!:') }}" >> "$GITHUB_OUTPUT"
-          echo "isMinor=${{ contains(steps.get_changelog.outputs.changelog, 'feat') && !steps.determine_bump.isMajor }}" >> "$GITHUB_OUTPUT"
-      - name: Increment versionß
+          echo "${{ steps.get_changelog.outputs.changelog_text }}" | grep -q "feat:" && echo "isMinor=true" >> "$GITHUB_OUTPUT" || echo "isMinor=false" >> "$GITHUB_OUTPUT"
+          echo "${{ steps.get_changelog.outputs.changelog_text }}" | grep -q "\!:" && echo "isBreakingChange=true" >> "$GITHUB_OUTPUT" || echo "isBreakingChange=false" >> "$GITHUB_OUTPUT"
+        shell: bash
+      - name: Config git user
+        run: |
+          echo "ACTING" "${{ github.actor}}"
+        # run: |
+        #   git config user.name "${{ github.actor}}"
+        #   git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+      - name: Increment version
         id: bump_version
         run: |
-          npm version ${{ (steps.determine_bump.outputs.isMajor=='true' && 'major') || (steps.determine_bump.outputs.isMinor=='true' && 'minor') || 'patch' }} --force -m "chore(release): Bumps version to v%s and updates dist files"
-          echo updatedVersion=$(node -p "require('./package.json').version") >> "$GITHUB_OUTPUT"
+            npm version ${{ (steps.determine_bump.outputs.isBreakingChange=='true' && 'major') || (steps.determine_bump.outputs.isMinor=='true' && 'minor') || 'patch' }} --force -m "chore(release): Bumps version to v%s and updates dist files"
+            echo updated_version=$(node -p "require('./package.json').version") >> "$GITHUB_OUTPUT"
       - name: Build notes
         id: build_notes
         uses: mikepenz/release-changelog-builder-action@v4.0.0
@@ -51,13 +65,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           owner: Laboratoria
-          # fromTag: v7.1.0
-          # toTag: v7.6.0
+          # fromTag: v...
+          # toTag: v...
       - name: Make release draft
         id: release_draft
         run: |
-          echo ${{ steps.version_tag_release_draft.outputs.new_tag }}
-        #   echo ${{ steps.build_notes.outputs.changelog }}
+          echo ${{ steps.bump_version.outputs.updated_version }}
+          echo ${{ steps.build_notes.outputs.changelog }}
         # run: |
         #     gh release create ${{ steps.version_tag_release_draft.outputs.new_tag }} \
         #         --repo="$GITHUB_REPOSITORY" \
