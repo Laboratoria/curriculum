@@ -72,7 +72,7 @@ jobs:
         with:
           owner: Laboratoria
           fromTag: ${{ steps.get_previous_tag.outputs.previous_tag }}
-          toTag: '.git/refs/heads/next'
+          toTag: main
       - name: Make release draft
         id: release_draft
         run: |
