@@ -23,7 +23,7 @@ jobs:
 
       - name: Fetch history and git
         run: |
-          git fetch --prune --tags
+          git fetch --prune --unshallow --tags
         # git fetch --prune --unshallow --tags
 
       - name: Install
