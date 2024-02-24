@@ -15,55 +15,82 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-tags: true
+
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
+
       - name: Fetch history and git
         run: |
-          git fetch --prune --unshallow --tags
+          git fetch --prune --tags
+        # git fetch --prune --unshallow --tags
+
       - name: Install
         run: npm ci
+
       - name: Build and add dist files
         run: |
           rm -rf dist/
           npm run build:content
           git add package* dist/
+
       - name: Parse changelog
         id: get_changelog
-        # using npm changelog below put escaped characters in the output, so opted for raw git log command
+        # when trying to use 'npm changelog' below it put escaped slash characters in the output, so opted for raw git log command
+        # also multiline output here https://stackoverflow.com/questions/59191913/how-do-i-get-the-output-of-a-specific-step-in-github-actions
         run: |
             {
               echo 'changelog_text<<EOF'
               git log $(git describe --tags --abbrev=0)..HEAD --oneline --format="* %h %s (%an)"
               echo EOF
             } >> "$GITHUB_OUTPUT"
-      # https://stackoverflow.com/questions/59191913/how-do-i-get-the-output-of-a-specific-step-in-github-actions
+
       - name: Get previous tag
         id: get_previous_tag
         run: |
           echo previous_tag=$(git describe --tags --abbrev=0) >> "$GITHUB_OUTPUT"
-      # TODO way to force version with title of branch
+        # or this for get previous
+        # run: |
+        #   name=$(git --no-pager tag --sort=creatordate --merged ${{ github.ref_name }} | tail -2 | head -1)
+        #   echo "previousTag: $name"
+        #   echo "previousTag=$name" >> $GITHUB_ENV
+
+      - name: Extract version from ref name
+        id: extract_version
+        run: |
+          VERSION=$(echo "${{ github.ref_name }}" | grep -oP 'v\d+\.\d+\.\d+' || true)
+          if [[ -n "$VERSION" ]]; then
+            echo "versionFromBranch=$VERSION" >> "$GITHUB_OUTPUT"
+          fi
+        shell: bash
+
       - name: Determine version bump
+        if: ${{ !steps.extract_version.outputs.versionFromBranch }}
         id: determine_bump
         # https://unix.stackexchange.com/questions/736318/make-grep-exit-1-if-found-and-exit-0-if-not-found
         run: |
           echo "${{ steps.get_changelog.outputs.changelog_text }}" | grep -q "feat:" && echo "isMinor=true" >> "$GITHUB_OUTPUT" || echo "isMinor=false" >> "$GITHUB_OUTPUT"
           echo "${{ steps.get_changelog.outputs.changelog_text }}" | grep -q "\!:" && echo "isBreakingChange=true" >> "$GITHUB_OUTPUT" || echo "isBreakingChange=false" >> "$GITHUB_OUTPUT"
         shell: bash
+
       - name: Config git user
         run: |
-          echo "ACTING" "${{ github.actor}}"
           git config user.name "${{ github.actor}}"
           git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
-        # run: |
-        #   git config user.name "${{ github.actor}}"
-        #   git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
-      - name: Increment version
+
+      - name: Bump version
         id: bump_version
         run: |
-          npm version ${{ (steps.determine_bump.outputs.isBreakingChange=='true' && 'major') || (steps.determine_bump.outputs.isMinor=='true' && 'minor') || 'patch' }} --force -m "chore(release): Bumps version to v%s and updates dist files"
+          npm version ${{
+            steps.extract_version.outputs.versionFromBranch ||
+            (steps.determine_bump.outputs.isBreakingChange=='true' && 'major') ||
+            (steps.determine_bump.outputs.isMinor=='true' && 'minor') ||
+            'patch'
+            }} \
+            --force -m "chore(release): Bumps version to v%s and updates dist files"
           echo updated_version=$(node -p "require('./package.json').version") >> "$GITHUB_OUTPUT"
+
       - name: Build notes
         id: build_notes
         uses: mikepenz/release-changelog-builder-action@v4.0.0
@@ -73,6 +100,9 @@ jobs:
           owner: Laboratoria
           fromTag: main
           toTag: next
+          fetchViaCommits: true
+          commitMode: true
+
       - name: Make release draft
         id: release_draft
         run: |
@@ -83,3 +113,6 @@ jobs:
         #     --title="${GITHUB_REPOSITORY#*/} ${{ steps.bump_version.outputs.updated_version }}" \
         #     --notes ${{steps.build_notes.outputs.changelog}} \
         #     --draft
+
+
+
