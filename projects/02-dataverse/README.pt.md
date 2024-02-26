@@ -7,11 +7,12 @@
 * [3. Considerações gerais](#3-considerações-gerais)
 * [4. Funcionalidades](#4-funcionalidades)
 * [5. Considerações técnicas](#5-considerações-técnicas)
-* [6. Critérios de aceitação mínimos do projeto](#6-critérios-de-aceitação-mínimos-do-projeto)
-* [7. Edição Hacker](#7-edição-hacker)
-* [8. Objetivos de aprendizagem](#8-objetivos-de-aprendizagem)
-* [9. Dicas, guias e leituras complementares](#9-dicas-guias-e-leituras-complementares)
-* [10. Considerações para pedir seu Feedback do Projeto](#10-considerações-para-pedir-seu-feedback-do-projeto)
+* [6. Marcos](#6-Marcos)
+* [7. Critérios de aceitação mínimos do projeto](#7-critérios-de-aceitação-mínimos-do-projeto)
+* [8. Edição Hacker](#8-edição-hacker)
+* [9. Objetivos de aprendizagem](#9-objetivos-de-aprendizagem)
+* [10. Dicas, guias e leituras complementares](#10-dicas-guias-e-leituras-complementares)
+* [11. Considerações para pedir seu Feedback do Projeto](#11-considerações-para-pedir-seu-feedback-do-projeto)
 
 ***
 
@@ -210,7 +211,7 @@ como todas as configurações de dependências:
 ├── README.md
 ├── package.json
 ├── src
-|  ├── data 
+|  ├── data
 |  |  └── dataset.js (O que você gerou com a IA)
 |  ├── dataFunctions.js
 |  ├── view.js
@@ -321,7 +322,25 @@ tem uma responsabilidade específica. A responsabilidade das funções em
 Esta não é a única maneira de dividir seu código, você pode usar mais arquivos e
 pastas, desde que a estrutura seja clara para seus colegas.
 
-## 6. Critérios mínimos de aceitação do projeto
+## 6. Marcos
+
+Para abordar eficazmente um problema, é crucial obter
+uma compreensão profunda do mesmo. Uma estratégia eficaz
+envolve desmembrá-lo em problemas menores, o que facilitará
+a identificação das causas subjacentes e a formulação de soluções
+mais eficientes.
+
+No contexto deste projeto, recomendamos adotar uma abordagem por
+marcos. Esta metodologia permitirá que você se concentre em um
+problema de cada vez e monitore seu progresso. Abaixo, fornecemos
+um calendário de marcos que ajudará a estruturar seu trabalho.
+
+* [Marco 1](./docs/01-milestone.pt.md)
+* [Marco 2](./docs/02-milestone.pt.md)
+* [Marco 3](./docs/03-milestone.pt.md)
+* [Marco 4](./docs/04-milestone.pt.md)
+
+## 7. Critérios mínimos de aceitação do projeto
 
 ### Critérios de código
 
@@ -670,7 +689,7 @@ Seus _testes unitários_ devem cobrir 70% das _declarações_
 (_branches_) do arquivo `src/dataFunctions.js` que contém suas funções e
 está detalhado na seção de [Considerações técnicas](#src/data.js).
 
-## 7. Edição Hacker
+## 8. Edição Hacker
 
 As seções chamadas _Edição Hacker_ são **opcionais**. Se você **concluiu**
 tudo o que foi solicitado anteriormente e ainda tem tempo, tente completá-las.
@@ -685,7 +704,7 @@ Recursos/características adicionais sugeridos:
   ou [Google Charts](https://developers.google.com/chart/).
 * Cobertura de 100%
 
-## 8. Objetivos de aprendizagem
+## 9. Objetivos de aprendizagem
 
 > ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
@@ -695,7 +714,7 @@ Recursos/características adicionais sugeridos:
 > Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
 > que contempla nuestra currícula.
 
-## 9. Dicas, guias e leituras complementares
+## 10. Dicas, guias e leituras complementares
 
 ### Primeiros Passos
 
@@ -784,7 +803,7 @@ Quando estiver pronta para codificar, sugerimos que comece assim:
   Aceitação_ e nós sim faremos. Mais detalhes no guia.
 * [Como dividir as H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
 
-## 10. Considerações para pedir seu Feedback do Projeto
+## 11. Considerações para pedir seu Feedback do Projeto
 
 Antes de agendar seu Feedback do Projeto com um coach:
 
