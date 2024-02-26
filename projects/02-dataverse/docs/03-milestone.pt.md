@@ -131,7 +131,8 @@ interatividade.
 Verifique o estado dos testes;
 este é um momento propício para executá-los
 e realizar ajustes nas seções do
-código que forem necessários. Embora seja provável que alguns testes ainda não deem resultado
+código que forem necessários. Embora seja provável que alguns
+testes ainda não deem resultado
 positivo, é crucial abordar qualquer problema
 identificado para garantir a solidez e exatidão do código.
 

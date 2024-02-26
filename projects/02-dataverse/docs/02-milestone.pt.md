@@ -15,7 +15,7 @@ dos elementos do seu conjunto de dados com todos os estilos.
 
 ### Visualizar
 
-> [!IMPORTANTE]
+> [!IMPORTANT]
 > Para visualizar os dados, é crucial que você reveja
 > os conceitos de
 > [parâmetros e argumentos](https://www.youtube.com/watch?v=5VVBrfWQ2Wk)
@@ -68,7 +68,7 @@ renderItems, recorrendo novamente a
 [innerHTML](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML) ou
 [appendChild](https://developer.mozilla.org/es/docs/Web/API/Node/appendChild)
 
-> [!NOTA]
+> [!NOTE]
 > **appendChild()**: Este método adiciona um elemento filho ao final
 > de um elemento pai.
 > **innerHTML**: Esta propriedade atribui o conteúdo de um elemento
