@@ -108,7 +108,7 @@ enrutador para gestionar ambas situaciones.
 
     **Nota 📝:
     Para obtener detalles de las funciones, revisa
-    [esta sección de la guía](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#api-de-router-b%C3%A1sico).**
+    [esta sección de la guía](https://github.com/Laboratoria/curriculum/blob/main/guides/router-spa/README.md?/#api-de-router-b%C3%A1sico).**
 
 ![Preview Detail](./assets/previewDetail.gif)
 
