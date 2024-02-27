@@ -2087,3 +2087,276 @@ design-systems/atomic-design:
 design-systems/design-system:
   title: Utilizar sistemas de diseño
   description: Utilizar un sistema de diseño existente como base para la propuesta de diseño
+
+csharp:
+  title: C#
+
+csharp/data-types:
+  title: Tipos de datos
+  links:
+    - title: El sistema de tipos de C# - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/types/
+
+csharp/data-types/primitives:
+  title: Tipos de datos primitivos
+  links:
+    - title: Tipos integrados (referencia de C#) - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/built-in-types
+
+csharp/data-types/non-primitives:
+  title: Tipos de datos no primitivos
+  links:
+    - title: El sistema de tipos de C# - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/types/
+    - title: Introducción a las clases - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/types/classes
+    - title: Tipos de estructura (Referencia de C#) - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/struct
+    - title: Tipos de enumeración (Referencia de C#) - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/enum
+    - title: Interfaces, definir el comportamiento de varios tipos - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/types/interfaces
+
+
+csharp/data-types/anonymous-types:
+  title: Tipos anónimos
+  links:
+    - title: Tipos anónimos - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/types/anonymous-types
+
+csharp/data-types/dynamic-types:
+  title: Tipos dinámicos
+  links:
+    - title: dynamic (Referencia de C#) - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/reference-types#the-dynamic-type
+    - title: Uso del tipo dynamic - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/advanced-topics/interop/using-type-dynamic
+
+csharp/collections:
+  title: Colecciones
+  links:
+    - title: Colecciones (Referencia de C#) - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/collections
+
+csharp/collections/lists:
+  title: Listas
+  links:
+    - title: List<T> Clase - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/api/system.collections.generic.list-1?view=net-8.0
+    - title: Aprenda a administrar colecciones de datos mediante List<T> en C# - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/tour-of-csharp/tutorials/arrays-and-collections
+
+csharp/collections/arrays:
+  title: Arreglos
+  links:
+    - title: Matrices - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/arrays
+
+csharp/collections/sets:
+  title: Conjuntos (Sets)
+  links:
+    - title: HashSet<T> Clase - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/api/system.collections.generic.hashset-1?view=net-8.0
+    - title: HashSet in C# with Examples (en inglés)
+      url: https://www.geeksforgeeks.org/hashset-in-c-sharp-with-examples/
+
+csharp/variables:
+  title: Variables
+  links:
+    - title: Variables (en inglés) - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/language-specification/variables
+    - title: C# | Variables
+      url: https://www.geeksforgeeks.org/c-sharp-variables/
+    - title: Variables y Tipos en C#
+      url: https://desarrolloweb.com/articulos/variables-tipos-csharp
+
+csharp/control-structures:
+  title: Estructuras de Control
+
+csharp/control-structures/conditionals:
+  title: Condicionales
+  links:
+    - title: if-else (Referencia de C#) - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/statements/selection-statements#the-if-statement
+
+    - title: switch (Referencia de C#) - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/statements/selection-statements#the-switch-statement
+
+    - title: Operadores de igualdad, prueban si dos objetos son iguales o no - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/operators/equality-operators
+
+    - title: Operadores de comparación (referencia de C#) - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/operators/comparison-operators
+
+csharp/control-structures/loops:
+  title: Bucles/Ciclos
+  links:
+    - title: for (Referencia de C#) - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/statements/iteration-statements#the-for-statement
+
+    - title: while (Referencia de C#) - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/statements/iteration-statements#the-while-statement
+
+    - title: do-while (Referencia de C#) - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/statements/iteration-statements#the-do-statement
+
+    - title: foreach (Referencia de C#) - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/statements/iteration-statements#the-foreach-statement
+
+    - title: await foreach (Referencia de C#) - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/statements/iteration-statements#await-foreach
+
+csharp/operators:
+  title: Operadores
+  links:
+    - title: Operadores y expresiones de C# (referencia de C#) - Microsoft Docs
+      url: https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/operators/
+
+csharp/generics:
+  title: Genéricos
+  links:
+    - title: Clases y métodos genéricos (C# Programming Guide) - Microsoft Docs
+      url: https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/generics/
+
+csharp/access-modifiers:
+  title: Modificadores de Acceso
+  links:
+    - title: Modificadores de acceso (Guía de programación de C#) - Microsoft Docs
+      url: https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers
+
+csharp/namespaces:
+  title: Espacios de Nombres (namespaces)
+  links:
+    - title: Declaración de espacios de nombres para organizar los tipos - Microsoft Docs
+      url: https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/namespaces/
+
+csharp/functions:
+  title: Funciones
+
+csharp/functions/lambda-functions:
+  title: Funciones Lambda
+  links:
+    - title: Expresiones lambda y funciones anónimas (referencia de C#) - Microsoft Docs
+      url: https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions
+
+csharp/functions/decorators:
+  title: Decoradores (Atributos)
+  links:
+    - title: Atributos (en Inglés) - Microsoft Docs
+      url: https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/attributes/
+    - title: Definición y lectura de atributos personalizados - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/advanced-topics/reflection-and-attributes/attribute-tutorial
+
+csharp/error-handling:
+  title: Manejo de Errores
+
+csharp/error-handling/try-catch:
+  title: try-catch
+  links:
+    - title: try-catch (Referencia de C#) - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/statements/exception-handling-statements
+
+csharp/error-handling/throw:
+  title: throw
+  links:
+    - title: throw (Referencia de C#) - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/statements/exception-handling-statements#the-throw-statement
+
+csharp/linq:
+  title: LINQ
+  links:
+    - title: LINQ (Language-Integrated Query) - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/linq/
+    - title: LINQ Conceptos básicos y consultas (en inglés) - Tutorial Teacher
+      url: https://www.tutorialsteacher.com/linq
+    - title: LINQ Tutorial For Beginners and Professionals (en inglés)
+      url: https://dotnettutorials.net/course/linq/
+
+csharp/async-await:
+  title: Async-Await
+  links:
+    - title: Escenarios de programación asincrónica - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/asynchronous-programming/async-scenarios
+
+csharp/.net-core:
+  title: .NET Core
+  links:
+    - title: .NET and .NET Core - Microsoft Docs
+      url: https://docs.microsoft.com/es-es/dotnet/
+    - title: .NET para principiantes - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/shows/dotnet-for-beginners/
+    - title: Introducción a .NET - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/core/introduction
+    - title: Tutoriales .NET - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/core/tutorials/
+
+csharp/nuget-packages:
+  title: Paquetes NuGet
+  links:
+    - title: NuGet Documentación - Microsoft Docs
+      url: https://docs.microsoft.com/es-es/nuget/
+    - title: NuGet Library
+      url: https://www.nuget.org/
+    - title: Administrar paquetes NuGet con la CLI de NuGet - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/nuget/consume-packages/install-use-packages-nuget-cli
+    - title: Instalar paquetes Nuget en Visual Studio Code
+      url: https://www.youtube.com/watch?v=Qy-vwB_TEW4
+    - title: Instalar paquetes Nuget en Visual Studio
+      url: https://www.youtube.com/watch?v=J3_io5mBEnU
+
+csharp/testing:
+  title: Pruebas
+
+csharp/testing/xunit:
+  title: xUnit
+  links:
+    - title: xUnit.net Documentación - xUnit.net
+      url: https://xunit.net/#documentation
+    - title: Prueba unitaria de C# en .NET Core mediante pruebas de dotnet y xUnit - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/core/testing/unit-testing-with-dotnet-test
+
+csharp/testing/mstest:
+  title: MSTest
+  links:
+    - title: MSTest V2 - GitHub
+      url: https://github.com/microsoft/testfx?tab=readme-ov-file
+    - title: Prueba unitaria de C# con MSTest y .NET
+      url: https://learn.microsoft.com/es-es/dotnet/core/testing/unit-testing-with-mstest
+
+csharp/entity-framework:
+  title: Entity Framework
+  links:
+    - title: Centro de documentación de Entity Framework - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/ef/
+
+csharp/entity-framework/code-first:
+  title: Code First
+  links:
+    - title: Code First en una nueva base de datos - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/ef/ef6/modeling/code-first/workflows/new-database
+
+csharp/entity-framework/models:
+  title: Modelos
+  links:
+    - title: Creación de un modelo - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/ef/ef6/modeling/
+
+csharp/entity-framework/fluent-api:
+  title: Fluent API
+  links:
+    - title: Fluent API, Relaciones | Microsoft Docs
+      url: https://learn.microsoft.com/es-es/ef/ef6/modeling/code-first/fluent/relationships
+
+csharp/entity-framework/controllers:
+  title: Controladores
+  links:
+    - title: Agregar modelos y controladores - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/aspnet/web-api/overview/data/using-web-api-with-entity-framework/part-2#add-web-api-controllers
+    - title: Entendiendo los Web API con .Net Core y Entity framework
+      url: https://bravedeveloper.com/2021/07/20/entendiendo-los-web-api-con-net-core-y-entity-framework/
+
+csharp/entity-framework/migrations:
+  title: Migraciones
+  links:
+    - title: Descripción general de las migraciones - Microsoft Docs
+      url: https://docs.microsoft.com/es-es/ef/core/managing-schemas/migrations/
