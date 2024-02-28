@@ -2173,7 +2173,7 @@ csharp/variables:
 csharp/control-structures:
   title: Estructuras de Control
 
-csharp/control-structures/conditionals:
+csharp/conditionals:
   title: Condicionales
   links:
     - title: if-else (Referencia de C#) - Microsoft Docs
@@ -2188,7 +2188,7 @@ csharp/control-structures/conditionals:
     - title: Operadores de comparación (referencia de C#) - Microsoft Docs
       url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/operators/comparison-operators
 
-csharp/control-structures/loops:
+csharp/loops:
   title: Bucles/Ciclos
   links:
     - title: for (Referencia de C#) - Microsoft Docs
