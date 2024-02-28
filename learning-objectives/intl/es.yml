@@ -2093,22 +2093,19 @@ csharp:
 
 csharp/data-types:
   title: Tipos de datos
-  links: C# | Data Types (en inglés) - Geeks for geeks
-    - title: El sistema de tipos de C# - Microsoft Docs
-      url: https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/types/
-    - title:
-      url: https://www.geeksforgeeks.org/c-sharp-data-types/
 
 csharp/data-types/primitives:
   title: Tipos de datos primitivos
   links:
     - title: Tipos integrados (referencia de C#) - Microsoft Docs
       url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/built-in-types
+    - title: C# | Data Types (en inglés)
+      url: https://www.geeksforgeeks.org/c-sharp-data-types/
 
 csharp/data-types/non-primitives:
   title: Tipos de datos no primitivos
   links:
-    - title: El sistema de tipos de C# - Microsoft Docs
+    - title: Common Type System - Microsoft Docs
       url: https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/types/#the-common-type-system
 
   csharp/data-types/structs:
@@ -2357,6 +2354,8 @@ csharp/entity-framework/controllers:
   links:
     - title: Agregar modelos y controladores - Microsoft Docs
       url: https://learn.microsoft.com/es-es/aspnet/web-api/overview/data/using-web-api-with-entity-framework/part-2#add-web-api-controllers
+    - title: Creación de API web con ASP.NET Core
+      url: https://learn.microsoft.com/es-es/aspnet/core/web-api/?view=aspnetcore-8.0
     - title: Entendiendo los Web API con .Net Core y Entity framework
       url: https://bravedeveloper.com/2021/07/20/entendiendo-los-web-api-con-net-core-y-entity-framework/
 
