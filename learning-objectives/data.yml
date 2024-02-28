@@ -277,6 +277,8 @@ csharp:
   - data-types:
       - primitives
       - non-primitives
+      - structs
+      - enums
       - anonymous-types
       - dynamic-types
   - collections:

@@ -2093,9 +2093,11 @@ csharp:
 
 csharp/data-types:
   title: Tipos de datos
-  links:
+  links: C# | Data Types (en inglés) - Geeks for geeks
     - title: El sistema de tipos de C# - Microsoft Docs
       url: https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/types/
+    - title:
+      url: https://www.geeksforgeeks.org/c-sharp-data-types/
 
 csharp/data-types/primitives:
   title: Tipos de datos primitivos
@@ -2107,16 +2109,19 @@ csharp/data-types/non-primitives:
   title: Tipos de datos no primitivos
   links:
     - title: El sistema de tipos de C# - Microsoft Docs
-      url: https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/types/
-    - title: Introducción a las clases - Microsoft Docs
-      url: https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/types/classes
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/types/#the-common-type-system
+
+  csharp/data-types/structs:
+  title: Estructuras
+  links:
     - title: Tipos de estructura (Referencia de C#) - Microsoft Docs
       url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/struct
+
+  csharp/data-types/enums:
+  title: Enumeración
+  links:
     - title: Tipos de enumeración (Referencia de C#) - Microsoft Docs
       url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/enum
-    - title: Interfaces, definir el comportamiento de varios tipos - Microsoft Docs
-      url: https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/types/interfaces
-
 
 csharp/data-types/anonymous-types:
   title: Tipos anónimos
