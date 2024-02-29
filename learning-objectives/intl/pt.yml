@@ -2025,41 +2025,48 @@ csharp/variables:
     - title: C# | Variáveis (em inglês)
       url: https://www.geeksforgeeks.org/c-sharp-variables/
 
-csharp/control-structures:
-  title: Estruturas de Controle
-
 csharp/conditionals:
   title: Condicionais
+
+csharp/conditionals/if:
+  title: if
   links:
     - title: if-else (Referência do C#) - Microsoft Docs
       url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/selection-statements#the-if-statement
 
+csharp/conditionals/switch:
+  title: switch
+  links:
     - title: switch (Referência do C#) - Microsoft Docs
       url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/selection-statements#the-switch-statement
 
-    - title: Operadores de Igualdade, Verificam se Dois Objetos São Iguais ou Não - Microsoft Docs
-      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/equality-operators
-
-    - title: Operadores de Comparação (referência do C#) - Microsoft Docs
-      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/comparison-operators
-
 csharp/loops:
-  title: Loops
+  title: Laços/Loops
+
+csharp/loops/for:
+  title: for
   links:
     - title: for (Referência do C#) - Microsoft Docs
       url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements#the-for-statement
 
+csharp/loops/while:
+  title: while
+  links:
     - title: while (Referência do C#) - Microsoft Docs
       url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements#the-while-statement
 
+csharp/loops/do:
+  title: do
+  links:
     - title: do-while (Referência do C#) - Microsoft Docs
       url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements#the-do-statement
 
+csharp/loops/foreach:
+  title: foreach
+  links:
     - title: foreach (Referência do C#) - Microsoft Docs
       url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements#the-foreach-statement
 
-    - title: await foreach (Referência do C#) - Microsoft Docs
-      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements#await-foreach
 
 csharp/operators:
   title: Operadores
