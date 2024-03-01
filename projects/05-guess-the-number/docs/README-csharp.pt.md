@@ -13,11 +13,11 @@ do universo C#, é também um guia pelos princípios essenciais da
 programação orientada a objetos e o manuseio dos princípios básicos desta
 linguagem. Prepare-se para embarcar em uma aventura que te levará desde os
 fundamentos até os aspectos mais interessantes da programação em C#, tudo isso
-enquanto constrói um jogo que desafiará seu engenho.
+enquanto constrói um jogo que desafiará sua criatividade.
 
 ## 2. Considerações Gerais
 
-Antes de mergulharmos no código e a lógica por trás de "Adivinhe o Número",
+Antes de mergulharmos no código e na lógica por trás de "Adivinhe o Número",
 é crucial estabelecer algumas considerações gerais para garantir uma
 experiência de aprendizado fluida e eficaz:
 
@@ -28,7 +28,7 @@ experiência de aprendizado fluida e eficaz:
   e a implementação do jogo.
 
 - **Experimentação ativa**:
-  Encorajamos você a experimentar com o código além
+  Encorajamos você a se aventurar no código além
   das instruções e exemplos fornecidos. Modificar e brincar com o código
   é uma das melhores maneiras de aprender e consolidar suas habilidades de programação.
 
@@ -54,7 +54,7 @@ Para garantir o sucesso deste projeto, é importante prestar atenção
 
 - **Documentação e Comentários**: Mantenha seu código bem documentado
   e comente as seções complexas ou importantes.
-  Isso não só te ajudará a você e a outros a entender o código,
+  Isso não só ajudará a você e a outros a entender o código,
   mas também é uma prática recomendada no desenvolvimento de software.
 
 - **Outros aspectos importantes**:
@@ -80,10 +80,10 @@ o mais importante, celebre seus sucessos à medida que avança.
 Estes marcos são projetados não apenas para guiá-lo através do desenvolvimento
 do jogo, mas também para fornecer oportunidades de experimentação
 e personalização. A seguir, apresentaremos cada marco,
-explicando seu objetivo, os conceitos chave que abrangerá e
+explicando seu objetivo, os conceitos chave que abrangidos e
 sugestões para explorar além dos requisitos básicos.
 
-Encorajamos você a abordar estes marcos com curiosidade e criatividade,
+Encorajamos você a explorar estes marcos com curiosidade e criatividade,
 adaptando o projeto aos seus interesses e
 desafiando-se a aprender mais a cada etapa.
 
@@ -134,7 +134,7 @@ o jogo (_executar alguma função da classe `Game`_).
 - Documentação sobre estruturas de controle em C#:
 
   + [Declarações de Seleção](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/selection-statements)
-  + [Gerar números aleatórios com C#](https://www.discoduroderoer.es/generar-numeros-aleatorios-con-c-sharp/)
+  + [Gerar números aleatórios com C#](https://learn.microsoft.com/pt-br/dotnet/api/system.random.next?view=net-8.0)
 
 - Tutoriais sobre como usar `Console.ReadLine()` e `Console.WriteLine()`
  para entrada/saída de dados:
@@ -160,6 +160,18 @@ Desenvolver classes em C# que encapsulem a funcionalidade requerida para jogar.
 Você deve adicionar uma classe extra ao que já conseguiu até este ponto.
 Seu projeto deve incluir:
 
+Uma classe `Player`, que deve encapsular as características e ações que um
+jogador pode realizar durante um jogo.
+
+- Características da classe Player:
+
+  1. Propriedade que armazena o nome.
+  2. Propriedade que armazena a última tentativa feita pelo jogador.
+  3. Construtor que inicializa a última tentativa em zero e o nome de acordo
+     com o valor com que foi instanciado.
+  4. Método responsável por fazer a previsão (`MakeGuess()`)
+     solicitando um número pelo terminal e validando se está correto.
+
 Uma classe `Game` que gerencie a lógica do jogo,
 como iniciar um novo jogo, gerar o número secreto e determinar
 o resultado das tentativas do jogador.
@@ -176,18 +188,6 @@ o resultado das tentativas do jogador.
      (ou seja, de executar a função `Player.MakeGuess()`),
      caso ele não consiga adivinhar o número na sua última tentativa.
      Se o jogador conseguir adivinhar, finaliza o jogo.
-
-Uma classe `Player`, que deve encapsular as características e ações que um
-jogador pode realizar durante um jogo.
-
-- Características da classe Player:
-
-  1. Propriedade que armazena o nome.
-  2. Propriedade que armazena a última tentativa feita pelo jogador.
-  3. Construtor que inicializa a última tentativa em zero e o nome de acordo
-     com o valor com que foi instanciado.
-  4. Método responsável por fazer a previsão (`MakeGuess()`)
-     solicitando um número pelo terminal e validando se está correto.
 
 Sua classe `Program` mantém a responsabilidade de inicializar o jogo,
 ou seja, dentro do seu método `Main` você deve instanciar a classe
@@ -214,7 +214,7 @@ para proteger o estado interno da classe `Game`.
 
 #### Desafio
 
-Refatorar o código do jogo para que a lógica interna do jogo
+Refatorar o código do jogo para que sua lógica interna
 esteja oculta e acessível apenas através de métodos públicos da classe `Game`.
 
 - Características da classe Game:
@@ -260,7 +260,7 @@ a lógica de adivinhação específica para cada tipo por meio de herança e pol
 1. Agora é uma classe abstrata.
 2. As propriedades são públicas.
 3. Adiciona uma propriedade do tipo `List`
-para armazenar as previsões realizadas.
+para armazenar as tentativas realizadas.
 4. O construtor é `protected`, recebe um nome como parâmetro,
 além de inicializar a lista.
 5. O método de adivinhação (`MakeGuess()`) agora é abstrato.
@@ -276,7 +276,7 @@ que retorna um número aleatório.
 
 1. Implementa a classe abstrata `Player`.
 2. Implementação do método de adivinhação (`MakeGuess()`)
-que solicita ao usuário por um número.
+que solicita um número ao usuário.
 
 - Características da classe Game:
 
@@ -322,7 +322,7 @@ com as seguintes responsabilidades e relações:
 - **Responsabilidades**:
 
   + Definir uma interface comum para todos os jogadores.
-  + Manter o nome e o histórico de suposições do jogador.
+  + Manter o nome e o histórico de palpites do jogador.
 
 - **Relações**:
 
@@ -373,7 +373,7 @@ precoce de erros e comportamentos inesperados.
 
 #### Desafio
 
-Criar uma suíte de testes unitários que cubra os diferentes
+Criar uma suíte (conjunto) de testes unitários que cubra os diferentes
 componentes e funcionalidades do jogo,
 incluindo a geração do número secreto,
 a validação de entradas do usuário,

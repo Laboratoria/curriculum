@@ -164,6 +164,18 @@ Desarrollar clases en C# que encapsulen la funcionalidad requerida para jugar.
 Debes agregar una clase extra a lo que ya has logrado hasta este punto.  
 Tu proyecto debe incluir:
 
+Una clase `Player`, que debe encapsular las características y acciones que una
+jugadora puede realizar durante una partida.
+
+- Características de la clase Player:
+
+1. Propiedad que almacena el nombre.
+2. Propiedad que almacena el último intento realizado por la jugadora.
+3. Constructor que inicializa el último intento en cero y el nombre según
+el valor con el que fue instanciado.
+4. Método que se encarga de hacer la predicción(`MakeGuess()`)
+solicitando por terminal un número y validando que sea correcto.
+
 Una clase `Game` que gestione la lógica del juego,
 como iniciar una nueva partida, generar el número secreto y determinar
 el resultado de los intentos del jugador.  
@@ -180,18 +192,6 @@ comportamiento de la jugadora,
 (es decir de ejecutar la función `Player.MakeGuess()`,
 en caso de que no lograra adivinar el número en su último intento.
 Si la jugadora logra adivinarlo, filnalizar el juego.
-
-Una clase `Player`, que debe encapsular las características y acciones que una
-jugadora puede realizar durante una partida.
-
-- Características de la clase Player:
-
-1. Propiedad que almacena el nombre.
-2. Propiedad que almacena el último intento realizado por la jugadora.
-3. Constructor que inicializa el último intento en cero y el nombre según
-el valor con el que fue instanciado.
-4. Método que se encarga de hacer la predicción(`MakeGuess()`)
-solicitando por terminal un número y validando que sea correcto.
 
 Tu clase `Program` mantiene la responsabilidad de inicializar el juego,
 es decir, dentro de su método `Main` debes instanciar a la clase
