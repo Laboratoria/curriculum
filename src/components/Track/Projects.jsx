@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom';
 import { FormattedMessage, useIntl } from 'react-intl';
-import Card from '@mui/material/Card';
-import CardHeader from '@mui/material/CardHeader';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Grid from '@mui/material/Grid';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
+import {
+  Card,
+  CardHeader,
+  CardContent,
+  CardMedia,
+  Grid,
+  IconButton,
+  Paper,
+  Typography } from '@mui/material';
 import ArrowForward from '@mui/icons-material/ArrowForward';
 import { learningObjectiveToIcon } from '../../lib/learning-objectives';
 
@@ -23,61 +25,57 @@ const Project = ({ lang, project }) => {
   const { title, summary } = project.intl[lang];
 
   return (
-    <Card>
-      <CardMedia
-        component="img"
-        height="200"
-        image={project.thumb}
-        alt={title}
-      />
-      <CardHeader
-        sx={{ pb: 0 }}
-        titleTypographyProps={{ sx: { fontSize: '1.6em', mt: 0, mb: 1 } }}
-        action={
-          <IconButton
-            component={Link}
-            to={`/${lang}/projects/${project.slug}`}
-            size="large"
-          >
-            <ArrowForward />
-          </IconButton>
-        }
-        title={title}
-        subheader={(
-          <span>
-            {learningObjectiveCats.map(cat => {
-              const icon = learningObjectiveToIcon(cat);
-              return (
-                <span
-                  key={`icon-${cat}`}
-                  title={cat}
-                  style={{
-                    display: 'inline-block',
-                    width: 24,
-                    height: 24,
-                    marginRight: 3,
-                    backgroundColor: icon.color,
-                    WebkitMask: `url(${icon.svg}) no-repeat center`,
-                    mask: `url(${icon.svg}) no-repeat center`,
-                  }}
-                />
-              );
-            })}
-          </span>
-        )}
-      />
-      <CardContent sx={{ pt: 0, pb: 0 }}>
-        <div
-          style={{
-            whiteSpace: 'inherit',
-            overflow: 'hidden',
-            textOverflow: 'ellipsis',
-            maxHeight: 200,
-          }}
-          dangerouslySetInnerHTML={{ __html: summary }}
-        ></div>
-      </CardContent>
-    </Card>
+    <Paper elevation={3}>
+      <Card>
+        <CardMedia
+          component="img"
+          height="200"
+          image={project.thumb}
+          alt={title}
+        />
+        <CardHeader
+          sx={{ pb: 0 }}
+          titleTypographyProps={{ sx: { fontSize: '1.6em', mt: 0, mb: 1 } }}
+          action={
+            <IconButton
+              component={Link}
+              to={`/${lang}/projects/${project.slug}`}
+              size="large"
+            >
+              <ArrowForward />
+            </IconButton>
+          }
+          title={title}
+          subheader={(
+            <span>
+              {learningObjectiveCats.map(cat => {
+                const icon = learningObjectiveToIcon(cat);
+                return (
+                  <span
+                    key={`icon-${cat}`}
+                    title={cat}
+                    style={{
+                      display: 'inline-block',
+                      width: 24,
+                      height: 24,
+                      marginRight: 3,
+                      backgroundColor: icon.color,
+                      WebkitMask: `url(${icon.svg}) no-repeat center`,
+                      mask: `url(${icon.svg}) no-repeat center`,
+                    }}
+                  />
+                );
+              })}
+            </span>
+          )}
+        />
+        <CardContent sx={{ pt: 0, pb: 0 }}>
+          <div
+            dangerouslySetInnerHTML={{ __html: summary }}
+          ></div>
+        </CardContent>
+      </Card>
+    </Paper>
   );
 };
 

@@ -1,6 +1,6 @@
 import { lazy, Suspense } from 'react';
 import { Navigate, Routes, Route, useLocation, useParams } from 'react-router-dom';
-import { Loading, ScrollRestoration } from '@laboratoria/react';
+import { Loading, ScrollRestoration } from '@laboratoria/sdk-react';
 import { IntlProvider } from '../../intl';
 
 // Dynamic lazy imports for code splitting based on routes.
