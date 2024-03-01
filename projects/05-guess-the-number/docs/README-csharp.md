@@ -1,24 +1,22 @@
 # C# 💻
 
-## 1\. Preámbulo
+## 1. Preámbulo
 
 En el corazón de la programación moderna, C# se erige como un pilar fundamental,
 combinando potencia, elegancia y versatilidad. Diseñado por Microsoft como parte
 de su plataforma .NET, C# ha evolucionado para ser mucho más que el lenguaje de
 elección para aplicaciones de Windows; se ha convertido en una herramienta indispensable
 para desarrollar aplicaciones web, móviles y de escritorio en un espectro amplio
-de dominios.  
+de dominios.
 El proyecto "Guess the Number", no solo es una presentación
 del universo de C#, es también una guía por los principios esenciales de la
 programación orientada a objetos y el manejo de los principios básicos de este
-lenguaje.  
+lenguaje.
 Prepárate para embarcarte en una aventura que te llevará desde los
 fundamentos hasta los aspectos más interesantes de la programación en C#, todo ello
 mientras construyes un juego que desafiará tu ingenio.
 
----
-
-## 2\. Consideraciones Generales
+## 2. Consideraciones Generales
 
 Antes de sumergirnos en el código y la lógica detrás de "Guess the Number",
 es crucial establecer algunas consideraciones generales para garantizar una
@@ -40,7 +38,7 @@ es una de las mejores maneras de aprender y consolidar tus habilidades de progra
 Es normal enfrentarse a errores y desafíos.
 Tómate tu tiempo, practica y no dudes en buscar ayuda cuando la necesites.
 
-## 3\. Consideraciones Técnicas
+## 3. Consideraciones Técnicas
 
 Para garantizar el éxito de este proyecto, es importante prestar atención
 a las siguientes consideraciones técnicas:
@@ -70,9 +68,7 @@ sino que también es una práctica recomendada en el desarrollo de software.
 
   + _Pruebas Unitarias_: Debes realizar pruebas unitarias para validar tus funciones.
 
----
-
-## 4\. Hitos del Proyecto
+## 4. Hitos del Proyecto
 
 Para hacer este proceso de aprendizaje más manejable y gratificante,
 hemos dividido el proyecto en hitos claramente definidos.
@@ -119,11 +115,11 @@ desafiándote a ti misma para aprender más en cada paso.
 #### Desafío
 
 Desarrollar un programa que solicite al usuario adivinar un número fijo,
-indicando después si su elección es correcta, demasiado alta o demasiado baja.  
+indicando después si su elección es correcta, demasiado alta o demasiado baja.
 
 Para esto, tu proyecto debe contar con 2 clases: `Program` y `Game`
 (recuerda que las clases se deben ubicar en 2 archivos distintos),
-la clase `Game` implementará un método con las siguientes responsabilidades:  
+la clase `Game` implementará un método con las siguientes responsabilidades:
 
   1. Genera un número aleatorio entre 1 y 100.
   2. Implementa un bucle que solicite a la jugadora que adivine el número.
@@ -185,7 +181,7 @@ comportamiento de la jugadora,
 en caso de que no lograra adivinar el número en su último intento.
 Si la jugadora logra adivinarlo, filnalizar el juego.
 
-Una clase **Player**, que debe encapsular las características y acciones que una
+Una clase `Player`, que debe encapsular las características y acciones que una
 jugadora puede realizar durante una partida.
 
 - Características de la clase Player:
@@ -197,9 +193,9 @@ el valor con el que fue instanciado.
 4. Método que se encarga de hacer la predicción(`MakeGuess()`)
 solicitando por terminal un número y validando que sea correcto.
 
-Tu clase **Program** mantiene la responsabilidad de inicializar el juego,
+Tu clase `Program` mantiene la responsabilidad de inicializar el juego,
 es decir, dentro de su método `Main` debes instanciar a la clase
-Game y ejecutar su método para iniciar el juego.
+`Game` y ejecutar su método para iniciar el juego.
 
 #### Recursos
 
@@ -321,7 +317,7 @@ con las siguientes responsabilidades y relaciones:
 
 #### Clases
 
-##### Juego
+##### Game
 
 - **Responsabilidades**:
 
@@ -331,9 +327,9 @@ con las siguientes responsabilidades y relaciones:
 
 - **Relaciones**:
 
-  + Asociación con `Jugador` (incluyendo `JugadorHumano` y `JugadorIA`).
+  + Asociación con `Player` (incluyendo `HumanPlayer` y `AIPlayer`).
 
-##### Jugador (abstracta)
+##### Player (abstracta)
 
 - **Responsabilidades**:
 
@@ -342,9 +338,9 @@ con las siguientes responsabilidades y relaciones:
 
 - **Relaciones**:
 
-  + Superclase de `JugadorHumano` y `JugadorIA`.
+  + Superclase de `HumanPlayer` y `AIPlayer`.
 
-##### JugadorHumano
+##### HumanPlayer
 
 - **Responsabilidades**:
 
@@ -352,9 +348,9 @@ con las siguientes responsabilidades y relaciones:
 
 - **Relaciones**:
 
-  + Hereda de `Jugador`.
+  + Hereda de `Player`.
 
-##### JugadorIA
+##### AIPlayer
 
 - **Responsabilidades**:
 
@@ -362,14 +358,14 @@ con las siguientes responsabilidades y relaciones:
 
 - **Relaciones**:
 
-  + Hereda de `Jugador`.
+  + Hereda de `Player`.
 
 #### Relaciones
 
-- `Juego` tiene dos instancias de `Jugador`:
+- `Game` tiene dos instancias de `Player`:
 una para el jugador humano y otra para la IA, demostrando una relación de asociación/composición.
-- `Jugador` es una clase abstracta que define la estructura y comportamiento
-comunes para todos los jugadores, con `JugadorHumano` y `JugadorIA`
+- `Player` es una clase abstracta que define la estructura y comportamiento
+comunes para todos los jugadores, con `HumanPlayer` y `AIPlayer`
 especializando esta definición mediante herencia.
 
 Este diseño nos una clara separación de responsabilidades
@@ -381,7 +377,7 @@ facilitando la extensión y mantenimiento del código.
 - ¿Cómo hacer un diagrama de clase? - [Diagrama de clases UML](https://miro.com/es/diagrama/que-es-diagrama-clases-uml/)
 - Video: [Cómo hacer un DIAGRAMA de CLASES UML ✅ [ fácil y profesional ]](https://www.youtube.com/watch?v=zMpr6RIePf8&ab_channel=SaberProgramas)
 
-![Diagrama de Clases](./classDiagramRelation.png)
+![Diagrama de Clases](https://raw.githubusercontent.com/Laboratoria/curriculum/bccce863b4bca2aac6cad8548866ed8697553c94/projects/05-guess-the-number/docs/classDiagramRelation.png)
 
 ### Hito 6: Implementación de Pruebas Unitarias
 
