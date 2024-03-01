@@ -2027,46 +2027,15 @@ csharp/variables:
 
 csharp/conditionals:
   title: Condicionais
-
-csharp/conditionals/if:
-  title: if
   links:
-    - title: if-else (Referência do C#) - Microsoft Docs
-      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/selection-statements#the-if-statement
-
-csharp/conditionals/switch:
-  title: switch
-  links:
-    - title: switch (Referência do C#) - Microsoft Docs
-      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/selection-statements#the-switch-statement
+    - title: Instruções de seleção - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/selection-statements
 
 csharp/loops:
   title: Laços/Loops
-
-csharp/loops/for:
-  title: for
   links:
-    - title: for (Referência do C#) - Microsoft Docs
-      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements#the-for-statement
-
-csharp/loops/while:
-  title: while
-  links:
-    - title: while (Referência do C#) - Microsoft Docs
-      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements#the-while-statement
-
-csharp/loops/do:
-  title: do
-  links:
-    - title: do-while (Referência do C#) - Microsoft Docs
-      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements#the-do-statement
-
-csharp/loops/foreach:
-  title: foreach
-  links:
-    - title: foreach (Referência do C#) - Microsoft Docs
-      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements#the-foreach-statement
-
+    - title: Instruções de iteração - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements
 
 csharp/operators:
   title: Operadores

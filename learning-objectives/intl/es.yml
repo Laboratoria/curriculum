@@ -2108,13 +2108,13 @@ csharp/data-types/non-primitives:
     - title: Common Type System - Microsoft Docs
       url: https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/types/#the-common-type-system
 
-  csharp/data-types/structs:
+csharp/data-types/structs:
   title: Estructuras
   links:
     - title: Tipos de estructura (Referencia de C#) - Microsoft Docs
       url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/struct
 
-  csharp/data-types/enums:
+csharp/data-types/enums:
   title: Enumeración
   links:
     - title: Tipos de enumeración (Referencia de C#) - Microsoft Docs
@@ -2174,45 +2174,15 @@ csharp/variables:
 
 csharp/conditionals:
   title: Condicionales
-
-csharp/conditionals/if:
-  title: if
   links:
-    - title: if-else (Referencia de C#) - Microsoft Docs
-      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/statements/selection-statements#the-if-statement
-
-csharp/conditionals/switch:
-  title: switch
-  links:
-    - title: switch (Referencia de C#) - Microsoft Docs
-      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/statements/selection-statements#the-switch-statement
+    - title: Instrucciones de selección - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/statements/selection-statements
 
 csharp/loops:
   title: Bucles/Ciclos
-
-csharp/loops/for:
-  title: for
   links:
-    - title: for (Referencia de C#) - Microsoft Docs
-      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/statements/iteration-statements#the-for-statement
-
-csharp/loops/while:
-  title: while
-  links:
-    - title: while (Referencia de C#) - Microsoft Docs
-      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/statements/iteration-statements#the-while-statement
-
-csharp/loops/do:
-  title: do
-  links:
-    - title: do-while (Referencia de C#) - Microsoft Docs
-      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/statements/iteration-statements#the-do-statement
-
-csharp/loops/foreach:
-  title: foreach
-  links:
-    - title: foreach (Referencia de C#) - Microsoft Docs
-      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/statements/iteration-statements#the-foreach-statement
+    - title: Instrucciones de iteración - Microsoft Docs
+      url: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/statements/iteration-statements
 
 csharp/operators:
   title: Operadores

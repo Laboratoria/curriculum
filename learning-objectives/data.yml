@@ -286,14 +286,8 @@ csharp:
       - arrays
       - sets
   - variables
-  - conditionals:
-      - if
-      - switch
-  - loops:
-      - for
-      - while
-      - do-while
-      - foreach
+  - conditionals
+  - loops
   - operators
   - generics
   - access-modifiers
