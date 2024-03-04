@@ -1,7 +1,7 @@
 # **MARCO 2:** Visualização de Dados
 
 A partir deste momento, é fundamental que você
-trabalhe em cada marco utilizando um
+trabalhe em cada marco utilizando uma
 [branch](https://www.atlassian.com/br/git/tutorials/comparing-workflows/feature-branch-workflow)
 individual para facilitar a clareza, coerência e
 colaboração. O objetivo deste marco é alcançar a visualização
