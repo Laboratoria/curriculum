@@ -34,14 +34,8 @@ cálculos necessários.
 5. Volte para `src/dataFunctions.js` e verifique se a
 função está recebendo os valores;
 você pode fazer isso usando `console.log`.
-6. Uma vez confirmados os valores, faça os cálculos necessários,
-por exemplo, o comprimento médio dos nomes, usando o método
-[reduce](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
-e retorne o resultado.
-7. Uma vez obtido o valor de retorno em `src/main.js`,
-chame a função responsável por mostrar os resultados `renderItems`,
-passando como argumento o novo array com os resultados dos cálculos.
-8. [Aplique estilos ao elemento criado](./03-milestone.pt.md/#estilos)
+6. Uma vez confirmados os valores, realize os cálculos necessários, como a média de comprimento dos nomes, usando o método [reduce](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) e retorne o resultado.
+7. Apresente os resultados do cálculo em sua interface.
 
 > [!TIP]
 > [reduce](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
