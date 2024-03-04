@@ -99,7 +99,11 @@ e retorne o novo array ordenado.
 8. [Aplique estilos ao `select` recém-criado](#estilos)
 
 > [!TIP]
-> [sort](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+> [sort](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) Fazer uma cópia do
+> array antes de ordená-lo em JavaScript é crucial para
+> evitar modificações indesejadas. O método sort() altera
+> diretamente o array original, assim, criar uma cópia
+> prévia assegura a preservação do estado original do array.
 
 ### Teste da função de ordenar
 
