@@ -80,7 +80,7 @@ Em caso de dúvidas ou perguntas durante a execução deste projeto,
 não hesite em procurar ajuda. Você pode encontrar apoio através de:
 
 - **Documentação do Projeto:** Certifique-se de revisar minuciosamente a
-informação fornecida no [README](../README.pt.md), prestando especial
+informação fornecida no [README](../README.md), prestando especial
 atenção às instruções, sugestões e leituras adicionais.
 
 - **Coaches:** Os coaches estão disponíveis para fornecer ajuda.
