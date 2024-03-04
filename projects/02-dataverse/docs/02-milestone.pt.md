@@ -62,7 +62,7 @@ Até este ponto, os dados ainda não são visualizados, mas você pode usar
 escolher, para verificar a iteração.
 
 Para concluir esta fase, você deve selecionar o elemento HTML por meio de um
-[seletor do DOM](https://developer.mozilla.org/es/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors).
+seletor do DOM
 Em seguida, indique onde deve ser colocado o resultado da invocação de
 renderItems, recorrendo novamente a
 [innerHTML](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/innerHTML) ou
