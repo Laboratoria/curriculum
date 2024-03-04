@@ -19,7 +19,7 @@ por marco ou por funcionalidade.
 Como primeiro passo, volte às seções
 [4. Funcionalidades](../README.md/#4-funcionalidades),
 [5. Considerações técnicas](../README.md/#5-considerações-técnicas) e
-[src/dataFunctions.js](../README.pt.md/#srcdatafunctionsjs)
+[src/dataFunctions.js](../README.md/#srcdatafunctionsjs)
 para obter detalhes sobre os elementos que você deve usar e
 o nome que a função de filtro deve ter.
 
