@@ -53,7 +53,7 @@ ou
 4. Para cada elemento dos dados, criar um elemento `<li>`.
 5. Adicionar cada `<li>` ao `<ul>` usando
 [innerHTML](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/innerHTML) ,
-[appendChild](https://developer.mozilla.org/es/docs/Web/API/Node/appendChild)
+[appendChild](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/appendChild)
 ou outro método apropriado.
 6. Finalmente, retornar o elemento `<ul>`.
 
