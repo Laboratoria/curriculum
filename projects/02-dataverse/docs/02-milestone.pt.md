@@ -18,7 +18,7 @@ dos elementos do seu conjunto de dados com todos os estilos.
 > [!IMPORTANT]
 > Para visualizar os dados, é crucial que você reveja
 > os conceitos de
-> [parâmetros e argumentos](https://www.youtube.com/watch?v=5VVBrfWQ2Wk)
+> parâmetros e argumentos
 > de uma função, pois você os utilizará extensivamente.
 
 No arquivo `src/main.js`, você verá que as primeiras linhas
