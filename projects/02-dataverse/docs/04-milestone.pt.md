@@ -80,4 +80,4 @@ consultar essa decisão com seus coaches para obter orientação adicional.
 
 [Edição Hacker](../README.md/#8-edição-hacker)
 
-[👈Todos os marcos](../README.pt.md/#6-marcos)
+[👈Todos os marcos](../README.md/#6-marcos)
