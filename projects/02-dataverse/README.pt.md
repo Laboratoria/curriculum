@@ -337,7 +337,7 @@ um calendário de marcos que ajudará a estruturar seu trabalho.
 
 * [Marco 1](./docs/01-milestone.md)
 * [Marco 2](./docs/02-milestone.md)
-* [Marco 3](./docs/03-milestone.pt.md)
+* [Marco 3](./docs/03-milestone.md)
 * [Marco 4](./docs/04-milestone.pt.md)
 
 ## 7. Critérios mínimos de aceitação do projeto
