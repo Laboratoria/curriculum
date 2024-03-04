@@ -122,7 +122,6 @@ para dar uma aparência atraente. Considere também a
 possibilidade de usar estilos adicionais como sombras, bordas
 arredondadas para melhorar a aparência e usabilidade ou estilos
 específicos para os estados
-
  `hover` e `focus` para melhorar a
 interatividade.
 
