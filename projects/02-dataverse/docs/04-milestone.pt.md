@@ -36,7 +36,7 @@ função está recebendo os valores;
 você pode fazer isso usando `console.log`.
 6. Uma vez confirmados os valores, faça os cálculos necessários,
 por exemplo, o comprimento médio dos nomes, usando o método
-[reduce](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+[reduce](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 e retorne o resultado.
 7. Uma vez obtido o valor de retorno em `src/main.js`,
 chame a função responsável por mostrar os resultados `renderItems`,
