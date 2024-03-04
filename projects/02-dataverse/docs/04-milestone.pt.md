@@ -3,7 +3,7 @@
 O objetivo deste marco é realizar cálculos com
 as informações. Lembre-se da importância de seguir
 a prática de usar pelo menos um
-[branch](https://www.atlassian.com/es/git/tutorials/comparing-workflows/feature-branch-workflow)
+[branch](https://www.atlassian.com/br/git/tutorials/comparing-workflows/feature-branch-workflow)
 por marco ou característica.
 
 ## Tarefas deste marco
