@@ -43,7 +43,7 @@ que tem a responsabilidade de:
 
 1. Receber o parâmetro data, que representa todo o conjunto de dados.
 2. Criar um elemento `<ul>` usando o método
-[createElement](https://developer.mozilla.org/es/docs/Web/API/Document/createElement).
+[createElement](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createElement).
 3. Percorrer os dados usando um
 [loop](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Loops_and_iteration)
 ou algum método de array como
