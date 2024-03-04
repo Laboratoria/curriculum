@@ -17,7 +17,7 @@ por marco ou por funcionalidade.
 ### Filtrar dados do dataset
 
 Como primeiro passo, volte às seções
-[4. Funcionalidades](../README.pt.md/#4-funcionalidades),
+[4. Funcionalidades](../README.md/#4-funcionalidades),
 [5. Considerações técnicas](../README.pt.md/#5-considerações-técnicas) e
 [src/dataFunctions.js](../README.pt.md/#srcdatafunctionsjs)
 para obter detalhes sobre os elementos que você deve usar e
