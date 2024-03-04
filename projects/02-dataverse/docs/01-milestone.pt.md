@@ -22,7 +22,7 @@ represente a essência
 da sua solução ideal, mas também se ajuste
 rigorosamente aos
 princípios fundamentais do
-[design visual](https://coda.io/d/Bootcamp-UX-Contenido_dqkqk2rV9Z2/Diseno-de-interfaces_suOT7#_luWsQ).
+design visual
 
 ### Criação do conjunto de dados
 
