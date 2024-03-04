@@ -65,7 +65,7 @@ Para concluir esta fase, você deve selecionar o elemento HTML por meio de um
 [seletor do DOM](https://developer.mozilla.org/es/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors).
 Em seguida, indique onde deve ser colocado o resultado da invocação de
 renderItems, recorrendo novamente a
-[innerHTML](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML) ou
+[innerHTML](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/innerHTML) ou
 [appendChild](https://developer.mozilla.org/es/docs/Web/API/Node/appendChild)
 
 > [!NOTE]
