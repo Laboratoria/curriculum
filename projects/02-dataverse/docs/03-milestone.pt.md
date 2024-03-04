@@ -3,7 +3,7 @@
 Este marco tem como objetivo alcançar a filtragem e
 ordenação dos dados. Não se esqueça de que é essencial seguir
 a prática de utilizar pelo menos um
-[branch](https://www.atlassian.com/es/git/tutorials/comparing-workflows/feature-branch-workflow)
+[branch](https://www.atlassian.com/br/git/tutorials/comparing-workflows/feature-branch-workflow)
 por marco ou por funcionalidade.
 
 ## Tarefas deste marco
