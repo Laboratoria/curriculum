@@ -42,7 +42,7 @@ Certifique-se de que o arquivo
 exporte um array com 24 objetos, cada um seguindo
 a estrutura detalhada
 no
-[prompt](https://espresso-matutino.notion.site/6-Pasos-Para-El-Prompt-Perfecto-280cac492ab54a258771ec56de27807d).
+prompt
 Verifique se cada objeto contém um **id** (identificador único),
 **name** (nome), **shortDescription** (descrição curta) e
 **description** (descrição estendida), **imageUrl** (para a imagem),
