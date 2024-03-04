@@ -27,7 +27,7 @@ princípios fundamentais do
 ### Criação do conjunto de dados
 
 O objetivo é criar um conjunto de dados que atenda às
-[especificações fornecidas](../README.pt.md/#geração-dos-dados).
+[especificações fornecidas](../README.md/#geração-dos-dados).
 
 1. **Definir tema**: Em equipe, escolha um tema para o
 conjunto de dados,
