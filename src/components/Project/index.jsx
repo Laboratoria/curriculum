@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { FormattedMessage, useIntl } from 'react-intl';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
-import { Loading, setPage } from '@laboratoria/react';
+import { Loading, setPage } from '@laboratoria/sdk-react';
 import Breadcrumbs from '../Breadcrumbs';
 import data from '../../lib/data';
 

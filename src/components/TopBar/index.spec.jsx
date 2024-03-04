@@ -1,11 +1,11 @@
 import { render } from '@testing-library/react';
 import { vi } from 'vitest';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { useApp, themeConfig } from '@laboratoria/react';
+import { useApp, themeConfig } from '@laboratoria/sdk-react';
 import { useLocation, useParams } from 'react-router-dom';
 import TopBar from '.';
 
-vi.mock('@laboratoria/react');
+vi.mock('@laboratoria/sdk-react');
 
 vi.mock('react-router-dom', () => {
   return {
