@@ -44,7 +44,7 @@ passando como argumento o novo array com os resultados dos cálculos.
 8. [Aplique estilos ao elemento criado](./03-milestone.pt.md/#estilos)
 
 > [!TIP]
-> [reduce](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+> [reduce](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 
 ### Teste da função de cálculo
 
