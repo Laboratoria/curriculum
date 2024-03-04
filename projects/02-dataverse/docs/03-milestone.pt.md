@@ -24,7 +24,7 @@ para obter detalhes sobre os elementos que você deve usar e
 o nome que a função de filtro deve ter.
 
 > [!TIP]
-> [filter](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+> [filter](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
 1. No arquivo HTML, crie um elemento `<select>`
 que inclua os valores a serem utilizados para a filtragem.
