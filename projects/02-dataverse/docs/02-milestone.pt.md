@@ -49,7 +49,7 @@ que tem a responsabilidade de:
 ou algum método de array como
 [forEach](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 ou
-[map](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+[map](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 4. Para cada elemento dos dados, criar um elemento `<li>`.
 5. Adicionar cada `<li>` ao `<ul>` usando
 [innerHTML](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML) ,
