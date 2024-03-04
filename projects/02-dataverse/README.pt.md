@@ -335,7 +335,7 @@ marcos. Esta metodologia permitirá que você se concentre em um
 problema de cada vez e monitore seu progresso. Abaixo, fornecemos
 um calendário de marcos que ajudará a estruturar seu trabalho.
 
-* [Marco 1](./docs/01-milestone.pt.md)
+* [Marco 1](./docs/01-milestone.md)
 * [Marco 2](./docs/02-milestone.pt.md)
 * [Marco 3](./docs/03-milestone.pt.md)
 * [Marco 4](./docs/04-milestone.pt.md)
