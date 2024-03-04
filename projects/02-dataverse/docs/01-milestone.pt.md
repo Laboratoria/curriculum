@@ -90,7 +90,7 @@ reunião de orientação
 (OH) ou entrar em contato conosco através do Slack.
 
 - **Slack:** Você sempre pode escrever no canal do projeto
-[#project-dataverse](https://claseslaboratoria.slack.com/archives/C05V648LL1G),
+[#project-dataverse-pt](https://claseslaboratoria.slack.com/archives/C06BA7468AU),
 onde suas colegas e coaches da Laboratoria podem oferecer
 apoio de forma assíncrona.
 
