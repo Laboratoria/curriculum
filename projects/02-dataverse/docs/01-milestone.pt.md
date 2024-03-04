@@ -94,4 +94,4 @@ reunião de orientação
 onde suas colegas e coaches da Laboratoria podem oferecer
 apoio de forma assíncrona.
 
-[👈Todos os marcos](../README.pt.md#6-hitos)
+[👈Todos os marcos](../README.md#6-marcos)
