@@ -78,6 +78,6 @@ pois o bootcamp tem um prazo definido, e permanecer
 indefinidamente no mesmo projeto não é viável. Você sempre pode
 consultar essa decisão com seus coaches para obter orientação adicional.
 
-[Edição Hacker](../README.pt.md/#8-edição-hacker)
+[Edição Hacker](../README.md/#8-edição-hacker)
 
 [👈Todos os marcos](../README.pt.md/#6-marcos)
