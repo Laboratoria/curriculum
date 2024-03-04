@@ -47,7 +47,7 @@ que tem a responsabilidade de:
 3. Percorrer os dados usando um
 [loop](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration)
 ou algum método de array como
-[forEach](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+[forEach](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 ou
 [map](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 4. Para cada elemento dos dados, criar um elemento `<li>`.
