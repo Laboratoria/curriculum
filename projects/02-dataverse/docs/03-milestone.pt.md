@@ -142,4 +142,4 @@ npm run test:oas-web-api
 npm run test:oas-js
 ```
 
-[👈Todos os marcos](../README.pt.md#6-marcos)
+[👈Todos os marcos](../README.md#6-marcos)
