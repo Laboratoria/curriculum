@@ -66,7 +66,7 @@ seletor do DOM
 Em seguida, indique onde deve ser colocado o resultado da invocação de
 renderItems, recorrendo novamente a
 [innerHTML](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/innerHTML) ou
-[appendChild](https://developer.mozilla.org/es/docs/Web/API/Node/appendChild)
+[appendChild](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/appendChild)
 
 > [!NOTE]
 > **appendChild()**: Este método adiciona um elemento filho ao final
