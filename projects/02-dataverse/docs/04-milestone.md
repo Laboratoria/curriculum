@@ -39,7 +39,6 @@ puedes hacerlo mediante un `console.log`.
 por ejemplo la longitud promedio de los nombres, usando el metodo
 [reduce](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 y devuelve el resultado.
-7. Una vez obtenido el valor de retorno en `src/main.js`,
 llama a la función encargada de mostrar los resultados `renderItems`,
 pasando como argumento el nuevo arreglo con los resultados de los cálculos.
 8. [Aplica estilos al elemento creado](./03-milestone.md/#estilos)
