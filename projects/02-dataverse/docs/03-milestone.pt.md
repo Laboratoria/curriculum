@@ -99,7 +99,7 @@ e retorne o novo array ordenado.
 8. [Aplique estilos ao `select` recém-criado](#estilos)
 
 > [!TIP]
-> [sort](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+> [sort](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
 ### Teste da função de ordenar
 
