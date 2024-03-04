@@ -83,7 +83,7 @@ de `wrap` para lidar com várias linhas ou colunas.
 Recursos úteis:
 
 - [Flexbox](https://curriculum.laboratoria.la/es/topics/css/css/flexbox)
-- [Flexbox Froggy](https://flexboxfroggy.com/#es)
+- [Flexbox Froggy](https://flexboxfroggy.com/#pt-br)
 - [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ### Teste
