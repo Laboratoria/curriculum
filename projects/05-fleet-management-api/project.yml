@@ -2,36 +2,66 @@ track: web-dev
 learningObjectives:
   - http
   - auth
-  - java
-  - python  
-  - csharp
-  - js/testing/unit
-  - js/testing/async
-  - js/testing/mocks
-  - js/testing/e2e
-  - js/modules/es-modules
-  - js/modules/commonjs
-  - js/linting
-  - js/semantics
-  - node/npm-install
-  - node/package.json
-  - node/npm-scripts
-  - express/routing
-  - express/middleware
   - sql/crud
   - db/modeling
   - db/connection
   - postgres/data-types
   - postgres/indexes
-  - object-oriented-programming
   - scm/git
   - scm/github/setup
   - scm/github/collaboration
   - scm/github/project-management
-  - typescript/basic-types/primitives
-  - typescript/basic-types/arrays
-  - typescript/basic-types/functions
-  - typescript/basic-types/object-types
-  - typescript/basic-types/union-types
-  - typescript/basic-types/interfaces
-  - typescript/basic-types/enums
+
+# permite mayor control de la informacion en seleccion de proyecto
+# se pretende tener una semantica predefinida q controle el comportamiento
+# de la interfaz.
+# por ahora estos son los unicos valores permitidos
+tags:
+  - featured
+  - beta
+  - deprecated
+  - hidden
+
+# para proyectos que tienen diferentes implementaciones (aka rutas)
+variants:
+  - name: java
+    learningObjectives:
+      - java
+      - object-oriented-programming
+  - name: python
+    learningObjectives:
+      - python
+      # Cualquier OA puede expresarse como objeto, por ejemplo para flaggear
+      # como "opcional".
+      # por ahora es la unica propiedad soportada.
+      - object-oriented-programming:
+          optional: true
+  - name: node
+    learningObjectives:
+      - js/testing/unit
+      - js/testing/async
+      - js/testing/mocks
+      - js/testing/e2e
+      - js/modules/es-modules
+      - js/modules/commonjs
+      - js/linting
+      - js/semantics
+      - node/npm-install
+      - node/package.json
+      - node/npm-scripts
+      - express/routing
+      - express/middleware
+      - typescript/basic-types/primitives
+      - typescript/basic-types/arrays
+      - typescript/basic-types/functions
+      - typescript/basic-types/object-types
+      - typescript/basic-types/union-types
+      - typescript/basic-types/interfaces
+      - typescript/basic-types/enums
+      - object-oriented-programming:
+          optional: true
+  - name: csharp
+    learningObjectives:
+      - csharp
+      - object-oriented-programming:
+          optional: true
