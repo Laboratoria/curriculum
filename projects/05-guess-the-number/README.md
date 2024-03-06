@@ -42,18 +42,6 @@ aleatorio entre 1 y 100. Deben tener en cuenta la tentativa anterior, si fue
   número secreto. Debe mostrarse un mensaje de fin de juego, así como una lista
   de todas las tentativas realizadas por la jugadora ganadora.
 
-## 8. Pistas / Tips
-
-Consulta los [FAQ](./docs/FAQ.md)
-Súmate al canal de Slack
-[#project-guess-the-number](https://claseslaboratoria.slack.com/archives/C067E8ZT9CY)
-para conversar y pedir ayuda del proyecto.
-
-**_¡Diviértete construyendo tu juego de adivinanza de números! 🎲🎮_**
-
-- [Versión en Python](./docs/README-python.md)
-- [Versión en Java](./docs/README-java.md)
-
 ## 3. Objetivos de Aprendizaje
 
 > ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a

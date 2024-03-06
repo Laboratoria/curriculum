@@ -44,17 +44,6 @@ jogo](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/
   secreto. Deve ser mostrada uma mensagem de fim de jogo, assim como uma lista
   de todas as tentativas feitas pelo jogador vencedor.
 
-## 8. Dicas / Sugestões
-
-Confira o [FAQ](./docs/FAQ.pt.md) e participe do canal do Slack
-[#project-guess-the-number](https://claseslaboratoria.slack.com/archives/C067E8ZT9CY)
-para conversar e pedir ajuda sobre o projeto.
-
-**_Divirta-se construindo seu jogo de adivinhação de números! 🎲🎮_**
-
-- [Versão em Python](./docs/README-python.md)
-- [Versão em Java](./docs/README-java.md)
-
 ## 3. Objetivos de Aprendizagem
 
 > ℹ️ Esta seção será automaticamente gerada no idioma pertinente, a partir dos
