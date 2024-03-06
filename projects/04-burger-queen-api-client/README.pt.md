@@ -299,9 +299,10 @@ que nos permite implantar nossa aplicação web estática (HTML, CSS e
 JavaScript) e também nos permite implantar aplicações web rodando
 no servidor (Node.js).
 
-## 7. Pistas, tips e leituras complementares
+## 7. Dicas e leituras complementares
 
-Participe do canal do Slack
+Consulte o [FAQ](./docs/FAQ.md)
+ou participe do canal do Slack
 [#project-bq-api-client](https://claseslaboratoria.slack.com/archives/C04A0GS1WJX)
 para conversar e pedir ajuda no projeto.
 
