@@ -3,7 +3,7 @@
 - ¿Cómo puedo instalar lo necesario para comensar?
 
   Puedes consultar la siguiente
-  [Guía](https://github.com/Laboratoria/java-setup)
+  [Guía sobre Java setup](https://github.com/Laboratoria/java-setup)
 
 - ¿Cómo puedo aprender los conceptos básicos de POO?
 
