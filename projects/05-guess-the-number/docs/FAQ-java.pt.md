@@ -7,12 +7,12 @@ precisa fazer é ativar as legendas do YouTube.
 - Como posso instalar o necessário para começar?
 
   Você pode consultar o seguinte
-  [Guía](https://github.com/Laboratoria/java-oop/blob/main/README.pt.md)
+  [Guia de configuração do Java](https://github.com/Laboratoria/java-oop/blob/main/README.pt.md)
 
 - Como posso aprender os conceitos básicos de POO (Programação Orientada a Objetos)?
 
   Você pode consultar o seguinte
-  [Guía](https://github.com/Laboratoria/java-oop/blob/main/README.pt.md)
+  [Guia de programação orientada a objetos](https://github.com/Laboratoria/java-oop/blob/main/README.pt.md)
 
 - Como posso criar uma aplicação em Java?
 
