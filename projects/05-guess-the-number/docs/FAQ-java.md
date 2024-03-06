@@ -8,7 +8,7 @@
 - ¿Cómo puedo aprender los conceptos básicos de POO?
 
   Puedes consultar la siguiente
-  [Guía](https://github.com/Laboratoria/java-oop)
+  [Guía de POO))](https://github.com/Laboratoria/java-oop)
 
 - ¿Cómo puedo crear una aplicación en Java?
 
