@@ -286,6 +286,6 @@ paradigma de programação orientada a objetos no processo.
 
 ## 6. Dicas / Sugestões
 
-Confira o [FAQ](./FAQ-java.pt.md) e participe do canal do Slack
+Confira o [FAQ](./FAQ-java.md) e participe do canal do Slack
 [#project-guess-the-number](https://claseslaboratoria.slack.com/archives/C067E8ZT9CY)
 para conversar e pedir ajuda sobre o projeto.
