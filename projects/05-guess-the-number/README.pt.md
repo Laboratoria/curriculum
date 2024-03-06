@@ -44,6 +44,12 @@ jogo](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/
   secreto. Deve ser mostrada uma mensagem de fim de jogo, assim como uma lista
   de todas as tentativas feitas pelo jogador vencedor.
 
+**_Divirta-se construindo seu jogo de adivinhação de números! 🎲🎮_**
+
+- [Versão em Python](./docs/README-python.md)
+- [Versão em Java](./docs/README-java.md)
+- [Versão em C#](./docs/README-csharp.md)
+
 ## 3. Objetivos de Aprendizagem
 
 > ℹ️ Esta seção será automaticamente gerada no idioma pertinente, a partir dos

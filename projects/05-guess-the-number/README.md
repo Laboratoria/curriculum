@@ -42,6 +42,12 @@ aleatorio entre 1 y 100. Deben tener en cuenta la tentativa anterior, si fue
   número secreto. Debe mostrarse un mensaje de fin de juego, así como una lista
   de todas las tentativas realizadas por la jugadora ganadora.
 
+**_¡Diviértete construyendo tu juego de adivinanza de números! 🎲🎮_**
+
+- [Versión en Python](./docs/README-python.md)
+- [Versión en Java](./docs/README-java.md)
+- [Versión en C#](./docs/README-csharp.md)
+
 ## 3. Objetivos de Aprendizaje
 
 > ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a
