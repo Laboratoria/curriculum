@@ -3,12 +3,12 @@
 - ¿Cómo puedo instalar lo necesario para comensar?
 
   Puedes consultar la siguiente
-  [Guía](https://github.com/Laboratoria/java-setup)
+  [Guía sobre Java setup](https://github.com/Laboratoria/java-setup)
 
 - ¿Cómo puedo aprender los conceptos básicos de POO?
 
   Puedes consultar la siguiente
-  [Guía](https://github.com/Laboratoria/java-oop)
+  [Guía de POO))](https://github.com/Laboratoria/java-oop)
 
 - ¿Cómo puedo crear una aplicación en Java?
 
