@@ -122,9 +122,6 @@ Es esencial que lo instales, puedes instalarlo con:
 dotnet add package Microsoft.EntityFrameworkCore
 ```
 
-Puedes consultar su [documentación oficial](https://docs.microsoft.com/es-es/ef/)
-para empezar y conocer más.
-
 ### 5. Crear modelos ###
 
 Un modelo en Entity Framework representa una tabla de la base de datos.
@@ -208,8 +205,7 @@ para probar tus rutas y métodos según los hayas desarrollado.
 ### 11. Visualizar documentación con Swagger ###
 
 Debes utilizar [Swagger](https://docs.microsoft.com/es-es/aspnet/core/tutorials/web-api-help-pages-using-swagger)
-para documentar tus endpoint, [aquí](https://learn.microsoft.com/es-es/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-8.0)
-puedes encontrar documentación para comenzar a utilizarlo en tu proyecto.
+para documentar tus endpoint.
 
 ### 12. Desarrollar pruebas con xUnit ###
 
