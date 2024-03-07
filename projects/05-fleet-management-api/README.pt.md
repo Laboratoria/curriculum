@@ -194,6 +194,7 @@ Você pode implementar este projeto em JavaScript, Python, ou Java.
 * [NodeJs](./docs/stack-node.md)
 * [Python](./docs/stack-python.md)
 * [Java](./docs/stack-java.md)
+* [C#](./docs/stack-csharp.pt.md)
 
 ## 7. Dicas, sugestões e leituras complementares
 
