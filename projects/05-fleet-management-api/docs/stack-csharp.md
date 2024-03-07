@@ -148,14 +148,14 @@ public class ApplicationDbContext : DbContext
 
 ```
 
-### 7. Fluent API ###
+### 6. Fluent API ###
 
 [Fluent API](https://learn.microsoft.com/es-es/ef/core/modeling/) en
 EF es una forma de configurar el modelo de datos en el código,
 proporcionando un control más preciso sobre cómo se mapean las clases
 a las tablas y sus relaciones en la base de datos.
 
-### 8. Conectarse a PostgreSQL ###
+### 7. Conectarse a PostgreSQL ###
 
 Para conectarte PostgreSQL necesitaras [Npgsql](https://www.npgsql.org/doc/index.html),
 puedes instalarlo con:
@@ -172,7 +172,7 @@ Luego necesitaras configurar en tu Context como conectarse:
     optionsBuilder.UseNpgsql(connection);
 ```
 
-### 9. Ejecutar migraciones ###
+### 8. Ejecutar migraciones ###
 
 Las migraciones son scripts que permiten actualizar la base de datos
 según cambios en tus modelos. Se crean migraciones que describen las
@@ -185,7 +185,7 @@ dotnet ef migrations add MiMigracion
 dotnet ef database update
 ```
 
-### 10. Crear controladores ###
+### 9. Crear controladores ###
 
 Los controladores manejaran las solicitudes HTTP en una API.
 Utilizarás atributos como [HttpGet]que definen cómo
@@ -200,18 +200,18 @@ public class MiControlador : ControllerBase
 }
 ```
 
-### 11. Probar con Postman o Thunder Client ###
+### 10. Probar con Postman o Thunder Client ###
 
 Usa [Postman](https://www.postman.com/) o [Thunder Client](https://www.thunderclient.io/)
 para probar tus rutas y métodos según los hayas desarrollado.
 
-### 12. Visualizar documentación con Swagger ###
+### 11. Visualizar documentación con Swagger ###
 
 Debes utilizar [Swagger](https://docs.microsoft.com/es-es/aspnet/core/tutorials/web-api-help-pages-using-swagger)
 para documentar tus endpoint, [aquí](https://learn.microsoft.com/es-es/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-8.0)
 puedes encontrar documentación para comenzar a utilizarlo en tu proyecto.
 
-### 13. Desarrollar pruebas con xUnit ###
+### 12. Desarrollar pruebas con xUnit ###
 
 Para escribir pruebas [xUnit](https://xunit.net/docs/getting-started/netcore/cmdline),
 instala el paquete:
