@@ -7,4 +7,14 @@ learningObjectives:
   - sql
   - db
   - postgres/data-types
-  - postgres/indexes
+  - csharp/data-types/non-primitives
+  - csharp/collections
+  - csharp/access-modifiers
+  - csharp/namespaces
+  - csharp/functions
+  - csharp/error-handling
+  - csharp/async-await
+  - csharp/.net-core
+  - csharp/nuget-packages
+  - csharp/testing
+  - csharp/entity-framework
