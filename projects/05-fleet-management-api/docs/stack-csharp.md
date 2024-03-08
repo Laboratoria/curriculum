@@ -4,10 +4,12 @@
 
 En la creacion de applicaciones modernas, elegir tecnologías
 compatibles es esencial para buen rendimiento
-y gestión eficiente de datos. Entity Framework y PostgreSQL destacan por su
+y gestión eficiente de datos. [Entity Framework](https://learn.microsoft.com/es-es/ef/)
+y [PostgreSQL](https://www.postgresql.org/docs/) destacan por su
 poderosa colaboración.
 
-.NET Core, de Microsoft, es un framework eficiente
+[.NET Core](https://learn.microsoft.com/es-es/dotnet/),
+de Microsoft, es un framework eficiente
 para aplicaciones web modernas y escalables,
 siendo especialmente adecuado para el desarrollo de Web APIs.
 
@@ -27,25 +29,25 @@ Web APIs eficientes y flexibles.
 
 ## Consideraciones generales ##
 
-### Conocimientos relacionados con C# ###
-
-Es crucial que tengas en cuenta los principios fundamentales de la programación
+- **Conocimientos relacionados con C#:** Es
+crucial que tengas en cuenta los principios fundamentales de la programación
 orientada a objetos. Te recomiendo revisar los objetivos de aprendizaje detallados
 en el archivo README del proyecto. Además, puedes profundizar en tus
 conocimientos consultando la documentación pertinente sobre clases e interfaces.
 
-### Aprendizaje de C# y .NET ###
-
-Asegúrate de tener instalado un entorno de desarrollo, ya sea Visual Studio
-Community Edition o Visual Studio Code, junto con el kit de desarrollo de C#.
+- **Aprendizaje de C# y .NET:** Asegúrate de tener
+instalado un entorno de desarrollo, ya sea
+[Visual Studio Community Edition](https://visualstudio.microsoft.com/es/vs/community/)
+o Visual Studio Code, junto con el kit de desarrollo de C#.
 Explora ambas herramientas para determinar cuál se adapta mejor a tus
 necesidades y preferencias.
 
-### Acerca de API REST ###
-
-Además, es esencial comprender los conceptos básicos de las APIs (Interfaces de
-Programación de Aplicaciones) y familiarizarte con su funcionamiento. Investiga
-también sobre las Web APIs y profundiza en cómo aplicar el concepto de REST
+- **Acerca de API REST:** Además, es esencial comprender los
+conceptos básicos de las
+[APIs (Interfaces de Programación de Aplicaciones)](https://es.wikipedia.org/wiki/API)
+y familiarizarte con su funcionamiento. Investiga
+también sobre las Web APIs y profundiza en cómo aplicar el concepto de
+[REST](https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional)
 (Transferencia de Estado Representacional) en este contexto.
 
 Este conjunto de conocimientos te proporcionará una base sólida para desarrollar
@@ -199,8 +201,12 @@ public class MiControlador : ControllerBase
 
 ### 10. Probar con Postman o Thunder Client ###
 
-Usa [Postman](https://www.postman.com/) o [Thunder Client](https://www.thunderclient.io/)
-para probar tus rutas y métodos según los hayas desarrollado.
+Utiliza [Postman](https://www.postman.com/) o
+[Thunder Client](https://www.thunderclient.io/)
+para poner a prueba tus rutas y métodos una vez
+que los hayas desarrollado. De esta manera,
+podrás verificar si las acciones definidas
+se están ejecutando según lo programado.
 
 ### 11. Visualizar documentación con Swagger ###
 

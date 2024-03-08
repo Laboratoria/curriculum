@@ -3,10 +3,12 @@
 ## Pilha de Tecnologias ##
 
 Ao criar aplicações modernas, escolher tecnologias compatíveis é essencial para
-um bom desempenho e gestão eficiente de dados. Entity Framework e PostgreSQL se
+um bom desempenho e gestão eficiente de dados. [Entity Framework](https://learn.microsoft.com/pt-br/ef/)
+e [PostgreSQL](https://www.postgresql.org/docs/) se
 destacam por sua poderosa colaboração.
 
-.NET Core, da Microsoft, é um framework eficiente para aplicações web modernas e
+[.NET Core](https://learn.microsoft.com/pt-br/dotnet/), da Microsoft,
+é um framework eficiente para aplicações web modernas e
 escaláveis, sendo especialmente adequado para o desenvolvimento de Web APIs.
 
 O Entity Framework simplifica a conexão com bancos de dados, permitindo que os
@@ -17,32 +19,32 @@ O PostgreSQL é um sistema de gerenciamento de banco de dados confiável e de c�
 aberto, ideal para ambientes empresariais devido à sua escalabilidade, desempenho
 e suporte aos padrões SQL.
 
-Ao usar o .NET Core juntamente com ferramentas como o Entity Framework e o
-PostgreSQL, você tem um ambiente completo e otimizado para desenvolver
+Ao usar o .NET Core juntamente com ferramentas como
+o Entity Framework e o PostgreSQL, você tem um
+ambiente completo e otimizado para desenvolver
 aplicações web modernas, com foco especial na criação de Web APIs eficientes e
 flexíveis.
 
-## Considerações Gerais ##
+## Considerações gerais ##
 
-### Conhecimentos em C# ###
-
-É crucial considerar os princípios fundamentais da programação orientada a
+- **Conhecimentos em C#:** É crucial considerar os princípios
+fundamentais da programação orientada a
 objetos. Recomendo revisar os objetivos de aprendizado detalhados no arquivo
 README do projeto e aprofundar seus conhecimentos consultando a documentação
 relevante sobre classes e interfaces.
 
-### Aprendizado de C# e .NET ###
-
-Certifique-se de ter um ambiente de desenvolvimento instalado, seja o Visual
-Studio Community Edition ou o Visual Studio Code, junto com o kit de
+- **Aprendizado de C# e .NET:** Certifique-se de ter um ambiente de
+desenvolvimento instalado, seja o
+[Visual Studio Community Edition](https://visualstudio.microsoft.com/pt-br/vs/community/)
+ou o Visual Studio Code, junto com o kit de
 desenvolvimento C#. Explore ambas as ferramentas para determinar qual se
 adequa melhor às suas necessidades e preferências.
 
-### Sobre API REST ###
-
-Além disso, é essencial compreender os conceitos básicos das APIs (Interfaces de
-Programação de Aplicações) e se familiarizar com seu funcionamento. Pesquise
-também sobre as Web APIs e aprofunde-se em como aplicar o conceito de REST
+- **Sobre a API REST** Além disso, é essencial compreender os conceitos básicos das
+[APIs (Interfaces de Programação de Aplicações)](https://pt.wikipedia.org/wiki/Interface_de_programa%C3%A7%C3%A3o_de_aplica%C3%A7%C3%B5es)
+e se familiarizar com seu funcionamento. Pesquise
+também sobre as Web APIs e aprofunde-se em como aplicar o conceito de
+[REST](https://pt.wikipedia.org/wiki/REST)
 (Transferência de Estado Representacional) neste contexto.
 
 Este conjunto de conhecimentos fornecerá uma base sólida para o desenvolvimento
@@ -196,8 +198,11 @@ public class MyController: ControllerBase
 
 ### 10. Testar com Postman ou Thunder Client ###
 
-Use [Postman](https://www.postman.com/) ou [Thunder Client](https://www.thunderclient.io/)
-para testar suas rotas e métodos conforme você os desenvolveu.
+Utilize [Postman](https://www.postman.com/) ou
+[Thunder Client](https://www.thunderclient.io/)
+para testar suas rotas e métodos conforme você os desenvolver.
+Dessa forma, você poderá verificar se as
+ações definidas estão sendo executadas conforme programado.
 
 ### 11. Visualizar documentação com Swagger ###
 
