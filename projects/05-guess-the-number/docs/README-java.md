@@ -155,7 +155,8 @@ validar tu comprensión:
 - ¿En base a las atributos y métodos, puedes indicar qué rol cumplirá cada clase?
 - ¿Qué clases se extienden/heredan de otras?
 - ¿Qué tipo de relación tiene la clase `Player` con `HumanPlayer`?
-- ¿Identificas los diferentes símbolos de visibilidad de las atributos y métodos en cada clase?
+- ¿Identificas los diferentes símbolos de visibilidad de las
+atributos y métodos en cada clase?
 
 > [!NOTE]
 > Es normal que, en este momento, puedas no sentirte
