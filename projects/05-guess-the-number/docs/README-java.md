@@ -125,7 +125,7 @@ Debes configurar tu entorno de trabajo, es decir:
   [IntelliJ Community Edition](https://www.jetbrains.com/idea/download/),
   en casos extremos de recursos computacionales se puede utilizar el VSCode).
 
-#### Contenidos que pueden ayudarte en la configuración del entorno
+🛠️ Recursos útiles:
 
 - [Tutoriales para la preparación del entorno Java](https://github.com/Laboratoria/java-setup)
 - [¿Cómo instalo Java?](https://www.java.com/es/download/help/develop_es.html)
@@ -175,7 +175,7 @@ respetando la adecuada configuración de visibilidad
 (como se explica en este enlace sobre
 [modificadores de acceso en Java](https://www.simplilearn.com/tutorials/java-tutorial/access-modifiers#:~:text=Access%20modifiers%20in%20Java%20allow,control%20access%20from%20other%20classes.)).
 
-Recursos utiles:
+🛠️ Recursos útiles:
 
 - [Crear proyecto con IntelliJ](https://drive.google.com/file/d/1xGL7mPTrvqwSCzbKyfjyUyK42RC1LbEh/view?usp=sharing)
 - [Crear proyecto con VScode](https://drive.google.com/file/d/1TORaOzmnJ3kJd-4qtP9FmamFK3FGVlwj/view?usp=sharing)
@@ -183,42 +183,89 @@ Recursos utiles:
 Por ahora nada funcionará, pero ve paso a paso hasta resolver el
 problema. No intentes correr antes de gatear.
 
-### 4.4 Hito 4 - Iniciando el juego
+### Hito 4 - Iniciando el juego
 
-En este hito, puedes crear el juego para un solo jugador.
+Inicia con la clase predeterminada del proyecto,
+`GuessTheNumberGame`. Esta clase requiere dos
+[atributos](https://portalacademico.cch.unam.mx/cibernetica2/principios-programacion-orientada-a-objetos/atributos):
+`random` y `targetNumber`. `targetNumber`
+debe ser de tipo primitivo [int](https://www.geeksforgeeks.org/data-types-in-java/).
 
-Comienza creando las clases que representan a la jugadora humana. Luego, elige
-el número objetivo, que debe ser un número aleatorio entre 1 y 100, y finalmente,
-crea la lógica para verificar si el número de la jugadora es menor o
-mayor que el valor objetivo. Muestra en la terminal si es un valor alto o bajo.
+Es fundamental señalar que el atributo `random`
+es de un tipo de referencia especial. Para
+gestionarlo, importa
+[java.util.Random](https://www.geeksforgeeks.org/java-util-random-nextint-java/).
+Al trabajar con tipos de referencia, especialmente fuera de los tipos
+primitivos, es posible que necesites realizar importaciones adicionales.
 
-#### Contenidos que pueden ayudarte a comenzar el juego
+Ahora en la misma clase `GuessTheNumberGame`, centrate en obtener el número de la jugadora.
+Para lograrlo, haz referencia e importa la clase
+[java.util.Scanner](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html).
+Luego, [compara](https://www.w3schools.com/java/java_conditions.asp)
+el número introducido por la jugadora con el número a adivinar,
+`targetNumber`, y
+según el resultado, indica si es demasiado alto,
+demasiado bajo o si ha acertado.
+
+🛠️ Recursos utiles:
 
 - [Java: Cómo leer y presentar datos con los comandos de entrada y salida](https://www.programarya.com/Cursos/Java/Entrada-de-datos)
 - [Java Scanner](https://www.baeldung.com/java-scanner)
 - [Java User Input](https://www.w3schools.com/java/java_user_input.asp)
 - [Número Aleatorio](https://www.baeldung.com/java-17-random-number-generators)
 
-### 4.5 Hito 5 - Agregando más jugadoras
+> [!IMPORTANT]
+> En este momento, la jugadora ya puede proponer un número,
+> y al hacerlo, el juego concluye. El objetivo a tener en
+> cuenta es implementar la posibilidad de que pueda
+> seguir jugando hasta adivinar el número.
 
-En este hito, puedes agregar otra jugadora al juego.
+### Hito 5 - Agregando más jugadoras
 
-Comienza creando las clases que representan a la segunda jugadora, que podría
-ser la computadora. Desarrolla la lógica para alternar entre las jugadoras.
-Finalmente, agrega información adicional cuando alguna jugadora gane el juego.
-Puedes mostrar la cantidad de intentos y cuáles fueron los intentos de la jugadora.
+En este hito, incorporaras una nueva jugadora al
+juego utilizando las clases ya definidas, como
+`HumanPlayer` y `ComputerPlayer`.
 
-### 4.6 Hito 6 - Configuración para la construcción de pruebas unitarias
+1. `makeGuess()` en `HumanPlayer`:
+Permite que la jugadora humana ingrese su suposición
+a través de la entrada estándar. Para lograrlo,
+puedes utilizar la clase Scanner para obtener la entrada del usuario.
+Además, asegúrate de almacenar cada suposición en el historial de
+suposiciones (`guesses`) de la jugadora.
+
+2. `makeGuess()` en `ComputerPlayer`:
+Permite que la computadora u oponente virtual
+realice una suposición aleatoria. Utiliza la clase
+Random para generar números aleatorios. Asegúrate de
+almacenar cada suposición en el historial de suposiciones
+(`guesses`) de la jugadora.
+
+3. Actualización de la lógica del juego en `GuessTheNumberGame`:
+Es necesario actualizar la lógica del juego en la clase
+`GuessTheNumberGame` para que pueda interactuar con la nueva
+jugadora y ambas clases.
+Agrega instancias de las jugadoras. En la clase `GuessTheNumberGame`,
+define e inicializa
+[instancias](https://es.stackoverflow.com/questions/7576/qu%C3%A9-es-una-instancia-en-poo)
+de `HumanPlayer` y `ComputerPlayer`. Puedes tener múltiples
+instancias de cada tipo de jugadora si lo deseas. Además,
+modifica el método `checkGuess(Player player)` para que invoque
+el método `makeGuess()` correspondiente a la jugadora pasada como
+argumento. Luego, compara la suposición con el número objetivo
+y proporciona el resultado adecuado.
+
+### Hito 6 - Configuración para la construcción de pruebas unitarias
 
 En este hito, configura las bibliotecas JUnit5 y Mockito en tu IDE para que
 puedas crear pruebas unitarias.
 
-Le recomendamos que utilice las bibliotecas presentes en el repositorio de Maven:
+Le recomendamos que utilice las bibliotecas presentes en el repositorio de
+[Maven](https://www.arquitecturajava.com/que-es-maven/):
 
 - org.junit.jupiter:junit-jupiter
 - org.mockito:mockito-core
 
-#### Contenidos que pueden ayudarte a agregar dependencias de pruebas
+🛠️ Recursos útiles:
 
 - [Agregar JUnit5 en IntelliJ](https://www.jetbrains.com/help/idea/junit.html#intellij)
 - [Testing Java with VSCode](https://code.visualstudio.com/docs/java/java-testing)
