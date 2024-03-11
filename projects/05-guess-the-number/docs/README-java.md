@@ -138,36 +138,31 @@ Debes configurar tu entorno de trabajo, es decir:
 > Agrega un comando que imprima "¡Hola mundo!" en la consola.
 > Esto te permitirá confirmar la adecuada configuración de tus ajustes.
 
-### 4.2 Hito 2 - Primeros pasos con el lenguaje
+### 4.2 Hito 2 - Comprensión del Diagrama de Clases
 
-Crea la primera clase del proyecto que contenga el método main. Puedes agregar
-un comando que muestre "¡Hola mundo!" en la consola.
-Así podrás verificar si tus configuraciones son correctas.
-Además, puedes estudiar conceptos del lenguaje como:
+Te proporcionamos un [Diagrama de Clases](#diagrama-de-clases)
+como punto de partida para la construcción de tu proyecto.
+Utiliza esta [documentación](https://diagramasuml.com/diagrama-de-clases/)
+para comprender el diagrama, ya que es esencial entender su
+significado antes de comenzar el desarrollo del proyecto.
 
-- ¿Qué son las clases y cómo construirlas?
-- ¿Qué son los métodos y cómo utilizarlos?
-- ¿Qué tipos de datos existen en el lenguaje? (Recuerda los que más usaste en
-  JavaScript y trata de buscar tipos similares).
-- ¿Cómo crear un array usando Java?
-- ¿Qué son los modificadores de acceso como: `public`, `private`, `protected`?
-- ¿Qué son los métodos constructores? ¿Cómo hacerlos?
-- ¿Qué es el encapsulamiento? ¿Cómo hacerlo?
-- ¿Qué es la herencia? ¿Cómo crearla en Java?
+En este hito, es crucial comprender la representación del
+diagrama. Puedes apoyarte en las siguientes preguntas para
+validar tu comprensión:
 
-Recuerda también utilizar contenidos prácticos para comprender estos conceptos.
-¡No pases mucho tiempo solo leyendo o viendo videos!
-¡Crea códigos! Inténtalo, equivócate, inténtalo de nuevo, etc.
+- ¿Qué es una clase?
+- ¿Identificas las atributos y métodos más importantes de cada clase?
+- ¿En base a las atributos y métodos, puedes indicar qué rol cumplirá cada clase?
+- ¿Qué clases se extienden/heredan de otras?
+- ¿Qué tipo de relación tiene la clase `Player` con `HumanPlayer`?
+- ¿Identificas los diferentes símbolos de visibilidad de las atributos y métodos en cada clase?
 
-#### Contenidos que pueden ayudarte en los primeros pasos con Java
-
-- [Learn the Basics of Java Programming](https://www.freecodecamp.org/news/learn-the-basics-of-java-programming/)
-- [Programación Orientada a Objetos com Java](https://www.freecodecamp.org/news/object-oriented-programming-concepts-java/)
-- [Java Basic Syntax](https://www.geeksforgeeks.org/java-basic-syntax/)
-- [Java Data Types And Variables – Explained for Beginners](https://www.freecodecamp.org/news/java-data-types-and-variables/)
-- [Learn Java](https://www.w3schools.com/java/default.asp)
-- [Java Classes and Objects](https://www.w3schools.com/java/java_classes.asp)
-- [Java Methods](https://www.w3schools.com/java/java_methods.asp)
+> [!NOTE]
+> Es comprensible que, en este momento, puedas no sentirte
+> completamente segura al responder las preguntas anteriores.
+> En los próximos hitos, abordaremos cada una de las clases, y
+> a medida que avancemos, te animamos a encontrar una mayor
+> conexión entre lo que estás construyendo y el diagrama de clases.
 
 ### 4.3 Hito 3 - Comprensión del Diagrama de Clases
 
