@@ -270,7 +270,7 @@ Le recomendamos que utilice las bibliotecas presentes en el repositorio de
 - [Agregar JUnit5 en IntelliJ](https://www.jetbrains.com/help/idea/junit.html#intellij)
 - [Testing Java with VSCode](https://code.visualstudio.com/docs/java/java-testing)
 
-### 4.7 Hito 7 - Creación de pruebas unitarias
+### Hito 7 - Creación de pruebas unitarias
 
 Crea las pruebas unitarias para tu proyecto. Asegúrate de cubrir con pruebas
 la lógica de tu juego basándote en comportamientos. Por ejemplo, crea pruebas que:
@@ -279,10 +279,14 @@ la lógica de tu juego basándote en comportamientos. Por ejemplo, crea pruebas 
 - Simulen que el número de la jugadora es menor que el número objetivo.
 - Simulen que el número es el mismo número objetivo.
 
-#### Contenidos que pueden ayudarte a crear pruebas unitarias
+🛠️ Recursos útiles:
 
 - [Calidad y JUnit: Introducción a la automatización de pruebas unitarias en tu software Java en el día a día](https://www.tutorialspoint.com/junit/index.htm)
 - [Tutorial de Mockito](https://www.digitalocean.com/community/tutorials/mockito-tutorial)
+- [JUnit5 en VSCode](https://drive.google.com/file/d/1QL9nz4fZPK3OxNJUCME4OYSwWF_pWZ04/view?usp=sharing)
+- [Mockito en VSCode](https://drive.google.com/file/d/16B0Sg0RUYSvp2_Drh_I6Q2-be3wLFTcs/view?usp=sharing)
+- [JUnit5 en IntelliJ](https://drive.google.com/file/d/1opSSwWxog7voh2TO8skFsXxXqRYfi8S9/view?usp=sharing)
+- [Mockito en IntelliJ](https://drive.google.com/file/d/1GYP6Q4X8dkaxGbeQF4sLW5W2BkeHph2q/view?usp=sharing)
 
 ### 4.8 Hito 8 (Edición Hacker) - Creación de una "inteligencia" para jugar contra la computadora
 
