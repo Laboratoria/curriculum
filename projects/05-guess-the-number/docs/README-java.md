@@ -128,9 +128,15 @@ Debes configurar tu entorno de trabajo, es decir:
 #### Contenidos que pueden ayudarte en la configuración del entorno
 
 - [Tutoriales para la preparación del entorno Java](https://github.com/Laboratoria/java-setup)
-- [¿Cómo instalo Java?](https://www.java.com/pt-BR/download/help/download_options_pt-br.html)
+- [¿Cómo instalo Java?](https://www.java.com/es/download/help/develop_es.html)
 - [Install IntelliJ IDEA](https://www.jetbrains.com/help/idea/installation-guide.html)
 - [Guía paso a paso para instalar Intellij Idea en Mac](https://www.geeksforgeeks.org/step-by-step-guide-to-install-intellij-idea)
+
+> [!TIP]
+> Para verificar el correcto funcionamiento de tus instalaciones,
+> te sugerimos crear la primera clase del proyecto que incluya el método main.
+> Agrega un comando que imprima "¡Hola mundo!" en la consola.
+> Esto te permitirá confirmar la adecuada configuración de tus ajustes.
 
 ### 4.2 Hito 2 - Primeros pasos con el lenguaje
 
