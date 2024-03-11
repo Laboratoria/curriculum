@@ -158,10 +158,10 @@ validar tu comprensión:
 - ¿Identificas los diferentes símbolos de visibilidad de las atributos y métodos en cada clase?
 
 > [!NOTE]
-> Es comprensible que, en este momento, puedas no sentirte
-> completamente segura al responder las preguntas anteriores.
+> Es normal que, en este momento, puedas no sentirte
+> segura al responder las preguntas anteriores.
 > En los próximos hitos, abordaremos cada una de las clases, y
-> a medida que avancemos, te animamos a encontrar una mayor
+> a medida que avances, te animamos a encontrar una mayor
 > conexión entre lo que estás construyendo y el diagrama de clases.
 
 ### Hito 3 - Crea y estructura tu proyecto
@@ -198,14 +198,14 @@ gestionarlo, importa
 Al trabajar con tipos de referencia, especialmente fuera de los tipos
 primitivos, es posible que necesites realizar importaciones adicionales.
 
-Ahora en la misma clase `GuessTheNumberGame`, centrate en obtener el número de la jugadora.
-Para lograrlo, haz referencia e importa la clase
+Ahora, en la misma clase `GuessTheNumberGame`, concéntrate en obtener
+el número ingresado por la jugadora. Para lograrlo, haz referencia
+e importa la clase
 [java.util.Scanner](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html).
-Luego, [compara](https://www.w3schools.com/java/java_conditions.asp)
-el número introducido por la jugadora con el número a adivinar,
-`targetNumber`, y
-según el resultado, indica si es demasiado alto,
-demasiado bajo o si ha acertado.
+A continuación, [compara](https://www.w3schools.com/java/java_conditions.asp) el
+número introducido por la jugadora con el número a adivinar, `targetNumber`.
+Utiliza el método `checkGuess` para evaluar el resultado y, en función del mismo,
+indica si el número es demasiado alto, demasiado bajo o si ha acertado.
 
 🛠️ Recursos utiles:
 
@@ -288,13 +288,31 @@ la lógica de tu juego basándote en comportamientos. Por ejemplo, crea pruebas 
 - [JUnit5 en IntelliJ](https://drive.google.com/file/d/1opSSwWxog7voh2TO8skFsXxXqRYfi8S9/view?usp=sharing)
 - [Mockito en IntelliJ](https://drive.google.com/file/d/1GYP6Q4X8dkaxGbeQF4sLW5W2BkeHph2q/view?usp=sharing)
 
-### 4.8 Hito 8 (Edición Hacker) - Creación de una "inteligencia" para jugar contra la computadora
+### Hito 8 (Edición Hacker) - Creación de una "inteligencia" para jugar contra la computadora
 
-En este hito, que consideramos como Edición Hacker, puedes crear una lógica
+En este hito, que consideramos como Edición Hacker, puedes crear la lógica
 para que los número de la segunda jugadora, cuando estás jugando contra la computadora,
-sean más inteligentes. Estos número pueden considerar la información
-sobre si el número es alto o bajo en relación con el número objetivo,
-haciendo que el juego sea más emocionante.
+sean más inteligentes.  Estos números pueden aprovechar la información
+sobre si la suposición anterior fue alta o baja en relación con el número
+objetivo, generando así un juego más emocionante.
+
+Para lograrlo, puedes crear un método adicional en
+la clase `ComputerPlayer`, por ejemplo, llamado
+`makeSmartGuess()`. En esta función, se utilizaría
+la información sobre si la suposición anterior fue
+alta o baja en relación con el número objetivo. La
+intención es ajustar la lógica de generación de
+suposiciones para que la computadora realice
+estimaciones más precisas y estratégicas.
+
+Seguidamente, necesitarás actualizar el método
+`checkGuess(Player player)` en la clase `GuessTheNumberGame`.
+Cuando la jugadora sea la computadora, deberás modificar la
+llamada al método `makeGuess()` por `makeSmartGuess()`.
+Es esencial asegurarse de proporcionar la información
+necesaria sobre la suposición anterior a la función
+`makeSmartGuess()`, de modo que la estrategia de suposición
+se base en datos históricos, mejorando así la inteligencia del juego.
 
 ## 5. Recomendaciones
 
