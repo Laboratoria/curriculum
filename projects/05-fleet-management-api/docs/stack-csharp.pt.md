@@ -1,6 +1,6 @@
-# API de Gerenciamento de Frota em C# #
+# API de Gerenciamento de Frota em C\#
 
-## Pilha de Tecnologias ##
+## Pilha de Tecnologias
 
 Ao criar aplicações modernas, escolher tecnologias compatíveis é essencial para
 um bom desempenho e gestão eficiente de dados. [Entity Framework](https://learn.microsoft.com/pt-br/ef/)
@@ -26,7 +26,7 @@ ambiente completo e otimizado para desenvolver
 aplicações web modernas, com foco especial na criação de Web APIs eficientes e
 flexíveis.
 
-## Considerações gerais ##
+## Considerações gerais
 
 - **Conhecimentos em C#:** É crucial considerar os princípios
 fundamentais da programação orientada a
@@ -52,7 +52,7 @@ Este conjunto de conhecimentos fornecerá uma base sólida para o desenvolviment
 de aplicações em C# e .NET, bem como para trabalhar com APIs e entender a
 importância do REST no desenvolvimento de Web APIs.
 
-## Considerações Técnicas ##
+## Considerações Técnicas
 
 - **Versão do .NET:** Este projeto utiliza .NET 5.0 ou uma versão superior.
   Você pode trabalhar com a versão 8 do framework, que é a última versão LTS
@@ -64,7 +64,7 @@ importância do REST no desenvolvimento de Web APIs.
   disso, a Web API com controladores é uma opção mais adequada para projetos
   de qualquer tamanho e é mais fácil de escalar.
 
-## Dicas no Desenvolvimento do Projeto ##
+## Dicas no Desenvolvimento do Projeto
 
 Aqui estão algumas dicas para realizar o desenvolvimento do projeto. Estas são
 sugestões; escolha o caminho que melhor se adapte ao seu momento de aprendizado.
@@ -74,7 +74,7 @@ sugestões; escolha o caminho que melhor se adapte ao seu momento de aprendizado
   ../README.md), onde você encontrará informações detalhadas para cada objetivo
   de aprendizado.
 
-### 1. Criar Projeto Web API ###
+### 1. Criar Projeto Web API
 
 Para criar um projeto Web API em C# com o modelo "API com controladores", use o
 seguinte comando no terminal:
@@ -85,7 +85,7 @@ dotnet new webapi --name MeuProjeto --use-controllers
 
 Este comando cria um projeto de API web com suporte a controladores.
 
-### 2. Explorar o projeto WeatherForecast ###
+### 2. Explorar o projeto WeatherForecast
 
 - Abra o projeto no Visual Studio ou VSCode.
 - Explore os arquivos gerados, como WeatherForecast.cs,
@@ -98,7 +98,7 @@ Este comando cria um projeto de API web com suporte a controladores.
 > [guia adicional da Microsoft](https://learn.microsoft.com/pt-br/aspnet/core/tutorials/first-web-api?view=aspnetcore-8.0&tabs=visual-studio)
 > para obter suporte adicional em seu aprendizado.
 
-### 3. Instalar pacotes com NuGet ###
+### 3. Instalar pacotes com NuGet
 
 Para instalar pacotes NuGet a partir do terminal, use o seguinte comando:
 
@@ -110,7 +110,7 @@ Consulte a [documentação](https://learn.microsoft.com/pt-br/nuget/consume-pack
 para mais detalhes; você pode explorar
 as bibliotecas disponíveis [aqui](https://www.nuget.org/).
 
-### 4. Entity Framework ###
+### 4. Entity Framework
 
 [Entity Framework](https://learn.microsoft.com/pt-br/ef/) é um
 [ORM](https://pt.wikipedia.org/wiki/Mapeamento_objeto-relacional) que
@@ -123,7 +123,7 @@ permitindo interação mais simples com o banco de dados.
 dotnet add package Microsoft.EntityFrameworkCore
 ```
 
-### 5. Criar modelos ###
+### 5. Criar modelos
 
 Um modelo no Entity Framework representa uma tabela no banco de dados.
 Usando esse modelo, a tabela será gerada automaticamente com os campos
@@ -145,14 +145,14 @@ public class ApplicationDbContext : DbContext
 }
 ```
 
-### 6. Fluent API ###
+### 6. Fluent API
 
 [Fluent API](https://learn.microsoft.com/pt-br/ef/core/modeling/) no
 EF é uma forma de configurar o modelo de dados no código,
 fornecendo um controle mais preciso sobre como as classes são mapeadas
 para tabelas e suas relações no banco de dados.
 
-### 7. Conectar-se ao PostgreSQL ###
+### 7. Conectar-se ao PostgreSQL
 
 Para se conectar ao PostgreSQL, você precisará do [Npgsql](https://www.npgsql.org/doc/index.html),
 que pode ser instalado com:
@@ -169,7 +169,7 @@ Em seguida, será necessário configurar no seu Contexto como se conectar:
     optionsBuilder.UseNpgsql(connection);
 ```
 
-### 8. Ejecutar migraciones ###
+### 8. Ejecutar migraciones
 
 As migrações são scripts que permitem atualizar o banco de dados
 conforme as alterações em seus modelos. Migrates descrevem as
@@ -182,7 +182,7 @@ dotnet ef migrations add MyMigration
 dotnet ef database update
 ```
 
-### 9. Criar controladores ###
+### 9. Criar controladores
 
 Os controladores manipularão as solicitações HTTP em uma API.
 Você usará atributos como [HttpGet] que definem como
@@ -197,7 +197,7 @@ public class MyController: ControllerBase
 }
 ```
 
-### 10. Testar com Postman ou Thunder Client ###
+### 10. Testar com Postman ou Thunder Client
 
 É fundamental testar suas APIs para garantir que funcionem
 corretamente antes de implementá-las em produção.
@@ -210,12 +210,21 @@ para a sua API, evitando a necessidade de escrever código adicional.
 Você pode verificar rapidamente os códigos de status, cabeçalhos e o
 corpo das respostas para identificar erros de maneira ágil.
 
-### 11. Visualizar documentação com Swagger ###
+### 11. Visualizar documentação com Swagger
 
 Você deve usar [Swagger](https://docs.microsoft.com/pt-br/aspnet/core/tutorials/web-api-help-pages-using-swagger)
 para documentar seus endpoints.
 
-### 12. Desenvolver testes com xUnit ###
+### 12. Desenvolver testes com xUnit
 
 Para escrever testes [xUnit](https://xunit.net/docs/getting-started/netcore/cmdline),
 instale o pacote:
+
+```bash
+dotnet add package xunit
+```
+
+Já instalado, desenvolva testes para cada endpoint,
+você pode usar
+[a documentação oficial da Microsoft](https://learn.microsoft.com/es-es/dotnet/core/testing/unit-testing-with-dotnet-test)
+como guia para escrever testes eficazes.

@@ -15,7 +15,7 @@ siendo especialmente adecuado para el desarrollo de Web APIs.
 
 Entity Framework simplifica la conexión a bases de datos al permitir a los devs
 trabajar con objetos en lugar de lidiar
-directamente con consultas [SQL(https://aws.amazon.com/es/what-is/sql/)],
+directamente con consultas [SQL](https://aws.amazon.com/es/what-is/sql/),
 agilizando el desarrollo y mejorando la gestión de datos.
 
 PostgreSQL es un sistema de gestión de bases de datos confiable y de código
