@@ -114,7 +114,7 @@ usuaria al finalizar cada hito.
 
 A continuación, te dejamos algunos hitos como sugerencia para que construyas tu proyecto.
 
-### 4.1 Hito 1 - Configuración del entorno de trabajo
+### Hito 1 - Configuración del entorno de trabajo
 
 Debes configurar tu entorno de trabajo, es decir:
 
@@ -138,7 +138,7 @@ Debes configurar tu entorno de trabajo, es decir:
 > Agrega un comando que imprima "¡Hola mundo!" en la consola.
 > Esto te permitirá confirmar la adecuada configuración de tus ajustes.
 
-### 4.2 Hito 2 - Comprensión del Diagrama de Clases
+### Hito 2 - Comprensión del Diagrama de Clases
 
 Te proporcionamos un [Diagrama de Clases](#diagrama-de-clases)
 como punto de partida para la construcción de tu proyecto.
@@ -164,16 +164,24 @@ validar tu comprensión:
 > a medida que avancemos, te animamos a encontrar una mayor
 > conexión entre lo que estás construyendo y el diagrama de clases.
 
-### 4.3 Hito 3 - Comprensión del Diagrama de Clases
+### Hito 3 - Crea y estructura tu proyecto
 
-Dejamos un [Diagrama de Clases](#diagrama-de-clases) para que te sirva de base
-para construir tu proyecto. Pero es necesario comprender lo que significa antes
-de empezar a desarrollar lo que será tu proyecto.
-En este hito, puedes comprender lo que este diagrama está representando.
+Es crucial que es este punto crees tu proyecto y
+desarrolles las clases
+del juego conforme al diagrama de
+clases proporcionado. Cada clase debe definir
+cuidadosamente sus atributos y métodos,
+respetando la adecuada configuración de visibilidad
+(como se explica en este enlace sobre
+[modificadores de acceso en Java](https://www.simplilearn.com/tutorials/java-tutorial/access-modifiers#:~:text=Access%20modifiers%20in%20Java%20allow,control%20access%20from%20other%20classes.)).
 
-#### Contenidos que pueden ayudarte en la comprensión del Diagrama de Clases
+Recursos utiles:
 
-- [¿Qué son los Diagramas de Clase?](https://diagramasuml.com/diagrama-de-clases/)
+- [Crear proyecto con IntelliJ](https://drive.google.com/file/d/1xGL7mPTrvqwSCzbKyfjyUyK42RC1LbEh/view?usp=sharing)
+- [Crear proyecto con VScode](https://drive.google.com/file/d/1TORaOzmnJ3kJd-4qtP9FmamFK3FGVlwj/view?usp=sharing)
+
+Por ahora nada funcionará, pero ve paso a paso hasta resolver el
+problema. No intentes correr antes de gatear.
 
 ### 4.4 Hito 4 - Iniciando el juego
 
