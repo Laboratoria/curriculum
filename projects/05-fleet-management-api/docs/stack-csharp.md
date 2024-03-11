@@ -8,14 +8,14 @@ y gestión eficiente de datos. [Entity Framework](https://learn.microsoft.com/es
 y [PostgreSQL](https://www.postgresql.org/docs/) destacan por su
 poderosa colaboración.
 
-[.NET Core](https://learn.microsoft.com/es-es/dotnet/),
+[.NET Core](https://dotnet.microsoft.com/es-es/learn/dotnet/what-is-dotnet),
 de Microsoft, es un framework eficiente
 para aplicaciones web modernas y escalables,
 siendo especialmente adecuado para el desarrollo de Web APIs.
 
 Entity Framework simplifica la conexión a bases de datos al permitir a los devs
 trabajar con objetos en lugar de lidiar
-directamente con consultas SQL,
+directamente con consultas [SQL(https://aws.amazon.com/es/what-is/sql/)],
 agilizando el desarrollo y mejorando la gestión de datos.
 
 PostgreSQL es un sistema de gestión de bases de datos confiable y de código
@@ -38,7 +38,8 @@ conocimientos consultando la documentación pertinente sobre clases e interfaces
 - **Aprendizaje de C# y .NET:** Asegúrate de tener
 instalado un entorno de desarrollo, ya sea
 [Visual Studio Community Edition](https://visualstudio.microsoft.com/es/vs/community/)
-o Visual Studio Code, junto con el kit de desarrollo de C#.
+o [Visual Studio Code](https://code.visualstudio.com/),
+junto con el kit de desarrollo de C#.
 Explora ambas herramientas para determinar cuál se adapta mejor a tus
 necesidades y preferencias.
 
@@ -47,7 +48,7 @@ conceptos básicos de las
 [APIs (Interfaces de Programación de Aplicaciones)](https://es.wikipedia.org/wiki/API)
 y familiarizarte con su funcionamiento. Investiga
 también sobre las Web APIs y profundiza en cómo aplicar el concepto de
-[REST](https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional)
+[REST](https://aws.amazon.com/es/what-is/api/)
 (Transferencia de Estado Representacional) en este contexto.
 
 Este conjunto de conocimientos te proporcionará una base sólida para desarrollar
@@ -201,12 +202,20 @@ public class MiControlador : ControllerBase
 
 ### 10. Probar con Postman o Thunder Client ###
 
-Utiliza [Postman](https://www.postman.com/) o
+Es fundamental probar tu APIs para asegurarte de que funciona
+correctamente antes de implementarla
+en producción. Aquí es donde entran en herramientas como
+[Postman](https://www.postman.com/) y
 [Thunder Client](https://www.thunderclient.io/)
-para poner a prueba tus rutas y métodos una vez
-que los hayas desarrollado. De esta manera,
-podrás verificar si las acciones definidas
-se están ejecutando según lo programado.
+para probar las rutas y métodos que
+desarrollaste.
+
+Estas herramientas te permiten simular fácilmente
+solicitudes HTTP a tu API, evitando la necesidad
+de escribir código adicional.
+Puedes verificar rápidamente los códigos de estado,
+encabezados y el cuerpo de las respuestas
+para identificar errores de manera ágil.
 
 ### 11. Visualizar documentación con Swagger ###
 

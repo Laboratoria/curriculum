@@ -77,6 +77,7 @@ La especificación del CLI depende de la tecnología elegida para el proyecto.
 * [Java](./extension-cli.md#java)
 * [NodeJs](./extension-cli.md#node-js)
 * [Python](./extension-cli.md#python)
+* [C#](./extension-cli.md#c)
 
 ### Definición de terminado
 
