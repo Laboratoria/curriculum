@@ -296,6 +296,11 @@ relacionados a cada objetivo de aprendizado.
 
 ### JavaScript
 
+- **O uso de expressões regulares não é permitido**
+
+  + [ ] Nesse projeto, considere priorizar os fundamentos de JS antes de tentar
+  resolver seu projeto com expressões regulares.
+
 - **Tipos de dados primitivos**
 
   + [ ] A aplicação converte valores do tipo `string` para o tipo `number`.
