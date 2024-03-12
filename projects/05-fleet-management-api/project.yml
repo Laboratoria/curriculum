@@ -28,14 +28,6 @@ variants:
     learningObjectives:
       - java
       - object-oriented-programming
-  - name: python
-    learningObjectives:
-      - python
-      # Cualquier OA puede expresarse como objeto, por ejemplo para flaggear
-      # como "opcional".
-      # por ahora es la unica propiedad soportada.
-      - object-oriented-programming:
-          optional: true
   - name: node
     learningObjectives:
       - js/testing/unit
@@ -58,10 +50,18 @@ variants:
       - typescript/basic-types/union-types
       - typescript/basic-types/interfaces
       - typescript/basic-types/enums
-      - object-oriented-programming:
-          optional: true
+      # Cualquier OA puede expresarse como objeto, por ejemplo para flaggear
+      # como "opcional".
+      # por ahora es la unica propiedad soportada.
+      - id: object-oriented-programming
+        optional: true
+  - name: python
+    learningObjectives:
+      - python
+      - id: object-oriented-programming
+        optional: true
   - name: csharp
     learningObjectives:
       - csharp
-      - object-oriented-programming:
-          optional: true
+      - id: object-oriented-programming
+        optional: true
