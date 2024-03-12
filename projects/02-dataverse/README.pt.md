@@ -7,11 +7,12 @@
 * [3. Considerações gerais](#3-considerações-gerais)
 * [4. Funcionalidades](#4-funcionalidades)
 * [5. Considerações técnicas](#5-considerações-técnicas)
-* [6. Critérios de aceitação mínimos do projeto](#6-critérios-de-aceitação-mínimos-do-projeto)
-* [7. Edição Hacker](#7-edição-hacker)
-* [8. Objetivos de aprendizagem](#8-objetivos-de-aprendizagem)
-* [9. Dicas, guias e leituras complementares](#9-dicas-guias-e-leituras-complementares)
-* [10. Considerações para pedir seu Feedback do Projeto](#10-considerações-para-pedir-seu-feedback-do-projeto)
+* [6. Marcos](#6-Marcos)
+* [7. Critérios de aceitação mínimos do projeto](#7-critérios-de-aceitação-mínimos-do-projeto)
+* [8. Edição Hacker](#8-edição-hacker)
+* [9. Objetivos de aprendizagem](#9-objetivos-de-aprendizagem)
+* [10. Dicas, guias e leituras complementares](#10-dicas-guias-e-leituras-complementares)
+* [11. Considerações para pedir seu Feedback do Projeto](#11-considerações-para-pedir-seu-feedback-do-projeto)
 
 ***
 
@@ -138,7 +139,7 @@ implementadas:
 * A aplicação deve permitir à usuária filtrar os dados. Você usará
   um elemento [`<select>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/select)
   com [um atributo de dados](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Howto/Use_data_attributes)
-  `data-testid="selecionar-filtro"`, e um atributo `name` com o nome
+  `data-testid="select-filter"`, e um atributo `name` com o nome
   da propriedade pela qual irá filtrar (por exemplo, se for filtrar por "tipo",
   o `<select>` terá `name="tipo"`). Os `<option>` deste `<select>` deverão
   ter no atributo `value` o valor do filtro (por exemplo, se for filtrar
@@ -148,19 +149,19 @@ implementadas:
   - Terá pelo menos um controle `<select>` para ordenar.
   - Se usar apenas um controle `<select>`, deve ter
     [um atributo de dados](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Howto/Use_data_attributes)
-    `data-testid="selecionar-ordenar"` e um atributo `name` com o nome da
+    `data-testid="select-sort"` e um atributo `name` com o nome da
     propriedade pela qual irá ordenar (por exemplo, se for ordenar por
     "num" seria `name="num"`). Este `<select>` terá dois [`<option>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option)
     com `value` `asc` e `desc`, para ordenar de forma ascendente e descendente
     respectivamente (por exemplo, `<option value="asc">A - Z</option>`).
   - Uma alternativa é oferecer à usuária uma ordenação mais complexa.
     Pode implementar a ordenação por várias propriedades. Neste caso, seria com
-    um `<select>` com um atributo de dados `data-testid="selecionar-ordenar"`,
+    um `<select>` com um atributo de dados `data-testid="select-sort"`,
     e que contenha filhos `<option>` com um `value` com o nome da propriedade
     pela qual irá ordenar. (Por exemplo, `<option value="nome">Nome</option>`).
     Além disso, você precisará de outro controle (`<radio>`,`<select>`, etc.)
     para indicar se a ordenação é ascendente ou descendente. Esse controle
-    secundário terá um atributo `name="ordem-ordenacao"`, e terá valores
+    secundário terá um atributo `name="sort-order"`, e terá valores
     `asc` e `desc`.
 
 * As funcionalidades de ordenação devem operar sobre os dados filtrados.
@@ -170,7 +171,7 @@ implementadas:
 
 * A aplicação deve permitir à usuária reiniciar a aplicação, limpando
   filtros e ordenamentos, com um `<button>` com um atributo de dados
-  `data-testid="botao-limpar"`.
+  `data-testid="button-clear"`.
 
 * As operações de filtrar, ordenar, limpar, etc. não devem recarregar
   a página, mas sim adicionar conteúdo de maneira
@@ -210,7 +211,7 @@ como todas as configurações de dependências:
 ├── README.md
 ├── package.json
 ├── src
-|  ├── data 
+|  ├── data
 |  |  └── dataset.js (O que você gerou com a IA)
 |  ├── dataFunctions.js
 |  ├── view.js
@@ -321,7 +322,25 @@ tem uma responsabilidade específica. A responsabilidade das funções em
 Esta não é a única maneira de dividir seu código, você pode usar mais arquivos e
 pastas, desde que a estrutura seja clara para seus colegas.
 
-## 6. Critérios mínimos de aceitação do projeto
+## 6. Marcos
+
+Para abordar eficazmente um problema, é crucial obter
+uma compreensão profunda do mesmo. Uma estratégia eficaz
+envolve desmembrá-lo em problemas menores, o que facilitará
+a identificação das causas subjacentes e a formulação de soluções
+mais eficientes.
+
+No contexto deste projeto, recomendamos adotar uma abordagem por
+marcos. Esta metodologia permitirá que você se concentre em um
+problema de cada vez e monitore seu progresso. Abaixo, fornecemos
+um calendário de marcos que ajudará a estruturar seu trabalho.
+
+* [Marco 1](./docs/01-milestone.md)
+* [Marco 2](./docs/02-milestone.md)
+* [Marco 3](./docs/03-milestone.md)
+* [Marco 4](./docs/04-milestone.md)
+
+## 7. Critérios mínimos de aceitação do projeto
 
 ### Critérios de código
 
@@ -342,6 +361,13 @@ npm run test:oas-prompting
 npm run test:oas // Esto es para correr todos los tests de OAs
 ```
 
+Executa os testes enquanto desenvolves para confirmar que
+teu projeto está alcançando os objetivos. Se alguns testes não
+passarem, não permitas que isso te impeça de avançar ou finalizar
+o projeto. Utiliza essa informação para identificar o que precisas
+investigar e modificar no teu código, e consulta teu coach
+sobre quaisquer objetivos pendentes.
+
 Nota: para que os testes funcionem corretamente, você precisa ter
 instalado o `Node.js (LTS)` com versão 14.0.0 ou superior. Para verificar
 a versão do node, execute `node -v` no terminal. Se o comando não
@@ -356,6 +382,7 @@ de seu [site oficial](https://nodejs.org/).
   - [ ] Possui um `<footer>`
   - [ ] Possui um `<main>` com um `<h2>`
   - [ ] Todos os elementos de controle (inputs, selects, radio, etc) possuem `<label>`
+  - [ ] Todas as tags `<label>` usam o atributo `for`
   - [ ] Usa `<ul>` para renderizar os dados
   - [ ] Os filhos de `<li>` usam os atributos de [microdados](https://recursivos.com/html/microdatos/)
   `itemscope` e `itemprop`
@@ -372,6 +399,11 @@ pois a partir dos dados você pode criará esses elementos.
   - [ ] Uso de flexbox em sentido `row` e `column`
   - [ ] Uso de flexbox para o elemento que contém os itens
   - [ ] Uso de flexbox para o elemento que contém os inputs UI
+
+* **Modelo de caixa (box model): borda, margem, preenchimento**
+
+  - [ ] Uso de atributos de modelo de caixa para itens `<li>`
+  - [ ] Uso de atributos de modelo de caixa para `<header>` ou `<footer>`
 
 #### Web APIs
 
@@ -657,7 +689,7 @@ Seus _testes unitários_ devem cobrir 70% das _declarações_
 (_branches_) do arquivo `src/dataFunctions.js` que contém suas funções e
 está detalhado na seção de [Considerações técnicas](#src/data.js).
 
-## 7. Edição Hacker
+## 8. Edição Hacker
 
 As seções chamadas _Edição Hacker_ são **opcionais**. Se você **concluiu**
 tudo o que foi solicitado anteriormente e ainda tem tempo, tente completá-las.
@@ -672,7 +704,7 @@ Recursos/características adicionais sugeridos:
   ou [Google Charts](https://developers.google.com/chart/).
 * Cobertura de 100%
 
-## 8. Objetivos de aprendizagem
+## 9. Objetivos de aprendizagem
 
 > ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
@@ -682,7 +714,7 @@ Recursos/características adicionais sugeridos:
 > Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
 > que contempla nuestra currícula.
 
-## 9. Dicas, guias e leituras complementares
+## 10. Dicas, guias e leituras complementares
 
 ### Primeiros Passos
 
@@ -771,33 +803,38 @@ Quando estiver pronta para codificar, sugerimos que comece assim:
   Aceitação_ e nós sim faremos. Mais detalhes no guia.
 * [Como dividir as H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
 
-## 10. Considerações para pedir seu Feedback do Projeto
+## 11. Considerações para pedir seu Feedback do Projeto
 
-Antes de agendar seu Feedback do Projeto com um coach, assegure-se de que seu projeto:
+Antes de agendar seu Feedback do Projeto com um coach:
 
-* [ ] Cumpre todos os critérios mínimos de aceitação ao executar `npm run test:oas`
-* [ ] Cumpre todos os testes _end to end_ ao executar `npm run test:e2e`
-* [ ] Cumpre todos os testes unitários ao executar `npm run test` e
-  que têm uma cobertura de 70% de _statements_ (_sentenças_),
-  _functions_ (_funções_), _lines_ (_linhas_), e _branches_
-* [ ] Está livre de _erros_ de `eslint` ao executar `npm run pretest`
-* [ ] Está enviado no GitHub e publicado no GitHub Pages
-* [ ] Captura de tela do prompt utilizado para gerar os dados.
+* Atende aos critérios mínimos de aceitação ao executar `npm run test:oas`
+* Passa nos testes unitários ao executar `npm run test` e tem uma cobertura
+  de 70% para _statements_ (afirmações), _functions_ (funções),
+  _lines_ (linhas) e _branches_.
+* Passa nos testes _end to end_ ao executar `npm run test:e2e`
+
+Não é necessário que todos os testes passem com 100% para poder ter tua
+Sessão de Feedback de Projeto. O objetivo dos testes não é te bloquear,
+mas é importante que compreendas quais objetivos ainda estão pendentes
+e discutas com teu orientador se algum deles é crucial para ser alcançado
+antes da tua Sessão de Feedback de Projeto.
+
+Além disso, antes da tua Sessão de Feedback, certifica-te de que:
+
+* Está livre de _erros_ do `eslint` ao executar `npm run pretest`
+* Está hospedado no GitHub e foi implantado no GitHub Pages
+* Possui uma captura de tela do prompt utilizado para gerar os dados.
 * Tem um `README.md` com o seguinte:
-  - [ ] _Definição do produto_ clara e informativa
-  - [ ] Histórias de usuário
-  - [ ] Um _Design da Interface de Usuário_ (protótipo de alta fidelidade)
-  - [ ] A lista de problemas que você detectou por meio de testes
-    de usabilidade no `README.md`
-* Tem uma UI que cumpre as funcionalidades:
-  - [ ] Mostra lista com dados e/ou indicadores
-  - [ ] Permite ordenar dados por um ou mais campos (ascendente e descendente)
-  - [ ] Permite filtrar dados com base em uma condição
-  - [ ] Permite limpar os filtros com um botão
-  - [ ] É _responsiva_
+  - Definição clara e informativa do produto
+  - Histórias de usuário
+  - Design da Interface do Usuário (protótipo de alta fidelidade)
+  - Lista dos problemas identificados por meio de testes de usabilidade no `README.md`
+* Possui uma interface do usuário que atende às seguintes funcionalidades:
+  - Mostra uma lista com dados e/ou indicadores
+  - Permite ordenar dados por um ou mais campos (ascendente e descendente)
+  - Permite filtrar dados com base em uma condição
+  - Permite limpar os filtros com um botão
+  - É responsivo
 
 Lembre-se de fazer uma autoavaliação de _objetivos de aprendizado_ e
 _life skills_ a partir do seu painel do estudante.
-
-Se você não completou todos os itens acima, não consideramos que está pronta para
-sua sessão de Feedback do Projeto.

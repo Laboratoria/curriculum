@@ -1,28 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {
-  createTheme,
-  ThemeProvider,
-  StyledEngineProvider,
-} from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
-import { AppProvider, themeConfig, createAppWithProfiler } from '@laboratoria/react';
-import '@laboratoria/react/src/theme/index.css';
+import { AppProvider } from '@laboratoria/sdk-react';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 
-const AppWithProfiler = createAppWithProfiler('curriculum.laboratoria.la', App);
-
 ReactDOM.render(
   <React.StrictMode>
-    <StyledEngineProvider injectFirst>
-      <ThemeProvider theme={createTheme(themeConfig)}>
-        <AppProvider>
-          <CssBaseline />
-          <AppWithProfiler />
-        </AppProvider>
-      </ThemeProvider>
-    </StyledEngineProvider>
+    <AppProvider
+      App={App}
+      productionHostname="curriculum.laboratoria.la"
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );

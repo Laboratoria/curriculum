@@ -169,5 +169,34 @@ describe('CSS', () => {
         ).toBe(true);
       });
     });
+
+    it('Se usan atributos de modelo de caja para <header> o <footer>', () => {
+      const HEADER_SELECTOR = 'header';
+      const FOOTER_SELECTOR = 'footer'
+
+      const elements = [
+        {
+          element: document.querySelector(HEADER_SELECTOR),
+          selector: HEADER_SELECTOR,
+        },
+        {
+          element: document.querySelector(FOOTER_SELECTOR),
+          selector: FOOTER_SELECTOR
+        }
+      ];
+
+      const isUsingBoxModelSomeElement = elements.some(elementObj => {
+        if (!elementObj.element) return;
+        const rules = getRulesForSelector(elementObj.selector);
+        const declarations = getCSSDeclarationsForRules(rules);
+
+        return declarations.some((declaration) => {
+          const [property] = Object.entries(declaration)[0];
+          return BOX_MODEL_ATTRIBUTES.some(attr => property.startsWith(attr));
+        })
+      });
+
+      expect(isUsingBoxModelSomeElement).toBe(true)
+    })
   });
 });

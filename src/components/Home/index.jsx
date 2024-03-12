@@ -5,7 +5,7 @@ import Alert from '@mui/material/Alert';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import { setPage } from '@laboratoria/react';
+import { setPage } from '@laboratoria/sdk-react';
 
 const version = process.env.VERSION;
 const isPrerelease = /(alpha|beta)/.test(version);

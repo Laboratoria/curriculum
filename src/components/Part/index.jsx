@@ -6,7 +6,7 @@ import {
   Content,
   loadFromLocalStorage,
   setPage,
-} from '@laboratoria/react';
+} from '@laboratoria/sdk-react';
 import Breadcrumbs from '../Breadcrumbs';
 
 // Luego de un cambio de versión, los slugs de las unidades y partes

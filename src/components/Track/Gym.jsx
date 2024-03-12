@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { FormattedMessage } from 'react-intl';
 import Typography from '@mui/material/Typography';
-import { Challenges, loadFromLocalStorage } from '@laboratoria/react';
+import { Challenges, loadFromLocalStorage } from '@laboratoria/sdk-react';
 import data from '../../lib/data';
 
 const topicIds = ['javascript', 'paradigms', 'functional'];

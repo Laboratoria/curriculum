@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { useApp, Loading } from '@laboratoria/react';
+import { useApp, Loading } from '@laboratoria/sdk-react';
 import RoutesWithIntl from './RoutesWithIntl';
 import './App.css';
 

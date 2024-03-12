@@ -148,10 +148,10 @@ consultar todas las ubicaciones de un taxi dado el id y una fecha.
 
 ##### Criterios de aceptación
 
-* El _endpoint_ responde para el id del taxi consultado la siguiente
-información: latitud, longitud y fecha y hora.
+* El _endpoint_ responde con el id del taxi y una fecha mostrando
+  la siguiente información: latitud, longitud y timestamp (fecha y hora).
 * El _endpoint_ paginamos los resultados para asegurar que las
-respuestas sean más fáciles de manejar.
+  respuestas sean más fáciles de manejar.
 
 ##### Definición de terminado
 
@@ -178,7 +178,7 @@ consultar la última ubicación reportada por cada taxi.
 ##### Criterios de aceptación
 
 * El _endpoint_ responde para cada taxi la siguiente información:
-id, placa, latitud, longitud y fecha y hora.
+id, placa, latitud, longitud y timestamp (fecha y hora).
 * El _endpoint_ paginamos los resultados para asegurar que las
 respuestas sean más fáciles de manejar.
 
@@ -201,10 +201,11 @@ menos una compañera.
 
 ## 6. Stack de tecnologías
 
-Puedes implementar este proyecto en JavaScript o Java.
+Puedes implementar este proyecto en JavaScript, Python o Java.
 
-* [Java](./docs/README-java.md#stack-de-tecnologías)
-* [NodeJs](./docs/README-node.md#stack-de-tecnologías)
+* [NodeJs](./docs/stack-node.md)
+* [Java](./docs/stack-java.md)
+* [Python](./docs/stack-python.md)
 
 ## 7. Pistas, tips y lecturas complementarias
 
@@ -247,4 +248,4 @@ _código HTTP_ 200 en formato json gracias al _header_
 ## 8. Funcionalidades opcionales
 
 Si completaste todas las funcionalidades del proyecto te invitamos a trabajar en
-las [funcionalides opcionales](./docs/README.extension.md)
+las [funcionalides opcionales](./docs/extension.md)

@@ -7,11 +7,12 @@
 * [3. Consideraciones generales](#3-consideraciones-generales)
 * [4. Funcionalidades](#4-funcionalidades)
 * [5. Consideraciones técnicas](#5-consideraciones-técnicas)
-* [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
-* [7. Hacker edition](#7-hacker-edition)
-* [8. Objetivos de aprendizaje](#8-objetivos-de-aprendizaje)
-* [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
-* [10. Consideraciones para pedir tu Project Feedback](#10-consideraciones-para-pedir-tu-project-feedback)
+* [6. Hitos](#6-hitos)
+* [7. Criterios de aceptación mínimos del proyecto](#7-criterios-de-aceptación-mínimos-del-proyecto)
+* [8. Hacker edition](#8-hacker-edition)
+* [9. Objetivos de aprendizaje](#9-objetivos-de-aprendizaje)
+* [10. Pistas, tips y lecturas complementarias](#10-pistas-tips-y-lecturas-complementarias)
+* [11. Consideraciones para pedir tu Project Feedback](#11-consideraciones-para-pedir-tu-project-feedback)
 
 ***
 
@@ -199,7 +200,7 @@ La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6), HTML y CSS. En este proyecto NO está permitido usar librerías o
 frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e),
 con la excepción de librerías para hacer gráficas (charts); ver
-[_Parte opcional_](#7-hacker-edition) más arriba.
+[_Parte opcional_](#8-hacker-edition) más arriba.
 
 El _boilerplate_ contiene una estructura de archivos como punto de partida así
 como toda la configuración de dependencias:
@@ -209,7 +210,7 @@ como toda la configuración de dependencias:
 ├── README.md
 ├── package.json
 ├── src
-|  ├── data 
+|  ├── data
 |  |  └── dataset.js (La que hayas generado con la IA)
 |  ├── dataFunctions.js
 |  ├── view.js
@@ -322,7 +323,24 @@ tiene una responsabilidad específica. La responsabilidad de los funciones en
 Esta no es la única forma de dividir tu código, puedes usar más archivos y
 carpetas, siempre y cuando la estructura sea clara para tus compañeras.
 
-## 6. Criterios de aceptación mínimos del proyecto
+## 6. Hitos
+
+Para abordar eficazmente un problema, resulta crucial adquirir una comprensión
+profunda del mismo. Una estrategia efectiva consiste en desglosarlo en problemas
+más pequeños, lo cual facilitará la identificación de las causas subyacentes y la
+formulación de soluciones más eficientes.
+
+En el contexto de este proyecto, recomendamos adoptar un enfoque por hitos.
+Esta metodología te posibilitará concentrarte en un problema a la vez y
+monitorizar tu avance. A continuación, te proporcionamos un calendario de hitos
+que te servirá para estructurar tu trabajo.
+
+* [Hito 1](./docs/01-milestone.md)
+* [Hito 2](./docs/02-milestone.md)
+* [Hito 3](./docs/03-milestone.md)
+* [Hito 4](./docs/04-milestone.md)
+
+## 7. Criterios de aceptación mínimos del proyecto
 
 ### Criterios de código
 
@@ -343,6 +361,13 @@ npm run test:oas-prompting
 npm run test:oas // Esto es para correr todos los tests de OAs
 ```
 
+Ejecuta las pruebas mientras desarrollas para confirmar que
+tu proyecto está logrando los objetivos. Si algunas pruebas no pasan,
+no permitas que esto te impida avanzar o finalizar el proyecto.
+Utiliza esta información para ver qué necesitas investigar y
+cambiar en tu código, y consulta con tu coach cualquier
+objetivo que tengas pendiente.
+
 Nota: para el correcto funcionamiento de los tests, es necesario que tengas
 instalado `Node.js (LTS)` con la versión 14.0.0 o superior. Para verificar
 la versión de node ejecuta `node -v` en la terminal. Si el comando no te
@@ -357,12 +382,14 @@ desde su [sitio oficial](https://nodejs.org/).
   - [ ] Tiene un `<footer>`
   - [ ] Tiene un `<main>` con `<h2>`
   - [ ] Todas las etiquetas de controles (inputs, selects, radio, etc) tienen `<label>`
+  - [ ] Todas las etiquetas `<label>` usan el atributo `for`
   - [ ] `<ul>` esta usado para dibujar la data
   - [ ] Los hijos de `<li>` usan attributos de [microdata](https://recursivos.com/html/microdatos/)
   `itemscope` e `itemprop`
 
-Nota: ten en cuenta que para poder testear el HTML de `<ul>` y `<li>` en tu proyecto,
-es necesario que ya tengas una data creada, ya que a partir de la data se
+Nota: Ten en cuenta que para poder testear el HTML de `<ul>`
+y `<li>` en tu proyecto es necesario que ya tengas una data
+creada, ya que a partir de la data se
 crearán estos elementos.
 
 #### CSS
@@ -371,30 +398,35 @@ crearán estos elementos.
 
   - [ ] Uso de selector class para los items `<li>`
   - [ ] Uso de flexbox en sentido `row` y `column`
-  - [ ] Uso de flexbox para el elemento que contiene los items
+  - [ ] Uso de flexbox para el elemento que contiene los items `<li>`
   - [ ] Uso de flexbox para el elemento que contiene los UI inputs
+
+* **Modelo de caja (box model): borde, margen, padding**
+
+  - [ ] Uso de atributos de modelo de caja para los items `<li>`
+  - [ ] Uso de atributos de modelo de caja para `<header>` o `<footer>`
 
 #### Web APIs
 
 * **Uso de selectores del DOM**
 
-  - [ ] La aplicación usa [`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
-    para buscar los elementos del DOM
-  
+  - [ ] Uso de [`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+    para seleccionar elementos del DOM.
+
 * **Manejo de eventos del DOM (listeners, propagación, delegación)**
 
-  - [ ] `addEventListener` con callback que tiene parámetro de `event`,
+  - [ ] Uso de `addEventListener` con callback que tiene parámetro de `event`,
     lo que permite el uso del objeto [`event`](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_objects)
-    con `event.target` o `event.currentTarget`
+    con `event.target` o `event.currentTarget`.
   - [ ] La aplicación registra [Event Listeners](https://developer.mozilla.org/en/docs/Web/API/EventTarget/addEventListener)
     para escuchar `click`, `change`, `keyup` dependiendo del evento que
-    se quiere escuchar
+    se quiere escuchar.
 
 * **Manipulación dinámica del DOM**
 
   - [ ] La aplicación actualiza el atributo [`innerHTML`](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML).
-  - [ ] La aplicación usa `createElement` y `appendChild`, o template strings
-    para crear elementos
+  - [ ] Uso de `createElement` y `appendChild`, o template strings
+    para crear elementos.
 
 #### JavaScript
 
@@ -657,7 +689,7 @@ Tus _pruebas unitarias_ deben dar una cobertura del 70% de _statements_
 (_ramas_) del archivo `src/dataFunctions.js` que contenga tus funciones y
 está detallado en la sección de [Consideraciones técnicas](#src/data.js).
 
-## 7. Hacker edition
+## 8. Hacker edition
 
 Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
 con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
@@ -672,7 +704,7 @@ Features/características extra sugeridas:
   o [Google Charts](https://developers.google.com/chart/).
 * 100% Coverage
 
-## 8. Objetivos de aprendizaje
+## 9. Objetivos de aprendizaje
 
 > ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
@@ -682,7 +714,7 @@ Features/características extra sugeridas:
 > Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
 > que contempla nuestra currícula.
 
-## 9. Pistas, tips y lecturas complementarias
+## 10. Pistas, tips y lecturas complementarias
 
 ### Primeros pasos
 
@@ -771,33 +803,40 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
   Aceptación_ y nosotros sí lo haremos. Más detalles en la guía.
 * [Cómo dividir H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
 
-## 10. Consideraciones para pedir tu Project Feedback
+## 11. Consideraciones para pedir tu Project Feedback
 
-Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
+Antes de agendar tu Project Feedback con un coach:
 
-* [ ] Cumple con todos los criterios mínimos de aceptación al ejecutar `npm run test:oas`
-* [ ] Cumple con todas las pruebas _end to end_ al ejecutar `npm run test:e2e`
-* [ ] Cumple con todas las pruebas unitarias al ejecutar `npm run test` y
+* Cumple con los criterios mínimos de aceptación al ejecutar `npm run test:oas`
+* Cumple con las pruebas unitarias al ejecutar `npm run test` y
   que tienen una cobertura del 70% de _statements_ (_sentencias_),
   _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
-* [ ] Esta libre de _errores_ de `eslint` al ejecutar `npm run pretest`
-* [ ] Está subido a GitHub y desplegado en GitHub Pages
-* [ ] Captura de pantalla del prompt utilizado para generar los datos.
-* Tiene un `README.md` con la siguente:
-  - [ ] _Definición del producto_ clara e informativa
-  - [ ] Historias de usuario
-  - [ ] Un _Diseño de la Interfaz de Usuaria_ (prototipo de alta fidelidad)
-  - [ ] El listado de problemas que detectaste a través de tests
+* Cumple con las pruebas _end to end_ al ejecutar `npm run test:e2e`
+
+No es necesario que todas las pruebas
+pasen con 100% para poder tener tu Project Feedback.
+El objetivo de los tests no es bloquearte, pero es importante que comprendas
+qué objetivos tienes pendientes y discutas con tu coach si alguno
+de ellos es crucial para lograrlo antes de tu Project Feedback.
+
+A continuación, antes de tu Project Feedback con un coach asegúrate que
+tu proyecto:
+
+* Esta libre de _errores_ de `eslint` al ejecutar `npm run pretest`
+* Está subido a GitHub y desplegado en GitHub Pages
+* Captura de pantalla del prompt utilizado para generar los datos.
+* Tiene un `README.md` con la siguiente:
+  - _Definición del producto_ clara e informativa
+  - Historias de usuario
+  - Un _Diseño de la Interfaz de Usuaria_ (prototipo de alta fidelidad)
+  - El listado de problemas que detectaste a través de tests
     de usabilidad en el `README.md`
 * Tiene un UI que cumple las funcionalidades:
-  - [ ] Muestra lista con datos y/o indicadores
-  - [ ] Permite ordenar data por uno o más campos (asc y desc)
-  - [ ] Permite filtrar data con base en una condición
-  - [ ] Permite limpiar los filtros con un botón
-  - [ ] Es _responsive_
+  - Muestra lista con datos y/o indicadores
+  - Permite ordenar data por uno o más campos (asc y desc)
+  - Permite filtrar data con base en una condición
+  - Permite limpiar los filtros con un botón
+  - Es _responsive_
 
 Recuerda que debes hacer una autoevaluación de _objetivos de aprendizaje_ y
 _life skills_ desde tu dashboard de estudiante.
-
-Si no has completado todo lo anterior, no consideramos que estás lista para
-tu sesión de Project Feedback.

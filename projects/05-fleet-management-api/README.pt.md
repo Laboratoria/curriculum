@@ -142,8 +142,8 @@ todas as localizações de um táxi dado o id do táxi e uma data.
 
 ##### Critérios de aceitação
 
-* O _endpoint_ responde para o id do táxi consultado as seguintes informações:
-latitude, longitude e data e hora.
+* O _endpoint_ responde para o id do táxi e uma data consultado as
+  seguintes informações: latitude, longitude e timestamp (data e hora).
 * O _endpoint_ paginamos os resultados para garantir que as respostas sejam
 mais fáceis de manejar.
 
@@ -169,7 +169,7 @@ Eu, como cliente da API REST, necessito de um _endpoint_ para consultar a
 ##### Critérios de aceitação
 
 * O _endpoint_ responde para cada táxi as seguintes informações: id, placa,
-latitude, longitude e data e hora.
+latitude, longitude e timestamp (data e hora).
 * O _endpoint_ paginamos os resultados para garantir que as respostas sejam
 mais fáceis de manejar.
 
@@ -189,10 +189,11 @@ url, parâmetros,
 
 ## 6. Tecnologias Utilizadas
 
-Você pode implementar este projeto em JavaScript ou Java.
+Você pode implementar este projeto em JavaScript, Python, ou Java.
 
-* [Java](./docs/README-java.md#stack-de-tecnologías)
-* [NodeJs](./docs/README-node.md#stack-de-tecnologías)
+* [NodeJs](./docs/stack-node.md)
+* [Python](./docs/stack-python.md)
+* [Java](./docs/stack-java.md)
 
 ## 7. Dicas, sugestões e leituras complementares
 
@@ -232,4 +233,4 @@ valor `application/json`.
 ## 8. Funcionalidades Opcionais
 
 Se você completou todas as funcionalidades do projeto, convidamos você a
-trabalhar nas [funcionalidades opcionais](./docs/README.extension.md)
+trabalhar nas [funcionalidades opcionais](./docs/extension.md)
