@@ -39,5 +39,5 @@ variants:
       - python
       - django      
       # Además se pueden "apagar" OAs "default" seteando el OA a "false"
-        - sql: false
-        - db: false
+      - sql: false
+      - db: false
