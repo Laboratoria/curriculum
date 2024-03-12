@@ -1,10 +1,43 @@
 track: web-dev
 learningObjectives:
-  - java
-  - python
-  - object-oriented-programming
-  - node
   - sql
   - db
   - postgres/data-types
   - postgres/indexes
+
+# permite mayor control de la informacion en seleccion de proyecto
+# se pretende tener una semantica predefinida q controle el comportamiento
+# de la interfaz.
+# por ahora estos son los unicos valores permitidos
+tags:
+  - featured
+  - beta
+  - deprecated
+  - hidden
+
+# para proyectos que tienen diferentes implementaciones (aka rutas)
+variants:
+  - name: java
+    learningObjectives:
+      - java
+      - object-oriented-programming
+  - name: node
+    learningObjectives:
+      - node
+      # Cualquier OA puede expresarse como objeto, por ejemplo para flaggear
+      # como "opcional".
+      # por ahora es la unica propiedad soportada.
+      - object-oriented-programming:
+          optional: true
+  - name: python
+    learningObjectives:
+      - python
+      - object-oriented-programming:
+          optional: true
+  - name: python-django
+    learningObjectives:
+      - python
+      - django      
+      # Además se pueden "apagar" OAs "default" seteando el OA a "false"
+      - sql: false
+      - db: false
