@@ -32,5 +32,9 @@ learningObjectives:
   - csharp/namespaces
   - csharp/functions
   - csharp/testing
+  - scm/git
+  - scm/github/setup
+  - scm/github/gh-pages
+  - scm/github/collaboration
 
 
