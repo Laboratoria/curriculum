@@ -267,3 +267,10 @@ como se espera. Puedes usar el framework JUnit para escribir tus pruebas.
 Recuerda que este proyecto está diseñado para que apliques tu conocimiento
 previo en JavaScript, "traduciéndolo" a Java, y aprendas el paradigma de
 programación orientada a objetos en el proceso.
+
+## 6. Pistas / Tips
+
+Consulta los [FAQ](./FAQ-java.md)
+Súmate al canal de Slack
+[#project-guess-the-number](https://claseslaboratoria.slack.com/archives/C067E8ZT9CY)
+para conversar y pedir ayuda del proyecto.

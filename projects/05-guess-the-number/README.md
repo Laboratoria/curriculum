@@ -46,6 +46,7 @@ aleatorio entre 1 y 100. Deben tener en cuenta la tentativa anterior, si fue
 
 - [Versión en Python](./docs/README-python.md)
 - [Versión en Java](./docs/README-java.md)
+- [Versión en C#](./docs/README-csharp.md)
 
 ## 3. Objetivos de Aprendizaje
 

@@ -48,6 +48,7 @@ jogo](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/
 
 - [Versão em Python](./docs/README-python.md)
 - [Versão em Java](./docs/README-java.md)
+- [Versão em C#](./docs/README-csharp.md)
 
 ## 3. Objetivos de Aprendizagem
 
