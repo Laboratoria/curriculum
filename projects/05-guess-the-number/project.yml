@@ -21,4 +21,16 @@ learningObjectives:
   - python/testing
   - python/modularization/modules
   - python/dependency-management
+  - csharp/data-types/primitives
+  - csharp/data-types/non-primitives
+  - csharp/collections
+  - csharp/variables
+  - csharp/conditionals
+  - csharp/loops
+  - csharp/operators
+  - csharp/access-modifiers
+  - csharp/namespaces
+  - csharp/functions
+  - csharp/testing
+
 

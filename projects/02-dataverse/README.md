@@ -7,11 +7,12 @@
 * [3. Consideraciones generales](#3-consideraciones-generales)
 * [4. Funcionalidades](#4-funcionalidades)
 * [5. Consideraciones técnicas](#5-consideraciones-técnicas)
-* [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
-* [7. Hacker edition](#7-hacker-edition)
-* [8. Objetivos de aprendizaje](#8-objetivos-de-aprendizaje)
-* [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
-* [10. Consideraciones para pedir tu Project Feedback](#10-consideraciones-para-pedir-tu-project-feedback)
+* [6. Hitos](#6-hitos)
+* [7. Criterios de aceptación mínimos del proyecto](#7-criterios-de-aceptación-mínimos-del-proyecto)
+* [8. Hacker edition](#8-hacker-edition)
+* [9. Objetivos de aprendizaje](#9-objetivos-de-aprendizaje)
+* [10. Pistas, tips y lecturas complementarias](#10-pistas-tips-y-lecturas-complementarias)
+* [11. Consideraciones para pedir tu Project Feedback](#11-consideraciones-para-pedir-tu-project-feedback)
 
 ***
 
@@ -199,7 +200,7 @@ La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6), HTML y CSS. En este proyecto NO está permitido usar librerías o
 frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e),
 con la excepción de librerías para hacer gráficas (charts); ver
-[_Parte opcional_](#7-hacker-edition) más arriba.
+[_Parte opcional_](#8-hacker-edition) más arriba.
 
 El _boilerplate_ contiene una estructura de archivos como punto de partida así
 como toda la configuración de dependencias:
@@ -322,7 +323,24 @@ tiene una responsabilidad específica. La responsabilidad de los funciones en
 Esta no es la única forma de dividir tu código, puedes usar más archivos y
 carpetas, siempre y cuando la estructura sea clara para tus compañeras.
 
-## 6. Criterios de aceptación mínimos del proyecto
+## 6. Hitos
+
+Para abordar eficazmente un problema, resulta crucial adquirir una comprensión
+profunda del mismo. Una estrategia efectiva consiste en desglosarlo en problemas
+más pequeños, lo cual facilitará la identificación de las causas subyacentes y la
+formulación de soluciones más eficientes.
+
+En el contexto de este proyecto, recomendamos adoptar un enfoque por hitos.
+Esta metodología te posibilitará concentrarte en un problema a la vez y
+monitorizar tu avance. A continuación, te proporcionamos un calendario de hitos
+que te servirá para estructurar tu trabajo.
+
+* [Hito 1](./docs/01-milestone.md)
+* [Hito 2](./docs/02-milestone.md)
+* [Hito 3](./docs/03-milestone.md)
+* [Hito 4](./docs/04-milestone.md)
+
+## 7. Criterios de aceptación mínimos del proyecto
 
 ### Criterios de código
 
@@ -671,7 +689,7 @@ Tus _pruebas unitarias_ deben dar una cobertura del 70% de _statements_
 (_ramas_) del archivo `src/dataFunctions.js` que contenga tus funciones y
 está detallado en la sección de [Consideraciones técnicas](#src/data.js).
 
-## 7. Hacker edition
+## 8. Hacker edition
 
 Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
 con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
@@ -686,7 +704,7 @@ Features/características extra sugeridas:
   o [Google Charts](https://developers.google.com/chart/).
 * 100% Coverage
 
-## 8. Objetivos de aprendizaje
+## 9. Objetivos de aprendizaje
 
 > ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
@@ -696,7 +714,7 @@ Features/características extra sugeridas:
 > Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
 > que contempla nuestra currícula.
 
-## 9. Pistas, tips y lecturas complementarias
+## 10. Pistas, tips y lecturas complementarias
 
 ### Primeros pasos
 
@@ -785,7 +803,7 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
   Aceptación_ y nosotros sí lo haremos. Más detalles en la guía.
 * [Cómo dividir H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
 
-## 10. Consideraciones para pedir tu Project Feedback
+## 11. Consideraciones para pedir tu Project Feedback
 
 Antes de agendar tu Project Feedback con un coach:
 

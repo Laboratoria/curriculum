@@ -1,6 +1,6 @@
 {
   "name": "curriculum",
-  "version": "8.3.0",
+  "version": "8.4.0",
   "description": "Proyectos y tópicos del curriculum del Bootcamp de @Laboratoria",
   "repository": "Laboratoria/curriculum",
   "keywords": [
@@ -32,12 +32,12 @@
     "preview": "vite preview",
     "test": "vitest run ./src/components/**/*.spec.jsx",
     "link-parser": "rm -rf node_modules/@laboratoria/curriculum-parser && ln -s ../../../curriculum-parser node_modules/@laboratoria/",
-    "link-react": "rm -rf node_modules/@laboratoria/react && ln -s ../../../react node_modules/@laboratoria/"
+    "link-react": "rm -rf node_modules/@laboratoria/sdk-react && ln -s ../../../sdk-react node_modules/@laboratoria/"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
-    "@laboratoria/react": "8.0.0",
+    "@laboratoria/sdk-react": "9.0.2",
     "@mui/icons-material": "^5.15.10",
     "@mui/material": "^5.15.10",
     "@mui/styles": "^5.15.10",
