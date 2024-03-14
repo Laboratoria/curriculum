@@ -10,5 +10,5 @@ learningObjectives:
   - postgres/indexes
   - scm/git
   - scm/github/setup
-  - scm/github/gh-pages
   - scm/github/collaboration
+  - scm/github/project-management
