@@ -67,7 +67,8 @@ de Microsoft.
 
 Deberás entonces desarrollar una Interfaz de Línea de Comando (CLI) que
 cargue la información de los archivos de texto a la base
-de datos. Sin embargo, ten en cuenta que en este proyecto procesarás más de 10 mil
+de datos. Sin embargo, ten en cuenta que en este proyecto
+procesarás más de 10 mil
 archivos y tendras una base de datos con conexiones limitadas. Discute con
 una coach que estrategias puedes implementar para que ni computadora ni la
 base de datos mueran en el intento de cargar la información.
