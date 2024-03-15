@@ -6,15 +6,10 @@ learningObjectives:
   - node
   - sql
   - db
+  - csharp
   - postgres/data-types
-  - csharp/data-types/non-primitives
-  - csharp/collections
-  - csharp/access-modifiers
-  - csharp/namespaces
-  - csharp/functions
-  - csharp/error-handling
-  - csharp/async-await
-  - csharp/.net-core
-  - csharp/nuget-packages
-  - csharp/testing
-  - csharp/entity-framework
+  - postgres/indexes
+  - scm/git
+  - scm/github/setup
+  - scm/github/collaboration
+  - scm/github/project-management
