@@ -78,8 +78,7 @@ proyectos anteriores.
 
 - La aplicación debe ser responsive.
 
-- Para poder usar la [La API](https://developer.themoviedb.org/docs/getting-started)
-V3 [de la Base de Datos de Películas](https://developer.themoviedb.org/docs/getting-started)
+- Para poder usar la [La API V3 de la Base de Datos de Películas]](https://developer.themoviedb.org/docs/getting-started)
 deberás crear una llave(key) de acceso agregarla a cada petición que hagas al
 servidor
 
