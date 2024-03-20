@@ -285,6 +285,6 @@ puede ayudarte a construir tu SPA en `main.js` de tu proyecto.
 
 Si puedes tomarte el tiempo y quieres profundizar en las rutas y en la
 construcción de una SPA mas robusta, como `Hacker Edition`, puedes inplementar
-[Router con JavaScript puro](https://github.com/Laboratoria/curriculum/blob/main/guides/router-spa/README.pt.md)
+[Router con JavaScript puro](https://github.com/Laboratoria/curriculum/blob/main/guides/router-spa/README.md)
 
 Trata de divertirte. ¡a empezar esta aventura 🎬!
