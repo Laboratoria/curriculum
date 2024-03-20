@@ -161,7 +161,7 @@ momento.
 
 ---
 
-#### [Historia de Usuario 1] Lista de Películas**
+#### [Historia de Usuario 1] Lista de Películas
 
 Yo como ususario, quiero ver un catálogo de películas en una tabla (líneas y
 columnas).
