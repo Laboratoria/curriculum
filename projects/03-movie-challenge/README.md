@@ -224,7 +224,7 @@ opciones:
 aplicación web estática (HTML, CSS, JavaScript) y también permite implementar
 aplicaciones web que se ejecutan en el servidor (Node.js).
 - [Netlify](https://www.netlify.com/) es similar a Vercel, siendo una plataforma
-que permite implementar nuestra aplicación web estática (HTML, CSS y JavaScritp)
+que permite implementar nuestra aplicación web estática (HTML, CSS y JavaScript)
 y también permite implementar aplicaciones web que se ejecutan en el servidos
 (Node.js).
 
