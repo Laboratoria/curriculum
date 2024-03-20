@@ -126,7 +126,7 @@ Aquí es donde recomendamos implementar su SPA.
 Esta no es la única manera de dividir tu código. Puede utilizar más archivos y
 carpetas, siempre que la estructura esté clara.
 
-### `scr/components/App.js`
+### `src/components/App.js`
 
 Este archivo contiene un componente ejemplo que muestra cómo podemos representar
 un componente en función que devuelve un `HTMLElement`. A la hora de construir
