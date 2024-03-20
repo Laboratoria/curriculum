@@ -267,7 +267,7 @@ como [Postam](https://www.postman.com/) o [REST Client](https://marketplace.visu
 Identificando encabezados(header), cuerpo(body), verbos, códigos de respuesta y
 códigos de solicitudes.
 
-#### Planear la implemantación de la primera Historia de Usuario
+#### Planear la implementación de la primera Historia de Usuario
 
 Toma la primera historia de usuario y dividela en tareas más pequeñas,
 identificando el orden y prioridades de cada tarea. Documenta tu planificación
