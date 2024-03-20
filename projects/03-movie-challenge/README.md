@@ -121,7 +121,7 @@ _boilerplate_  incluye este archivo para conectar o montar el componente `App`
 en el DOM. De esta manera podemos hacer test unitarios de nuestros componentes
 que necesitemos que están conectados a una DOM global.
 
-Aquí es donde recomendamos implementar su SPA.
+Aquí es donde recomendamos implementar su SPA (Single Page Application).
 
 Esta no es la única manera de dividir tu código. Puede utilizar más archivos y
 carpetas, siempre que la estructura esté clara.
