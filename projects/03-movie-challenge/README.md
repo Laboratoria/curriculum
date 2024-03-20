@@ -26,7 +26,7 @@ En tiempos en los que una de las principales herramientas para combatir
 [la pandemia de Covid-19](https://es.wikipedia.org/wiki/COVID-19) es
 [evitar](https://es.wikipedia.org/wiki/Distanciamiento_social) compartir
 espacios con muchas personas (como en el cine), ver películas por _streaming_
-será una de las pocas maneras de hacerlo (¿o la única?).
+es una de las pocas maneras de hacerlo (¿o la única?).
 
 Creemos que hay una gran oportunidad de proponer productos/experiencias
 innovadoras de todo tipo utilizando datos de películas (directorxs, actorxs,
@@ -63,28 +63,27 @@ partir
 
 ## 4. Consideraciones generales
 
- Este proyecto se debe resolver individual
- .
- El plazo estimado para completar el proyecto es de 4 Sprints.
- Las pruebas unitarias deben cubrir al menos el 90% statements, functions, lines
- e branches.
- Además, debe definir la estructura de carpeta y los archivos que considera que
- es necesario. Por lo tanto, las pruebas y la configuración requeridas para
- ejecutarlos será su responsabilidad, para hacerlo puedes basarte en los
- proyectos anteriores.
+- Este proyecto se debe resolver individual.
+- El plazo estimado para completar el proyecto es de 4 Sprints.
+- Las pruebas unitarias deben cubrir al menos el 90% statements, functions,
+lines y branches.
+- Además, debes definir la estructura de carpeta y los archivos que considera
+que sean necesario. Por lo tanto, las pruebas y la configuración requeridas
+para ejecutarlos será su responsabilidad, para hacerlo puedes basarte en los
+proyectos anteriores.
 
 ## 5. Consideraciones técnicas
 
 - La aplicación debe ser una aplicación de una sola página.
 
-- La aplicación no necesita ser sensible.
+- La aplicación debe ser responsive.
 
 - Para poder usar la [La API](https://developer.themoviedb.org/docs/getting-started)
 V3 [de la Base de Datos de Películas](https://developer.themoviedb.org/docs/getting-started)
 deberás crear una llave(key) de acceso agregarla a cada petición que hagas al
 servidor
 
-- Recuerda que tienes un máximo de 1.000 peticiones diarias a la API de la OMDB
+- Recuerda que tienes un máximo de 1.000 peticiones diarias a la API
 por cada [IP](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP), creemos que es
 suficiente, pero te recomendamos hacer un uso responsable de este recurso
 gratuito.
@@ -113,15 +112,15 @@ como toda la configuración de dependencias:
 ### `src/index.html`
 
 Como en el proyecto anterior, hay un archivo `index.html` . Como ya sabes, aquí
-ingresa la página que se mostrará al usuario. También sirve para indicar qué los
-guiones se utilizarán y armarán todo lo que se ha hecho.
+ingresa la página que se mostrará al usuario. También sirve para indicar cuales
+son los scripts se utilizarán y armarán todo lo que se ha hecho.
 
 ### `src/main.js`
 
 Recomendamos usar `src/main.js`, como punto de entrada de tu aplicación. El
 _boilerplate_  incluye este archivo para conectar o montar el componente `App`
-en el DOM. De esta manera podemos hacer pruebas de unidad de nuestro componentes
-necesitados que están conectados a una DOM global.
+en el DOM. De esta manera podemos hacer test unitarios de nuestros componentes
+que necesitemos que están conectados a una DOM global.
 
 Aquí es donde recomendamos implementar su SPA.
 
@@ -131,11 +130,11 @@ carpetas, siempre que la estructura esté clara.
 ### `scr/components/App.js`
 
 Este archivo contiene un componente ejemplo que muestra cómo podemos representar
-un componente en función que devuelve un `HTMLElement`. . . En tiempo para
-construir interfaces, es útil pensar en los términos de los _componentes_ o
-vistas que podemos anidar una dentro de las otras. Te invitamos a piense en qué
-_componentes_ o caixinhascajas se necesitan para construir su aplicación y que
-añade _componentes_ en la dirección `components` a aplicar a cada uno de ellos.
+un componente en función que devuelve un `HTMLElement`. A la hora de construir
+interfaces, es útil pensar en los términos de los _componentes_ o vistas que
+podemos anidar una dentro de las otras. Te invitamos a  que pienses
+en qué _componentes_ o cajita se necesitas para construir tu aplicación y que
+_componentes_ añade en la dirección `components` a aplicar a cada uno de ellos.
 Aunque de nuevo al final, la manera de organizar sus archivos depende de de ti y
 tu equipo. Hay muchas maneras de hacerlo, y el _boilerplate_ es sólo una
 sugerencia".
@@ -143,35 +142,83 @@ sugerencia".
 ### `scr/components/App.spec.js`
 
 Este archivo muestra cómo podemos crear archivos con especificaciones (expresado
-como pruebas de unidad) de nuestros componentes.
+como test unitarios) de nuestros componentes.
 
 ## 6. Criterios mínimos de aceptación del proyecto
 
-Prototipo de baja fidelidad
+### Prototipo de baja fidelidad
 
 El [Product Owner](https://www.youtube.com/watch?v=r2hU7MVIzxs&t=202s) nos
 proporciona una primera iteración del prototipo de baja fidelidad de la
 aplicación en esta [imagen](https://github.com/Laboratoria/SAP012-movie-challenge/blob/main/docs/movie-detail.png)
 y en [este](https://github.com/Laboratoria/SAP012-movie-challenge/blob/main/docs/movie-list.png)
-a otro.
-Definición del producto
-El ssl cuál . . . El , . . . . El Producto Producto Propietario te presenta con
-nosotros este retraso que es el resultado de su trabajo con el cliente hasta el
+otro.
+
+### Definición del producto
+
+El [Product Owner](https://www.youtube.com/watch?v=r2hU7MVIzxs&t=202s) nos
+resenta este _backlog_ que es el resultado de su trabajo con el cliente hasta el
 momento.
 
-- Utilizar la API de OMDB mediante _Fetch_ para obtener y mostrar una interfaz
-  basada en los datos de cada respuesta.
-- Lo que sea que decidas hacer, deberás seleccionar aleatoriamente datos y
-  mostrarlos en alguna de las características de tu proyecto. Para esto
-  generalmente se usa el método `random` del objeto `Math` en JavaScript.
-- Tu solución debe ser _responsive_. Debe adaptarse a pantallas de escritorio,
-  tabletas y teléfonos.
-- Debes desplegar tu aplicación usando [GitHub Pages](https://pages.github.com/)
+---
+
+#### [Historia de Usuario 1] Lista de Películas**
+
+Yo como ususario, quiero ver un catálogo de películas en una tabla (líneas y
+columnas).
+
+##### Criterios de apectación
+
+- El endpoint debe ser utilizado [/discover/movie.](https://developer.themoviedb.org/reference/discover-movie)
+- La aplicación debe incluir la paginación para explorar el catálogo por páginas
+- Cada película debe mostrar al menos : póster, título original y año de estreno
+
+##### Definición de terminado
+
+- Los componentes desarrollados deben tener pruebas unitarias
+
+---
+
+#### [Historia de Usuario 2] Detalles de película
+
+Yo, como usuario, quiere consultar detalles de las películas
+
+##### Criterios de aceptación
+
+- El endpoint debe ser utilizado [/movie/{movie_id}](https://developer.themoviedb.org/reference/movie-details).
+- Cada película debe mostrar al menos : póster, título original, año de
+lanzamiento, género, votación media, votos totales.
+- La interfaz debe permitir volver a la lista de películas manteniendo el filtro
+y la orden.
+
+##### Definición de terminado
+
+- Los componentes desarrollados deben tener pruebas unitarias
+
+---
+
+#### [Historia de Usuario 3 - Hacker Edition] Filtrar y Ordenar**
+
+Yo, como usuario, quiero filtrar y ordenar el catálogo de la película usando los
+críterios compatibles con Themovie Database API V3.
+
+##### Criterios de aceptación
+
+- Para filtrar, se debe utilizar el endpoint [/discover/movie](https://developer.themoviedb.org/reference/discover-movie),
+y uno o más parámetros, como por ejemeplo with_genres.
+- Para ordenar, debes utilizar el enpoint [/discover/movie](https://developer.themoviedb.org/reference/discover-movie),
+y uno o más parámetros, como por ejemplo sort_by
+- La página debe mantener el filtro y el ordenamiento.
+- Cada película debe mostrar al menos: póster, título original y año de estreno.
+
+##### Definición de terminado
+
+- Los componentes desarrollados deben tener pruebas unitarias
 
 ## 7. Deploy
 
 Puede elegir el proveedor (o proveedores) que prefiera, junto con el mecanismo
-de despliegue y la estrategia de hospedía. Recomendamos explorar las siguientes
+de deploy y la estrategia de hospedía. Recomendamos explorar las siguientes
 opciones:
 
 - [Vercel](https://vercel.com/) es una plataforma que permite desplegar nuestra
@@ -200,30 +247,32 @@ tu sesión de Project Feedback.
 
 ## 9. Consejos, guías y lecturas complementarias
 
-Propotito de alta fidelidad
+### Propotito de alta fidelidad
 
 Basandote en el prototipo de baja fidelidad proporcionado, deberás crear un
 prototipo de alta fidelidad en Figma. Agrega paleta de colores y un diseño
 gráfico. Intenta terminar en 1 o 2 días como máximo.
 
-### Explorar y consumir la API de la base de datos de películas
+#### Explorar y consumir la API de la base de datos de películas
 
 Explora la [documentación](https://developer.themoviedb.org/docs) de la API de
-la base de datos de la Película. Comienza leyendo la sección [Empezar](https://developer.themoviedb.org/docs/getting-started),
-despues continúa [Aplicación](https://developer.themoviedb.org/docs/authentication-application)
-y finalmente las referencias de los endpoints [/Descubriendo/películas](https://developer.themoviedb.org/reference/discover-movie)
-....[/película/"movie-id](https://developer.themoviedb.org/reference/movie-details)
+la base de datos de la Película. Comienza leyendo la sección [Getting Started](https://developer.themoviedb.org/docs/getting-started),
+despues continúa [AUTHENTICATION --> Application](https://developer.themoviedb.org/docs/authentication-application)
+y finalmente las referencias de los endpoints [/discover/movie](https://developer.themoviedb.org/reference/discover-movie)
+y [/movie/{movie_id}](https://developer.themoviedb.org/reference/movie-details)
 
-Deberás crear una cuenta y generar una clave(key) de acceso para consumir la API.
+Deberás crear una cuenta y generar una clave(key) de acceso para consumir la API
 
 Por último, puedes probar hacer peticiones HTTP a la API utilizando herramientas
-como [Postam](https://www.postman.com/) o [Rest Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
+como [Postam](https://www.postman.com/) o [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+Identificando encabezados(header), cuerpo(body), verbos, códigos de respuesta y
+códigos de solicitudes.
 
 #### Planear la implemantación de la primera Historia de Usuario
 
 Toma la primera historia de usuario y dividela en tareas más pequeñas,
 identificando el orden y prioridades de cada tarea. Documenta tu planificación
-en Trello o Project en Github.
+en Trello o Github Project.
 
 #### Entendiendo los conceptos de SPA (Single Page Aplication) y Router
 
@@ -232,8 +281,8 @@ single page aplication(SPA) y enrutado de páginas. Esto te permitirá crear una
 experiencia de usuario fluida y dinámica. Investiga las mejores prácticas y
 herramientas disponibles para implementar una SPA en tu proyecto.
 
-Recomendamos hacer una SPA más simple usando `hashchange` ...Este [video](https://youtu.be/hf8x3A1e57Y)
-puede ayudarte a construir tu SPA en `main.js`.
+Recomendamos hacer una SPA más simple usando `hashchange` . Este [video](https://youtu.be/hf8x3A1e57Y)
+puede ayudarte a construir tu SPA en `main.js` de tu proyecto.
 
 Si puedes tomarte el tiempo y quieres profundizar en las rutas y en la
 construcción de una SPA mas robusta, como `Hacker Edition`, puedes inplementar
