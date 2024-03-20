@@ -150,7 +150,7 @@ como test unitarios) de nuestros componentes.
 El [Product Owner](https://www.youtube.com/watch?v=r2hU7MVIzxs&t=202s) nos
 proporciona una primera iteración del prototipo de baja fidelidad de la
 aplicación en esta [imagen de pagina de detalle](https://github.com/Laboratoria/SAP012-movie-challenge/blob/main/docs/movie-detail.png)
-y en [este](https://github.com/Laboratoria/SAP012-movie-challenge/blob/main/docs/movie-list.png)
+y en [este imagen de lista de peliculas](https://github.com/Laboratoria/SAP012-movie-challenge/blob/main/docs/movie-list.png)
 otro.
 
 ### Definición del producto
