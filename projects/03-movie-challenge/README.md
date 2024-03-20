@@ -168,7 +168,7 @@ columnas).
 
 ##### Criterios de apectación
 
-- El endpoint debe ser utilizado [/discover/movie.](https://developer.themoviedb.org/reference/discover-movie)
+- [El endpoint `/discover/movie`](https://developer.themoviedb.org/reference/discover-movie) debe ser utilizado.
 - La aplicación debe incluir la paginación para explorar el catálogo por páginas
 - Cada película debe mostrar al menos : póster, título original y año de estreno
 
