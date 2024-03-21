@@ -57,6 +57,23 @@ python upload-gps-data.py <path-to-files>
 
 Leia a explicação de [parâmetros para a CLI](#cli-parâmetros) abaixo.
 
+### C\#
+
+Certifique-se de [compilar](https://learn.microsoft.com/pt-br/dotnet/core/tools/dotnet-build)
+seu projeto para gerar um arquivo com a extensão `.dll`,
+o qual será necessário para executá-lo mediante o seguinte comando.
+
+```bash
+dotnet out/GPSUploader.dll <path-to-files>
+--type=taxis|trajectories
+--dbname=<dbname>
+--host=<hostname>
+--port=<port>
+--username=<username>
+```
+
+Leia a explicação de [parâmetros para a CLI](#cli-parâmetros) abaixo.
+
 ## CLI Parâmetros
 
 Onde os parâmetros esperados são:

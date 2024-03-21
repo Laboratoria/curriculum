@@ -6,5 +6,10 @@ learningObjectives:
   - node
   - sql
   - db
+  - csharp
   - postgres/data-types
   - postgres/indexes
+  - scm/git
+  - scm/github/setup
+  - scm/github/collaboration
+  - scm/github/project-management
