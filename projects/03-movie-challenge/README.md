@@ -65,8 +65,6 @@ partir
 
 - Este proyecto se debe resolver individual.
 - El plazo estimado para completar el proyecto es de 4 Sprints.
-- Las pruebas unitarias deben cubrir al menos el 90% statements, functions,
-lines y branches.
 - Además, debes definir la estructura de carpeta y los archivos que considera
 que sean necesario. Por lo tanto, las pruebas y la configuración requeridas
 para ejecutarlos será su responsabilidad, para hacerlo puedes basarte en los
@@ -76,9 +74,12 @@ proyectos anteriores.
 
 - La aplicación debe ser una aplicación de una sola página.
 
+- Las pruebas unitarias deben cubrir al menos el 90% statements, functions,
+lines y branches.
+
 - La aplicación debe ser responsive.
 
-- Para poder usar la [La API V3 de la Base de Datos de Películas]](https://developer.themoviedb.org/docs/getting-started)
+- Para poder usar la [La API V3 de la Base de Datos de Películas](https://developer.themoviedb.org/docs/getting-started)
 deberás crear una llave (key) de acceso agregarla a cada petición que hagas al
 servidor
 
@@ -168,7 +169,8 @@ columnas).
 
 ##### Criterios de apectación
 
-- [El endpoint `/discover/movie`](https://developer.themoviedb.org/reference/discover-movie) debe ser utilizado.
+- [El endpoint `/discover/movie`](https://developer.themoviedb.org/reference/discover-movie)
+debe ser utilizado.
 - La aplicación debe incluir la paginación para explorar el catálogo por páginas
 - Cada película debe mostrar al menos : póster, título original y año de estreno
 
@@ -196,7 +198,7 @@ y la orden.
 
 ---
 
-#### [Historia de Usuario 3 - Hacker Edition] Filtrar y Ordenar**
+#### [Historia de Usuario 3 - Hacker Edition] Filtrar y Ordenar
 
 Yo, como usuario, quiero filtrar y ordenar el catálogo de la película usando los
 críterios compatibles con Themovie Database API V3.
