@@ -49,6 +49,13 @@ dos seus potenciais usuários!
 
 ## 3. Objetivos de aprendizagem
 
+> ℹ️ Esta seção será automaticamente gerada no idioma apropriado, com base nos
+> objetivos de aprendizagem declarados em [`project.yml`](./project.yml),
+> ao criar o repositório do projeto para uma turma específica
+> usando [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
+> Aqui você pode conferir uma [lista de todos os objetivos de aprendizagem](../../learning-objectives/data.yml)
+> que contempla nossa grade curricular.
+
 ## 4. Considerações gerais
 
 - Este projeto deve ser resolvido individualmente.
