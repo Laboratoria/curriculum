@@ -2,9 +2,9 @@
   "slug": "guess-the-number",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-guess-the-number",
-  "version": "8.4.0",
+  "version": "8.5.0",
   "parserVersion": "5.3.0",
-  "createdAt": "2024-03-06T20:47:15.097Z",
+  "createdAt": "2024-03-21T20:11:34.482Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [
@@ -64,7 +64,13 @@
     "csharp/functions/lambda-functions",
     "csharp/functions/decorators",
     "csharp/testing/xunit",
-    "csharp/testing/mstest"
+    "csharp/testing/mstest",
+    "scm/git/setup",
+    "scm/git/intro",
+    "scm/git/integration",
+    "scm/github/setup",
+    "scm/github/collaboration",
+    "scm/github/project-management"
   ],
   "intl": {
     "es": {
