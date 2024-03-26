@@ -229,24 +229,16 @@ bajo o si ha acertado.
 ### Hito 5 - Agregando más jugadoras
 
 En este hito, incorporaras una nueva jugadora al
-juego utilizando las clases ya definidas, como
-`HumanPlayer` y `ComputerPlayer`.
+juego utilizando la clase ya definida `ComputerPlayer`.
 
-1. `makeGuess()` en `HumanPlayer`:
-Permite que la jugadora humana ingrese su suposición
-a través de la entrada estándar. Para lograrlo,
-puedes utilizar la clase Scanner para obtener la entrada del usuario.
-Además, asegúrate de almacenar cada suposición en el historial de
-suposiciones (`guesses`) de la jugadora.
-
-2. `makeGuess()` en `ComputerPlayer`:
+1. `makeGuess()` en `ComputerPlayer`:
 Permite que la computadora u oponente virtual
 realice una suposición aleatoria. Utiliza la clase
 Random para generar números aleatorios. Asegúrate de
 almacenar cada suposición en el historial de suposiciones
-(`guesses`) de la jugadora.
+(`guesses`) de la nueva jugadora.
 
-3. Actualización de la lógica del juego en `GuessTheNumberGame`:
+2. Actualización de la lógica del juego en `GuessTheNumberGame`:
 Es necesario actualizar la lógica del juego en la clase
 `GuessTheNumberGame` para que pueda interactuar con la nueva
 jugadora y ambas clases.
