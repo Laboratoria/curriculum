@@ -200,14 +200,18 @@ gestionarlo, importa
 Al trabajar con tipos de referencia, especialmente fuera de los tipos
 primitivos, es posible que necesites realizar importaciones adicionales.
 
-Ahora, en la misma clase `GuessTheNumberGame`, concéntrate en obtener
-el número ingresado por la jugadora. Para lograrlo, haz referencia
-e importa la clase
+Ahora, en la misma clase `GuessTheNumberGame`,
+concéntrate en obtener el número ingresado por la
+jugadora utilizando el método `makeGuess` de la propia
+clase `HumanPlayer`. Para lograrlo, haz referencia e
+importa la clase
 [java.util.Scanner](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html).
-A continuación, [compara](https://www.w3schools.com/java/java_conditions.asp) el
-número introducido por la jugadora con el número a adivinar, `targetNumber`.
-Utiliza el método `checkGuess` para evaluar el resultado y, en función del mismo,
-indica si el número es demasiado alto, demasiado bajo o si ha acertado.
+A continuación, compara el número introducido
+por la jugadora con el número a adivinar,
+`targetNumber`. Utiliza el método `checkGuess`
+para evaluar el resultado y, en función del mismo,
+indica si el número es demasiado alto, demasiado
+bajo o si ha acertado.
 
 🛠️ Recursos utiles:
 
