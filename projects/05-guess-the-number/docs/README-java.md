@@ -315,6 +315,7 @@ Es esencial asegurarse de proporcionar la información
 necesaria sobre la suposición anterior a la función
 `makeSmartGuess()`, de modo que la estrategia de suposición
 se base en datos históricos, mejorando así la inteligencia del juego.
+Para la implementación de este lógica adicional es posible que necesites agregar nuevos atributos o métodos que modifiquen el diagrama de clases inicial, no hay ningún problema en esto siempre y cuando mantengan la misma semántica
 
 ## 5. Recomendaciones
 
