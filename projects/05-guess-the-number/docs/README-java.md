@@ -151,7 +151,7 @@ diagrama. Puedes apoyarte en las siguientes preguntas para
 validar tu comprensión:
 
 - ¿Qué es una clase?
-- ¿Identificas las atributos y métodos más importantes de cada clase?
+- ¿Identificas las atributos y métodos cada clase?
 - ¿En base a las atributos y métodos, puedes indicar qué rol cumplirá cada clase?
 - ¿Qué clases se extienden/heredan de otras?
 - ¿Qué tipo de relación tiene la clase `Player` con `HumanPlayer`?
