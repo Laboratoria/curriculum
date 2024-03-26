@@ -155,7 +155,8 @@ validar tu comprensión:
 - ¿En base a las atributos y parámetros de cada método, puedes identificar los tipos de datos de cada uno ?
 - ¿Qué clases se extienden/heredan de otras?
 - ¿Qué tipo de relación tiene la clase `Player` con `HumanPlayer`?
-- ¿Identificas los diferentes símbolos de visibilidad de las
+- ¿Identificas los diferentes modificadores de acceso relacionados
+ a los símbolos de visibilidad de atributos y métodos?
 atributos y métodos en cada clase?
 
 > [!NOTE]
