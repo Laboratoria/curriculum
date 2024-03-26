@@ -152,7 +152,7 @@ validar tu comprensión:
 
 - ¿Qué es una clase?
 - ¿Identificas las atributos y métodos cada clase?
-- ¿En base a las atributos y métodos, puedes indicar qué rol cumplirá cada clase?
+- ¿En base a las atributos y parámetros de cada método, puedes identificar los tipos de datos de cada uno ?
 - ¿Qué clases se extienden/heredan de otras?
 - ¿Qué tipo de relación tiene la clase `Player` con `HumanPlayer`?
 - ¿Identificas los diferentes símbolos de visibilidad de las
