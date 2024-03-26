@@ -152,7 +152,8 @@ validar tu comprensión:
 
 - ¿Qué es una clase?
 - ¿Identificas las atributos y métodos cada clase?
-- ¿En base a las atributos y parámetros de cada método, puedes identificar los tipos de datos de cada uno ?
+- ¿En base a las atributos y parámetros de cada método,
+puedes identificar los tipos de datos de cada uno ?
 - ¿Qué tipo de relación tiene la clase `Player` con `HumanPlayer`?
 - ¿Identificas los diferentes modificadores de acceso relacionados
  a los símbolos de visibilidad de atributos y métodos?
@@ -314,7 +315,10 @@ Es esencial asegurarse de proporcionar la información
 necesaria sobre la suposición anterior a la función
 `makeSmartGuess()`, de modo que la estrategia de suposición
 se base en datos históricos, mejorando así la inteligencia del juego.
-Para la implementación de este lógica adicional es posible que necesites agregar nuevos atributos o métodos que modifiquen el diagrama de clases inicial, no hay ningún problema en esto siempre y cuando mantengan la misma semántica
+Para la implementación de este lógica adicional es posible
+que necesites agregar nuevos atributos o métodos que
+modifiquen el diagrama de clases inicial, no hay ningún
+problema en esto siempre y cuando mantengan la misma semántica
 
 ## 5. Recomendaciones
 
