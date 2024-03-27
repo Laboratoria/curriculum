@@ -59,10 +59,10 @@ código desde as primeiras etapas do desenvolvimento.
 
 > [!NOTE]
 > Em matemática, um superset é um conjunto que contém todos
-os elementos de outro conjunto. No caso do
-**TypeScript, é um superset do JavaScript**. Isso significa
-que tudo o que você pode fazer em JavaScript, também pode
-fazer em TypeScript.
+> os elementos de outro conjunto. No caso do
+> **TypeScript, é um superset do JavaScript**. Isso significa
+> que tudo o que você pode fazer em JavaScript, também pode
+> fazer em TypeScript.
 
 ### Diferenças chave com o JavaScript
 
@@ -150,9 +150,7 @@ relacionadas ao projeto TypeScript.
 
 ## Variáveis e tipos de dados
 
-### Declaração de variáveis com **let**
-
- e **const**
+### Declaração de variáveis com **let** e **const**
 
 Em TypeScript, a declaração de variáveis é feita
 com as palavras-chave **let** e **const**, que
@@ -331,10 +329,6 @@ Neste exemplo:
 - A interface **Pessoa** define a estrutura de
 um objeto que deve ter propriedades como **nome** e
 **idade**, e opcionalmente pode ter a propriedade **email**.
-- A interface **Pessoa** é usada para definir a forma do objeto **usuaria**.
-
-O uso de interfaces facilita a cria
-
 ção de código mais legível, sustentável e seguro, ao
 definir claramente a estrutura dos objetos em TypeScript.
 
