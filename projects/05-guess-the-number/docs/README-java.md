@@ -158,6 +158,14 @@ puedes identificar los tipos de datos de cada uno ?
 - ¿Identificas los diferentes modificadores de acceso relacionados
  a los símbolos de visibilidad de atributos y métodos?
 atributos y métodos en cada clase?
+- ¿Cómo se define y se utiliza un constructor en Java?
+- ¿Qué es el encapsulamiento y cómo lo
+aplicarías a las clases del diagrama?
+- Examina el diagrama UML, ¿puedes identificar
+y explicar los diferentes tipos de relaciones
+entre las clases (como composición,
+asociación, herencia, etc.)? y
+¿Cómo se representan estas relaciones en el código Java?
 
 > [!NOTE]
 > Es normal que, en este momento, puedas no sentirte
