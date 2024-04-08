@@ -108,21 +108,19 @@ ya que necesitarás plataformas de referencia. Aquí te damos algunas opciones
 pero podrás proponer otras dentro de las categorías definidas:
 
 - **Mercadeo:** Monitoreo de métricas relevantes para mercadeo.
-Algunos ejemplos:
-  - [Semrush](https://www.semrush.com/analytics/overview/?q=ebay.com&searchType=domain)
-  - [Unbounce](https://agencyanalytics.com/integrations/unbounce)
-  - [Mixpanel](https://mixpanel.com/blog/mixpanel-marketing-analytics/)
+Algunos ejemplos: [Semrush](https://www.semrush.com/analytics/overview/?q=ebay.com&searchType=domain),
+[Unbounce](https://agencyanalytics.com/integrations/unbounce),
+[Mixpanel](https://mixpanel.com/blog/mixpanel-marketing-analytics/)
 
 - **Deportes y salud:** Aplicaciones enfocadas en indicadores de actividad
-física y salud. Ejemplos:
-  - [Samsung health](https://play.google.com/store/apps/details?id=com.sec.android.app.shealth&hl=en&gl=US&pli=1)
-  - [Flo health](https://app.flo.health/?utm_source=google&utm_medium=cpc&utm_campaign=&utm_content=02c&utm_term=2&gad_source=1&gclid=CjwKCAjwzN-vBhAkEiwAYiO7oB8LmUS-VkVbbVAZ0UR_-eHsLz1cxzhIp-untRWmJlfxTVSEg_qyUxoCnOEQAvD_BwE)
-  - [Nike Training Club](https://www.nike.com/ntc-app)
+física y salud. Ejemplos: [Samsung health](https://play.google.com/store/apps/details?id=com.sec.android.app.shealth&hl=en&gl=US&pli=1),
+[Flo health](https://app.flo.health/?utm_source=google&utm_medium=cpc&utm_campaign=&utm_content=02c&utm_term=2&gad_source=1&gclid=CjwKCAjwzN-vBhAkEiwAYiO7oB8LmUS-VkVbbVAZ0UR_-eHsLz1cxzhIp-untRWmJlfxTVSEg_qyUxoCnOEQAvD_BwE),
+[Nike Training Club](https://www.nike.com/ntc-app)
 
-- **Finanzas:** Finanzas personales o aplicaciones bancarias modernas. Ejemplo:
-  - [Splitwise](https://www.splitwise.com/)
-  - [iSaveMoney](https://isavemoney.app/)
-  - [Nequi](https://www.nequi.com.co/)
+- **Finanzas:** Finanzas personales o aplicaciones bancarias modernas.
+Ejemplo: [Splitwise](https://www.splitwise.com/),
+[iSaveMoney](https://isavemoney.app/),
+[Nequi](https://www.nequi.com.co/)
 
 El proyecto está dividido en hitos, los cuales son como marcas de kilómetros en
 las carreteras, donde tú decides qué tan lejos quieres llegar. La decisión es
