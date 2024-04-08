@@ -2,7 +2,7 @@ import { assert } from 'chai';
 import Submission from '../solution/discount.js';
 
 
-describe('applyDiscount()', () => {
+describe('applyDiscount() ', () => {
 
   it('debería devolver un nuevo array', () => {
     const cart = [];
