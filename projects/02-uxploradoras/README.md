@@ -136,7 +136,7 @@ documentación que demuestre lo que hiciste de forma tangible y cumpliendo
 con los criterios de aceptación, los cuales existen para que puedas
 auto-validar si realmente alcanzaste el resultado deseado.
 
-### 1. Hito 1: Proyecto (obligatorio)
+### Hito 1: Proyecto (obligatorio)
 
 Organizarnos cuando no existe una solicitud específica de parte del negocio
 puede ser muy retador, pero sigue siendo clave para sacar el máximo provecho
@@ -154,7 +154,7 @@ Por ejemplo: quieres fortalecer tus habilidades de prototipado y diseño UI,
 planifica desde el principio un análisis breve y una fuerte profundización
 en exploración visual.*
 
-### 2. Hito 2: Análisis de lo existente (obligatorio)
+### Hito 2: Análisis de lo existente (obligatorio)
 
 ¿Cómo entender a los usuarios de productos que aún no existen? Analizando
 productos de competidores u otras herramientas que usan para resolver sus
@@ -168,7 +168,7 @@ clave de este tipo de producto digital
 2. Investigación de escritorio sobre dolores de usuario de la categoría que
 hayas elegido
 
-### 3. Hito 3: Propuesta de diseño (obligatorio)
+### Hito 3: Propuesta de diseño (obligatorio)
 
 Debes proponer una solución que se pueda diseñar en el tiempo del proyecto,
 asegurando que resuelva los problemas prioritarios.
@@ -193,7 +193,7 @@ etiquetas, navegación)
 el contenido y funcionalidades más relevantes, sin incluir detalles visuales
 como color, tipografía, etc.
 
-### 4. Hito 4: Prototipado (obligatorio)
+### Hito 4: Prototipado (obligatorio)
 
 Una vez que tengas clara la estructura de tu propuesta, es momento de integrar
 los elementos visuales necesarios para potenciar una buena experiencia de uso.
@@ -215,7 +215,7 @@ accesibilidad en tu propuesta (perceptibilidad y operabilidad)
 
 5. Librería de componentes (UI Kit) construida bajo los principios de Atomic Design
 
-### 5. Hito 5: Validación (obligatorio)
+### Hito 5: Validación (obligatorio)
 
 Es vital que realicemos validaciones de nuestras propuestas, especialmente con
 productos construidos desde cero. Para ello es necesario que planifiques tus
@@ -244,7 +244,7 @@ observaciones y hallazgos (en caso de que existan)
 forma directa. Asegúrate de seguir las mejores prácticas para pruebas de
 usabilidad.*
 
-### 6. Hito 6: Sistemas y librerías de diseño (opcional)
+### Hito 6: Sistemas y librerías de diseño (opcional)
 
 Si quieres profundizar en la sistematización de componentes, explora Material
 Design y utilízalo en la construcción de tu propuesta.
@@ -309,8 +309,8 @@ por favor llévalas al espacio de Q&A que tendremos próximamente:
 - ¿Comprendes el contenido de cada hito?
 - ¿El proyecto te despierta curiosidad? ¿En qué?
 
-### Aprovecha la oportunidad de enfocarte en áreas que sientas aún retadoras,
-### para potenciar al máximo tu experiencia de aprendizaje y fortalecer OAs que no
-### hayas podido profundizar anteriormente. Cuentas con nuestra guía en todo este
-### proceso, pero especialmente, con el talento y empatía de todas tus compañeras
-### para enriquecer aún más esta comunidad de aprendizaje! 🙌💛
+**Aprovecha la oportunidad de enfocarte en áreas que sientas aún retadoras,
+para potenciar al máximo tu experiencia de aprendizaje y fortalecer OAs que no
+hayas podido profundizar anteriormente. Cuentas con nuestra guía en todo este
+proceso, pero especialmente, con el talento y empatía de todas tus compañeras
+para enriquecer aún más esta comunidad de aprendizaje! 🙌💛**
