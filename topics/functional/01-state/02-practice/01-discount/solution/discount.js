@@ -43,4 +43,4 @@ const applyDiscount = (cart, discount) => {
 //   })].concat(applyDiscount(cart.slice(1), discount));
 
 
-module.exports = applyDiscount;
+export default applyDiscount;
