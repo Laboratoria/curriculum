@@ -1,1 +1,22 @@
-TBD
+track: ux
+learningObjectives:
+  - agile-planning/scope
+  - agile-planning/workplan
+  - agile-planning/tasks
+  - business-understanding/benchmark
+  - design-concept/design-references
+  - design-concept/ideate
+  - design-concept/prioritize-ideas
+  - interaction-design
+  - interface-design
+  - content-design
+  - design-prototype/basic-prototypes
+  - design-prototype/high-fidelity
+  - design-prototype/ai-plugins
+  - research-planning/research-plan
+  - research-planning/research-sample
+  - research-planning/participants
+  - usability-analysis/non-moderated-testing
+  - design-pitch
+  - design-specs
+  - design-systems
