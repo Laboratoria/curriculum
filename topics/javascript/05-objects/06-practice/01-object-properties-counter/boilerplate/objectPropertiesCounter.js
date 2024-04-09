@@ -2,4 +2,4 @@ const objectPropertiesCounter = (obj) => {
 
 };
 
-module.exports = objectPropertiesCounter;
+export default objectPropertiesCounter;

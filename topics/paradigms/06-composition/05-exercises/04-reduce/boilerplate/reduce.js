@@ -6,6 +6,6 @@
 // Retorna el object directamente (no hay necesidad de hacer `console.log`).
 //
 
-module.exports = (arr) => {
+export default (arr) => {
   // ...
 };

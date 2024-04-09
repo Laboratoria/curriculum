@@ -18,4 +18,4 @@ function whatToWear(season) {
  * ESCRIBA SU RESPUESTA AQUÍ.
  */
 
-module.exports = whatToWear;
+export default whatToWear;

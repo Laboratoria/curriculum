@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const getElementOfArrayProperty = require('../solution/getElementOfArrayProperty');
+import { assert } from 'chai';
+import getElementOfArrayProperty from '../solution/getElementOfArrayProperty.js';
 
 describe('getElementOfArrayProperty()', () => {
   it("debería regresar undefined, para ({yey: [1, 3, 5, 7]}, 'key', 1)", () => {

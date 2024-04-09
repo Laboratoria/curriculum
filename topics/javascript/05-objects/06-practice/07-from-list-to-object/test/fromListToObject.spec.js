@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const fromListToObject = require('../solution/fromListToObject');
+import { assert } from 'chai';
+import fromListToObject from '../solution/fromListToObject.js';
 
 describe('fromListToObject()', () => {
   it("debería regresar { make: 'Ford', model: 'Mustang', year: 1964, quality: 'eeehhh' }, para [['make', 'Ford'], ['model', 'Mustang'], ['year', 1964], ['quality', 'eeehhh']]", () => {

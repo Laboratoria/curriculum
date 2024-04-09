@@ -1,9 +1,9 @@
-const Assert = require('chai').assert;
-const Submission = require('../solution/filter');
+import { assert } from 'chai';
+import Submission from '../solution/filter.js';
 
 
 const message = () => {
-  return Assert.deepEqual(Submission([{
+  return assert.deepEqual(Submission([{
     message: 'Tempor quis esse consequat sunt ea eiusmod.'
   }, {
     message: 'Id culpgetShortMessages.speca ad proident ad nulla laborum incididunt. Blah blah'
@@ -22,7 +22,7 @@ const message = () => {
 describe('getShortMessages()', () => {
 
   it('debería retornar [ ] cuando input array es [ ]', () => {
-    Assert.deepEqual(Submission([]), []);
+    assert.deepEqual(Submission([]), []);
   });
 
   it('debería retornar arreglo de strings con mensajes de menos de 50 chars', () => {
@@ -30,7 +30,7 @@ describe('getShortMessages()', () => {
   });
 
   it('NO debería usar for o while', () => {
-    Assert.equal(/(for|while)\s+\(/g.test(Submission.toString()), false);
+    assert.equal(/(for|while)\s+\(/g.test(Submission.toString()), false);
   });
 
   it('debería invocar Array.prototype.filter', () => {
@@ -45,7 +45,7 @@ describe('getShortMessages()', () => {
     };
 
     message();
-    Assert.equal(filterCount, 1);
+    assert.equal(filterCount, 1);
 
     Array.prototype.filter = filter;
   });
@@ -61,7 +61,7 @@ describe('getShortMessages()', () => {
       });
     };
     message();
-    Assert.equal(mapCount, 1);
+    assert.equal(mapCount, 1);
     Array.prototype.map = map;
   });
 

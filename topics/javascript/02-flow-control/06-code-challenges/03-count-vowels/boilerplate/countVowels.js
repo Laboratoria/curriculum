@@ -3,4 +3,4 @@ const countVowels = (str) => {
 
 };
 
-module.exports = countVowels;
+export default countVowels;

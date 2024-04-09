@@ -3,4 +3,4 @@ const computeAverageLengthOfWords = (word1, word2) => {
 
 };
 
-module.exports = computeAverageLengthOfWords;
+export default computeAverageLengthOfWords;

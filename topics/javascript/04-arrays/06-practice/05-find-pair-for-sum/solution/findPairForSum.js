@@ -10,4 +10,4 @@ const findPairForSum = (array, number) => {
   return [];
 };
 
-module.exports = findPairForSum;
+export default findPairForSum;

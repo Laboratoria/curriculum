@@ -1,26 +1,26 @@
-const Assert = require('chai').assert;
-const Sinon = require('sinon');
+import { assert } from 'chai';
+import Sinon from 'sinon';
 const globalScope = (typeof self !== 'undefined' ? self : global);
 
 const claim = globalScope.claim = (actual, expected) =>
   Array.isArray(expected) || (typeof expected === 'object' && expected instanceof Object) ?
-    Assert.deepEqual(actual, expected) :
-    Assert.equal(actual, expected);
+    assert.deepEqual(actual, expected) :
+    assert.equal(actual, expected);
 
 const spy = Sinon.spy(globalScope, 'claim');
-const Submission = require('../solution/constructorFunctions');
+import * as Submission from '../solution/constructorFunctions.js';
 const { Robot, robby } = Submission;
 
 describe('objectCreate', () => {
 
   it('debería exportar un objeto con las propiedades "Robot", "robby"', () => {
-    Assert.equal(typeof Submission, 'object');
-    Assert.ok(Submission.hasOwnProperty('Robot'));
-    Assert.ok(Submission.hasOwnProperty('robby'));
+    assert.equal(typeof Submission, 'object');
+    assert.ok(Submission.hasOwnProperty('Robot'));
+    assert.ok(Submission.hasOwnProperty('robby'));
   });
 
   it('debería invocar claim 2 veces', () => {
-    Assert.equal(spy.callCount, 2);
+    assert.equal(spy.callCount, 2);
   });
 
   [
@@ -29,7 +29,7 @@ describe('objectCreate', () => {
   ].forEach((args, idx) => {
     describe(`invocación ${idx + 1} a claim`, () =>
       it(`debería comparar ${args[0]} con ${args[1]}`, () =>
-        Assert.deepEqual(spy.getCall(idx).args, args)
+        assert.deepEqual(spy.getCall(idx).args, args)
       )
     );
   });
@@ -37,7 +37,7 @@ describe('objectCreate', () => {
   describe('Robot', () => {
 
     it('debería ser un constructor', () => {
-      Assert.equal(typeof Robot, 'function');
+      assert.equal(typeof Robot, 'function');
     });
 
   });
@@ -45,11 +45,11 @@ describe('objectCreate', () => {
   describe('robby', () => {
 
     it('debería ser una una instancia de robot', () => {
-      Assert.equal(robby.__proto__, new Robot().__proto__);
+      assert.equal(robby.__proto__, new Robot().__proto__);
     });
 
     it('debería tener una propiedad motors con valor 2', () => {
-      Assert.equal(robby.motors, 2);
+      assert.equal(robby.motors, 2);
     });
 
   });

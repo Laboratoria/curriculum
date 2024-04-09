@@ -7,4 +7,4 @@ function repeat(operation, num) {
 }
 
 // No borres la línea de abajo
-module.exports = repeat;
+export default repeat;

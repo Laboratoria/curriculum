@@ -37,8 +37,8 @@ claim(robby.capabilities, ['fly']);
 claim(cranky.capabilities, ['fly']);
 
 // ------------------------------------------------
-// Exports de Common JS para verificación, no modificar
-module.exports = {
+// Exports para verificación, no modificar
+export {
 	Robot,
 	robby,
 	cranky

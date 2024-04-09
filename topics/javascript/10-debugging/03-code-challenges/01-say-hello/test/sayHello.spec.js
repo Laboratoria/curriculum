@@ -1,8 +1,8 @@
-const Assert = require('chai').assert;
-const sayHello = require('../solution/sayHello');
+import { assert } from 'chai';
+import sayHello from '../solution/sayHello.js';
 
 describe('sayHello()', () => {
   it('debería regresar undefined, para ()', () => {
-    Assert.deepEqual(sayHello(), undefined);
+    assert.deepEqual(sayHello(), undefined);
   });
 });

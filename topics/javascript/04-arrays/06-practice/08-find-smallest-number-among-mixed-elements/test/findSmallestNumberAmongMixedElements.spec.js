@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const findSmallestNumberAmongMixedElements = require('../solution/findSmallestNumberAmongMixedElements');
+import { assert } from 'chai';
+import findSmallestNumberAmongMixedElements from '../solution/findSmallestNumberAmongMixedElements.js';
 
 describe('findSmallestNumberAmongMixedElements()', () => {
   it("debería regresar 0, para  (['cat', 'is', 'cute', 'as', 'fuck'])", () => {

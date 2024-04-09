@@ -14,4 +14,4 @@ const computeSumOfAllElements = (arr) => {
   return sum;
 };
 
-module.exports = computeSumOfAllElements;
+export default computeSumOfAllElements;

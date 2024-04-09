@@ -5,7 +5,7 @@
 // `Array#map`.
 //
 
-module.exports = function doubleAll(numbers) {
+export default function doubleAll(numbers) {
   const result = [];
 
   for (let i = 0; i < numbers.length; i++) {

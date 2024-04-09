@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const findShortestOfThreeWords = require('../solution/findShortestOfThreeWords');
+import { assert } from 'chai';
+import findShortestOfThreeWords from '../solution/findShortestOfThreeWords.js';
 
 describe('findShortestOfThreeWords()', () => {
   it("debería regresar 'b', para 'yes', 'b', 'a', 'two', 'three', 'four'", () => {

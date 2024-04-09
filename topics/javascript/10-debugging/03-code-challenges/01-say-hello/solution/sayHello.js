@@ -8,4 +8,4 @@ const sayHello = () => {
  * A la palabra 'hola' le faltaban comillas.
  */
 
-module.exports = sayHello;
+export default sayHello;

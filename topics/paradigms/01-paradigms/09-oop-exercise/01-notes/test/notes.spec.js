@@ -1,24 +1,21 @@
-const Assert = require('chai').assert;
-const Submission = require('../solution/notes');
-const Note = Submission.Note;
-const Notes = Submission.Notes;
-
+import { assert } from 'chai';
+import { Note, Notes } from '../solution/notes.js';
 
 describe('Note', () => {
 
   it('debería exportar función `Note`', () => {
-    Assert.equal(typeof Note, 'function');
+    assert.equal(typeof Note, 'function');
   });
 
   it('debería crear un nuevo objeto cuando invocamos new Note()', () => {
     const note = new Note('renovar dni');
-    Assert.equal(note.text, 'renovar dni');
-    Assert.ok(note.createdAt instanceof Date);
-    Assert.equal(note.completed, false);
+    assert.equal(note.text, 'renovar dni');
+    assert.ok(note.createdAt instanceof Date);
+    assert.equal(note.completed, false);
   });
 
-  it('debería retornar undefined cuando invocamos Note() sin "new"', () => {
-    Assert.equal(Note('renovar dni'), undefined);
+  it('debería tirar un error cuando invocamos Note() sin "new"', () => {
+    assert.throws(_ => Note('renovar dni'), TypeError);
   });
 
 });
@@ -29,9 +26,9 @@ describe('Note#toString', () => {
   it('debería convertir objeto a string', () => {
     const note = new Note('foo');
     const date = (new Date()).toDateString();
-    Assert.equal(note.toString(), '[ ] | ' + date + ' | foo');
+    assert.equal(note.toString(), '[ ] | ' + date + ' | foo');
     note.completed = true;
-    Assert.equal(note.toString(), '[X] | ' + date + ' | foo');
+    assert.equal(note.toString(), '[X] | ' + date + ' | foo');
   });
 
 });
@@ -40,7 +37,7 @@ describe('Note#toString', () => {
 describe('Notes (oop)', () => {
 
   it('debería exportar función `Notes`', () => {
-    Assert.equal(typeof Notes, 'function');
+    assert.equal(typeof Notes, 'function');
   });
 
 });
@@ -55,14 +52,14 @@ describe('Notes#add', () => {
     ].forEach((val) => {
 
       const notes = new Notes();
-      Assert.throws(_ => notes.add(val), Error);
+      assert.throws(_ => notes.add(val), Error);
     });
   });
 
 
   it('debería permitir añadir instancias de Note', () => {
     const notes = new Notes();
-    Assert.doesNotThrow(_ => notes.add(new Note('one')));
+    assert.doesNotThrow(_ => notes.add(new Note('one')));
   });
 
 });
@@ -72,7 +69,7 @@ describe('Notes#toString', () => {
 
   it('debería retornar un string vacío cuando no hay notas', () => {
     const notes = new Notes();
-    Assert.equal(notes.toString(), '');
+    assert.equal(notes.toString(), '');
   });
 
 
@@ -84,14 +81,14 @@ describe('Notes#toString', () => {
     notes.add(note1);
     notes.add(new Note('two'));
 
-    Assert.equal(notes.toString(), [
+    assert.equal(notes.toString(), [
       '[ ] | ' + date + ' | two',
       '[ ] | ' + date + ' | one'
     ].join('\n'));
 
     note1.completed = true;
 
-    Assert.equal(notes.toString(), [
+    assert.equal(notes.toString(), [
       '[ ] | ' + date + ' | two',
       '[X] | ' + date + ' | one'
     ].join('\n'));

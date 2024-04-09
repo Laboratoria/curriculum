@@ -9,4 +9,4 @@ function createArray() {
  * Al arreglo le faltaban dos comas.
  */
 
-module.exports = createArray;
+export default createArray;

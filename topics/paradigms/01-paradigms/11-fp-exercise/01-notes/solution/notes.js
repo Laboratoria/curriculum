@@ -1,20 +1,16 @@
-const createNote = text => ({
+export const createNote = text => ({
   text,
   createdAt: new Date(),
   completed: false
 });
 
-const noteToString = note => [
+export const noteToString = note => [
   '[' + (note.completed ? 'X' : ' ') + ']',
   ' | ' + note.createdAt.toDateString(),
   ' | ' + note.text
 ].join('');
 
-const createNotes = array => array.map(createNote);
+export const createNotes = array => array.map(createNote);
 
-const notesToString = notes => notes.map(noteToString).join('\n');
+export const notesToString = notes => notes.map(noteToString).join('\n');
 
-exports.createNote = createNote;
-exports.noteToString = noteToString;
-exports.createNotes = createNotes;
-exports.notesToString = notesToString;

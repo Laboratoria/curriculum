@@ -1,4 +1,4 @@
-module.exports = function repeat(operation, num) {
+export default function repeat(operation, num) {
   if (num <= 0) {
     return;
   }

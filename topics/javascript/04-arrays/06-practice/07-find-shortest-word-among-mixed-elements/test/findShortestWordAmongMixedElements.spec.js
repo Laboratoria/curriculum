@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const findShortestWordAmongMixedElements = require('../solution/findShortestWordAmongMixedElements');
+import { assert } from 'chai';
+import findShortestWordAmongMixedElements from '../solution/findShortestWordAmongMixedElements.js';
 
 describe('findShortestWordAmongMixedElements()', () => {
   it("debería regresar '', para  ([3, 4, 5])", () => {

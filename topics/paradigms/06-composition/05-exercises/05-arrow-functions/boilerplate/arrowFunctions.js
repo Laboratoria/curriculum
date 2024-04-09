@@ -1,19 +1,19 @@
-exports.repeat = (operation, num) => {
+export const repeat = (operation, num) => {
   // Escribe tu código aquí.
 
 };
 
-exports.doubleAll = (numbers) => {
+export const doubleAll = (numbers) => {
   // Escribe tu código aquí.
 
 };
 
-exports.getShortMessages = (messages) => {
+export const getShortMessages = (messages) => {
   //Escribe tu código aquí.
 
 };
 
-exports.countWords = (arr) => {
+export const countWords = (arr) => {
   //Escribe tu código aquí.
 
 };

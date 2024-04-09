@@ -1,1 +1,1 @@
-module.exports = n => ((n % 2 === 0) ? 0 : 1);
+export default n => ((n % 2 === 0) ? 0 : 1);

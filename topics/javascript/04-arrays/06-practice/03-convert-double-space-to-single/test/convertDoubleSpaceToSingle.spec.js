@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const convertDoubleSpaceToSingle = require('../solution/convertDoubleSpaceToSingle');
+import { assert } from 'chai';
+import convertDoubleSpaceToSingle from '../solution/convertDoubleSpaceToSingle.js';
 
 describe('convertDoubleSpaceToSingle()', () => {
   it("debería regresar '', para string vacío", () => {

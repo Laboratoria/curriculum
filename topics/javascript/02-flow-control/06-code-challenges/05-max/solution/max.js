@@ -16,4 +16,4 @@ const max = (A, B, C) => {
   return maximo;
 };
 
-module.exports = max;
+export default max;

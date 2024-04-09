@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const transformEmployeeData = require('../solution/transformEmployeeData');
+import { assert } from 'chai';
+import transformEmployeeData from '../solution/transformEmployeeData.js';
 
 describe('transformEmployeeData()', () => {
   it("debería regresar [{a: 1, b: 2, c: true}, {a: 10, b: 20, c: false}], para [[['a', 1], ['b', 2], ['c', true]],[['a', 10], ['b', 20], ['c', false]]]", () => {

@@ -11,4 +11,4 @@ const getSumOfAllElementsAtProperty = (obj, key) => {
   return sum;
 };
 
-module.exports = getSumOfAllElementsAtProperty;
+export default getSumOfAllElementsAtProperty;

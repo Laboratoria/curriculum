@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const convertObjectToList = require('../solution/convertObjectToList');
+import { assert } from 'chai';
+import convertObjectToList from '../solution/convertObjectToList.js';
 
 describe('convertObjectToList()', () => {
   it("debería regresar [['a', 1], ['b', 'c'], ['d', true], ['e', 10]], para { a: 1, b: 'c', d: true, e: 10 }", () => {

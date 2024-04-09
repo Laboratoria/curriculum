@@ -22,4 +22,4 @@ const getLargestNumberAmongMixedElements = (arr) => {
   return arr[index];
 };
 
-module.exports = getLargestNumberAmongMixedElements;
+export default getLargestNumberAmongMixedElements;

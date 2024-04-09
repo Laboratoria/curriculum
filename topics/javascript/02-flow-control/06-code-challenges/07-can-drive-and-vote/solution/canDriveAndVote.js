@@ -6,4 +6,4 @@ const canDriveAndVote = (edad) => {
   return false;
 };
 
-module.exports = canDriveAndVote;
+export default canDriveAndVote;

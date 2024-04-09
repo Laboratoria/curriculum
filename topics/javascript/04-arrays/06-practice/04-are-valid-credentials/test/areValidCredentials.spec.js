@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const areValidCredentials = require('../solution/areValidCredentials');
+import { assert } from 'chai';
+import areValidCredentials from '../solution/areValidCredentials.js';
 
 describe('areValidCredentials()', () => {
   it('debería regresar true cuando las credenciales son válidas', () => {

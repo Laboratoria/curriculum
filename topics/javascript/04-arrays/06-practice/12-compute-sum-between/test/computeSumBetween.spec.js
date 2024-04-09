@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const computeSumBetween = require('../solution/computeSumBetween');
+import { assert } from 'chai';
+import computeSumBetween from '../solution/computeSumBetween.js';
 
 describe('computeSumBetween()', () => {
   it("debería regresar [{a: 1, b: 2, c: true}, {a: 10, b: 20, c: false}], para [[['a', 1], ['b', 2], ['c', true]],[['a', 10], ['b', 20], ['c', false]]]", () => {

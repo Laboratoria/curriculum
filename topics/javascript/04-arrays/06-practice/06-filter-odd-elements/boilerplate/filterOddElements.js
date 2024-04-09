@@ -2,4 +2,4 @@ const filterOddElements = (arr) => {
   // your code here
 };
 
-module.exports = filterOddElements;
+export default filterOddElements;

@@ -1,5 +1,5 @@
-const Assert = require('chai').assert;
-const Submission = require('../solution/parseItems');
+import { assert } from 'chai';
+import Submission from '../solution/parseItems.js';
 
 
 describe('parseItems()', () => {
@@ -8,22 +8,22 @@ describe('parseItems()', () => {
     const original = ['6', '3', '5', '2', '4'];
     const parsed = Submission(original);
 
-    Assert.notDeepEqual(original, parsed);
-    Assert.notEqual(original, parsed);
+    assert.notDeepEqual(original, parsed);
+    assert.notEqual(original, parsed);
   });
 
   it('debería retornar un arreglo de números', () => {
-    Submission(['6', '3', '5', '2', '4']).forEach(Assert.isNumber);
+    Submission(['6', '3', '5', '2', '4']).forEach(assert.isNumber);
   });
 
   it('debería retornar un arreglo ordenado', () => {
-    Assert.deepEqual(Submission(['6', '3', '5', '2', '4']), [2, 3, 4, 5, 6]);
+    assert.deepEqual(Submission(['6', '3', '5', '2', '4']), [2, 3, 4, 5, 6]);
   });
 
   it('no debería mutar arreglo de entrada', () => {
     const original = ['6', '3', '5', '2', '4'];
     const parsed = Submission(original);
-    Assert.deepEqual(original, ['6', '3', '5', '2', '4']);
+    assert.deepEqual(original, ['6', '3', '5', '2', '4']);
   });
 
 });

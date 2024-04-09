@@ -1,19 +1,19 @@
-const Assert = require('chai').assert;
-const Sinon = require('sinon');
-const Submission = require('../solution/getDependencies');
+import { assert } from 'chai';
+import Sinon from 'sinon';
+import Submission from '../solution/getDependencies.js';
 
 
 describe('getDependencies()', () => {
 
   it('debería exportar una función', () => {
-    Assert.equal(typeof Submission, 'function');
+    assert.equal(typeof Submission, 'function');
   });
 
   it('no debería usar for o while', () => {
     const fnBody = Function.prototype.toString.call(Submission);
     // strip comments from source code
     const strippedFnBody = fnBody.replace(/\/\*[\s\S]*?\*\/|([^\\:]|^)\/\/.*$/gm, '$1');
-    Assert.equal(/(for|while)\s*\(/g.test(strippedFnBody), false);
+    assert.equal(/(for|while)\s*\(/g.test(strippedFnBody), false);
   });
 
   it('debería usar Object.keys() en cada invación', () => {
@@ -35,7 +35,7 @@ describe('getDependencies()', () => {
         }
       }
     });
-    Assert.equal(spy.callCount, 4);
+    assert.equal(spy.callCount, 4);
     spy.restore();
   });
 
@@ -57,7 +57,7 @@ describe('getDependencies()', () => {
         }
       }
     };
-    Assert.deepEqual(
+    assert.deepEqual(
       Submission(loremIpsum),
       ['inflection@1.2.6', 'optimist@0.3.7', 'wordwrap@0.0.2']
     );

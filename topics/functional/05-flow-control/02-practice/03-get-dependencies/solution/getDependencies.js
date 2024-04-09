@@ -9,4 +9,4 @@ function getDependencies(mod, result) {
   return result.sort();
 }
 
-module.exports = getDependencies;
+export default getDependencies;

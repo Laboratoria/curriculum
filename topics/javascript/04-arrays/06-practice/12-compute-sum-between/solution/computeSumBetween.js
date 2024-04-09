@@ -8,4 +8,4 @@ const computeSumBetween = (num1, num2) => {
   return sum;
 };
 
-module.exports = computeSumBetween;
+export default computeSumBetween;

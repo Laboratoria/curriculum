@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const convertScoreToGrade = require('../solution/convertScoreToGrade');
+import { assert } from 'chai';
+import convertScoreToGrade from '../solution/convertScoreToGrade.js';
 
 describe('convertScoreToGrade()', () => {
   it("debería regresar 'PUNTUACION INVALIDA', para 102", () => {

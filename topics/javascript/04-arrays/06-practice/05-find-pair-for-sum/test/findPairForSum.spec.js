@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const findPairForSum = require('../solution/findPairForSum');
+import { assert } from 'chai';
+import findPairForSum from '../solution/findPairForSum.js';
 
 describe('findPairForSum()', () => {
   it('debería regresar [0, 1], para ([0, 8, 1, 7, 19, 12, 4], 1)', () => {

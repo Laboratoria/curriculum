@@ -24,4 +24,4 @@ const convertScoreToGrade = (score) => {
   return str;
 };
 
-module.exports = convertScoreToGrade;
+export default convertScoreToGrade;

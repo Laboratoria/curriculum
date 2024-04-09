@@ -3,6 +3,11 @@
 //    array vacío como valor: `[]`
 // -> En la definición de `machine` incluye una propiedad 'capabilities', y
 //    asígnale un objeto vacío: `{}`
+import { assert } from 'chai';
+import Sinon from 'sinon';
+const globalScope = (typeof self !== 'undefined' ? self : global);
+const claim = globalScope.claim = (actual, expected) => assert.deepEqual(actual, expected);
+const spy = Sinon.spy(globalScope, 'claim');
 
 const machine = {
 	parts: [],
@@ -42,7 +47,7 @@ vehicle.capabilities.fly = true;
 claim(robot.capabilities, {fly: true});
 claim(vehicle.capabilities, {fly: true});
 
-module.exports = {
+export default {
 	machine,
 	vehicle,
 	robot

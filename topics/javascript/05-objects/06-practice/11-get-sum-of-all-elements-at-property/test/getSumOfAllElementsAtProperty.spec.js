@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const getSumOfAllElementsAtProperty = require('../solution/getSumOfAllElementsAtProperty');
+import { assert } from 'chai';
+import getSumOfAllElementsAtProperty from '../solution/getSumOfAllElementsAtProperty.js';
 
 describe('getSumOfAllElementsAtProperty()', () => {
   it("debería regresar 0, para { key: Badddlyyyy } y 'key'", () => {

@@ -6,4 +6,4 @@ const coinConvert = (dollars) => {
   return [soles, pesosMexicanos, pesosChilenos];
 };
 
-module.exports = coinConvert;
+export default coinConvert;

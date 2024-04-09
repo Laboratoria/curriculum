@@ -2,4 +2,4 @@ const evenOrOdd = (n) => {
 
 };
 
-module.exports = evenOrOdd;
+export default evenOrOdd;

@@ -21,4 +21,4 @@ const greetCustomer = (firstName) => {
   return greeting;
 };
 
-module.exports = greetCustomer;
+export default greetCustomer;

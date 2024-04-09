@@ -11,4 +11,4 @@ const getProductOfAllElementsAtProperty = (obj, key) => {
   return product;
 };
 
-module.exports = getProductOfAllElementsAtProperty;
+export default getProductOfAllElementsAtProperty;

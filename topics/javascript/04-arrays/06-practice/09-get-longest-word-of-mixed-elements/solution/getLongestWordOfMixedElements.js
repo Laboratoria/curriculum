@@ -22,4 +22,4 @@ const getLongestWordOfMixedElements = (arr) => {
   return arr[index];
 };
 
-module.exports = getLongestWordOfMixedElements;
+export default getLongestWordOfMixedElements;

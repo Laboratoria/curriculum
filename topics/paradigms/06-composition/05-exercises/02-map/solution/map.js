@@ -1,1 +1,1 @@
-module.exports = numbers => numbers.map(num => num * 2);
+export default numbers => numbers.map(num => num * 2);

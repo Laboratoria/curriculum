@@ -8,4 +8,4 @@ const sayHello = () => {
  * ESCRIBA SU RESPUESTA AQUÍ.
  */
 
-module.exports = sayHello;
+export default sayHello;

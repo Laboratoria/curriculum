@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const computeAverageLengthOfWords = require('../solution/computeAverageLengthOfWords');
+import { assert } from 'chai';
+import computeAverageLengthOfWords from '../solution/computeAverageLengthOfWords.js';
 
 describe('computeAverageLengthOfWords()', () => {
   it('debería regresar  4, para  ("A", "kamnjhs")', () => {

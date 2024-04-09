@@ -4,4 +4,4 @@ const serializeUser = user => {
 	return JSON.stringify(user);
 };
 
-module.exports = serializeUser;
+export default serializeUser;

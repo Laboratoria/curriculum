@@ -16,8 +16,8 @@ claim(robby instanceof Robot, true);
 claim(robby.motors, 2);
 
 // ------------------------------------------------
-// Exports de Common JS para verificación, no modificar
-module.exports = {
+// Exports  para verificación, no modificar
+export {
 	Robot,
 	robby
 }

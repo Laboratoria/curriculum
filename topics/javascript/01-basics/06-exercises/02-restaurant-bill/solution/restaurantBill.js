@@ -6,4 +6,4 @@ const restaurantBill = (bill) => {
   return `$${total / 5}`;
 };
 
-module.exports = restaurantBill;
+export default restaurantBill;

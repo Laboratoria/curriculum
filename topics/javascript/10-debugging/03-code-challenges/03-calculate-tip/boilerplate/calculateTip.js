@@ -9,4 +9,4 @@ const calculateTip = billAmount => percent(15, billAmount);
  * ESCRIBA SU RESPUESTA AQUÍ.
  */
 
-module.exports = calculateTip;
+export default calculateTip;

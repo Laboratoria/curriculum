@@ -24,6 +24,5 @@ const makeVowelsUpperCase = (string) => {
   return result;
 };
 
-if (typeof module !== 'undefined') {
-  module.exports = makeVowelsUpperCase;
-}
+// TODO look at this case
+export default makeVowelsUpperCase;

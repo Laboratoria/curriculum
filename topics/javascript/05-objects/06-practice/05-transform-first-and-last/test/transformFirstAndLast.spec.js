@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const transformFirstAndLast = require('../solution/transformFirstAndLast');
+import { assert } from 'chai';
+import transformFirstAndLast from '../solution/transformFirstAndLast.js';
 
 describe('transformFirstAndLast()', () => {
   it("debería regresar { King : 'Freddie' }, para ['King', 'Kemal', 'Freddie']", () => {

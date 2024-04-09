@@ -14,4 +14,4 @@ const getElementOfArrayProperty = (obj, key, index) => {
   return obj[key][index];
 };
 
-module.exports = getElementOfArrayProperty;
+export default getElementOfArrayProperty;

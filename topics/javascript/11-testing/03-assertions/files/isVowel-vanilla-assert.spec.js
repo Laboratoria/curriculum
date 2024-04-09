@@ -1,6 +1,6 @@
 // Archivo `isVowel.spec.js`
 
-const isVowel = require('./isVowel');
+import isVowel from './isVowel.js';
 
 const assertEqual = (value, expected) => {
   if (value !== expected) {

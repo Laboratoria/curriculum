@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const addObjectProperty = require('../solution/addObjectProperty');
+import { assert } from 'chai';
+import addObjectProperty from '../solution/addObjectProperty.js';
 
 describe('addObjectProperty(obj1, key, obj2)', () => {
   it('debería asignar obj2 en obj1[key]', () => {

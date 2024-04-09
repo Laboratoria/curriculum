@@ -2,4 +2,4 @@ const parseJson = () => {
   // Tu código acá
 };
 
-module.exports = parseJson;
+export default parseJson;

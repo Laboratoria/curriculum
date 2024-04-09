@@ -3,4 +3,4 @@ const canDriveAndVote = (edad) => {
 
 };
 
-module.exports = canDriveAndVote;
+export default canDriveAndVote;

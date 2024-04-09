@@ -7,4 +7,4 @@ function tellFortune(job, location) {
  * A la linea 2 le faltaba un plus.
  */
 
-module.exports = tellFortune;
+export default tellFortune;

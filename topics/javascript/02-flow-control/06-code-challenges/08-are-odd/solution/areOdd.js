@@ -6,4 +6,4 @@ const areOdd = (n, m) => {
   return false;
 };
 
-module.exports = areOdd;
+export default areOdd;

@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const addFullNameProperty = require('../solution/addFullNameProperty');
+import { assert } from 'chai';
+import addFullNameProperty from '../solution/addFullNameProperty.js';
 
 describe('addFullNameProperty()', () => {
   it('debería regresar "Kemal Mahmud", para {firstName: "Kemal", lastName: "Mahmud"}', () => {

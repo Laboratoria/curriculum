@@ -1,4 +1,4 @@
-const http = require('http');
+import http from 'http';
 
 // const getLatestNodeInfo = () => new Promise((resolve, reject) => {
 //   http.get('http://nodejs.org/dist/index.json', (resp) => {

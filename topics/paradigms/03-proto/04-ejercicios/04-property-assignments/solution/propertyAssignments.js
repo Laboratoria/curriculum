@@ -16,7 +16,7 @@ claim(machine.motors, null);
 claim(robot.motors, 4);
 claim(vehicle.motors, null);
 
-module.exports = {
+export default {
   machine,
   vehicle,
   robot,

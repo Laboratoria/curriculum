@@ -2,4 +2,4 @@ const listAllValues = (obj) => {
   // your code here
 };
 
-module.exports = listAllValues;
+export default listAllValues;

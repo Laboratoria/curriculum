@@ -13,7 +13,7 @@ claim(robot.isPrototypeOf(robby), true);
 claim(Object.getPrototypeOf(robby), robot);
 
 // ------------------------------------------------
-module.exports = {
+export default {
 	machine,
 	robot,
 	robby

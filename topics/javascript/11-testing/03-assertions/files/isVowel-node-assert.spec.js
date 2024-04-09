@@ -1,7 +1,7 @@
 // Archivo `isVowel.spec.js`
 
-const assert = require('assert');
-const isVowel = require('./isVowel');
+import assert from 'assert';
+import isVowel from './isVowel.js';
 
 describe('isVowel()', () => {
   it('debería devolver true para letra a', () => {

@@ -1,4 +1,4 @@
-module.exports = function createStore() {
+export default function createStore() {
   // TAREA
   // Implementa una función que se llame `createStore`. Esta función no recibe
   // ningún argumento y retorna un objeto con los siguientes métodos:

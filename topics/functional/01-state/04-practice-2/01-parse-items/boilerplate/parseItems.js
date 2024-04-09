@@ -5,4 +5,4 @@ const parseItems = (items) => {
   return items.sort();
 };
 
-module.exports = parseItems;
+export default parseItems;

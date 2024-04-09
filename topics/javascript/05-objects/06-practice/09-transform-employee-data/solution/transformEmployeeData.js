@@ -16,4 +16,4 @@ const transformEmployeeData = (array) => {
   return arrayMain;
 };
 
-module.exports = transformEmployeeData;
+export default transformEmployeeData;

@@ -6,4 +6,4 @@ const loadUsers = (userIds, load, done) => {
   return users;
 }
 
-module.exports = loadUsers;
+export default loadUsers;

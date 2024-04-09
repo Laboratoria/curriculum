@@ -8,4 +8,4 @@ function createArray() {
  * ESCRIBA SU RESPUESTA AQUÍ.
  */
 
-module.exports = createArray;
+export default createArray;

@@ -22,4 +22,4 @@ const findShortestWordAmongMixedElements = (arr) => {
   return arr[index];
 };
 
-module.exports = findShortestWordAmongMixedElements;
+export default findShortestWordAmongMixedElements;

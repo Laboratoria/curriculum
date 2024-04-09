@@ -2,4 +2,4 @@ const powerOfTwo = (number) => {
 
 };
 
-module.exports = powerOfTwo;
+export default powerOfTwo;

@@ -8,4 +8,4 @@ const removeStringValuesLongerThan = (num, obj) => Object.keys(obj).reduce(
 );
 
 
-module.exports = removeStringValuesLongerThan;
+export default removeStringValuesLongerThan;

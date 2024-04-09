@@ -1,3 +1,3 @@
-exports.log = null;
+export const log = null;
 
-exports.logger = null;
+export const logger = null;

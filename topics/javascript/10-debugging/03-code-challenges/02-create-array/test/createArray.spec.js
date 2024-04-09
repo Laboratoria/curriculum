@@ -1,8 +1,8 @@
-const Assert = require('chai').assert;
-const createArray = require('../solution/createArray');
+import { assert } from 'chai';
+import createArray from '../solution/createArray.js';
 
 describe('createArray()', () => {
   it('debería regresar [1, 2, 3], para ()', () => {
-    Assert.deepEqual(createArray(), [1, 2, 3]);
+    assert.deepEqual(createArray(), [1, 2, 3]);
   });
 });

@@ -11,4 +11,4 @@ const applyDiscount = (cart) => {
   return [current].concat(applyDiscount(cart));
 };
 
-module.exports = applyDiscount;
+export default applyDiscount;
