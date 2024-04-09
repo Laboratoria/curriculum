@@ -6,4 +6,4 @@ const restaurantBill = (bill) => {
   return /* ??? */
 };
 
-module.exports = restaurantBill;
+export default restaurantBill;

@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const getProductOfAllElementsAtProperty = require('../solution/getProductOfAllElementsAtProperty');
+import { assert } from 'chai';
+import getProductOfAllElementsAtProperty from '../solution/getProductOfAllElementsAtProperty.js';
 
 describe('getProductOfAllElementsAtProperty()', () => {
   it("debería regresar 0, para { koy: [1, 2, 3] } y 'key'", () => {

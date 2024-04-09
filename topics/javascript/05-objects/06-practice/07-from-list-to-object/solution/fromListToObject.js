@@ -9,4 +9,4 @@ const fromListToObject = (array) => {
   return obj;
 };
 
-module.exports = fromListToObject;
+export default fromListToObject;

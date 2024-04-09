@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const getAllKeys = require('../solution/getAllKeys');
+import { assert } from 'chai';
+import getAllKeys from '../solution/getAllKeys.js';
 
 describe('getAllKeys()', () => {
   it("debería regresar ['tes', 'ini', 'berhasil'], para { tes : 'tes', ini : 'apa',berhasil : 10 }", () => {

@@ -1,3 +1,8 @@
+import { assert } from 'chai';
+import Sinon from 'sinon';
+const globalScope = (typeof self !== 'undefined' ? self : global);
+const claim = globalScope.claim = (actual, expected) => assert.equal(actual, expected);
+
 const machine = {
   motors: 4
 };
@@ -16,7 +21,7 @@ claim(robby.motors, 4);
 
 claim(robby.friendly, true);
 
-module.exports = {
+export default {
   machine,
   robot,
   robby,

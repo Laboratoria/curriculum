@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const objectPropertiesCounter = require('../solution/objectPropertiesCounter');
+import { assert } from 'chai';
+import objectPropertiesCounter from '../solution/objectPropertiesCounter.js';
 
 describe('objectPropertiesCounter()', () => {
   it('debería regresar la cantidad de propiedades cuando es un objeto simple', () => {

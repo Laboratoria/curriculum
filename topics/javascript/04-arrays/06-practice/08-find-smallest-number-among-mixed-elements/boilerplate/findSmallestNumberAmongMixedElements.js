@@ -2,4 +2,4 @@ const findSmallestNumberAmongMixedElements = (arr) => {
   // your code here
 };
 
-module.exports = findSmallestNumberAmongMixedElements;
+export default findSmallestNumberAmongMixedElements;

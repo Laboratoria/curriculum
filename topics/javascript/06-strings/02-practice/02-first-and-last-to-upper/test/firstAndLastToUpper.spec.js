@@ -1,14 +1,14 @@
-const Assert = require('chai').assert;
-const firstAndLastToUpper = require('../solution/firstAndLastToUpper');
+import { assert } from 'chai';
+import firstAndLastToUpper from '../solution/firstAndLastToUpper.js';
 
 describe('firstAndLastToUpper()', () => {
   it('debería retornar en mayúsculas la primer y última letra de un string', () => {
-    Assert.deepEqual(firstAndLastToUpper('murcielago'), 'MurcielagO');
-    Assert.deepEqual(firstAndLastToUpper('sol'), 'SoL');
-    Assert.deepEqual(firstAndLastToUpper('abecedario'), 'AbecedariO');
+    assert.deepEqual(firstAndLastToUpper('murcielago'), 'MurcielagO');
+    assert.deepEqual(firstAndLastToUpper('sol'), 'SoL');
+    assert.deepEqual(firstAndLastToUpper('abecedario'), 'AbecedariO');
   });
 
   it('debería retornar "" si no se le ingresa ningún parametro', () => {
-    Assert.deepEqual(firstAndLastToUpper(''), '');
+    assert.deepEqual(firstAndLastToUpper(''), '');
   });
 });

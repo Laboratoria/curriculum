@@ -1,1 +1,1 @@
-module.exports = amount => amount + (amount * 0.095) + (amount * 0.15);
+export default amount => amount + (amount * 0.095) + (amount * 0.15);

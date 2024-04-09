@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const computeSumOfAllElements = require('../solution/computeSumOfAllElements');
+import { assert } from 'chai';
+import computeSumOfAllElements from '../solution/computeSumOfAllElements.js';
 
 describe('computeSumOfAllElements()', () => {
   it('debería regresar 0, para  ([1, 2, 3])', () => {

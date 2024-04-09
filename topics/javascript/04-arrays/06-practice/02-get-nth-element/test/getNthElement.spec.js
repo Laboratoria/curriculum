@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const getNthElement = require('../solution/getNthElement');
+import { assert } from 'chai';
+import getNthElement from '../solution/getNthElement.js';
 
 describe('getNthElement()', () => {
   it('debería regresar undefined, para array vacío', () => {

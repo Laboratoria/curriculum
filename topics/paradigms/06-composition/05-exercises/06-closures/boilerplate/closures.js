@@ -3,4 +3,4 @@ const createLogger = function (namespace) {
 
 };
 
-module.exports = createLogger;
+export default createLogger;

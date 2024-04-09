@@ -9,4 +9,4 @@ const convertObjectToList = (obj) => {
   return arr;
 };
 
-module.exports = convertObjectToList;
+export default convertObjectToList;

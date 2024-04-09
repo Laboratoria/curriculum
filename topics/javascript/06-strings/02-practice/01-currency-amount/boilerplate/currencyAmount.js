@@ -2,4 +2,4 @@ const currencyAmount = (amounts) => {
 
 };
 
-module.exports = currencyAmount;
+export default currencyAmount;

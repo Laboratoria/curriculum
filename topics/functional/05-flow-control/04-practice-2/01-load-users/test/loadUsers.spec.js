@@ -1,19 +1,19 @@
-const Assert = require('chai').assert;
-const Sinon = require('sinon');
-const Submission = require('../solution/loadUsers');
+import { assert } from 'chai';
+import Sinon from 'sinon';
+import Submission from '../solution/loadUsers.js';
 
 
 describe('loadUsers()', () => {
 
   it('debería exportar una función', () => {
-    Assert.equal(typeof Submission, 'function');
+    assert.equal(typeof Submission, 'function');
   });
 
   it('no debería usar for o while', () => {
     const fnBody = Function.prototype.toString.call(Submission);
     // strip comments from source code
     const strippedFnBody = fnBody.replace(/\/\*[\s\S]*?\*\/|([^\\:]|^)\/\/.*$/gm, '$1');
-    Assert.equal(/(for|while)\s*\(/g.test(strippedFnBody), false);
+    assert.equal(/(for|while)\s*\(/g.test(strippedFnBody), false);
   });
 
   it('debería mantener el orden de userIds en los resultados', (done) => {
@@ -22,7 +22,7 @@ describe('loadUsers()', () => {
       setTimeout(() => cb && cb({ id: id, name: 'Lorem ipsum' }), 100 / ++count);
 
     Submission([1, 2, 3], load, (users) => {
-      Assert.deepEqual(users, [
+      assert.deepEqual(users, [
         { id: 1, name: 'Lorem ipsum' },
         { id: 2, name: 'Lorem ipsum' },
         { id: 3, name: 'Lorem ipsum' }
@@ -37,7 +37,7 @@ describe('loadUsers()', () => {
 
     const start = Date.now();
     Submission([3, 2, 1], load, (users) => {
-      Assert.ok((Date.now() - start) < 150);
+      assert.ok((Date.now() - start) < 150);
       done();
     });
   });
@@ -47,7 +47,7 @@ describe('loadUsers()', () => {
       setTimeout(() => cb && cb({ id: id, name: 'Lorem ipsum' }), 100);
 
     Submission([1, 2, 3], load, (users) => {
-      Assert.deepEqual(users, [
+      assert.deepEqual(users, [
         { id: 1, name: 'Lorem ipsum' },
         { id: 2, name: 'Lorem ipsum' },
         { id: 3, name: 'Lorem ipsum' }

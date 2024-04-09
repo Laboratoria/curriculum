@@ -1,35 +1,35 @@
-const Assert = require('chai').assert;
-const Sinon = require('sinon');
+import { assert } from 'chai';
+import Sinon from 'sinon';
 const globalScope = (typeof self !== 'undefined' ? self : global);
 
 const claim = globalScope.claim = (actual, expected) =>
   Array.isArray(expected) || (typeof expected === 'object' && expected instanceof Object) ?
-    Assert.deepEqual(actual, expected) :
-    Assert.equal(actual, expected);
+    assert.deepEqual(actual, expected) :
+    assert.equal(actual, expected);
 
 const spy = Sinon.spy(globalScope, 'claim');
-const Submission = require('../solution/implicitThis');
+import Submission from '../solution/implicitThis.js';
 const { Robot, Vehicle } = Submission;
 
 describe('implicitThis', () => {
 
   it('debería exportar un objeto con las propiedades "Robot", "Vehicle"', () => {
-    Assert.equal(typeof Submission, 'object');
-    Assert.ok(Submission.hasOwnProperty('Robot'));
-    Assert.ok(Submission.hasOwnProperty('Vehicle'));
+    assert.equal(typeof Submission, 'object');
+    assert.ok(Submission.hasOwnProperty('Robot'));
+    assert.ok(Submission.hasOwnProperty('Vehicle'));
   });
 
   describe('Robot', () => {
 
     it('debería ser un constructor', () => {
-      Assert.equal(typeof Robot, 'function');
+      assert.equal(typeof Robot, 'function');
     });
 
     describe('new Robot', () => {
 
       it('debería retornar una instancia de robot', () => {
         const robot = new Robot();
-        Assert.equal(robot instanceof Robot, true);
+        assert.equal(robot instanceof Robot, true);
       })
     })
 
@@ -38,14 +38,14 @@ describe('implicitThis', () => {
   describe('Vehicle', () => {
 
     it('debería ser un constructor', () => {
-      Assert.equal(typeof Vehicle, 'function');
+      assert.equal(typeof Vehicle, 'function');
     });
 
     describe('new Vehicle', () => {
 
       it('no debería retornar una instancia de Vehicle', () => {
         const vehicle = new Vehicle();
-        Assert.equal(vehicle instanceof Vehicle, false);
+        assert.equal(vehicle instanceof Vehicle, false);
       });
 
     });

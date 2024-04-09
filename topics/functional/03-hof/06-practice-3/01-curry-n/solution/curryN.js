@@ -6,4 +6,4 @@ function curryN(fn, n) {
   }
 }
 
-module.exports = curryN
+export default curryN

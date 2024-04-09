@@ -1,6 +1,5 @@
 // Archivo `isVowel.spec.js`:
-
-const isVowel = require('./isVowel');
+import isVowel from './isVowel.js';
 
 console.log('debería devolver true para letra a');
 if (isVowel('a') === true) {

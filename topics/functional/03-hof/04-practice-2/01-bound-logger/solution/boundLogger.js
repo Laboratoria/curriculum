@@ -1,3 +1,3 @@
-exports.log = (...args) => args.join(' ');
+export const log = (...args) => args.join(' ');
 
-exports.logger = namespace => exports.log.bind(null, namespace);
+export const logger = namespace => log.bind(null, namespace);

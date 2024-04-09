@@ -1,5 +1,5 @@
-const Assert = require('chai').assert;
-const Submission = require('../solution/serializeUser');
+import { assert } from 'chai';
+import Submission from '../solution/serializeUser.js';
 
 
 describe('serializeUser()', () => {
@@ -12,7 +12,7 @@ describe('serializeUser()', () => {
       date: new Date()
     };
     const dateStr = grace.date.toJSON();
-    Assert.equal(
+    assert.equal(
       Submission(grace),
       `{"userId":"xxx","name":"Grace H...","country":"us","date":"${dateStr}"}`
     );
@@ -26,8 +26,8 @@ describe('serializeUser()', () => {
       date: new Date()
     };
     Submission(grace);
-    Assert.equal(grace.name, 'Grace Hopper');
-    Assert.ok(grace.date instanceof Date);
+    assert.equal(grace.name, 'Grace Hopper');
+    assert.ok(grace.date instanceof Date);
   });
 
 });

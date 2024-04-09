@@ -1,12 +1,12 @@
-const Assert = require('chai').assert;
-const Sinon = require('sinon');
-const Submission = require('../solution/curryN');
+import { assert } from 'chai';
+import Sinon from 'sinon';
+import Submission from '../solution/curryN.js';
 
 
 describe('curryN()', () => {
 
   it('debería exportar una función', () => {
-    Assert.equal(typeof Submission, 'function');
+    assert.equal(typeof Submission, 'function');
   });
 
   it('debería crear cadena de funciones hasta haber agotado todos los argumentos', () => {
@@ -18,15 +18,15 @@ describe('curryN()', () => {
     const curryB = curryC(1);
     const curryA = curryB(2);
 
-    Assert.equal(curryA(3), 6);
-    Assert.equal(curryA(10), 13);
+    assert.equal(curryA(3), 6);
+    assert.equal(curryA(10), 13);
 
-    Assert.equal(Submission(add3)(1)(2)(3), 6);
+    assert.equal(Submission(add3)(1)(2)(3), 6);
   });
 
   it('no debería usar bucles for/while', () => {
     const fnBody = Submission.toString();
-    Assert.equal(/(for|while)\s*\(/g.test(fnBody), false);
+    assert.equal(/(for|while)\s*\(/g.test(fnBody), false);
   });
 
   it('no debería usar forEach', () => {
@@ -36,8 +36,8 @@ describe('curryN()', () => {
 
     const spy = Sinon.spy(Array.prototype, 'forEach');
 
-    Assert.equal(Submission(add3)(1)(2)(3), 6);
-    Assert.equal(spy.callCount, 0);
+    assert.equal(Submission(add3)(1)(2)(3), 6);
+    assert.equal(spy.callCount, 0);
     spy.restore();
   });
 

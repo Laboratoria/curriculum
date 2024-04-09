@@ -11,4 +11,4 @@ const applyDiscount = (cart, discount) => (!cart.length) ?
   [{...cart[0], price: cart[0].price * (1 - discount) }]
     .concat(applyDiscount(cart.slice(1), discount));
 
-module.exports = applyDiscount;
+export default applyDiscount;

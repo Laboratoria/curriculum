@@ -1,20 +1,20 @@
-const Assert = require('chai').assert;
-const Submission = require('../solution/notes');
+import { assert } from 'chai';
+import * as Submission from '../solution/notes.js';
 const { createNote, noteToString, createNotes, notesToString } = Submission;
 
 
 describe('createNote()', () => {
 
   it('debería exportar función `createNote`', () => {
-    Assert.equal(typeof createNote, 'function');
+    assert.equal(typeof createNote, 'function');
   });
 
   it('debería crear un objeto con los campos esperados', () => {
     const note = createNote('renovar dni');
-    Assert.equal(note.text, 'renovar dni');
-    Assert.ok(note.createdAt instanceof Date);
-    Assert.equal(note.completed, false);
-    Assert.equal(note.__proto__, Object.prototype);
+    assert.equal(note.text, 'renovar dni');
+    assert.ok(note.createdAt instanceof Date);
+    assert.equal(note.completed, false);
+    assert.equal(note.__proto__, Object.prototype);
   });
 
 });
@@ -22,15 +22,15 @@ describe('createNote()', () => {
 describe('noteToString()', () => {
 
   it('debería exportar función `noteToString`', () => {
-    Assert.equal(typeof noteToString, 'function');
+    assert.equal(typeof noteToString, 'function');
   });
 
   it('debería convertir objeto a string', () => {
     const note = createNote('foo');
     const date = (new Date()).toDateString();
-    Assert.equal(noteToString(note), '[ ] | ' + date + ' | foo');
+    assert.equal(noteToString(note), '[ ] | ' + date + ' | foo');
     note.completed = true;
-    Assert.equal(noteToString(note), '[X] | ' + date + ' | foo');
+    assert.equal(noteToString(note), '[X] | ' + date + ' | foo');
   });
 
 });
@@ -38,7 +38,7 @@ describe('noteToString()', () => {
 describe('createNotes()', () => {
 
   it('debería exportar función `createNotes`', () => {
-    Assert.equal(typeof createNotes, 'function');
+    assert.equal(typeof createNotes, 'function');
   });
 
 });
@@ -46,12 +46,12 @@ describe('createNotes()', () => {
 describe('notesToString()', () => {
 
   it('debería exportar función `notesToString`', () => {
-    Assert.equal(typeof notesToString, 'function');
+    assert.equal(typeof notesToString, 'function');
   });
 
   it('debería retornar un string vacío cuando no hay notas', () => {
     const notes = createNotes([]);
-    Assert.equal(notesToString(notes), '');
+    assert.equal(notesToString(notes), '');
   });
 
 
@@ -61,14 +61,14 @@ describe('notesToString()', () => {
 
     notes.unshift(createNote('two'));
 
-    Assert.equal(notesToString(notes), [
+    assert.equal(notesToString(notes), [
       '[ ] | ' + date + ' | two',
       '[ ] | ' + date + ' | one'
     ].join('\n'));
 
     notes[1].completed = true;
 
-    Assert.equal(notesToString(notes), [
+    assert.equal(notesToString(notes), [
       '[ ] | ' + date + ' | two',
       '[X] | ' + date + ' | one'
     ].join('\n'));

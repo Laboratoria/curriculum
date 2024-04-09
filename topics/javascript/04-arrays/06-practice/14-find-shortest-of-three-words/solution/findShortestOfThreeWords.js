@@ -12,4 +12,4 @@ const findShortestOfThreeWords = (word1, word2, word3) => {
   return strShort;
 };
 
-module.exports = findShortestOfThreeWords;
+export default findShortestOfThreeWords;

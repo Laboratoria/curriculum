@@ -3,4 +3,4 @@ const serializeUser = user => JSON.stringify(Object.assign({}, user, {
   date: user.date.toJSON(),
 }));
 
-module.exports = serializeUser;
+export default serializeUser;

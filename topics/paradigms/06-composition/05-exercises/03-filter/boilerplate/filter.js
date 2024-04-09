@@ -6,7 +6,7 @@
 // caracteres.
 //
 
-module.exports = function getShortMessages(messages) {
+export function getShortMessages(messages) {
   // Escribe aquí tu código.
 
 };

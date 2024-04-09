@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const listAllValues = require('../solution/listAllValues');
+import { assert } from 'chai';
+import listAllValues from '../solution/listAllValues.js';
 
 describe('listAllValues()', () => {
   it('debería regresar [1, 2, 3, false, false], para { a: 1, b: 2, c: 3, d: false, e: false }', () => {

@@ -1,16 +1,16 @@
-const Assert = require('chai').assert;
-const Sinon = require('sinon');
-const Submission = require('../solution/closures');
+import { assert } from 'chai';
+import Sinon from 'sinon';
+import Submission from '../solution/closures.js';
 
 
 describe('createLogger()', () => {
 
   it('debería de ser una función', () => {
-    Assert.equal(typeof Submission, 'function');
+    assert.equal(typeof Submission, 'function');
   });
 
   it('debería de retornar una función', () => {
-    Assert.equal(typeof Submission(), 'function');
+    assert.equal(typeof Submission(), 'function');
   });
 
   it('debería de retornar una función que imprime a la consola con el namespace', () => {
@@ -18,8 +18,8 @@ describe('createLogger()', () => {
     const warn = Submission('warning');
     warn('houston, we have a problem');
 
-    Assert.equal(stub.callCount, 1);
-    Assert.equal(stub.getCall(0).args[0], '[warning]: houston, we have a problem');
+    assert.equal(stub.callCount, 1);
+    assert.equal(stub.getCall(0).args[0], '[warning]: houston, we have a problem');
 
     stub.restore();
   });

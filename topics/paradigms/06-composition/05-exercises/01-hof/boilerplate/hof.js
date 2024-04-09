@@ -6,7 +6,7 @@
 // ejecutar la función `num` veces.
 //
 
-module.exports = function repeat(operation, num) {
+export default function repeat(operation, num) {
   //Escribe aquí tu código.
 
 };

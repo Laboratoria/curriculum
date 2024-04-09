@@ -6,4 +6,4 @@ const firstAndLastToUpper = (str) => {
   return result;
 };
 
-module.exports = firstAndLastToUpper;
+export default firstAndLastToUpper;

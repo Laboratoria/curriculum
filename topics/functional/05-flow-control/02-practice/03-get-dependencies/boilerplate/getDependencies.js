@@ -5,4 +5,4 @@ function getDependencies(tree) {
   // o no! Hay muchas maneras de hacer funcionar la recursividad.
 }
 
-module.exports = getDependencies;
+export default getDependencies;

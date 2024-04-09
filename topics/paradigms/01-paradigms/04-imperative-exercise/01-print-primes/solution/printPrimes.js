@@ -13,4 +13,4 @@ function printPrimes() {
   }
 }
 
-module.exports = printPrimes;
+export default printPrimes;

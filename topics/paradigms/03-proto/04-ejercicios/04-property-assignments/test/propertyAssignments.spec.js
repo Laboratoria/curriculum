@@ -1,23 +1,23 @@
-const Assert = require('chai').assert;
-const Sinon = require('sinon');
+import { assert } from 'chai';
+import Sinon from 'sinon';
 const globalScope = (typeof self !== 'undefined' ? self : global);
-const claim = globalScope.claim = (actual, expected) => Assert.equal(actual, expected);
+const claim = globalScope.claim = (actual, expected) => assert.equal(actual, expected);
 const spy = Sinon.spy(globalScope, 'claim');
-const Submission = require('../solution/propertyAssignments');
+import Submission from '../solution/propertyAssignments.js';
 const { machine, vehicle, robot } = Submission;
 
 
 describe('propertyAssignments', () => {
 
   it('debería exportar un objeto con las propiedades "machine", "vehicle" y "robot"', () => {
-    Assert.equal(typeof Submission, 'object');
-    Assert.ok(Submission.hasOwnProperty('machine'));
-    Assert.ok(Submission.hasOwnProperty('vehicle'));
-    Assert.ok(Submission.hasOwnProperty('robot'));
+    assert.equal(typeof Submission, 'object');
+    assert.ok(Submission.hasOwnProperty('machine'));
+    assert.ok(Submission.hasOwnProperty('vehicle'));
+    assert.ok(Submission.hasOwnProperty('robot'));
   });
 
   it('debería invocar claim 6 veces', () => {
-    Assert.equal(spy.callCount, 6);
+    assert.equal(spy.callCount, 6);
   });
 
   [
@@ -30,7 +30,7 @@ describe('propertyAssignments', () => {
   ].forEach((args, idx) => {
     describe(`invocación ${idx + 1} a claim`, () =>
       it(`debería comparar ${args[0]} con ${args[1]}`, () =>
-        Assert.deepEqual(spy.getCall(idx).args, args)
+        assert.deepEqual(spy.getCall(idx).args, args)
       )
     );
   });
@@ -38,11 +38,11 @@ describe('propertyAssignments', () => {
   describe('machine', () => {
 
     it('debería tener una propiedad motors', () => {
-      Assert.ok(robot.hasOwnProperty('motors'));
+      assert.ok(robot.hasOwnProperty('motors'));
     });
 
     describe('machine.motors', () =>
-      it('debería tener valor null', () => Assert.equal(machine.motors, null))
+      it('debería tener valor null', () => assert.equal(machine.motors, null))
     );
 
   });
@@ -50,7 +50,7 @@ describe('propertyAssignments', () => {
   describe('vehicle', () => {
 
     it('debería ser un objeto con machine como prototipo', () => {
-      Assert.equal(vehicle.__proto__, machine);
+      assert.equal(vehicle.__proto__, machine);
     });
 
   });
@@ -58,15 +58,15 @@ describe('propertyAssignments', () => {
   describe('robot', () => {
 
     it('debería ser un objeto con machine como prototipo', () => {
-      Assert.equal(robot.__proto__, machine);
+      assert.equal(robot.__proto__, machine);
     });
 
     it('debería tener una propiedad motors', () => {
-      Assert.ok(robot.hasOwnProperty('motors'));
+      assert.ok(robot.hasOwnProperty('motors'));
     });
 
     describe('robot.motors', () =>
-      it('debería tener valor 4', () => Assert.equal(robot.motors, 4))
+      it('debería tener valor 4', () => assert.equal(robot.motors, 4))
     );
 
   });

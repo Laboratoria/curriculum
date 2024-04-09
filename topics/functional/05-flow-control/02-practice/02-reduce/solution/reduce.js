@@ -7,4 +7,4 @@ function reduce(arr, fn, initial) {
   })(0, initial); // IIFE. kick off recursion with initial values
 }
 
-module.exports = reduce;
+export default reduce;

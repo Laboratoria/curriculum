@@ -10,6 +10,6 @@ __
 
 // ------------------------------------------------
 // Exports de Common JS para verificación, no modificar
-module.exports = {
+export default {
   Robot
 }

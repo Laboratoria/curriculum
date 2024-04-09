@@ -6,4 +6,4 @@ const applyDiscount = (cart, discount) => {
   return cart;
 };
 
-module.exports = applyDiscount;
+export default applyDiscount;

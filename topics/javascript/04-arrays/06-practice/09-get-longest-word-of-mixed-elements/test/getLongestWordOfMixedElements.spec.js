@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const getLongestWordOfMixedElements = require('../solution/getLongestWordOfMixedElements');
+import { assert } from 'chai';
+import getLongestWordOfMixedElements from '../solution/getLongestWordOfMixedElements.js';
 
 describe('getLongestWordOfMixedElements()', () => {
   it("debería regresar '', para  ([3, 4, 5, 6, 7])", () => {

@@ -1,4 +1,4 @@
-function isPrime(num) {
+export function isPrime(num) {
   for (let i = 2; i <= (num / 2); i++) {
     if (num % i == 0) {
       return false;
@@ -7,7 +7,7 @@ function isPrime(num) {
   return true;
 }
 
-function getPrimes(start, end) {
+export function getPrimes(start, end) {
   const primes = [];
   for (let i = start; i < end; i++) {
     if (isPrime(i)) {
@@ -17,5 +17,3 @@ function getPrimes(start, end) {
   return primes;
 }
 
-exports.getPrimes = getPrimes;
-exports.isPrime = isPrime;

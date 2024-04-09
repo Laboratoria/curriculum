@@ -18,4 +18,4 @@ function whatToWear(season) {
  * Usaba operador de asignación en vez de comparación.
  */
 
-module.exports = whatToWear;
+export default whatToWear;

@@ -1,29 +1,32 @@
 const globalScope = (typeof WorkerNavigator !== 'undefined' ? WorkerNavigator : global);
-const Assert = globalScope.Assert = require('chai').assert;
-const Submission = require('../solution/simpleObjects');
+// TODO this case is weird, why imported in this way with global and require?
+// import Assert = globalScope.Assert from 'chai').assert;
+// const assert = globalScope.Assert;
+import { assert } from 'chai';
+import Submission from '../solution/simpleObjects.js';
 
 
 describe('module', () => {
 
   it('debería exportar un objeto con una propiedad "robot"', () => {
-    Assert.equal(typeof Submission, 'object');
-    Assert.ok(Submission.hasOwnProperty('robot'));
+    assert.equal(typeof Submission, 'object');
+    assert.ok(Submission.hasOwnProperty('robot'));
   });
 
   describe('robot', () => {
 
     it('debería ser un objeto', () => {
-      Assert.equal(typeof Submission.robot, 'object');
+      assert.equal(typeof Submission.robot, 'object');
     });
 
     it('debería tener una propiedad "smart"', () => {
-      Assert.ok(Submission.robot.hasOwnProperty('smart'));
+      assert.ok(Submission.robot.hasOwnProperty('smart'));
     });
 
     describe('robot.smart', () => {
 
       it('debería ser true', () => {
-        Assert.equal(Submission.robot.smart, true);
+        assert.equal(Submission.robot.smart, true);
       });
 
     });

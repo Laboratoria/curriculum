@@ -3,4 +3,4 @@ const areOdd = (n, m) => {
 
 };
 
-module.exports = areOdd;
+export default areOdd;

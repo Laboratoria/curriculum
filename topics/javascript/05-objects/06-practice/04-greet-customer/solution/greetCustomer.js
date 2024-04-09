@@ -29,4 +29,4 @@ const greetCustomer = (firstName) => {
   return undefined;
 };
 
-module.exports = greetCustomer;
+export default greetCustomer;

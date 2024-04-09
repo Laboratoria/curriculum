@@ -8,4 +8,4 @@ const reverse = (array) => {
   return result;
 };
 
-module.exports = reverse;
+export default reverse;

@@ -1,4 +1,4 @@
-module.exports = (str) => {
+export default (str) => {
   if (typeof str !== 'string') {
     throw new TypeError('El argumento str debe ser un string');
   }

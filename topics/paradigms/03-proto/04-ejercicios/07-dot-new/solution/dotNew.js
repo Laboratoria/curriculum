@@ -12,7 +12,5 @@ const Robot = {
 }
 
 // ------------------------------------------------
-// Exports de Common JS para verificación, no modificar
-module.exports = {
-	Robot
-}
+// Exports  para verificación, no modificar
+export { Robot };

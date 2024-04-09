@@ -1,4 +1,4 @@
-function Note(text) {
+export function Note(text) {
   this.text = text || '';
   this.createdAt = new Date();
   this.completed = false;
@@ -12,7 +12,7 @@ Note.prototype.toString = function () {
 };
 
 
-function Notes() {
+export function Notes() {
   this.data = [];
 }
 
@@ -35,6 +35,3 @@ Notes.prototype.toString = function () {
   return str;
 };
 
-
-exports.Note = Note;
-exports.Notes = Notes;

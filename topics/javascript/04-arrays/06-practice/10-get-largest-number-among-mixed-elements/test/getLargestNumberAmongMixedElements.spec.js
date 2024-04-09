@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const getLargestNumberAmongMixedElements = require('../solution/getLargestNumberAmongMixedElements');
+import { assert } from 'chai';
+import getLargestNumberAmongMixedElements from '../solution/getLargestNumberAmongMixedElements.js';
 
 describe('getLargestNumberAmongMixedElements()', () => {
   it("debería regresar 0, para  (['wat', 'no', true, true])", () => {

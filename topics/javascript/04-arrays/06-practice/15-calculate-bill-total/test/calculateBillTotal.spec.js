@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const calculateBillTotal = require('../solution/calculateBillTotal');
+import { assert } from 'chai';
+import calculateBillTotal from '../solution/calculateBillTotal.js';
 
 describe('calculateBillTotal()', () => {
   it('debería regresar 62.25, para 50', () => {

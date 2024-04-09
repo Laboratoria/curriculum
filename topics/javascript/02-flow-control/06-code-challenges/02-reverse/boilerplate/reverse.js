@@ -2,4 +2,4 @@ const reverse = (array) => {
 
 };
 
-module.exports = reverse;
+export default reverse;

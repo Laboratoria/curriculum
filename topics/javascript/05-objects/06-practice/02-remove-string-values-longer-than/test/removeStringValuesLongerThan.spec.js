@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const removeStringValuesLongerThan = require('../solution/removeStringValuesLongerThan');
+import { assert } from 'chai';
+import removeStringValuesLongerThan from '../solution/removeStringValuesLongerThan.js';
 
 describe('removeStringValuesLongerThan()', () => {
   it('Prueba: key-value mayor a 1', () => {

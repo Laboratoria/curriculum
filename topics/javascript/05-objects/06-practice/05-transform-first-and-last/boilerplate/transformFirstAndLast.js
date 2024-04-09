@@ -2,4 +2,4 @@ const transformFirstAndLast = (array) => {
   // your code here
 };
 
-module.exports = transformFirstAndLast;
+export default transformFirstAndLast;

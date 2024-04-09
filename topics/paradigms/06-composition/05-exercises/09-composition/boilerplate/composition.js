@@ -32,17 +32,17 @@ const robot = name => {
   return Object.assign({}, driver(state));
 };
 
-exports.murderRobot = name => {
+export const murderRobot = name => {
   //Escribe aquí tu código
 
 };
 
-exports.murderDog = name => {
+export const murderDog = name => {
   //Escribe aquí tu código
 
 };
 
-exports.murderRobotDog = name => {
+export const murderRobotDog = name => {
   //Escribe aquí tu código
 
 };

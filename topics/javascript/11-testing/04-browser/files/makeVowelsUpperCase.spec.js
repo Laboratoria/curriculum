@@ -1,14 +1,6 @@
-/* global assert: true, makeVowelsUpperCase: true */
-/* eslint global-require: "off" */
-
-if (typeof assert === 'undefined') {
-  assert = require('assert');
-}
-
-if (typeof makeVowelsUpperCase === 'undefined') {
-  makeVowelsUpperCase = require('./makeVowelsUpperCase');
-}
-
+// TODO what is different about this case?
+import { assert } from 'chai';
+import makeVowelsUpperCase from './makeVowelsUpperCase.js';
 
 describe('makeVowelsUpperCase()', () => {
   it('debería convertir "hola mundo" en "hOlA mUndO"', () => {

@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const greetCustomer = require('../solution/greetCustomer');
+import { assert } from 'chai';
+import greetCustomer from '../solution/greetCustomer.js';
 
 describe('greetCustomer()', () => {
   it("debería regresar 'Welcome back, Howard! So glad to see you again!', para  ('Howard')", () => {

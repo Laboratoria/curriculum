@@ -2,4 +2,4 @@ const fromListToObject = (array) => {
   // your code here
 };
 
-module.exports = fromListToObject;
+export default fromListToObject;

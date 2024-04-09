@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const getLongestOfThreeWords = require('../solution/getLongestOfThreeWords');
+import { assert } from 'chai';
+import getLongestOfThreeWords from '../solution/getLongestOfThreeWords.js';
 
 describe('getLongestOfThreeWords()', () => {
   it("debería regresar 'these', para 'these', 'three', 'words'", () => {

@@ -32,7 +32,7 @@ const robot = name => {
   return Object.assign({}, driver(state));
 };
 
-exports.murderRobot = name => {
+export const murderRobot = name => {
   const state = {
     name: name,
     speed: 100,
@@ -41,7 +41,7 @@ exports.murderRobot = name => {
   return Object.assign({}, driver(state), killer(state));
 };
 
-exports.murderDog = name => {
+export const murderDog = name => {
   const state = {
     name: name,
     speed: 100,
@@ -50,7 +50,7 @@ exports.murderDog = name => {
   return Object.assign({}, barker(state), pooper(state), killer(state));
 };
 
-exports.murderRobotDog = name => {
+export const murderRobotDog = name => {
   const state = {
     name: name,
     speed: 100,

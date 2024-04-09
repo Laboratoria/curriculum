@@ -1,4 +1,4 @@
-module.exports = function createStore() {
+export default function createStore() {
 
   let data = {};
 

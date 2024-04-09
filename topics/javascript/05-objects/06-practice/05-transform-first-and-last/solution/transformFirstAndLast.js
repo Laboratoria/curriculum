@@ -6,4 +6,4 @@ const transformFirstAndLast = (array) => {
   return obj;
 };
 
-module.exports = transformFirstAndLast;
+export default transformFirstAndLast;

@@ -1,5 +1,5 @@
-const { assert } = require('chai');
-const filterOddElements = require('../solution/filterOddElements');
+import { assert } from 'chai';
+import filterOddElements from '../solution/filterOddElements.js';
 
 describe('filterOddElements()', () => {
   it('Prueba: ([2, 4, 6, 8, 10]) => []', () => {
