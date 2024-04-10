@@ -162,7 +162,6 @@ puedes identificar los tipos de datos de cada uno ?
 - ¿Qué tipo de relación tiene la clase `Player` con `HumanPlayer`?
 - ¿Identificas los diferentes modificadores de acceso relacionados
  a los símbolos de visibilidad de atributos y métodos?
-atributos y métodos en cada clase?
 - ¿Cómo se define y se utiliza un constructor en Java?
 - ¿Qué es el encapsulamiento y cómo lo
 aplicarías a las clases del diagrama?
