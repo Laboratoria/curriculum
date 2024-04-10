@@ -802,6 +802,7 @@ Quando estiver pronta para codificar, sugerimos que comece assim:
   Atente-se que Cris não diferencia _Definição de Concluído_ de _Critérios de
   Aceitação_ e nós sim faremos. Mais detalhes no guia.
 * [Como dividir as H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
+* [O Que é Programação em Pares?](https://www.youtube.com/watch?v=T7xQnA2Qpak&feature=youtu.be)
 
 ## 11. Considerações para pedir seu Feedback do Projeto
 
