@@ -140,7 +140,8 @@ O arquivo `tsconfig.json` é usado para especificar a
 configuração do compilador TypeScript (TSC). Algumas
 das configurações comuns neste arquivo incluem a versão
 do ECMAScript de destino, a localização dos arquivos de
-origem e de saída, opções de compilação e outras configurações
+origem e de saída, opções de compilação e outras
+configurações
 relacionadas ao projeto TypeScript.
 
 > [!TIP]
@@ -326,11 +327,14 @@ let usuaria: Pessoa = {
 
 Neste exemplo:
 
-- A interface **Pessoa** define a estrutura de
-um objeto que deve ter propriedades como **nome** e
-**idade**, e opcionalmente pode ter a propriedade **email**.
-ção de código mais legível, sustentável e seguro, ao
-definir claramente a estrutura dos objetos em TypeScript.
+- A interface **Pessoa** define a estrutura de um objeto que deve
+ter propriedades como **nome** e **idade**, e opcionalmente
+pode ter a propriedade **email**.
+- A interface **Pessoa** é utilizada para definir a forma do objeto **usuário**.
+
+O uso de interfaces facilita a criação de código
+mais legível, manutenível e seguro ao definir
+claramente a estrutura dos objetos em TypeScript.
 
 ### Uso de interfaces em funções
 
@@ -492,8 +496,8 @@ existem algumas diferenças chave entre ambas.
     idade: number;
   };
 
-  // Erro: 'cargo' não existe no tipo 'Pessoa'
-  type Empregado = Pessoa & { cargo: string };
+  //Tenta-se adicionar 'rol' à 'Pessoa', mas ocorre um erro.
+  Pessoa.rol = string;
   ```
 
 - **Compatibilidade com uniões e interseções**
@@ -559,141 +563,97 @@ existem algumas diferenças chave entre ambas.
   };
   ```
 
-- **Declarar múltiplas interfaces ou tipos**
-  + **Interfaces**: Você pode declarar várias interfaces
-  em um mesmo bloco de escopo sem a necessidade de
-  usar interseções.
-
-  ```ts
-  interface A {
-    a: number;
-  }
-
-  interface B {
-    b: string;
-  }
-  ```
-
-  + **Tipos**: Se você tentar declarar dois tipos com o
-  mesmo nome em um mesmo bloco de escopo, ocorrerá
-  um erro. É necessário usar interseções para combinar tipos.
-
-  ```ts
-  type A = {
-    a: number;
-  };
-
-  // Erro: Redefinição do nome 'A'
-  type A = {
-    b: string;
-  };
-  ```
-
-- **Expressividade**
-  + **Interfaces**: São frequentemente usadas para
-  expressar a forma de objetos e são recomendadas
-  ao definir contratos para objetos.
-
-  + **Tipos**: São mais versáteis e podem expressar
-  formas de dados mais complexas, como uniões, interseções
-  e tipos condicionais.
-
-  Use interfaces quando estiver trabalhando principalmente
-  com objetos e contratos claros. Use tipos quando precisar
-  de recursos mais avançados e flexibilidade para trabalhar
-  com diferentes formas de dados.
-
-> [!IMPORTANT]
-> Ambos os tipos e interfaces têm seus usos específicos
-> em TypeScript. A escolha entre eles muitas vezes
-> depende das necessidades específicas de um projeto.
-> Em alguns casos, eles podem ser usados de forma
-> intercambiável, mas é importante entender suas
-> diferenças e escolher a abordagem que melhor atende
-> aos requisitos do código.
+Resumindo, tanto **interfaces** quanto **tipos**
+no TypeScript são ferramentas poderosas. Embora
+frequentemente sejam intercambiáveis, as diferenças
+na extensibilidade e características específicas podem
+influenciar na escolha entre eles dependendo do caso de uso.
 
 ## Boas práticas
 
-Ao trabalhar com TypeScript, é essencial adotar boas
-práticas para garantir um código claro, legível e eficiente.
-Algumas dessas práticas incluem:
+1. **_Tipagem explícita_**: Forneça tipos explícitos
+para variáveis, parâmetros de funções e retorno de
+funções para melhorar a clareza e detecção de erros.
 
-1. **Use Tipagem Forte**: Aproveite ao máximo a tipagem
-estática do TypeScript para evitar erros comuns e melhorar
-a confiabilidade do código.
+    ```ts
+    // Boa prática
+    function somar(a: number, b: number): number {
+      return a + b;
+    }
+    ```
 
-2. **Nomes Descritivos**: Dê nomes descritivos às variáveis, funções, tipos
-e interfaces para facilitar a compreensão do código por outros desenvolvedores.
+2. **_Evitar o uso de `any`_**: Evite o uso de
+any em favor de tipos mais específicos. Isso
+ajuda a aproveitar ao máximo o sistema de
+tipagem estática do TypeScript.
 
-3. **Evite "any"**: Minimize o uso do tipo "any", pois ele anula a vantagem da tipagem
-estática. Prefira especificar tipos adequados sempre que possível.
+    ```ts
+    // Evitar
+    let variavel: any = "exemplo";
 
-4. **Configuração do tsconfig.json**: Ajuste as configurações do arquivo `tsconfig.json`
-para atender às necessidades específicas do seu projeto.
-Isso pode incluir a versão do
-ECMAScript alvo, opções de compilação e outras configurações relevantes.
+    // Boa prática
+    let variavel: string = "exemplo";
+    ```
 
-5. **Interfaces para Estruturar Objetos**: Use interfaces para definir a
-estrutura de objetos e garantir consistência nas formas de dados.
+3. **_Interfaces para estruturar dados_**: Utilize
+interfaces para estruturar objetos e definir contratos
+claros. Facilita a manutenção e compreensão do código.
 
-6. **Type Aliases para Tipos Complexos**: Utilize type aliases para criar nomes
-mais descritivos para tipos complexos, melhorando a legibilidade do código.
+    ```ts
+    // Boa prática
+    interface Usuario {
+      nome: string;
+      idade: number;
+    }
+    ```
 
-7. **Evite Tipos Implícitos**: Evite depender fortemente de tipos implícitos,
-especialmente quando a legibilidade do código estiver em jogo.
-Forneça tipagem explícita quando necessário.
+4. **_Desestruturação e parâmetros com objetos_**:
+Utilize desestruturação e parâmetros com objetos
+para melhorar a legibilidade e evitar problemas
+com a ordem dos argumentos.
 
-8. **Testes Unitários**: Integre testes unitários em seu processo de
-desenvolvimento para validar a corretude do código e facilitar futuras alterações.
+    ```ts
+    // Boa prática
+    function imprimirInfo({ nome, idade }: Usuario): void {
+      console.log(`Nome: ${nome}, Idade: ${idade}`);
+    }
+    ```
 
-9. **Mantenha o Código Limpo**: Siga princípios de design de código limpo,
-mantendo funções curtas, evitando redundância e adotando uma abordagem modular.
+5. **_Modularização e organização de código_**:
+Organize seu código em módulos e siga práticas
+de organização para facilitar a manutenção e
+colaboração em projetos maiores.
 
-10. **Integração com Ferramentas de Build e IDEs**: Tire proveito da
-integração do TypeScript com ferramentas de build como o Webpack e IDEs
-como o Visual Studio Code para melhorar a eficiência do desenvolvimento.
+Estas são apenas algumas práticas recomendadas,
+mas tenha em mente que as boas práticas podem
+variar dependendo do contexto e dos requisitos
+específicos do projeto.
 
 ## Próximos passos
 
-Ao explorar o TypeScript, há diversos tópicos avançados que podem aprimorar
-ainda mais seu conhecimento e capacidade de desenvolvimento.
-Alguns desses tópicos incluem:
+Visite os seguintes links:
 
-- **Genéricos**: Explore o uso de genéricos para criar componentes flexíveis
-e reutilizáveis que funcionam com diferentes tipos de dados.
-
-- **Decorators**: Aprenda sobre decorators, uma característica poderosa
-que permite modificar ou estender comportamentos de classes, métodos e propriedades.
-
-- **Mixins**: Descubra como implementar mixins em TypeScript para
-compartilhar funcionalidades entre classes de maneira eficiente.
-
-- **Namespaces e Módulos**: Entenda como organizar seu código usando
-namespaces e módulos para evitar poluição do escopo global e melhorar a modularidade.
-
-- **Enums Avançados**: Explore recursos avançados de enums,
-como enums heterogêneos e enums computados.
-
-- **TypeScript no Front-end**: Aplique o TypeScript no desenvolvimento
-front-end usando frameworks como Angular ou React.
-
-Lembre-se de que o aprendizado contínuo e a prática são fundamentais
-para aprofundar seu domínio do TypeScript. Considere aplicar esses
-conceitos em projetos reais e participar de comunidades online para
-trocar experiências e aprender com outros desenvolvedores.
+- [Manual da documentação oficial](https://www.typescriptlang.org/docs/handbook/intro.html)
+- [Gerar o arquivo tsconfig.json](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
+- [Angular trabalha nativamente com TS](https://angular.io/guide/typescript-configuration)
+- [Node com TypeScript](https://nodejs.org/en/learn/getting-started/nodejs-with-typescript)
+- [React com TS](https://react.dev/learn/typescript)
+- [Aprenda TypeScript](https://www.tutorialsteacher.com/typescript)
+- [Começando um projeto vite (você pode usar TypeScript)](https://vitejs.dev/guide/)
+- [Codecademy Aprenda TypeScript](https://www.codecademy.com/learn/learn-typescript)
 
 ## Conclusão
 
-O TypeScript oferece uma abordagem poderosa para o desenvolvimento de
-software, combinando a flexibilidade do JavaScript com tipagem estática opcional.
-Ao adotar TypeScript, você fortalece a robustez do código, reduzindo erros e
-melhorando a manutenibilidade. Desde a instalação e configuração inicial até
-a aplicação de conceitos avançados, esta introdução proporcionou uma base
-sólida para explorar o TypeScript de maneira eficaz.
-
-Ao continuar sua jornada com TypeScript, experimente, teste, aprofunde-se
-em tópicos específicos e, acima de tudo, divirta-se explorando as
-possibilidades dessa linguagem de programação versátil.
-
-**Bem-vinda ao mundo do TypeScript, onde seu código se eleva a novos
-patamares de clareza, confiabilidade e eficiência!**
+O TypeScript evoluiu muito, hoje em dia é
+muito popular e sua capacidade de adicionar
+tipos estáticos ao JavaScript não só
+proporciona uma camada adicional de segurança
+e detecção de erros, mas também impulsiona a
+produtividade e escalabilidade de projetos.
+Ao aprender TypeScript, você se envolve em um
+ecossistema que incentiva a criação de código mais limpo,
+legível e sustentável. Se tiver alguma dúvida,
+não se esqueça de: usar ExplainDev, usar os
+canais do projeto, perguntar aos seus coaches,
+participar do git-camp e test-camp.
+Esperamos que esta Introdução ao TypeScript seja útil para você.

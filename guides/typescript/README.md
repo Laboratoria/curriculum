@@ -518,8 +518,8 @@ Aunque comparten similitudes, hay algunas diferencias clave entre ambas.
     edad: number;
   };
 
-  // Error: 'rol' no existe en el tipo 'Persona'
-  type Empleado = Persona & { rol: string };
+  //Se intenta añadir 'rol' a 'Persona', pero da error.
+  Persona.rol = string
   ```
 
 - **Compatibilidad con uniones e intersecciones**
