@@ -16,12 +16,18 @@ Antes de comenzar a codificar un router, debemos cubrir un par de conceptos,
 como la razón por la que existen los routers: las Single Page Application
 (aplicación de página única o SPA por sus siglas en inglés).
 
+Imagina una aplicación web tradicional que, cada vez que haces clic en un enlace,
+carga una página HTML completa. Aunque esto funcione, tiene un inconveniente:
+se carga demasiada información y la respuesta es más lenta, lo que afecta la
+experiencia de la usuaria. Una solución más eficiente
+es una Single Page Application (SPA).
+
 ## ¿Qué es una Single Page Application (SPA)?
 
 Un Aplicación de Página Única, en inglés Single Page Application (SPA)
 es una aplicación web que carga todo su contenido a partir de un único archivo HTML
 (comúnmente llamado `index.html`) y actualiza dinámicamente el contenido
-mientras el usuario interactúa con la aplicación.
+mientras la usuaria interactúa con la aplicación.
 
 En lugar de cargar páginas HTML separadas y completas cada vez que
 se realiza una acción, como hacer clic en un enlace, solo se carga
@@ -36,9 +42,9 @@ En el contexto de los SPA, un router es un [`módulo`](https://es.javascript.inf
 de JavaScript que gestiona la navegación dentro la aplicación sin necesidad de recargar
 la página completa. Su función principal es asignar las URL a las
 diferentes vistas o componentes de la aplicación y actualizar la interfaz
-de usuario según la URL actual.
+de usuaria según la URL actual.
 
-Por ejemplo, si un usuario está en la página de inicio de un SPA `www.website.com`,
+Por ejemplo, si una usuaria está en la página de inicio de un SPA `www.website.com`,
 luego hace clic en un link "About" que lo lleva a `www.website.com/about`,
 el router detecta los cambios en la URL, encuentra y carga dinámicamente el
 contenido correspondiente para "about". No existe un archivo `about.html` como tal,
@@ -89,8 +95,8 @@ Consulta la documentacion para familiarizarte con estas propiedades.
 ### Entonces, ¿qué son "routes" y "views"?
 
 En su forma más simple, las rutas (routes) generalmente se definen como pares
-`key-value`,
-donde `key` es el pathname de URL y el `value` es
+`key-value` dentro de un [objeto](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Working_with_objects),
+donde `key` (llave) es el pathname de URL y el `value` (valor) es
 una función asociada que genera la vista (view). Por ejemplo,
 en el siguiente bloque de código, se define un objeto, donde
 las llaves son las pathnames y los valores son funciones.
@@ -139,7 +145,7 @@ Con la History API podemos acceder y manipular el historial del navegador
 sin activar recargas de página completa. Un router en una SPA funciona
 junto con la History API para lograr esto. Carga la vista
 mientras se agrega al historial del navegador, preservando de esta manera la
-forma en que un usuario puede moverse atrás y adelante
+forma en que una usuaria puede moverse atrás y adelante
 usando los botones en su navegador sin necesidad de cargar una nueva pagina
 
 Si no fuera así, un SPA aún podría mostrar nuevas vistas
@@ -248,7 +254,7 @@ Para lograr esta funcionalidad en el código, `router.js` debe tener:
 
 ### 3. Responder a la navegación dentro de la aplicación
 
-Cuando un usuario hace clic en un enlace o botón, etc. en su aplicación
+Cuando una usuaria hace clic en un enlace o botón, etc. en su aplicación
 para navegar a otra página dentro de su aplicación, el router debe intervenir
 para simular la carga de una nueva página.
 
@@ -339,7 +345,7 @@ en formato objeto.
 linkEl.addEventListener('click', () => navigateTo("/about", { name: "Xochitl" }))
 ```
 
-Pero, ¿qué pasa si el usuario carga la URL directamente?
+Pero, ¿qué pasa si la usuaria carga la URL directamente?
 ¿De dónde vendrá el valor de `name`?
 
 Hay varias formas de hacerlo con la definición de rutas - algunas son más
@@ -383,7 +389,7 @@ para pasar a la vista. Lo mismo debe ocurrir cuando hay un evento `popstate`.
 
 ### 4. Responda a la navegación `forward` y `back` en el navegador
 
-Cuando un usuario utiliza los botones de avance o retroceso en el
+Cuando una usuaria utiliza los botones de avance o retroceso en el
 navegador dentro de su SPA el router necesita saber cuándo sucede esto,
 analice `window.location` para los parámetros `pathname` y `search`
 luego llame a la vista apropiada para el nombre de ruta pasando
@@ -395,17 +401,17 @@ En `router.js`, agregaríamos:
 Cuando la URL cambia, analiza el `pathname` y `search` desde la
 `location` (`window.location`) y luego llama a `renderView`.
 
-Necesitamos conectar esta función para que se active cuando el usuario avance
+Necesitamos conectar esta función para que se active cuando la usuaria avance
 o retroceda. Para lograr esto, podemos escuchar el evento `popstate`
 de la `window`. Cuando se activa `popstate`, significa que la URL ha cambiado
-debido a la navegación o interacción del usuario.
+debido a la navegación o interacción dla usuaria.
 
 [Más información sobre `popstate`.](https://developer.mozilla.org/en-US/docs/Web/API/Window/popstate_event)
 
 ### 5. Cargando una página de error
 
-Cuando el usuario carga una URL que no existe en la aplicación, la aplicación
-debería mostrar una vista que le dice al usuario que hay un error de algún
+Cuando la usuaria carga una URL que no existe en la aplicación, la aplicación
+debería mostrar una vista que le dice a la usuaria que hay un error de algún
 tipo, o que no se encuentra.
 
 Para apoyar esto comportamiento, las `routes` de una aplicación deben tener
@@ -430,8 +436,8 @@ Para lograr su funcionalidad, el router tiene dos variables globales y privados
 
 - `routes` - objeto `{}`: Esta variable almacena información sobre las rutas en
   tu SPA. Cada ruta está asociada con una ruta y una vista o componente
-  correspondiente. Si un usuario navega a una ruta específica, el router
-  mostrará la vista correspondiente.
+  correspondiente. Si una usuaria navega a una ruta específica, el router
+  mostrará la vista correspondiente, esto lo lograremos al aplicar [propiedades calculadas](https://es.javascript.info/object#propiedades-calculadas)
 
 - `rootEl` - Elemento DOM: Esta variable almacena el elemento donde el
   contenido SPA cambiará/aparecerá.
@@ -538,13 +544,18 @@ En su propio archivo `router.js`, implemente las partes del router siguiendo
 La API que revisamos define dos variables (`ROUTES` y `rootEl`)
 y seis funciones.
 
-Considere escribir pruebas en paralelo para cada función para comprender
-mejor su intención.
+En esta etapa, nuestro enfoque se centra en la creación de la
+primera vista, para lo cual utilizaremos
+cuatro funciones clave:
+`setRoutes`, `onURLChange`, `setRootEl`, y `renderView`.
+
+Contempla escribir pruebas de manera simultánea para cada función,
+ya que esto facilitará una comprensión más profunda de cada una.
 
 Exporte las funciones que serán utilizadas por otros módulos
-`setRoutes`, `onURLChange`, `setRootEl`, `navigateTo`.
+`setRoutes`, `onURLChange`, `setRootEl`.
 
-Aquí hay un resumen de `router.js` presentado con pseudocódigo:
+Así se presentaría tu archivo `router.js` con pseudocódigo, hasta este punto:
 
 ```js
 
@@ -561,12 +572,6 @@ export const setRoutes = (routes) => {
   // assign ROUTES
 }
 
-const queryStringToObject = (queryString) => {
-  // convert query string to URLSearchParams
-  // convert URLSearchParams to an object
-  // return the object
-}
-
 const renderView = (pathname, props={}) => {
   // clear the root element
   // find the correct view in ROUTES for the pathname
@@ -574,16 +579,9 @@ const renderView = (pathname, props={}) => {
   // render the correct view passing the value of props
   // add the view element to the DOM root element
 } 
-
-export const navigateTo = (pathname, props={}) => {
-  // update window history with pushState
-  // render the view with the pathname and props
-}
-
 export const onURLChange = (location) => {
-  // parse the location for the pathname and search params
-  // convert the search params to an object
-  // render the view with the pathname and object
+  // parse the location for the pathname
+  // render the view with the pathname
 }
 ```
 
@@ -615,7 +613,8 @@ window.addEventListener("DOMContentLoaded", () => {
 ### 5. Manejar la carga de la primera página
 
 Asegúrese de manejar la carga de la página inicial llamando a `onURLChange`
-con `window.location`.
+con `window.location`, dado que, a partir de la ejecución de `onURLChange`,
+se procederá a llamar a la función `renderView`.
 
 En `index.js`
 
@@ -627,14 +626,57 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 ```
 
-Pruebe para ver si, independientemente de qué URL válida se inicie su SPA,
-se carga la vista correcta.
+Verifique si, al iniciar su SPA con cualquier URL o path válido en `routes`,
+se carga la vista correspondiente.
 
 ### 6. Implementar la navegación en la SPA
 
-En sus vistas, puede utilizar enlaces de anclaje `<a>` o `<button>`
+Ahora implementaremos la navegación entre múltiples vistas.
+Para lograr esto, incorporaremos dos funciones clave:
+`navigateTo` y `queryStringToObject`.
+Estas funciones desempeñarán un papel fundamental al facilitar
+la transición entre vistas a través de las acciones de la usuaria
+y permitirán la transferencia de información entre ellas.
+
+Incorporaremos estas funciones en el archivo `router.js`. Es imperativo situarlas
+antes de la función `onURLChange`
+para asegurar que puedan ser invocadas por esta última.
+
+Al incorporar estas funciones, se realizarán modificaciones en el código de
+`onURLChange`. En lugar de procesar directamente los parámetros de la URL,
+se empleará el resultado de `queryStringToObject` para obtener estos parámetros
+y se transmitirán como un objeto a la función `navigateTo`.
+Ahora, la responsabilidad de renderizar la vista recaerá en `navigateTo`.
+
+```js
+//router.js ...
+
+const queryStringToObject = (queryString) => {
+  // convert query string to URLSearchParams
+  // convert URLSearchParams to an object
+  // return the object
+}
+
+export const navigateTo = (pathname, props={}) => {
+  // update window history with pushState
+  // render the view with the pathname and props
+}
+
+export const onURLChange = (location) => {
+  // parse the location for the pathname and search params
+  // convert the search params to an object
+  // call navigateTo with the pathname and object
+}
+```
+
+> [!TIP]
+> Es posible que sea la primera vez que uno de los parámetros tenga un valor predeterminado.
+> Para obtener más detalles al respecto,
+> te recomendaría revisar la [documentación relacionada](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/Default_parameters).
+
+En tus vistas, puede utilizar enlaces de anclaje `<a>` o `<button>`
 con `navigateTo` para navegar a diferentes rutas.
-Recuerde que `navigateTo` debe tomar argumentos para `pathname` y `props`.
+Recuerda que `navigateTo` debe tomar argumentos para `pathname` y `props`.
 
 ```js
 // import navigateTo
@@ -648,12 +690,16 @@ export const Home = (props) => {
 
 ### 7. Manejar hacia `forward` y `back`
 
-Asegúrese de estar escuchando `popstate` en `index.js` y llame a la función
-`onURLChange` cuando hay un `popstate`.
+Asegúrate de tener la escucha activa para el evento [popstate](https://developer.mozilla.org/es/docs/Web/API/Window/popstate_event)
+en el archivo `index.js` y, en consecuencia,
+invocar la función `onURLChange`
+cuando se detecte un cambio en dicho evento.
 
-Cuando un usuario hace clic en un enlace o navega usando los botones
-atrás/adelante del navegador, se llamará a esta función para actualizar
-la vista mostrada.
+Esta función se activa cada vez que una usuaria hace clic
+en un enlace, utiliza los botones de retroceso/avance del navegador
+o introduce directamente la URL en la barra de direcciones.
+Su propósito es actualizar la vista mostrada
+en respuesta a estas acciones de navegación.
 
 ```js
 // Handle URL changes
@@ -689,6 +735,10 @@ con el segundo argumento.
 ```js
 navigateTo("/", { nombre: "Xóchitl", id: "100"});
 ```
+
+Contar con la capacidad de transmitir información a una vista específica
+puede resultarnos útil, ya que nos brinda la flexibilidad de
+renderizar contenido de manera diferenciada en esa vista.
 
 ### 9. Manejo de errores de enrutamiento
 
