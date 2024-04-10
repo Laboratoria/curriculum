@@ -32,7 +32,7 @@ y la realices con rigurosidad.
 
 ![UXploradoras](https://raw.githubusercontent.com/Laboratoria/bootcamp/main/projects/02-uxploradoras/thumb.png)
 
-## 2. Lo que aprenderás:
+## 2. Lo que aprenderás
 
 - Al ser un proyecto corto, es clave definir el alcance y el plan de trabajo a
 nivel general, con detalle de etapas, entregables, tiempos y actividades
@@ -125,7 +125,7 @@ Ejemplo: [Splitwise](https://www.splitwise.com/),
 El proyecto está dividido en hitos, los cuales son como marcas de kilómetros en
 las carreteras, donde tú decides qué tan lejos quieres llegar. La decisión es
 tuya y dependerá del tiempo que tengas disponible día a día, de tu ritmo de
-aprendizaje y de la profundidad que quieras alcanzar. 
+aprendizaje y de la profundidad que quieras alcanzar.
 
 **Realizar los hitos obligatorios es indispensable para considerar el proyecto
 como completado, los demás hitos son opcionales, ya que son para profundizar
@@ -158,7 +158,7 @@ en exploración visual.*
 
 ¿Cómo entender a los usuarios de productos que aún no existen? Analizando
 productos de competidores u otras herramientas que usan para resolver sus
-necesidades. 
+necesidades.
 
 **Criterios de aceptación:**
 
@@ -254,7 +254,7 @@ Design y utilízalo en la construcción de tu propuesta.
 1. Modifica los estilos de Material Design según tu propuesta de diseño
 ([theme builder](https://m3.material.io/theme-builder#/custom))
 
-3. Descarga y utiliza la librería de [Material Design](https://m2.material.io/design/communication/data-visualization.html)
+2. Descarga y utiliza la librería de [Material Design](https://m2.material.io/design/communication/data-visualization.html)
 para dashboards
 
 ## 5. Documentación para portafolio
@@ -263,14 +263,19 @@ Durante el bootcamp irás desarrollando proyectos para fortalecer o construir
 tu portafolio como diseñadora UX, por eso es importante que al cierre de
 cada uno te tomes el tiempo para documentarlo como caso de estudio desde
 la perspectiva técnica. Considera incluir la siguiente información:
+
 - Diferenciar claramente que fue un proyecto técnico, sin colaboración con
 la empresa
+
 - El concepto de diseño visual y los principios técnicos que fundamentan la
 propuesta de diseño
+
 - Bocetos, diagramas, wireframes, pantallas y demás elementos visuales que
 explican la propuesta
+
 - Resultados de la validación con personas usuarias y lo que consideras
 que aún debe iterarse
+
 - Tus aprendizajes personales, tanto técnicos como en habilidades para la vida
 
 **Esta documentación será indispensable para tu sesión de Project Feedback al
