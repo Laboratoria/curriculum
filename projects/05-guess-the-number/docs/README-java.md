@@ -266,8 +266,7 @@ jugadora y ambas clases.
 Agrega instancias de las jugadoras. En la clase `GuessTheNumberGame`,
 define e inicializa
 [instancias](https://es.stackoverflow.com/questions/7576/qu%C3%A9-es-una-instancia-en-poo)
-de `HumanPlayer` y `ComputerPlayer`. Puedes tener múltiples
-instancias de cada tipo de jugadora si lo deseas. Además,
+de `HumanPlayer` y `ComputerPlayer`. Además,
 modifica el método `checkGuess(Player player)` para que invoque
 el método `makeGuess()` correspondiente a la jugadora pasada como
 argumento. Luego, compara la suposición con el número objetivo
