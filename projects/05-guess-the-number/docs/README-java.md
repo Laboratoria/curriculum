@@ -114,6 +114,11 @@ usuaria al finalizar cada hito.
 
 A continuación, te dejamos algunos hitos como sugerencia para que construyas tu proyecto.
 
+> [!TIP]
+> Considera crear una rama para el desarrollo de cada hito.
+> Crear ramas para cada hito te ayudará a tener un
+> desarrollo más organizado, flexible y eficiente.
+
 ### Hito 1 - Configuración del entorno de trabajo
 
 Debes configurar tu entorno de trabajo, es decir:
@@ -176,14 +181,17 @@ asociación, herencia, etc.)? y
 
 ### Hito 3 - Crea y estructura tu proyecto
 
-Es crucial que es este punto crees tu proyecto y
-desarrolles las clases
-del juego conforme al diagrama de
-clases proporcionado. Cada clase debe definir
+Es crucial que en este punto crees tu proyecto
+y desarrolles las primeras clases
+`GuessTheNumberGame`, `Player` y `HumanPlayer`
+del juego conforme al diagrama de clases
+proporcionado, ya que serán las primeras
+clases que debes usar para hacer pruebas
+en tu proyecto. Cada clase debe definir
 cuidadosamente sus atributos y métodos,
-respetando la adecuada configuración de visibilidad
-(como se explica en este enlace sobre
-[modificadores de acceso en Java](https://www.simplilearn.com/tutorials/java-tutorial/access-modifiers#:~:text=Access%20modifiers%20in%20Java%20allow,control%20access%20from%20other%20classes.)).
+respetando la adecuada configuración de visibilidad,
+como se explica en este enlace sobre
+[modificadores de acceso en Java](https://www.simplilearn.com/tutorials/java-tutorial/access-modifiers#:~:text=Access%20modifiers%20in%20Java%20allow,control%20access%20from%20other%20classes.).
 
 🛠️ Recursos útiles:
 
@@ -221,6 +229,12 @@ para evaluar el resultado y, en función del mismo,
 indica si el número es demasiado alto, demasiado
 bajo o si ha acertado.
 
+Toma en cuenta que debes almacenar cada una
+de las suposiciones de la jugadora en el
+atributo `guesses`. Para ello profundiza en las
+diferencias entre
+[arrays](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html) y
+[ArrayLists](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html).
 🛠️ Recursos utiles:
 
 - [Java: Cómo leer y presentar datos con los comandos de entrada y salida](https://www.programarya.com/Cursos/Java/Entrada-de-datos)
@@ -237,7 +251,7 @@ bajo o si ha acertado.
 ### Hito 5 - Agregando más jugadoras
 
 En este hito, incorporaras una nueva jugadora al
-juego utilizando la clase ya definida `ComputerPlayer`.
+juego creando la clase `ComputerPlayer`.
 
 1. `makeGuess()` en `ComputerPlayer`:
 Permite que la computadora u oponente virtual
