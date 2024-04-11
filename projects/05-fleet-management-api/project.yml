@@ -13,3 +13,10 @@ learningObjectives:
   - scm/github/setup
   - scm/github/collaboration
   - scm/github/project-management
+  - typescript/basic-types/primitives
+  - typescript/basic-types/arrays
+  - typescript/basic-types/functions
+  - typescript/basic-types/object-types
+  - typescript/basic-types/union-types
+  - typescript/basic-types/interfaces
+  - typescript/basic-types/enums
