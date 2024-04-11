@@ -1413,7 +1413,7 @@ angular/components-and-templates:
       url: https://angular.io/guide/architecture-components#introduction-to-components
 
  angular/components-lifecycle:
-  title: Components Lifecycle
+  title: Component Lifecycle (ej. ngOnInit, ngOnChanges, ...)
   links:
     - title: Component Lifecycle - Documentación oficial (en inglés)
       url: https://angular.io/guide/lifecycle-hooks
