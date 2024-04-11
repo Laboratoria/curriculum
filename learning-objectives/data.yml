@@ -89,6 +89,7 @@ firebase:
 
 angular:
   - components-and-templates
+  - components-lifecycle
   - structural-directives
   - input-output
   - services
