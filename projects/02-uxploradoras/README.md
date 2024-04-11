@@ -3,12 +3,13 @@
 ## Índice
 
 - [1. Preámbulo](#1-preámbulo)
-- [2. Lo que aprenderás](#2-lo-que-aprenderas)
-- [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-- [4. Consideraciones](#3-consideraciones)
-- [5. Alcance](#4-alcance)
-- [6. Documentación para portafolio](#7-documentación-para-portafolio)
-- [7. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+- [2. Resumen](#2-resumen)
+- [3. Lo que aprenderás](#3-lo-que-aprenderas)
+- [4. Objetivos de aprendizaje](#4-objetivos-de-aprendizaje)
+- [5. Consideraciones](#5-consideraciones)
+- [6. Alcance](#6-alcance)
+- [7. Documentación para portafolio](#7-documentación-para-portafolio)
+- [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
 
 ---
 
@@ -19,6 +20,8 @@ pilares técnicos que nos permiten generar productos de alto valor estético y
 funcional. En este proyecto nos enfocaremos tanto en la arquitectura de
 información como en la interface visual de una plataforma digital, para
 profundizar en los aspectos más técnicos que fundamentan nuestras propuestas.
+
+## 2. Resumen
 
 **Tu misión será diseñar un dashboard desde cero, empezando con la jerarquía y
 arquitectura de la información (agrupación, etiquetas, navegación), el diseño de
@@ -33,7 +36,7 @@ y la realices con rigurosidad.
 
 ![UXploradoras](https://raw.githubusercontent.com/Laboratoria/bootcamp/main/projects/02-uxploradoras/thumb.png)
 
-## 2. Lo que aprenderás
+## 3. Lo que aprenderás
 
 - Al ser un proyecto corto, es clave definir el alcance y el plan de trabajo a
 nivel general, con detalle de etapas, entregables, tiempos y actividades
@@ -73,7 +76,7 @@ propios errores.
 una “ruta”, identificar dependencias y posibles impedimentos. Logra priorizar
 y organizar su trabajo de forma adaptativa en lugar de intentar “predecir”.
 
-## 3. Objetivos de aprendizaje
+## 4. Objetivos de aprendizaje
 
 > ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
@@ -83,7 +86,7 @@ y organizar su trabajo de forma adaptativa en lugar de intentar “predecir”.
 > Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
 > que contempla nuestra currícula.
 
-## 4. Consideraciones
+## 5. Consideraciones
 
 - No se permite realizar entrevistas ni encuestas, con el fin de que te atrevas
 a realizar el proceso de diseño de forma experimental. Las pruebas de
@@ -102,7 +105,7 @@ que algunas soluciones serán similares dado que resuelven el mismo reto,
 pero nuestra forma de pensar y resolver es única, atrévete a explorar más
 allá de lo convencional.
 
-## 5. Alcance
+## 6. Alcance
 
 Para realizar el proyecto, tendrán que elegir una categoría de producto digital,
 ya que necesitarás plataformas de referencia. Aquí te damos algunas opciones
@@ -258,7 +261,7 @@ Design y utilízalo en la construcción de tu propuesta.
 2. Descarga y utiliza la librería de [Material Design](https://m2.material.io/design/communication/data-visualization.html)
 para dashboards
 
-## 6. Documentación para portafolio
+## 7. Documentación para portafolio
 
 Durante el bootcamp irás desarrollando proyectos para fortalecer o construir
 tu portafolio como diseñadora UX, por eso es importante que al cierre de
@@ -283,7 +286,7 @@ que aún debe iterarse
 cierre del proyecto. No te preocupes por hacerlo perfecto, seguirás iterándolo
 durante todo el Bootcamp. [Acá puedes encontrar una guía →](https://laboratoria1.gitbook.io/job-search-preparation-ux-es/ruta-a-busqueda-de-vacantes/practica-simulacion-tech-mentor-a-1)**
 
-## 7. Pistas, tips y lecturas complementarias
+## 8. Pistas, tips y lecturas complementarias
 
 Durante el desarrollo del proyecto, las coaches estaremos compartiendo
 información por Slack y en los espacios síncronos que sean necesarios. Además,
