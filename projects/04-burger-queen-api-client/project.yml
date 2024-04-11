@@ -23,7 +23,13 @@ learningObjectives:
   - angular
   - react
   - vue
-  - typescript
+  - typescript/basic-types/primitives
+  - typescript/basic-types/arrays
+  - typescript/basic-types/functions
+  - typescript/basic-types/object-types
+  - typescript/basic-types/union-types
+  - typescript/basic-types/interfaces
+  - typescript/basic-types/enums
   - user-centricity/centricity
   - product-design/interactivity
   - product-design/visual-design
