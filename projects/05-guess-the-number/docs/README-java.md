@@ -308,33 +308,64 @@ la lógica de tu juego basándote en comportamientos. Por ejemplo, crea pruebas 
 
 ### Hito 8 (Edición Hacker) - Creación de una "inteligencia" para jugar contra la computadora
 
-En este hito, que consideramos como Edición Hacker, puedes crear la lógica
-para que los número de la segunda jugadora, cuando estás jugando contra la computadora,
-sean más inteligentes.  Estos números pueden aprovechar la información
-sobre si la suposición anterior fue alta o baja en relación con el número
+En este hito, que consideramos como Edición Hacker,
+puedes crear la lógica
+para que los número de la segunda jugadora, cuando
+estás jugando contra la computadora,
+sean más inteligentes.  Estos números pueden
+aprovechar la información
+sobre si la suposición anterior fue alta o baja
+en relación con el número
 objetivo, generando así un juego más emocionante.
 
-Para lograrlo, puedes crear un método adicional en
-la clase `ComputerPlayer`, por ejemplo, llamado
-`makeSmartGuess()`. En esta función, se utilizaría
-la información sobre si la suposición anterior fue
-alta o baja en relación con el número objetivo. La
-intención es ajustar la lógica de generación de
-suposiciones para que la computadora realice
-estimaciones más precisas y estratégicas.
+1. Crea la clase `SmartComputerPlayer` que
+[extienda](https://www.w3schools.com/java/ref_keyword_extends.asp) de `ComputerPlayer`.
 
-Seguidamente, necesitarás actualizar el método
-`checkGuess(Player player)` en la clase `GuessTheNumberGame`.
-Cuando la jugadora sea la computadora, deberás modificar la
-llamada al método `makeGuess()` por `makeSmartGuess()`.
-Es esencial asegurarse de proporcionar la información
-necesaria sobre la suposición anterior a la función
-`makeSmartGuess()`, de modo que la estrategia de suposición
-se base en datos históricos, mejorando así la inteligencia del juego.
-Para la implementación de este lógica adicional es posible
-que necesites agregar nuevos atributos o métodos que
-modifiquen el diagrama de clases inicial, no hay ningún
-problema en esto siempre y cuando mantengan la misma semántica
+2. Implementa en la clase `SmartComputerPlayer`
+un método `makeSmartGuess()` que utilizará la
+información sobre la suposición anterior para
+generar estimaciones más precisas y estratégicas.
+Si la última suposición fue demasiado alta,
+`makeSmartGuess()` reducirá el límite superior
+de su rango de búsqueda al valor de la última
+suposición menos uno.
+
+3. Actualiza el método `checkGuess(Player player)`
+en la clase `GuessTheNumberGame`. Cuando la
+jugadora sea la computadora, modifica la llamada
+al método `makeGuess()` por `makeSmartGuess()`.
+
+4. Asegurarse de proporcionar la información
+necesaria sobre la suposición anterior a la
+función `makeSmartGuess()`, para que la estrategia
+de suposición se base en datos históricos y mejore
+la inteligencia del juego.
+
+5. Realiza pruebas unitarias para `SmartComputerPlayer`,
+asegurando que su comportamiento funcione como se
+espera bajo diferentes escenarios de juego:
+    1. **Prueba de límite superior e inferior**:
+    Verifica que `makeSmartGuess()` genere
+    correctamente una suposición dentro del
+    rango esperado, tanto en el límite
+    superior como en el límite inferior
+    del rango de búsqueda.
+    2. **Prueba de suposiciones consecutivas**:
+    Realiza varias suposiciones consecutivas y
+    verifica que `makeSmartGuess()` ajuste los
+    límites del rango de búsqueda correctamente
+    en función de las suposiciones anteriores,
+    manteniendo una estrategia coherente.
+    3. **Prueba de comportamiento aleatorio**:
+    Realiza suposiciones aleatorias y verifica
+    que `makeSmartGuess()` responda correctamente,
+    manteniendo un comportamiento estratégico
+    independientemente de la secuencia de suposiciones.
+
+Con estos pasos, la clase `SmartComputerPlayer`
+estará lista y funcionando, permitiendo que la
+jugadora de computadora genere estimaciones
+más inteligentes y estratégicas durante el juego.
 
 ## 5. Recomendaciones
 
