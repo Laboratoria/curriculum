@@ -1512,7 +1512,7 @@ angular/components-and-templates:
     - title: Introduction to components and templates - Documentação oficial (em inglês)
       url: https://angular.io/guide/architecture-components#introduction-to-components
 
- angular/components-lifecycle:
+angular/component-lifecycle:
   title: Component Lifecycle (ej. ngOnInit, ngOnChanges, ...)
   links:
     - title: Component Lifecycle - Documentação oficial (em inglês)
