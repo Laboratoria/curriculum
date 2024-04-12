@@ -3,7 +3,7 @@
 ## Índice
 
 - [1. Preámbulo](#1-preámbulo)
-- [2. Resumen](#2-resumen)
+- [2. Resumen del proyecto](#2-resumen-del-proyecto)
 - [3. Lo que aprenderás](#3-lo-que-aprenderas)
 - [4. Objetivos de aprendizaje](#4-objetivos-de-aprendizaje)
 - [5. Consideraciones](#5-consideraciones)
@@ -21,7 +21,7 @@ funcional. En este proyecto nos enfocaremos tanto en la arquitectura de
 información como en la interface visual de una plataforma digital, para
 profundizar en los aspectos más técnicos que fundamentan nuestras propuestas.
 
-## 2. Resumen
+## 2. Resumen del proyecto
 
 **Tu misión será diseñar un dashboard desde cero, empezando con la jerarquía y
 arquitectura de la información (agrupación, etiquetas, navegación), el diseño de
