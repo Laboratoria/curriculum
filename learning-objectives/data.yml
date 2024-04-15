@@ -89,6 +89,7 @@ firebase:
 
 angular:
   - components-and-templates
+  - component-lifecycle
   - structural-directives
   - input-output
   - services
@@ -273,6 +274,44 @@ python:
       - viewset
       - apiview
 
+csharp:
+  - data-types:
+      - primitives
+      - non-primitives
+      - structs
+      - enums
+      - anonymous-types
+      - dynamic-types
+  - collections:
+      - lists
+      - arrays
+      - sets
+  - variables
+  - conditionals
+  - loops
+  - operators
+  - generics
+  - access-modifiers
+  - namespaces
+  - functions:
+      - lambda-functions
+      - decorators
+  - error-handling:
+      - try-catch
+      - throw
+  - linq
+  - async-await
+  - .net-core
+  - nuget-packages
+  - testing:
+      - xunit
+      - mstest
+  - entity-framework:
+      - code-first
+      - models
+      - fluent-api
+      - controllers
+      - migrations
 
 object-oriented-programming:
   - classes

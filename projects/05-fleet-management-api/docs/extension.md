@@ -49,7 +49,7 @@ En la carpeta `taxis` encontrarás el archivo `taxis.txt`. En cada línea
 del archivo, encontrarás el identificador (ID) y placa de un taxi. La
 información esta separada entre sí por comas.
 
-![Archivo taxis.txt](./docs/first-10-lines-taxis-txt.png "Archivo taxis.txt")
+![Archivo taxis.txt](https://raw.githubusercontent.com/Laboratoria/curriculum/d5b8aec07b9436348c5e1eb156926b50f8ab795f/projects/05-fleet-management-fullstack/docs/first-10-lines-taxis-txt.png "Archivo taxis.txt")
 
 En la carpeta `trajectories` encontrarás 10.357 archivos con extensión
 txt. Cada archivo contiene las ubicaciones de un taxi. El nombre del archivo
@@ -59,7 +59,7 @@ estos archivos, encontrarás el identificador del taxi (ID), la fecha y hora,
 latitud y longitud de la ubicación. En una línea, la información está
 separada entre sí por comas.
 
-![Archivo 9557.txt](./docs/first-10-lines-9557-txt.png "Archivo 9557.txt")
+![Archivo 9557.txt](https://raw.githubusercontent.com/Laboratoria/curriculum/d5b8aec07b9436348c5e1eb156926b50f8ab795f/projects/05-fleet-management-fullstack/docs/first-10-lines-9557-txt.png "Archivo 9557.txt")
 
 Nota: La información de taxis y ubicaciones ha sido extraída del proyecto
 [T-Drive: Driving Directions based on Taxi Traces](https://shorturl.at/enBJW)
@@ -67,7 +67,8 @@ de Microsoft.
 
 Deberás entonces desarrollar una Interfaz de Línea de Comando (CLI) que
 cargue la información de los archivos de texto a la base
-de datos. Sin embargo, ten en cuenta que en este proyecto procesarás más de 10 mil
+de datos. Sin embargo, ten en cuenta que en este proyecto
+procesarás más de 10 mil
 archivos y tendras una base de datos con conexiones limitadas. Discute con
 una coach que estrategias puedes implementar para que ni computadora ni la
 base de datos mueran en el intento de cargar la información.
@@ -77,6 +78,7 @@ La especificación del CLI depende de la tecnología elegida para el proyecto.
 * [Java](./extension-cli.md#java)
 * [NodeJs](./extension-cli.md#node-js)
 * [Python](./extension-cli.md#python)
+* [C#](./extension-cli.md#c)
 
 ### Definición de terminado
 

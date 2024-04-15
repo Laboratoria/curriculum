@@ -2,6 +2,8 @@
 
 ## Stack de tecnologías
 
+* [TypeScript][https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html]:
+  para agrega características de tipado estático en JavaScript.
 * [Express](https://expressjs.com/en/starter/hello-world.html):
   como librería para implementar un servidor HTTP.
 * [Prisma](https://www.prisma.io/): cómo
