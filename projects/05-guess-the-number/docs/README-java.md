@@ -319,25 +319,33 @@ en relación con el número
 objetivo, generando así un juego más emocionante.
 
 1. Crea la clase `SmartComputerPlayer` que
-[extienda](https://www.w3schools.com/java/ref_keyword_extends.asp) de `ComputerPlayer`.
+[extienda](https://www.w3schools.com/java/ref_keyword_extends.asp) de `Player`.
 
-2. Implementa en la clase `SmartComputerPlayer`
-un método `makeSmartGuess()` que utilizará la
-información sobre la suposición anterior para
-generar estimaciones más precisas y estratégicas.
-Si la última suposición fue demasiado alta,
-`makeSmartGuess()` reducirá el límite superior
-de su rango de búsqueda al valor de la última
+2. En la clase `SmartComputerPlayer`,
+sobreescribe
+([@Override](https://www.geeksforgeeks.org/overriding-in-java/))
+el método `makeGuess()` heredado de `Player`
+y añade propiedades
+adicionales como `min` y `max` para ajustar
+dinámicamente el rango de búsqueda
+del número aleatorio a generar.
+Este método utilizará la información
+sobre la suposición anterior para
+realizar estimaciones más precisas y
+estratégicas. En caso de que la última
+suposición haya sido demasiado alta,
+`makeGuess()` reducirá el límite superior
+del rango de búsqueda al valor de la última
 suposición menos uno.
 
 3. Actualiza el método `checkGuess(Player player)`
 en la clase `GuessTheNumberGame`. Cuando la
 jugadora sea la computadora, modifica la llamada
-al método `makeGuess()` por `makeSmartGuess()`.
+al método `makeGuess()` por de `SmartComputerPlayer` .
 
 4. Asegurarse de proporcionar la información
 necesaria sobre la suposición anterior a la
-función `makeSmartGuess()`, para que la estrategia
+función `makeGuess()` de `SmartComputerPlayer`, para que la estrategia
 de suposición se base en datos históricos y mejore
 la inteligencia del juego.
 
@@ -345,20 +353,20 @@ la inteligencia del juego.
 asegurando que su comportamiento funcione como se
 espera bajo diferentes escenarios de juego:
     1. **Prueba de límite superior e inferior**:
-    Verifica que `makeSmartGuess()` genere
+    Verifica que `makeGuess()` genere
     correctamente una suposición dentro del
     rango esperado, tanto en el límite
     superior como en el límite inferior
     del rango de búsqueda.
     2. **Prueba de suposiciones consecutivas**:
     Realiza varias suposiciones consecutivas y
-    verifica que `makeSmartGuess()` ajuste los
+    verifica que `makeGuess()` ajuste los
     límites del rango de búsqueda correctamente
     en función de las suposiciones anteriores,
     manteniendo una estrategia coherente.
     3. **Prueba de comportamiento aleatorio**:
     Realiza suposiciones aleatorias y verifica
-    que `makeSmartGuess()` responda correctamente,
+    que `makeGuess()` responda correctamente,
     manteniendo un comportamiento estratégico
     independientemente de la secuencia de suposiciones.
 
