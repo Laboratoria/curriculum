@@ -237,7 +237,8 @@ Observe que você deve montar cada unidade.
 as suposições do jogador
 atribuir `guesses`. Para fazer isso, não se aprofunda
 diferenças entre
-[matrizes](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html) e
+[matrizes](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+e
 [ArrayLists](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html).
 
 🛠️ Recursos úteis:
