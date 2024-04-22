@@ -234,6 +234,7 @@ atributo `guesses`. Para ello profundiza en las
 diferencias entre
 [arrays](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html) y
 [ArrayLists](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html).
+
 🛠️ Recursos utiles:
 
 - [Java: Cómo leer y presentar datos con los comandos de entrada y salida](https://www.programarya.com/Cursos/Java/Entrada-de-datos)
