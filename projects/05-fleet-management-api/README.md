@@ -210,41 +210,141 @@ Puedes implementar este proyecto en JavaScript, Python o Java.
 
 ## 7. Pistas, tips y lecturas complementarias
 
-### Modelamiento de datos
+Te proponemos los siguientes pasos para iniciar con el proyecto
+
+### Paso 1. Comprender que es una API REST
+
+En primer lugar, asegurate de comprender qué es una API REST.
+Para esto puedes consultar en internet o preguntarle a
+ChatGPT. Habla con una coach en tu proximo Office Hours para confirmar tus aprendizajes.
+En particular, te recomendamos ver leer este
+[artículo]( https://dev.to/dennysjmarquez/todo-lo-que-necesitas-saber-sobre-api-rest-glosario-de-terminos-esenciales-y-mas-29pc).
+
+### Paso 2. Crear una instancia de Postgresql en Vercel
 
 La base de datos recomendada para tu aplicación es PostgreSQL. Te
 recomendamos usar [vercel Postgresql](https://vercel.com/docs/storage/vercel-postgres)
 para que no tengas que instalar PostgreSQL en tu computadora.
 
-Una vez tengas acceso a una instancia de PostgreSQL, deberás crear tablas en
-tu base de datos para almacenar la información entregada. Te recomendamos
-entonces crear dos tablas, una para almacenar la información de taxis y otra
-para almacenar la información de ubicaciones. Deberás definir las columnas
-de cada tabla de acuerdo a la información entregada.
+Para crear una base de datos postgresql en Vercel usa la
+[documentación oficial](https://vercel.com/docs/storage/vercel-postgres/quickstart).
+Identifica la siguiente información porque la necesitarás para
+conectarte a tu base de datos
 
-Puedes crear una tabla en PostgreSQL usando
+* POSTGRES_USER
+* POSTGRES_HOST
+* POSTGRES_PASSWORD
+* POSTGRES_DATABASE
+
+### Paso 3. Conectar la instancia de PostgresSQL usando pgAdmin
+
+Una vez hayas creado una instancia de PostgreSQL en Vercel,
+deberás conectarte a ella. Te recomendamos que instales
+[pgAdmin](https://www.pgAdmin.org/download/),
+un GUI (Graphical User Interface) para interactuar con la base de datos.
+
+Con _pgAdmin_ intenta conectarte a la base de datos
+usando la información suministrada por vercel.
+
+### Paso 4. Crear las tablas y cargar la información
+
+En este punto, ya puedes trabajar en la
+[Historia de Usuaria 1](#historia-de-usuario-1-cargar-información-a-base-de-datos).
+Deberás crear las tablas en tu base de datos y cargar la
+información solicitada.
+Puedes crear una tabla usando la interfaz gráfica de pgAdmin
+o en usando
 [SQL](https://www.postgresqltutorial.com/postgresql-create-table/).
 
-### Definir endpoints de API
+### Paso 5. Crear tu primer endpoint
 
-Deberás definir y documentar los endpoints de tu API.
-Debes usar [Swagger](https://swagger.io/) para esto.
+Ya es hora de escribir código. Tu primer objetivo
+es crear un proyecto que al ejecutarse cree un
+servidor HTTP que responda a la petición GET /taxis
+con un "hola mundo".
 
-Para una API REST debes definir para cada endpoint entre otras cosas el
-[método HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods),
-url, parámetros,
-[encabezados](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers),
-[códigos HTTP de respuesta](https://shorturl.at/bdegB)
-y
-[cuerpo](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages).
+Te recomendamos usar 
+[Postman](https://learning.postman.com/docs/getting-started/first-steps/overview/)
+para confirmar
+que el endpoint que desarrolles responda segun
+lo solicitado.
 
-Por ejemplo, en la siguiente figura se define un endpoint para consultar la
-información de los taxis en la aplicación. El método del endpoint es _GET_,
-la url es _/taxis_. Recibe un parámetro _query_, retorna la información con
-_código HTTP_ 200 en formato json gracias al _header_
-`Content-type` con valor `application/json`.
+El procedimiento recomendado dependerá del lenguaje de programación
+que hayas elegido:
 
-![Ejemplo Endpoint API Rest](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/fleet-management-api-java%2Fexample-endpoint-api-rest.png?alt=media)
+* Si estás usando NodeJS, puedes seguir este
+[tutorial](https://hackernoon.com/how-to-setup-a-nodejs-app-with-express-and-typescript)
+para crear un servidor HTTP con express y TypeScript
+* Si estás usando Java, puedes seguir este
+[video de Primer Endpoint con Java](https://youtu.be/-FRu28PvH6Q)
+* Si estás usando Python, puedes
+[el tutorial _Minimal Application_ de la  
+documantación oficial de Flask](https://flask.palletsprojects.com/en/3.0.x/quickstart/#a-minimal-application)  
+* Si estás usando C#, puedes seguir
+[el tutorial de la  
+documantación oficial de C#](https://learn.microsoft.com/es-es/aspnet/core/tutorials/first-web-api?view=aspnetcore-8.0&tabs=visual-studio)
+
+### Paso 6.Conectar la instancia de Postgresql desde código
+
+Luego vas a necesitar elegir un módulo o librería para
+interactuar con nuestra base de datos desde el lenguaje
+de desarrollo elegido.
+
+La librería recomendada dependerá del lenguaje de programación
+que hayas elegido:
+
+* Si estás usando NodeJS, puedes instalar y configurar
+[Prisma](https://www.prisma.io/docs/orm/overview/introduction/what-is-prisma)
+* Si estás usando Java, puedes instalar y configurar
+[Hibernate](https://docs.spring.io/spring-framework/reference/data-access/orm/hibernate.html)
+* Si estás usando Python, puedes instalar y configurar
+[SqlAlchemy](https://docs.sqlalchemy.org/en/latest/orm/quickstart.html)
+* Si estás usando C#, puedes instalar  y configurar
+[Npgsql](https://www.npgsql.org/doc/index.html)
+
+### Paso 7. Modificar endpoint para consultar base de datos  
+
+Utiliza la librería elegida para consultar la base de
+datos y que tu API responda a la petición GET
+/taxis con el listado de taxis tal como se especifica
+en la
+[documantación](https://app.swaggerhub.com/apis-docs/ssinuco/FleetManagementAPI/1.0.0#/taxis/getTaxi).
+
+De nuevo, usa [Postman](https://learning.postman.com/docs/getting-started/first-steps/overview/) para confirmar
+que el endpoint que desarrolles responda segun
+lo solicitado.
+
+### Paso 8. Soportar parametros en el endpoint
+
+De acuerdo a la documantación
+[documantación](https://app.swaggerhub.com/apis-docs/ssinuco/FleetManagementAPI/1.0.0#/taxis/getTaxi)
+el endpoint GET /taxis soporta 3 parametros: `plate`, `page` y `limit`.
+
+Modifica tu código para soportar peticiones a tu endpoint
+con estos parámetros. Usa [Postman](https://learning.postman.com/docs/getting-started/first-steps/overview/) para probar tu endpoint
+con diferentes valores de estos parámetros.
+
+### Paso 9. Escribir pruebas e2e para el endpoint
+
+Elige un módulo o librería para escribir pruebas e2e de tu endpoint.
+
+La librería recomendada dependerá del lenguaje de programación
+que hayas elegido:
+
+* Si estás usando NodeJS, puedes instalar y configurar
+[Node-postgres](https://node-postgres.com/)
+o
+[Prisma](https://www.prisma.io/docs/orm/overview/introduction/what-is-prisma).
+Discute una coach cuales son las diferencias entre ambas librerías.
+* Si estás usando Java, puede instalar y configurar
+* Si estás usando Python, puedes instalar y configurar [pytest](https://docs.pytest.org/en/8.1.x/)
+* Si estás usando C#, puedes instalar  y configurar
+
+### Paso 10. Implementar los demás endpoints
+
+¡Felicitaciones! Hasta este punto ya has completado la
+Historia de Usuaria 2. Puedes continuar implementado
+las demás historias.
 
 ## 8. Funcionalidades opcionales
 
