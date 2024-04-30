@@ -7,8 +7,8 @@ const renderCode = fs.readFileSync("src/view.js", "utf8");
 const mainAst = acorn.parse(mainCode, { ecmaVersion: 2020, sourceType: "module" });
 const ast =  acorn.parse(renderCode, { ecmaVersion: 2020, sourceType: "module", program: mainAst});
 
-           
-const getASTMetrics = (node, [ 
+
+const getASTMetrics = (node, [
   querySelectorCalls=[],
   getElementByIdCalls=[],
   addEventListenerCalls=[],
@@ -17,7 +17,7 @@ const getASTMetrics = (node, [
   innerHTMLs=[],
   createElementCalls=[],
   templateCalls=[] ]) => {
-  
+
   if (
     node.type === "CallExpression" &&
     node.callee.type === "MemberExpression" &&
@@ -66,8 +66,8 @@ const getASTMetrics = (node, [
     createElementCalls.push(node);
   }
 
-  if (node.type === "VariableDeclaration" && 
-      node.declarations && 
+  if (node.type === "VariableDeclaration" &&
+      node.declarations &&
       node.declarations[0].init &&
       node.declarations[0].init['type'] === "TemplateLiteral"){
     templateCalls.push(node);
@@ -127,7 +127,10 @@ describe('Manejo de eventos del DOM', () => {
   it('Se registra un Event Listener con un parametro de evento', () => {
     expect(
       addEventListenerCalls.some((node) => {
-        if (node.arguments[1].params.length === 0) return false;
+        // si el segundo argumento es una referencia a una función por su nombre
+        if (node.arguments[1].type === 'Identifier') return true;
+        // si la función tiene parámetros definidos
+        if (!node.arguments[1].params || node.arguments[1].params.length === 0) return false;
         // que existe un param tipo { target } { currentTarget }
         const hasTargetParam = node.arguments[1].params[0].type === 'ObjectPattern' && (
           node.arguments[1].params[0].properties[0].key.name === ('target') ||
@@ -148,7 +151,7 @@ describe('Manipulación dinámica del DOM', () => {
 
   it('Existe manipulación dinamica mediante createElement o template strings', () => {
     expect(createElementCalls.length || templateCalls.length).toBeGreaterThan(0);
-  });  
+  });
 
 });
 
