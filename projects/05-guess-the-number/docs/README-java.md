@@ -114,7 +114,12 @@ usuaria al finalizar cada hito.
 
 A continuación, te dejamos algunos hitos como sugerencia para que construyas tu proyecto.
 
-### 4.1 Hito 1 - Configuración del entorno de trabajo
+> [!TIP]
+> Considera crear una rama para el desarrollo de cada hito.
+> Crear ramas para cada hito te ayudará a tener un
+> desarrollo más organizado, flexible y eficiente.
+
+### Hito 1 - Configuración del entorno de trabajo
 
 Debes configurar tu entorno de trabajo, es decir:
 
@@ -125,96 +130,166 @@ Debes configurar tu entorno de trabajo, es decir:
   [IntelliJ Community Edition](https://www.jetbrains.com/idea/download/),
   en casos extremos de recursos computacionales se puede utilizar el VSCode).
 
-#### Contenidos que pueden ayudarte en la configuración del entorno
+🛠️ Recursos útiles:
 
 - [Tutoriales para la preparación del entorno Java](https://github.com/Laboratoria/java-setup)
-- [¿Cómo instalo Java?](https://www.java.com/pt-BR/download/help/download_options_pt-br.html)
+- [¿Cómo instalo Java?](https://www.java.com/es/download/help/develop_es.html)
 - [Install IntelliJ IDEA](https://www.jetbrains.com/help/idea/installation-guide.html)
 - [Guía paso a paso para instalar Intellij Idea en Mac](https://www.geeksforgeeks.org/step-by-step-guide-to-install-intellij-idea)
 
-### 4.2 Hito 2 - Primeros pasos con el lenguaje
+> [!TIP]
+> Para verificar el correcto funcionamiento de tus instalaciones,
+> te sugerimos crear la primera clase del proyecto que incluya el método main.
+> Agrega un comando que imprima "¡Hola mundo!" en la consola.
+> Esto te permitirá confirmar la adecuada configuración de tus ajustes.
 
-Crea la primera clase del proyecto que contenga el método main. Puedes agregar
-un comando que muestre "¡Hola mundo!" en la consola.
-Así podrás verificar si tus configuraciones son correctas.
-Además, puedes estudiar conceptos del lenguaje como:
+### Hito 2 - Comprensión del Diagrama de Clases
 
-- ¿Qué son las clases y cómo construirlas?
-- ¿Qué son los métodos y cómo utilizarlos?
-- ¿Qué tipos de datos existen en el lenguaje? (Recuerda los que más usaste en
-  JavaScript y trata de buscar tipos similares).
-- ¿Cómo crear un array usando Java?
-- ¿Qué son los modificadores de acceso como: `public`, `private`, `protected`?
-- ¿Qué son los métodos constructores? ¿Cómo hacerlos?
-- ¿Qué es el encapsulamiento? ¿Cómo hacerlo?
-- ¿Qué es la herencia? ¿Cómo crearla en Java?
+Te proporcionamos un [Diagrama de Clases](#diagrama-de-clases)
+como punto de partida para la construcción de tu proyecto.
+Utiliza esta [documentación](https://diagramasuml.com/diagrama-de-clases/)
+para comprender el diagrama, ya que es esencial entender su
+significado antes de comenzar el desarrollo del proyecto.
 
-Recuerda también utilizar contenidos prácticos para comprender estos conceptos.
-¡No pases mucho tiempo solo leyendo o viendo videos!
-¡Crea códigos! Inténtalo, equivócate, inténtalo de nuevo, etc.
+En este hito, es crucial comprender la representación del
+diagrama. Puedes apoyarte en las siguientes preguntas para
+validar tu comprensión:
 
-#### Contenidos que pueden ayudarte en los primeros pasos con Java
+- ¿Qué es una clase?
+- ¿Identificas las atributos y métodos cada clase?
+- ¿En base a las atributos y parámetros de cada método,
+puedes identificar los tipos de datos de cada uno ?
+- ¿Qué tipo de relación tiene la clase `Player` con `HumanPlayer`?
+- ¿Identificas los diferentes modificadores de acceso relacionados
+ a los símbolos de visibilidad de atributos y métodos?
+- ¿Cómo se define y se utiliza un constructor en Java?
+- ¿Qué es el encapsulamiento y cómo lo
+aplicarías a las clases del diagrama?
+- Examina el diagrama UML, ¿puedes identificar
+y explicar los diferentes tipos de relaciones
+entre las clases (como composición,
+asociación, herencia, etc.)? y
+¿Cómo se representan estas relaciones en el código Java?
 
-- [Learn the Basics of Java Programming](https://www.freecodecamp.org/news/learn-the-basics-of-java-programming/)
-- [Programación Orientada a Objetos com Java](https://www.freecodecamp.org/news/object-oriented-programming-concepts-java/)
-- [Java Basic Syntax](https://www.geeksforgeeks.org/java-basic-syntax/)
-- [Java Data Types And Variables – Explained for Beginners](https://www.freecodecamp.org/news/java-data-types-and-variables/)
-- [Learn Java](https://www.w3schools.com/java/default.asp)
-- [Java Classes and Objects](https://www.w3schools.com/java/java_classes.asp)
-- [Java Methods](https://www.w3schools.com/java/java_methods.asp)
+> [!NOTE]
+> Es normal que, en este momento, puedas no sentirte
+> segura al responder las preguntas anteriores.
+> En los próximos hitos, abordaremos cada una de las clases, y
+> a medida que avances, te animamos a encontrar una mayor
+> conexión entre lo que estás construyendo y el diagrama de clases.
 
-### 4.3 Hito 3 - Comprensión del Diagrama de Clases
+### Hito 3 - Crea y estructura tu proyecto
 
-Dejamos un [Diagrama de Clases](#diagrama-de-clases) para que te sirva de base
-para construir tu proyecto. Pero es necesario comprender lo que significa antes
-de empezar a desarrollar lo que será tu proyecto.
-En este hito, puedes comprender lo que este diagrama está representando.
+Es crucial que en este punto crees tu proyecto
+y desarrolles las primeras clases
+`GuessTheNumberGame`, `Player` y `HumanPlayer`
+del juego conforme al diagrama de clases
+proporcionado, ya que serán las primeras
+clases que debes usar para hacer pruebas
+en tu proyecto. Cada clase debe definir
+cuidadosamente sus atributos y métodos,
+respetando la adecuada configuración de visibilidad,
+como se explica en este enlace sobre
+[modificadores de acceso en Java](https://www.simplilearn.com/tutorials/java-tutorial/access-modifiers#:~:text=Access%20modifiers%20in%20Java%20allow,control%20access%20from%20other%20classes.).
 
-#### Contenidos que pueden ayudarte en la comprensión del Diagrama de Clases
+🛠️ Recursos útiles:
 
-- [¿Qué son los Diagramas de Clase?](https://diagramasuml.com/diagrama-de-clases/)
+- [Crear proyecto con IntelliJ](https://drive.google.com/file/d/1xGL7mPTrvqwSCzbKyfjyUyK42RC1LbEh/view?usp=sharing)
+- [Crear proyecto con VScode](https://drive.google.com/file/d/1TORaOzmnJ3kJd-4qtP9FmamFK3FGVlwj/view?usp=sharing)
 
-### 4.4 Hito 4 - Iniciando el juego
+Por ahora nada funcionará, pero ve paso a paso hasta resolver el
+problema. No intentes correr antes de gatear.
 
-En este hito, puedes crear el juego para un solo jugador.
+### Hito 4 - Iniciando el juego
 
-Comienza creando las clases que representan a la jugadora humana. Luego, elige
-el número objetivo, que debe ser un número aleatorio entre 1 y 100, y finalmente,
-crea la lógica para verificar si el número de la jugadora es menor o
-mayor que el valor objetivo. Muestra en la terminal si es un valor alto o bajo.
+Inicia con la clase predeterminada del proyecto,
+`GuessTheNumberGame`. Esta clase requiere dos
+[atributos](https://portalacademico.cch.unam.mx/cibernetica2/principios-programacion-orientada-a-objetos/atributos):
+`random` y `targetNumber`. `targetNumber`
+debe ser de tipo primitivo [int](https://www.geeksforgeeks.org/data-types-in-java/).
 
-#### Contenidos que pueden ayudarte a comenzar el juego
+Es fundamental señalar que el atributo `random`
+es de un tipo de referencia especial. Para
+gestionarlo, importa
+[java.util.Random](https://www.geeksforgeeks.org/java-util-random-nextint-java/).
+Al trabajar con tipos de referencia, especialmente fuera de los tipos
+primitivos, es posible que necesites realizar importaciones adicionales.
+
+Ahora, en la misma clase `GuessTheNumberGame`,
+concéntrate en obtener el número ingresado por la
+jugadora utilizando el método `makeGuess` de la propia
+clase `HumanPlayer`. Para lograrlo, haz referencia e
+importa la clase
+[java.util.Scanner](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html).
+A continuación, compara el número introducido
+por la jugadora con el número a adivinar,
+`targetNumber`. Utiliza el método `checkGuess`
+para evaluar el resultado y, en función del mismo,
+indica si el número es demasiado alto, demasiado
+bajo o si ha acertado.
+
+Toma en cuenta que debes almacenar cada una
+de las suposiciones de la jugadora en el
+atributo `guesses`. Para ello profundiza en las
+diferencias entre
+[arrays](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html) y
+[ArrayLists](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html).
+
+🛠️ Recursos utiles:
 
 - [Java: Cómo leer y presentar datos con los comandos de entrada y salida](https://www.programarya.com/Cursos/Java/Entrada-de-datos)
 - [Java Scanner](https://www.baeldung.com/java-scanner)
 - [Java User Input](https://www.w3schools.com/java/java_user_input.asp)
 - [Número Aleatorio](https://www.baeldung.com/java-17-random-number-generators)
 
-### 4.5 Hito 5 - Agregando más jugadoras
+> [!IMPORTANT]
+> En este momento, la jugadora ya puede proponer un número,
+> y al hacerlo, el juego concluye. El objetivo a tener en
+> cuenta es implementar la posibilidad de que pueda
+> seguir jugando hasta adivinar el número.
 
-En este hito, puedes agregar otra jugadora al juego.
+### Hito 5 - Agregando más jugadoras
 
-Comienza creando las clases que representan a la segunda jugadora, que podría
-ser la computadora. Desarrolla la lógica para alternar entre las jugadoras.
-Finalmente, agrega información adicional cuando alguna jugadora gane el juego.
-Puedes mostrar la cantidad de intentos y cuáles fueron los intentos de la jugadora.
+En este hito, incorporaras una nueva jugadora al
+juego creando la clase `ComputerPlayer`.
 
-### 4.6 Hito 6 - Configuración para la construcción de pruebas unitarias
+1. `makeGuess()` en `ComputerPlayer`:
+Permite que la computadora u oponente virtual
+realice una suposición aleatoria. Utiliza la clase
+Random para generar números aleatorios. Asegúrate de
+almacenar cada suposición en el historial de suposiciones
+(`guesses`) de la nueva jugadora.
+
+2. Actualización de la lógica del juego en `GuessTheNumberGame`:
+Es necesario actualizar la lógica del juego en la clase
+`GuessTheNumberGame` para que pueda interactuar con la nueva
+jugadora y ambas clases.
+Agrega instancias de las jugadoras. En la clase `GuessTheNumberGame`,
+define e inicializa
+[instancias](https://es.stackoverflow.com/questions/7576/qu%C3%A9-es-una-instancia-en-poo)
+de `HumanPlayer` y `ComputerPlayer`. Además,
+modifica el método `checkGuess(Player player)` para que invoque
+el método `makeGuess()` correspondiente a la jugadora pasada como
+argumento. Luego, compara la suposición con el número objetivo
+y proporciona el resultado adecuado.
+
+### Hito 6 - Configuración para la construcción de pruebas unitarias
 
 En este hito, configura las bibliotecas JUnit5 y Mockito en tu IDE para que
 puedas crear pruebas unitarias.
 
-Le recomendamos que utilice las bibliotecas presentes en el repositorio de Maven:
+Le recomendamos que utilice las bibliotecas presentes en el repositorio de
+[Maven](https://www.arquitecturajava.com/que-es-maven/):
 
 - org.junit.jupiter:junit-jupiter
 - org.mockito:mockito-core
 
-#### Contenidos que pueden ayudarte a agregar dependencias de pruebas
+🛠️ Recursos útiles:
 
 - [Agregar JUnit5 en IntelliJ](https://www.jetbrains.com/help/idea/junit.html#intellij)
 - [Testing Java with VSCode](https://code.visualstudio.com/docs/java/java-testing)
 
-### 4.7 Hito 7 - Creación de pruebas unitarias
+### Hito 7 - Creación de pruebas unitarias
 
 Crea las pruebas unitarias para tu proyecto. Asegúrate de cubrir con pruebas
 la lógica de tu juego basándote en comportamientos. Por ejemplo, crea pruebas que:
@@ -223,18 +298,83 @@ la lógica de tu juego basándote en comportamientos. Por ejemplo, crea pruebas 
 - Simulen que el número de la jugadora es menor que el número objetivo.
 - Simulen que el número es el mismo número objetivo.
 
-#### Contenidos que pueden ayudarte a crear pruebas unitarias
+🛠️ Recursos útiles:
 
 - [Calidad y JUnit: Introducción a la automatización de pruebas unitarias en tu software Java en el día a día](https://www.tutorialspoint.com/junit/index.htm)
 - [Tutorial de Mockito](https://www.digitalocean.com/community/tutorials/mockito-tutorial)
+- [JUnit5 en VSCode](https://drive.google.com/file/d/1QL9nz4fZPK3OxNJUCME4OYSwWF_pWZ04/view?usp=sharing)
+- [Mockito en VSCode](https://drive.google.com/file/d/16B0Sg0RUYSvp2_Drh_I6Q2-be3wLFTcs/view?usp=sharing)
+- [JUnit5 en IntelliJ](https://drive.google.com/file/d/1opSSwWxog7voh2TO8skFsXxXqRYfi8S9/view?usp=sharing)
+- [Mockito en IntelliJ](https://drive.google.com/file/d/1GYP6Q4X8dkaxGbeQF4sLW5W2BkeHph2q/view?usp=sharing)
 
-### 4.8 Hito 8 (Edición Hacker) - Creación de una "inteligencia" para jugar contra la computadora
+### Hito 8 (Edición Hacker) - Creación de una "inteligencia" para jugar contra la computadora
 
-En este hito, que consideramos como Edición Hacker, puedes crear una lógica
-para que los número de la segunda jugadora, cuando estás jugando contra la computadora,
-sean más inteligentes. Estos número pueden considerar la información
-sobre si el número es alto o bajo en relación con el número objetivo,
-haciendo que el juego sea más emocionante.
+En este hito, que consideramos como Edición Hacker,
+puedes crear la lógica
+para que los número de la segunda jugadora, cuando
+estás jugando contra la computadora,
+sean más inteligentes.  Estos números pueden
+aprovechar la información
+sobre si la suposición anterior fue alta o baja
+en relación con el número
+objetivo, generando así un juego más emocionante.
+
+1. Crea la clase `SmartComputerPlayer` que
+[extienda](https://www.w3schools.com/java/ref_keyword_extends.asp) de `Player`.
+
+2. En la clase `SmartComputerPlayer`,
+sobreescribe
+([@Override](https://www.geeksforgeeks.org/overriding-in-java/))
+el método `makeGuess()` heredado de `Player`
+y añade propiedades
+adicionales como `min` y `max` para ajustar
+dinámicamente el rango de búsqueda
+del número aleatorio a generar.
+Este método utilizará la información
+sobre la suposición anterior para
+realizar estimaciones más precisas y
+estratégicas. En caso de que la última
+suposición haya sido demasiado alta,
+`makeGuess()` reducirá el límite superior
+del rango de búsqueda al valor de la última
+suposición menos uno.
+
+3. Actualiza el método `checkGuess(Player player)`
+en la clase `GuessTheNumberGame`. Cuando la
+jugadora sea la computadora, modifica la llamada
+al método `makeGuess()` por de `SmartComputerPlayer` .
+
+4. Asegurarse de proporcionar la información
+necesaria sobre la suposición anterior a la
+función `makeGuess()` de `SmartComputerPlayer`, para que la estrategia
+de suposición se base en datos históricos y mejore
+la inteligencia del juego.
+
+5. Realiza pruebas unitarias para `SmartComputerPlayer`,
+asegurando que su comportamiento funcione como se
+espera bajo diferentes escenarios de juego:
+    1. **Prueba de límite superior e inferior**:
+    Verifica que `makeGuess()` genere
+    correctamente una suposición dentro del
+    rango esperado, tanto en el límite
+    superior como en el límite inferior
+    del rango de búsqueda.
+    2. **Prueba de suposiciones consecutivas**:
+    Realiza varias suposiciones consecutivas y
+    verifica que `makeGuess()` ajuste los
+    límites del rango de búsqueda correctamente
+    en función de las suposiciones anteriores,
+    manteniendo una estrategia coherente.
+    3. **Prueba de comportamiento aleatorio**:
+    Realiza suposiciones aleatorias y verifica
+    que `makeGuess()` responda correctamente,
+    manteniendo un comportamiento estratégico
+    independientemente de la secuencia de suposiciones.
+
+Con estos pasos, la clase `SmartComputerPlayer`
+estará lista y funcionando, permitiendo que la
+jugadora de computadora genere estimaciones
+más inteligentes y estratégicas durante el juego.
 
 ## 5. Recomendaciones
 
