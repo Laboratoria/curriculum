@@ -133,6 +133,9 @@ browser/fetch:
 js:
   title: JavaScript
 
+js/data-types:
+  title: Tipos de dados
+
 js/data-types/primitive:
   title: Tipos de dados primitivos
   links:
@@ -224,6 +227,9 @@ js/semantics:
 js/expression-vs-statement:
   title: Diferença entre expressões (expressions) e declarações (statements)
 
+js/modules:
+  title: Módulos
+
 js/modules/es-modules:
   title: Módulos de ECMAScript (ES modules)
   links:
@@ -237,6 +243,9 @@ js/modules/commonjs:
   links:
     - title: "Modules: CommonJS modules - Node.js Docs"
       url: https://nodejs.org/docs/latest/api/modules.html
+
+js/testing:
+  title: Testing em Javascript
 
 js/testing/unit:
   title: Testes unitários (unit tests)
@@ -265,6 +274,9 @@ js/testing/compatibility:
 js/linting:
   title: Uso de linter (ESLINT)
 
+js/async:
+  title: Assincronicidade
+
 js/async/callbacks:
   title: Callbacks
   links:
@@ -282,6 +294,9 @@ js/async/promises:
 scm:
   title: Controle de Versões (Git e GitHub)
 
+scm/git:
+  title: Git
+
 scm/git/setup:
   title: "Git: Instalação e configuração"
 
@@ -290,6 +305,9 @@ scm/git/intro:
 
 scm/git/integration:
   title: "Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)"
+
+scm/github:
+  title: GitHub
 
 scm/github/setup:
   title: "GitHub: Criação de contas e repositórios, configuração de chave SSH"
@@ -366,9 +384,6 @@ research/sources:
 research/test:
   title: Planejar e executar testes de usabilidade
 
-research/cuantitative-data:
-  title: Coletar, analisar e interpretar dados quantitativos
-
 synthesis:
   title: Síntese
 
@@ -396,23 +411,11 @@ synthesis/feature-prioritization:
 product-design:
   title: Design de produto
 
-product-design/user-flows:
-  title: Priorizar e propor fluxos de usuários que os ajudem a atingir seus objetivos com o produto
-
-product-design/content:
-  title: Identificar e priorizar conteúdos relevantes e necessários para o produto
-
 product-design/fidelity:
   title: Design em diferentes níveis de fidelidade
 
 product-design/interactivity:
   title: Criar protótipos para obter feedback e iterar
-
-product-design/usability:
-  title: Projetar produto ou serviço seguindo as melhores práticas de usabilidade
-
-product-design/accessibility:
-  title: Projetar produto ou serviço seguindo as melhores práticas de acessibilidade
 
 product-design/visual-design:
   title: Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
@@ -597,6 +600,616 @@ auth/jwt:
 
 auth/password-access-and-storage:
   title: Armazenamento e acesso de senhas
+
+java:
+  title: Java
+  links:
+    - title: Título de exemplo
+      url: https://example.com
+
+java/access-modifiers:
+  title: Modificadores de acesso (public, private, protected)
+
+java/variables:
+  title: Variáveis
+
+java/conditionals:
+  title: Uso de condicionais
+
+java/loops:
+  title: Uso de loops (Laços)
+
+java/data-types:
+  title: Tipos de dados
+
+java/data-types/primitive:
+  title: Primitivos
+
+java/data-types/primitive-vs-non-primitive:
+  title: Dados primitivos vs não primitivos
+
+java/data-types/strings:
+  title: Cadeias de caracteres
+
+java/data-types/arrays:
+  title: Arrays
+
+java/collections:
+  title: Coleções
+
+java/collections/array-list:
+  title: ArrayList
+
+java/collections/hash-map:
+  title: HashMap
+
+java/collections/hash-set:
+  title: HashSet
+
+java/testing:
+  title: Testes
+
+java/testing/junit:
+  title: JUnit
+
+java/testing/mockito:
+  title: Mockito
+
+java/spring-framework:
+  title: Spring Framework
+  links:
+    - title: Spring Framework Documentation
+      url: https://docs.spring.io/spring-framework/reference/
+
+java/spring-framework/initializr:
+  title: Initializr
+  links:
+    - title: Spring Initializr
+      url: https://start.spring.io/
+
+java/spring-framework/core-concepts:
+  title: Conceitos Principais
+  links:
+    - title: Core Technologies
+      url: https://docs.spring.io/spring-framework/reference/core.html
+
+java/spring-framework/core-concepts/beans:
+  title: Beans
+
+java/spring-framework/core-concepts/inversion-of-control:
+  title: Inversão de Controle
+
+java/spring-framework/core-concepts/annotations:
+  title: Anotações
+
+java/spring-framework/spring-boot:
+  title: Spring Boot
+  links:
+    - title: Spring Boot Reference Documentation
+      url: https://docs.spring.io/spring-boot/docs/current/reference/html/
+
+java/spring-framework/controllers:
+  title: Controladores
+
+java/spring-framework/services:
+  title: Serviços
+
+java/spring-framework/spring-data-jpa:
+  title: Spring Data JPA
+  links:
+    - title: Spring Data JPA - Reference Documentation
+      url: https://docs.spring.io/spring-data/jpa/docs/current/reference/html/
+
+java/spring-framework/entity:
+  title: Entidade
+
+java/spring-framework/repository:
+  title: Repositório
+
+java/spring-framework/spring-web:
+  title: Spring Web
+  links:
+    - title: Building a RESTful Web Service
+      url: https://spring.io/guides/gs/rest-service/
+
+java/spring-framework/spring-web/rest-controller:
+  title: RestController
+
+java/spring-framework/spring-web/request-mapping:
+  title: RequestMapping
+
+java/spring-framework/spring-web/request-param:
+  title: RequestParam
+
+java/spring-framework/testing:
+  title: Testes
+
+java/spring-framework/testing/spring-test:
+  title: Spring Test
+
+java/spring-framework/testing/hamcrest:
+  title: Hamcrest
+
+java/hibernate-orm:
+  title: Hibernate ORM
+  links:
+    - title: What is an ORM?
+      url: https://hibernate.org/orm/what-is-an-orm/
+    - title: Getting Started with Hibernate ORM
+      url: https://docs.jboss.org/hibernate/orm/6.3/quickstart/html_single/
+    - title: Hibernate ORM User Guide
+      url: https://docs.jboss.org/hibernate/orm/6.3/userguide/html_single/Hibernate_User_Guide.html
+
+java/hibernate-orm/setup:
+  title: Configuração
+
+java/hibernate-orm/schema:
+  title: Esquema
+
+java/hibernate-orm/entity:
+  title: Entidade
+
+java/hibernate-orm/table:
+  title: Tabela
+
+java/hibernate-orm/column:
+  title: Coluna
+
+java/hibernate-orm/identifiers:
+  title: Identificadores
+
+java/hibernate-orm/associations:
+  title: Associações
+
+java/hibernate-orm/collections:
+  title: Coleções
+
+java/hibernate-orm/persistance:
+  title: Persistência
+
+java/hibernate-orm/querying:
+  title: Consultas
+
+object-oriented-programming:
+  title: Programação Orientada a Objetos (POO)
+
+object-oriented-programming/classes:
+  title: Classes
+
+object-oriented-programming/objects:
+  title: Objetos
+
+object-oriented-programming/methods:
+  title: Métodos
+
+object-oriented-programming/attributes:
+  title: Atributos
+
+object-oriented-programming/constructors:
+  title: Construtores
+
+object-oriented-programming/encapsulation:
+  title: Encapsulamento
+
+object-oriented-programming/abstraction:
+  title: Abstração
+
+object-oriented-programming/composition:
+  title: Composição
+
+object-oriented-programming/interfaces:
+  title: Interfaces
+
+object-oriented-programming/inheritance:
+  title: Herança (super, extends, override)
+
+object-oriented-programming/unified-model-language:
+  title: Linguagem de Modelagem Unificada (UML, diagramas de classe)
+
+python:
+  title: Python
+
+python/data-types:
+  title: Tipos de dados
+
+python/data-types/primitive:
+  title: Tipos de dados primitivos (int, float, str, bool)
+  links:
+    - title: Data Types - Python Docs (em inglês)
+      url: https://docs.python.org/3/library/datatypes.html
+    - title: Data types in Python (em inglês)
+      url: https://www.educative.io/answers/data-types-in-python
+
+python/data-types/lists:
+  title: Listas (arrays)
+  links:
+    - title: Lists - Python Docs (em inglês)
+      url: https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
+    - title: Lists and Tuples in Python - Real Python (em inglês)
+      url: https://realpython.com/python-lists-tuples/
+
+python/data-types/tuples:
+  title: Tuples
+  links:
+    - title: Tuples - Python Docs (em inglês)
+      url: https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences
+    - title: Lists and Tuples in Python - Real Python (em inglês)
+      url: https://realpython.com/python-lists-tuples/
+
+python/data-types/dictionaries:
+  title: Dictionaries (Dicts)
+  links:
+    - title: Dictionaries - Python Docs (em inglês)
+      url: https://docs.python.org/3/tutorial/datastructures.html#dictionaries
+    - title: Dictionaries in Python - Real Python (em inglês)
+      url: https://realpython.com/python-dicts/
+
+python/data-types/sets:
+  title: Sets
+  links:
+    - title: Sets - Python Docs (em inglês)
+      url: https://docs.python.org/3/tutorial/datastructures.html#sets
+    - title: Sets in Python - Real Python (em inglês)
+      url: https://realpython.com/python-sets/
+
+python/variables:
+  title: Variáveis (declaração, atribuição, escopo)
+  links:
+    - title: Variables in Python – Real Python (em inglês)
+      url: https://realpython.com/python-variables/
+    - title: Variables in Python - GeeksforGeeks (em inglês)
+      url: https://www.geeksforgeeks.org/python-variables/
+
+python/conditionals:
+  title: Uso de condicionais (if, elif, ternário)
+  links:
+    - title: Conditional Statements in Python – Real Python (em inglês)
+      url: https://realpython.com/python-conditional-statements/
+
+
+python/operators:
+  title: Operadores (identidade, aritméticos, comparação etc)
+  links:
+    - title: Python Operators - GeeksforGeeks (em inglês)
+      url: https://www.geeksforgeeks.org/python-operators/
+
+python/functions:
+  title: Funções
+
+python/functions/basic-concepts:
+  title: Conceitos básicos (parâmetros, argumentos, valores padrão, retorno)
+  links:
+    - title: Defining Functions - Python Docs (em inglês)
+      url: https://docs.python.org/3/tutorial/controlflow.html#defining-functions
+    - title: Python Functions - GeeksforGeeks (em inglês)
+      url : https://www.geeksforgeeks.org/python-functions/
+
+python/functions/args-kwargs:
+  title: "*args e **kwargs"
+  links:
+    - title: '*args and **kwargs in Python - GeeksforGeeks (em inglês)'
+      url: https://www.geeksforgeeks.org/args-kwargs-python/
+
+python/functions/lambda-functions:
+  title: Funções lambda
+  links:
+    - title: Lambda Functions - Python Docs (em inglês)
+      url: https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions
+    - title: How to Use Python Lambda Functions – Real Python (em inglês)
+      url: https://realpython.com/python-lambda/
+
+python/functions/closures:
+  title: Encerramentos (closures)
+  links:
+    - title: Closures - Python Docs (em inglês)
+      url: https://docs.python.org/3/reference/datamodel.html#emulating-closures-and-nested-scope
+
+
+python/functions/decorators:
+  title: Decoradores
+  links:
+    - title: Decorators - Python Docs (em inglês)
+      url: https://docs.python.org/3/glossary.html#term-decorator
+    - title: Decorators in Python - Geeks for Geeks (em inglês)
+      url: https://www.geeksforgeeks.org/decorators-in-python/
+
+python/iteration:
+  title: Iteração
+
+python/iteration/loops:
+  title: Uso de loops (while, for..in)
+  links:
+    - title: Loops in Python - For, While and Nested Loops - GeeksforGeeks
+      url: https://www.geeksforgeeks.org/loops-in-python/
+    - title: Loops - Learn Python - Free Interactive Python Tutorial
+      url: https://www.learnpython.org/en/Loops
+
+python/iteration/list-comprehension:
+  title: Compreensão de listas
+  links:
+    - title: List Comprehension - Python Docs (em inglês)
+      url: https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions
+    - title: List Comprehension in Python - GeeksforGeeks (em inglês)
+      url: https://www.geeksforgeeks.org/list-comprehensions-in-python/
+    - title: When to Use a List Comprehension in Python – Real Python
+      url: https://realpython.com/list-comprehension-python/
+
+python/iteration/functional-techniques:
+  title: Técnicas funcionais (map, filter, reduce)
+  links:
+    - title: Our Guide to Map, Filter, and Reduce Functions in Python - Udacity (em inglês)
+      url: https://www.udacity.com/blog/2020/12/our-guide-to-map-filter-and-reduce-functions-in-python.html
+    - title: Map, Filter, Reduce - Learn Python - Free Interactive Python Tutorial (em inglês)
+      url: https://www.learnpython.org/en/Map%2C_Filter%2C_Reduce
+
+python/docstrings:
+  title: Docstrings (e sua diferença de comentários)
+  links:
+    - title: Docstrings - Python Docs (em inglês)
+      url: https://docs.python.org/3/tutorial/controlflow.html#documentation-strings
+
+python/linting:
+  title: Linting (pylint)
+  links:
+    - title: Pylint - Documentação oficial
+      url: https://pylint.pycqa.org/en/latest/
+    - title: Linting Python in Visual Studio Code - Visual Studio Code Docs (em inglês)
+      url: https://code.visualstudio.com/docs/python/linting
+
+python/testing:
+  title: Testes em Python
+
+python/testing/unit-tests:
+  title: Testes unitários (unit tests, unittest, pytest)
+  links:
+    - title: unittest - Python Docs (em inglês)
+      url: https://docs.python.org/3/library/unittest.html
+    - title: pytest - Documentação oficial
+      url: https://docs.pytest.org/en/6.2.x/
+
+python/testing/mocks:
+  title: Uso de mocks (e patch)
+  links:
+    - title: unittest.mock - Python Docs (em inglês)
+      url: https://docs.python.org/3/library/unittest.mock.html
+    - title: unittest.mock - Python Docs (em inglês)
+      url: https://docs.python.org/3/library/unittest.mock.html
+
+python/testing/fixtures:
+  title: Uso de fixtures
+  links:
+    - title: Fixtures do pytest - Documentação oficial
+      url: https://docs.pytest.org/en/6.2.x/fixture.html
+
+python/modularization:
+  title: Modularização
+
+python/modularization/modules:
+  title: Módulos
+  links:
+    - title: Módulos - Python Docs (em inglês)
+      url: https://docs.python.org/3/tutorial/modules.html
+
+python/modularization/packages:
+  title: Pacotes
+  links:
+    - title: Pacotes - Python Docs (em inglês)
+      url: https://docs.python.org/3/tutorial/modules.html#packages
+
+python/dependency-management:
+  title: Gerenciamento de dependências
+
+python/dependency-management/pip:
+  title: pip (instalação e uso de pacotes)
+  links:
+    - title: pip - Python Docs (em inglês)
+      url: https://docs.python.org/3/installing/index.html
+
+python/dependency-management/virtual-environment:
+  title: Ambiente Virtual (ambientes virtuais, virtualenv)
+  links:
+    - title: 'venv — Creation of virtual environments — Python 3.12.2 documentation (em inglês)'
+      url: https://docs.python.org/3/library/venv.html
+    - title: 'Python Virtual Environments: A Primer – Real Python (em inglês)'
+      url: https://realpython.com/python-virtual-environments-a-primer/
+
+python/dependency-management/requirements-file:
+  title: requirements.txt
+  links:
+    - title: requirements.txt - Documentação oficial
+      url: https://pip.pypa.io/en/stable/user_guide/#requirements-files
+
+python/serialization:
+  title: Serialização (e deserialização)
+  links:
+    - title: Serialize Your Data With Python – Real Python (em inglês)
+      url: https://realpython.com/python-serialize-data/
+
+python/flask:
+  title: Flask
+  links:
+    - title: Flask - Documentação oficial
+      url: https://flask.palletsprojects.com/en/3.0.x/
+    - title: Flask - Tutorial oficial
+      url: https://flask.palletsprojects.com/en/3.0.x/tutorial/
+
+python/flask/routes:
+  title: Rotas
+
+python/flask/routes/route-decorator:
+  title: Decorador de rota
+  links:
+    - title: Routing - Flask Docs (em inglês)
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#routing
+
+python/flask/routes/view-function:
+  title: Função de visualização
+  links:
+    - title: Funções de visualização - Flask Docs (em inglês)
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#view-functions
+
+python/flask/routes/variable-rules:
+  title: Regras de variáveis (urls dinâmicas)
+  links:
+    - title: Regras de Variáveis - Flask Docs (em inglês)
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#variable-rules
+
+python/flask/request:
+  title: Objeto de Requisição
+
+python/flask/request/args:
+  title: Argumentos
+  links:
+    - title: Requisição - Flask Docs (em inglês)
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#accessing-request-data
+
+python/flask/request/headers:
+  title: Cabeçalhos
+  links:
+    - title: Requisição - Flask Docs (em inglês)
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#accessing-request-data
+    # - more can be added here
+    # - form
+    # - json
+
+python/flask/response: # should response be part of routing, its what is returned in the vie function
+  title: Objeto de Resposta
+
+python/flask/response/response-parts:
+  title: Partes da resposta (status, corpo, cabeçalhos)
+  links:
+    - title: Resposta - Flask Docs (em inglês)
+      url: https://flask.palletsprojects.com/en/3.0.x/quickstart/#about-responses
+
+python/flask/response/jsonify:
+  title: jsonify
+  links:
+    - title: jsonify - Flask Docs (em inglês)
+      url: https://flask.palletsprojects.com/en/3.0.x/api/#flask.json.jsonify
+
+python/flask/testing:
+  title: Testando no Flask
+  links:
+    - title: Testing - Flask Docs (en inglés)
+      url: https://flask.palletsprojects.com/en/3.0.x/testing/
+
+python/flask/testing/fixture-setup:
+  title: Configuração de fixtures
+  links:
+    - title: Testando - Flask Docs (em inglês)
+      url: https://flask.palletsprojects.com/en/3.0.x/testing/#fixtures
+
+python/flask/testing/test-client:
+  title: Cliente de teste
+  links:
+    - title: Testando - Flask Docs (em inglês)
+      url: https://flask.palletsprojects.com/en/3.0.x/testing/#sending-requests-with-the-test-client
+
+python/django:
+  title: Django
+
+python/django/setup:
+  title: Configuração
+
+python/django/setup/migrations:
+  title: Migrações
+  links:
+    - title: Migrações
+      url: https://docs.djangoproject.com/es/5.0/topics/migrations/#module-django.db.migrations
+
+python/django/setup/app:
+  title: Configuração do aplicativo
+  links:
+    - title: Aplicativos instalados
+      url: https://docs.djangoproject.com/es/5.0/ref/settings/#std-setting-INSTALLED_APPS
+
+python/django/models:
+  title: Modelos
+
+python/django/models/fields:
+  title: Campos
+  links:
+    - title: Tipos de campos
+      url: https://docs.djangoproject.com/en/5.0/topics/db/models/#Fields
+
+python/django/models/foreign-Key:
+  title: Chave Estrangeira
+  links:
+    - title: Referência do campo do modelo
+      url: https://docs.djangoproject.com/en/5.0/ref/models/fields/
+
+python/django/views:
+  title: Visualizações
+  links:
+    - title: Visualizações base
+      url: https://docs.djangoproject.com/en/5.0/ref/class-based-views/base/
+
+python/django/testing:
+  title: Testando
+  links:
+    - title: Testando no Django
+      url: https://docs.djangoproject.com/en/5.0/topics/testing/
+    - title: Testando o framework rest
+      url: https://www.django-rest-framework.org/api-guide/testing/#testing
+
+python/django/queryset:
+  title: queryset
+  links:
+    - title: O argumento queryset
+      url: https://www.django-rest-framework.org/api-guide/relations/#the-queryset-argument
+
+python/django/filter:
+  title: Filtro
+  links:
+    - title: Filtragem
+      url: https://www.django-rest-framework.org/api-guide/filtering/
+
+python/django/order-by:
+  title: Ordenar Por
+  links:
+    - title: OrderingFilter
+      url: https://www.django-rest-framework.org/api-guide/filtering/#orderingfilter
+
+python/django/url-configuration:
+  title: URLs (Path, URLconf, urlpatterns)
+  links:
+    - title: URLs do Django
+      url: https://tutorial.djangogirls.org/en/django_urls/
+    - title: Despachador de URL
+      url: https://docs.djangoproject.com/en/5.0/topics/http/urls/
+
+python/django/rest-framework:
+  title: Rest Framework
+
+python/django/rest-framework/serializers:
+  title: Serializadores
+  links:
+    - title: Serializadores
+      url: https://www.django-rest-framework.org/community/third-party-packages/#serializers
+
+python/django/rest-framework/pagination:
+  title: Paginação
+  links:
+    - title: Paginação
+      url: https://www.django-rest-framework.org/api-guide/pagination/#pagination
+
+python/django/rest-framework/query-params:
+  title: Parâmetros da consulta
+  links:
+    - title: query_params
+      url: https://www.django-rest-framework.org/api-guide/requests/#query_params
+
+python/django/rest-framework/viewset:
+  title: ViewSet
+  links:
+    - title: ViewSet
+      url: https://www.django-rest-framework.org/api-guide/viewsets/#viewset
+
+python/django/rest-framework/apiview:
+  title: Apiview
+  links:
+    - title: GenericAPIView
+      url: https://www.django-rest-framework.org/api-guide/generic-views/#genericapiview
 
 webops:
   title: WebOps
@@ -899,6 +1512,12 @@ angular/components-and-templates:
     - title: Introduction to components and templates - Documentação oficial (em inglês)
       url: https://angular.io/guide/architecture-components#introduction-to-components
 
+angular/component-lifecycle:
+  title: Component Lifecycle (ej. ngOnInit, ngOnChanges, ...)
+  links:
+    - title: Component Lifecycle - Documentação oficial (em inglês)
+      url: https://angular.io/guide/lifecycle-hooks
+
 angular/structural-directives:
   title: Diretivas estruturais (ngIf / ngFor)
   links:
@@ -953,6 +1572,9 @@ slack/slash-commands:
 php:
   title: PHP
 
+php/data-types:
+  title: Tipos de dados
+
 php/data-types/primitive:
   title: Tipos de dados primitivos em PHP
   links:
@@ -1001,6 +1623,9 @@ php/functions:
     - title: Variável e Extensões Relacionadas aos Tipos
       url: https://www.php.net/manual/pt_BR/refs.basic.vartype.php
 
+php/testing:
+  title: Testes em PHP
+
 php/testing/phpunit:
   title: PHPUnit
   links:
@@ -1013,6 +1638,9 @@ php/testing/xdebug:
     - title: XDebug
       url: https://xdebug.org/
 
+php/package-management:
+  title: Gerenciamento de pacotes
+
 php/package-management/composer:
   title: Composer
   links:
@@ -1021,6 +1649,9 @@ php/package-management/composer:
 
 wordpress:
   title: WordPress
+
+wordpress/plugin-development:
+  title: Desenvolvimento de plugins
 
 wordpress/plugin-development/hooks:
   title: "Hooks: action e filter"
@@ -1087,6 +1718,12 @@ wordpress/plugin-development/wordpress-plugin-directory:
   links:
     - title: WordPress Plugin Directory
       url: https://developer.wordpress.org/plugins/wordpress-org/planning-your-plugin/
+
+typescript:
+  title: Typescript
+
+typescript/basic-types:
+  title: Tipos básicos
 
 typescript/basic-types/static-type-checking:
   title: Verificação estática de tipos
@@ -1245,28 +1882,10 @@ typescript/classes/class-heritage/extends:
       url: https://www.typescriptlang.org/docs/handbook/2/classes.html#extends-clauses
 
 typescript/classes/member-visibility:
-  title: Visibilidade dos membros da classe
+  title: Visibilidade dos membros da classe (public, private, protected)
   links:
     - title: Documentação oficial do Typescript
       url: https://www.typescriptlang.org/docs/handbook/2/classes.html#member-visibility
-
-typescript/classes/member-visibility/public:
-  title: public
-  links:
-    - title: Documentação oficial do Typescript
-      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#public
-
-typescript/classes/member-visibility/protected:
-  title: protected
-  links:
-    - title: Documentação oficial do Typescript
-      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#protected
-
-typescript/classes/member-visibility/private:
-  title: private
-  links:
-    - title: Documentação oficial do Typescript
-      url: https://www.typescriptlang.org/docs/handbook/2/classes.html#private
 
 typescript/classes/static-members:
   title: Membros estáticos da classe
@@ -1329,3 +1948,252 @@ ai-prompting/open-ai-api:
       url: https://platform.openai.com/docs/api-reference/making-requests
     - title: "The chat completion object - API Reference - OpenAI API"
       url: https://platform.openai.com/docs/api-reference/chat/object
+
+csharp:
+  title: C#
+
+csharp/data-types:
+  title: Tipos de Dados
+
+csharp/data-types/primitives:
+  title: Tipos de Dados Primitivos
+  links:
+    - title: Tipos Integrados (referência do C#) - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/built-in-types
+    - title: C# | Data Types (em inglês)
+      url: https://www.geeksforgeeks.org/c-sharp-data-types/
+
+csharp/data-types/non-primitives:
+  title: Tipos de Dados Não Primitivos
+  links:
+    - title: O Common Type System - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/#the-common-type-system
+
+csharp/data-types/structs:
+  title: Estruturas
+  links:
+    - title: Tipos de Estrutura (Referência do C#) - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/struct
+
+csharp/data-types/enums:
+  title: Enumeração
+  links:
+    - title: Tipos de Enumeração (Referência do C#) - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/enum
+
+csharp/data-types/anonymous-types:
+  title: Tipos Anônimos
+  links:
+    - title: Tipos Anônimos - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/anonymous-types
+
+csharp/data-types/dynamic-types:
+  title: Tipos Dinâmicos
+  links:
+    - title: dynamic (Referência do C#) - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/reference-types#the-dynamic-type
+    - title: Uso do Tipo dynamic - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/csharp/advanced-topics/interop/using-type-dynamic
+
+csharp/collections:
+  title: Coleções
+  links:
+    - title: Coleções (Referência do C#) - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/collections
+
+csharp/collections/lists:
+  title: Listas
+  links:
+    - title: Classe List<T> - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/api/system.collections.generic.list-1?view=net-8.0
+    - title: Gerenciando Coleções de Dados com List<T> em C# - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/tutorials/arrays-and-collections
+
+csharp/collections/arrays:
+  title: Matrizes
+  links:
+    - title: Matrizes - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/arrays
+
+csharp/collections/sets:
+  title: Conjuntos (Sets)
+  links:
+    - title: Classe HashSet<T> - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/api/system.collections.generic.hashset-1?view=net-8.0
+    - title: HashSet em C# com Exemplos (em inglês)
+      url: https://www.geeksforgeeks.org/hashset-in-c-sharp-with-examples/
+
+csharp/variables:
+  title: Variáveis
+  links:
+    - title: Variáveis (em inglês) - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/language-specification/variables
+    - title: C# | Variáveis (em inglês)
+      url: https://www.geeksforgeeks.org/c-sharp-variables/
+
+csharp/conditionals:
+  title: Condicionais
+  links:
+    - title: Instruções de seleção - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/selection-statements
+
+csharp/loops:
+  title: Laços/Loops
+  links:
+    - title: Instruções de iteração - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements
+
+csharp/operators:
+  title: Operadores
+  links:
+    - title: Operadores e Expressões do C# (referência do C#) - Microsoft Docs
+      url: https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/
+
+csharp/generics:
+  title: Genéricos
+  links:
+    - title: Classes e Métodos Genéricos (Guia de Programação C#) - Microsoft Docs
+      url: https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/generics/
+
+csharp/access-modifiers:
+  title: Modificadores de Acesso
+  links:
+    - title: Modificadores de Acesso (Guia de Programação C#) - Microsoft Docs
+      url: https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers
+
+csharp/namespaces:
+  title: Espaços de Nomes (namespaces)
+  links:
+    - title: Declaração de Espaços de Nomes para Organizar Tipos - Microsoft Docs
+      url: https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/namespaces/
+
+csharp/functions:
+  title: Funções
+
+csharp/functions/lambda-functions:
+  title: Funções Lambda
+  links:
+    - title: Expressões Lambda e Funções Anônimas (referência do C#) - Microsoft Docs
+      url: https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions
+
+csharp/functions/decorators:
+  title: Decoradores (Atributos)
+  links:
+    - title: Atributos (em Inglês) - Microsoft Docs
+      url: https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/attributes/
+    - title: Definição e Leitura de Atributos Personalizados - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/csharp/advanced-topics/reflection-and-attributes/attribute-tutorial
+
+csharp/error-handling:
+  title: Tratamento de Erros
+
+csharp/error-handling/try-catch:
+  title: try-catch
+  links:
+    - title: try-catch (Referência do C#) - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/exception-handling-statements
+
+csharp/error-handling/throw:
+  title: throw
+  links:
+    - title: throw (Referência do C#) - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/exception-handling-statements#the-throw-statement
+
+csharp/linq:
+  title: LINQ
+  links:
+    - title: LINQ (Language-Integrated Query) - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/csharp/linq/
+    - title: Conceitos Básicos e Consultas LINQ (em inglês) - Tutorial Teacher
+      url: https://www.tutorialsteacher.com/linq
+    - title: Tutorial LINQ Para Iniciantes e Profissionais (em inglês)
+      url: https://dotnettutorials.net/course/linq/
+
+csharp/async-await:
+  title: Async-Await
+  links:
+    - title: Cenários de Programação Assíncrona - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/csharp/asynchronous-programming/async-scenarios
+
+csharp/.net-core:
+  title: .NET Core
+  links:
+    - title: .NET e .NET Core - Microsoft Docs
+      url: https://docs.microsoft.com/pt-br/dotnet/
+    - title: .NET para Iniciantes - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/shows/dotnet-for-beginners/
+    - title: Introdução ao .NET - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/core/introduction
+    - title: Tutoriais .NET - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/core/tutorials/
+
+csharp/nuget-packages:
+  title: Pacotes NuGet
+  links:
+    - title: Documentação NuGet - Microsoft Docs
+      url: https://docs.microsoft.com/pt-br/nuget/
+    - title: Biblioteca NuGet
+      url: https://www.nuget.org/
+    - title: Gerenciar Pacotes NuGet com a CLI do NuGet - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/nuget/consume-packages/install-use-packages-nuget-cli
+    - title: Instalar Pacotes NuGet no Visual Studio Code (em inglês)
+      url: https://www.youtube.com/watch?v=e1GhVs85Rss
+    - title: Instalar Pacotes NuGet no Visual Studio (em inglês)
+      url: https://www.youtube.com/watch?v=J3_io5mBEnU
+
+csharp/testing:
+  title: Testes
+
+csharp/testing/xunit:
+  title: xUnit
+  links:
+    - title: Documentação xUnit.net - xUnit.net (em inglês)
+      url: https://xunit.net/#documentation
+    - title: Teste Unitário C# no .NET Core usando testes dotnet e xUnit - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-with-dotnet-test
+
+csharp/testing/mstest:
+  title: MSTest
+  links:
+    - title: MSTest V2 - GitHub (em inglês)
+      url: https://github.com/microsoft/testfx?tab=readme-ov-file
+    - title: Teste Unitário C# com MSTest e .NET
+      url: https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-with-mstest
+
+csharp/entity-framework:
+  title: Entity Framework
+  links:
+    - title: Centro de Documentação do Entity Framework - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/ef/
+
+csharp/entity-framework/code-first:
+  title: Code First
+  links:
+    - title: Code First em um Novo Banco de Dados - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/ef/ef6/modeling/code-first/workflows/new-database
+
+csharp/entity-framework/models:
+  title: Modelos
+  links:
+    - title: Criando um Modelo - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/ef/ef6/modeling/
+
+csharp/entity-framework/fluent-api:
+  title: Fluent API
+  links:
+    - title: Fluent API, Relacionamentos | Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/ef/ef6/modeling/code-first/fluent/relationships
+
+csharp/entity-framework/controllers:
+  title: Controladores
+  links:
+    - title: Adicionando Modelos e Controladores - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/aspnet/web-api/overview/data/using-web-api-with-entity-framework/part-2#add-web-api-controllers
+    - title: Criar APIs Web com o ASP.NET Core - Microsoft Docs
+      url: https://learn.microsoft.com/pt-br/aspnet/core/web-api/?view=aspnetcore-8.0
+
+csharp/entity-framework/migrations:
+  title: Migrações
+  links:
+    - title: Visão Geral das Migrações - Microsoft Docs
+      url: https://docs.microsoft.com/pt-br/ef/core/managing-schemas/migrations/

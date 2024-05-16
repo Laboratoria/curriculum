@@ -2,10 +2,10 @@ import { beforeEach, describe, it } from 'vitest';
 import { render, screen, waitFor } from '@testing-library/react';
 import matchers from '@testing-library/jest-dom/matchers';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { useApp, themeConfig } from '@laboratoria/react';
+import { useApp, themeConfig } from '@laboratoria/sdk-react';
 import App from './index.jsx';
 
-vi.mock('@laboratoria/react');
+vi.mock('@laboratoria/sdk-react');
 
 describe('App', () => {
   beforeEach(() => {

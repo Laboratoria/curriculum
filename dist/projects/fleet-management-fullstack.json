@@ -2,11 +2,14 @@
   "slug": "fleet-management-fullstack",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-fleet-management-fullstack",
-  "version": "7.3.0",
-  "parserVersion": "5.1.0",
-  "createdAt": "2023-10-16T17:43:44.963Z",
+  "version": "8.6.0",
+  "parserVersion": "5.3.0",
+  "createdAt": "2024-04-12T16:40:33.885Z",
   "prefix": 5,
   "track": "web-dev",
+  "tracks": [
+    "web-dev"
+  ],
   "learningObjectives": [
     "node/npm-install",
     "node/package.json",
@@ -43,6 +46,7 @@
     "vue/routing",
     "vue/classes-and-styles",
     "angular/components-and-templates",
+    "angular/component-lifecycle",
     "angular/structural-directives",
     "angular/input-output",
     "angular/services",

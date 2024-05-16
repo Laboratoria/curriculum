@@ -3,20 +3,12 @@ learningObjectives:
   - agile-planning/scope
   - agile-planning/workplan
   - agile-planning/tasks
-  - research/planning/research-plan
-  - research/planning/research-sample
-  - research/planning/participants
-  - research/quantitative/user-surveys
-  - research/quantitative/analytical-techniques
-  - research/analysis/process-information
-  - research/analysis/experience-mapping
-  - research/analysis/identify-patterns
-  - research/analysis/synthesize-results
-  - interaction-design/user-flows
-  - interaction-design/usability
-  - interaction-design/information-architecture
+  - research-planning
+  - research-quantitative
+  - research-analysis
+  - interaction-design
   - content-design/voice-tone
-  - content-design/create-content
+  - content-design/micro-content
   - design-prototype/basic-prototypes
   - usability-analysis/non-moderated-testing
   - design-pitch/design-feedback

@@ -7,11 +7,12 @@
 * [3. Consideraciones generales](#3-consideraciones-generales)
 * [4. Funcionalidades](#4-funcionalidades)
 * [5. Consideraciones técnicas](#5-consideraciones-técnicas)
-* [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
-* [7. Hacker edition](#7-hacker-edition)
-* [8. Objetivos de aprendizaje](#8-objetivos-de-aprendizaje)
-* [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
-* [10. Consideraciones para pedir tu Project Feedback](#10-consideraciones-para-pedir-tu-project-feedback)
+* [6. Hitos](#6-hitos)
+* [7. Criterios de aceptación mínimos del proyecto](#7-criterios-de-aceptación-mínimos-del-proyecto)
+* [8. Hacker edition](#8-hacker-edition)
+* [9. Objetivos de aprendizaje](#9-objetivos-de-aprendizaje)
+* [10. Pistas, tips y lecturas complementarias](#10-pistas-tips-y-lecturas-complementarias)
+* [11. Consideraciones para pedir tu Project Feedback](#11-consideraciones-para-pedir-tu-project-feedback)
 
 ***
 
@@ -47,8 +48,7 @@ entre otras para generar un set de datos en un archivo javascript.
 
 El propósito de generar los datos en esta manera es brindarte la oportunidad de
 adentrarte en el empleo de herramientas impulsadas por la inteligencia
-artificial, así como en [técnicas de
-prompting](https://learnprompting.org/es/docs/intro).
+artificial, así como en [técnicas de prompting](https://learnprompting.org/es/docs/intro).
 
 Como entregable final tendrás una página web que permita **visualizar la data,
 filtrarla, ordenarla y calcular alguna estadística**. Con estadística
@@ -59,7 +59,7 @@ o mínimo, etc).
 ## 3. Consideraciones generales
 
 * Este proyecto se debe resolver en duplas.
-* El rango de tiempo estimado para completar el proyecto es de 3 a 4 Sprints.
+* El rango de tiempo estimado para completar el proyecto es de 4 a 5 Sprints.
 * El tiempo estimado que deberías dedicar a la [generación de los datos](#generar-los-datos)
   es de máximo un sprint. Además, al final del proyecto deberás presentar
   un [screenshot del prompt utilizado](#prompt-utilizado).
@@ -74,7 +74,8 @@ o mínimo, etc).
 Como entregable final tendrás una página web que permita **visualizar la data,
 filtrarla, ordenarla y calcular alguna estadística**.
 
-Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
+Aquí definimos en más detalle las funcionalidades mínimas que debe
+tener:
 
 * La aplicación debe permitir a la usuaria ver los items de la data en una visualización,
   que puede ser [tipo tarjetas](http://www.uxables.com/diseno-ux-ui/que-es-y-como-disenar-una-card/)
@@ -92,10 +93,13 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
   **Si vas a filtrar u ordenar por una propiedad, la tarjeta tiene que mostrar
   el valor de esta propiedad a la usuaria.**
 
-* La interfaz debe estructurar semánticamente la data usando el estándar [microdatos](https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata).
-  Es obligatorio usar al menos los atributos [`itemscope`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope),
+* La interfaz debe estructurar semánticamente la data usando el estándar
+  [microdatos](https://developer.mozilla.org/es/docs/Web/HTML/Microdata).
+  Es obligatorio usar al menos los atributos
+  [`itemscope`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope),
   [`itemtype`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemtype)
-  y el atributo [`itemprop`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop).
+  y el atributo
+  [`itemprop`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop).
 
   Por ejemplo, la siguiente data correspondiente a Ada Lovelace:
 
@@ -117,7 +121,7 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
   puede ser estructurada semánticamente en HTML como:
 
   ```html
-  <dl itemscope itemtype="WomenInTech">
+   <dl itemscope itemtype="WomenInTech">
     <img src="URL_DE_LA_IMAGEN_GENERADA" alt="Ada Lovelace" />
     <dt>Nombre:</dt><dd itemprop="name">Ada Lovelace</dd>
     <dt>Descripción:</dt><dd itemprop="description">Pionera de la informática, fue la primera programadora.</dd>
@@ -161,7 +165,7 @@ Aquí definimos en más detalle las funcionalidades mínimas que debe tener:
 
 * Las funcionalidades de ordenar deben operar sobre la data filtrada.
   Por ejemplo, si filtro los pokemones de tipo fuego y luego los ordeno por
-  nombre ascendentemente, la aplicación deberá mantener el filtro aplicado y
+  nombre ascendente, la aplicación deberá mantener el filtro aplicado y
   ordenar los pokemones de tipo fuego.
 
 * La aplicación debe permitir a la usuaria reiniciar la aplicación, limpiando
@@ -196,7 +200,7 @@ La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6), HTML y CSS. En este proyecto NO está permitido usar librerías o
 frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e),
 con la excepción de librerías para hacer gráficas (charts); ver
-[_Parte opcional_](#7-hacker-edition) más arriba.
+[_Parte opcional_](#8-hacker-edition) más arriba.
 
 El _boilerplate_ contiene una estructura de archivos como punto de partida así
 como toda la configuración de dependencias:
@@ -206,7 +210,7 @@ como toda la configuración de dependencias:
 ├── README.md
 ├── package.json
 ├── src
-|  ├── data 
+|  ├── data
 |  |  └── dataset.js (La que hayas generado con la IA)
 |  ├── dataFunctions.js
 |  ├── view.js
@@ -233,13 +237,10 @@ mostrar los datos en la pantalla. Con esto nos referimos básicamente a la
 interacción con el DOM. Operaciones como creación de nodos, registro de
 manejadores de eventos (_event listeners_ o _event handlers_).
 
-Esta no es la única forma de dividir tu código, puedes usar más archivos y
-carpetas, siempre y cuando la estructura sea clara para tus compañeras.
-
 En este archivo encontrarás una serie de _imports_ listos para _cargar_
 las diferentes fuentes de datos.
 
-Por ejemplo, lost datos con los que vas a trabajar,
+Por ejemplo, los datos con los que vas a trabajar,
 los encontrarás en la siguiente línea:
 
 ```js
@@ -297,24 +298,56 @@ si sea necesario para tus tests.
 
 ### `src/view.js`
 
-Para alcanzar mejor separación de responsabilidades en el código este
-archivo debe tener todas las funciones que utilizara para renderizar
+Para alcanzar una mejor separación de responsabilidades en el código, éste
+archivo debe tener todas las funciones que se utilizarán para renderizar
 los elementos dinámicamente.
 
-Al menos se requeriere una función obligatoria:
+Al menos se requiere una función obligatoria:
 
 * `renderItems(data)`: esta función recibe el arreglo de data para renderizar
   los elementos de cada item, y debería volver un elemento DOM o
   un string de HTML.
 
-## 6. Criterios de aceptación mínimos del proyecto
+Recuerda que todas las funciones que se encuentren en este
+archivo deberán ser exportadas para poder ser utilizadas en
+otros archivos.
+
+Recomendamos esta estructura para no solo proporcionar un marco claro y
+organizado para el proyecto, facilitando la navegación comprensión, y
+escalabilidad del código, sino también para seguir un principio de diseño
+[Separación de Responsabilidades](https://dev.to/tamerlang/separation-of-concerns-the-simple-way-4jp2)
+en codigo, donde cada archivo y carpeta
+tiene una responsabilidad específica. La responsabilidad de los funciones en
+`view.js` es para crear partes del DOM con la data.
+
+Esta no es la única forma de dividir tu código, puedes usar más archivos y
+carpetas, siempre y cuando la estructura sea clara para tus compañeras.
+
+## 6. Hitos
+
+Para abordar eficazmente un problema, resulta crucial adquirir una comprensión
+profunda del mismo. Una estrategia efectiva consiste en desglosarlo en problemas
+más pequeños, lo cual facilitará la identificación de las causas subyacentes y la
+formulación de soluciones más eficientes.
+
+En el contexto de este proyecto, recomendamos adoptar un enfoque por hitos.
+Esta metodología te posibilitará concentrarte en un problema a la vez y
+monitorizar tu avance. A continuación, te proporcionamos un calendario de hitos
+que te servirá para estructurar tu trabajo.
+
+* [Hito 1](./docs/01-milestone.md)
+* [Hito 2](./docs/02-milestone.md)
+* [Hito 3](./docs/03-milestone.md)
+* [Hito 4](./docs/04-milestone.md)
+
+## 7. Criterios de aceptación mínimos del proyecto
 
 ### Criterios de código
 
 Con cada objetivo de aprendizaje, evaluamos que el código cumpla con algunos
 criterios. Lo cual no excluye que puedas usar otras opciones, por ejemplo
 en el caso de los selectores, proponemos el uso de `querySelector`,
-no significa que no puedes usar `querySelectorAll` o `getElementId` también.
+no significa que no puedes usar `querySelectorAll` o `getElementById` también.
 
 Puedes ejecutar las pruebas de cada grupo de objetivos de aprendizaje de manera
 individual con los siguientes comandos:
@@ -328,6 +361,19 @@ npm run test:oas-prompting
 npm run test:oas // Esto es para correr todos los tests de OAs
 ```
 
+Ejecuta las pruebas mientras desarrollas para confirmar que
+tu proyecto está logrando los objetivos. Si algunas pruebas no pasan,
+no permitas que esto te impida avanzar o finalizar el proyecto.
+Utiliza esta información para ver qué necesitas investigar y
+cambiar en tu código, y consulta con tu coach cualquier
+objetivo que tengas pendiente.
+
+Nota: para el correcto funcionamiento de los tests, es necesario que tengas
+instalado `Node.js (LTS)` con la versión 14.0.0 o superior. Para verificar
+la versión de node ejecuta `node -v` en la terminal. Si el comando no te
+devuelve ninguna versión, necesitas instalarlo, para esto, puedes descargarlo
+desde su [sitio oficial](https://nodejs.org/).
+
 #### HTML
 
 * **Uso de HTML semántico**
@@ -336,39 +382,51 @@ npm run test:oas // Esto es para correr todos los tests de OAs
   - [ ] Tiene un `<footer>`
   - [ ] Tiene un `<main>` con `<h2>`
   - [ ] Todas las etiquetas de controles (inputs, selects, radio, etc) tienen `<label>`
+  - [ ] Todas las etiquetas `<label>` usan el atributo `for`
   - [ ] `<ul>` esta usado para dibujar la data
-  - [ ] Los hijos de `<li>` usan attributos de microdata `itemscope` e `itemprop`
+  - [ ] Los hijos de `<li>` usan attributos de [microdata](https://recursivos.com/html/microdatos/)
+  `itemscope` e `itemprop`
+
+Nota: Ten en cuenta que para poder testear el HTML de `<ul>`
+y `<li>` en tu proyecto es necesario que ya tengas una data
+creada, ya que a partir de la data se
+crearán estos elementos.
 
 #### CSS
 
 * **Uso de selectores de CSS**
 
-  - [ ] Uso de selector class para los items <li>
+  - [ ] Uso de selector class para los items `<li>`
   - [ ] Uso de flexbox en sentido `row` y `column`
-  - [ ] Uso de flexbox para el elemento que contiene los items
+  - [ ] Uso de flexbox para el elemento que contiene los items `<li>`
   - [ ] Uso de flexbox para el elemento que contiene los UI inputs
+
+* **Modelo de caja (box model): borde, margen, padding**
+
+  - [ ] Uso de atributos de modelo de caja para los items `<li>`
+  - [ ] Uso de atributos de modelo de caja para `<header>` o `<footer>`
 
 #### Web APIs
 
 * **Uso de selectores del DOM**
 
-  - [ ] La aplicación usa [`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
-    para buscar los elementos del DOM
-  
+  - [ ] Uso de [`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+    para seleccionar elementos del DOM.
+
 * **Manejo de eventos del DOM (listeners, propagación, delegación)**
 
-  - [ ] `addEventListener` con callback que tiene parámetro de `event`,
+  - [ ] Uso de `addEventListener` con callback que tiene parámetro de `event`,
     lo que permite el uso del objeto [`event`](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_objects)
-    con `event.target` o `event.currentTarget`
+    con `event.target` o `event.currentTarget`.
   - [ ] La aplicación registra [Event Listeners](https://developer.mozilla.org/en/docs/Web/API/EventTarget/addEventListener)
     para escuchar `click`, `change`, `keyup` dependiendo del evento que
-    se quiere escuchar
+    se quiere escuchar.
 
 * **Manipulación dinámica del DOM**
 
   - [ ] La aplicación actualiza el atributo [`innerHTML`](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML).
-  - [ ] La aplicación usa `createElement` y `appendChild`, o template strings
-    para crear elementos
+  - [ ] Uso de `createElement` y `appendChild`, o template strings
+    para crear elementos.
 
 #### JavaScript
 
@@ -433,8 +491,9 @@ el problema (o problemas) que tiene tu usuaria.
 
 #### Historias de usuario
 
-Una vez que entiendas las necesidades de tus usuarias, escribe las [Historias
-de Usuaria](https://es.wikipedia.org/wiki/Historias_de_usuario) que representen
+Una vez que entiendas las necesidades de tus usuarias, escribe las
+[Historias de Usuaria](https://es.wikipedia.org/wiki/Historias_de_usuario)
+que representen
 todo lo que la usuaria necesita hacer/ver. Las **Historias de Usuario** deben
 ser el resultado de tu proceso de investigación o _research_ de tus usuarias.
 
@@ -455,7 +514,7 @@ en la historia, personajes inventados, países, películas... etc.
 En el próximo proyecto, con la ayuda de la inteligencia artificial, deberás
 hacer que la usuaria pueda chatear con la data generada.
 Por ejemplo, si la data está mostrando un país, la usuaria podría
-preguntarle en que año fue fundado o cual es su capital, etc.
+preguntarle en que año fue fundado o cuál es su capital, etc.
 Tenlo en cuenta a la hora de generar tu dataset.
 
 Esta data la vas a guardar en un archivo javascript. Este archivo,
@@ -463,7 +522,7 @@ debe exportar un arreglo con 24 objetos. Y la estructura de cada objeto
 debe ser la siguiente:
 
 * `id`: Identificador único (no pueden haber dos elementos con el mismo `id`).
-  Debe ser un string de no más de 32 characteres, en minúscula, compuesto solo
+  Debe ser un string de no más de 32 caracteres, en minúscula, compuesto solo
   por letras, números, underscore (`_`) o guión (`-`). Por ejemplo: `"ada-lovelace"`.
 * `name`: El nombre del personaje, país, película, etc.
 * `shortDescription`: Descripción corta del elemento. Esta descripción deberá
@@ -472,7 +531,7 @@ debe ser la siguiente:
   tener entre 80 y 100 palabras. Al momento de mostrar este dato en pantalla
   puedes truncarlo para que no ocupe tanto espacio.
 * `imageUrl`: URL de la imagen. Esta imagen será generada a través de alguna
-  herramienta basada en inteligencia artifical. Una vez generada la imagen,
+  herramienta basada en inteligencia artificial. Una vez generada la imagen,
   y guardada en tu repo, deberás agregar la URL en este campo.
 * `facts`: Un objeto con al menos **3** "hechos" o "info" sobre este elemento, en
   formato `"nombre": "valor"`, por ejemplo:
@@ -559,7 +618,7 @@ Estas imágenes pueden ser generadas por la inteligencia artificial o imágenes
 que puedas encontrar en la web.
 Para la generación de imágenes te recomendamos usar el
 [generador de imágenes de Bing](https://www.bing.com/create).
-Una vez que tengas la imagen, descárgala u obtiene su URL, para agregársela
+Una vez que tengas la imagen, descárgala u obtén su URL, para agregársela
 al dataset.
 
 Una vez que tengas el archivo javascript completo, recuerda correr los test con
@@ -567,11 +626,15 @@ Una vez que tengas el archivo javascript completo, recuerda correr los test con
 solicitado.
 
 Una vez que hayas delimitado tu campo de interés y generado el archivo
-javascript con la asistencia de la inteligenica artificial, dedica
+javascript con la asistencia de la inteligencia artificial, dedica
 tiempo a comprender a fondo a tu usuaria y sus
 necesidades específicas. A partir de esta comprensión, podrás diseñar la
 interfaz que facilite una interacción más efectiva y una comprensión más
 completa de los datos presentados.
+
+Nota: no te preocupes si no estás empleando toda la información generada
+en el dataset en tu interfaz, pero es necesario generarla por completo.
+Utilizarás el mismo dataset en el proyecto Dataverse Chat.
 
 #### Prompt utilizado
 
@@ -626,11 +689,12 @@ Tus _pruebas unitarias_ deben dar una cobertura del 70% de _statements_
 (_ramas_) del archivo `src/dataFunctions.js` que contenga tus funciones y
 está detallado en la sección de [Consideraciones técnicas](#src/data.js).
 
-## 7. Hacker edition
+## 8. Hacker edition
 
 Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
 con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
-profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
+profundizar y/o ejercitar más sobre los objetivos de
+aprendizaje del proyecto.
 
 Features/características extra sugeridas:
 
@@ -640,7 +704,7 @@ Features/características extra sugeridas:
   o [Google Charts](https://developers.google.com/chart/).
 * 100% Coverage
 
-## 8. Objetivos de aprendizaje
+## 9. Objetivos de aprendizaje
 
 > ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
@@ -650,7 +714,7 @@ Features/características extra sugeridas:
 > Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
 > que contempla nuestra currícula.
 
-## 9. Pistas, tips y lecturas complementarias
+## 10. Pistas, tips y lecturas complementarias
 
 ### Primeros pasos
 
@@ -669,7 +733,8 @@ Estas preguntas te pueden ayudar:
 * Toda tu investigación previa debe tener como resultado todas las Historias
   de Usuaria de tu proyecto.
 * No hagas los prototipos de alta fidelidad de todas tus Historias. Comienza
-  solamente por los que se necesiten para tu Sprint 1 (semana 1 de trabajo). Más
+  solamente por los que se necesiten para tu Sprint 1
+  (semana 1 de trabajo). Más
   pistas en la guía de organización para el proyecto.
 
 Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
@@ -737,34 +802,42 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
   Ojo que Cris no diferencia _Definición de terminado_ de _Criterios de
   Aceptación_ y nosotros sí lo haremos. Más detalles en la guía.
 * [Cómo dividir H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
+* [Qué es Pair Programming?](https://www.youtube.com/watch?v=T7xQnA2Qpak&feature=youtu.be)
 
-## 10. Consideraciones para pedir tu Project Feedback
+## 11. Consideraciones para pedir tu Project Feedback
 
-Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
+Antes de agendar tu Project Feedback con un coach:
 
-* [ ] Cumple con todos los criterios mínimos de aceptación al ejecutar `npm run test:oas`
-* [ ] Cumple con todas las pruebas _end to end_ al ejecutar `npm run test:e2e`
-* [ ] Cumple con todas las pruebas unitarias al ejecutar `npm run test` y
+* Cumple con los criterios mínimos de aceptación al ejecutar `npm run test:oas`
+* Cumple con las pruebas unitarias al ejecutar `npm run test` y
   que tienen una cobertura del 70% de _statements_ (_sentencias_),
   _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
-* [ ] Esta libre de _errores_ de `eslint` al ejecutar `npm run pretest`
-* [ ] Está subido a GitHub y desplegado en GitHub Pages
-* [ ] Captura de pantalla del prompt utilizado para generar los datos.
-* Tiene un `README.md` con la siguente:
-  - [ ] _Definición del producto_ clara e informativa
-  - [ ] Historias de usuario
-  - [ ] Un _Diseño de la Interfaz de Usuaria_ (prototipo de alta fidelidad)
-  - [ ] El listado de problemas que detectaste a través de tests
+* Cumple con las pruebas _end to end_ al ejecutar `npm run test:e2e`
+
+No es necesario que todas las pruebas
+pasen con 100% para poder tener tu Project Feedback.
+El objetivo de los tests no es bloquearte, pero es importante que comprendas
+qué objetivos tienes pendientes y discutas con tu coach si alguno
+de ellos es crucial para lograrlo antes de tu Project Feedback.
+
+A continuación, antes de tu Project Feedback con un coach asegúrate que
+tu proyecto:
+
+* Esta libre de _errores_ de `eslint` al ejecutar `npm run pretest`
+* Está subido a GitHub y desplegado en GitHub Pages
+* Captura de pantalla del prompt utilizado para generar los datos.
+* Tiene un `README.md` con la siguiente:
+  - _Definición del producto_ clara e informativa
+  - Historias de usuario
+  - Un _Diseño de la Interfaz de Usuaria_ (prototipo de alta fidelidad)
+  - El listado de problemas que detectaste a través de tests
     de usabilidad en el `README.md`
 * Tiene un UI que cumple las funcionalidades:
-  - [ ] Muestra lista con datos y/o indicadores
-  - [ ] Permite ordenar data por uno o más campos (asc y desc)
-  - [ ] Permite filtrar data con base en una condición
-  - [ ] Permite limpiar los filtros con un botón
-  - [ ] Es _responsive_
+  - Muestra lista con datos y/o indicadores
+  - Permite ordenar data por uno o más campos (asc y desc)
+  - Permite filtrar data con base en una condición
+  - Permite limpiar los filtros con un botón
+  - Es _responsive_
 
 Recuerda que debes hacer una autoevaluación de _objetivos de aprendizaje_ y
 _life skills_ desde tu dashboard de estudiante.
-
-Si no has completado todo lo anterior, no consideramos que estás lista para
-tu sesión de Project Feedback.

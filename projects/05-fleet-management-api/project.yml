@@ -1,16 +1,22 @@
 track: web-dev
 learningObjectives:
+  - java
+  - python
+  - object-oriented-programming
   - node
-  - db/modeling
-  - db/connection
-  - db/indexes-constraints
-  - sql/tables
-  - sql/crud
-  - sql/drop
-  - postgres/psql
+  - sql
+  - db
+  - csharp
   - postgres/data-types
-  - postgres/dump-restore
   - postgres/indexes
-  - react
-  - vue
-  - angular
+  - scm/git
+  - scm/github/setup
+  - scm/github/collaboration
+  - scm/github/project-management
+  - typescript/basic-types/primitives
+  - typescript/basic-types/arrays
+  - typescript/basic-types/functions
+  - typescript/basic-types/object-types
+  - typescript/basic-types/union-types
+  - typescript/basic-types/interfaces
+  - typescript/basic-types/enums

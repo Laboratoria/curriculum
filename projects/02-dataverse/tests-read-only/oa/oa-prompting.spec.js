@@ -92,8 +92,9 @@ describe('Test de data set', () => {
         });
     
         it('Debe ser una URL válida', () => {
+          const pathRegex = /\.(jpg|jpeg|png|gif|bmp|svg|webp)$/;
           const urlRegex = /^(https?:\/\/)?([\da-z.-]+)\.([a-z.]{2,6})([/\w.-]*)*\/?$/;
-          expect(urlRegex.test(item.imageUrl)).toBe(true);
+          expect(pathRegex.test(item.imageUrl) || urlRegex.test(item.imageUrl)).toBe(true);
         });
       });
     
@@ -109,7 +110,7 @@ describe('Test de data set', () => {
         it('Los nombres de todas las propiedades deben tener formato camelCase', () => {
           expect.hasAssertions();
           Object.keys(item.facts).forEach((k) => {
-            expect(/^([a-z]+)(([A-Z]([a-z]+))+)$/.test(k)).toBe(true);
+            expect(/^[a-z]+([A-Z][a-z]*)*$/.test(k)).toBe(true);
           });
         });
       

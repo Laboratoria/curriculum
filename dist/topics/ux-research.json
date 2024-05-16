@@ -2,10 +2,13 @@
   "slug": "ux-research",
   "repo": "Laboratoria/curriculum",
   "path": "topics/ux-research",
-  "version": "7.3.0",
-  "parserVersion": "5.1.0",
-  "createdAt": "2023-10-16T17:44:29.271Z",
+  "version": "8.6.0",
+  "parserVersion": "5.3.0",
+  "createdAt": "2024-04-12T16:40:55.831Z",
   "track": "ux",
+  "tracks": [
+    "ux"
+  ],
   "intl": {
     "es": {
       "title": "UX Research",

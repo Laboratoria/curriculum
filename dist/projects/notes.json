@@ -2,11 +2,14 @@
   "slug": "notes",
   "repo": "Laboratoria/curriculum",
   "path": "projects/04-notes",
-  "version": "7.3.0",
-  "parserVersion": "5.1.0",
-  "createdAt": "2023-10-16T17:43:41.363Z",
+  "version": "8.6.0",
+  "parserVersion": "5.3.0",
+  "createdAt": "2024-04-12T16:40:31.488Z",
   "prefix": 4,
   "track": "web-dev",
+  "tracks": [
+    "web-dev"
+  ],
   "learningObjectives": [
     "html/semantics",
     "css/selectors",
@@ -36,6 +39,7 @@
     "firebase/auth",
     "firebase/firestore",
     "angular/components-and-templates",
+    "angular/component-lifecycle",
     "angular/structural-directives",
     "angular/input-output",
     "angular/services",

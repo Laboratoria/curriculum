@@ -81,58 +81,20 @@
       }
     ],
     "user-centricity": [
-      "centricity",
-      "user-oriented",
-      "prioritization"
-    ],
-    "business": [
-      "model",
-      "goals",
-      "metrics",
-      "benchmark"
-    ],
-    "synthesis": [
-      "weighing",
-      "patterns",
-      "insights",
-      "mapping",
-      "features",
-      "ideation",
-      "feature-prioritization"
+      "centricity"
     ],
     "product-design": [
-      "user-flows",
-      "content",
       "fidelity",
       "interactivity",
-      "usability",
-      "accessibility",
-      "visual-design",
-      "component-organization",
-      "project-organization",
-      "documentation"
-    ],
-    "communication": [
-      "presentation",
-      "negotiation",
-      "relationship-management",
-      "case-study"
-    ],
-    "planning": [
-      "monitor",
-      "prioritization",
-      "tools"
+      "visual-design"
     ],
     "firebase": [
       "auth",
       "firestore"
     ],
-    "front-end-web-dev": [
-      "components",
-      "state"
-    ],
     "angular": [
       "components-and-templates",
+      "component-lifecycle",
       "structural-directives",
       "input-output",
       "services",
@@ -191,6 +153,261 @@
     "auth": [
       "jwt",
       "password-access-and-storage"
+    ],
+    "java": [
+      "access-modifiers",
+      "variables",
+      "conditionals",
+      "loops",
+      {
+        "data-types": [
+          "primitive",
+          "primitive-vs-non-primitive",
+          "strings",
+          "arrays"
+        ]
+      },
+      {
+        "collections": [
+          "array-list",
+          "hash-map",
+          "hash-set"
+        ]
+      },
+      {
+        "testing": [
+          "junit",
+          "mockito"
+        ]
+      },
+      {
+        "spring-framework": [
+          {
+            "core-concepts": [
+              "beans",
+              "inversion-of-control",
+              "annotations"
+            ]
+          },
+          "initializr",
+          "spring-boot",
+          "controllers",
+          "services",
+          "spring-data-jpa",
+          "entity",
+          "repository",
+          {
+            "spring-web": [
+              "rest-controller",
+              "request-mapping",
+              "request-param"
+            ]
+          },
+          {
+            "testing": [
+              "spring-test",
+              "hamcrest"
+            ]
+          }
+        ]
+      },
+      {
+        "hibernate-orm": [
+          "setup",
+          "schema",
+          "entity",
+          "table",
+          "column",
+          "identifiers",
+          "associations",
+          "collections",
+          "persistance",
+          "querying"
+        ]
+      }
+    ],
+    "python": [
+      {
+        "data-types": [
+          "primitive",
+          "lists",
+          "tuples",
+          "dictionaries",
+          "sets"
+        ]
+      },
+      "variables",
+      "conditionals",
+      "operators",
+      "docstrings",
+      {
+        "functions": [
+          "basic-concepts",
+          "args-kwargs",
+          "closures",
+          "lambda-functions",
+          "decorators"
+        ]
+      },
+      {
+        "iteration": [
+          "loops",
+          "list-comprehension",
+          "functional-techniques"
+        ]
+      },
+      "linting",
+      {
+        "testing": [
+          "unit-tests",
+          "mocks",
+          "fixtures"
+        ]
+      },
+      {
+        "modularization": [
+          "modules",
+          "packages"
+        ]
+      },
+      {
+        "dependency-management": [
+          "pip",
+          "virtual-environment",
+          "requirements-file"
+        ]
+      },
+      "serialization",
+      {
+        "flask": [
+          {
+            "routes": [
+              "route-decorator",
+              "view-function",
+              "variable-rules"
+            ]
+          },
+          {
+            "request": [
+              "args",
+              "headers"
+            ]
+          },
+          {
+            "response": [
+              "response-parts",
+              "jsonify"
+            ]
+          },
+          {
+            "testing": [
+              "fixture-setup",
+              "test-client"
+            ]
+          }
+        ]
+      },
+      {
+        "django": [
+          {
+            "setup": [
+              "migrations",
+              "app"
+            ]
+          },
+          {
+            "models": [
+              "fields",
+              "foreign-Key"
+            ]
+          },
+          "views",
+          "testing",
+          "queryset",
+          "filter",
+          "order-by",
+          "url-configuration",
+          {
+            "rest-framework": [
+              "serializers",
+              "pagination",
+              "query-params",
+              "viewset",
+              "apiview"
+            ]
+          }
+        ]
+      }
+    ],
+    "csharp": [
+      {
+        "data-types": [
+          "primitives",
+          "non-primitives",
+          "structs",
+          "enums",
+          "anonymous-types",
+          "dynamic-types"
+        ]
+      },
+      {
+        "collections": [
+          "lists",
+          "arrays",
+          "sets"
+        ]
+      },
+      "variables",
+      "conditionals",
+      "loops",
+      "operators",
+      "generics",
+      "access-modifiers",
+      "namespaces",
+      {
+        "functions": [
+          "lambda-functions",
+          "decorators"
+        ]
+      },
+      {
+        "error-handling": [
+          "try-catch",
+          "throw"
+        ]
+      },
+      "linq",
+      "async-await",
+      ".net-core",
+      "nuget-packages",
+      {
+        "testing": [
+          "xunit",
+          "mstest"
+        ]
+      },
+      {
+        "entity-framework": [
+          "code-first",
+          "models",
+          "fluent-api",
+          "controllers",
+          "migrations"
+        ]
+      }
+    ],
+    "object-oriented-programming": [
+      "classes",
+      "objects",
+      "methods",
+      "attributes",
+      "constructors",
+      "encapsulation",
+      "abstraction",
+      "composition",
+      "interfaces",
+      "inheritance",
+      "unified-model-language"
     ],
     "webops": [
       "env-vars",
@@ -315,13 +532,7 @@
               "extends"
             ]
           },
-          {
-            "member-visibility": [
-              "public",
-              "protected",
-              "private"
-            ]
-          },
+          "member-visibility",
           "static-members",
           "this",
           "abstract-classes"
@@ -346,42 +557,28 @@
       "benchmark"
     ],
     "research": [
-      "support",
-      "guidelines",
-      "interview",
-      "documentation",
-      "adaptation",
-      "sources",
-      "test",
-      "cuantitative-data",
-      {
-        "planning": [
-          "research-plan",
-          "desk-research",
-          "research-sample",
-          "participants"
-        ]
-      },
-      {
-        "qualitative": [
-          "user-interviews",
-          "exploratory-techniques"
-        ]
-      },
-      {
-        "quantitative": [
-          "user-surveys",
-          "analytical-techniques"
-        ]
-      },
-      {
-        "analysis": [
-          "process-information",
-          "experience-mapping",
-          "identify-patterns",
-          "synthesize-results"
-        ]
-      }
+      "test"
+    ],
+    "research-planning": [
+      "research-plan",
+      "desk-research",
+      "research-sample",
+      "participants"
+    ],
+    "research-qualitative": [
+      "user-interviews",
+      "exploratory-techniques"
+    ],
+    "research-quantitative": [
+      "user-surveys",
+      "analytical-techniques"
+    ],
+    "research-analysis": [
+      "process-information",
+      "experience-mapping",
+      "identify-patterns",
+      "synthesize-results",
+      "ai-analysis"
     ],
     "design-concept": [
       "define-mvp",
@@ -396,17 +593,20 @@
     ],
     "content-design": [
       "voice-tone",
-      "create-content"
+      "create-content",
+      "ai-content"
     ],
     "interface-design": [
       "visual-design",
       "accesibility",
-      "responsive-design"
+      "responsive-design",
+      "ai-proposals"
     ],
     "design-prototype": [
       "basic-prototypes",
       "high-fidelity",
-      "advanced-interactions"
+      "advanced-interactions",
+      "ai-plugins"
     ],
     "usability-analysis": [
       "moderated-testing",
@@ -415,7 +615,8 @@
     ],
     "design-pitch": [
       "design-feedback",
-      "design-presentation"
+      "design-presentation",
+      "ai-presentations"
     ],
     "design-specs": [
       "file-organization",
@@ -484,49 +685,16 @@
     "scm/github/ci",
     "user-centricity",
     "user-centricity/centricity",
-    "user-centricity/user-oriented",
-    "user-centricity/prioritization",
-    "business",
-    "business/model",
-    "business/goals",
-    "business/metrics",
-    "business/benchmark",
-    "synthesis",
-    "synthesis/weighing",
-    "synthesis/patterns",
-    "synthesis/insights",
-    "synthesis/mapping",
-    "synthesis/features",
-    "synthesis/ideation",
-    "synthesis/feature-prioritization",
     "product-design",
-    "product-design/user-flows",
-    "product-design/content",
     "product-design/fidelity",
     "product-design/interactivity",
-    "product-design/usability",
-    "product-design/accessibility",
     "product-design/visual-design",
-    "product-design/component-organization",
-    "product-design/project-organization",
-    "product-design/documentation",
-    "communication",
-    "communication/presentation",
-    "communication/negotiation",
-    "communication/relationship-management",
-    "communication/case-study",
-    "planning",
-    "planning/monitor",
-    "planning/prioritization",
-    "planning/tools",
     "firebase",
     "firebase/auth",
     "firebase/firestore",
-    "front-end-web-dev",
-    "front-end-web-dev/components",
-    "front-end-web-dev/state",
     "angular",
     "angular/components-and-templates",
+    "angular/component-lifecycle",
     "angular/structural-directives",
     "angular/input-output",
     "angular/services",
@@ -578,6 +746,170 @@
     "auth",
     "auth/jwt",
     "auth/password-access-and-storage",
+    "java",
+    "java/access-modifiers",
+    "java/variables",
+    "java/conditionals",
+    "java/loops",
+    "java/data-types",
+    "java/data-types/primitive",
+    "java/data-types/primitive-vs-non-primitive",
+    "java/data-types/strings",
+    "java/data-types/arrays",
+    "java/collections",
+    "java/collections/array-list",
+    "java/collections/hash-map",
+    "java/collections/hash-set",
+    "java/testing",
+    "java/testing/junit",
+    "java/testing/mockito",
+    "java/spring-framework",
+    "java/spring-framework/core-concepts",
+    "java/spring-framework/core-concepts/beans",
+    "java/spring-framework/core-concepts/inversion-of-control",
+    "java/spring-framework/core-concepts/annotations",
+    "java/spring-framework/initializr",
+    "java/spring-framework/spring-boot",
+    "java/spring-framework/controllers",
+    "java/spring-framework/services",
+    "java/spring-framework/spring-data-jpa",
+    "java/spring-framework/entity",
+    "java/spring-framework/repository",
+    "java/spring-framework/spring-web",
+    "java/spring-framework/spring-web/rest-controller",
+    "java/spring-framework/spring-web/request-mapping",
+    "java/spring-framework/spring-web/request-param",
+    "java/spring-framework/testing",
+    "java/spring-framework/testing/spring-test",
+    "java/spring-framework/testing/hamcrest",
+    "java/hibernate-orm",
+    "java/hibernate-orm/setup",
+    "java/hibernate-orm/schema",
+    "java/hibernate-orm/entity",
+    "java/hibernate-orm/table",
+    "java/hibernate-orm/column",
+    "java/hibernate-orm/identifiers",
+    "java/hibernate-orm/associations",
+    "java/hibernate-orm/collections",
+    "java/hibernate-orm/persistance",
+    "java/hibernate-orm/querying",
+    "python",
+    "python/data-types",
+    "python/data-types/primitive",
+    "python/data-types/lists",
+    "python/data-types/tuples",
+    "python/data-types/dictionaries",
+    "python/data-types/sets",
+    "python/variables",
+    "python/conditionals",
+    "python/operators",
+    "python/docstrings",
+    "python/functions",
+    "python/functions/basic-concepts",
+    "python/functions/args-kwargs",
+    "python/functions/closures",
+    "python/functions/lambda-functions",
+    "python/functions/decorators",
+    "python/iteration",
+    "python/iteration/loops",
+    "python/iteration/list-comprehension",
+    "python/iteration/functional-techniques",
+    "python/linting",
+    "python/testing",
+    "python/testing/unit-tests",
+    "python/testing/mocks",
+    "python/testing/fixtures",
+    "python/modularization",
+    "python/modularization/modules",
+    "python/modularization/packages",
+    "python/dependency-management",
+    "python/dependency-management/pip",
+    "python/dependency-management/virtual-environment",
+    "python/dependency-management/requirements-file",
+    "python/serialization",
+    "python/flask",
+    "python/flask/routes",
+    "python/flask/routes/route-decorator",
+    "python/flask/routes/view-function",
+    "python/flask/routes/variable-rules",
+    "python/flask/request",
+    "python/flask/request/args",
+    "python/flask/request/headers",
+    "python/flask/response",
+    "python/flask/response/response-parts",
+    "python/flask/response/jsonify",
+    "python/flask/testing",
+    "python/flask/testing/fixture-setup",
+    "python/flask/testing/test-client",
+    "python/django",
+    "python/django/setup",
+    "python/django/setup/migrations",
+    "python/django/setup/app",
+    "python/django/models",
+    "python/django/models/fields",
+    "python/django/models/foreign-Key",
+    "python/django/views",
+    "python/django/testing",
+    "python/django/queryset",
+    "python/django/filter",
+    "python/django/order-by",
+    "python/django/url-configuration",
+    "python/django/rest-framework",
+    "python/django/rest-framework/serializers",
+    "python/django/rest-framework/pagination",
+    "python/django/rest-framework/query-params",
+    "python/django/rest-framework/viewset",
+    "python/django/rest-framework/apiview",
+    "csharp",
+    "csharp/data-types",
+    "csharp/data-types/primitives",
+    "csharp/data-types/non-primitives",
+    "csharp/data-types/structs",
+    "csharp/data-types/enums",
+    "csharp/data-types/anonymous-types",
+    "csharp/data-types/dynamic-types",
+    "csharp/collections",
+    "csharp/collections/lists",
+    "csharp/collections/arrays",
+    "csharp/collections/sets",
+    "csharp/variables",
+    "csharp/conditionals",
+    "csharp/loops",
+    "csharp/operators",
+    "csharp/generics",
+    "csharp/access-modifiers",
+    "csharp/namespaces",
+    "csharp/functions",
+    "csharp/functions/lambda-functions",
+    "csharp/functions/decorators",
+    "csharp/error-handling",
+    "csharp/error-handling/try-catch",
+    "csharp/error-handling/throw",
+    "csharp/linq",
+    "csharp/async-await",
+    "csharp/.net-core",
+    "csharp/nuget-packages",
+    "csharp/testing",
+    "csharp/testing/xunit",
+    "csharp/testing/mstest",
+    "csharp/entity-framework",
+    "csharp/entity-framework/code-first",
+    "csharp/entity-framework/models",
+    "csharp/entity-framework/fluent-api",
+    "csharp/entity-framework/controllers",
+    "csharp/entity-framework/migrations",
+    "object-oriented-programming",
+    "object-oriented-programming/classes",
+    "object-oriented-programming/objects",
+    "object-oriented-programming/methods",
+    "object-oriented-programming/attributes",
+    "object-oriented-programming/constructors",
+    "object-oriented-programming/encapsulation",
+    "object-oriented-programming/abstraction",
+    "object-oriented-programming/composition",
+    "object-oriented-programming/interfaces",
+    "object-oriented-programming/inheritance",
+    "object-oriented-programming/unified-model-language",
     "webops",
     "webops/env-vars",
     "webops/docker-containers",
@@ -667,9 +999,6 @@
     "typescript/classes/class-heritage/implements",
     "typescript/classes/class-heritage/extends",
     "typescript/classes/member-visibility",
-    "typescript/classes/member-visibility/public",
-    "typescript/classes/member-visibility/protected",
-    "typescript/classes/member-visibility/private",
     "typescript/classes/static-members",
     "typescript/classes/this",
     "typescript/classes/abstract-classes",
@@ -688,30 +1017,24 @@
     "business-understanding/goals-and-kpis",
     "business-understanding/benchmark",
     "research",
-    "research/support",
-    "research/guidelines",
-    "research/interview",
-    "research/documentation",
-    "research/adaptation",
-    "research/sources",
     "research/test",
-    "research/cuantitative-data",
-    "research/planning",
-    "research/planning/research-plan",
-    "research/planning/desk-research",
-    "research/planning/research-sample",
-    "research/planning/participants",
-    "research/qualitative",
-    "research/qualitative/user-interviews",
-    "research/qualitative/exploratory-techniques",
-    "research/quantitative",
-    "research/quantitative/user-surveys",
-    "research/quantitative/analytical-techniques",
-    "research/analysis",
-    "research/analysis/process-information",
-    "research/analysis/experience-mapping",
-    "research/analysis/identify-patterns",
-    "research/analysis/synthesize-results",
+    "research-planning",
+    "research-planning/research-plan",
+    "research-planning/desk-research",
+    "research-planning/research-sample",
+    "research-planning/participants",
+    "research-qualitative",
+    "research-qualitative/user-interviews",
+    "research-qualitative/exploratory-techniques",
+    "research-quantitative",
+    "research-quantitative/user-surveys",
+    "research-quantitative/analytical-techniques",
+    "research-analysis",
+    "research-analysis/process-information",
+    "research-analysis/experience-mapping",
+    "research-analysis/identify-patterns",
+    "research-analysis/synthesize-results",
+    "research-analysis/ai-analysis",
     "design-concept",
     "design-concept/define-mvp",
     "design-concept/design-references",
@@ -724,14 +1047,17 @@
     "content-design",
     "content-design/voice-tone",
     "content-design/create-content",
+    "content-design/ai-content",
     "interface-design",
     "interface-design/visual-design",
     "interface-design/accesibility",
     "interface-design/responsive-design",
+    "interface-design/ai-proposals",
     "design-prototype",
     "design-prototype/basic-prototypes",
     "design-prototype/high-fidelity",
     "design-prototype/advanced-interactions",
+    "design-prototype/ai-plugins",
     "usability-analysis",
     "usability-analysis/moderated-testing",
     "usability-analysis/heuristic-analysis",
@@ -739,6 +1065,7 @@
     "design-pitch",
     "design-pitch/design-feedback",
     "design-pitch/design-presentation",
+    "design-pitch/ai-presentations",
     "design-specs",
     "design-specs/file-organization",
     "design-specs/use-cases",
@@ -950,6 +1277,9 @@
       "js": {
         "title": "JavaScript"
       },
+      "js/data-types": {
+        "title": "Tipos de datos"
+      },
       "js/data-types/primitive": {
         "title": "Tipos de datos primitivos",
         "links": [
@@ -1096,6 +1426,9 @@
       "js/expression-vs-statement": {
         "title": "Diferenciar entre expresiones (expressions) y sentencias (statements)"
       },
+      "js/modules": {
+        "title": "Módulos"
+      },
       "js/modules/es-modules": {
         "title": "Módulos de ECMAScript (ES Modules)",
         "links": [
@@ -1117,6 +1450,9 @@
             "url": "https://nodejs.org/docs/latest/api/modules.html"
           }
         ]
+      },
+      "js/testing": {
+        "title": "Testing en Javascript"
       },
       "js/testing/unit": {
         "title": "Pruebas unitarias (unit tests)",
@@ -1154,6 +1490,9 @@
       "js/linting": {
         "title": "Uso de linter (ESLINT)"
       },
+      "js/async": {
+        "title": "Asincronía"
+      },
       "js/async/callbacks": {
         "title": "Callbacks",
         "links": [
@@ -1179,6 +1518,9 @@
       "scm": {
         "title": "Control de Versiones (Git y GitHub)"
       },
+      "scm/git": {
+        "title": "Git"
+      },
       "scm/git/setup": {
         "title": "Git: Instalación y configuración"
       },
@@ -1187,6 +1529,9 @@
       },
       "scm/git/integration": {
         "title": "Git: Integración de cambios entre ramas (branch, checkout, fetch, merge, reset, rebase, tag)"
+      },
+      "scm/github": {
+        "title": "GitHub"
       },
       "scm/github/setup": {
         "title": "GitHub: Creación de cuenta y repos, configuración de llaves SSH"
@@ -1209,59 +1554,14 @@
       "scm/github/ci": {
         "title": "GitHub: Integración continua con GitHub actions"
       },
-      "ux": {
-        "title": "UX (User eXperience)"
-      },
       "user-centricity": {
         "title": "Centrado en el usuario"
       },
       "user-centricity/centricity": {
         "title": "Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro"
       },
-      "user-centricity/user-oriented": {
-        "title": "Involucrar usuarias y tomar en cuenta sus necesidades a lo largo de todo el proceso de diseño"
-      },
-      "user-centricity/prioritization": {
-        "title": "Identificar y priorizar usuarias relevantes para el proyecto"
-      },
-      "business": {
-        "title": "Negocio"
-      },
-      "business/model": {
-        "title": "Entender el modelo de negocio"
-      },
-      "business/goals": {
-        "title": "Entender y considerar los objetivos del negocio durante el desarrollo del proyecto"
-      },
-      "business/metrics": {
-        "title": "Definir métricas relevantes para validar el cumplimiento de los objetivos del negocio"
-      },
-      "business/benchmark": {
-        "title": "Entender estado del negocio en relación con el mercado local y global"
-      },
       "research": {
         "title": "Investigación"
-      },
-      "research/planning": {
-        "title": "Planificar investigación basada en las necesidades del proyecto"
-      },
-      "research/support": {
-        "title": "Elegir y sustentar el # usuarias que participan en actividades de investigación"
-      },
-      "research/guidelines": {
-        "title": "Crear y probar guía de actividades de investigación"
-      },
-      "research/interview": {
-        "title": "Realizar entrevistas con usuarias empáticas y sin sesgos"
-      },
-      "research/documentation": {
-        "title": "Documentar entrevistas y testeos"
-      },
-      "research/adaptation": {
-        "title": "Adaptar plan de investigación de acuerdo a resultados obtenidos"
-      },
-      "research/sources": {
-        "title": "Identificar y revisar distintas fuentes de información e inspiración relevantes para el proyecto"
       },
       "research/test": {
         "title": "Planear y ejecutar testeos de usabilidad de prototipos en distintos niveles de fidelidad",
@@ -1276,41 +1576,8 @@
           }
         ]
       },
-      "research/cuantitative-data": {
-        "title": "Recopilar, analizar e interpretar data cuantitativa"
-      },
-      "synthesis": {
-        "title": "Síntesis"
-      },
-      "synthesis/weighing": {
-        "title": "Distinguir observaciones, data y/o respuestas que aportan valor al proyecto"
-      },
-      "synthesis/patterns": {
-        "title": "Encontrar patrones en los resultados de la investigación"
-      },
-      "synthesis/insights": {
-        "title": "Diferenciar entre observaciones, hallazagos e insights"
-      },
-      "synthesis/mapping": {
-        "title": "Usar herramientas de síntesis para mapear las experiencias de los usuarios"
-      },
-      "synthesis/features": {
-        "title": "Definir funcionalidades del producto"
-      },
-      "synthesis/ideation": {
-        "title": "Generar múltiples ideas de solución al reto del proyecto"
-      },
-      "synthesis/feature-prioritization": {
-        "title": "Priorizar las posibles soluciones que aporten más valor al proyecto, basándose en los objetivos del proyecto y las necesidades de los usuarios"
-      },
       "product-design": {
         "title": "Diseño de producto"
-      },
-      "product-design/user-flows": {
-        "title": "Priorizar y proponer flujos de usuaria que les ayuden a conseguir sus objetivos con el producto"
-      },
-      "product-design/content": {
-        "title": "Identificar y priorizar contenidos relevantes y necesarios para el producto"
       },
       "product-design/fidelity": {
         "title": "Diseñar en distintos niveles de fidelidad"
@@ -1318,50 +1585,8 @@
       "product-design/interactivity": {
         "title": "Crear prototipos de alta fidelidad que incluyan interacciones"
       },
-      "product-design/usability": {
-        "title": "Diseñar producto o servicio siguiendo mejores prácticas de usabilidad"
-      },
-      "product-design/accessibility": {
-        "title": "Diseñar producto o servicio siguiendo mejores prácticas de accesibilidad"
-      },
       "product-design/visual-design": {
         "title": "Seguir los principios básicos de diseño visual"
-      },
-      "product-design/component-organization": {
-        "title": "Crear y utilizar componentes reutilizables"
-      },
-      "product-design/project-organization": {
-        "title": "Nombrar, organizar, agrupar las capas (layers) del diseño siguiendo buenas prácticas"
-      },
-      "product-design/documentation": {
-        "title": "Documentar los distintos componentes de UI y sus casos de uso"
-      },
-      "communication": {
-        "title": "Comunicación"
-      },
-      "communication/presentation": {
-        "title": "Presentar y sustentar propuestas a clientes"
-      },
-      "communication/negotiation": {
-        "title": "Negociar efectivamente con clientes"
-      },
-      "communication/relationship-management": {
-        "title": "Manejar relaciones con clientes"
-      },
-      "communication/case-study": {
-        "title": "Presentar su proceso de trabajo en un caso de estudio usando herramientas de storytelling"
-      },
-      "planning": {
-        "title": "Planificación"
-      },
-      "planning/monitor": {
-        "title": "Organizar y dar seguimiento a actividades a desarrollarse durante el proyecto"
-      },
-      "planning/prioritization": {
-        "title": "Priorizar actividades a desarrollarse durante el proyecto"
-      },
-      "planning/tools": {
-        "title": "Elegir las herramientas y métodos a utilizar de acuerdo a las necesidades  del proyecto"
       },
       "firebase": {
         "title": "Firebase"
@@ -1574,6 +1799,828 @@
       },
       "auth/password-access-and-storage": {
         "title": "Almacenamiento y acceso de contraseñas"
+      },
+      "java": {
+        "title": "Java",
+        "links": [
+          {
+            "title": "Example title",
+            "url": "https://example.com"
+          }
+        ]
+      },
+      "java/access-modifiers": {
+        "title": "Modificadores de acesso (public, private, protected)"
+      },
+      "java/variables": {
+        "title": "Variables"
+      },
+      "java/conditionals": {
+        "title": "Uso de condicionales"
+      },
+      "java/loops": {
+        "title": "Uso de bucles (Loops)"
+      },
+      "java/data-types": {
+        "title": "Tipos de data"
+      },
+      "java/data-types/primitive": {
+        "title": "Primitivos"
+      },
+      "java/data-types/primitive-vs-non-primitive": {
+        "title": "Datos primitivos vs no primitivos"
+      },
+      "java/data-types/strings": {
+        "title": "Cadenas"
+      },
+      "java/data-types/arrays": {
+        "title": "Arreglos"
+      },
+      "java/collections": {
+        "title": "Colecciones"
+      },
+      "java/collections/array-list": {
+        "title": "ArrayList"
+      },
+      "java/collections/hash-map": {
+        "title": "HashMap"
+      },
+      "java/collections/hash-set": {
+        "title": "HashSet"
+      },
+      "java/testing": {
+        "title": "Testing"
+      },
+      "java/testing/junit": {
+        "title": "JUnit"
+      },
+      "java/testing/mockito": {
+        "title": "Mockito"
+      },
+      "java/spring-framework": {
+        "title": "Spring Framework"
+      },
+      "java/spring-framework/initializr": {
+        "title": "Initializr",
+        "links": [
+          {
+            "title": "Spring Initializr",
+            "url": "https://start.spring.io/"
+          }
+        ]
+      },
+      "java/spring-framework/core-concepts": {
+        "title": "Conceptos Core",
+        "links": [
+          {
+            "title": "Core Technologies",
+            "url": "https://docs.spring.io/spring-framework/reference/core.html"
+          }
+        ]
+      },
+      "java/spring-framework/core-concepts/beans": {
+        "title": "Beans"
+      },
+      "java/spring-framework/core-concepts/inversion-of-control": {
+        "title": "Inversión de Control"
+      },
+      "java/spring-framework/core-concepts/annotations": {
+        "title": "Anotaciones"
+      },
+      "java/spring-framework/spring-boot": {
+        "title": "Spring Boot",
+        "links": [
+          {
+            "title": "Spring Boot Reference Documentation",
+            "url": "https://docs.spring.io/spring-boot/docs/current/reference/html/"
+          }
+        ]
+      },
+      "java/spring-framework/controllers": {
+        "title": "Controladores"
+      },
+      "java/spring-framework/services": {
+        "title": "Servicios"
+      },
+      "java/spring-framework/spring-data-jpa": {
+        "title": "Spring Data JPA",
+        "links": [
+          {
+            "title": "Spring Data JPA - Reference Documentation",
+            "url": "https://docs.spring.io/spring-data/jpa/docs/current/reference/html/"
+          }
+        ]
+      },
+      "java/spring-framework/entity": {
+        "title": "Entidad"
+      },
+      "java/spring-framework/repository": {
+        "title": "Repositorio"
+      },
+      "java/spring-framework/spring-web": {
+        "title": "Spring Web",
+        "links": [
+          {
+            "title": "Building a RESTful Web Service",
+            "url": "https://spring.io/guides/gs/rest-service/"
+          }
+        ]
+      },
+      "java/spring-framework/spring-web/rest-controller": {
+        "title": "RestController"
+      },
+      "java/spring-framework/spring-web/request-mapping": {
+        "title": "RequestMapping"
+      },
+      "java/spring-framework/spring-web/request-param": {
+        "title": "RequestParam"
+      },
+      "java/spring-framework/testing": {
+        "title": "Testing"
+      },
+      "java/spring-framework/testing/spring-test": {
+        "title": "Spring Test"
+      },
+      "java/spring-framework/testing/hamcrest": {
+        "title": "Hamcrest"
+      },
+      "java/hibernate-orm": {
+        "title": "Hibernate ORM",
+        "links": [
+          {
+            "title": "What is an ORM?",
+            "url": "https://hibernate.org/orm/what-is-an-orm/"
+          },
+          {
+            "title": "Getting Started with Hibernate ORM",
+            "url": "https://docs.jboss.org/hibernate/orm/6.3/quickstart/html_single/"
+          },
+          {
+            "title": "Hibernate ORM User Guide",
+            "url": "https://docs.jboss.org/hibernate/orm/6.3/userguide/html_single/Hibernate_User_Guide.html"
+          }
+        ]
+      },
+      "java/hibernate-orm/setup": {
+        "title": "Configuración"
+      },
+      "java/hibernate-orm/schema": {
+        "title": "Esquema"
+      },
+      "java/hibernate-orm/entity": {
+        "title": "Entidad"
+      },
+      "java/hibernate-orm/table": {
+        "title": "Tabla"
+      },
+      "java/hibernate-orm/column": {
+        "title": "Columna"
+      },
+      "java/hibernate-orm/identifiers": {
+        "title": "Identificadores"
+      },
+      "java/hibernate-orm/associations": {
+        "title": "Asociaciones"
+      },
+      "java/hibernate-orm/collections": {
+        "title": "Colecciones"
+      },
+      "java/hibernate-orm/persistance": {
+        "title": "Persistencia"
+      },
+      "java/hibernate-orm/querying": {
+        "title": "Consultas"
+      },
+      "object-oriented-programming": {
+        "title": "Programación Orientada a Objetos (OOP)"
+      },
+      "object-oriented-programming/classes": {
+        "title": "Clases"
+      },
+      "object-oriented-programming/objects": {
+        "title": "Objetos"
+      },
+      "object-oriented-programming/methods": {
+        "title": "Métodos"
+      },
+      "object-oriented-programming/attributes": {
+        "title": "Atributos"
+      },
+      "object-oriented-programming/constructors": {
+        "title": "Constructores"
+      },
+      "object-oriented-programming/encapsulation": {
+        "title": "Encapsulamiento"
+      },
+      "object-oriented-programming/abstraction": {
+        "title": "Abstracción"
+      },
+      "object-oriented-programming/composition": {
+        "title": "Composición"
+      },
+      "object-oriented-programming/interfaces": {
+        "title": "Interfaces"
+      },
+      "object-oriented-programming/inheritance": {
+        "title": "Herencia (super, extends, override)"
+      },
+      "object-oriented-programming/unified-model-language": {
+        "title": "Lenguaje de Modelado Unificado (UML, class diagrams)"
+      },
+      "python": {
+        "title": "Python"
+      },
+      "python/data-types": {
+        "title": "Tipos de datos"
+      },
+      "python/data-types/primitive": {
+        "title": "Tipos de datos primitivos (int, float, str, bool)",
+        "links": [
+          {
+            "title": "Data Types - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/library/datatypes.html"
+          },
+          {
+            "title": "Data types in Python (en inglés)",
+            "url": "https://www.educative.io/answers/data-types-in-python"
+          }
+        ]
+      },
+      "python/data-types/lists": {
+        "title": "Listas (arrays)",
+        "links": [
+          {
+            "title": "Lists - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/tutorial/datastructures.html#more-on-lists"
+          },
+          {
+            "title": "Lists and Tuples in Python - Real Python (en inglés)",
+            "url": "https://realpython.com/python-lists-tuples/"
+          }
+        ]
+      },
+      "python/data-types/tuples": {
+        "title": "Tuples",
+        "links": [
+          {
+            "title": "Tuples - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences"
+          },
+          {
+            "title": "Lists and Tuples in Python - Real Python (en inglés)",
+            "url": "https://realpython.com/python-lists-tuples/"
+          }
+        ]
+      },
+      "python/data-types/dictionaries": {
+        "title": "Dictionaries (Dicts)",
+        "links": [
+          {
+            "title": "Dictionaries - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+          },
+          {
+            "title": "Dictionaries in Python - Real Python (en inglés)",
+            "url": "https://realpython.com/python-dicts/"
+          }
+        ]
+      },
+      "python/data-types/sets": {
+        "title": "Sets",
+        "links": [
+          {
+            "title": "Sets - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/tutorial/datastructures.html#sets"
+          },
+          {
+            "title": "Sets in Python - Real Python (en inglés)",
+            "url": "https://realpython.com/python-sets/"
+          }
+        ]
+      },
+      "python/variables": {
+        "title": "Variables (declaración, asignación, ámbito)",
+        "links": [
+          {
+            "title": "Variables in Python – Real Python (en inglés)",
+            "url": "https://realpython.com/python-variables/"
+          },
+          {
+            "title": "Variables in Python - GeeksforGeeks (en inglés)",
+            "url": "https://www.geeksforgeeks.org/python-variables/"
+          }
+        ]
+      },
+      "python/conditionals": {
+        "title": "Uso de condicionales (if, elif, ternario)",
+        "links": [
+          {
+            "title": "Conditional Statements in Python – Real Python (en inglés)",
+            "url": "https://realpython.com/python-conditional-statements/"
+          }
+        ]
+      },
+      "python/operators": {
+        "title": "Operadores (identidad, aritméticos, comparación etc)",
+        "links": [
+          {
+            "title": "Python Operators - GeeksforGeeks (en inglés)",
+            "url": "https://www.geeksforgeeks.org/python-operators/"
+          }
+        ]
+      },
+      "python/functions": {
+        "title": "Funciones"
+      },
+      "python/functions/basic-concepts": {
+        "title": "Conceptos basicos (params, args, default values, return)",
+        "links": [
+          {
+            "title": "Python Functions - GeeksforGeeks (en ingles)",
+            "url": "https://www.geeksforgeeks.org/python-functions/"
+          }
+        ]
+      },
+      "python/functions/args-kwargs": {
+        "title": "*args y **kwargs",
+        "links": [
+          {
+            "title": "*args and **kwargs in Python - GeeksforGeeks (en inglés)",
+            "url": "https://www.geeksforgeeks.org/args-kwargs-python/"
+          }
+        ]
+      },
+      "python/functions/lambda-functions": {
+        "title": "Funciones lambda",
+        "links": [
+          {
+            "title": "Lambda Functions - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions"
+          },
+          {
+            "title": "How to Use Python Lambda Functions – Real Python (en inglés)",
+            "url": "https://realpython.com/python-lambda/"
+          }
+        ]
+      },
+      "python/functions/closures": {
+        "title": "Cierres (closures)",
+        "links": [
+          {
+            "title": "Closures - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/reference/datamodel.html#emulating-closures-and-nested-scope"
+          }
+        ]
+      },
+      "python/functions/decorators": {
+        "title": "Decoradores",
+        "links": [
+          {
+            "title": "Decorators - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/glossary.html#term-decorator"
+          },
+          {
+            "title": "Decorators in Python - Geeks for Geeks (en inglés)",
+            "url": "https://www.geeksforgeeks.org/decorators-in-python/"
+          }
+        ]
+      },
+      "python/iteration": {
+        "title": "Iteración"
+      },
+      "python/iteration/loops": {
+        "title": "Uso de bucles/ciclos (while, for..in)",
+        "links": [
+          {
+            "title": "Loops in Python - For, While and Nested Loops - GeeksforGeeks",
+            "url": "https://www.geeksforgeeks.org/loops-in-python/"
+          },
+          {
+            "title": "Loops - Learn Python - Free Interactive Python Tutorial",
+            "url": "https://www.learnpython.org/en/Loops"
+          }
+        ]
+      },
+      "python/iteration/list-comprehension": {
+        "title": "Comprensión de listas",
+        "links": [
+          {
+            "title": "List Comprehension - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions"
+          },
+          {
+            "title": "List Comprehension in Python - GeeksforGeeks (en inglés)",
+            "url": "https://www.geeksforgeeks.org/list-comprehensions-in-python/"
+          },
+          {
+            "title": "When to Use a List Comprehension in Python – Real Python (en inglés)",
+            "url": "https://realpython.com/list-comprehension-python/"
+          }
+        ]
+      },
+      "python/iteration/functional-techniques": {
+        "title": "Técnicas funcionales (map, filter, reduce)",
+        "links": [
+          {
+            "title": "Our Guide to Map, Filter, and Reduce Functions in Python - Udacity (en inglés)",
+            "url": "https://www.udacity.com/blog/2020/12/our-guide-to-map-filter-and-reduce-functions-in-python.html"
+          },
+          {
+            "title": "Map, Filter, Reduce - Learn Python - Free Interactive Python Tutorial (en inglés)",
+            "url": "https://www.learnpython.org/en/Map%2C_Filter%2C_Reduce"
+          }
+        ]
+      },
+      "python/docstrings": {
+        "title": "Docstrings (y su diferencia de comentarios)",
+        "links": [
+          {
+            "title": "Docstrings - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/tutorial/controlflow.html#documentation-strings"
+          }
+        ]
+      },
+      "python/linting": {
+        "title": "Linting (pylint)",
+        "links": [
+          {
+            "title": "Pylint - Documentación oficial",
+            "url": "https://pylint.pycqa.org/en/latest/"
+          },
+          {
+            "title": "Linting Python in Visual Studio Code - Visual Studio Code Docs (en inglés)",
+            "url": "https://code.visualstudio.com/docs/python/linting"
+          }
+        ]
+      },
+      "python/testing": {
+        "title": "Testing en Python"
+      },
+      "python/testing/unit-tests": {
+        "title": "Pruebas unitarias (unit tests, unittest, pytest)",
+        "links": [
+          {
+            "title": "unittest - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/library/unittest.html"
+          },
+          {
+            "title": "pytest - Documentación oficial",
+            "url": "https://docs.pytest.org/en/6.2.x/"
+          }
+        ]
+      },
+      "python/testing/mocks": {
+        "title": "Uso de mocks (y patch)",
+        "links": [
+          {
+            "title": "unittest.mock - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/library/unittest.mock.html"
+          },
+          {
+            "title": "Python Mock Library - Real Python (en inglés)",
+            "url": "https://realpython.com/python-mock-library/"
+          }
+        ]
+      },
+      "python/testing/fixtures": {
+        "title": "Uso de fixtures",
+        "links": [
+          {
+            "title": "pytest fixtures - Documentación oficial",
+            "url": "https://docs.pytest.org/en/6.2.x/fixture.html"
+          }
+        ]
+      },
+      "python/modularization": {
+        "title": "Modularización"
+      },
+      "python/modularization/modules": {
+        "title": "Módulos",
+        "links": [
+          {
+            "title": "Módulos - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/tutorial/modules.html"
+          }
+        ]
+      },
+      "python/modularization/packages": {
+        "title": "Paquetes",
+        "links": [
+          {
+            "title": "Paquetes - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/tutorial/modules.html#packages"
+          }
+        ]
+      },
+      "python/dependency-management": {
+        "title": "Manejo de dependencias"
+      },
+      "python/dependency-management/pip": {
+        "title": "pip (instalación y uso de paquetes)",
+        "links": [
+          {
+            "title": "pip - Python Docs (en inglés)",
+            "url": "https://docs.python.org/3/installing/index.html"
+          }
+        ]
+      },
+      "python/dependency-management/virtual-environment": {
+        "title": "Virtual Environment (ambientes virtuales, virtualenv)",
+        "links": [
+          {
+            "title": "venv — Creation of virtual environments — Python 3.12.2 documentation (en inglés)",
+            "url": "https://docs.python.org/3/library/venv.html"
+          },
+          {
+            "title": "Python Virtual Environments: A Primer – Real Python (en inglés)",
+            "url": "https://realpython.com/python-virtual-environments-a-primer/"
+          }
+        ]
+      },
+      "python/dependency-management/requirements-file": {
+        "title": "requirements.txt",
+        "links": [
+          {
+            "title": "requirements.txt - Documentación oficial",
+            "url": "https://pip.pypa.io/en/stable/user_guide/#requirements-files"
+          }
+        ]
+      },
+      "python/serialization": {
+        "title": "Serialización (y deserialización)",
+        "links": [
+          {
+            "title": "Serialize Your Data With Python – Real Python (en inglés)",
+            "url": "https://realpython.com/python-serialize-data/"
+          }
+        ]
+      },
+      "python/flask": {
+        "title": "Flask",
+        "links": [
+          {
+            "title": "Flask - Documentación oficial",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/"
+          },
+          {
+            "title": "Flask - Tutorial oficial",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/tutorial/"
+          }
+        ]
+      },
+      "python/flask/routes": {
+        "title": "Rutas"
+      },
+      "python/flask/routes/route-decorator": {
+        "title": "Decorador de ruta",
+        "links": [
+          {
+            "title": "Routing - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#routing"
+          }
+        ]
+      },
+      "python/flask/routes/view-function": {
+        "title": "Función de vista",
+        "links": [
+          {
+            "title": "View Functions - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#view-functions"
+          }
+        ]
+      },
+      "python/flask/routes/variable-rules": {
+        "title": "Reglas de variables (urls dinamica)",
+        "links": [
+          {
+            "title": "Variable Rules - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#variable-rules"
+          }
+        ]
+      },
+      "python/flask/request": {
+        "title": "Request Object"
+      },
+      "python/flask/request/args": {
+        "title": "Argumentos",
+        "links": [
+          {
+            "title": "Request - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#accessing-request-data"
+          }
+        ]
+      },
+      "python/flask/request/headers": {
+        "title": "Headers (cabeceras)",
+        "links": [
+          {
+            "title": "Request - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#accessing-request-data"
+          }
+        ]
+      },
+      "python/flask/response": {
+        "title": "Response Object"
+      },
+      "python/flask/response/response-parts": {
+        "title": "Partes de la respuesta (status, body, headers)",
+        "links": [
+          {
+            "title": "Response - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#about-responses"
+          }
+        ]
+      },
+      "python/flask/response/jsonify": {
+        "title": "jsonify",
+        "links": [
+          {
+            "title": "jsonify - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/api/#flask.json.jsonify"
+          }
+        ]
+      },
+      "python/flask/testing": {
+        "title": "Testing en Flask",
+        "links": [
+          {
+            "title": "Testing - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/testing/"
+          }
+        ]
+      },
+      "python/flask/testing/fixture-setup": {
+        "title": "Configuración de fixtures",
+        "links": [
+          {
+            "title": "Testing - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/testing/#fixtures"
+          }
+        ]
+      },
+      "python/flask/testing/test-client": {
+        "title": "Test Client",
+        "links": [
+          {
+            "title": "Testing - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/testing/#sending-requests-with-the-test-client"
+          }
+        ]
+      },
+      "python/django": {
+        "title": "Django"
+      },
+      "python/django/setup": {
+        "title": "Configuración"
+      },
+      "python/django/setup/migrations": {
+        "title": "Migraciones",
+        "links": [
+          {
+            "title": "Migraciones",
+            "url": "https://docs.djangoproject.com/es/5.0/topics/migrations/#module-django.db.migrations"
+          }
+        ]
+      },
+      "python/django/setup/app": {
+        "title": "Setup app",
+        "links": [
+          {
+            "title": "Installed apps",
+            "url": "https://docs.djangoproject.com/es/5.0/ref/settings/#std-setting-INSTALLED_APPS"
+          }
+        ]
+      },
+      "python/django/models": {
+        "title": "Modelos"
+      },
+      "python/django/models/fields": {
+        "title": "Fields",
+        "links": [
+          {
+            "title": "Field types",
+            "url": "https://docs.djangoproject.com/en/5.0/topics/db/models/#Fields"
+          }
+        ]
+      },
+      "python/django/models/foreign-Key": {
+        "title": "Foreign Key",
+        "links": [
+          {
+            "title": "Model field reference",
+            "url": "https://docs.djangoproject.com/en/5.0/ref/models/fields/"
+          }
+        ]
+      },
+      "python/django/views": {
+        "title": "Views",
+        "links": [
+          {
+            "title": "Base views",
+            "url": "https://docs.djangoproject.com/en/5.0/ref/class-based-views/base/"
+          }
+        ]
+      },
+      "python/django/testing": {
+        "title": "Testing",
+        "links": [
+          {
+            "title": "Testing in Django",
+            "url": "https://docs.djangoproject.com/en/5.0/topics/testing/"
+          },
+          {
+            "title": "Testing rest framework",
+            "url": "https://www.django-rest-framework.org/api-guide/testing/#testing"
+          }
+        ]
+      },
+      "python/django/queryset": {
+        "title": "queryset",
+        "links": [
+          {
+            "title": "The queryset argument",
+            "url": "https://www.django-rest-framework.org/api-guide/relations/#the-queryset-argument"
+          }
+        ]
+      },
+      "python/django/filter": {
+        "title": "Filter",
+        "links": [
+          {
+            "title": "Filtering",
+            "url": "https://www.django-rest-framework.org/api-guide/filtering/"
+          }
+        ]
+      },
+      "python/django/order-by": {
+        "title": "Order By",
+        "links": [
+          {
+            "title": "OrderingFilter",
+            "url": "https://www.django-rest-framework.org/api-guide/filtering/#orderingfilter"
+          }
+        ]
+      },
+      "python/django/url-configuration": {
+        "title": "URLs (Path, URLconf, urlpatterns)",
+        "links": [
+          {
+            "title": "Django URLs",
+            "url": "https://tutorial.djangogirls.org/en/django_urls/"
+          },
+          {
+            "title": "URL dispatcher",
+            "url": "https://docs.djangoproject.com/en/5.0/topics/http/urls/"
+          }
+        ]
+      },
+      "python/django/rest-framework": {
+        "title": "Rest Framework"
+      },
+      "python/django/rest-framework/serializers": {
+        "title": "Serializers",
+        "links": [
+          {
+            "title": "Serializers",
+            "url": "https://www.django-rest-framework.org/community/third-party-packages/#serializers"
+          }
+        ]
+      },
+      "python/django/rest-framework/pagination": {
+        "title": "Pagination",
+        "links": [
+          {
+            "title": "Pagination",
+            "url": "https://www.django-rest-framework.org/api-guide/pagination/#pagination"
+          }
+        ]
+      },
+      "python/django/rest-framework/query-params": {
+        "title": "Query params",
+        "links": [
+          {
+            "title": "query_params",
+            "url": "https://www.django-rest-framework.org/api-guide/requests/#query_params"
+          }
+        ]
+      },
+      "python/django/rest-framework/viewset": {
+        "title": "ViewSet",
+        "links": [
+          {
+            "title": "ViewSet",
+            "url": "https://www.django-rest-framework.org/api-guide/viewsets/#viewset"
+          }
+        ]
+      },
+      "python/django/rest-framework/apiview": {
+        "title": "Apiview",
+        "links": [
+          {
+            "title": "GenericAPIView",
+            "url": "https://www.django-rest-framework.org/api-guide/generic-views/#genericapiview"
+          }
+        ]
       },
       "webops": {
         "title": "WebOps"
@@ -2006,6 +3053,15 @@
           }
         ]
       },
+      "angular/component-lifecycle": {
+        "title": "Component Lifecycle (ej. ngOnInit, ngOnChanges, ...)",
+        "links": [
+          {
+            "title": "Component Lifecycle - Documentación oficial (en inglés)",
+            "url": "https://angular.io/guide/lifecycle-hooks"
+          }
+        ]
+      },
       "angular/structural-directives": {
         "title": "Directivas estructurales (ngIf / ngFor)",
         "links": [
@@ -2083,6 +3139,9 @@
       },
       "php": {
         "title": "PHP"
+      },
+      "php/data-types": {
+        "title": "Tipos de datos"
       },
       "php/data-types/primitive": {
         "title": "Tipos de datos primitivos en PHP",
@@ -2162,6 +3221,9 @@
           }
         ]
       },
+      "php/testing": {
+        "title": "Testing en PHP"
+      },
       "php/testing/phpunit": {
         "title": "PHPUnit",
         "links": [
@@ -2180,6 +3242,9 @@
           }
         ]
       },
+      "php/package-management": {
+        "title": "Gestión de paquetes"
+      },
       "php/package-management/composer": {
         "title": "Composer",
         "links": [
@@ -2191,6 +3256,9 @@
       },
       "wordpress": {
         "title": "WordPress"
+      },
+      "wordpress/plugin-development": {
+        "title": "Desarrollo de plugins"
       },
       "wordpress/plugin-development/hooks": {
         "title": "Hooks: action y filter",
@@ -2290,6 +3358,12 @@
             "url": "https://developer.wordpress.org/plugins/wordpress-org/planning-your-plugin/"
           }
         ]
+      },
+      "typescript": {
+        "title": "Typescript"
+      },
+      "typescript/basic-types": {
+        "title": "Tipos básicos"
       },
       "typescript/basic-types/static-type-checking": {
         "title": "Chequeo estático de tipos",
@@ -2529,38 +3603,11 @@
         ]
       },
       "typescript/classes/member-visibility": {
-        "title": "Visibilidad de miembros de clase",
+        "title": "Visibilidad de miembros de clase (public, protected, private)",
         "links": [
           {
             "title": "Documentación oficial de Typescript",
             "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#member-visibility"
-          }
-        ]
-      },
-      "typescript/classes/member-visibility/public": {
-        "title": "public",
-        "links": [
-          {
-            "title": "Documentación oficial de Typescript",
-            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#public"
-          }
-        ]
-      },
-      "typescript/classes/member-visibility/protected": {
-        "title": "protected",
-        "links": [
-          {
-            "title": "Documentación oficial de Typescript",
-            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#protected"
-          }
-        ]
-      },
-      "typescript/classes/member-visibility/private": {
-        "title": "private",
-        "links": [
-          {
-            "title": "Documentación oficial de Typescript",
-            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#private"
           }
         ]
       },
@@ -2656,6 +3703,9 @@
           }
         ]
       },
+      "agile-planning": {
+        "title": "Planificación ágil"
+      },
       "agile-planning/scope": {
         "title": "Definir alcance general",
         "description": "Definir un alcance preliminar del proyecto en conjunto con los stakeholders involucrados"
@@ -2667,6 +3717,9 @@
       "agile-planning/tasks": {
         "title": "Gestionar tareas",
         "description": "Gestionar tareas mediante la implementación de ceremonias y herramientas de Scrum"
+      },
+      "business-understanding": {
+        "title": "Entendimiento del negocio"
       },
       "business-understanding/business-model": {
         "title": "Comprender el modelo de negocio",
@@ -2680,53 +3733,72 @@
         "title": "Analizar competidores",
         "description": "Analizar el negocio o producto respecto a sus competidores locales y globales"
       },
-      "research/planning/research-plan": {
+      "research-planning": {
+        "title": "Planteamiento de la investigación"
+      },
+      "research-planning/research-plan": {
         "title": "Definir la investigación",
         "description": "Planificar la investigación basada en el contexto y objetivos del proyecto"
       },
-      "research/planning/desk-research": {
+      "research-planning/desk-research": {
         "title": "Analizar información existente",
         "description": "Analizar información existente que sirva de guía para plantear la investigación con usuarios"
       },
-      "research/planning/research-sample": {
+      "research-planning/research-sample": {
         "title": "Definir muestra",
         "description": "Definir el perfil y número de usuarios (muestra) que participan en la investigación"
       },
-      "research/planning/participants": {
+      "research-planning/participants": {
         "title": "Gestionar participantes",
         "description": "Gestionar la participación de los usuarios en las actividades de investigación"
       },
-      "research/qualitative/user-interviews": {
+      "research-qualitative": {
+        "title": "Técnicas cualitativas"
+      },
+      "research-qualitative/user-interviews": {
         "title": "Realizar entrevistas",
         "description": "Crear guión de entrevista, validar las preguntas y entrevistar evitando sesgos"
       },
-      "research/qualitative/exploratory-techniques": {
+      "research-qualitative/exploratory-techniques": {
         "title": "Explorar técnicas cualitativas",
         "description": "Explorar otras técnicas de investigación cualitativa según el contexto del proyecto (card sorting abierto, estudios de campo, etc.)"
       },
-      "research/quantitative/user-surveys": {
+      "research-quantitative": {
+        "title": "Técnicas cuantitativas"
+      },
+      "research-quantitative/user-surveys": {
         "title": "Realizar encuestas",
         "description": "Crear encuesta, testear e iterar las preguntas, implementar la encuesta efectivamente"
       },
-      "research/quantitative/analytical-techniques": {
+      "research-quantitative/analytical-techniques": {
         "title": "Explorar técnicas analíticas",
         "description": "Explorar herramientas de monitoreo de acciones de usuarios (mapa de calor, analytics, card sorting cerrado, etc.)"
       },
-      "research/analysis/process-information": {
+      "research-analysis": {
+        "title": "Análisis de la investigación"
+      },
+      "research-analysis/process-information": {
         "title": "Procesar información",
         "description": "Procesar a profundidad la información obtenida evitando sesgos"
       },
-      "research/analysis/experience-mapping": {
+      "research-analysis/experience-mapping": {
         "title": "Mapear la experiencia",
         "description": "Visualizar la información obtenida de los usuarios mediante alguna técnica de documentación UX"
       },
-      "research/analysis/identify-patterns": {
+      "research-analysis/identify-patterns": {
         "title": "Identificar patrones",
         "description": "Identificar patrones, observaciones o hallazgos en la información recolectada"
       },
-      "research/analysis/synthesize-results": {
+      "research-analysis/synthesize-results": {
         "title": "Sintetizar resultados",
         "description": "Delimitar el problema o necesidad de las personas usuarias que debe resolver el proyecto"
+      },
+      "research-analysis/ai-analysis": {
+        "title": "Facilitar el análisis utilizando IA",
+        "description": "Utilizar herramientas de inteligencia artificial (IA) para transcribir, organizar y sintetizar la información obtenida"
+      },
+      "design-concept": {
+        "title": "Concepto de diseño"
       },
       "design-concept/define-mvp": {
         "title": "Definir MVP",
@@ -2744,6 +3816,9 @@
         "title": "Priorizar ideas",
         "description": "Definir criterios de priorización de ideas, alineados con los objetivos del proyecto y necesidades de las personas usuarias"
       },
+      "interaction-design": {
+        "title": "Diseño de interacción"
+      },
       "interaction-design/user-flows": {
         "title": "Crear flujos de usuario",
         "description": "Crear y visualizar los flujos de interacción de la propuesta (diagramas, wireframes, bocetos)"
@@ -2756,6 +3831,9 @@
         "title": "Crear la arquitectura de información",
         "description": "Implementar principios básicos de arquitectura de información (categorías, etiquetas, navegación y búsqueda)"
       },
+      "content-design": {
+        "title": "Diseño de contenido"
+      },
       "content-design/voice-tone": {
         "title": "Definir guía de voz y tono",
         "description": "Crear una guía básica de voz y tono para contenido UX"
@@ -2763,6 +3841,13 @@
       "content-design/create-content": {
         "title": "Crear contenidos",
         "description": "Definir el contenido (texto e imágenes) que debe incluir la propuesta de diseño"
+      },
+      "content-design/ai-content": {
+        "title": "Crear textos e imágenes usando IA",
+        "description": "Explorar múltiples propuestas de texto e imágenes generadas con herramientas de inteligencia artificial (IA)"
+      },
+      "interface-design": {
+        "title": "Diseño de interfaces"
       },
       "interface-design/visual-design": {
         "title": "Crear propuesta de diseño visual",
@@ -2776,6 +3861,13 @@
         "title": "Implementar diseño responsivo",
         "description": "Crear diseños que se adapten a diferentes dispositivos utilizando principios de responsive design"
       },
+      "interface-design/ai-proposals": {
+        "title": "Generar propuestas visuales mediante IA",
+        "description": "Experimentar con herramientas de inteligencia artificial (IA) para generar múltiples propuestas que sirvan como inspiración para el diseño"
+      },
+      "design-prototype": {
+        "title": "Prototipado"
+      },
       "design-prototype/basic-prototypes": {
         "title": "Crear prototipos básicos",
         "description": "Crear prototipos navegables en baja o media fidelidad que representen los flujos funcionales"
@@ -2787,6 +3879,13 @@
       "design-prototype/advanced-interactions": {
         "title": "Utilizar interacciones avanzadas",
         "description": "Incluir interacciones avanzadas en los prototipos según sea necesario"
+      },
+      "design-prototype/ai-plugins": {
+        "title": "Utilizar plug-ins de IA para prototipar",
+        "description": "Integrar plug-ins de inteligencia artificial (IA) en Figma que faciliten la creación del prototipo"
+      },
+      "usability-analysis": {
+        "title": "Análisis de usabilidad"
       },
       "usability-analysis/moderated-testing": {
         "title": "Realizar pruebas moderadas",
@@ -2800,6 +3899,9 @@
         "title": "Realizar pruebas no-moderadas",
         "description": "Utilizar herramientas para pruebas de usabilidad no-moderadas"
       },
+      "design-pitch": {
+        "title": "Pitch de diseño"
+      },
       "design-pitch/design-feedback": {
         "title": "Recolectar feedback de diseño",
         "description": "Recolectar feedback técnico de diseño mediante sesiones de crítica colaborativa (Design Critiques, Demos con POs, etc.)"
@@ -2807,6 +3909,13 @@
       "design-pitch/design-presentation": {
         "title": "Presentar ante el negocio",
         "description": "Presentar resultados de investigación, propuestas y proceso de diseño utilizando principios de \"story-telling\""
+      },
+      "design-pitch/ai-presentations": {
+        "title": "Apoyarse en herramientas de IA para presentar propuestas",
+        "description": "Utilizar herramientas de inteligencia artificial (IA) para crear el story-telling y/o presentación ante stakeholders"
+      },
+      "design-specs": {
+        "title": "Especificaciones de diseño"
       },
       "design-specs/file-organization": {
         "title": "Organizar documentos de Figma",
@@ -2820,6 +3929,9 @@
         "title": "Documentar el proyecto de diseño",
         "description": "Documentar el proceso de diseño para fundamentar las decisiones tomadas durante el proyecto"
       },
+      "design-systems": {
+        "title": "Sistemas y librerías de diseño"
+      },
       "design-systems/atomic-design": {
         "title": "Implementar Atomic Design",
         "description": "Crear una librería de componentes (UI Kit) siguiendo los principios de Atomic Design"
@@ -2827,6 +3939,398 @@
       "design-systems/design-system": {
         "title": "Utilizar sistemas de diseño",
         "description": "Utilizar un sistema de diseño existente como base para la propuesta de diseño"
+      },
+      "csharp": {
+        "title": "C#"
+      },
+      "csharp/data-types": {
+        "title": "Tipos de datos"
+      },
+      "csharp/data-types/primitives": {
+        "title": "Tipos de datos primitivos",
+        "links": [
+          {
+            "title": "Tipos integrados (referencia de C#) - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/built-in-types"
+          },
+          {
+            "title": "C# | Data Types (en inglés)",
+            "url": "https://www.geeksforgeeks.org/c-sharp-data-types/"
+          }
+        ]
+      },
+      "csharp/data-types/non-primitives": {
+        "title": "Tipos de datos no primitivos",
+        "links": [
+          {
+            "title": "Common Type System - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/types/#the-common-type-system"
+          }
+        ]
+      },
+      "csharp/data-types/structs": {
+        "title": "Estructuras",
+        "links": [
+          {
+            "title": "Tipos de estructura (Referencia de C#) - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/struct"
+          }
+        ]
+      },
+      "csharp/data-types/enums": {
+        "title": "Enumeración",
+        "links": [
+          {
+            "title": "Tipos de enumeración (Referencia de C#) - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/enum"
+          }
+        ]
+      },
+      "csharp/data-types/anonymous-types": {
+        "title": "Tipos anónimos",
+        "links": [
+          {
+            "title": "Tipos anónimos - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/types/anonymous-types"
+          }
+        ]
+      },
+      "csharp/data-types/dynamic-types": {
+        "title": "Tipos dinámicos",
+        "links": [
+          {
+            "title": "dynamic (Referencia de C#) - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/reference-types#the-dynamic-type"
+          },
+          {
+            "title": "Uso del tipo dynamic - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/csharp/advanced-topics/interop/using-type-dynamic"
+          }
+        ]
+      },
+      "csharp/collections": {
+        "title": "Colecciones",
+        "links": [
+          {
+            "title": "Colecciones (Referencia de C#) - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/collections"
+          }
+        ]
+      },
+      "csharp/collections/lists": {
+        "title": "Listas",
+        "links": [
+          {
+            "title": "List<T> Clase - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/api/system.collections.generic.list-1?view=net-8.0"
+          },
+          {
+            "title": "Aprenda a administrar colecciones de datos mediante List<T> en C# - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/csharp/tour-of-csharp/tutorials/arrays-and-collections"
+          }
+        ]
+      },
+      "csharp/collections/arrays": {
+        "title": "Arreglos",
+        "links": [
+          {
+            "title": "Matrices - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/arrays"
+          }
+        ]
+      },
+      "csharp/collections/sets": {
+        "title": "Conjuntos (Sets)",
+        "links": [
+          {
+            "title": "HashSet<T> Clase - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/api/system.collections.generic.hashset-1?view=net-8.0"
+          },
+          {
+            "title": "HashSet in C# with Examples (en inglés)",
+            "url": "https://www.geeksforgeeks.org/hashset-in-c-sharp-with-examples/"
+          }
+        ]
+      },
+      "csharp/variables": {
+        "title": "Variables",
+        "links": [
+          {
+            "title": "Variables (en inglés) - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/language-specification/variables"
+          },
+          {
+            "title": "C# | Variables",
+            "url": "https://www.geeksforgeeks.org/c-sharp-variables/"
+          },
+          {
+            "title": "Variables y Tipos en C#",
+            "url": "https://desarrolloweb.com/articulos/variables-tipos-csharp"
+          }
+        ]
+      },
+      "csharp/conditionals": {
+        "title": "Condicionales",
+        "links": [
+          {
+            "title": "Instrucciones de selección - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/statements/selection-statements"
+          }
+        ]
+      },
+      "csharp/loops": {
+        "title": "Bucles/Ciclos",
+        "links": [
+          {
+            "title": "Instrucciones de iteración - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/statements/iteration-statements"
+          }
+        ]
+      },
+      "csharp/operators": {
+        "title": "Operadores",
+        "links": [
+          {
+            "title": "Operadores y expresiones de C# (referencia de C#) - Microsoft Docs",
+            "url": "https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/operators/"
+          }
+        ]
+      },
+      "csharp/generics": {
+        "title": "Genéricos",
+        "links": [
+          {
+            "title": "Clases y métodos genéricos (C# Programming Guide) - Microsoft Docs",
+            "url": "https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/generics/"
+          }
+        ]
+      },
+      "csharp/access-modifiers": {
+        "title": "Modificadores de Acceso",
+        "links": [
+          {
+            "title": "Modificadores de acceso (Guía de programación de C#) - Microsoft Docs",
+            "url": "https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers"
+          }
+        ]
+      },
+      "csharp/namespaces": {
+        "title": "Espacios de Nombres (namespaces)",
+        "links": [
+          {
+            "title": "Declaración de espacios de nombres para organizar los tipos - Microsoft Docs",
+            "url": "https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/namespaces/"
+          }
+        ]
+      },
+      "csharp/functions": {
+        "title": "Funciones"
+      },
+      "csharp/functions/lambda-functions": {
+        "title": "Funciones Lambda",
+        "links": [
+          {
+            "title": "Expresiones lambda y funciones anónimas (referencia de C#) - Microsoft Docs",
+            "url": "https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions"
+          }
+        ]
+      },
+      "csharp/functions/decorators": {
+        "title": "Decoradores (Atributos)",
+        "links": [
+          {
+            "title": "Atributos (en Inglés) - Microsoft Docs",
+            "url": "https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/attributes/"
+          },
+          {
+            "title": "Definición y lectura de atributos personalizados - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/csharp/advanced-topics/reflection-and-attributes/attribute-tutorial"
+          }
+        ]
+      },
+      "csharp/error-handling": {
+        "title": "Manejo de Errores"
+      },
+      "csharp/error-handling/try-catch": {
+        "title": "try-catch",
+        "links": [
+          {
+            "title": "try-catch (Referencia de C#) - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/statements/exception-handling-statements"
+          }
+        ]
+      },
+      "csharp/error-handling/throw": {
+        "title": "throw",
+        "links": [
+          {
+            "title": "throw (Referencia de C#) - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/statements/exception-handling-statements#the-throw-statement"
+          }
+        ]
+      },
+      "csharp/linq": {
+        "title": "LINQ",
+        "links": [
+          {
+            "title": "LINQ (Language-Integrated Query) - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/csharp/linq/"
+          },
+          {
+            "title": "LINQ Conceptos básicos y consultas (en inglés) - Tutorial Teacher",
+            "url": "https://www.tutorialsteacher.com/linq"
+          },
+          {
+            "title": "LINQ Tutorial For Beginners and Professionals (en inglés)",
+            "url": "https://dotnettutorials.net/course/linq/"
+          }
+        ]
+      },
+      "csharp/async-await": {
+        "title": "Async-Await",
+        "links": [
+          {
+            "title": "Escenarios de programación asincrónica - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/csharp/asynchronous-programming/async-scenarios"
+          }
+        ]
+      },
+      "csharp/.net-core": {
+        "title": ".NET Core",
+        "links": [
+          {
+            "title": ".NET and .NET Core - Microsoft Docs",
+            "url": "https://docs.microsoft.com/es-es/dotnet/"
+          },
+          {
+            "title": ".NET para principiantes - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/shows/dotnet-for-beginners/"
+          },
+          {
+            "title": "Introducción a .NET - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/core/introduction"
+          },
+          {
+            "title": "Tutoriales .NET - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/core/tutorials/"
+          }
+        ]
+      },
+      "csharp/nuget-packages": {
+        "title": "Paquetes NuGet",
+        "links": [
+          {
+            "title": "NuGet Documentación - Microsoft Docs",
+            "url": "https://docs.microsoft.com/es-es/nuget/"
+          },
+          {
+            "title": "NuGet Library",
+            "url": "https://www.nuget.org/"
+          },
+          {
+            "title": "Administrar paquetes NuGet con la CLI de NuGet - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/nuget/consume-packages/install-use-packages-nuget-cli"
+          },
+          {
+            "title": "Instalar paquetes Nuget en Visual Studio Code",
+            "url": "https://www.youtube.com/watch?v=Qy-vwB_TEW4"
+          },
+          {
+            "title": "Instalar paquetes Nuget en Visual Studio",
+            "url": "https://www.youtube.com/watch?v=J3_io5mBEnU"
+          }
+        ]
+      },
+      "csharp/testing": {
+        "title": "Pruebas"
+      },
+      "csharp/testing/xunit": {
+        "title": "xUnit",
+        "links": [
+          {
+            "title": "xUnit.net Documentación - xUnit.net",
+            "url": "https://xunit.net/#documentation"
+          },
+          {
+            "title": "Prueba unitaria de C# en .NET Core mediante pruebas de dotnet y xUnit - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/dotnet/core/testing/unit-testing-with-dotnet-test"
+          }
+        ]
+      },
+      "csharp/testing/mstest": {
+        "title": "MSTest",
+        "links": [
+          {
+            "title": "MSTest V2 - GitHub",
+            "url": "https://github.com/microsoft/testfx?tab=readme-ov-file"
+          },
+          {
+            "title": "Prueba unitaria de C# con MSTest y .NET",
+            "url": "https://learn.microsoft.com/es-es/dotnet/core/testing/unit-testing-with-mstest"
+          }
+        ]
+      },
+      "csharp/entity-framework": {
+        "title": "Entity Framework",
+        "links": [
+          {
+            "title": "Centro de documentación de Entity Framework - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/ef/"
+          }
+        ]
+      },
+      "csharp/entity-framework/code-first": {
+        "title": "Code First",
+        "links": [
+          {
+            "title": "Code First en una nueva base de datos - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/ef/ef6/modeling/code-first/workflows/new-database"
+          }
+        ]
+      },
+      "csharp/entity-framework/models": {
+        "title": "Modelos",
+        "links": [
+          {
+            "title": "Creación de un modelo - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/ef/ef6/modeling/"
+          }
+        ]
+      },
+      "csharp/entity-framework/fluent-api": {
+        "title": "Fluent API",
+        "links": [
+          {
+            "title": "Fluent API, Relaciones | Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/ef/ef6/modeling/code-first/fluent/relationships"
+          }
+        ]
+      },
+      "csharp/entity-framework/controllers": {
+        "title": "Controladores",
+        "links": [
+          {
+            "title": "Agregar modelos y controladores - Microsoft Docs",
+            "url": "https://learn.microsoft.com/es-es/aspnet/web-api/overview/data/using-web-api-with-entity-framework/part-2#add-web-api-controllers"
+          },
+          {
+            "title": "Creación de API web con ASP.NET Core",
+            "url": "https://learn.microsoft.com/es-es/aspnet/core/web-api/?view=aspnetcore-8.0"
+          },
+          {
+            "title": "Entendiendo los Web API con .Net Core y Entity framework",
+            "url": "https://bravedeveloper.com/2021/07/20/entendiendo-los-web-api-con-net-core-y-entity-framework/"
+          }
+        ]
+      },
+      "csharp/entity-framework/migrations": {
+        "title": "Migraciones",
+        "links": [
+          {
+            "title": "Descripción general de las migraciones - Microsoft Docs",
+            "url": "https://docs.microsoft.com/es-es/ef/core/managing-schemas/migrations/"
+          }
+        ]
       }
     },
     "pt": {
@@ -3030,6 +4534,9 @@
       "js": {
         "title": "JavaScript"
       },
+      "js/data-types": {
+        "title": "Tipos de dados"
+      },
       "js/data-types/primitive": {
         "title": "Tipos de dados primitivos",
         "links": [
@@ -3176,6 +4683,9 @@
       "js/expression-vs-statement": {
         "title": "Diferença entre expressões (expressions) e declarações (statements)"
       },
+      "js/modules": {
+        "title": "Módulos"
+      },
       "js/modules/es-modules": {
         "title": "Módulos de ECMAScript (ES modules)",
         "links": [
@@ -3197,6 +4707,9 @@
             "url": "https://nodejs.org/docs/latest/api/modules.html"
           }
         ]
+      },
+      "js/testing": {
+        "title": "Testing em Javascript"
       },
       "js/testing/unit": {
         "title": "Testes unitários (unit tests)",
@@ -3234,6 +4747,9 @@
       "js/linting": {
         "title": "Uso de linter (ESLINT)"
       },
+      "js/async": {
+        "title": "Assincronicidade"
+      },
       "js/async/callbacks": {
         "title": "Callbacks",
         "links": [
@@ -3259,6 +4775,9 @@
       "scm": {
         "title": "Controle de Versões (Git e GitHub)"
       },
+      "scm/git": {
+        "title": "Git"
+      },
       "scm/git/setup": {
         "title": "Git: Instalação e configuração"
       },
@@ -3267,6 +4786,9 @@
       },
       "scm/git/integration": {
         "title": "Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)"
+      },
+      "scm/github": {
+        "title": "GitHub"
       },
       "scm/github/setup": {
         "title": "GitHub: Criação de contas e repositórios, configuração de chave SSH"
@@ -3346,9 +4868,6 @@
       "research/test": {
         "title": "Planejar e executar testes de usabilidade"
       },
-      "research/cuantitative-data": {
-        "title": "Coletar, analisar e interpretar dados quantitativos"
-      },
       "synthesis": {
         "title": "Síntese"
       },
@@ -3376,23 +4895,11 @@
       "product-design": {
         "title": "Design de produto"
       },
-      "product-design/user-flows": {
-        "title": "Priorizar e propor fluxos de usuários que os ajudem a atingir seus objetivos com o produto"
-      },
-      "product-design/content": {
-        "title": "Identificar e priorizar conteúdos relevantes e necessários para o produto"
-      },
       "product-design/fidelity": {
         "title": "Design em diferentes níveis de fidelidade"
       },
       "product-design/interactivity": {
         "title": "Criar protótipos para obter feedback e iterar"
-      },
-      "product-design/usability": {
-        "title": "Projetar produto ou serviço seguindo as melhores práticas de usabilidade"
-      },
-      "product-design/accessibility": {
-        "title": "Projetar produto ou serviço seguindo as melhores práticas de acessibilidade"
       },
       "product-design/visual-design": {
         "title": "Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)"
@@ -3644,6 +5151,838 @@
       },
       "auth/password-access-and-storage": {
         "title": "Armazenamento e acesso de senhas"
+      },
+      "java": {
+        "title": "Java",
+        "links": [
+          {
+            "title": "Título de exemplo",
+            "url": "https://example.com"
+          }
+        ]
+      },
+      "java/access-modifiers": {
+        "title": "Modificadores de acesso (public, private, protected)"
+      },
+      "java/variables": {
+        "title": "Variáveis"
+      },
+      "java/conditionals": {
+        "title": "Uso de condicionais"
+      },
+      "java/loops": {
+        "title": "Uso de loops (Laços)"
+      },
+      "java/data-types": {
+        "title": "Tipos de dados"
+      },
+      "java/data-types/primitive": {
+        "title": "Primitivos"
+      },
+      "java/data-types/primitive-vs-non-primitive": {
+        "title": "Dados primitivos vs não primitivos"
+      },
+      "java/data-types/strings": {
+        "title": "Cadeias de caracteres"
+      },
+      "java/data-types/arrays": {
+        "title": "Arrays"
+      },
+      "java/collections": {
+        "title": "Coleções"
+      },
+      "java/collections/array-list": {
+        "title": "ArrayList"
+      },
+      "java/collections/hash-map": {
+        "title": "HashMap"
+      },
+      "java/collections/hash-set": {
+        "title": "HashSet"
+      },
+      "java/testing": {
+        "title": "Testes"
+      },
+      "java/testing/junit": {
+        "title": "JUnit"
+      },
+      "java/testing/mockito": {
+        "title": "Mockito"
+      },
+      "java/spring-framework": {
+        "title": "Spring Framework",
+        "links": [
+          {
+            "title": "Spring Framework Documentation",
+            "url": "https://docs.spring.io/spring-framework/reference/"
+          }
+        ]
+      },
+      "java/spring-framework/initializr": {
+        "title": "Initializr",
+        "links": [
+          {
+            "title": "Spring Initializr",
+            "url": "https://start.spring.io/"
+          }
+        ]
+      },
+      "java/spring-framework/core-concepts": {
+        "title": "Conceitos Principais",
+        "links": [
+          {
+            "title": "Core Technologies",
+            "url": "https://docs.spring.io/spring-framework/reference/core.html"
+          }
+        ]
+      },
+      "java/spring-framework/core-concepts/beans": {
+        "title": "Beans"
+      },
+      "java/spring-framework/core-concepts/inversion-of-control": {
+        "title": "Inversão de Controle"
+      },
+      "java/spring-framework/core-concepts/annotations": {
+        "title": "Anotações"
+      },
+      "java/spring-framework/spring-boot": {
+        "title": "Spring Boot",
+        "links": [
+          {
+            "title": "Spring Boot Reference Documentation",
+            "url": "https://docs.spring.io/spring-boot/docs/current/reference/html/"
+          }
+        ]
+      },
+      "java/spring-framework/controllers": {
+        "title": "Controladores"
+      },
+      "java/spring-framework/services": {
+        "title": "Serviços"
+      },
+      "java/spring-framework/spring-data-jpa": {
+        "title": "Spring Data JPA",
+        "links": [
+          {
+            "title": "Spring Data JPA - Reference Documentation",
+            "url": "https://docs.spring.io/spring-data/jpa/docs/current/reference/html/"
+          }
+        ]
+      },
+      "java/spring-framework/entity": {
+        "title": "Entidade"
+      },
+      "java/spring-framework/repository": {
+        "title": "Repositório"
+      },
+      "java/spring-framework/spring-web": {
+        "title": "Spring Web",
+        "links": [
+          {
+            "title": "Building a RESTful Web Service",
+            "url": "https://spring.io/guides/gs/rest-service/"
+          }
+        ]
+      },
+      "java/spring-framework/spring-web/rest-controller": {
+        "title": "RestController"
+      },
+      "java/spring-framework/spring-web/request-mapping": {
+        "title": "RequestMapping"
+      },
+      "java/spring-framework/spring-web/request-param": {
+        "title": "RequestParam"
+      },
+      "java/spring-framework/testing": {
+        "title": "Testes"
+      },
+      "java/spring-framework/testing/spring-test": {
+        "title": "Spring Test"
+      },
+      "java/spring-framework/testing/hamcrest": {
+        "title": "Hamcrest"
+      },
+      "java/hibernate-orm": {
+        "title": "Hibernate ORM",
+        "links": [
+          {
+            "title": "What is an ORM?",
+            "url": "https://hibernate.org/orm/what-is-an-orm/"
+          },
+          {
+            "title": "Getting Started with Hibernate ORM",
+            "url": "https://docs.jboss.org/hibernate/orm/6.3/quickstart/html_single/"
+          },
+          {
+            "title": "Hibernate ORM User Guide",
+            "url": "https://docs.jboss.org/hibernate/orm/6.3/userguide/html_single/Hibernate_User_Guide.html"
+          }
+        ]
+      },
+      "java/hibernate-orm/setup": {
+        "title": "Configuração"
+      },
+      "java/hibernate-orm/schema": {
+        "title": "Esquema"
+      },
+      "java/hibernate-orm/entity": {
+        "title": "Entidade"
+      },
+      "java/hibernate-orm/table": {
+        "title": "Tabela"
+      },
+      "java/hibernate-orm/column": {
+        "title": "Coluna"
+      },
+      "java/hibernate-orm/identifiers": {
+        "title": "Identificadores"
+      },
+      "java/hibernate-orm/associations": {
+        "title": "Associações"
+      },
+      "java/hibernate-orm/collections": {
+        "title": "Coleções"
+      },
+      "java/hibernate-orm/persistance": {
+        "title": "Persistência"
+      },
+      "java/hibernate-orm/querying": {
+        "title": "Consultas"
+      },
+      "object-oriented-programming": {
+        "title": "Programação Orientada a Objetos (POO)"
+      },
+      "object-oriented-programming/classes": {
+        "title": "Classes"
+      },
+      "object-oriented-programming/objects": {
+        "title": "Objetos"
+      },
+      "object-oriented-programming/methods": {
+        "title": "Métodos"
+      },
+      "object-oriented-programming/attributes": {
+        "title": "Atributos"
+      },
+      "object-oriented-programming/constructors": {
+        "title": "Construtores"
+      },
+      "object-oriented-programming/encapsulation": {
+        "title": "Encapsulamento"
+      },
+      "object-oriented-programming/abstraction": {
+        "title": "Abstração"
+      },
+      "object-oriented-programming/composition": {
+        "title": "Composição"
+      },
+      "object-oriented-programming/interfaces": {
+        "title": "Interfaces"
+      },
+      "object-oriented-programming/inheritance": {
+        "title": "Herança (super, extends, override)"
+      },
+      "object-oriented-programming/unified-model-language": {
+        "title": "Linguagem de Modelagem Unificada (UML, diagramas de classe)"
+      },
+      "python": {
+        "title": "Python"
+      },
+      "python/data-types": {
+        "title": "Tipos de dados"
+      },
+      "python/data-types/primitive": {
+        "title": "Tipos de dados primitivos (int, float, str, bool)",
+        "links": [
+          {
+            "title": "Data Types - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/library/datatypes.html"
+          },
+          {
+            "title": "Data types in Python (em inglês)",
+            "url": "https://www.educative.io/answers/data-types-in-python"
+          }
+        ]
+      },
+      "python/data-types/lists": {
+        "title": "Listas (arrays)",
+        "links": [
+          {
+            "title": "Lists - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/tutorial/datastructures.html#more-on-lists"
+          },
+          {
+            "title": "Lists and Tuples in Python - Real Python (em inglês)",
+            "url": "https://realpython.com/python-lists-tuples/"
+          }
+        ]
+      },
+      "python/data-types/tuples": {
+        "title": "Tuples",
+        "links": [
+          {
+            "title": "Tuples - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences"
+          },
+          {
+            "title": "Lists and Tuples in Python - Real Python (em inglês)",
+            "url": "https://realpython.com/python-lists-tuples/"
+          }
+        ]
+      },
+      "python/data-types/dictionaries": {
+        "title": "Dictionaries (Dicts)",
+        "links": [
+          {
+            "title": "Dictionaries - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+          },
+          {
+            "title": "Dictionaries in Python - Real Python (em inglês)",
+            "url": "https://realpython.com/python-dicts/"
+          }
+        ]
+      },
+      "python/data-types/sets": {
+        "title": "Sets",
+        "links": [
+          {
+            "title": "Sets - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/tutorial/datastructures.html#sets"
+          },
+          {
+            "title": "Sets in Python - Real Python (em inglês)",
+            "url": "https://realpython.com/python-sets/"
+          }
+        ]
+      },
+      "python/variables": {
+        "title": "Variáveis (declaração, atribuição, escopo)",
+        "links": [
+          {
+            "title": "Variables in Python – Real Python (em inglês)",
+            "url": "https://realpython.com/python-variables/"
+          },
+          {
+            "title": "Variables in Python - GeeksforGeeks (em inglês)",
+            "url": "https://www.geeksforgeeks.org/python-variables/"
+          }
+        ]
+      },
+      "python/conditionals": {
+        "title": "Uso de condicionais (if, elif, ternário)",
+        "links": [
+          {
+            "title": "Conditional Statements in Python – Real Python (em inglês)",
+            "url": "https://realpython.com/python-conditional-statements/"
+          }
+        ]
+      },
+      "python/operators": {
+        "title": "Operadores (identidade, aritméticos, comparação etc)",
+        "links": [
+          {
+            "title": "Python Operators - GeeksforGeeks (em inglês)",
+            "url": "https://www.geeksforgeeks.org/python-operators/"
+          }
+        ]
+      },
+      "python/functions": {
+        "title": "Funções"
+      },
+      "python/functions/basic-concepts": {
+        "title": "Conceitos básicos (parâmetros, argumentos, valores padrão, retorno)",
+        "links": [
+          {
+            "title": "Defining Functions - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/tutorial/controlflow.html#defining-functions"
+          },
+          {
+            "title": "Python Functions - GeeksforGeeks (em inglês)",
+            "url": "https://www.geeksforgeeks.org/python-functions/"
+          }
+        ]
+      },
+      "python/functions/args-kwargs": {
+        "title": "*args e **kwargs",
+        "links": [
+          {
+            "title": "*args and **kwargs in Python - GeeksforGeeks (em inglês)",
+            "url": "https://www.geeksforgeeks.org/args-kwargs-python/"
+          }
+        ]
+      },
+      "python/functions/lambda-functions": {
+        "title": "Funções lambda",
+        "links": [
+          {
+            "title": "Lambda Functions - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions"
+          },
+          {
+            "title": "How to Use Python Lambda Functions – Real Python (em inglês)",
+            "url": "https://realpython.com/python-lambda/"
+          }
+        ]
+      },
+      "python/functions/closures": {
+        "title": "Encerramentos (closures)",
+        "links": [
+          {
+            "title": "Closures - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/reference/datamodel.html#emulating-closures-and-nested-scope"
+          }
+        ]
+      },
+      "python/functions/decorators": {
+        "title": "Decoradores",
+        "links": [
+          {
+            "title": "Decorators - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/glossary.html#term-decorator"
+          },
+          {
+            "title": "Decorators in Python - Geeks for Geeks (em inglês)",
+            "url": "https://www.geeksforgeeks.org/decorators-in-python/"
+          }
+        ]
+      },
+      "python/iteration": {
+        "title": "Iteração"
+      },
+      "python/iteration/loops": {
+        "title": "Uso de loops (while, for..in)",
+        "links": [
+          {
+            "title": "Loops in Python - For, While and Nested Loops - GeeksforGeeks",
+            "url": "https://www.geeksforgeeks.org/loops-in-python/"
+          },
+          {
+            "title": "Loops - Learn Python - Free Interactive Python Tutorial",
+            "url": "https://www.learnpython.org/en/Loops"
+          }
+        ]
+      },
+      "python/iteration/list-comprehension": {
+        "title": "Compreensão de listas",
+        "links": [
+          {
+            "title": "List Comprehension - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions"
+          },
+          {
+            "title": "List Comprehension in Python - GeeksforGeeks (em inglês)",
+            "url": "https://www.geeksforgeeks.org/list-comprehensions-in-python/"
+          },
+          {
+            "title": "When to Use a List Comprehension in Python – Real Python",
+            "url": "https://realpython.com/list-comprehension-python/"
+          }
+        ]
+      },
+      "python/iteration/functional-techniques": {
+        "title": "Técnicas funcionais (map, filter, reduce)",
+        "links": [
+          {
+            "title": "Our Guide to Map, Filter, and Reduce Functions in Python - Udacity (em inglês)",
+            "url": "https://www.udacity.com/blog/2020/12/our-guide-to-map-filter-and-reduce-functions-in-python.html"
+          },
+          {
+            "title": "Map, Filter, Reduce - Learn Python - Free Interactive Python Tutorial (em inglês)",
+            "url": "https://www.learnpython.org/en/Map%2C_Filter%2C_Reduce"
+          }
+        ]
+      },
+      "python/docstrings": {
+        "title": "Docstrings (e sua diferença de comentários)",
+        "links": [
+          {
+            "title": "Docstrings - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/tutorial/controlflow.html#documentation-strings"
+          }
+        ]
+      },
+      "python/linting": {
+        "title": "Linting (pylint)",
+        "links": [
+          {
+            "title": "Pylint - Documentação oficial",
+            "url": "https://pylint.pycqa.org/en/latest/"
+          },
+          {
+            "title": "Linting Python in Visual Studio Code - Visual Studio Code Docs (em inglês)",
+            "url": "https://code.visualstudio.com/docs/python/linting"
+          }
+        ]
+      },
+      "python/testing": {
+        "title": "Testes em Python"
+      },
+      "python/testing/unit-tests": {
+        "title": "Testes unitários (unit tests, unittest, pytest)",
+        "links": [
+          {
+            "title": "unittest - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/library/unittest.html"
+          },
+          {
+            "title": "pytest - Documentação oficial",
+            "url": "https://docs.pytest.org/en/6.2.x/"
+          }
+        ]
+      },
+      "python/testing/mocks": {
+        "title": "Uso de mocks (e patch)",
+        "links": [
+          {
+            "title": "unittest.mock - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/library/unittest.mock.html"
+          },
+          {
+            "title": "unittest.mock - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/library/unittest.mock.html"
+          }
+        ]
+      },
+      "python/testing/fixtures": {
+        "title": "Uso de fixtures",
+        "links": [
+          {
+            "title": "Fixtures do pytest - Documentação oficial",
+            "url": "https://docs.pytest.org/en/6.2.x/fixture.html"
+          }
+        ]
+      },
+      "python/modularization": {
+        "title": "Modularização"
+      },
+      "python/modularization/modules": {
+        "title": "Módulos",
+        "links": [
+          {
+            "title": "Módulos - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/tutorial/modules.html"
+          }
+        ]
+      },
+      "python/modularization/packages": {
+        "title": "Pacotes",
+        "links": [
+          {
+            "title": "Pacotes - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/tutorial/modules.html#packages"
+          }
+        ]
+      },
+      "python/dependency-management": {
+        "title": "Gerenciamento de dependências"
+      },
+      "python/dependency-management/pip": {
+        "title": "pip (instalação e uso de pacotes)",
+        "links": [
+          {
+            "title": "pip - Python Docs (em inglês)",
+            "url": "https://docs.python.org/3/installing/index.html"
+          }
+        ]
+      },
+      "python/dependency-management/virtual-environment": {
+        "title": "Ambiente Virtual (ambientes virtuais, virtualenv)",
+        "links": [
+          {
+            "title": "venv — Creation of virtual environments — Python 3.12.2 documentation (em inglês)",
+            "url": "https://docs.python.org/3/library/venv.html"
+          },
+          {
+            "title": "Python Virtual Environments: A Primer – Real Python (em inglês)",
+            "url": "https://realpython.com/python-virtual-environments-a-primer/"
+          }
+        ]
+      },
+      "python/dependency-management/requirements-file": {
+        "title": "requirements.txt",
+        "links": [
+          {
+            "title": "requirements.txt - Documentação oficial",
+            "url": "https://pip.pypa.io/en/stable/user_guide/#requirements-files"
+          }
+        ]
+      },
+      "python/serialization": {
+        "title": "Serialização (e deserialização)",
+        "links": [
+          {
+            "title": "Serialize Your Data With Python – Real Python (em inglês)",
+            "url": "https://realpython.com/python-serialize-data/"
+          }
+        ]
+      },
+      "python/flask": {
+        "title": "Flask",
+        "links": [
+          {
+            "title": "Flask - Documentação oficial",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/"
+          },
+          {
+            "title": "Flask - Tutorial oficial",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/tutorial/"
+          }
+        ]
+      },
+      "python/flask/routes": {
+        "title": "Rotas"
+      },
+      "python/flask/routes/route-decorator": {
+        "title": "Decorador de rota",
+        "links": [
+          {
+            "title": "Routing - Flask Docs (em inglês)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#routing"
+          }
+        ]
+      },
+      "python/flask/routes/view-function": {
+        "title": "Função de visualização",
+        "links": [
+          {
+            "title": "Funções de visualização - Flask Docs (em inglês)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#view-functions"
+          }
+        ]
+      },
+      "python/flask/routes/variable-rules": {
+        "title": "Regras de variáveis (urls dinâmicas)",
+        "links": [
+          {
+            "title": "Regras de Variáveis - Flask Docs (em inglês)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#variable-rules"
+          }
+        ]
+      },
+      "python/flask/request": {
+        "title": "Objeto de Requisição"
+      },
+      "python/flask/request/args": {
+        "title": "Argumentos",
+        "links": [
+          {
+            "title": "Requisição - Flask Docs (em inglês)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#accessing-request-data"
+          }
+        ]
+      },
+      "python/flask/request/headers": {
+        "title": "Cabeçalhos",
+        "links": [
+          {
+            "title": "Requisição - Flask Docs (em inglês)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#accessing-request-data"
+          }
+        ]
+      },
+      "python/flask/response": {
+        "title": "Objeto de Resposta"
+      },
+      "python/flask/response/response-parts": {
+        "title": "Partes da resposta (status, corpo, cabeçalhos)",
+        "links": [
+          {
+            "title": "Resposta - Flask Docs (em inglês)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/quickstart/#about-responses"
+          }
+        ]
+      },
+      "python/flask/response/jsonify": {
+        "title": "jsonify",
+        "links": [
+          {
+            "title": "jsonify - Flask Docs (em inglês)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/api/#flask.json.jsonify"
+          }
+        ]
+      },
+      "python/flask/testing": {
+        "title": "Testando no Flask",
+        "links": [
+          {
+            "title": "Testing - Flask Docs (en inglés)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/testing/"
+          }
+        ]
+      },
+      "python/flask/testing/fixture-setup": {
+        "title": "Configuração de fixtures",
+        "links": [
+          {
+            "title": "Testando - Flask Docs (em inglês)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/testing/#fixtures"
+          }
+        ]
+      },
+      "python/flask/testing/test-client": {
+        "title": "Cliente de teste",
+        "links": [
+          {
+            "title": "Testando - Flask Docs (em inglês)",
+            "url": "https://flask.palletsprojects.com/en/3.0.x/testing/#sending-requests-with-the-test-client"
+          }
+        ]
+      },
+      "python/django": {
+        "title": "Django"
+      },
+      "python/django/setup": {
+        "title": "Configuração"
+      },
+      "python/django/setup/migrations": {
+        "title": "Migrações",
+        "links": [
+          {
+            "title": "Migrações",
+            "url": "https://docs.djangoproject.com/es/5.0/topics/migrations/#module-django.db.migrations"
+          }
+        ]
+      },
+      "python/django/setup/app": {
+        "title": "Configuração do aplicativo",
+        "links": [
+          {
+            "title": "Aplicativos instalados",
+            "url": "https://docs.djangoproject.com/es/5.0/ref/settings/#std-setting-INSTALLED_APPS"
+          }
+        ]
+      },
+      "python/django/models": {
+        "title": "Modelos"
+      },
+      "python/django/models/fields": {
+        "title": "Campos",
+        "links": [
+          {
+            "title": "Tipos de campos",
+            "url": "https://docs.djangoproject.com/en/5.0/topics/db/models/#Fields"
+          }
+        ]
+      },
+      "python/django/models/foreign-Key": {
+        "title": "Chave Estrangeira",
+        "links": [
+          {
+            "title": "Referência do campo do modelo",
+            "url": "https://docs.djangoproject.com/en/5.0/ref/models/fields/"
+          }
+        ]
+      },
+      "python/django/views": {
+        "title": "Visualizações",
+        "links": [
+          {
+            "title": "Visualizações base",
+            "url": "https://docs.djangoproject.com/en/5.0/ref/class-based-views/base/"
+          }
+        ]
+      },
+      "python/django/testing": {
+        "title": "Testando",
+        "links": [
+          {
+            "title": "Testando no Django",
+            "url": "https://docs.djangoproject.com/en/5.0/topics/testing/"
+          },
+          {
+            "title": "Testando o framework rest",
+            "url": "https://www.django-rest-framework.org/api-guide/testing/#testing"
+          }
+        ]
+      },
+      "python/django/queryset": {
+        "title": "queryset",
+        "links": [
+          {
+            "title": "O argumento queryset",
+            "url": "https://www.django-rest-framework.org/api-guide/relations/#the-queryset-argument"
+          }
+        ]
+      },
+      "python/django/filter": {
+        "title": "Filtro",
+        "links": [
+          {
+            "title": "Filtragem",
+            "url": "https://www.django-rest-framework.org/api-guide/filtering/"
+          }
+        ]
+      },
+      "python/django/order-by": {
+        "title": "Ordenar Por",
+        "links": [
+          {
+            "title": "OrderingFilter",
+            "url": "https://www.django-rest-framework.org/api-guide/filtering/#orderingfilter"
+          }
+        ]
+      },
+      "python/django/url-configuration": {
+        "title": "URLs (Path, URLconf, urlpatterns)",
+        "links": [
+          {
+            "title": "URLs do Django",
+            "url": "https://tutorial.djangogirls.org/en/django_urls/"
+          },
+          {
+            "title": "Despachador de URL",
+            "url": "https://docs.djangoproject.com/en/5.0/topics/http/urls/"
+          }
+        ]
+      },
+      "python/django/rest-framework": {
+        "title": "Rest Framework"
+      },
+      "python/django/rest-framework/serializers": {
+        "title": "Serializadores",
+        "links": [
+          {
+            "title": "Serializadores",
+            "url": "https://www.django-rest-framework.org/community/third-party-packages/#serializers"
+          }
+        ]
+      },
+      "python/django/rest-framework/pagination": {
+        "title": "Paginação",
+        "links": [
+          {
+            "title": "Paginação",
+            "url": "https://www.django-rest-framework.org/api-guide/pagination/#pagination"
+          }
+        ]
+      },
+      "python/django/rest-framework/query-params": {
+        "title": "Parâmetros da consulta",
+        "links": [
+          {
+            "title": "query_params",
+            "url": "https://www.django-rest-framework.org/api-guide/requests/#query_params"
+          }
+        ]
+      },
+      "python/django/rest-framework/viewset": {
+        "title": "ViewSet",
+        "links": [
+          {
+            "title": "ViewSet",
+            "url": "https://www.django-rest-framework.org/api-guide/viewsets/#viewset"
+          }
+        ]
+      },
+      "python/django/rest-framework/apiview": {
+        "title": "Apiview",
+        "links": [
+          {
+            "title": "GenericAPIView",
+            "url": "https://www.django-rest-framework.org/api-guide/generic-views/#genericapiview"
+          }
+        ]
       },
       "webops": {
         "title": "WebOps"
@@ -4076,6 +6415,15 @@
           }
         ]
       },
+      "angular/component-lifecycle": {
+        "title": "Component Lifecycle (ej. ngOnInit, ngOnChanges, ...)",
+        "links": [
+          {
+            "title": "Component Lifecycle - Documentação oficial (em inglês)",
+            "url": "https://angular.io/guide/lifecycle-hooks"
+          }
+        ]
+      },
       "angular/structural-directives": {
         "title": "Diretivas estruturais (ngIf / ngFor)",
         "links": [
@@ -4153,6 +6501,9 @@
       },
       "php": {
         "title": "PHP"
+      },
+      "php/data-types": {
+        "title": "Tipos de dados"
       },
       "php/data-types/primitive": {
         "title": "Tipos de dados primitivos em PHP",
@@ -4232,6 +6583,9 @@
           }
         ]
       },
+      "php/testing": {
+        "title": "Testes em PHP"
+      },
       "php/testing/phpunit": {
         "title": "PHPUnit",
         "links": [
@@ -4250,6 +6604,9 @@
           }
         ]
       },
+      "php/package-management": {
+        "title": "Gerenciamento de pacotes"
+      },
       "php/package-management/composer": {
         "title": "Composer",
         "links": [
@@ -4261,6 +6618,9 @@
       },
       "wordpress": {
         "title": "WordPress"
+      },
+      "wordpress/plugin-development": {
+        "title": "Desenvolvimento de plugins"
       },
       "wordpress/plugin-development/hooks": {
         "title": "Hooks: action e filter",
@@ -4360,6 +6720,12 @@
             "url": "https://developer.wordpress.org/plugins/wordpress-org/planning-your-plugin/"
           }
         ]
+      },
+      "typescript": {
+        "title": "Typescript"
+      },
+      "typescript/basic-types": {
+        "title": "Tipos básicos"
       },
       "typescript/basic-types/static-type-checking": {
         "title": "Verificação estática de tipos",
@@ -4599,38 +6965,11 @@
         ]
       },
       "typescript/classes/member-visibility": {
-        "title": "Visibilidade dos membros da classe",
+        "title": "Visibilidade dos membros da classe (public, private, protected)",
         "links": [
           {
             "title": "Documentação oficial do Typescript",
             "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#member-visibility"
-          }
-        ]
-      },
-      "typescript/classes/member-visibility/public": {
-        "title": "public",
-        "links": [
-          {
-            "title": "Documentação oficial do Typescript",
-            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#public"
-          }
-        ]
-      },
-      "typescript/classes/member-visibility/protected": {
-        "title": "protected",
-        "links": [
-          {
-            "title": "Documentação oficial do Typescript",
-            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#protected"
-          }
-        ]
-      },
-      "typescript/classes/member-visibility/private": {
-        "title": "private",
-        "links": [
-          {
-            "title": "Documentação oficial do Typescript",
-            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#private"
           }
         ]
       },
@@ -4725,6 +7064,390 @@
             "url": "https://platform.openai.com/docs/api-reference/chat/object"
           }
         ]
+      },
+      "csharp": {
+        "title": "C#"
+      },
+      "csharp/data-types": {
+        "title": "Tipos de Dados"
+      },
+      "csharp/data-types/primitives": {
+        "title": "Tipos de Dados Primitivos",
+        "links": [
+          {
+            "title": "Tipos Integrados (referência do C#) - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/built-in-types"
+          },
+          {
+            "title": "C# | Data Types (em inglês)",
+            "url": "https://www.geeksforgeeks.org/c-sharp-data-types/"
+          }
+        ]
+      },
+      "csharp/data-types/non-primitives": {
+        "title": "Tipos de Dados Não Primitivos",
+        "links": [
+          {
+            "title": "O Common Type System - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/#the-common-type-system"
+          }
+        ]
+      },
+      "csharp/data-types/structs": {
+        "title": "Estruturas",
+        "links": [
+          {
+            "title": "Tipos de Estrutura (Referência do C#) - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/struct"
+          }
+        ]
+      },
+      "csharp/data-types/enums": {
+        "title": "Enumeração",
+        "links": [
+          {
+            "title": "Tipos de Enumeração (Referência do C#) - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/enum"
+          }
+        ]
+      },
+      "csharp/data-types/anonymous-types": {
+        "title": "Tipos Anônimos",
+        "links": [
+          {
+            "title": "Tipos Anônimos - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/anonymous-types"
+          }
+        ]
+      },
+      "csharp/data-types/dynamic-types": {
+        "title": "Tipos Dinâmicos",
+        "links": [
+          {
+            "title": "dynamic (Referência do C#) - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/reference-types#the-dynamic-type"
+          },
+          {
+            "title": "Uso do Tipo dynamic - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/csharp/advanced-topics/interop/using-type-dynamic"
+          }
+        ]
+      },
+      "csharp/collections": {
+        "title": "Coleções",
+        "links": [
+          {
+            "title": "Coleções (Referência do C#) - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/collections"
+          }
+        ]
+      },
+      "csharp/collections/lists": {
+        "title": "Listas",
+        "links": [
+          {
+            "title": "Classe List<T> - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/api/system.collections.generic.list-1?view=net-8.0"
+          },
+          {
+            "title": "Gerenciando Coleções de Dados com List<T> em C# - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/tutorials/arrays-and-collections"
+          }
+        ]
+      },
+      "csharp/collections/arrays": {
+        "title": "Matrizes",
+        "links": [
+          {
+            "title": "Matrizes - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/arrays"
+          }
+        ]
+      },
+      "csharp/collections/sets": {
+        "title": "Conjuntos (Sets)",
+        "links": [
+          {
+            "title": "Classe HashSet<T> - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/api/system.collections.generic.hashset-1?view=net-8.0"
+          },
+          {
+            "title": "HashSet em C# com Exemplos (em inglês)",
+            "url": "https://www.geeksforgeeks.org/hashset-in-c-sharp-with-examples/"
+          }
+        ]
+      },
+      "csharp/variables": {
+        "title": "Variáveis",
+        "links": [
+          {
+            "title": "Variáveis (em inglês) - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/language-specification/variables"
+          },
+          {
+            "title": "C# | Variáveis (em inglês)",
+            "url": "https://www.geeksforgeeks.org/c-sharp-variables/"
+          }
+        ]
+      },
+      "csharp/conditionals": {
+        "title": "Condicionais",
+        "links": [
+          {
+            "title": "Instruções de seleção - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/selection-statements"
+          }
+        ]
+      },
+      "csharp/loops": {
+        "title": "Laços/Loops",
+        "links": [
+          {
+            "title": "Instruções de iteração - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements"
+          }
+        ]
+      },
+      "csharp/operators": {
+        "title": "Operadores",
+        "links": [
+          {
+            "title": "Operadores e Expressões do C# (referência do C#) - Microsoft Docs",
+            "url": "https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/"
+          }
+        ]
+      },
+      "csharp/generics": {
+        "title": "Genéricos",
+        "links": [
+          {
+            "title": "Classes e Métodos Genéricos (Guia de Programação C#) - Microsoft Docs",
+            "url": "https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/generics/"
+          }
+        ]
+      },
+      "csharp/access-modifiers": {
+        "title": "Modificadores de Acesso",
+        "links": [
+          {
+            "title": "Modificadores de Acesso (Guia de Programação C#) - Microsoft Docs",
+            "url": "https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers"
+          }
+        ]
+      },
+      "csharp/namespaces": {
+        "title": "Espaços de Nomes (namespaces)",
+        "links": [
+          {
+            "title": "Declaração de Espaços de Nomes para Organizar Tipos - Microsoft Docs",
+            "url": "https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/namespaces/"
+          }
+        ]
+      },
+      "csharp/functions": {
+        "title": "Funções"
+      },
+      "csharp/functions/lambda-functions": {
+        "title": "Funções Lambda",
+        "links": [
+          {
+            "title": "Expressões Lambda e Funções Anônimas (referência do C#) - Microsoft Docs",
+            "url": "https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions"
+          }
+        ]
+      },
+      "csharp/functions/decorators": {
+        "title": "Decoradores (Atributos)",
+        "links": [
+          {
+            "title": "Atributos (em Inglês) - Microsoft Docs",
+            "url": "https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/attributes/"
+          },
+          {
+            "title": "Definição e Leitura de Atributos Personalizados - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/csharp/advanced-topics/reflection-and-attributes/attribute-tutorial"
+          }
+        ]
+      },
+      "csharp/error-handling": {
+        "title": "Tratamento de Erros"
+      },
+      "csharp/error-handling/try-catch": {
+        "title": "try-catch",
+        "links": [
+          {
+            "title": "try-catch (Referência do C#) - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/exception-handling-statements"
+          }
+        ]
+      },
+      "csharp/error-handling/throw": {
+        "title": "throw",
+        "links": [
+          {
+            "title": "throw (Referência do C#) - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/exception-handling-statements#the-throw-statement"
+          }
+        ]
+      },
+      "csharp/linq": {
+        "title": "LINQ",
+        "links": [
+          {
+            "title": "LINQ (Language-Integrated Query) - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/csharp/linq/"
+          },
+          {
+            "title": "Conceitos Básicos e Consultas LINQ (em inglês) - Tutorial Teacher",
+            "url": "https://www.tutorialsteacher.com/linq"
+          },
+          {
+            "title": "Tutorial LINQ Para Iniciantes e Profissionais (em inglês)",
+            "url": "https://dotnettutorials.net/course/linq/"
+          }
+        ]
+      },
+      "csharp/async-await": {
+        "title": "Async-Await",
+        "links": [
+          {
+            "title": "Cenários de Programação Assíncrona - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/csharp/asynchronous-programming/async-scenarios"
+          }
+        ]
+      },
+      "csharp/.net-core": {
+        "title": ".NET Core",
+        "links": [
+          {
+            "title": ".NET e .NET Core - Microsoft Docs",
+            "url": "https://docs.microsoft.com/pt-br/dotnet/"
+          },
+          {
+            "title": ".NET para Iniciantes - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/shows/dotnet-for-beginners/"
+          },
+          {
+            "title": "Introdução ao .NET - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/core/introduction"
+          },
+          {
+            "title": "Tutoriais .NET - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/core/tutorials/"
+          }
+        ]
+      },
+      "csharp/nuget-packages": {
+        "title": "Pacotes NuGet",
+        "links": [
+          {
+            "title": "Documentação NuGet - Microsoft Docs",
+            "url": "https://docs.microsoft.com/pt-br/nuget/"
+          },
+          {
+            "title": "Biblioteca NuGet",
+            "url": "https://www.nuget.org/"
+          },
+          {
+            "title": "Gerenciar Pacotes NuGet com a CLI do NuGet - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/nuget/consume-packages/install-use-packages-nuget-cli"
+          },
+          {
+            "title": "Instalar Pacotes NuGet no Visual Studio Code (em inglês)",
+            "url": "https://www.youtube.com/watch?v=e1GhVs85Rss"
+          },
+          {
+            "title": "Instalar Pacotes NuGet no Visual Studio (em inglês)",
+            "url": "https://www.youtube.com/watch?v=J3_io5mBEnU"
+          }
+        ]
+      },
+      "csharp/testing": {
+        "title": "Testes"
+      },
+      "csharp/testing/xunit": {
+        "title": "xUnit",
+        "links": [
+          {
+            "title": "Documentação xUnit.net - xUnit.net (em inglês)",
+            "url": "https://xunit.net/#documentation"
+          },
+          {
+            "title": "Teste Unitário C# no .NET Core usando testes dotnet e xUnit - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-with-dotnet-test"
+          }
+        ]
+      },
+      "csharp/testing/mstest": {
+        "title": "MSTest",
+        "links": [
+          {
+            "title": "MSTest V2 - GitHub (em inglês)",
+            "url": "https://github.com/microsoft/testfx?tab=readme-ov-file"
+          },
+          {
+            "title": "Teste Unitário C# com MSTest e .NET",
+            "url": "https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-with-mstest"
+          }
+        ]
+      },
+      "csharp/entity-framework": {
+        "title": "Entity Framework",
+        "links": [
+          {
+            "title": "Centro de Documentação do Entity Framework - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/ef/"
+          }
+        ]
+      },
+      "csharp/entity-framework/code-first": {
+        "title": "Code First",
+        "links": [
+          {
+            "title": "Code First em um Novo Banco de Dados - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/ef/ef6/modeling/code-first/workflows/new-database"
+          }
+        ]
+      },
+      "csharp/entity-framework/models": {
+        "title": "Modelos",
+        "links": [
+          {
+            "title": "Criando um Modelo - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/ef/ef6/modeling/"
+          }
+        ]
+      },
+      "csharp/entity-framework/fluent-api": {
+        "title": "Fluent API",
+        "links": [
+          {
+            "title": "Fluent API, Relacionamentos | Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/ef/ef6/modeling/code-first/fluent/relationships"
+          }
+        ]
+      },
+      "csharp/entity-framework/controllers": {
+        "title": "Controladores",
+        "links": [
+          {
+            "title": "Adicionando Modelos e Controladores - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/aspnet/web-api/overview/data/using-web-api-with-entity-framework/part-2#add-web-api-controllers"
+          },
+          {
+            "title": "Criar APIs Web com o ASP.NET Core - Microsoft Docs",
+            "url": "https://learn.microsoft.com/pt-br/aspnet/core/web-api/?view=aspnetcore-8.0"
+          }
+        ]
+      },
+      "csharp/entity-framework/migrations": {
+        "title": "Migrações",
+        "links": [
+          {
+            "title": "Visão Geral das Migrações - Microsoft Docs",
+            "url": "https://docs.microsoft.com/pt-br/ef/core/managing-schemas/migrations/"
+          }
+        ]
       }
     }
   },
@@ -4815,7 +7538,9 @@
       "pt": "JavaScript"
     },
     {
-      "key": "js/data-types"
+      "key": "js/data-types",
+      "es": "Tipos de datos",
+      "pt": "Tipos de dados"
     },
     {
       "key": "js/data-types/primitive",
@@ -4868,7 +7593,9 @@
       "pt": "Recursão"
     },
     {
-      "key": "js/testing"
+      "key": "js/testing",
+      "es": "Testing en Javascript",
+      "pt": "Testing em Javascript"
     },
     {
       "key": "js/testing/unit",
@@ -4896,7 +7623,9 @@
       "pt": "Teste de compatibilidade em vários ambientes de execução"
     },
     {
-      "key": "js/modules"
+      "key": "js/modules",
+      "es": "Módulos",
+      "pt": "Módulos"
     },
     {
       "key": "js/modules/es-modules",
@@ -4924,7 +7653,9 @@
       "pt": "Diferença entre expressões (expressions) e declarações (statements)"
     },
     {
-      "key": "js/async"
+      "key": "js/async",
+      "es": "Asincronía",
+      "pt": "Assincronicidade"
     },
     {
       "key": "js/async/callbacks",
@@ -4942,7 +7673,9 @@
       "pt": "Controle de Versões (Git e GitHub)"
     },
     {
-      "key": "scm/git"
+      "key": "scm/git",
+      "es": "Git",
+      "pt": "Git"
     },
     {
       "key": "scm/git/setup",
@@ -4960,7 +7693,9 @@
       "pt": "Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)"
     },
     {
-      "key": "scm/github"
+      "key": "scm/github",
+      "es": "GitHub",
+      "pt": "GitHub"
     },
     {
       "key": "scm/github/setup",
@@ -4998,94 +7733,9 @@
       "pt": "Desenhar e desenvolver um produto ou serviço colocando as usuárias no centro"
     },
     {
-      "key": "user-centricity/user-oriented",
-      "es": "Involucrar usuarias y tomar en cuenta sus necesidades a lo largo de todo el proceso de diseño",
-      "pt": "Envolva os usuários e leve em consideração suas necessidades durante todo o processo de design"
-    },
-    {
-      "key": "user-centricity/prioritization",
-      "es": "Identificar y priorizar usuarias relevantes para el proyecto",
-      "pt": "Identificar e priorizar usuários relevantes para o projeto"
-    },
-    {
-      "key": "business",
-      "es": "Negocio",
-      "pt": "Negócios"
-    },
-    {
-      "key": "business/model",
-      "es": "Entender el modelo de negocio",
-      "pt": "Entendendo o modelo de negócio"
-    },
-    {
-      "key": "business/goals",
-      "es": "Entender y considerar los objetivos del negocio durante el desarrollo del proyecto",
-      "pt": "Entenda e considere os objetivos do negócio durante o desenvolvimento do projeto"
-    },
-    {
-      "key": "business/metrics",
-      "es": "Definir métricas relevantes para validar el cumplimiento de los objetivos del negocio",
-      "pt": "Definir métricas relevantes para validar a conformidade com os objetivos de negócios"
-    },
-    {
-      "key": "business/benchmark",
-      "es": "Entender estado del negocio en relación con el mercado local y global",
-      "pt": "Entendendo a situação do negócio em relação ao mercado local e global"
-    },
-    {
-      "key": "synthesis",
-      "es": "Síntesis",
-      "pt": "Síntese"
-    },
-    {
-      "key": "synthesis/weighing",
-      "es": "Distinguir observaciones, data y/o respuestas que aportan valor al proyecto",
-      "pt": "Distinguir observações, dados e/ou respostas que agregam valor ao projeto"
-    },
-    {
-      "key": "synthesis/patterns",
-      "es": "Encontrar patrones en los resultados de la investigación",
-      "pt": "Encontrando padrões nos resultados da pesquisa"
-    },
-    {
-      "key": "synthesis/insights",
-      "es": "Diferenciar entre observaciones, hallazagos e insights",
-      "pt": "Diferenciar entre observações, descobertas e insights"
-    },
-    {
-      "key": "synthesis/mapping",
-      "es": "Usar herramientas de síntesis para mapear las experiencias de los usuarios",
-      "pt": "Usando ferramentas de síntese para mapear as experiências do usuário"
-    },
-    {
-      "key": "synthesis/features",
-      "es": "Definir funcionalidades del producto",
-      "pt": "Definir características do produto"
-    },
-    {
-      "key": "synthesis/ideation",
-      "es": "Generar múltiples ideas de solución al reto del proyecto",
-      "pt": "Gerar várias ideias de soluções para o desafio do projeto"
-    },
-    {
-      "key": "synthesis/feature-prioritization",
-      "es": "Priorizar las posibles soluciones que aporten más valor al proyecto, basándose en los objetivos del proyecto y las necesidades de los usuarios",
-      "pt": "Priorizar as possíveis soluções que agregam mais valor ao projeto, com base nos objetivos do projeto e nas necessidades dos usuários"
-    },
-    {
       "key": "product-design",
       "es": "Diseño de producto",
       "pt": "Design de produto"
-    },
-    {
-      "key": "product-design/user-flows",
-      "es": "Priorizar y proponer flujos de usuaria que les ayuden a conseguir sus objetivos con el producto",
-      "pt": "Priorizar e propor fluxos de usuários que os ajudem a atingir seus objetivos com o produto"
-    },
-    {
-      "key": "product-design/content",
-      "es": "Identificar y priorizar contenidos relevantes y necesarios para el producto",
-      "pt": "Identificar e priorizar conteúdos relevantes e necessários para o produto"
     },
     {
       "key": "product-design/fidelity",
@@ -5098,79 +7748,9 @@
       "pt": "Criar protótipos para obter feedback e iterar"
     },
     {
-      "key": "product-design/usability",
-      "es": "Diseñar producto o servicio siguiendo mejores prácticas de usabilidad",
-      "pt": "Projetar produto ou serviço seguindo as melhores práticas de usabilidade"
-    },
-    {
-      "key": "product-design/accessibility",
-      "es": "Diseñar producto o servicio siguiendo mejores prácticas de accesibilidad",
-      "pt": "Projetar produto ou serviço seguindo as melhores práticas de acessibilidade"
-    },
-    {
       "key": "product-design/visual-design",
       "es": "Seguir los principios básicos de diseño visual",
       "pt": "Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)"
-    },
-    {
-      "key": "product-design/component-organization",
-      "es": "Crear y utilizar componentes reutilizables",
-      "pt": "Criar e usar componentes reutilizáveis"
-    },
-    {
-      "key": "product-design/project-organization",
-      "es": "Nombrar, organizar, agrupar las capas (layers) del diseño siguiendo buenas prácticas",
-      "pt": "Nomear, organizar, agrupar as camadas (layers) do design seguindo boas práticas"
-    },
-    {
-      "key": "product-design/documentation",
-      "es": "Documentar los distintos componentes de UI y sus casos de uso",
-      "pt": "Documentar os vários componentes da interface do usuário e seus casos de uso"
-    },
-    {
-      "key": "communication",
-      "es": "Comunicación",
-      "pt": "Comunicação"
-    },
-    {
-      "key": "communication/presentation",
-      "es": "Presentar y sustentar propuestas a clientes",
-      "pt": "Apresentar e apoiar propostas aos clientes"
-    },
-    {
-      "key": "communication/negotiation",
-      "es": "Negociar efectivamente con clientes",
-      "pt": "Negociando de forma eficaz com os clientes"
-    },
-    {
-      "key": "communication/relationship-management",
-      "es": "Manejar relaciones con clientes",
-      "pt": "Gerenciando o Relacionamento com o Cliente"
-    },
-    {
-      "key": "communication/case-study",
-      "es": "Presentar su proceso de trabajo en un caso de estudio usando herramientas de storytelling",
-      "pt": "Apresente seu processo de trabalho em um estudo de caso usando ferramentas de storytelling"
-    },
-    {
-      "key": "planning",
-      "es": "Planificación",
-      "pt": "Planejamento"
-    },
-    {
-      "key": "planning/monitor",
-      "es": "Organizar y dar seguimiento a actividades a desarrollarse durante el proyecto",
-      "pt": "Organizar e monitorar as atividades a serem desenvolvidas durante o projeto"
-    },
-    {
-      "key": "planning/prioritization",
-      "es": "Priorizar actividades a desarrollarse durante el proyecto",
-      "pt": "Priorizar as atividades a serem desenvolvidas durante o projeto"
-    },
-    {
-      "key": "planning/tools",
-      "es": "Elegir las herramientas y métodos a utilizar de acuerdo a las necesidades  del proyecto",
-      "pt": "Escolha as ferramentas e métodos a utilizar de acordo com as necessidades do projeto"
     },
     {
       "key": "firebase",
@@ -5188,15 +7768,6 @@
       "pt": "Firestore"
     },
     {
-      "key": "front-end-web-dev"
-    },
-    {
-      "key": "front-end-web-dev/components"
-    },
-    {
-      "key": "front-end-web-dev/state"
-    },
-    {
       "key": "angular",
       "es": "Angular",
       "pt": "Angular"
@@ -5205,6 +7776,11 @@
       "key": "angular/components-and-templates",
       "es": "Components & templates",
       "pt": "Components & templates"
+    },
+    {
+      "key": "angular/component-lifecycle",
+      "es": "Component Lifecycle (ej. ngOnInit, ngOnChanges, ...)",
+      "pt": "Component Lifecycle (ej. ngOnInit, ngOnChanges, ...)"
     },
     {
       "key": "angular/structural-directives",
@@ -5462,6 +8038,826 @@
       "pt": "Armazenamento e acesso de senhas"
     },
     {
+      "key": "java",
+      "es": "Java",
+      "pt": "Java"
+    },
+    {
+      "key": "java/access-modifiers",
+      "es": "Modificadores de acesso (public, private, protected)",
+      "pt": "Modificadores de acesso (public, private, protected)"
+    },
+    {
+      "key": "java/variables",
+      "es": "Variables",
+      "pt": "Variáveis"
+    },
+    {
+      "key": "java/conditionals",
+      "es": "Uso de condicionales",
+      "pt": "Uso de condicionais"
+    },
+    {
+      "key": "java/loops",
+      "es": "Uso de bucles (Loops)",
+      "pt": "Uso de loops (Laços)"
+    },
+    {
+      "key": "java/data-types",
+      "es": "Tipos de data",
+      "pt": "Tipos de dados"
+    },
+    {
+      "key": "java/data-types/primitive",
+      "es": "Primitivos",
+      "pt": "Primitivos"
+    },
+    {
+      "key": "java/data-types/primitive-vs-non-primitive",
+      "es": "Datos primitivos vs no primitivos",
+      "pt": "Dados primitivos vs não primitivos"
+    },
+    {
+      "key": "java/data-types/strings",
+      "es": "Cadenas",
+      "pt": "Cadeias de caracteres"
+    },
+    {
+      "key": "java/data-types/arrays",
+      "es": "Arreglos",
+      "pt": "Arrays"
+    },
+    {
+      "key": "java/collections",
+      "es": "Colecciones",
+      "pt": "Coleções"
+    },
+    {
+      "key": "java/collections/array-list",
+      "es": "ArrayList",
+      "pt": "ArrayList"
+    },
+    {
+      "key": "java/collections/hash-map",
+      "es": "HashMap",
+      "pt": "HashMap"
+    },
+    {
+      "key": "java/collections/hash-set",
+      "es": "HashSet",
+      "pt": "HashSet"
+    },
+    {
+      "key": "java/testing",
+      "es": "Testing",
+      "pt": "Testes"
+    },
+    {
+      "key": "java/testing/junit",
+      "es": "JUnit",
+      "pt": "JUnit"
+    },
+    {
+      "key": "java/testing/mockito",
+      "es": "Mockito",
+      "pt": "Mockito"
+    },
+    {
+      "key": "java/spring-framework",
+      "es": "Spring Framework",
+      "pt": "Spring Framework"
+    },
+    {
+      "key": "java/spring-framework/core-concepts",
+      "es": "Conceptos Core",
+      "pt": "Conceitos Principais"
+    },
+    {
+      "key": "java/spring-framework/core-concepts/beans",
+      "es": "Beans",
+      "pt": "Beans"
+    },
+    {
+      "key": "java/spring-framework/core-concepts/inversion-of-control",
+      "es": "Inversión de Control",
+      "pt": "Inversão de Controle"
+    },
+    {
+      "key": "java/spring-framework/core-concepts/annotations",
+      "es": "Anotaciones",
+      "pt": "Anotações"
+    },
+    {
+      "key": "java/spring-framework/initializr",
+      "es": "Initializr",
+      "pt": "Initializr"
+    },
+    {
+      "key": "java/spring-framework/spring-boot",
+      "es": "Spring Boot",
+      "pt": "Spring Boot"
+    },
+    {
+      "key": "java/spring-framework/controllers",
+      "es": "Controladores",
+      "pt": "Controladores"
+    },
+    {
+      "key": "java/spring-framework/services",
+      "es": "Servicios",
+      "pt": "Serviços"
+    },
+    {
+      "key": "java/spring-framework/spring-data-jpa",
+      "es": "Spring Data JPA",
+      "pt": "Spring Data JPA"
+    },
+    {
+      "key": "java/spring-framework/entity",
+      "es": "Entidad",
+      "pt": "Entidade"
+    },
+    {
+      "key": "java/spring-framework/repository",
+      "es": "Repositorio",
+      "pt": "Repositório"
+    },
+    {
+      "key": "java/spring-framework/spring-web",
+      "es": "Spring Web",
+      "pt": "Spring Web"
+    },
+    {
+      "key": "java/spring-framework/spring-web/rest-controller",
+      "es": "RestController",
+      "pt": "RestController"
+    },
+    {
+      "key": "java/spring-framework/spring-web/request-mapping",
+      "es": "RequestMapping",
+      "pt": "RequestMapping"
+    },
+    {
+      "key": "java/spring-framework/spring-web/request-param",
+      "es": "RequestParam",
+      "pt": "RequestParam"
+    },
+    {
+      "key": "java/spring-framework/testing",
+      "es": "Testing",
+      "pt": "Testes"
+    },
+    {
+      "key": "java/spring-framework/testing/spring-test",
+      "es": "Spring Test",
+      "pt": "Spring Test"
+    },
+    {
+      "key": "java/spring-framework/testing/hamcrest",
+      "es": "Hamcrest",
+      "pt": "Hamcrest"
+    },
+    {
+      "key": "java/hibernate-orm",
+      "es": "Hibernate ORM",
+      "pt": "Hibernate ORM"
+    },
+    {
+      "key": "java/hibernate-orm/setup",
+      "es": "Configuración",
+      "pt": "Configuração"
+    },
+    {
+      "key": "java/hibernate-orm/schema",
+      "es": "Esquema",
+      "pt": "Esquema"
+    },
+    {
+      "key": "java/hibernate-orm/entity",
+      "es": "Entidad",
+      "pt": "Entidade"
+    },
+    {
+      "key": "java/hibernate-orm/table",
+      "es": "Tabla",
+      "pt": "Tabela"
+    },
+    {
+      "key": "java/hibernate-orm/column",
+      "es": "Columna",
+      "pt": "Coluna"
+    },
+    {
+      "key": "java/hibernate-orm/identifiers",
+      "es": "Identificadores",
+      "pt": "Identificadores"
+    },
+    {
+      "key": "java/hibernate-orm/associations",
+      "es": "Asociaciones",
+      "pt": "Associações"
+    },
+    {
+      "key": "java/hibernate-orm/collections",
+      "es": "Colecciones",
+      "pt": "Coleções"
+    },
+    {
+      "key": "java/hibernate-orm/persistance",
+      "es": "Persistencia",
+      "pt": "Persistência"
+    },
+    {
+      "key": "java/hibernate-orm/querying",
+      "es": "Consultas",
+      "pt": "Consultas"
+    },
+    {
+      "key": "python",
+      "es": "Python",
+      "pt": "Python"
+    },
+    {
+      "key": "python/data-types",
+      "es": "Tipos de datos",
+      "pt": "Tipos de dados"
+    },
+    {
+      "key": "python/data-types/primitive",
+      "es": "Tipos de datos primitivos (int, float, str, bool)",
+      "pt": "Tipos de dados primitivos (int, float, str, bool)"
+    },
+    {
+      "key": "python/data-types/lists",
+      "es": "Listas (arrays)",
+      "pt": "Listas (arrays)"
+    },
+    {
+      "key": "python/data-types/tuples",
+      "es": "Tuples",
+      "pt": "Tuples"
+    },
+    {
+      "key": "python/data-types/dictionaries",
+      "es": "Dictionaries (Dicts)",
+      "pt": "Dictionaries (Dicts)"
+    },
+    {
+      "key": "python/data-types/sets",
+      "es": "Sets",
+      "pt": "Sets"
+    },
+    {
+      "key": "python/variables",
+      "es": "Variables (declaración, asignación, ámbito)",
+      "pt": "Variáveis (declaração, atribuição, escopo)"
+    },
+    {
+      "key": "python/conditionals",
+      "es": "Uso de condicionales (if, elif, ternario)",
+      "pt": "Uso de condicionais (if, elif, ternário)"
+    },
+    {
+      "key": "python/operators",
+      "es": "Operadores (identidad, aritméticos, comparación etc)",
+      "pt": "Operadores (identidade, aritméticos, comparação etc)"
+    },
+    {
+      "key": "python/docstrings",
+      "es": "Docstrings (y su diferencia de comentarios)",
+      "pt": "Docstrings (e sua diferença de comentários)"
+    },
+    {
+      "key": "python/functions",
+      "es": "Funciones",
+      "pt": "Funções"
+    },
+    {
+      "key": "python/functions/basic-concepts",
+      "es": "Conceptos basicos (params, args, default values, return)",
+      "pt": "Conceitos básicos (parâmetros, argumentos, valores padrão, retorno)"
+    },
+    {
+      "key": "python/functions/args-kwargs",
+      "es": "*args y **kwargs",
+      "pt": "*args e **kwargs"
+    },
+    {
+      "key": "python/functions/closures",
+      "es": "Cierres (closures)",
+      "pt": "Encerramentos (closures)"
+    },
+    {
+      "key": "python/functions/lambda-functions",
+      "es": "Funciones lambda",
+      "pt": "Funções lambda"
+    },
+    {
+      "key": "python/functions/decorators",
+      "es": "Decoradores",
+      "pt": "Decoradores"
+    },
+    {
+      "key": "python/iteration",
+      "es": "Iteración",
+      "pt": "Iteração"
+    },
+    {
+      "key": "python/iteration/loops",
+      "es": "Uso de bucles/ciclos (while, for..in)",
+      "pt": "Uso de loops (while, for..in)"
+    },
+    {
+      "key": "python/iteration/list-comprehension",
+      "es": "Comprensión de listas",
+      "pt": "Compreensão de listas"
+    },
+    {
+      "key": "python/iteration/functional-techniques",
+      "es": "Técnicas funcionales (map, filter, reduce)",
+      "pt": "Técnicas funcionais (map, filter, reduce)"
+    },
+    {
+      "key": "python/linting",
+      "es": "Linting (pylint)",
+      "pt": "Linting (pylint)"
+    },
+    {
+      "key": "python/testing",
+      "es": "Testing en Python",
+      "pt": "Testes em Python"
+    },
+    {
+      "key": "python/testing/unit-tests",
+      "es": "Pruebas unitarias (unit tests, unittest, pytest)",
+      "pt": "Testes unitários (unit tests, unittest, pytest)"
+    },
+    {
+      "key": "python/testing/mocks",
+      "es": "Uso de mocks (y patch)",
+      "pt": "Uso de mocks (e patch)"
+    },
+    {
+      "key": "python/testing/fixtures",
+      "es": "Uso de fixtures",
+      "pt": "Uso de fixtures"
+    },
+    {
+      "key": "python/modularization",
+      "es": "Modularización",
+      "pt": "Modularização"
+    },
+    {
+      "key": "python/modularization/modules",
+      "es": "Módulos",
+      "pt": "Módulos"
+    },
+    {
+      "key": "python/modularization/packages",
+      "es": "Paquetes",
+      "pt": "Pacotes"
+    },
+    {
+      "key": "python/dependency-management",
+      "es": "Manejo de dependencias",
+      "pt": "Gerenciamento de dependências"
+    },
+    {
+      "key": "python/dependency-management/pip",
+      "es": "pip (instalación y uso de paquetes)",
+      "pt": "pip (instalação e uso de pacotes)"
+    },
+    {
+      "key": "python/dependency-management/virtual-environment",
+      "es": "Virtual Environment (ambientes virtuales, virtualenv)",
+      "pt": "Ambiente Virtual (ambientes virtuais, virtualenv)"
+    },
+    {
+      "key": "python/dependency-management/requirements-file",
+      "es": "requirements.txt",
+      "pt": "requirements.txt"
+    },
+    {
+      "key": "python/serialization",
+      "es": "Serialización (y deserialización)",
+      "pt": "Serialização (e deserialização)"
+    },
+    {
+      "key": "python/flask",
+      "es": "Flask",
+      "pt": "Flask"
+    },
+    {
+      "key": "python/flask/routes",
+      "es": "Rutas",
+      "pt": "Rotas"
+    },
+    {
+      "key": "python/flask/routes/route-decorator",
+      "es": "Decorador de ruta",
+      "pt": "Decorador de rota"
+    },
+    {
+      "key": "python/flask/routes/view-function",
+      "es": "Función de vista",
+      "pt": "Função de visualização"
+    },
+    {
+      "key": "python/flask/routes/variable-rules",
+      "es": "Reglas de variables (urls dinamica)",
+      "pt": "Regras de variáveis (urls dinâmicas)"
+    },
+    {
+      "key": "python/flask/request",
+      "es": "Request Object",
+      "pt": "Objeto de Requisição"
+    },
+    {
+      "key": "python/flask/request/args",
+      "es": "Argumentos",
+      "pt": "Argumentos"
+    },
+    {
+      "key": "python/flask/request/headers",
+      "es": "Headers (cabeceras)",
+      "pt": "Cabeçalhos"
+    },
+    {
+      "key": "python/flask/response",
+      "es": "Response Object",
+      "pt": "Objeto de Resposta"
+    },
+    {
+      "key": "python/flask/response/response-parts",
+      "es": "Partes de la respuesta (status, body, headers)",
+      "pt": "Partes da resposta (status, corpo, cabeçalhos)"
+    },
+    {
+      "key": "python/flask/response/jsonify",
+      "es": "jsonify",
+      "pt": "jsonify"
+    },
+    {
+      "key": "python/flask/testing",
+      "es": "Testing en Flask",
+      "pt": "Testando no Flask"
+    },
+    {
+      "key": "python/flask/testing/fixture-setup",
+      "es": "Configuración de fixtures",
+      "pt": "Configuração de fixtures"
+    },
+    {
+      "key": "python/flask/testing/test-client",
+      "es": "Test Client",
+      "pt": "Cliente de teste"
+    },
+    {
+      "key": "python/django",
+      "es": "Django",
+      "pt": "Django"
+    },
+    {
+      "key": "python/django/setup",
+      "es": "Configuración",
+      "pt": "Configuração"
+    },
+    {
+      "key": "python/django/setup/migrations",
+      "es": "Migraciones",
+      "pt": "Migrações"
+    },
+    {
+      "key": "python/django/setup/app",
+      "es": "Setup app",
+      "pt": "Configuração do aplicativo"
+    },
+    {
+      "key": "python/django/models",
+      "es": "Modelos",
+      "pt": "Modelos"
+    },
+    {
+      "key": "python/django/models/fields",
+      "es": "Fields",
+      "pt": "Campos"
+    },
+    {
+      "key": "python/django/models/foreign-Key",
+      "es": "Foreign Key",
+      "pt": "Chave Estrangeira"
+    },
+    {
+      "key": "python/django/views",
+      "es": "Views",
+      "pt": "Visualizações"
+    },
+    {
+      "key": "python/django/testing",
+      "es": "Testing",
+      "pt": "Testando"
+    },
+    {
+      "key": "python/django/queryset",
+      "es": "queryset",
+      "pt": "queryset"
+    },
+    {
+      "key": "python/django/filter",
+      "es": "Filter",
+      "pt": "Filtro"
+    },
+    {
+      "key": "python/django/order-by",
+      "es": "Order By",
+      "pt": "Ordenar Por"
+    },
+    {
+      "key": "python/django/url-configuration",
+      "es": "URLs (Path, URLconf, urlpatterns)",
+      "pt": "URLs (Path, URLconf, urlpatterns)"
+    },
+    {
+      "key": "python/django/rest-framework",
+      "es": "Rest Framework",
+      "pt": "Rest Framework"
+    },
+    {
+      "key": "python/django/rest-framework/serializers",
+      "es": "Serializers",
+      "pt": "Serializadores"
+    },
+    {
+      "key": "python/django/rest-framework/pagination",
+      "es": "Pagination",
+      "pt": "Paginação"
+    },
+    {
+      "key": "python/django/rest-framework/query-params",
+      "es": "Query params",
+      "pt": "Parâmetros da consulta"
+    },
+    {
+      "key": "python/django/rest-framework/viewset",
+      "es": "ViewSet",
+      "pt": "ViewSet"
+    },
+    {
+      "key": "python/django/rest-framework/apiview",
+      "es": "Apiview",
+      "pt": "Apiview"
+    },
+    {
+      "key": "csharp",
+      "es": "C#",
+      "pt": "C#"
+    },
+    {
+      "key": "csharp/data-types",
+      "es": "Tipos de datos",
+      "pt": "Tipos de Dados"
+    },
+    {
+      "key": "csharp/data-types/primitives",
+      "es": "Tipos de datos primitivos",
+      "pt": "Tipos de Dados Primitivos"
+    },
+    {
+      "key": "csharp/data-types/non-primitives",
+      "es": "Tipos de datos no primitivos",
+      "pt": "Tipos de Dados Não Primitivos"
+    },
+    {
+      "key": "csharp/data-types/structs",
+      "es": "Estructuras",
+      "pt": "Estruturas"
+    },
+    {
+      "key": "csharp/data-types/enums",
+      "es": "Enumeración",
+      "pt": "Enumeração"
+    },
+    {
+      "key": "csharp/data-types/anonymous-types",
+      "es": "Tipos anónimos",
+      "pt": "Tipos Anônimos"
+    },
+    {
+      "key": "csharp/data-types/dynamic-types",
+      "es": "Tipos dinámicos",
+      "pt": "Tipos Dinâmicos"
+    },
+    {
+      "key": "csharp/collections",
+      "es": "Colecciones",
+      "pt": "Coleções"
+    },
+    {
+      "key": "csharp/collections/lists",
+      "es": "Listas",
+      "pt": "Listas"
+    },
+    {
+      "key": "csharp/collections/arrays",
+      "es": "Arreglos",
+      "pt": "Matrizes"
+    },
+    {
+      "key": "csharp/collections/sets",
+      "es": "Conjuntos (Sets)",
+      "pt": "Conjuntos (Sets)"
+    },
+    {
+      "key": "csharp/variables",
+      "es": "Variables",
+      "pt": "Variáveis"
+    },
+    {
+      "key": "csharp/conditionals",
+      "es": "Condicionales",
+      "pt": "Condicionais"
+    },
+    {
+      "key": "csharp/loops",
+      "es": "Bucles/Ciclos",
+      "pt": "Laços/Loops"
+    },
+    {
+      "key": "csharp/operators",
+      "es": "Operadores",
+      "pt": "Operadores"
+    },
+    {
+      "key": "csharp/generics",
+      "es": "Genéricos",
+      "pt": "Genéricos"
+    },
+    {
+      "key": "csharp/access-modifiers",
+      "es": "Modificadores de Acceso",
+      "pt": "Modificadores de Acesso"
+    },
+    {
+      "key": "csharp/namespaces",
+      "es": "Espacios de Nombres (namespaces)",
+      "pt": "Espaços de Nomes (namespaces)"
+    },
+    {
+      "key": "csharp/functions",
+      "es": "Funciones",
+      "pt": "Funções"
+    },
+    {
+      "key": "csharp/functions/lambda-functions",
+      "es": "Funciones Lambda",
+      "pt": "Funções Lambda"
+    },
+    {
+      "key": "csharp/functions/decorators",
+      "es": "Decoradores (Atributos)",
+      "pt": "Decoradores (Atributos)"
+    },
+    {
+      "key": "csharp/error-handling",
+      "es": "Manejo de Errores",
+      "pt": "Tratamento de Erros"
+    },
+    {
+      "key": "csharp/error-handling/try-catch",
+      "es": "try-catch",
+      "pt": "try-catch"
+    },
+    {
+      "key": "csharp/error-handling/throw",
+      "es": "throw",
+      "pt": "throw"
+    },
+    {
+      "key": "csharp/linq",
+      "es": "LINQ",
+      "pt": "LINQ"
+    },
+    {
+      "key": "csharp/async-await",
+      "es": "Async-Await",
+      "pt": "Async-Await"
+    },
+    {
+      "key": "csharp/.net-core",
+      "es": ".NET Core",
+      "pt": ".NET Core"
+    },
+    {
+      "key": "csharp/nuget-packages",
+      "es": "Paquetes NuGet",
+      "pt": "Pacotes NuGet"
+    },
+    {
+      "key": "csharp/testing",
+      "es": "Pruebas",
+      "pt": "Testes"
+    },
+    {
+      "key": "csharp/testing/xunit",
+      "es": "xUnit",
+      "pt": "xUnit"
+    },
+    {
+      "key": "csharp/testing/mstest",
+      "es": "MSTest",
+      "pt": "MSTest"
+    },
+    {
+      "key": "csharp/entity-framework",
+      "es": "Entity Framework",
+      "pt": "Entity Framework"
+    },
+    {
+      "key": "csharp/entity-framework/code-first",
+      "es": "Code First",
+      "pt": "Code First"
+    },
+    {
+      "key": "csharp/entity-framework/models",
+      "es": "Modelos",
+      "pt": "Modelos"
+    },
+    {
+      "key": "csharp/entity-framework/fluent-api",
+      "es": "Fluent API",
+      "pt": "Fluent API"
+    },
+    {
+      "key": "csharp/entity-framework/controllers",
+      "es": "Controladores",
+      "pt": "Controladores"
+    },
+    {
+      "key": "csharp/entity-framework/migrations",
+      "es": "Migraciones",
+      "pt": "Migrações"
+    },
+    {
+      "key": "object-oriented-programming",
+      "es": "Programación Orientada a Objetos (OOP)",
+      "pt": "Programação Orientada a Objetos (POO)"
+    },
+    {
+      "key": "object-oriented-programming/classes",
+      "es": "Clases",
+      "pt": "Classes"
+    },
+    {
+      "key": "object-oriented-programming/objects",
+      "es": "Objetos",
+      "pt": "Objetos"
+    },
+    {
+      "key": "object-oriented-programming/methods",
+      "es": "Métodos",
+      "pt": "Métodos"
+    },
+    {
+      "key": "object-oriented-programming/attributes",
+      "es": "Atributos",
+      "pt": "Atributos"
+    },
+    {
+      "key": "object-oriented-programming/constructors",
+      "es": "Constructores",
+      "pt": "Construtores"
+    },
+    {
+      "key": "object-oriented-programming/encapsulation",
+      "es": "Encapsulamiento",
+      "pt": "Encapsulamento"
+    },
+    {
+      "key": "object-oriented-programming/abstraction",
+      "es": "Abstracción",
+      "pt": "Abstração"
+    },
+    {
+      "key": "object-oriented-programming/composition",
+      "es": "Composición",
+      "pt": "Composição"
+    },
+    {
+      "key": "object-oriented-programming/interfaces",
+      "es": "Interfaces",
+      "pt": "Interfaces"
+    },
+    {
+      "key": "object-oriented-programming/inheritance",
+      "es": "Herencia (super, extends, override)",
+      "pt": "Herança (super, extends, override)"
+    },
+    {
+      "key": "object-oriented-programming/unified-model-language",
+      "es": "Lenguaje de Modelado Unificado (UML, class diagrams)",
+      "pt": "Linguagem de Modelagem Unificada (UML, diagramas de classe)"
+    },
+    {
       "key": "webops",
       "es": "WebOps",
       "pt": "WebOps"
@@ -5642,7 +9038,9 @@
       "pt": "PHP"
     },
     {
-      "key": "php/data-types"
+      "key": "php/data-types",
+      "es": "Tipos de datos",
+      "pt": "Tipos de dados"
     },
     {
       "key": "php/data-types/primitive",
@@ -5675,7 +9073,9 @@
       "pt": "Funções em PHP (params, args, return)"
     },
     {
-      "key": "php/testing"
+      "key": "php/testing",
+      "es": "Testing en PHP",
+      "pt": "Testes em PHP"
     },
     {
       "key": "php/testing/phpunit",
@@ -5688,7 +9088,9 @@
       "pt": "XDebug"
     },
     {
-      "key": "php/package-management"
+      "key": "php/package-management",
+      "es": "Gestión de paquetes",
+      "pt": "Gerenciamento de pacotes"
     },
     {
       "key": "php/package-management/composer",
@@ -5701,7 +9103,9 @@
       "pt": "WordPress"
     },
     {
-      "key": "wordpress/plugin-development"
+      "key": "wordpress/plugin-development",
+      "es": "Desarrollo de plugins",
+      "pt": "Desenvolvimento de plugins"
     },
     {
       "key": "wordpress/plugin-development/hooks",
@@ -5759,10 +9163,14 @@
       "pt": "Publicar em WordPress Plugin Directory"
     },
     {
-      "key": "typescript"
+      "key": "typescript",
+      "es": "Typescript",
+      "pt": "Typescript"
     },
     {
-      "key": "typescript/basic-types"
+      "key": "typescript/basic-types",
+      "es": "Tipos básicos",
+      "pt": "Tipos básicos"
     },
     {
       "key": "typescript/basic-types/static-type-checking",
@@ -5891,23 +9299,8 @@
     },
     {
       "key": "typescript/classes/member-visibility",
-      "es": "Visibilidad de miembros de clase",
-      "pt": "Visibilidade dos membros da classe"
-    },
-    {
-      "key": "typescript/classes/member-visibility/public",
-      "es": "public",
-      "pt": "public"
-    },
-    {
-      "key": "typescript/classes/member-visibility/protected",
-      "es": "protected",
-      "pt": "protected"
-    },
-    {
-      "key": "typescript/classes/member-visibility/private",
-      "es": "private",
-      "pt": "private"
+      "es": "Visibilidad de miembros de clase (public, protected, private)",
+      "pt": "Visibilidade dos membros da classe (public, private, protected)"
     },
     {
       "key": "typescript/classes/static-members",
@@ -5955,7 +9348,8 @@
       "pt": "OpenAI API"
     },
     {
-      "key": "agile-planning"
+      "key": "agile-planning",
+      "es": "Planificación ágil"
     },
     {
       "key": "agile-planning/scope",
@@ -5970,7 +9364,8 @@
       "es": "Gestionar tareas"
     },
     {
-      "key": "business-understanding"
+      "key": "business-understanding",
+      "es": "Entendimiento del negocio"
     },
     {
       "key": "business-understanding/business-model",
@@ -5990,109 +9385,81 @@
       "pt": "Pesquisa"
     },
     {
-      "key": "research/support",
-      "es": "Elegir y sustentar el # usuarias que participan en actividades de investigación",
-      "pt": "Escolha e apoie os # usuários que participam de atividades de pesquisa"
-    },
-    {
-      "key": "research/guidelines",
-      "es": "Crear y probar guía de actividades de investigación",
-      "pt": "Criar e testar guia de atividades de pesquisa"
-    },
-    {
-      "key": "research/interview",
-      "es": "Realizar entrevistas con usuarias empáticas y sin sesgos",
-      "pt": "Conduzindo entrevistas com usuários empáticos e imparciais"
-    },
-    {
-      "key": "research/documentation",
-      "es": "Documentar entrevistas y testeos",
-      "pt": "Documentar entrevistas e testes"
-    },
-    {
-      "key": "research/adaptation",
-      "es": "Adaptar plan de investigación de acuerdo a resultados obtenidos",
-      "pt": "Adaptar o plano de pesquisa de acordo com os resultados obtidos"
-    },
-    {
-      "key": "research/sources",
-      "es": "Identificar y revisar distintas fuentes de información e inspiración relevantes para el proyecto",
-      "pt": "Identificar e revisar diferentes fontes de informação e inspiração relevantes para o projeto"
-    },
-    {
       "key": "research/test",
       "es": "Planear y ejecutar testeos de usabilidad de prototipos en distintos niveles de fidelidad",
       "pt": "Planejar e executar testes de usabilidade"
     },
     {
-      "key": "research/cuantitative-data",
-      "es": "Recopilar, analizar e interpretar data cuantitativa",
-      "pt": "Coletar, analisar e interpretar dados quantitativos"
+      "key": "research-planning",
+      "es": "Planteamiento de la investigación"
     },
     {
-      "key": "research/planning",
-      "es": "Planificar investigación basada en las necesidades del proyecto",
-      "pt": "Planejamento da pesquisa com base nas necessidades do projeto"
-    },
-    {
-      "key": "research/planning/research-plan",
+      "key": "research-planning/research-plan",
       "es": "Definir la investigación"
     },
     {
-      "key": "research/planning/desk-research",
+      "key": "research-planning/desk-research",
       "es": "Analizar información existente"
     },
     {
-      "key": "research/planning/research-sample",
+      "key": "research-planning/research-sample",
       "es": "Definir muestra"
     },
     {
-      "key": "research/planning/participants",
+      "key": "research-planning/participants",
       "es": "Gestionar participantes"
     },
     {
-      "key": "research/qualitative"
+      "key": "research-qualitative",
+      "es": "Técnicas cualitativas"
     },
     {
-      "key": "research/qualitative/user-interviews",
+      "key": "research-qualitative/user-interviews",
       "es": "Realizar entrevistas"
     },
     {
-      "key": "research/qualitative/exploratory-techniques",
+      "key": "research-qualitative/exploratory-techniques",
       "es": "Explorar técnicas cualitativas"
     },
     {
-      "key": "research/quantitative"
+      "key": "research-quantitative",
+      "es": "Técnicas cuantitativas"
     },
     {
-      "key": "research/quantitative/user-surveys",
+      "key": "research-quantitative/user-surveys",
       "es": "Realizar encuestas"
     },
     {
-      "key": "research/quantitative/analytical-techniques",
+      "key": "research-quantitative/analytical-techniques",
       "es": "Explorar técnicas analíticas"
     },
     {
-      "key": "research/analysis"
+      "key": "research-analysis",
+      "es": "Análisis de la investigación"
     },
     {
-      "key": "research/analysis/process-information",
+      "key": "research-analysis/process-information",
       "es": "Procesar información"
     },
     {
-      "key": "research/analysis/experience-mapping",
+      "key": "research-analysis/experience-mapping",
       "es": "Mapear la experiencia"
     },
     {
-      "key": "research/analysis/identify-patterns",
+      "key": "research-analysis/identify-patterns",
       "es": "Identificar patrones"
     },
     {
-      "key": "research/analysis/synthesize-results",
+      "key": "research-analysis/synthesize-results",
       "es": "Sintetizar resultados"
     },
     {
-      "key": "design-concept"
+      "key": "research-analysis/ai-analysis",
+      "es": "Facilitar el análisis utilizando IA"
+    },
+    {
+      "key": "design-concept",
+      "es": "Concepto de diseño"
     },
     {
       "key": "design-concept/define-mvp",
@@ -6111,7 +9478,8 @@
       "es": "Priorizar ideas"
     },
     {
-      "key": "interaction-design"
+      "key": "interaction-design",
+      "es": "Diseño de interacción"
     },
     {
       "key": "interaction-design/user-flows",
@@ -6126,7 +9494,8 @@
       "es": "Crear la arquitectura de información"
     },
     {
-      "key": "content-design"
+      "key": "content-design",
+      "es": "Diseño de contenido"
     },
     {
       "key": "content-design/voice-tone",
@@ -6137,7 +9506,12 @@
       "es": "Crear contenidos"
     },
     {
-      "key": "interface-design"
+      "key": "content-design/ai-content",
+      "es": "Crear textos e imágenes usando IA"
+    },
+    {
+      "key": "interface-design",
+      "es": "Diseño de interfaces"
     },
     {
       "key": "interface-design/visual-design",
@@ -6152,7 +9526,12 @@
       "es": "Implementar diseño responsivo"
     },
     {
-      "key": "design-prototype"
+      "key": "interface-design/ai-proposals",
+      "es": "Generar propuestas visuales mediante IA"
+    },
+    {
+      "key": "design-prototype",
+      "es": "Prototipado"
     },
     {
       "key": "design-prototype/basic-prototypes",
@@ -6167,7 +9546,12 @@
       "es": "Utilizar interacciones avanzadas"
     },
     {
-      "key": "usability-analysis"
+      "key": "design-prototype/ai-plugins",
+      "es": "Utilizar plug-ins de IA para prototipar"
+    },
+    {
+      "key": "usability-analysis",
+      "es": "Análisis de usabilidad"
     },
     {
       "key": "usability-analysis/moderated-testing",
@@ -6182,7 +9566,8 @@
       "es": "Realizar pruebas no-moderadas"
     },
     {
-      "key": "design-pitch"
+      "key": "design-pitch",
+      "es": "Pitch de diseño"
     },
     {
       "key": "design-pitch/design-feedback",
@@ -6193,7 +9578,12 @@
       "es": "Presentar ante el negocio"
     },
     {
-      "key": "design-specs"
+      "key": "design-pitch/ai-presentations",
+      "es": "Apoyarse en herramientas de IA para presentar propuestas"
+    },
+    {
+      "key": "design-specs",
+      "es": "Especificaciones de diseño"
     },
     {
       "key": "design-specs/file-organization",
@@ -6208,7 +9598,8 @@
       "es": "Documentar el proyecto de diseño"
     },
     {
-      "key": "design-systems"
+      "key": "design-systems",
+      "es": "Sistemas y librerías de diseño"
     },
     {
       "key": "design-systems/atomic-design",

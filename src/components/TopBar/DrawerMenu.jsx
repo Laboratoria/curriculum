@@ -13,7 +13,7 @@ import CodeIcon from '@mui/icons-material/Code';
 // import GitHubIcon from '@mui/icons-material/GitHub';
 import MenuIcon from '@mui/icons-material/Menu';
 import PeopleIcon from '@mui/icons-material/People';
-import laboratoriaIcon from '@laboratoria/react/src/icons/laboratoria-isotipo.svg';
+import laboratoriaIcon from '@laboratoria/sdk-react/src/icons/laboratoria-isotipo.svg';
 
 const version = process.env.VERSION;
 const isPrerelease = /(alpha|beta)/.test(version);

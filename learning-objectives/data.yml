@@ -72,58 +72,24 @@ scm:
 
 user-centricity:
   - centricity
-  - user-oriented
-  - prioritization
-  
-business:
-  - model
-  - goals
-  - metrics
-  - benchmark
-  
-synthesis:
-  - weighing
-  - patterns
-  - insights
-  - mapping
-  - features
-  - ideation
-  - feature-prioritization
 
 product-design:
-  - user-flows
-  - content
   - fidelity
   - interactivity
-  - usability
-  - accessibility
   - visual-design
-  - component-organization
-  - project-organization
-  - documentation
 
-communication:
-  - presentation
-  - negotiation
-  - relationship-management
-  - case-study
-
-planning:
-  - monitor
-  - prioritization
-  - tools
-    
 firebase:
   - auth
   - firestore
 
-front-end-web-dev:
-  - components
-  - state
+# front-end-web-dev:
+  # - components
+  # - state
   # - routing
 
 angular:
   - components-and-templates
+  - component-lifecycle
   - structural-directives
   - input-output
   - services
@@ -182,6 +148,183 @@ socket-io:
 auth:
   - jwt
   - password-access-and-storage
+
+java:
+  - access-modifiers
+  - variables
+  - conditionals
+  - loops
+  - data-types:
+    - primitive
+    - primitive-vs-non-primitive
+    - strings
+    - arrays
+  - collections:
+    - array-list
+    - hash-map
+    - hash-set
+  - testing:
+    - junit
+    - mockito
+  - spring-framework:
+    - core-concepts:
+        - beans
+        - inversion-of-control
+        - annotations
+    - initializr
+    - spring-boot
+    - controllers
+    - services
+    - spring-data-jpa
+    - entity
+    - repository
+    - spring-web:
+      - rest-controller
+      - request-mapping
+      - request-param
+    - testing:
+      - spring-test
+      - hamcrest
+  - hibernate-orm:
+    - setup
+    - schema
+    - entity
+    - table
+    - column
+    - identifiers
+    - associations
+    - collections
+    - persistance
+    - querying
+
+python:
+  - data-types:
+    - primitive
+    - lists
+    - tuples
+    - dictionaries
+    - sets
+  - variables
+  - conditionals
+  - operators
+  - docstrings
+  - functions:
+    - basic-concepts
+    - args-kwargs
+    - closures
+    - lambda-functions
+    - decorators
+  - iteration:
+    - loops
+    - list-comprehension
+    - functional-techniques
+  - linting
+  - testing:
+    - unit-tests
+    - mocks
+    - fixtures
+  - modularization:
+    - modules
+    - packages
+  - dependency-management:
+    - pip
+    - virtual-environment
+    - requirements-file
+  - serialization
+  - flask:
+    - routes:
+      - route-decorator
+      - view-function
+      - variable-rules
+    - request:
+      - args
+      - headers
+      # - there are more that can be added here
+      # - form
+      # - json
+    - response:
+      - response-parts
+      - jsonify
+    - testing:
+      - fixture-setup
+      - test-client
+      # - test_request_context
+    # - templates
+    # - blueprints
+    # - views
+    # - sessions:
+    #   - cookies
+  - django:
+    - setup:
+      - migrations
+      - app
+    - models:
+      - fields
+      - foreign-Key
+    - views
+    - testing
+    - queryset
+    - filter
+    - order-by
+    - url-configuration
+    - rest-framework:
+      - serializers
+      - pagination
+      - query-params
+      - viewset
+      - apiview
+
+csharp:
+  - data-types:
+      - primitives
+      - non-primitives
+      - structs
+      - enums
+      - anonymous-types
+      - dynamic-types
+  - collections:
+      - lists
+      - arrays
+      - sets
+  - variables
+  - conditionals
+  - loops
+  - operators
+  - generics
+  - access-modifiers
+  - namespaces
+  - functions:
+      - lambda-functions
+      - decorators
+  - error-handling:
+      - try-catch
+      - throw
+  - linq
+  - async-await
+  - .net-core
+  - nuget-packages
+  - testing:
+      - xunit
+      - mstest
+  - entity-framework:
+      - code-first
+      - models
+      - fluent-api
+      - controllers
+      - migrations
+
+object-oriented-programming:
+  - classes
+  - objects
+  - methods
+  - attributes
+  - constructors
+  - encapsulation
+  - abstraction
+  - composition
+  - interfaces
+  - inheritance
+  - unified-model-language
 
 webops:
   - env-vars
@@ -289,10 +432,7 @@ typescript:
     - class-heritage:
       - implements
       - extends
-    - member-visibility:
-      - public
-      - protected
-      - private
+    - member-visibility
     - static-members
     - this
     - abstract-classes
@@ -316,30 +456,28 @@ business-understanding:
   - benchmark
 
 research:
-  - support
-  - guidelines
-  - interview
-  - documentation
-  - adaptation
-  - sources
-  - test
-  - cuantitative-data
-  - planning:
-    - research-plan
-    - desk-research
-    - research-sample
-    - participants
-  - qualitative:
-    - user-interviews
-    - exploratory-techniques
-  - quantitative:
-    - user-surveys
-    - analytical-techniques
-  - analysis:
-    - process-information
-    - experience-mapping
-    - identify-patterns
-    - synthesize-results
+  - test # TODO: change because only used in web-dev and only test
+
+research-planning:
+  - research-plan
+  - desk-research
+  - research-sample
+  - participants
+
+research-qualitative:
+  - user-interviews
+  - exploratory-techniques
+
+research-quantitative:
+  - user-surveys
+  - analytical-techniques
+
+research-analysis:
+  - process-information
+  - experience-mapping
+  - identify-patterns
+  - synthesize-results
+  - ai-analysis
 
 design-concept:
   - define-mvp
@@ -354,17 +492,21 @@ interaction-design:
 
 content-design:
   - voice-tone
-  - create-content
+  - micro-content
+  - ai-content
+  - visual-content
 
 interface-design:
   - visual-design
   - accesibility
   - responsive-design
+  - ai-proposals
 
 design-prototype:
   - basic-prototypes
   - high-fidelity
   - advanced-interactions
+  - ai-plugins
 
 usability-analysis:
   - moderated-testing
@@ -374,6 +516,7 @@ usability-analysis:
 design-pitch:
   - design-feedback
   - design-presentation
+  - ai-presentations
 
 design-specs:
   - file-organization
