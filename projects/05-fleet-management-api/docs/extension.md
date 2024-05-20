@@ -158,7 +158,9 @@ estrategias existen.
 
 ### Definición de terminado
 
-* El _endpoint_ proporcia un archivo en formato excel con
+* El _endpoint_ es implementado de acuerdo a la
+  [documentación swagger](https://app.swaggerhub.com/apis-docs/ssinuco/FleetManagementAPI/1.0.0#/trajectories/exportTrajectories)
+* El _endpoint_ envia un archivo en formato excel con
 la siguiente información: ID, placa, latitud, longitud y
 fecha y hora.
 * El _endpoint_ resuelve la solicitud en tiempos de respuesta
@@ -166,17 +168,104 @@ fecha y hora.
 a la gran cantidad de información, se espera con **seguridad** tiempos
 de respuesta lentos
 si no se plantea una estrategia de optimización la base de datos._
-* Se cuenta con una documentación para el _endpoint_ desarrollado
-especificando
-[método HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods),
-url, parámetros,
-[encabezados](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers),
-[códigos HTTP de respuesta](https://shorturl.at/bdegB)
-y
-[cuerpo](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages).
 * El código del _endpoint_ debe recibir _code review_ de al
 menos una compañera.
-* El código _endpoint_ debe estar cargado en un repositorio de Github.
-* El código _endpoint_ debe contar con test unitarios y e2e.
+* El código del _endpoint_ debe estar cargado en un repositorio de Github.
+* El código del _endpoint_ debe contar con test unitarios y e2e.
+
+***
+
+## [Historia de usuario 9] Gestión de usuarios
+
+Yo, como clienta de la API REST, requiero un conjunto de endpoints para poder
+realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre los
+usuarios de la plataforma.
+
+### Criterios de aceptación
+
+* Crear un endpoint para la creación de usuarios de acuerdo a la
+[documentación Swagger](https://app.swaggerhub.com/apis-docs/ssinuco/FleetManagementAPI/1.0.0#/users/createUser)
+proporcionada.
+* Desarollar un endpoint para la obtención de usuarios de acuerdo a la
+[documentación Swagger](https://app.swaggerhub.com/apis-docs/ssinuco/FleetManagementAPI/1.0.0#/users/getUsers)
+proporcionada.
+* Implementar un endpoint para actualizar la
+información de un usuario existente de acuerdo a la
+[documentación Swagger](https://app.swaggerhub.com/apis-docs/ssinuco/FleetManagementAPI/1.0.0#/users/updateUser)
+proporcionada.
+* Crear un endpoint para eliminar un usuario de acuerdo a la
+[documentación Swagger](https://app.swaggerhub.com/apis-docs/ssinuco/FleetManagementAPI/1.0.0#/users/deleteUser)
+proporcionada.
+
+### Definición de terminado
+
+* El código de los _endpoints_ debe pasar por una revisión de código realizada
+por al menos una compañera.
+* El código de los _endpoints_ debe contar con test unitarios y e2e.
+
+Por supuesto, aquí tienes la historia de usuario para un endpoint de login que
+devuelve un JWT (JSON Web Token) dado un correo electrónico y contraseña válidos:
+
+***
+
+## [Historia de usuario 10] Autenticación de usuarios mediante JWT
+
+Yo, como clienta de la API REST, necesito un _endpoint_ para poder autenticarme
+en la plataforma utilizando mi correo electrónico y contraseña, y recibir un
+JWT válido que pueda ser utilizado para acceder a recursos protegidos.
+
+### Criterios de aceptación
+
+* Implementar el _endpoint_ de autenticación de acuerdo a la
+[documentación Swagger](https://app.swaggerhub.com/apis-docs/ssinuco/FleetManagementAPI/1.0.0#/auth/getToken)
+proporcionada.
+* El _endpoint_ debe aceptar un correo electrónico y una contraseña válidos
+como parámetros de entrada.
+* Al autenticarse con éxito, el _endpoint_ debe devolver un JWT que contenga la
+información de identificación del usuario.
+* El JWT generado debe tener un tiempo de expiración adecuado y debe ser válido
+para realizar peticiones a recursos protegidos durante ese tiempo.
+* El _endpoint_ debe manejar adecuadamente los casos de error,
+devolviendo mensajes descriptivos en caso de credenciales
+inválidas o cualquier otro problema durante el proceso de autenticación.
+
+### Definición de terminado
+
+* El código del _endpoint_ de login debe pasar por una revisión de código
+realizada por al menos una compañera.
+* Se deben incluir pruebas unitarias y pruebas de integración para validar
+el funcionamiento del _endpoint_ de autenticación.
+
+¡Claro! Aquí tienes la historia de usuario para proteger todos los endpoints
+de la API con un token JWT en el encabezado de autorización de cada petición:
+
+***
+
+### [Historia de usuario 11] Protección de endpoints con JWT
+
+Yo, como desarrolladora del sistema, necesito asegurarme de que todos los endpoints
+de la API estén protegidos utilizando un token JWT en el encabezado de autorización
+de cada petición, para garantizar la seguridad de los datos y
+recursos de la plataforma.
+
+### Criterios de aceptación
+
+* Configurar la API para que todos los endpoints requieran un token JWT
+válido en el encabezado de autorización de cada petición.
+* Implementar un middleware o interceptor en la capa de seguridad de la
+API para verificar la validez y autenticidad del token JWT en cada petición
+entrante.
+* En caso de recibir una petición sin un token JWT válido o sin token en
+el encabezado de autorización, la API debe devolver un código de estado
+HTTP 401 (Unauthorized) y un mensaje de error apropiado.
+
+### Definición de terminado
+
+* Todos los endpoints de la API deben estar protegidos con un token JWT
+en el encabezado de autorización.
+* El código del middleware o interceptor de seguridad debe pasar por una
+revisión de código realizada por al menos una compañera.
+* Se deben incluir pruebas unitarias y pruebas de integración para validar
+el funcionamiento del middleware o interceptor de seguridad.
 
 ***
