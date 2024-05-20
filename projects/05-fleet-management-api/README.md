@@ -1360,4 +1360,4 @@ las demás historias.
 ## 8. Funcionalidades opcionales
 
 Si completaste todas las funcionalidades del proyecto te invitamos a trabajar en
-las [funcionalides opcionales](./docs/extension.md)
+las [funcionalides opcionales.](./docs/extension.md)

@@ -244,8 +244,8 @@ de la API con un token JWT en el encabezado de autorización de cada petición:
 ### [Historia de usuario 11] Protección de endpoints con JWT
 
 Yo, como desarrolladora del sistema, necesito asegurarme de que todos los endpoints
-de la API estén protegidos utilizando un token JWT en el encabezado de autorización
-de cada petición, para garantizar la seguridad de los datos y
+de la API estén protegidos utilizando un token JWT en el encabezado de
+autorización de cada petición, para garantizar la seguridad de los datos y
 recursos de la plataforma.
 
 ### Criterios de aceptación
