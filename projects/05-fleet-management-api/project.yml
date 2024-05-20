@@ -27,17 +27,16 @@ variants:
       # Cualquier OA puede expresarse como objeto, por ejemplo para flaggear
       # como "opcional".
       # por ahora es la unica propiedad soportada.
-      - object-oriented-programming:
-          optional: true
+      - id: object-oriented-programming
+        optional: true
+  - name: node-mongodb
+    learningObjectives:
+      - node
+      - mongodb
+      - id: sql
+        exclude: true
   - name: python
     learningObjectives:
       - python
-      - object-oriented-programming:
-          optional: true
-  - name: python-django
-    learningObjectives:
-      - python
-      - django      
-      # Además se pueden "apagar" OAs "default" seteando el OA a "false"
-      - sql: false
-      - db: false
+      - id: object-oriented-programming
+        optional: true
