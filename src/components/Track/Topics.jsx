@@ -41,6 +41,7 @@ const Topic = ({ lang, topic }) => {
           alt={title}
         />
         <CardHeader
+          data-testid="topic-title"
           action={
             <IconButton component={Link} to={`/${lang}/topics/${topic.slug}`} size="large">
               <ArrowForward />

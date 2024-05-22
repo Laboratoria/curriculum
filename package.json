@@ -32,7 +32,8 @@
     "preview": "vite preview",
     "test": "vitest run ./src/components/**/*.spec.jsx",
     "link-parser": "rm -rf node_modules/@laboratoria/curriculum-parser && ln -s ../../../curriculum-parser node_modules/@laboratoria/",
-    "link-react": "rm -rf node_modules/@laboratoria/sdk-react && ln -s ../../../sdk-react node_modules/@laboratoria/"
+    "link-react": "rm -rf node_modules/@laboratoria/sdk-react && ln -s ../../../sdk-react node_modules/@laboratoria/",
+    "test:e2e": "playwright test ./tests/e2e/**/*.test.js"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
@@ -58,6 +59,7 @@
     "@laboratoria/curriculum-parser": "^5.3.0",
     "@laboratoria/mdlint": "^1.2.3",
     "@octokit/rest": "^20.0.2",
+    "@playwright/test": "^1.44.0",
     "@sentry/vite-plugin": "^2.16.0",
     "@testing-library/jest-dom": "^6.1.5",
     "@testing-library/react": "^12.1.5",

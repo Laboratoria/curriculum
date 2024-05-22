@@ -19,6 +19,12 @@ jobs:
       - run: npm ci
       - run: npm test
 
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
+      - name: Run Playwright tests
+        run: PLAYWRIGHT_HEADLESS=true npm run test:e2e
+
   deploy_to_staging:
     runs-on: ubuntu-latest
     if: >

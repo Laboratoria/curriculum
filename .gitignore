@@ -96,3 +96,7 @@ yarn-error.log*
 **.[mM][xX][fF]
 **.[rR][oO][qQ]
 **.[nN][sS][vV]
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
