@@ -82,7 +82,7 @@ const Project = () => {
   setPage(projectTitle !== slug ?
     {title: pageTitle, description: ''} :
     {title: formatMessage({id: 'app-title'}), description: ''});
-  
+
   useEffect(() => {
     const id = `projects/${slug}`;
     data.subscribe(id, setProject);
@@ -95,7 +95,7 @@ const Project = () => {
   if (!project || !learningObjectives) {
     return <Loading />;
   }
-  
+
   if (!project.intl[lang]) {
     return (
       <Container>

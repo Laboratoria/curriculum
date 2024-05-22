@@ -68,7 +68,7 @@ const Track = () => {
 
   if (track === 'ux' && lang === 'pt') {
     return (
-      <Container>
+      <Container data-testid="ux-pt-container">
         {heading}
         <p>
           Este conteúdo não está disponível atualmente em português.
@@ -78,7 +78,7 @@ const Track = () => {
   }
 
   return (
-    <Container>
+    <Container data-testid="webDev-container">
       {heading}
       <Tabs value={location.pathname} sx={{ mb: 3 }}>
         <Tab
@@ -88,6 +88,7 @@ const Track = () => {
           to=""
         />
         <Tab
+          data-testid="topics"
           label={formatMessage({ id: 'topics' })}
           value={`${pathnameBase}/topics`}
           component={Link}
