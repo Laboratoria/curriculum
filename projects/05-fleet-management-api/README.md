@@ -397,8 +397,9 @@ que hayas elegido:
 para crear un servidor HTTP con express y TypeScript
 * Si estás usando Java, puedes seguir este
 [video de Primer Endpoint con Java](https://youtu.be/-FRu28PvH6Q)
-* Si estás usando Python, puedes
-[el tutorial _Minimal Application_ de la documentación oficial de Flask](https://flask.palletsprojects.com/en/3.0.x/quickstart/#a-minimal-application)  
+* Si estás usando Python, puedes seguir
+[el tutorial _Minimal Application_](https://flask.palletsprojects.com/en/3.0.x/quickstart/#a-minimal-application)
+de la documentación oficial de Flask
 * Si estás usando C#, puedes seguir
 [el tutorial de la  
 documantación oficial de C#](https://learn.microsoft.com/es-es/aspnet/core/tutorials/first-web-api?view=aspnetcore-8.0&tabs=visual-studio)
