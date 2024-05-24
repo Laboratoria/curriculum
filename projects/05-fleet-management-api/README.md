@@ -77,13 +77,15 @@ Nuestra clienta requiere:
 1. Cargar la información de archivos SQL a una
 base de datos Postgresql.
 2. Desarrollar una API REST que permita consultar, mediante
-peticiones HTTP, la información almancenada en la base de datos.
+peticiones HTTP, la información almacenada en la base de datos.
 
 ### Definición del producto
 
 El [_Product Owner_](https://www.youtube.com/watch?v=r2hU7MVIzxs&t=202s)
 nos presenta este _backlog_ que es el resultado de su trabajo con la clienta
-hasta hoy.
+hasta hoy
+y la [documentación de la API REST](https://app.swaggerhub.com/apis-docs/ssinuco/FleetManagementAPI/2.0.0#/)
+a desarrollar.
 
 ***
 
@@ -113,31 +115,44 @@ de especificar un identificador
 
 ***
 
-##### [Historia de usuario 2] Endpoint listado de taxis
+#### [Historia de usuario 2] Endpoint listado de taxis
 
 Yo como clienta de la API REST requiero un _endpoint_ para
 listar todos los taxis.
 
+Por ejemplo, este _endpoint_ podria ser usado por una aplicación
+web para filtrar un listado de taxis.
+
+<img
+src="https://github.com/Laboratoria/curriculum/assets/16993732/c4acb543-a422-4e79-ab6c-53c656a7ee47"
+alt="Posible uso del endpoint GET /taxis"
+aria-describedby="get-taxis-ui-control" />
+
+<p id="get-taxis-ui-control">
+Animación que muestra un menú desplegable para elegir un taxi.
+Las opciones se filtran según el text que se escriba en la lista.
+</p>
+
 ##### Criterios de aceptación
 
+* El _endpoint_ es implementado de acuerdo a la
+  [documentación swagger](https://app.swaggerhub.com/apis-docs/ssinuco/FleetManagementAPI/2.0.0#/taxis/getTaxi).
+  a excepción de la respuesta 401 que sera implementada
+  hasta la Historia de Usuaria 7.
 * El _endpoint_ responde para cada taxi: id y placa.
+* El _endpoint_ paginamos los resultados para asegurar que las
+respuestas sean más fáciles de manejar.
+* El _endpoint_ soporta un parametro `plate` para retornar unicamente
+los taxis cuya placa contenga el texto especificado
 * El _endpoint_ paginamos los resultados para asegurar que las
 respuestas sean más fáciles de manejar.
 
 ##### Definición de terminado
 
-* Se cuenta con una documentación en [Swagger](https://swagger.io/)
-para el _endpoint_ desarrollado especificando
-[método HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods),
-url, parámetros,
-[encabezados](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers),
-[códigos HTTP de respuesta](https://shorturl.at/bdegB)
-y
-[cuerpo](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages).
 * El código del _endpoint_ debe recibir _code review_ de al
 menos una compañera.
-* El código _endpoint_ debe estar cargado en un repositorio de Github.
-* El código _endpoint_ debe contar con test unitarios y e2e.
+* El código del _endpoint_ debe estar cargado en un repositorio de Github.
+* El código del _endpoint_ debe contar con test unitarios
 
 ***
 
@@ -146,27 +161,33 @@ menos una compañera.
 Yo como clienta de la API REST requiero un _endpoint_ para
 consultar todas las ubicaciones de un taxi dado el id y una fecha.
 
+Por ejemplo, este _endpoint_ podria ser usado por una aplicación
+web para mostrar en un mapa la trayectoria de un taxi.
+
+<img
+src="https://github.com/Laboratoria/curriculum/assets/16993732/d716cc84-47c2-4cdd-8f67-74128aa6ec01"
+alt="Posible uso del endpoint GET /trajectories/{taxiId}"
+aria-describedby="get-trajectories-ui-control" />
+
+<p id="get-trajectories-ui-control">
+Animación que muestra en un mapa la trayectoria de un taxi.
+</p>
+
 ##### Criterios de aceptación
 
-* El _endpoint_ responde con el id del taxi y una fecha mostrando
+* El _endpoint_ es implementado de acuerdo a la
+  [documentación swagger](https://app.swaggerhub.com/apis-docs/ssinuco/FleetManagementAPI/2.0.0#/trajectories/getTrajectories)
+  a excepción de la respuesta 401 que sera implementada
+  hasta la Historia de Usuaria 7.
+* El _endpoint_ responde para un id de taxi y una fecha mostrando
   la siguiente información: latitud, longitud y timestamp (fecha y hora).
-* El _endpoint_ paginamos los resultados para asegurar que las
-  respuestas sean más fáciles de manejar.
 
 ##### Definición de terminado
 
-* Se cuenta con una documentación en [Swagger](https://swagger.io/)
-para el _endpoint_ desarrollado especificando
-[método HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods),
-url, parámetros,
-[encabezados](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers),
-[códigos HTTP de respuesta](https://shorturl.at/bdegB)
-y
-[cuerpo](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages).
 * El código del _endpoint_ debe recibir _code review_ de al
 menos una compañera.
-* El código _endpoint_ debe estar cargado en un repositorio de Github.
-* El código _endpoint_ debe contar con test unitarios y e2e.
+* El código del _endpoint_ debe estar cargado en un repositorio de Github.
+* El código del _endpoint_ debe contar con test unitarios
 
 ***
 
@@ -175,27 +196,126 @@ menos una compañera.
 Yo como clienta de la API REST requiero un _endpoint_ para
 consultar la última ubicación reportada por cada taxi.
 
+Por ejemplo, este _endpoint_ podria ser usado por una aplicación
+web para mostrar en una mapa la última posición de cada taxi.
+
+<img
+src="https://github.com/Laboratoria/curriculum/assets/16993732/a6bd8631-244d-4d9b-a297-2519d9313855"
+alt="Posible uso del endpoint GET /trajectories/latest"
+aria-describedby="get-latest-trajectories-ui-control" />
+
+<p id="get-latest-trajectories-ui-control">
+Animación que un listado de taxis y al hacer clic en cada uno
+muestra un mapa la última posición de un taxi.
+</p>
+
 ##### Criterios de aceptación
 
+* El _endpoint_ es implementado de acuerdo a la
+  [documentación swagger](https://app.swaggerhub.com/apis-docs/ssinuco/FleetManagementAPI/2.0.0#/trajectories/getLatestTrajectories)
+  a excepción de la respuesta 401 que sera implementada
+  hasta la Historia de Usuaria 7.
 * El _endpoint_ responde para cada taxi la siguiente información:
 id, placa, latitud, longitud y timestamp (fecha y hora).
-* El _endpoint_ paginamos los resultados para asegurar que las
-respuestas sean más fáciles de manejar.
 
 ##### Definición de terminado
 
-* Se cuenta con una documentación en [Swagger](https://swagger.io/)
-para el _endpoint_ desarrollado especificando
-[método HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods),
-url, parámetros,
-[encabezados](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers),
-[códigos HTTP de respuesta](https://shorturl.at/bdegB)
-y
-[cuerpo](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages).
 * El código del _endpoint_ debe recibir _code review_ de al
 menos una compañera.
-* El código _endpoint_ debe estar cargado en un repositorio de Github.
-* El código _endpoint_ debe contar con test unitarios y e2e.
+* El código del _endpoint_ debe estar cargado en un repositorio de Github.
+* El código del _endpoint_ debe contar con test unitarios.
+
+***
+
+#### [Historia de usuario 5] Gestión de usuarios
+
+Yo, como clienta de la API REST, requiero un conjunto de endpoints para poder
+realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre los
+usuarios de la plataforma.
+
+##### Criterios de aceptación
+
+* Crear un endpoint para la creación de usuarios de acuerdo a la
+[documentación Swagger](https://app.swaggerhub.com/apis-docs/ssinuco/FleetManagementAPI/2.0.0#/users/createUser)
+proporcionada.
+* Desarollar un endpoint para la obtención de usuarios de acuerdo a la
+[documentación Swagger](https://app.swaggerhub.com/apis-docs/ssinuco/FleetManagementAPI/2.0.0#/users/getUsers)
+proporcionada.
+* Implementar un endpoint para actualizar la
+información de un usuario existente de acuerdo a la
+[documentación Swagger](https://app.swaggerhub.com/apis-docs/ssinuco/FleetManagementAPI/2.0.0#/users/updateUser)
+proporcionada.
+* Crear un endpoint para eliminar un usuario de acuerdo a la
+[documentación Swagger](https://app.swaggerhub.com/apis-docs/ssinuco/FleetManagementAPI/2.0.0#/users/deleteUser)
+proporcionada.
+* No implementar la respuesta 401 pues sera implementada
+  hasta la Historia de Usuaria 7.
+
+##### Definición de terminado
+
+* El código de los _endpoints_ debe pasar por una revisión de código realizada
+por al menos una compañera.
+* El código de los _endpoints_ debe contar con test unitarios.
+
+Por supuesto, aquí tienes la historia de usuario para un endpoint de login que
+devuelve un JWT (JSON Web Token) dado un correo electrónico y contraseña válidos:
+
+***
+
+#### [Historia de usuario 6] Autenticación de usuarios mediante JWT
+
+Yo, como clienta de la API REST, necesito un _endpoint_ para poder autenticarme
+en la plataforma utilizando mi correo electrónico y contraseña, y recibir un
+JWT válido que pueda ser utilizado para acceder a recursos protegidos.
+
+##### Criterios de aceptación
+
+* Implementar el _endpoint_ de autenticación de acuerdo a la
+[documentación Swagger](https://app.swaggerhub.com/apis-docs/ssinuco/FleetManagementAPI/2.0.0#/auth/getToken)
+proporcionada.
+* El _endpoint_ debe aceptar un correo electrónico y una contraseña válidos
+como parámetros de entrada.
+* Al autenticarse con éxito, el _endpoint_ debe devolver un JWT que contenga la
+información de identificación del usuario.
+* El JWT generado debe tener un tiempo de expiración adecuado y debe ser válido
+para realizar peticiones a recursos protegidos durante ese tiempo.
+* El _endpoint_ debe manejar adecuadamente los casos de error,
+devolviendo mensajes descriptivos en caso de credenciales
+inválidas o cualquier otro problema durante el proceso de autenticación.
+
+##### Definición de terminado
+
+* El código del _endpoint_ de login debe pasar por una revisión de código
+realizada por al menos una compañera.
+* El código del _endpoint_ debe contar con test unitarios
+
+***
+
+#### [Historia de usuario 7] Protección de endpoints con JWT
+
+Yo, como desarrolladora del sistema, necesito asegurarme de que todos los endpoints
+de la API estén protegidos utilizando un token JWT en el encabezado de autorización
+de cada petición, para garantizar la seguridad de los datos y
+recursos de la plataforma.
+
+##### Criterios de aceptación
+
+* Configurar la API para que todos los endpoints requieran un token JWT
+válido en el encabezado de autorización de cada petición.
+* Implementar un middleware o interceptor en la capa de seguridad de la
+API para verificar la validez y autenticidad del token JWT en cada petición
+entrante.
+* En caso de recibir una petición sin un token JWT válido o sin token en
+el encabezado de autorización, la API debe devolver un código de estado
+HTTP 401 (Unauthorized) y un mensaje de error apropiado.
+
+##### Definición de terminado
+
+* Todos los endpoints de la API deben estar protegidos con un token JWT
+en el encabezado de autorización.
+* El código del middleware o interceptor de seguridad debe pasar por una
+revisión de código realizada por al menos una compañera.
+* Se deben incluir test unitarios
 
 ***
 
