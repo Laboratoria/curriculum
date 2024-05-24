@@ -2,9 +2,9 @@
   "slug": "fleet-management-api",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-fleet-management-api",
-  "version": "8.5.0",
+  "version": "8.7.0",
   "parserVersion": "5.3.0",
-  "createdAt": "2024-03-21T20:11:31.226Z",
+  "createdAt": "2024-05-16T18:51:41.567Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [
@@ -160,7 +160,14 @@
     "scm/git/integration",
     "scm/github/setup",
     "scm/github/collaboration",
-    "scm/github/project-management"
+    "scm/github/project-management",
+    "typescript/basic-types/primitives",
+    "typescript/basic-types/arrays",
+    "typescript/basic-types/functions",
+    "typescript/basic-types/object-types/optional-properties",
+    "typescript/basic-types/union-types",
+    "typescript/basic-types/interfaces",
+    "typescript/basic-types/enums"
   ],
   "intl": {
     "es": {

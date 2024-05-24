@@ -1,32 +1,17 @@
 track: ux
 learningObjectives:
-  - agile-planning/scope
-  - agile-planning/workplan
-  - agile-planning/tasks
-  - business-understanding/business-model
-  - business-understanding/goals-and-kpis
-  - business-understanding/benchmark
+  - agile-planning
+  - business-understanding
   - research-planning
   - research-qualitative
   - research-quantitative
   - research-analysis
   - design-concept
   - interaction-design
-  - content-design/voice-tone
-  - content-design/create-content
-  - interface-design/visual-design
-  - interface-design/accesibility
-  - interface-design/responsive-design
-  - design-prototype/basic-prototypes
-  - design-prototype/high-fidelity
-  - design-prototype/advanced-interactions
-  - usability-analysis/moderated-testing
-  - usability-analysis/heuristic-analysis
-  - usability-analysis/non-moderated-testing
-  - design-pitch/design-feedback
-  - design-pitch/design-presentation
-  - design-specs/file-organization
-  - design-specs/use-cases
-  - design-specs/project-documentation
-  - design-systems/atomic-design
-  - design-systems/design-system
+  - content-design
+  - interface-design
+  - design-prototype
+  - usability-analysis
+  - design-pitch
+  - design-specs
+  - design-systems

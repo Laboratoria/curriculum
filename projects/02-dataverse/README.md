@@ -802,6 +802,7 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
   Ojo que Cris no diferencia _Definición de terminado_ de _Criterios de
   Aceptación_ y nosotros sí lo haremos. Más detalles en la guía.
 * [Cómo dividir H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
+* [Qué es Pair Programming?](https://www.youtube.com/watch?v=T7xQnA2Qpak&feature=youtu.be)
 
 ## 11. Consideraciones para pedir tu Project Feedback
 
