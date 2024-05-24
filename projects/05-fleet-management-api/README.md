@@ -383,7 +383,7 @@ es crear un proyecto que al ejecutarse cree un
 servidor HTTP que responda a la petición GET /taxis
 con un "hola mundo".
 
-Te recomendamos usar 
+Te recomendamos usar
 [Postman](https://learning.postman.com/docs/getting-started/first-steps/overview/)
 para confirmar
 que el endpoint que desarrolles responda segun
@@ -398,8 +398,7 @@ para crear un servidor HTTP con express y TypeScript
 * Si estás usando Java, puedes seguir este
 [video de Primer Endpoint con Java](https://youtu.be/-FRu28PvH6Q)
 * Si estás usando Python, puedes
-[el tutorial _Minimal Application_ de la  
-documantación oficial de Flask](https://flask.palletsprojects.com/en/3.0.x/quickstart/#a-minimal-application)  
+[el tutorial _Minimal Application_ de la documentación oficial de Flask](https://flask.palletsprojects.com/en/3.0.x/quickstart/#a-minimal-application)  
 * Si estás usando C#, puedes seguir
 [el tutorial de la  
 documantación oficial de C#](https://learn.microsoft.com/es-es/aspnet/core/tutorials/first-web-api?view=aspnetcore-8.0&tabs=visual-studio)
@@ -427,12 +426,11 @@ que hayas elegido:
 Utiliza la librería elegida para consultar la base de
 datos y que tu API responda a la petición GET
 /taxis con el listado de taxis tal como se especifica
-en la
-[documantación](https://app.swaggerhub.com/apis-docs/ssinuco/FleetManagementAPI/1.0.0#/taxis/getTaxi).
+en [la documentación de API](https://app.swaggerhub.com/apis-docs/ssinuco/FleetManagementAPI/1.0.0#/taxis/getTaxi).
 
-De nuevo, usa [Postman](https://learning.postman.com/docs/getting-started/first-steps/overview/) para confirmar
-que el endpoint que desarrolles responda segun
-lo solicitado.
+De nuevo, usa [Postman](https://learning.postman.com/docs/getting-started/first-steps/overview/)
+para confirmar que el endpoint que desarrolles responda
+según lo solicitado.
 
 ### Paso 8. Soportar parametros en el endpoint
 
@@ -441,8 +439,8 @@ De acuerdo a la documantación
 el endpoint GET /taxis soporta 3 parametros: `plate`, `page` y `limit`.
 
 Modifica tu código para soportar peticiones a tu endpoint
-con estos parámetros. Usa [Postman](https://learning.postman.com/docs/getting-started/first-steps/overview/) para probar tu endpoint
-con diferentes valores de estos parámetros.
+con estos parámetros. Usa [Postman](https://learning.postman.com/docs/getting-started/first-steps/overview/)
+para probar tu endpoint con diferentes valores de estos parámetros.
 
 ### Paso 9. Escribir pruebas e2e para el endpoint
 
