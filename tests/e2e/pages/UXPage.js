@@ -8,9 +8,12 @@ class UXPage {
 
   async navigateToUXpage() {
     await this.page.getByTestId("ux").click();
-    return this.page.locator("h1").textContent()
   }
 
+  async getTitleOfThePage() {
+    return this.page.locator("h1").textContent()
+  }
+  
   async getTitleOfPageInPT() {
     return this.page.locator(format(this.uxPtContainerSelector, "h1")).textContent();
   }
