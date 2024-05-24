@@ -1,14 +1,29 @@
 track: web-dev
 learningObjectives:
+  - http
+  - auth
   - java
-  - python
-  - object-oriented-programming
-  - node
-  - sql
-  - db
+  - python  
   - csharp
+  - js/testing/unit
+  - js/testing/async
+  - js/testing/mocks
+  - js/testing/e2e
+  - js/modules/es-modules
+  - js/modules/commonjs
+  - js/linting
+  - js/semantics
+  - node/npm-install
+  - node/package.json
+  - node/npm-scripts
+  - express/routing
+  - express/middleware
+  - sql/crud
+  - db/modeling
+  - db/connection
   - postgres/data-types
   - postgres/indexes
+  - object-oriented-programming
   - scm/git
   - scm/github/setup
   - scm/github/collaboration
