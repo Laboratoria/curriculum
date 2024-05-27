@@ -2,9 +2,9 @@
   "slug": "content-management",
   "repo": "Laboratoria/curriculum",
   "path": "topics/content-management",
-  "version": "9.0.0-alpha.0",
+  "version": "9.0.0-alpha.1",
   "parserVersion": "6.0.0-alpha.0",
-  "createdAt": "2024-05-27T16:13:06.177Z",
+  "createdAt": "2024-05-27T17:37:35.540Z",
   "track": "ux",
   "tracks": [
     "ux"
