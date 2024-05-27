@@ -81,7 +81,7 @@ const Project = ({ lang, project }) => {
 
 const ProjectGroup = ({ prefix, projects, track, lang, intl }) => {
   return (
-    <div style={{ marginTop: 30, marginBottom: 50 }}>
+    <div data-testid="projects" style={{ marginTop: 30, marginBottom: 50 }}>
       <Typography variant="h3">Nivel {prefix}</Typography>
       <div
         style={{ marginBottom: 25 }}
@@ -134,3 +134,4 @@ const Projects = ({ lang, projects, track }) => {
 };
 
 export default Projects;
+

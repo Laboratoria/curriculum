@@ -29,6 +29,7 @@ const DrawerMenu = ({ lang }) => {
         color="inherit"
         aria-label="menu"
         size="large"
+        datatest-Id=""
       >
         <MenuIcon />
       </IconButton>
@@ -115,3 +116,4 @@ const DrawerMenu = ({ lang }) => {
 };
 
 export default DrawerMenu;
+

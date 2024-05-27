@@ -58,7 +58,7 @@ const Home = () => {
             />
           </Alert>
         </Grid>
-        <Grid item xs={12} md={6}>
+        <Grid data-testid="webdev" item xs={12} md={6}>
           <Link
             to={`/${lang}/web-dev`}
             style={{
@@ -78,7 +78,7 @@ const Home = () => {
             </Typography>
           </Link>
         </Grid>
-        <Grid item xs={12} md={6}>
+        <Grid data-testid="ux" item xs={12} md={6}>
           <Link
             to={`/${lang}/ux`}
             style={{
@@ -104,3 +104,4 @@ const Home = () => {
 };
 
 export default Home;
+
