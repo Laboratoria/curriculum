@@ -2,9 +2,9 @@
   "slug": "design-lab",
   "repo": "Laboratoria/curriculum",
   "path": "projects/03-design-lab",
-  "version": "9.0.0-alpha.0",
+  "version": "9.0.0-alpha.1",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-06-13T15:39:41.443Z",
+  "createdAt": "2024-06-13T15:40:31.899Z",
   "prefix": 3,
   "track": "ux",
   "tracks": [
