@@ -2,39 +2,87 @@
   "slug": "roman-numerals-slack",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-roman-numerals-slack",
-  "version": "8.7.0",
-  "parserVersion": "5.3.0",
-  "createdAt": "2024-05-16T18:51:51.008Z",
+  "version": "9.0.0-alpha.0",
+  "parserVersion": "6.0.0-alpha.0",
+  "createdAt": "2024-05-27T16:13:02.198Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [
     "web-dev"
   ],
   "learningObjectives": [
-    "node/npm-install",
-    "node/package.json",
-    "node/npm-scripts",
-    "js/testing/unit",
-    "js/testing/async",
-    "js/testing/mocks",
-    "js/modules/commonjs",
-    "js/linting",
-    "js/semantics",
-    "scm/git/setup",
-    "scm/git/intro",
-    "scm/git/integration",
-    "scm/github/setup",
-    "scm/github/collaboration",
-    "scm/github/project-management",
-    "express/routing",
-    "express/middleware",
-    "http/request-response",
-    "http/body",
-    "http/verbs",
-    "http/status-codes",
-    "http/json",
-    "webops/cloud-functions",
-    "slack/slash-commands"
+    {
+      "id": "node/npm-install"
+    },
+    {
+      "id": "node/package.json"
+    },
+    {
+      "id": "node/npm-scripts"
+    },
+    {
+      "id": "js/testing/unit"
+    },
+    {
+      "id": "js/testing/async"
+    },
+    {
+      "id": "js/testing/mocks"
+    },
+    {
+      "id": "js/modules/commonjs"
+    },
+    {
+      "id": "js/linting"
+    },
+    {
+      "id": "js/semantics"
+    },
+    {
+      "id": "scm/git/setup"
+    },
+    {
+      "id": "scm/git/intro"
+    },
+    {
+      "id": "scm/git/integration"
+    },
+    {
+      "id": "scm/github/setup"
+    },
+    {
+      "id": "scm/github/collaboration"
+    },
+    {
+      "id": "scm/github/project-management"
+    },
+    {
+      "id": "express/routing"
+    },
+    {
+      "id": "express/middleware"
+    },
+    {
+      "id": "http/request-response"
+    },
+    {
+      "id": "http/body"
+    },
+    {
+      "id": "http/verbs"
+    },
+    {
+      "id": "http/status-codes"
+    },
+    {
+      "id": "http/json"
+    },
+    {
+      "id": "webops/cloud-functions"
+    },
+    {
+      "id": "slack/slash-commands"
+    }
   ],
   "intl": {
     "es": {

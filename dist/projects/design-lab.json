@@ -2,64 +2,162 @@
   "slug": "design-lab",
   "repo": "Laboratoria/curriculum",
   "path": "projects/03-design-lab",
-  "version": "8.7.0",
-  "parserVersion": "5.3.0",
-  "createdAt": "2024-05-16T18:51:31.133Z",
+  "version": "9.0.0-alpha.0",
+  "parserVersion": "6.0.0-alpha.0",
+  "createdAt": "2024-05-27T16:12:55.674Z",
   "prefix": 3,
   "track": "ux",
   "tracks": [
     "ux"
   ],
   "learningObjectives": [
-    "agile-planning/scope",
-    "agile-planning/workplan",
-    "agile-planning/tasks",
-    "business-understanding/business-model",
-    "business-understanding/goals-and-kpis",
-    "business-understanding/benchmark",
-    "research-planning/research-plan",
-    "research-planning/desk-research",
-    "research-planning/research-sample",
-    "research-planning/participants",
-    "research-qualitative/user-interviews",
-    "research-qualitative/exploratory-techniques",
-    "research-quantitative/user-surveys",
-    "research-quantitative/analytical-techniques",
-    "research-analysis/process-information",
-    "research-analysis/experience-mapping",
-    "research-analysis/identify-patterns",
-    "research-analysis/synthesize-results",
-    "research-analysis/ai-analysis",
-    "design-concept/define-mvp",
-    "design-concept/design-references",
-    "design-concept/ideate",
-    "design-concept/prioritize-ideas",
-    "interaction-design/user-flows",
-    "interaction-design/usability",
-    "interaction-design/information-architecture",
-    "content-design/voice-tone",
-    "content-design/micro-content",
-    "content-design/ai-content",
-    "content-design/visual-content",
-    "interface-design/visual-design",
-    "interface-design/accesibility",
-    "interface-design/responsive-design",
-    "interface-design/ai-proposals",
-    "design-prototype/basic-prototypes",
-    "design-prototype/high-fidelity",
-    "design-prototype/advanced-interactions",
-    "design-prototype/ai-plugins",
-    "usability-analysis/moderated-testing",
-    "usability-analysis/heuristic-analysis",
-    "usability-analysis/non-moderated-testing",
-    "design-pitch/design-feedback",
-    "design-pitch/design-presentation",
-    "design-pitch/ai-presentations",
-    "design-specs/file-organization",
-    "design-specs/use-cases",
-    "design-specs/project-documentation",
-    "design-systems/atomic-design",
-    "design-systems/design-system"
+    {
+      "id": "agile-planning/scope"
+    },
+    {
+      "id": "agile-planning/workplan"
+    },
+    {
+      "id": "agile-planning/tasks"
+    },
+    {
+      "id": "business-understanding/business-model"
+    },
+    {
+      "id": "business-understanding/goals-and-kpis"
+    },
+    {
+      "id": "business-understanding/benchmark"
+    },
+    {
+      "id": "research-planning/research-plan"
+    },
+    {
+      "id": "research-planning/desk-research"
+    },
+    {
+      "id": "research-planning/research-sample"
+    },
+    {
+      "id": "research-planning/participants"
+    },
+    {
+      "id": "research-qualitative/user-interviews"
+    },
+    {
+      "id": "research-qualitative/exploratory-techniques"
+    },
+    {
+      "id": "research-quantitative/user-surveys"
+    },
+    {
+      "id": "research-quantitative/analytical-techniques"
+    },
+    {
+      "id": "research-analysis/process-information"
+    },
+    {
+      "id": "research-analysis/experience-mapping"
+    },
+    {
+      "id": "research-analysis/identify-patterns"
+    },
+    {
+      "id": "research-analysis/synthesize-results"
+    },
+    {
+      "id": "research-analysis/ai-analysis"
+    },
+    {
+      "id": "design-concept/define-mvp"
+    },
+    {
+      "id": "design-concept/design-references"
+    },
+    {
+      "id": "design-concept/ideate"
+    },
+    {
+      "id": "design-concept/prioritize-ideas"
+    },
+    {
+      "id": "interaction-design/user-flows"
+    },
+    {
+      "id": "interaction-design/usability"
+    },
+    {
+      "id": "interaction-design/information-architecture"
+    },
+    {
+      "id": "content-design/voice-tone"
+    },
+    {
+      "id": "content-design/micro-content"
+    },
+    {
+      "id": "content-design/ai-content"
+    },
+    {
+      "id": "content-design/visual-content"
+    },
+    {
+      "id": "interface-design/visual-design"
+    },
+    {
+      "id": "interface-design/accesibility"
+    },
+    {
+      "id": "interface-design/responsive-design"
+    },
+    {
+      "id": "interface-design/ai-proposals"
+    },
+    {
+      "id": "design-prototype/basic-prototypes"
+    },
+    {
+      "id": "design-prototype/high-fidelity"
+    },
+    {
+      "id": "design-prototype/advanced-interactions"
+    },
+    {
+      "id": "design-prototype/ai-plugins"
+    },
+    {
+      "id": "usability-analysis/moderated-testing"
+    },
+    {
+      "id": "usability-analysis/heuristic-analysis"
+    },
+    {
+      "id": "usability-analysis/non-moderated-testing"
+    },
+    {
+      "id": "design-pitch/design-feedback"
+    },
+    {
+      "id": "design-pitch/design-presentation"
+    },
+    {
+      "id": "design-pitch/ai-presentations"
+    },
+    {
+      "id": "design-specs/file-organization"
+    },
+    {
+      "id": "design-specs/use-cases"
+    },
+    {
+      "id": "design-specs/project-documentation"
+    },
+    {
+      "id": "design-systems/atomic-design"
+    },
+    {
+      "id": "design-systems/design-system"
+    }
   ],
   "intl": {
     "es": {

@@ -2,58 +2,144 @@
   "slug": "fleet-management-fullstack",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-fleet-management-fullstack",
-  "version": "8.7.0",
-  "parserVersion": "5.3.0",
-  "createdAt": "2024-05-16T18:51:41.339Z",
+  "version": "9.0.0-alpha.0",
+  "parserVersion": "6.0.0-alpha.0",
+  "createdAt": "2024-05-27T16:12:58.328Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [
     "web-dev"
   ],
   "learningObjectives": [
-    "node/npm-install",
-    "node/package.json",
-    "node/npm-scripts",
-    "node/process",
-    "node/filesystem",
-    "db/modeling",
-    "db/connection",
-    "db/indexes-constraints",
-    "sql/tables",
-    "sql/crud",
-    "sql/drop",
-    "postgres/psql",
-    "postgres/data-types",
-    "postgres/dump-restore",
-    "postgres/indexes",
-    "react/jsx",
-    "react/components",
-    "react/events",
-    "react/lists-and-keys",
-    "react/conditional-rendering",
-    "react/lifting-up-state",
-    "react/hooks",
-    "react/css-modules",
-    "react/routing",
-    "vue/instance",
-    "vue/data-and-methods",
-    "vue/components",
-    "vue/props",
-    "vue/directives",
-    "vue/iteration",
-    "vue/events",
-    "vue/computed-props-and-observers",
-    "vue/routing",
-    "vue/classes-and-styles",
-    "angular/components-and-templates",
-    "angular/component-lifecycle",
-    "angular/structural-directives",
-    "angular/input-output",
-    "angular/services",
-    "angular/routing",
-    "angular/observables",
-    "angular/http-client",
-    "angular/styles"
+    {
+      "id": "node/npm-install"
+    },
+    {
+      "id": "node/package.json"
+    },
+    {
+      "id": "node/npm-scripts"
+    },
+    {
+      "id": "node/process"
+    },
+    {
+      "id": "node/filesystem"
+    },
+    {
+      "id": "db/modeling"
+    },
+    {
+      "id": "db/connection"
+    },
+    {
+      "id": "db/indexes-constraints"
+    },
+    {
+      "id": "sql/tables"
+    },
+    {
+      "id": "sql/crud"
+    },
+    {
+      "id": "sql/drop"
+    },
+    {
+      "id": "postgres/psql"
+    },
+    {
+      "id": "postgres/data-types"
+    },
+    {
+      "id": "postgres/dump-restore"
+    },
+    {
+      "id": "postgres/indexes"
+    },
+    {
+      "id": "react/jsx"
+    },
+    {
+      "id": "react/components"
+    },
+    {
+      "id": "react/events"
+    },
+    {
+      "id": "react/lists-and-keys"
+    },
+    {
+      "id": "react/conditional-rendering"
+    },
+    {
+      "id": "react/lifting-up-state"
+    },
+    {
+      "id": "react/hooks"
+    },
+    {
+      "id": "react/css-modules"
+    },
+    {
+      "id": "react/routing"
+    },
+    {
+      "id": "vue/instance"
+    },
+    {
+      "id": "vue/data-and-methods"
+    },
+    {
+      "id": "vue/components"
+    },
+    {
+      "id": "vue/props"
+    },
+    {
+      "id": "vue/directives"
+    },
+    {
+      "id": "vue/iteration"
+    },
+    {
+      "id": "vue/events"
+    },
+    {
+      "id": "vue/computed-props-and-observers"
+    },
+    {
+      "id": "vue/routing"
+    },
+    {
+      "id": "vue/classes-and-styles"
+    },
+    {
+      "id": "angular/components-and-templates"
+    },
+    {
+      "id": "angular/component-lifecycle"
+    },
+    {
+      "id": "angular/structural-directives"
+    },
+    {
+      "id": "angular/input-output"
+    },
+    {
+      "id": "angular/services"
+    },
+    {
+      "id": "angular/routing"
+    },
+    {
+      "id": "angular/observables"
+    },
+    {
+      "id": "angular/http-client"
+    },
+    {
+      "id": "angular/styles"
+    }
   ],
   "intl": {
     "es": {
