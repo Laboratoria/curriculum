@@ -2,56 +2,138 @@
   "slug": "dataverse-chat",
   "repo": "Laboratoria/curriculum",
   "path": "projects/03-dataverse-chat",
-  "version": "8.8.0",
-  "parserVersion": "5.3.0",
-  "createdAt": "2024-06-12T19:49:53.182Z",
+  "version": "9.0.0-alpha.0",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-06-13T15:39:42.187Z",
   "prefix": 3,
   "track": "web-dev",
   "tracks": [
     "web-dev"
   ],
   "learningObjectives": [
-    "html/semantics",
-    "css/selectors",
-    "css/box-model",
-    "css/flexbox",
-    "css/grid",
-    "browser/dom/selectors",
-    "browser/dom/events",
-    "browser/dom/manipulation",
-    "browser/routing",
-    "browser/storage",
-    "browser/fetch",
-    "js/async/callbacks",
-    "js/async/promises",
-    "js/semantics",
-    "js/variables",
-    "js/functions",
-    "js/conditionals",
-    "js/data-types/primitive-vs-non-primitive",
-    "js/data-types/arrays",
-    "js/data-types/objects",
-    "js/expression-vs-statement",
-    "js/loops",
-    "js/modules/es-modules",
-    "js/testing/unit",
-    "js/testing/async",
-    "js/testing/mocks",
-    "http/headers",
-    "http/request-response",
-    "http/status-codes",
-    "ai-prompting/priming-chatbots",
-    "ai-prompting/open-ai-api",
-    "scm/git/setup",
-    "scm/git/intro",
-    "scm/git/integration",
-    "scm/github/setup",
-    "scm/github/gh-pages",
-    "scm/github/collaboration",
-    "user-centricity/centricity",
-    "product-design/interactivity",
-    "product-design/visual-design",
-    "research/test"
+    {
+      "id": "html/semantics"
+    },
+    {
+      "id": "css/selectors"
+    },
+    {
+      "id": "css/box-model"
+    },
+    {
+      "id": "css/flexbox"
+    },
+    {
+      "id": "css/grid"
+    },
+    {
+      "id": "browser/dom/selectors"
+    },
+    {
+      "id": "browser/dom/events"
+    },
+    {
+      "id": "browser/dom/manipulation"
+    },
+    {
+      "id": "browser/routing"
+    },
+    {
+      "id": "browser/storage"
+    },
+    {
+      "id": "browser/fetch"
+    },
+    {
+      "id": "js/async/callbacks"
+    },
+    {
+      "id": "js/async/promises"
+    },
+    {
+      "id": "js/semantics"
+    },
+    {
+      "id": "js/variables"
+    },
+    {
+      "id": "js/functions"
+    },
+    {
+      "id": "js/conditionals"
+    },
+    {
+      "id": "js/data-types/primitive-vs-non-primitive"
+    },
+    {
+      "id": "js/data-types/arrays"
+    },
+    {
+      "id": "js/data-types/objects"
+    },
+    {
+      "id": "js/expression-vs-statement"
+    },
+    {
+      "id": "js/loops"
+    },
+    {
+      "id": "js/modules/es-modules"
+    },
+    {
+      "id": "js/testing/unit"
+    },
+    {
+      "id": "js/testing/async"
+    },
+    {
+      "id": "js/testing/mocks"
+    },
+    {
+      "id": "http/headers"
+    },
+    {
+      "id": "http/request-response"
+    },
+    {
+      "id": "http/status-codes"
+    },
+    {
+      "id": "ai-prompting/priming-chatbots"
+    },
+    {
+      "id": "ai-prompting/open-ai-api"
+    },
+    {
+      "id": "scm/git/setup"
+    },
+    {
+      "id": "scm/git/intro"
+    },
+    {
+      "id": "scm/git/integration"
+    },
+    {
+      "id": "scm/github/setup"
+    },
+    {
+      "id": "scm/github/gh-pages"
+    },
+    {
+      "id": "scm/github/collaboration"
+    },
+    {
+      "id": "user-centricity/centricity"
+    },
+    {
+      "id": "product-design/interactivity"
+    },
+    {
+      "id": "product-design/visual-design"
+    },
+    {
+      "id": "research/test"
+    }
   ],
   "intl": {
     "es": {

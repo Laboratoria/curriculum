@@ -2,75 +2,195 @@
   "slug": "guess-the-number",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-guess-the-number",
-  "version": "8.8.0",
-  "parserVersion": "5.3.0",
-  "createdAt": "2024-06-12T19:50:05.346Z",
+  "version": "9.0.0-alpha.0",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-06-13T15:39:45.025Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [
     "web-dev"
   ],
   "learningObjectives": [
-    "java/data-types/primitive-vs-non-primitive",
-    "java/data-types/strings",
-    "java/data-types/arrays",
-    "java/access-modifiers",
-    "java/conditionals",
-    "java/loops",
-    "java/collections/array-list",
-    "java/testing/junit",
-    "java/testing/mockito",
-    "object-oriented-programming/classes",
-    "object-oriented-programming/objects",
-    "object-oriented-programming/methods",
-    "object-oriented-programming/attributes",
-    "object-oriented-programming/constructors",
-    "object-oriented-programming/encapsulation",
-    "object-oriented-programming/abstraction",
-    "object-oriented-programming/composition",
-    "object-oriented-programming/interfaces",
-    "object-oriented-programming/inheritance",
-    "object-oriented-programming/unified-model-language",
-    "python/data-types/primitive",
-    "python/data-types/lists",
-    "python/data-types/tuples",
-    "python/data-types/dictionaries",
-    "python/data-types/sets",
-    "python/variables",
-    "python/conditionals",
-    "python/operators",
-    "python/docstrings",
-    "python/functions/basic-concepts",
-    "python/iteration/loops",
-    "python/linting",
-    "python/testing/unit-tests",
-    "python/testing/mocks",
-    "python/testing/fixtures",
-    "python/modularization/modules",
-    "python/dependency-management/pip",
-    "python/dependency-management/virtual-environment",
-    "python/dependency-management/requirements-file",
-    "csharp/data-types/primitives",
-    "csharp/data-types/non-primitives",
-    "csharp/collections/lists",
-    "csharp/collections/arrays",
-    "csharp/collections/sets",
-    "csharp/variables",
-    "csharp/conditionals",
-    "csharp/loops",
-    "csharp/operators",
-    "csharp/access-modifiers",
-    "csharp/namespaces",
-    "csharp/functions/lambda-functions",
-    "csharp/functions/decorators",
-    "csharp/testing/xunit",
-    "csharp/testing/mstest",
-    "scm/git/setup",
-    "scm/git/intro",
-    "scm/git/integration",
-    "scm/github/setup",
-    "scm/github/collaboration",
-    "scm/github/project-management"
+    {
+      "id": "java/data-types/primitive-vs-non-primitive"
+    },
+    {
+      "id": "java/data-types/strings"
+    },
+    {
+      "id": "java/data-types/arrays"
+    },
+    {
+      "id": "java/access-modifiers"
+    },
+    {
+      "id": "java/conditionals"
+    },
+    {
+      "id": "java/loops"
+    },
+    {
+      "id": "java/collections/array-list"
+    },
+    {
+      "id": "java/testing/junit"
+    },
+    {
+      "id": "java/testing/mockito"
+    },
+    {
+      "id": "object-oriented-programming/classes"
+    },
+    {
+      "id": "object-oriented-programming/objects"
+    },
+    {
+      "id": "object-oriented-programming/methods"
+    },
+    {
+      "id": "object-oriented-programming/attributes"
+    },
+    {
+      "id": "object-oriented-programming/constructors"
+    },
+    {
+      "id": "object-oriented-programming/encapsulation"
+    },
+    {
+      "id": "object-oriented-programming/abstraction"
+    },
+    {
+      "id": "object-oriented-programming/composition"
+    },
+    {
+      "id": "object-oriented-programming/interfaces"
+    },
+    {
+      "id": "object-oriented-programming/inheritance"
+    },
+    {
+      "id": "object-oriented-programming/unified-model-language"
+    },
+    {
+      "id": "python/data-types/primitive"
+    },
+    {
+      "id": "python/data-types/lists"
+    },
+    {
+      "id": "python/data-types/tuples"
+    },
+    {
+      "id": "python/data-types/dictionaries"
+    },
+    {
+      "id": "python/data-types/sets"
+    },
+    {
+      "id": "python/variables"
+    },
+    {
+      "id": "python/conditionals"
+    },
+    {
+      "id": "python/operators"
+    },
+    {
+      "id": "python/docstrings"
+    },
+    {
+      "id": "python/functions/basic-concepts"
+    },
+    {
+      "id": "python/iteration/loops"
+    },
+    {
+      "id": "python/linting"
+    },
+    {
+      "id": "python/testing/unit-tests"
+    },
+    {
+      "id": "python/testing/mocks"
+    },
+    {
+      "id": "python/testing/fixtures"
+    },
+    {
+      "id": "python/modularization/modules"
+    },
+    {
+      "id": "python/dependency-management/pip"
+    },
+    {
+      "id": "python/dependency-management/virtual-environment"
+    },
+    {
+      "id": "python/dependency-management/requirements-file"
+    },
+    {
+      "id": "csharp/data-types/primitives"
+    },
+    {
+      "id": "csharp/data-types/non-primitives"
+    },
+    {
+      "id": "csharp/collections/lists"
+    },
+    {
+      "id": "csharp/collections/arrays"
+    },
+    {
+      "id": "csharp/collections/sets"
+    },
+    {
+      "id": "csharp/variables"
+    },
+    {
+      "id": "csharp/conditionals"
+    },
+    {
+      "id": "csharp/loops"
+    },
+    {
+      "id": "csharp/operators"
+    },
+    {
+      "id": "csharp/access-modifiers"
+    },
+    {
+      "id": "csharp/namespaces"
+    },
+    {
+      "id": "csharp/functions/lambda-functions"
+    },
+    {
+      "id": "csharp/functions/decorators"
+    },
+    {
+      "id": "csharp/testing/xunit"
+    },
+    {
+      "id": "csharp/testing/mstest"
+    },
+    {
+      "id": "scm/git/setup"
+    },
+    {
+      "id": "scm/git/intro"
+    },
+    {
+      "id": "scm/git/integration"
+    },
+    {
+      "id": "scm/github/setup"
+    },
+    {
+      "id": "scm/github/collaboration"
+    },
+    {
+      "id": "scm/github/project-management"
+    }
   ],
   "intl": {
     "es": {

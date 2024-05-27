@@ -2,69 +2,177 @@
   "slug": "chat-app",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-chat-app",
-  "version": "8.8.0",
-  "parserVersion": "5.3.0",
-  "createdAt": "2024-06-12T19:50:02.466Z",
+  "version": "9.0.0-alpha.0",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-06-13T15:39:44.804Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [
     "web-dev"
   ],
   "learningObjectives": [
-    "js/async/callbacks",
-    "js/async/promises",
-    "js/testing/unit",
-    "js/testing/e2e",
-    "auth/jwt",
-    "auth/password-access-and-storage",
-    "http/request-response",
-    "http/verbs",
-    "http/cors",
-    "express/routing",
-    "express/middleware",
-    "socket-io/client",
-    "socket-io/server",
-    "react/jsx",
-    "react/components",
-    "react/events",
-    "react/lists-and-keys",
-    "react/conditional-rendering",
-    "react/lifting-up-state",
-    "react/hooks",
-    "react/css-modules",
-    "react/routing",
-    "vue/instance",
-    "vue/data-and-methods",
-    "vue/components",
-    "vue/props",
-    "vue/directives",
-    "vue/iteration",
-    "vue/events",
-    "vue/computed-props-and-observers",
-    "vue/routing",
-    "vue/classes-and-styles",
-    "angular/components-and-templates",
-    "angular/component-lifecycle",
-    "angular/structural-directives",
-    "angular/input-output",
-    "angular/services",
-    "angular/routing",
-    "angular/observables",
-    "angular/http-client",
-    "angular/styles",
-    "cicd/build-pipelines",
-    "cicd/service-deployment",
-    "cicd/tbd",
-    "cicd/test-coverage",
-    "cicd/integration-tests",
-    "postgres/psql",
-    "postgres/data-types",
-    "postgres/dump-restore",
-    "db/modeling",
-    "db/connection",
-    "sql/tables",
-    "sql/crud",
-    "sql/drop"
+    {
+      "id": "js/async/callbacks"
+    },
+    {
+      "id": "js/async/promises"
+    },
+    {
+      "id": "js/testing/unit"
+    },
+    {
+      "id": "js/testing/e2e"
+    },
+    {
+      "id": "auth/jwt"
+    },
+    {
+      "id": "auth/password-access-and-storage"
+    },
+    {
+      "id": "http/request-response"
+    },
+    {
+      "id": "http/verbs"
+    },
+    {
+      "id": "http/cors"
+    },
+    {
+      "id": "express/routing"
+    },
+    {
+      "id": "express/middleware"
+    },
+    {
+      "id": "socket-io/client"
+    },
+    {
+      "id": "socket-io/server"
+    },
+    {
+      "id": "react/jsx"
+    },
+    {
+      "id": "react/components"
+    },
+    {
+      "id": "react/events"
+    },
+    {
+      "id": "react/lists-and-keys"
+    },
+    {
+      "id": "react/conditional-rendering"
+    },
+    {
+      "id": "react/lifting-up-state"
+    },
+    {
+      "id": "react/hooks"
+    },
+    {
+      "id": "react/css-modules"
+    },
+    {
+      "id": "react/routing"
+    },
+    {
+      "id": "vue/instance"
+    },
+    {
+      "id": "vue/data-and-methods"
+    },
+    {
+      "id": "vue/components"
+    },
+    {
+      "id": "vue/props"
+    },
+    {
+      "id": "vue/directives"
+    },
+    {
+      "id": "vue/iteration"
+    },
+    {
+      "id": "vue/events"
+    },
+    {
+      "id": "vue/computed-props-and-observers"
+    },
+    {
+      "id": "vue/routing"
+    },
+    {
+      "id": "vue/classes-and-styles"
+    },
+    {
+      "id": "angular/components-and-templates"
+    },
+    {
+      "id": "angular/component-lifecycle"
+    },
+    {
+      "id": "angular/structural-directives"
+    },
+    {
+      "id": "angular/input-output"
+    },
+    {
+      "id": "angular/services"
+    },
+    {
+      "id": "angular/routing"
+    },
+    {
+      "id": "angular/observables"
+    },
+    {
+      "id": "angular/http-client"
+    },
+    {
+      "id": "angular/styles"
+    },
+    {
+      "id": "cicd/build-pipelines"
+    },
+    {
+      "id": "cicd/service-deployment"
+    },
+    {
+      "id": "cicd/tbd"
+    },
+    {
+      "id": "cicd/test-coverage"
+    },
+    {
+      "id": "cicd/integration-tests"
+    },
+    {
+      "id": "postgres/psql"
+    },
+    {
+      "id": "postgres/data-types"
+    },
+    {
+      "id": "postgres/dump-restore"
+    },
+    {
+      "id": "db/modeling"
+    },
+    {
+      "id": "db/connection"
+    },
+    {
+      "id": "sql/tables"
+    },
+    {
+      "id": "sql/crud"
+    },
+    {
+      "id": "sql/drop"
+    }
   ],
   "intl": {
     "es": {

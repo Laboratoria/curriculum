@@ -2,48 +2,114 @@
   "slug": "uxploradoras",
   "repo": "Laboratoria/curriculum",
   "path": "projects/02-uxploradoras",
-  "version": "8.8.0",
-  "parserVersion": "5.3.0",
-  "createdAt": "2024-06-12T19:49:53.021Z",
+  "version": "9.0.0-alpha.0",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-06-13T15:39:38.870Z",
   "prefix": 2,
   "track": "ux",
   "tracks": [
     "ux"
   ],
   "learningObjectives": [
-    "agile-planning/scope",
-    "agile-planning/workplan",
-    "agile-planning/tasks",
-    "business-understanding/benchmark",
-    "design-concept/design-references",
-    "design-concept/ideate",
-    "design-concept/prioritize-ideas",
-    "interaction-design/user-flows",
-    "interaction-design/usability",
-    "interaction-design/information-architecture",
-    "interface-design/visual-design",
-    "interface-design/accesibility",
-    "interface-design/responsive-design",
-    "interface-design/ai-proposals",
-    "content-design/voice-tone",
-    "content-design/micro-content",
-    "content-design/ai-content",
-    "content-design/visual-content",
-    "design-prototype/basic-prototypes",
-    "design-prototype/high-fidelity",
-    "design-prototype/ai-plugins",
-    "research-planning/research-plan",
-    "research-planning/research-sample",
-    "research-planning/participants",
-    "usability-analysis/non-moderated-testing",
-    "design-pitch/design-feedback",
-    "design-pitch/design-presentation",
-    "design-pitch/ai-presentations",
-    "design-specs/file-organization",
-    "design-specs/use-cases",
-    "design-specs/project-documentation",
-    "design-systems/atomic-design",
-    "design-systems/design-system"
+    {
+      "id": "agile-planning/scope"
+    },
+    {
+      "id": "agile-planning/workplan"
+    },
+    {
+      "id": "agile-planning/tasks"
+    },
+    {
+      "id": "business-understanding/benchmark"
+    },
+    {
+      "id": "design-concept/design-references"
+    },
+    {
+      "id": "design-concept/ideate"
+    },
+    {
+      "id": "design-concept/prioritize-ideas"
+    },
+    {
+      "id": "interaction-design/user-flows"
+    },
+    {
+      "id": "interaction-design/usability"
+    },
+    {
+      "id": "interaction-design/information-architecture"
+    },
+    {
+      "id": "interface-design/visual-design"
+    },
+    {
+      "id": "interface-design/accesibility"
+    },
+    {
+      "id": "interface-design/responsive-design"
+    },
+    {
+      "id": "interface-design/ai-proposals"
+    },
+    {
+      "id": "content-design/voice-tone"
+    },
+    {
+      "id": "content-design/micro-content"
+    },
+    {
+      "id": "content-design/ai-content"
+    },
+    {
+      "id": "content-design/visual-content"
+    },
+    {
+      "id": "design-prototype/basic-prototypes"
+    },
+    {
+      "id": "design-prototype/high-fidelity"
+    },
+    {
+      "id": "design-prototype/ai-plugins"
+    },
+    {
+      "id": "research-planning/research-plan"
+    },
+    {
+      "id": "research-planning/research-sample"
+    },
+    {
+      "id": "research-planning/participants"
+    },
+    {
+      "id": "usability-analysis/non-moderated-testing"
+    },
+    {
+      "id": "design-pitch/design-feedback"
+    },
+    {
+      "id": "design-pitch/design-presentation"
+    },
+    {
+      "id": "design-pitch/ai-presentations"
+    },
+    {
+      "id": "design-specs/file-organization"
+    },
+    {
+      "id": "design-specs/use-cases"
+    },
+    {
+      "id": "design-specs/project-documentation"
+    },
+    {
+      "id": "design-systems/atomic-design"
+    },
+    {
+      "id": "design-systems/design-system"
+    }
   ],
   "intl": {
     "es": {

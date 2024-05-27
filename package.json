@@ -1,6 +1,6 @@
 {
   "name": "curriculum",
-  "version": "8.8.0",
+  "version": "9.0.0-alpha.0",
   "description": "Proyectos y tópicos del curriculum del Bootcamp de @Laboratoria",
   "repository": "Laboratoria/curriculum",
   "keywords": [
@@ -55,7 +55,7 @@
     "web-vitals": "^3.5.2"
   },
   "devDependencies": {
-    "@laboratoria/curriculum-parser": "^5.3.0",
+    "@laboratoria/curriculum-parser": "^6.0.0-alpha.0",
     "@laboratoria/mdlint": "^1.2.3",
     "@octokit/rest": "^20.0.2",
     "@sentry/vite-plugin": "^2.18.0",

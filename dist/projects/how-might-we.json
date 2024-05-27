@@ -2,22 +2,36 @@
   "slug": "how-might-we",
   "repo": "Laboratoria/curriculum",
   "path": "projects/00-how-might-we",
-  "version": "8.8.0",
-  "parserVersion": "5.3.0",
-  "createdAt": "2024-06-12T19:49:39.884Z",
+  "version": "9.0.0-alpha.0",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-06-13T15:39:35.430Z",
   "prefix": 0,
   "track": "ux",
   "tracks": [
     "ux"
   ],
   "learningObjectives": [
-    "agile-planning/tasks",
-    "design-concept/ideate",
-    "design-concept/prioritize-ideas",
-    "interaction-design/user-flows",
-    "interface-design/visual-design",
-    "design-prototype/basic-prototypes",
-    "design-specs/project-documentation"
+    {
+      "id": "agile-planning/tasks"
+    },
+    {
+      "id": "design-concept/ideate"
+    },
+    {
+      "id": "design-concept/prioritize-ideas"
+    },
+    {
+      "id": "interaction-design/user-flows"
+    },
+    {
+      "id": "interface-design/visual-design"
+    },
+    {
+      "id": "design-prototype/basic-prototypes"
+    },
+    {
+      "id": "design-specs/project-documentation"
+    }
   ],
   "intl": {
     "es": {
