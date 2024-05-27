@@ -2,40 +2,90 @@
   "slug": "uxploradoras-ux",
   "repo": "Laboratoria/curriculum",
   "path": "projects/03-uxploradoras-ux",
-  "version": "8.7.0",
-  "parserVersion": "5.3.0",
-  "createdAt": "2024-05-16T18:51:34.515Z",
+  "version": "9.0.0-alpha.0",
+  "parserVersion": "6.0.0-alpha.0",
+  "createdAt": "2024-05-27T16:12:56.033Z",
   "prefix": 3,
   "track": "ux",
   "tracks": [
     "ux"
   ],
   "learningObjectives": [
-    "agile-planning/scope",
-    "agile-planning/workplan",
-    "agile-planning/tasks",
-    "research-planning/research-plan",
-    "research-planning/desk-research",
-    "research-planning/research-sample",
-    "research-planning/participants",
-    "research-quantitative/user-surveys",
-    "research-quantitative/analytical-techniques",
-    "research-analysis/process-information",
-    "research-analysis/experience-mapping",
-    "research-analysis/identify-patterns",
-    "research-analysis/synthesize-results",
-    "research-analysis/ai-analysis",
-    "interaction-design/user-flows",
-    "interaction-design/usability",
-    "interaction-design/information-architecture",
-    "content-design/voice-tone",
-    "content-design/micro-content",
-    "design-prototype/basic-prototypes",
-    "usability-analysis/non-moderated-testing",
-    "design-pitch/design-feedback",
-    "design-pitch/design-presentation",
-    "design-specs/file-organization",
-    "design-specs/project-documentation"
+    {
+      "id": "agile-planning/scope"
+    },
+    {
+      "id": "agile-planning/workplan"
+    },
+    {
+      "id": "agile-planning/tasks"
+    },
+    {
+      "id": "research-planning/research-plan"
+    },
+    {
+      "id": "research-planning/desk-research"
+    },
+    {
+      "id": "research-planning/research-sample"
+    },
+    {
+      "id": "research-planning/participants"
+    },
+    {
+      "id": "research-quantitative/user-surveys"
+    },
+    {
+      "id": "research-quantitative/analytical-techniques"
+    },
+    {
+      "id": "research-analysis/process-information"
+    },
+    {
+      "id": "research-analysis/experience-mapping"
+    },
+    {
+      "id": "research-analysis/identify-patterns"
+    },
+    {
+      "id": "research-analysis/synthesize-results"
+    },
+    {
+      "id": "research-analysis/ai-analysis"
+    },
+    {
+      "id": "interaction-design/user-flows"
+    },
+    {
+      "id": "interaction-design/usability"
+    },
+    {
+      "id": "interaction-design/information-architecture"
+    },
+    {
+      "id": "content-design/voice-tone"
+    },
+    {
+      "id": "content-design/micro-content"
+    },
+    {
+      "id": "design-prototype/basic-prototypes"
+    },
+    {
+      "id": "usability-analysis/non-moderated-testing"
+    },
+    {
+      "id": "design-pitch/design-feedback"
+    },
+    {
+      "id": "design-pitch/design-presentation"
+    },
+    {
+      "id": "design-specs/file-organization"
+    },
+    {
+      "id": "design-specs/project-documentation"
+    }
   ],
   "intl": {
     "es": {
