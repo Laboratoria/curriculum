@@ -11,8 +11,8 @@ jobs:
         node-version: [18, 20]
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
           cache: npm
@@ -29,7 +29,7 @@ jobs:
       )
     needs: [test]
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - run: npm ci
       - run: npm run build
         env:
@@ -54,7 +54,7 @@ jobs:
       && !contains(github.ref, 'beta')
     needs: [test]
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - run: npm ci
       - run: npm run build
         env:
