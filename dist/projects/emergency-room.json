@@ -2,9 +2,9 @@
   "slug": "emergency-room",
   "repo": "Laboratoria/curriculum",
   "path": "projects/02-emergency-room",
-  "version": "9.0.0-alpha.1",
+  "version": "9.0.0-alpha.2",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-06-13T15:40:28.866Z",
+  "createdAt": "2024-06-13T15:41:30.358Z",
   "prefix": 2,
   "track": "web-dev",
   "tracks": [

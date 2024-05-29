@@ -2,13 +2,16 @@
   "slug": "text-analyzer",
   "repo": "Laboratoria/curriculum",
   "path": "projects/01-text-analyzer",
-  "version": "9.0.0-alpha.1",
+  "version": "9.0.0-alpha.2",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-06-13T15:40:26.656Z",
+  "createdAt": "2024-06-13T15:41:27.813Z",
   "prefix": 1,
   "track": "web-dev",
   "tracks": [
     "web-dev"
+  ],
+  "tags": [
+    "featured"
   ],
   "learningObjectives": [
     {

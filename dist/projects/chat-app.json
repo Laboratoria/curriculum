@@ -2,9 +2,9 @@
   "slug": "chat-app",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-chat-app",
-  "version": "9.0.0-alpha.1",
+  "version": "9.0.0-alpha.2",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-06-13T15:40:35.284Z",
+  "createdAt": "2024-06-13T15:41:36.036Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [

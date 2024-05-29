@@ -2,13 +2,16 @@
   "slug": "dataverse-chat",
   "repo": "Laboratoria/curriculum",
   "path": "projects/03-dataverse-chat",
-  "version": "9.0.0-alpha.1",
+  "version": "9.0.0-alpha.2",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-06-13T15:40:32.375Z",
+  "createdAt": "2024-06-13T15:41:33.701Z",
   "prefix": 3,
   "track": "web-dev",
   "tracks": [
     "web-dev"
+  ],
+  "tags": [
+    "beta"
   ],
   "learningObjectives": [
     {
