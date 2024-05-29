@@ -2,13 +2,16 @@
   "slug": "burger-queen-api-client",
   "repo": "Laboratoria/curriculum",
   "path": "projects/04-burger-queen-api-client",
-  "version": "9.0.0-alpha.1",
+  "version": "9.0.0-alpha.2",
   "parserVersion": "6.0.0-alpha.0",
-  "createdAt": "2024-05-27T17:37:27.723Z",
+  "createdAt": "2024-05-29T16:08:33.960Z",
   "prefix": 4,
   "track": "web-dev",
   "tracks": [
     "web-dev"
+  ],
+  "tags": [
+    "hidden"
   ],
   "learningObjectives": [
     {

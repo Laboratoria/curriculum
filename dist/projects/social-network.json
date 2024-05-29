@@ -2,13 +2,16 @@
   "slug": "social-network",
   "repo": "Laboratoria/curriculum",
   "path": "projects/03-social-network",
-  "version": "9.0.0-alpha.1",
+  "version": "9.0.0-alpha.2",
   "parserVersion": "6.0.0-alpha.0",
-  "createdAt": "2024-05-27T17:37:27.627Z",
+  "createdAt": "2024-05-29T16:08:33.921Z",
   "prefix": 3,
   "track": "web-dev",
   "tracks": [
     "web-dev"
+  ],
+  "tags": [
+    "deprecated"
   ],
   "learningObjectives": [
     {
