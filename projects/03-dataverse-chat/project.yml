@@ -1,4 +1,6 @@
 track: web-dev
+tags:
+  - beta
 learningObjectives:
   - html/semantics
   - css/selectors
