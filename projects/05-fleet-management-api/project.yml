@@ -18,9 +18,6 @@ learningObjectives:
 # por ahora estos son los unicos valores permitidos
 tags:
   - featured
-  - beta
-  - deprecated
-  - hidden
 
 # para proyectos que tienen diferentes implementaciones (aka rutas)
 variants:
