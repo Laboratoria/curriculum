@@ -8,8 +8,9 @@
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación del proyecto](#5-criterios-de-aceptación-del-proyecto)
 * [6. Stack de tecnologías](#6-stack-de-tecnologías)
-* [7. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
-* [8. Funcionalidades opcionales](#8-funcionalidades-opcionales)
+* [7. Testing](#7-stack-de-tecnologías)
+* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+* [9. Funcionalidades opcionales](#9-funcionalidades-opcionales)
 
 ***
 
@@ -75,7 +76,7 @@ con precisión las coordenadas geográficas del taxi.
 Nuestra clienta requiere:
 
 1. Cargar la información de archivos SQL a una
-base de datos Postgresql.
+base de datos PostgreSQL.
 2. Desarrollar una API REST que permita consultar, mediante
 peticiones HTTP, la información almacenada en la base de datos.
 
@@ -152,7 +153,8 @@ respuestas sean más fáciles de manejar.
 * El código del _endpoint_ debe recibir _code review_ de al
 menos una compañera.
 * El código del _endpoint_ debe estar cargado en un repositorio de Github.
-* El código del _endpoint_ debe contar con test unitarios
+* El código del _endpoint_ debe contar con test unitarios.
+* Pasa los tests de endpoint `/taxis` en la colección postman.
 
 ***
 
@@ -161,7 +163,7 @@ menos una compañera.
 Yo como clienta de la API REST requiero un _endpoint_ para
 consultar todas las ubicaciones de un taxi dado el id y una fecha.
 
-Por ejemplo, este _endpoint_ podria ser usado por una aplicación
+Por ejemplo, este _endpoint_ podría ser usado por una aplicación
 web para mostrar en un mapa la trayectoria de un taxi.
 
 <img
@@ -187,7 +189,8 @@ Animación que muestra en un mapa la trayectoria de un taxi.
 * El código del _endpoint_ debe recibir _code review_ de al
 menos una compañera.
 * El código del _endpoint_ debe estar cargado en un repositorio de Github.
-* El código del _endpoint_ debe contar con test unitarios
+* El código del _endpoint_ debe contar con test unitarios.
+* Pasa los tests de endpoint `/trajectories` en la colección postman.
 
 ***
 
@@ -217,6 +220,7 @@ muestra un mapa la última posición de un taxi.
   hasta la Historia de Usuaria 7.
 * El _endpoint_ responde para cada taxi la siguiente información:
 id, placa, latitud, longitud y timestamp (fecha y hora).
+* Pasa los tests de endpoint `/trajectories/latest` en la colección postman.
 
 ##### Definición de terminado
 
@@ -256,6 +260,7 @@ proporcionada.
 * El código de los _endpoints_ debe pasar por una revisión de código realizada
 por al menos una compañera.
 * El código de los _endpoints_ debe contar con test unitarios.
+* Pasa los tests de endpoints `/users` en la colección postman.
 
 Por supuesto, aquí tienes la historia de usuario para un endpoint de login que
 devuelve un JWT (JSON Web Token) dado un correo electrónico y contraseña válidos:
@@ -287,7 +292,8 @@ inválidas o cualquier otro problema durante el proceso de autenticación.
 
 * El código del _endpoint_ de login debe pasar por una revisión de código
 realizada por al menos una compañera.
-* El código del _endpoint_ debe contar con test unitarios
+* El código del _endpoint_ debe contar con test unitarios.
+* Pasa los tests de endpoint `/login/auth` en la colección postman.
 
 ***
 
@@ -315,7 +321,8 @@ HTTP 401 (Unauthorized) y un mensaje de error apropiado.
 en el encabezado de autorización.
 * El código del middleware o interceptor de seguridad debe pasar por una
 revisión de código realizada por al menos una compañera.
-* Se deben incluir test unitarios
+* Se deben incluir test unitarios.
+* Pasa los tests de endpoints en la colección con auth en postman.
 
 ***
 
@@ -328,25 +335,69 @@ Puedes implementar este proyecto en JavaScript, Python o Java.
 * [Python](./docs/stack-python.md)
 * [C#](./docs/stack-csharp.md)
 
-## 7. Pistas, tips y lecturas complementarias
+## 7. Testing
+
+Incluido en el proyecto hay una suite de pruebas que se deben ejecutar
+para ver si tu API cumple con lo que espera la especificación.
+Debes ejecutar estas pruebas con cada historia de usuario para verificar
+que has completado la funcionalidad.
+
+Las pruebas están incluidas en el directorio `postman`.
+
+Para ejecutar las pruebas, puedes usar [la extensión de Postman para Visual Studio Code,](https://learning.postman.com/docs/getting-started/basics/about-vs-code-extension/)
+pero para ejecutar la colección de pruebas de una vez (y de forma gratuita),
+necesitas instalar [una herramienta de línea de comandos llamada `newman`](https://learning.postman.com/docs/collections/using-newman-cli/).
+
+Sigue [las instrucciones para instalar `newman`](https://learning.postman.com/docs/collections/using-newman-cli/installing-running-newman/) globalmente. Luego puedes ejecutar la colección con el entorno incluido así:
+
+```bash
+newman run postman/collection.json -e postman/environment.json
+```
+
+`postman/collection.json` es una colección para los endpoints del API
+sin autenticación.
+
+Si también completas las historias de usuario de autenticación del API,
+entonces ejecuta `postman/collection-auth.json` en su lugar.
+
+Ambas colecciones se pueden ejecutar contra la base de datos de producción
+real, pero puedes considerar crear una base de datos de prueba ya que las
+pruebas para los endpoints de `/user` realizan operaciones CRUD y crean y
+eliminan un usuario cuyo correo es `newUser@test.com`.
+
+Para el login y los endpoints autenticados, tu base de datos necesita
+tener un usuario cuyas credenciales coincidan con las variables
+`testUserEmail` y `testUserPassword` de las pruebas del API que se
+encuentran en `./postman/environment.json`, cuyos valores son
+`admin@test.com` y `test` respectivamente. Recuerda que las contraseñas
+están encriptadas, por lo que tu usuario no tendrá `test` como una
+contraseña sin cifrar en tu base de datos.
+
+Además de estas pruebas y cualquier prueba unitaria,
+puedes considerar escribir pruebas adicionales para probar los datos
+devueltos por tu API. Agregar una colección de pruebas adicional
+es una opción, o usar una biblioteca como [`supertest` para Node](https://www.npmjs.com/package/supertest)
+u otra biblioteca con tu lenguaje de preferencia.
+
+## 8. Pistas, tips y lecturas complementarias
 
 Te proponemos los siguientes pasos para iniciar con el proyecto
 
 ### Paso 1. Comprender que es una API REST
 
-En primer lugar, asegurate de comprender qué es una API REST.
+En primer lugar, asegúrate de comprender qué es una API REST.
 Para esto puedes consultar en internet o preguntarle a
 ChatGPT. Habla con una coach en tu proximo Office Hours para confirmar tus aprendizajes.
 En particular, te recomendamos ver leer este
 [artículo]( https://dev.to/dennysjmarquez/todo-lo-que-necesitas-saber-sobre-api-rest-glosario-de-terminos-esenciales-y-mas-29pc).
 
-### Paso 2. Crear una instancia de Postgresql en Vercel
+### Paso 2. Crear una instancia de PostgreSQL en Vercel
 
 La base de datos recomendada para tu aplicación es PostgreSQL. Te
-recomendamos usar [vercel Postgresql](https://vercel.com/docs/storage/vercel-postgres)
+recomendamos usar [vercel PostgreSQL](https://vercel.com/docs/storage/vercel-postgres)
 para que no tengas que instalar PostgreSQL en tu computadora.
 
-Para crear una base de datos postgresql en Vercel usa la
+Para crear una base de datos PostgreSQL en Vercel usa la
 [documentación oficial](https://vercel.com/docs/storage/vercel-postgres/quickstart).
 Identifica la siguiente información porque la necesitarás para
 conectarte a tu base de datos
@@ -465,7 +516,7 @@ Discute una coach cuales son las diferencias entre ambas librerías.
 Historia de Usuaria 2. Puedes continuar implementado
 las demás historias.
 
-## 8. Funcionalidades opcionales
+## 9. Funcionalidades opcionales
 
 Si completaste todas las funcionalidades del proyecto te invitamos a trabajar en
 las [funcionalides opcionales](./docs/extension.md)
