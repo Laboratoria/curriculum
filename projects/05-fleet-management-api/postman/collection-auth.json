@@ -1,0 +1,2206 @@
+{
+	"info": {
+		"_postman_id": "d3e9f46a-edc8-4913-a6e1-7e765a52291c",
+		"name": "Fleet Management API - Auth",
+		"description": "# ⛓️ Get started here\n\nPostman allows you to test your APIs using simple Javascript code. You can evaluate your response body, headers, cookies, and more using the [ChaiJS BDD](https://www.chaijs.com/api/bdd/) syntax.\n\nThis template guides you through the process of setting up an integration test to ensure that all individual components of an API function together seamlessly.\n\nThe API under test in this collection includes three endpoints for registering and receiving a token, accessing your unique generated name, and unregistering a token:\n\n- POST `/register`\n- POST `/unregister`\n- GET `/my-name`\n    \n\nBy setting up requests in the order of the operation, we can test the flow of data to and from the endpoints and ensure they work together as expected. We also verify that the data persists between requests on the back end.\n\n## 🔖 **How to use this template**\n\n**Step 1:** Check out the requests' documentation to learn more about -\n\n- what each request is meant to do.\n- the tests we've added against each one.\n    \n\n**Step 2:** Run this collection by clicking on \"Run\".\n\n<img src=\"https://content.pstmn.io/84019b0f-69c8-4c5f-98b9-2c90a6f9a0b1/Y29sbGVjdGlvbi1ydW5uZXItYnV0dG9uLmpwZWc=\" alt=\"\" height=\"103\" width=\"266\">\n\n**Step 3:** To customize this template, replace the request URLs with your API endpoints and add or edit the tests if needed.\n\n## ℹ️ Resources\n\n[Scripting in Postman](https://learning.postman.com/docs/writing-scripts/intro-to-scripts/)\n\n[Test script examples](https://learning.postman.com/docs/writing-scripts/script-references/test-examples/)\n\n[Postman Sandbox API reference](https://learning.postman.com/docs/sending-requests/grpc/postman-sandbox-api/#writing-assertions)\n\n[Using the Collection Runner](https://learning.postman.com/docs/collections/running-collections/intro-to-collection-runs/)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21472578"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"item": [
+				{
+					"name": "login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/auth/login endpoint exists and responds with status OK 200 if successful\", () => {",
+									"    pm.expect(pm.response.status).to.eq('OK');",
+									"    pm.expect(pm.response.code).to.eq(200);",
+									"});",
+									"",
+									"pm.test(\"/auth/login responds with an object with accessToken and user if authentication successful\", () => {",
+									"    const jsonResponse = pm.response.json();",
+									"    // console.log(jsonResponse);",
+									"    pm.expect(jsonResponse).to.haveOwnProperty('accessToken');",
+									"    pm.expect(jsonResponse).to.haveOwnProperty('user');",
+									"    pm.environment.set('accessToken', jsonResponse.accessToken);",
+									"    const user = jsonResponse.user;",
+									"    pm.expect(user).to.haveOwnProperty('email');",
+									"    pm.expect(user).to.haveOwnProperty('id');",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \"email\": \"{{testUserEmail}}\", \"password\": \"{{testUserPassword}}\" }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/auth/login",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login bad credentials - unknown user",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/login endpoint responds with 404 if credentials do not match\", () => {",
+									"    pm.expect(pm.response.code).to.eq(404);",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \"email\": \"hello@test.com\", \"password\": \"nada\" }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/auth/login",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login bad credentials - wrong password",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/login endpoint responds with 404 if credentials do not match\", () => {",
+									"    pm.expect(pm.response.code).to.eq(404);",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \"email\": \"{{testUserEmail}}\", \"password\": \"incorrect\" }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/auth/login",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login missing credentials - no email",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/login endpoint responds with 400 if email is missing\", () => {",
+									"    pm.expect(pm.response.code).to.eq(400);",
+									"});",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \"email\": \"{{testUserEmail}}\" }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/auth/login",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login missing credentials - no password",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/login endpoint responds with 400 if email or password are missing\", () => {",
+									"    pm.expect(pm.response.code).to.eq(400);",
+									"});",
+									"",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \"password\": \"{{testUserPassword}}\" }variable in postman testment.sspm.res",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/auth/login",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Taxis",
+			"item": [
+				{
+					"name": "taxis",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/taxis endpoint exists and responds with status OK 200\", () => {",
+									"    pm.expect(pm.response.status).to.eq('OK');",
+									"    pm.expect(pm.response.code).to.eq(200);",
+									"});",
+									"",
+									"pm.test(\"/taxis endpoint responds with default limit 10 if none is specified\", () => {",
+									"    const json = pm.response.json();",
+									"    pm.expect(json.length).to.eq(10);",
+									"});",
+									"",
+									"pm.test(\"/taxis returns an array of taxis with id and plate\", () => {",
+									"    const taxis = pm.response.json();",
+									"    pm.expect(Array.isArray(taxis)).to.eq(true);",
+									"    pm.expect(taxis[0]).to.have.property('id');",
+									"    pm.expect(taxis[0]).to.have.property('plate');",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/taxis",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"taxis"
+							]
+						},
+						"description": "This request uses the saved `token` collection variable to access a secret 'name' stored against that token.\n\nIn this request, we used the `token` collection variable as a query param to fetch the name generated for that token. We have added a test to check that a name is correctly returned."
+					},
+					"response": []
+				},
+				{
+					"name": "taxis?plate=",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/taxis returns an array of taxis with plate that matches\", () => {",
+									"    const taxis = pm.response.json();",
+									"    taxis.forEach(t =>",
+									"        pm.expect(t.plate.indexOf(pm.environment.get(\"plateQuery\"))).is.not.eq(-1)",
+									"    );",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/taxis?{{plateParam}}={{plateQuery}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"taxis"
+							],
+							"query": [
+								{
+									"key": "{{plateParam}}",
+									"value": "{{plateQuery}}"
+								}
+							]
+						},
+						"description": "This request uses the saved `token` collection variable to access a secret 'name' stored against that token.\n\nIn this request, we used the `token` collection variable as a query param to fetch the name generated for that token. We have added a test to check that a name is correctly returned."
+					},
+					"response": []
+				},
+				{
+					"name": "taxis?limit=5",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/taxis endpoint responds with specified limit\", () => {",
+									"    const json = pm.response.json();",
+									"    pm.expect(json.length).to.eq(5);",
+									"});",
+									"",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/taxis?{{pageParam}}=2&{{limitParam}}=5",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"taxis"
+							],
+							"query": [
+								{
+									"key": "{{pageParam}}",
+									"value": "2"
+								},
+								{
+									"key": "{{limitParam}}",
+									"value": "5"
+								}
+							]
+						},
+						"description": "This request uses the saved `token` collection variable to access a secret 'name' stored against that token.\n\nIn this request, we used the `token` collection variable as a query param to fetch the name generated for that token. We have added a test to check that a name is correctly returned."
+					},
+					"response": []
+				},
+				{
+					"name": "taxis - not authenticated",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/taxis endpoint responds with 401 if no authorization header\", () => {",
+									"    pm.expect(pm.response.code).to.eq(401);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/taxis",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"taxis"
+							]
+						},
+						"description": "This request uses the saved `token` collection variable to access a secret 'name' stored against that token.\n\nIn this request, we used the `token` collection variable as a query param to fetch the name generated for that token. We have added a test to check that a name is correctly returned."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Trajectories",
+			"item": [
+				{
+					"name": "trajectories - not authenticated",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/trajectories responds with 401 if no authentication header\", () => {",
+									"    pm.expect(pm.response.code).to.eq(401);",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/trajectories?taxiId={{taxiId}}&date={{date}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"trajectories"
+							],
+							"query": [
+								{
+									"key": "taxiId",
+									"value": "{{taxiId}}"
+								},
+								{
+									"key": "date",
+									"value": "{{date}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "trajectories - not authenticated (invalid token)",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/trajectories responds with 401 and error if invalid token\", () => {",
+									"    pm.expect(pm.response.code).to.eq(401);",
+									"    pm.expect(pm.response.json()).to.haveOwnProperty('error');",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{badToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/trajectories?taxiId={{taxiId}}&date={{date}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"trajectories"
+							],
+							"query": [
+								{
+									"key": "taxiId",
+									"value": "{{taxiId}}"
+								},
+								{
+									"key": "date",
+									"value": "{{date}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "trajectories",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/trajectories/{{taxiId}}?date={{date}} endpoint exists and responds with status OK 200\", () => {",
+									"    pm.expect(pm.response.status).to.eq('OK');",
+									"    pm.expect(pm.response.code).to.eq(200);",
+									"});",
+									"",
+									"pm.test(\"/trajectories/{{taxiId}}?date={{date}} responds with data for only the specified taxi id and date\", () => {",
+									"    const json = pm.response.json();",
+									"    pm.expect(json[0].taxiId).to.eq(parseInt(pm.environment.get(\"taxiId\")));",
+									"});",
+									"",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/trajectories?taxiId={{taxiId}}&date={{date}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"trajectories"
+							],
+							"query": [
+								{
+									"key": "taxiId",
+									"value": "{{taxiId}}"
+								},
+								{
+									"key": "date",
+									"value": "{{date}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "trajectories - taxi not found",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/trajectories/{{taxiId}}?date={{date}} responds with 404 if taxi id not found\", () => {",
+									"    pm.expect(pm.response.code).to.eq(404);",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Cache-Control",
+								"value": "no-cache"
+							},
+							{
+								"key": "Postman-Token",
+								"value": "<calculated when request is sent>"
+							},
+							{
+								"key": "Host",
+								"value": "<calculated when request is sent>"
+							},
+							{
+								"key": "User-Agent",
+								"value": "PostmanRuntime/7.32.1"
+							},
+							{
+								"key": "Accept",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"value": "gzip, deflate, br"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "taxiId",
+								"value": "0000"
+							},
+							{
+								"key": "date",
+								"value": "02-02-2008"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/trajectories?taxiId=999999&date={{date}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"trajectories"
+							],
+							"query": [
+								{
+									"key": "taxiId",
+									"value": "999999"
+								},
+								{
+									"key": "date",
+									"value": "{{date}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "trajectories - missing date",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/trajectories/ responds with 400 for missing required parameters (date)\", () => {",
+									"     pm.expect(pm.response.code).to.eq(400);",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/trajectories?taxiId={{taxiId}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"trajectories"
+							],
+							"query": [
+								{
+									"key": "taxiId",
+									"value": "{{taxiId}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "trajectories - missing taxiId",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/trajectories/ responds with 400 for missing required parameters (taxiId)\", () => {",
+									"     pm.expect(pm.response.code).to.eq(400);",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/trajectories?date={{date}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"trajectories"
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "{{date}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "trajectories - badly formatted date",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/trajectories/?taxiId={{taxiId}}&date={{date}} responds with 400 if date badly formatted\", () => {",
+									"     pm.expect(pm.response.code).to.eq(400);",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/trajectories?date=0x-31-2222&taxiId={{taxiId}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"trajectories"
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "0x-31-2222"
+								},
+								{
+									"key": "taxiId",
+									"value": "{{taxiId}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "latest trajectories - not authenticated (invalid token)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/trajectories/latest responds with 401 and error if invalid token\", () => {",
+									"    pm.expect(pm.response.code).to.eq(401);",
+									"    pm.expect(pm.response.json()).to.haveOwnProperty('error');",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{badToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/trajectories/latest",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"trajectories",
+								"latest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "latest trajectories - not authenticated",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/trajectories/latest responds with 401 if no authentication header\", () => {",
+									"    pm.expect(pm.response.code).to.eq(401);",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/trajectories/latest",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"trajectories",
+								"latest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "latest trajectories",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/trajectories/latest endpoint exists and responds with status OK 200\", () => {",
+									"    pm.expect(pm.response.status).to.eq('OK');",
+									"    pm.expect(pm.response.code).to.eq(200);",
+									"});",
+									"",
+									"pm.test(\"/trajectories/latest endpoint responds with an array of trajectory id, latitiude, longiture, plate, timestamp\", () => {",
+									"    const trajectories = pm.response.json();",
+									"    pm.expect(trajectories[0]).to.haveOwnProperty('taxiId');",
+									"    pm.expect(trajectories[0]).to.haveOwnProperty('plate');",
+									"    pm.expect(trajectories[0]).to.haveOwnProperty('timestamp');",
+									"    pm.expect(trajectories[0]).to.haveOwnProperty('latitude');",
+									"    pm.expect(trajectories[0]).to.haveOwnProperty('longitude');",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/trajectories/latest",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"trajectories",
+								"latest"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "users - not authenticated",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users responds with 401 if no authentication header\", () => {",
+									"    pm.expect(pm.response.code).to.eq(401);",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/users",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users - not authenticated (invalid token)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users responds with 401 and error if invalid token\", () => {",
+									"    pm.expect(pm.response.code).to.eq(401);",
+									"    pm.expect(pm.response.json()).to.haveOwnProperty('error');",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{badToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/users",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users endpoint exists and responds with status OK 200\", () => {",
+									"    pm.expect(pm.response.status).to.eq('OK');",
+									"    pm.expect(pm.response.code).to.eq(200);",
+									"});",
+									"",
+									"pm.test(\"/users endpoint responds with default limit 10 if none is specified\", () => {",
+									"    pm.expect(pm.response.json().length).to.eq(10);",
+									"});",
+									"",
+									"pm.test(\"/users endpoint responds with an array\", () => {",
+									"    const users = pm.response.json();",
+									"    pm.expect(Array.isArray(users)).to.eq(true);",
+									"    pm.expect(users[0]).to.have.property('id');",
+									"    pm.expect(users[0]).to.have.property('name');",
+									"    pm.expect(users[0]).to.have.property('email');",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/users",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users?limit=5",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users endpoint responds to specified limit param\", () => {",
+									"    pm.expect(pm.response.json().length).to.eq(5);",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/users?{{limitParam}}=5",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users"
+							],
+							"query": [
+								{
+									"key": "{{limitParam}}",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users - invalid page",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users endpoint responds with status 400 and error for invalid page\", () => {",
+									"    pm.expect(pm.response.code).to.eq(400);",
+									"    pm.expect(pm.response.json()).to.haveOwnProperty('error');",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/users?{{pageParam}}=x",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users"
+							],
+							"query": [
+								{
+									"key": "{{pageParam}}",
+									"value": "x"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users - invalid limit",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users endpoint responds with status 400 and error for invalid limit\", () => {",
+									"    pm.expect(pm.response.code).to.eq(400);",
+									"    pm.expect(pm.response.json()).to.haveOwnProperty('error');",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/users?{{limitParam}}=y",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users"
+							],
+							"query": [
+								{
+									"key": "{{limitParam}}",
+									"value": "y"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users - not authenticated",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users POST endpoint responds with 401 if no authentication header\", () => {",
+									"    pm.expect(pm.response.code).to.eq(401);",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"{{newUserEmail}}\",\n  \"name\": \"Grace Hopper\",\n  \"password\": \"{{newUserPassword}}\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/users",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users - not authenticated (invalid token)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users POST endpoint responds with 401 and error if invalid token\", () => {",
+									"    pm.expect(pm.response.code).to.eq(401);",
+									"    pm.expect(pm.response.json()).to.haveOwnProperty('error');",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{badToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"{{newUserEmail}}\",\n  \"name\": \"Grace Hopper\",\n  \"password\": \"{{newUserPassword}}\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/users",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users POST endpoint exists and responds with status CREATED 201 and id, name, email if successful\", () => {",
+									"    pm.expect(pm.response.status).to.eq('CREATED');",
+									"    pm.expect(pm.response.code).to.eq(201);",
+									"    const user = pm.response.json();",
+									"    pm.expect(user).to.haveOwnProperty('id');",
+									"    pm.expect(user).to.haveOwnProperty('name');",
+									"    pm.expect(user).to.haveOwnProperty('email');",
+									"    // console.log('will set newUserId to', user.id);",
+									"    pm.environment.set(\"newUserId\", user.id);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"{{newUserEmail}}\",\n  \"name\": \"Grace Hopper\",\n  \"password\": \"{{newUserPassword}}\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/users",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users - user exists",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users POST endpoint responds with 409 and error if user with email already exists\", () => {",
+									"    pm.expect(pm.response.code).to.eq(409);",
+									"    pm.expect(pm.response.json()).to.haveOwnProperty('error');",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"{{newUserEmail}}\",\n  \"name\": \"Grace Hopper\",\n  \"password\": \"{{newUserPassword}}\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/users",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users - missing params (email)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users POST endpoint responds with 400 and error if no email provided in body\", () => {",
+									"    pm.expect(pm.response.code).to.eq(400);",
+									"    pm.expect(pm.response.json()).to.haveOwnProperty('error');",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"grace.hopper@systers.xyz\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/users",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users - missing params (password)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users POST endpoint responds with 400 if no password provided in body\", () => {",
+									"    pm.expect(pm.response.code).to.eq(400);",
+									"    pm.expect(pm.response.json()).to.haveOwnProperty('error');",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"grace.hopper@systers.xyz\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/users",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users - not authenticated",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users PATCH endpoint responds with 401 and error if missing authorization header\", () => {",
+									"    pm.expect(pm.response.code).to.eq(401);",
+									"    pm.expect(pm.response.json()).to.haveOwnProperty('error');",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"New Name User\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/users/{{newUserId}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users",
+								"{{newUserId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users - not authenticated (invalid token)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users PATCH endpoint responds with 401 and error if invalid token\", () => {",
+									"    pm.expect(pm.response.code).to.eq(401);",
+									"    pm.expect(pm.response.json()).to.haveOwnProperty('error');",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{badToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"New Name User\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/users/{{newUserId}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users",
+								"{{newUserId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users/{{uid}} PATCH endpoint exists and responds with status OK 200 if successful\", () => {",
+									"    pm.expect(pm.response.status).to.eq('OK');",
+									"    pm.expect(pm.response.code).to.eq(200);",
+									"});",
+									"",
+									"pm.test(\"/users/{{uid}} PATCH endpoint exists and responds with id, email, name of updated user if successful\", () => {",
+									"    const user = pm.response.json();",
+									"    pm.expect(user).to.haveOwnProperty('id');",
+									"    pm.expect(user).to.haveOwnProperty('email');",
+									"    pm.expect(user).to.haveOwnProperty('name');",
+									"    const uid = pm.request.url.getPath().split('/').pop();",
+									"    pm.expect(user.id).to.equal(parseInt(uid));",
+									"    pm.expect(user.name).to.equal(JSON.parse(pm.request.body.raw).name);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"New Name User\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/users/6",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users - user does not exist",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users/{{uid}} PATCH endpoint responds with status 404 and error if user does not exist\", () => {",
+									"    pm.expect(pm.response.code).to.eq(404);",
+									"    pm.expect(pm.response.json()).to.haveOwnProperty('error')",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"New Name User\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/users/999999",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users",
+								"999999"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users - no body",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users/{{uid}} PATCH responds with status 400 and error if no request body\", () => {",
+									"    pm.expect(pm.response.code).to.eq(400);",
+									"    pm.expect(pm.response.json()).to.haveOwnProperty('error');",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/users/{{newUserId}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users",
+								"{{newUserId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users - email or password",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users/{{uid}} PATCH responds with status 400 and error if trying to update email or password\", () => {",
+									"    pm.expect(pm.response.code).to.eq(400);",
+									"    pm.expect(pm.response.json()).to.haveOwnProperty('error');",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"mynewemail@email.com\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/users/{{newUserId}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users",
+								"{{newUserId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users - not authenticated",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users/{{uid}} DELETE endpoint to respond with 401 if no authorization header\", () => {",
+									"    pm.expect(pm.response.code).to.eq(401);",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/users/:uid",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users",
+								":uid"
+							],
+							"variable": [
+								{
+									"key": "uid",
+									"value": "{{newUserId}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users - not authenticated (invalid token)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users/{{uid}} DELETE endpoint to respond with 401 and error if invalid token\", () => {",
+									"    pm.expect(pm.response.code).to.eq(401);",
+									"    pm.expect(pm.response.json()).to.haveOwnProperty('error');",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{badToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/users/:uid",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users",
+								":uid"
+							],
+							"variable": [
+								{
+									"key": "uid",
+									"value": "{{newUserId}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users/{{uid}} DELETE endpoint responds with 200 and id, email, name of deleted user if successful\", () => {",
+									"    pm.expect(pm.response.status).to.eq('OK');",
+									"    pm.expect(pm.response.code).to.eq(200);",
+									"",
+									"    const user = pm.response.json();",
+									"    pm.expect(user).to.haveOwnProperty('id');",
+									"    pm.expect(user).to.haveOwnProperty('email');",
+									"    pm.expect(user).to.haveOwnProperty('name');",
+									"    pm.expect(user.id).to.equal(parseInt(pm.environment.get(\"newUserId\")));",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/users/{{newUserId}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users",
+								"{{newUserId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users - user doesn't exist",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"/users/{{uid}} DELETE endpoint responds with 404 and error if user does not exist\", () => {",
+									"    pm.expect(pm.response.code).to.eq(404);",
+									"    pm.expect(pm.response.json()).to.haveOwnProperty('error');",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{accessToken}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/users/:uid",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users",
+								":uid"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "uid",
+									"value": "999999999"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "non-existent route",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"responds with status 404 for non existent route /taxiss\", () => {",
+							"    pm.expect(pm.response.code).to.eq(404);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/taxiss/",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"taxiss",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "token",
+			"value": ""
+		},
+		{
+			"key": "baseUrl",
+			"value": "https://postman-integration-testing.glitch.me/"
+		}
+	]
+}
