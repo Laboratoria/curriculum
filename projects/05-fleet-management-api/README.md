@@ -344,11 +344,13 @@ que has completado la funcionalidad.
 
 Las pruebas están incluidas en el directorio `postman`.
 
-Para ejecutar las pruebas, puedes usar [la extensión de Postman para Visual Studio Code,](https://learning.postman.com/docs/getting-started/basics/about-vs-code-extension/)
+Para ejecutar las pruebas, puedes usar
+[la extensión de Postman para Visual Studio Code,](https://learning.postman.com/docs/getting-started/basics/about-vs-code-extension/)
 pero para ejecutar la colección de pruebas de una vez (y de forma gratuita),
-necesitas instalar [una herramienta de línea de comandos llamada `newman`](https://learning.postman.com/docs/collections/using-newman-cli/).
+necesitas instalar [una herramienta de línea de comandos llamada `newman`.](https://learning.postman.com/docs/collections/using-newman-cli/)
 
-Sigue [las instrucciones para instalar `newman`](https://learning.postman.com/docs/collections/using-newman-cli/installing-running-newman/) globalmente. Luego puedes ejecutar la colección con el entorno incluido así:
+Sigue [las instrucciones para instalar `newman`](https://learning.postman.com/docs/collections/using-newman-cli/installing-running-newman/)
+globalmente. Luego puedes ejecutar la colección con el entorno incluido así:
 
 ```bash
 newman run postman/collection.json -e postman/environment.json
