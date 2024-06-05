@@ -363,6 +363,8 @@ sin autenticación.
 Si también completas las historias de usuario de autenticación del API,
 entonces ejecuta `postman/collection-auth.json` en su lugar.
 
+Mostramos el proceso en [este video de como correr pruebas de Postman](https://youtu.be/SKrSh_jjreQ).
+
 Ambas colecciones se pueden ejecutar contra la base de datos de producción
 real, pero puedes considerar crear una base de datos de prueba ya que las
 pruebas para los endpoints de `/user` realizan operaciones CRUD y crean y
