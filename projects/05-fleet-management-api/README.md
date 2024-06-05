@@ -8,7 +8,7 @@
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación del proyecto](#5-criterios-de-aceptación-del-proyecto)
 * [6. Stack de tecnologías](#6-stack-de-tecnologías)
-* [7. Testing](#7-stack-de-tecnologías)
+* [7. Testing](#7-testing)
 * [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
 * [9. Funcionalidades opcionales](#9-funcionalidades-opcionales)
 
@@ -346,7 +346,8 @@ Las pruebas están incluidas en el directorio `postman`.
 
 Para ejecutar las pruebas, puedes usar
 [la extensión de Postman para Visual Studio Code,](https://learning.postman.com/docs/getting-started/basics/about-vs-code-extension/)
-pero para ejecutar la colección de pruebas de una vez (y de forma gratuita),
+e importar el director `postman`.
+Pero para ejecutar toda la colección de pruebas simultáneamente (y de forma gratuita),
 necesitas instalar [una herramienta de línea de comandos llamada `newman`.](https://learning.postman.com/docs/collections/using-newman-cli/)
 
 Sigue [las instrucciones para instalar `newman`](https://learning.postman.com/docs/collections/using-newman-cli/installing-running-newman/)
