@@ -14,12 +14,15 @@ import {
   transformLearningObjectives,
   loadYaml,
 } from '@laboratoria/curriculum-parser/lib/project.js';
-import { getFilesWithLocales,
+import { parseProject } from '@laboratoria/sdk-js';
+import {
+  getFilesWithLocales,
   defaultLocale,
   supportedLocales,
   getLearningObjectivesHeadings,
   getLearningObjectivesHierarchy,
-  createLearningObjectivesMarkdown } from './script-utils.mjs';
+  createLearningObjectivesMarkdown
+} from './script-utils.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const uiUrl = 'https://curriculum.laboratoria.la';
@@ -87,7 +90,7 @@ const copy = async (src, repoDir, opts) => {
 
   // rename / replace default files with localized content
   if (opts.locale && opts.locale !== defaultLocale) {
-    const files = getFilesWithLocales(repoDir, [ opts.locale ]);
+    const files = getFilesWithLocales(repoDir, [opts.locale]);
     await Promise.all(files.map(filepath => rename(`${filepath}`, `${filepath.replace(`.${opts.locale}`, '')}`)));
   }
 
@@ -125,15 +128,21 @@ const addExplainDevConfigFile = async ({ project, cohort, track, repoDir }) => {
 };
 
 const addLocalizedLearningObjectives = async (repoDir, opts, meta) => {
-
-  const learningObjectives = await transformLearningObjectives(repoDir, {
+  const { learningObjectives, variants } = await transformLearningObjectives(repoDir, {
     lo: path.join(__dirname, '../learning-objectives'),
   }, meta);
 
-  // Note: learningObjectives returns list of specific oa's 
-  // example: so for js/modules -> js/modules/esm, js/modules/common
+  if (variants?.length && !opts.variant) {
+    throw new Error('Project has variants, please specify one with --variant');
+  }
 
-  if (!learningObjectives) {
+  const parsedProject = parseProject({ ...meta, learningObjectives, variants });
+  const combinedLearningObjectives = parsedProject.getCombinedLearningObjectives(opts.variant);
+
+  // Note: combinedLearningObjectives returns list of objects, each with a
+  // property `id` containing a string like: js/modules, s/modules/esm, etc
+
+  if (!combinedLearningObjectives?.length) {
     return;
   }
 
@@ -142,9 +151,14 @@ const addLocalizedLearningObjectives = async (repoDir, opts, meta) => {
     path.join(__dirname, '../learning-objectives', 'intl', `${lang}.yml`),
   );
 
-  const categoryTree = getLearningObjectivesHierarchy(learningObjectives);
+  const categoryTree = getLearningObjectivesHierarchy(combinedLearningObjectives);
   const sectionTree = getLearningObjectivesHeadings(categoryTree, intl);
-  const text = createLearningObjectivesMarkdown(learningObjectives, sectionTree, intl, lang);
+  const text = createLearningObjectivesMarkdown(
+    combinedLearningObjectives,
+    sectionTree,
+    intl,
+    lang,
+  );
   const readmePath = path.join(repoDir, 'README.md');
   const contents = (await readFile(readmePath, 'utf8')).split('\n');
   const startIndex = contents.findIndex(
@@ -226,14 +240,13 @@ const main = async (args, opts) => {
   ensureSrc(src);
 
   const slug = path.basename(src).slice(3);
-  const repoName = prefix ? `${prefix}-${slug}` : slug;
+  const repoName = `${prefix ? `${prefix}-` : ''}${slug}${opts.variant ? `-${opts.variant}` : ''}`;
   const repoDir = dest ? `${dest}/${repoName}` : repoName;
 
   await ensureRepoDir(repoDir, opts);
   await copy(src, repoDir, opts);
   await addBootcampInfo(repoDir);
   const meta = await loadYaml(path.join(src, 'project.yml'));
-  // console.log('learning Objectives son', learningObjectives);
   await addExplainDevConfigFile({
     project: slug,
     cohort: prefix,
@@ -298,6 +311,9 @@ Este es un mensaje de ayuda para que puedas usarlo.
 
     # crea el proyecto Markdown Links en la ruta actual para DEV999
     npm run create-cohort-project projects/04-md-links ./ DEV999
+
+    # crea proyecto Fleet Management API en su variante de Java
+    npm run create-cohort-project projects/05-fleet-management-api / XXX999 -- --variant java
 
 Acá puedes encontrar la documentación completa:
 https://github.com/Laboratoria/curriculum/tree/main/scripts#create-cohort-project
