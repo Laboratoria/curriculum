@@ -57,6 +57,12 @@ variants:
       - python
       - id: object-oriented-programming
         optional: true
+      - id: sql/crud
+        exclude: true
+      - id: postgres/data-types
+        exclude: true
+      - id: postgres/indexes
+        exclude: true
   - name: csharp
     learningObjectives:
       - csharp
