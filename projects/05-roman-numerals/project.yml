@@ -1,6 +1,4 @@
 track: web-dev
-tags:
-  - beta
 learningObjectives:
   - node/npm-install
   - node/package.json

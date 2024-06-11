@@ -1,6 +1,6 @@
 track: web-dev
 tags:
-  - beta
+  - hidden
 learningObjectives:
   - js/async
   - js/testing/unit

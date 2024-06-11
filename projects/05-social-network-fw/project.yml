@@ -1,4 +1,7 @@
 track: web-dev
+tags:
+  - hidden
+  - deprecated
 learningObjectives:
   - html/semantics
   - css/selectors
