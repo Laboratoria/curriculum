@@ -2,9 +2,9 @@
   "slug": "fleet-management-fullstack",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-fleet-management-fullstack",
-  "version": "9.0.0-alpha.2",
-  "parserVersion": "6.0.0-alpha.0",
-  "createdAt": "2024-05-29T16:08:34.854Z",
+  "version": "9.0.0-beta.0",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-06-11T17:25:56.200Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [

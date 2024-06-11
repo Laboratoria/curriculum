@@ -2,9 +2,9 @@
   "slug": "job-application",
   "repo": "Laboratoria/curriculum",
   "path": "projects/06-job-application",
-  "version": "9.0.0-alpha.2",
-  "parserVersion": "6.0.0-alpha.0",
-  "createdAt": "2024-05-29T16:08:36.190Z",
+  "version": "9.0.0-beta.0",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-06-11T17:25:57.949Z",
   "prefix": 6,
   "track": "web-dev",
   "tracks": [

@@ -2,13 +2,16 @@
   "slug": "how-might-we",
   "repo": "Laboratoria/curriculum",
   "path": "projects/00-how-might-we",
-  "version": "9.0.0-alpha.2",
-  "parserVersion": "6.0.0-alpha.0",
-  "createdAt": "2024-05-29T16:08:31.696Z",
+  "version": "9.0.0-beta.0",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-06-11T17:25:51.309Z",
   "prefix": 0,
   "track": "ux",
   "tracks": [
     "ux"
+  ],
+  "tags": [
+    "hidden"
   ],
   "learningObjectives": [
     {

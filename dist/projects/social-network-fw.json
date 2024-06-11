@@ -2,9 +2,9 @@
   "slug": "social-network-fw",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-social-network-fw",
-  "version": "9.0.0-alpha.2",
-  "parserVersion": "6.0.0-alpha.0",
-  "createdAt": "2024-05-29T16:08:36.188Z",
+  "version": "9.0.0-beta.0",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-06-11T17:25:57.953Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [

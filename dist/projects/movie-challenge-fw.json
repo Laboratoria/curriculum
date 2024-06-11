@@ -2,13 +2,16 @@
   "slug": "movie-challenge-fw",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-movie-challenge-fw",
-  "version": "9.0.0-alpha.2",
-  "parserVersion": "6.0.0-alpha.0",
-  "createdAt": "2024-05-29T16:08:35.060Z",
+  "version": "9.0.0-beta.0",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-06-11T17:25:56.314Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [
     "web-dev"
+  ],
+  "tags": [
+    "featured"
   ],
   "learningObjectives": [
     {
