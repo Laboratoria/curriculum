@@ -2,13 +2,16 @@
   "slug": "uxploradoras",
   "repo": "Laboratoria/curriculum",
   "path": "projects/02-uxploradoras",
-  "version": "9.0.0-alpha.2",
+  "version": "9.0.0-beta.0",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-06-13T15:41:30.258Z",
+  "createdAt": "2024-06-13T15:43:00.080Z",
   "prefix": 2,
   "track": "ux",
   "tracks": [
     "ux"
+  ],
+  "tags": [
+    "featured"
   ],
   "learningObjectives": [
     {

@@ -2,9 +2,9 @@
   "slug": "learning-mindset",
   "repo": "Laboratoria/curriculum",
   "path": "topics/learning-mindset",
-  "version": "9.0.0-alpha.2",
+  "version": "9.0.0-beta.0",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-06-13T15:41:46.516Z",
+  "createdAt": "2024-06-13T15:43:16.131Z",
   "track": "web-dev",
   "tracks": [
     "web-dev",

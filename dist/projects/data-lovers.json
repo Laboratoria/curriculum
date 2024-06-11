@@ -2,13 +2,16 @@
   "slug": "data-lovers",
   "repo": "Laboratoria/curriculum",
   "path": "projects/02-data-lovers",
-  "version": "9.0.0-alpha.2",
+  "version": "9.0.0-beta.0",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-06-13T15:41:27.574Z",
+  "createdAt": "2024-06-13T15:42:57.403Z",
   "prefix": 2,
   "track": "web-dev",
   "tracks": [
     "web-dev"
+  ],
+  "tags": [
+    "deprecated"
   ],
   "learningObjectives": [
     {

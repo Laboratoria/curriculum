@@ -2,9 +2,9 @@
   "slug": "movie-challenge",
   "repo": "Laboratoria/curriculum",
   "path": "projects/03-movie-challenge",
-  "version": "9.0.0-alpha.2",
+  "version": "9.0.0-beta.0",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-06-13T15:41:33.554Z",
+  "createdAt": "2024-06-13T15:43:03.047Z",
   "prefix": 3,
   "track": "web-dev",
   "tracks": [

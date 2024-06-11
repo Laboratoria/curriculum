@@ -2,13 +2,16 @@
   "slug": "open-project",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-open-project",
-  "version": "9.0.0-alpha.2",
+  "version": "9.0.0-beta.0",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-06-13T15:41:38.810Z",
+  "createdAt": "2024-06-13T15:43:08.610Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [
     "web-dev"
+  ],
+  "tags": [
+    "hidden"
   ],
   "intl": {
     "es": {

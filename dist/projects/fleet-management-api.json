@@ -2,9 +2,9 @@
   "slug": "fleet-management-api",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-fleet-management-api",
-  "version": "9.0.0-alpha.2",
+  "version": "9.0.0-beta.0",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-06-13T15:41:36.204Z",
+  "createdAt": "2024-06-13T15:43:06.138Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [
@@ -536,6 +536,18 @@
         {
           "id": "object-oriented-programming/unified-model-language",
           "optional": true
+        },
+        {
+          "id": "sql/crud",
+          "exclude": true
+        },
+        {
+          "id": "postgres/data-types",
+          "exclude": true
+        },
+        {
+          "id": "postgres/indexes",
+          "exclude": true
         }
       ]
     },
