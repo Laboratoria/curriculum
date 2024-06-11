@@ -1,4 +1,6 @@
 track: web-dev
+tags:
+  - beta
 learningObjectives:
   - js/async
   - js/testing/unit

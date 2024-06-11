@@ -1,6 +1,6 @@
 track: web-dev
 tags:
-  - beta
+  - featured
 learningObjectives:
   - html/semantics
   - css/selectors
@@ -35,6 +35,3 @@ learningObjectives:
   - product-design/interactivity
   - product-design/visual-design
   - research/test
-  
-
-  

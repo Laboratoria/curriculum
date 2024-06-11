@@ -1,4 +1,6 @@
 track: web-dev
+tags:
+  - featured
 learningObjectives:
   - java/data-types/primitive-vs-non-primitive
   - java/data-types/strings
@@ -36,5 +38,3 @@ learningObjectives:
   - scm/github/setup
   - scm/github/collaboration
   - scm/github/project-management
-
-

@@ -1,4 +1,6 @@
 track: ux
+tags:
+  - deprecated
 learningObjectives:
   - agile-planning/scope
   - agile-planning/workplan
