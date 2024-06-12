@@ -1,6 +1,6 @@
 # Fleet Management Software API - Funcionalidades opcionales
 
-## [Historia de usuario 5] Base de datos local
+## [Historia de usuario 8] Base de datos local
 
 Yo como _desarrolladora_ requiero instalar y configurar localmente, en mi computadora,
 Postgresql para no tener la restricción de almacenamiento de Vercel.
@@ -22,7 +22,7 @@ una base de datos con las tablas creadas hasta el momento.
 * Se modificó el código de tu proyecto para que se conecté
 a la base de datos local.
 
-## [Historia de usuario 6] Cargar información a base de datos
+## [Historia de usuario 9] Cargar información a base de datos
 
 Yo como _desarrolladora_ requiero cargar la información, almacenada
 hasta ahora en archivos de texto, en una base de datos Postgresql
@@ -91,7 +91,7 @@ contar con test unitarios.
 
 ***
 
-## [Historia de usuario 7] Tiempos de respuesta optimizados
+## [Historia de usuario 10] Tiempos de respuesta optimizados
 
 Yo como clienta de la API REST requiero que los _endpoints_
 resuelvan las solicitudes en tiempos de respuesta
@@ -135,7 +135,7 @@ resuelve las solicitudes en tiempos de respuesta "razonables".
 
 ***
 
-## [Historia de usuario 8] Endpoint exportación a Excel
+## [Historia de usuario 11] Endpoint exportación a Excel
 
 Yo como clienta de la API REST requiero un _endpoint_ para
 exportar en formato Excel todas las ubicaciones de un vehículo
@@ -158,7 +158,9 @@ estrategias existen.
 
 ### Definición de terminado
 
-* El _endpoint_ proporcia un archivo en formato excel con
+* El _endpoint_ es implementado de acuerdo a la
+  [documentación swagger](https://app.swaggerhub.com/apis-docs/ssinuco/FleetManagementAPI/2.0.0#/trajectories/exportTrajectories)
+* El _endpoint_ envia un archivo en formato excel con
 la siguiente información: ID, placa, latitud, longitud y
 fecha y hora.
 * El _endpoint_ resuelve la solicitud en tiempos de respuesta
@@ -166,17 +168,9 @@ fecha y hora.
 a la gran cantidad de información, se espera con **seguridad** tiempos
 de respuesta lentos
 si no se plantea una estrategia de optimización la base de datos._
-* Se cuenta con una documentación para el _endpoint_ desarrollado
-especificando
-[método HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods),
-url, parámetros,
-[encabezados](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers),
-[códigos HTTP de respuesta](https://shorturl.at/bdegB)
-y
-[cuerpo](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages).
 * El código del _endpoint_ debe recibir _code review_ de al
 menos una compañera.
-* El código _endpoint_ debe estar cargado en un repositorio de Github.
-* El código _endpoint_ debe contar con test unitarios y e2e.
+* El código del _endpoint_ debe estar cargado en un repositorio de Github.
+* El código del _endpoint_ debe contar con test unitarios
 
 ***
