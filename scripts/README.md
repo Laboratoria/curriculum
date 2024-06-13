@@ -146,7 +146,7 @@ proceeding with the unit tests.
 npm run pretest
 
 # Run equivalent command
-npm run mdlint && npm run eslint && npm run validate && npm run test:topics
+npm run mdlint && npm run eslint && npm run validate
 ```
 
 ### test
@@ -156,29 +156,6 @@ Run unit tests (and implicitly the `pretest` script).
 ```sh
 # Run tests with npm (and implicitly the pretest script)
 npm test
-```
-
-### start
-
-Arranca la interfaz web.
-
-```sh
-npm start
-```
-
-Alternativamente:
-
-```sh
-npx react-scripts start
-```
-
-### watch
-
-Arranca la interfaz web y escucha cambios en los archivos de contenido (tópicos
-y proyectos) para automáticamente reflejar cambios localmente.
-
-```sh
-npm run watch
 ```
 
 ***

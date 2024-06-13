@@ -15,15 +15,8 @@ que
 utilizan las Coaches de Laboratoria para generar los enunciados
 pertinentes a cada _cohort_, entre otras cosas.
 
-También con cada release se actualiza a una nueva versión nuestro
-[sitio de currícula](https://curriculum.laboratoria.la), que
-es una aplicación de [React](https://reactjs.org/) que consume la
-información contenida en los directorios de
-[proyectos](https://github.com/Laboratoria/curriculum/tree/main/projects)
-y [tópicos](https://github.com/Laboratoria/curriculum/tree/main/topics),
-que también incluye una sección de
-[ejercicios](https://curriculum.laboratoria.la/es/js/gym)
-asociados al track de Web Development.
+También con cada release se mostrará la nueva versión del contenido en \
+`bootcamp.laboratoria.la`.
 
 La operación de hacer un release incluye las siguientes consideraciones:
 
@@ -82,8 +75,8 @@ Los siguientes pasos deben ser ejecutados desde la rama `next`.
   local para asegurar que no se ha gatillado ningún nuevo error.
 
 2. Actualización del _changelog_: Se debe ejecutar el comando
-  `npm run changelog` para obtener la lista de todos los cambios que han
-  ocurrido desde el último release hasta ahora, y agregar esa lista al
+  `git fetch upstream` y después `git log --oneline` para identificar la lista
+  de cambios que han ocurrido desde el último release, y agregar esa lista al
   _draft_ de release de la currícula en Github, cambiando los _handles_
   para etiquetar a las personas correspondientes (tipo `@username`).
 
@@ -99,7 +92,7 @@ Los siguientes pasos deben ser ejecutados desde la rama `next`.
   debe primero eliminar el contenido del directorio, puedes hacerlo utilizando
   el comando `rm -rf dist`, y luego para generar los `json` se
   ejecuta el script [`build.js`](./scripts/build.js) utilizando el comando
-  `npm run build:content`; Con esto se reconstruye todo el directorio.
+  `npm run build`; Con esto se reconstruye todo el directorio.
 
 5. Agregar los cambios y hacer el commit: Una vez actualizado el directorio
   `dist` podemos ya agregar los cambios utilizando el comando
@@ -130,25 +123,6 @@ Los siguientes pasos deben ser ejecutados desde la rama `next`.
 
 Una vez cumpletados estos pasos, puedes seleccionar el _tag_ que acabas de
 pushear, para asociarlo al _draft_ de release, y darle _publish_.
-
-Una vez realizado ese paso, se ejecutarán en Github las
-[actions](https://github.com/features/actions) asociadas al repositorio,
-que en este caso son 2, una para hacer un deploy a `production` y otra
-para hacer un deploy a `staging`.
-
-Deploy a `staging`: Ocurre cuando el _tag_ asociado a un _push_
-comienza con una `v` minúscula y contiene las palabras `alpha` o `beta`, por
-ejemplo: `git tag -a vX.X.X-alpha.X` o `git tag -a vX.X.X-beta.X`, y en ese caso,
-se ejecutará la _action_ que creará una url (distinta a la del deploy a
-`production`) con el sitio deployado para ser revisado y compartido en caso
-de que se necesite recibir feedback de él, o se necesiten hacer más pruebas
-antes de hacer un release formal a `production`, esta url tendrá como duración
-30 días, luego de eso dejará de estar disponible para acceder a ella.
-
-Deploy a `production`: Ocurre cuando el _tag_ asociado a un _push_
-comienza con una `v` minúscula y **no** contiene las palabras `alpha` ni
-`beta`, y en ese caso, se ejecutará la _action_ que actualizará el deploy
-del [sitio de currícula](https://curriculum.laboratoria.la).
 
 Para más información sobre las configuraciones de las _actions_ de
 Github, puedes revisar los archivos relacionados en
