@@ -2,9 +2,9 @@
   "slug": "interaction-design",
   "repo": "Laboratoria/curriculum",
   "path": "topics/interaction-design",
-  "version": "9.0.0-beta.0",
+  "version": "9.0.0",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-06-13T15:43:12.538Z",
+  "createdAt": "2024-06-13T16:06:11.038Z",
   "track": "ux",
   "tracks": [
     "ux"

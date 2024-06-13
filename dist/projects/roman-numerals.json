@@ -2,16 +2,13 @@
   "slug": "roman-numerals",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-roman-numerals",
-  "version": "9.0.0-beta.0",
+  "version": "9.0.0",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-06-13T15:43:08.927Z",
+  "createdAt": "2024-06-13T16:06:08.998Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [
     "web-dev"
-  ],
-  "tags": [
-    "beta"
   ],
   "learningObjectives": [
     {

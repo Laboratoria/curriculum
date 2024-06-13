@@ -2,9 +2,9 @@
   "slug": "prototyping",
   "repo": "Laboratoria/curriculum",
   "path": "topics/prototyping",
-  "version": "9.0.0-beta.0",
+  "version": "9.0.0",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-06-13T15:43:16.197Z",
+  "createdAt": "2024-06-13T16:06:12.885Z",
   "track": "ux",
   "tracks": [
     "ux"

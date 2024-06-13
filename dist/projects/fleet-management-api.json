@@ -2,9 +2,9 @@
   "slug": "fleet-management-api",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-fleet-management-api",
-  "version": "9.0.0-beta.0",
+  "version": "9.0.0",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-06-13T15:43:06.138Z",
+  "createdAt": "2024-06-13T16:06:07.714Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [
