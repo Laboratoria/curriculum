@@ -1,5 +1,7 @@
 ---
 track: web-dev
+tags:
+  - hidden
 ---
 
 # Proyecto Abierto

@@ -2,78 +2,204 @@
   "slug": "social-network-fw",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-social-network-fw",
-  "version": "8.8.0",
-  "parserVersion": "5.3.0",
-  "createdAt": "2024-06-12T19:50:11.247Z",
+  "version": "9.0.0-beta.0",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-06-13T15:43:08.532Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [
     "web-dev"
   ],
   "learningObjectives": [
-    "html/semantics",
-    "css/selectors",
-    "css/box-model",
-    "css/flexbox",
-    "css/grid",
-    "css/media-queries",
-    "js/data-types/arrays",
-    "js/data-types/objects",
-    "js/data-types/primitive-vs-non-primitive",
-    "js/variables",
-    "js/conditionals",
-    "js/loops",
-    "js/functions",
-    "js/testing/unit",
-    "js/testing/async",
-    "js/testing/mocks",
-    "js/modules/es-modules",
-    "js/linting",
-    "js/semantics",
-    "js/expression-vs-statement",
-    "js/async/callbacks",
-    "js/async/promises",
-    "scm/git/setup",
-    "scm/git/intro",
-    "scm/git/integration",
-    "scm/github/setup",
-    "scm/github/gh-pages",
-    "scm/github/collaboration",
-    "scm/github/project-management",
-    "user-centricity/centricity",
-    "product-design/interactivity",
-    "product-design/visual-design",
-    "research/test",
-    "firebase/auth",
-    "firebase/firestore",
-    "angular/components-and-templates",
-    "angular/component-lifecycle",
-    "angular/structural-directives",
-    "angular/input-output",
-    "angular/services",
-    "angular/routing",
-    "angular/observables",
-    "angular/http-client",
-    "angular/styles",
-    "react/jsx",
-    "react/components",
-    "react/events",
-    "react/lists-and-keys",
-    "react/conditional-rendering",
-    "react/lifting-up-state",
-    "react/hooks",
-    "react/css-modules",
-    "react/routing",
-    "vue/instance",
-    "vue/data-and-methods",
-    "vue/components",
-    "vue/props",
-    "vue/directives",
-    "vue/iteration",
-    "vue/events",
-    "vue/computed-props-and-observers",
-    "vue/routing",
-    "vue/classes-and-styles"
+    {
+      "id": "html/semantics"
+    },
+    {
+      "id": "css/selectors"
+    },
+    {
+      "id": "css/box-model"
+    },
+    {
+      "id": "css/flexbox"
+    },
+    {
+      "id": "css/grid"
+    },
+    {
+      "id": "css/media-queries"
+    },
+    {
+      "id": "js/data-types/arrays"
+    },
+    {
+      "id": "js/data-types/objects"
+    },
+    {
+      "id": "js/data-types/primitive-vs-non-primitive"
+    },
+    {
+      "id": "js/variables"
+    },
+    {
+      "id": "js/conditionals"
+    },
+    {
+      "id": "js/loops"
+    },
+    {
+      "id": "js/functions"
+    },
+    {
+      "id": "js/testing/unit"
+    },
+    {
+      "id": "js/testing/async"
+    },
+    {
+      "id": "js/testing/mocks"
+    },
+    {
+      "id": "js/modules/es-modules"
+    },
+    {
+      "id": "js/linting"
+    },
+    {
+      "id": "js/semantics"
+    },
+    {
+      "id": "js/expression-vs-statement"
+    },
+    {
+      "id": "js/async/callbacks"
+    },
+    {
+      "id": "js/async/promises"
+    },
+    {
+      "id": "scm/git/setup"
+    },
+    {
+      "id": "scm/git/intro"
+    },
+    {
+      "id": "scm/git/integration"
+    },
+    {
+      "id": "scm/github/setup"
+    },
+    {
+      "id": "scm/github/gh-pages"
+    },
+    {
+      "id": "scm/github/collaboration"
+    },
+    {
+      "id": "scm/github/project-management"
+    },
+    {
+      "id": "user-centricity/centricity"
+    },
+    {
+      "id": "product-design/interactivity"
+    },
+    {
+      "id": "product-design/visual-design"
+    },
+    {
+      "id": "research/test"
+    },
+    {
+      "id": "firebase/auth"
+    },
+    {
+      "id": "firebase/firestore"
+    },
+    {
+      "id": "angular/components-and-templates"
+    },
+    {
+      "id": "angular/component-lifecycle"
+    },
+    {
+      "id": "angular/structural-directives"
+    },
+    {
+      "id": "angular/input-output"
+    },
+    {
+      "id": "angular/services"
+    },
+    {
+      "id": "angular/routing"
+    },
+    {
+      "id": "angular/observables"
+    },
+    {
+      "id": "angular/http-client"
+    },
+    {
+      "id": "angular/styles"
+    },
+    {
+      "id": "react/jsx"
+    },
+    {
+      "id": "react/components"
+    },
+    {
+      "id": "react/events"
+    },
+    {
+      "id": "react/lists-and-keys"
+    },
+    {
+      "id": "react/conditional-rendering"
+    },
+    {
+      "id": "react/lifting-up-state"
+    },
+    {
+      "id": "react/hooks"
+    },
+    {
+      "id": "react/css-modules"
+    },
+    {
+      "id": "react/routing"
+    },
+    {
+      "id": "vue/instance"
+    },
+    {
+      "id": "vue/data-and-methods"
+    },
+    {
+      "id": "vue/components"
+    },
+    {
+      "id": "vue/props"
+    },
+    {
+      "id": "vue/directives"
+    },
+    {
+      "id": "vue/iteration"
+    },
+    {
+      "id": "vue/events"
+    },
+    {
+      "id": "vue/computed-props-and-observers"
+    },
+    {
+      "id": "vue/routing"
+    },
+    {
+      "id": "vue/classes-and-styles"
+    }
   ],
   "intl": {
     "es": {

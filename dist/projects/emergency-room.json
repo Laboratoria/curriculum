@@ -2,44 +2,105 @@
   "slug": "emergency-room",
   "repo": "Laboratoria/curriculum",
   "path": "projects/02-emergency-room",
-  "version": "8.8.0",
-  "parserVersion": "5.3.0",
-  "createdAt": "2024-06-12T19:49:50.450Z",
+  "version": "9.0.0-beta.0",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-06-13T15:43:00.033Z",
   "prefix": 2,
   "track": "web-dev",
   "tracks": [
     "web-dev"
   ],
+  "tags": [
+    "hidden"
+  ],
   "learningObjectives": [
-    "html/semantics",
-    "css/selectors",
-    "css/box-model",
-    "css/flexbox",
-    "browser/dom/selectors",
-    "browser/dom/events",
-    "browser/dom/manipulation",
-    "js/data-types/primitive-vs-non-primitive",
-    "js/data-types/arrays",
-    "js/data-types/objects",
-    "js/variables",
-    "js/conditionals",
-    "js/loops",
-    "js/functions",
-    "js/testing/unit",
-    "js/modules/es-modules",
-    "js/linting",
-    "js/semantics",
-    "js/expression-vs-statement",
-    "scm/git/setup",
-    "scm/git/intro",
-    "scm/git/integration",
-    "scm/github/setup",
-    "scm/github/gh-pages",
-    "scm/github/collaboration",
-    "user-centricity/centricity",
-    "product-design/interactivity",
-    "product-design/visual-design",
-    "research/test"
+    {
+      "id": "html/semantics"
+    },
+    {
+      "id": "css/selectors"
+    },
+    {
+      "id": "css/box-model"
+    },
+    {
+      "id": "css/flexbox"
+    },
+    {
+      "id": "browser/dom/selectors"
+    },
+    {
+      "id": "browser/dom/events"
+    },
+    {
+      "id": "browser/dom/manipulation"
+    },
+    {
+      "id": "js/data-types/primitive-vs-non-primitive"
+    },
+    {
+      "id": "js/data-types/arrays"
+    },
+    {
+      "id": "js/data-types/objects"
+    },
+    {
+      "id": "js/variables"
+    },
+    {
+      "id": "js/conditionals"
+    },
+    {
+      "id": "js/loops"
+    },
+    {
+      "id": "js/functions"
+    },
+    {
+      "id": "js/testing/unit"
+    },
+    {
+      "id": "js/modules/es-modules"
+    },
+    {
+      "id": "js/linting"
+    },
+    {
+      "id": "js/semantics"
+    },
+    {
+      "id": "js/expression-vs-statement"
+    },
+    {
+      "id": "scm/git/setup"
+    },
+    {
+      "id": "scm/git/intro"
+    },
+    {
+      "id": "scm/git/integration"
+    },
+    {
+      "id": "scm/github/setup"
+    },
+    {
+      "id": "scm/github/gh-pages"
+    },
+    {
+      "id": "scm/github/collaboration"
+    },
+    {
+      "id": "user-centricity/centricity"
+    },
+    {
+      "id": "product-design/interactivity"
+    },
+    {
+      "id": "product-design/visual-design"
+    },
+    {
+      "id": "research/test"
+    }
   ],
   "intl": {
     "es": {

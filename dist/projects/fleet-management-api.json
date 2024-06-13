@@ -2,186 +2,697 @@
   "slug": "fleet-management-api",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-fleet-management-api",
-  "version": "8.8.0",
-  "parserVersion": "5.3.0",
-  "createdAt": "2024-06-12T19:50:05.659Z",
+  "version": "9.0.0-beta.0",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-06-13T15:43:06.138Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [
     "web-dev"
   ],
+  "tags": [
+    "featured"
+  ],
   "learningObjectives": [
-    "http/request-response",
-    "http/headers",
-    "http/body",
-    "http/verbs",
-    "http/status-codes",
-    "http/json",
-    "http/cors",
-    "auth/jwt",
-    "auth/password-access-and-storage",
-    "java/access-modifiers",
-    "java/variables",
-    "java/conditionals",
-    "java/loops",
-    "java/data-types/primitive",
-    "java/data-types/primitive-vs-non-primitive",
-    "java/data-types/strings",
-    "java/data-types/arrays",
-    "java/collections/array-list",
-    "java/collections/hash-map",
-    "java/collections/hash-set",
-    "java/testing/junit",
-    "java/testing/mockito",
-    "java/spring-framework/core-concepts/beans",
-    "java/spring-framework/core-concepts/inversion-of-control",
-    "java/spring-framework/core-concepts/annotations",
-    "java/spring-framework/initializr",
-    "java/spring-framework/spring-boot",
-    "java/spring-framework/controllers",
-    "java/spring-framework/services",
-    "java/spring-framework/spring-data-jpa",
-    "java/spring-framework/entity",
-    "java/spring-framework/repository",
-    "java/spring-framework/spring-web/rest-controller",
-    "java/spring-framework/spring-web/request-mapping",
-    "java/spring-framework/spring-web/request-param",
-    "java/spring-framework/testing/spring-test",
-    "java/spring-framework/testing/hamcrest",
-    "java/hibernate-orm/setup",
-    "java/hibernate-orm/schema",
-    "java/hibernate-orm/entity",
-    "java/hibernate-orm/table",
-    "java/hibernate-orm/column",
-    "java/hibernate-orm/identifiers",
-    "java/hibernate-orm/associations",
-    "java/hibernate-orm/collections",
-    "java/hibernate-orm/persistance",
-    "java/hibernate-orm/querying",
-    "python/data-types/primitive",
-    "python/data-types/lists",
-    "python/data-types/tuples",
-    "python/data-types/dictionaries",
-    "python/data-types/sets",
-    "python/variables",
-    "python/conditionals",
-    "python/operators",
-    "python/docstrings",
-    "python/functions/basic-concepts",
-    "python/functions/args-kwargs",
-    "python/functions/closures",
-    "python/functions/lambda-functions",
-    "python/functions/decorators",
-    "python/iteration/loops",
-    "python/iteration/list-comprehension",
-    "python/iteration/functional-techniques",
-    "python/linting",
-    "python/testing/unit-tests",
-    "python/testing/mocks",
-    "python/testing/fixtures",
-    "python/modularization/modules",
-    "python/modularization/packages",
-    "python/dependency-management/pip",
-    "python/dependency-management/virtual-environment",
-    "python/dependency-management/requirements-file",
-    "python/serialization",
-    "python/flask/routes/route-decorator",
-    "python/flask/routes/view-function",
-    "python/flask/routes/variable-rules",
-    "python/flask/request/args",
-    "python/flask/request/headers",
-    "python/flask/response/response-parts",
-    "python/flask/response/jsonify",
-    "python/flask/testing/fixture-setup",
-    "python/flask/testing/test-client",
-    "python/django/setup/migrations",
-    "python/django/setup/app",
-    "python/django/models/fields",
-    "python/django/models/foreign-Key",
-    "python/django/views",
-    "python/django/testing",
-    "python/django/queryset",
-    "python/django/filter",
-    "python/django/order-by",
-    "python/django/url-configuration",
-    "python/django/rest-framework/serializers",
-    "python/django/rest-framework/pagination",
-    "python/django/rest-framework/query-params",
-    "python/django/rest-framework/viewset",
-    "python/django/rest-framework/apiview",
-    "csharp/data-types/primitives",
-    "csharp/data-types/non-primitives",
-    "csharp/data-types/structs",
-    "csharp/data-types/enums",
-    "csharp/data-types/anonymous-types",
-    "csharp/data-types/dynamic-types",
-    "csharp/collections/lists",
-    "csharp/collections/arrays",
-    "csharp/collections/sets",
-    "csharp/variables",
-    "csharp/conditionals",
-    "csharp/loops",
-    "csharp/operators",
-    "csharp/generics",
-    "csharp/access-modifiers",
-    "csharp/namespaces",
-    "csharp/functions/lambda-functions",
-    "csharp/functions/decorators",
-    "csharp/error-handling/try-catch",
-    "csharp/error-handling/throw",
-    "csharp/linq",
-    "csharp/async-await",
-    "csharp/.net-core",
-    "csharp/nuget-packages",
-    "csharp/testing/xunit",
-    "csharp/testing/mstest",
-    "csharp/entity-framework/code-first",
-    "csharp/entity-framework/models",
-    "csharp/entity-framework/fluent-api",
-    "csharp/entity-framework/controllers",
-    "csharp/entity-framework/migrations",
-    "js/testing/unit",
-    "js/testing/async",
-    "js/testing/mocks",
-    "js/testing/e2e",
-    "js/modules/es-modules",
-    "js/modules/commonjs",
-    "js/linting",
-    "js/semantics",
-    "node/npm-install",
-    "node/package.json",
-    "node/npm-scripts",
-    "express/routing",
-    "express/middleware",
-    "sql/crud",
-    "db/modeling",
-    "db/connection",
-    "postgres/data-types",
-    "postgres/indexes",
-    "object-oriented-programming/classes",
-    "object-oriented-programming/objects",
-    "object-oriented-programming/methods",
-    "object-oriented-programming/attributes",
-    "object-oriented-programming/constructors",
-    "object-oriented-programming/encapsulation",
-    "object-oriented-programming/abstraction",
-    "object-oriented-programming/composition",
-    "object-oriented-programming/interfaces",
-    "object-oriented-programming/inheritance",
-    "object-oriented-programming/unified-model-language",
-    "scm/git/setup",
-    "scm/git/intro",
-    "scm/git/integration",
-    "scm/github/setup",
-    "scm/github/collaboration",
-    "scm/github/project-management",
-    "typescript/basic-types/primitives",
-    "typescript/basic-types/arrays",
-    "typescript/basic-types/functions",
-    "typescript/basic-types/object-types/optional-properties",
-    "typescript/basic-types/union-types",
-    "typescript/basic-types/interfaces",
-    "typescript/basic-types/enums"
+    {
+      "id": "http/request-response"
+    },
+    {
+      "id": "http/headers"
+    },
+    {
+      "id": "http/body"
+    },
+    {
+      "id": "http/verbs"
+    },
+    {
+      "id": "http/status-codes"
+    },
+    {
+      "id": "http/json"
+    },
+    {
+      "id": "http/cors"
+    },
+    {
+      "id": "auth/jwt"
+    },
+    {
+      "id": "auth/password-access-and-storage"
+    },
+    {
+      "id": "sql/crud"
+    },
+    {
+      "id": "db/modeling"
+    },
+    {
+      "id": "db/connection"
+    },
+    {
+      "id": "postgres/data-types"
+    },
+    {
+      "id": "postgres/indexes"
+    },
+    {
+      "id": "scm/git/setup"
+    },
+    {
+      "id": "scm/git/intro"
+    },
+    {
+      "id": "scm/git/integration"
+    },
+    {
+      "id": "scm/github/setup"
+    },
+    {
+      "id": "scm/github/collaboration"
+    },
+    {
+      "id": "scm/github/project-management"
+    }
+  ],
+  "variants": [
+    {
+      "name": "java",
+      "learningObjectives": [
+        {
+          "id": "java/access-modifiers"
+        },
+        {
+          "id": "java/variables"
+        },
+        {
+          "id": "java/conditionals"
+        },
+        {
+          "id": "java/loops"
+        },
+        {
+          "id": "java/data-types/primitive"
+        },
+        {
+          "id": "java/data-types/primitive-vs-non-primitive"
+        },
+        {
+          "id": "java/data-types/strings"
+        },
+        {
+          "id": "java/data-types/arrays"
+        },
+        {
+          "id": "java/collections/array-list"
+        },
+        {
+          "id": "java/collections/hash-map"
+        },
+        {
+          "id": "java/collections/hash-set"
+        },
+        {
+          "id": "java/testing/junit"
+        },
+        {
+          "id": "java/testing/mockito"
+        },
+        {
+          "id": "java/spring-framework/core-concepts/beans"
+        },
+        {
+          "id": "java/spring-framework/core-concepts/inversion-of-control"
+        },
+        {
+          "id": "java/spring-framework/core-concepts/annotations"
+        },
+        {
+          "id": "java/spring-framework/initializr"
+        },
+        {
+          "id": "java/spring-framework/spring-boot"
+        },
+        {
+          "id": "java/spring-framework/controllers"
+        },
+        {
+          "id": "java/spring-framework/services"
+        },
+        {
+          "id": "java/spring-framework/spring-data-jpa"
+        },
+        {
+          "id": "java/spring-framework/entity"
+        },
+        {
+          "id": "java/spring-framework/repository"
+        },
+        {
+          "id": "java/spring-framework/spring-web/rest-controller"
+        },
+        {
+          "id": "java/spring-framework/spring-web/request-mapping"
+        },
+        {
+          "id": "java/spring-framework/spring-web/request-param"
+        },
+        {
+          "id": "java/spring-framework/testing/spring-test"
+        },
+        {
+          "id": "java/spring-framework/testing/hamcrest"
+        },
+        {
+          "id": "java/hibernate-orm/setup"
+        },
+        {
+          "id": "java/hibernate-orm/schema"
+        },
+        {
+          "id": "java/hibernate-orm/entity"
+        },
+        {
+          "id": "java/hibernate-orm/table"
+        },
+        {
+          "id": "java/hibernate-orm/column"
+        },
+        {
+          "id": "java/hibernate-orm/identifiers"
+        },
+        {
+          "id": "java/hibernate-orm/associations"
+        },
+        {
+          "id": "java/hibernate-orm/collections"
+        },
+        {
+          "id": "java/hibernate-orm/persistance"
+        },
+        {
+          "id": "java/hibernate-orm/querying"
+        },
+        {
+          "id": "object-oriented-programming/classes"
+        },
+        {
+          "id": "object-oriented-programming/objects"
+        },
+        {
+          "id": "object-oriented-programming/methods"
+        },
+        {
+          "id": "object-oriented-programming/attributes"
+        },
+        {
+          "id": "object-oriented-programming/constructors"
+        },
+        {
+          "id": "object-oriented-programming/encapsulation"
+        },
+        {
+          "id": "object-oriented-programming/abstraction"
+        },
+        {
+          "id": "object-oriented-programming/composition"
+        },
+        {
+          "id": "object-oriented-programming/interfaces"
+        },
+        {
+          "id": "object-oriented-programming/inheritance"
+        },
+        {
+          "id": "object-oriented-programming/unified-model-language"
+        }
+      ]
+    },
+    {
+      "name": "node",
+      "learningObjectives": [
+        {
+          "id": "js/testing/unit"
+        },
+        {
+          "id": "js/testing/async"
+        },
+        {
+          "id": "js/testing/mocks"
+        },
+        {
+          "id": "js/testing/e2e"
+        },
+        {
+          "id": "js/modules/es-modules"
+        },
+        {
+          "id": "js/modules/commonjs"
+        },
+        {
+          "id": "js/linting"
+        },
+        {
+          "id": "js/semantics"
+        },
+        {
+          "id": "node/npm-install"
+        },
+        {
+          "id": "node/package.json"
+        },
+        {
+          "id": "node/npm-scripts"
+        },
+        {
+          "id": "express/routing"
+        },
+        {
+          "id": "express/middleware"
+        },
+        {
+          "id": "typescript/basic-types/primitives"
+        },
+        {
+          "id": "typescript/basic-types/arrays"
+        },
+        {
+          "id": "typescript/basic-types/functions"
+        },
+        {
+          "id": "typescript/basic-types/object-types/optional-properties"
+        },
+        {
+          "id": "typescript/basic-types/union-types"
+        },
+        {
+          "id": "typescript/basic-types/interfaces"
+        },
+        {
+          "id": "typescript/basic-types/enums"
+        },
+        {
+          "id": "object-oriented-programming/classes",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/objects",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/methods",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/attributes",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/constructors",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/encapsulation",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/abstraction",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/composition",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/interfaces",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/inheritance",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/unified-model-language",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "name": "python",
+      "learningObjectives": [
+        {
+          "id": "python/data-types/primitive"
+        },
+        {
+          "id": "python/data-types/lists"
+        },
+        {
+          "id": "python/data-types/tuples"
+        },
+        {
+          "id": "python/data-types/dictionaries"
+        },
+        {
+          "id": "python/data-types/sets"
+        },
+        {
+          "id": "python/variables"
+        },
+        {
+          "id": "python/conditionals"
+        },
+        {
+          "id": "python/operators"
+        },
+        {
+          "id": "python/docstrings"
+        },
+        {
+          "id": "python/functions/basic-concepts"
+        },
+        {
+          "id": "python/functions/args-kwargs"
+        },
+        {
+          "id": "python/functions/closures"
+        },
+        {
+          "id": "python/functions/lambda-functions"
+        },
+        {
+          "id": "python/functions/decorators"
+        },
+        {
+          "id": "python/iteration/loops"
+        },
+        {
+          "id": "python/iteration/list-comprehension"
+        },
+        {
+          "id": "python/iteration/functional-techniques"
+        },
+        {
+          "id": "python/linting"
+        },
+        {
+          "id": "python/testing/unit-tests"
+        },
+        {
+          "id": "python/testing/mocks"
+        },
+        {
+          "id": "python/testing/fixtures"
+        },
+        {
+          "id": "python/modularization/modules"
+        },
+        {
+          "id": "python/modularization/packages"
+        },
+        {
+          "id": "python/dependency-management/pip"
+        },
+        {
+          "id": "python/dependency-management/virtual-environment"
+        },
+        {
+          "id": "python/dependency-management/requirements-file"
+        },
+        {
+          "id": "python/serialization"
+        },
+        {
+          "id": "python/flask/routes/route-decorator"
+        },
+        {
+          "id": "python/flask/routes/view-function"
+        },
+        {
+          "id": "python/flask/routes/variable-rules"
+        },
+        {
+          "id": "python/flask/request/args"
+        },
+        {
+          "id": "python/flask/request/headers"
+        },
+        {
+          "id": "python/flask/response/response-parts"
+        },
+        {
+          "id": "python/flask/response/jsonify"
+        },
+        {
+          "id": "python/flask/testing/fixture-setup"
+        },
+        {
+          "id": "python/flask/testing/test-client"
+        },
+        {
+          "id": "python/django/setup/migrations"
+        },
+        {
+          "id": "python/django/setup/app"
+        },
+        {
+          "id": "python/django/models/fields"
+        },
+        {
+          "id": "python/django/models/foreign-Key"
+        },
+        {
+          "id": "python/django/views"
+        },
+        {
+          "id": "python/django/testing"
+        },
+        {
+          "id": "python/django/queryset"
+        },
+        {
+          "id": "python/django/filter"
+        },
+        {
+          "id": "python/django/order-by"
+        },
+        {
+          "id": "python/django/url-configuration"
+        },
+        {
+          "id": "python/django/rest-framework/serializers"
+        },
+        {
+          "id": "python/django/rest-framework/pagination"
+        },
+        {
+          "id": "python/django/rest-framework/query-params"
+        },
+        {
+          "id": "python/django/rest-framework/viewset"
+        },
+        {
+          "id": "python/django/rest-framework/apiview"
+        },
+        {
+          "id": "object-oriented-programming/classes",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/objects",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/methods",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/attributes",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/constructors",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/encapsulation",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/abstraction",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/composition",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/interfaces",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/inheritance",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/unified-model-language",
+          "optional": true
+        },
+        {
+          "id": "sql/crud",
+          "exclude": true
+        },
+        {
+          "id": "postgres/data-types",
+          "exclude": true
+        },
+        {
+          "id": "postgres/indexes",
+          "exclude": true
+        }
+      ]
+    },
+    {
+      "name": "csharp",
+      "learningObjectives": [
+        {
+          "id": "csharp/data-types/primitives"
+        },
+        {
+          "id": "csharp/data-types/non-primitives"
+        },
+        {
+          "id": "csharp/data-types/structs"
+        },
+        {
+          "id": "csharp/data-types/enums"
+        },
+        {
+          "id": "csharp/data-types/anonymous-types"
+        },
+        {
+          "id": "csharp/data-types/dynamic-types"
+        },
+        {
+          "id": "csharp/collections/lists"
+        },
+        {
+          "id": "csharp/collections/arrays"
+        },
+        {
+          "id": "csharp/collections/sets"
+        },
+        {
+          "id": "csharp/variables"
+        },
+        {
+          "id": "csharp/conditionals"
+        },
+        {
+          "id": "csharp/loops"
+        },
+        {
+          "id": "csharp/operators"
+        },
+        {
+          "id": "csharp/generics"
+        },
+        {
+          "id": "csharp/access-modifiers"
+        },
+        {
+          "id": "csharp/namespaces"
+        },
+        {
+          "id": "csharp/functions/lambda-functions"
+        },
+        {
+          "id": "csharp/functions/decorators"
+        },
+        {
+          "id": "csharp/error-handling/try-catch"
+        },
+        {
+          "id": "csharp/error-handling/throw"
+        },
+        {
+          "id": "csharp/linq"
+        },
+        {
+          "id": "csharp/async-await"
+        },
+        {
+          "id": "csharp/.net-core"
+        },
+        {
+          "id": "csharp/nuget-packages"
+        },
+        {
+          "id": "csharp/testing/xunit"
+        },
+        {
+          "id": "csharp/testing/mstest"
+        },
+        {
+          "id": "csharp/entity-framework/code-first"
+        },
+        {
+          "id": "csharp/entity-framework/models"
+        },
+        {
+          "id": "csharp/entity-framework/fluent-api"
+        },
+        {
+          "id": "csharp/entity-framework/controllers"
+        },
+        {
+          "id": "csharp/entity-framework/migrations"
+        },
+        {
+          "id": "object-oriented-programming/classes",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/objects",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/methods",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/attributes",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/constructors",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/encapsulation",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/abstraction",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/composition",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/interfaces",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/inheritance",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/unified-model-language",
+          "optional": true
+        }
+      ]
+    }
   ],
   "intl": {
     "es": {

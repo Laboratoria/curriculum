@@ -2,41 +2,96 @@
   "slug": "design-detectives",
   "repo": "Laboratoria/curriculum",
   "path": "projects/01-design-detectives",
-  "version": "8.8.0",
-  "parserVersion": "5.3.0",
-  "createdAt": "2024-06-12T19:49:42.952Z",
+  "version": "9.0.0-beta.0",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-06-13T15:42:56.736Z",
   "prefix": 1,
   "track": "ux",
   "tracks": [
     "ux"
   ],
+  "tags": [
+    "featured"
+  ],
   "learningObjectives": [
-    "agile-planning/tasks",
-    "agile-planning/workplan",
-    "business-understanding/benchmark",
-    "research-planning/research-plan",
-    "research-planning/desk-research",
-    "research-planning/research-sample",
-    "research-planning/participants",
-    "research-quantitative/user-surveys",
-    "research-analysis/identify-patterns",
-    "research-analysis/process-information",
-    "research-analysis/synthesize-results",
-    "design-concept/design-references",
-    "design-concept/ideate",
-    "design-concept/prioritize-ideas",
-    "interaction-design/user-flows",
-    "interaction-design/usability",
-    "interface-design/visual-design",
-    "design-prototype/basic-prototypes",
-    "design-prototype/high-fidelity",
-    "usability-analysis/moderated-testing",
-    "usability-analysis/heuristic-analysis",
-    "design-pitch/design-feedback",
-    "design-pitch/design-presentation",
-    "design-pitch/ai-presentations",
-    "design-specs/file-organization",
-    "design-specs/project-documentation"
+    {
+      "id": "agile-planning/tasks"
+    },
+    {
+      "id": "agile-planning/workplan"
+    },
+    {
+      "id": "business-understanding/benchmark"
+    },
+    {
+      "id": "research-planning/research-plan"
+    },
+    {
+      "id": "research-planning/desk-research"
+    },
+    {
+      "id": "research-planning/research-sample"
+    },
+    {
+      "id": "research-planning/participants"
+    },
+    {
+      "id": "research-quantitative/user-surveys"
+    },
+    {
+      "id": "research-analysis/identify-patterns"
+    },
+    {
+      "id": "research-analysis/process-information"
+    },
+    {
+      "id": "research-analysis/synthesize-results"
+    },
+    {
+      "id": "design-concept/design-references"
+    },
+    {
+      "id": "design-concept/ideate"
+    },
+    {
+      "id": "design-concept/prioritize-ideas"
+    },
+    {
+      "id": "interaction-design/user-flows"
+    },
+    {
+      "id": "interaction-design/usability"
+    },
+    {
+      "id": "interface-design/visual-design"
+    },
+    {
+      "id": "design-prototype/basic-prototypes"
+    },
+    {
+      "id": "design-prototype/high-fidelity"
+    },
+    {
+      "id": "usability-analysis/moderated-testing"
+    },
+    {
+      "id": "usability-analysis/heuristic-analysis"
+    },
+    {
+      "id": "design-pitch/design-feedback"
+    },
+    {
+      "id": "design-pitch/design-presentation"
+    },
+    {
+      "id": "design-pitch/ai-presentations"
+    },
+    {
+      "id": "design-specs/file-organization"
+    },
+    {
+      "id": "design-specs/project-documentation"
+    }
   ],
   "intl": {
     "es": {

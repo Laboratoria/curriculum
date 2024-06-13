@@ -2,33 +2,72 @@
   "slug": "uxploradoras-ui",
   "repo": "Laboratoria/curriculum",
   "path": "projects/02-uxploradoras-ui",
-  "version": "8.8.0",
-  "parserVersion": "5.3.0",
-  "createdAt": "2024-06-12T19:49:53.017Z",
+  "version": "9.0.0-beta.0",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-06-13T15:43:00.165Z",
   "prefix": 2,
   "track": "ux",
   "tracks": [
     "ux"
   ],
+  "tags": [
+    "deprecated"
+  ],
   "learningObjectives": [
-    "agile-planning/scope",
-    "agile-planning/workplan",
-    "agile-planning/tasks",
-    "research-planning/research-plan",
-    "research-planning/research-sample",
-    "research-planning/participants",
-    "content-design/voice-tone",
-    "content-design/micro-content",
-    "interface-design/visual-design",
-    "interface-design/accesibility",
-    "design-prototype/basic-prototypes",
-    "usability-analysis/non-moderated-testing",
-    "design-pitch/design-feedback",
-    "design-pitch/design-presentation",
-    "design-specs/file-organization",
-    "design-specs/use-cases",
-    "design-specs/project-documentation",
-    "design-systems/atomic-design"
+    {
+      "id": "agile-planning/scope"
+    },
+    {
+      "id": "agile-planning/workplan"
+    },
+    {
+      "id": "agile-planning/tasks"
+    },
+    {
+      "id": "research-planning/research-plan"
+    },
+    {
+      "id": "research-planning/research-sample"
+    },
+    {
+      "id": "research-planning/participants"
+    },
+    {
+      "id": "content-design/voice-tone"
+    },
+    {
+      "id": "content-design/micro-content"
+    },
+    {
+      "id": "interface-design/visual-design"
+    },
+    {
+      "id": "interface-design/accesibility"
+    },
+    {
+      "id": "design-prototype/basic-prototypes"
+    },
+    {
+      "id": "usability-analysis/non-moderated-testing"
+    },
+    {
+      "id": "design-pitch/design-feedback"
+    },
+    {
+      "id": "design-pitch/design-presentation"
+    },
+    {
+      "id": "design-specs/file-organization"
+    },
+    {
+      "id": "design-specs/use-cases"
+    },
+    {
+      "id": "design-specs/project-documentation"
+    },
+    {
+      "id": "design-systems/atomic-design"
+    }
   ],
   "intl": {
     "es": {

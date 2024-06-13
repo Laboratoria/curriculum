@@ -3,9 +3,9 @@
     "slug": "browser",
     "repo": "Laboratoria/curriculum",
     "path": "topics/browser",
-    "version": "8.8.0",
-    "parserVersion": "5.3.0",
-    "createdAt": "2024-06-12T19:50:14.825Z",
+    "version": "9.0.0-beta.0",
+    "parserVersion": "6.0.0",
+    "createdAt": "2024-06-13T15:43:09.724Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -27,9 +27,9 @@
     "slug": "content-management",
     "repo": "Laboratoria/curriculum",
     "path": "topics/content-management",
-    "version": "8.8.0",
-    "parserVersion": "5.3.0",
-    "createdAt": "2024-06-12T19:50:13.844Z",
+    "version": "9.0.0-beta.0",
+    "parserVersion": "6.0.0",
+    "createdAt": "2024-06-13T15:43:12.237Z",
     "track": "ux",
     "tracks": [
       "ux"
@@ -47,9 +47,9 @@
     "slug": "css",
     "repo": "Laboratoria/curriculum",
     "path": "topics/css",
-    "version": "8.8.0",
-    "parserVersion": "5.3.0",
-    "createdAt": "2024-06-12T19:50:18.850Z",
+    "version": "9.0.0-beta.0",
+    "parserVersion": "6.0.0",
+    "createdAt": "2024-06-13T15:43:13.443Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -71,9 +71,9 @@
     "slug": "functional",
     "repo": "Laboratoria/curriculum",
     "path": "topics/functional",
-    "version": "8.8.0",
-    "parserVersion": "5.3.0",
-    "createdAt": "2024-06-12T19:50:18.651Z",
+    "version": "9.0.0-beta.0",
+    "parserVersion": "6.0.0",
+    "createdAt": "2024-06-13T15:43:13.269Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -91,9 +91,9 @@
     "slug": "html",
     "repo": "Laboratoria/curriculum",
     "path": "topics/html",
-    "version": "8.8.0",
-    "parserVersion": "5.3.0",
-    "createdAt": "2024-06-12T19:50:18.384Z",
+    "version": "9.0.0-beta.0",
+    "parserVersion": "6.0.0",
+    "createdAt": "2024-06-13T15:43:12.882Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -115,9 +115,9 @@
     "slug": "interaction-design",
     "repo": "Laboratoria/curriculum",
     "path": "topics/interaction-design",
-    "version": "8.8.0",
-    "parserVersion": "5.3.0",
-    "createdAt": "2024-06-12T19:50:21.557Z",
+    "version": "9.0.0-beta.0",
+    "parserVersion": "6.0.0",
+    "createdAt": "2024-06-13T15:43:12.538Z",
     "track": "ux",
     "tracks": [
       "ux"
@@ -135,9 +135,9 @@
     "slug": "intro-ux",
     "repo": "Laboratoria/curriculum",
     "path": "topics/intro-ux",
-    "version": "8.8.0",
-    "parserVersion": "5.3.0",
-    "createdAt": "2024-06-12T19:50:21.313Z",
+    "version": "9.0.0-beta.0",
+    "parserVersion": "6.0.0",
+    "createdAt": "2024-06-13T15:43:12.136Z",
     "track": "ux",
     "tracks": [
       "ux"
@@ -155,9 +155,9 @@
     "slug": "javascript",
     "repo": "Laboratoria/curriculum",
     "path": "topics/javascript",
-    "version": "8.8.0",
-    "parserVersion": "5.3.0",
-    "createdAt": "2024-06-12T19:50:22.877Z",
+    "version": "9.0.0-beta.0",
+    "parserVersion": "6.0.0",
+    "createdAt": "2024-06-13T15:43:14.302Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -179,9 +179,9 @@
     "slug": "learning-mindset",
     "repo": "Laboratoria/curriculum",
     "path": "topics/learning-mindset",
-    "version": "8.8.0",
-    "parserVersion": "5.3.0",
-    "createdAt": "2024-06-12T19:50:26.188Z",
+    "version": "9.0.0-beta.0",
+    "parserVersion": "6.0.0",
+    "createdAt": "2024-06-13T15:43:16.131Z",
     "track": "web-dev",
     "tracks": [
       "web-dev",
@@ -200,9 +200,9 @@
     "slug": "paradigms",
     "repo": "Laboratoria/curriculum",
     "path": "topics/paradigms",
-    "version": "8.8.0",
-    "parserVersion": "5.3.0",
-    "createdAt": "2024-06-12T19:50:26.904Z",
+    "version": "9.0.0-beta.0",
+    "parserVersion": "6.0.0",
+    "createdAt": "2024-06-13T15:43:17.005Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -220,9 +220,9 @@
     "slug": "prototyping",
     "repo": "Laboratoria/curriculum",
     "path": "topics/prototyping",
-    "version": "8.8.0",
-    "parserVersion": "5.3.0",
-    "createdAt": "2024-06-12T19:50:26.477Z",
+    "version": "9.0.0-beta.0",
+    "parserVersion": "6.0.0",
+    "createdAt": "2024-06-13T15:43:16.197Z",
     "track": "ux",
     "tracks": [
       "ux"
@@ -240,9 +240,9 @@
     "slug": "scm",
     "repo": "Laboratoria/curriculum",
     "path": "topics/scm",
-    "version": "8.8.0",
-    "parserVersion": "5.3.0",
-    "createdAt": "2024-06-12T19:50:30.515Z",
+    "version": "9.0.0-beta.0",
+    "parserVersion": "6.0.0",
+    "createdAt": "2024-06-13T15:43:16.643Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -264,9 +264,9 @@
     "slug": "shell",
     "repo": "Laboratoria/curriculum",
     "path": "topics/shell",
-    "version": "8.8.0",
-    "parserVersion": "5.3.0",
-    "createdAt": "2024-06-12T19:50:30.282Z",
+    "version": "9.0.0-beta.0",
+    "parserVersion": "6.0.0",
+    "createdAt": "2024-06-13T15:43:16.252Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -288,9 +288,9 @@
     "slug": "ux-research",
     "repo": "Laboratoria/curriculum",
     "path": "topics/ux-research",
-    "version": "8.8.0",
-    "parserVersion": "5.3.0",
-    "createdAt": "2024-06-12T19:50:30.711Z",
+    "version": "9.0.0-beta.0",
+    "parserVersion": "6.0.0",
+    "createdAt": "2024-06-13T15:43:16.845Z",
     "track": "ux",
     "tracks": [
       "ux"
