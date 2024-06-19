@@ -1189,6 +1189,30 @@ sql/drop:
     - title: DROP DATABASE
       url: https://www.postgresql.org/docs/8.2/sql-dropdatabase.html
 
+sql/select-where-orderby:
+  title: Realizar operaciones básicas de consulta de una base de datos utilizando las cláusulas SELECT, WHERE y ORDER BY
+  links:
+    - title: Querying a Table
+      url: https://www.postgresql.org/docs/current/tutorial-select.html
+
+sql/group-having-aggregatefunctions:
+  title: Trabajar con funciones de agregación como COUNT, SUM, AVG, MAX y MIN, y cláusulas de agrupación de datos como GROUP BY y HAVING
+  links:
+    - title: Aggregate Functions
+      url: https://www.postgresql.org/docs/current/tutorial-agg.html
+
+sql/joins:
+  title: Comprender y utilizar joins para combinar datos de múltiples tablas.
+  links:
+    - title: Joins Between Tables
+      url: https://www.postgresql.org/docs/current/tutorial-join.html
+
+sql/subqueries-nested-queries:
+  title: Trabajar con subconsultas y consultas anidadas
+  links:
+    - title: Subquery Expressions
+      url: https://www.postgresql.org/docs/current/functions-subquery.html
+
 mongodb:
   title: MongoDB
 
