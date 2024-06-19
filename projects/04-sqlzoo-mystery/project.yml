@@ -1,0 +1,7 @@
+track: web-dev
+learningObjectives:
+  - sql/select-where-orderby
+  - sql/group-having-aggregatefunctions
+  - sql/joins
+  - sql/subqueries-nested-queries
+  

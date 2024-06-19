@@ -351,6 +351,10 @@ sql:
   - tables
   - crud
   - drop
+  - select-where-orderby
+  - group-having-aggregatefunctions
+  - joins
+  - subqueries-nested-queries
 
 postgres:
   - psql
