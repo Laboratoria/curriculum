@@ -7,7 +7,7 @@
 + [3. Resumen del proyecto](#3-resumo-do-projeto)
 + [4. Tutoriales Interactivos](#4-tutoriais-interativos)
 + [5. Considerações para pedir seu Project Feedback](#5-considerações-para-pedir-seu-project-feedback)
-- [6. Objetivos de aprendizagem](#6-objetivos-de-aprendizagem)
++ [6. Objetivos de aprendizagem](#6-objetivos-de-aprendizagem)
 
 +++
 
