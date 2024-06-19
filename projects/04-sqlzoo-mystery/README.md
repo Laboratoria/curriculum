@@ -107,7 +107,7 @@ A continuación esta el orden en que te sugerimos seguir los tutoriales.
     + [Placements](https://www.hackerrank.com/challenges/placements/problem?isFullScreen=true)
 
 13. [Using Null](https://sqlzoo.net/wiki/Using_Null)
-  
+
 ### Hacker Edition
 
 Puedes tomar el tutorial
