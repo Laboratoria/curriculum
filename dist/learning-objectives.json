@@ -430,7 +430,11 @@
     "sql": [
       "tables",
       "crud",
-      "drop"
+      "drop",
+      "select-where-orderby",
+      "group-having-aggregatefunctions",
+      "joins",
+      "subqueries-nested-queries"
     ],
     "postgres": [
       "psql",
@@ -930,6 +934,10 @@
     "sql/tables",
     "sql/crud",
     "sql/drop",
+    "sql/select-where-orderby",
+    "sql/group-having-aggregatefunctions",
+    "sql/joins",
+    "sql/subqueries-nested-queries",
     "postgres",
     "postgres/psql",
     "postgres/data-types",
@@ -2720,6 +2728,42 @@
           {
             "title": "DROP DATABASE",
             "url": "https://www.postgresql.org/docs/8.2/sql-dropdatabase.html"
+          }
+        ]
+      },
+      "sql/select-where-orderby": {
+        "title": "Realizar operaciones básicas de consulta de una base de datos utilizando las cláusulas SELECT, WHERE y ORDER BY",
+        "links": [
+          {
+            "title": "Querying a Table",
+            "url": "https://www.postgresql.org/docs/current/tutorial-select.html"
+          }
+        ]
+      },
+      "sql/group-having-aggregatefunctions": {
+        "title": "Trabajar con funciones de agregación como COUNT, SUM, AVG, MAX y MIN, y cláusulas de agrupación de datos como GROUP BY y HAVING",
+        "links": [
+          {
+            "title": "Aggregate Functions",
+            "url": "https://www.postgresql.org/docs/current/tutorial-agg.html"
+          }
+        ]
+      },
+      "sql/joins": {
+        "title": "Comprender y utilizar joins para combinar datos de múltiples tablas.",
+        "links": [
+          {
+            "title": "Joins Between Tables",
+            "url": "https://www.postgresql.org/docs/current/tutorial-join.html"
+          }
+        ]
+      },
+      "sql/subqueries-nested-queries": {
+        "title": "Trabajar con subconsultas y consultas anidadas",
+        "links": [
+          {
+            "title": "Subquery Expressions",
+            "url": "https://www.postgresql.org/docs/current/functions-subquery.html"
           }
         ]
       },
@@ -6089,6 +6133,42 @@
           }
         ]
       },
+      "sql/select-where-orderby": {
+        "title": "Realizar operações básicas de consulta em um banco de dados utilizando as cláusulas SELECT, WHERE e ORDER BY.",
+        "links": [
+          {
+            "title": "Querying a Table",
+            "url": "https://www.postgresql.org/docs/current/tutorial-select.html"
+          }
+        ]
+      },
+      "sql/group-having-aggregatefunctions": {
+        "title": "Trabalhar com funções de agregação como COUNT, SUM, AVG, MAX e MIN, e cláusulas de agrupamento de dados como GROUP BY e HAVING.",
+        "links": [
+          {
+            "title": "Aggregate Functions",
+            "url": "https://www.postgresql.org/docs/current/tutorial-agg.html"
+          }
+        ]
+      },
+      "sql/joins": {
+        "title": "Compreender e utilizar joins para combinar dados de múltiplas tabelas.",
+        "links": [
+          {
+            "title": "Joins Between Tables",
+            "url": "https://www.postgresql.org/docs/current/tutorial-join.html"
+          }
+        ]
+      },
+      "sql/subqueries-nested-queries": {
+        "title": "Trabalhar com subconsultas e consultas aninhadas.",
+        "links": [
+          {
+            "title": "Subquery Expressions",
+            "url": "https://www.postgresql.org/docs/current/functions-subquery.html"
+          }
+        ]
+      },
       "mongodb": {
         "title": "MongoDB"
       },
@@ -8957,6 +9037,26 @@
       "key": "sql/drop",
       "es": "Borrado de tablas o bases de datos enteras con DROP",
       "pt": "Exclusão de tabelas ou bancos de dados inteiros com DROP"
+    },
+    {
+      "key": "sql/select-where-orderby",
+      "es": "Realizar operaciones básicas de consulta de una base de datos utilizando las cláusulas SELECT, WHERE y ORDER BY",
+      "pt": "Realizar operações básicas de consulta em um banco de dados utilizando as cláusulas SELECT, WHERE e ORDER BY."
+    },
+    {
+      "key": "sql/group-having-aggregatefunctions",
+      "es": "Trabajar con funciones de agregación como COUNT, SUM, AVG, MAX y MIN, y cláusulas de agrupación de datos como GROUP BY y HAVING",
+      "pt": "Trabalhar com funções de agregação como COUNT, SUM, AVG, MAX e MIN, e cláusulas de agrupamento de dados como GROUP BY e HAVING."
+    },
+    {
+      "key": "sql/joins",
+      "es": "Comprender y utilizar joins para combinar datos de múltiples tablas.",
+      "pt": "Compreender e utilizar joins para combinar dados de múltiplas tabelas."
+    },
+    {
+      "key": "sql/subqueries-nested-queries",
+      "es": "Trabajar con subconsultas y consultas anidadas",
+      "pt": "Trabalhar com subconsultas e consultas aninhadas."
     },
     {
       "key": "postgres",
