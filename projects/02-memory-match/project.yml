@@ -1,4 +1,6 @@
 track: web-dev
+tags:
+  - hidden
 learningObjectives:
   - html/semantics
   - css/selectors

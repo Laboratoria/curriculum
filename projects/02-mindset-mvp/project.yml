@@ -1,4 +1,6 @@
 track: ux
+tags:
+  - featured
 learningObjectives:
   - agile-planning/workplan
   - agile-planning/tasks
@@ -10,7 +12,7 @@ learningObjectives:
   - research-analysis
   - design-concept
   - interaction-design
-  - content-design/create-content
+  - content-design/micro-content
   - interface-design/visual-design
   - interface-design/accesibility
   - design-prototype/basic-prototypes

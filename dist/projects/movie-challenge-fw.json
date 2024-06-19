@@ -2,78 +2,204 @@
   "slug": "movie-challenge-fw",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-movie-challenge-fw",
-  "version": "8.6.0",
-  "parserVersion": "5.3.0",
-  "createdAt": "2024-04-12T16:40:36.330Z",
+  "version": "9.0.0",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-06-13T16:06:07.822Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [
     "web-dev"
   ],
   "learningObjectives": [
-    "html/semantics",
-    "css/selectors",
-    "css/box-model",
-    "css/flexbox",
-    "css/grid",
-    "css/media-queries",
-    "js/testing/unit",
-    "js/testing/async",
-    "js/testing/mocks",
-    "js/modules/es-modules",
-    "js/linting",
-    "js/semantics",
-    "scm/git/setup",
-    "scm/git/intro",
-    "scm/git/integration",
-    "scm/github/setup",
-    "scm/github/gh-pages",
-    "scm/github/collaboration",
-    "scm/github/project-management",
-    "http/request-response",
-    "http/headers",
-    "http/body",
-    "http/verbs",
-    "http/status-codes",
-    "http/json",
-    "http/cors",
-    "angular/components-and-templates",
-    "angular/component-lifecycle",
-    "angular/structural-directives",
-    "angular/input-output",
-    "angular/services",
-    "angular/routing",
-    "angular/observables",
-    "angular/http-client",
-    "angular/styles",
-    "react/jsx",
-    "react/components",
-    "react/events",
-    "react/lists-and-keys",
-    "react/conditional-rendering",
-    "react/lifting-up-state",
-    "react/hooks",
-    "react/css-modules",
-    "react/routing",
-    "vue/instance",
-    "vue/data-and-methods",
-    "vue/components",
-    "vue/props",
-    "vue/directives",
-    "vue/iteration",
-    "vue/events",
-    "vue/computed-props-and-observers",
-    "vue/routing",
-    "vue/classes-and-styles",
-    "typescript/basic-types/primitives",
-    "typescript/basic-types/arrays",
-    "typescript/basic-types/functions",
-    "typescript/basic-types/object-types/optional-properties",
-    "typescript/basic-types/union-types",
-    "typescript/basic-types/interfaces",
-    "typescript/basic-types/enums",
-    "product-design/interactivity",
-    "product-design/visual-design"
+    {
+      "id": "html/semantics"
+    },
+    {
+      "id": "css/selectors"
+    },
+    {
+      "id": "css/box-model"
+    },
+    {
+      "id": "css/flexbox"
+    },
+    {
+      "id": "css/grid"
+    },
+    {
+      "id": "css/media-queries"
+    },
+    {
+      "id": "js/testing/unit"
+    },
+    {
+      "id": "js/testing/async"
+    },
+    {
+      "id": "js/testing/mocks"
+    },
+    {
+      "id": "js/modules/es-modules"
+    },
+    {
+      "id": "js/linting"
+    },
+    {
+      "id": "js/semantics"
+    },
+    {
+      "id": "scm/git/setup"
+    },
+    {
+      "id": "scm/git/intro"
+    },
+    {
+      "id": "scm/git/integration"
+    },
+    {
+      "id": "scm/github/setup"
+    },
+    {
+      "id": "scm/github/gh-pages"
+    },
+    {
+      "id": "scm/github/collaboration"
+    },
+    {
+      "id": "scm/github/project-management"
+    },
+    {
+      "id": "http/request-response"
+    },
+    {
+      "id": "http/headers"
+    },
+    {
+      "id": "http/body"
+    },
+    {
+      "id": "http/verbs"
+    },
+    {
+      "id": "http/status-codes"
+    },
+    {
+      "id": "http/json"
+    },
+    {
+      "id": "http/cors"
+    },
+    {
+      "id": "angular/components-and-templates"
+    },
+    {
+      "id": "angular/component-lifecycle"
+    },
+    {
+      "id": "angular/structural-directives"
+    },
+    {
+      "id": "angular/input-output"
+    },
+    {
+      "id": "angular/services"
+    },
+    {
+      "id": "angular/routing"
+    },
+    {
+      "id": "angular/observables"
+    },
+    {
+      "id": "angular/http-client"
+    },
+    {
+      "id": "angular/styles"
+    },
+    {
+      "id": "react/jsx"
+    },
+    {
+      "id": "react/components"
+    },
+    {
+      "id": "react/events"
+    },
+    {
+      "id": "react/lists-and-keys"
+    },
+    {
+      "id": "react/conditional-rendering"
+    },
+    {
+      "id": "react/lifting-up-state"
+    },
+    {
+      "id": "react/hooks"
+    },
+    {
+      "id": "react/css-modules"
+    },
+    {
+      "id": "react/routing"
+    },
+    {
+      "id": "vue/instance"
+    },
+    {
+      "id": "vue/data-and-methods"
+    },
+    {
+      "id": "vue/components"
+    },
+    {
+      "id": "vue/props"
+    },
+    {
+      "id": "vue/directives"
+    },
+    {
+      "id": "vue/iteration"
+    },
+    {
+      "id": "vue/events"
+    },
+    {
+      "id": "vue/computed-props-and-observers"
+    },
+    {
+      "id": "vue/routing"
+    },
+    {
+      "id": "vue/classes-and-styles"
+    },
+    {
+      "id": "typescript/basic-types/primitives"
+    },
+    {
+      "id": "typescript/basic-types/arrays"
+    },
+    {
+      "id": "typescript/basic-types/functions"
+    },
+    {
+      "id": "typescript/basic-types/object-types/optional-properties"
+    },
+    {
+      "id": "typescript/basic-types/union-types"
+    },
+    {
+      "id": "typescript/basic-types/interfaces"
+    },
+    {
+      "id": "typescript/basic-types/enums"
+    },
+    {
+      "id": "product-design/interactivity"
+    },
+    {
+      "id": "product-design/visual-design"
+    }
   ],
   "intl": {
     "es": {

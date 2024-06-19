@@ -1,4 +1,6 @@
 track: web-dev
+tags:
+  - hidden
 learningObjectives:
   - node/npm-install
   - node/package.json

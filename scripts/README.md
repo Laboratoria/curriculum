@@ -71,9 +71,24 @@ Argumentos:
 Opciones:
 
 * `--locale`: Puede ser `es` o `pt`. Por defecto es `es`.
+* `--variant`: Variente de implementación (si el proyecto tiene variantes).
 * `--noop`: Si esta opción está presente el script nos dirá que es lo que haríá
   paso a paso pero sin realmente hacer nada. Es útil para familiarizarse con el
   script.
+
+:warning: Para pasar opciones al script cuando invocamos a través de
+`npm-scripts` (`npm run create-cohort-project`) hay que separar las opciones con
+` -- ` para que `npm` las pase al script.
+
+```sh
+npm run create-cohort-project projects/05-fleet-management-api /tmp XXX999 -- --variant java
+```
+
+Si invocamos directamente no es necesario. Por ejemplo:
+
+```sh
+./scripts/create-cohort-project.mjs projects/05-fleet-management-api /tmp XXX999 --variant java
+```
 
 ***
 
@@ -131,7 +146,7 @@ proceeding with the unit tests.
 npm run pretest
 
 # Run equivalent command
-npm run mdlint && npm run eslint && npm run validate && npm run test:topics
+npm run mdlint && npm run eslint && npm run validate
 ```
 
 ### test
@@ -141,29 +156,6 @@ Run unit tests (and implicitly the `pretest` script).
 ```sh
 # Run tests with npm (and implicitly the pretest script)
 npm test
-```
-
-### start
-
-Arranca la interfaz web.
-
-```sh
-npm start
-```
-
-Alternativamente:
-
-```sh
-npx react-scripts start
-```
-
-### watch
-
-Arranca la interfaz web y escucha cambios en los archivos de contenido (tópicos
-y proyectos) para automáticamente reflejar cambios localmente.
-
-```sh
-npm run watch
 ```
 
 ***

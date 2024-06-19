@@ -1,4 +1,6 @@
 track: ux
+tags:
+  - deprecated
 learningObjectives:
   - agile-planning/scope
   - agile-planning/workplan
@@ -8,7 +10,7 @@ learningObjectives:
   - research-analysis
   - interaction-design
   - content-design/voice-tone
-  - content-design/create-content
+  - content-design/micro-content
   - design-prototype/basic-prototypes
   - usability-analysis/non-moderated-testing
   - design-pitch/design-feedback

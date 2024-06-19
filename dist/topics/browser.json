@@ -2,9 +2,9 @@
   "slug": "browser",
   "repo": "Laboratoria/curriculum",
   "path": "topics/browser",
-  "version": "8.6.0",
-  "parserVersion": "5.3.0",
-  "createdAt": "2024-04-12T16:40:43.126Z",
+  "version": "9.0.0",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-06-13T16:06:09.514Z",
   "track": "web-dev",
   "tracks": [
     "web-dev"
@@ -84,7 +84,7 @@
         },
         {
           "prefix": "03",
-          "slug": "1-dom-methods-selection",
+          "slug": "dom-methods-selection",
           "type": "read",
           "duration": 60,
           "intl": {
@@ -99,8 +99,8 @@
           }
         },
         {
-          "prefix": "03",
-          "slug": "2-dom-methods-crud",
+          "prefix": "04",
+          "slug": "dom-methods-crud",
           "type": "read",
           "duration": 120,
           "intl": {
@@ -115,8 +115,8 @@
           }
         },
         {
-          "prefix": "03",
-          "slug": "3-dom-methods-crud-attributes",
+          "prefix": "05",
+          "slug": "dom-methods-crud-attributes",
           "type": "read",
           "duration": 20,
           "intl": {
@@ -131,8 +131,8 @@
           }
         },
         {
-          "prefix": "03",
-          "slug": "5-reflow-browser",
+          "prefix": "06",
+          "slug": "reflow-browser",
           "type": "read",
           "duration": 10,
           "intl": {
@@ -147,7 +147,7 @@
           }
         },
         {
-          "prefix": "04",
+          "prefix": "07",
           "slug": "events",
           "type": "read",
           "duration": 30,
@@ -163,7 +163,7 @@
           }
         },
         {
-          "prefix": "05",
+          "prefix": "08",
           "slug": "data-attributes",
           "type": "read",
           "duration": 30,
@@ -179,7 +179,7 @@
           }
         },
         {
-          "prefix": "06",
+          "prefix": "09",
           "slug": "practical-cases",
           "type": "read",
           "duration": 360,

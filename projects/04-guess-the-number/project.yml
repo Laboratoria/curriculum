@@ -1,0 +1,40 @@
+track: web-dev
+tags:
+  - featured
+learningObjectives:
+  - java/data-types/primitive-vs-non-primitive
+  - java/data-types/strings
+  - java/data-types/arrays
+  - java/access-modifiers
+  - java/conditionals
+  - java/loops
+  - java/collections/array-list
+  - java/testing/junit
+  - java/testing/mockito
+  - object-oriented-programming
+  - python/data-types
+  - python/variables
+  - python/conditionals
+  - python/operators
+  - python/docstrings
+  - python/functions/basic-concepts
+  - python/iteration/loops
+  - python/linting
+  - python/testing
+  - python/modularization/modules
+  - python/dependency-management
+  - csharp/data-types/primitives
+  - csharp/data-types/non-primitives
+  - csharp/collections
+  - csharp/variables
+  - csharp/conditionals
+  - csharp/loops
+  - csharp/operators
+  - csharp/access-modifiers
+  - csharp/namespaces
+  - csharp/functions
+  - csharp/testing
+  - scm/git
+  - scm/github/setup
+  - scm/github/collaboration
+  - scm/github/project-management

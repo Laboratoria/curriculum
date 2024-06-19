@@ -1,4 +1,5 @@
-import { getFilesWithLocales, 
+import {
+  getFilesWithLocales,
   getLearningObjectivesHeadings,
   getLearningObjectivesHierarchy,
   createLearningObjectivesMarkdown
@@ -7,7 +8,7 @@ import { existsSync } from 'fs';
 import { assert } from 'chai';
 
 describe('script utils', () => {
-  
+
   describe('getFilesWithLocale', () => {
     it('should return all files with .pt.md when locale is pt', () => {
       const filesPt = getFilesWithLocales('scripts/test/fixtures/project-with-localized-docs', ['pt']);
@@ -29,16 +30,30 @@ describe('script utils', () => {
 
   describe('getLearningObjectivesHierarchy', () => {
     it('should return an object with top level categories as keys', () => {
-      const hierarchy = getLearningObjectivesHierarchy(['js/testing/unit', 'js/testing/mocks', 'css/selectors', 'html/semantics']);
+      const hierarchy = getLearningObjectivesHierarchy([
+        { id: 'js/testing/unit' },
+        { id: 'js/testing/mocks' },
+        { id: 'css/selectors' },
+        { id: 'html/semantics' },
+      ]);
       assert.deepEqual(Object.keys(hierarchy), ['js', 'css', 'html']);
     });
     it('should return an object with values of arrays of subcategories for the individual objectives', () => {
-      const hierarchy = getLearningObjectivesHierarchy(['js/testing/unit', 'js/testing/async', 'css/selectors', 'browser/dom/events']);
+      const hierarchy = getLearningObjectivesHierarchy([
+        { id: 'js/testing/unit' },
+        { id: 'js/testing/async' },
+        { id: 'css/selectors' },
+        { id: 'browser/dom/events' },
+      ]);
       const result = { 'js': ['js/testing'], 'css': [], 'browser': ['browser/dom'] };
       assert.deepEqual(hierarchy, result);
     });
     it('should return category keys whose value is an empty array for objectives with no subcategories', () => {
-      const hierarchy = getLearningObjectivesHierarchy(['css/selectors', 'css/flexbox', 'html/semantics']);
+      const hierarchy = getLearningObjectivesHierarchy([
+        { id: 'css/selectors' },
+        { id: 'css/flexbox' },
+        { id: 'html/semantics' },
+      ]);
       assert.deepEqual(hierarchy, { 'css': [], 'html': [] });
     });
   });
@@ -63,13 +78,20 @@ describe('script utils', () => {
 
   describe('createLearningObjectivesMarkdown', () => {
     it('should return a string that contains the headings', () => {
-      const objectives = ['js/testing/unit', 'js/testing/async', 'css/selectors', 'browser/dom/events'];
+      const objectives = [
+        { id: 'js/testing/unit' },
+        { id: 'js/testing/async' },
+        { id: 'css/selectors' },
+        { id: 'browser/dom/events' },
+      ];
       const categoryTree = getLearningObjectivesHierarchy(objectives);
       const sectionTree = getLearningObjectivesHeadings(categoryTree, {});
-      const markdown = createLearningObjectivesMarkdown(objectives,
+      const markdown = createLearningObjectivesMarkdown(
+        objectives,
         sectionTree,
         {},
-        'es');
+        'es',
+      );
       assert.equal(typeof markdown, 'string');
       Object.values(sectionTree).forEach(heading => {
         assert(markdown.includes(heading[0]), 'markdown includes heading');

@@ -2,62 +2,156 @@
   "slug": "burger-queen-api",
   "repo": "Laboratoria/curriculum",
   "path": "projects/04-burger-queen-api",
-  "version": "8.6.0",
-  "parserVersion": "5.3.0",
-  "createdAt": "2024-04-12T16:40:29.376Z",
+  "version": "9.0.0",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-06-13T16:06:06.437Z",
   "prefix": 4,
   "track": "web-dev",
   "tracks": [
     "web-dev"
   ],
   "learningObjectives": [
-    "node/npm-install",
-    "node/package.json",
-    "node/npm-scripts",
-    "js/testing/unit",
-    "js/testing/async",
-    "js/testing/mocks",
-    "js/testing/e2e",
-    "js/modules/es-modules",
-    "js/modules/commonjs",
-    "js/linting",
-    "js/semantics",
-    "scm/git/setup",
-    "scm/git/intro",
-    "scm/git/integration",
-    "scm/github/setup",
-    "scm/github/gh-pages",
-    "scm/github/collaboration",
-    "scm/github/project-management",
-    "express/routing",
-    "express/middleware",
-    "http/request-response",
-    "http/headers",
-    "http/body",
-    "http/verbs",
-    "http/status-codes",
-    "http/json",
-    "http/cors",
-    "auth/jwt",
-    "auth/password-access-and-storage",
-    "webops/env-vars",
-    "webops/docker-containers",
-    "webops/docker-compose",
-    "webops/cloud-functions",
-    "mongodb/crud",
-    "mongodb/schemas",
-    "mongodb/dump-restore",
-    "postgres/psql",
-    "postgres/data-types",
-    "postgres/dump-restore",
-    "mysql/mysql",
-    "mysql/data-types",
-    "mysql/dump-restore",
-    "db/modeling",
-    "db/connection",
-    "sql/tables",
-    "sql/crud",
-    "sql/drop"
+    {
+      "id": "node/npm-install"
+    },
+    {
+      "id": "node/package.json"
+    },
+    {
+      "id": "node/npm-scripts"
+    },
+    {
+      "id": "js/testing/unit"
+    },
+    {
+      "id": "js/testing/async"
+    },
+    {
+      "id": "js/testing/mocks"
+    },
+    {
+      "id": "js/testing/e2e"
+    },
+    {
+      "id": "js/modules/es-modules"
+    },
+    {
+      "id": "js/modules/commonjs"
+    },
+    {
+      "id": "js/linting"
+    },
+    {
+      "id": "js/semantics"
+    },
+    {
+      "id": "scm/git/setup"
+    },
+    {
+      "id": "scm/git/intro"
+    },
+    {
+      "id": "scm/git/integration"
+    },
+    {
+      "id": "scm/github/setup"
+    },
+    {
+      "id": "scm/github/gh-pages"
+    },
+    {
+      "id": "scm/github/collaboration"
+    },
+    {
+      "id": "scm/github/project-management"
+    },
+    {
+      "id": "express/routing"
+    },
+    {
+      "id": "express/middleware"
+    },
+    {
+      "id": "http/request-response"
+    },
+    {
+      "id": "http/headers"
+    },
+    {
+      "id": "http/body"
+    },
+    {
+      "id": "http/verbs"
+    },
+    {
+      "id": "http/status-codes"
+    },
+    {
+      "id": "http/json"
+    },
+    {
+      "id": "http/cors"
+    },
+    {
+      "id": "auth/jwt"
+    },
+    {
+      "id": "auth/password-access-and-storage"
+    },
+    {
+      "id": "webops/env-vars"
+    },
+    {
+      "id": "webops/docker-containers"
+    },
+    {
+      "id": "webops/docker-compose"
+    },
+    {
+      "id": "webops/cloud-functions"
+    },
+    {
+      "id": "mongodb/crud"
+    },
+    {
+      "id": "mongodb/schemas"
+    },
+    {
+      "id": "mongodb/dump-restore"
+    },
+    {
+      "id": "postgres/psql"
+    },
+    {
+      "id": "postgres/data-types"
+    },
+    {
+      "id": "postgres/dump-restore"
+    },
+    {
+      "id": "mysql/mysql"
+    },
+    {
+      "id": "mysql/data-types"
+    },
+    {
+      "id": "mysql/dump-restore"
+    },
+    {
+      "id": "db/modeling"
+    },
+    {
+      "id": "db/connection"
+    },
+    {
+      "id": "sql/tables"
+    },
+    {
+      "id": "sql/crud"
+    },
+    {
+      "id": "sql/drop"
+    }
   ],
   "intl": {
     "es": {

@@ -1899,7 +1899,7 @@ business-understanding/business-model:
   description: Entender cómo genera valor el negocio y la visión de quienes lideran el proyecto
 
 business-understanding/goals-and-kpis:
-  title: Comprender objetivos e indicadores clave
+  title: Comprender objetivos e indicadores de negocio
   description: Comprender los objetivos del negocio y los indicadores de éxito relacionados con el proyecto
 
 business-understanding/benchmark:
@@ -1957,8 +1957,8 @@ research-analysis/process-information:
   description: Procesar a profundidad la información obtenida evitando sesgos
 
 research-analysis/experience-mapping:
-  title: Mapear la experiencia
-  description: Visualizar la información obtenida de los usuarios mediante alguna técnica de documentación UX
+  title: Visualizar la experiencia del usuario
+  description: Sintetizar la información obtenida de los usuarios mediante alguna técnica de documentación para UX (user journey map, mapa de empatía, etc.)
 
 research-analysis/identify-patterns:
   title: Identificar patrones
@@ -2011,16 +2011,20 @@ content-design:
   title: Diseño de contenido
 
 content-design/voice-tone:
-  title: Definir guía de voz y tono
-  description: Crear una guía básica de voz y tono para contenido UX
+  title: Crear guía de voz y tono
+  description: Definir características clave de la voz y el tono para micro-contenido UX según la marca
 
-content-design/create-content:
-  title: Crear contenidos
-  description: Definir el contenido (texto e imágenes) que debe incluir la propuesta de diseño
+content-design/micro-content:
+  title: Proponer micro-contenido para UX
+  description: Crear o mejorar el micro-contenido (botones, instrucciones, etiquetas, etc.) en la interfaz para mejorar la usabilidad
 
 content-design/ai-content:
   title: Crear textos e imágenes usando IA
   description: Explorar múltiples propuestas de texto e imágenes generadas con herramientas de inteligencia artificial (IA)
+
+content-design/visual-content:
+  title: Definir contenido visual para UX
+  description: Proponer el lenguaje visual de las imágenes, iconos e ilustraciones para mejorar la experiencia del usuario
 
 interface-design:
   title: Diseño de interfaces
@@ -2035,7 +2039,7 @@ interface-design/accesibility:
 
 interface-design/responsive-design:
   title: Implementar diseño responsivo
-  description: Crear diseños que se adapten a diferentes dispositivos utilizando principios de responsive design
+  description: Crear diseños independientes que se adapten a diferentes dispositivos, utilizando principios de responsive design
 
 interface-design/ai-proposals:
   title: Generar propuestas visuales mediante IA
@@ -2084,8 +2088,8 @@ design-pitch/design-feedback:
   description: Recolectar feedback técnico de diseño mediante sesiones de crítica colaborativa (Design Critiques, Demos con POs, etc.)
 
 design-pitch/design-presentation:
-  title: Presentar ante el negocio
-  description: Presentar resultados de investigación, propuestas y proceso de diseño utilizando principios de "story-telling"
+  title: Presentar ante stakeholders
+  description: Presentar ante negocio y/o coaches los resultados de investigación, propuestas y proceso de diseño utilizando principios de "story-telling"
 
 design-pitch/ai-presentations:
   title: Apoyarse en herramientas de IA para presentar propuestas
@@ -2100,7 +2104,7 @@ design-specs/file-organization:
   description: Organizar el documento de diseño (Figma) siguiendo buenas prácticas de nombrado y agrupado de capas o componentes
 
 design-specs/use-cases:
-  title: Documentar casos de uso
+  title: Documentar componentes
   description: Documentar los estados de los componentes interactivos y sus casos de uso
 
 design-specs/project-documentation:

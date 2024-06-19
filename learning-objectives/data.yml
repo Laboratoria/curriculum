@@ -496,8 +496,9 @@ interaction-design:
 
 content-design:
   - voice-tone
-  - create-content
+  - micro-content
   - ai-content
+  - visual-content
 
 interface-design:
   - visual-design
