@@ -444,6 +444,13 @@ ai-prompting:
   - priming-chatbots
   - open-ai-api
 
+data-analytics:
+  - data-preparation
+  - data-exploration
+  - data-analysis
+  - analysis-report
+  - analysis-presentation
+
 # New OAs since UXD006
 agile-planning:
   - scope
