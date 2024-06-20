@@ -1,9 +1,9 @@
-# Administração de SQL: Banco de Dados de Alunos
+# Administración de SQL: Student Database
 
 ## Índice
 
-- [1. Considerações gerais](#1-considerações-gerais)
-- [2. Preâmbulo](#2-preâmbulo)
+- [1. Consideraciones generales](#1-consideraciones-generales)
+- [2. Preámbulo](#2-preámbulo)
 - [3. Resumen del proyecto](#3-resumen-del-proyecto)
 - [4. Configuración del Ambiente de Desarrollo](#4-configuracion-del-ambiente-de-desarrollo)
 - [5. Consideraciones para pedir tu Project Feedback](#5-consideraciones-para-pedir-tu-project-feedback)
