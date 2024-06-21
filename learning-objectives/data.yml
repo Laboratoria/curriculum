@@ -348,13 +348,25 @@ db:
   # - sql-vs-nosql
 
 sql:
-  - tables
-  - crud
-  - drop
-  - select-where-orderby
-  - group-having-aggregatefunctions
-  - joins
+  - select-where
+  - order-by
+  - group-by-having
+  - aggregate-functions
+  - join
   - subqueries-nested-queries
+  # - create-table
+  # - insert
+  # - update
+  # - delete
+  # - primary-key
+  # - foreign-key
+  # - create-index
+  # - alter-table
+  # - constraints
+  # - create-view
+  - tables # legacy
+  - crud # legacy
+  - drop # legacy
 
 postgres:
   - psql

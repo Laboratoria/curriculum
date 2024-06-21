@@ -1289,26 +1289,42 @@ sql/drop:
     - title: DROP DATABASE
       url: https://www.postgresql.org/docs/8.2/sql-dropdatabase.html
 
-sql/select-where-orderby:
-  title: Realizar operações básicas de consulta em um banco de dados utilizando as cláusulas SELECT, WHERE e ORDER BY.
+sql/select-where:
+  title: Realizar operações básicas de consulta ao banco de dados usando as cláusulas SELECT e WHERE.
   links:
     - title: Querying a Table
       url: https://www.postgresql.org/docs/current/tutorial-select.html
+    - title: SELECT reference
+      url: https://www.postgresql.org/docs/16/sql-select.html
 
-sql/group-having-aggregatefunctions:
-  title: Trabalhar com funções de agregação como COUNT, SUM, AVG, MAX e MIN, e cláusulas de agrupamento de dados como GROUP BY e HAVING.
+sql/order-by:
+  title: Classifique o resultado usando a cláusula ORDER BY
+  links:
+    - title: SELECT reference
+      url: https://www.postgresql.org/docs/16/sql-select.html
+
+sql/group-by-having:
+  title: Condensar resultados com cláusulas de agrupamento de dados, como GROUP BY e HAVING
+  links:
+    - title: SELECT reference
+      url: https://www.postgresql.org/docs/16/sql-select.html
+    - title: Aggregate Functions
+      url: https://www.postgresql.org/docs/current/tutorial-agg.html
+
+sql/aggregate-functions:
+  title: Trabalhar com funções de agregação como COUNT, SUM, AVG, MAX e MIN
   links:
     - title: Aggregate Functions
       url: https://www.postgresql.org/docs/current/tutorial-agg.html
 
-sql/joins:
-  title: Compreender e utilizar joins para combinar dados de múltiplas tabelas.
+sql/join:
+  title: Compreender e usar as cláusulas JOIN para combinar dados de várias tabelas.
   links:
     - title: Joins Between Tables
       url: https://www.postgresql.org/docs/current/tutorial-join.html
 
 sql/subqueries-nested-queries:
-  title: Trabalhar com subconsultas e consultas aninhadas.
+  title: Trabalhar com subconsultas e consultas aninhadas
   links:
     - title: Subquery Expressions
       url: https://www.postgresql.org/docs/current/functions-subquery.html

@@ -2,9 +2,9 @@
   "slug": "sqlzoo-mystery",
   "repo": "Laboratoria/curriculum",
   "path": "projects/04-sqlzoo-mystery",
-  "version": "9.1.0-beta.0",
+  "version": "9.1.0",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-06-19T20:13:29.312Z",
+  "createdAt": "2024-06-21T17:34:23.320Z",
   "prefix": 4,
   "track": "web-dev",
   "tracks": [
@@ -12,13 +12,19 @@
   ],
   "learningObjectives": [
     {
-      "id": "sql/select-where-orderby"
+      "id": "sql/select-where"
     },
     {
-      "id": "sql/group-having-aggregatefunctions"
+      "id": "sql/order-by"
     },
     {
-      "id": "sql/joins"
+      "id": "sql/group-by-having"
+    },
+    {
+      "id": "sql/aggregate-functions"
+    },
+    {
+      "id": "sql/join"
     },
     {
       "id": "sql/subqueries-nested-queries"
