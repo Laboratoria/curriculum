@@ -362,7 +362,6 @@ sql:
   # - foreign-key
   # - create-index
   # - alter-table
-  # - add-column
   # - constraints
   # - create-view
   - tables # legacy
