@@ -1970,20 +1970,18 @@ data-analytics/data-exploration:
       url: https://drive.google.com/file/d/13gQ6Ni9FUfDmi5bjQivjeKj04fAI8Gl2/view?usp=drive_link
     - title: Video sobre tipos de variables
       url: https://www.loom.com/share/afa56686810e46309761bc889364b2d9?sid=cabf587c-7ba1-4419-b501-32c98a73e191
-    - title: Link para download de Power BI Desktop
-      url: https://www.microsoft.com/en-us/download/details.aspx?id=58494
-    - title: Video download y instalación de Power BI
-      url: https://www.youtube.com/watch?v=8lkZKeNdLWU
-    - title: Cómo empezar con Power BI
-      url: https://www.youtube.com/watch?v=L74STt9hnu4
-    - title: Conectar datos de bigquery a  Power BI
-      url: https://www.loom.com/share/eebef73c37fc47bda21576f0d300841e
-    - title: Cómo crear una tabla matrix en Power BI
-      url: https://www.youtube.com/watch?v=m2N7SXEj_9w
-    - title: Cómo crear gráficos en Power BI
-      url: https://www.youtube.com/watch?v=gNEgfp_HRWM
-    - title: Gráficos de barras o columnas en Power BI
-      url: https://www.youtube.com/watch?v=m7_6SHPovvY
+    - title: Cómo empezar con Looker Studio  
+      url: https://www.youtube.com/watch?v=P5WLaeSQK7s&t=3s  
+    - title: Video Como conectar datos en Looker Studio  
+      url: https://www.loom.com/share/0cce98d5bbc7482ea421444e2f850cc1  
+    - title: Video visión general Looker Studio  
+      url: https://www.loom.com/share/9c7505eb3c2a4612bdfb7c9d43c40051  
+    - title: Video como crear un dashboard en Looker Studio  
+      url: https://www.youtube.com/watch?v=Sprmb4W82sk  
+    - title: Tutorial de Google Como crear un informe en Looker Studio  
+      url: https://support.google.com/looker-studio/answer/6292570?hl=ES#zippy=%2Csecciones-de-este-art%C3%ADculo  
+    - title: Cómo crear una tabla dinamica en Looker Studio  
+      url: https://www.youtube.com/watch?v=3WJrWfAtgEw      
     - title: Concepto estadísticas descriptivas
       url: https://docs.google.com/document/d/13xu7cf5LcUN2CE58qwyZoNrhS713Ci0tI9S1odeapig/edit?usp=sharing
     - title: 🔈 Concepto estadísticas descriptivas (versión en audio)
@@ -1992,14 +1990,8 @@ data-analytics/data-exploration:
       url: https://docs.google.com/document/d/1Ly_7zLmUjcczqCkQLQwvDYEGyRLtSNQLVi3w8CIh8sI/edit?usp=sharing
     - title: 🔈 Concepto medidas de tendencia central (versión en audio)
       url: https://drive.google.com/file/d/1viy63m4n8Gn9aYHNuLJpd8RzFrTNnlw2/view?usp=drive_link
-    - title: Cómo crear una tabla con promedio y mediana en Power B
-      url: https://www.loom.com/share/67c7d22e0898482683654f1f6c53e41a?sid=e25d3fda-ee49-4d94-ab44-099785f33a9c
-    - title: Concepto Medidas de dispersión
-      url: https://docs.google.com/document/d/1a5N-8fV3X8pnhdRyXVcG293zJn2eL16KBhy-7NCExRI/edit?usp=sharing
-    - title: Concepto desviación estándar
-      url: https://docs.google.com/document/d/17OhF8RkTQxgwbDZtBphXd-nd9hXDrkylHGaF7ylezPo/edit?usp=sharing
-    - title: Desviación estándar en Power BI
-      url: https://www.loom.com/share/551494bd11124dd8ad4ca751ad47ab91
+    - title: Cómo crear gráficos en Looker Studio  
+      url: https://www.youtube.com/watch?v=B3hPsl-8u3A
     - title: Concepto correlación de Pearson
       url: https://docs.google.com/document/d/1HvuENDveavTmlRtSGk3Gv3LqSPNbRPWNYgOU8e3CxTM/edit?usp=sharing
     - title: Cómo calcular correlación en BigQuery
@@ -2009,18 +2001,17 @@ data-analytics/data-analysis:
   title: Aplicar técnica de análisis
   description: Aplicar técnica de análisis
   links:
-    - title: Como crear un scatter plot en Power BI
-      url: https://www.loom.com/share/91adb4a427124fde8013d305a3d6111c?sid=114cf627-5d35-42d4-851b-147600e84e43
+    - title: Gráfico de dispersión  
+      url: https://www.youtube.com/watch?v=gX-vNQVSYSM&t=477s
 
 data-analytics/analysis-report:
   title: Resumir información en un dashboard o reporte
   description: Resumir información en un dashboard o reporte
   links:
-    - title: Como crear scorecards en Power BI
-      url: https://www.loom.com/share/a8b4a6e43317415abc02049f7923e785?sid=b69d56f7-6f63-4e18-81bc-71abc1aff667
-    - title: Cómo incluir filtros en Power BI
-      url: https://www.loom.com/share/bcd20fecbf2b4298bd1419648189bc3e?sid=74ced7af-c3bc-4844-8b26-8e46732a8adc
-
+    - title: Como crear scorecards (tarjeta de resultados) en Looker Studio  
+      url: https://www.youtube.com/watch?v=D09zovxBXWs  
+    - title: Ffiltros en Looker Studio  
+      url: https://www.youtube.com/watch?v=HZMZcNf1jdk
 data-analytics/analysis-presentation:
   title: Presentar Resultados
   description: Presentar Resultados
