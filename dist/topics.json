@@ -5,7 +5,7 @@
     "path": "topics/browser",
     "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-21T17:34:27.020Z",
+    "createdAt": "2024-06-24T15:52:27.197Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -29,7 +29,7 @@
     "path": "topics/content-management",
     "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-21T17:34:26.168Z",
+    "createdAt": "2024-06-24T15:52:26.816Z",
     "track": "ux",
     "tracks": [
       "ux"
@@ -49,7 +49,7 @@
     "path": "topics/css",
     "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-21T17:34:27.057Z",
+    "createdAt": "2024-06-24T15:52:27.123Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -73,7 +73,7 @@
     "path": "topics/functional",
     "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-21T17:34:26.948Z",
+    "createdAt": "2024-06-24T15:52:27.063Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -93,7 +93,7 @@
     "path": "topics/html",
     "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-21T17:34:26.664Z",
+    "createdAt": "2024-06-24T15:52:26.971Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -117,7 +117,7 @@
     "path": "topics/interaction-design",
     "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-21T17:34:26.714Z",
+    "createdAt": "2024-06-24T15:52:26.904Z",
     "track": "ux",
     "tracks": [
       "ux"
@@ -137,7 +137,7 @@
     "path": "topics/intro-ux",
     "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-21T17:34:26.493Z",
+    "createdAt": "2024-06-24T15:52:26.896Z",
     "track": "ux",
     "tracks": [
       "ux"
@@ -157,7 +157,7 @@
     "path": "topics/javascript",
     "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-21T17:34:29.271Z",
+    "createdAt": "2024-06-24T15:52:27.404Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -181,7 +181,7 @@
     "path": "topics/learning-mindset",
     "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-21T17:34:28.440Z",
+    "createdAt": "2024-06-24T15:52:26.713Z",
     "track": "web-dev",
     "tracks": [
       "web-dev",
@@ -202,7 +202,7 @@
     "path": "topics/paradigms",
     "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-21T17:34:28.971Z",
+    "createdAt": "2024-06-24T15:52:27.998Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -222,7 +222,7 @@
     "path": "topics/prototyping",
     "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-21T17:34:28.575Z",
+    "createdAt": "2024-06-24T15:52:27.887Z",
     "track": "ux",
     "tracks": [
       "ux"
@@ -242,7 +242,7 @@
     "path": "topics/scm",
     "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-21T17:34:28.565Z",
+    "createdAt": "2024-06-24T15:52:27.916Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -266,7 +266,7 @@
     "path": "topics/shell",
     "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-21T17:34:28.495Z",
+    "createdAt": "2024-06-24T15:52:27.877Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -290,7 +290,7 @@
     "path": "topics/ux-research",
     "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-21T17:34:28.769Z",
+    "createdAt": "2024-06-24T15:52:27.978Z",
     "track": "ux",
     "tracks": [
       "ux"
