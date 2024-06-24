@@ -3,9 +3,9 @@
     "slug": "browser",
     "repo": "Laboratoria/curriculum",
     "path": "topics/browser",
-    "version": "9.0.0",
+    "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-13T16:06:09.514Z",
+    "createdAt": "2024-06-21T17:34:27.020Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -27,9 +27,9 @@
     "slug": "content-management",
     "repo": "Laboratoria/curriculum",
     "path": "topics/content-management",
-    "version": "9.0.0",
+    "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-13T16:06:10.811Z",
+    "createdAt": "2024-06-21T17:34:26.168Z",
     "track": "ux",
     "tracks": [
       "ux"
@@ -47,9 +47,9 @@
     "slug": "css",
     "repo": "Laboratoria/curriculum",
     "path": "topics/css",
-    "version": "9.0.0",
+    "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-13T16:06:11.407Z",
+    "createdAt": "2024-06-21T17:34:27.057Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -71,9 +71,9 @@
     "slug": "functional",
     "repo": "Laboratoria/curriculum",
     "path": "topics/functional",
-    "version": "9.0.0",
+    "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-13T16:06:11.236Z",
+    "createdAt": "2024-06-21T17:34:26.948Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -91,9 +91,9 @@
     "slug": "html",
     "repo": "Laboratoria/curriculum",
     "path": "topics/html",
-    "version": "9.0.0",
+    "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-13T16:06:11.115Z",
+    "createdAt": "2024-06-21T17:34:26.664Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -115,9 +115,9 @@
     "slug": "interaction-design",
     "repo": "Laboratoria/curriculum",
     "path": "topics/interaction-design",
-    "version": "9.0.0",
+    "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-13T16:06:11.038Z",
+    "createdAt": "2024-06-21T17:34:26.714Z",
     "track": "ux",
     "tracks": [
       "ux"
@@ -135,9 +135,9 @@
     "slug": "intro-ux",
     "repo": "Laboratoria/curriculum",
     "path": "topics/intro-ux",
-    "version": "9.0.0",
+    "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-13T16:06:10.734Z",
+    "createdAt": "2024-06-21T17:34:26.493Z",
     "track": "ux",
     "tracks": [
       "ux"
@@ -155,9 +155,9 @@
     "slug": "javascript",
     "repo": "Laboratoria/curriculum",
     "path": "topics/javascript",
-    "version": "9.0.0",
+    "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-13T16:06:11.840Z",
+    "createdAt": "2024-06-21T17:34:29.271Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -179,9 +179,9 @@
     "slug": "learning-mindset",
     "repo": "Laboratoria/curriculum",
     "path": "topics/learning-mindset",
-    "version": "9.0.0",
+    "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-13T16:06:12.737Z",
+    "createdAt": "2024-06-21T17:34:28.440Z",
     "track": "web-dev",
     "tracks": [
       "web-dev",
@@ -200,9 +200,9 @@
     "slug": "paradigms",
     "repo": "Laboratoria/curriculum",
     "path": "topics/paradigms",
-    "version": "9.0.0",
+    "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-13T16:06:13.270Z",
+    "createdAt": "2024-06-21T17:34:28.971Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -220,9 +220,9 @@
     "slug": "prototyping",
     "repo": "Laboratoria/curriculum",
     "path": "topics/prototyping",
-    "version": "9.0.0",
+    "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-13T16:06:12.885Z",
+    "createdAt": "2024-06-21T17:34:28.575Z",
     "track": "ux",
     "tracks": [
       "ux"
@@ -240,9 +240,9 @@
     "slug": "scm",
     "repo": "Laboratoria/curriculum",
     "path": "topics/scm",
-    "version": "9.0.0",
+    "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-13T16:06:13.069Z",
+    "createdAt": "2024-06-21T17:34:28.565Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -264,9 +264,9 @@
     "slug": "shell",
     "repo": "Laboratoria/curriculum",
     "path": "topics/shell",
-    "version": "9.0.0",
+    "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-13T16:06:13.112Z",
+    "createdAt": "2024-06-21T17:34:28.495Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -288,9 +288,9 @@
     "slug": "ux-research",
     "repo": "Laboratoria/curriculum",
     "path": "topics/ux-research",
-    "version": "9.0.0",
+    "version": "9.1.0",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-06-13T16:06:13.117Z",
+    "createdAt": "2024-06-21T17:34:28.769Z",
     "track": "ux",
     "tracks": [
       "ux"

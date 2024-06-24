@@ -2,9 +2,9 @@
   "slug": "wordpress-plugin",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-wordpress-plugin",
-  "version": "9.0.0",
+  "version": "9.1.0",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-06-13T16:06:09.126Z",
+  "createdAt": "2024-06-21T17:34:24.813Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [
