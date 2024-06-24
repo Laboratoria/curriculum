@@ -300,7 +300,7 @@ después de importadas las tablas?
 El análisis exploratorio de datos (AED) es una fase fundamental en la
 comprensión de conjuntos de datos, y las herramientas como Looker Studio y
 BigQuery desempeñan un papel crucial en este proceso. Looker Studio, una
-plataforma de visualización de datos de Microsoft, permite crear paneles
+plataforma de visualización de datos de Google, permite crear paneles
 interactivos y gráficos dinámicos que facilitan la exploración y
 comprensión de los datos. Al aprovechar las capacidades de Looker Studio, los
 usuarios finales pueden identificar patrones, tendencias y anomalías en
@@ -361,6 +361,14 @@ discográfica:
 * Las características de la música influyen en el éxito en términos de
   streams en Spotify
 
+Para validar las hipótesis vamos a utilizar el cálculo de la
+correlación entre dos variables y la interpretación de gráficos,
+como gráficos combinados o gráficos de dispersión con línea de tendencia.
+Al analizar la variable que estamos intentando comprender (streams) en
+relación con otras variables disponibles en la base de datos, podemos
+identificar características comunes entre las canciones más escuchadas
+en Spotify,
+
 | Meta | Objetivo | Objetivo individual | Recurso|
 | --- | ---- | ---- | ---- |
 | 🔴 Validar hipótesis    | Validar las hipótesis levantadas a través de la correlación y scatter plot                                                           | <ul><li>Debes calcular la correlación de las variables de una hipótesis y visualizar estos datos a través de un scatter plot y discutir los resultados si existe o no una correlación y si la hipótesis es verdadera</li><ul> | <ul><li>💡 Para validar las hipótesis planteadas podemos analizar la relación entre las variables de la hipótesis a través de la correlación, que ya hemos visto como calcular en BigQuery y visualizarlas a través de un gráfico scatter plot en Looker Studio para comprender y analizar lo que hace una canción exitosa. </li><li>📹 [Gráfico de dispersión](https://www.youtube.com/watch?v=gX-vNQVSYSM&t=477s)</li><ul> |
@@ -376,12 +384,22 @@ como por ejemplo, las canciones con fecha de lanzamiento en 2023?
 
 ⌛ **Rango de tiempo estimado: De 8 a 12 horas**
 
-Looker Studio se ha convertido en una de las soluciones líderes en el mercado
-para la creación de informes interactivos y paneles de control que
-permiten a las organizaciones tomar decisiones informadas. Con Looker Studio,
-puedes conectar y transformar datos de diversas fuentes, como bases de
-datos, hojas de cálculo y servicios en la nube, y luego crear
-visualizaciones impactantes y dinámicas.
+Looker Studio es una plataforma de visualización y análisis de datos
+de Google que permite a los usuarios crear informes interactivos y
+personalizados, integrando diversas fuentes de datos para generar
+insights visuales detallados. Los dashboards, o paneles de control,
+son una característica clave de esta plataforma, presentando datos
+clave en un formato visual conciso y fácil de entender. Un dashboard
+es una herramienta visual que presenta información clave y datos relevantes
+de manera concisa y accesible, facilitando la supervisión y análisis
+del rendimiento en tiempo real. Sus elementos incluyen gráficos y
+diagramas para identificar tendencias, tablas para una lectura detallada,
+indicadores clave de desempeño (KPIs) para monitoreo rápido, filtros
+y controles interactivos para personalizar la visualización, mapas para
+datos geoespaciales, texto y notas para contexto adicional, y widgets
+de tiempo real para actualizaciones instantáneas. Combinados, estos
+elementos permiten una visualización eficiente y comprensible de grandes
+volúmenes de datos, apoyando la toma de decisiones informadas.
 
 En resumen, Looker Studio es una herramienta esencial para cualquier empresa
 o profesional que desee convertir datos en información significativa,
@@ -480,7 +498,6 @@ Uso la columna `Self review` para evaluar si haz alcanzado o no cada objetivo.
 | 🟪 **Hacer un análisis exploratorio**                | 🟣 Agrupar datos según variables categóricas                         |<ul><li>👍 ¿Has agrupado al menos una variable categórica y analizado su resultado en perspectiva a otra variable numérica?</li><li>👎**Veto**: Si no has hecho este proceso al menos una vez y solo has mirado a tu compañera hacerlo, no has logrado esta meta.</li></ul>|
 |                                                      | 🟣 Visualizar las variables categóricas                              |<ul><li>👍 ¿Has creado al menos un gráfico de barras para el resultado de la meta anterior?</li><li>👎**Veto**: Si no has hecho este proceso al menos una vez y solo has mirado a tu compañera hacerlo, no has logrado esta meta.</li></ul>|
 |                                                      | 🟣 Aplicar medidas de tendencia central                              |<ul><li>👍 ¿Has aplicado al menos una vez las medidas de tendencia central para analizar una variable (y lo entendiste/interpretaste)?</li><li>👎**Veto**: Si no has hecho este proceso al menos una vez y solo has mirado a tu compañera hacerlo, no has logrado esta meta.</li></ul>|
-|                                                      | 🟣 Aplicar medidas de dispersión                                     |<ul><li>👍 ¿Has calculado al menos una vez la desviación estándar (y lo entendiste/interpretaste)?</li><li>👎**Veto**: Si no has hecho este proceso al menos una vez y solo has mirado a tu compañera hacerlo, no has logrado esta meta.</li></ul>|
 |                                                      | 🟣 Calcular correlación entre variables                              |<ul><li>👍 ¿Has calculado la correlación entre dos variables al menos una vez (y lo entendiste/interpretaste)?</li><li>👎**Veto**: Si no has hecho este proceso al menos una vez y solo has mirado a tu compañera hacerlo, no has logrado esta meta.</li></ul>|
 | 🟥 **Aplicar técnica de análisis**                   | 🔴 Validar hipótesis                                                 |<ul><li>👍 ¿Has calculado la correlación y creado un scatter plot para validar al menos una hipótesis (y lo entendiste/interpretaste)?</li><li>👎**Veto**: Si no has hecho este proceso al menos una vez y solo has mirado a tu compañera hacerlo, no has logrado esta meta.</li></ul>|
 | 🟧 **Resumir información en un dashboard o reporte** | 🟠 Representar datos a través de tabla resumen o scorecards          |<ul><li>👍 ¿Has creado al menos una tabla resumen o una tarjeta de resultados para visualizar los datos generales de la base de datos?</li><li>👎**Veto**: Si no has hecho este proceso al menos una vez y solo has mirado a tu compañera hacerlo, no has logrado esta meta.</li></ul>|
