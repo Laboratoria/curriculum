@@ -140,18 +140,18 @@ vayas encontrando, pero siempre siguiendo una lógica.
 En la siguiente imagen se describe el plan de trabajo detallado
 que seguiremos.
 
-![image](https://drive.google.com/uc?id=1a47alrHekArya5-zWIsDcMtsnNBYKhG-)
+![image](https://drive.google.com/file/d/1Yftgpw7uL0AIBMkuu6XDS9Wta3yHbe-J/view)
 
 ### ⬜ Paso 0. Preparación
 
 #### 0.1 Herramientas y/o plataformas
 
 En este proyecto vas a utilizar una herramienta de Google llamada
-BigQuery, para el manejo de los datos, una herramienta de Microsoft
-llamada Power BI para la visualización de los datos:
+BigQuery, para el manejo de los datos, y una herramienta llamada
+Looker Studio para la visualización de los datos:
 
 * BigQuery
-* Power BI
+* Looker Studio
 
 #### 0.2 Lenguajes
 
@@ -203,9 +203,9 @@ componen las tablas de este conjunto de datos:
   Apple Music
 * **in_deezer_playlists**: Número de listas de reproducción de Deezer en
   las que está incluida la canción
-* **in_deezer_charts**: Presencia y rango de la canción en las listas de
+* **in_deezer_charts**: Presencia de la canción en las listas de
   Deezer
-* **in_shazam_charts**: Presencia y rango de la canción en las listas de
+* **in_shazam_charts**: Presencia de la canción en las listas de
   Shazam
 
 ##### **Track_technical_info**
@@ -298,11 +298,11 @@ después de importadas las tablas?
 ⌛ Rango de tiempo estimado: **De 8 a 12 horas**
 
 El análisis exploratorio de datos (AED) es una fase fundamental en la
-comprensión de conjuntos de datos, y las herramientas como Power BI y
-BigQuery desempeñan un papel crucial en este proceso. Power BI, una
+comprensión de conjuntos de datos, y las herramientas como Looker Studio y
+BigQuery desempeñan un papel crucial en este proceso. Looker Studio, una
 plataforma de visualización de datos de Microsoft, permite crear paneles
 interactivos y gráficos dinámicos que facilitan la exploración y
-comprensión de los datos. Al aprovechar las capacidades de Power BI, los
+comprensión de los datos. Al aprovechar las capacidades de Looker Studio, los
 usuarios finales pueden identificar patrones, tendencias y anomalías en
 los datos de manera efectiva.
 
@@ -314,23 +314,22 @@ analistas pueden utilizar BigQuery para realizar consultas avanzadas y
 calcular estadísticas esenciales que proporcionan información valiosa
 sobre el conjunto de datos.
 
-Combinar Power BI y BigQuery brinda una solución integral para el
+Combinar Looker Studio y BigQuery brinda una solución integral para el
 análisis exploratorio. Los datos pueden ser extraídos y transformados en
 BigQuery, y luego visualizados y explorados en profundidad utilizando
-Power BI. Esta combinación permite desentrañar insights significativos,
+Looker Studio. Esta combinación permite desentrañar insights significativos,
 identificar relaciones, y tomar decisiones informadas basadas en un
 análisis profundo de los datos. En resumen, el análisis exploratorio se
-beneficia enormemente de la sinergia entre Power BI y BigQuery,
+beneficia enormemente de la sinergia entre Looker Studio y BigQuery,
 facilitando la obtención de información valiosa a partir de datos
 complejos y extensos.
 
-| Meta                                                               | Objetivo                                                                                                    | Objetivo Individual                                                                                                                                                                                 | Recurso                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🟣 Agrupar datos según variables categóricas                       | Agrupar variables categóricas a través de tablas en Power BI                                                | <ul><li>Debes agrupar al menos una variable categórica que pueden ser cantidad de tracks por artista, cantidad de tracks por `released_year` etc.</li><ul>                                          | <ul><li>🚨 **Altamente recomendado**: [Concepto variables categóricas](https://docs.google.com/document/d/1BIqa7xR0JNadM9kQExypo3plnwrNia92zCuxkPuMj5A/edit?usp=sharing): En este documento encontrará la descripción y ejemplos de este concepto. (🔈 [versión en audio](https://drive.google.com/file/d/13gQ6Ni9FUfDmi5bjQivjeKj04fAI8Gl2/view?usp=drive_link))</li> <li>📹 [Video sobre tipos de variables](https://www.loom.com/share/afa56686810e46309761bc889364b2d9?sid=cabf587c-7ba1-4419-b501-32c98a73e191): En este video verá una pequeña descripción de variables categóricas y numéricas.</li> <li>ℹ️ [Link para download de Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=58494)</li><li>📹 [Video download y instalación de Power BI](https://www.youtube.com/watch?v=8lkZKeNdLWU)</li><li>📹 [Cómo empezar con Power BI](https://www.youtube.com/watch?v=L74STt9hnu4)</li><li>📹 [Conectar datos de bigquery a  Power BI](https://www.loom.com/share/eebef73c37fc47bda21576f0d300841e)</li><li>📹 [Cómo crear una tabla matrix en Power BI](https://www.youtube.com/watch?v=m2N7SXEj_9w)</li><li>💡 Visualiza las variables categóricas como artist y fíjate si hay alguno que destaque, utiliza los años para ver estos datos por año</li><ul>|
-| 🟣 Visualizar las variables categóricas                            | A través de gráficos de barras, visualizar las variables categóricas                                        | <ul><li>Debes crear al menos un gráfico de barras para visualizar las variables agrupadas anteriormente.</li><ul>                                                                                   | <ul><li>📹 [Cómo crear gráficos en Power BI](https://www.youtube.com/watch?v=gNEgfp_HRWM)</li><li>📹 [Gráficos de barras o columnas en Power BI](https://www.youtube.com/watch?v=m7_6SHPovvY)</li><ul>  |
-| 🟣 Aplicar medidas de tendencia central                            | A través de tablas en Power BI, calcular las medidas de tendencia central (Promedio y Mediana)              | <ul><li>Debes calcular las medidas de tendencia central (promedio y mediana) al menos para una variable. Una puede analizar `streams` y otra el total de veces que aparece en una playlist</li><ul> | <ul><li>🚨 Altamente recomendado:  📄 [Concepto estadísticas descriptivas](https://docs.google.com/document/d/13xu7cf5LcUN2CE58qwyZoNrhS713Ci0tI9S1odeapig/edit?usp=sharing)</li><li>[🔈 Concepto estadísticas descriptivas (versión en audio)](https://drive.google.com/file/d/1v6xdtWci7rYtMKibGowl9OxBArT3CVnI/view?usp=drive_link)</li><li>📄 [Concepto medidas de tendencia central](https://docs.google.com/document/d/1Ly_7zLmUjcczqCkQLQwvDYEGyRLtSNQLVi3w8CIh8sI/edit?usp=sharing)</li><li>[🔈 Concepto medidas de tendencia central (versión en audio)](https://drive.google.com/file/d/1viy63m4n8Gn9aYHNuLJpd8RzFrTNnlw2/view?usp=drive_link)</li><li>📹 [Cómo crear una tabla con promedio y mediana en Power B](https://www.loom.com/share/67c7d22e0898482683654f1f6c53e41a?sid=e25d3fda-ee49-4d94-ab44-099785f33a9c)</li><li>💡 Observa el comportamiento de las variables streams y total presencia en playlists</li><ul>|
-| 🟣 Aplicar medidas de dispersión                                   | Calcular medidas de dispersión a través de la desviación estándar                                           | <ul><li>Debes calcular para la variable que estaba trabajando anteriormente.</li><li>Muy importante também, además de calcular, es compartir las conclusiones</li><ul>                              | <ul><li>📄 [Concepto Medidas de dispersión](https://docs.google.com/document/d/1a5N-8fV3X8pnhdRyXVcG293zJn2eL16KBhy-7NCExRI/edit?usp=sharing)</li><li>📄 [Concepto desviación estándar](https://docs.google.com/document/d/17OhF8RkTQxgwbDZtBphXd-nd9hXDrkylHGaF7ylezPo/edit?usp=sharing)</li><li>📹 [Desviación estándar en Power BI](https://www.loom.com/share/551494bd11124dd8ad4ca751ad47ab91)</li><li>💡 Calcula la desviación estándar de streams y otras variables continuas, usa ChatGPT para ayudarte en la interpretación de los valores obtenidos.</li><ul>|
-| 🟣 Calcular correlación entre variables                            | Calcular correlación en BigQuery a través de CORR                                                           | <ul><li>Debes calcular la correlación entre dos variables continuas. Una puede calcular para `streams` y `playlists` y otra para `streams` y `danceability`</li><ul>                                | <ul><li>📄 [Concepto correlación de Pearson](https://docs.google.com/document/d/1HvuENDveavTmlRtSGk3Gv3LqSPNbRPWNYgOU8e3CxTM/edit?usp=sharing)</li><li>📹 [Cómo calcular correlación en BigQuery](https://www.loom.com/share/9bf3e48cf57d48ca9c81c2c19562dedf?sid=c4c8a611-d0ae-4c4f-a2f5-200ce48746f4)</li><li>💡 Comprender el cálculo de correlación nos ayudará  más adelante en la validación de las hipótesis</li><ul>  |
+| Meta | Objetivo | Objetivo Individual | Recurso |
+| ---- | ---- | ---- | ---- |
+| 🟣 Agrupar datos según variables categóricas | Agrupar variables categóricas a través de tablas en Looker Studio o a través de GROUP BY en BigQuery| <ul><li>Debes agrupar al menos una variable categórica que pueden ser cantidad de tracks por artista, cantidad de tracks por `released_year` etc.</li><ul> | <ul><li>🚨 **Altamente recomendado**: [Concepto variables categóricas](https://docs.google.com/document/d/1BIqa7xR0JNadM9kQExypo3plnwrNia92zCuxkPuMj5A/edit?usp=sharing): En este documento encontrará la descripción y ejemplos de este concepto. (🔈 [versión en audio](https://drive.google.com/file/d/13gQ6Ni9FUfDmi5bjQivjeKj04fAI8Gl2/view?usp=drive_link))</li> <li>📹 [Video sobre tipos de variables](https://www.loom.com/share/afa56686810e46309761bc889364b2d9?sid=cabf587c-7ba1-4419-b501-32c98a73e191): En este video verá una pequeña descripción de variables categóricas y numéricas.</li><li>📹 [Video como empezar en Looker Studio](https://www.youtube.com/watch?v=P5WLaeSQK7s&t=3s) </li><li>📹 [Video Como conectar datos en Looker Studio](https://www.loom.com/share/0cce98d5bbc7482ea421444e2f850cc1) </li><li>📹 [Video visión general Looker Studio](https://www.loom.com/share/9c7505eb3c2a4612bdfb7c9d43c40051) </li><li>📹 [Video como crear un dashboard en data studio](https://www.youtube.com/watch?v=Sprmb4W82sk) </li><li>📄 [Tutorial de Google Como crear un informe en Looker Studio](https://support.google.com/looker-studio/answer/6292570?hl=ES#zippy=%2Csecciones-de-este-art%C3%ADculo) </li><li>⚠️Recientemente, Data Studio ha cambiado de nombre a Looker Studio, por lo que es posible que encuentres referencias a Data Studio en algunos contenidos. Sin embargo, se trata del mismo producto. </li><ul>📹 [Cómo crear una tabla dinamica en Looker Studio](https://www.youtube.com/watch?v=3WJrWfAtgEw) </li><li>💡 Visualiza las variables categóricas como artist y fíjate si hay alguno que destaque, utiliza los años para ver estos datos por año</li><li>💡 Prueba hacerlo en BigQuery a través del comando GROUP BY para ver los datos agrupados o con tablas en Looker Studio </li><ul>|
+| 🟣 Visualizar las variables categóricas | A través de gráficos de barras, visualizar las variables categóricas | <ul><li>Debes crear al menos un gráfico de barras para visualizar las variables agrupadas anteriormente.</li><ul> | <ul><li>📹 [Cómo crear gráficos en Looker Studio](https://www.youtube.com/watch?v=B3hPsl-8u3A)</li><ul>  |
+| 🟣 Aplicar medidas de tendencia central | A través de tablas en Looker Studio o BigQuery, calcular las medidas de tendencia central (Promedio y Mediana) | <ul><li>Debes calcular las medidas de tendencia central (promedio y mediana) al menos para una variable. Una puede analizar `streams` y otra el total de veces que aparece en una playlist</li><ul> | <ul><li>🚨 Altamente recomendado:  📄 [Concepto estadísticas descriptivas](https://docs.google.com/document/d/13xu7cf5LcUN2CE58qwyZoNrhS713Ci0tI9S1odeapig/edit?usp=sharing)</li><li>[🔈 Concepto estadísticas descriptivas (versión en audio)](https://drive.google.com/file/d/1v6xdtWci7rYtMKibGowl9OxBArT3CVnI/view?usp=drive_link)</li><li>📄 [Concepto medidas de tendencia central](https://docs.google.com/document/d/1Ly_7zLmUjcczqCkQLQwvDYEGyRLtSNQLVi3w8CIh8sI/edit?usp=sharing)</li><li>[🔈 Concepto medidas de tendencia central (versión en audio)](https://drive.google.com/file/d/1viy63m4n8Gn9aYHNuLJpd8RzFrTNnlw2/view?usp=drive_link)</li><li>📹 [Video tablas en Looker Studio](https://www.youtube.com/watch?v=7CLCz3PgJ5s)</li><li>💡 Observa el comportamiento de las variables streams y total presencia en playlists</li><ul>|
+| 🟣 Calcular correlación entre variables | Calcular correlación en BigQuery a través de CORR                                                           | <ul><li>Debes calcular la correlación entre dos variables continuas. Una puede calcular para `streams` y `playlists` y otra para `streams` y `danceability`</li><ul>                                | <ul><li>📄 [Concepto correlación de Pearson](https://docs.google.com/document/d/1HvuENDveavTmlRtSGk3Gv3LqSPNbRPWNYgOU8e3CxTM/edit?usp=sharing)</li><li>📹 [Cómo calcular correlación en BigQuery](https://www.loom.com/share/9bf3e48cf57d48ca9c81c2c19562dedf?sid=c4c8a611-d0ae-4c4f-a2f5-200ce48746f4)</li><li>💡 Comprender el cálculo de correlación nos ayudará  más adelante en la validación de las hipótesis</li><ul>  |
 
 🤸 Sólo por diversión:
 
@@ -362,9 +361,9 @@ discográfica:
 * Las características de la música influyen en el éxito en términos de
   streams en Spotify
 
-| Meta                    | Objetivo                                                                                                                             | Objetivo individual                                                                                                                                                                                                           | Recurso                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 🔴 Validar hipótesis    | Validar las hipótesis levantadas a través de la correlación y scatter plot                                                           | <ul><li>Debes calcular la correlación de las variables de una hipótesis y visualizar estos datos a través de un scatter plot y discutir los resultados si existe o no una correlación y si la hipótesis es verdadera</li><ul> | <ul><li>💡 Para validar las hipótesis planteadas podemos analizar la relación entre las variables de la hipótesis a través de la correlación, que ya hemos visto como calcular en BigQuery y visualizarlas a través de un gráfico scatter plot en Power BI para comprender y analizar lo que hace una canción exitosa. </li><li>📹 [Como crear un scatter plot en Power BI](https://www.loom.com/share/91adb4a427124fde8013d305a3d6111c?sid=114cf627-5d35-42d4-851b-147600e84e43)</li><ul> |
+| Meta | Objetivo | Objetivo individual | Recurso|
+| --- | ---- | ---- | ---- |
+| 🔴 Validar hipótesis    | Validar las hipótesis levantadas a través de la correlación y scatter plot                                                           | <ul><li>Debes calcular la correlación de las variables de una hipótesis y visualizar estos datos a través de un scatter plot y discutir los resultados si existe o no una correlación y si la hipótesis es verdadera</li><ul> | <ul><li>💡 Para validar las hipótesis planteadas podemos analizar la relación entre las variables de la hipótesis a través de la correlación, que ya hemos visto como calcular en BigQuery y visualizarlas a través de un gráfico scatter plot en Looker Studio para comprender y analizar lo que hace una canción exitosa. </li><li>📹 [Gráfico de dispersión](https://www.youtube.com/watch?v=gX-vNQVSYSM&t=477s)</li><ul> |
 
 🤸 Sólo por diversión:
 
@@ -377,29 +376,29 @@ como por ejemplo, las canciones con fecha de lanzamiento en 2023?
 
 ⌛ **Rango de tiempo estimado: De 8 a 12 horas**
 
-Power BI se ha convertido en una de las soluciones líderes en el mercado
+Looker Studio se ha convertido en una de las soluciones líderes en el mercado
 para la creación de informes interactivos y paneles de control que
-permiten a las organizaciones tomar decisiones informadas. Con Power BI,
+permiten a las organizaciones tomar decisiones informadas. Con Looker Studio,
 puedes conectar y transformar datos de diversas fuentes, como bases de
 datos, hojas de cálculo y servicios en la nube, y luego crear
 visualizaciones impactantes y dinámicas.
 
-En resumen, Power BI es una herramienta esencial para cualquier empresa
+En resumen, Looker Studio es una herramienta esencial para cualquier empresa
 o profesional que desee convertir datos en información significativa,
 tomar decisiones estratégicas y comunicar de manera efectiva los
 insights a través de visualizaciones atractivas y accesibles.
 
-En este hito, trabajaremos con Power BI también para crear un dashboard
+En este hito, trabajaremos con Looker Studio también para crear un dashboard
 organizado que genere información al negocio. Este es el momento de
 organizar tus gráficos creados en el paso de análisis exploratorio y
 crear un ambiente amigable para la compañía discográfica.
 
-| Meta                                                           | Objetivo                                                                  | Objetivo individual                                                                                                                                                                                                             | Recurso                                                                                                                                                                                                                                                                                                                                                         |
-| -------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🟠 Representar datos a través de tabla resumen o scorecards    | Crear scorecards para los números generales de la base de datos           | <ul><li>Debes crear al menos una tarjeta de resultados (scorecards)</li><ul>                                                                                                                                                    | <ul><li>📹 [Como crear scorecards en Power BI](https://www.loom.com/share/a8b4a6e43317415abc02049f7923e785?sid=b69d56f7-6f63-4e18-81bc-71abc1aff667)</li><li>💡 Busque contenidos en YouTube para sacar ideas de como armar su dashboard en Power BI </li><li>🧑‍💻 Quieres aprender un poco más de herramientas AI, vea este video de Copilot en PowerBI</li><ul> |
-| 🟠 Representar datos a través de gráficos simples              | Representar los datos a través de gráficos de barras y líneas             | <ul><li>Cada una ya ha hecho este ejercicio anteriormente en la habilidad de Análisis Exploratorio, ahora como dupla deben elegir qué gráficos utilizar en su dashboard y organízalo</li><ul>                                   | <ul><li>💡 Crea nuevas páginas en Power BI para organizar tus datos. Puedes hacer clic con el botón derecho en la pestaña que no quieres dejar visible en tu dashboard y esconderla (hide), así no necesitas borrar ninguna página y puedes dejar tu análisis exploratorio guardado.</li><ul>                                                                   |
-| 🟠 Representar datos a través de gráficos o visuales avanzados | Representar datos a través de scatter plot                                | <ul><li>Cada una ya ha hecho este ejercicio anteriormente en la habilidad de Análisis Exploratorio, ahora como dupla deben elegir qué gráficos utilizar en su dashboard y organízalo para que explique los resultados obtenidos | <ul><li>💡 Considera incluir el gráfico scatter plot para representar tus resultados.</li><ul>                                                                                                                                                                                                                                                                  |
-| 🟠 Aplicar opciones de filtros para manejo e interacción       | Incluir filtros para visualizar los resultados por categorías y por fecha | <ul><li>Incluir una página donde se pueda visualizar los datos generales por filtros. Debes incluir un filtro, pueden ser filtro de fecha, filtro de categoría, etc.</li><ul>                                                   | <ul><li>📹 [Cómo incluir filtros en Power BI](https://www.loom.com/share/bcd20fecbf2b4298bd1419648189bc3e?sid=74ced7af-c3bc-4844-8b26-8e46732a8adc).</li><li>💡 Incluye filtros para que podamos visualizar estos datos en diferentes perspectivas</li><ul>                                                                                                    |
+| Meta | Objetivo | Objetivo individual | Recurso |
+| ---- | ---- | ---- | ---- |
+| 🟠 Representar datos a través de tabla resumen o scorecards    | Crear scorecards para los números generales de la base de datos           | <ul><li>Debes crear al menos una tarjeta de resultados (scorecards)</li><ul>                                                                                                                                                    | <ul><li>📹 [Video como crear scorecards (tarjeta de resultados) en Looker Studio](https://www.youtube.com/watch?v=D09zovxBXWs)</li><li>💡 Busque contenidos en YouTube para sacar ideas de como armar su dashboard en Looker Studio</li><ul> |
+| 🟠 Representar datos a través de gráficos simples              | Representar los datos a través de gráficos de barras y líneas             | <ul><li>Cada una ya ha hecho este ejercicio anteriormente en la habilidad de Análisis Exploratorio, ahora como dupla deben elegir qué gráficos utilizar en su dashboard y organízalo</li><ul>                                   | <ul><li>💡 Crea nuevas páginas en Looker Studio para organizar tus datos. En la opción “manejar páginas” puedes elegir dejar visible o no una página en tu dashboard, así no necesitas borrar ninguna página y puedes dejar tu análisis exploratorio guardado.</li><ul>                                                                   |
+| 🟠 Representar datos a través de gráficos o visuales avanzados | Representar datos a través de scatter plot | <ul><li>Cada una ya ha hecho este ejercicio anteriormente en la habilidad de Análisis Exploratorio, ahora como dupla deben elegir qué gráficos utilizar en su dashboard y organízalo para que explique los resultados obtenidos | <ul><li>💡 Considera incluir el gráfico scatter plot para representar tus resultados.</li><ul> |
+| 🟠 Aplicar opciones de filtros para manejo e interacción       | Incluir filtros para visualizar los resultados por categorías y por fecha | <ul><li>Incluir una página donde se pueda visualizar los datos generales por filtros. Debes incluir un filtro, pueden ser filtro de fecha, filtro de categoría, etc.</li><ul> | <ul><li>📹 [Video filtros en Looker Studio](https://www.youtube.com/watch?v=HZMZcNf1jdk).</li><li>💡 Incluye filtros para que podamos visualizar estos datos en diferentes perspectivas</li><ul>|
 
 🤸 Sólo por diversión:
 
@@ -409,16 +408,16 @@ crear un ambiente amigable para la compañía discográfica.
 
 ⌛ **Rango de tiempo estimado: De 8 a 12 horas**
 
-Tanto Google Slides como Power BI son herramientas valiosas para
+Tanto Google Slides como Looker Studio son herramientas valiosas para
 presentar datos en una presentación de negocios. Google Slides es ideal
-para presentaciones visuales y concisas, mientras que Power BI es una
+para presentaciones visuales y concisas, mientras que Looker Studio es una
 opción poderosa para analizar y explorar datos de manera interactiva.
 Elige la herramienta que mejor se adapte a tus necesidades y audiencia,
 y crea una presentación impactante que respalde tus argumentos y ayude a
 tomar decisiones informadas.
 
 En este hito, puedes elegir presentar solamente a través de Google
-Slides o mezclar con tu dashboard de Power BI en presentación.
+Slides o mezclar con tu dashboard de Looker Studio en presentación.
 
 | Meta                                                       | Objetivo                                                                               | Objetivo individual                                                                                                                                                             | Recurso                                                                                                                                                                                                                                                                                            |
 | ---------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -431,11 +430,12 @@ Slides o mezclar con tu dashboard de Power BI en presentación.
 de la compañía discográfica y al nuevo artista que quiere lanzarse en el mundo
 musical?
 
-ℹ️ **Al finalizar el proyecto comparta el enlace/liga/link público de
-una carpeta de Google Drive conteniendo un archivo con las consultas
-(queries) utilizadas y el archivo de Power BI en el que trabajaste el
-proyecto, y donde se pueden ver claramente todos los pasos que seguiste
-y los resultados que obtuviste. Como este es un proyecto en dupla, solo
+ℹ️ **Al finalizar el proyecto comparte el enlace/liga/link público de
+repositorio de Github conteniendo un README con las consultas
+(queries) utilizadas donde se pueden ver claramente todos los pasos
+que seguiste y los resultados que obtuviste. Agrega tambienel link
+del Looker Studio en el que trabajaste el proyecto.
+Como este es un proyecto en dupla, solo
 el video debe ser individual, los archivos compartidos pueden ser los mismos.**
 
 ## 6. Consideraciones para pedir tu Project Feedback
@@ -443,23 +443,22 @@ el video debe ser individual, los archivos compartidos pueden ser los mismos.**
 Antes de agendar tu Project Feedback con tu coach, asegúrate de que tu proyecto:
 
 * [] Hiciste la limpieza de los datos y uniste las tablas en BigQuery.
-* [] Generaste tablas, gráficos, cálculos de cuartil y correlación durante
-tu análisis exploratorio.
-* [] Aplicaste la técnica de segmentación y de validación de hipótesis
-* [] Conectaste la base de datos limpia a Power BI para crear un dashboard
-informativo.
-* [] Creaste una presentación simple usando Google Slides, para guiarte en
-tu presentación en video.
+* [] Generaste tablas, gráficos y correlación durante tu análisis exploratorio.
+* [] Aplicaste la técnica de validación de hipótesis
+* [] Conectaste la base de datos limpia a Looker Studio para crear
+  un dashboard informativo.
+* [] Creaste una presentación simple usando Google Slides o utilizaste
+  el dashboard en Looker Studio, para guiarte en tu presentación en video.
 * [] Grabaste y compartiste un video de máximo 5 minutos, explicando tus
-conclusiones, hallazgos y recomendaciones para el negocio. Usa Loom
-para grabarte a ti misma presentando y mostrando la pantalla con tu
-presentación.
+  conclusiones, hallazgos y recomendaciones para el negocio. Usa Loom
+  para grabarte a ti misma presentando y mostrando la pantalla con tu
+  presentación.
 * [] Compartiste el enlace/liga/link público de una carpeta de Google Drive
-conteniendo un archivo con las consultas (queries) utilizadas y el
-archivo de Power BI en el que trabajaste el proyecto, y donde se
-pueden ver claramente todos los pasos que seguiste y los resultados
-que obtuviste. Como este es un proyecto en dupla, solo el video debe
-ser individual, los archivos compartidos pueden ser los mismos.
+  conteniendo un archivo con las consultas (queries) utilizadas y el
+  link de Looker Studio en el que trabajaste el proyecto, y donde se
+  pueden ver claramente todos los pasos que seguiste y los resultados
+  que obtuviste. Como este es un proyecto en dupla, solo el video debe
+  ser individual, los archivos compartidos pueden ser los mismos.
 
 ## 7. Self review
 
