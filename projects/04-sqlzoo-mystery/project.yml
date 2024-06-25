@@ -1,0 +1,10 @@
+track: web-dev
+learningObjectives:
+  - sql/select-where
+  - sql/order-by
+  - sql/group-by
+  - sql/having-by
+  - sql/aggregate-functions
+  - sql/join
+  - sql/subqueries-nested-queries
+  

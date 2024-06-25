@@ -2350,3 +2350,144 @@ csharp/entity-framework/migrations:
   links:
     - title: Descripción general de las migraciones - Microsoft Docs
       url: https://docs.microsoft.com/es-es/ef/core/managing-schemas/migrations/
+
+shell/scripts:
+  title: Shell Scripts
+  links:
+    - title: Shell Scripting Guide - LinuxCommand.org
+      url: http://linuxcommand.org/lc3_writing_shell_scripts.php
+
+shell/file-permissions:
+  title: File Permissions
+  links:
+    - title: Understanding Linux File Permissions - DigitalOcean
+      url: https://www.digitalocean.com/community/tutorials/understanding-linux-file-permissions
+    - title: File Permissions in Linux - Red Hat
+      url: https://www.redhat.com/sysadmin/linux-file-permissions
+
+sql/select-where:
+  title: SQL SELECT WHERE
+  links:
+    - title: SQL SELECT Statement - W3Schools
+      url: https://www.w3schools.com/sql/sql_select.asp
+    - title: SQL WHERE Clause - W3Schools
+      url: https://www.w3schools.com/sql/sql_where.asp
+
+sql/create-table:
+  title: SQL CREATE TABLE
+  links:
+    - title: SQL CREATE TABLE Statement - W3Schools
+      url: https://www.w3schools.com/sql/sql_create_table.asp
+
+sql/insert:
+  title: SQL INSERT
+  links:
+    - title: SQL INSERT INTO Statement - W3Schools
+      url: https://www.w3schools.com/sql/sql_insert.asp
+
+sql/update:
+  title: SQL UPDATE
+  links:
+    - title: SQL UPDATE Statement - W3Schools
+      url: https://www.w3schools.com/sql/sql_update.asp
+
+sql/delete:
+  title: SQL DELETE
+  links:
+    - title: SQL DELETE Statement - W3Schools
+      url: https://www.w3schools.com/sql/sql_delete.asp
+
+virtual-machines/setup:
+  title: Virtual Machines Setup
+  links:
+    - title: Creating a Virtual Machine - Oracle VM
+      url: https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/vboxmanage-createvm.html
+    - title: Setting Up a Virtual Machine - Microsoft
+      url: https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/quick-create-virtual-machine
+
+postgresql/setup:
+  title: PostgreSQL Setup
+  links:
+    - title: PostgreSQL Installation - PostgreSQL Docs
+      url: https://www.postgresql.org/download/
+    - title: How To Install and Use PostgreSQL on Ubuntu - DigitalOcean
+      url: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-20-04
+
+postgresql/commands:
+  title: PostgreSQL Commands
+  links:
+    - title: PostgreSQL psql Commands - PostgreSQL Docs
+      url: https://www.postgresql.org/docs/current/app-psql.html
+    - title: Commonly Used PostgreSQL Commands - Verta.ai
+      url: https://www.verta.ai/resources/tutorials/database/postgresql-commands
+
+sql/primary-key:
+  title: SQL PRIMARY KEY
+  links:
+    - title: SQL PRIMARY KEY Constraint - W3Schools
+      url: https://www.w3schools.com/sql/sql_primarykey.asp
+
+sql/foreign-key:
+  title: SQL FOREIGN KEY
+  links:
+    - title: SQL FOREIGN KEY Constraint - W3Schools
+      url: https://www.w3schools.com/sql/sql_foreignkey.asp
+
+sql/alter-table:
+  title: SQL ALTER TABLE
+  links:
+    - title: SQL ALTER TABLE Statement - W3Schools
+      url: https://www.w3schools.com/sql/sql_alter.asp
+
+sql/join:
+  title: SQL JOIN
+  links:
+    - title: SQL JOIN Statement - W3Schools
+      url: https://www.w3schools.com/sql/sql_join.asp
+
+sql/group-by:
+  title: SQL GROUP BY
+  links:
+    - title: SQL GROUP BY Statement - W3Schools
+      url: https://www.w3schools.com/sql/sql_groupby.asp
+
+sql/order-by-having:
+  title: SQL ORDER BY / HAVING
+  links:
+    - title: SQL ORDER BY Keyword - W3Schools
+      url: https://www.w3schools.com/sql/sql_orderby.asp
+    - title: SQL HAVING Clause - W3Schools
+      url: https://www.w3schools.com/sql/sql_having.asp
+
+sql/aggregate-functions:
+  title: SQL Aggregate Functions
+  links:
+    - title: SQL Aggregate Functions - W3Schools
+      url: https://www.w3schools.com/sql/sql_count_avg_sum.asp
+
+sql/constraints:
+  title: SQL Constraints
+  links:
+    - title: SQL Constraints - W3Schools
+      url: https://www.w3schools.com/sql/sql_constraints.asp
+
+postgresql/backup:
+  description: "Backup procedures for PostgreSQL databases, including various tools and best practices."
+  references:
+    - link: "https://www.postgresql.org/docs/current/backup.html"
+      description: "Official PostgreSQL Backup Documentation"
+    - link: "https://www.digitalocean.com/community/tutorials/how-to-back-up-database-in-postgresql"
+      description: "How to Back Up a Database in PostgreSQL - DigitalOcean"
+    - link: "https://www.pgadmin.org/docs/pgadmin4/latest/backup_and_restore.html"
+      description: "Backup and Restore with pgAdmin - Official Documentation"
+  
+postgresql/restore:
+  description: "Methods and best practices for restoring PostgreSQL databases from backups."
+  references:
+    - link: "https://www.postgresql.org/docs/current/backup-dump.html"
+      description: "Official PostgreSQL Restore Documentation"
+    - link: "https://www.digitalocean.com/community/tutorials/how-to-restore-postgresql-databases"
+      description: "How to Restore PostgreSQL Databases - DigitalOcean"
+    - link: "https://www.pgadmin.org/docs/pgadmin4/latest/backup_and_restore.html"
+      description: "Backup and Restore with pgAdmin - Official Documentation"
+
