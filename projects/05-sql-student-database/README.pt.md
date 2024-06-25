@@ -1,80 +1,135 @@
-# Administração de SQL: Banco de Dados de Alunos
+# Student Database
 
 ## Índice
 
-- [1. Considerações gerais](#1-considerações-gerais)
-- [2. Preâmbulo](#2-preâmbulo)
-- [3. Resumo do projeto](#3-resumo-do-projeto)
-- [4. Tutoriais Interativos](#4-tutoriais-interativos)
-- [5. Considerações para pedir seu Feedback do Projeto](#5-considerações-para-pedir-seu-feedback-do-projeto)
-- [6. Objetivos de aprendizagem](#6-objetivos-de-aprendizagem)
+* [1. Considerações gerais](#1-Considerações-gerais)
+* [2. Preâmbulo](#2-Preâmbulo)
+* [3. Resumo do projeto](#3-Resumo-do-projeto)
+* [4. Configuração do Ambiente de Desenvolvimento](#4-Configuração-do-Ambiente-de-Desenvolvimento)
+* [5. Entregáveis](#5-Entregáveis)
+* [6. Considerações para pedir seu Project Feedback](#6-considerações-para-pedir-seu-Project-Feedback)
+* [7. Objetivos de aprendizagem](#7-Objetivos de aprendizagem)
 
 ---
 
 ## 1. Considerações gerais
 
-- Este projeto deve ser resolvido de forma **individual**.
-- O tempo estimado para completar o projeto é de 3 a 6 Sprints.
-- Foque em aprender e não apenas em "completar" os tutoriais ou exercícios.
+* Este projeto deve ser realizado de forma **individual**.
+* O tempo estimado para completar o projeto é de 2 a 5 Sprints.
+* Foque em aprender e não apenas em "completar" os tutoriais ou exercícios.
 
 ## 2. Preâmbulo
 
-SQL (Structured Query Language) é um pilar fundamental para a administração e manipulação de bancos de dados relacionais. Dominar SQL não inclui apenas a criação e modificação de tabelas, mas também a inserção, atualização e exclusão de registros. Este projeto irá guiá-lo através das habilidades essenciais, como o estabelecimento de chaves primárias e estrangeiras, alteração de estruturas de tabelas e a utilização de funções de agrupamento e ordenação para consultas mais complexas. Além disso, você se aprofundará em comandos específicos do PostgreSQL e aprenderá práticas críticas, como a realização de backups e restauração de bancos de dados. Junto com o conhecimento de scripts Bash para automação e gerenciamento de permissões de arquivos, você estará equipado para administrar bancos de dados de maneira eficiente e segura em diferentes ambientes de desenvolvimento.
+![Workshop](https://images.unsplash.com/photo-1426927308491-6380b6a9936f)
+
+_Crédito: Foto de [Barn Images](https://unsplash.com/@barnimages)_
+_no [Unsplash](https://unsplash.com/photos/assorted-handheld-tools-in-tool-rack-t5YUoHW6zRo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
+
+Os comandos DDL (Data Definition Language) em SQL são fundamentais para a criação,
+modificação e exclusão de objetos de banco de dados. Esses comandos permitem
+definir a estrutura e características das tabelas, índices, views e outros
+elementos essenciais no design de um banco de dados.
 
 ## 3. Resumo do projeto
 
-* [Learn SQL by Building a Student Database: Part 1](https://www.freecodecamp.org/learn/relational-database/learn-sql-by-building-a-student-database-part-1/build-a-student-database-part-1)
+Neste projeto, você seguirá dois tutoriais do freeCodeCamp para aprender
+os comandos DDL (Data Definition Language) em SQL.
 
-Neste tutorial do freeCodeCamp, você aprenderá a construir e gerenciar um banco de dados de estudantes usando SQL e PostgreSQL. Você começará configurando o ambiente necessário, que inclui a instalação do PostgreSQL e o uso de máquinas virtuais. Através de comandos SQL, você será guiado na criação de tabelas com chaves primárias e estrangeiras, inserção e consulta de dados, e atualização e exclusão de registros. Além disso, explorará o uso de scripts Bash para automatizar tarefas e gerenciar permissões de arquivos, proporcionando uma base sólida na administração de bancos de dados relacionais.
+### [Learn SQL by Building a Student Database: Part 1](https://github.com/Laboratoria/learn-sql-by-building-a-student-database-part-1)
 
-* [Learn SQL by Building a Student Database: Part 2](https://www.freecodecamp.org/learn/relational-database/learn-sql-by-building-a-student-database-part-2/build-a-student-database-part-2)
+No primeiro tutorial, você aprenderá a construir e gerenciar um banco de dados de
+estudantes utilizando SQL e PostgreSQL. Começará configurando o ambiente
+necessário, que inclui a instalação do PostgreSQL e o uso de máquinas
+virtuais. Através de comandos SQL, você será guiado na criação de tabelas com
+chaves primárias e estrangeiras, inserção e consulta de dados, e
+atualização e exclusão de registros. Além disso, explorará o uso de
+scripts Bash para automatizar tarefas e gerenciar permissões de arquivos.
 
-Na segunda parte deste tutorial do freeCodeCamp, você se aprofundará na administração e análise de bancos de dados de estudantes usando SQL e PostgreSQL. Aprenderá a realizar consultas avançadas usando JOIN para combinar dados de múltiplas tabelas e a utilizar funções de agrupamento (GROUP BY) e ordenação (ORDER BY). Serão cobertas também as funções agregadas para sumarizar dados e a modificação de estruturas de tabelas existentes com ALTER TABLE. Esta parte inclui a criação de backups e restauração de bancos de dados, e o uso de scripts Bash para uma gestão mais eficiente e segura do seu ambiente.
+Clique [aqui para iniciar o primeiro tutorial](https://gitpod.io/new/?autostart=true#CODEROAD_TUTORIAL_URL=https%3A%2F%2Fraw.githubusercontent.com%2FLaboratoria%2Flearn-sql-by-building-a-student-database-part-1%2Fmain%2Ftutorial.json,CODEROAD_DISABLE_RUN_ON_SAVE=true/https://github.com/Laboratoria/learn-sql-by-building-a-student-database-part-1).
 
-## 4. Configuração do Ambiente de Desenvolvimento no Gitpod e Uso da Extensão CodeRoad
+### [Learn SQL by Building a Student Database: Part 2](https://github.com/Laboratoria/learn-sql-by-building-a-student-database-part-2)
 
-### Requisitos
+No segundo tutorial, você se aprofundará na administração e análise
+de bancos de dados de estudantes usando SQL e PostgreSQL. Aprenderá a
+realizar consultas avançadas utilizando JOIN para combinar dados de múltiplas
+tabelas e a utilizar funções de agrupamento (GROUP BY) e ordenação
+(ORDER BY). Também serão abordadas as funções agregadas para sumarizar
+dados e a modificação de estruturas de tabelas existentes com ALTER TABLE.
+Esta parte inclui a criação de backups e restauração
+de bancos de dados, e o uso de scripts Bash para uma gestão mais
+eficiente e segura do seu ambiente.
 
-- Conta no GitHub
-- Extensão CodeRoad instalada no VS Code
+Clique [aqui para iniciar o segundo tutorial](https://gitpod.io/new/?autostart=true#CODEROAD_TUTORIAL_URL=https%3A%2F%2Fraw.githubusercontent.com%2FLaboratoria%2Flearn-sql-by-building-a-student-database-part-2%2Fmain%2Ftutorial.json,CODEROAD_DISABLE_RUN_ON_SAVE=true/https://github.com/Laboratoria/learn-sql-by-building-a-student-database-part-2)
 
-### Passos para Abrir o Ambiente de Desenvolvimento no Gitpod
+## 4. Configuração do Ambiente de Desenvolvimento
 
-1. **Abrir o Repositório no Gitpod:**
+Os tutoriais utilizam [Gitpod](https://gitpod.io/). Com o Gitpod, os
+desenvolvedores podem iniciar instantaneamente um ambiente de desenvolvimento
+completo com todas as ferramentas e dependências necessárias para
+trabalhar em seu projeto, eliminando a necessidade de configurar
+manualmente o ambiente em suas próprias máquinas.
 
-   - Navegue até o repositório do projeto no GitHub.
-   - Altere a URL de `github.com` para `gitpod.io/#` antes da URL do repositório. Por exemplo: `https://gitpod.io/#https://github.com/freeCodeCamp/learn-sql-by-building-a-student-database-part-1`.
+A seguir, você encontra o passo a passo para trabalhar com o Gitpod.
+No entanto, você pode ver este [vídeo](https://youtu.be/legfwHxU_cI)
+que preparamos.
 
-2. **Inicializar o Ambiente:**
+### Passo 1. Crie uma conta no Gitpod usando o Github
 
-   - O Gitpod abrirá um novo espaço de trabalho e começará a configurar o ambiente automaticamente.
+Para criar uma conta no Gitpod utilizando o GitHub, siga estes passos:
 
-3. **Instalar Dependências:**
-   - No terminal do Gitpod, execute os comandos necessários para instalar as dependências do projeto. Por exemplo:
-     npm install
+1. Acesse o site do Gitpod em [gitpod.io](https://www.gitpod.io/).
+2. Clique no botão "Login" no canto superior direito da página.
+3. Selecione a opção "Continue with GitHub".
+4. Você será redirecionado para a página de autorização do GitHub. Se não tiver feito
+   login no GitHub, será solicitado que o faça.
+5. Após fazer login no GitHub, será solicitado que você autorize o Gitpod
+   a acessar sua conta do GitHub. Revise as permissões e clique em
+   "Authorize Gitpod" (Autorizar Gitpod).
+6. Complete as informações solicitadas para finalizar o registro.
+7. Pronto! Agora você tem uma conta no Gitpod vinculada à sua conta do GitHub.
 
-### Uso da Extensão CodeRoad
+### Passo 2. Crie um workspace para os tutoriais
 
-1. **Abrir o Menu Paleta:**
+1. No [Gitpod](https://gitpod.io/workspaces), clique no botão "New Workspace".
+2. Na opção "Select a repository", insira a URL do repositório do tutorial:
+   - Tutorial 1: [https://github.com/Laboratoria/learn-sql-by-building-a-student-database-part-1](https://github.com/Laboratoria/learn-sql-by-building-a-student-database-part-1)
+   - Tutorial 2: [https://github.com/Laboratoria/learn-sql-by-building-a-student-database-part-2](https://github.com/Laboratoria/learn-sql-by-building-a-student-database-part-2)
+3. Verifique se nos demais campos estão selecionadas as opções "VSCode 1.90.2"
+   e "Standard".
+4. Clique em "Continue".
+5. O Gitpod abrirá o VSCode com o novo workspace e começará a configurar
+   o ambiente automaticamente.
 
-   - No editor do Gitpod, abra o menu hambúrguer (três linhas horizontais no canto superior esquerdo).
-   - Selecione a opção "Paleta de Comandos".
+### Passo 3. Inicie o tutorial
 
-2. **Iniciar o CodeRoad:**
+1. No VSCode aberto pelo Gitpod, abra o menu hambúrguer (três linhas
+   horizontais no canto superior esquerdo).
+2. Vá ao menu "View".
+3. Clique na opção "Command Palette".
+4. Digite "CodeRoad: Start" e selecione entre as opções para executá-lo.
+5. Um novo painel com o tutorial será aberto.
 
-   - Na Paleta de Comandos, digite `CodeRoad: Start` e selecione essa opção para iniciar o tutorial do CodeRoad.
+### Passo 4. Retomar um tutorial de onde você parou da última vez
 
-3. **Seguir o Tutorial:**
-   - Siga as instruções passo a passo fornecidas pelo CodeRoad para completar o projeto.
+1. Faça login no [Gitpod](https://gitpod.io/workspaces) e liste os workspaces.
+2. No workspace do tutorial que você deseja retomar, clique no menu de três pontos.
+3. Selecione a opção "Open".
+4. O Gitpod abrirá o VSCode com o novo workspace e começará a configurar
+   o ambiente automaticamente.
+5. Inicie o tutorial novamente seguindo o Passo 3.
 
-## 5. Considerações para pedir seu Feedback do Projeto
+## 5. Entregáveis
 
-Antes de agendar seu Feedback do Projeto com seu coach, certifique-se de:
+TODO por Sebastian
 
-- [ ] Completar os 2 tutoriais propostos
-- [ ] Ter um fork com um ambiente de Gitpod completo
+## 6. Considerações para pedir seu Project Feedback
 
-## 6. Objetivos de aprendizagem
+Antes de agendar seu Project Feedback com seu coach, certifique-se de:
+
+* [ ] Completar os 2 tutoriais propostos
+* [ ] Ter um fork com um ambiente de Gitpod completo
+
+## 7. Objetivos de aprendizagem
 
 > ℹ️ Esta seção será gerada automaticamente no idioma pertinente, a partir
 > dos objetivos de aprendizagem declarados no [`project.yml`](./project.yml),

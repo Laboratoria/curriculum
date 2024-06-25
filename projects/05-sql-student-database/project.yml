@@ -19,5 +19,5 @@ learningObjectives:
   - sql/constraints
   - postgresql/backup
   - postgresql/restore
-  - bash/scripts
-  - bash/file-permissions
+  - shell/scripts
+  - shell/file-permissions
