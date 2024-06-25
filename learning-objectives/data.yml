@@ -348,19 +348,27 @@ db:
   # - sql-vs-nosql
 
 sql:
-  - tables
-  - crud
-  - drop
-  - select-where-orderby
-  - group-having-aggregatefunctions
-  - joins
+  - create-table
+  - insert-into
+  - select-where
+  - update-set
+  - delete-from
+  - primary-key         
+  - foreign-key
+  - alter-table
+  - add-column
+  - join
+  - group-by
+  - order-by
+  - aggregate-functions
+  - constraints
   - subqueries-nested-queries
-
+    
 postgres:
-  - psql
-  - data-types
-  - indexes
-  - dump-restore
+  - setup
+  - commands
+  - backup
+  - restore
 
 mysql:
   - mysql
@@ -530,3 +538,10 @@ design-specs:
 design-systems:
   - atomic-design
   - design-system
+
+virtual-machines:
+  - setup
+  
+shell:
+  - scripts
+  - file-permissions
