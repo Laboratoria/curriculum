@@ -119,9 +119,26 @@ Para crear una cuenta en Gitpod utilizando GitHub, sigue estos pasos:
    el entorno automáticamente.
 5. Inicia el tutorial de nuevo siguiendo el paso 3.
 
-## 5. Entregables
+## 5. Entregable
 
-TODO por Sebastian
+Haz fork a este repositorio. Luego ajustar el README para registrar
+todos los comandos ejecutados durante los tutoriales. Puede usar
+el siguiente formato:
+
+```md
+# Tutorial 1
+
+## Paso 1
+
+   `echo sql Hello`
+
+## Paso 2
+
+   `psql --username=freecodecamp --dbname=psql`
+```
+
+Puedes obtener un historial de los comandos ejecutados en una terminal
+con el comando `history`.
 
 ## 6. Consideraciones para pedir tu Project Feedback
 

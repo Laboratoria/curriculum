@@ -6,9 +6,9 @@
 * [2. Preâmbulo](#2-Preâmbulo)
 * [3. Resumo do projeto](#3-Resumo-do-projeto)
 * [4. Configuração do Ambiente de Desenvolvimento](#4-Configuração-do-Ambiente-de-Desenvolvimento)
-* [5. Entregáveis](#5-Entregáveis)
+* [5. Entregável](#5-Entregável)
 * [6. Considerações para pedir seu Project Feedback](#6-considerações-para-pedir-seu-Project-Feedback)
-* [7. Objetivos de aprendizagem](#7-Objetivos de aprendizagem)
+* [7. Objetivos de aprendizagem](#7-Objetivos-de-aprendizagem)
 
 ---
 
@@ -118,9 +118,28 @@ Para criar uma conta no Gitpod utilizando o GitHub, siga estes passos:
    o ambiente automaticamente.
 5. Inicie o tutorial novamente seguindo o Passo 3.
 
-## 5. Entregáveis
+Claro, aquí tienes la traducción al portugués brasileño:
 
-TODO por Sebastian
+## 5. Entregável
+
+Faça um fork deste repositório. Em seguida, ajuste o README para registrar
+todos os comandos executados durante os tutoriais. Você pode usar
+o seguinte formato:
+
+```md
+# Tutorial 1
+
+## Passo 1
+
+   `echo sql Hello`
+
+## Passo 2
+
+   `psql --username=freecodecamp --dbname=psql`
+```
+
+Você pode obter um histórico dos comandos executados em um terminal
+com o comando `history`.
 
 ## 6. Considerações para pedir seu Project Feedback
 
