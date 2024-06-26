@@ -2,9 +2,9 @@
   "slug": "cipher",
   "repo": "Laboratoria/curriculum",
   "path": "projects/01-cipher",
-  "version": "9.1.0-beta.0",
+  "version": "9.0.0",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-06-19T20:13:24.604Z",
+  "createdAt": "2024-06-13T16:06:03.574Z",
   "prefix": 1,
   "track": "web-dev",
   "tracks": [
