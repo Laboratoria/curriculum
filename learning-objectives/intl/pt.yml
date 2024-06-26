@@ -1998,141 +1998,131 @@ data-analytics/data-preparation:
   description: Carregar informações para um banco de dados
   links:
     - title: Mini curso BigQuery
-      url: https://coda.io/d/Curso-Google-BigQuery_dhocNT3PUIE/Introduccion_su3UO#_luO8s
-    - title: Como começar com o BigQuery (sandbox - versão gratuita)
-      url: https://cloud.google.com/bigquery/docs/sandbox?hl=es-419
+      url: https://coda.io/d/PT-Curso-Google-BigQuery_dvpJ2RzVDub/Configurando-o-Sandbox_suq00#_lu8z6
+    - title: Como começar com BigQuery (sandbox - versão gratuita)
+      url: https://cloud.google.com/bigquery/docs/sandbox?hl=pt
     - title: O que é BigQuery
-      url: https://www.youtube.com/watch?v=RxKtIicl8r0
-    - title: Como criar um Projeto, Dataset e carregar tabela no BigQuery
-      url: https://www.youtube.com/watch?v=BN8WAOtJ4CY
+      url: https://www.youtube.com/watch?v=BRPUA0EgS4I&list=PL5TJqBvpXQv5n1N15kcK1m9oKJm_cv-m6
+    - title: Como criar um Projeto, Conjunto de Dados e carregar tabela no BigQuery
+      url: https://www.youtube.com/watch?v=z32438Yehl4&list=PL5TJqBvpXQv5n1N15kcK1m9oKJm_cv-m6&index=2
     - title: Conceito de valores nulos
-      url: https://docs.google.com/document/d/1AJRLPg2SWLvC1pnGOz-f1SNZXH1X63x2xWlquDBtlmE/edit?usp=sharing
+      url: https://docs.google.com/document/d/1kiUVEx6n9gwu5BcyfTtFMR9UkgICJd2bdjMS7u9Laws/edit?usp=sharing
     - title: Versão em áudio
-      url: https://drive.google.com/file/d/1Y88gJEBdorDMRoEjnIUJNyI4G0LLAaGk/view?usp=drive_link
+      url: https://raw.githubusercontent.com/Laboratoria/curriculum-data-contenidos/main/PT_P1_segmentacao/TTS/1contenidos_valores_nulos.mp3
     - title: O que é uma consulta (query)
-      url: https://docs.google.com/document/d/1upi7Ashq_wro02zjMjnQlWgivQ9gsQWIy8q9pLm9WZ4/edit
-    - title: Como guardar queries
-      url: https://www.loom.com/share/461b7c3f07214d7897b68890c1389b77?sid=9c6d46b2-5ff6-4a60-823b-c976f535a18d
+      url: https://docs.google.com/document/d/1QjuWNUrCCs0kSMjq0RxnUoa8lCr58GvIwerYrLZs2Bs/edit?usp=sharing
+    - title: Como salvar queries
+      url: https://www.loom.com/share/4140a54ac8c845d781058d8f0bb53e30?sid=e8e3bb4f-d70b-44f8-a79b-377ded6a88a1
     - title: Como identificar nulos usando COUNT, WHERE e IS NULL
-      url: https://www.loom.com/share/3ae5d6e7f500405f95e8f1a110413a35?sid=c44c44d8-7caa-4da4-9261-03f6fd92348c
+      url: https://www.loom.com/share/972220ee18874d1b872c206f5e62627c?sid=fb520257-c035-490a-8d42-c41d134476c6
     - title: Conceito de valores duplicados
-      url: https://docs.google.com/document/d/1jXm4s7b17eObHd8sMvJSGwWi1YzdG_VZq56Xooy5Ioo/edit?usp=sharing
+      url: https://docs.google.com/document/d/1GrC45LJEwAKR5IjTf-sBJGseGzHYjFjehf2Fk41yNs8/edit?usp=sharing
     - title: Versão em áudio
-      url: https://drive.google.com/file/d/1TbKPSvocksk33eFg42lHf3kD8Y3NuzsN/view?usp=drive_link
+      url: https://raw.githubusercontent.com/Laboratoria/curriculum-data-contenidos/main/PT_P1_segmentacao/TTS/2contenidos_valores_duplicados.mp3
     - title: Como identificar duplicados através de GROUP BY e HAVING (Veja também a diferença entre os comandos WHERE e HAVING)
-      url: https://www.loom.com/share/0bd5d25a7e634bd39012f5bd913e3a3b?sid=507743b7-ee30-4c68-8756-a344798cad32
-    - title: Conceito de valores fora do alcance
-      url: https://docs.google.com/document/d/1-SsxH5Ke3qAaWg5YKrkRwkExd91Q0RdJGplLAiXPiYA/edit?usp=sharing
+      url: https://www.loom.com/share/7f066ca3cad3438180509ba0643221a5?sid=1555e2cc-a68c-4ff8-80e4-2133059f0acb
+    - title: Conceito de valores fora do escopo
+      url: https://docs.google.com/document/d/1c__WRov6ZvLsrGuznpsGthOYb3jGwTtnmOFe5zCP3X4/edit?usp=sharing
     - title: Versão em áudio
-      url: https://drive.google.com/file/d/1Z963-z4MCiRRjt5RZF75oH_CH1BqDNrO/view?usp=drive_link
-    - title: Como utilizar EXCEPT para selecionar variáveis
-      url: https://www.loom.com/share/2fa18d5cfd33403faaa794a2b08671f1?sid=2d16f30b-a26c-4d3c-bfd8-88ba7c664f25
-    - title: Como utilizar comandos LIKE e REGEXP
-      url: https://www.loom.com/share/3f7bb1362d5947ecb8c83e6f0690a4a5?sid=76f52b28-efb3-4991-b4c1-bd288bd4e805
-    - title: Documentação Google sobre Funções de String
+      url: https://raw.githubusercontent.com/Laboratoria/curriculum-data-contenidos/main/PT_P1_segmentacao/TTS/3contenidos_valores_fora_escopo.mp3
+    - title: Como usar EXCEPT para selecionar variáveis
+      url: https://www.loom.com/share/2c507731f3004d9f8f64c555232702a3?sid=f608d12d-d248-47e5-b034-15259817cf5d
+    - title: Como usar os comandos LIKE e REGEXP
+      url: https://www.loom.com/share/3ec6dda6ef4741288bda6044b50b0cbc?sid=a47774e0-e3c5-4dd4-b5f3-d3096d5bd70d
+    - title: Documentação do Google sobre funções de string
       url: https://cloud.google.com/bigquery/docs/reference/standard-sql/string_functions
-    - title: Conceito de variáveis categóricas
-      url: https://docs.google.com/document/d/1BIqa7xR0JNadM9kQExypo3plnwrNia92zCuxkPuMj5A/edit?usp=sharing
-    - title: Conceito de variáveis categóricas (versão em áudio)
-      url: https://drive.google.com/file/d/13gQ6Ni9FUfDmi5bjQivjeKj04fAI8Gl2/view?usp=drive_link
     - title: Vídeo sobre tipos de variáveis
-      url: https://www.loom.com/share/afa56686810e46309761bc889364b2d9?sid=cabf587c-7ba1-4419-b501-32c98a73e191
-    - title: Identificar valores discrepantes em variáveis numéricas com MAX, MIN e AVG
-      url: https://www.loom.com/share/4fb40d01dddf4e3cbf981029ed08613a?sid=5e46b20b-5ea4-47c4-a808-99969a369431
-    - title: Conceito de variáveis numéricas
-      url: https://docs.google.com/document/d/1oTn46djgWYlhcY9_Ak9H2edY2_rR8gpJco66njPwkCc/edit?usp=sharing
+      url: https://www.youtube.com/watch?v=c2R378U4gcA
+    - title: Identificar valores discrepantes em variáveis ​​numéricas com MAX, MIN e AVG
+      url: https://www.loom.com/share/86e9b5b4cbe941348193039b0c60691f?sid=1472fe57-e4fd-4287-8408-405c8c922b8e
+    - title: Conceito de variáveis ​​numéricas
+      url: https://docs.google.com/document/d/1-C065f5Vti_H7vO1ioqHN0IYocxz5hVpCruc0RFnRa8/edit?usp=sharing
     - title: Tipos de dados em SQL
-      url: https://docs.google.com/document/d/1z0evGu8JtjDPuFlH1pkbqYR6scRwukPfwWKJ-KmZRmI/edit?usp=sharing
-    - title: Tipos de dados em SQL
-      url: https://www.youtube.com/watch?v=A1tZ-d2uxws
-    - title: Alterar tipo de dado com CAST
-      url: https://www.loom.com/share/dfca15dd59084f83a1343eb476c71e96?sid=5ffd1896-5cf2-4ad5-88dc-741152483c45
+      url: https://docs.google.com/document/d/1GYwd_Gg_gsIJuv0XnJ7C7JMorYNom9Z7wyfLPclHTBo/edit?usp=sharing
+    - title: Tipos de dados em SQL (vídeo)
+      url: https://www.youtube.com/watch?v=X40zYYRsw1U
+    - title: Alterar tipo de dados com CAST
+      url: https://www.loom.com/share/93e9005ecfb944ddbe9effa8dcb2fc27?sid=ab42f8e3-6d41-453b-b080-7461e3736582
     - title: Conceito de criar novas variáveis
-      url: https://docs.google.com/document/d/1yp5MVB8iirIbYwptscJ4YrjsY4Bnd8mrsDB75Onun2s/edit?usp=sharing
+      url: https://docs.google.com/document/d/1mSSLszUU9-ED-HDMF0ADmrXKtMkoUXLj1HCIj8ZA0fc/edit?usp=sharing
     - title: Versão em áudio
-      url: https://drive.google.com/file/d/15P7Gp4_F_EOasIgW7SUhK8bf0MIDD6K8/view?usp=drive_link
-    - title: Como criar novas variáveis com CONCAT e operações matemáticas
-      url: https://www.loom.com/share/65e15aa134c545bc9cfdc6b88bc2ae78?sid=46988f46-bcc0-471f-b89e-55c7ffe953b5
+      url: https://raw.githubusercontent.com/Laboratoria/curriculum-data-contenidos/main/PT_P1_segmentacao/TTS/5contenidos_novas_variaveis.mp3
+    - title: Como criar novas variáveis ​​com CONCAT e operações matemáticas
+      url: https://www.loom.com/share/9f8a444c394e40dfb2cd693b2ac4201f?sid=004aeaae-97e1-41b2-8cbd-26d45ff48cc8
     - title: Tipos de JOIN em SQL
-      url: https://www.youtube.com/watch?v=HDBdAIcqJQo
+      url: https://www.youtube.com/watch?v=3IdKyi-KezU
     - title: Diferença entre VIEW e CREATE TABLE
-      url: https://www.loom.com/share/97dbe237b9de459baa4d788f8bb44502?sid=e2168d4f-a8ff-44e4-b3f0-55e72596350a
+      url: https://www.loom.com/share/bd6987ebe2ad48eebf291931981a0c4d?sid=ca3e7ea1-bc44-4f0a-b332-36f86b093f5f
     - title: Como utilizar comando WITH e para que serve
-      url: https://www.loom.com/share/8e2f6f70db214e2484af45375539d8e9?sid=222c7e6d-1ff5-430a-ab28-64c025f34ebf
+      url: https://www.loom.com/share/2d982ea5dd58420e9e3fb15b9153f6c8?sid=6fc75c6e-f68a-43f9-9f94-8ff494432f69
 
 data-analytics/data-exploration:
   title: Realizar uma análise exploratória
   description: Realizar uma análise exploratória
   links:
-    - title: Conceito de variáveis categóricas
-      url: https://docs.google.com/document/d/1BIqa7xR0JNadM9kQExypo3plnwrNia92zCuxkPuMj5A/edit?usp=sharing
-    - title: Versão em áudio
-      url: https://drive.google.com/file/d/13gQ6Ni9FUfDmi5bjQivjeKj04fAI8Gl2/view?usp=drive_link
+    - title: Agrupar dados por variáveis categóricas
+      url: https://docs.google.com/document/d/1cOTKw04u2008G7JyRaYHzSzyWRjJwxLryn8hIxkO2es/edit?usp=sharing
     - title: Vídeo sobre tipos de variáveis
-      url: https://www.loom.com/share/afa56686810e46309761bc889364b2d9?sid=cabf587c-7ba1-4419-b501-32c98a73e191
-    - title: Como começar com o Looker Studio
-      url: https://www.youtube.com/watch?v=P5WLaeSQK7s&t=3s
+      url: https://www.youtube.com/watch?v=N7AbQZA06QU&pp=ygUldmFyacOhdmVpcyBjYXRlZ8OzcmljYXMgZSBudW3DqXJpY2FzIA%3D%3D
+    - title: Link para acessar o Looker Studio
+      url: https://lookerstudio.google.com/navigation/reporting
+    - title: Vídeo como começar no Looker Studio
+      url: https://www.youtube.com/watch?v=Gx5S8Ry54TU&pp=ygUjY29tbyBjcmlhciB1bSBwYWluZWwgbm8gZGF0YSBzdHVkaW8%3D
     - title: Vídeo Como conectar dados no Looker Studio
-      url: https://www.loom.com/share/0cce98d5bbc7482ea421444e2f850cc1
-    - title: Vídeo visão geral do Looker Studio
-      url: https://www.loom.com/share/9c7505eb3c2a4612bdfb7c9d43c40051
-    - title: Vídeo como criar um painel no Looker Studio
-      url: https://www.youtube.com/watch?v=Sprmb4W82sk
+      url: https://www.youtube.com/watch?v=dAZ0yfRSKjQ&pp=ygUiY29tbyBjb25lY3RhciBkYWRvcyBubyBkYXRhIHN0dWRpbw%3D%3D
+    - title: Visão geral Looker Studio
+      url: https://www.youtube.com/watch?v=dfAHZ1C_ZQs&list=PLbnAsJ6zlidug4pEvq6tm0h7DPJGkP-aU
+    - title: Vídeo como criar um painel/dashboard no Looker Studio
+      url: https://www.youtube.com/watch?v=qoKPW5Yn3Dk&pp=ygUjY29tbyBjcmlhciB1bSBwYWluZWwgbm8gZGF0YSBzdHVkaW8%3D
     - title: Tutorial do Google Como criar um relatório no Looker Studio
-      url: https://support.google.com/looker-studio/answer/6292570?hl=ES#zippy=%2Csecciones-de-este-art%C3%ADculo
-    - title: Como criar uma tabela dinâmica no Looker Studio
-      url: https://www.youtube.com/watch?v=3WJrWfAtgEw
-    - title: Conceito de estatísticas descritivas
-      url: https://docs.google.com/document/d/13xu7cf5LcUN2CE58qwyZoNrhS713Ci0tI9S1odeapig/edit?usp=sharing
-    - title: 🔈 Conceito de estatísticas descritivas (versão em áudio)
-      url: https://drive.google.com/file/d/1v6xdtWci7rYtMKibGowl9OxBArT3CVnI/view?usp=drive_link
+      url: https://support.google.com/looker-studio/answer/06292570?0hl=ES#zippy=%2Csections-of-this-art%C3%ADculo%2Cneste-artigo
+    - title: Tabelas no Looker Studio
+      url: https://www.youtube.com/watch?v=WcxlQG1UdkY
+    - title: Video como criar gráficos de barras
+      url: https://www.youtube.com/watch?v=p4nNJWtStAs
+    - title: Conceito de estatística descritiva
+      url: https://docs.google.com/document/d/12YZ-984bRqWxKGr8M-Yzrq8MjWubBw_i38SEcjDt9tE/edit?usp=sharing
     - title: Conceito de medidas de tendência central
-      url: https://docs.google.com/document/d/1Ly_7zLmUjcczqCkQLQwvDYEGyRLtSNQLVi3w8CIh8sI/edit?usp=sharing
-    - title: 🔈 Conceito de medidas de tendência central (versão em áudio)
-      url: https://drive.google.com/file/d/1viy63m4n8Gn9aYHNuLJpd8RzFrTNnlw2/view?usp=drive_link
-    - title: Como criar gráficos no Looker Studio
-      url: https://www.youtube.com/watch?v=B3hPsl-8u3A
+      url: https://docs.google.com/document/d/15_eD0wsb1w7GFMmmAm8HPFZJGNzlmsZalMwBke9hSt0/edit?usp=sharing
     - title: Conceito de correlação de Pearson
-      url: https://docs.google.com/document/d/1HvuENDveavTmlRtSGk3Gv3LqSPNbRPWNYgOU8e3CxTM/edit?usp=sharing
-    - title: Como calcular correlação no BigQuery
-      url: https://www.loom.com/share/9bf3e48cf57d48ca9c81c2c19562dedf?sid=c4c8a611-d0ae-4c4f-a2f5-200ce48746f4
+      url: https://docs.google.com/document/d/1z_GT13b-GJphDGujDneULn2IOz-KuSmrQpSJBepJF7o/edit?usp=sharing
+    - title: Como calcular a correlação no BigQuery
+      url: https://www.loom.com/share/447a64fa6bd5431289a5a9ca0014e8cb?sid=1edc546a-9691-400a-8cde-b63a2f395532
 
 data-analytics/data-analysis:
   title: Aplicar técnica de análisis
   description: Aplicar técnica de análisis
   links:
     - title: Gráfico de dispersión  
-      url: https://www.youtube.com/watch?v=gX-vNQVSYSM&t=477s
+      url: https://www.youtube.com/watch?v=ksRa12dmxNc
 
 data-analytics/analysis-report:
   title: Resumir informações em um painel ou relatório
   description: Resumir informações em um painel ou relatório
   links:
-    - title: Como criar scorecards (cartão de resultados) no Looker Studio
-      url: https://www.youtube.com/watch?v=D09zovxBXWs
-    - title: Filtros no Looker Studio
-      url: https://www.youtube.com/watch?v=HZMZcNf1jdk
+    - title: Como criar scorecards (cartão de resultados) no Looker Studio  
+      url: https://www.youtube.com/watch?v=dEu4dDUT52o&pp=ygUjbG9va2VyIHN0dWRpbyBjb21vIGZhemVyIHNjb3JlY2FyZHM%3D  
+    - title: Filtros no Looker Studio  
+      url: https://www.youtube.com/watch?v=zivYzP5GHTM
 
 data-analytics/analysis-presentation:
   title: Apresentar Resultados
   description: Apresentar Resultados
   links:
-    - title: Conceito de apresentação de resultados
-      url: https://docs.google.com/document/d/10Xabbxk7WxojFAdncs3YSc4wSCLihw0LUOOqxijGdMc/edit?usp=sharing
+    - title: Conceito de apresentar resultados
+      url: https://docs.google.com/document/d/1m5D3rRMHyF-yeIH7_BXKiG2pNXn7ov99Qg9egPz8mUY/edit?usp=sharing
     - title: O que é Data Storytelling
-      url: https://www.youtube.com/watch?v=NDs2BXgvzPc
-    - title: Diferentes formas de apresentar a mesma informação
-      url: https://www.youtube.com/watch?v=2vWT6hmnVVg
+      url: https://www.youtube.com/watch?v=udGJzHRuymw
+    - title: Como aplicar storytelling em dados
+      url: https://www.youtube.com/watch?v=0SXCajBWt5I
     - title: Vídeo sobre como criar apresentações no Google Slides
       url: https://www.youtube.com/watch?v=T8Fs-zkIX3I
-    - title: Compartilhando apresentações para trabalho em equipe
-      url: https://www.loom.com/share/3220709262c142d4a0214cfc09856dcc?sid=b00df098-70e9-4a2a-89c7-e68b265ed588
+    - title: Vídeo sobre como criar apresentações no Apresentações Google
+      url: https://www.youtube.com/watch?v=UklVY_w86ww&pp=ygUrY29tbyBmYXplciB1bWEgYXByZXNlbnRhw6fDo28gZ29vZ2xlIHNsaWRlcw%3D%3D
     - title: Artigo sobre apresentação de dados
-      url: https://apolitical.co/solution-articles/es/presentar-datos-5-consejos-hacer-datos-comprensibles
-    - title: Artigo sobre apresentação de dados
-      url: https://vilmanunez.com/como-hacer-una-presentacion-de-resultados/
-    - title: Dicas em vídeo para uma apresentação
-      url: https://www.youtube.com/watch?v=MPW6Ak3dxWc&t=157s
+      url: https://smartalk.com.br/blog/apresentacao-de-dados/
+    - title: Vídeo dicas para uma apresentação
+      url: https://www.youtube.com/watch?v=rRt5_aDZsMk&pp=ygUrY29tbyBmYXplciB1bWEgYXByZXNlbnRhw6fDo28gZ29vZ2xlIHNsaWRlcw%3D%3D  
 
 csharp:
   title: C#

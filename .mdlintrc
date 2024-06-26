@@ -36,7 +36,9 @@
       "li",
       "p",
       "a",
-      "img"
+      "img",
+      "audio",
+      "source"
     ]
   }
 }
