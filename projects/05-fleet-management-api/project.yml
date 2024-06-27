@@ -25,6 +25,7 @@ variants:
     learningObjectives:
       - java
       - object-oriented-programming
+
   - name: node
     learningObjectives:
       - js/testing/unit
@@ -40,21 +41,31 @@ variants:
       - node/npm-scripts
       - express/routing
       - express/middleware
-      - typescript/basic-types/primitives
-      - typescript/basic-types/arrays
-      - typescript/basic-types/functions
-      - typescript/basic-types/object-types
-      - typescript/basic-types/union-types
-      - typescript/basic-types/interfaces
-      - typescript/basic-types/enums
+      - id: typescript/basic-types/primitives
+        optional: true
+      - id: typescript/basic-types/arrays
+        optional: true
+      - id: typescript/basic-types/functions
+        optional: true
+      - id: typescript/basic-types/object-types
+        optional: true
+      - id: typescript/basic-types/union-types
+        optional: true
+      - id: typescript/basic-types/interfaces
+        optional: true
+      - id: typescript/basic-types/enums
+        optional: true
       # Cualquier OA puede expresarse como objeto, por ejemplo para flaggear
       # como "opcional".
       # por ahora es la unica propiedad soportada.
       - id: object-oriented-programming
         optional: true
+
   - name: python
     learningObjectives:
       - python
+      - id: python/django
+        exclude: true
       - id: object-oriented-programming
         optional: true
       - id: sql/crud
@@ -63,6 +74,19 @@ variants:
         exclude: true
       - id: postgres/indexes
         exclude: true
+
+  - name: python-django
+    learningObjectives:
+      - python
+      - id: python/flask
+        exclude: true
+      - id: sql/crud
+        exclude: true
+      - id: postgres/data-types
+        exclude: true
+      - id: postgres/indexes
+        exclude: true
+
   - name: csharp
     learningObjectives:
       - csharp
