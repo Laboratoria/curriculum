@@ -70,7 +70,7 @@ trabajar en su proyecto, lo que elimina la necesidad de configurar
 manualmente el entorno en sus propias máquinas.
 
 A continuación encuentras el paso a paso para trabajar con Gitpod.
-Sin embargo puedes ver este [video](https://youtu.be/legfwHxU_cI)
+Sin embargo puedes ver este [video](https://youtu.be/e2yAgeOwQGQ)
 que hemos preparado.
 
 ### Paso 1. Crea una cuenta en Gitpod usando Github
