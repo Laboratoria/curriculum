@@ -1166,7 +1166,7 @@ shell/scripts:
       url: http://linuxcommand.org/lc3_writing_shell_scripts.php
 
 shell/file-permissions:
-  title: File Permissions
+  title: Permisos de archivos (File Permissions)
   links:
     - title: Understanding Linux File Permissions - DigitalOcean
       url: https://www.digitalocean.com/community/tutorials/understanding-linux-file-permissions
@@ -1247,51 +1247,51 @@ sql/subqueries-nested-queries:
       url: https://www.postgresql.org/docs/current/functions-subquery.html
 
 sql/create-table:
-  title: CREATE TABLE
+  title: Crear una tabla con CREATE TABLE
   links:
     - title: SQL CREATE TABLE Statement - W3Schools
       url: https://www.w3schools.com/sql/sql_create_table.asp
 
 sql/insert:
-  title: INSERT
+  title: Agregar registros a un tabla con INSERT
   links:
-    - title: Inserting Data
+    - title: Inserting Data - PostgreSQL Docs
       url: https://www.postgresql.org/docs/current/dml-insert.html
 
 sql/update:
-  title: UPDATE
+  title: Actualizar registros con UPDATE
   links:
-    - title: Updating Data
+    - title: Updating Data - PostgreSQL Docs
       url: https://www.postgresql.org/docs/current/dml-update.html
 
 sql/delete:
-  title: DELETE
+  title: Eliminar registros con DELETE
   links:
-    - title: DELETE
+    - title: Deleting Data - PostgreSQL Docs
       url: https://www.postgresql.org/docs/current/dml-delete.html
 
 sql/primary-key:
-  title: Primary Key
+  title: Claves primarias (Primary Keys)
   links:
-    - title: Primary Keys
+    - title: Primary Keys - PostgreSQL Docs
       url: https://www.postgresql.org/docs/current/ddl-constraints.html#DDL-CONSTRAINTS-PRIMARY-KEYS
 
 sql/foreign-key:
-  title: Foreign key
+  title: Claves externas (Foreign Keys)
   links:
-    - title: Foreign Keys
+    - title: Foreign Keys - PostgreSQL Docs
       url: https://www.postgresql.org/docs/current/ddl-constraints.html#DDL-CONSTRAINTS-FK
 
 sql/alter-table:
-  title: ALTER TABLE
+  title: Cambiar la estrucutura de una tabla con ALTER TABLE
   links:
-    - title: Modifying Tables
+    - title: Modifying Tables - PostgreSQL Docs
       url: https://www.postgresql.org/docs/current/ddl-alter.html
 
 sql/constraints:
-  title: Constraints
+  title: Restricciones sobre los campos de una tabla (Constraints)
   links:
-    - title: Constraints
+    - title: Constraints - PostgreSQL Docs
       url: https://www.postgresql.org/docs/current/ddl-constraints.html
 
 mongodb:
@@ -1356,7 +1356,7 @@ postgres/dump-restore:
       url: https://www.postgresql.org/docs/14/backup.html
 
 postgres/setup:
-  title: PostgreSQL Setup
+  title: Setup de una nueva instancia
   links:
     - title: PostgreSQL Installation - PostgreSQL Docs
       url: https://www.postgresql.org/download/
@@ -1364,7 +1364,7 @@ postgres/setup:
       url: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-20-04
 
 postgres/commands:
-  title: PostgreSQL Commands
+  title: Comandos
   links:
     - title: PostgreSQL psql Commands - PostgreSQL Docs
       url: https://www.postgresql.org/docs/current/app-psql.html
@@ -1372,8 +1372,8 @@ postgres/commands:
       url: https://www.verta.ai/resources/tutorials/database/postgresql-commands
 
 postgres/backup:
-  title: PostgreSQL Backup
-  description: "Backup procedures for PostgreSQL databases, including various tools and best practices."
+  title: Copias de seguridad (Backup)
+  description: "Procedimientos de copia de seguridad para bases de datos PostgreSQL, incluyendo varias herramientas y mejores prácticas."
   references:
     - link: "https://www.postgresql.org/docs/current/backup.html"
       description: "Official PostgreSQL Backup Documentation"
@@ -1383,8 +1383,8 @@ postgres/backup:
       description: "Backup and Restore with pgAdmin - Official Documentation"
 
 postgres/restore:
-  title: PostgreSQL Restore
-  description: "Methods and best practices for restoring PostgreSQL databases from backups."
+  title: Restauración (Restore)
+  description: "Métodos y mejores prácticas para restaurar bases de datos PostgreSQL a partir de copias de seguridad."
   references:
     - link: "https://www.postgresql.org/docs/current/backup-dump.html"
       description: "Official PostgreSQL Restore Documentation"
@@ -1423,14 +1423,14 @@ mysql/dump-restore:
       url: https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html
 
 virtual-machines:
-  title: Virtual Machines
+  title: Máquinas Virtuales
 
 virtual-machines/setup:
-  title: Virtual Machines Setup
+  title: Configurando máquinas virtuales
   links:
-    - title: Creating a Virtual Machine - Oracle VM
+    - title: Creación de una máquina virtual - Oracle VM
       url: https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/vboxmanage-createvm.html
-    - title: Setting Up a Virtual Machine - Microsoft
+    - title: Configuración de una máquina virtual - Microsoft
       url: https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/quick-create-virtual-machine
 
 react:
