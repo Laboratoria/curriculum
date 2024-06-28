@@ -364,6 +364,14 @@ sql:
   # - alter-table
   # - constraints
   # - create-view
+  - create-table
+  - insert
+  - update
+  - delete
+  - primary-key         
+  - foreign-key
+  - alter-table
+  - constraints
   - tables # legacy
   - crud # legacy
   - drop # legacy
@@ -373,6 +381,10 @@ postgres:
   - data-types
   - indexes
   - dump-restore
+  - setup
+  - commands
+  - backup
+  - restore
 
 mysql:
   - mysql
@@ -389,6 +401,13 @@ mongodb:
   # - inedexes
   # - change-streams
   # - replication
+
+virtual-machines:
+  - setup
+
+shell:
+  - scripts
+  - file-permissions
 
 slack:
   - slash-commands
@@ -459,6 +478,13 @@ ai-prompting:
   - few-shot-prompting
   - priming-chatbots
   - open-ai-api
+
+data-analytics:
+  - data-preparation
+  - data-exploration
+  - data-analysis
+  - analysis-report
+  - analysis-presentation
 
 # New OAs since UXD006
 agile-planning:

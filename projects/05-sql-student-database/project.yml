@@ -1,0 +1,22 @@
+track: web-dev
+learningObjectives:
+  - sql/select-where
+  - sql/create-table
+  - sql/insert
+  - sql/update
+  - sql/delete
+  - sql/primary-key
+  - sql/foreign-key
+  - sql/alter-table
+  - sql/join
+  - sql/group-by-having
+  - sql/order-by
+  - sql/aggregate-functions
+  - sql/constraints
+  - virtual-machines/setup
+  - postgres/setup
+  - postgres/commands
+  - postgres/backup
+  - postgres/restore
+  - shell/scripts
+  - shell/file-permissions
