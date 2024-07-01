@@ -2,9 +2,9 @@
   "slug": "guess-the-number",
   "repo": "Laboratoria/curriculum",
   "path": "projects/04-guess-the-number",
-  "version": "9.2.1-beta.0",
+  "version": "9.2.1-beta.2",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-07-01T17:40:20.481Z",
+  "createdAt": "2024-07-01T17:56:56.713Z",
   "prefix": 4,
   "track": "web-dev",
   "tracks": [

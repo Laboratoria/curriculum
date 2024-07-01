@@ -2,9 +2,9 @@
   "slug": "fleet-management-api",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-fleet-management-api",
-  "version": "9.2.1-beta.0",
+  "version": "9.2.1-beta.2",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-07-01T17:40:20.456Z",
+  "createdAt": "2024-07-01T17:56:56.812Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [
@@ -348,6 +348,78 @@
       "name": "python",
       "learningObjectives": [
         {
+          "id": "python/django/setup/migrations",
+          "exclude": true
+        },
+        {
+          "id": "python/django/setup/app",
+          "exclude": true
+        },
+        {
+          "id": "python/django/models/fields",
+          "exclude": true
+        },
+        {
+          "id": "python/django/models/foreign-Key",
+          "exclude": true
+        },
+        {
+          "id": "python/django/views",
+          "exclude": true
+        },
+        {
+          "id": "python/django/testing",
+          "exclude": true
+        },
+        {
+          "id": "python/django/queryset",
+          "exclude": true
+        },
+        {
+          "id": "python/django/filter",
+          "exclude": true
+        },
+        {
+          "id": "python/django/order-by",
+          "exclude": true
+        },
+        {
+          "id": "python/django/url-configuration",
+          "exclude": true
+        },
+        {
+          "id": "python/django/rest-framework/serializers",
+          "exclude": true
+        },
+        {
+          "id": "python/django/rest-framework/pagination",
+          "exclude": true
+        },
+        {
+          "id": "python/django/rest-framework/query-params",
+          "exclude": true
+        },
+        {
+          "id": "python/django/rest-framework/viewset",
+          "exclude": true
+        },
+        {
+          "id": "python/django/rest-framework/apiview",
+          "exclude": true
+        },
+        {
+          "id": "sql/crud",
+          "exclude": true
+        },
+        {
+          "id": "postgres/data-types",
+          "exclude": true
+        },
+        {
+          "id": "postgres/indexes",
+          "exclude": true
+        },
+        {
           "id": "python/data-types/primitive"
         },
         {
@@ -454,51 +526,6 @@
         },
         {
           "id": "python/flask/testing/test-client"
-        },
-        {
-          "id": "python/django/setup/migrations"
-        },
-        {
-          "id": "python/django/setup/app"
-        },
-        {
-          "id": "python/django/models/fields"
-        },
-        {
-          "id": "python/django/models/foreign-Key"
-        },
-        {
-          "id": "python/django/views"
-        },
-        {
-          "id": "python/django/testing"
-        },
-        {
-          "id": "python/django/queryset"
-        },
-        {
-          "id": "python/django/filter"
-        },
-        {
-          "id": "python/django/order-by"
-        },
-        {
-          "id": "python/django/url-configuration"
-        },
-        {
-          "id": "python/django/rest-framework/serializers"
-        },
-        {
-          "id": "python/django/rest-framework/pagination"
-        },
-        {
-          "id": "python/django/rest-framework/query-params"
-        },
-        {
-          "id": "python/django/rest-framework/viewset"
-        },
-        {
-          "id": "python/django/rest-framework/apiview"
         },
         {
           "id": "object-oriented-programming/classes",
@@ -543,6 +570,47 @@
         {
           "id": "object-oriented-programming/unified-model-language",
           "optional": true
+        }
+      ]
+    },
+    {
+      "name": "python-django",
+      "learningObjectives": [
+        {
+          "id": "python/flask/routes/route-decorator",
+          "exclude": true
+        },
+        {
+          "id": "python/flask/routes/view-function",
+          "exclude": true
+        },
+        {
+          "id": "python/flask/routes/variable-rules",
+          "exclude": true
+        },
+        {
+          "id": "python/flask/request/args",
+          "exclude": true
+        },
+        {
+          "id": "python/flask/request/headers",
+          "exclude": true
+        },
+        {
+          "id": "python/flask/response/response-parts",
+          "exclude": true
+        },
+        {
+          "id": "python/flask/response/jsonify",
+          "exclude": true
+        },
+        {
+          "id": "python/flask/testing/fixture-setup",
+          "exclude": true
+        },
+        {
+          "id": "python/flask/testing/test-client",
+          "exclude": true
         },
         {
           "id": "sql/crud",
@@ -555,12 +623,7 @@
         {
           "id": "postgres/indexes",
           "exclude": true
-        }
-      ]
-    },
-    {
-      "name": "python-django",
-      "learningObjectives": [
+        },
         {
           "id": "python/data-types/primitive"
         },
@@ -643,33 +706,6 @@
           "id": "python/serialization"
         },
         {
-          "id": "python/flask/routes/route-decorator"
-        },
-        {
-          "id": "python/flask/routes/view-function"
-        },
-        {
-          "id": "python/flask/routes/variable-rules"
-        },
-        {
-          "id": "python/flask/request/args"
-        },
-        {
-          "id": "python/flask/request/headers"
-        },
-        {
-          "id": "python/flask/response/response-parts"
-        },
-        {
-          "id": "python/flask/response/jsonify"
-        },
-        {
-          "id": "python/flask/testing/fixture-setup"
-        },
-        {
-          "id": "python/flask/testing/test-client"
-        },
-        {
           "id": "python/django/setup/migrations"
         },
         {
@@ -713,18 +749,6 @@
         },
         {
           "id": "python/django/rest-framework/apiview"
-        },
-        {
-          "id": "sql/crud",
-          "exclude": true
-        },
-        {
-          "id": "postgres/data-types",
-          "exclude": true
-        },
-        {
-          "id": "postgres/indexes",
-          "exclude": true
         }
       ]
     },

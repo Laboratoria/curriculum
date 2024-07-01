@@ -12,14 +12,9 @@ learningObjectives:
   - scm/github/collaboration
   - scm/github/project-management
 
-# permite mayor control de la informacion en seleccion de proyecto
-# se pretende tener una semantica predefinida q controle el comportamiento
-# de la interfaz.
-# por ahora estos son los unicos valores permitidos
 tags:
   - featured
 
-# para proyectos que tienen diferentes implementaciones (aka rutas)
 variants:
   - name: java
     learningObjectives:
@@ -55,29 +50,25 @@ variants:
         optional: true
       - id: typescript/basic-types/enums
         optional: true
-      # Cualquier OA puede expresarse como objeto, por ejemplo para flaggear
-      # como "opcional".
-      # por ahora es la unica propiedad soportada.
       - id: object-oriented-programming
         optional: true
 
   - name: python
     learningObjectives:
-      - python
       - id: python/django
         exclude: true
-      - id: object-oriented-programming
-        optional: true
       - id: sql/crud
         exclude: true
       - id: postgres/data-types
         exclude: true
       - id: postgres/indexes
         exclude: true
+      - python
+      - id: object-oriented-programming
+        optional: true
 
   - name: python-django
     learningObjectives:
-      - python
       - id: python/flask
         exclude: true
       - id: sql/crud
@@ -86,6 +77,8 @@ variants:
         exclude: true
       - id: postgres/indexes
         exclude: true
+      - python
+
 
   - name: csharp
     learningObjectives:
