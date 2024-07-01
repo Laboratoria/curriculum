@@ -2,9 +2,9 @@
   "slug": "burger-queen-api",
   "repo": "Laboratoria/curriculum",
   "path": "projects/04-burger-queen-api",
-  "version": "9.2.0",
+  "version": "9.2.1-beta.0",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-06-28T20:56:06.861Z",
+  "createdAt": "2024-07-01T17:40:19.162Z",
   "prefix": 4,
   "track": "web-dev",
   "tracks": [
