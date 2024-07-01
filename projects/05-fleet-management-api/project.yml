@@ -28,19 +28,6 @@ variants:
 
   - name: node
     learningObjectives:
-      - js/testing/unit
-      - js/testing/async
-      - js/testing/mocks
-      - js/testing/e2e
-      - js/modules/es-modules
-      - js/modules/commonjs
-      - js/linting
-      - js/semantics
-      - node/npm-install
-      - node/package.json
-      - node/npm-scripts
-      - express/routing
-      - express/middleware
       - id: typescript/basic-types/primitives
         optional: true
       - id: typescript/basic-types/arrays
@@ -60,10 +47,23 @@ variants:
       # por ahora es la unica propiedad soportada.
       - id: object-oriented-programming
         optional: true
+      - js/testing/unit
+      - js/testing/async
+      - js/testing/mocks
+      - js/testing/e2e
+      - js/modules/es-modules
+      - js/modules/commonjs
+      - js/linting
+      - js/semantics
+      - node/npm-install
+      - node/package.json
+      - node/npm-scripts
+      - express/routing
+      - express/middleware
+
 
   - name: python
     learningObjectives:
-      - python
       - id: python/django
         exclude: true
       - id: object-oriented-programming
@@ -74,10 +74,10 @@ variants:
         exclude: true
       - id: postgres/indexes
         exclude: true
+      - python
 
   - name: python-django
     learningObjectives:
-      - python
       - id: python/flask
         exclude: true
       - id: sql/crud
@@ -86,9 +86,10 @@ variants:
         exclude: true
       - id: postgres/indexes
         exclude: true
+      - python
 
   - name: csharp
     learningObjectives:
-      - csharp
       - id: object-oriented-programming
         optional: true
+      - csharp

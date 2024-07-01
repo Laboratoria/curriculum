@@ -4,7 +4,7 @@
   "path": "projects/05-fleet-management-api",
   "version": "9.2.1-beta.0",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-07-01T17:40:20.456Z",
+  "createdAt": "2024-07-01T17:49:42.378Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [
@@ -232,45 +232,6 @@
       "name": "node",
       "learningObjectives": [
         {
-          "id": "js/testing/unit"
-        },
-        {
-          "id": "js/testing/async"
-        },
-        {
-          "id": "js/testing/mocks"
-        },
-        {
-          "id": "js/testing/e2e"
-        },
-        {
-          "id": "js/modules/es-modules"
-        },
-        {
-          "id": "js/modules/commonjs"
-        },
-        {
-          "id": "js/linting"
-        },
-        {
-          "id": "js/semantics"
-        },
-        {
-          "id": "node/npm-install"
-        },
-        {
-          "id": "node/package.json"
-        },
-        {
-          "id": "node/npm-scripts"
-        },
-        {
-          "id": "express/routing"
-        },
-        {
-          "id": "express/middleware"
-        },
-        {
           "id": "typescript/basic-types/primitives",
           "optional": true
         },
@@ -341,6 +302,45 @@
         {
           "id": "object-oriented-programming/unified-model-language",
           "optional": true
+        },
+        {
+          "id": "js/testing/unit"
+        },
+        {
+          "id": "js/testing/async"
+        },
+        {
+          "id": "js/testing/mocks"
+        },
+        {
+          "id": "js/testing/e2e"
+        },
+        {
+          "id": "js/modules/es-modules"
+        },
+        {
+          "id": "js/modules/commonjs"
+        },
+        {
+          "id": "js/linting"
+        },
+        {
+          "id": "js/semantics"
+        },
+        {
+          "id": "node/npm-install"
+        },
+        {
+          "id": "node/package.json"
+        },
+        {
+          "id": "node/npm-scripts"
+        },
+        {
+          "id": "express/routing"
+        },
+        {
+          "id": "express/middleware"
         }
       ]
     },
@@ -348,157 +348,64 @@
       "name": "python",
       "learningObjectives": [
         {
-          "id": "python/data-types/primitive"
+          "id": "python/django/setup/migrations",
+          "exclude": true
         },
         {
-          "id": "python/data-types/lists"
+          "id": "python/django/setup/app",
+          "exclude": true
         },
         {
-          "id": "python/data-types/tuples"
+          "id": "python/django/models/fields",
+          "exclude": true
         },
         {
-          "id": "python/data-types/dictionaries"
+          "id": "python/django/models/foreign-Key",
+          "exclude": true
         },
         {
-          "id": "python/data-types/sets"
+          "id": "python/django/views",
+          "exclude": true
         },
         {
-          "id": "python/variables"
+          "id": "python/django/testing",
+          "exclude": true
         },
         {
-          "id": "python/conditionals"
+          "id": "python/django/queryset",
+          "exclude": true
         },
         {
-          "id": "python/operators"
+          "id": "python/django/filter",
+          "exclude": true
         },
         {
-          "id": "python/docstrings"
+          "id": "python/django/order-by",
+          "exclude": true
         },
         {
-          "id": "python/functions/basic-concepts"
+          "id": "python/django/url-configuration",
+          "exclude": true
         },
         {
-          "id": "python/functions/args-kwargs"
+          "id": "python/django/rest-framework/serializers",
+          "exclude": true
         },
         {
-          "id": "python/functions/closures"
+          "id": "python/django/rest-framework/pagination",
+          "exclude": true
         },
         {
-          "id": "python/functions/lambda-functions"
+          "id": "python/django/rest-framework/query-params",
+          "exclude": true
         },
         {
-          "id": "python/functions/decorators"
+          "id": "python/django/rest-framework/viewset",
+          "exclude": true
         },
         {
-          "id": "python/iteration/loops"
-        },
-        {
-          "id": "python/iteration/list-comprehension"
-        },
-        {
-          "id": "python/iteration/functional-techniques"
-        },
-        {
-          "id": "python/linting"
-        },
-        {
-          "id": "python/testing/unit-tests"
-        },
-        {
-          "id": "python/testing/mocks"
-        },
-        {
-          "id": "python/testing/fixtures"
-        },
-        {
-          "id": "python/modularization/modules"
-        },
-        {
-          "id": "python/modularization/packages"
-        },
-        {
-          "id": "python/dependency-management/pip"
-        },
-        {
-          "id": "python/dependency-management/virtual-environment"
-        },
-        {
-          "id": "python/dependency-management/requirements-file"
-        },
-        {
-          "id": "python/serialization"
-        },
-        {
-          "id": "python/flask/routes/route-decorator"
-        },
-        {
-          "id": "python/flask/routes/view-function"
-        },
-        {
-          "id": "python/flask/routes/variable-rules"
-        },
-        {
-          "id": "python/flask/request/args"
-        },
-        {
-          "id": "python/flask/request/headers"
-        },
-        {
-          "id": "python/flask/response/response-parts"
-        },
-        {
-          "id": "python/flask/response/jsonify"
-        },
-        {
-          "id": "python/flask/testing/fixture-setup"
-        },
-        {
-          "id": "python/flask/testing/test-client"
-        },
-        {
-          "id": "python/django/setup/migrations"
-        },
-        {
-          "id": "python/django/setup/app"
-        },
-        {
-          "id": "python/django/models/fields"
-        },
-        {
-          "id": "python/django/models/foreign-Key"
-        },
-        {
-          "id": "python/django/views"
-        },
-        {
-          "id": "python/django/testing"
-        },
-        {
-          "id": "python/django/queryset"
-        },
-        {
-          "id": "python/django/filter"
-        },
-        {
-          "id": "python/django/order-by"
-        },
-        {
-          "id": "python/django/url-configuration"
-        },
-        {
-          "id": "python/django/rest-framework/serializers"
-        },
-        {
-          "id": "python/django/rest-framework/pagination"
-        },
-        {
-          "id": "python/django/rest-framework/query-params"
-        },
-        {
-          "id": "python/django/rest-framework/viewset"
-        },
-        {
-          "id": "python/django/rest-framework/apiview"
+          "id": "python/django/rest-framework/apiview",
+          "exclude": true
         },
         {
           "id": "object-oriented-programming/classes",
@@ -555,12 +462,7 @@
         {
           "id": "postgres/indexes",
           "exclude": true
-        }
-      ]
-    },
-    {
-      "name": "python-django",
-      "learningObjectives": [
+        },
         {
           "id": "python/data-types/primitive"
         },
@@ -668,6 +570,140 @@
         },
         {
           "id": "python/flask/testing/test-client"
+        }
+      ]
+    },
+    {
+      "name": "python-django",
+      "learningObjectives": [
+        {
+          "id": "python/flask/routes/route-decorator",
+          "exclude": true
+        },
+        {
+          "id": "python/flask/routes/view-function",
+          "exclude": true
+        },
+        {
+          "id": "python/flask/routes/variable-rules",
+          "exclude": true
+        },
+        {
+          "id": "python/flask/request/args",
+          "exclude": true
+        },
+        {
+          "id": "python/flask/request/headers",
+          "exclude": true
+        },
+        {
+          "id": "python/flask/response/response-parts",
+          "exclude": true
+        },
+        {
+          "id": "python/flask/response/jsonify",
+          "exclude": true
+        },
+        {
+          "id": "python/flask/testing/fixture-setup",
+          "exclude": true
+        },
+        {
+          "id": "python/flask/testing/test-client",
+          "exclude": true
+        },
+        {
+          "id": "sql/crud",
+          "exclude": true
+        },
+        {
+          "id": "postgres/data-types",
+          "exclude": true
+        },
+        {
+          "id": "postgres/indexes",
+          "exclude": true
+        },
+        {
+          "id": "python/data-types/primitive"
+        },
+        {
+          "id": "python/data-types/lists"
+        },
+        {
+          "id": "python/data-types/tuples"
+        },
+        {
+          "id": "python/data-types/dictionaries"
+        },
+        {
+          "id": "python/data-types/sets"
+        },
+        {
+          "id": "python/variables"
+        },
+        {
+          "id": "python/conditionals"
+        },
+        {
+          "id": "python/operators"
+        },
+        {
+          "id": "python/docstrings"
+        },
+        {
+          "id": "python/functions/basic-concepts"
+        },
+        {
+          "id": "python/functions/args-kwargs"
+        },
+        {
+          "id": "python/functions/closures"
+        },
+        {
+          "id": "python/functions/lambda-functions"
+        },
+        {
+          "id": "python/functions/decorators"
+        },
+        {
+          "id": "python/iteration/loops"
+        },
+        {
+          "id": "python/iteration/list-comprehension"
+        },
+        {
+          "id": "python/iteration/functional-techniques"
+        },
+        {
+          "id": "python/linting"
+        },
+        {
+          "id": "python/testing/unit-tests"
+        },
+        {
+          "id": "python/testing/mocks"
+        },
+        {
+          "id": "python/testing/fixtures"
+        },
+        {
+          "id": "python/modularization/modules"
+        },
+        {
+          "id": "python/modularization/packages"
+        },
+        {
+          "id": "python/dependency-management/pip"
+        },
+        {
+          "id": "python/dependency-management/virtual-environment"
+        },
+        {
+          "id": "python/dependency-management/requirements-file"
+        },
+        {
+          "id": "python/serialization"
         },
         {
           "id": "python/django/setup/migrations"
@@ -713,24 +749,56 @@
         },
         {
           "id": "python/django/rest-framework/apiview"
-        },
-        {
-          "id": "sql/crud",
-          "exclude": true
-        },
-        {
-          "id": "postgres/data-types",
-          "exclude": true
-        },
-        {
-          "id": "postgres/indexes",
-          "exclude": true
         }
       ]
     },
     {
       "name": "csharp",
       "learningObjectives": [
+        {
+          "id": "object-oriented-programming/classes",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/objects",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/methods",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/attributes",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/constructors",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/encapsulation",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/abstraction",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/composition",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/interfaces",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/inheritance",
+          "optional": true
+        },
+        {
+          "id": "object-oriented-programming/unified-model-language",
+          "optional": true
+        },
         {
           "id": "csharp/data-types/primitives"
         },
@@ -823,50 +891,6 @@
         },
         {
           "id": "csharp/entity-framework/migrations"
-        },
-        {
-          "id": "object-oriented-programming/classes",
-          "optional": true
-        },
-        {
-          "id": "object-oriented-programming/objects",
-          "optional": true
-        },
-        {
-          "id": "object-oriented-programming/methods",
-          "optional": true
-        },
-        {
-          "id": "object-oriented-programming/attributes",
-          "optional": true
-        },
-        {
-          "id": "object-oriented-programming/constructors",
-          "optional": true
-        },
-        {
-          "id": "object-oriented-programming/encapsulation",
-          "optional": true
-        },
-        {
-          "id": "object-oriented-programming/abstraction",
-          "optional": true
-        },
-        {
-          "id": "object-oriented-programming/composition",
-          "optional": true
-        },
-        {
-          "id": "object-oriented-programming/interfaces",
-          "optional": true
-        },
-        {
-          "id": "object-oriented-programming/inheritance",
-          "optional": true
-        },
-        {
-          "id": "object-oriented-programming/unified-model-language",
-          "optional": true
         }
       ]
     }
