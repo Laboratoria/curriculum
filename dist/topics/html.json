@@ -2,9 +2,9 @@
   "slug": "html",
   "repo": "Laboratoria/curriculum",
   "path": "topics/html",
-  "version": "9.2.1-beta.0",
+  "version": "9.2.1-beta.2",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-07-01T17:40:23.240Z",
+  "createdAt": "2024-07-01T17:56:59.530Z",
   "track": "web-dev",
   "tracks": [
     "web-dev"
