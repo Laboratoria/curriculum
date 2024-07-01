@@ -4,7 +4,7 @@
   "path": "topics/functional",
   "version": "9.2.1-beta.2",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-07-01T17:56:59.716Z",
+  "createdAt": "2024-07-01T18:00:06.329Z",
   "track": "web-dev",
   "tracks": [
     "web-dev"
@@ -67,7 +67,7 @@
               "slug": "discount",
               "prefix": "01",
               "path": "topics/functional/01-state/02-practice/01-discount",
-              "createdAt": "2024-07-01T17:56:59.715Z",
+              "createdAt": "2024-07-01T18:00:06.329Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -89,7 +89,7 @@
               "slug": "serialize-user",
               "prefix": "02",
               "path": "topics/functional/01-state/02-practice/02-serialize-user",
-              "createdAt": "2024-07-01T17:56:59.715Z",
+              "createdAt": "2024-07-01T18:00:06.329Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -137,7 +137,7 @@
               "slug": "parse-items",
               "prefix": "01",
               "path": "topics/functional/01-state/04-practice-2/01-parse-items",
-              "createdAt": "2024-07-01T17:56:59.715Z",
+              "createdAt": "2024-07-01T18:00:06.329Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -220,7 +220,7 @@
               "slug": "repeat",
               "prefix": "01",
               "path": "topics/functional/03-hof/02-practice/01-repeat",
-              "createdAt": "2024-07-01T17:56:59.716Z",
+              "createdAt": "2024-07-01T18:00:06.328Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -268,7 +268,7 @@
               "slug": "bound-logger",
               "prefix": "01",
               "path": "topics/functional/03-hof/04-practice-2/01-bound-logger",
-              "createdAt": "2024-07-01T17:56:59.716Z",
+              "createdAt": "2024-07-01T18:00:06.328Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -290,7 +290,7 @@
               "slug": "logger",
               "prefix": "02",
               "path": "topics/functional/03-hof/04-practice-2/02-logger",
-              "createdAt": "2024-07-01T17:56:59.716Z",
+              "createdAt": "2024-07-01T18:00:06.329Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -338,7 +338,7 @@
               "slug": "curry-n",
               "prefix": "01",
               "path": "topics/functional/03-hof/06-practice-3/01-curry-n",
-              "createdAt": "2024-07-01T17:56:59.716Z",
+              "createdAt": "2024-07-01T18:00:06.329Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -421,7 +421,7 @@
               "slug": "apply-discount",
               "prefix": "01",
               "path": "topics/functional/05-flow-control/02-practice/01-apply-discount",
-              "createdAt": "2024-07-01T17:56:59.715Z",
+              "createdAt": "2024-07-01T18:00:06.329Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -443,7 +443,7 @@
               "slug": "reduce",
               "prefix": "02",
               "path": "topics/functional/05-flow-control/02-practice/02-reduce",
-              "createdAt": "2024-07-01T17:56:59.715Z",
+              "createdAt": "2024-07-01T18:00:06.329Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -465,7 +465,7 @@
               "slug": "get-dependencies",
               "prefix": "03",
               "path": "topics/functional/05-flow-control/02-practice/03-get-dependencies",
-              "createdAt": "2024-07-01T17:56:59.715Z",
+              "createdAt": "2024-07-01T18:00:06.329Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
@@ -513,7 +513,7 @@
               "slug": "load-users",
               "prefix": "01",
               "path": "topics/functional/05-flow-control/04-practice-2/01-load-users",
-              "createdAt": "2024-07-01T17:56:59.715Z",
+              "createdAt": "2024-07-01T18:00:06.329Z",
               "track": "web-dev",
               "tracks": [
                 "web-dev"
