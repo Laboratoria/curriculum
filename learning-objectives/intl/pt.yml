@@ -1256,6 +1256,23 @@ db/connection:
 db/indexes-constraints:
   title: Índices e limitações
 
+shell:
+  title: Shell
+
+shell/scripts:
+  title: Shell Scripts
+  links:
+    - title: Shell Scripting Guide - LinuxCommand.org
+      url: http://linuxcommand.org/lc3_writing_shell_scripts.php
+
+shell/file-permissions:
+  title: Permissões de arquivo (File Permissions)
+  links:
+    - title: Understanding Linux File Permissions - DigitalOcean
+      url: https://www.digitalocean.com/community/tutorials/understanding-linux-file-permissions
+    - title: File Permissions in Linux - Red Hat
+      url: https://www.redhat.com/sysadmin/linux-file-permissions
+
 sql:
   title: SQL
 
@@ -1329,6 +1346,54 @@ sql/subqueries-nested-queries:
     - title: Subquery Expressions
       url: https://www.postgresql.org/docs/current/functions-subquery.html
 
+sql/create-table:
+  title: Criar uma tabela com CREATE TABLE
+  links:
+    - title: SQL CREATE TABLE Statement - W3Schools
+      url: https://www.w3schools.com/sql/sql_create_table.asp
+
+sql/insert:
+  title: Adição de registros a uma tabela com INSERT
+  links:
+    - title: Inserting Data - PostgreSQL Docs
+      url: https://www.postgresql.org/docs/current/dml-insert.html
+
+sql/update:
+  title: Atualizar registros com UPDATE  
+  links:
+    - title: Updating Data - PostgreSQL Docs
+      url: https://www.postgresql.org/docs/current/dml-update.html
+
+sql/delete:
+  title: Excluir registros com DELETE 
+  links:
+    - title: Deleting Data - PostgreSQL Docs
+      url: https://www.postgresql.org/docs/current/dml-delete.html
+
+sql/primary-key:
+  title: Claves primarias (Primary Keys)
+  links:
+    - title: Primary Keys - PostgreSQL Docs
+      url: https://www.postgresql.org/docs/current/ddl-constraints.html#DDL-CONSTRAINTS-PRIMARY-KEYS
+
+sql/foreign-key:
+  title: Claves externas (Foreign Keys)
+  links:
+    - title: Foreign Keys - PostgreSQL Docs
+      url: https://www.postgresql.org/docs/current/ddl-constraints.html#DDL-CONSTRAINTS-FK
+
+sql/alter-table:
+  title: Cambiar la estrucutura de una tabla con ALTER TABLE
+  links:
+    - title: Modifying Tables - PostgreSQL Docs
+      url: https://www.postgresql.org/docs/current/ddl-alter.html
+
+sql/constraints:
+  title: Restricciones sobre los campos de una tabla (Constraints)
+  links:
+    - title: Constraints - PostgreSQL Docs
+      url: https://www.postgresql.org/docs/current/ddl-constraints.html
+
 mongodb:
   title: MongoDB
 
@@ -1390,6 +1455,44 @@ postgres/dump-restore:
     - title: Chapter 26. Backup and Restore - Docs (em inglês)
       url: https://www.postgresql.org/docs/14/backup.html
 
+postgres/setup:
+  title: Configuração de uma nova instância
+  links:
+    - title: PostgreSQL Installation - PostgreSQL Docs
+      url: https://www.postgresql.org/download/
+    - title: How To Install and Use PostgreSQL on Ubuntu - DigitalOcean
+      url: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-20-04
+
+postgres/commands:
+  title: Comandos
+  links:
+    - title: PostgreSQL psql Commands - PostgreSQL Docs
+      url: https://www.postgresql.org/docs/current/app-psql.html
+    - title: Commonly Used PostgreSQL Commands - Verta.ai
+      url: https://www.verta.ai/resources/tutorials/database/postgresql-commands
+
+postgres/backup:
+  title: Backup
+  description: "Procedimentos de backup para bancos de dados PostgreSQL, incluindo várias ferramentas e práticas recomendadas."
+  references:
+    - link: "https://www.postgresql.org/docs/current/backup.html"
+      description: "Official PostgreSQL Backup Documentation"
+    - link: "https://www.digitalocean.com/community/tutorials/how-to-back-up-database-in-postgresql"
+      description: "How to Back Up a Database in PostgreSQL - DigitalOcean"
+    - link: "https://www.pgadmin.org/docs/pgadmin4/latest/backup_and_restore.html"
+      description: "Backup and Restore with pgAdmin - Official Documentation"
+
+postgres/restore:
+  title: Restaurar (Restore)
+  description: "Métodos e práticas recomendadas para restaurar bancos de dados PostgreSQL a partir de backups."
+  references:
+    - link: "https://www.postgresql.org/docs/current/backup-dump.html"
+      description: "Official PostgreSQL Restore Documentation"
+    - link: "https://www.digitalocean.com/community/tutorials/how-to-restore-postgresql-databases"
+      description: "How to Restore PostgreSQL Databases - DigitalOcean"
+    - link: "https://www.pgadmin.org/docs/pgadmin4/latest/backup_and_restore.html"
+      description: "Backup and Restore with pgAdmin - Official Documentation"      
+
 mysql:
   title: MySQL
 
@@ -1418,6 +1521,17 @@ mysql/dump-restore:
       url: https://dev.mysql.com/doc/refman/8.0/en/backup-and-recovery.html
     - title: mysqldump — A Database Backup Program - Docs (em inglês)
       url: https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html
+
+virtual-machines:
+  title: Máquinas virtuais
+
+virtual-machines/setup:
+  title: Configuração de máquinas virtuais
+  links:
+    - title: Creating a Virtual Machine - Oracle VM
+      url: https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/vboxmanage-createvm.html
+    - title: Setting Up a Virtual Machine - Microsoft
+      url: https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/quick-create-virtual-machine
 
 react:
   title: React
