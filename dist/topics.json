@@ -5,7 +5,7 @@
     "path": "topics/browser",
     "version": "9.2.1-beta.2",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-07-02T17:44:28.417Z",
+    "createdAt": "2024-07-02T17:48:00.582Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -29,7 +29,7 @@
     "path": "topics/content-management",
     "version": "9.2.1-beta.2",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-07-02T17:44:27.968Z",
+    "createdAt": "2024-07-02T17:48:00.078Z",
     "track": "ux",
     "tracks": [
       "ux"
@@ -49,7 +49,7 @@
     "path": "topics/css",
     "version": "9.2.1-beta.2",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-07-02T17:44:28.327Z",
+    "createdAt": "2024-07-02T17:48:00.475Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -73,7 +73,7 @@
     "path": "topics/functional",
     "version": "9.2.1-beta.2",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-07-02T17:44:28.221Z",
+    "createdAt": "2024-07-02T17:48:00.398Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -93,7 +93,7 @@
     "path": "topics/html",
     "version": "9.2.1-beta.2",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-07-02T17:44:28.151Z",
+    "createdAt": "2024-07-02T17:48:00.318Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -117,7 +117,7 @@
     "path": "topics/interaction-design",
     "version": "9.2.1-beta.2",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-07-02T17:44:29.297Z",
+    "createdAt": "2024-07-02T17:48:01.401Z",
     "track": "ux",
     "tracks": [
       "ux"
@@ -137,7 +137,7 @@
     "path": "topics/intro-ux",
     "version": "9.2.1-beta.2",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-07-02T17:44:29.155Z",
+    "createdAt": "2024-07-02T17:48:01.382Z",
     "track": "ux",
     "tracks": [
       "ux"
@@ -157,7 +157,7 @@
     "path": "topics/javascript",
     "version": "9.2.1-beta.2",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-07-02T17:44:29.791Z",
+    "createdAt": "2024-07-02T17:48:01.908Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -181,7 +181,7 @@
     "path": "topics/learning-mindset",
     "version": "9.2.1-beta.2",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-07-02T17:44:29.071Z",
+    "createdAt": "2024-07-02T17:48:01.252Z",
     "track": "web-dev",
     "tracks": [
       "web-dev",
@@ -202,7 +202,7 @@
     "path": "topics/paradigms",
     "version": "9.2.1-beta.2",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-07-02T17:44:29.432Z",
+    "createdAt": "2024-07-02T17:48:01.615Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -222,7 +222,7 @@
     "path": "topics/prototyping",
     "version": "9.2.1-beta.2",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-07-02T17:44:29.132Z",
+    "createdAt": "2024-07-02T17:48:01.332Z",
     "track": "ux",
     "tracks": [
       "ux"
@@ -242,7 +242,7 @@
     "path": "topics/scm",
     "version": "9.2.1-beta.2",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-07-02T17:44:29.340Z",
+    "createdAt": "2024-07-02T17:48:01.481Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -266,7 +266,7 @@
     "path": "topics/shell",
     "version": "9.2.1-beta.2",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-07-02T17:44:30.246Z",
+    "createdAt": "2024-07-02T17:48:02.353Z",
     "track": "web-dev",
     "tracks": [
       "web-dev"
@@ -290,7 +290,7 @@
     "path": "topics/ux-research",
     "version": "9.2.1-beta.2",
     "parserVersion": "6.0.0",
-    "createdAt": "2024-07-02T17:44:30.307Z",
+    "createdAt": "2024-07-02T17:48:02.424Z",
     "track": "ux",
     "tracks": [
       "ux"
