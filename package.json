@@ -25,6 +25,7 @@
     "test": "npm run test:topics && npm run test:scripts",
     "validate": "node ./scripts/build.mjs --validate",
     "build": "node ./scripts/build.mjs",
+    "changelog": "git log $(git describe --tags --abbrev=0)..HEAD --oneline --format=\"* %h %s (%an)\"",
     "create-cohort-project": "node ./scripts/create-cohort-project.mjs",
     "link-parser": "rm -rf node_modules/@laboratoria/curriculum-parser && ln -s ../../../curriculum-parser node_modules/@laboratoria/"
   },
