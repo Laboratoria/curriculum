@@ -486,6 +486,26 @@ data-analytics:
   - analysis-report
   - analysis-presentation
 
+devops-computing-cloud-services:
+  - concepts-cloud-infrastructure-virtualization
+  - setting-up-runtime-environment
+  - monitoring-application-virtual-machine
+
+devops-docker:
+  - docker-container-image
+  - dockerfile
+  - docker-commands
+
+devops-container-cloud-services:
+  - orchestration-system-components
+  - configure-container-task-definitions
+
+devops-kubernetes:
+  - kubernetes-use-cases
+  - kubernetes-components
+  - kubernetes-yaml-files
+  - kubectl-commands
+
 # New OAs since UXD006
 agile-planning:
   - scope
