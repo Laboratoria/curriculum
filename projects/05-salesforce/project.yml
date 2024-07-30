@@ -1,4 +1,4 @@
 track: web-dev
-tags:
-  - salesforce-platform
-  - salesforce-js
+variants:
+  - name: salesforce-platform
+  - name: salesforce-js
