@@ -1,12 +1,19 @@
 # Programa de Acompañamiento Salesforce
 
-Este programa ofrece dos rutas especializadas para desarrolladoras interesadas en profundizar sus habilidades en la plataforma Salesforce: **Platform Developer** y **JavaScript Developer**. A continuación, se detallan las habilidades y conocimientos clave para cada rol.
+Este programa ofrece dos rutas especializadas para desarrolladoras
+interesadas en profundizar sus habilidades en la plataforma Salesforce:
+**Platform Developer** y **JavaScript Developer**. A continuación, se
+detallan las habilidades y conocimientos clave para cada rol.
 
 ## Platform Developer en Salesforce
 
 ### Descripción del Rol
 
-Un Salesforce Platform Developer se centra en la construcción y personalización de aplicaciones en la plataforma Salesforce, utilizando herramientas y lenguajes específicos como Apex y Visualforce. Este rol implica desarrollar soluciones robustas que se integren perfectamente con la plataforma Salesforce.
+Un Salesforce Platform Developer se centra en la construcción y
+personalización de aplicaciones en la plataforma Salesforce,
+utilizando herramientas y lenguajes específicos como Apex y Visualforce.
+Este rol implica desarrollar soluciones robustas que se integren
+perfectamente con la plataforma Salesforce.
 
 ### Habilidades y Conocimientos Necesarios
 
@@ -56,7 +63,9 @@ componentes en la interfaz de usuario de Salesforce.
 - **Superposiciones**: Ambos roles requieren un buen entendimiento de la
   plataforma Salesforce, su modelo de datos y sus capacidades de integración.
 - **Diferencias Clave**: El Platform Developer se centra más en el desarrollo
-  del lado del servidor y la lógica de negocio con Apex, mientras que el JavaScript Developer se enfoca en la experiencia del usuario y la interfaz del cliente con JavaScript y LWC.
+  del lado del servidor y la lógica de negocio con Apex, mientras que el
+  JavaScript Developer se enfoca en la experiencia del usuario y la interfaz
+  del cliente con JavaScript y LWC.
 
 Cada ruta está diseñada para equipar a las desarrolladoras con las habilidades
 necesarias para sobresalir en sus roles respectivos, contribuyendo tanto al
