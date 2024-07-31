@@ -1,0 +1,21 @@
+{
+  "slug": "salesforce",
+  "repo": "Laboratoria/curriculum",
+  "path": "projects/05-salesforce",
+  "version": "9.3.0",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-07-31T20:10:31.978Z",
+  "prefix": 5,
+  "track": "web-dev",
+  "tracks": [
+    "web-dev"
+  ],
+  "intl": {
+    "es": {
+      "title": "Programa de Acompañamiento Salesforce",
+      "summary": "<p>Este programa ofrece dos rutas especializadas para desarrolladoras\ninteresadas en profundizar sus habilidades en la plataforma Salesforce:\n<strong>Platform Developer</strong> y <strong>JavaScript Developer</strong>. A continuación, se\ndetallan las habilidades y conocimientos clave para cada rol.</p>"
+    }
+  },
+  "cover": null,
+  "thumb": null
+}

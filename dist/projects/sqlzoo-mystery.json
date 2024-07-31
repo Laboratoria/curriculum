@@ -2,9 +2,9 @@
   "slug": "sqlzoo-mystery",
   "repo": "Laboratoria/curriculum",
   "path": "projects/04-sqlzoo-mystery",
-  "version": "9.2.0",
+  "version": "9.3.0",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-07-03T17:53:39.817Z",
+  "createdAt": "2024-07-31T20:10:25.642Z",
   "prefix": 4,
   "track": "web-dev",
   "tracks": [
