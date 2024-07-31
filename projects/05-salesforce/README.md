@@ -1,5 +1,7 @@
 # Programa de Acompañamiento Salesforce
 
+## Resumen
+
 Este programa ofrece dos rutas especializadas para desarrolladoras
 interesadas en profundizar sus habilidades en la plataforma Salesforce:
 **Platform Developer** y **JavaScript Developer**. A continuación, se
