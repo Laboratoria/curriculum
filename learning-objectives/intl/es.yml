@@ -2003,6 +2003,106 @@ ai-prompting/open-ai-api:
     - title: "The chat completion object - API Reference - OpenAI API"
       url: https://platform.openai.com/docs/api-reference/chat/object
 
+devops-computing-cloud-services:
+  title: Servicios de computación en la nube
+  description: Servicios de computación en la nube como AWS EC2 y Azure VM
+
+devops-computing-cloud-services/concepts-cloud-infrastructure-virtualization:
+  title: Comprender los conceptos fundamentales de la infraestructura en la nube y la virtualización
+  description: Describir los conceptos básicos de la infraestructura en la nube y cómo la virtualización permite la creación y gestión de máquinas virtuales
+  links: 
+    - title:
+      url:
+
+devops-computing-cloud-services/setting-up-runtime-environment:
+  title: Configurar el entorno de ejecución de una aplicación en una máquina virtual
+  description: Instalar y configurar un sistema operativo y otros servicios esenciales en una máquina virtual para ejecutar una aplicación
+  links:
+    - title:
+      url:
+
+devops-computing-cloud-services/monitoring-application-virtual-machine:
+  title: Monitorear la ejecución de una aplicación en una máquina virtual
+  description: Utilizar herramientas de monitoreo para supervisar la ejecución de una aplicación en una máquina virtual
+  links:
+    - title:
+      url:      
+
+devops-docker:
+  title: Docker
+  description: Docker permite empaquetar una aplicación junto con todas sus dependencias (como bibliotecas, configuraciones y archivos necesarios) en una unidad estándar conocida como contenedor
+
+devops-docker/docker-container-image:
+  title: Explicar qué es Docker, Docker container y Docker image
+  description: Explicar qué es Docker, Docker container y Docker image
+  links:
+    - title:
+      url:  
+
+devops-docker/dockerfile:
+  title: Comprender y usar las intrucciones básicas de un Dockerfile para definir una Docker image, como `FROM`, `WORKDIR`, `COPY`, `RUN` y `EXPOSE`
+  description: Comprender y usar las intrucciones básicas de un Dockerfile para definir una Docker image, como `FROM`, `WORKDIR`, `COPY`, `RUN` y `EXPOSE`
+  links:
+    - title:
+      url:        
+
+devops-docker/docker-commands:
+  title: Ejecutar comandos básicos de Docker para gestionar el ciclo de vida de un contenedor e imagen e interactuar con contenedores
+  description: Usar comandos como `docker build`, `docker run`, `docker ps`, `docker stop`, `docker rm`, `docker pull` y `docker push`
+  links:
+    - title:
+      url:  
+
+devops-container-cloud-services:
+  title: Servicio de orquestación de contenedores 
+  description: Servicios de orquestación de contenedores en la nube como AWS ECS y Azure Container Apps
+
+devops-container-cloud-services/orchestration-system-components:
+  title: Describir los componentes clave de un sistema de orquestación, como clústeres, tareas, servicios y balanceadores de carga
+  description: Describir los componentes clave de un sistema de orquestación, como clústeres, tareas, servicios y balanceadores de carga
+  links:
+    - title:
+      url:  
+
+devops-container-cloud-services/configure-container-task-definitions:
+  title: Crear y configurar definiciones de contenedor y tareas que incluyan todos los componentes necesarios para ejecutar un aplicación, como imágenes Docker, variables de entorno, volúmenes y configuraciones de red
+  description: Crear y configurar definiciones de contenedor y tareas que incluyan todos los componentes necesarios para ejecutar un aplicación, como imágenes Docker, variables de entorno, volúmenes y configuraciones de red
+  links:
+    - title:
+      url:  
+
+devops-kubernetes:
+  title: Kubernetes
+  description: Kubernetes es una herramienta que facilita la gestión de aplicaciones contenedorizadas al automatizar el despliegue, el escalado y la recuperación ante fallos
+
+devops-kubernetes/kubernetes-use-cases:
+  title: Explicar que es Kubernetes y describir sus casos de uso y las necesidades que soluciona
+  description: Explicar que es Kubernetes y describir sus casos de uso y las necesidades que soluciona
+  links:
+    - title:
+      url:  
+
+devops-kubernetes/kubernetes-components:
+  title: Describir la arquitectura de Kubernetes y sus componentes clave, como nodos, pods, servicios, deployments y namespaces
+  description: Describir la arquitectura de Kubernetes y sus componentes clave, como nodos, pods, servicios, deployments y namespaces
+  links:
+    - title:
+      url:  
+
+devops-kubernetes/kubernetes-yaml-files:
+  title: Crear y configurar archivos de manifiesto de Kubernetes (YAML) para definir recursos como deployments, services y configMaps necesarios para desplegar una API.
+  description: Crear y configurar archivos de manifiesto de Kubernetes (YAML) para definir recursos como deployments, services y configMaps necesarios para desplegar una API.
+  links:
+    - title:
+      url:  
+
+devops-kubernetes/kubectl-commands:
+  title: Utilizar comandos de kubectl para gestionar recursos del clúster, escalar aplicaciones manualmente y automatizar el escalado basado en métricas de rendimiento
+  description: Utilizar comandos de kubectl para gestionar recursos del clúster, escalar aplicaciones manualmente y automatizar el escalado basado en métricas de rendimiento
+  links:
+    - title:
+      url:  
+
 data-analytics:
   title: Análisis de datos
   description: Validar hipótesis mediante el análisis de los datos, y proporcionar recomendaciones estratégicas basadas en tus hallazgos
