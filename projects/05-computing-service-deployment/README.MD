@@ -6,11 +6,10 @@
 - [2. Preámbulo](#2-preámbulo)
 - [3. Resumen del proyecto](#3-resumen-del-proyecto)
 - [4. Implementaciones de ejemplo](#4-Implementaciones-de-ejemplo)
-- [5. Paso a paso general para el despliegue en Amazon EC2 o Azure VMs](#5-Paso-a-paso-general-para-el-despliegue-en-Amazon-EC2-o-Azure-VMs)
+- [5. Paso a paso general para el despliegue en Amazon EC2](#5-Paso-a-paso-general-para-el-despliegue-en-Amazon-EC2)
 - [6. Paso a paso detallado para el despliegue en Amazon EC2](#6-Paso-a-paso-detallado-para-el-despliegue-en-Amazon-EC2)
-- [7. Paso a paso detallado para el despliegue en Azure VMs](#7-Paso-a-paso-detallado-para-el-despliegue-en-Azure-VMs)
-- [8. Consideraciones para pedir tu Project Feedback](#8-Consideraciones-para-pedir-tu-Project-Feedback)
-- [9. Objetivos de aprendizaje](#9-Objetivos-de-aprendizaje)
+- [7. Consideraciones para pedir tu Project Feedback](#7-Consideraciones-para-pedir-tu-Project-Feedback)
+- [8. Objetivos de aprendizaje](#8-Objetivos-de-aprendizaje)
 
 ---
 
@@ -33,16 +32,14 @@ Virtual Machines
 _Photo by_
 [_Alexandre Debiève_](https://github.com/user-attachments/assets/506d6905-593f-4774-be0a-26f28c35af9b)
 
-AWS EC2 y Azure Virtual Machines son servicios de computación en la
+AWS EC2 es un servicio de computación en la
 nube que permiten a las desarrolladoras crear, gestionar y escalar máquinas
-virtuales conocidos como instancias. Ambos servicios proporcionan una
+virtuales conocidos como instancias. Proporciona una
 infraestructura flexible y segura para ejecutar una amplia variedad de
-aplicaciones y servicios, con características similares como escalabilidad,
+aplicaciones y servicios, con características como escalabilidad,
 diversidad de tipos de instancias, soporte para múltiples sistemas
 operativos, opciones de pago por uso, y avanzadas configuraciones de redes
-y seguridad. La elección entre AWS EC2 y Azure VMs a menudo depende de
-las necesidades específicas del proyecto, la familiaridad con la plataforma
-y otros factores como integración con servicios existentes.
+y seguridad.
 
 La currícula de Laboratoria incluye 4 proyectos enfocados en
 desplegar la [Fleet Management API](../05-fleet-management-api/README.md)
@@ -62,10 +59,10 @@ Ruta Devops
 ## 3. Resumen del proyecto
 
 En este proyecto desplegarás la Fleet Management API en una máquina
-virtual usando **Amazon EC2** o **Azure Virtual Machines (Azure VMs)**.
+virtual usando **Amazon EC2**.
 
 En lugar de depender únicamente de tu computadora local para ejecutar aplicaciones,
-tanto en Amazon EC2 como en Azure VMs, puedes utilizar servidores remotos, llamados
+tanto en Amazon EC2, puedes utilizar servidores remotos, llamados
 instancias, que ofrecen más potencia y flexibilidad. Puedes elegir entre
 diferentes tipos de instancias según las necesidades
 de tu aplicación. Hay instancias optimizadas para tareas que requieren
@@ -87,10 +84,9 @@ lenguaje de programación que más te interese:
 - [Implementación en Python](https://github.com/Laboratoria/minimum-impl-fleet-management-api-python)
 - [Implementación en Java](https://github.com/Laboratoria/minimum-impl-fleet-management-api-java)
 
-## 5. Paso a paso general para el despliegue en Amazon EC2 o Azure VMs
+## 5. Paso a paso general para el despliegue en Amazon EC2
 
-Amazon EC2 y Azure Virtual Machines son servicios muy similares. En ambos
-podemos seguir el siguiente paso a paso general para
+Podemos seguir el siguiente paso a paso general para
 desplegar la Fleet Management API independientemente del lenguaje de
 programación en que esta implementada.
  
@@ -113,23 +109,13 @@ sugerimos las siguientes guías:
 - [Despliegue API Python](https://www.geeksforgeeks.org/how-to-deploy-python-application-in-aws/)
 - [Despliegue de API Java](https://medium.com/@amitu2016/deploying-spring-boot-web-app-on-aws-using-ec2-and-s3-4db1d0f55c78)
 
-## 7. Paso a paso detallado para el despliegue en Azure VMs
-
-El paso a paso detallado para el despliegue en Azure VMs
-depende del lenguaje de implementacion de la API. Te
-sugerimos las siguientes guias:
-
-- [Despliegue de API NodeJS](https://learn.microsoft.com/en-us/azure-stack/user/azure-stack-dev-start-howto-vm-nodejs)
-- [Despliegue API Python](https://www.geeksforgeeks.org/how-to-deploy-python-application-in-aws/)
-- [Despliegue de API Java](https://learn.microsoft.com/en-us/azure-stack/user/azure-stack-dev-start-howto-vm-java)
-
-## 8. Consideraciones para pedir tu Project Feedback
+## 7. Consideraciones para pedir tu Project Feedback
 
 Antes de agendar tu Project Feedback con tu coach, asegúrate de
 tener una coleccion de Postman para probar la API que
-desplegaste en Amazon EC2 o Azure VMs.
+desplegaste en Amazon EC2.
 
-## 9. Objetivos de aprendizaje
+## 8. Objetivos de aprendizaje
 
 > ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),

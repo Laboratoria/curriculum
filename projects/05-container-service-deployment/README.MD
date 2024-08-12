@@ -5,18 +5,17 @@
 - [1. Consideraciones generales](#1-consideraciones-generales)
 - [2. Preámbulo](#2-preámbulo)
 - [3. Resumen del proyecto](#3-resumen-del-proyecto)
-- [4. Paso a paso general para el despliegue en Amazon ECS o Azure Container Apps](#4-Paso-a-paso-general-para-el-despliegue-en-Amazon-ECS-o-Azure-Container-Apps)
+- [4. Paso a paso general para el despliegue en Amazon ECS](#4-Paso-a-paso-general-para-el-despliegue-en-Amazon-ECS)
 - [5. Paso a paso detallado para el despliegue en Amazon ECS](#5-Paso-a-paso-detallado-para-el-despliegue-en-Amazon-ECS)
-- [6. Paso a paso detallado para el despliegue en Azure Container Apps](#6-Paso-a-paso-detallado-para-el-despliegue-en-Azure-Container-Apps)
-- [7. Consideraciones para pedir tu Project Feedback](#7-Consideraciones-para-pedir-tu-Project-Feedback)
-- [8. Objetivos de aprendizaje](#8-Objetivos-de-aprendizaje)
+- [6. Consideraciones para pedir tu Project Feedback](#6-Consideraciones-para-pedir-tu-Project-Feedback)
+- [7. Objetivos de aprendizaje](#7-Objetivos-de-aprendizaje)
 
 ---
 
 ## 1. Consideraciones generales
 
 - Para poder implementar este proyecto debes implementar primer
-el [API Deployment on Docker File](../05-dockerfile-deployment/README.MD).
+el [API Deployment with Docker](../05-dockerfile-deployment/README.MD).
 - Este proyecto lo resolvemos de manera --individual--.
 - El rango de tiempo estimado para completar el proyecto es de 1 a 2 Sprints.
 
@@ -34,17 +33,15 @@ Contenedores
 _Photo by_
 [Frank Mckenna](https://unsplash.com/@frankiefoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
-AWS ECS (Elastic Container Service) y Azure Container Apps son servicios
-diseñados para simplificar el despliegue y la gestión de aplicaciones basadas
+AWS ECS (Elastic Container Service) es un servicio
+diseñado para simplificar el despliegue y la gestión de aplicaciones basadas
 en contenedores, permitiendo a las desarrolladoras centrarse en el código en
 lugar de la infraestructura. Ambos proporcionan escalabilidad automática,
 gestionando la capacidad de los recursos según la demanda de la aplicación.
-Además, tanto ECS como Azure Container Apps se integran de manera eficiente
-con otros servicios en sus respectivos ecosistemas de nube, facilitando
+Además se integra de manera eficiente
+con otros servicios de AWS, facilitando
 una experiencia cohesiva y flexible para construir y desplegar aplicaciones
-en la nube. Sin embargo, mientras que ECS se basa en la infraestructura de
-clústeres, Azure Container Apps ofrece una experiencia sin servidor,
-simplificando aún más la gestión.
+en la nube.
 
 La currícula de Laboratoria incluye 4 proyectos enfocados en
 desplegar la [Fleet Management API](../05-fleet-management-api/README.md)
@@ -64,25 +61,22 @@ Ruta Devops
 ## 3. Resumen del proyecto
 
 En este proyecto desplegarás la aplicación usando
-**Amazon Elastic Container Service (ECS)** o
-**Azure Container Apps**.
+**Amazon Elastic Container Service (ECS)**.
 
 Para este proyecto necesitarás la imagen Docker que construiste
 en el proyecto [API Deployment on Docker File](../05-dockerfile-deployment/README.MD).
 Si aún no la tienes, por favor implementa primero este proyecto.
 
-## 4. Paso a paso general para el despliegue en Amazon ECS o Azure Container Apps
+## 4. Paso a paso general para el despliegue en Amazon ECS
 
-Amazon ECS y Azure Container Apps son servicios muy similares. En ambos
-podemos seguir el siguiente paso a paso general para
+Podemos seguir el siguiente paso a paso general para
 desplegar la Fleet Management API independientemente del lenguaje de
 programación en que esta implementada
 
 - Paso 1: Subir la imagen docker a un Registro de Contenedores
-(Azure Container Registry o Amazon ECR)
-- Paso 2: Desplegar la aplicación en el caso de Azure creando una Container App y en el caso
-de Amazon ECS creando un cluster EC2, definiendo una tarea ECS y un servicio ECS.
-- Paso 3: Configurar el acceso externo para acceder a tu API utilizando la URL pública proporcionada por Azure o AWS.
+(Amazon ECR)
+- Paso 2: Desplegar la aplicación en Amazon ECS creando un cluster EC2, definiendo una tarea ECS y un servicio ECS.
+- Paso 3: Configurar el acceso externo para acceder a tu API utilizando la URL pública proporcionada por AWS.
 - Paso 4: Monitorizar y gestionar la aplicación
 
 ## 5. Paso a paso detallado para el despliegue en Amazon ECS
@@ -140,69 +134,13 @@ Usa la la IP pública de tu clúster EC2 para probar tu API con una
 coleccion de Postman. Puedes utilizar esta
 [colección de ejemplo](https://github.com/Laboratoria/curriculum/tree/main/projects/05-fleet-management-api#7-testing).
 
-## 6. Paso a paso detallado para el despliegue en Azure Container Apps
-
-### 1. Sube la imagen Docker a Azure Container Registry
-
-Azure Container Registry (ACR) es un servicio en la nube que
-te permite almacenar tus imágenes Docker de forma segura y
-eficiente. ACR actúa como un "repositorio" para imágenes Docker,
-similar a cómo GitHub actúa como un repositorio para código fuente.
-ECR se integra fácilmente con otros servicios de Azure, como Azure Container Apps.
-Esto simplifica el despliegue de tus aplicaciones en contenedores dentro
-del entorno de Azure.
-
-En este proyecto almacenaremos en ACR la imagen docker que hemos
-definido para empaquetar nuesta aplicación. Tómate un tiempo
-para familiarizarte con ACR. Puedes seguir el 
-[tutorial oficial de ACR](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-get-started-docker-cli)
-o cualquier otro disponible en internet. Asegúrate que al final tengas respuestas
-claras para las siguientes preguntas:
-
-- [ ] ¿Cómo creas un nuevo registro en Azure Container Registry?
-- [ ] ¿Cómo te autenticas en Azure Container Registry desde tu máquina local?
-- [ ] ¿Cómo subes una imagen Docker a Azure Container Registry?
-- [ ] ¿Cómo gestionas las imágenes en Azure Container Registry?
-- [ ] ¿Cómo haces `pull` a tu computadora de una imágen subida a Azure Container Registry?
-
-Finalmente, sube la imagen Docker que constuiste para empaquetar tu
-aplicación en un registro de Azure Container Registry.
-
-### 2. Crear una container App en Azure Container Registry
-
-El siguiente paso es entonces desplegar la imagen docker
-en una Container App usando Azure Container Apps.
-
-Tómate un tiempo para familiarizarte con Azure Container Apps. Puedes seguir el 
-[workshop oficial de Azure Container Apps](https://learn.microsoft.com/en-us/training/modules/deploy-manage-container-app-using-azure-container-apps/)
-o cualquier otro disponible en internet. Asegúrate que al final tengas respuestas
-claras para las siguientes preguntas:
-
-Para confirmar que una desarrolladora domina **Azure Container Apps**, puedes hacer las siguientes preguntas:
-
-- [ ] ¿Cómo se crea una nueva aplicación en Azure Container Apps desde el portal de Azure?
-- [ ] ¿Qué requisitos previos debes cumplir antes de desplegar una aplicación en Azure Container Apps?
-- [ ] ¿Cómo configuras el contenedor en una aplicación de Azure Container Apps?
-- [ ] ¿Cómo actualizas una aplicación desplegada en Azure Container Apps con una nueva versión de la imagen del contenedor?
-- [ ] ¿Cómo configuras el acceso y la seguridad para tu aplicación en Azure Container Apps?
-- [ ] ¿Cómo solucionas problemas si tu aplicación en Azure Container Apps no se está ejecutando correctamente?
-
-Finalmente, usa ECS para desplegar la imagen docker de tu aplicacion
-creando un clúster, una tarea y un servicio.
-
-### 3. Monitorizar y gestionar la aplicación
-
-Usa la la IP pública de tu Azure Container App para probar tu API con una
-coleccion de Postman. Puedes utilizar esta
-[colección de ejemplo](https://github.com/Laboratoria/curriculum/tree/main/projects/05-fleet-management-api#7-testing).
-
-## 7. Consideraciones para pedir tu Project Feedback
+## 6. Consideraciones para pedir tu Project Feedback
 
 Antes de agendar tu Project Feedback con tu coach, asegúrate de
 tener una coleccion de Postman para probar la API que
-desplegaste en Amazon ECS o Azure Container Apps.
+desplegaste en Amazon ECS.
 
-## 8. Objetivos de aprendizaje
+## 7. Objetivos de aprendizaje
 
 > ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
 > de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
