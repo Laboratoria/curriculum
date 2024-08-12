@@ -2082,27 +2082,6 @@ devops-kubernetes/kubernetes-use-cases:
     - title:
       url:  
 
-devops-kubernetes/kubernetes-components:
-  title: Describir la arquitectura de Kubernetes y sus componentes clave, como nodos, pods, servicios, deployments y namespaces
-  description: Describir la arquitectura de Kubernetes y sus componentes clave, como nodos, pods, servicios, deployments y namespaces
-  links:
-    - title:
-      url:  
-
-devops-kubernetes/kubernetes-yaml-files:
-  title: Crear y configurar archivos de manifiesto de Kubernetes (YAML) para definir recursos como deployments, services y configMaps necesarios para desplegar una API.
-  description: Crear y configurar archivos de manifiesto de Kubernetes (YAML) para definir recursos como deployments, services y configMaps necesarios para desplegar una API.
-  links:
-    - title:
-      url:  
-
-devops-kubernetes/kubectl-commands:
-  title: Utilizar comandos de kubectl para gestionar recursos del clúster, escalar aplicaciones manualmente y automatizar el escalado basado en métricas de rendimiento
-  description: Utilizar comandos de kubectl para gestionar recursos del clúster, escalar aplicaciones manualmente y automatizar el escalado basado en métricas de rendimiento
-  links:
-    - title:
-      url:  
-
 data-analytics:
   title: Análisis de datos
   description: Validar hipótesis mediante el análisis de los datos, y proporcionar recomendaciones estratégicas basadas en tus hallazgos

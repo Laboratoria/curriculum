@@ -500,12 +500,6 @@ devops-container-cloud-services:
   - orchestration-system-components
   - configure-container-task-definitions
 
-devops-kubernetes:
-  - kubernetes-use-cases
-  - kubernetes-components
-  - kubernetes-yaml-files
-  - kubectl-commands
-
 # New OAs since UXD006
 agile-planning:
   - scope
