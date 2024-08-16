@@ -89,7 +89,7 @@ lenguaje de programación que más te interese:
 Podemos seguir el siguiente paso a paso general para
 desplegar la Fleet Management API independientemente del lenguaje de
 programación en que esta implementada.
- 
+
 - Paso 1: Crear una cuenta en el proveedor de infraestructura
 - Paso 2: Lanzar una máquina virtual
 - Paso 3: Configurar la máquina virtual
