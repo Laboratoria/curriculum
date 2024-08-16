@@ -2486,3 +2486,12 @@ csharp/entity-framework/migrations:
   links:
     - title: Visão Geral das Migrações - Microsoft Docs
       url: https://docs.microsoft.com/pt-br/ef/core/managing-schemas/migrations/
+
+salesforce:
+  title: Salesforce
+
+salesforce/points-50000:
+  title: Alcance 50.000 pontos
+  
+salesforce/badges-100:
+  title: Obtenha 100 badges

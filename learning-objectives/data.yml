@@ -440,6 +440,10 @@ wordpress:
       - wordpress-apis
       - wordpress-plugin-directory
 
+salesforce:
+  - points-50000
+  - badges-100
+
 typescript:
   - basic-types:
     - static-type-checking
