@@ -383,7 +383,7 @@ está detallado en la sección de [Consideraciones técnicas](#5-consideraciones
 ### Primeros pasos
 
 Súmate al canal de Slack
-[#project-dataverse-chat](https://claseslaboratoria.slack.com/archives/C03MV35EP5M)
+[#project-dataverse-chat](https://claseslaboratoria.slack.com/archives/C06317MH3N0)
 para conversar y pedir ayuda del proyecto.
 
 Te sugerimos algunas tareas para dar inicio al proyecto. No es necesario
