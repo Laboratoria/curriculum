@@ -76,7 +76,7 @@ lenguaje de programación que más te interese:
 Docker es una herramienta que se usa para crear, desplegar y ejecutar
 aplicaciones en contenedores. Por lo tanto es importante
 que aprendas a administrar contenedores. Tómate un tiempo
-para familiarizarte con Docker. Puedes seguir el 
+para familiarizarte con Docker. Puedes seguir el
 [tutorial oficial de Docker](https://www.docker.com/101-tutorial/) o cualquier
 otro disponible en internet. Asegúrate que al final tengas respuestas
 claras para las siguientes preguntas:
@@ -102,8 +102,8 @@ claras para las siguientes preguntas:
 ### 2. Construye una imagen Docker con Dockerfile
 
 Una vez estes familiarizada con Docker, el siguiente paso es escribir
-un Dockerfile para construir una imagen que empaquete tu API. Puedes seguir este 
-[tutorial](https://medium.com/@anshita.bhasin/a-step-by-step-guide-to-create-dockerfile-9e3744d38d11)
+un Dockerfile para construir una imagen que empaquete tu API.
+Puedes seguir este [tutorial](https://medium.com/@anshita.bhasin/a-step-by-step-guide-to-create-dockerfile-9e3744d38d11)
 o cualquier otro disponible en internet.
 
 Para escribir un `Dockerfile` adecuado que empaquete una aplicación,
@@ -130,10 +130,10 @@ aplicación se ejecute correctamente?
 10. ¿Necesitas realizar alguna configuración específica o ejecución de scripts antes
 de que tu aplicación esté lista?
 
-Con ayuda de las respuestas a estas preguntas escribe un Dockerfile que empaquete 
-tu aplicación con todas sus dependencias, configure el entorno de trabajo y
-exponga el puerto necesario, asegurando que la aplicación esté lista para
-ejecutarse en un contenedor Docker.
+Con ayuda de las respuestas a estas preguntas escribe un Dockerfile
+que empaquete tu aplicación con todas sus dependencias, configure el
+entorno de trabajo y exponga el puerto necesario, asegurando que la
+aplicación esté lista para ejecutarse en un contenedor Docker.
 
 Luego construye la imagen Docker desde el Dockerfile (`docker build`) y  ejecuta
 un contenedor basado en la imagen construida (`docker run`).
