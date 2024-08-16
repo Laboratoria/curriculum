@@ -1,0 +1,35 @@
+{
+  "slug": "dockerfile-deployment",
+  "repo": "Laboratoria/curriculum",
+  "path": "projects/05-dockerfile-deployment",
+  "version": "9.4.0",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-08-16T21:00:58.276Z",
+  "prefix": 5,
+  "track": "web-dev",
+  "tracks": [
+    "web-dev"
+  ],
+  "tags": [
+    "featured"
+  ],
+  "learningObjectives": [
+    {
+      "id": "devops/docker/docker-container-image"
+    },
+    {
+      "id": "devops/docker/dockerfile"
+    },
+    {
+      "id": "devops/docker/docker-commands"
+    }
+  ],
+  "intl": {
+    "es": {
+      "title": "API Deployment with Docker",
+      "summary": "<p>En este proyecto empaquetarás la <a href=\"../05-fleet-management-api/README.md\">Fleet Management API</a>\nen un <strong>contenedor de Docker</strong> a través de un Dockerfile.</p>"
+    }
+  },
+  "cover": null,
+  "thumb": null
+}

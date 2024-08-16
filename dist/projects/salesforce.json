@@ -2,13 +2,31 @@
   "slug": "salesforce",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-salesforce",
-  "version": "9.3.0",
+  "version": "9.4.0",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-07-31T20:10:31.978Z",
+  "createdAt": "2024-08-16T21:01:03.918Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [
     "web-dev"
+  ],
+  "learningObjectives": [
+    {
+      "id": "salesforce/points-50000"
+    },
+    {
+      "id": "salesforce/badges-100"
+    }
+  ],
+  "variants": [
+    {
+      "name": "salesforce-platform",
+      "learningObjectives": []
+    },
+    {
+      "name": "salesforce-js",
+      "learningObjectives": []
+    }
   ],
   "intl": {
     "es": {

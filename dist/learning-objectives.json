@@ -517,6 +517,10 @@
         ]
       }
     ],
+    "salesforce": [
+      "points-50000",
+      "badges-100"
+    ],
     "typescript": [
       {
         "basic-types": [
@@ -577,6 +581,28 @@
       "data-analysis",
       "analysis-report",
       "analysis-presentation"
+    ],
+    "devops": [
+      {
+        "computing-cloud-services": [
+          "concepts-cloud-infrastructure-virtualization",
+          "setting-up-runtime-environment",
+          "monitoring-application-virtual-machine"
+        ]
+      },
+      {
+        "docker": [
+          "docker-container-image",
+          "dockerfile",
+          "docker-commands"
+        ]
+      },
+      {
+        "container-cloud-services": [
+          "orchestration-system-components",
+          "configure-container-task-definitions"
+        ]
+      }
     ],
     "agile-planning": [
       "scope",
@@ -1027,6 +1053,9 @@
     "wordpress/plugin-development/wordpress-rest-api",
     "wordpress/plugin-development/wordpress-apis",
     "wordpress/plugin-development/wordpress-plugin-directory",
+    "salesforce",
+    "salesforce/points-50000",
+    "salesforce/badges-100",
     "typescript",
     "typescript/basic-types",
     "typescript/basic-types/static-type-checking",
@@ -1070,6 +1099,18 @@
     "data-analytics/data-analysis",
     "data-analytics/analysis-report",
     "data-analytics/analysis-presentation",
+    "devops",
+    "devops/computing-cloud-services",
+    "devops/computing-cloud-services/concepts-cloud-infrastructure-virtualization",
+    "devops/computing-cloud-services/setting-up-runtime-environment",
+    "devops/computing-cloud-services/monitoring-application-virtual-machine",
+    "devops/docker",
+    "devops/docker/docker-container-image",
+    "devops/docker/dockerfile",
+    "devops/docker/docker-commands",
+    "devops/container-cloud-services",
+    "devops/container-cloud-services/orchestration-system-components",
+    "devops/container-cloud-services/configure-container-task-definitions",
     "agile-planning",
     "agile-planning/scope",
     "agile-planning/workplan",
@@ -4003,6 +4044,147 @@
           }
         ]
       },
+      "devops": {
+        "title": "DevOps"
+      },
+      "devops/computing-cloud-services": {
+        "title": "Servicios de computación en la nube",
+        "description": "Servicios de computación en la nube como AWS EC2 y Azure VM"
+      },
+      "devops/computing-cloud-services/concepts-cloud-infrastructure-virtualization": {
+        "title": "Comprender los conceptos fundamentales de la infraestructura en la nube y la virtualización",
+        "description": "Describir los conceptos básicos de la infraestructura en la nube y cómo la virtualización permite la creación y gestión de máquinas virtuales",
+        "links": [
+          {
+            "title": "AWS Cloud Essentials",
+            "url": "https://aws.amazon.com/getting-started/cloud-essentials/"
+          },
+          {
+            "title": "Get started with Amazon EC2",
+            "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html"
+          }
+        ]
+      },
+      "devops/computing-cloud-services/setting-up-runtime-environment": {
+        "title": "Configurar el entorno de ejecución de una aplicación en una máquina virtual",
+        "description": "Instalar y configurar un sistema operativo y otros servicios esenciales en una máquina virtual para ejecutar una aplicación",
+        "links": [
+          {
+            "title": "Despliegue de API NodeJS",
+            "url": "https://dev.to/drsimplegraffiti/from-code-to-the-cloud-a-step-by-step-guide-to-deploying-your-nodejs-app-on-aws-ec2-4300"
+          },
+          {
+            "title": "Despliegue API Python",
+            "url": "https://www.geeksforgeeks.org/how-to-deploy-python-application-in-aws/"
+          },
+          {
+            "title": "Despliegue de API Java",
+            "url": "https://medium.com/@amitu2016/deploying-spring-boot-web-app-on-aws-using-ec2-and-s3-4db1d0f55c78"
+          }
+        ]
+      },
+      "devops/computing-cloud-services/monitoring-application-virtual-machine": {
+        "title": "Monitorear la ejecución de una aplicación en una máquina virtual",
+        "description": "Utilizar herramientas de monitoreo para supervisar la ejecución de una aplicación en una máquina virtual",
+        "links": [
+          {
+            "title": "Monitor Amazon EC2 resources",
+            "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/monitoring_ec2.html"
+          }
+        ]
+      },
+      "devops/docker": {
+        "title": "Docker",
+        "description": "Docker permite empaquetar una aplicación junto con todas sus dependencias (como bibliotecas, configuraciones y archivos necesarios) en una unidad estándar conocida como contenedor"
+      },
+      "devops/docker/docker-container-image": {
+        "title": "Explicar qué es Docker, Docker container y Docker image",
+        "description": "Explicar qué es Docker, Docker container y Docker image",
+        "links": [
+          {
+            "title": "What is a container?",
+            "url": "https://docs.docker.com/guides/docker-concepts/the-basics/what-is-a-container/"
+          },
+          {
+            "title": "What is an image?",
+            "url": "https://docs.docker.com/guides/docker-concepts/the-basics/what-is-an-image/"
+          },
+          {
+            "title": "What is a registry?",
+            "url": "https://docs.docker.com/guides/docker-concepts/the-basics/what-is-a-registry/"
+          }
+        ]
+      },
+      "devops/docker/dockerfile": {
+        "title": "Comprender y usar las intrucciones básicas de un Dockerfile para definir una Docker image, como `FROM`, `WORKDIR`, `COPY`, `RUN` y `EXPOSE`",
+        "description": "Comprender y usar las intrucciones básicas de un Dockerfile para definir una Docker image, como `FROM`, `WORKDIR`, `COPY`, `RUN` y `EXPOSE`",
+        "links": [
+          {
+            "title": "Understanding the image layers",
+            "url": "https://docs.docker.com/guides/docker-concepts/building-images/understanding-image-layers/"
+          },
+          {
+            "title": "Writing a Dockerfile",
+            "url": "https://docs.docker.com/guides/docker-concepts/building-images/writing-a-dockerfile/"
+          },
+          {
+            "title": "Build, tag, and publish an image",
+            "url": "https://docs.docker.com/guides/docker-concepts/building-images/build-tag-and-publish-an-image/"
+          },
+          {
+            "title": "Multi-stage builds",
+            "url": "https://docs.docker.com/guides/docker-concepts/building-images/multi-stage-builds/"
+          }
+        ]
+      },
+      "devops/docker/docker-commands": {
+        "title": "Ejecutar comandos básicos de Docker para gestionar el ciclo de vida de un contenedor e imagen e interactuar con contenedores",
+        "description": "Usar comandos como `docker build`, `docker run`, `docker ps`, `docker stop`, `docker rm`, `docker pull` y `docker push`",
+        "links": [
+          {
+            "title": "Docker CLI Reference",
+            "url": "https://docs.docker.com/reference/cli/docker/"
+          }
+        ]
+      },
+      "devops/container-cloud-services": {
+        "title": "Servicio de orquestación de contenedores",
+        "description": "Servicios de orquestación de contenedores en la nube como AWS ECS y Azure Container Apps"
+      },
+      "devops/container-cloud-services/orchestration-system-components": {
+        "title": "Describir los componentes clave de un sistema de orquestación, como clústeres, tareas, servicios y balanceadores de carga",
+        "description": "Describir los componentes clave de un sistema de orquestación, como clústeres, tareas, servicios y balanceadores de carga",
+        "links": [
+          {
+            "title": null,
+            "url": null
+          }
+        ]
+      },
+      "devops/container-cloud-services/configure-container-task-definitions": {
+        "title": "Crear y configurar definiciones de contenedor y tareas que incluyan todos los componentes necesarios para ejecutar un aplicación, como imágenes Docker, variables de entorno, volúmenes y configuraciones de red",
+        "description": "Crear y configurar definiciones de contenedor y tareas que incluyan todos los componentes necesarios para ejecutar un aplicación, como imágenes Docker, variables de entorno, volúmenes y configuraciones de red",
+        "links": [
+          {
+            "title": null,
+            "url": null
+          }
+        ]
+      },
+      "devops/kubernetes": {
+        "title": "Kubernetes",
+        "description": "Kubernetes es una herramienta que facilita la gestión de aplicaciones contenedorizadas al automatizar el despliegue, el escalado y la recuperación ante fallos"
+      },
+      "devops/kubernetes/kubernetes-use-cases": {
+        "title": "Explicar que es Kubernetes y describir sus casos de uso y las necesidades que soluciona",
+        "description": "Explicar que es Kubernetes y describir sus casos de uso y las necesidades que soluciona",
+        "links": [
+          {
+            "title": null,
+            "url": null
+          }
+        ]
+      },
       "data-analytics": {
         "title": "Análisis de datos",
         "description": "Validar hipótesis mediante el análisis de los datos, y proporcionar recomendaciones estratégicas basadas en tus hallazgos"
@@ -4901,6 +5083,15 @@
             "url": "https://docs.microsoft.com/es-es/ef/core/managing-schemas/migrations/"
           }
         ]
+      },
+      "salesforce": {
+        "title": "Salesforce"
+      },
+      "salesforce/points-50000": {
+        "title": "Alcanzar 50000 puntos"
+      },
+      "salesforce/badges-100": {
+        "title": "Conseguir 100 badges"
       }
     },
     "pt": {
@@ -8501,6 +8692,15 @@
             "url": "https://docs.microsoft.com/pt-br/ef/core/managing-schemas/migrations/"
           }
         ]
+      },
+      "salesforce": {
+        "title": "Salesforce"
+      },
+      "salesforce/points-50000": {
+        "title": "Alcance 50.000 pontos"
+      },
+      "salesforce/badges-100": {
+        "title": "Obtenha 100 badges"
       }
     }
   },
@@ -10331,6 +10531,21 @@
       "pt": "Publicar em WordPress Plugin Directory"
     },
     {
+      "key": "salesforce",
+      "es": "Salesforce",
+      "pt": "Salesforce"
+    },
+    {
+      "key": "salesforce/points-50000",
+      "es": "Alcanzar 50000 puntos",
+      "pt": "Alcance 50.000 pontos"
+    },
+    {
+      "key": "salesforce/badges-100",
+      "es": "Conseguir 100 badges",
+      "pt": "Obtenha 100 badges"
+    },
+    {
       "key": "typescript",
       "es": "Typescript",
       "pt": "Typescript"
@@ -10544,6 +10759,54 @@
       "key": "data-analytics/analysis-presentation",
       "es": "Presentar Resultados",
       "pt": "Apresentar Resultados"
+    },
+    {
+      "key": "devops",
+      "es": "DevOps"
+    },
+    {
+      "key": "devops/computing-cloud-services",
+      "es": "Servicios de computación en la nube"
+    },
+    {
+      "key": "devops/computing-cloud-services/concepts-cloud-infrastructure-virtualization",
+      "es": "Comprender los conceptos fundamentales de la infraestructura en la nube y la virtualización"
+    },
+    {
+      "key": "devops/computing-cloud-services/setting-up-runtime-environment",
+      "es": "Configurar el entorno de ejecución de una aplicación en una máquina virtual"
+    },
+    {
+      "key": "devops/computing-cloud-services/monitoring-application-virtual-machine",
+      "es": "Monitorear la ejecución de una aplicación en una máquina virtual"
+    },
+    {
+      "key": "devops/docker",
+      "es": "Docker"
+    },
+    {
+      "key": "devops/docker/docker-container-image",
+      "es": "Explicar qué es Docker, Docker container y Docker image"
+    },
+    {
+      "key": "devops/docker/dockerfile",
+      "es": "Comprender y usar las intrucciones básicas de un Dockerfile para definir una Docker image, como `FROM`, `WORKDIR`, `COPY`, `RUN` y `EXPOSE`"
+    },
+    {
+      "key": "devops/docker/docker-commands",
+      "es": "Ejecutar comandos básicos de Docker para gestionar el ciclo de vida de un contenedor e imagen e interactuar con contenedores"
+    },
+    {
+      "key": "devops/container-cloud-services",
+      "es": "Servicio de orquestación de contenedores"
+    },
+    {
+      "key": "devops/container-cloud-services/orchestration-system-components",
+      "es": "Describir los componentes clave de un sistema de orquestación, como clústeres, tareas, servicios y balanceadores de carga"
+    },
+    {
+      "key": "devops/container-cloud-services/configure-container-task-definitions",
+      "es": "Crear y configurar definiciones de contenedor y tareas que incluyan todos los componentes necesarios para ejecutar un aplicación, como imágenes Docker, variables de entorno, volúmenes y configuraciones de red"
     },
     {
       "key": "agile-planning",
