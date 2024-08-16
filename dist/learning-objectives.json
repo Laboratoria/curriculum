@@ -4153,23 +4153,11 @@
       },
       "devops/container-cloud-services/orchestration-system-components": {
         "title": "Describir los componentes clave de un sistema de orquestación, como clústeres, tareas, servicios y balanceadores de carga",
-        "description": "Describir los componentes clave de un sistema de orquestación, como clústeres, tareas, servicios y balanceadores de carga",
-        "links": [
-          {
-            "title": null,
-            "url": null
-          }
-        ]
+        "description": "Describir los componentes clave de un sistema de orquestación, como clústeres, tareas, servicios y balanceadores de carga"
       },
       "devops/container-cloud-services/configure-container-task-definitions": {
         "title": "Crear y configurar definiciones de contenedor y tareas que incluyan todos los componentes necesarios para ejecutar un aplicación, como imágenes Docker, variables de entorno, volúmenes y configuraciones de red",
-        "description": "Crear y configurar definiciones de contenedor y tareas que incluyan todos los componentes necesarios para ejecutar un aplicación, como imágenes Docker, variables de entorno, volúmenes y configuraciones de red",
-        "links": [
-          {
-            "title": null,
-            "url": null
-          }
-        ]
+        "description": "Crear y configurar definiciones de contenedor y tareas que incluyan todos los componentes necesarios para ejecutar un aplicación, como imágenes Docker, variables de entorno, volúmenes y configuraciones de red"
       },
       "devops/kubernetes": {
         "title": "Kubernetes",
@@ -4180,8 +4168,8 @@
         "description": "Explicar que es Kubernetes y describir sus casos de uso y las necesidades que soluciona",
         "links": [
           {
-            "title": null,
-            "url": null
+            "title": "Kubernetes",
+            "url": "https://kubernetes.io/"
           }
         ]
       },

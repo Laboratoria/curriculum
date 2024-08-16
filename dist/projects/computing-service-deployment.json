@@ -2,9 +2,9 @@
   "slug": "computing-service-deployment",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-computing-service-deployment",
-  "version": "9.4.0",
+  "version": "9.4.1",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-08-16T21:00:58.173Z",
+  "createdAt": "2024-08-16T21:34:26.401Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [

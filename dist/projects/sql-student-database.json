@@ -2,9 +2,9 @@
   "slug": "sql-student-database",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-sql-student-database",
-  "version": "9.4.0",
+  "version": "9.4.1",
   "parserVersion": "6.0.0",
-  "createdAt": "2024-08-16T21:01:03.985Z",
+  "createdAt": "2024-08-16T21:34:35.220Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [
