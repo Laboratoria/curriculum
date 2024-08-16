@@ -2003,11 +2003,14 @@ ai-prompting/open-ai-api:
     - title: "The chat completion object - API Reference - OpenAI API"
       url: https://platform.openai.com/docs/api-reference/chat/object
 
-devops-computing-cloud-services:
+devops:
+  title: DevOps
+  
+devops/computing-cloud-services:
   title: Servicios de computación en la nube
   description: Servicios de computación en la nube como AWS EC2 y Azure VM
 
-devops-computing-cloud-services/concepts-cloud-infrastructure-virtualization:
+devops/computing-cloud-services/concepts-cloud-infrastructure-virtualization:
   title: Comprender los conceptos fundamentales de la infraestructura en la nube y la virtualización
   description: Describir los conceptos básicos de la infraestructura en la nube y cómo la virtualización permite la creación y gestión de máquinas virtuales
   links: 
@@ -2016,7 +2019,7 @@ devops-computing-cloud-services/concepts-cloud-infrastructure-virtualization:
     - title: Get started with Amazon EC2
       url: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html
 
-devops-computing-cloud-services/setting-up-runtime-environment:
+devops/computing-cloud-services/setting-up-runtime-environment:
   title: Configurar el entorno de ejecución de una aplicación en una máquina virtual
   description: Instalar y configurar un sistema operativo y otros servicios esenciales en una máquina virtual para ejecutar una aplicación
   links:
@@ -2027,18 +2030,18 @@ devops-computing-cloud-services/setting-up-runtime-environment:
     - title: Despliegue de API Java
       url: https://medium.com/@amitu2016/deploying-spring-boot-web-app-on-aws-using-ec2-and-s3-4db1d0f55c78
 
-devops-computing-cloud-services/monitoring-application-virtual-machine:
+devops/computing-cloud-services/monitoring-application-virtual-machine:
   title: Monitorear la ejecución de una aplicación en una máquina virtual
   description: Utilizar herramientas de monitoreo para supervisar la ejecución de una aplicación en una máquina virtual
   links:
     - title: Monitor Amazon EC2 resources
       url: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/monitoring_ec2.html
  
-devops-docker:
+devops/docker:
   title: Docker
   description: Docker permite empaquetar una aplicación junto con todas sus dependencias (como bibliotecas, configuraciones y archivos necesarios) en una unidad estándar conocida como contenedor
 
-devops-docker/docker-container-image:
+devops/docker/docker-container-image:
   title: Explicar qué es Docker, Docker container y Docker image
   description: Explicar qué es Docker, Docker container y Docker image
   links:
@@ -2049,7 +2052,7 @@ devops-docker/docker-container-image:
     - title: What is a registry?
       url: https://docs.docker.com/guides/docker-concepts/the-basics/what-is-a-registry/
 
-devops-docker/dockerfile:
+devops/docker/dockerfile:
   title: Comprender y usar las intrucciones básicas de un Dockerfile para definir una Docker image, como `FROM`, `WORKDIR`, `COPY`, `RUN` y `EXPOSE`
   description: Comprender y usar las intrucciones básicas de un Dockerfile para definir una Docker image, como `FROM`, `WORKDIR`, `COPY`, `RUN` y `EXPOSE`
   links:
@@ -2062,36 +2065,36 @@ devops-docker/dockerfile:
     - title: Multi-stage builds
       url: https://docs.docker.com/guides/docker-concepts/building-images/multi-stage-builds/
 
-devops-docker/docker-commands:
+devops/docker/docker-commands:
   title: Ejecutar comandos básicos de Docker para gestionar el ciclo de vida de un contenedor e imagen e interactuar con contenedores
   description: Usar comandos como `docker build`, `docker run`, `docker ps`, `docker stop`, `docker rm`, `docker pull` y `docker push`
   links:
     - title: Docker CLI Reference
       url:  https://docs.docker.com/reference/cli/docker/
 
-devops-container-cloud-services:
+devops/container-cloud-services:
   title: Servicio de orquestación de contenedores 
   description: Servicios de orquestación de contenedores en la nube como AWS ECS y Azure Container Apps
 
-devops-container-cloud-services/orchestration-system-components:
+devops/container-cloud-services/orchestration-system-components:
   title: Describir los componentes clave de un sistema de orquestación, como clústeres, tareas, servicios y balanceadores de carga
   description: Describir los componentes clave de un sistema de orquestación, como clústeres, tareas, servicios y balanceadores de carga
   links:
     - title:
       url:  
 
-devops-container-cloud-services/configure-container-task-definitions:
+devops/container-cloud-services/configure-container-task-definitions:
   title: Crear y configurar definiciones de contenedor y tareas que incluyan todos los componentes necesarios para ejecutar un aplicación, como imágenes Docker, variables de entorno, volúmenes y configuraciones de red
   description: Crear y configurar definiciones de contenedor y tareas que incluyan todos los componentes necesarios para ejecutar un aplicación, como imágenes Docker, variables de entorno, volúmenes y configuraciones de red
   links:
     - title:
       url:  
 
-devops-kubernetes:
+devops/kubernetes:
   title: Kubernetes
   description: Kubernetes es una herramienta que facilita la gestión de aplicaciones contenedorizadas al automatizar el despliegue, el escalado y la recuperación ante fallos
 
-devops-kubernetes/kubernetes-use-cases:
+devops/kubernetes/kubernetes-use-cases:
   title: Explicar que es Kubernetes y describir sus casos de uso y las necesidades que soluciona
   description: Explicar que es Kubernetes y describir sus casos de uso y las necesidades que soluciona
   links:
