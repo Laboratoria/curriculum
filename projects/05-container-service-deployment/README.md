@@ -75,8 +75,10 @@ programación en que esta implementada
 
 - Paso 1: Subir la imagen docker a un Registro de Contenedores
 (Amazon ECR)
-- Paso 2: Desplegar la aplicación en Amazon ECS creando un cluster EC2, definiendo una tarea ECS y un servicio ECS.
-- Paso 3: Configurar el acceso externo para acceder a tu API utilizando la URL pública proporcionada por AWS.
+- Paso 2: Desplegar la aplicación en Amazon ECS creando un cluster EC2,
+  definiendo una tarea ECS y un servicio ECS.
+- Paso 3: Configurar el acceso externo para acceder a tu API utilizando la
+  URL pública proporcionada por AWS.
 - Paso 4: Monitorizar y gestionar la aplicación
 
 ## 5. Paso a paso detallado para el despliegue en Amazon ECS
@@ -92,7 +94,7 @@ tus aplicaciones en contenedores dentro del entorno de AWS.
 
 En este proyecto almacenaremos en Amazon ECR la imagen docker que hemos
 definido para empaquetar nuesta aplicación. Tómate un tiempo
-para familiarizarte con ECR. Puedes seguir el 
+para familiarizarte con ECR. Puedes seguir el
 [tutorial oficial de ECR](https://docs.aws.amazon.com/AmazonECR/latest/userguide/getting-started-cli.html)
 o cualquier otro disponible en internet. Asegúrate que al final tengas respuestas
 claras para las siguientes preguntas:
@@ -111,19 +113,22 @@ aplicación en un repositorio de Amazon ECR.
 El siguiente paso es entonces desplegar la imagen docker
 en cluster de instancias EC2 usando Amazon ECS (Elastic Container Service).
 
-Tómate un tiempo para familiarizarte con ECS. Puedes seguir el 
+Tómate un tiempo para familiarizarte con ECS. Puedes seguir el
 [workshop oficial de ECS](https://ecsworkshop.com/introduction/)
 o cualquier otro disponible en internet. Asegúrate que al final tengas respuestas
 claras para las siguientes preguntas:
 
 - [ ] ¿Cómo se crea un clúster en Amazon ECS?
 - [ ] ¿Qué es una tarea en ECS y cómo se configura?
-- [ ] ¿Qué es un servicio en ECS y cómo garantiza que las tareas se mantengan en funcionamiento?
+- [ ] ¿Qué es un servicio en ECS y cómo garantiza que las tareas
+      se mantengan en funcionamiento?
 - [ ] ¿Cómo se despliega un servicio en ECS?
 - [ ] ¿Qué es el autoescalado en ECS y cómo se configura?
 - [ ] ¿Cómo se integra ECS con otros servicios de AWS como ECR?
-- [ ] ¿Cómo se realiza un despliegue de una nueva versión de una aplicación utilizando ECS?
-- [ ] ¿Cómo solucionas problemas si tu aplicación en Amazon ECS no se está ejecutando correctamente?
+- [ ] ¿Cómo se realiza un despliegue de una nueva versión de una aplicación
+      utilizando ECS?
+- [ ] ¿Cómo solucionas problemas si tu aplicación en Amazon ECS no se está
+      ejecutando correctamente?
 
 Finalmente, usa ECS para desplegar la imagen docker de tu aplicacion
 creando un clúster, una tarea y un servicio.
