@@ -490,6 +490,19 @@ data-analytics:
   - analysis-report
   - analysis-presentation
 
+devops:
+  - computing-cloud-services:
+    - concepts-cloud-infrastructure-virtualization
+    - setting-up-runtime-environment
+    - monitoring-application-virtual-machine
+  - docker:
+    - docker-container-image
+    - dockerfile
+    - docker-commands
+  - container-cloud-services:
+    - orchestration-system-components
+    - configure-container-task-definitions
+
 # New OAs since UXD006
 agile-planning:
   - scope

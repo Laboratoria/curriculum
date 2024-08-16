@@ -64,7 +64,7 @@ describe('Test de data set', () => {
 
       describe('shortDescripcion', () => {
         it('Debe ser un string', () => {
-          expect(typeof item.description).toBe('string');
+          expect(typeof item.shortDescription).toBe('string');
         });
       
         it('Debe tener maximo 20 palabras', () => {
