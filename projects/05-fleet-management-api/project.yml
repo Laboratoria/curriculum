@@ -12,19 +12,15 @@ learningObjectives:
   - scm/github/collaboration
   - scm/github/project-management
 
-# permite mayor control de la informacion en seleccion de proyecto
-# se pretende tener una semantica predefinida q controle el comportamiento
-# de la interfaz.
-# por ahora estos son los unicos valores permitidos
 tags:
   - featured
 
-# para proyectos que tienen diferentes implementaciones (aka rutas)
 variants:
   - name: java
     learningObjectives:
       - java
       - object-oriented-programming
+
   - name: node
     learningObjectives:
       - js/testing/unit
@@ -40,29 +36,50 @@ variants:
       - node/npm-scripts
       - express/routing
       - express/middleware
-      - typescript/basic-types/primitives
-      - typescript/basic-types/arrays
-      - typescript/basic-types/functions
-      - typescript/basic-types/object-types
-      - typescript/basic-types/union-types
-      - typescript/basic-types/interfaces
-      - typescript/basic-types/enums
-      # Cualquier OA puede expresarse como objeto, por ejemplo para flaggear
-      # como "opcional".
-      # por ahora es la unica propiedad soportada.
+      - id: typescript/basic-types/primitives
+        optional: true
+      - id: typescript/basic-types/arrays
+        optional: true
+      - id: typescript/basic-types/functions
+        optional: true
+      - id: typescript/basic-types/object-types
+        optional: true
+      - id: typescript/basic-types/union-types
+        optional: true
+      - id: typescript/basic-types/interfaces
+        optional: true
+      - id: typescript/basic-types/enums
+        optional: true
       - id: object-oriented-programming
         optional: true
+
+
   - name: python
     learningObjectives:
-      - python
-      - id: object-oriented-programming
-        optional: true
+      - id: python/django
+        exclude: true
       - id: sql/crud
         exclude: true
       - id: postgres/data-types
         exclude: true
       - id: postgres/indexes
         exclude: true
+      - python
+      - id: object-oriented-programming
+        optional: true
+
+  - name: python-django
+    learningObjectives:
+      - id: python/flask
+        exclude: true
+      - id: sql/crud
+        exclude: true
+      - id: postgres/data-types
+        exclude: true
+      - id: postgres/indexes
+        exclude: true
+      - python
+
   - name: csharp
     learningObjectives:
       - csharp

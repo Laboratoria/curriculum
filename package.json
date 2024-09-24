@@ -1,6 +1,6 @@
 {
   "name": "curriculum",
-  "version": "9.1.1",
+  "version": "9.4.1",
   "description": "Proyectos y tópicos del curriculum del Bootcamp de @Laboratoria",
   "repository": "Laboratoria/curriculum",
   "keywords": [
@@ -25,13 +25,14 @@
     "test": "npm run test:topics && npm run test:scripts",
     "validate": "node ./scripts/build.mjs --validate",
     "build": "node ./scripts/build.mjs",
+    "changelog": "git log $(git describe --tags --abbrev=0)..HEAD --oneline --format=\"* %h %s (%an)\"",
     "create-cohort-project": "node ./scripts/create-cohort-project.mjs",
     "link-parser": "rm -rf node_modules/@laboratoria/curriculum-parser && ln -s ../../../curriculum-parser node_modules/@laboratoria/"
   },
   "devDependencies": {
     "@laboratoria/curriculum-parser": "^6.0.0",
     "@laboratoria/mdlint": "^1.2.3",
-    "@laboratoria/sdk-js": "^8.0.0",
+    "@laboratoria/sdk-js": "^8.1.0",
     "@octokit/rest": "^20.1.1",
     "chai": "^4.4.1",
     "eslint-config-airbnb": "^19.0.4",

@@ -1,0 +1,35 @@
+{
+  "slug": "computing-service-deployment",
+  "repo": "Laboratoria/curriculum",
+  "path": "projects/05-computing-service-deployment",
+  "version": "9.4.1",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-08-16T21:34:26.401Z",
+  "prefix": 5,
+  "track": "web-dev",
+  "tracks": [
+    "web-dev"
+  ],
+  "tags": [
+    "featured"
+  ],
+  "learningObjectives": [
+    {
+      "id": "devops/computing-cloud-services/concepts-cloud-infrastructure-virtualization"
+    },
+    {
+      "id": "devops/computing-cloud-services/setting-up-runtime-environment"
+    },
+    {
+      "id": "devops/computing-cloud-services/monitoring-application-virtual-machine"
+    }
+  ],
+  "intl": {
+    "es": {
+      "title": "API Deployment on Computing Service",
+      "summary": "<p>En este proyecto desplegarás la Fleet Management API en una máquina\nvirtual usando <strong>Amazon EC2</strong>.</p>"
+    }
+  },
+  "cover": null,
+  "thumb": null
+}

@@ -434,6 +434,14 @@
       "aggregate-functions",
       "join",
       "subqueries-nested-queries",
+      "create-table",
+      "insert",
+      "update",
+      "delete",
+      "primary-key",
+      "foreign-key",
+      "alter-table",
+      "constraints",
       "tables",
       "crud",
       "drop"
@@ -442,7 +450,11 @@
       "psql",
       "data-types",
       "indexes",
-      "dump-restore"
+      "dump-restore",
+      "setup",
+      "commands",
+      "backup",
+      "restore"
     ],
     "mysql": [
       "mysql",
@@ -454,6 +466,13 @@
       "crud",
       "schemas",
       "dump-restore"
+    ],
+    "virtual-machines": [
+      "setup"
+    ],
+    "shell": [
+      "scripts",
+      "file-permissions"
     ],
     "slack": [
       "slash-commands"
@@ -497,6 +516,10 @@
           "wordpress-plugin-directory"
         ]
       }
+    ],
+    "salesforce": [
+      "points-50000",
+      "badges-100"
     ],
     "typescript": [
       {
@@ -551,6 +574,35 @@
       "few-shot-prompting",
       "priming-chatbots",
       "open-ai-api"
+    ],
+    "data-analytics": [
+      "data-preparation",
+      "data-exploration",
+      "data-analysis",
+      "analysis-report",
+      "analysis-presentation"
+    ],
+    "devops": [
+      {
+        "computing-cloud-services": [
+          "concepts-cloud-infrastructure-virtualization",
+          "setting-up-runtime-environment",
+          "monitoring-application-virtual-machine"
+        ]
+      },
+      {
+        "docker": [
+          "docker-container-image",
+          "dockerfile",
+          "docker-commands"
+        ]
+      },
+      {
+        "container-cloud-services": [
+          "orchestration-system-components",
+          "configure-container-task-definitions"
+        ]
+      }
     ],
     "agile-planning": [
       "scope",
@@ -939,6 +991,14 @@
     "sql/aggregate-functions",
     "sql/join",
     "sql/subqueries-nested-queries",
+    "sql/create-table",
+    "sql/insert",
+    "sql/update",
+    "sql/delete",
+    "sql/primary-key",
+    "sql/foreign-key",
+    "sql/alter-table",
+    "sql/constraints",
     "sql/tables",
     "sql/crud",
     "sql/drop",
@@ -947,6 +1007,10 @@
     "postgres/data-types",
     "postgres/indexes",
     "postgres/dump-restore",
+    "postgres/setup",
+    "postgres/commands",
+    "postgres/backup",
+    "postgres/restore",
     "mysql",
     "mysql/mysql",
     "mysql/data-types",
@@ -956,6 +1020,11 @@
     "mongodb/crud",
     "mongodb/schemas",
     "mongodb/dump-restore",
+    "virtual-machines",
+    "virtual-machines/setup",
+    "shell",
+    "shell/scripts",
+    "shell/file-permissions",
     "slack",
     "slack/slash-commands",
     "php",
@@ -984,6 +1053,9 @@
     "wordpress/plugin-development/wordpress-rest-api",
     "wordpress/plugin-development/wordpress-apis",
     "wordpress/plugin-development/wordpress-plugin-directory",
+    "salesforce",
+    "salesforce/points-50000",
+    "salesforce/badges-100",
     "typescript",
     "typescript/basic-types",
     "typescript/basic-types/static-type-checking",
@@ -1021,6 +1093,24 @@
     "ai-prompting/few-shot-prompting",
     "ai-prompting/priming-chatbots",
     "ai-prompting/open-ai-api",
+    "data-analytics",
+    "data-analytics/data-preparation",
+    "data-analytics/data-exploration",
+    "data-analytics/data-analysis",
+    "data-analytics/analysis-report",
+    "data-analytics/analysis-presentation",
+    "devops",
+    "devops/computing-cloud-services",
+    "devops/computing-cloud-services/concepts-cloud-infrastructure-virtualization",
+    "devops/computing-cloud-services/setting-up-runtime-environment",
+    "devops/computing-cloud-services/monitoring-application-virtual-machine",
+    "devops/docker",
+    "devops/docker/docker-container-image",
+    "devops/docker/dockerfile",
+    "devops/docker/docker-commands",
+    "devops/container-cloud-services",
+    "devops/container-cloud-services/orchestration-system-components",
+    "devops/container-cloud-services/configure-container-task-definitions",
     "agile-planning",
     "agile-planning/scope",
     "agile-planning/workplan",
@@ -2681,6 +2771,31 @@
       "db/indexes-constraints": {
         "title": "Índices y limitaciones"
       },
+      "shell": {
+        "title": "Shell"
+      },
+      "shell/scripts": {
+        "title": "Shell Scripts",
+        "links": [
+          {
+            "title": "Shell Scripting Guide - LinuxCommand.org",
+            "url": "http://linuxcommand.org/lc3_writing_shell_scripts.php"
+          }
+        ]
+      },
+      "shell/file-permissions": {
+        "title": "Permisos de archivos (File Permissions)",
+        "links": [
+          {
+            "title": "Understanding Linux File Permissions - DigitalOcean",
+            "url": "https://www.digitalocean.com/community/tutorials/understanding-linux-file-permissions"
+          },
+          {
+            "title": "File Permissions in Linux - Red Hat",
+            "url": "https://www.redhat.com/sysadmin/linux-file-permissions"
+          }
+        ]
+      },
       "sql": {
         "title": "SQL"
       },
@@ -2797,6 +2912,78 @@
           }
         ]
       },
+      "sql/create-table": {
+        "title": "Crear una tabla con CREATE TABLE",
+        "links": [
+          {
+            "title": "SQL CREATE TABLE Statement - W3Schools",
+            "url": "https://www.w3schools.com/sql/sql_create_table.asp"
+          }
+        ]
+      },
+      "sql/insert": {
+        "title": "Agregar registros a un tabla con INSERT",
+        "links": [
+          {
+            "title": "Inserting Data - PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/dml-insert.html"
+          }
+        ]
+      },
+      "sql/update": {
+        "title": "Actualizar registros con UPDATE",
+        "links": [
+          {
+            "title": "Updating Data - PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/dml-update.html"
+          }
+        ]
+      },
+      "sql/delete": {
+        "title": "Eliminar registros con DELETE",
+        "links": [
+          {
+            "title": "Deleting Data - PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/dml-delete.html"
+          }
+        ]
+      },
+      "sql/primary-key": {
+        "title": "Claves primarias (Primary Keys)",
+        "links": [
+          {
+            "title": "Primary Keys - PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/ddl-constraints.html#DDL-CONSTRAINTS-PRIMARY-KEYS"
+          }
+        ]
+      },
+      "sql/foreign-key": {
+        "title": "Claves externas (Foreign Keys)",
+        "links": [
+          {
+            "title": "Foreign Keys - PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/ddl-constraints.html#DDL-CONSTRAINTS-FK"
+          }
+        ]
+      },
+      "sql/alter-table": {
+        "title": "Cambiar la estrucutura de una tabla con ALTER TABLE",
+        "links": [
+          {
+            "title": "Modifying Tables - PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/ddl-alter.html"
+          }
+        ]
+      },
+      "sql/constraints": {
+        "title": "Restricciones sobre los campos de una tabla (Constraints)",
+        "links": [
+          {
+            "title": "Constraints - PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/ddl-constraints.html"
+          }
+        ]
+      },
       "mongodb": {
         "title": "MongoDB"
       },
@@ -2889,6 +3076,68 @@
           }
         ]
       },
+      "postgres/setup": {
+        "title": "Setup de una nueva instancia",
+        "links": [
+          {
+            "title": "PostgreSQL Installation - PostgreSQL Docs",
+            "url": "https://www.postgresql.org/download/"
+          },
+          {
+            "title": "How To Install and Use PostgreSQL on Ubuntu - DigitalOcean",
+            "url": "https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-20-04"
+          }
+        ]
+      },
+      "postgres/commands": {
+        "title": "Comandos",
+        "links": [
+          {
+            "title": "PostgreSQL psql Commands - PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/app-psql.html"
+          },
+          {
+            "title": "Commonly Used PostgreSQL Commands - Verta.ai",
+            "url": "https://www.verta.ai/resources/tutorials/database/postgresql-commands"
+          }
+        ]
+      },
+      "postgres/backup": {
+        "title": "Copias de seguridad (Backup)",
+        "description": "Procedimientos de copia de seguridad para bases de datos PostgreSQL, incluyendo varias herramientas y mejores prácticas.",
+        "references": [
+          {
+            "link": "https://www.postgresql.org/docs/current/backup.html",
+            "description": "Official PostgreSQL Backup Documentation"
+          },
+          {
+            "link": "https://www.digitalocean.com/community/tutorials/how-to-back-up-database-in-postgresql",
+            "description": "How to Back Up a Database in PostgreSQL - DigitalOcean"
+          },
+          {
+            "link": "https://www.pgadmin.org/docs/pgadmin4/latest/backup_and_restore.html",
+            "description": "Backup and Restore with pgAdmin - Official Documentation"
+          }
+        ]
+      },
+      "postgres/restore": {
+        "title": "Restauración (Restore)",
+        "description": "Métodos y mejores prácticas para restaurar bases de datos PostgreSQL a partir de copias de seguridad.",
+        "references": [
+          {
+            "link": "https://www.postgresql.org/docs/current/backup-dump.html",
+            "description": "Official PostgreSQL Restore Documentation"
+          },
+          {
+            "link": "https://www.digitalocean.com/community/tutorials/how-to-restore-postgresql-databases",
+            "description": "How to Restore PostgreSQL Databases - DigitalOcean"
+          },
+          {
+            "link": "https://www.pgadmin.org/docs/pgadmin4/latest/backup_and_restore.html",
+            "description": "Backup and Restore with pgAdmin - Official Documentation"
+          }
+        ]
+      },
       "mysql": {
         "title": "MySQL"
       },
@@ -2929,6 +3178,22 @@
           {
             "title": "mysqldump — A Database Backup Program - Docs (en inglés)",
             "url": "https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html"
+          }
+        ]
+      },
+      "virtual-machines": {
+        "title": "Máquinas Virtuales"
+      },
+      "virtual-machines/setup": {
+        "title": "Configurando máquinas virtuales",
+        "links": [
+          {
+            "title": "Creación de una máquina virtual - Oracle VM",
+            "url": "https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/vboxmanage-createvm.html"
+          },
+          {
+            "title": "Configuración de una máquina virtual - Microsoft",
+            "url": "https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/quick-create-virtual-machine"
           }
         ]
       },
@@ -3779,6 +4044,401 @@
           }
         ]
       },
+      "devops": {
+        "title": "DevOps"
+      },
+      "devops/computing-cloud-services": {
+        "title": "Servicios de computación en la nube",
+        "description": "Servicios de computación en la nube como AWS EC2 y Azure VM"
+      },
+      "devops/computing-cloud-services/concepts-cloud-infrastructure-virtualization": {
+        "title": "Comprender los conceptos fundamentales de la infraestructura en la nube y la virtualización",
+        "description": "Describir los conceptos básicos de la infraestructura en la nube y cómo la virtualización permite la creación y gestión de máquinas virtuales",
+        "links": [
+          {
+            "title": "AWS Cloud Essentials",
+            "url": "https://aws.amazon.com/getting-started/cloud-essentials/"
+          },
+          {
+            "title": "Get started with Amazon EC2",
+            "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html"
+          }
+        ]
+      },
+      "devops/computing-cloud-services/setting-up-runtime-environment": {
+        "title": "Configurar el entorno de ejecución de una aplicación en una máquina virtual",
+        "description": "Instalar y configurar un sistema operativo y otros servicios esenciales en una máquina virtual para ejecutar una aplicación",
+        "links": [
+          {
+            "title": "Despliegue de API NodeJS",
+            "url": "https://dev.to/drsimplegraffiti/from-code-to-the-cloud-a-step-by-step-guide-to-deploying-your-nodejs-app-on-aws-ec2-4300"
+          },
+          {
+            "title": "Despliegue API Python",
+            "url": "https://www.geeksforgeeks.org/how-to-deploy-python-application-in-aws/"
+          },
+          {
+            "title": "Despliegue de API Java",
+            "url": "https://medium.com/@amitu2016/deploying-spring-boot-web-app-on-aws-using-ec2-and-s3-4db1d0f55c78"
+          }
+        ]
+      },
+      "devops/computing-cloud-services/monitoring-application-virtual-machine": {
+        "title": "Monitorear la ejecución de una aplicación en una máquina virtual",
+        "description": "Utilizar herramientas de monitoreo para supervisar la ejecución de una aplicación en una máquina virtual",
+        "links": [
+          {
+            "title": "Monitor Amazon EC2 resources",
+            "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/monitoring_ec2.html"
+          }
+        ]
+      },
+      "devops/docker": {
+        "title": "Docker",
+        "description": "Docker permite empaquetar una aplicación junto con todas sus dependencias (como bibliotecas, configuraciones y archivos necesarios) en una unidad estándar conocida como contenedor"
+      },
+      "devops/docker/docker-container-image": {
+        "title": "Explicar qué es Docker, Docker container y Docker image",
+        "description": "Explicar qué es Docker, Docker container y Docker image",
+        "links": [
+          {
+            "title": "What is a container?",
+            "url": "https://docs.docker.com/guides/docker-concepts/the-basics/what-is-a-container/"
+          },
+          {
+            "title": "What is an image?",
+            "url": "https://docs.docker.com/guides/docker-concepts/the-basics/what-is-an-image/"
+          },
+          {
+            "title": "What is a registry?",
+            "url": "https://docs.docker.com/guides/docker-concepts/the-basics/what-is-a-registry/"
+          }
+        ]
+      },
+      "devops/docker/dockerfile": {
+        "title": "Comprender y usar las intrucciones básicas de un Dockerfile para definir una Docker image, como `FROM`, `WORKDIR`, `COPY`, `RUN` y `EXPOSE`",
+        "description": "Comprender y usar las intrucciones básicas de un Dockerfile para definir una Docker image, como `FROM`, `WORKDIR`, `COPY`, `RUN` y `EXPOSE`",
+        "links": [
+          {
+            "title": "Understanding the image layers",
+            "url": "https://docs.docker.com/guides/docker-concepts/building-images/understanding-image-layers/"
+          },
+          {
+            "title": "Writing a Dockerfile",
+            "url": "https://docs.docker.com/guides/docker-concepts/building-images/writing-a-dockerfile/"
+          },
+          {
+            "title": "Build, tag, and publish an image",
+            "url": "https://docs.docker.com/guides/docker-concepts/building-images/build-tag-and-publish-an-image/"
+          },
+          {
+            "title": "Multi-stage builds",
+            "url": "https://docs.docker.com/guides/docker-concepts/building-images/multi-stage-builds/"
+          }
+        ]
+      },
+      "devops/docker/docker-commands": {
+        "title": "Ejecutar comandos básicos de Docker para gestionar el ciclo de vida de un contenedor e imagen e interactuar con contenedores",
+        "description": "Usar comandos como `docker build`, `docker run`, `docker ps`, `docker stop`, `docker rm`, `docker pull` y `docker push`",
+        "links": [
+          {
+            "title": "Docker CLI Reference",
+            "url": "https://docs.docker.com/reference/cli/docker/"
+          }
+        ]
+      },
+      "devops/container-cloud-services": {
+        "title": "Servicio de orquestación de contenedores",
+        "description": "Servicios de orquestación de contenedores en la nube como AWS ECS y Azure Container Apps"
+      },
+      "devops/container-cloud-services/orchestration-system-components": {
+        "title": "Describir los componentes clave de un sistema de orquestación, como clústeres, tareas, servicios y balanceadores de carga",
+        "description": "Describir los componentes clave de un sistema de orquestación, como clústeres, tareas, servicios y balanceadores de carga"
+      },
+      "devops/container-cloud-services/configure-container-task-definitions": {
+        "title": "Crear y configurar definiciones de contenedor y tareas que incluyan todos los componentes necesarios para ejecutar un aplicación, como imágenes Docker, variables de entorno, volúmenes y configuraciones de red",
+        "description": "Crear y configurar definiciones de contenedor y tareas que incluyan todos los componentes necesarios para ejecutar un aplicación, como imágenes Docker, variables de entorno, volúmenes y configuraciones de red"
+      },
+      "devops/kubernetes": {
+        "title": "Kubernetes",
+        "description": "Kubernetes es una herramienta que facilita la gestión de aplicaciones contenedorizadas al automatizar el despliegue, el escalado y la recuperación ante fallos"
+      },
+      "devops/kubernetes/kubernetes-use-cases": {
+        "title": "Explicar que es Kubernetes y describir sus casos de uso y las necesidades que soluciona",
+        "description": "Explicar que es Kubernetes y describir sus casos de uso y las necesidades que soluciona",
+        "links": [
+          {
+            "title": "Kubernetes",
+            "url": "https://kubernetes.io/"
+          }
+        ]
+      },
+      "data-analytics": {
+        "title": "Análisis de datos",
+        "description": "Validar hipótesis mediante el análisis de los datos, y proporcionar recomendaciones estratégicas basadas en tus hallazgos"
+      },
+      "data-analytics/data-preparation": {
+        "title": "Cargar información a una base de datos",
+        "description": "Cargar información a una base de datos",
+        "links": [
+          {
+            "title": "Mini curso BigQuery",
+            "url": "https://coda.io/d/Curso-Google-BigQuery_dhocNT3PUIE/Introduccion_su3UO#_luO8s"
+          },
+          {
+            "title": "Cómo empezar con BigQuery (sandbox - versión gratuita)",
+            "url": "https://cloud.google.com/bigquery/docs/sandbox?hl=es-419"
+          },
+          {
+            "title": "Qué es BigQuery",
+            "url": "https://www.youtube.com/watch?v=RxKtIicl8r0"
+          },
+          {
+            "title": "Cómo crear un Project, Dataset y cargar tabla en BigQuery",
+            "url": "https://www.youtube.com/watch?v=BN8WAOtJ4CY"
+          },
+          {
+            "title": "Concepto valores nulos",
+            "url": "https://docs.google.com/document/d/1AJRLPg2SWLvC1pnGOz-f1SNZXH1X63x2xWlquDBtlmE/edit?usp=sharing"
+          },
+          {
+            "title": "versión en audio",
+            "url": "https://drive.google.com/file/d/1Y88gJEBdorDMRoEjnIUJNyI4G0LLAaGk/view?usp=drive_link"
+          },
+          {
+            "title": "Qué es una consulta (query)",
+            "url": "https://docs.google.com/document/d/1upi7Ashq_wro02zjMjnQlWgivQ9gsQWIy8q9pLm9WZ4/edit"
+          },
+          {
+            "title": "Cómo guardar queries",
+            "url": "https://www.loom.com/share/461b7c3f07214d7897b68890c1389b77?sid=9c6d46b2-5ff6-4a60-823b-c976f535a18d"
+          },
+          {
+            "title": "Cómo idenficar nulos usando COUNT, WHERE y IS NULL",
+            "url": "https://www.loom.com/share/3ae5d6e7f500405f95e8f1a110413a35?sid=c44c44d8-7caa-4da4-9261-03f6fd92348c"
+          },
+          {
+            "title": "Concepto valores duplicados",
+            "url": "https://docs.google.com/document/d/1jXm4s7b17eObHd8sMvJSGwWi1YzdG_VZq56Xooy5Ioo/edit?usp=sharing"
+          },
+          {
+            "title": "versión en audio",
+            "url": "https://drive.google.com/file/d/1TbKPSvocksk33eFg42lHf3kD8Y3NuzsN/view?usp=drive_link"
+          },
+          {
+            "title": "Cómo identificar duplicados a través de GROUP BY y HAVING (Ve también la diferencia entre los comandos WHERE y HAVING)",
+            "url": "https://www.loom.com/share/0bd5d25a7e634bd39012f5bd913e3a3b?sid=507743b7-ee30-4c68-8756-a344798cad32"
+          },
+          {
+            "title": "Concepto valores fuera del alcance",
+            "url": "https://docs.google.com/document/d/1-SsxH5Ke3qAaWg5YKrkRwkExd91Q0RdJGplLAiXPiYA/edit?usp=sharing"
+          },
+          {
+            "title": "versión en audio",
+            "url": "https://drive.google.com/file/d/1Z963-z4MCiRRjt5RZF75oH_CH1BqDNrO/view?usp=drive_link"
+          },
+          {
+            "title": "Cómo utilizar EXCEPT para selecionar variables",
+            "url": "https://www.loom.com/share/2fa18d5cfd33403faaa794a2b08671f1?sid=2d16f30b-a26c-4d3c-bfd8-88ba7c664f25"
+          },
+          {
+            "title": "Cómo utilizar comandos LIKE y REGEXP",
+            "url": "https://www.loom.com/share/3f7bb1362d5947ecb8c83e6f0690a4a5?sid=76f52b28-efb3-4991-b4c1-bd288bd4e805"
+          },
+          {
+            "title": "Documentación Google sobre String Functions",
+            "url": "https://cloud.google.com/bigquery/docs/reference/standard-sql/string_functions"
+          },
+          {
+            "title": "Concepto variables categóricas",
+            "url": "https://docs.google.com/document/d/1BIqa7xR0JNadM9kQExypo3plnwrNia92zCuxkPuMj5A/edit?usp=sharing"
+          },
+          {
+            "title": "Concepto variables categóricas  (versión en audio)",
+            "url": "https://drive.google.com/file/d/13gQ6Ni9FUfDmi5bjQivjeKj04fAI8Gl2/view?usp=drive_link"
+          },
+          {
+            "title": "Video sobre tipos de variables",
+            "url": "https://www.loom.com/share/afa56686810e46309761bc889364b2d9?sid=cabf587c-7ba1-4419-b501-32c98a73e191"
+          },
+          {
+            "title": "Identificar valores discrepantes en variables numéricas con MAX, MIN y AVG",
+            "url": "https://www.loom.com/share/4fb40d01dddf4e3cbf981029ed08613a?sid=5e46b20b-5ea4-47c4-a808-99969a369431"
+          },
+          {
+            "title": "Concepto variables numéricas",
+            "url": "https://docs.google.com/document/d/1oTn46djgWYlhcY9_Ak9H2edY2_rR8gpJco66njPwkCc/edit?usp=sharing"
+          },
+          {
+            "title": "Tipos de datos en SQL",
+            "url": "https://docs.google.com/document/d/1z0evGu8JtjDPuFlH1pkbqYR6scRwukPfwWKJ-KmZRmI/edit?usp=sharing"
+          },
+          {
+            "title": "Tipos de datos en SQL",
+            "url": "https://www.youtube.com/watch?v=A1tZ-d2uxws"
+          },
+          {
+            "title": "Cambiar tipo de dato con CAST",
+            "url": "https://www.loom.com/share/dfca15dd59084f83a1343eb476c71e96?sid=5ffd1896-5cf2-4ad5-88dc-741152483c45"
+          },
+          {
+            "title": "Concepto crear nuevas variables",
+            "url": "https://docs.google.com/document/d/1yp5MVB8iirIbYwptscJ4YrjsY4Bnd8mrsDB75Onun2s/edit?usp=sharing"
+          },
+          {
+            "title": "versión en audio",
+            "url": "https://drive.google.com/file/d/15P7Gp4_F_EOasIgW7SUhK8bf0MIDD6K8/view?usp=drive_link"
+          },
+          {
+            "title": "Como crear nuevas variables con CONCAT y operaciones matemáticas",
+            "url": "https://www.loom.com/share/65e15aa134c545bc9cfdc6b88bc2ae78?sid=46988f46-bcc0-471f-b89e-55c7ffe953b5"
+          },
+          {
+            "title": "Tipos de JOIN en SQL",
+            "url": "https://www.youtube.com/watch?v=HDBdAIcqJQo"
+          },
+          {
+            "title": "Diferencia entre VIEW y CREATE TABLE",
+            "url": "https://www.loom.com/share/97dbe237b9de459baa4d788f8bb44502?sid=e2168d4f-a8ff-44e4-b3f0-55e72596350a"
+          },
+          {
+            "title": "Cómo utilizar comando WITH y para qué sirve",
+            "url": "https://www.loom.com/share/8e2f6f70db214e2484af45375539d8e9?sid=222c7e6d-1ff5-430a-ab28-64c025f34ebf"
+          }
+        ]
+      },
+      "data-analytics/data-exploration": {
+        "title": "Hacer un análisis exploratorio",
+        "description": "Hacer un análisis exploratorio",
+        "links": [
+          {
+            "title": "Concepto variables categóricas",
+            "url": "https://docs.google.com/document/d/1BIqa7xR0JNadM9kQExypo3plnwrNia92zCuxkPuMj5A/edit?usp=sharing"
+          },
+          {
+            "title": "versión en audio",
+            "url": "https://drive.google.com/file/d/13gQ6Ni9FUfDmi5bjQivjeKj04fAI8Gl2/view?usp=drive_link"
+          },
+          {
+            "title": "Video sobre tipos de variables",
+            "url": "https://www.loom.com/share/afa56686810e46309761bc889364b2d9?sid=cabf587c-7ba1-4419-b501-32c98a73e191"
+          },
+          {
+            "title": "Cómo empezar con Looker Studio",
+            "url": "https://www.youtube.com/watch?v=P5WLaeSQK7s&t=3s"
+          },
+          {
+            "title": "Video Como conectar datos en Looker Studio",
+            "url": "https://www.loom.com/share/0cce98d5bbc7482ea421444e2f850cc1"
+          },
+          {
+            "title": "Video visión general Looker Studio",
+            "url": "https://www.loom.com/share/9c7505eb3c2a4612bdfb7c9d43c40051"
+          },
+          {
+            "title": "Video como crear un dashboard en Looker Studio",
+            "url": "https://www.youtube.com/watch?v=Sprmb4W82sk"
+          },
+          {
+            "title": "Tutorial de Google Como crear un informe en Looker Studio",
+            "url": "https://support.google.com/looker-studio/answer/6292570?hl=ES#zippy=%2Csecciones-de-este-art%C3%ADculo"
+          },
+          {
+            "title": "Cómo crear una tabla dinamica en Looker Studio",
+            "url": "https://www.youtube.com/watch?v=3WJrWfAtgEw"
+          },
+          {
+            "title": "Concepto estadísticas descriptivas",
+            "url": "https://docs.google.com/document/d/13xu7cf5LcUN2CE58qwyZoNrhS713Ci0tI9S1odeapig/edit?usp=sharing"
+          },
+          {
+            "title": "🔈 Concepto estadísticas descriptivas (versión en audio)",
+            "url": "https://drive.google.com/file/d/1v6xdtWci7rYtMKibGowl9OxBArT3CVnI/view?usp=drive_link"
+          },
+          {
+            "title": "Concepto medidas de tendencia central",
+            "url": "https://docs.google.com/document/d/1Ly_7zLmUjcczqCkQLQwvDYEGyRLtSNQLVi3w8CIh8sI/edit?usp=sharing"
+          },
+          {
+            "title": "🔈 Concepto medidas de tendencia central (versión en audio)",
+            "url": "https://drive.google.com/file/d/1viy63m4n8Gn9aYHNuLJpd8RzFrTNnlw2/view?usp=drive_link"
+          },
+          {
+            "title": "Cómo crear gráficos en Looker Studio",
+            "url": "https://www.youtube.com/watch?v=B3hPsl-8u3A"
+          },
+          {
+            "title": "Concepto correlación de Pearson",
+            "url": "https://docs.google.com/document/d/1HvuENDveavTmlRtSGk3Gv3LqSPNbRPWNYgOU8e3CxTM/edit?usp=sharing"
+          },
+          {
+            "title": "Cómo calcular correlación en BigQuery",
+            "url": "https://www.loom.com/share/9bf3e48cf57d48ca9c81c2c19562dedf?sid=c4c8a611-d0ae-4c4f-a2f5-200ce48746f4"
+          }
+        ]
+      },
+      "data-analytics/data-analysis": {
+        "title": "Aplicar técnica de análisis",
+        "description": "Aplicar técnica de análisis",
+        "links": [
+          {
+            "title": "Gráfico de dispersión",
+            "url": "https://www.youtube.com/watch?v=gX-vNQVSYSM&t=477s"
+          }
+        ]
+      },
+      "data-analytics/analysis-report": {
+        "title": "Resumir información en un dashboard o reporte",
+        "description": "Resumir información en un dashboard o reporte",
+        "links": [
+          {
+            "title": "Como crear scorecards (tarjeta de resultados) en Looker Studio",
+            "url": "https://www.youtube.com/watch?v=D09zovxBXWs"
+          },
+          {
+            "title": "Ffiltros en Looker Studio",
+            "url": "https://www.youtube.com/watch?v=HZMZcNf1jdk"
+          }
+        ]
+      },
+      "data-analytics/analysis-presentation": {
+        "title": "Presentar Resultados",
+        "description": "Presentar Resultados",
+        "links": [
+          {
+            "title": "Concepto presentar resultados",
+            "url": "https://docs.google.com/document/d/10Xabbxk7WxojFAdncs3YSc4wSCLihw0LUOOqxijGdMc/edit?usp=sharing"
+          },
+          {
+            "title": "Que es Data Storytelling",
+            "url": "https://www.youtube.com/watch?v=NDs2BXgvzPc"
+          },
+          {
+            "title": "diferentes formas de presentar una misma información",
+            "url": "https://www.youtube.com/watch?v=2vWT6hmnVVg"
+          },
+          {
+            "title": "Video sobre como crear presentaciones en Google Slides",
+            "url": "https://www.youtube.com/watch?v=T8Fs-zkIX3I"
+          },
+          {
+            "title": "Compartir presentación para trabajar en conjunto",
+            "url": "https://www.loom.com/share/3220709262c142d4a0214cfc09856dcc?sid=b00df098-70e9-4a2a-89c7-e68b265ed588"
+          },
+          {
+            "title": "Artículo sobre presentar datos",
+            "url": "https://apolitical.co/solution-articles/es/presentar-datos-5-consejos-hacer-datos-comprensibles"
+          },
+          {
+            "title": "Artículo sobre presentar datos",
+            "url": "https://vilmanunez.com/como-hacer-una-presentacion-de-resultados/"
+          },
+          {
+            "title": "Video tips para una presentación",
+            "url": "https://www.youtube.com/watch?v=MPW6Ak3dxWc&t=157s"
+          }
+        ]
+      },
       "agile-planning": {
         "title": "Planificación ágil"
       },
@@ -4411,6 +5071,15 @@
             "url": "https://docs.microsoft.com/es-es/ef/core/managing-schemas/migrations/"
           }
         ]
+      },
+      "salesforce": {
+        "title": "Salesforce"
+      },
+      "salesforce/points-50000": {
+        "title": "Alcanzar 50000 puntos"
+      },
+      "salesforce/badges-100": {
+        "title": "Conseguir 100 badges"
       }
     },
     "pt": {
@@ -6109,6 +6778,31 @@
       "db/indexes-constraints": {
         "title": "Índices e limitações"
       },
+      "shell": {
+        "title": "Shell"
+      },
+      "shell/scripts": {
+        "title": "Shell Scripts",
+        "links": [
+          {
+            "title": "Shell Scripting Guide - LinuxCommand.org",
+            "url": "http://linuxcommand.org/lc3_writing_shell_scripts.php"
+          }
+        ]
+      },
+      "shell/file-permissions": {
+        "title": "Permissões de arquivo (File Permissions)",
+        "links": [
+          {
+            "title": "Understanding Linux File Permissions - DigitalOcean",
+            "url": "https://www.digitalocean.com/community/tutorials/understanding-linux-file-permissions"
+          },
+          {
+            "title": "File Permissions in Linux - Red Hat",
+            "url": "https://www.redhat.com/sysadmin/linux-file-permissions"
+          }
+        ]
+      },
       "sql": {
         "title": "SQL"
       },
@@ -6225,6 +6919,78 @@
           }
         ]
       },
+      "sql/create-table": {
+        "title": "Criar uma tabela com CREATE TABLE",
+        "links": [
+          {
+            "title": "SQL CREATE TABLE Statement - W3Schools",
+            "url": "https://www.w3schools.com/sql/sql_create_table.asp"
+          }
+        ]
+      },
+      "sql/insert": {
+        "title": "Adição de registros a uma tabela com INSERT",
+        "links": [
+          {
+            "title": "Inserting Data - PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/dml-insert.html"
+          }
+        ]
+      },
+      "sql/update": {
+        "title": "Atualizar registros com UPDATE",
+        "links": [
+          {
+            "title": "Updating Data - PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/dml-update.html"
+          }
+        ]
+      },
+      "sql/delete": {
+        "title": "Excluir registros com DELETE",
+        "links": [
+          {
+            "title": "Deleting Data - PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/dml-delete.html"
+          }
+        ]
+      },
+      "sql/primary-key": {
+        "title": "Claves primarias (Primary Keys)",
+        "links": [
+          {
+            "title": "Primary Keys - PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/ddl-constraints.html#DDL-CONSTRAINTS-PRIMARY-KEYS"
+          }
+        ]
+      },
+      "sql/foreign-key": {
+        "title": "Claves externas (Foreign Keys)",
+        "links": [
+          {
+            "title": "Foreign Keys - PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/ddl-constraints.html#DDL-CONSTRAINTS-FK"
+          }
+        ]
+      },
+      "sql/alter-table": {
+        "title": "Cambiar la estrucutura de una tabla con ALTER TABLE",
+        "links": [
+          {
+            "title": "Modifying Tables - PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/ddl-alter.html"
+          }
+        ]
+      },
+      "sql/constraints": {
+        "title": "Restricciones sobre los campos de una tabla (Constraints)",
+        "links": [
+          {
+            "title": "Constraints - PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/ddl-constraints.html"
+          }
+        ]
+      },
       "mongodb": {
         "title": "MongoDB"
       },
@@ -6317,6 +7083,68 @@
           }
         ]
       },
+      "postgres/setup": {
+        "title": "Configuração de uma nova instância",
+        "links": [
+          {
+            "title": "PostgreSQL Installation - PostgreSQL Docs",
+            "url": "https://www.postgresql.org/download/"
+          },
+          {
+            "title": "How To Install and Use PostgreSQL on Ubuntu - DigitalOcean",
+            "url": "https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-20-04"
+          }
+        ]
+      },
+      "postgres/commands": {
+        "title": "Comandos",
+        "links": [
+          {
+            "title": "PostgreSQL psql Commands - PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/app-psql.html"
+          },
+          {
+            "title": "Commonly Used PostgreSQL Commands - Verta.ai",
+            "url": "https://www.verta.ai/resources/tutorials/database/postgresql-commands"
+          }
+        ]
+      },
+      "postgres/backup": {
+        "title": "Backup",
+        "description": "Procedimentos de backup para bancos de dados PostgreSQL, incluindo várias ferramentas e práticas recomendadas.",
+        "references": [
+          {
+            "link": "https://www.postgresql.org/docs/current/backup.html",
+            "description": "Official PostgreSQL Backup Documentation"
+          },
+          {
+            "link": "https://www.digitalocean.com/community/tutorials/how-to-back-up-database-in-postgresql",
+            "description": "How to Back Up a Database in PostgreSQL - DigitalOcean"
+          },
+          {
+            "link": "https://www.pgadmin.org/docs/pgadmin4/latest/backup_and_restore.html",
+            "description": "Backup and Restore with pgAdmin - Official Documentation"
+          }
+        ]
+      },
+      "postgres/restore": {
+        "title": "Restaurar (Restore)",
+        "description": "Métodos e práticas recomendadas para restaurar bancos de dados PostgreSQL a partir de backups.",
+        "references": [
+          {
+            "link": "https://www.postgresql.org/docs/current/backup-dump.html",
+            "description": "Official PostgreSQL Restore Documentation"
+          },
+          {
+            "link": "https://www.digitalocean.com/community/tutorials/how-to-restore-postgresql-databases",
+            "description": "How to Restore PostgreSQL Databases - DigitalOcean"
+          },
+          {
+            "link": "https://www.pgadmin.org/docs/pgadmin4/latest/backup_and_restore.html",
+            "description": "Backup and Restore with pgAdmin - Official Documentation"
+          }
+        ]
+      },
       "mysql": {
         "title": "MySQL"
       },
@@ -6357,6 +7185,22 @@
           {
             "title": "mysqldump — A Database Backup Program - Docs (em inglês)",
             "url": "https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html"
+          }
+        ]
+      },
+      "virtual-machines": {
+        "title": "Máquinas virtuais"
+      },
+      "virtual-machines/setup": {
+        "title": "Configuração de máquinas virtuais",
+        "links": [
+          {
+            "title": "Creating a Virtual Machine - Oracle VM",
+            "url": "https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/vboxmanage-createvm.html"
+          },
+          {
+            "title": "Setting Up a Virtual Machine - Microsoft",
+            "url": "https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/quick-create-virtual-machine"
           }
         ]
       },
@@ -7207,6 +8051,252 @@
           }
         ]
       },
+      "data-analytics": {
+        "title": "Análise de Dados",
+        "description": "Validar hipóteses por meio da análise de dados e fornecer recomendações estratégicas com base em suas descobertas"
+      },
+      "data-analytics/data-preparation": {
+        "title": "Carregar informações para um banco de dados",
+        "description": "Carregar informações para um banco de dados",
+        "links": [
+          {
+            "title": "Mini curso BigQuery",
+            "url": "https://coda.io/d/PT-Curso-Google-BigQuery_dvpJ2RzVDub/Configurando-o-Sandbox_suq00#_lu8z6"
+          },
+          {
+            "title": "Como começar com BigQuery (sandbox - versão gratuita)",
+            "url": "https://cloud.google.com/bigquery/docs/sandbox?hl=pt"
+          },
+          {
+            "title": "O que é BigQuery",
+            "url": "https://www.youtube.com/watch?v=BRPUA0EgS4I&list=PL5TJqBvpXQv5n1N15kcK1m9oKJm_cv-m6"
+          },
+          {
+            "title": "Como criar um Projeto, Conjunto de Dados e carregar tabela no BigQuery",
+            "url": "https://www.youtube.com/watch?v=z32438Yehl4&list=PL5TJqBvpXQv5n1N15kcK1m9oKJm_cv-m6&index=2"
+          },
+          {
+            "title": "Conceito de valores nulos",
+            "url": "https://docs.google.com/document/d/1kiUVEx6n9gwu5BcyfTtFMR9UkgICJd2bdjMS7u9Laws/edit?usp=sharing"
+          },
+          {
+            "title": "Versão em áudio",
+            "url": "https://raw.githubusercontent.com/Laboratoria/curriculum-data-contenidos/main/PT_P1_segmentacao/TTS/1contenidos_valores_nulos.mp3"
+          },
+          {
+            "title": "O que é uma consulta (query)",
+            "url": "https://docs.google.com/document/d/1QjuWNUrCCs0kSMjq0RxnUoa8lCr58GvIwerYrLZs2Bs/edit?usp=sharing"
+          },
+          {
+            "title": "Como salvar queries",
+            "url": "https://www.loom.com/share/4140a54ac8c845d781058d8f0bb53e30?sid=e8e3bb4f-d70b-44f8-a79b-377ded6a88a1"
+          },
+          {
+            "title": "Como identificar nulos usando COUNT, WHERE e IS NULL",
+            "url": "https://www.loom.com/share/972220ee18874d1b872c206f5e62627c?sid=fb520257-c035-490a-8d42-c41d134476c6"
+          },
+          {
+            "title": "Conceito de valores duplicados",
+            "url": "https://docs.google.com/document/d/1GrC45LJEwAKR5IjTf-sBJGseGzHYjFjehf2Fk41yNs8/edit?usp=sharing"
+          },
+          {
+            "title": "Versão em áudio",
+            "url": "https://raw.githubusercontent.com/Laboratoria/curriculum-data-contenidos/main/PT_P1_segmentacao/TTS/2contenidos_valores_duplicados.mp3"
+          },
+          {
+            "title": "Como identificar duplicados através de GROUP BY e HAVING (Veja também a diferença entre os comandos WHERE e HAVING)",
+            "url": "https://www.loom.com/share/7f066ca3cad3438180509ba0643221a5?sid=1555e2cc-a68c-4ff8-80e4-2133059f0acb"
+          },
+          {
+            "title": "Conceito de valores fora do escopo",
+            "url": "https://docs.google.com/document/d/1c__WRov6ZvLsrGuznpsGthOYb3jGwTtnmOFe5zCP3X4/edit?usp=sharing"
+          },
+          {
+            "title": "Versão em áudio",
+            "url": "https://raw.githubusercontent.com/Laboratoria/curriculum-data-contenidos/main/PT_P1_segmentacao/TTS/3contenidos_valores_fora_escopo.mp3"
+          },
+          {
+            "title": "Como usar EXCEPT para selecionar variáveis",
+            "url": "https://www.loom.com/share/2c507731f3004d9f8f64c555232702a3?sid=f608d12d-d248-47e5-b034-15259817cf5d"
+          },
+          {
+            "title": "Como usar os comandos LIKE e REGEXP",
+            "url": "https://www.loom.com/share/3ec6dda6ef4741288bda6044b50b0cbc?sid=a47774e0-e3c5-4dd4-b5f3-d3096d5bd70d"
+          },
+          {
+            "title": "Documentação do Google sobre funções de string",
+            "url": "https://cloud.google.com/bigquery/docs/reference/standard-sql/string_functions"
+          },
+          {
+            "title": "Vídeo sobre tipos de variáveis",
+            "url": "https://www.youtube.com/watch?v=c2R378U4gcA"
+          },
+          {
+            "title": "Identificar valores discrepantes em variáveis ​​numéricas com MAX, MIN e AVG",
+            "url": "https://www.loom.com/share/86e9b5b4cbe941348193039b0c60691f?sid=1472fe57-e4fd-4287-8408-405c8c922b8e"
+          },
+          {
+            "title": "Conceito de variáveis ​​numéricas",
+            "url": "https://docs.google.com/document/d/1-C065f5Vti_H7vO1ioqHN0IYocxz5hVpCruc0RFnRa8/edit?usp=sharing"
+          },
+          {
+            "title": "Tipos de dados em SQL",
+            "url": "https://docs.google.com/document/d/1GYwd_Gg_gsIJuv0XnJ7C7JMorYNom9Z7wyfLPclHTBo/edit?usp=sharing"
+          },
+          {
+            "title": "Tipos de dados em SQL (vídeo)",
+            "url": "https://www.youtube.com/watch?v=X40zYYRsw1U"
+          },
+          {
+            "title": "Alterar tipo de dados com CAST",
+            "url": "https://www.loom.com/share/93e9005ecfb944ddbe9effa8dcb2fc27?sid=ab42f8e3-6d41-453b-b080-7461e3736582"
+          },
+          {
+            "title": "Conceito de criar novas variáveis",
+            "url": "https://docs.google.com/document/d/1mSSLszUU9-ED-HDMF0ADmrXKtMkoUXLj1HCIj8ZA0fc/edit?usp=sharing"
+          },
+          {
+            "title": "Versão em áudio",
+            "url": "https://raw.githubusercontent.com/Laboratoria/curriculum-data-contenidos/main/PT_P1_segmentacao/TTS/5contenidos_novas_variaveis.mp3"
+          },
+          {
+            "title": "Como criar novas variáveis ​​com CONCAT e operações matemáticas",
+            "url": "https://www.loom.com/share/9f8a444c394e40dfb2cd693b2ac4201f?sid=004aeaae-97e1-41b2-8cbd-26d45ff48cc8"
+          },
+          {
+            "title": "Tipos de JOIN em SQL",
+            "url": "https://www.youtube.com/watch?v=3IdKyi-KezU"
+          },
+          {
+            "title": "Diferença entre VIEW e CREATE TABLE",
+            "url": "https://www.loom.com/share/bd6987ebe2ad48eebf291931981a0c4d?sid=ca3e7ea1-bc44-4f0a-b332-36f86b093f5f"
+          },
+          {
+            "title": "Como utilizar comando WITH e para que serve",
+            "url": "https://www.loom.com/share/2d982ea5dd58420e9e3fb15b9153f6c8?sid=6fc75c6e-f68a-43f9-9f94-8ff494432f69"
+          }
+        ]
+      },
+      "data-analytics/data-exploration": {
+        "title": "Realizar uma análise exploratória",
+        "description": "Realizar uma análise exploratória",
+        "links": [
+          {
+            "title": "Agrupar dados por variáveis categóricas",
+            "url": "https://docs.google.com/document/d/1cOTKw04u2008G7JyRaYHzSzyWRjJwxLryn8hIxkO2es/edit?usp=sharing"
+          },
+          {
+            "title": "Vídeo sobre tipos de variáveis",
+            "url": "https://www.youtube.com/watch?v=N7AbQZA06QU&pp=ygUldmFyacOhdmVpcyBjYXRlZ8OzcmljYXMgZSBudW3DqXJpY2FzIA%3D%3D"
+          },
+          {
+            "title": "Link para acessar o Looker Studio",
+            "url": "https://lookerstudio.google.com/navigation/reporting"
+          },
+          {
+            "title": "Vídeo como começar no Looker Studio",
+            "url": "https://www.youtube.com/watch?v=Gx5S8Ry54TU&pp=ygUjY29tbyBjcmlhciB1bSBwYWluZWwgbm8gZGF0YSBzdHVkaW8%3D"
+          },
+          {
+            "title": "Vídeo Como conectar dados no Looker Studio",
+            "url": "https://www.youtube.com/watch?v=dAZ0yfRSKjQ&pp=ygUiY29tbyBjb25lY3RhciBkYWRvcyBubyBkYXRhIHN0dWRpbw%3D%3D"
+          },
+          {
+            "title": "Visão geral Looker Studio",
+            "url": "https://www.youtube.com/watch?v=dfAHZ1C_ZQs&list=PLbnAsJ6zlidug4pEvq6tm0h7DPJGkP-aU"
+          },
+          {
+            "title": "Vídeo como criar um painel/dashboard no Looker Studio",
+            "url": "https://www.youtube.com/watch?v=qoKPW5Yn3Dk&pp=ygUjY29tbyBjcmlhciB1bSBwYWluZWwgbm8gZGF0YSBzdHVkaW8%3D"
+          },
+          {
+            "title": "Tutorial do Google Como criar um relatório no Looker Studio",
+            "url": "https://support.google.com/looker-studio/answer/06292570?0hl=ES#zippy=%2Csections-of-this-art%C3%ADculo%2Cneste-artigo"
+          },
+          {
+            "title": "Tabelas no Looker Studio",
+            "url": "https://www.youtube.com/watch?v=WcxlQG1UdkY"
+          },
+          {
+            "title": "Video como criar gráficos de barras",
+            "url": "https://www.youtube.com/watch?v=p4nNJWtStAs"
+          },
+          {
+            "title": "Conceito de estatística descritiva",
+            "url": "https://docs.google.com/document/d/12YZ-984bRqWxKGr8M-Yzrq8MjWubBw_i38SEcjDt9tE/edit?usp=sharing"
+          },
+          {
+            "title": "Conceito de medidas de tendência central",
+            "url": "https://docs.google.com/document/d/15_eD0wsb1w7GFMmmAm8HPFZJGNzlmsZalMwBke9hSt0/edit?usp=sharing"
+          },
+          {
+            "title": "Conceito de correlação de Pearson",
+            "url": "https://docs.google.com/document/d/1z_GT13b-GJphDGujDneULn2IOz-KuSmrQpSJBepJF7o/edit?usp=sharing"
+          },
+          {
+            "title": "Como calcular a correlação no BigQuery",
+            "url": "https://www.loom.com/share/447a64fa6bd5431289a5a9ca0014e8cb?sid=1edc546a-9691-400a-8cde-b63a2f395532"
+          }
+        ]
+      },
+      "data-analytics/data-analysis": {
+        "title": "Aplicar técnica de análisis",
+        "description": "Aplicar técnica de análisis",
+        "links": [
+          {
+            "title": "Gráfico de dispersión",
+            "url": "https://www.youtube.com/watch?v=ksRa12dmxNc"
+          }
+        ]
+      },
+      "data-analytics/analysis-report": {
+        "title": "Resumir informações em um painel ou relatório",
+        "description": "Resumir informações em um painel ou relatório",
+        "links": [
+          {
+            "title": "Como criar scorecards (cartão de resultados) no Looker Studio",
+            "url": "https://www.youtube.com/watch?v=dEu4dDUT52o&pp=ygUjbG9va2VyIHN0dWRpbyBjb21vIGZhemVyIHNjb3JlY2FyZHM%3D"
+          },
+          {
+            "title": "Filtros no Looker Studio",
+            "url": "https://www.youtube.com/watch?v=zivYzP5GHTM"
+          }
+        ]
+      },
+      "data-analytics/analysis-presentation": {
+        "title": "Apresentar Resultados",
+        "description": "Apresentar Resultados",
+        "links": [
+          {
+            "title": "Conceito de apresentar resultados",
+            "url": "https://docs.google.com/document/d/1m5D3rRMHyF-yeIH7_BXKiG2pNXn7ov99Qg9egPz8mUY/edit?usp=sharing"
+          },
+          {
+            "title": "O que é Data Storytelling",
+            "url": "https://www.youtube.com/watch?v=udGJzHRuymw"
+          },
+          {
+            "title": "Como aplicar storytelling em dados",
+            "url": "https://www.youtube.com/watch?v=0SXCajBWt5I"
+          },
+          {
+            "title": "Vídeo sobre como criar apresentações no Google Slides",
+            "url": "https://www.youtube.com/watch?v=T8Fs-zkIX3I"
+          },
+          {
+            "title": "Vídeo sobre como criar apresentações no Apresentações Google",
+            "url": "https://www.youtube.com/watch?v=UklVY_w86ww&pp=ygUrY29tbyBmYXplciB1bWEgYXByZXNlbnRhw6fDo28gZ29vZ2xlIHNsaWRlcw%3D%3D"
+          },
+          {
+            "title": "Artigo sobre apresentação de dados",
+            "url": "https://smartalk.com.br/blog/apresentacao-de-dados/"
+          },
+          {
+            "title": "Vídeo dicas para uma apresentação",
+            "url": "https://www.youtube.com/watch?v=rRt5_aDZsMk&pp=ygUrY29tbyBmYXplciB1bWEgYXByZXNlbnRhw6fDo28gZ29vZ2xlIHNsaWRlcw%3D%3D"
+          }
+        ]
+      },
       "csharp": {
         "title": "C#"
       },
@@ -7590,6 +8680,15 @@
             "url": "https://docs.microsoft.com/pt-br/ef/core/managing-schemas/migrations/"
           }
         ]
+      },
+      "salesforce": {
+        "title": "Salesforce"
+      },
+      "salesforce/points-50000": {
+        "title": "Alcance 50.000 pontos"
+      },
+      "salesforce/badges-100": {
+        "title": "Obtenha 100 badges"
       }
     }
   },
@@ -9110,6 +10209,46 @@
       "pt": "Trabalhar com subconsultas e consultas aninhadas"
     },
     {
+      "key": "sql/create-table",
+      "es": "Crear una tabla con CREATE TABLE",
+      "pt": "Criar uma tabela com CREATE TABLE"
+    },
+    {
+      "key": "sql/insert",
+      "es": "Agregar registros a un tabla con INSERT",
+      "pt": "Adição de registros a uma tabela com INSERT"
+    },
+    {
+      "key": "sql/update",
+      "es": "Actualizar registros con UPDATE",
+      "pt": "Atualizar registros com UPDATE"
+    },
+    {
+      "key": "sql/delete",
+      "es": "Eliminar registros con DELETE",
+      "pt": "Excluir registros com DELETE"
+    },
+    {
+      "key": "sql/primary-key",
+      "es": "Claves primarias (Primary Keys)",
+      "pt": "Claves primarias (Primary Keys)"
+    },
+    {
+      "key": "sql/foreign-key",
+      "es": "Claves externas (Foreign Keys)",
+      "pt": "Claves externas (Foreign Keys)"
+    },
+    {
+      "key": "sql/alter-table",
+      "es": "Cambiar la estrucutura de una tabla con ALTER TABLE",
+      "pt": "Cambiar la estrucutura de una tabla con ALTER TABLE"
+    },
+    {
+      "key": "sql/constraints",
+      "es": "Restricciones sobre los campos de una tabla (Constraints)",
+      "pt": "Restricciones sobre los campos de una tabla (Constraints)"
+    },
+    {
       "key": "sql/tables",
       "es": "Creación y modificación de tablas",
       "pt": "Criação e modificação de tabelas"
@@ -9148,6 +10287,26 @@
       "key": "postgres/dump-restore",
       "es": "Respaldo y restauración (backup/restore)",
       "pt": "Backup e restauração (backup/restore)"
+    },
+    {
+      "key": "postgres/setup",
+      "es": "Setup de una nueva instancia",
+      "pt": "Configuração de uma nova instância"
+    },
+    {
+      "key": "postgres/commands",
+      "es": "Comandos",
+      "pt": "Comandos"
+    },
+    {
+      "key": "postgres/backup",
+      "es": "Copias de seguridad (Backup)",
+      "pt": "Backup"
+    },
+    {
+      "key": "postgres/restore",
+      "es": "Restauración (Restore)",
+      "pt": "Restaurar (Restore)"
     },
     {
       "key": "mysql",
@@ -9193,6 +10352,31 @@
       "key": "mongodb/dump-restore",
       "es": "Respaldo y restauración (backup/restore)",
       "pt": "Recuperação e restauração (backup/restore)"
+    },
+    {
+      "key": "virtual-machines",
+      "es": "Máquinas Virtuales",
+      "pt": "Máquinas virtuais"
+    },
+    {
+      "key": "virtual-machines/setup",
+      "es": "Configurando máquinas virtuales",
+      "pt": "Configuração de máquinas virtuais"
+    },
+    {
+      "key": "shell",
+      "es": "Shell",
+      "pt": "Shell"
+    },
+    {
+      "key": "shell/scripts",
+      "es": "Shell Scripts",
+      "pt": "Shell Scripts"
+    },
+    {
+      "key": "shell/file-permissions",
+      "es": "Permisos de archivos (File Permissions)",
+      "pt": "Permissões de arquivo (File Permissions)"
     },
     {
       "key": "slack",
@@ -9333,6 +10517,21 @@
       "key": "wordpress/plugin-development/wordpress-plugin-directory",
       "es": "Publicar en WordPress Plugin Directory",
       "pt": "Publicar em WordPress Plugin Directory"
+    },
+    {
+      "key": "salesforce",
+      "es": "Salesforce",
+      "pt": "Salesforce"
+    },
+    {
+      "key": "salesforce/points-50000",
+      "es": "Alcanzar 50000 puntos",
+      "pt": "Alcance 50.000 pontos"
+    },
+    {
+      "key": "salesforce/badges-100",
+      "es": "Conseguir 100 badges",
+      "pt": "Obtenha 100 badges"
     },
     {
       "key": "typescript",
@@ -9518,6 +10717,84 @@
       "key": "ai-prompting/open-ai-api",
       "es": "OpenAI API",
       "pt": "OpenAI API"
+    },
+    {
+      "key": "data-analytics",
+      "es": "Análisis de datos",
+      "pt": "Análise de Dados"
+    },
+    {
+      "key": "data-analytics/data-preparation",
+      "es": "Cargar información a una base de datos",
+      "pt": "Carregar informações para um banco de dados"
+    },
+    {
+      "key": "data-analytics/data-exploration",
+      "es": "Hacer un análisis exploratorio",
+      "pt": "Realizar uma análise exploratória"
+    },
+    {
+      "key": "data-analytics/data-analysis",
+      "es": "Aplicar técnica de análisis",
+      "pt": "Aplicar técnica de análisis"
+    },
+    {
+      "key": "data-analytics/analysis-report",
+      "es": "Resumir información en un dashboard o reporte",
+      "pt": "Resumir informações em um painel ou relatório"
+    },
+    {
+      "key": "data-analytics/analysis-presentation",
+      "es": "Presentar Resultados",
+      "pt": "Apresentar Resultados"
+    },
+    {
+      "key": "devops",
+      "es": "DevOps"
+    },
+    {
+      "key": "devops/computing-cloud-services",
+      "es": "Servicios de computación en la nube"
+    },
+    {
+      "key": "devops/computing-cloud-services/concepts-cloud-infrastructure-virtualization",
+      "es": "Comprender los conceptos fundamentales de la infraestructura en la nube y la virtualización"
+    },
+    {
+      "key": "devops/computing-cloud-services/setting-up-runtime-environment",
+      "es": "Configurar el entorno de ejecución de una aplicación en una máquina virtual"
+    },
+    {
+      "key": "devops/computing-cloud-services/monitoring-application-virtual-machine",
+      "es": "Monitorear la ejecución de una aplicación en una máquina virtual"
+    },
+    {
+      "key": "devops/docker",
+      "es": "Docker"
+    },
+    {
+      "key": "devops/docker/docker-container-image",
+      "es": "Explicar qué es Docker, Docker container y Docker image"
+    },
+    {
+      "key": "devops/docker/dockerfile",
+      "es": "Comprender y usar las intrucciones básicas de un Dockerfile para definir una Docker image, como `FROM`, `WORKDIR`, `COPY`, `RUN` y `EXPOSE`"
+    },
+    {
+      "key": "devops/docker/docker-commands",
+      "es": "Ejecutar comandos básicos de Docker para gestionar el ciclo de vida de un contenedor e imagen e interactuar con contenedores"
+    },
+    {
+      "key": "devops/container-cloud-services",
+      "es": "Servicio de orquestación de contenedores"
+    },
+    {
+      "key": "devops/container-cloud-services/orchestration-system-components",
+      "es": "Describir los componentes clave de un sistema de orquestación, como clústeres, tareas, servicios y balanceadores de carga"
+    },
+    {
+      "key": "devops/container-cloud-services/configure-container-task-definitions",
+      "es": "Crear y configurar definiciones de contenedor y tareas que incluyan todos los componentes necesarios para ejecutar un aplicación, como imágenes Docker, variables de entorno, volúmenes y configuraciones de red"
     },
     {
       "key": "agile-planning",

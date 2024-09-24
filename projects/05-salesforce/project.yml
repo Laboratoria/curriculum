@@ -1,0 +1,12 @@
+track: web-dev
+learningObjectives:
+  - salesforce
+variants:
+  - name: salesforce-platform
+    learningObjectives:
+      - salesforce/points-50000
+      - salesforce/badges-100
+  - name: salesforce-js
+    learningObjectives:
+      - salesforce/points-50000
+      - salesforce/badges-100

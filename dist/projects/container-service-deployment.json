@@ -1,0 +1,32 @@
+{
+  "slug": "container-service-deployment",
+  "repo": "Laboratoria/curriculum",
+  "path": "projects/05-container-service-deployment",
+  "version": "9.4.1",
+  "parserVersion": "6.0.0",
+  "createdAt": "2024-08-16T21:34:26.376Z",
+  "prefix": 5,
+  "track": "web-dev",
+  "tracks": [
+    "web-dev"
+  ],
+  "tags": [
+    "featured"
+  ],
+  "learningObjectives": [
+    {
+      "id": "devops/container-cloud-services/orchestration-system-components"
+    },
+    {
+      "id": "devops/container-cloud-services/configure-container-task-definitions"
+    }
+  ],
+  "intl": {
+    "es": {
+      "title": "API Deployment on Container Service",
+      "summary": "<p>En este proyecto desplegarás la aplicación usando\n<strong>Amazon Elastic Container Service (ECS)</strong>.</p>"
+    }
+  },
+  "cover": null,
+  "thumb": null
+}

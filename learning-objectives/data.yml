@@ -364,6 +364,14 @@ sql:
   # - alter-table
   # - constraints
   # - create-view
+  - create-table
+  - insert
+  - update
+  - delete
+  - primary-key         
+  - foreign-key
+  - alter-table
+  - constraints
   - tables # legacy
   - crud # legacy
   - drop # legacy
@@ -373,6 +381,10 @@ postgres:
   - data-types
   - indexes
   - dump-restore
+  - setup
+  - commands
+  - backup
+  - restore
 
 mysql:
   - mysql
@@ -389,6 +401,13 @@ mongodb:
   # - inedexes
   # - change-streams
   # - replication
+
+virtual-machines:
+  - setup
+
+shell:
+  - scripts
+  - file-permissions
 
 slack:
   - slash-commands
@@ -420,6 +439,10 @@ wordpress:
       - wordpress-rest-api
       - wordpress-apis
       - wordpress-plugin-directory
+
+salesforce:
+  - points-50000
+  - badges-100
 
 typescript:
   - basic-types:
@@ -459,6 +482,32 @@ ai-prompting:
   - few-shot-prompting
   - priming-chatbots
   - open-ai-api
+
+data-analytics:  
+  - analysis-presentation
+  - looker-studio:
+    - data-preparation
+    - data-exploration
+    - data-analysis
+    - analysis-report
+  - power-bi:
+    - data-preparation
+    - data-exploration
+    - data-analysis
+    - analysis-report
+
+devops:
+  - computing-cloud-services:
+    - concepts-cloud-infrastructure-virtualization
+    - setting-up-runtime-environment
+    - monitoring-application-virtual-machine
+  - docker:
+    - docker-container-image
+    - dockerfile
+    - docker-commands
+  - container-cloud-services:
+    - orchestration-system-components
+    - configure-container-task-definitions
 
 # New OAs since UXD006
 agile-planning:
