@@ -1,13 +1,13 @@
 # Programa de Acompañamiento Salesforce
 
-## Resumen
+## 1. Resumen
 
 Este programa ofrece dos rutas especializadas para desarrolladoras
 interesadas en profundizar sus habilidades en la plataforma Salesforce:
 **Platform Developer** y **JavaScript Developer**. A continuación, se
 detallan las habilidades y conocimientos clave para cada rol.
 
-## Platform Developer en Salesforce
+## 2. Platform Developer en Salesforce
 
 ### Descripción del Rol
 
@@ -36,7 +36,7 @@ perfectamente con la plataforma Salesforce.
 
 #### [Acceso al Trailmix de Platform Developer](https://trailhead.salesforce.com/users/marianalz/trailmixes/laboratoria-platform-developer)
 
-## JavaScript Developer en Salesforce
+## 3. JavaScript Developer en Salesforce
 
 ### Descripción del Rol
 
@@ -60,7 +60,7 @@ componentes en la interfaz de usuario de Salesforce.
 
 #### [Acceso al Trailmix de JavaScript Developer](https://trailhead.salesforce.com/users/marianalz/trailmixes/laboratoria-javascript-developer)
 
-## Comparación y Superposiciones
+## 4. Comparación y Superposiciones
 
 - **Superposiciones**: Ambos roles requieren un buen entendimiento de la
   plataforma Salesforce, su modelo de datos y sus capacidades de integración.
@@ -72,3 +72,5 @@ componentes en la interfaz de usuario de Salesforce.
 Cada ruta está diseñada para equipar a las desarrolladoras con las habilidades
 necesarias para sobresalir en sus roles respectivos, contribuyendo tanto al
 desarrollo backend como frontend en el ecosistema Salesforce.
+
+## 5. Objetivos de aprendizaje
