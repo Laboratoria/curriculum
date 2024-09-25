@@ -483,12 +483,18 @@ ai-prompting:
   - priming-chatbots
   - open-ai-api
 
-data-analytics:
-  - data-preparation
-  - data-exploration
-  - data-analysis
-  - analysis-report
+data-analytics:  
   - analysis-presentation
+  - looker-studio:
+    - data-preparation
+    - data-exploration
+    - data-analysis
+    - analysis-report
+  - power-bi:
+    - data-preparation
+    - data-exploration
+    - data-analysis
+    - analysis-report
 
 devops:
   - computing-cloud-services:
