@@ -1,7 +1,19 @@
 track: web-dev
 learningObjectives:
-  - data-analytics/data-preparation
-  - data-analytics/data-exploration
-  - data-analytics/data-analysis
-  - data-analytics/analysis-report
   - data-analytics/analysis-presentation
+
+tags:
+  - featured
+
+variants:
+  - name: looker-studio
+    learningObjectives:
+      - id: data-analytics/power-bi
+        exclude: true    
+      - data-analytics
+  
+  - name: power-bi
+    learningObjectives:
+      - id: data-analytics/looker-studio
+        exclude: true    
+      - data-analytics
