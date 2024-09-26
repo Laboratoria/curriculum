@@ -152,11 +152,14 @@ de lo que estas máquinas podrían lograr me impulsaron a seguir adelante."
     personajes/entidades en un cuadro de texto y enviarlo con un botón
   - El mensaje de la usuaria debe ser ajustado para cada personaje/entidad,
     con el objetivo que este genere una respuesta basada en su personalidad
-    y conocimiento
+    y conocimiento, el prompt que usaras sera de forma individual para cada personaje
+    empleando una promesa dedicada para cada petición, asegurándote de que todas las
+    promesas se completen de manera simultanea.
   - Las respuestas de todos los personajes se muestran de acuerdo al orden
     respuesta.
   - Indicar visualmente cuando uno o varios personajes/entidades esten
-    generando una respuesta al mensaje enviado
+    generando una respuesta al mensaje enviado.
+
 * La aplicación debe informar a la usuaria los errores que puedan surgir al
   interactuar con la API, como por ejemplo alcanzar la cuota de tokens por
   minuto o cualquier otro error relacionado con la API. Debería
