@@ -4,7 +4,7 @@ import analyzer from '../src/analyzer';
 
 const TEST_TEXT_NO_NUMBERS = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
 const TEST_TEXT_NUMBERS = 'If I have 8 apples and I buy 2 more, how many apples do I have in total?';
-const TEST_TEXT_DECIMALS = 'Calculate the sum of 1.65 plus 0.15 plus 1.10.';
+const TEST_TEXT_DECIMALS = 'Calculate the sum of 1.65 plus 0.15 plus 1.10';
 const TEST_TEXT_NOT_A_NUMBER = 'This is not a number: 41u0003jot';
 
 
