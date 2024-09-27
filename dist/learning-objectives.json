@@ -576,11 +576,23 @@
       "open-ai-api"
     ],
     "data-analytics": [
-      "data-preparation",
-      "data-exploration",
-      "data-analysis",
-      "analysis-report",
-      "analysis-presentation"
+      "analysis-presentation",
+      {
+        "looker-studio": [
+          "data-preparation",
+          "data-exploration",
+          "data-analysis",
+          "analysis-report"
+        ]
+      },
+      {
+        "power-bi": [
+          "data-preparation",
+          "data-exploration",
+          "data-analysis",
+          "analysis-report"
+        ]
+      }
     ],
     "devops": [
       {
@@ -1094,11 +1106,17 @@
     "ai-prompting/priming-chatbots",
     "ai-prompting/open-ai-api",
     "data-analytics",
-    "data-analytics/data-preparation",
-    "data-analytics/data-exploration",
-    "data-analytics/data-analysis",
-    "data-analytics/analysis-report",
     "data-analytics/analysis-presentation",
+    "data-analytics/looker-studio",
+    "data-analytics/looker-studio/data-preparation",
+    "data-analytics/looker-studio/data-exploration",
+    "data-analytics/looker-studio/data-analysis",
+    "data-analytics/looker-studio/analysis-report",
+    "data-analytics/power-bi",
+    "data-analytics/power-bi/data-preparation",
+    "data-analytics/power-bi/data-exploration",
+    "data-analytics/power-bi/data-analysis",
+    "data-analytics/power-bi/analysis-report",
     "devops",
     "devops/computing-cloud-services",
     "devops/computing-cloud-services/concepts-cloud-infrastructure-virtualization",
@@ -4177,7 +4195,48 @@
         "title": "Análisis de datos",
         "description": "Validar hipótesis mediante el análisis de los datos, y proporcionar recomendaciones estratégicas basadas en tus hallazgos"
       },
-      "data-analytics/data-preparation": {
+      "data-analytics/analysis-presentation": {
+        "title": "Presentar Resultados",
+        "description": "Presentar Resultados",
+        "links": [
+          {
+            "title": "Concepto presentar resultados",
+            "url": "https://docs.google.com/document/d/10Xabbxk7WxojFAdncs3YSc4wSCLihw0LUOOqxijGdMc/edit?usp=sharing"
+          },
+          {
+            "title": "Que es Data Storytelling",
+            "url": "https://www.youtube.com/watch?v=NDs2BXgvzPc"
+          },
+          {
+            "title": "Diferentes formas de presentar una misma información",
+            "url": "https://www.youtube.com/watch?v=2vWT6hmnVVg"
+          },
+          {
+            "title": "Video sobre como crear presentaciones en Google Slides",
+            "url": "https://www.youtube.com/watch?v=T8Fs-zkIX3I"
+          },
+          {
+            "title": "Compartir presentación para trabajar en conjunto",
+            "url": "https://www.loom.com/share/3220709262c142d4a0214cfc09856dcc?sid=b00df098-70e9-4a2a-89c7-e68b265ed588"
+          },
+          {
+            "title": "Artículo sobre presentar datos",
+            "url": "https://apolitical.co/solution-articles/es/presentar-datos-5-consejos-hacer-datos-comprensibles"
+          },
+          {
+            "title": "Artículo sobre presentar datos",
+            "url": "https://vilmanunez.com/como-hacer-una-presentacion-de-resultados/"
+          },
+          {
+            "title": "Video tips para una presentación",
+            "url": "https://www.youtube.com/watch?v=MPW6Ak3dxWc&t=157s"
+          }
+        ]
+      },
+      "data-analytics/looker-studio": {
+        "title": "Google Looker Studio"
+      },
+      "data-analytics/looker-studio/data-preparation": {
         "title": "Cargar información a una base de datos",
         "description": "Cargar información a una base de datos",
         "links": [
@@ -4307,7 +4366,7 @@
           }
         ]
       },
-      "data-analytics/data-exploration": {
+      "data-analytics/looker-studio/data-exploration": {
         "title": "Hacer un análisis exploratorio",
         "description": "Hacer un análisis exploratorio",
         "links": [
@@ -4377,7 +4436,7 @@
           }
         ]
       },
-      "data-analytics/data-analysis": {
+      "data-analytics/looker-studio/data-analysis": {
         "title": "Aplicar técnica de análisis",
         "description": "Aplicar técnica de análisis",
         "links": [
@@ -4387,7 +4446,7 @@
           }
         ]
       },
-      "data-analytics/analysis-report": {
+      "data-analytics/looker-studio/analysis-report": {
         "title": "Resumir información en un dashboard o reporte",
         "description": "Resumir información en un dashboard o reporte",
         "links": [
@@ -4396,46 +4455,251 @@
             "url": "https://www.youtube.com/watch?v=D09zovxBXWs"
           },
           {
-            "title": "Ffiltros en Looker Studio",
+            "title": "Filtros en Looker Studio",
             "url": "https://www.youtube.com/watch?v=HZMZcNf1jdk"
           }
         ]
       },
-      "data-analytics/analysis-presentation": {
-        "title": "Presentar Resultados",
-        "description": "Presentar Resultados",
+      "data-analytics/power-bi": {
+        "title": "Power BI"
+      },
+      "data-analytics/power-bi/data-preparation": {
+        "title": "Cargar información a una base de datos",
+        "description": "Cargar información a una base de datos",
         "links": [
           {
-            "title": "Concepto presentar resultados",
-            "url": "https://docs.google.com/document/d/10Xabbxk7WxojFAdncs3YSc4wSCLihw0LUOOqxijGdMc/edit?usp=sharing"
+            "title": "Mini curso BigQuery",
+            "url": "https://coda.io/d/Curso-Google-BigQuery_dhocNT3PUIE/Introduccion_su3UO#_luO8s"
           },
           {
-            "title": "Que es Data Storytelling",
-            "url": "https://www.youtube.com/watch?v=NDs2BXgvzPc"
+            "title": "Cómo empezar con BigQuery (sandbox - versión gratuita)",
+            "url": "https://cloud.google.com/bigquery/docs/sandbox?hl=es-419"
           },
           {
-            "title": "diferentes formas de presentar una misma información",
-            "url": "https://www.youtube.com/watch?v=2vWT6hmnVVg"
+            "title": "Qué es BigQuery",
+            "url": "https://www.youtube.com/watch?v=RxKtIicl8r0"
           },
           {
-            "title": "Video sobre como crear presentaciones en Google Slides",
-            "url": "https://www.youtube.com/watch?v=T8Fs-zkIX3I"
+            "title": "Cómo crear un Project, Dataset y cargar tabla en BigQuery",
+            "url": "https://www.youtube.com/watch?v=BN8WAOtJ4CY"
           },
           {
-            "title": "Compartir presentación para trabajar en conjunto",
-            "url": "https://www.loom.com/share/3220709262c142d4a0214cfc09856dcc?sid=b00df098-70e9-4a2a-89c7-e68b265ed588"
+            "title": "Concepto valores nulos",
+            "url": "https://docs.google.com/document/d/1AJRLPg2SWLvC1pnGOz-f1SNZXH1X63x2xWlquDBtlmE/edit?usp=sharing"
           },
           {
-            "title": "Artículo sobre presentar datos",
-            "url": "https://apolitical.co/solution-articles/es/presentar-datos-5-consejos-hacer-datos-comprensibles"
+            "title": "versión en audio",
+            "url": "https://drive.google.com/file/d/1Y88gJEBdorDMRoEjnIUJNyI4G0LLAaGk/view?usp=drive_link"
           },
           {
-            "title": "Artículo sobre presentar datos",
-            "url": "https://vilmanunez.com/como-hacer-una-presentacion-de-resultados/"
+            "title": "Qué es una consulta (query)",
+            "url": "https://docs.google.com/document/d/1upi7Ashq_wro02zjMjnQlWgivQ9gsQWIy8q9pLm9WZ4/edit"
           },
           {
-            "title": "Video tips para una presentación",
-            "url": "https://www.youtube.com/watch?v=MPW6Ak3dxWc&t=157s"
+            "title": "Cómo guardar queries",
+            "url": "https://www.loom.com/share/461b7c3f07214d7897b68890c1389b77?sid=9c6d46b2-5ff6-4a60-823b-c976f535a18d"
+          },
+          {
+            "title": "Cómo idenficar nulos usando COUNT, WHERE y IS NULL",
+            "url": "https://www.loom.com/share/3ae5d6e7f500405f95e8f1a110413a35?sid=c44c44d8-7caa-4da4-9261-03f6fd92348c"
+          },
+          {
+            "title": "Concepto valores duplicados",
+            "url": "https://docs.google.com/document/d/1jXm4s7b17eObHd8sMvJSGwWi1YzdG_VZq56Xooy5Ioo/edit?usp=sharing"
+          },
+          {
+            "title": "versión en audio",
+            "url": "https://drive.google.com/file/d/1TbKPSvocksk33eFg42lHf3kD8Y3NuzsN/view?usp=drive_link"
+          },
+          {
+            "title": "Cómo identificar duplicados a través de GROUP BY y HAVING (Ve también la diferencia entre los comandos WHERE y HAVING)",
+            "url": "https://www.loom.com/share/0bd5d25a7e634bd39012f5bd913e3a3b?sid=507743b7-ee30-4c68-8756-a344798cad32"
+          },
+          {
+            "title": "Concepto valores fuera del alcance",
+            "url": "https://docs.google.com/document/d/1-SsxH5Ke3qAaWg5YKrkRwkExd91Q0RdJGplLAiXPiYA/edit?usp=sharing"
+          },
+          {
+            "title": "versión en audio",
+            "url": "https://drive.google.com/file/d/1Z963-z4MCiRRjt5RZF75oH_CH1BqDNrO/view?usp=drive_link"
+          },
+          {
+            "title": "Cómo utilizar EXCEPT para selecionar variables",
+            "url": "https://www.loom.com/share/2fa18d5cfd33403faaa794a2b08671f1?sid=2d16f30b-a26c-4d3c-bfd8-88ba7c664f25"
+          },
+          {
+            "title": "Cómo utilizar comandos LIKE y REGEXP",
+            "url": "https://www.loom.com/share/3f7bb1362d5947ecb8c83e6f0690a4a5?sid=76f52b28-efb3-4991-b4c1-bd288bd4e805"
+          },
+          {
+            "title": "Documentación Google sobre String Functions",
+            "url": "https://cloud.google.com/bigquery/docs/reference/standard-sql/string_functions"
+          },
+          {
+            "title": "Concepto variables categóricas",
+            "url": "https://docs.google.com/document/d/1BIqa7xR0JNadM9kQExypo3plnwrNia92zCuxkPuMj5A/edit?usp=sharing"
+          },
+          {
+            "title": "Concepto variables categóricas  (versión en audio)",
+            "url": "https://drive.google.com/file/d/13gQ6Ni9FUfDmi5bjQivjeKj04fAI8Gl2/view?usp=drive_link"
+          },
+          {
+            "title": "Video sobre tipos de variables",
+            "url": "https://www.loom.com/share/afa56686810e46309761bc889364b2d9?sid=cabf587c-7ba1-4419-b501-32c98a73e191"
+          },
+          {
+            "title": "Identificar valores discrepantes en variables numéricas con MAX, MIN y AVG",
+            "url": "https://www.loom.com/share/4fb40d01dddf4e3cbf981029ed08613a?sid=5e46b20b-5ea4-47c4-a808-99969a369431"
+          },
+          {
+            "title": "Concepto variables numéricas",
+            "url": "https://docs.google.com/document/d/1oTn46djgWYlhcY9_Ak9H2edY2_rR8gpJco66njPwkCc/edit?usp=sharing"
+          },
+          {
+            "title": "Tipos de datos en SQL",
+            "url": "https://docs.google.com/document/d/1z0evGu8JtjDPuFlH1pkbqYR6scRwukPfwWKJ-KmZRmI/edit?usp=sharing"
+          },
+          {
+            "title": "Tipos de datos en SQL",
+            "url": "https://www.youtube.com/watch?v=A1tZ-d2uxws"
+          },
+          {
+            "title": "Cambiar tipo de dato con CAST",
+            "url": "https://www.loom.com/share/dfca15dd59084f83a1343eb476c71e96?sid=5ffd1896-5cf2-4ad5-88dc-741152483c45"
+          },
+          {
+            "title": "Concepto crear nuevas variables",
+            "url": "https://docs.google.com/document/d/1yp5MVB8iirIbYwptscJ4YrjsY4Bnd8mrsDB75Onun2s/edit?usp=sharing"
+          },
+          {
+            "title": "versión en audio",
+            "url": "https://drive.google.com/file/d/15P7Gp4_F_EOasIgW7SUhK8bf0MIDD6K8/view?usp=drive_link"
+          },
+          {
+            "title": "Como crear nuevas variables con CONCAT y operaciones matemáticas",
+            "url": "https://www.loom.com/share/65e15aa134c545bc9cfdc6b88bc2ae78?sid=46988f46-bcc0-471f-b89e-55c7ffe953b5"
+          },
+          {
+            "title": "Tipos de JOIN en SQL",
+            "url": "https://www.youtube.com/watch?v=HDBdAIcqJQo"
+          },
+          {
+            "title": "Diferencia entre VIEW y CREATE TABLE",
+            "url": "https://www.loom.com/share/97dbe237b9de459baa4d788f8bb44502?sid=e2168d4f-a8ff-44e4-b3f0-55e72596350a"
+          },
+          {
+            "title": "Cómo utilizar comando WITH y para qué sirve",
+            "url": "https://www.loom.com/share/8e2f6f70db214e2484af45375539d8e9?sid=222c7e6d-1ff5-430a-ab28-64c025f34ebf"
+          }
+        ]
+      },
+      "data-analytics/power-bi/data-exploration": {
+        "title": "Hacer un análisis exploratorio",
+        "description": "Hacer un análisis exploratorio",
+        "links": [
+          {
+            "title": "Concepto variables categóricas",
+            "url": "https://docs.google.com/document/d/1BIqa7xR0JNadM9kQExypo3plnwrNia92zCuxkPuMj5A/edit?usp=sharing"
+          },
+          {
+            "title": "versión en audio",
+            "url": "https://drive.google.com/file/d/13gQ6Ni9FUfDmi5bjQivjeKj04fAI8Gl2/view?usp=drive_link"
+          },
+          {
+            "title": "Video sobre tipos de variables",
+            "url": "https://www.loom.com/share/afa56686810e46309761bc889364b2d9?sid=cabf587c-7ba1-4419-b501-32c98a73e191"
+          },
+          {
+            "title": "Link para download de Power BI Desktop",
+            "url": "https://www.microsoft.com/en-us/download/details.aspx?id=58494"
+          },
+          {
+            "title": "Video download y instalación de Power BI",
+            "url": "https://www.youtube.com/watch?v=8lkZKeNdLWU"
+          },
+          {
+            "title": "Cómo empezar con Power BI",
+            "url": "https://www.youtube.com/watch?v=L74STt9hnu4"
+          },
+          {
+            "title": "Conectar datos de bigquery a Power BI",
+            "url": "https://www.loom.com/share/eebef73c37fc47bda21576f0d300841e"
+          },
+          {
+            "title": "Cómo crear una tabla matrix en Power BI",
+            "url": "https://www.youtube.com/watch?v=m2N7SXEj_9w"
+          },
+          {
+            "title": "Cómo crear gráficos en Power BI",
+            "url": "https://www.youtube.com/watch?v=gNEgfp_HRWM"
+          },
+          {
+            "title": "Gráficos de barras o columnas en Power BI",
+            "url": "https://www.youtube.com/watch?v=m7_6SHPovvY"
+          },
+          {
+            "title": "Concepto estadísticas descriptivas",
+            "url": "https://docs.google.com/document/d/13xu7cf5LcUN2CE58qwyZoNrhS713Ci0tI9S1odeapig/edit?usp=sharing"
+          },
+          {
+            "title": "🔈 Concepto estadísticas descriptivas (versión en audio)",
+            "url": "https://drive.google.com/file/d/1v6xdtWci7rYtMKibGowl9OxBArT3CVnI/view?usp=drive_link"
+          },
+          {
+            "title": "Concepto medidas de tendencia central",
+            "url": "https://docs.google.com/document/d/1Ly_7zLmUjcczqCkQLQwvDYEGyRLtSNQLVi3w8CIh8sI/edit?usp=sharing"
+          },
+          {
+            "title": "🔈 Concepto medidas de tendencia central (versión en audio)",
+            "url": "https://drive.google.com/file/d/1viy63m4n8Gn9aYHNuLJpd8RzFrTNnlw2/view?usp=drive_link"
+          },
+          {
+            "title": "Cómo crear una tabla con promedio y mediana en Power B",
+            "url": "https://www.loom.com/share/67c7d22e0898482683654f1f6c53e41a?sid=e25d3fda-ee49-4d94-ab44-099785f33a9c"
+          },
+          {
+            "title": "Concepto Medidas de dispersión",
+            "url": "https://docs.google.com/document/d/1a5N-8fV3X8pnhdRyXVcG293zJn2eL16KBhy-7NCExRI/edit?usp=sharing"
+          },
+          {
+            "title": "Concepto desviación estándar",
+            "url": "https://docs.google.com/document/d/17OhF8RkTQxgwbDZtBphXd-nd9hXDrkylHGaF7ylezPo/edit?usp=sharing"
+          },
+          {
+            "title": "Desviación estándar en Power BI",
+            "url": "https://www.loom.com/share/551494bd11124dd8ad4ca751ad47ab91"
+          },
+          {
+            "title": "Concepto correlación de Pearson",
+            "url": "https://docs.google.com/document/d/1HvuENDveavTmlRtSGk3Gv3LqSPNbRPWNYgOU8e3CxTM/edit?usp=sharing"
+          },
+          {
+            "title": "Cómo calcular correlación en BigQuery",
+            "url": "https://www.loom.com/share/9bf3e48cf57d48ca9c81c2c19562dedf?sid=c4c8a611-d0ae-4c4f-a2f5-200ce48746f4"
+          }
+        ]
+      },
+      "data-analytics/power-bi/data-analysis": {
+        "title": "Aplicar técnica de análisis",
+        "description": "Aplicar técnica de análisis",
+        "links": [
+          {
+            "title": "Como crear un scatter plot en Power BI",
+            "url": "https://www.loom.com/share/91adb4a427124fde8013d305a3d6111c?sid=114cf627-5d35-42d4-851b-147600e84e43"
+          }
+        ]
+      },
+      "data-analytics/power-bi/analysis-report": {
+        "title": "Resumir información en un dashboard o reporte",
+        "description": "Resumir información en un dashboard o reporte",
+        "links": [
+          {
+            "title": "Como crear scorecards en Power BI",
+            "url": "https://www.loom.com/share/a8b4a6e43317415abc02049f7923e785?sid=b69d56f7-6f63-4e18-81bc-71abc1aff667"
+          },
+          {
+            "title": "Cómo incluir filtros en Power BI",
+            "url": "https://www.loom.com/share/bcd20fecbf2b4298bd1419648189bc3e?sid=74ced7af-c3bc-4844-8b26-8e46732a8adc"
           }
         ]
       },
@@ -10724,29 +10988,49 @@
       "pt": "Análise de Dados"
     },
     {
-      "key": "data-analytics/data-preparation",
-      "es": "Cargar información a una base de datos",
-      "pt": "Carregar informações para um banco de dados"
-    },
-    {
-      "key": "data-analytics/data-exploration",
-      "es": "Hacer un análisis exploratorio",
-      "pt": "Realizar uma análise exploratória"
-    },
-    {
-      "key": "data-analytics/data-analysis",
-      "es": "Aplicar técnica de análisis",
-      "pt": "Aplicar técnica de análisis"
-    },
-    {
-      "key": "data-analytics/analysis-report",
-      "es": "Resumir información en un dashboard o reporte",
-      "pt": "Resumir informações em um painel ou relatório"
-    },
-    {
       "key": "data-analytics/analysis-presentation",
       "es": "Presentar Resultados",
       "pt": "Apresentar Resultados"
+    },
+    {
+      "key": "data-analytics/looker-studio",
+      "es": "Google Looker Studio"
+    },
+    {
+      "key": "data-analytics/looker-studio/data-preparation",
+      "es": "Cargar información a una base de datos"
+    },
+    {
+      "key": "data-analytics/looker-studio/data-exploration",
+      "es": "Hacer un análisis exploratorio"
+    },
+    {
+      "key": "data-analytics/looker-studio/data-analysis",
+      "es": "Aplicar técnica de análisis"
+    },
+    {
+      "key": "data-analytics/looker-studio/analysis-report",
+      "es": "Resumir información en un dashboard o reporte"
+    },
+    {
+      "key": "data-analytics/power-bi",
+      "es": "Power BI"
+    },
+    {
+      "key": "data-analytics/power-bi/data-preparation",
+      "es": "Cargar información a una base de datos"
+    },
+    {
+      "key": "data-analytics/power-bi/data-exploration",
+      "es": "Hacer un análisis exploratorio"
+    },
+    {
+      "key": "data-analytics/power-bi/data-analysis",
+      "es": "Aplicar técnica de análisis"
+    },
+    {
+      "key": "data-analytics/power-bi/analysis-report",
+      "es": "Resumir información en un dashboard o reporte"
     },
     {
       "key": "devops",

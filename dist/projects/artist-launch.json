@@ -2,39 +2,94 @@
   "slug": "artist-launch",
   "repo": "Laboratoria/curriculum",
   "path": "projects/05-artist-launch",
-  "version": "9.4.1",
-  "parserVersion": "6.0.0",
-  "createdAt": "2024-08-16T21:34:23.733Z",
+  "version": "9.5.0",
+  "parserVersion": "6.1.0-alpha.0",
+  "createdAt": "2024-09-27T19:34:41.004Z",
   "prefix": 5,
   "track": "web-dev",
   "tracks": [
     "web-dev"
   ],
+  "tags": [
+    "featured"
+  ],
   "learningObjectives": [
     {
-      "id": "data-analytics/data-preparation"
-    },
-    {
-      "id": "data-analytics/data-exploration"
-    },
-    {
-      "id": "data-analytics/data-analysis"
-    },
-    {
-      "id": "data-analytics/analysis-report"
-    },
-    {
       "id": "data-analytics/analysis-presentation"
+    }
+  ],
+  "variants": [
+    {
+      "name": "looker-studio",
+      "learningObjectives": [
+        {
+          "id": "data-analytics/power-bi/data-preparation",
+          "exclude": true
+        },
+        {
+          "id": "data-analytics/power-bi/data-exploration",
+          "exclude": true
+        },
+        {
+          "id": "data-analytics/power-bi/data-analysis",
+          "exclude": true
+        },
+        {
+          "id": "data-analytics/power-bi/analysis-report",
+          "exclude": true
+        },
+        {
+          "id": "data-analytics/looker-studio/data-preparation"
+        },
+        {
+          "id": "data-analytics/looker-studio/data-exploration"
+        },
+        {
+          "id": "data-analytics/looker-studio/data-analysis"
+        },
+        {
+          "id": "data-analytics/looker-studio/analysis-report"
+        }
+      ]
+    },
+    {
+      "name": "power-bi",
+      "learningObjectives": [
+        {
+          "id": "data-analytics/looker-studio/data-preparation",
+          "exclude": true
+        },
+        {
+          "id": "data-analytics/looker-studio/data-exploration",
+          "exclude": true
+        },
+        {
+          "id": "data-analytics/looker-studio/data-analysis",
+          "exclude": true
+        },
+        {
+          "id": "data-analytics/looker-studio/analysis-report",
+          "exclude": true
+        },
+        {
+          "id": "data-analytics/power-bi/data-preparation"
+        },
+        {
+          "id": "data-analytics/power-bi/data-exploration"
+        },
+        {
+          "id": "data-analytics/power-bi/data-analysis"
+        },
+        {
+          "id": "data-analytics/power-bi/analysis-report"
+        }
+      ]
     }
   ],
   "intl": {
     "es": {
       "title": "Artist Launch",
       "summary": "<p>En este proyecto, vamos a explorar un conjunto de datos con el fin de\nidentificar patrones o características que puedan influir en la\npopularidad (cantidad de streams) de una canción en plataformas como\nSpotify, Apple Music y Deezer.</p>"
-    },
-    "pt": {
-      "title": "Artist Launch",
-      "summary": "<p>Neste projeto, vamos explorar um conjunto de dados com o objetivo de\nidentificar padrões ou características que possam influenciar na\npopularidade (quantidade de streams) de uma música em plataformas como\nSpotify, Apple Music e Deezer.</p>"
     }
   },
   "cover": "https://images.unsplash.com/photo-1535712593684-0efd191312bb",

@@ -2,9 +2,9 @@
   "slug": "notes",
   "repo": "Laboratoria/curriculum",
   "path": "projects/04-notes",
-  "version": "9.4.1",
-  "parserVersion": "6.0.0",
-  "createdAt": "2024-08-16T21:34:19.816Z",
+  "version": "9.5.0",
+  "parserVersion": "6.1.0-alpha.0",
+  "createdAt": "2024-09-27T19:34:38.482Z",
   "prefix": 4,
   "track": "web-dev",
   "tracks": [

@@ -2,9 +2,9 @@
   "slug": "guess-the-number",
   "repo": "Laboratoria/curriculum",
   "path": "projects/04-guess-the-number",
-  "version": "9.4.1",
-  "parserVersion": "6.0.0",
-  "createdAt": "2024-08-16T21:34:19.746Z",
+  "version": "9.5.0",
+  "parserVersion": "6.1.0-alpha.0",
+  "createdAt": "2024-09-27T19:34:38.415Z",
   "prefix": 4,
   "track": "web-dev",
   "tracks": [
@@ -14,33 +14,6 @@
     "featured"
   ],
   "learningObjectives": [
-    {
-      "id": "java/data-types/primitive-vs-non-primitive"
-    },
-    {
-      "id": "java/data-types/strings"
-    },
-    {
-      "id": "java/data-types/arrays"
-    },
-    {
-      "id": "java/access-modifiers"
-    },
-    {
-      "id": "java/conditionals"
-    },
-    {
-      "id": "java/loops"
-    },
-    {
-      "id": "java/collections/array-list"
-    },
-    {
-      "id": "java/testing/junit"
-    },
-    {
-      "id": "java/testing/mockito"
-    },
     {
       "id": "object-oriented-programming/classes"
     },
@@ -75,108 +48,6 @@
       "id": "object-oriented-programming/unified-model-language"
     },
     {
-      "id": "python/data-types/primitive"
-    },
-    {
-      "id": "python/data-types/lists"
-    },
-    {
-      "id": "python/data-types/tuples"
-    },
-    {
-      "id": "python/data-types/dictionaries"
-    },
-    {
-      "id": "python/data-types/sets"
-    },
-    {
-      "id": "python/variables"
-    },
-    {
-      "id": "python/conditionals"
-    },
-    {
-      "id": "python/operators"
-    },
-    {
-      "id": "python/docstrings"
-    },
-    {
-      "id": "python/functions/basic-concepts"
-    },
-    {
-      "id": "python/iteration/loops"
-    },
-    {
-      "id": "python/linting"
-    },
-    {
-      "id": "python/testing/unit-tests"
-    },
-    {
-      "id": "python/testing/mocks"
-    },
-    {
-      "id": "python/testing/fixtures"
-    },
-    {
-      "id": "python/modularization/modules"
-    },
-    {
-      "id": "python/dependency-management/pip"
-    },
-    {
-      "id": "python/dependency-management/virtual-environment"
-    },
-    {
-      "id": "python/dependency-management/requirements-file"
-    },
-    {
-      "id": "csharp/data-types/primitives"
-    },
-    {
-      "id": "csharp/data-types/non-primitives"
-    },
-    {
-      "id": "csharp/collections/lists"
-    },
-    {
-      "id": "csharp/collections/arrays"
-    },
-    {
-      "id": "csharp/collections/sets"
-    },
-    {
-      "id": "csharp/variables"
-    },
-    {
-      "id": "csharp/conditionals"
-    },
-    {
-      "id": "csharp/loops"
-    },
-    {
-      "id": "csharp/operators"
-    },
-    {
-      "id": "csharp/access-modifiers"
-    },
-    {
-      "id": "csharp/namespaces"
-    },
-    {
-      "id": "csharp/functions/lambda-functions"
-    },
-    {
-      "id": "csharp/functions/decorators"
-    },
-    {
-      "id": "csharp/testing/xunit"
-    },
-    {
-      "id": "csharp/testing/mstest"
-    },
-    {
       "id": "scm/git/setup"
     },
     {
@@ -193,6 +64,152 @@
     },
     {
       "id": "scm/github/project-management"
+    }
+  ],
+  "variants": [
+    {
+      "name": "java",
+      "learningObjectives": [
+        {
+          "id": "java/data-types/primitive-vs-non-primitive"
+        },
+        {
+          "id": "java/data-types/strings"
+        },
+        {
+          "id": "java/data-types/arrays"
+        },
+        {
+          "id": "java/access-modifiers"
+        },
+        {
+          "id": "java/conditionals"
+        },
+        {
+          "id": "java/loops"
+        },
+        {
+          "id": "java/collections/array-list"
+        },
+        {
+          "id": "java/testing/junit"
+        },
+        {
+          "id": "java/testing/mockito"
+        }
+      ]
+    },
+    {
+      "name": "python",
+      "learningObjectives": [
+        {
+          "id": "python/data-types/primitive"
+        },
+        {
+          "id": "python/data-types/lists"
+        },
+        {
+          "id": "python/data-types/tuples"
+        },
+        {
+          "id": "python/data-types/dictionaries"
+        },
+        {
+          "id": "python/data-types/sets"
+        },
+        {
+          "id": "python/variables"
+        },
+        {
+          "id": "python/conditionals"
+        },
+        {
+          "id": "python/operators"
+        },
+        {
+          "id": "python/docstrings"
+        },
+        {
+          "id": "python/functions/basic-concepts"
+        },
+        {
+          "id": "python/iteration/loops"
+        },
+        {
+          "id": "python/linting"
+        },
+        {
+          "id": "python/testing/unit-tests"
+        },
+        {
+          "id": "python/testing/mocks"
+        },
+        {
+          "id": "python/testing/fixtures"
+        },
+        {
+          "id": "python/modularization/modules"
+        },
+        {
+          "id": "python/dependency-management/pip"
+        },
+        {
+          "id": "python/dependency-management/virtual-environment"
+        },
+        {
+          "id": "python/dependency-management/requirements-file"
+        }
+      ]
+    },
+    {
+      "name": "csharp",
+      "learningObjectives": [
+        {
+          "id": "csharp/data-types/primitives"
+        },
+        {
+          "id": "csharp/data-types/non-primitives"
+        },
+        {
+          "id": "csharp/collections/lists"
+        },
+        {
+          "id": "csharp/collections/arrays"
+        },
+        {
+          "id": "csharp/collections/sets"
+        },
+        {
+          "id": "csharp/variables"
+        },
+        {
+          "id": "csharp/conditionals"
+        },
+        {
+          "id": "csharp/loops"
+        },
+        {
+          "id": "csharp/operators"
+        },
+        {
+          "id": "csharp/access-modifiers"
+        },
+        {
+          "id": "csharp/namespaces"
+        },
+        {
+          "id": "csharp/functions/lambda-functions"
+        },
+        {
+          "id": "csharp/functions/decorators"
+        },
+        {
+          "id": "csharp/testing/xunit"
+        },
+        {
+          "id": "csharp/testing/mstest"
+        }
+      ]
     }
   ],
   "intl": {
