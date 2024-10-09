@@ -86,10 +86,7 @@ herramientas o habilidades técnicas:
     con las partes "fáciles" del proyecto, conversa, negocia, exige tu oportunidad
     para practicar y aprender lo que se te hace más difícil.
 
-* Solamente pueden trabajar en una única historia por vez, no pueden avanzar a
-  la siguiente sin haber completado la anterior. La historia se completa cuando
-  se cumplen **todos** sus Criterios de Aceptación + **toda** su Definición
-  de Terminado.
+* Sería preferible que se trabaje en una única historia a la vez, para garantizar que cada una se complete de manera adecuada. Es importante asegurarse de cumplir con todos los Criterios de Aceptación + Definición de Terminado antes de avanzar a la siguiente historia. De esta manera, podemos garantizar un trabajo eficiente y de calidad.
 
 Para comenzar tendrás que hacer un _fork_ y _clonar_ este repositorio.
 
