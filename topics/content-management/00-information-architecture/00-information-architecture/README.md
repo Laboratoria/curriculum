@@ -81,7 +81,7 @@ los componentes claves de la AI son:
 * [Qué es: Arquitectura de Información (IA)](https://blog.acantu.com/que-es-arquitectura-informacion/)
 * [Cómo definir la arquitectura de la información de un proyecto](https://www.hiberus.com/crecemos-contigo/como-definir-la-arquitectura-de-la-informacion-de-un-proyecto/)
 * [Information architecture basics](https://www.usability.gov/what-and-why/information-architecture.html)
-* [How to make sense of any mess](https://vimeo.com/168194951)
+* [How to make sense of any mess](https://vimeo.com/168194951 "How to make sense of any mess /no-iframe/")
 * [Aprendizajes sobre arquitectura de la información](http://www.icrossing.com/la/ideas/aprendizajes-del-isa-2015-sobre-arquitectura-de-la-informaci%C3%B3n)
 * [Information Architecture: For the Web and Beyond](https://www.amazon.com/Information-Architecture-Beyond-Louis-Rosenfeld/dp/1491911689/ref=sr_1_1?ie=UTF8&qid=1519138195&sr=8-1&keywords=information+architecture&dpID=51gpnrSXHHL&preST=_SY291_BO1,204,203,200_QL40_&dpSrc=srch)
 * [Information Architecture](https://www.pluralsight.com/courses/information-architecture-introduction-2548)

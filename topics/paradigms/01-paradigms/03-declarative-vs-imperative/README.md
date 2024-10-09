@@ -100,7 +100,8 @@ ocurra (el compilador o intérprete se encarga del resto).
 
 Videos:
 
-* [HTML IS a Programming Language (Imperative vs Declarative)](https://www.youtube.com/watch?v=4A2mWqLUpzw),
+* [HTML IS a Programming Language (Imperative vs Declarative)](https://www.youtube.com/watch?v=4A2mWqLUpzw
+  "HTML IS a Programming Language (Imperative vs Declarative) /no-iframe/"),
   `8:27`, [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA),
   Jun 28 2016
 

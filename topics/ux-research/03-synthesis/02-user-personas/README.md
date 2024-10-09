@@ -153,4 +153,4 @@ te podrían pasar cosas como esta:
 - [Getting From Research to Personas: Harnessing the Power of Data](https://www.cooper.com/journal/2002/11/getting_from_research_to_perso)
 - [Perfecting Your Personas](https://www.cooper.com/journal/2001/08/perfecting_your_personas)
 - [The origin of personas](https://www.cooper.com/journal/2008/5/the_origin_of_personas)
-- [Understanding Personas - An Interview with Alan Cooper](https://youtu.be/G7ljzXB40hw)
+- [Understanding Personas - An Interview with Alan Cooper](https://youtu.be/G7ljzXB40hw "Understanding Personas - An Interview with Alan Cooper /no-iframe/")

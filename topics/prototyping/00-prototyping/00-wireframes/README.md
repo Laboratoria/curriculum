@@ -67,4 +67,3 @@ prototipos de alta fidelidad.
 
 - [What Is The Difference Between Low-Fidelity and High-Fidelity Wireframes? - Prince Pal](https://think360studio.com/difference-low-fidelity-high-fidelity-wireframes/)
 - [What is a Wireframe: Designing Your UX Backbone - Jerry Cao](https://www.uxpin.com/studio/ui-design/what-is-a-wireframe-designing-your-ux-backbone/)
-- [Two Kinds of Prototyping](https://vimeo.com/212958691)
